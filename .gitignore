@@ -1,0 +1,16 @@
+# Research/scraper raw downloads (HTML snapshots, API dumps used for building adapters)
+scraper/research/raw/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+.next/
+
+# Env
+.env
+.env.local
