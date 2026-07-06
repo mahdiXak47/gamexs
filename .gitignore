@@ -1,6 +1,11 @@
 # Research/scraper raw downloads (HTML snapshots, API dumps used for building adapters)
 scraper/research/raw/
 
+# Scraper run artifacts (regenerable from a live/cached scrape, not source)
+scraper/output/images/
+scraper/output/*.log
+scraper/output/*_offers.jsonl
+
 # Python
 __pycache__/
 *.pyc

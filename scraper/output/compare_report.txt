@@ -1,0 +1,599 @@
+games in both files: 255
+games only in ours:   244
+games only in theirs: 245
+field mismatches:     324 across 150 games
+
+=== MISMATCHES (game, column, ours, theirs) ===
+"8doors: arum's afterlife adventure"          game on customer account     ours=   5900000 theirs=         0
+"8doors: arum's afterlife adventure"          game disk                    ours=         0 theirs=   5900000
+'ad infinitum'                                game on customer account     ours=   5800000 theirs=         0
+'ad infinitum'                                game disk                    ours=         0 theirs=   5800000
+'aliens: dark descent'                        game on customer account     ours=   6400000 theirs=         0
+'aliens: dark descent'                        game disk                    ours=         0 theirs=   6400000
+'arcadegeddon'                                game on customer account     ours=   5990000 theirs=         0
+'arcadegeddon'                                game disk                    ours=         0 theirs=   5990000
+"assassin's creed shadows"                    account capacity 2           ours=         0 theirs=   6399000
+"assassin's creed shadows"                    account capacity 3           ours=         0 theirs=   4199000
+'astro bot'                                   account capacity 2           ours=         0 theirs=   7299000
+'astro bot'                                   account capacity 3           ours=         0 theirs=   5999000
+'atari 50: the anniversary celebration'       game on customer account     ours=   6400000 theirs=         0
+'atari 50: the anniversary celebration'       game disk                    ours=         0 theirs=   6400000
+'atelier yumia: the alchemist of memories & the envisioned land' game on customer account     ours=   9500000 theirs=         0
+'atelier yumia: the alchemist of memories & the envisioned land' game disk                    ours=         0 theirs=   9500000
+'atomic heart'                                game on customer account     ours=   6300000 theirs=         0
+'atomic heart'                                game disk                    ours=         0 theirs=   6300000
+'back 4 blood'                                game on customer account     ours=   5900000 theirs=         0
+'back 4 blood'                                game disk                    ours=         0 theirs=   5900000
+"baldur's gate 3"                             game on customer account     ours=  14950000 theirs=         0
+"baldur's gate 3"                             game disk                    ours=         0 theirs=  14950000
+'banishers: ghosts of new eden'               game on customer account     ours=   7900000 theirs=         0
+'banishers: ghosts of new eden'               game disk                    ours=         0 theirs=   7900000
+'barbie horse trails'                         game on customer account     ours=   6850000 theirs=         0
+'barbie horse trails'                         game disk                    ours=         0 theirs=   6850000
+'battlefield 6'                               account capacity 2           ours=         0 theirs=   5699000
+'battlefield 6'                               account capacity 3           ours=         0 theirs=   4099000
+'biomutant'                                   game on customer account     ours=   5400000 theirs=         0
+'biomutant'                                   game disk                    ours=         0 theirs=   5400000
+'black myth: wukong'                          account capacity 2           ours=         0 theirs=   7399000
+'black myth: wukong'                          account capacity 3           ours=         0 theirs=   4899000
+'blazing strike'                              game on customer account     ours=   6900000 theirs=         0
+'blazing strike'                              game disk                    ours=         0 theirs=   6900000
+'bleak faith: forsaken'                       game on customer account     ours=   7900000 theirs=         0
+'bleak faith: forsaken'                       game disk                    ours=         0 theirs=   7900000
+'bloodroots'                                  game on customer account     ours=  11450000 theirs=         0
+'bloodroots'                                  game disk                    ours=         0 theirs=  11450000
+'borderlands 4'                               account capacity 2           ours=         0 theirs=   5699000
+'borderlands 4'                               account capacity 3           ours=         0 theirs=   3399000
+'borderlands 4'                               game on customer account     ours=  10900000 theirs=         0
+'borderlands 4'                               game disk                    ours=         0 theirs=  10900000
+'bridge curse 2: the extrication'             game on customer account     ours=   6000000 theirs=         0
+'bridge curse 2: the extrication'             game disk                    ours=         0 theirs=   6000000
+'brok the investigator'                       game on customer account     ours=   5500000 theirs=         0
+'brok the investigator'                       game disk                    ours=         0 theirs=   5500000
+'brotato'                                     game on customer account     ours=   6900000 theirs=         0
+'brotato'                                     game disk                    ours=         0 theirs=   6900000
+'call of duty: black ops 6'                   account capacity 2           ours=         0 theirs=   4299000
+'call of duty: black ops 6'                   account capacity 3           ours=         0 theirs=   2799000
+'call of duty: black ops 6'                   game on customer account     ours=   9900000 theirs=         0
+'call of duty: black ops 6'                   game disk                    ours=         0 theirs=   9900000
+'call of duty: black ops 7'                   account capacity 2           ours=         0 theirs=   5399000
+'call of duty: black ops 7'                   account capacity 3           ours=         0 theirs=   3099000
+'cat quest iii'                               game on customer account     ours=   5990000 theirs=         0
+'cat quest iii'                               game disk                    ours=         0 theirs=   5990000
+'clair obscur: expedition 33'                 account capacity 2           ours=         0 theirs=   4999000
+'clair obscur: expedition 33'                 account capacity 3           ours=         0 theirs=   3299000
+'coastline flight simulator'                  game on customer account     ours=   6900000 theirs=         0
+'coastline flight simulator'                  game disk                    ours=         0 theirs=   6900000
+'concord'                                     game on customer account     ours=   5500000 theirs=         0
+'concord'                                     game disk                    ours=         0 theirs=   5500000
+'contra: operation galuga'                    game on customer account     ours=   7950000 theirs=         0
+'contra: operation galuga'                    game disk                    ours=         0 theirs=   7950000
+'core keeper'                                 game on customer account     ours=   4990000 theirs=         0
+'core keeper'                                 game disk                    ours=         0 theirs=   4990000
+'cris tales'                                  game on customer account     ours=   5990000 theirs=         0
+'cris tales'                                  game disk                    ours=         0 theirs=   5990000
+'cronos: the new dawn'                        account capacity 2           ours=         0 theirs=   4999000
+'cronos: the new dawn'                        account capacity 3           ours=         0 theirs=   3299000
+'daemon x machina: titanic scion'             game on customer account     ours=   8500000 theirs=         0
+'daemon x machina: titanic scion'             game disk                    ours=         0 theirs=   8500000
+'death stranding 2: on the beach'             account capacity 2           ours=         0 theirs=   6199000
+'death stranding 2: on the beach'             account capacity 3           ours=         0 theirs=   3399000
+'deliver at all costs'                        game on customer account     ours=   7900000 theirs=         0
+'deliver at all costs'                        game disk                    ours=         0 theirs=   7900000
+'deliver us the moon'                         game on customer account     ours=   6990000 theirs=         0
+'deliver us the moon'                         game disk                    ours=         0 theirs=   6990000
+'demon slayer: sweep the board'               game on customer account     ours=   5935000 theirs=         0
+'demon slayer: sweep the board'               game disk                    ours=         0 theirs=   5935000
+"demon's souls"                               account capacity 2           ours=         0 theirs=   4000000
+"demon's souls"                               account capacity 3           ours=         0 theirs=   2000000
+'desolatium'                                  game on customer account     ours=   5900000 theirs=         0
+'desolatium'                                  game disk                    ours=         0 theirs=   5900000
+'do not open'                                 game on customer account     ours=   5990000 theirs=         0
+'do not open'                                 game disk                    ours=         0 theirs=   5990000
+'doom: the dark ages'                         account capacity 2           ours=         0 theirs=   4299000
+'doom: the dark ages'                         account capacity 3           ours=         0 theirs=   2599000
+'dragon ball xenoverse 2'                     game on customer account     ours=  11900000 theirs=         0
+'dragon ball xenoverse 2'                     game disk                    ours=         0 theirs=  11900000
+'dragon quest iii hd-2d remake'               game on customer account     ours=  10990000 theirs=         0
+'dragon quest iii hd-2d remake'               game disk                    ours=         0 theirs=  10990000
+'dying light 2: stay human'                   game on customer account     ours=   9900000 theirs=         0
+'dying light 2: stay human'                   game disk                    ours=         0 theirs=   9900000
+'elden ring'                                  account capacity 2           ours=         0 theirs=   6899000
+'elden ring'                                  account capacity 3           ours=         0 theirs=   3499000
+'elden ring: nightreign'                      account capacity 2           ours=         0 theirs=   4799000
+'elden ring: nightreign'                      account capacity 3           ours=         0 theirs=   2699000
+'enotria: the last song'                      game on customer account     ours=  12900000 theirs=         0
+'enotria: the last song'                      game disk                    ours=         0 theirs=  12900000
+'eriksholm: the stolen dream'                 game on customer account     ours=   6950000 theirs=         0
+'eriksholm: the stolen dream'                 game disk                    ours=         0 theirs=   6950000
+'evil inside'                                 game on customer account     ours=   5990000 theirs=         0
+'evil inside'                                 game disk                    ours=         0 theirs=   5990000
+'farming simulator 22'                        game on customer account     ours=   5990000 theirs=         0
+'farming simulator 22'                        game disk                    ours=         0 theirs=   5990000
+'final fantasy 7 remake intergrade'           game on customer account     ours=   8950000 theirs=         0
+'final fantasy 7 remake intergrade'           game disk                    ours=         0 theirs=   8950000
+'football manager 2024 console'               game on customer account     ours=   6000000 theirs=         0
+'football manager 2024 console'               game disk                    ours=         0 theirs=   6000000
+'forgotten city'                              game on customer account     ours=   5800000 theirs=         0
+'forgotten city'                              game disk                    ours=         0 theirs=   5800000
+'forspoken'                                   game on customer account     ours=   6950000 theirs=         0
+'forspoken'                                   game disk                    ours=         0 theirs=   6950000
+'gangs of sherwood'                           game on customer account     ours=   7100000 theirs=         0
+'gangs of sherwood'                           game disk                    ours=         0 theirs=   7100000
+'gears of war: reloaded'                      account capacity 2           ours=         0 theirs=   4099000
+'gears of war: reloaded'                      account capacity 3           ours=         0 theirs=   2599000
+'ghost of yotei'                              account capacity 2           ours=         0 theirs=   7199000
+'ghost of yotei'                              account capacity 3           ours=         0 theirs=   5499000
+'ghostrunner ii'                              game on customer account     ours=   6200000 theirs=         0
+'ghostrunner ii'                              game disk                    ours=         0 theirs=   6200000
+'greedfall gold edition'                      game on customer account     ours=   9900000 theirs=         0
+'greedfall gold edition'                      game disk                    ours=         0 theirs=   9900000
+'hell is us'                                  account capacity 2           ours=         0 theirs=   4499000
+'hell is us'                                  account capacity 3           ours=         0 theirs=   2999000
+'hell is us'                                  game on customer account     ours=   8900000 theirs=         0
+'hell is us'                                  game disk                    ours=         0 theirs=   8900000
+'hello kitty island adventure'                game on customer account     ours=   8900000 theirs=         0
+'hello kitty island adventure'                game disk                    ours=         0 theirs=   8900000
+'hello neighbor 2'                            game on customer account     ours=   8550000 theirs=         0
+'hello neighbor 2'                            game disk                    ours=         0 theirs=   8550000
+'highway police simulator'                    game on customer account     ours=   7900000 theirs=         0
+'highway police simulator'                    game disk                    ours=         0 theirs=   7900000
+'hogwarts legacy'                             account capacity 2           ours=         0 theirs=   3399000
+'hogwarts legacy'                             account capacity 3           ours=         0 theirs=   1500000
+'horizon forbidden west'                      account capacity 2           ours=         0 theirs=   4999000
+'horizon forbidden west'                      account capacity 3           ours=         0 theirs=   3599000
+'human fall flat dream collection'            game on customer account     ours=   6800000 theirs=         0
+'human fall flat dream collection'            game disk                    ours=         0 theirs=   6800000
+'indiana jones and the great circle'          account capacity 2           ours=         0 theirs=   5999000
+'indiana jones and the great circle'          account capacity 3           ours=         0 theirs=   3799000
+'indiana jones and the great circle'          game on customer account     ours=  16400000 theirs=         0
+'indiana jones and the great circle'          game disk                    ours=         0 theirs=  16400000
+'inspector gadget: mad time party'            game on customer account     ours=   5900000 theirs=         0
+'inspector gadget: mad time party'            game disk                    ours=         0 theirs=   5900000
+'judgment'                                    game on customer account     ours=   5900000 theirs=         0
+'judgment'                                    game disk                    ours=         0 theirs=   5900000
+'jurassic world evolution 2'                  game on customer account     ours=   6900000 theirs=         0
+'jurassic world evolution 2'                  game disk                    ours=         0 theirs=   6900000
+'jurassic world evolution 3'                  account capacity 2           ours=         0 theirs=   6699000
+'jurassic world evolution 3'                  account capacity 3           ours=         0 theirs=   4199000
+'jurassic world evolution 3'                  game on customer account     ours=  11900000 theirs=         0
+'jurassic world evolution 3'                  game disk                    ours=         0 theirs=  11900000
+'kingdom come: deliverance ii'                account capacity 2           ours=         0 theirs=   4899000
+'kingdom come: deliverance ii'                account capacity 3           ours=         0 theirs=   3399000
+'lake'                                        game on customer account     ours=   5600000 theirs=         0
+'lake'                                        game disk                    ours=         0 theirs=   5600000
+'lego 2k drive'                               game on customer account     ours=   5900000 theirs=         0
+'lego 2k drive'                               game disk                    ours=         0 theirs=   5900000
+'lego brawls'                                 game on customer account     ours=   5900000 theirs=         0
+'lego brawls'                                 game disk                    ours=         0 theirs=   5900000
+'lego horizon adventures'                     account capacity 2           ours=         0 theirs=   4099000
+'lego horizon adventures'                     account capacity 3           ours=         0 theirs=   2099000
+'lies of p'                                   account capacity 2           ours=         0 theirs=   4650000
+'lies of p'                                   account capacity 3           ours=         0 theirs=   1650000
+'like a dragon: infinite wealth'              game on customer account     ours=   7500000 theirs=         0
+'like a dragon: infinite wealth'              game disk                    ours=         0 theirs=   7500000
+'little nightmares iii'                       account capacity 2           ours=         0 theirs=   4999000
+'little nightmares iii'                       account capacity 3           ours=         0 theirs=   2599000
+'lost judgment'                               game on customer account     ours=   9600000 theirs=         0
+'lost judgment'                               game disk                    ours=         0 theirs=   9600000
+'lost records: bloom & rage'                  game on customer account     ours=   7900000 theirs=         0
+'lost records: bloom & rage'                  game disk                    ours=         0 theirs=   7900000
+'mafia: the old country'                      account capacity 2           ours=         0 theirs=   6699000
+'mafia: the old country'                      account capacity 3           ours=         0 theirs=   4199000
+'maneater'                                    game on customer account     ours=   5900000 theirs=         0
+'maneater'                                    game disk                    ours=         0 theirs=   5900000
+'master detective archives: rain code plus'   game on customer account     ours=   7500000 theirs=         0
+'master detective archives: rain code plus'   game disk                    ours=         0 theirs=   7500000
+'matchbox driving adventures'                 game on customer account     ours=   9000000 theirs=         0
+'matchbox driving adventures'                 game disk                    ours=         0 theirs=   9000000
+'metal gear solid delta: snake eater'         account capacity 2           ours=         0 theirs=   5599000
+'metal gear solid delta: snake eater'         account capacity 3           ours=         0 theirs=   4299000
+'metal gear solid delta: snake eater'         game on customer account     ours=   9900000 theirs=         0
+'metal gear solid delta: snake eater'         game disk                    ours=         0 theirs=   9900000
+'microsoft flight simulator 2024'             account capacity 2           ours=         0 theirs=   6999000
+'microsoft flight simulator 2024'             account capacity 3           ours=         0 theirs=   5099000
+'microsoft flight simulator 2024'             game on customer account     ours=  14650000 theirs=         0
+'microsoft flight simulator 2024'             game disk                    ours=         0 theirs=  16950000
+'minecraft'                                   account capacity 2           ours=         0 theirs=   4000000
+'minecraft'                                   account capacity 3           ours=         0 theirs=   1500000
+'naruto x boruto ultimate ninja storm connections' game on customer account     ours=   6500000 theirs=         0
+'naruto x boruto ultimate ninja storm connections' game disk                    ours=         0 theirs=   6500000
+'nba 2k26'                                    account capacity 2           ours=         0 theirs=   4299000
+'nba 2k26'                                    account capacity 3           ours=         0 theirs=   2799000
+'nba bounce'                                  game on customer account     ours=   8900000 theirs=         0
+'nba bounce'                                  game disk                    ours=         0 theirs=   8900000
+'need for speed unbound'                      account capacity 2           ours=         0 theirs=   3399000
+'need for speed unbound'                      account capacity 3           ours=         0 theirs=   1700000
+'nickelodeon kart racers 3: slime speedway'   game on customer account     ours=   7990000 theirs=         0
+'nickelodeon kart racers 3: slime speedway'   game disk                    ours=         0 theirs=   7990000
+'ninja gaiden 4'                              account capacity 2           ours=         0 theirs=   5599000
+'ninja gaiden 4'                              account capacity 3           ours=         0 theirs=   4099000
+'nioh 3'                                      account capacity 2           ours=         0 theirs=   6499000
+'nioh 3'                                      account capacity 3           ours=         0 theirs=   4899000
+'oaken'                                       game on customer account     ours=   7900000 theirs=         0
+'oaken'                                       game disk                    ours=         0 theirs=   7900000
+'octopath traveler ii'                        game on customer account     ours=   7500000 theirs=         0
+'octopath traveler ii'                        game disk                    ours=         0 theirs=   7500000
+'outcast: a new beginning'                    game on customer account     ours=   8900000 theirs=         0
+'outcast: a new beginning'                    game disk                    ours=         0 theirs=   8900000
+'paw patrol mighty pups save adventure bay!'  game on customer account     ours=   5900000 theirs=         0
+'paw patrol mighty pups save adventure bay!'  game disk                    ours=         0 theirs=   5900000
+'paw patrol rescue wheels: championship'      game on customer account     ours=   6950000 theirs=         0
+'paw patrol rescue wheels: championship'      game disk                    ours=         0 theirs=   6950000
+'paw patrol the movie: adventure city calls'  game on customer account     ours=   9550000 theirs=         0
+'paw patrol the movie: adventure city calls'  game disk                    ours=         0 theirs=   9550000
+'paw patrol world'                            account capacity 2           ours=         0 theirs=   3099000
+'paw patrol world'                            account capacity 3           ours=         0 theirs=   1500000
+'paw patrol world'                            game on customer account     ours=   7000000 theirs=         0
+'paw patrol world'                            game disk                    ours=         0 theirs=   7000000
+'paw patrol: grand prix'                      game on customer account     ours=   6950000 theirs=         0
+'paw patrol: grand prix'                      game disk                    ours=         0 theirs=   6950000
+'pga tour 2k25'                               game on customer account     ours=   7750000 theirs=         0
+'pga tour 2k25'                               game disk                    ours=         0 theirs=   7750000
+'plateup!'                                    game on customer account     ours=   6490000 theirs=         0
+'plateup!'                                    game disk                    ours=         0 theirs=   6490000
+'remnant ii'                                  game on customer account     ours=   6500000 theirs=         0
+'remnant ii'                                  game disk                    ours=         0 theirs=   6500000
+'resident evil requiem'                       account capacity 2           ours=         0 theirs=   7999000
+'resident evil requiem'                       account capacity 3           ours=         0 theirs=   5499000
+'returnal'                                    account capacity 2           ours=         0 theirs=   2599000
+'returnal'                                    account capacity 3           ours=         0 theirs=   1500000
+'returnal'                                    game on customer account     ours=   8500000 theirs=         0
+'returnal'                                    game disk                    ours=         0 theirs=   8500000
+'ride 5'                                      game on customer account     ours=   6550000 theirs=         0
+'ride 5'                                      game disk                    ours=         0 theirs=   6550000
+'riders republic'                             game on customer account     ours=   5500000 theirs=         0
+'riders republic'                             game disk                    ours=         0 theirs=   5500000
+'rise of the ronin'                           account capacity 2           ours=         0 theirs=   2999000
+'rise of the ronin'                           account capacity 3           ours=         0 theirs=   1799000
+'robocop: rogue city - unfinished business'   game on customer account     ours=   7550000 theirs=         0
+'robocop: rogue city - unfinished business'   game disk                    ours=         0 theirs=   7550000
+'rollercoaster tycoon adventures deluxe'      game on customer account     ours=   4450000 theirs=         0
+'rollercoaster tycoon adventures deluxe'      game disk                    ours=         0 theirs=   4450000
+'sackboy: a big adventure'                    account capacity 2           ours=         0 theirs=   3999000
+'sackboy: a big adventure'                    account capacity 3           ours=         0 theirs=   2000000
+'saros'                                       account capacity 2           ours=         0 theirs=   7499000
+'saros'                                       account capacity 3           ours=         0 theirs=   4799000
+'scarlet nexus'                               game on customer account     ours=   5900000 theirs=         0
+'scarlet nexus'                               game disk                    ours=         0 theirs=   5900000
+'scars above'                                 game on customer account     ours=   9950000 theirs=         0
+'scars above'                                 game disk                    ours=         0 theirs=   9950000
+'silent hill f'                               account capacity 2           ours=         0 theirs=   5699000
+'silent hill f'                               account capacity 3           ours=         0 theirs=   3799000
+'smurfs kart'                                 game on customer account     ours=   6000000 theirs=         0
+'smurfs kart'                                 game disk                    ours=         0 theirs=   6000000
+'sniper ghost warrior: contracts double pack' game on customer account     ours=   9900000 theirs=         0
+'sniper ghost warrior: contracts double pack' game disk                    ours=         0 theirs=   9900000
+'snowrunner'                                  account capacity 2           ours=         0 theirs=   4200000
+'snowrunner'                                  account capacity 3           ours=         0 theirs=   2000000
+'spirit hunter: death mark ii'                game on customer account     ours=   8400000 theirs=         0
+'spirit hunter: death mark ii'                game disk                    ours=         0 theirs=   8400000
+'split fiction'                               account capacity 2           ours=         0 theirs=   5699000
+'split fiction'                               account capacity 3           ours=         0 theirs=   3399000
+'spongebob squarepants: the patrick star game' game on customer account     ours=   8900000 theirs=         0
+'spongebob squarepants: the patrick star game' game disk                    ours=         0 theirs=   8900000
+'star wars episode i: jedi power battles'     game on customer account     ours=  10900000 theirs=         0
+'star wars episode i: jedi power battles'     game disk                    ours=         0 theirs=  10900000
+'star wars jedi: fallen order'                game on customer account     ours=   8000000 theirs=         0
+'star wars jedi: fallen order'                game disk                    ours=         0 theirs=   8000000
+'star wars jedi: survivor'                    game on customer account     ours=   7900000 theirs=         0
+'star wars jedi: survivor'                    game disk                    ours=         0 theirs=   7900000
+'starship troopers: extermination'            game on customer account     ours=   8890000 theirs=         0
+'starship troopers: extermination'            game disk                    ours=         0 theirs=   8890000
+'still wakes the deep'                        game on customer account     ours=   5900000 theirs=         0
+'still wakes the deep'                        game disk                    ours=         0 theirs=   5900000
+'stray'                                       account capacity 2           ours=         0 theirs=   3299000
+'stray'                                       account capacity 3           ours=         0 theirs=   1599000
+'stray'                                       game on customer account     ours=   8500000 theirs=         0
+'stray'                                       game disk                    ours=         0 theirs=   8500000
+'system shock'                                game on customer account     ours=   6900000 theirs=         0
+'system shock'                                game disk                    ours=         0 theirs=   6900000
+'taxi life: a city driving simulator'         game on customer account     ours=   9950000 theirs=         0
+'taxi life: a city driving simulator'         game disk                    ours=         0 theirs=   9950000
+'teenage mutant ninja turtles arcade: wrath of the mutants' game on customer account     ours=   6000000 theirs=         0
+'teenage mutant ninja turtles arcade: wrath of the mutants' game disk                    ours=         0 theirs=   6000000
+"teenage mutant ninja turtles: shredder's revenge" game on customer account     ours=   7300000 theirs=         0
+"teenage mutant ninja turtles: shredder's revenge" game disk                    ours=         0 theirs=   7300000
+'teenage mutant ninja turtles: the cowabunga collection' game on customer account     ours=   4900000 theirs=         0
+'teenage mutant ninja turtles: the cowabunga collection' game disk                    ours=         0 theirs=   4900000
+'test drive unlimited: solar crown'           game on customer account     ours=   6900000 theirs=         0
+'test drive unlimited: solar crown'           game disk                    ours=         0 theirs=   6900000
+'the first berserker: khazan'                 account capacity 2           ours=         0 theirs=   5699000
+'the first berserker: khazan'                 account capacity 3           ours=         0 theirs=   3499000
+'the first berserker: khazan'                 game on customer account     ours=   9900000 theirs=         0
+'the first berserker: khazan'                 game disk                    ours=         0 theirs=   9900000
+'the outer worlds 2'                          account capacity 2           ours=         0 theirs=   5099000
+'the outer worlds 2'                          account capacity 3           ours=         0 theirs=   3399000
+'the outer worlds 2'                          game on customer account     ours=   9900000 theirs=         0
+'the outer worlds 2'                          game disk                    ours=         0 theirs=   9900000
+'the smurfs: mission vileaf'                  game on customer account     ours=   5990000 theirs=         0
+'the smurfs: mission vileaf'                  game disk                    ours=         0 theirs=   5990000
+'tomb raider iv.v.vi remastered'              game on customer account     ours=   7900000 theirs=         0
+'tomb raider iv.v.vi remastered'              game disk                    ours=         0 theirs=   7900000
+'truck & logistics simulator'                 game on customer account     ours=   5450000 theirs=         0
+'truck & logistics simulator'                 game disk                    ours=         0 theirs=   5450000
+'truck driver: the american dream'            game on customer account     ours=   7900000 theirs=         0
+'truck driver: the american dream'            game disk                    ours=         0 theirs=   7900000
+'undisputed'                                  game on customer account     ours=   8500000 theirs=         0
+'undisputed'                                  game disk                    ours=         0 theirs=   8500000
+'unholy'                                      game on customer account     ours=   7900000 theirs=         0
+'unholy'                                      game disk                    ours=         0 theirs=   7900000
+'unicorn overlords'                           game on customer account     ours=   8900000 theirs=         0
+'unicorn overlords'                           game disk                    ours=         0 theirs=   8900000
+'vampire: the masquerade - bloodlines 2'      game on customer account     ours=  10500000 theirs=         0
+'vampire: the masquerade - bloodlines 2'      game disk                    ours=         0 theirs=  10500000
+'wo long: fallen dynasty'                     game on customer account     ours=  10900000 theirs=         0
+'wo long: fallen dynasty'                     game disk                    ours=         0 theirs=  10900000
+'wrc 10'                                      game on customer account     ours=   7200000 theirs=         0
+'wrc 10'                                      game disk                    ours=         0 theirs=   7200000
+'wreckreation'                                game on customer account     ours=   6600000 theirs=         0
+'wreckreation'                                game disk                    ours=         0 theirs=   6600000
+
+=== ONLY IN OURS (showing first 20 of 244) ===
+ - #drive rally
+ - 007: first light
+ - 007: first light نسخه legacy
+ - 007: first light نسخه کالکتور
+ - 1348: ex voto
+ - 34sports games نسخه world
+ - agatha christie: death on the nile نسخه محدود
+ - akka arrh نسخه ویژه
+ - alan wake ii نسخه دلوکس
+ - alien fireteam elite
+ - amerzone: the explorer's legacy نسخه 25 سالگی
+ - anno 117: pax romana
+ - anno 1800 نسخه
+ - armored core 6: fires of rubicon
+ - armored core iv: fires of rubicon نسخه launch
+ - asphalt legends unite نسخه supercharged
+ - asterix & obelix xxl romastered
+ - avatar the last airbender: quest for balance
+ - avengers
+ - battle of rebels
+
+=== ONLY IN THEIRS ===
+ - 34 sports games world edition
+ - a quiet place: road ahead
+ - agatha christie: death on the nile limited edition
+ - agatha christie: hercules poirot - the london case
+ - agatha christie: the abc murders
+ - akka arrh special edition
+ - alan wake 2 deluxe edition
+ - aliens fireteam elite
+ - amerzone: the explorer's legacy 25th anniversary edition
+ - anno 1800 console edition
+ - armored core vi: fires of rubicon
+ - armored core vi: fires of rubicon launch edition
+ - asphalt legends unite supercharged edition
+ - assassin's creed shadows collector's edition
+ - asterix & obelix xxl 2
+ - asterix & obelix: heroes
+ - asterix and obelix xxl romastered
+ - astronite
+ - avatar: frontiers of pandora
+ - avatar: frontiers of pandora collector's edition
+ - avatar: frontiers of pandora from the ashes edition
+ - avatar: the last airbender - quest for balance
+ - awaken: astral blade tania's edition
+ - baby shark: sing & swim party
+ - badminton time! vr - ps vr2
+ - battlefield 6 phantom edition
+ - ben 10: power trip
+ - beyond a steel sky - beyond a steelbook edition
+ - bitmap bureau collection deluxe edition
+ - blades of fire day one edition
+ - blasphemous 2
+ - borderlands 3 ultimate edition
+ - call of duty: modern warfare 3
+ - catan console edition super deluxe
+ - cave digger 2: dig harder - ps vr2
+ - chef life: a restaurant simulator al forno edition
+ - chicken run eggstraction
+ - chivalry 2 day one edition
+ - clash: artifacts of chaos zeno edition
+ - commandos: origins deluxe edition
+ - conscript deluxe edition
+ - crash team rumble deluxe edition
+ - crossfire: sierra squad - ps vr2
+ - crown wars: the black prince
+ - cygni: all guns blazing
+ - darksiders 2 deathinitive edition
+ - daymare: 1944 sandcastle
+ - dead island 2 day one edition
+ - dead rising deluxe remaster
+ - death stranding director's cut
+ - destroy all humans! 2 - reprobed
+ - destruction allstars - exclusive
+ - devil may cry 5 special edition
+ - directive 8020: a dark pictures game
+ - dolmen day one edition
+ - doom + doom ii
+ - doom anthology collector's edition - playstation
+ - dragon ball z: kakarot daima edition
+ - dragon ball: sparking zero
+ - dragon's dogma 2
+ - dragon's dogma 2 lenticular edition
+ - dragon's dogma 2 steelbook edition
+ - drunken fist: totally accurate beat 'em up
+ - dungeon munchies collector's edition
+ - dynasty warriors origins
+ - dyschronia: chronos alternate - ps vr2
+ - ea sports f1 25
+ - ea sports fc 26 r1
+ - ea sports fc 26 r2
+ - ea sports wrc
+ - elden ring: nightreign collector's edition
+ - elden ring: nightreign seekers edition
+ - elden ring: shadow of the erdtree edition
+ - empire of the ants limited edition
+ - epic mickey rebrushed
+ - evil dead: the game
+ - evil nun: the broken mask unholy edition
+ - evotinction
+ - expedition: a mudrunner game
+ - fast & furious arcade edition
+ - final fantasy 16 deluxe edition
+ - flashback 2 limited edition
+ - fort solis limited edition
+ - funko fusion
+ - gear.club unlimited 2 ultimate edition
+ - ghost of tsushima director's cut
+ - gloomhaven mercenaries edition
+ - god of rock
+ - golazo! 2 deluxe complete edition
+ - gord deluxe edition
+ - gungrave: g.o.r.e. day one edition
+ - happyfunland souvenir edition - ps vr2
+ - harvest moon - the winds of anthos
+ - heavy duty challange: the off-road truck simulator
+ - helldivers 2
+ - high on life
+ - hitman: world of assassination 25th anniversary edition
+ - horizon forbidden west complete edition
+ - hubris - ps vr2
+ - ice age: scrat's nutty adventure
+ - inertial drift twilight rivals edition
+ - karma: the dark world limited edition
+ - kena: bridge of spirits - deluxe edition
+ - killer klowns from outer space: the game
+ - killing floor 3
+ - kitaria fables
+ - lawn mowing simulator: landmark edition
+ - lego party!
+ - life is strange collection
+ - life is strange: double exposure
+ - like a dragon: pirate yakuza in hawaii
+ - little nightmares 2 enhanced edition
+ - looney tunes: wacky world of sports
+ - madison possessed edition
+ - marvel's avengers
+ - marvel's guardians of the galaxy
+ - marvel's midnight suns enhanced edition
+ - metal gear solid delta: snake eater day one edition
+ - metal gear solid delta: snake eater deluxe edition
+ - metal slug tactics
+ - metaphor: refantazio
+ - metro exodus complete edition
+ - mindseye
+ - minecraft legends deluxe edition
+ - miraculous: paris under siege
+ - mixture - ps vr2
+ - mon-yu: defeat monsters and gain strong weapons and armor. you may be defeated, but don’t give up. become stronger. i believe there will be a day when the heroes defeat the devil king
+ - monster energy supercross 4: the official videogame
+ - monster hunter wilds
+ - monster hunter wilds 3d cover
+ - monster hunter wilds steelbook edition
+ - motogp 24 day one edition
+ - my little pony: a maretime bay adventure
+ - new tales from the borderlands deluxe edition
+ - ninja gaiden 2 black
+ - omen of sorrow limited edition
+ - operation serpens - ps vr2
+ - opertaion wolf returns: first mission rescue edition
+ - outriders day one edition
+ - overcooked! all you can eat
+ - override 2: super mech league ultraman deluxe edition
+ - ovrdark: a do not open story - ps vr2
+ - pac-man world re-pac
+ - pacific drive deluxe edition
+ - paperman: adventure delivered
+ - payday 3 day one edition
+ - persona 5 tactica
+ - planet zoo console edition
+ - plateup! - collector's edition
+ - pneumata
+ - predator: hunting grounds
+ - prodeus
+ - pyuo puyo tetris 2
+ - quidditch champions deluxe edition
+ - rainbow high: runway rush
+ - rainbow six siege deluxe edition
+ - ratchet & clank: rift apart - exclusive
+ - ready or not day 1 edition
+ - redout ii deluxe edition
+ - resident evil 7: biohazard gold edition
+ - retropolis 2: never say goodbye - ps vr2
+ - riders republic + immortals: fenyx rising
+ - runner heroes: the curse of night and day enhanced edition
+ - saints row criminal customs edition
+ - saints row notorious edition
+ - sand land
+ - sea of stars
+ - seed of life
+ - seeker: my shadow - ps vr2
+ - session: skate sim
+ - shadow warrior 3 definitive edition
+ - shadows of doubt
+ - shame legacy the cult edition
+ - sid meier's civilization vii
+ - sifu physical edition
+ - skautfold: usurper
+ - skull and bones special edition
+ - skydance's behemoth - ps vr2
+ - slave zero x
+ - sniper ghost warrior: contracts 2
+ - sniper ghost warrior: contracts 2 elite edition
+ - sociable soccer 25
+ - song in the smoke rekindled - ps vr2
+ - sonic origins plus limited edition
+ - sophstar
+ - south park: snow day
+ - spellforce: conquest of eo
+ - spongebob squarepants: the cosmic shake
+ - star trek: resurgence
+ - star wars: outlaws
+ - star wars: outlaws special edition
+ - star wars: tales from the galaxy's edge enhanced edition - ps vr2
+ - street fighter 6 years 1-2 fighters edition
+ - suicide guy vr - ps vr2
+ - super monkey ball: banana mania launch edition
+ - synth riders remastered edition - ps vr2
+ - tape: unveil the memories
+ - teenage mutant ninja turtles: shredder's revenge anniversary edition
+ - teenage mutant ninja turtles: splintered fate deluxe edition
+ - tennis on-court - ps vr2
+ - tennis world tour 2 complete edition
+ - terminator resistance enhanced
+ - the callisto protocol day one edition
+ - the chant limited edition
+ - the crown of wu legend edition
+ - the dark pictures anthology: the devil in me
+ - the elder scrolls iv: oblivion remastered deluxe edition
+ - the gap limited edition
+ - the inquisitor deluxe edition
+ - the karate kid: street rumble
+ - the knight witch deluxe edition
+ - the last faith
+ - the last worker - - ps vr2
+ - the light brigade collector's edition - ps vr2
+ - the precinct
+ - the precinct limited edition
+ - the tale of onogoro - ps vr2
+ - tiebreak ace edition
+ - tin hearts
+ - tintin reporter: cigars of the pharaoh limited edition
+ - tiny tina's wonderlands next-level edition
+ - tomb raider i-ii-iii remastered
+ - townsmen vr - ps vr2
+ - tramsim console edition deluxe
+ - trek to yomi
+ - tribes of midgard deluxe edition
+ - ufo robot grendizer: the feast of the wolves
+ - undead citadel - ps vr2
+ - under the waves
+ - underdogs - ps vr2
+ - vertigo 2 - ps vr2
+ - void trrlm();++ // void terrarium++ deluxe edition
+ - vr skater - ps vr2
+ - wanderer: the fragments of fate nomad edition - ps vr2
+ - warhammer: chaosbane slayer edition
+ - weird west definitive edition
+ - weird west definitive edition deluxe
+ - whisker waters
+ - withering rooms
+ - wo long: fallen dynasty steelbook launch edition
+ - wuchang: fallen feathers day one edition
+ - yakuza 3 kiwami & dark ties
+ - ys x: nordics deluxe edition
+ - yuoni sunset edition
+ - zorro the chronicles

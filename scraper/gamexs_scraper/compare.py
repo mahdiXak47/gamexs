@@ -9,10 +9,8 @@ re-normalized on both sides so formatting differences (e.g. a trailing
 import argparse
 import csv
 
-from .export_csv import COLUMNS
+from .export_csv import PRICE_COLUMNS
 from .normalize import normalize_game_name
-
-PRICE_COLUMNS = COLUMNS[1:]
 
 
 def load(path: str) -> dict[str, dict]:

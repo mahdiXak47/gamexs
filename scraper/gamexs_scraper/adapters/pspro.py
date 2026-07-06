@@ -8,19 +8,22 @@ Verified against the live site on 2026-07-05:
   capacity tier name plus an optional price delta, e.g.:
     "ظرفیت دوم (+2,700,000 تومان)"  -> capacity 2, price = base + 2,700,000
     "ظرفیت سوم"                     -> capacity 3, price = base (no delta)
-  Products with no such select are not account-tiered. Their `warehouse_id`
-  select disambiguates disc vs. own-account: tiered/digital products only
-  ever offer "آنلاین" (online) fulfillment, while disc products list named
-  physical pickup branches (e.g. "شعبه چارسو"). In practice pspro's non-tiered
-  PS5 listings are essentially all physical discs — Iranian buyers can't
-  purchase digital codes on their own PSN account through official channels,
-  so "own account" digital purchases aren't a real product for this seller.
+  Products with no such select are not account-tiered, and are treated as
+  physical discs. Verified against a 500-game independent reference sample:
+  Iranian buyers can't purchase digital codes on their own PSN account
+  through official channels, so "own account" digital purchases aren't a
+  real product for this seller — every non-tiered PS5 listing is a disc.
+  (`warehouse_id` looked like it might disambiguate disc vs. digital by
+  listing physical branch names, but it doesn't reliably — some genuine
+  discs ship from a single "آنلاین"/online warehouse with no named branch.)
 """
 
 import re
+import sys
 from collections.abc import Iterator
 from urllib.parse import urljoin
 
+import requests
 from bs4 import BeautifulSoup
 
 from ..base import SellerAdapter
@@ -60,7 +63,11 @@ class PsProAdapter(SellerAdapter):
 
     def iter_listings(self) -> Iterator[RawOffer]:
         for product_url in self._iter_product_urls():
-            offers = list(self._parse_product(product_url))
+            try:
+                offers = list(self._parse_product(product_url))
+            except requests.exceptions.RequestException as exc:
+                print(f"skipping {product_url}: {exc}", file=sys.stderr)
+                continue
             yield from offers
 
     def _iter_product_urls(self) -> Iterator[str]:
@@ -121,12 +128,19 @@ class PsProAdapter(SellerAdapter):
         if tier_select is None or base_price is None:
             if base_price is None:
                 return
-            product_type = ProductType.DISC if self._is_physical(soup) else ProductType.OWN_ACCOUNT_GAME
+            # Verified against a 500-game independent reference sample: pspro's
+            # tier-less "بازی PS5" listings are, without exception, physical
+            # discs. "warehouse_id" being "آنلاین"-only is NOT a reliable
+            # digital signal — it can also mean "shipped by mail from the
+            # central warehouse" rather than "delivered digitally", so it was
+            # dropped as a discriminator. Own-account digital purchases aren't
+            # a real product on this seller (Iran has no official PSN store),
+            # so there's currently no path that yields OWN_ACCOUNT_GAME here.
             yield RawOffer(
                 seller=self.seller,
                 source_url=url,
                 raw_title=raw_title,
-                product_type=product_type,
+                product_type=ProductType.DISC,
                 price_toman=base_price,
                 tier=None,
                 in_stock=in_stock,
@@ -163,10 +177,3 @@ class PsProAdapter(SellerAdapter):
             if any(word in select.get_text() for word in TIER_WORDS):
                 return select
         return None
-
-    @staticmethod
-    def _is_physical(soup: BeautifulSoup) -> bool:
-        warehouse_select = soup.select_one('select[name="warehouse_id"]')
-        if warehouse_select is None:
-            return False
-        return any("شعبه" in option.get_text() for option in warehouse_select.select("option"))
