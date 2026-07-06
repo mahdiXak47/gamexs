@@ -61,13 +61,21 @@ headless browser).
 - Once IGDB is unblocked, backfill/replace with its cleaner, canonical
   artwork + add screenshots/trailers, which seller images don't provide.
 
-## Platform (not started at all)
+## Platform
 
-- Database schema (Postgres).
-- Scheduling/cron for periodic re-scraping.
-- Price history tracking.
-- Frontend (Next.js) — `docs/PROJECT_CONTEXT.md` was written specifically
-  to hand off to a separate design conversation for this.
+- ✅ Database schema (Postgres 16, via `docker compose up -d`): `games`,
+  `sellers`, `platforms`, `listings` (one row per game+seller+product-type+
+  tier ever seen), `price_history` (append-only, one row per scrape — this
+  is what price charts will query). See `db/init/`.
+- Not started: a script that reads the scraper's JSONL/CSV output and
+  upserts into `listings` + inserts into `price_history` — this is what
+  turns a scrape run into DB rows. Needed before the 24h cron job means
+  anything.
+- Not started: scheduling/cron for the daily re-scrape + ingest.
+- Not started: frontend reading from Postgres instead of its mock data in
+  `frontend/src/lib/games.ts` — once that happens, `frontend/src/lib/
+  sellers.ts` becomes redundant (superseded by the `sellers` table).
+- Not started: price-history chart UI on the game detail page.
 
 ## Explicitly deferred by product decision (not urgent)
 

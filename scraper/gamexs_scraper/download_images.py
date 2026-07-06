@@ -16,11 +16,17 @@ from .http import PoliteFetcher, make_session
 from .models import RawOffer
 from .normalize import normalize_game_name
 
-_SLUG_RE = re.compile(r"[^a-z0-9]+")
+# Modern filesystems (APFS, ext4) handle UTF-8 filenames fine, so Persian
+# titles are kept as-is rather than stripped to ASCII — stripping them
+# collapsed Persian-only titles (e.g. "زورو") to an empty string and caused
+# unrelated games to silently overwrite each other's cover file.
+_UNSAFE_CHARS_RE = re.compile(r'[/\\:*?"<>|]+')
+_WHITESPACE_RE = re.compile(r"\s+")
 
 
 def slugify(name: str) -> str:
-    return _SLUG_RE.sub("-", name.lower()).strip("-")
+    safe = _UNSAFE_CHARS_RE.sub("-", name)
+    return _WHITESPACE_RE.sub("-", safe).strip("-")
 
 
 def _extension(url: str) -> str:
