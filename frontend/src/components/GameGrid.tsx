@@ -1,9 +1,26 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { Pagination, SearchField } from "@heroui/react";
 import GameCard from "./GameCard";
 import SortBar, { type SortOption } from "./SortBar";
+import { toPersianDigits } from "@/lib/format";
 import type { GameSummary } from "@/lib/types";
+
+const PAGE_SIZE = 20;
+
+function getPageNumbers(current: number, total: number): (number | "…")[] {
+  if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
+
+  const pages: (number | "…")[] = [1];
+  if (current > 3) pages.push("…");
+  for (let i = Math.max(2, current - 1); i <= Math.min(total - 1, current + 1); i++) {
+    pages.push(i);
+  }
+  if (current < total - 2) pages.push("…");
+  pages.push(total);
+  return pages;
+}
 
 export default function GameGrid({
   games,
@@ -12,8 +29,13 @@ export default function GameGrid({
   games: GameSummary[];
   covers: Record<string, string | null>;
 }) {
-  const [query, setQuery] = useState("");
-  const [sort, setSort] = useState<SortOption>("popular");
+  const [query, setQueryRaw] = useState("");
+  const [sort, setSortRaw] = useState<SortOption>("popular");
+  const [page, setPage] = useState(1);
+
+  // Wrap setters so that changing filter/sort atomically resets to page 1
+  const setQuery = (q: string) => { setQueryRaw(q); setPage(1); };
+  const setSort = (s: SortOption) => { setSortRaw(s); setPage(1); };
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -32,31 +54,90 @@ export default function GameGrid({
     return filtered;
   }, [filtered, sort]);
 
+  const totalPages = Math.max(1, Math.ceil(sorted.length / PAGE_SIZE));
+  const safePage = Math.min(page, totalPages);
+  const paginated = sorted.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE);
+  const pageNumbers = getPageNumbers(safePage, totalPages);
+
+  const start = (safePage - 1) * PAGE_SIZE + 1;
+  const end = Math.min(safePage * PAGE_SIZE, sorted.length);
+
   return (
     <>
-      <div className="relative mt-6 max-w-xl">
-        <input
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          type="text"
-          placeholder="جستجوی بازی…"
-          className="w-full rounded-xl border border-border bg-surface px-4 py-3 pr-10 text-sm outline-none focus:border-accent"
-        />
-        <span className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-muted">⌕</span>
+      <div className="mt-6 max-w-xl">
+        <SearchField.Root value={query} onChange={setQuery} aria-label="جستجوی بازی" fullWidth>
+          <SearchField.Group>
+            <SearchField.SearchIcon />
+            <SearchField.Input placeholder="جستجوی بازی…" />
+            <SearchField.ClearButton />
+          </SearchField.Group>
+        </SearchField.Root>
       </div>
 
-      <div className="mt-4">
+      <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
         <SortBar value={sort} onChange={setSort} />
+        {sorted.length > 0 && (
+          <p className="text-xs text-muted">
+            نمایش {toPersianDigits(start)} تا {toPersianDigits(end)} از {toPersianDigits(sorted.length)} بازی
+          </p>
+        )}
       </div>
 
-      <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-        {sorted.map((game) => (
-          <GameCard key={game.slug} game={game} coverUrl={covers[game.slug]} />
-        ))}
-      </div>
-
-      {sorted.length === 0 && (
+      {sorted.length === 0 ? (
         <p className="mt-10 text-center text-sm text-muted">بازی‌ای با این عنوان پیدا نشد.</p>
+      ) : (
+        <>
+          <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+            {paginated.map((game) => (
+              <GameCard key={game.slug} game={game} coverUrl={covers[game.slug]} />
+            ))}
+          </div>
+
+          {totalPages > 1 && (
+            <div className="mt-10 flex justify-center">
+              <Pagination aria-label="صفحه‌بندی بازی‌ها">
+                <Pagination.Content>
+                  <Pagination.Item>
+                    <Pagination.Previous
+                      onPress={() => setPage((p) => Math.max(1, p - 1))}
+                      isDisabled={safePage === 1}
+                    >
+                      <Pagination.PreviousIcon />
+                      قبلی
+                    </Pagination.Previous>
+                  </Pagination.Item>
+
+                  {pageNumbers.map((num, idx) =>
+                    num === "…" ? (
+                      <Pagination.Item key={`ellipsis-${idx}`}>
+                        <Pagination.Ellipsis />
+                      </Pagination.Item>
+                    ) : (
+                      <Pagination.Item key={num}>
+                        <Pagination.Link
+                          isActive={num === safePage}
+                          onPress={() => setPage(num)}
+                        >
+                          {toPersianDigits(num)}
+                        </Pagination.Link>
+                      </Pagination.Item>
+                    )
+                  )}
+
+                  <Pagination.Item>
+                    <Pagination.Next
+                      onPress={() => setPage((p) => Math.min(totalPages, p + 1))}
+                      isDisabled={safePage === totalPages}
+                    >
+                      بعدی
+                      <Pagination.NextIcon />
+                    </Pagination.Next>
+                  </Pagination.Item>
+                </Pagination.Content>
+              </Pagination>
+            </div>
+          )}
+        </>
       )}
     </>
   );

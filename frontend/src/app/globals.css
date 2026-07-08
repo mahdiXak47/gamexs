@@ -1,53 +1,19 @@
 @import "tailwindcss";
-
-:root {
-  --background: #0b0e14;
-  --foreground: #e8ecf5;
-  --muted: #9aa4b8;
-  --surface: rgba(255, 255, 255, 0.02);
-  --surface-strong: rgba(255, 255, 255, 0.05);
-  --border: rgba(255, 255, 255, 0.08);
-  --accent: #2f6bff;
-  --success: #16b364;
-  --cta: #f5a524;
-}
+@import "@heroui/styles";
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-muted: var(--muted);
-  --color-surface: var(--surface);
-  --color-surface-strong: var(--surface-strong);
-  --color-border: var(--border);
-  --color-accent: var(--accent);
-  --color-success: var(--success);
-  --color-cta: var(--cta);
   --font-sans: var(--font-vazirmatn);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-}
-
-::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.12);
-  border-radius: 8px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-sans);
 }
 
 ::selection {
-  background: rgba(47, 107, 255, 0.35);
-}
-
-input::placeholder {
-  color: var(--muted);
+  background: color-mix(in oklch, var(--accent) 35%, transparent);
 }

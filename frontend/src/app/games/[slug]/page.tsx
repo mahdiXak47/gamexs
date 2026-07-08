@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Card, Chip } from "@heroui/react";
 import CoverArt from "@/components/CoverArt";
 import Disclaimer from "@/components/Disclaimer";
 import Header from "@/components/Header";
@@ -31,8 +32,10 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
         <div className="mt-6 grid grid-cols-1 gap-8 md:grid-cols-[1fr_320px]">
           <div>
             <div className="flex flex-wrap items-center gap-3">
-              <span className="rounded-md bg-accent px-2.5 py-1 text-[10px] font-bold text-white">PS5</span>
-              {game.genreLabel && <span className="text-sm text-muted">{game.genreLabel}</span>}
+              <Chip variant="primary" color="accent" size="sm">PS5</Chip>
+              {game.genreLabel && (
+                <Chip variant="soft" color="default" size="sm">{game.genreLabel}</Chip>
+              )}
             </div>
             <h1 className="mt-3 text-3xl font-extrabold sm:text-4xl">{game.title}</h1>
 
@@ -49,14 +52,18 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
               </div>
             </div>
 
-            <div className="mt-6 max-w-sm rounded-xl border border-success/30 bg-success/[0.08] p-5">
-              <div className="text-sm font-bold text-success">کمترین قیمت</div>
-              <div className="mt-2 flex items-baseline gap-1.5">
-                <span className="text-2xl font-extrabold">{price === null ? "—" : formatToman(price)}</span>
-                <span className="text-xs text-muted">تومان</span>
-              </div>
-              <div className="mt-1 text-xs text-muted">در {toPersianDigits(stores)} فروشگاه</div>
-            </div>
+            <Card className="mt-6 max-w-sm border-success/30 bg-success/10">
+              <Card.Content className="gap-1">
+                <div className="text-sm font-bold text-success">کمترین قیمت</div>
+                <div className="flex items-baseline gap-1.5">
+                  <span className="text-2xl font-extrabold">
+                    {price === null ? "—" : formatToman(price)}
+                  </span>
+                  <span className="text-xs text-muted">تومان</span>
+                </div>
+                <div className="text-xs text-muted">در {toPersianDigits(stores)} فروشگاه</div>
+              </Card.Content>
+            </Card>
           </div>
 
           <CoverArt
