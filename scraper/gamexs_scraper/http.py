@@ -16,9 +16,6 @@ DEFAULT_HEADERS = {
 def make_session() -> requests.Session:
     session = requests.Session()
     session.headers.update(DEFAULT_HEADERS)
-    # Scraper targets Iranian sites directly — bypass any HTTP_PROXY / HTTPS_PROXY
-    # env vars that may be set for other tools (e.g. a cloud IDE proxy).
-    session.trust_env = False
     retry = Retry(total=3, backoff_factor=1.5, status_forcelist=[429, 500, 502, 503, 504])
     session.mount("https://", HTTPAdapter(max_retries=retry))
     session.mount("http://", HTTPAdapter(max_retries=retry))
@@ -34,12 +31,32 @@ class PoliteFetcher:
         self.timeout = timeout
         self._last_request_at: float | None = None
 
-    def get(self, url: str, **kwargs) -> requests.Response:
+    def _polite_wait(self) -> None:
         if self._last_request_at is not None:
             elapsed = time.monotonic() - self._last_request_at
             remaining = self.delay_seconds - elapsed
             if remaining > 0:
                 time.sleep(remaining)
-        response = self.session.get(url, timeout=self.timeout, **kwargs)
+
+    def get(self, url: str, **kwargs) -> requests.Response:
+        self._polite_wait()
+        # stream=True + read with deadline guards against drip-feed anti-scraping
+        # (servers that send 1 byte/sec to keep the per-chunk read timeout alive).
+        deadline = time.monotonic() + self.timeout * 3
+        resp = self.session.get(url, timeout=self.timeout, stream=True, **kwargs)
+        chunks = []
+        for chunk in resp.iter_content(chunk_size=65536):
+            if time.monotonic() > deadline:
+                resp.close()
+                raise requests.exceptions.Timeout(f"total response time exceeded for {url}")
+            chunks.append(chunk)
+        resp._content = b"".join(chunks)
+        resp._content_consumed = True
+        self._last_request_at = time.monotonic()
+        return resp
+
+    def post(self, url: str, **kwargs) -> requests.Response:
+        self._polite_wait()
+        response = self.session.post(url, timeout=self.timeout, **kwargs)
         self._last_request_at = time.monotonic()
         return response

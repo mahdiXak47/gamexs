@@ -12,15 +12,27 @@ _NOISE_PATTERNS = [
     r"game\s+key\s+card",
     r"برای\s+پلی\s+استیشن\s*5?",
     r"برای\s+ps5",
+    # "مخصوص ps5 / مخصوص پلی استیشن" — TechnoLife suffix; must come before \bps5\b
+    # so the compound is matched whole before ps5 is stripped on its own.
+    r"مخصوص\s+ps5",
+    r"مخصوص\s+پلی\s+استیشن\s*5?",
+    r"مخصوص",
     r"ریجن\s*\d*",
     r"\bregion\s*\d*\b",
     r"\bps5\b",
     # "و ps4" / "و ps5" — multi-platform suffix used by YungCenter
     # e.g. "Call of Duty Black Ops 7 برای ps5 و ps4" → "Call of Duty Black Ops 7"
     r"\s*و\s+ps[45]\b",
+    # Colon title-subtitle separator — PSPro includes it, other sellers omit it.
+    # Replacing with a space prevents "007: First Light" → "007--first-light" (double dash)
+    # while "007 First Light" → "007-first-light", causing a phantom duplicate.
+    r"\s*:\s*",
     # "قانونی" — means "official/legal", used as a prefix by YungCenter
     # e.g. "خرید اکانت قانونی Forza Horizon 5" → "Forza Horizon 5"
     r"قانونی",
+    # "دیسک" — means "disc", used as a prefix by NakhlMarket for physical games
+    # e.g. "دیسک Assassin's Creed Shadows" → "Assassin's Creed Shadows"
+    r"دیسک",
     r"خرید",
     r"اکانت",
     r"بازی",

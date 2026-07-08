@@ -4,6 +4,7 @@ export const SELLERS: Record<string, Seller> = {
   pspro: { id: "pspro", name: "PSPro", domain: "pspro.ir", initial: "P" },
   yungcenter: { id: "yungcenter", name: "YungCenter", domain: "yungcenter.com", initial: "Y" },
   nakhlmarket: { id: "nakhlmarket", name: "نخل مارکت", domain: "nakhlmarket.com", initial: "ن" },
+  technolife: { id: "technolife", name: "تکنولایف", domain: "technolife.com", initial: "ت" },
   persianconsole: { id: "persianconsole", name: "پرشین کنسول", domain: "persianconsole.ir", initial: "پ" },
   gameplayshop: { id: "gameplayshop", name: "گیم‌پلی‌شاپ", domain: "gameplayshop.ir", initial: "گ" },
   digikala: { id: "digikala", name: "دیجی‌کالا", domain: "digikala.com", initial: "د" },

@@ -69,7 +69,10 @@ export default function PurchaseTypeSelector({ options }: { options: PurchaseOpt
 
 function SellerTable({ option }: { option: PurchaseOption }) {
   const best = bestOfferId(option);
-  const sortedOffers = [...option.offers].sort((a, b) => a.priceToman - b.priceToman);
+  const sortedOffers = [...option.offers].sort((a, b) => {
+    if (a.inStock !== b.inStock) return a.inStock ? -1 : 1;
+    return a.priceToman - b.priceToman;
+  });
 
   return (
     <div>
@@ -127,7 +130,7 @@ function SellerTable({ option }: { option: PurchaseOption }) {
                     </Table.Cell>
                     <Table.Cell>
                       <a
-                        href={`https://${s.domain}`}
+                        href={offer.listingUrl}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center justify-center rounded-3xl bg-accent px-3 py-1.5 text-xs font-bold text-accent-foreground"

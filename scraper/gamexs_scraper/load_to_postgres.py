@@ -60,10 +60,8 @@ def upsert_listing(
         """
         INSERT INTO listings (game_id, seller_id, product_type, tier, source_url)
         VALUES (%s, %s, %s, %s, %s)
-        ON CONFLICT (seller_id, source_url) DO UPDATE SET
+        ON CONFLICT (seller_id, source_url, product_type, tier) DO UPDATE SET
             game_id = EXCLUDED.game_id,
-            product_type = EXCLUDED.product_type,
-            tier = EXCLUDED.tier,
             is_active = true,
             last_seen_at = now()
         RETURNING id

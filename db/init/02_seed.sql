@@ -9,6 +9,7 @@ INSERT INTO sellers (slug, name, domain) VALUES
     ('pspro', 'PSPro', 'pspro.ir'),
     ('yungcenter', 'YungCenter', 'yungcenter.com'),
     ('nakhlmarket', 'نخل مارکت', 'nakhlmarket.com'),
+    ('technolife', 'تکنولایف', 'technolife.com'),
     ('persianconsole', 'پرشین کنسول', 'persianconsole.ir'),
     ('gameplayshop', 'گیم‌پلی‌شاپ', 'gameplayshop.ir'),
     ('digikala', 'دیجی‌کالا', 'digikala.com'),

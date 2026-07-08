@@ -12,6 +12,7 @@ export interface SellerOffer {
   sellerId: string;
   priceToman: number;
   inStock: boolean;
+  listingUrl: string;
 }
 
 export interface PurchaseOption {

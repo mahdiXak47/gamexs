@@ -86,10 +86,11 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     seller_slug: string;
     price_toman: number;
     in_stock: boolean;
+    source_url: string;
   }>(
     `
     ${LATEST_PRICE_CTE}
-    SELECT l.product_type, l.tier, s.slug AS seller_slug, latest.price_toman, latest.in_stock
+    SELECT l.product_type, l.tier, s.slug AS seller_slug, latest.price_toman, latest.in_stock, l.source_url
     FROM listings l
     JOIN sellers s ON s.id = l.seller_id
     JOIN latest ON latest.listing_id = l.id
@@ -104,6 +105,7 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
       sellerId: row.seller_slug,
       priceToman: Number(row.price_toman),
       inStock: row.in_stock,
+      listingUrl: row.source_url,
     });
   }
 
