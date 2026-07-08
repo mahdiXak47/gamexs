@@ -1,4 +1,5 @@
 import { query } from "./db";
+import { coverUrl as localCoverUrl } from "./covers";
 import { emptyPurchaseOptions, findOption } from "./purchase-options";
 import type { AccessTier, Game, GameSummary, ProductType } from "./types";
 
@@ -57,7 +58,7 @@ export async function listGames(): Promise<GameSummary[]> {
     title: row.title,
     genreLabel: row.genre_label,
     coverInitial: deriveInitial(row.title),
-    coverUrl: row.cover_url,
+    coverUrl: row.cover_url ?? localCoverUrl(row.title),
     lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
     storeCount: Number(row.store_count),
     purchaseTypeCount: Number(row.purchase_type_count),
@@ -113,7 +114,7 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     publisher: game.publisher,
     releaseYear: game.release_year,
     coverInitial: deriveInitial(game.title),
-    coverUrl: game.cover_url,
+    coverUrl: game.cover_url ?? localCoverUrl(game.title),
     purchaseOptions,
   };
 }

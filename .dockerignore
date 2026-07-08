@@ -1,0 +1,21 @@
+# Repo-root .dockerignore — used when building frontend/Dockerfile with context=.
+
+# Frontend build artifacts and deps (will be reinstalled inside the image)
+frontend/.next
+frontend/node_modules
+frontend/.env*
+
+# Scraper runtime files (not needed for frontend image)
+scraper/.venv
+scraper/output
+scraper/__pycache__
+scraper/**/*.pyc
+scraper/.igdb_token_cache.json
+
+# DB init runs separately via docker-entrypoint-initdb.d, not baked into image
+# (db/ is still needed for the db service, but not for the frontend build)
+
+# Misc
+**/.env*
+**/*.md
+.git

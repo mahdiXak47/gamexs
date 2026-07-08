@@ -15,6 +15,12 @@ _NOISE_PATTERNS = [
     r"ریجن\s*\d*",
     r"\bregion\s*\d*\b",
     r"\bps5\b",
+    # "و ps4" / "و ps5" — multi-platform suffix used by YungCenter
+    # e.g. "Call of Duty Black Ops 7 برای ps5 و ps4" → "Call of Duty Black Ops 7"
+    r"\s*و\s+ps[45]\b",
+    # "قانونی" — means "official/legal", used as a prefix by YungCenter
+    # e.g. "خرید اکانت قانونی Forza Horizon 5" → "Forza Horizon 5"
+    r"قانونی",
     r"خرید",
     r"اکانت",
     r"بازی",

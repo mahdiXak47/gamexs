@@ -1,8 +1,11 @@
+# Build context: repo root (.)
+# docker build -f frontend/Dockerfile .
+#
 # ── Stage 1: install deps ────────────────────────────────────────────────────
 FROM node:20-alpine AS deps
 WORKDIR /app
 
-COPY package.json package-lock.json ./
+COPY frontend/package.json frontend/package-lock.json ./
 RUN npm ci --ignore-scripts
 
 # ── Stage 2: build ───────────────────────────────────────────────────────────
@@ -10,7 +13,7 @@ FROM node:20-alpine AS builder
 WORKDIR /app
 
 COPY --from=deps /app/node_modules ./node_modules
-COPY . .
+COPY frontend/ .
 
 # DATABASE_URL is read at runtime (force-dynamic routes); a placeholder is
 # enough to satisfy any build-time type-check that imports the env.
@@ -29,8 +32,7 @@ ENV NEXT_TELEMETRY_DISABLED=1
 RUN addgroup --system --gid 1001 nodejs \
  && adduser  --system --uid 1001 nextjs
 
-# standalone output bundles only the required files — no full node_modules copy needed
-COPY --from=builder /app/public                    ./public
+COPY --from=builder /app/public                                ./public
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static     ./.next/static
 
