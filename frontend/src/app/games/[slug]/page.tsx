@@ -6,15 +6,15 @@ import Header from "@/components/Header";
 import PurchaseTypeSelector from "@/components/PurchaseTypeSelector";
 import { coverUrl } from "@/lib/covers";
 import { formatToman, toPersianDigits } from "@/lib/format";
-import { GAMES, getGame, lowestPrice, storeCount } from "@/lib/games";
+import { getGameBySlug } from "@/lib/games-repo";
+import { lowestPrice, storeCount } from "@/lib/purchase-options";
 
-export function generateStaticParams() {
-  return GAMES.map((g) => ({ slug: g.slug }));
-}
+// Always read fresh from the DB — see app/page.tsx for why.
+export const dynamic = "force-dynamic";
 
 export default async function GamePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const game = getGame(slug);
+  const game = await getGameBySlug(slug);
   if (!game) notFound();
 
   const price = lowestPrice(game);
@@ -32,18 +32,20 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
           <div>
             <div className="flex flex-wrap items-center gap-3">
               <span className="rounded-md bg-accent px-2.5 py-1 text-[10px] font-bold text-white">PS5</span>
-              <span className="text-sm text-muted">{game.genreLabel}</span>
+              {game.genreLabel && <span className="text-sm text-muted">{game.genreLabel}</span>}
             </div>
             <h1 className="mt-3 text-3xl font-extrabold sm:text-4xl">{game.title}</h1>
 
             <div className="mt-6 grid grid-cols-2 gap-6 sm:max-w-sm">
               <div>
                 <div className="text-xs text-muted">ناشر</div>
-                <div className="mt-1 font-bold">{game.publisher}</div>
+                <div className="mt-1 font-bold">{game.publisher ?? "—"}</div>
               </div>
               <div>
                 <div className="text-xs text-muted">سال انتشار</div>
-                <div className="mt-1 font-bold">{toPersianDigits(game.releaseYear)}</div>
+                <div className="mt-1 font-bold">
+                  {game.releaseYear === null ? "—" : toPersianDigits(game.releaseYear)}
+                </div>
               </div>
             </div>
 

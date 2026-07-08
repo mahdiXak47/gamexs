@@ -4,6 +4,7 @@ import dataclasses
 import json
 import os
 import sys
+from datetime import datetime
 
 from .adapters import ADAPTERS
 from .models import AccessTier, ProductType, RawOffer
@@ -66,7 +67,7 @@ def load_cached_offers(path: str) -> list[RawOffer]:
             record = json.loads(line)
             record["product_type"] = ProductType(record["product_type"])
             record["tier"] = AccessTier(record["tier"]) if record["tier"] else None
-            del record["scraped_at"]
+            record["scraped_at"] = datetime.fromisoformat(record["scraped_at"])
             offers.append(RawOffer(**record))
     return offers
 

@@ -61,7 +61,10 @@ CREATE TABLE price_history (
     listing_id INT NOT NULL REFERENCES listings (id) ON DELETE CASCADE,
     price_toman INT NOT NULL,
     in_stock BOOLEAN NOT NULL,
-    scraped_at TIMESTAMPTZ NOT NULL DEFAULT now()
+    scraped_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+    -- Lets a loader re-run the same scrape/cache file safely (ON CONFLICT DO
+    -- NOTHING) instead of piling up duplicate rows for one listing+timestamp.
+    UNIQUE (listing_id, scraped_at)
 );
 
 CREATE INDEX idx_price_history_listing_scraped ON price_history (listing_id, scraped_at DESC);

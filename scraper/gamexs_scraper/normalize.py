@@ -25,10 +25,16 @@ _DASH_STRIP_RE = re.compile(r"^[\s\-–—]+|[\s\-–—]+$")
 _WHITESPACE_RE = re.compile(r"\s+")
 
 
-def normalize_game_name(raw_title: str) -> str:
+def clean_title(raw_title: str) -> str:
+    """Same boilerplate-stripping as normalize_game_name, but keeps original
+    casing — for a display title rather than a grouping/matching key."""
     text = raw_title
     for pattern in _COMPILED_NOISE:
         text = pattern.sub(" ", text)
     text = _WHITESPACE_RE.sub(" ", text).strip()
     text = _DASH_STRIP_RE.sub("", text)
-    return text.strip().lower()
+    return text.strip()
+
+
+def normalize_game_name(raw_title: str) -> str:
+    return clean_title(raw_title).lower()

@@ -26,9 +26,22 @@ export interface PurchaseOption {
 export interface Game {
   slug: string;
   title: string;
-  genreLabel: string;
-  publisher: string;
-  releaseYear: number;
+  genreLabel: string | null;
+  publisher: string | null;
+  releaseYear: number | null;
   coverInitial: string;
   purchaseOptions: PurchaseOption[];
+}
+
+// Lighter shape for the grid — stats are precomputed in SQL rather than
+// derived client-side from a full purchaseOptions array.
+export interface GameSummary {
+  slug: string;
+  title: string;
+  genreLabel: string | null;
+  coverInitial: string;
+  lowestPriceToman: number | null;
+  storeCount: number;
+  purchaseTypeCount: number;
+  createdAt: number;
 }

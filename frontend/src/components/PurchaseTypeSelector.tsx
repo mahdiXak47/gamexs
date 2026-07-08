@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { formatToman, toPersianDigits } from "@/lib/format";
-import { bestOfferId, lowestPriceForOption } from "@/lib/games";
+import { bestOfferId, lowestPriceForOption } from "@/lib/purchase-options";
 import { seller } from "@/lib/sellers";
 import type { PurchaseOption } from "@/lib/types";
 

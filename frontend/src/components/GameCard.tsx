@@ -1,12 +1,9 @@
 import Link from "next/link";
 import CoverArt from "./CoverArt";
 import { formatToman, toPersianDigits } from "@/lib/format";
-import { lowestPrice, purchaseTypeCount, storeCount } from "@/lib/games";
-import type { Game } from "@/lib/types";
+import type { GameSummary } from "@/lib/types";
 
-export default function GameCard({ game, coverUrl }: { game: Game; coverUrl?: string | null }) {
-  const price = lowestPrice(game);
-
+export default function GameCard({ game, coverUrl }: { game: GameSummary; coverUrl?: string | null }) {
   return (
     <Link
       href={`/games/${game.slug}`}
@@ -20,18 +17,18 @@ export default function GameCard({ game, coverUrl }: { game: Game; coverUrl?: st
 
       <div className="flex flex-1 flex-col gap-2 p-4">
         <h3 className="font-bold">{game.title}</h3>
-        <p className="text-sm text-muted">{game.genreLabel}</p>
+        {game.genreLabel && <p className="text-sm text-muted">{game.genreLabel}</p>}
 
         <div className="mt-1 flex items-baseline gap-1.5">
           <span className="text-xs text-muted">از</span>
           <span className="text-lg font-extrabold">
-            {price === null ? "—" : formatToman(price)}
+            {game.lowestPriceToman === null ? "—" : formatToman(game.lowestPriceToman)}
           </span>
           <span className="text-xs text-muted">تومان</span>
         </div>
 
         <p className="text-xs text-muted">
-          {toPersianDigits(storeCount(game))} فروشگاه · {toPersianDigits(purchaseTypeCount(game))} نوع خرید
+          {toPersianDigits(game.storeCount)} فروشگاه · {toPersianDigits(game.purchaseTypeCount)} نوع خرید
         </p>
       </div>
     </Link>

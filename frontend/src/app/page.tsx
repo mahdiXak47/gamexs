@@ -2,10 +2,15 @@ import Disclaimer from "@/components/Disclaimer";
 import GameGrid from "@/components/GameGrid";
 import Header from "@/components/Header";
 import { coverUrl } from "@/lib/covers";
-import { GAMES } from "@/lib/games";
+import { listGames } from "@/lib/games-repo";
 
-export default function Home() {
-  const covers = Object.fromEntries(GAMES.map((g) => [g.slug, coverUrl(g.title)]));
+// Always read fresh from the DB — prices are updated by a periodic scrape,
+// so a statically cached page would silently go stale between deploys.
+export const dynamic = "force-dynamic";
+
+export default async function Home() {
+  const games = await listGames();
+  const covers = Object.fromEntries(games.map((g) => [g.slug, coverUrl(g.title)]));
 
   return (
     <>
@@ -19,7 +24,7 @@ export default function Home() {
           ببینید و بهترین گزینه را پیدا کنید.
         </p>
 
-        <GameGrid games={GAMES} covers={covers} />
+        <GameGrid games={games} covers={covers} />
       </main>
       <Disclaimer />
     </>

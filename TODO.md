@@ -67,15 +67,38 @@ headless browser).
   `sellers`, `platforms`, `listings` (one row per game+seller+product-type+
   tier ever seen), `price_history` (append-only, one row per scrape — this
   is what price charts will query). See `db/init/`.
-- Not started: a script that reads the scraper's JSONL/CSV output and
-  upserts into `listings` + inserts into `price_history` — this is what
-  turns a scrape run into DB rows. Needed before the 24h cron job means
-  anything.
-- Not started: scheduling/cron for the daily re-scrape + ingest.
-- Not started: frontend reading from Postgres instead of its mock data in
-  `frontend/src/lib/games.ts` — once that happens, `frontend/src/lib/
-  sellers.ts` becomes redundant (superseded by the `sellers` table).
-- Not started: price-history chart UI on the game detail page.
+- ✅ Loader: `python -m gamexs_scraper.load_to_postgres <seller> --cache
+  <path>.jsonl` reads a scraper JSONL cache and upserts `games`/`listings` +
+  inserts `price_history` (idempotent — safe to re-run the same cache file).
+  pspro's 500-game sample is loaded (499 games, 500 listings, 500 price
+  points). Only reads from JSONL, not the pivoted CSV — the CSV drops
+  `source_url`/`in_stock`, which `listings`/`price_history` need.
+- Not started: scheduling/cron for the daily re-scrape + ingest (i.e. running
+  the scraper + loader back-to-back on a schedule).
+- ✅ Frontend reads from Postgres: `frontend/src/lib/games-repo.ts`
+  (`listGames`/`getGameBySlug`) queries `games`/`listings`/`price_history`
+  directly via `frontend/src/lib/db.ts` (a `pg` pool). Mock data
+  (`lib/games.ts`) is deleted. Both `app/page.tsx` and `app/games/[slug]/
+  page.tsx` are `export const dynamic = "force-dynamic"` — always read fresh
+  from the DB, never statically cached (prices update via the loader, not a
+  rebuild/redeploy). `frontend/src/lib/sellers.ts` is **not yet** retired —
+  the detail page's seller table still gets seller display name/domain from
+  it rather than the `sellers` table (keyed by matching slugs, which happen
+  to be identical right now — fragile, worth switching to a DB-sourced
+  join later).
+- `games.genre_label`/`publisher`/`release_year`/`cover_url` are real
+  columns but always `NULL` for pspro data — the adapter never scraped
+  those fields. UI already renders "—"/omits them gracefully; populating
+  them for real needs either scraping more per-product fields or the
+  planned IGDB backfill.
+- Fixed while wiring this up: `load_to_postgres.py`'s slug generation didn't
+  strip `#`/`%` (only filesystem-unsafe chars), so a game literally titled
+  "#DRIVE Rally" got the DB slug `#drive-rally` — a leading `#` makes the
+  browser treat the rest as a URL fragment, so the card's link silently did
+  nothing. Fixed via a `url_slugify()` used only for the DB slug (image
+  filenames still use the original `slugify()`, unaffected).
+- Not started: price-history chart UI on the game detail page (the data's
+  there in `price_history`, just no chart component yet).
 
 ## Explicitly deferred by product decision (not urgent)
 
