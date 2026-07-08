@@ -5,7 +5,7 @@ from enum import Enum
 
 class ProductType(str, Enum):
     ACCOUNT_GAME = "account_game"
-    OWN_ACCOUNT_GAME = "own_account_game"
+    OWN_ACCOUNT_GAME = "own_account_game" #this is equal to full_capacity
     DISC = "disc"
     SUBSCRIPTION = "subscription"
     GIFT_CARD = "gift_card"
@@ -16,6 +16,7 @@ class AccessTier(str, Enum):
     CAPACITY_1 = "capacity_1"
     CAPACITY_2 = "capacity_2"
     CAPACITY_3 = "capacity_3"
+    FULL_CAPACITY = "full_capacity"
 
 
 @dataclass

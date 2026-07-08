@@ -1,0 +1,51 @@
+services:
+
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER:     ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB:       ${POSTGRES_DB:-gamexs}
+    volumes:
+      - gamexs_pgdata:/var/lib/postgresql/data
+      - ./db/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-gamexs}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    # Do NOT expose 5432 to the host in production — only the frontend
+    # container needs it, and they share the internal Docker network.
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "${FRONTEND_PORT:-3000}:3000"
+    environment:
+      DATABASE_URL: ${DATABASE_URL}
+    depends_on:
+      db:
+        condition: service_healthy
+
+  scraper:
+    build:
+      context: ./scraper
+      dockerfile: Dockerfile
+    profiles: ["scraper"]   # only starts with: docker compose --profile scraper run scraper …
+    environment:
+      DATABASE_URL:          ${DATABASE_URL}
+      TWITCH_CLIENT_ID:      ${TWITCH_CLIENT_ID}
+      TWITCH_CLIENT_SECRET:  ${TWITCH_CLIENT_SECRET}
+    volumes:
+      - scraper_output:/output
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  gamexs_pgdata:
+  scraper_output:

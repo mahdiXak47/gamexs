@@ -4,12 +4,12 @@ import CoverArt from "./CoverArt";
 import { formatToman, toPersianDigits } from "@/lib/format";
 import type { GameSummary } from "@/lib/types";
 
-export default function GameCard({ game, coverUrl }: { game: GameSummary; coverUrl?: string | null }) {
+export default function GameCard({ game }: { game: GameSummary }) {
   return (
     <Link href={`/games/${game.slug}`} className="group block h-full">
       <Card className="h-full gap-0 overflow-hidden p-0 transition-transform group-hover:-translate-y-1">
         <div className="relative">
-          <CoverArt coverUrl={coverUrl} initial={game.coverInitial} className="aspect-[4/3]" />
+          <CoverArt coverUrl={game.coverUrl} initial={game.coverInitial} className="aspect-[4/3]" />
           <Chip variant="primary" color="accent" size="sm" className="absolute right-3 top-3">
             PS5
           </Chip>

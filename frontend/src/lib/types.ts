@@ -30,6 +30,7 @@ export interface Game {
   publisher: string | null;
   releaseYear: number | null;
   coverInitial: string;
+  coverUrl: string | null;
   purchaseOptions: PurchaseOption[];
 }
 
@@ -40,6 +41,7 @@ export interface GameSummary {
   title: string;
   genreLabel: string | null;
   coverInitial: string;
+  coverUrl: string | null;
   lowestPriceToman: number | null;
   storeCount: number;
   purchaseTypeCount: number;

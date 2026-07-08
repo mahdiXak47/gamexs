@@ -22,13 +22,7 @@ function getPageNumbers(current: number, total: number): (number | "…")[] {
   return pages;
 }
 
-export default function GameGrid({
-  games,
-  covers,
-}: {
-  games: GameSummary[];
-  covers: Record<string, string | null>;
-}) {
+export default function GameGrid({ games }: { games: GameSummary[] }) {
   const [query, setQueryRaw] = useState("");
   const [sort, setSortRaw] = useState<SortOption>("popular");
   const [page, setPage] = useState(1);
@@ -89,7 +83,7 @@ export default function GameGrid({
         <>
           <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
             {paginated.map((game) => (
-              <GameCard key={game.slug} game={game} coverUrl={covers[game.slug]} />
+              <GameCard key={game.slug} game={game} />
             ))}
           </div>
 
@@ -102,8 +96,8 @@ export default function GameGrid({
                       onPress={() => setPage((p) => Math.max(1, p - 1))}
                       isDisabled={safePage === 1}
                     >
-                      <Pagination.PreviousIcon />
                       قبلی
+                      <Pagination.NextIcon />
                     </Pagination.Previous>
                   </Pagination.Item>
 
@@ -129,8 +123,8 @@ export default function GameGrid({
                       onPress={() => setPage((p) => Math.min(totalPages, p + 1))}
                       isDisabled={safePage === totalPages}
                     >
+                      <Pagination.PreviousIcon />
                       بعدی
-                      <Pagination.NextIcon />
                     </Pagination.Next>
                   </Pagination.Item>
                 </Pagination.Content>

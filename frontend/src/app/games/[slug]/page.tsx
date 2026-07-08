@@ -5,7 +5,6 @@ import CoverArt from "@/components/CoverArt";
 import Disclaimer from "@/components/Disclaimer";
 import Header from "@/components/Header";
 import PurchaseTypeSelector from "@/components/PurchaseTypeSelector";
-import { coverUrl } from "@/lib/covers";
 import { formatToman, toPersianDigits } from "@/lib/format";
 import { getGameBySlug } from "@/lib/games-repo";
 import { lowestPrice, storeCount } from "@/lib/purchase-options";
@@ -67,7 +66,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
           </div>
 
           <CoverArt
-            coverUrl={coverUrl(game.title)}
+            coverUrl={game.coverUrl}
             initial={game.coverInitial}
             className="aspect-[3/4] rounded-2xl md:order-last"
           />

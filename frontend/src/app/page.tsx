@@ -2,7 +2,6 @@ import { Chip } from "@heroui/react";
 import Disclaimer from "@/components/Disclaimer";
 import GameGrid from "@/components/GameGrid";
 import Header from "@/components/Header";
-import { coverUrl } from "@/lib/covers";
 import { listGames } from "@/lib/games-repo";
 
 // Always read fresh from the DB — prices are updated by a periodic scrape,
@@ -11,7 +10,6 @@ export const dynamic = "force-dynamic";
 
 export default async function Home() {
   const games = await listGames();
-  const covers = Object.fromEntries(games.map((g) => [g.slug, coverUrl(g.title)]));
 
   return (
     <>
@@ -26,7 +24,7 @@ export default async function Home() {
           ببینید و بهترین گزینه را پیدا کنید.
         </p>
 
-        <GameGrid games={games} covers={covers} />
+        <GameGrid games={games} />
       </main>
       <Disclaimer />
     </>

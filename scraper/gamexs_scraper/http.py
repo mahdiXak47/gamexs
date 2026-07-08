@@ -16,6 +16,9 @@ DEFAULT_HEADERS = {
 def make_session() -> requests.Session:
     session = requests.Session()
     session.headers.update(DEFAULT_HEADERS)
+    # Scraper targets Iranian sites directly — bypass any HTTP_PROXY / HTTPS_PROXY
+    # env vars that may be set for other tools (e.g. a cloud IDE proxy).
+    session.trust_env = False
     retry = Retry(total=3, backoff_factor=1.5, status_forcelist=[429, 500, 502, 503, 504])
     session.mount("https://", HTTPAdapter(max_retries=retry))
     session.mount("http://", HTTPAdapter(max_retries=retry))

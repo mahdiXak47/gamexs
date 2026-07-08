@@ -28,6 +28,7 @@ export async function listGames(): Promise<GameSummary[]> {
     slug: string;
     title: string;
     genre_label: string | null;
+    cover_url: string | null;
     lowest_price: string | null;
     store_count: string;
     purchase_type_count: string;
@@ -38,6 +39,7 @@ export async function listGames(): Promise<GameSummary[]> {
       g.slug,
       g.title,
       g.genre_label,
+      g.cover_url,
       g.created_at,
       MIN(latest.price_toman) AS lowest_price,
       COUNT(DISTINCT l.seller_id) AS store_count,
@@ -55,6 +57,7 @@ export async function listGames(): Promise<GameSummary[]> {
     title: row.title,
     genreLabel: row.genre_label,
     coverInitial: deriveInitial(row.title),
+    coverUrl: row.cover_url,
     lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
     storeCount: Number(row.store_count),
     purchaseTypeCount: Number(row.purchase_type_count),
@@ -70,7 +73,8 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     genre_label: string | null;
     publisher: string | null;
     release_year: number | null;
-  }>(`SELECT id, slug, title, genre_label, publisher, release_year FROM games WHERE slug = $1`, [slug]);
+    cover_url: string | null;
+  }>(`SELECT id, slug, title, genre_label, publisher, release_year, cover_url FROM games WHERE slug = $1`, [slug]);
 
   const game = gameRows[0];
   if (!game) return null;
@@ -109,6 +113,7 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     publisher: game.publisher,
     releaseYear: game.release_year,
     coverInitial: deriveInitial(game.title),
+    coverUrl: game.cover_url,
     purchaseOptions,
   };
 }
