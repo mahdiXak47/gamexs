@@ -1,5 +1,8 @@
 import re
 
+# Persian/Arabic-Indic digits → ASCII digits
+_PERSIAN_DIGIT_TABLE = str.maketrans("۰۱۲۳۴۵۶۷۸۹", "0123456789")
+
 # Ordered longest-phrase-first so e.g. "خرید اکانت بازی" is stripped whole
 # instead of leaving stray "اکانت" behind. This is a heuristic good enough to
 # group one seller's own listings; cross-seller/catalog matching should go
@@ -7,7 +10,9 @@ import re
 _NOISE_PATTERNS = [
     r"خرید\s+اکانت\s+بازی",
     r"خرید\s+بازی",
+    r"اکانت\s+ظرفیتی",
     r"اکانت\s+بازی",
+    r"ظرفیتی",
     r"digital\s+code",
     r"game\s+key\s+card",
     r"برای\s+پلی\s+استیشن\s*5?",
@@ -46,12 +51,20 @@ _WHITESPACE_RE = re.compile(r"\s+")
 def clean_title(raw_title: str) -> str:
     """Same boilerplate-stripping as normalize_game_name, but keeps original
     casing — for a display title rather than a grouping/matching key."""
-    text = raw_title
+    # Normalise Persian/Arabic-Indic digits before any other processing so
+    # titles like "۰۰۷ First Light" slug-match "007 First Light".
+    text = raw_title.translate(_PERSIAN_DIGIT_TABLE)
+    # Strip anything in parentheses (e.g. "( ارسال رایگان )" = free shipping notes)
+    text = re.sub(r"\([^)]*\)", " ", text)
     for pattern in _COMPILED_NOISE:
         text = pattern.sub(" ", text)
     text = _WHITESPACE_RE.sub(" ", text).strip()
     text = _DASH_STRIP_RE.sub("", text)
-    return text.strip()
+    # Insert a space between a digit and an immediately adjacent letter so
+    # "007First Light" → "007 First Light" and all sellers share one slug.
+    text = re.sub(r"(\d)([A-Za-z])", r"\1 \2", text)
+    text = _WHITESPACE_RE.sub(" ", text).strip()
+    return text
 
 
 def normalize_game_name(raw_title: str) -> str:

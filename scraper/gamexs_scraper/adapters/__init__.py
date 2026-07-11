@@ -1,4 +1,5 @@
 from .cdkeyshare import CdkeyShareAdapter
+from .digikala import DigikalaAdapter
 from .gamario import GamarioAdapter
 from .gamecenter import GameCenterAdapter
 from .gameonestore import GameoneStoreAdapter
@@ -24,4 +25,5 @@ ADAPTERS = {
     XgamesStoreAdapter.seller: XgamesStoreAdapter,
     ParsConsoleAdapter.seller: ParsConsoleAdapter,
     CdkeyShareAdapter.seller: CdkeyShareAdapter,
+    DigikalaAdapter.seller: DigikalaAdapter,
 }
