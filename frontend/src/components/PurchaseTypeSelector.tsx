@@ -4,7 +4,6 @@ import { useState } from "react";
 import { Alert, Avatar, Card, Chip, Table } from "@heroui/react";
 import { formatToman, toPersianDigits } from "@/lib/format";
 import { bestOfferId, lowestPriceForOption } from "@/lib/purchase-options";
-import { seller } from "@/lib/sellers";
 import type { PurchaseOption } from "@/lib/types";
 
 export default function PurchaseTypeSelector({ options }: { options: PurchaseOption[] }) {
@@ -91,26 +90,26 @@ function SellerTable({ option }: { option: PurchaseOption }) {
             </Table.Header>
             <Table.Body>
               {sortedOffers.map((offer, i) => {
-                const s = seller(offer.sellerId);
                 const isBest = offer.sellerId === best;
+                const initial = offer.sellerName.trim()[0]?.toUpperCase() ?? "?";
                 return (
                   <Table.Row key={offer.sellerId} id={offer.sellerId}>
                     <Table.Cell className="text-muted">{toPersianDigits(i + 1)}</Table.Cell>
                     <Table.Cell>
                       <div className="flex items-center gap-3">
                         <Avatar size="sm">
-                          <Avatar.Fallback>{s.initial}</Avatar.Fallback>
+                          <Avatar.Fallback>{initial}</Avatar.Fallback>
                         </Avatar>
                         <div>
                           <div className="flex items-center gap-2 font-bold">
-                            {s.name}
+                            {offer.sellerName}
                             {isBest && (
                               <Chip variant="soft" color="success" size="sm">
                                 بهترین قیمت
                               </Chip>
                             )}
                           </div>
-                          <div className="text-xs text-muted">{s.domain}</div>
+                          <div className="text-xs text-muted">{offer.sellerDomain}</div>
                         </div>
                       </div>
                     </Table.Cell>

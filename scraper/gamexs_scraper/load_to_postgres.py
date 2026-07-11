@@ -31,20 +31,39 @@ from .normalize import clean_title, normalize_game_name
 _URL_UNSAFE_RE = re.compile(r"[#%]+")
 _EDGE_DASH_RE = re.compile(r"^-+|-+$")
 
+# Sellers whose product images are reliable enough to overwrite any existing
+# cover_url. Others only fill in when cover_url is still NULL.
+_TRUSTED_COVER_SELLERS = {"digikala", "pspro", "technolife", "nakhlmarket"}
+
 
 def url_slugify(name: str) -> str:
     return _EDGE_DASH_RE.sub("", _URL_UNSAFE_RE.sub("", slugify(name)))
 
 
-def get_or_create_game(cur: psycopg.Cursor, platform_id: int, slug: str, title: str) -> int:
+def get_or_create_game(
+    cur: psycopg.Cursor,
+    platform_id: int,
+    slug: str,
+    title: str,
+    cover_url: str | None = None,
+    trusted_cover: bool = False,
+) -> int:
+    # Trusted sellers always update cover_url (so Digikala's clean images win).
+    # Untrusted sellers only set it when it is still NULL.
+    cover_update = (
+        "cover_url = COALESCE(EXCLUDED.cover_url, games.cover_url)"
+        if trusted_cover
+        else "cover_url = COALESCE(games.cover_url, EXCLUDED.cover_url)"
+    )
     cur.execute(
-        """
-        INSERT INTO games (platform_id, slug, title)
-        VALUES (%s, %s, %s)
-        ON CONFLICT (platform_id, slug) DO NOTHING
+        f"""
+        INSERT INTO games (platform_id, slug, title, cover_url)
+        VALUES (%s, %s, %s, %s)
+        ON CONFLICT (platform_id, slug) DO UPDATE SET
+            {cover_update}
         RETURNING id
         """,
-        (platform_id, slug, title),
+        (platform_id, slug, title, cover_url),
     )
     row = cur.fetchone()
     if row:
@@ -82,7 +101,10 @@ def insert_price_point(cur: psycopg.Cursor, listing_id: int, offer: RawOffer) ->
     )
 
 
-def load_offers(cur: psycopg.Cursor, platform_id: int, seller_id: int, offers: list[RawOffer]) -> tuple[int, int]:
+def load_offers(
+    cur: psycopg.Cursor, platform_id: int, seller_id: int, seller_slug: str, offers: list[RawOffer]
+) -> tuple[int, int]:
+    trusted_cover = seller_slug in _TRUSTED_COVER_SELLERS
     games_seen: set[int] = set()
     listings_seen: set[int] = set()
 
@@ -92,7 +114,7 @@ def load_offers(cur: psycopg.Cursor, platform_id: int, seller_id: int, offers: l
             print(f"\nskipping offer with empty slug: {offer.raw_title!r}", file=sys.stderr)
             continue
 
-        game_id = get_or_create_game(cur, platform_id, slug, clean_title(offer.raw_title))
+        game_id = get_or_create_game(cur, platform_id, slug, clean_title(offer.raw_title), offer.image_url, trusted_cover)
         games_seen.add(game_id)
 
         tier = offer.tier.value.upper() if offer.tier else None
@@ -132,7 +154,7 @@ def main() -> None:
         if not seller_row:
             sys.exit(f"unknown seller {args.seller!r} — seed it in db/init/02_seed.sql first")
 
-        games_count, listings_count = load_offers(cur, platform_row[0], seller_row[0], offers)
+        games_count, listings_count = load_offers(cur, platform_row[0], seller_row[0], args.seller, offers)
         conn.commit()
 
     print(f"done — {games_count} games, {listings_count} listings, {len(offers)} price points", file=sys.stderr)

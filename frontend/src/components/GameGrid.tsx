@@ -40,11 +40,19 @@ export default function GameGrid({ games }: { games: GameSummary[] }) {
   }, [games, query]);
 
   const sorted = useMemo(() => {
-    // "popular"/"price_asc"/"price_desc" are UI-only for now — popularity
-    // ranking and price sorting need more thought before shipping, so they
-    // leave the list in its existing (title) order. Only "newest" is wired
-    // up, since it's a plain sort on a column we already have.
-    if (sort === "newest") return [...filtered].sort((a, b) => b.createdAt - a.createdAt);
+    const copy = [...filtered];
+    if (sort === "newest") return copy.sort((a, b) => b.createdAt - a.createdAt);
+    if (sort === "price_asc") return copy.sort((a, b) => {
+      if (a.lowestPriceToman === null) return 1;
+      if (b.lowestPriceToman === null) return -1;
+      return a.lowestPriceToman - b.lowestPriceToman;
+    });
+    if (sort === "price_desc") return copy.sort((a, b) => {
+      if (a.lowestPriceToman === null) return 1;
+      if (b.lowestPriceToman === null) return -1;
+      return b.lowestPriceToman - a.lowestPriceToman;
+    });
+    if (sort === "popular") return copy.sort((a, b) => b.storeCount - a.storeCount);
     return filtered;
   }, [filtered, sort]);
 

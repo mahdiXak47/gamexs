@@ -27,6 +27,7 @@ BASE_URL = "https://gamario.com"
 _PRODUCT_HREF_RE = re.compile(r"^https://gamario\.com/product/")
 
 _TIER_MAP = {
+    "کامل": AccessTier.CAPACITY_1,  # full/exclusive account = capacity 1
     "اول": AccessTier.CAPACITY_1,
     "دوم": AccessTier.CAPACITY_2,
     "سوم": AccessTier.CAPACITY_3,
@@ -79,9 +80,6 @@ class GamarioAdapter(SellerAdapter):
         title_el = soup.find("h1")
         raw_title = title_el.get_text(strip=True) if title_el else url
 
-        img_el = soup.find("img", class_="attachment-woocommerce_thumbnail")
-        image_url = img_el.get("src") if img_el else None
-
         form = soup.find("form", class_="variations_form")
         if not form:
             return
@@ -93,6 +91,14 @@ class GamarioAdapter(SellerAdapter):
 
         if not variations:
             return
+
+        # Use the variation's own image (product-specific); fall back to og:image.
+        # Avoid attachment-woocommerce_thumbnail via soup.find() — it matches
+        # related-product thumbnails lower on the page and returns the wrong image.
+        image_url = variations[0].get("image", {}).get("url") or None
+        if not image_url:
+            og = soup.find("meta", property="og:image")
+            image_url = og["content"] if og else None
 
         for v in variations:
             attrs = v.get("attributes", {})

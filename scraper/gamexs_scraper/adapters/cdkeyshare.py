@@ -31,6 +31,7 @@ DISC_CATEGORY_URL = f"{BASE_URL}/product-category/console/playstation/diskpsn/"
 _PRODUCT_HREF_RE = re.compile(r"^https://(?:www\.)?cdkeyshare\.ir/shop/console/")
 
 _TIER_SUBSTRINGS = [
+    ("ظرفیت کامل", AccessTier.CAPACITY_1),  # full/exclusive account = capacity 1
     ("ظرفیت 1", AccessTier.CAPACITY_1),
     ("ظرفیت 2", AccessTier.CAPACITY_2),
     ("ظرفیت 3", AccessTier.CAPACITY_3),

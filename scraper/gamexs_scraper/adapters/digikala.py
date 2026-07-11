@@ -10,6 +10,7 @@ Verified 2026-07-09:
 - API only returns marketable (purchasable) products; all are treated as in_stock.
 """
 
+import re
 import sys
 from collections.abc import Iterator
 
@@ -20,6 +21,11 @@ from ..models import ProductType, RawOffer
 
 API_BASE = "https://api.digikala.com/v1/categories/home-console-games/search/"
 PRODUCT_BASE = "https://www.digikala.com"
+
+_NON_PS5_RE = re.compile(
+    r"xbox|ایکس\s*باکس|\bps1\b|\bps2\b|\bps3\b|\bpsp\b|\bps\s*vita\b|\bnintendo\b",
+    re.IGNORECASE,
+)
 
 _PARAMS = {
     "filter[compatible_with_consoles]": "playstation-5",
@@ -67,6 +73,9 @@ class DigikalaAdapter(SellerAdapter):
 
         raw_title = p.get("title_fa") or p.get("title_en") or ""
         if not raw_title:
+            return None
+
+        if _NON_PS5_RE.search(raw_title):
             return None
 
         uri = p.get("url", {}).get("uri", "")

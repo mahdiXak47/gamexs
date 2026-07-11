@@ -10,6 +10,8 @@ export interface Seller {
 
 export interface SellerOffer {
   sellerId: string;
+  sellerName: string;
+  sellerDomain: string;
   priceToman: number;
   inStock: boolean;
   listingUrl: string;

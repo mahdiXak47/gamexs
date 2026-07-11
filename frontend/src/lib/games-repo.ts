@@ -84,13 +84,16 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     product_type: ProductType;
     tier: AccessTier | null;
     seller_slug: string;
+    seller_name: string;
+    seller_domain: string;
     price_toman: number;
     in_stock: boolean;
     source_url: string;
   }>(
     `
     ${LATEST_PRICE_CTE}
-    SELECT l.product_type, l.tier, s.slug AS seller_slug, latest.price_toman, latest.in_stock, l.source_url
+    SELECT l.product_type, l.tier, s.slug AS seller_slug, s.name AS seller_name, s.domain AS seller_domain,
+           latest.price_toman, latest.in_stock, l.source_url
     FROM listings l
     JOIN sellers s ON s.id = l.seller_id
     JOIN latest ON latest.listing_id = l.id
@@ -103,6 +106,8 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
   for (const row of offerRows) {
     findOption(purchaseOptions, row.product_type, row.tier)?.offers.push({
       sellerId: row.seller_slug,
+      sellerName: row.seller_name,
+      sellerDomain: row.seller_domain,
       priceToman: Number(row.price_toman),
       inStock: row.in_stock,
       listingUrl: row.source_url,

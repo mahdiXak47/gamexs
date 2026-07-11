@@ -13,6 +13,8 @@ _NOISE_PATTERNS = [
     r"اکانت\s+ظرفیتی",
     r"اکانت\s+بازی",
     r"ظرفیتی",
+    # "ویدیویی" = "video [game]" — Digikala product-type prefix
+    r"ویدیویی",
     r"digital\s+code",
     r"game\s+key\s+card",
     r"برای\s+پلی\s+استیشن\s*5?",
