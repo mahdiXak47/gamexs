@@ -19,3 +19,6 @@ node_modules/
 # Env
 .env
 .env.local
+
+# k8s Secrets (contain real credentials — never commit)
+k8s/*-secret.yaml

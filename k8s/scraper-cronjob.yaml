@@ -1,0 +1,65 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: gamexs-scraper
+  namespace: mahdixak-gamexs
+spec:
+  # 1:00 AM Tehran time = 21:30 UTC (Iran is UTC+3:30).
+  # Adjust if your cluster runs in a different timezone.
+  schedule: "30 21 * * *"
+
+  # Never run two scrape jobs at the same time.
+  concurrencyPolicy: Forbid
+
+  # Keep logs from the last 1 successful and 3 failed jobs.
+  successfulJobsHistoryLimit: 1
+  failedJobsHistoryLimit: 3
+
+  jobTemplate:
+    spec:
+      # Kill the job if it hasn't finished after 5 hours (prevents runaway pods).
+      activeDeadlineSeconds: 18000
+
+      # Don't retry automatically — a failed run should be investigated.
+      backoffLimit: 0
+
+      template:
+        metadata:
+          labels:
+            app: gamexs-scraper
+        spec:
+          restartPolicy: Never
+
+          containers:
+            - name: scraper
+              # Replace with your actual image tag after building and pushing.
+              # Build: docker build -t <registry>/gamexs-scraper:latest scraper/
+              # Push:  docker push <registry>/gamexs-scraper:latest
+              image: REGISTRY/gamexs-scraper:latest
+
+              command: ["bash", "scrape_all.sh"]
+
+              env:
+                - name: DATABASE_URL
+                  valueFrom:
+                    secretKeyRef:
+                      name: gamexs-scraper-secret
+                      key: DATABASE_URL
+                - name: HTTPS_PROXY
+                  valueFrom:
+                    secretKeyRef:
+                      name: gamexs-scraper-secret
+                      key: HTTPS_PROXY
+                - name: https_proxy
+                  valueFrom:
+                    secretKeyRef:
+                      name: gamexs-scraper-secret
+                      key: HTTPS_PROXY
+
+              resources:
+                requests:
+                  cpu: "250m"
+                  memory: "256Mi"
+                limits:
+                  cpu: "1000m"
+                  memory: "512Mi"
