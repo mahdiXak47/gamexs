@@ -10,6 +10,18 @@ const vazirmatn = Vazirmatn({
 export const metadata: Metadata = {
   title: "GameXS — مقایسه قیمت بازی‌های PS5",
   description: "مقایسه قیمت بازی، اکانت و اشتراک PS5 بین فروشندگان ایرانی",
+  openGraph: {
+    title: "GameXS — مقایسه قیمت بازی‌های PS5",
+    description: "مقایسه قیمت بازی، اکانت و اشتراک PS5 بین فروشندگان ایرانی",
+    type: "website",
+    locale: "fa_IR",
+    siteName: "GameXS",
+  },
+  twitter: {
+    card: "summary",
+    title: "GameXS — مقایسه قیمت بازی‌های PS5",
+    description: "مقایسه قیمت بازی، اکانت و اشتراک PS5 بین فروشندگان ایرانی",
+  },
 };
 
 export default function RootLayout({
