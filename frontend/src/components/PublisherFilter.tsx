@@ -68,7 +68,7 @@ export default function PublisherFilter({
       </Button>
 
       {open && (
-        <div className="absolute end-0 top-full z-50 mt-1 w-64 overflow-hidden rounded-xl border border-border bg-[var(--background)] shadow-2xl">
+        <div className="absolute start-0 top-full z-50 mt-1 w-64 max-w-[calc(100vw-2rem)] overflow-hidden rounded-xl border border-border bg-[var(--background)] shadow-2xl">
           {/* Search inside dropdown */}
           <div className="border-b border-border p-2">
             <input
