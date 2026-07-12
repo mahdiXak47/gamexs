@@ -9,7 +9,7 @@ export default function GameCard({ game }: { game: GameSummary }) {
     <Link href={`/games/${game.slug}`} className="group block h-full">
       <Card className="h-full gap-0 overflow-hidden p-0 transition-transform group-hover:-translate-y-1">
         <div className="relative">
-          <CoverArt coverUrl={game.coverUrl} initial={game.coverInitial} className="aspect-[3/4]" />
+          <CoverArt coverUrl={game.coverUrl} title={game.title} initial={game.coverInitial} className="aspect-[3/4]" />
           <Chip variant="primary" color="accent" size="sm" className="absolute right-3 top-3">
             PS5
           </Chip>

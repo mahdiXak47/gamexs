@@ -67,6 +67,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
 
           <CoverArt
             coverUrl={game.coverUrl}
+            title={game.title}
             initial={game.coverInitial}
             className="aspect-[3/4] rounded-2xl md:order-last"
           />
