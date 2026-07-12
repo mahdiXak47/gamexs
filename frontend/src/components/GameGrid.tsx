@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { Pagination, SearchField } from "@heroui/react";
 import GameCard from "./GameCard";
+import PublisherFilter from "./PublisherFilter";
 import SortBar, { type SortOption } from "./SortBar";
 import { toPersianDigits } from "@/lib/format";
 import type { GameSummary } from "@/lib/types";
@@ -25,19 +26,39 @@ function getPageNumbers(current: number, total: number): (number | "…")[] {
 export default function GameGrid({ games }: { games: GameSummary[] }) {
   const [query, setQueryRaw] = useState("");
   const [sort, setSortRaw] = useState<SortOption>("popular");
+  const [selectedPublishers, setSelectedPublishersRaw] = useState<Set<string>>(new Set());
   const [page, setPage] = useState(1);
 
   // Wrap setters so that changing filter/sort atomically resets to page 1
   const setQuery = (q: string) => { setQueryRaw(q); setPage(1); };
   const setSort = (s: SortOption) => { setSortRaw(s); setPage(1); };
+  const setSelectedPublishers = (s: Set<string>) => { setSelectedPublishersRaw(s); setPage(1); };
+
+  // Publishers with ≥ 2 games, sorted alphabetically — single-game publishers
+  // are excluded as they add noise without useful filtering value.
+  const publishersList = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const g of games) {
+      if (g.publisher) counts.set(g.publisher, (counts.get(g.publisher) ?? 0) + 1);
+    }
+    return [...counts.entries()]
+      .filter(([, n]) => n >= 2)
+      .sort(([a], [b]) => a.localeCompare(b))
+      .map(([pub]) => pub);
+  }, [games]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    if (!q) return games;
-    return games.filter(
-      (g) => g.title.toLowerCase().includes(q) || (g.genreLabel?.toLowerCase().includes(q) ?? false)
-    );
-  }, [games, query]);
+    return games.filter((g) => {
+      if (q && !g.title.toLowerCase().includes(q) && !(g.genreLabel?.toLowerCase().includes(q) ?? false)) {
+        return false;
+      }
+      if (selectedPublishers.size > 0 && (!g.publisher || !selectedPublishers.has(g.publisher))) {
+        return false;
+      }
+      return true;
+    });
+  }, [games, query, selectedPublishers]);
 
   const sorted = useMemo(() => {
     const copy = [...filtered];
@@ -77,7 +98,14 @@ export default function GameGrid({ games }: { games: GameSummary[] }) {
       </div>
 
       <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
-        <SortBar value={sort} onChange={setSort} />
+        <div className="flex flex-wrap items-center gap-2">
+          <SortBar value={sort} onChange={setSort} />
+          <PublisherFilter
+            publishers={publishersList}
+            selected={selectedPublishers}
+            onChange={setSelectedPublishers}
+          />
+        </div>
         {sorted.length > 0 && (
           <p className="text-xs text-muted">
             نمایش {toPersianDigits(start)} تا {toPersianDigits(end)} از {toPersianDigits(sorted.length)} بازی
@@ -89,7 +117,7 @@ export default function GameGrid({ games }: { games: GameSummary[] }) {
         <p className="mt-10 text-center text-sm text-muted">بازی‌ای با این عنوان پیدا نشد.</p>
       ) : (
         <>
-          <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+          <div className="mt-6 grid grid-cols-2 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             {paginated.map((game) => (
               <GameCard key={game.slug} game={game} />
             ))}

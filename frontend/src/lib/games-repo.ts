@@ -29,6 +29,7 @@ export async function listGames(): Promise<GameSummary[]> {
     slug: string;
     title: string;
     genre_label: string | null;
+    publisher: string | null;
     cover_url: string | null;
     lowest_price: string | null;
     store_count: string;
@@ -40,6 +41,7 @@ export async function listGames(): Promise<GameSummary[]> {
       g.slug,
       g.title,
       g.genre_label,
+      g.publisher,
       g.cover_url,
       g.created_at,
       MIN(latest.price_toman) AS lowest_price,
@@ -57,6 +59,7 @@ export async function listGames(): Promise<GameSummary[]> {
     slug: row.slug,
     title: row.title,
     genreLabel: row.genre_label,
+    publisher: row.publisher,
     coverInitial: deriveInitial(row.title),
     coverUrl: row.cover_url ?? localCoverUrl(row.title),
     lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),

@@ -94,6 +94,13 @@ run_pair persianconsole yungcenter|| failed_sellers+=" persianconsole/yungcenter
 run_pair technolife               || failed_sellers+=" technolife"
 
 # ---------------------------------------------------------------------------
+# Enrich new/unmatched games with IGDB metadata (cover, genre, publisher, year).
+# Runs after all sellers are loaded so new slugs from this run are included.
+# ---------------------------------------------------------------------------
+log "=== IGDB enrichment ==="
+python -m gamexs_scraper.enrich_metadata 2>&1 | sed 's/^/[igdb] /'
+
+# ---------------------------------------------------------------------------
 # Post-run cleanup: mark listings not seen in 3+ days as inactive,
 # then remove games that have no remaining active listings.
 # ---------------------------------------------------------------------------

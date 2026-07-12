@@ -16,7 +16,7 @@ export default function CoverArt({
       className={`relative flex items-center justify-center overflow-hidden bg-[repeating-linear-gradient(135deg,rgba(255,255,255,0.03)_0_10px,transparent_10px_20px)] ${className ?? ""}`}
     >
       {coverUrl ? (
-        <Image src={coverUrl} alt="" fill sizes="(max-width: 640px) 100vw, 400px" className="object-cover" />
+        <Image src={coverUrl} alt="" fill sizes="(max-width: 640px) 100vw, 400px" className="object-contain" />
       ) : (
         <>
           <span className="text-4xl font-bold text-white/15">{initial}</span>

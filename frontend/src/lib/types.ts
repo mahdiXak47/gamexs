@@ -43,6 +43,7 @@ export interface GameSummary {
   slug: string;
   title: string;
   genreLabel: string | null;
+  publisher: string | null;
   coverInitial: string;
   coverUrl: string | null;
   lowestPriceToman: number | null;

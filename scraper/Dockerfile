@@ -23,6 +23,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY gamexs_scraper/ gamexs_scraper/
+COPY scrape_all.sh .
 
 # Output directory for CSVs, JSONL caches, and cover images.
 # Mount a volume here in production so data persists across runs.

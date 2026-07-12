@@ -55,6 +55,16 @@ spec:
                     secretKeyRef:
                       name: gamexs-scraper-secret
                       key: HTTPS_PROXY
+                - name: IGDB_CLIENT_ID
+                  valueFrom:
+                    secretKeyRef:
+                      name: gamexs-scraper-secret
+                      key: IGDB_CLIENT_ID
+                - name: IGDB_CLIENT_SECRET
+                  valueFrom:
+                    secretKeyRef:
+                      name: gamexs-scraper-secret
+                      key: IGDB_CLIENT_SECRET
 
               resources:
                 requests:

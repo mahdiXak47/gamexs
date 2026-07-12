@@ -1,30 +1,14 @@
 import type { NextConfig } from "next";
 
-// All hostnames that serve cover images scraped from seller sites.
-// Add a new entry whenever a new seller's CDN appears in games.cover_url.
-const COVER_HOSTS = [
-  "dkstatics-public.digikala.com",
-  "parsconsole.com",
-  "gameplayshop.ir",
-  "pspro.ir",
-  "www.cdkeyshare.ir",
-  "cdkeyshare.ir",
-  "xgamesstore.org",
-  "nakhlmarket.com",
-  "gameonestore.com",
-  "cdnfa.com",
-  "game-center.ir",
-  "yungcenter.com",
-  "www.technolife.com",
-  "technolife.com",
-  "gamario.com",
-  "images.igdb.com",
-];
-
 const nextConfig: NextConfig = {
   output: "standalone",
+  // Cover images come from external CDNs already sized for display
+  // (IGDB t_cover_big = 264×374px; seller thumbnails are similarly bounded).
+  // unoptimized=true lets the browser fetch them directly, which avoids
+  // the Next.js server needing outbound HTTPS to each CDN — critical in
+  // environments where those CDNs require a proxy (local dev in Iran).
   images: {
-    remotePatterns: COVER_HOSTS.map((hostname) => ({ protocol: "https", hostname })),
+    unoptimized: true,
   },
 };
 
