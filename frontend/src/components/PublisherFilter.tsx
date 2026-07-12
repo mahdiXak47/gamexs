@@ -94,7 +94,7 @@ export default function PublisherFilter({
                     key={pub}
                     type="button"
                     onClick={() => toggle(pub)}
-                    className={`flex w-full items-center gap-3 px-4 py-2 text-sm text-start transition-colors hover:bg-white/5 ${
+                    className={`flex w-full cursor-pointer items-center gap-3 px-4 py-2 text-sm text-start transition-colors hover:bg-white/5 ${
                       active ? "text-foreground" : "text-muted"
                     }`}
                   >
@@ -118,7 +118,7 @@ export default function PublisherFilter({
               <button
                 type="button"
                 onClick={() => { onChange(new Set()); setOpen(false); }}
-                className="w-full rounded py-1 text-center text-xs text-muted transition-colors hover:text-foreground"
+                className="w-full cursor-pointer rounded py-1 text-center text-xs text-muted transition-colors hover:text-foreground"
               >
                 پاک کردن فیلتر ({toPersianDigits(selected.size)} سازنده)
               </button>
