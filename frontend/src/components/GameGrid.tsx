@@ -127,8 +127,12 @@ export default function GameGrid({ games }: { games: GameSummary[] }) {
       ) : (
         <>
           <div className="mt-6 grid grid-cols-2 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            {paginated.map((game) => (
-              <GameCard key={game.slug} game={game} />
+            {paginated.map((game, i) => (
+              <GameCard
+                key={game.slug}
+                game={game}
+                isBestPrice={sort === "price_asc" && safePage === 1 && i === 0 && game.lowestPriceToman !== null}
+              />
             ))}
           </div>
 
