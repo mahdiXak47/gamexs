@@ -1,7 +1,19 @@
 import Link from "next/link";
 import { Avatar, Button } from "@heroui/react";
 
-export default function Header() {
+function formatRelative(date: Date): string {
+  const diffMs = Date.now() - date.getTime();
+  const diffMin = Math.floor(diffMs / 60_000);
+  if (diffMin < 1) return "همین الان";
+  if (diffMin < 60) return `${diffMin} دقیقه پیش`;
+  const diffHr = Math.floor(diffMin / 60);
+  if (diffHr < 24) return `${diffHr} ساعت پیش`;
+  const diffDay = Math.floor(diffHr / 24);
+  return `${diffDay} روز پیش`;
+}
+
+export default function Header({ lastScrapedAt }: { lastScrapedAt?: Date | null }) {
+  const label = lastScrapedAt ? formatRelative(lastScrapedAt) : "نامشخص";
   return (
     <header className="border-b border-border">
       <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-4 py-4 sm:px-6">
@@ -26,7 +38,7 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-2 text-xs text-muted">
-          <span>به‌روزرسانی: حدود ۲ ساعت پیش</span>
+          <span>به‌روزرسانی: {label}</span>
           <span className="flex items-center gap-1" aria-label="سیستم آنلاین است">
             <span className="h-2 w-2 rounded-full bg-success" aria-hidden="true" />
             <span className="sr-only">آنلاین</span>

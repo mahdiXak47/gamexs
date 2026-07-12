@@ -2,18 +2,18 @@ import { Chip } from "@heroui/react";
 import Disclaimer from "@/components/Disclaimer";
 import GameGrid from "@/components/GameGrid";
 import Header from "@/components/Header";
-import { listGames } from "@/lib/games-repo";
+import { getLastScrapedAt, listGames } from "@/lib/games-repo";
 
 // Always read fresh from the DB — prices are updated by a periodic scrape,
 // so a statically cached page would silently go stale between deploys.
 export const dynamic = "force-dynamic";
 
 export default async function Home() {
-  const games = await listGames();
+  const [games, lastScrapedAt] = await Promise.all([listGames(), getLastScrapedAt()]);
 
   return (
     <>
-      <Header />
+      <Header lastScrapedAt={lastScrapedAt} />
       <main className="mx-auto max-w-6xl flex-1 px-4 py-10 sm:px-6">
         <h1 className="flex flex-wrap items-center gap-3 text-3xl font-extrabold sm:text-4xl">
           مقایسه قیمت بازی‌های

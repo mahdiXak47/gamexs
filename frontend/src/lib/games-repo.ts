@@ -128,3 +128,10 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     purchaseOptions,
   };
 }
+
+export async function getLastScrapedAt(): Promise<Date | null> {
+  const { rows } = await query<{ last_scraped_at: Date | null }>(
+    `SELECT MAX(scraped_at) AS last_scraped_at FROM price_history`
+  );
+  return rows[0]?.last_scraped_at ?? null;
+}
