@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Pagination, SearchField } from "@heroui/react";
+import { Button, Pagination, SearchField } from "@heroui/react";
 import GameCard from "./GameCard";
 import PublisherFilter from "./PublisherFilter";
 import SortBar, { type SortOption } from "./SortBar";
@@ -114,7 +114,16 @@ export default function GameGrid({ games }: { games: GameSummary[] }) {
       </div>
 
       {sorted.length === 0 ? (
-        <p className="mt-10 text-center text-sm text-muted">بازی‌ای با این عنوان پیدا نشد.</p>
+        <div className="mt-10 flex flex-col items-center gap-3 text-center">
+          <p className="text-sm text-muted">بازی‌ای با این فیلترها پیدا نشد.</p>
+          <Button
+            variant="ghost"
+            size="sm"
+            onPress={() => { setQuery(""); setSelectedPublishers(new Set()); }}
+          >
+            پاک کردن جستجو و فیلترها
+          </Button>
+        </div>
       ) : (
         <>
           <div className="mt-6 grid grid-cols-2 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
