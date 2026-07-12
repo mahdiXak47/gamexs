@@ -25,7 +25,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
       <Header />
       <main className="mx-auto max-w-6xl flex-1 px-4 py-10 sm:px-6">
         <Link href="/" className="inline-flex items-center gap-2 text-sm text-muted hover:text-foreground">
-          بازگشت به فهرست بازی‌ها →
+          ← بازگشت به فهرست بازی‌ها
         </Link>
 
         <div className="mt-6 grid grid-cols-1 gap-8 md:grid-cols-[1fr_320px]">
