@@ -27,7 +27,10 @@ export default function Header() {
 
         <div className="flex items-center gap-2 text-xs text-muted">
           <span>به‌روزرسانی: حدود ۲ ساعت پیش</span>
-          <span className="h-2 w-2 rounded-full bg-success" />
+          <span className="flex items-center gap-1" aria-label="سیستم آنلاین است">
+            <span className="h-2 w-2 rounded-full bg-success" aria-hidden="true" />
+            <span className="sr-only">آنلاین</span>
+          </span>
         </div>
       </div>
     </header>
