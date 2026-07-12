@@ -175,6 +175,70 @@ def _year(result: dict) -> int | None:
 
 
 # ---------------------------------------------------------------------------
+# DB write with reconnect-on-failure (survives kubectl port-forward drops)
+# ---------------------------------------------------------------------------
+_RECONNECT_DELAY = 20  # seconds between reconnect attempts (infinite retries)
+
+
+def _db_connect(database_url: str) -> psycopg.Connection:
+    """Connect with infinite retries — waits for port-forward to come back."""
+    attempt = 0
+    while True:
+        try:
+            return psycopg.connect(database_url, connect_timeout=10)
+        except psycopg.OperationalError as exc:
+            attempt += 1
+            print(
+                f"\n  DB unavailable (attempt {attempt}): {exc}\n"
+                f"  Waiting {_RECONNECT_DELAY}s — restart port-forward if needed …",
+                file=sys.stderr,
+            )
+            time.sleep(_RECONNECT_DELAY)
+
+
+def _write_game(
+    database_url: str,
+    game_id: int,
+    igdb_id: int,
+    genre: str | None,
+    publisher: str | None,
+    year: int | None,
+    cover: str | None,
+) -> None:
+    while True:
+        try:
+            with _db_connect(database_url) as conn:
+                with conn.cursor() as cur:
+                    cur.execute(
+                        """
+                        UPDATE games SET
+                            igdb_id      = %s,
+                            genre_label  = COALESCE(%s, genre_label),
+                            publisher    = COALESCE(%s, publisher),
+                            release_year = COALESCE(%s::smallint, release_year),
+                            cover_url    = COALESCE(%s, cover_url)
+                        WHERE id = %s
+                        """,
+                        (igdb_id, genre, publisher, year, cover, game_id),
+                    )
+                conn.commit()
+            return
+        except psycopg.OperationalError as exc:
+            print(f"\n  Write failed mid-connection: {exc}; retrying …", file=sys.stderr)
+            time.sleep(_RECONNECT_DELAY)
+
+
+def _fetch_games(database_url: str, all_games: bool) -> list[tuple[int, str]]:
+    with _db_connect(database_url) as conn:
+        with conn.cursor() as cur:
+            if all_games:
+                cur.execute("SELECT id, title FROM games ORDER BY title")
+            else:
+                cur.execute("SELECT id, title FROM games WHERE igdb_id IS NULL ORDER BY title")
+            return cur.fetchall()
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 def main() -> None:
@@ -209,13 +273,7 @@ def main() -> None:
         "Content-Type": "text/plain",
     })
 
-    with psycopg.connect(database_url) as conn:
-        with conn.cursor() as cur:
-            if args.all:
-                cur.execute("SELECT id, title FROM games ORDER BY title")
-            else:
-                cur.execute("SELECT id, title FROM games WHERE igdb_id IS NULL ORDER BY title")
-            games = cur.fetchall()
+    games = _fetch_games(database_url, args.all)
 
     if args.limit:
         games = games[: args.limit]
@@ -225,58 +283,44 @@ def main() -> None:
 
     matched = skipped = errors = 0
 
-    with psycopg.connect(database_url) as conn:
-        for i, (game_id, title) in enumerate(games, start=1):
-            print(f"\r[{i:>4}/{total}] {title[:55]:<55}", end="", file=sys.stderr)
+    for i, (game_id, title) in enumerate(games, start=1):
+        print(f"\r[{i:>4}/{total}] {title[:55]:<55}", end="", file=sys.stderr)
 
-            search_term = _search_title(title)
-            if not search_term:
-                skipped += 1
-                continue
+        search_term = _search_title(title)
+        if not search_term:
+            skipped += 1
+            continue
 
-            try:
-                results = _igdb_search(session, search_term)
-                time.sleep(_RATE_DELAY)
-            except requests.RequestException as exc:
-                print(f"\n  request error for {title!r}: {exc}", file=sys.stderr)
-                errors += 1
-                continue
+        try:
+            results = _igdb_search(session, search_term)
+            time.sleep(_RATE_DELAY)
+        except requests.RequestException as exc:
+            print(f"\n  request error for {title!r}: {exc}", file=sys.stderr)
+            errors += 1
+            continue
 
-            best = _pick_best(results, search_term)
-            if not best:
-                skipped += 1
-                continue
+        best = _pick_best(results, search_term)
+        if not best:
+            skipped += 1
+            continue
 
-            igdb_id = best["id"]
-            cover = _cover_url(best)
-            genre = _genre(best)
-            publisher = _publisher(best)
-            year = _year(best)
+        igdb_id = best["id"]
+        cover = _cover_url(best)
+        genre = _genre(best)
+        publisher = _publisher(best)
+        year = _year(best)
 
-            if args.dry_run:
-                print(
-                    f"\n  → igdb:{igdb_id} {best['name']!r}  "
-                    f"genre={genre} pub={publisher} year={year} cover={'yes' if cover else 'no'}",
-                    file=sys.stderr,
-                )
-                matched += 1
-                continue
-
-            with conn.cursor() as cur:
-                cur.execute(
-                    """
-                    UPDATE games SET
-                        igdb_id      = %s,
-                        genre_label  = COALESCE(%s, genre_label),
-                        publisher    = COALESCE(%s, publisher),
-                        release_year = COALESCE(%s::smallint, release_year),
-                        cover_url    = COALESCE(%s, cover_url)
-                    WHERE id = %s
-                    """,
-                    (igdb_id, genre, publisher, year, cover, game_id),
-                )
-            conn.commit()
+        if args.dry_run:
+            print(
+                f"\n  → igdb:{igdb_id} {best['name']!r}  "
+                f"genre={genre} pub={publisher} year={year} cover={'yes' if cover else 'no'}",
+                file=sys.stderr,
+            )
             matched += 1
+            continue
+
+        _write_game(database_url, game_id, igdb_id, genre, publisher, year, cover)
+        matched += 1
 
     print(file=sys.stderr)
     print(
