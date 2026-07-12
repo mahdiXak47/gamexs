@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Avatar, Button } from "@heroui/react";
+import { Avatar, Button, Tooltip } from "@heroui/react";
 
 function formatRelative(date: Date): string {
   const diffMs = Date.now() - date.getTime();
@@ -27,8 +27,14 @@ export default function Header({ lastScrapedAt }: { lastScrapedAt?: Date | null 
         </Link>
 
         <nav className="flex items-center gap-1">
-          <Button variant="ghost" size="sm" isDisabled>گیفت کارت</Button>
-          <Button variant="ghost" size="sm" isDisabled>اشتراک‌ها</Button>
+          <Tooltip>
+            <Tooltip.Trigger><Button variant="ghost" size="sm" isDisabled>گیفت کارت</Button></Tooltip.Trigger>
+            <Tooltip.Content>به زودی</Tooltip.Content>
+          </Tooltip>
+          <Tooltip>
+            <Tooltip.Trigger><Button variant="ghost" size="sm" isDisabled>اشتراک‌ها</Button></Tooltip.Trigger>
+            <Tooltip.Content>به زودی</Tooltip.Content>
+          </Tooltip>
           <Link
             href="/"
             className="inline-flex h-9 items-center justify-center rounded-3xl bg-default px-4 text-sm font-medium text-default-foreground md:h-8"
