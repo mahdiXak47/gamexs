@@ -15,7 +15,7 @@ export default function GameCard({ game }: { game: GameSummary }) {
           </Chip>
         </div>
         <Card.Content className="flex flex-col gap-2 p-4">
-          <p className="text-sm font-bold text-foreground">{game.title}</p>
+          <p className="line-clamp-2 text-sm font-bold text-foreground">{game.title}</p>
           {game.genreLabel && <p className="text-xs text-muted">{game.genreLabel}</p>}
           <div className="mt-1 flex items-baseline gap-1.5">
             <span className="text-xs text-muted">از</span>
