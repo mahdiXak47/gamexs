@@ -17,3 +17,8 @@ body {
 ::selection {
   background: color-mix(in oklch, var(--accent) 35%, transparent);
 }
+
+/* Tabular digits for prices so digit widths stay consistent in lists */
+.price-figure {
+  font-variant-numeric: tabular-nums;
+}

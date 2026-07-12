@@ -55,7 +55,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
               <Card.Content className="gap-1">
                 <div className="text-sm font-bold text-success">کمترین قیمت</div>
                 <div className="flex items-baseline gap-1.5">
-                  <span className="text-2xl font-extrabold">
+                  <span className="price-figure text-2xl font-extrabold">
                     {price === null ? "—" : formatToman(price)}
                   </span>
                   <span className="text-xs text-muted">تومان</span>

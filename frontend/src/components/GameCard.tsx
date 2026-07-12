@@ -19,7 +19,7 @@ export default function GameCard({ game }: { game: GameSummary }) {
           {game.genreLabel && <p className="text-xs text-muted">{game.genreLabel}</p>}
           <div className="mt-1 flex items-baseline gap-1.5">
             <span className="text-xs text-muted">از</span>
-            <span className="text-lg font-extrabold text-foreground">
+            <span className="price-figure text-lg font-extrabold text-foreground">
               {game.lowestPriceToman === null ? "—" : formatToman(game.lowestPriceToman)}
             </span>
             <span className="text-xs text-muted">تومان</span>

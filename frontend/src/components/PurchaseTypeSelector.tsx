@@ -38,7 +38,7 @@ export default function PurchaseTypeSelector({ options }: { options: PurchaseOpt
               <div className="mt-1 text-xs text-muted">{opt.subtitle}</div>
               <div className="mt-3 flex items-baseline gap-1">
                 <span className="text-xs text-muted">از</span>
-                <span className={`font-extrabold ${active ? "text-warning" : ""}`}>
+                <span className={`price-figure font-extrabold ${active ? "text-warning" : ""}`}>
                   {price === null ? "—" : formatToman(price)}
                 </span>
               </div>
@@ -114,7 +114,7 @@ function SellerTable({ option }: { option: PurchaseOption }) {
                       </div>
                     </Table.Cell>
                     <Table.Cell>
-                      <span className="font-bold">
+                      <span className="price-figure font-bold">
                         {formatToman(offer.priceToman)}{" "}
                         <span className="text-xs font-normal text-muted">تومان</span>
                       </span>
