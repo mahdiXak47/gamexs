@@ -32,10 +32,7 @@ spec:
 
           containers:
             - name: scraper
-              # Replace with your actual image tag after building and pushing.
-              # Build: docker build -t <registry>/gamexs-scraper:latest scraper/
-              # Push:  docker push <registry>/gamexs-scraper:latest
-              image: REGISTRY/gamexs-scraper:latest
+              image: registry.hamdocker.ir/mahdixak/gamexs-scraper:latest
 
               command: ["bash", "scrape_all.sh"]
 
@@ -45,16 +42,6 @@ spec:
                     secretKeyRef:
                       name: gamexs-scraper-secret
                       key: DATABASE_URL
-                - name: HTTPS_PROXY
-                  valueFrom:
-                    secretKeyRef:
-                      name: gamexs-scraper-secret
-                      key: HTTPS_PROXY
-                - name: https_proxy
-                  valueFrom:
-                    secretKeyRef:
-                      name: gamexs-scraper-secret
-                      key: HTTPS_PROXY
                 - name: IGDB_CLIENT_ID
                   valueFrom:
                     secretKeyRef:
