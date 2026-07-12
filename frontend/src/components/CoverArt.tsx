@@ -6,19 +6,21 @@ export default function CoverArt({
   initial,
   className,
   children,
+  priority = false,
 }: {
   coverUrl?: string | null;
   title?: string;
   initial: string;
   className?: string;
   children?: React.ReactNode;
+  priority?: boolean;
 }) {
   return (
     <div
       className={`relative flex items-center justify-center overflow-hidden bg-[repeating-linear-gradient(135deg,rgba(255,255,255,0.03)_0_10px,transparent_10px_20px)] ${className ?? ""}`}
     >
       {coverUrl ? (
-        <Image src={coverUrl} alt={title ?? ""} fill sizes="(max-width: 640px) 100vw, 400px" className="object-contain" />
+        <Image src={coverUrl} alt={title ?? ""} fill sizes="(max-width: 640px) 100vw, 400px" className="object-contain" loading={priority ? "eager" : "lazy"} />
       ) : (
         <>
           <span className="text-4xl font-bold text-white/15">{initial}</span>

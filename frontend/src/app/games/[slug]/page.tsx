@@ -70,6 +70,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
             title={game.title}
             initial={game.coverInitial}
             className="aspect-[3/4] rounded-2xl md:order-last"
+            priority
           />
         </div>
 
