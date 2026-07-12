@@ -38,19 +38,16 @@ spec:
 
               env:
                 - name: DATABASE_URL
-                  valueFrom:
-                    secretKeyRef:
-                      name: gamexs-scraper-secret
-                      key: DATABASE_URL
+                  value: "postgresql://gamexs:gamexs@gamexs-db.mahdixak-gamexs.svc:5432/gamexs"
                 - name: IGDB_CLIENT_ID
                   valueFrom:
                     secretKeyRef:
-                      name: gamexs-scraper-secret
+                      name: gamexs-secret-envs
                       key: IGDB_CLIENT_ID
                 - name: IGDB_CLIENT_SECRET
                   valueFrom:
                     secretKeyRef:
-                      name: gamexs-scraper-secret
+                      name: gamexs-secret-envs
                       key: IGDB_CLIENT_SECRET
 
               resources:
