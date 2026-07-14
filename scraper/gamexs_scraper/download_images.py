@@ -20,7 +20,7 @@ from .normalize import normalize_game_name
 # titles are kept as-is rather than stripped to ASCII — stripping them
 # collapsed Persian-only titles (e.g. "زورو") to an empty string and caused
 # unrelated games to silently overwrite each other's cover file.
-_UNSAFE_CHARS_RE = re.compile(r'[/\\:*?"<>|]+')
+_UNSAFE_CHARS_RE = re.compile(r'[/\\:*?"<>|&]+')
 _WHITESPACE_RE = re.compile(r"\s+")
 
 

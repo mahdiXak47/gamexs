@@ -24,11 +24,10 @@ from .models import RawOffer
 from .normalize import clean_title, normalize_game_name
 
 # download_images.slugify() only strips filesystem-unsafe characters — fine
-# for image filenames, but "#" and "%" have structural meaning in a URL path
-# (a leading "#" turns the whole thing into a fragment, so the link silently
-# does nothing instead of navigating) and must not survive into a DB slug
-# that the frontend uses directly as a route segment.
-_URL_UNSAFE_RE = re.compile(r"[#%]+")
+# for image filenames, but several chars have structural meaning in a URL path:
+# "#" starts a fragment, "%" is a percent-encode prefix, "&"/"?" are
+# query-string delimiters. All must be stripped from DB slugs used as route segments.
+_URL_UNSAFE_RE = re.compile(r"[#%&?]+")
 _EDGE_DASH_RE = re.compile(r"^-+|-+$")
 
 # Sellers whose product images are reliable enough to overwrite any existing
