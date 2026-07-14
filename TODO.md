@@ -95,3 +95,8 @@ note about production object-storage URLs.
   no seller scraped for these categories yet.
 - Price-history chart UI on game detail page.
 - Cross-seller deduplication using `igdb_id` as canonical key.
+- **Pre-order & unreleased games**: include games that are not yet launched
+  (available for pre-order). Sellers already list pre-order prices; the scraper
+  and DB schema support them, but the frontend currently shows no indicator.
+  Needs: pre-order badge on GameCard, release date prominence on detail page,
+  and filtering/sorting that accounts for unreleased titles.
