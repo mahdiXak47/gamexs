@@ -8,6 +8,8 @@ _PERSIAN_DIGIT_TABLE = str.maketrans("۰۱۲۳۴۵۶۷۸۹", "0123456789")
 # group one seller's own listings; cross-seller/catalog matching should go
 # through the IGDB-backed canonical catalog + admin review queue instead.
 _NOISE_PATTERNS = [
+    # "و قیمت" = "and price" — seller prefix e.g. "و قیمت Red Dead Redemption"
+    r"و\s+قیمت",
     r"خرید\s+اکانت\s+بازی",
     r"خرید\s+بازی",
     r"اکانت\s+ظرفیتی",
