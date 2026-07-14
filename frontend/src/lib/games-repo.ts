@@ -3,6 +3,23 @@ import { coverUrl as localCoverUrl } from "./covers";
 import { emptyPurchaseOptions, findOption } from "./purchase-options";
 import type { AccessTier, Game, GameSummary, ProductType } from "./types";
 
+// Resolve cover URL with two-tier fallback:
+// 1. Local pspro image (scraped file on disk) — present in local dev, absent in production.
+// 2. IGDB URL via server-side proxy — images.igdb.com is blocked in Iran for browsers,
+//    but the k8s server can reach it, so the proxy bridges the gap in production.
+//    In dev the Next.js server also runs locally (in Iran) and can't reach IGDB,
+//    so we skip the proxy and let the initial-letter fallback show instead.
+function toCoverUrl(dbUrl: string | null, title: string): string | null {
+  const local = localCoverUrl(title);
+  if (local) return local;
+  if (!dbUrl) return null;
+  if (dbUrl.includes("images.igdb.com")) {
+    if (process.env.NODE_ENV !== "production") return null;
+    return `/api/cover-proxy?url=${encodeURIComponent(dbUrl)}`;
+  }
+  return dbUrl;
+}
+
 // "Current" price/stock per listing is the most recent price_history row —
 // never an all-time min/max, since price_history accumulates one row per
 // scrape and older rows shouldn't outrank a fresher one.
@@ -61,7 +78,7 @@ export async function listGames(): Promise<GameSummary[]> {
     genreLabel: row.genre_label,
     publisher: row.publisher,
     coverInitial: deriveInitial(row.title),
-    coverUrl: row.cover_url ?? localCoverUrl(row.title),
+    coverUrl: toCoverUrl(row.cover_url, row.title),
     lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
     storeCount: Number(row.store_count),
     purchaseTypeCount: Number(row.purchase_type_count),

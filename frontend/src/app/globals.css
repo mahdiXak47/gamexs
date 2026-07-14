@@ -3,10 +3,19 @@
 
 @theme inline {
   --font-sans: var(--font-vazirmatn);
+  --color-ps-blue: #003087;
+  --color-ps-blue-hover: #0050b3;
+  --color-ps-blue-light: #e8f0fb;
+  --color-ps-plus-gold: #f6b829;
+  --color-page-bg: #f0f4f8;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
+  background: var(--color-page-bg, #f0f4f8);
   color: var(--foreground);
   min-height: 100%;
   display: flex;
@@ -15,10 +24,92 @@ body {
 }
 
 ::selection {
-  background: color-mix(in oklch, var(--accent) 35%, transparent);
+  background: color-mix(in oklch, var(--color-ps-blue) 30%, transparent);
 }
 
-/* Tabular digits for prices so digit widths stay consistent in lists */
+/* Skip to main content — visible only on keyboard focus */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  inset-inline-start: 0;
+  z-index: 200;
+  background: var(--color-ps-blue);
+  color: white;
+  padding: 12px 24px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-end-end-radius: 8px;
+  transition: top 150ms ease-out;
+}
+.skip-link:focus {
+  top: 0;
+  outline: 3px solid white;
+  outline-offset: -3px;
+}
+
 .price-figure {
   font-variant-numeric: tabular-nums;
+}
+
+/* PS blue header */
+.ps-header {
+  background: linear-gradient(135deg, #003087 0%, #0050b3 100%);
+}
+
+/* Hero banner slide content fade-in */
+@keyframes hero-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-content-enter {
+  animation: hero-fade-in 300ms ease-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-content-enter {
+    animation: none;
+  }
+}
+
+/* Top games rank number */
+.rank-number {
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 2px rgba(0, 48, 135, 0.2);
+  user-select: none;
+}
+
+/* Card 3D hover — disabled when reduced motion is preferred */
+@media (prefers-reduced-motion: no-preference) {
+  .game-card-3d {
+    transition: transform 200ms ease-out, box-shadow 200ms ease-out;
+  }
+  .game-card-3d:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px rgba(0, 48, 135, 0.15);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .game-card-3d:hover {
+    box-shadow: 0 8px 20px rgba(0, 48, 135, 0.12);
+  }
+}
+
+/* Hide scrollbar utility (cross-browser) */
+.hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
 }

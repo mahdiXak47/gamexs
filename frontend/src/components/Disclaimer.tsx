@@ -2,7 +2,7 @@ import { Alert } from "@heroui/react";
 
 export default function Disclaimer() {
   return (
-    <footer className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+    <footer className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
       <Alert status="default">
         <Alert.Indicator>ⓘ</Alert.Indicator>
         <Alert.Content>

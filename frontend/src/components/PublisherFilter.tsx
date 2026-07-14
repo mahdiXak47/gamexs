@@ -68,16 +68,16 @@ export default function PublisherFilter({
       </Button>
 
       {open && (
-        <div className="absolute start-0 top-full z-50 mt-1 w-64 max-w-[calc(100vw-2rem)] overflow-hidden rounded-xl border border-border bg-[var(--background)] shadow-2xl">
+        <div className="absolute start-0 top-full z-50 mt-1 w-64 max-w-[calc(100vw-2rem)] overflow-hidden rounded-xl border border-gray-200 bg-white shadow-2xl">
           {/* Search inside dropdown */}
-          <div className="border-b border-border p-2">
+          <div className="border-b border-gray-200 p-2">
             <input
               ref={searchRef}
               type="text"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               placeholder="جستجوی سازنده…"
-              className="w-full rounded-lg bg-white/5 px-3 py-1.5 text-sm text-foreground placeholder:text-muted outline-none focus:ring-1 focus:ring-accent"
+              className="w-full rounded-lg bg-gray-100 px-3 py-1.5 text-sm text-gray-900 placeholder:text-gray-400 outline-none focus:ring-1 focus:ring-[#003087]"
               dir="auto"
             />
           </div>
@@ -85,7 +85,7 @@ export default function PublisherFilter({
           {/* Publisher list */}
           <div className="max-h-64 overflow-y-auto py-1">
             {visible.length === 0 ? (
-              <p className="px-4 py-3 text-center text-xs text-muted">موردی پیدا نشد</p>
+              <p className="px-4 py-3 text-center text-xs text-gray-400">موردی پیدا نشد</p>
             ) : (
               visible.map((pub) => {
                 const active = selected.has(pub);
@@ -94,13 +94,13 @@ export default function PublisherFilter({
                     key={pub}
                     type="button"
                     onClick={() => toggle(pub)}
-                    className={`flex w-full cursor-pointer items-center gap-3 px-4 py-2 text-sm text-start transition-colors hover:bg-white/5 ${
-                      active ? "text-foreground" : "text-muted"
+                    className={`flex w-full cursor-pointer items-center gap-3 px-4 py-2 text-sm text-start transition-colors hover:bg-gray-100 ${
+                      active ? "text-gray-900" : "text-gray-500"
                     }`}
                   >
                     <span
                       className={`flex h-4 w-4 shrink-0 items-center justify-center rounded border text-[9px] font-bold transition-colors ${
-                        active ? "border-accent bg-accent text-white" : "border-border"
+                        active ? "border-[#003087] bg-[#003087] text-white" : "border-gray-300"
                       }`}
                     >
                       {active && "✓"}
@@ -114,11 +114,11 @@ export default function PublisherFilter({
 
           {/* Clear filter footer */}
           {selected.size > 0 && (
-            <div className="border-t border-border px-3 py-2">
+            <div className="border-t border-gray-200 px-3 py-2">
               <button
                 type="button"
                 onClick={() => { onChange(new Set()); setOpen(false); }}
-                className="w-full cursor-pointer rounded py-1 text-center text-xs text-muted transition-colors hover:text-foreground"
+                className="w-full cursor-pointer rounded py-1 text-center text-xs text-gray-400 transition-colors hover:text-gray-900"
               >
                 پاک کردن فیلتر ({toPersianDigits(selected.size)} سازنده)
               </button>

@@ -2,30 +2,59 @@ import { Chip } from "@heroui/react";
 import Disclaimer from "@/components/Disclaimer";
 import GameGrid from "@/components/GameGrid";
 import Header from "@/components/Header";
+import HeroBanner from "@/components/HeroBanner";
+import TopGames from "@/components/TopGames";
 import { getLastScrapedAt, listGames } from "@/lib/games-repo";
 
-// Always read fresh from the DB — prices are updated by a periodic scrape,
-// so a statically cached page would silently go stale between deploys.
 export const dynamic = "force-dynamic";
 
 export default async function Home() {
   const [games, lastScrapedAt] = await Promise.all([listGames(), getLastScrapedAt()]);
 
+  // Sort by popularity (storeCount) for featured/trending sections
+  const byPopularity = [...games].sort((a, b) => b.storeCount - a.storeCount);
+  const featuredGames = byPopularity.slice(0, 5); // hero carousel
+  const topGames = byPopularity.slice(0, 10);     // top 10 section
+
+  // Format last updated for display
+  const lastUpdated = lastScrapedAt
+    ? new Intl.DateTimeFormat("fa-IR", { dateStyle: "short", timeStyle: "short" }).format(lastScrapedAt)
+    : null;
+
   return (
     <>
-      <Header lastScrapedAt={lastScrapedAt} />
-      <main className="mx-auto max-w-6xl flex-1 px-4 py-10 sm:px-6">
-        <h1 className="flex flex-wrap items-center gap-3 text-3xl font-extrabold sm:text-4xl">
-          مقایسه قیمت بازی‌های
-          <Chip variant="primary" color="accent">PS5</Chip>
-        </h1>
-        <p className="mt-3 max-w-2xl text-muted">
-          قیمت هر بازی را در فروشگاه‌های معتبر ایران، بر اساس نوع خرید (ظرفیت اکانت، دیسک و…) کنار هم
-          ببینید و بهترین گزینه را پیدا کنید.
-        </p>
+      <Header />
 
+      {/* Hero Banner */}
+      <HeroBanner games={featuredGames} />
+
+      {/* Top 10 Trending */}
+      <TopGames games={topGames} />
+
+      {/* Divider */}
+      <div className="mx-auto max-w-7xl px-4 sm:px-6">
+        <div className="border-t border-gray-200" />
+      </div>
+
+      {/* Full Games Catalog */}
+      <main id="main-content" className="mx-auto max-w-7xl flex-1 px-4 py-8 sm:px-6">
+        <div className="flex flex-wrap items-center gap-3 mb-2">
+          <h1 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">
+            همه بازی‌ها
+          </h1>
+          <Chip variant="soft" color="accent" size="sm">PS5</Chip>
+        </div>
+        <p className="text-sm text-gray-500 mb-1">
+          مقایسه قیمت در فروشندگان معتبر ایران
+        </p>
+        {lastUpdated && (
+          <p className="text-xs text-gray-400 mb-6">
+            آخرین به‌روزرسانی: {lastUpdated}
+          </p>
+        )}
         <GameGrid games={games} />
       </main>
+
       <Disclaimer />
     </>
   );

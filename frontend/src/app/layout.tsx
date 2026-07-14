@@ -30,8 +30,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fa" dir="rtl" className={`${vazirmatn.variable} h-full antialiased dark`}>
-      <body suppressHydrationWarning>{children}</body>
+    <html lang="fa" dir="rtl" className={`${vazirmatn.variable} h-full antialiased`}>
+      <body suppressHydrationWarning>
+        <a href="#main-content" className="skip-link">رفتن به محتوای اصلی</a>
+        {children}
+      </body>
     </html>
   );
 }

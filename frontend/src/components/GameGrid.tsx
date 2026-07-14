@@ -107,7 +107,7 @@ export default function GameGrid({ games }: { games: GameSummary[] }) {
           />
         </div>
         {sorted.length > 0 && (
-          <p className="text-xs text-muted">
+          <p className="text-xs text-gray-500">
             نمایش {toPersianDigits(start)} تا {toPersianDigits(end)} از {toPersianDigits(sorted.length)} بازی
           </p>
         )}
@@ -115,7 +115,7 @@ export default function GameGrid({ games }: { games: GameSummary[] }) {
 
       {sorted.length === 0 ? (
         <div className="mt-10 flex flex-col items-center gap-3 text-center">
-          <p className="text-sm text-muted">بازی‌ای با این فیلترها پیدا نشد.</p>
+          <p className="text-sm text-gray-500">بازی‌ای با این فیلترها پیدا نشد.</p>
           <Button
             variant="ghost"
             size="sm"

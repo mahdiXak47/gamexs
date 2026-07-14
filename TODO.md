@@ -73,6 +73,21 @@ Known data quality issues:
   kubectl apply -f k8s/scraper-secret.yaml
   ```
 
+## Cover image delivery
+
+- ✅ **Server-side proxy** (`/api/cover-proxy`): `images.igdb.com` is blocked in Iran.
+  `games-repo.ts::toCoverUrl()` rewrites all IGDB URLs to `/api/cover-proxy?url=…`
+  so the Next.js server fetches them server-side (k8s has internet access). Proxy uses:
+  - Semaphore (`MAX_CONCURRENT=3`) — stays well under IGDB CDN's connection limit
+  - Request coalescing (`inflight` Map) — concurrent requests for the same image share one outbound fetch
+  - `next: { revalidate: 604800 }` — Next.js data cache stores each image for 7 days
+  - `Cache-Control: public, max-age=604800, immutable` — browser caches indefinitely
+
+**Long-term (optional)**: Download covers at scrape time → push to object storage
+(e.g. S3-compatible on Hamravesh) → store object-storage URL in `games.cover_url`.
+Eliminates the proxy entirely and serves images from a CDN. Aligns with the CLAUDE.md
+note about production object-storage URLs.
+
 ## Explicitly deferred by product decision (not urgent)
 
 - User accounts, favorites, price-drop alerts.
