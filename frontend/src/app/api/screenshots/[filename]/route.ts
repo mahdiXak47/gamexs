@@ -28,7 +28,7 @@ export async function GET(_req: Request, { params }: { params: Promise<{ filenam
     return new Response(data, {
       headers: {
         "Content-Type": mime,
-        "Cache-Control": "public, max-age=604800, immutable",
+        "Cache-Control": "public, max-age=86400, stale-while-revalidate=604800",
       },
     });
   } catch {

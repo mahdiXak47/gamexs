@@ -35,7 +35,7 @@ export async function GET(_request: Request, { params }: { params: Promise<{ fil
   return new Response(data, {
     headers: {
       "Content-Type": mime,
-      "Cache-Control": "public, max-age=604800, immutable",
+      "Cache-Control": "public, max-age=86400, stale-while-revalidate=604800",
     },
   });
 }
