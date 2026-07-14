@@ -22,16 +22,29 @@ function slugify(name: string): string {
     .replace(/^-+|-+$/g, "");
 }
 
-let cachedFiles: string[] | null = null;
+let cachedPsproFiles: string[] | null = null;
+let cachedIgdbCoverFiles: string[] | null = null;
+let cachedScreenshotFiles: string[] | null = null;
 
 function listCoverFiles(): string[] {
-  if (cachedFiles) return cachedFiles;
-  try {
-    cachedFiles = fs.readdirSync(COVERS_DIR);
-  } catch {
-    cachedFiles = [];
-  }
-  return cachedFiles;
+  if (cachedPsproFiles) return cachedPsproFiles;
+  try { cachedPsproFiles = fs.readdirSync(COVERS_DIR); }
+  catch { cachedPsproFiles = []; }
+  return cachedPsproFiles;
+}
+
+function listIgdbCoverFiles(): string[] {
+  if (cachedIgdbCoverFiles) return cachedIgdbCoverFiles;
+  try { cachedIgdbCoverFiles = fs.readdirSync(IGDB_DOWNLOAD_COVERS_DIR); }
+  catch { cachedIgdbCoverFiles = []; }
+  return cachedIgdbCoverFiles;
+}
+
+function listScreenshotFiles(): string[] {
+  if (cachedScreenshotFiles) return cachedScreenshotFiles;
+  try { cachedScreenshotFiles = fs.readdirSync(SCREENSHOTS_DIR); }
+  catch { cachedScreenshotFiles = []; }
+  return cachedScreenshotFiles;
 }
 
 export function findCoverFile(title: string): string | null {
@@ -83,7 +96,7 @@ export function igdbCoverUrl(rawUrl: string | null): string | null {
   }
 }
 
-// Returns a local URL for a screenshot image_id if the file was downloaded.
+// Returns a local URL for a legacy image_id-named screenshot if it was downloaded.
 export function screenshotUrl(imageId: string): string | null {
   try {
     fs.accessSync(path.join(SCREENSHOTS_DIR, `${imageId}.jpg`));
@@ -93,32 +106,35 @@ export function screenshotUrl(imageId: string): string | null {
   }
 }
 
-// Returns a local /api/covers/ URL if an IGDB-downloaded cover exists for this slug
-// (i.e. {slug}-main-cover.webp in the covers/ output dir). Used when the DB row
-// hasn't been updated yet via update_local_paths.py.
+// Returns a local /api/covers/ URL if an IGDB-downloaded cover can be found for this slug.
+// Checks in two passes:
+//   1. Exact:  {slug}-main-cover.webp
+//   2. Suffix: any file ending with -{slug}-main-cover.webp
+// The suffix pass catches the common case where the download script wrote the file for
+// a duplicate DB row whose slug has a prefix (e.g. "و-قیمت-black-myth-wukong-main-cover.webp"
+// found for slug "black-myth-wukong").
 export function localIgdbCoverUrl(slug: string): string | null {
-  const filename = `${slug}-main-cover.webp`;
-  try {
-    fs.accessSync(path.join(IGDB_DOWNLOAD_COVERS_DIR, filename));
-    return `/api/covers/${encodeURIComponent(filename)}`;
-  } catch {
-    return null;
-  }
+  const files = listIgdbCoverFiles();
+  const exact = `${slug}-main-cover.webp`;
+  if (files.includes(exact)) return `/api/covers/${encodeURIComponent(exact)}`;
+  const suffix = files.find((f) => f.endsWith(`-${slug}-main-cover.webp`));
+  if (suffix) return `/api/covers/${encodeURIComponent(suffix)}`;
+  return null;
 }
 
-// Scans the screenshots output dir for {slug}-catalog-pic-{n}.webp files
-// and returns their /api/screenshots/ URLs. Falls back when screenshot_ids
-// is not yet stored in the DB.
+// Returns /api/screenshots/ URLs for IGDB-downloaded screenshots for a slug.
+// Used when screenshot_ids is not yet in the DB. Applies the same exact-then-suffix
+// matching as localIgdbCoverUrl so it works even when files were saved under a
+// prefixed duplicate slug.
 export function localScreenshotUrls(slug: string): string[] {
+  const files = listScreenshotFiles();
   const results: string[] = [];
   for (let n = 1; n <= 20; n++) {
-    const filename = `${slug}-catalog-pic-${n}.webp`;
-    try {
-      fs.accessSync(path.join(SCREENSHOTS_DIR, filename));
-      results.push(`/api/screenshots/${encodeURIComponent(filename)}`);
-    } catch {
-      break;
-    }
+    const exact = `${slug}-catalog-pic-${n}.webp`;
+    const match =
+      files.includes(exact) ? exact : files.find((f) => f.endsWith(`-${slug}-catalog-pic-${n}.webp`));
+    if (!match) break;
+    results.push(`/api/screenshots/${encodeURIComponent(match)}`);
   }
   return results;
 }
