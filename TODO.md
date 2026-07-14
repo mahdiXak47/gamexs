@@ -95,6 +95,9 @@ note about production object-storage URLs.
   no seller scraped for these categories yet.
 - Price-history chart UI on game detail page.
 - Cross-seller deduplication using `igdb_id` as canonical key.
+- **GTA games**: investigate and fix the data/display problem with GTA titles
+  (likely cross-seller deduplication, regional naming variants, or scraper
+  mis-classification — needs diagnosis).
 - **Pre-order & unreleased games**: include games that are not yet launched
   (available for pre-order). Sellers already list pre-order prices; the scraper
   and DB schema support them, but the frontend currently shows no indicator.
