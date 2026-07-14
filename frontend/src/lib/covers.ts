@@ -12,6 +12,8 @@ import path from "node:path";
 
 const COVERS_DIR = path.join(process.cwd(), "..", "scraper", "output", "images", "pspro");
 const IGDB_COVERS_DIR = path.join(process.cwd(), "..", "scraper", "output", "images", "igdb");
+const IGDB_DOWNLOAD_COVERS_DIR = path.join(process.cwd(), "..", "scraper", "output", "images", "covers");
+const SCREENSHOTS_DIR = path.join(process.cwd(), "..", "scraper", "output", "images", "screenshots");
 
 function slugify(name: string): string {
   return name
@@ -83,11 +85,40 @@ export function igdbCoverUrl(rawUrl: string | null): string | null {
 
 // Returns a local URL for a screenshot image_id if the file was downloaded.
 export function screenshotUrl(imageId: string): string | null {
-  const screenshotsDir = path.join(process.cwd(), "..", "scraper", "output", "images", "screenshots");
   try {
-    fs.accessSync(path.join(screenshotsDir, `${imageId}.jpg`));
+    fs.accessSync(path.join(SCREENSHOTS_DIR, `${imageId}.jpg`));
     return `/api/screenshots/${encodeURIComponent(imageId)}.jpg`;
   } catch {
     return null;
   }
+}
+
+// Returns a local /api/covers/ URL if an IGDB-downloaded cover exists for this slug
+// (i.e. {slug}-main-cover.webp in the covers/ output dir). Used when the DB row
+// hasn't been updated yet via update_local_paths.py.
+export function localIgdbCoverUrl(slug: string): string | null {
+  const filename = `${slug}-main-cover.webp`;
+  try {
+    fs.accessSync(path.join(IGDB_DOWNLOAD_COVERS_DIR, filename));
+    return `/api/covers/${encodeURIComponent(filename)}`;
+  } catch {
+    return null;
+  }
+}
+
+// Scans the screenshots output dir for {slug}-catalog-pic-{n}.webp files
+// and returns their /api/screenshots/ URLs. Falls back when screenshot_ids
+// is not yet stored in the DB.
+export function localScreenshotUrls(slug: string): string[] {
+  const results: string[] = [];
+  for (let n = 1; n <= 20; n++) {
+    const filename = `${slug}-catalog-pic-${n}.webp`;
+    try {
+      fs.accessSync(path.join(SCREENSHOTS_DIR, filename));
+      results.push(`/api/screenshots/${encodeURIComponent(filename)}`);
+    } catch {
+      break;
+    }
+  }
+  return results;
 }

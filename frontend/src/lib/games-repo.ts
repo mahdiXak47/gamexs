@@ -1,17 +1,21 @@
 import { query } from "./db";
-import { coverUrl as localCoverUrl, igdbCoverUrl, screenshotUrl } from "./covers";
+import { coverUrl as localCoverUrl, igdbCoverUrl, localIgdbCoverUrl, localScreenshotUrls } from "./covers";
 import { emptyPurchaseOptions, findOption } from "./purchase-options";
 import type { AccessTier, Game, GameSummary, ProductType } from "./types";
 
 // Resolve cover URL — priority order:
 // 1. DB stores a local /api/… path (set by download_igdb_images.py) → use directly.
 // 2. Locally downloaded IGDB cover in scraper/output/images/igdb/ (old image_id scheme).
-// 3. Locally scraped pspro image → dev fallback.
-// 4. Server-side IGDB proxy → production only (k8s can reach images.igdb.com).
-function toCoverUrl(dbUrl: string | null, title: string): string | null {
+// 3. IGDB-downloaded cover on disk by slug ({slug}-main-cover.webp) — catches games
+//    whose DB row wasn't yet updated by update_local_paths.py.
+// 4. Locally scraped pspro image → last resort fallback.
+// 5. Server-side IGDB proxy → production only (k8s can reach images.igdb.com).
+function toCoverUrl(dbUrl: string | null, slug: string, title: string): string | null {
   if (dbUrl?.startsWith("/api/")) return dbUrl;
   const igdb = igdbCoverUrl(dbUrl);
   if (igdb) return igdb;
+  const igdbLocal = localIgdbCoverUrl(slug);
+  if (igdbLocal) return igdbLocal;
   const pspro = localCoverUrl(title);
   if (pspro) return pspro;
   if (!dbUrl) return null;
@@ -80,7 +84,7 @@ export async function listGames(): Promise<GameSummary[]> {
     genreLabel: row.genre_label,
     publisher: row.publisher,
     coverInitial: deriveInitial(row.title),
-    coverUrl: toCoverUrl(row.cover_url, row.title),
+    coverUrl: toCoverUrl(row.cover_url, row.slug, row.title),
     lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
     storeCount: Number(row.store_count),
     purchaseTypeCount: Number(row.purchase_type_count),
@@ -137,11 +141,13 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     });
   }
 
-  // screenshot_ids stores local filenames set by download_igdb_images.py
-  // (e.g. "007-first-light-catalog-pic-1.webp") — serve via our own route.
-  const screenshots = (game.screenshot_ids ?? []).map(
-    (filename) => `/api/screenshots/${encodeURIComponent(filename)}`
-  );
+  // screenshot_ids stores filenames set by download_igdb_images.py.
+  // Fall back to a disk scan by slug so games show their gallery even
+  // before update_local_paths.py has been run.
+  const screenshots =
+    game.screenshot_ids?.length
+      ? game.screenshot_ids.map((f) => `/api/screenshots/${encodeURIComponent(f)}`)
+      : localScreenshotUrls(game.slug);
 
   return {
     slug: game.slug,
@@ -150,7 +156,7 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     publisher: game.publisher,
     releaseYear: game.release_year,
     coverInitial: deriveInitial(game.title),
-    coverUrl: toCoverUrl(game.cover_url, game.title),
+    coverUrl: toCoverUrl(game.cover_url, game.slug, game.title),
     screenshots,
     purchaseOptions,
   };
