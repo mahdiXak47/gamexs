@@ -1,17 +1,19 @@
 import { query } from "./db";
-import { coverUrl as localCoverUrl } from "./covers";
+import { coverUrl as localCoverUrl, igdbCoverUrl, screenshotUrl } from "./covers";
 import { emptyPurchaseOptions, findOption } from "./purchase-options";
 import type { AccessTier, Game, GameSummary, ProductType } from "./types";
 
-// Resolve cover URL with two-tier fallback:
-// 1. Local pspro image (scraped file on disk) — present in local dev, absent in production.
-// 2. IGDB URL via server-side proxy — images.igdb.com is blocked in Iran for browsers,
-//    but the k8s server can reach it, so the proxy bridges the gap in production.
-//    In dev the Next.js server also runs locally (in Iran) and can't reach IGDB,
-//    so we skip the proxy and let the initial-letter fallback show instead.
+// Resolve cover URL — priority order:
+// 1. DB stores a local /api/… path (set by download_igdb_images.py) → use directly.
+// 2. Locally downloaded IGDB cover in scraper/output/images/igdb/ (old image_id scheme).
+// 3. Locally scraped pspro image → dev fallback.
+// 4. Server-side IGDB proxy → production only (k8s can reach images.igdb.com).
 function toCoverUrl(dbUrl: string | null, title: string): string | null {
-  const local = localCoverUrl(title);
-  if (local) return local;
+  if (dbUrl?.startsWith("/api/")) return dbUrl;
+  const igdb = igdbCoverUrl(dbUrl);
+  if (igdb) return igdb;
+  const pspro = localCoverUrl(title);
+  if (pspro) return pspro;
   if (!dbUrl) return null;
   if (dbUrl.includes("images.igdb.com")) {
     if (process.env.NODE_ENV !== "production") return null;
@@ -95,7 +97,8 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     publisher: string | null;
     release_year: number | null;
     cover_url: string | null;
-  }>(`SELECT id, slug, title, genre_label, publisher, release_year, cover_url FROM games WHERE slug = $1`, [slug]);
+    screenshot_ids: string[] | null;
+  }>(`SELECT id, slug, title, genre_label, publisher, release_year, cover_url, screenshot_ids FROM games WHERE slug = $1`, [slug]);
 
   const game = gameRows[0];
   if (!game) return null;
@@ -134,6 +137,12 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     });
   }
 
+  // screenshot_ids stores local filenames set by download_igdb_images.py
+  // (e.g. "007-first-light-catalog-pic-1.webp") — serve via our own route.
+  const screenshots = (game.screenshot_ids ?? []).map(
+    (filename) => `/api/screenshots/${encodeURIComponent(filename)}`
+  );
+
   return {
     slug: game.slug,
     title: game.title,
@@ -141,7 +150,8 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     publisher: game.publisher,
     releaseYear: game.release_year,
     coverInitial: deriveInitial(game.title),
-    coverUrl: game.cover_url ?? localCoverUrl(game.title),
+    coverUrl: toCoverUrl(game.cover_url, game.title),
+    screenshots,
     purchaseOptions,
   };
 }

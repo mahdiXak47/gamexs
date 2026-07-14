@@ -5,6 +5,7 @@ import CoverArt from "@/components/CoverArt";
 import Disclaimer from "@/components/Disclaimer";
 import Header from "@/components/Header";
 import PurchaseTypeSelector from "@/components/PurchaseTypeSelector";
+import ScreenshotGallery from "@/components/ScreenshotGallery";
 import { formatToman, toPersianDigits } from "@/lib/format";
 import { getGameBySlug } from "@/lib/games-repo";
 import { lowestPrice, storeCount } from "@/lib/purchase-options";
@@ -31,7 +32,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
         <div className="mt-6 grid grid-cols-1 gap-8 md:grid-cols-[1fr_320px]">
           <div>
             <div className="flex flex-wrap items-center gap-3">
-              <Chip variant="primary" color="accent" size="sm">PS5</Chip>
+              <Chip variant="soft" color="accent" size="sm">PS5</Chip>
               {game.genreLabel && (
                 <Chip variant="soft" color="default" size="sm">{game.genreLabel}</Chip>
               )}
@@ -73,6 +74,8 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
             priority
           />
         </div>
+
+        <ScreenshotGallery screenshots={game.screenshots} />
 
         <PurchaseTypeSelector options={game.purchaseOptions} />
       </main>

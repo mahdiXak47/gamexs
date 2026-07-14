@@ -29,6 +29,7 @@ CREATE TABLE games (
     release_year SMALLINT,
     cover_url TEXT,
     igdb_id INTEGER,
+    screenshot_ids TEXT[],
     created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
     UNIQUE (platform_id, slug)
 );

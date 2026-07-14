@@ -34,6 +34,7 @@ export interface Game {
   releaseYear: number | null;
   coverInitial: string;
   coverUrl: string | null;
+  screenshots: string[];
   purchaseOptions: PurchaseOption[];
 }
 
