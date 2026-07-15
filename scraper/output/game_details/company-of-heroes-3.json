@@ -1,0 +1,154 @@
+{
+  "slug": "company-of-heroes-3",
+  "igdb_id": 156150,
+  "name": "Company of Heroes 3",
+  "summary": "The legendary strategy franchise is back! Company of Heroes 3 is the ultimate package of action, tactics and strategy. Take charge in the heat of real-time battle, then command as a General guiding the overall campaign where every decision matters. ​\n\nOverwhelm your opponents with new and familiar factions, units, and international Battlegroups. Command ground, air and naval forces and build supply lines to crush enemy advances on the new Dynamic Campaign Map - no two playthroughs are ever alike! Play at your own pace across campaign and skirmish modes before diving into blistering multiplayer action. Discover the untold stories of a stunning Mediterranean theatre, featuring next generation destructible environments, all powered by Relic's proprietary Essence Engine.",
+  "first_release_year": 2023,
+  "developers": [
+    "Relic Entertainment"
+  ],
+  "publishers": [
+    "Sega"
+  ],
+  "genres": [
+    "Real Time Strategy (RTS)",
+    "Strategy",
+    "Turn-based strategy (TBS)",
+    "Tactical"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Company of Heroes"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Essence Engine 5"
+  ],
+  "keywords": [
+    "world war ii - ww2",
+    "real time tactics"
+  ],
+  "alternative_names": [
+    {
+      "name": "COH3",
+      "comment": "Acronym"
+    },
+    {
+      "name": "CoH3",
+      "comment": "Acronym"
+    },
+    {
+      "name": "RelicCoH3.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1677280/Company_of_Heroes_3"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Company%20of%20Heroes%203"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/relicentertainment"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/companyofheroes.com"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002606"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/companyofheroes"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/CoHOfficial"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.companyofheroes.com/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/companyofheroes"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/CompanyOfHeroes"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Company_of_Heroes_3"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 23, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-23"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 30, 2023",
+      "status": "Released",
+      "date_iso": "2023-05-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 06, 2023",
+      "status": "Released",
+      "date_iso": "2023-06-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 30, 2023",
+      "status": "Released",
+      "date_iso": "2023-05-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar134m.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "EwBOk-2vWZs",
+      "url": "https://www.youtube.com/watch?v=EwBOk-2vWZs"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "F0nWPG_cFqY",
+      "url": "https://www.youtube.com/watch?v=F0nWPG_cFqY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ro3YUfwta3Y",
+      "url": "https://www.youtube.com/watch?v=ro3YUfwta3Y"
+    }
+  ]
+}

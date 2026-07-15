@@ -1,0 +1,150 @@
+{
+  "slug": "starship-troopers-extermination",
+  "igdb_id": 228175,
+  "name": "Starship Troopers: Extermination",
+  "summary": "Starship Troopers: Extermination drops up to 16 players right into the fight against the Bug menace in this co-op first person shooter. Suit up and ship out to a far-off front as a Trooper in the Deep Space Vanguard, an elite Special Forces group within the Mobile Infantry. It’s up to squads like yours to battle against hundreds of bloodthirsty insectoid aliens and take back fallen colonies for the Federation. The only good Bug is a dead Bug!",
+  "first_release_year": 2024,
+  "developers": [
+    "Offworld Industries"
+  ],
+  "publishers": [
+    "Offworld Industries"
+  ],
+  "genres": [
+    "Shooter",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Starship Troopers"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Yakisoba.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@starshiptroopersextermination"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/TroopersExt"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/starshiptroopersext/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/starship-troopers-extermination/9NTK9D44ZZQW"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008959"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1268750/Starship_Troopers_Extermination"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/8yCFRTm9ZQ"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://starshiptroopersextermination.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Starship%20Troopers:%20Extermination"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/starship-troopers-extermination-57f59d"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/StarshipTroopersExtermination"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 11, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-11"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 11, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-11"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 17, 2023",
+      "status": "Beta",
+      "date_iso": "2023-05-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 11, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-11"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar24jr.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "Eu66WQmV800",
+      "url": "https://www.youtube.com/watch?v=Eu66WQmV800"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "yBgP8tDqQEQ",
+      "url": "https://www.youtube.com/watch?v=yBgP8tDqQEQ"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "nWZmbqBujD8",
+      "url": "https://www.youtube.com/watch?v=nWZmbqBujD8"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "gpN4w9kQCSY",
+      "url": "https://www.youtube.com/watch?v=gpN4w9kQCSY"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "E8FRZR728u8",
+      "url": "https://www.youtube.com/watch?v=E8FRZR728u8"
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "slug": "streets-of-rage-4-anniversary-edition-نسخه-کارتریج-nintendo-switch",
+  "igdb_id": 107262,
+  "name": "Streets of Rage 4",
+  "summary": "Streets of Rage 4 is a side-scrolling beat 'em up that continues the series following the original trilogy. Players fight through Wood Oak City using a mix of returning and new characters, each with their own combat styles and special moves. The game builds on the classic formula with new mechanics while maintaining the responsive, straightforward action the series is known for. Featuring hand-drawn visuals from the team behind Wonder Boy: The Dragon's Trap, it supports both solo and cooperative play locally or online across multiple difficulty levels.",
+  "first_release_year": 2020,
+  "developers": [
+    "DotEmu",
+    "Lizardcube",
+    "Guard Crush Games"
+  ],
+  "publishers": [
+    "DotEmu",
+    "Yooreka Studio",
+    "Playdigious",
+    "Merge Games"
+  ],
+  "genres": [
+    "Fighting",
+    "Hack and slash/Beat 'em up",
+    "Adventure",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Streets of Rage"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Streets of Rage"
+  ],
+  "game_engines": [
+    "Guard Crush Engine"
+  ],
+  "keywords": [
+    "retro",
+    "2d",
+    "pvp",
+    "side-scrolling",
+    "cyborg",
+    "sequel",
+    "hand-drawn",
+    "colorful",
+    "throwing weapons",
+    "character select screen",
+    "special attacks",
+    "recruitable characters",
+    "multiple enemy boss fights",
+    "overweight character",
+    "dream sequence",
+    "neon",
+    "sidescroller",
+    "color alternatives",
+    "techno"
+  ],
+  "alternative_names": [
+    {
+      "name": "Bare Knuckle IV",
+      "comment": "Japanese title - translated"
+    },
+    {
+      "name": "格鬥三人組4",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "Улицы ярости 4",
+      "comment": "Russian title"
+    },
+    {
+      "name": "怒之铁拳4",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "怒之鐵拳4",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "SOR4",
+      "comment": "Acronym"
+    },
+    {
+      "name": "SOR4.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "iPhone",
+      "url": "https://itunes.apple.com/us/app/id1601446687"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/985890/Streets_of_Rage_4"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/234410"
+    },
+    {
+      "label": "iPad",
+      "url": "https://itunes.apple.com/us/app/id1601446687"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/streets-of-rage-4/9N7H54KNCB9N"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/streets-of-rage-4-switch/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/lizardcube"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/dotemu.bsky.social"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/dotemugames/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@Dotemuofficial"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/streets_of_rage_4"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.streets4rage.com/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://streetsofrage.fandom.com/wiki/Streets_of_Rage_4"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.playdigious.sor4"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Streets%20of%20Rage%204"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/StreetsofRage"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Streets_of_Rage_4"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/StreetsofRage4"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discordapp.com/invite/vpsEkg6"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 25, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-06-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 30, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-04-30"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Sep 23, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-23"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Jul 15, 2021",
+      "status": "Early Access",
+      "date_iso": "2021-07-15"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "May 24, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-05-24"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Apr 30, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-04-30"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-11-12"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Apr 30, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-04-30"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-11-12"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 30, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-04-30"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 25, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-06-25"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 30, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-04-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 24, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-07-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 25, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-06-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 30, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-04-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar454h.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar454i.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar454j.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar454k.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4543.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar454l.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar454m.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar454n.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar454o.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar454p.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar42x4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar42x5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4548.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4549.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar42x6.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "M_bgPefCyfA",
+      "url": "https://www.youtube.com/watch?v=M_bgPefCyfA"
+    },
+    {
+      "title": "Gameplay video",
+      "youtube_id": "hdsCVmrfrjI",
+      "url": "https://www.youtube.com/watch?v=hdsCVmrfrjI"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "owbKz1qcnUI",
+      "url": "https://www.youtube.com/watch?v=owbKz1qcnUI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "LTZajRoULlQ",
+      "url": "https://www.youtube.com/watch?v=LTZajRoULlQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "e5meiRPJTWU",
+      "url": "https://www.youtube.com/watch?v=e5meiRPJTWU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "TzeW6kuh6XA",
+      "url": "https://www.youtube.com/watch?v=TzeW6kuh6XA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "5VwdCxjH7o8",
+      "url": "https://www.youtube.com/watch?v=5VwdCxjH7o8"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "Z-1e1cbiKpg",
+      "url": "https://www.youtube.com/watch?v=Z-1e1cbiKpg"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "GYnlA6STsBE",
+      "url": "https://www.youtube.com/watch?v=GYnlA6STsBE"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "tF-rMNY0fBk",
+      "url": "https://www.youtube.com/watch?v=tF-rMNY0fBk"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "vZ6sa88CLm4",
+      "url": "https://www.youtube.com/watch?v=vZ6sa88CLm4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "TPKInEthHP8",
+      "url": "https://www.youtube.com/watch?v=TPKInEthHP8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "KjWFl8eU08Q",
+      "url": "https://www.youtube.com/watch?v=KjWFl8eU08Q"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "nDXY1WRef0Q",
+      "url": "https://www.youtube.com/watch?v=nDXY1WRef0Q"
+    }
+  ]
+}

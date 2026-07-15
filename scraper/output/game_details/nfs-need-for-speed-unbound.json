@@ -1,0 +1,140 @@
+{
+  "slug": "nfs-need-for-speed-unbound",
+  "igdb_id": 219442,
+  "name": "Need for Speed: Unbound",
+  "summary": "Race against time, outsmart the cops, and take on weekly qualifiers to reach The Grand, Lakeshore's ultimate street racing challenge. Pack your garage with precision-tuned, custom rides and light up the streets with your style, exclusive fits, and a vibrant global soundtrack that bumps in every corner of the world.",
+  "first_release_year": 2022,
+  "developers": [
+    "Criterion Games"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Racing"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Need for Speed"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Need for Speed"
+  ],
+  "game_engines": [
+    "Frostbite"
+  ],
+  "keywords": [
+    "anime",
+    "character customization",
+    "street racing",
+    "available on - luna plus"
+  ],
+  "alternative_names": [
+    {
+      "name": "NFS Unbound",
+      "comment": "Acronym"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/need-for-speed-unbound/9PP837L3Q75D"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001269"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1846380/Need_for_Speed_Unbound"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Need_for_Speed_Unbound"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/needforspeed"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/needforspeed"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Need%20for%20Speed%20Unbound"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/need-for-speed-unbound"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/needforspeed"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/needforspeed"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/need-for-speed/need-for-speed-unbound"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 02, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-02"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 29, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-29"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 29, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1wzj.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1x0e.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1x0c.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1x0d.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "D5aU75h7Yzs",
+      "url": "https://www.youtube.com/watch?v=D5aU75h7Yzs"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "H2Y8XCe7F9E",
+      "url": "https://www.youtube.com/watch?v=H2Y8XCe7F9E"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "CBPZapIh4MQ",
+      "url": "https://www.youtube.com/watch?v=CBPZapIh4MQ"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "slug": "hellboy-web-of-wyrd",
+  "igdb_id": 228522,
+  "name": "Hellboy: Web of Wyrd",
+  "summary": "Hellboy Web of Wyrd is a roguelite action adventure with an original story created in partnership with Dark Horse Comics and creator Mike Mignola. When an agent goes missing, Hellboy investigates. Prepare for monstrous toe-to-toe brawling",
+  "first_release_year": 2023,
+  "developers": [
+    "Upstream Arcade"
+  ],
+  "publishers": [
+    "Good Shepherd Entertainment",
+    "Dark Horse Comics"
+  ],
+  "genres": [
+    "Fighting",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Hellboy"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "dark",
+    "roguelike",
+    "cinematic",
+    "demons",
+    "story rich",
+    "cartoony",
+    "mystery dungeon"
+  ],
+  "alternative_names": [
+    {
+      "name": "Hellboy.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/hellboythegame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006524"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/hellboy-web-of-wyrd-switch/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/HellboyTheGame"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2160480/Hellboy_Web_of_Wyrd"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Hellboy:%20Web%20of%20Wyrd"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@goodshepherdentertainment/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.hellboywebofwyrd.com/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/4dBwNr4K25"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/HellboyVideoGame"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/HellboyTheGame"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hellboy_Web_of_Wyrd"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-18"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-18"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-18"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar21rq.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "MUeagrk-ZQk",
+      "url": "https://www.youtube.com/watch?v=MUeagrk-ZQk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "LA2k-j51bqQ",
+      "url": "https://www.youtube.com/watch?v=LA2k-j51bqQ"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "nlwSl-jCNMM",
+      "url": "https://www.youtube.com/watch?v=nlwSl-jCNMM"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "h0mrrZqSSB0",
+      "url": "https://www.youtube.com/watch?v=h0mrrZqSSB0"
+    }
+  ]
+}

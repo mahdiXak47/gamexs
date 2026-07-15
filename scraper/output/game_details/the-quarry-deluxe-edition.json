@@ -1,0 +1,154 @@
+{
+  "slug": "the-quarry-deluxe-edition",
+  "igdb_id": 194404,
+  "name": "The Quarry",
+  "summary": "It's late summer in the remote forests of upstate New York, and the teen counselors of Hackett's Quarry have the camp to themselves for one final night. That means no kids, no adults, and no rules. In this thrilling cinematic tale, you control the fates of all nine camp counselors as their party plans unravel into an unpredictable night of horror. With life-or-death decisions around every turn, the choices you make will determine how the story unfolds.",
+  "first_release_year": 2022,
+  "developers": [
+    "Supermassive Games"
+  ],
+  "publishers": [
+    "2K Games"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "interactive fiction",
+    "choose your own adventure",
+    "supernatural",
+    "multiple endings",
+    "survival horror",
+    "multiple playable characters"
+  ],
+  "alternative_names": [
+    {
+      "name": "쿼리",
+      "comment": "Korean title"
+    },
+    {
+      "name": "クアリー 悪夢のサマーキャンプ ",
+      "comment": "Japanese title - original"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/visitthequarry"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://quarrygame.2k.com/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004123"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Quarry_(video_game)"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@SupermassiveGamesOfficial"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://thequarry.fandom.com/wiki/The_Quarry"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/TheQuarrySupermassive"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/the-quarry"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/SuperMGames"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1577120"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/the-quarry-for-xbox-series-x%7Cs/9N5HDNDWVV34"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-10"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-10"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-10"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-10"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar67qw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar67qx.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1l1h.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "Zh2K7SxRHmo",
+      "url": "https://www.youtube.com/watch?v=Zh2K7SxRHmo"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "M_arwDL1x08",
+      "url": "https://www.youtube.com/watch?v=M_arwDL1x08"
+    }
+  ]
+}

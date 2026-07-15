@@ -1,0 +1,277 @@
+{
+  "slug": "palworld",
+  "igdb_id": 151665,
+  "name": "Palworld",
+  "summary": "Palworld is a multiplayer open-world survival game that combines creature-collecting with crafting, base-building, and combat. Set on the Palpagos Islands, players capture and tame animal-like creatures called Pals, which can be used as mounts, combat partners, or workers at player-built bases. The game incorporates firearms and darker satirical elements into the monster-taming formula.",
+  "first_release_year": 2026,
+  "developers": [
+    "PocketPair"
+  ],
+  "publishers": [
+    "PocketPair"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Survival",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Massively Multiplayer Online (MMO)"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "anime",
+    "3d",
+    "crafting",
+    "pve",
+    "cute",
+    "steam achievements",
+    "steam cloud",
+    "dragon riding",
+    "elicited lawsuit"
+  ],
+  "alternative_names": [
+    {
+      "name": "Pal World",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "幻兽帕鲁",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "幻兽帕鲁",
+      "comment": "Chinese title - traditional"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://palworld.wiki.gg/wiki/Palworld"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/palworld"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/pocketpair"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@pocketpair/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Palworld_EN"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/en-palworld.pocketpair.jp"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/palworld_official/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10011027"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/palworld-game-preview/9NKV34XDW014"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Palworld"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.pocketpair.jp/palworld"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1623730/Palworld"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Palworld/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 24, 2024",
+      "status": "Beta",
+      "date_iso": "2024-09-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 19, 2024",
+      "status": "Beta",
+      "date_iso": "2024-01-19"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Mar 03, 2025",
+      "status": "Beta",
+      "date_iso": "2025-03-03"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 19, 2024",
+      "status": "Beta",
+      "date_iso": "2024-01-19"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 19, 2024",
+      "status": "Beta",
+      "date_iso": "2024-01-19"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jul 10, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-07-10"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 10, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-07-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 10, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-07-10"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 10, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-07-10"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 10, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-07-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4ncz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4ncy.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6253.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arq5i.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4ncv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4ncw.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "kXhsorMwAFo",
+      "url": "https://www.youtube.com/watch?v=kXhsorMwAFo"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "7tVwvbv6GjE",
+      "url": "https://www.youtube.com/watch?v=7tVwvbv6GjE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "f1-i0lqJVRQ",
+      "url": "https://www.youtube.com/watch?v=f1-i0lqJVRQ"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "sg_HDQd-kgM",
+      "url": "https://www.youtube.com/watch?v=sg_HDQd-kgM"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "tOatviGVCTs",
+      "url": "https://www.youtube.com/watch?v=tOatviGVCTs"
+    },
+    {
+      "title": "Game Preview Launch Trailer",
+      "youtube_id": "uV0zfAwazcs",
+      "url": "https://www.youtube.com/watch?v=uV0zfAwazcs"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "d2Mh7HXZ4sE",
+      "url": "https://www.youtube.com/watch?v=d2Mh7HXZ4sE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "i1Ajar8H56s",
+      "url": "https://www.youtube.com/watch?v=i1Ajar8H56s"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "-Eoe7rnzgOk",
+      "url": "https://www.youtube.com/watch?v=-Eoe7rnzgOk"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "Ipy3ZazeEVg",
+      "url": "https://www.youtube.com/watch?v=Ipy3ZazeEVg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "mI_0U7-7hRA",
+      "url": "https://www.youtube.com/watch?v=mI_0U7-7hRA"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "tEVIBHP37eM",
+      "url": "https://www.youtube.com/watch?v=tEVIBHP37eM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "eFQkXzmg6OM",
+      "url": "https://www.youtube.com/watch?v=eFQkXzmg6OM"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "gKum7LqFi1s",
+      "url": "https://www.youtube.com/watch?v=gKum7LqFi1s"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "1fpGg9wNM9A",
+      "url": "https://www.youtube.com/watch?v=1fpGg9wNM9A"
+    }
+  ]
+}

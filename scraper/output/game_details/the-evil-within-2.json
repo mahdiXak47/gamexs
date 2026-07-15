@@ -1,0 +1,249 @@
+{
+  "slug": "the-evil-within-2",
+  "igdb_id": 36813,
+  "name": "The Evil Within 2",
+  "summary": "The Evil Within 2 is the latest evolution of survival horror. Detective Sebastian Castellanos has lost it all. But when given a chance to save his daughter, he must descend once more into the nightmarish world of STEM.\n\nHorrifying threats emerge from every corner as the world twists and warps around him. Will Sebastian face adversity head on with weapons and traps, or sneak through the shadows to survive.",
+  "first_release_year": 2017,
+  "developers": [
+    "Tango Gameworks"
+  ],
+  "publishers": [
+    "Bethesda Softworks"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "The Evil Within"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "id Tech 5"
+  ],
+  "keywords": [
+    "monsters",
+    "crafting",
+    "gore",
+    "dialogue trees",
+    "survival horror",
+    "sequel",
+    "pax west 2017",
+    "bink video",
+    "xbox one x enhanced",
+    "collectibles",
+    "save point",
+    "side quests",
+    "cover system",
+    "hallucination",
+    "aggressive door-opening",
+    "available on - luna plus"
+  ],
+  "alternative_names": [
+    {
+      "name": "Psycho Break 2",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "TEW2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20Evil%20Within%202"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/TheEvilWithin"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/228861"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/the-evil-within-2/C40860J5R2MP"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/theevilwithin"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/the_evil_within_2"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/BethesdaSoftworks"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://theevilwithin.wikia.com/wiki/The_Evil_Within_2"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Evil_Within_2"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/601430"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/TheEvilWithin"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/theevilwithin"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://theevilwithin2.bethesda.net/en"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/the-evil-within-2"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 19, 2017",
+      "status": "Released",
+      "date_iso": "2017-10-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 12, 2017",
+      "status": "Released",
+      "date_iso": "2017-10-12"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 13, 2017",
+      "status": "Released",
+      "date_iso": "2017-10-13"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 13, 2017",
+      "status": "Released",
+      "date_iso": "2017-10-13"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 13, 2017",
+      "status": "Released",
+      "date_iso": "2017-10-13"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 13, 2017",
+      "status": "Released",
+      "date_iso": "2017-10-13"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 19, 2017",
+      "status": "Released",
+      "date_iso": "2017-10-19"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 19, 2017",
+      "status": "Released",
+      "date_iso": "2017-10-19"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 13, 2017",
+      "status": "Released",
+      "date_iso": "2017-10-13"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 13, 2017",
+      "status": "Released",
+      "date_iso": "2017-10-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/avqjxxgafguhy8gk7rqp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4s4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/wz0bppwvawbeimtwm8es.jpg"
+  ],
+  "videos": [
+    {
+      "title": "E3 2017:  Story Trailer",
+      "youtube_id": "v2THNGrmrck",
+      "url": "https://www.youtube.com/watch?v=v2THNGrmrck"
+    },
+    {
+      "title": "The Wrathful Righteous Priest Trailer",
+      "youtube_id": "HsiQuk7lm4U",
+      "url": "https://www.youtube.com/watch?v=HsiQuk7lm4U"
+    },
+    {
+      "title": "Survive Gameplay Trailer",
+      "youtube_id": "AMC8lzhTSpI",
+      "url": "https://www.youtube.com/watch?v=AMC8lzhTSpI"
+    },
+    {
+      "title": "Race Against Time Gameplay Trailer",
+      "youtube_id": "1j8jHfHXIvM",
+      "url": "https://www.youtube.com/watch?v=1j8jHfHXIvM"
+    },
+    {
+      "title": "E3 2017: Extended Gameplay Trailer",
+      "youtube_id": "1M9IrdAGK0Y",
+      "url": "https://www.youtube.com/watch?v=1M9IrdAGK0Y"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "frKyqfQO2cQ",
+      "url": "https://www.youtube.com/watch?v=frKyqfQO2cQ"
+    },
+    {
+      "title": "Stefano Trailer",
+      "youtube_id": "HP-4znuLfGs",
+      "url": "https://www.youtube.com/watch?v=HP-4znuLfGs"
+    },
+    {
+      "title": "E3 2017: Announcement Trailer",
+      "youtube_id": "7TE-p1H06T8",
+      "url": "https://www.youtube.com/watch?v=7TE-p1H06T8"
+    },
+    {
+      "title": "First Person Mode Trailer",
+      "youtube_id": "sQYO5Huanqc",
+      "url": "https://www.youtube.com/watch?v=sQYO5Huanqc"
+    }
+  ]
+}

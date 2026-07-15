@@ -1,0 +1,192 @@
+{
+  "slug": "ea-sports-fc-25-ultimate",
+  "igdb_id": 308698,
+  "name": "EA Sports FC 25",
+  "summary": "EA SPORTS FC 25 gives you more ways to win for the club. Team up with friends in your favourite modes with the new 5v5 Rush, and manage your club to victory as FC IQ delivers more tactical control than ever before.",
+  "first_release_year": 2024,
+  "developers": [
+    "EA Vancouver"
+  ],
+  "publishers": [
+    "EA Sports"
+  ],
+  "genres": [
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [
+    "Non-fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "EA Sports FC"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Frostbite"
+  ],
+  "keywords": [
+    "soccer",
+    "football",
+    "the game awards - best sports or racing game - winner",
+    "available on - luna plus"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/easportsfc/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ea-sports-fc-25-standard-edition-xbox-one-&-xbox-series-x|s/9MVK78MGD737"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/ea-sports-fc-25-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009762"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/ea-sports-fc-25"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2669320/EA_SPORTS_FC_25/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-25"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/ea-sports-fc-25"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@easportsfc"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/EASPORTSFC"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-27"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 20, 2024",
+      "status": "status_34",
+      "date_iso": "2024-09-20"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 20, 2024",
+      "status": "status_34",
+      "date_iso": "2024-09-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 20, 2024",
+      "status": "status_34",
+      "date_iso": "2024-09-20"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 20, 2024",
+      "status": "status_34",
+      "date_iso": "2024-09-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-27"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 20, 2024",
+      "status": "status_34",
+      "date_iso": "2024-09-20"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-27"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 20, 2024",
+      "status": "status_34",
+      "date_iso": "2024-09-20"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3115.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "pBM2xyco_Kg",
+      "url": "https://www.youtube.com/watch?v=pBM2xyco_Kg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "QrID0EA3hhI",
+      "url": "https://www.youtube.com/watch?v=QrID0EA3hhI"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "RefXbk1_taI",
+      "url": "https://www.youtube.com/watch?v=RefXbk1_taI"
+    }
+  ]
+}

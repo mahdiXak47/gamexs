@@ -1,0 +1,149 @@
+{
+  "slug": "sifu-نسخه-vengeance-edition",
+  "igdb_id": 191494,
+  "name": "Sifu: Vengeance Edition",
+  "summary": "A third person action game featuring intense hand-to-hand combat, it puts you in control of a young Kung-Fu student on his path of revenge throughout the city.\n\nThe Vengeance Edition includes:",
+  "first_release_year": 2022,
+  "developers": [
+    "Sloclap"
+  ],
+  "publishers": [
+    "Sloclap",
+    "Kepler Interactive"
+  ],
+  "genres": [
+    "Hack and slash/Beat 'em up",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "シフ: ヴェンジェンスエディション",
+      "comment": "Japanese title - original"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://sifu.fandom.com/wiki/Sifu_Wiki"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/SifuGame"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SifuGame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/sifugame/?hl=en"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/Sloclap"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sifu_(video_game)"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/SifuGame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/tt4hH8T2Ub"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.sifugame.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 03, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-03"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 03, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-03"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-08"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 15, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 15, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 03, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-03"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1lmp.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "PXj3H4RvkUg",
+      "url": "https://www.youtube.com/watch?v=PXj3H4RvkUg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "TINP9ynhidY",
+      "url": "https://www.youtube.com/watch?v=TINP9ynhidY"
+    }
+  ]
+}

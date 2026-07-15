@@ -1,0 +1,216 @@
+{
+  "slug": "party-animals",
+  "igdb_id": 137989,
+  "name": "Party Animals",
+  "summary": "Fight your friends as puppies, kittens and other fuzzy creatures in PARTY ANIMALS! Paw it out with your friends remotely, or huddle together for chaotic fun on the same screen. Interact with the world under our realistic physics engine. Did I mention PUPPIES?",
+  "first_release_year": 2023,
+  "developers": [
+    "Recreate Games"
+  ],
+  "publishers": [
+    "Source Technology"
+  ],
+  "genres": [
+    "Fighting",
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Kids",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "soccer",
+    "football",
+    "casual",
+    "animals",
+    "ninja",
+    "3d",
+    "physics",
+    "shark",
+    "pvp",
+    "horse",
+    "rabbit",
+    "trains",
+    "action-adventure",
+    "dragon",
+    "forest",
+    "halloween",
+    "cute",
+    "funny",
+    "wolf",
+    "elephant",
+    "dog",
+    "fox",
+    "duck",
+    "team-based",
+    "family friendly",
+    "airplane",
+    "snowman",
+    "3d fighter",
+    "battle",
+    "zebra",
+    "alternate costumes",
+    "gorilla",
+    "cat",
+    "cow",
+    "panda",
+    "alligator",
+    "hippopotamus",
+    "remote play",
+    "tiger",
+    "in-app purchases",
+    "cross-platform",
+    "cards",
+    "beasts",
+    "ocean",
+    "winter",
+    "ship",
+    "online pvp",
+    "previously on - xbox gamepass"
+  ],
+  "alternative_names": [
+    {
+      "name": "PartyAnimals.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/PartyAnimalsGame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010023"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/party-animals/9MZ08RDQ4DM1"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://partyanimalsgame.com/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/partyanimalsgame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC0e1psm6wT3dw4CiAfoQrDA"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/happyhappynemo"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://reddit.com/r/PartyAnimalsGame"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1260320"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/yMT7d3u"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-20"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-01-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2lns.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2lno.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2lnr.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2lnp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2lnl.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2lnt.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arxx4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2lnq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2lnk.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2lnm.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2lnn.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "vbUzN0lsvzM",
+      "url": "https://www.youtube.com/watch?v=vbUzN0lsvzM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Cunvu8b7rj0",
+      "url": "https://www.youtube.com/watch?v=Cunvu8b7rj0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "6rbnxyfYtxg",
+      "url": "https://www.youtube.com/watch?v=6rbnxyfYtxg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "_nvKCGdCqU4",
+      "url": "https://www.youtube.com/watch?v=_nvKCGdCqU4"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "Qo0airOqCjc",
+      "url": "https://www.youtube.com/watch?v=Qo0airOqCjc"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "BDxIdlVW7Fw",
+      "url": "https://www.youtube.com/watch?v=BDxIdlVW7Fw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "E6qZN4Ud9jU",
+      "url": "https://www.youtube.com/watch?v=E6qZN4Ud9jU"
+    }
+  ]
+}

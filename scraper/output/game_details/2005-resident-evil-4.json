@@ -1,0 +1,193 @@
+{
+  "slug": "2005-resident-evil-4",
+  "igdb_id": 20065,
+  "name": "Resident Evil 4",
+  "summary": "Resident Evil 4 is directly based off the Wii port, having all the new features that the Wii added. Some of the key features of this version are stunning HD graphics running at a smooth 60 frames per second for the first time. It also features a complete visual overhaul to bring this revered title to the highest graphical quality ever. It has been fully optimized for the wide screen, texts have been sharpened and textures have been upgraded on characters, backgrounds and in-game objects.\n\nHowever, it should be noted that the cutscenes of the Separate Ways scenario are not in HD and have had their resolution lowered and placed in sepia format. Aside from the updated HUD, the Movie Browser is fixed to now display real time cut-scenes instead of the PS2 pre-rendered cut-scene, like it was the Wii version. The Mercenaries costumes cheat remain and fully work.",
+  "first_release_year": 2011,
+  "developers": [
+    "Capcom Production Studio 4"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Resident Evil"
+  ],
+  "spin_off_of": "Resident Evil 4: Wii Edition",
+  "franchises": [
+    "Resident Evil"
+  ],
+  "game_engines": [
+    "Proprietary Engine"
+  ],
+  "keywords": [
+    "previously on - xbox gamepass"
+  ],
+  "alternative_names": [
+    {
+      "name": "Biohazard Revival Selection",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Resident Evil 4 HD",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "RE4HD",
+      "comment": "Acronym"
+    },
+    {
+      "name": "RE4",
+      "comment": "Acronym"
+    },
+    {
+      "name": "RE4UHD",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Resident Evil 4 (2005)",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://residentevil.fandom.com/wiki/Resident_Evil_4_(2005)"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/resident-evil-4-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/232114"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/resident-evil-4-2005/C1XHZ605DZPG"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/RE_Games"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Resident_Evil_4"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.residentevil.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@residentevil"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/residentevil"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/re_games"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/residentevil"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/254700"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 21, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-05-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 30, 2016",
+      "status": "Cancelled",
+      "date_iso": "2016-08-30"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Sep 08, 2011",
+      "status": "Cancelled",
+      "date_iso": "2011-09-08"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Sep 08, 2011",
+      "status": "Cancelled",
+      "date_iso": "2011-09-08"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Sep 20, 2011",
+      "status": "Cancelled",
+      "date_iso": "2011-09-20"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Sep 20, 2011",
+      "status": "Cancelled",
+      "date_iso": "2011-09-20"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 30, 2016",
+      "status": "Cancelled",
+      "date_iso": "2016-08-30"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Sep 21, 2011",
+      "status": "Cancelled",
+      "date_iso": "2011-09-21"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Sep 21, 2011",
+      "status": "Cancelled",
+      "date_iso": "2011-09-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arphe.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5khx.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "G_yvkRRV1h4",
+      "url": "https://www.youtube.com/watch?v=G_yvkRRV1h4"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "session",
+  "igdb_id": 230629,
+  "name": "Sessions",
+  "summary": "Sessions blends horror, action, and atmospheric exploration. The player takes on the role of a synthetic human in a dystopian world overrun by mysterious creatures. In this dark sci-fi story, you must face existential horrors and frightening creatures. It's a lonely and evocative game about exploring the unknown and discovering the horrors of the human condition.",
+  "first_release_year": null,
+  "developers": [
+    "Robson Paiva"
+  ],
+  "publishers": [
+    "Robson Paiva"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "post-apocalyptic",
+    "dystopian",
+    "lovecraftian",
+    "pixel art"
+  ],
+  "alternative_names": [
+    {
+      "name": "SESSIONS",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2241660/SESSIONS"
+    },
+    {
+      "label": "Itch",
+      "url": "https://redo99.itch.io/sessions"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/REDO_99"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/fAEm6Sfzc8"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/sessions"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar250q.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "ctcg3T1QlgM",
+      "url": "https://www.youtube.com/watch?v=ctcg3T1QlgM"
+    }
+  ]
+}

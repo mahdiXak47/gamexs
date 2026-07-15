@@ -1,0 +1,129 @@
+{
+  "slug": "taxi-chaos-2",
+  "igdb_id": 364153,
+  "name": "Taxi Chaos 2",
+  "summary": "Taxi Chaos 2 is an arcade taxi driving game in a city ruled by AI taxi bots. As the last human taxi company, deliver extreme fares, adapt to an unpredictable city, and outdrive rival machines to take back control.",
+  "first_release_year": 2025,
+  "developers": [
+    "Team6 Game Studios B.V."
+  ],
+  "publishers": [
+    "Current Games"
+  ],
+  "genres": [
+    "Racing",
+    "Adventure",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "taxi"
+  ],
+  "alternative_names": [
+    {
+      "name": "TaxiChaos2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3542590"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/taxi-chaos-2-7595da"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.taxi-chaos.com"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@currentgamesofficial"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/current.games/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/currentgamers"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10015238"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/taxi-chaos-2-switch/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-23"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-23"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 13, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-01-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar43i2.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar43i3.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ExtX6jp6cPk",
+      "url": "https://www.youtube.com/watch?v=ExtX6jp6cPk"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "J1KrMyCRHak",
+      "url": "https://www.youtube.com/watch?v=J1KrMyCRHak"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "z1Ndqlcas6Q",
+      "url": "https://www.youtube.com/watch?v=z1Ndqlcas6Q"
+    }
+  ]
+}

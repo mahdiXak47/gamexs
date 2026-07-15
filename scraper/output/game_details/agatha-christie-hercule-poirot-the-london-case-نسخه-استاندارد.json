@@ -1,0 +1,148 @@
+{
+  "slug": "agatha-christie-hercule-poirot-the-london-case-نسخه-استاندارد",
+  "igdb_id": 246262,
+  "name": "Agatha Christie: Hercule Poirot - The London Case",
+  "summary": "Hercule Poirot is back in a brand-new adventure, set in the heart of London.",
+  "first_release_year": 2023,
+  "developers": [
+    "Blazing Griffin"
+  ],
+  "publishers": [
+    "Microids"
+  ],
+  "genres": [
+    "Point-and-click",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Hercule Poirot"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Agatha Christie"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "hercule poirot",
+    "available on - blacknut"
+  ],
+  "alternative_names": [
+    {
+      "name": "Poirot.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.microids.com/game-hercule-poirot-the-london-case/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/microids"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007246"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/agatha-christie-hercule-poirot-the-london-case-switch/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/microids/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/microids_off"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/agatha-christie-hercule-poirot-london-cases-c81a32"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2223740"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/microids_official"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@MicroidsOff?sub_confirmation=1"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/agatha_christie_hercule_poirot_the_london_case"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 29, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-29"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 29, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-29"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 29, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-29"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 29, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-29"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 29, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 29, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2a0w.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "bTCXSRzV2-U",
+      "url": "https://www.youtube.com/watch?v=bTCXSRzV2-U"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "slug": "syberia-the-world-before-نسخه-استاندارد",
+  "igdb_id": 121763,
+  "name": "Syberia: The World Before",
+  "summary": "Embark on a journey across continents and through time, as you piece together the puzzle of a life.",
+  "first_release_year": 2022,
+  "developers": [
+    "Koalabs Games",
+    "Microids Studio Paris"
+  ],
+  "publishers": [
+    "Microids"
+  ],
+  "genres": [
+    "Point-and-click",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Syberia"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "exploration",
+    "steampunk",
+    "female protagonist",
+    "narration"
+  ],
+  "alternative_names": [
+    {
+      "name": "사이베리아: 더 월드 비포",
+      "comment": "Korean title"
+    },
+    {
+      "name": "SyberiaTWB.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001404"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1410640"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/syberia-the-world-before"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/syberia_the_world_before"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.microids.com/game-syberia-the-world-before/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/syberia"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Syberia:_The_World_Before"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@MicroidsOff"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/microids_official"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discordapp.com/invite/microids"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/syberia.series"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://syberia.fandom.com/wiki/Syberia:_The_World_Before"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Syberia%3A%20The%20World%20Before"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/syberia-the-world-before/9MZTBJGGT5T8"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/syberia/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 18, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-03-18"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 15, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-11-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 15, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-11-15"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 15, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-11-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 19, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1ogh.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1ogg.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "wrYdQIRXJCg",
+      "url": "https://www.youtube.com/watch?v=wrYdQIRXJCg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ZSe7gptFEGI",
+      "url": "https://www.youtube.com/watch?v=ZSe7gptFEGI"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "GKYbssS71Wo",
+      "url": "https://www.youtube.com/watch?v=GKYbssS71Wo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "9j5MbmEMhj4",
+      "url": "https://www.youtube.com/watch?v=9j5MbmEMhj4"
+    }
+  ]
+}

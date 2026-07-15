@@ -1,0 +1,49 @@
+{
+  "slug": "destroy-all-humans-2",
+  "igdb_id": 215449,
+  "name": "Destroy All Humans! 2",
+  "summary": "",
+  "first_release_year": 2006,
+  "developers": [
+    "Universomo"
+  ],
+  "publishers": [
+    "THQ Wireless"
+  ],
+  "genres": [],
+  "themes": [],
+  "game_modes": [],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Destroy All Humans! 2 (Mobile)",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://destroy-all-humans.fandom.com/wiki/Destroy_All_Humans!_2_(mobile)"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Destroy%20All%20Humans%21%202"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Legacy Mobile Device",
+      "region": null,
+      "date": "2006",
+      "status": "Released",
+      "date_iso": "2006-12-31"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

@@ -1,0 +1,138 @@
+{
+  "slug": "the-smurfs-village-party",
+  "igdb_id": 292150,
+  "name": "The Smurfs: Village Party",
+  "summary": "Papa Smurf has decided to organize an exceptional party! Embark on a party game set in the Smurfs' Village, featuring an adventure mode.",
+  "first_release_year": 2024,
+  "developers": [
+    "Balio Studio"
+  ],
+  "publishers": [
+    "Microids"
+  ],
+  "genres": [
+    "Adventure",
+    "Arcade"
+  ],
+  "themes": [
+    "Kids",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "The Smurfs"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "available on - blacknut"
+  ],
+  "alternative_names": [
+    {
+      "name": "Les Schtroumpfs : Village Party",
+      "comment": "French title"
+    },
+    {
+      "name": "TheSmurfsVillageParty.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/microids"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@MicroidsOff"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/microids_official"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.microids.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/microids_off"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/microids"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/the-smurfs-village-party-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010362"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/smurfs-village-party-665dc8"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2800630"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 06, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-06"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 06, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-06"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 06, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 06, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-06"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 06, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-06"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 06, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2tsf.jpg"
+  ],
+  "videos": []
+}

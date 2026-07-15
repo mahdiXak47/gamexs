@@ -1,0 +1,117 @@
+{
+  "slug": "the-forest",
+  "igdb_id": 127346,
+  "name": "Sons of the Forest",
+  "summary": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator.",
+  "first_release_year": 2024,
+  "developers": [
+    "Endnight Games Ltd"
+  ],
+  "publishers": [
+    "Newnight"
+  ],
+  "genres": [
+    "Simulator",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "The Forest"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "crafting",
+    "survival horror",
+    "base building"
+  ],
+  "alternative_names": [
+    {
+      "name": "The Forest 2"
+    },
+    {
+      "name": "The Forest II"
+    },
+    {
+      "name": "SonsOfTheForest.exe",
+      "comment": "windows executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://sonsoftheforest.wiki.gg/wiki/Sons_of_the_Forest"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sons_of_the_Forest"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://endnightgames.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1326470"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Sons%20of%20the%20Forest"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/sotf"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/SonsOfTheForest/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 23, 2023",
+      "status": "Beta",
+      "date_iso": "2023-02-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 22, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1mx9.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "oPcVW89Dy4I",
+      "url": "https://www.youtube.com/watch?v=oPcVW89Dy4I"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "LpNDrrly3GI",
+      "url": "https://www.youtube.com/watch?v=LpNDrrly3GI"
+    }
+  ]
+}

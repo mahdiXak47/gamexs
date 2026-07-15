@@ -1,0 +1,226 @@
+{
+  "slug": "عصر-مدل-prototype-2",
+  "igdb_id": 2988,
+  "name": "Prototype 2",
+  "summary": "Prototype 2 is an open-world action game published by Activision and developed by Radical Entertainment. It's a direct sequel to Prototype and was announced at the 2010 Spike Video Game Awards.\n\nThe events of Prototype 2 takes place in New York City, now known as New York Zero (NYZ), following Sgt. James Heller on his quest to destroy Alex Mercer, after having lost everything and everyone he loved to the Blacklight virus.",
+  "first_release_year": 2012,
+  "developers": [
+    "Radical Entertainment"
+  ],
+  "publishers": [
+    "Activision"
+  ],
+  "genres": [
+    "Platform",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror",
+    "Survival",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Prototype"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Titanium"
+  ],
+  "keywords": [
+    "helicopter",
+    "bloody",
+    "destruction",
+    "infection",
+    "parkour",
+    "action-adventure",
+    "steam",
+    "achievements",
+    "time limit",
+    "mutants",
+    "building",
+    "tank",
+    "wall jump",
+    "black protagonist",
+    "boss fight",
+    "digital distribution",
+    "single-player only",
+    "steam cloud",
+    "challenges",
+    "playstation trophies",
+    "leveling up",
+    "based on - comics",
+    "bink video",
+    "human",
+    "collectibles",
+    "extreme violence",
+    "profanity",
+    "retail games with steam activation",
+    "escort mission",
+    "downloadable content",
+    "audio logs",
+    "been here before",
+    "difficulty achievement",
+    "games on demand",
+    "pre-order exclusive",
+    "speedrun",
+    "stealth kill",
+    "super speed",
+    "gliding",
+    "regenerating health",
+    "new protagonist in sequel",
+    "sex change",
+    "finishing move",
+    "superpowers",
+    "anarchism",
+    "biotechnology",
+    "slip cover packaging",
+    "carjacking",
+    "steelbook",
+    "super soldier",
+    "gamescom 2011",
+    "rogue protagonist",
+    "avatar awards",
+    "pax prime 2011",
+    "male protagonist",
+    "auto runner"
+  ],
+  "alternative_names": [
+    {
+      "name": "[PROTOTYPE2]",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "[PROTOTYPE 2]",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/prototype"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/prototype2/C3H56C11VWHM"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/203587"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://prototype.wikia.com/wiki/Prototype_2"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/115320"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.prototypegame.com"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Prototype%202"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Prototype_2"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 14, 2015",
+      "status": "Released",
+      "date_iso": "2015-07-14"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Apr 27, 2012",
+      "status": "Released",
+      "date_iso": "2012-04-27"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Apr 27, 2012",
+      "status": "Released",
+      "date_iso": "2012-04-27"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 12, 2015",
+      "status": "Released",
+      "date_iso": "2015-08-12"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 24, 2012",
+      "status": "Released",
+      "date_iso": "2012-07-24"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 14, 2015",
+      "status": "Released",
+      "date_iso": "2015-07-14"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Apr 24, 2012",
+      "status": "Released",
+      "date_iso": "2012-04-24"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Apr 24, 2012",
+      "status": "Released",
+      "date_iso": "2012-04-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arzyt.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arzys.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "-X0DfqkXeU8",
+      "url": "https://www.youtube.com/watch?v=-X0DfqkXeU8"
+    },
+    {
+      "title": "Gameplay video",
+      "youtube_id": "z32IMR5XckE",
+      "url": "https://www.youtube.com/watch?v=z32IMR5XckE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "HxyM_GxFwJ0",
+      "url": "https://www.youtube.com/watch?v=HxyM_GxFwJ0"
+    },
+    {
+      "title": "VGA 2010 Trailer",
+      "youtube_id": "ND14qIoqokI",
+      "url": "https://www.youtube.com/watch?v=ND14qIoqokI"
+    }
+  ]
+}

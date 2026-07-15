@@ -1,0 +1,185 @@
+{
+  "slug": "hypercharge-unboxed",
+  "igdb_id": 39758,
+  "name": "Hypercharge: Unboxed",
+  "summary": "Grab a friend and protect the Hypercore. Hypercharge is a solo and co-op wave-based first/third-person shooter with a small twist: you're an action figure! Explore. Defend. Survive.\n\nIf you grew up watching classic toy movies and played with action figures, get ready for mass nostalgia! Fight waves of weaponised toys in fun, light-hearted battles where each wave gets tougher and tougher. Hypercharge is easy to jump in and out of, allowing you to progress at your own pace.",
+  "first_release_year": 2020,
+  "developers": [
+    "Digital Cybercherries"
+  ],
+  "publishers": [
+    "Digital Cybercherries"
+  ],
+  "genres": [
+    "Shooter",
+    "Platform",
+    "Strategy",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Kids",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "HYPERCHARGE: Unboxed",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Unboxed.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://playhypercharge.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/DigitalCybercherries/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/hypercharge-unboxed/9NGK4ZHKBC8X"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003895"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/hypercharge-unboxed-switch/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Hypercharge:%20Unboxed"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/HYPERCHARGEGAME"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/523660"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hypercharge:_Unboxed"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/hyperchargeunboxed"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/hypercharge-unboxed"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/hypercharge_unboxed"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jan 30, 2020",
+      "status": "Released",
+      "date_iso": "2020-01-30"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Apr 27, 2020",
+      "status": "Released",
+      "date_iso": "2020-04-27"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 27, 2020",
+      "status": "Released",
+      "date_iso": "2020-04-27"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jan 31, 2020",
+      "status": "Released",
+      "date_iso": "2020-01-31"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 30, 2025",
+      "status": "Released",
+      "date_iso": "2025-05-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 30, 2025",
+      "status": "Released",
+      "date_iso": "2025-05-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 31, 2024",
+      "status": "Released",
+      "date_iso": "2024-05-31"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "May 31, 2024",
+      "status": "Released",
+      "date_iso": "2024-05-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar78l.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "zcjUWKOcbto",
+      "url": "https://www.youtube.com/watch?v=zcjUWKOcbto"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "VXEOkQfvPZ0",
+      "url": "https://www.youtube.com/watch?v=VXEOkQfvPZ0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "31k9H2zoe_k",
+      "url": "https://www.youtube.com/watch?v=31k9H2zoe_k"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "IbJRzi2CX0o",
+      "url": "https://www.youtube.com/watch?v=IbJRzi2CX0o"
+    }
+  ]
+}

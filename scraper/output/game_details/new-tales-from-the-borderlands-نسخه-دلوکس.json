@@ -1,0 +1,157 @@
+{
+  "slug": "new-tales-from-the-borderlands-نسخه-دلوکس",
+  "igdb_id": 214139,
+  "name": "New Tales from the Borderlands",
+  "summary": "Decide the fates of altruistic scientist Anu, her ambitious, \"streetwise\" brother Octavio, and the fierce, frogurt-slinging Fran. Claw and con your way through five thrilling chapters!",
+  "first_release_year": 2022,
+  "developers": [
+    "Gearbox Software"
+  ],
+  "publishers": [
+    "2K"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Borderlands",
+    "Tales from the Borderlands"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Borderlands"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "ニュー・テイルズ・フロム・ザ・ボーダーランズ",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "뉴 테일즈 프롬 더 보더랜드",
+      "comment": "Korean title"
+    },
+    {
+      "name": "NewTales.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/borderlands"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/new-tales-from-the-borderlands"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://borderlands.com/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/borderlands"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002770"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/new-tales-from-the-borderlands-switch/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/New_Tales_from_the_Borderlands"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/New%20Tales%20from%20the%20Borderlands"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/BorderlandsGame/featured"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/borderlandsgame"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1454970/New_Tales_from_the_Borderlands"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 21, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-21"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 21, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-21"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 21, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-21"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 21, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 21, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1t7l.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1t7k.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "ujh7O-UGxDY",
+      "url": "https://www.youtube.com/watch?v=ujh7O-UGxDY"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "8688wNaRnD0",
+      "url": "https://www.youtube.com/watch?v=8688wNaRnD0"
+    }
+  ]
+}

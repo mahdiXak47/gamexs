@@ -1,0 +1,186 @@
+{
+  "slug": "star-wars-jedi-survivor-نسخه-استاندارد",
+  "igdb_id": 201156,
+  "name": "Star Wars Jedi: Survivor",
+  "summary": "The story of Cal Kestis continues in Star Wars Jedi: Survivor, a third-person, galaxy-spanning, action-adventure game from Respawn Entertainment, developed in collaboration with Lucasfilm Games. This narratively driven, single-player title picks up five years after the events of Star Wars Jedi: Fallen Order and follows Cal’s increasingly desperate fight as the galaxy descends further into darkness. Pushed to the edges of the galaxy by the Empire, Cal will find himself surrounded by threats new and familiar. As one of the last surviving Jedi Knights, Cal is driven to make a stand during the galaxy’s darkest times — but how far is he willing to go to protect himself, his crew, and the legacy of the Jedi Order?",
+  "first_release_year": 2023,
+  "developers": [
+    "Respawn Entertainment"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Star Wars Jedi"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Star Wars"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "character customization",
+    "jedi",
+    "soulslike",
+    "canon star wars",
+    "the game awards - best action-adventure game - nominee",
+    "the game awards - best performance - nominee",
+    "available on - luna plus"
+  ],
+  "alternative_names": [
+    {
+      "name": "星球大战 绝地：幸存者",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "STAR WARS 絕地：倖存者",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "STAR WARS Jedi: Ocalały",
+      "comment": "Polish title"
+    },
+    {
+      "name": "STAR WARS ジェダイ：サバイバー",
+      "comment": "Japanese title - stylized"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/EAStarWars"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005114"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/star-wars-jedi-survivor/9PGC82V0DXFS"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1774580"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/star-wars-jedi-survivor"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/5kpcRHsVJD"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/EAStarWars"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/EAStarWars"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/starwars/jedi/jedi-survivor"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Star_Wars_Jedi:_Survivor"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://starwars.fandom.com/wiki/Star_Wars_Jedi:_Survivor"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Star%20Wars%20Jedi:%20Survivor"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/FallenOrder/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 28, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-04-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 28, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-04-28"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 28, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-04-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1qqi.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2aay.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "4HLDaBGdnLc",
+      "url": "https://www.youtube.com/watch?v=4HLDaBGdnLc"
+    },
+    {
+      "title": "Story Trailer",
+      "youtube_id": "_F6YBwIPzmk",
+      "url": "https://www.youtube.com/watch?v=_F6YBwIPzmk"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "i05L-FaDhko",
+      "url": "https://www.youtube.com/watch?v=i05L-FaDhko"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "VRaobDJjiec",
+      "url": "https://www.youtube.com/watch?v=VRaobDJjiec"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "bmj3ty-Wt48",
+      "url": "https://www.youtube.com/watch?v=bmj3ty-Wt48"
+    }
+  ]
+}

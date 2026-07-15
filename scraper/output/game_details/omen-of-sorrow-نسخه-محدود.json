@@ -1,0 +1,162 @@
+{
+  "slug": "omen-of-sorrow-نسخه-محدود",
+  "igdb_id": 27070,
+  "name": "Omen of Sorrow",
+  "summary": "Omen of Sorrow is a classic 2D, four-button fighting game, with Unreal Engine 4 powered graphics, a cast of 12 characters inspired by classical horror, fantasy and mythology, and a battle system designed from the ground up to leverage player skill, rather than stats or random chance, featuring deep combat mechanics that favor movement and spacing over tight execution to provide an engaging experience for pros and newcomers alike!",
+  "first_release_year": 2018,
+  "developers": [
+    "AOne Games"
+  ],
+  "publishers": [
+    "Eastasiasoft",
+    "SOEDESCO Publishing",
+    "AOne Games"
+  ],
+  "genres": [
+    "Fighting",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "pax west 2017",
+    "playstation experience 2016",
+    "available on - blacknut"
+  ],
+  "alternative_names": [
+    {
+      "name": "UMonster.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/aonegamespage/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/omen-of-sorrow-switch/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/AOneGames"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/229250"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.aonegames.com/en/index.html"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/aonegames/?hl=es-la"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCBKP6yK6Ct2tEQ29mxElGOg"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/product/omen-of-sorrow/home"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/457260"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/usCKC8X"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Omen%20of%20Sorrow"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 15, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 07, 2019",
+      "status": "Released",
+      "date_iso": "2019-06-07"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 06, 2018",
+      "status": "Released",
+      "date_iso": "2018-11-06"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 23, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-23"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 23, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4ar.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "cLhJoc8b-rU",
+      "url": "https://www.youtube.com/watch?v=cLhJoc8b-rU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "pqPx17BZHL8",
+      "url": "https://www.youtube.com/watch?v=pqPx17BZHL8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "lb-k8Hll6BM",
+      "url": "https://www.youtube.com/watch?v=lb-k8Hll6BM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "JDugGClS_8g",
+      "url": "https://www.youtube.com/watch?v=JDugGClS_8g"
+    }
+  ]
+}

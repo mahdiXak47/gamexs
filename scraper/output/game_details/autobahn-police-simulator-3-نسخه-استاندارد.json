@@ -1,0 +1,142 @@
+{
+  "slug": "autobahn-police-simulator-3-نسخه-استاندارد",
+  "igdb_id": 153975,
+  "name": "Autobahn Police Simulator 3",
+  "summary": "Autobahn Police Simulator 3 lets you play as a rookie officer who just resumed their position after a serious car accident left them incapacitated for a while. Work diligently and take on missions to become a capable police officer and keep the autobahn safe.",
+  "first_release_year": 2022,
+  "developers": [
+    "Z-Software"
+  ],
+  "publishers": [
+    "Aerosoft"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator"
+  ],
+  "themes": [
+    "Action",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Autobahn Police Simulator"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity 2020"
+  ],
+  "keywords": [
+    "casual",
+    "modern",
+    "realism"
+  ],
+  "alternative_names": [
+    {
+      "name": "Autobahn Polizei Simulator 3",
+      "comment": "German title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://de.wikipedia.org/wiki/Autobahn_Polizei_Simulator"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003777"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.autobahn-police.com"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/AerosoftGmbH"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1065520"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/m2cwtgpxA2"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCK9BXF5IfA4q8N4JpHD-cHA"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/AutobahnPoliceSimulator"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Autobahn%20Police%20Simulator%203"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 23, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-23"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 23, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-23"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 23, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 23, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 23, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arulz.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "W7vSpIEKHw8",
+      "url": "https://www.youtube.com/watch?v=W7vSpIEKHw8"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "ZlBeeuZ7NjM",
+      "url": "https://www.youtube.com/watch?v=ZlBeeuZ7NjM"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "NtNCa9FnV9I",
+      "url": "https://www.youtube.com/watch?v=NtNCa9FnV9I"
+    }
+  ]
+}

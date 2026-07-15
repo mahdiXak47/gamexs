@@ -1,0 +1,179 @@
+{
+  "slug": "atelier-yumia-the-alchemist-of-memories-the-envisioned-land",
+  "igdb_id": 314943,
+  "name": "Atelier Yumia: The Alchemist of Memories & the Envisioned Land",
+  "summary": "In a world where alchemy is deemed \"taboo\", the alchemist Yumia yearns for the \"truth\" that lies hidden in the ruined continent.\nNow, she takes her first steps on a grand adventure across the continent─",
+  "first_release_year": 2025,
+  "developers": [
+    "Gust"
+  ],
+  "publishers": [
+    "Koei Tecmo"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Atelier: Memories"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Atelier"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "ユミアのアトリエ ～追憶の錬金術士と幻創の地～",
+      "comment": "Japanese title - stylized"
+    },
+    {
+      "name": "Atelier Yumia : L’Alchimiste des Souvenirs et la Terre Rêvée",
+      "comment": "French title"
+    },
+    {
+      "name": "Atelier Yumia: Die Alchemistin der Erinnerungen und das erträumte Land",
+      "comment": "German title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/atelier-yumia-the-alchemist-of-memories-and-the-envisioned-land-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/atelier-yumia-the-alchemist-of-memories-&-the-envisioned-land---xbox-series-x|s-upgrade-pack/9NW4KWSMF0GV"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10012240"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/GustAtelierPR"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@GustCorporation"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/atelier-yumia-the-alchemist-of-memories-and-the-envisioned-land"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/koeitecmogamesjp/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://atelier.games/yumia/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3123410"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-21"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-21"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-21"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Jun 09, 2026",
+      "status": "status_36",
+      "date_iso": "2026-06-09"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5yr1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar36kw.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "PPWOgx4Eh4I",
+      "url": "https://www.youtube.com/watch?v=PPWOgx4Eh4I"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "dMcg-PDRfzs",
+      "url": "https://www.youtube.com/watch?v=dMcg-PDRfzs"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "zSE-Vq_b3gg",
+      "url": "https://www.youtube.com/watch?v=zSE-Vq_b3gg"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "5m31ikC5hJY",
+      "url": "https://www.youtube.com/watch?v=5m31ikC5hJY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "NmWbq2QdkQ8",
+      "url": "https://www.youtube.com/watch?v=NmWbq2QdkQ8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "TQAqb03xUaY",
+      "url": "https://www.youtube.com/watch?v=TQAqb03xUaY"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "-tikFU2wS2w",
+      "url": "https://www.youtube.com/watch?v=-tikFU2wS2w"
+    }
+  ]
+}

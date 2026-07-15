@@ -1,0 +1,135 @@
+{
+  "slug": "lumo-2",
+  "igdb_id": 338546,
+  "name": "Lumo 2",
+  "summary": "The isometric icon is back in the sequel to 2016’s arcade-adventure hit, Lumo. Experience a brand-new adventure of shifting dimensions and new perspectives, with gameplay that never stops evolving.",
+  "first_release_year": 2025,
+  "developers": [
+    "Triple Eh?"
+  ],
+  "publishers": [
+    "Numskull Games"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "controller required"
+  ],
+  "alternative_names": [
+    {
+      "name": "Lumo.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3039260"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/lumo-2/9np986c45p27"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/lumo-2-41636b"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/numskullgames/?hl=en"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/NumskullGames"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/numskullgames/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/lumo-2-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10014971"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.triple-eh.com/lumo-2"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@TripleEhLtd"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-17"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Oct 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3f2j.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "-nAOvgxX2Qo",
+      "url": "https://www.youtube.com/watch?v=-nAOvgxX2Qo"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "McB44aIx8sc",
+      "url": "https://www.youtube.com/watch?v=McB44aIx8sc"
+    }
+  ]
+}

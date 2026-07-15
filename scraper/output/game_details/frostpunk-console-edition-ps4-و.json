@@ -1,0 +1,110 @@
+{
+  "slug": "frostpunk-console-edition-ps4-و",
+  "igdb_id": 117420,
+  "name": "Frostpunk: Console Edition",
+  "summary": "Frostpunk is a society survival game where heat means life and every decision \ncomes at a price. Presenting complex strategic gameplay, demanding challenges \nand rich story, Frostpunk extends its unmatched survival experience to consoles. \nAdapted to the new platforms, with revised controls and adjusted \nmechanics - Frostpunk: Console Edition allows you to fully test your tactical \nprowess on the frozen wastelands",
+  "first_release_year": 2019,
+  "developers": [
+    "11 bit studios"
+  ],
+  "publishers": [
+    "11 bit studios"
+  ],
+  "genres": [
+    "Simulator",
+    "Strategy",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": "Frostpunk",
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCq2-YS92kRURomhlw2fj7_g"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://frostpunk.gamepedia.com/Frostpunk_Wiki"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/frostpunkgame"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Frostpunk"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/frostpunk-console-edition/9NP539LHJD8S"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/frostpunkgame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.frostpunkgame.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Frostpunk"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 11, 2019",
+      "status": "Released",
+      "date_iso": "2019-10-11"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 11, 2019",
+      "status": "Released",
+      "date_iso": "2019-10-11"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5dn.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar67p.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "BWDA7pIbq5E",
+      "url": "https://www.youtube.com/watch?v=BWDA7pIbq5E"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "_Lu7FeOkHtw",
+      "url": "https://www.youtube.com/watch?v=_Lu7FeOkHtw"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "ipHHGDDhm9Q",
+      "url": "https://www.youtube.com/watch?v=ipHHGDDhm9Q"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "F1rLdSCSz5g",
+      "url": "https://www.youtube.com/watch?v=F1rLdSCSz5g"
+    }
+  ]
+}

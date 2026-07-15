@@ -1,0 +1,167 @@
+{
+  "slug": "chronicles-of-2-heroes-amaterasu's-wrath",
+  "igdb_id": 191850,
+  "name": "Chronicles of 2 Heroes: Amaterasu's Wrath",
+  "summary": "Chronicles of 2 Heroes is an intense 16-bit action platformer with Metroidvania elements and a singular mechanic: you can switch in real-time between the two main characters! The Samurai and the Kunoichi have unique, surprising combat styles that you will need to master to save feudal Japan from the goddess Amaterasu and her fearsome minions.",
+  "first_release_year": 2023,
+  "developers": [],
+  "publishers": [
+    "Catness Game Studios"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Historical"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "retro",
+    "2d",
+    "metroidvania",
+    "japan",
+    "pixel art",
+    "pixel graphics",
+    "japanese mythology",
+    "feudal japan",
+    "technical platformer",
+    "precision platforming"
+  ],
+  "alternative_names": [
+    {
+      "name": "Chronicles of 2 Heroes",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "Chronicles of 2 Heroes: Amaterasu's Wrath"
+    },
+    {
+      "name": "Chronicles of Two Heroes",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Chronicles of Two Heroes: Amaterasu's Wrath",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "COTH.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/KYGSDfUgSG"
+    },
+    {
+      "label": "Itch",
+      "url": "https://infinity-experience.itch.io/coth"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008011"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/chronicles-of-2-heroes-amaterasus-wrath-switch/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/infinity_experience_studio?hl=it"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/InfinityExperi4"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/user/Infinity_Experience/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://infinitydevgames.com/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/chronicles-of-2-heroes-cf6bb6"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/watch?v=aFwDfyw6MQc"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1747560/CHRONICLES_OF_2_HEROES_AMATERASUS_WRATH"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Chronicles%20of%202%20Heroes:%20Amaterasu%27s%20Wrath"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 26, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-05-26"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "TBD",
+      "status": "Cancelled"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "TBD",
+      "status": "Cancelled"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "TBD",
+      "status": "Cancelled"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "TBD",
+      "status": "Cancelled"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 26, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-05-26"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1hkq.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "Yvfig9O2M58",
+      "url": "https://www.youtube.com/watch?v=Yvfig9O2M58"
+    }
+  ]
+}

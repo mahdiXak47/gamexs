@@ -1,0 +1,72 @@
+{
+  "slug": "call-of-duty-infinite-warfare-نسخه-legacy-pro-edition-ps4",
+  "igdb_id": 41625,
+  "name": "Call of Duty: Infinite Warfare - Legacy Pro Edition",
+  "summary": "The Call of Duty: Infinite Warfare - Legacy Pro Edition is the ultimate offering for fans available for Xbox One and PlayStation 4. It Includes:\n\n- Call of Duty: Infinite Warfare\n- Call of Duty: Modern Warfare Remastered\n- Terminal bonus map\n- Season Pass for Call of Duty: Infinite Warfare\n- Steelbook Case\n- A code for the Zombies in Spaceland Pack\n- A code for the Bullethawk Pack\n- A code to the multiplayer beta\n- A code for the official Infinite Warfare soundtrack",
+  "first_release_year": 2016,
+  "developers": [
+    "Infinity Ward"
+  ],
+  "publishers": [
+    "Activision",
+    "Activision"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Warfare"
+  ],
+  "game_modes": [],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Call of Duty"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.callofduty.com/infinitewarfare"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://callofduty.fandom.com/wiki/Call_of_Duty:_Infinite_Warfare"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Infinite_Warfare"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 04, 2016",
+      "status": "Cancelled",
+      "date_iso": "2016-11-04"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 04, 2016",
+      "status": "Cancelled",
+      "date_iso": "2016-11-04"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 04, 2016",
+      "status": "Cancelled",
+      "date_iso": "2016-11-04"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

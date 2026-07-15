@@ -1,0 +1,183 @@
+{
+  "slug": "سونی-مدل-fifa-22",
+  "igdb_id": 154986,
+  "name": "FIFA 22",
+  "summary": "Powered by Football, FIFA 22 brings the game even closer to the real thing with fundamental gameplay advances and a new season of innovation across every mode. Play with 17,000+ players, over 700 teams in 90+ stadiums and more than 30 leagues from all over the globe.",
+  "first_release_year": 2021,
+  "developers": [
+    "EA Vancouver"
+  ],
+  "publishers": [
+    "EA Sports"
+  ],
+  "genres": [
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [
+    "Action",
+    "Non-fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen",
+    "Massively Multiplayer Online (MMO)"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "FIFA"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "FIFA"
+  ],
+  "game_engines": [
+    "Frostbite"
+  ],
+  "keywords": [
+    "soccer",
+    "football",
+    "pvp",
+    "realism"
+  ],
+  "alternative_names": [
+    {
+      "name": "FIFA 2022",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "EA SPORTS FIFA 22",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "EA SPORTS™ FIFA 22",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "피파 22",
+      "comment": "Korean title - unofficial"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/FIFA"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/FIFA%2022"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002538"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/fifa/fifa-22"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/easportsfifa"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/easportsfifa"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/easportsfifa"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/easportsfifa"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://fifa.fandom.com/wiki/FIFA_22"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/FIFA_22"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1506830"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 27, 2021",
+      "status": "status_34",
+      "date_iso": "2021-09-27"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Sep 27, 2021",
+      "status": "status_34",
+      "date_iso": "2021-09-27"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Oct 01, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-10-01"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 01, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-10-01"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 27, 2021",
+      "status": "status_34",
+      "date_iso": "2021-09-27"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 01, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-10-01"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arvil.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arvik.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arvij.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "rqTBAw2tInc",
+      "url": "https://www.youtube.com/watch?v=rqTBAw2tInc"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "OGyaaltvL-o",
+      "url": "https://www.youtube.com/watch?v=OGyaaltvL-o"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "o1igaMv46SY",
+      "url": "https://www.youtube.com/watch?v=o1igaMv46SY"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "SYsi5QuOJNE",
+      "url": "https://www.youtube.com/watch?v=SYsi5QuOJNE"
+    }
+  ]
+}

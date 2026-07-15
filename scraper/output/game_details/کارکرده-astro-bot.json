@@ -1,0 +1,109 @@
+{
+  "slug": "کارکرده-astro-bot",
+  "igdb_id": 303811,
+  "name": "Astro Bot",
+  "summary": "Buckle up for some epic PlayStation camaraderie, join forces with your favourite PlayStation icons and show the universe that small is mighty in this fresh new Astro adventure, exclusive to PS5 consoles!",
+  "first_release_year": 2024,
+  "developers": [
+    "Team Asobi"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Astro"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Havok"
+  ],
+  "keywords": [
+    "robots",
+    "robot protagonist",
+    "the game awards - best score or music - nominee",
+    "reference to other games",
+    "the game awards - best action-adventure game - winner",
+    "the game awards - best art direction - nominee",
+    "the game awards - best audio design - nominee",
+    "the game awards - best family game - winner",
+    "the game awards - best game direction - winner",
+    "the game awards - game of the year - winner"
+  ],
+  "alternative_names": [
+    {
+      "name": "Astrobot",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "ASTRO BOT",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.playstation.com/en-us/games/astro-bot/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/astro-bot"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002684"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Astro_Bot"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://astrosplayroom.fandom.com/wiki/Astro_Bot_(Game)"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 06, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4u6y.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3qeo.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "wHMNQzLG_Jg",
+      "url": "https://www.youtube.com/watch?v=wHMNQzLG_Jg"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "unYFdcEjV9k",
+      "url": "https://www.youtube.com/watch?v=unYFdcEjV9k"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "VV5cTl692po",
+      "url": "https://www.youtube.com/watch?v=VV5cTl692po"
+    }
+  ]
+}

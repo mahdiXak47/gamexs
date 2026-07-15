@@ -1,0 +1,223 @@
+{
+  "slug": "star-wars-jedi-fallen-order",
+  "igdb_id": 74701,
+  "name": "Star Wars Jedi: Fallen Order",
+  "summary": "Star Wars Jedi: Fallen Order is a narratively driven, single-player game puts you in the role of a Jedi Padawan who narrowly escaped the purge of Order 66 following the events of Episode III: Revenge of the Sith. On a quest to rebuild the Jedi Order, you must pick up the pieces of your shattered past to complete your training, develop new powerful Force abilities and master the art of the iconic lightsaber - all while staying one step ahead of the Empire and its deadly Inquisitors.",
+  "first_release_year": 2019,
+  "developers": [
+    "Respawn Entertainment"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Star Wars Jedi"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Star Wars"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "star wars",
+    "space",
+    "male protagonist",
+    "canon star wars",
+    "the game awards - best action-adventure game - nominee",
+    "available on - luna plus"
+  ],
+  "alternative_names": [
+    {
+      "name": "Star Wars Jedi: Gefallene Ordnung",
+      "comment": "German title"
+    },
+    {
+      "name": "星球大战绝地武士：堕落秩序",
+      "comment": "Chinese title"
+    },
+    {
+      "name": "Star Wars Jedi: Ordem Caída",
+      "comment": "Portuguese title"
+    },
+    {
+      "name": "Jedi: Fallen Order",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "星際大戰 絕地：組織殞落",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "STAR WARS Jedi: Fallen Order™",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/232345"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/star-wars-jedi-fallen-order/C2CSDTSCBZ0C"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SWJediFallenOrder"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1172380"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/EAStarWars"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Star_Wars_Jedi:_Fallen_Order"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/starwars/jedi-fallen-order"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/FallenOrder"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://starwarsjedifallenorder.fandom.com/wiki/Star_Wars_Jedi:_Fallen_Order_Wiki"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/product/star-wars-jedi-fallen-order"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Star%20Wars%20Jedi%3A%20Fallen%20Order"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/respawn?hl=en"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/EAStarWars"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 15, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-15"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 15, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-15"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Nov 24, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 15, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 11, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-06-11"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 11, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-06-11"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 12, 2021",
+      "status": "status_36",
+      "date_iso": "2021-01-12"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 12, 2021",
+      "status": "status_36",
+      "date_iso": "2021-01-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5o7.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4kq8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5o4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5o5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5o6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar8ex.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "0GLbwkfhYZk",
+      "url": "https://www.youtube.com/watch?v=0GLbwkfhYZk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "nfcAHfDuNzw",
+      "url": "https://www.youtube.com/watch?v=nfcAHfDuNzw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "1wWkQXUMQYI",
+      "url": "https://www.youtube.com/watch?v=1wWkQXUMQYI"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "8939aURV9Dc",
+      "url": "https://www.youtube.com/watch?v=8939aURV9Dc"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "v1NULUOTwnw",
+      "url": "https://www.youtube.com/watch?v=v1NULUOTwnw"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "xIl2z5wwjdA",
+      "url": "https://www.youtube.com/watch?v=xIl2z5wwjdA"
+    }
+  ]
+}

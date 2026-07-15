@@ -1,0 +1,161 @@
+{
+  "slug": "aew-fight-forever",
+  "igdb_id": 145216,
+  "name": "AEW: Fight Forever",
+  "summary": "AEW: Fight Forever combines nostalgic arcade-wrestling with All Elite Wrestling finishers and moves. Featuring a big roster of AEW talent, multiple match types, robust career mode, tons of customization options, more than 40 weapons, and so much more!",
+  "first_release_year": 2023,
+  "developers": [
+    "Yuke's"
+  ],
+  "publishers": [
+    "THQ Nordic"
+  ],
+  "genres": [
+    "Fighting",
+    "Sport"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "AEW"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "wrestling",
+    "wrestling game"
+  ],
+  "alternative_names": [
+    {
+      "name": "AEWFightForever.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "All Elite Wrestling: Fight Forever",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/thqnordic"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005440"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/aew-fight-forever-switch/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/AEW_Fight_Forever"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/DrkD4P3wPF"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/THQNordic"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/THQNordic/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1913210"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://aew.thqnordic.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/All%20Elite%20Wrestling:%20Fight%20Forever"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/thqnordic"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 29, 2023",
+      "status": "Released",
+      "date_iso": "2023-06-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 29, 2023",
+      "status": "Released",
+      "date_iso": "2023-06-29"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 29, 2023",
+      "status": "Released",
+      "date_iso": "2023-06-29"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 29, 2023",
+      "status": "Released",
+      "date_iso": "2023-06-29"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 29, 2023",
+      "status": "Released",
+      "date_iso": "2023-06-29"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 29, 2023",
+      "status": "Released",
+      "date_iso": "2023-06-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar66az.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar66b0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar66b1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar66b2.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar66b3.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "CtfpUiVxs6o",
+      "url": "https://www.youtube.com/watch?v=CtfpUiVxs6o"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "1rdrmi13XI0",
+      "url": "https://www.youtube.com/watch?v=1rdrmi13XI0"
+    }
+  ]
+}

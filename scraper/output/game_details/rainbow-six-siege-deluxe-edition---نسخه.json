@@ -1,0 +1,309 @@
+{
+  "slug": "rainbow-six-siege-deluxe-edition---نسخه",
+  "igdb_id": 7360,
+  "name": "Rainbow Six Siege",
+  "summary": "Tom Clancy's Rainbow Six Siege is a tactical first-person shooter focused on close-quarters combat between teams of five. Players select from a roster of operators drawn from counter-terrorism units around the world, each with unique gadgets and abilities. One team attacks objectives such as defusing bombs or rescuing hostages, while the other team fortifies and defends. The game emphasizes destructible environments, with players able to breach walls, ceilings, and floors to create new lines of sight. There is no respawning within rounds, making each player's survival critical. The title has no single-player campaign but includes training modes and cooperative scenarios against AI opponents.",
+  "first_release_year": 2015,
+  "developers": [
+    "Ubisoft Montreal"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Tactical"
+  ],
+  "themes": [
+    "Action",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Rainbow Six"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Tom Clancy’s"
+  ],
+  "game_engines": [
+    "AnvilNext"
+  ],
+  "keywords": [
+    "modern warfare",
+    "espionage",
+    "achievements",
+    "hostages",
+    "crime",
+    "no jumping",
+    "digital distribution",
+    "playstation trophies",
+    "modern military",
+    "bink video",
+    "microtransaction",
+    "playstation experience 2016",
+    "kill feed",
+    "pax prime 2015",
+    "destructible environment",
+    "terrorists",
+    "sliding down ladders",
+    "enemy tagging",
+    "no respawn",
+    "objective-based team gameplay",
+    "bomb defusal mode",
+    "the game awards 2017",
+    "the game awards - nominee",
+    "the game awards 2016",
+    "the game awards - best multiplayer game - nominee",
+    "the game awards - best ongoing game - nominee"
+  ],
+  "alternative_names": [
+    {
+      "name": "R6: Siege",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Regenbogen 6 Belagerung",
+      "comment": "German title"
+    },
+    {
+      "name": "彩虹六号：围攻",
+      "comment": "Chinese title"
+    },
+    {
+      "name": "R6:S",
+      "comment": "Acronym"
+    },
+    {
+      "name": "R6S",
+      "comment": "Acronym"
+    },
+    {
+      "name": "레식",
+      "comment": "Korean Acronym"
+    },
+    {
+      "name": "Rainbow Six Siege",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Tom Clancy's Rainbow Six: Siege",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Tom Clancy's Rainbow Six Siege",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "RainbowSix.exe",
+      "comment": "windows executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Tom%20Clancy's%20Rainbow%20Six:%20Siege"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Rainbow6Game"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/p/rainbow-six-siege-x"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://rainbow6.ubi.com/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/rainbow6"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Rainbow6"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/rainbow6game_us"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://rainbowsix.fandom.com/wiki/Tom_Clancy%27s_Rainbow_Six_Siege"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/359550"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Rainbow6"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tom_Clancy%27s_Rainbow_Six_Siege"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 01, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-12-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 01, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-12-01"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 01, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-12-01"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 01, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-12-01"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 01, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-12-01"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Jun 30, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-06-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/kldwdvefwtpf2hltlqrh.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ccxxhrm1lpf4lbphjspv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/h0qlwbkae7sx7x2pzci7.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/pzdzstxdaybngxih7gwf.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4uq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3pvr.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3pwk.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4up.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3pvq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3pvn.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3pvm.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3pvj.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3pvk.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3pvl.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3pvo.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3pvp.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "Cz05pYI0dIc",
+      "url": "https://www.youtube.com/watch?v=Cz05pYI0dIc"
+    },
+    {
+      "title": "CTU Spotlight: SAS Trailer",
+      "youtube_id": "IOPjrDUuXaQ",
+      "url": "https://www.youtube.com/watch?v=IOPjrDUuXaQ"
+    },
+    {
+      "title": "E3 White Masks Reveal Trailer",
+      "youtube_id": "waTdua8gpDc",
+      "url": "https://www.youtube.com/watch?v=waTdua8gpDc"
+    },
+    {
+      "title": "Art of Siege",
+      "youtube_id": "N7sufn_qnDM",
+      "url": "https://www.youtube.com/watch?v=N7sufn_qnDM"
+    },
+    {
+      "title": "Gamescom 2015 Trailer",
+      "youtube_id": "yFAT9U64cuY",
+      "url": "https://www.youtube.com/watch?v=yFAT9U64cuY"
+    },
+    {
+      "title": "E3 Trailer",
+      "youtube_id": "F-6S7hu0wYc",
+      "url": "https://www.youtube.com/watch?v=F-6S7hu0wYc"
+    },
+    {
+      "title": "Operators Trailer",
+      "youtube_id": "hhOgDFA-7L4",
+      "url": "https://www.youtube.com/watch?v=hhOgDFA-7L4"
+    },
+    {
+      "title": "Accolade Trailer",
+      "youtube_id": "Vuj07o8D8LY",
+      "url": "https://www.youtube.com/watch?v=Vuj07o8D8LY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Jt8HCVcg9Uk",
+      "url": "https://www.youtube.com/watch?v=Jt8HCVcg9Uk"
+    },
+    {
+      "title": "E3 Terrorist Hunt Co-Op Trailer",
+      "youtube_id": "jYEuI0CTSH4",
+      "url": "https://www.youtube.com/watch?v=jYEuI0CTSH4"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "5DX0xjmIWWM",
+      "url": "https://www.youtube.com/watch?v=5DX0xjmIWWM"
+    },
+    {
+      "title": "CTU Spotlight: GSG 9 Trailer",
+      "youtube_id": "qRaLYOWPqyA",
+      "url": "https://www.youtube.com/watch?v=qRaLYOWPqyA"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "6wlvYh0h63k",
+      "url": "https://www.youtube.com/watch?v=6wlvYh0h63k"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "U_2xTwN5KUw",
+      "url": "https://www.youtube.com/watch?v=U_2xTwN5KUw"
+    },
+    {
+      "title": "Year 10 Cinematic Trailer",
+      "youtube_id": "mj99yIzCQpc",
+      "url": "https://www.youtube.com/watch?v=mj99yIzCQpc"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "BI9fgQY0d5I",
+      "url": "https://www.youtube.com/watch?v=BI9fgQY0d5I"
+    },
+    {
+      "title": "Reveal Gameplay Trailer",
+      "youtube_id": "A0Hw96M5bC4",
+      "url": "https://www.youtube.com/watch?v=A0Hw96M5bC4"
+    },
+    {
+      "title": "Siege X Pack Trailer",
+      "youtube_id": "FYRTGAFhpjo",
+      "url": "https://www.youtube.com/watch?v=FYRTGAFhpjo"
+    }
+  ]
+}

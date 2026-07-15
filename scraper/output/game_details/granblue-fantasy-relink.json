@@ -1,0 +1,175 @@
+{
+  "slug": "granblue-fantasy-relink",
+  "igdb_id": 22788,
+  "name": "Granblue Fantasy: Relink",
+  "summary": "A grand adventure in the skies awaits! Form a party of four from a diverse roster of skyfarers and slash—or shoot or hex—your way to victory against treacherous foes in this action RPG. Take on quests solo or with the help of others in up to 4-player co-op play!",
+  "first_release_year": 2024,
+  "developers": [
+    "Cygames Osaka",
+    "Cygames"
+  ],
+  "publishers": [
+    "PLAION",
+    "XSEED Games",
+    "Cygames"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Granblue Fantasy"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Granblue Fantasy"
+  ],
+  "game_engines": [
+    "Cyllista Engine"
+  ],
+  "keywords": [
+    "anime",
+    "real-time combat",
+    "tokyo game show 2016"
+  ],
+  "alternative_names": [
+    {
+      "name": "GRANBLUE FANTASY Relink",
+      "comment": "Other"
+    },
+    {
+      "name": "グランブルーファンタジー 『Project Re:LINK』",
+      "comment": "Formerly known as"
+    },
+    {
+      "name": "Granblue Fantasy Project Re: Link",
+      "comment": "Formerly known as"
+    },
+    {
+      "name": "granblue_fantasy_relink.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Granblue_Fantasy:_Relink"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://gbf.wiki/Main_Page"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/MarvelousUSAInc/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/marveloususa/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/XSEEDgames"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/229066"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/GranblueFantasyRelink/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Granblue%20Fantasy%20Project%20Re:%20Link"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://relink.granbluefantasy.jp/en/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/gbf_relink_jp"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/881020/Granblue_Fantasy_Relink/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@relink_official"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/xseedgames"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/relink-official"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 01, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 01, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-01"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 01, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-01"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2gxl.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2gxk.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar624z.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2gxj.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay video",
+      "youtube_id": "odAeEqQTIrU",
+      "url": "https://www.youtube.com/watch?v=odAeEqQTIrU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "r-K5n1sbdrQ",
+      "url": "https://www.youtube.com/watch?v=r-K5n1sbdrQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "PYFZM9bksMI",
+      "url": "https://www.youtube.com/watch?v=PYFZM9bksMI"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "LXm7fMmVsQM",
+      "url": "https://www.youtube.com/watch?v=LXm7fMmVsQM"
+    }
+  ]
+}

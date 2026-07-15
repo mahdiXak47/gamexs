@@ -1,0 +1,194 @@
+{
+  "slug": "poppy-playtime-chapter-2",
+  "igdb_id": 194467,
+  "name": "Poppy Playtime: Chapter 2 - Fly in a Web",
+  "summary": "Three times the size of Chapter 1, you must descend deeper into the toy factory. Mind-numbing puzzles and horrific toys await. Grapple and swing your way to safety. Try to escape- and don't let Mommy find you.",
+  "first_release_year": 2022,
+  "developers": [
+    "Mob Entertainment"
+  ],
+  "publishers": [
+    "Mob Entertainment"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Thriller",
+    "Survival",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Poppy Playtime"
+  ],
+  "spin_off_of": "Poppy Playtime",
+  "franchises": [
+    "Poppy Playtime"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "mascot horror"
+  ],
+  "alternative_names": [
+    {
+      "name": "Poppy Playtime: Chapter 2",
+      "comment": "Abbreviation"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/poppy-playtime-chapter-1-poppy-playtime-chapter-2-93f8ef"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/poppy-playtime-chapter-2-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/poppy-playtime-chapter-2/9NZN01GKH29D"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010437"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/people/Poppy-Playtime/100078833445998?utm_medium=linktree&utm_source=linktree&utm_campaign=facebook"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1817490"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://itunes.apple.com/us/app/id1633879571"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://poppy-playtime.fandom.com/wiki/Chapter_2:_Fly_in_a_Web"
+    },
+    {
+      "label": "iPad",
+      "url": "http://itunes.apple.com/us/app/id1633879571#?platform=ipad"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCXqV4yoyC_mmZye6VbKFPeQ"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/poppyplaytimeco"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/FmsXQDK7Zp"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/mobgamesstudios"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://poppyplaytime.com/"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.MOBGames.PoppyMobileChap2"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/mobentertainment.com"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 20, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 20, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-20"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 31, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-31"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 05, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-05-05"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Aug 15, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-08-15"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Aug 11, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-08-11"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 20, 2024",
+      "status": "Released",
+      "date_iso": "2024-09-20"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 20, 2024",
+      "status": "Released",
+      "date_iso": "2024-09-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar34on.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar34ol.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar34om.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "YrzrYXcAQU4",
+      "url": "https://www.youtube.com/watch?v=YrzrYXcAQU4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "6wDstpT8V0A",
+      "url": "https://www.youtube.com/watch?v=6wDstpT8V0A"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "XVENjm3Bjk0",
+      "url": "https://www.youtube.com/watch?v=XVENjm3Bjk0"
+    }
+  ]
+}

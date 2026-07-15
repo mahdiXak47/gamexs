@@ -1,0 +1,81 @@
+{
+  "slug": "civil-war-2",
+  "igdb_id": 17527,
+  "name": "Civil War II",
+  "summary": "Civil War II is a historical operational grand strategy game with a simultaneous turn-based engine that places players at the head of the USA or CSA during the American Civil War. It is a turn based regional game with an emphasis on playability and historical accuracy.\n\nEach turn lasts 2 weeks and you must issue your orders in advance, planning on where the enemy will be, not where they are now. Orders are executed simultaneously in 14 phases - 1 per day. Battles are resolved on the day they occur so scheduling the arrival of your forces and planning the logistics or your army are key to success.",
+  "first_release_year": 2014,
+  "developers": [
+    "Ageod"
+  ],
+  "publishers": [
+    "Ageod",
+    "Slitherine Ltd."
+  ],
+  "genres": [
+    "Simulator",
+    "Strategy"
+  ],
+  "themes": [
+    "Historical",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Civil War"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "steam",
+    "online",
+    "civil war",
+    "sequel",
+    "digital distribution"
+  ],
+  "alternative_names": [
+    {
+      "name": "Civil War 2",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/306630"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.matrixgames.com/game/civil-war-ii"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Civil%20War%20II"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 04, 2014",
+      "status": "Released",
+      "date_iso": "2014-06-04"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar554n.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "gYrX6rqhnoU",
+      "url": "https://www.youtube.com/watch?v=gYrX6rqhnoU"
+    }
+  ]
+}

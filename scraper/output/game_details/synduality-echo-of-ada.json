@@ -1,0 +1,173 @@
+{
+  "slug": "synduality-echo-of-ada",
+  "igdb_id": 217601,
+  "name": "Synduality: Echo of Ada",
+  "summary": "You and an AI mech named Magus explore a dystopian landscape in the year 2222. A catastrophic poisonous rain event known as Tears of the New Moon nearly eradicated the human race — survivors fled to the underground city of Amasia. To survive, the player character known as a “Drifter” must sell AO Crystals, which can only be harvested from the polluted outside world. To travel, you’ll drive around in a vehicle called the Cradle Coffin, which you can customize.\n\nThe game will also have a unique PvP option, wherein playing online will support encounters with others plays on their own missions - you might collide head to head while trying to gather precious supplies",
+  "first_release_year": 2025,
+  "developers": [
+    "Game Studio"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "奇異賢伴 愛達之歌",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "SYNDUALITY Echo of Ada",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "奇异贤伴 爱达之歌",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "start_protected_game.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004816"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/synduality-echo-of-ada/9MZB0JZ08TKR"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/synduality-echo-of-ada"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Synduality:_Echo_of_Ada"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/synduality"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://project-syn.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/sharer.php?u=https://project-syn.com"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1245480"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/synduality"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/wsgWfhn4"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-01-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 16, 2025",
+      "status": "status_34",
+      "date_iso": "2025-01-16"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 16, 2025",
+      "status": "status_34",
+      "date_iso": "2025-01-16"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-01-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 16, 2025",
+      "status": "status_34",
+      "date_iso": "2025-01-16"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-01-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1ve1.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "6uqbyEfLETM",
+      "url": "https://www.youtube.com/watch?v=6uqbyEfLETM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "GOI_cB5vOhY",
+      "url": "https://www.youtube.com/watch?v=GOI_cB5vOhY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "XS2Ek8sHDnE",
+      "url": "https://www.youtube.com/watch?v=XS2Ek8sHDnE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Fnahro0ppgg",
+      "url": "https://www.youtube.com/watch?v=Fnahro0ppgg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "TfLqVmfgffM",
+      "url": "https://www.youtube.com/watch?v=TfLqVmfgffM"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "a7dnOWRtv9c",
+      "url": "https://www.youtube.com/watch?v=a7dnOWRtv9c"
+    }
+  ]
+}

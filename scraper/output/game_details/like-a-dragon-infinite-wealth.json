@@ -1,0 +1,217 @@
+{
+  "slug": "like-a-dragon-infinite-wealth",
+  "igdb_id": 217623,
+  "name": "Like a Dragon: Infinite Wealth",
+  "summary": "Like a Dragon: Infinite Wealth is a turn-based role-playing game developed by Ryu Ga Gotoku Studio and published by Sega. It follows dual protagonists Ichiban Kasuga and Kazuma Kiryu, with the narrative set primarily in Japan and Hawaii. The game uses a party-based combat system that builds on previous Like a Dragon entries, incorporating positioning and environmental interactions. Players engage in main story missions alongside a wide range of optional activities and side content. The title combines narrative-driven progression with exploration, character development, and minigames typical of the series.",
+  "first_release_year": 2024,
+  "developers": [
+    "Ryu Ga Gotoku Studios"
+  ],
+  "publishers": [
+    "Sega"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Drama"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Yakuza: Like a Dragon"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Yakuza: Like a Dragon"
+  ],
+  "game_engines": [
+    "Dragon Engine"
+  ],
+  "keywords": [
+    "multiple protagonists",
+    "tropical",
+    "turn-based combat",
+    "turn-based rpg",
+    "hawaii"
+  ],
+  "alternative_names": [
+    {
+      "name": "Y8",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "LAD 8",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "Yakuza 8",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Ryu Ga Gotoku 8",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "Like a Dragon 8",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "人中之龙 8",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "人中之龍 8",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "Like a Dragon 8: Infinite Wealth",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Yakuza 8: Infinite Wealth",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/ryuofficial"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/yakuzagames"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/like-a-dragon-infinite-wealth/9P00SVGWDJCP"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004462"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://yakuza.fandom.com/wiki/Like_a_Dragon:_Infinite_Wealth"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Like%20a%20Dragon%208"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/RGGStudio"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Like_a_Dragon:_Infinite_Wealth"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/RGGStudioWest"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://infinitewealth.sega.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2072450"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/RGGStudioWest"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 26, 2024",
+      "status": "Released",
+      "date_iso": "2024-01-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 26, 2024",
+      "status": "Released",
+      "date_iso": "2024-01-26"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 26, 2024",
+      "status": "Released",
+      "date_iso": "2024-01-26"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 26, 2024",
+      "status": "Released",
+      "date_iso": "2024-01-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 26, 2024",
+      "status": "Released",
+      "date_iso": "2024-01-26"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2jbc.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar48eo.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar48ep.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "Fx0YMVgCD5E",
+      "url": "https://www.youtube.com/watch?v=Fx0YMVgCD5E"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3Q1HRYrO1Gw",
+      "url": "https://www.youtube.com/watch?v=3Q1HRYrO1Gw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "1tG0Cbr2wVY",
+      "url": "https://www.youtube.com/watch?v=1tG0Cbr2wVY"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "yU6qZi6zxRY",
+      "url": "https://www.youtube.com/watch?v=yU6qZi6zxRY"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "BpmYdgZc-bM",
+      "url": "https://www.youtube.com/watch?v=BpmYdgZc-bM"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "jeTFK18PjnM",
+      "url": "https://www.youtube.com/watch?v=jeTFK18PjnM"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "H_GCywy6uhY",
+      "url": "https://www.youtube.com/watch?v=H_GCywy6uhY"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "Y7vvO6t9KSM",
+      "url": "https://www.youtube.com/watch?v=Y7vvO6t9KSM"
+    }
+  ]
+}

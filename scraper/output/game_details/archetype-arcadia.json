@@ -1,0 +1,168 @@
+{
+  "slug": "archetype-arcadia",
+  "igdb_id": 155082,
+  "name": "Archetype Arcadia",
+  "summary": "The world has fallen to Peccato Mania (original sin), which causes self-harm and other problems.\n\nTo save his younger sister Christine, who has been stricken by the disease, Rust full-dive into the online game \"Archetype Arcadia\", which is the only way to stop the progress of the symptom.\n\nHope, pain, joy, betrayal, and inevitable \"death\" are found in this game, where the memories of the players turn into avatars and fight.\n\nA fully-voiced text novel adventure game that tells a terrifying story of the overwhelming volume, led by memories that should have been lost.",
+  "first_release_year": 2021,
+  "developers": [
+    "Water Phoenix"
+  ],
+  "publishers": [
+    "Kemco",
+    "PQube"
+  ],
+  "genres": [
+    "Puzzle",
+    "Strategy",
+    "Adventure",
+    "Visual Novel"
+  ],
+  "themes": [
+    "Science fiction",
+    "Drama"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Text"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "post-apocalyptic",
+    "male protagonist"
+  ],
+  "alternative_names": [
+    {
+      "name": "アキアカ",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "Akiaka",
+      "comment": "Abbreviation"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/archetype-arcadia-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003186"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1768400"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.kemco.jp/game/archetypearcadia/ja"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Archetype%20Arcadia"
+    },
+    {
+      "label": "iPad",
+      "url": "https://apps.apple.com/app/id1596024027"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=kemco.waterphoenix.archetypearcadia"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/app/id1596024027"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/WaterPhoenix1"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 24, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-01-24"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 21, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-10-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 21, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-10-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-24"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Jun 30, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-06-30"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Jun 30, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-06-30"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 21, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-10-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1dfo.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Promotional Video",
+      "youtube_id": "M3mU7OZzpmo",
+      "url": "https://www.youtube.com/watch?v=M3mU7OZzpmo"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "slug": "nickelodeon-all-star-brawl-2",
+  "igdb_id": 259206,
+  "name": "Nickelodeon All-Star Brawl 2",
+  "summary": "Nickelodeon All-Star Brawl 2 is bigger and better than ever with all new gameplay, campaign, characters, voiceover, modes and more!",
+  "first_release_year": 2023,
+  "developers": [
+    "Fair Play Labs"
+  ],
+  "publishers": [
+    "GameMill Entertainment"
+  ],
+  "genres": [
+    "Fighting",
+    "Platform"
+  ],
+  "themes": [
+    "Action",
+    "Comedy",
+    "Kids",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Nickelodeon Super Brawl",
+    "Nickelodeon"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Nickelodeon",
+    "Avatar: The Last Airbender",
+    "Teenage Mutant Ninja Turtles",
+    "Danny Phantom",
+    "El Tigre: The Adventures of Manny Rivera",
+    "Garfield",
+    "Hey Arnold!",
+    "My Life as a Teenage Robot",
+    "Jimmy Neutron",
+    "The Loud House",
+    "The Wild Thornberrys",
+    "The Angry Beavers",
+    "Rugrats",
+    "Rocko's Modern Life",
+    "Invader Zim",
+    "Ren & Stimpy"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "shared screen",
+    "available on - blacknut"
+  ],
+  "alternative_names": [
+    {
+      "name": "NASB2",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Nickelodeon All Star Brawl 2",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/nasb"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/nickelodeon-all-star-brawl-2/9PN0LC4CNLPT"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/nickelodeon-all-star-brawl-2-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008091"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://nickelodeon-allstar-brawl.fandom.com/wiki/Nickelodeon_All-Star_Brawl_2"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nickelodeon_All-Star_Brawl_2"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://nickelodeonallstarbrawl.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/NickBrawlGame"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2017080"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-07"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 01, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-07"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 01, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-01"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-07"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 01, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-01"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-07"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 01, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-01"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-07"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 01, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-01"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 01, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-01"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-07"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2jsa.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "Q2nESlbg9GU",
+      "url": "https://www.youtube.com/watch?v=Q2nESlbg9GU"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "slug": "ghostwire-tokyo-نسخه-بلوری",
+  "igdb_id": 119308,
+  "name": "Ghostwire: Tokyo",
+  "summary": "After strange disappearances hit Tokyo's population, it's up to you to uncover the source and purge the city of a strange, new evil. Armed with your own mysterious spectral abilities, you will face down the occult, unravel conspiracy theories and experience urban legends like never before.",
+  "first_release_year": 2022,
+  "developers": [
+    "Tango Gameworks"
+  ],
+  "publishers": [
+    "Bethesda Softworks"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Horror",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "ghosts",
+    "yokai",
+    "japanese mythology",
+    "bow and arrow",
+    "tokyo"
+  ],
+  "alternative_names": [
+    {
+      "name": "고스트와이어: 도쿄",
+      "comment": "Korean title - alternative"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Ghostwire:%20Tokyo"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/playGhostwire"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000301"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ghostwire-tokyo/9PKP39CL0C8D"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/BethesdaSoftworks"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/playGhostwire"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1475810"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://bethesda.net/en/game/ghostwire-tokyo"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/playghostwire"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/ghostwire-tokyo"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ghostwire:_Tokyo"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/GhostwireTokyo"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://ghostwiretokyo.fandom.com/wiki/GhostWire:_Tokyo"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 25, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-03-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 12, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-04-12"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 24, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-03-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5qk.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "9qrXLQqHkJk",
+      "url": "https://www.youtube.com/watch?v=9qrXLQqHkJk"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "BW6yMr-jmhc",
+      "url": "https://www.youtube.com/watch?v=BW6yMr-jmhc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "XWpsAKYa7NQ",
+      "url": "https://www.youtube.com/watch?v=XWpsAKYa7NQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "2EDplmRKPLk",
+      "url": "https://www.youtube.com/watch?v=2EDplmRKPLk"
+    }
+  ]
+}

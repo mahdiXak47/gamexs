@@ -1,0 +1,152 @@
+{
+  "slug": "commandos-origins-نسخه-دلوکس",
+  "igdb_id": 255936,
+  "name": "Commandos: Origins",
+  "summary": "Commandos: Origins tells the story of a newly founded British commando unit that grows into a brotherhood during its operations against strategic goals of the German Wehrmacht.",
+  "first_release_year": 2025,
+  "developers": [
+    "Claymore Game Studios"
+  ],
+  "publishers": [
+    "Kalypso Media"
+  ],
+  "genres": [
+    "Real Time Strategy (RTS)",
+    "Strategy"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Stealth",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Commandos"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "world war ii - ww2"
+  ],
+  "alternative_names": [
+    {
+      "name": "Commandos.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/kalypso_media/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/commandos-origins/9NNRCR6MBNDR"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007746"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://commandos-game.com/de-de/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/commandos-origins"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/commandos-origins-ec78ba"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/KalypsoMedia/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/KalypsoMediaGroup/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1479730"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://www.twitter.com/kalypsomedia"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/kalypsomedia"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 09, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-09"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 09, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-09"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 09, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-09"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 09, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-09"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 09, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-09"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2kc3.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "XHA9IAN3ZX8",
+      "url": "https://www.youtube.com/watch?v=XHA9IAN3ZX8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "PH8M3_pl_Y0",
+      "url": "https://www.youtube.com/watch?v=PH8M3_pl_Y0"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "2DIVgKtQUV0",
+      "url": "https://www.youtube.com/watch?v=2DIVgKtQUV0"
+    }
+  ]
+}

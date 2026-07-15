@@ -1,0 +1,150 @@
+{
+  "slug": "poker-club",
+  "igdb_id": 138204,
+  "name": "Poker Club",
+  "summary": "Welcome to the most immersive poker simulation ever made. Live the life of a poker pro in a global Poker Tour, then join a Club and make a name for yourself in 200-player online tournaments.",
+  "first_release_year": 2020,
+  "developers": [
+    "Ripstone"
+  ],
+  "publishers": [
+    "Ripstone"
+  ],
+  "genres": [
+    "Simulator",
+    "Sport",
+    "Strategy",
+    "Indie",
+    "Card & Board Game"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "casual",
+    "poker"
+  ],
+  "alternative_names": [
+    {
+      "name": "Poker2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/poker-club-6e18ee"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/pokerclubgame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000299"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/poker-club-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1174460"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/w2xQmwr"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.pokerclubgame.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/PokerClubGame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/pokerclubgame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Poker%20Club"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 19, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-19"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 24, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-24"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 25, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 19, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-19"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 19, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 19, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-19"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 19, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arvun.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "_zUKyuLtRzY",
+      "url": "https://www.youtube.com/watch?v=_zUKyuLtRzY"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "FT9DJbXqu3c",
+      "url": "https://www.youtube.com/watch?v=FT9DJbXqu3c"
+    }
+  ]
+}

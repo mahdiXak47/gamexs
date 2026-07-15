@@ -1,0 +1,127 @@
+{
+  "slug": "atomic-heart-2",
+  "igdb_id": 347639,
+  "name": "Atomic Heart II",
+  "summary": "The Atomic Heart sequel brings you back to the retrofuturistic universe, full of new characters and dangers. The game immerses you in events on a global scale and raises the bar for what an open-world action RPG can do.",
+  "first_release_year": null,
+  "developers": [
+    "Mundfish"
+  ],
+  "publishers": [
+    "Mundfish"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Atomic Heart"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Atomic Universe"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "dystopian",
+    "alternate history",
+    "atmospheric",
+    "retro future",
+    "retrofuturistic"
+  ],
+  "alternative_names": [
+    {
+      "name": "Atomic Heart 2",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/atomicheart_official/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/atomicheart"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://mundfish.com/en/projects/atomic-heart-2"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Atomic_Heart_2"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/atomicheart/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3788800"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/atomic-heart-ii"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/AtomicHeartOfficial"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/mundfish"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@Mundfish/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/atomic-heart-2/9n1gf8p9kdpr"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3odw.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "fquBSxalY1Y",
+      "url": "https://www.youtube.com/watch?v=fquBSxalY1Y"
+    }
+  ]
+}

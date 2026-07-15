@@ -1,0 +1,172 @@
+{
+  "slug": "battlefield-2042",
+  "igdb_id": 125166,
+  "name": "Battlefield 2042",
+  "summary": "Battlefield 2042 marks the return to the iconic all-out warfare of the franchise. Adapt and overcome dynamically-changing battlegrounds with the help of your squad and a cutting-edge arsenal. With support for 128 players, prepare for unprecedented scale on vast environments. Take on massive experiences, from updated multiplayer modes like Conquest and Breakthrough to the all-new Hazard Zone.",
+  "first_release_year": 2021,
+  "developers": [
+    "EA Digital Illusions CE"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Multiplayer",
+    "Co-operative",
+    "Battle Royale"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Battlefield"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Battlefield"
+  ],
+  "game_engines": [
+    "Frostbite 3"
+  ],
+  "keywords": [
+    "modern warfare",
+    "russia",
+    "battlefield",
+    "futuristic",
+    "united states",
+    "natural disaster",
+    "vehicles"
+  ],
+  "alternative_names": [
+    {
+      "name": "배틀필드 2042",
+      "comment": "Korean title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000758"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/Battlefield"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/battlefield"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/battlefield/battlefield-2042/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1517290"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/battlefield-2042-xbox-one/9PD5BFNZ4V7K"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Battlefield"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Battlefield_2042"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Battlefield"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Battlefield%20(2021)"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/battlefield-2042"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/battlefield"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/battlefield"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://battlefield.fandom.com/wiki/Battlefield_2042"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 19, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 19, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-19"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 19, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 19, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-19"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 19, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar66wc.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar8z2.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar161d.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar161f.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar161e.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "dTTGThC4aes",
+      "url": "https://www.youtube.com/watch?v=dTTGThC4aes"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ASzOzrB-a9E",
+      "url": "https://www.youtube.com/watch?v=ASzOzrB-a9E"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "q4qWMcQfOCc",
+      "url": "https://www.youtube.com/watch?v=q4qWMcQfOCc"
+    }
+  ]
+}

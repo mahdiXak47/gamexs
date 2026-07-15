@@ -1,0 +1,87 @@
+{
+  "slug": "crush-2",
+  "igdb_id": 143223,
+  "name": "Crush",
+  "summary": "Crush is an old-school-styled shoot´em up.\nThe game leads you through 7 challenging levels filled\nwith action and great soundtracks.\n\nA must for all old-school shoot´em up fans!\n\nFEATURES\n- From the developers of Crush (C64) and Turrican 3 (C64)\n- 7 challenging levels\n- 3 different weapon systems\n- Single mega-weapon for each weapon system\n- giant boss for each level\n- exclusive soundtrack by Markus Siebold (Turrican 2 C64, Enforcer C64)\n- detailed levels and enemies",
+  "first_release_year": 2017,
+  "developers": [
+    "VIS-Games"
+  ],
+  "publishers": [
+    "SilentFuture"
+  ],
+  "genres": [
+    "Shooter",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "retro",
+    "shoot 'em up",
+    "side-scrolling",
+    "steam greenlight"
+  ],
+  "alternative_names": [
+    {
+      "name": "Katakis 2",
+      "comment": "Development title"
+    },
+    {
+      "name": "Katakis II",
+      "comment": "Development title"
+    },
+    {
+      "name": "Crush.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/588880/Crush"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Crush"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 09, 2017",
+      "status": "Released",
+      "date_iso": "2017-06-09"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1h08.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "YcBEXzr2hhE",
+      "url": "https://www.youtube.com/watch?v=YcBEXzr2hhE"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "SCIzXTnJLpQ",
+      "url": "https://www.youtube.com/watch?v=SCIzXTnJLpQ"
+    }
+  ]
+}

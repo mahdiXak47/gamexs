@@ -1,0 +1,185 @@
+{
+  "slug": "plants-vs.-zombies-replanted",
+  "igdb_id": 358529,
+  "name": "Plants vs. Zombies: Replanted",
+  "summary": "The classic Plants vs. Zombies returns in glorious HD! DANG! After years in Crazy Dave’s attic, the original battle between Plants and Zombies is back — bigger, brighter, and crazier than ever before! Experience the game that started it all, now remastered with upscaled HD graphics and packed with new secrets to uncover.\n\nRevisit the epic backyard standoffs you remember, this time with new levels, fresh twists, and 15 years of never-before-seen franchise history at your fingertips. Relive the glory days of peashooters, sunflowers, and brain-hungry chaos! Rejoin the ultimate garden defense and experience the backyard brawl that started a phenomenon — now back for a new era!",
+  "first_release_year": 2025,
+  "developers": [
+    "PopCap Games",
+    "The Lost Pixels"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Strategy"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Plants vs. Zombies"
+  ],
+  "spin_off_of": "Plants vs. Zombies",
+  "franchises": [
+    "Plants vs. Zombies"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "casual"
+  ],
+  "alternative_names": [
+    {
+      "name": "Replanted.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "Plants vs. Zombies: Trasplantado",
+      "comment": "Spanish title"
+    },
+    {
+      "name": "植物大战僵尸：重植版",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "植物大戰殭屍：移植版",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "PvZ: R",
+      "comment": "Acronym"
+    },
+    {
+      "name": "PvZ: Replanted",
+      "comment": "Abbreviation"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/plantsversuszombies/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@PlantsVsZombies"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3654560"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/PlantsvsZombies"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/plants-vs-zombies/plants-vs-zombies-replanted"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/plants-vs-zombies-replanted/9P39L2DHLTPN/0017"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/plants-vs-zombies-replanted"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/PlantsVSZombies/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/officialpvz"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP0006-PPSA29802_00-PVZRELOADEDPREOR"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/plants-vs-zombies-replanted-switch-2/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/plants-vs-zombies-replanted-9c2a94"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-23"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Oct 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-23"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-23"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-23"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3xlw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3xlx.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Dev Diary",
+      "youtube_id": "FcE19eJxNaE",
+      "url": "https://www.youtube.com/watch?v=FcE19eJxNaE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Zv1Q0_x93ZM",
+      "url": "https://www.youtube.com/watch?v=Zv1Q0_x93ZM"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "kZBc6FFI2gw",
+      "url": "https://www.youtube.com/watch?v=kZBc6FFI2gw"
+    }
+  ]
+}

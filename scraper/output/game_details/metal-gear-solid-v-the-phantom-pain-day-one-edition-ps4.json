@@ -1,0 +1,127 @@
+{
+  "slug": "metal-gear-solid-v-the-phantom-pain-day-one-edition-ps4",
+  "igdb_id": 136221,
+  "name": "Metal Gear Solid V: The Phantom Pain - Day One Edition",
+  "summary": "",
+  "first_release_year": 2015,
+  "developers": [
+    "Kojima Productions"
+  ],
+  "publishers": [
+    "Konami"
+  ],
+  "genres": [],
+  "themes": [],
+  "game_modes": [],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Fox Engine"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Metal_Gear_Solid_V:_The_Phantom_Pain"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.konami.com/mg/mgsv"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/metalgear?lang=en"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 01, 2015",
+      "status": "Released",
+      "date_iso": "2015-09-01"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Sep 01, 2015",
+      "status": "Released",
+      "date_iso": "2015-09-01"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 01, 2015",
+      "status": "Released",
+      "date_iso": "2015-09-01"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Sep 01, 2015",
+      "status": "Released",
+      "date_iso": "2015-09-01"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 01, 2015",
+      "status": "Released",
+      "date_iso": "2015-09-01"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Sep 01, 2015",
+      "status": "Released",
+      "date_iso": "2015-09-01"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Sep 01, 2015",
+      "status": "Released",
+      "date_iso": "2015-09-01"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 01, 2015",
+      "status": "Released",
+      "date_iso": "2015-09-01"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Sep 01, 2015",
+      "status": "Released",
+      "date_iso": "2015-09-01"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Sep 01, 2015",
+      "status": "Released",
+      "date_iso": "2015-09-01"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 01, 2015",
+      "status": "Released",
+      "date_iso": "2015-09-01"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 01, 2015",
+      "status": "Released",
+      "date_iso": "2015-09-01"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

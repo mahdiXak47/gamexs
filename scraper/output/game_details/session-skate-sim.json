@@ -1,0 +1,225 @@
+{
+  "slug": "session-skate-sim",
+  "igdb_id": 75694,
+  "name": "Session: Skate Sim",
+  "summary": "Inspired by the golden era of skateboarding, the early 90s and early 2000, Session's primary goal is to make you experience what skateboarding really is; an incredible sport where there are no other goals other than expressing your creativity and achieving success through hard work, perseverance and bits of madness for no one else other than yourself.",
+  "first_release_year": 2022,
+  "developers": [
+    "Crea-ture Studios"
+  ],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Simulator",
+    "Sport",
+    "Strategy",
+    "Indie"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "crowdfunding - kickstarter",
+    "skateboarding"
+  ],
+  "alternative_names": [
+    {
+      "name": "Session: Skateboarding Sim Game",
+      "comment": "Full title"
+    },
+    {
+      "name": "Project Session",
+      "comment": "Other"
+    },
+    {
+      "name": "SessionGame.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Session_(video_game)"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/session-skate-sim-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004240"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/session"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.crea-turestudios.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCdnRFiQB5U9JEPNbQapuY1Q"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/sessiongame"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/861650"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SessionGame/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/SessionGame"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/session-skate-sim"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Session:%20Skate%20Sim"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 22, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 22, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 22, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 22, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 22, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 17, 2019",
+      "status": "Beta",
+      "date_iso": "2019-09-17"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 16, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-16"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 16, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-16"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 09, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-09"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar74i.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "JJgwodJHFQk",
+      "url": "https://www.youtube.com/watch?v=JJgwodJHFQk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ZVqWyxQKZmM",
+      "url": "https://www.youtube.com/watch?v=ZVqWyxQKZmM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "oa0ERPuBCe4",
+      "url": "https://www.youtube.com/watch?v=oa0ERPuBCe4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "K591m5p_Wlw",
+      "url": "https://www.youtube.com/watch?v=K591m5p_Wlw"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "a94x31yVxyE",
+      "url": "https://www.youtube.com/watch?v=a94x31yVxyE"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "Vttm-4EKY4s",
+      "url": "https://www.youtube.com/watch?v=Vttm-4EKY4s"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "GPamFRBnykA",
+      "url": "https://www.youtube.com/watch?v=GPamFRBnykA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Ee-wQAKnJH8",
+      "url": "https://www.youtube.com/watch?v=Ee-wQAKnJH8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "g2dp7yRc5xc",
+      "url": "https://www.youtube.com/watch?v=g2dp7yRc5xc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "91yw2ohAciQ",
+      "url": "https://www.youtube.com/watch?v=91yw2ohAciQ"
+    },
+    {
+      "title": "E3 2018 Trailer",
+      "youtube_id": "vPrbNmBIoPw",
+      "url": "https://www.youtube.com/watch?v=vPrbNmBIoPw"
+    }
+  ]
+}

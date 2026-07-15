@@ -1,0 +1,120 @@
+{
+  "slug": "uncharted-legacy-of-thieves-collection",
+  "igdb_id": 168670,
+  "name": "Uncharted: Legacy of Thieves Collection",
+  "summary": "Uncharted: Legacy of Thieves Collection is a remastered collection of two games in the Uncharted saga: Uncharted 4: A Thief’s End and Uncharted: The Lost Legacy.\n\nThis includes multiple graphical options with varying framerates and resolutions, faster load times and DualSense haptic feedback and adaptive triggers.",
+  "first_release_year": 2022,
+  "developers": [
+    "Naughty Dog"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Historical"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Uncharted"
+  ],
+  "game_engines": [
+    "Naughty Dog Engine"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Uncharted: Наследие воров. Коллекция",
+      "comment": "Russian title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/naughty_dog"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/205354"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1659420"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/p/uncharted-legacy-of-thieves-collection"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/naughtydog"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/naughty_dog_inc/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/NaughtyDog"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/naughtydog"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.playstation.com/en-us/games/uncharted-legacy-of-thieves-collection/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/uncharted_legacy_of_thieves_collection"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 19, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-01-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1atv.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "IfrfJn_-24g",
+      "url": "https://www.youtube.com/watch?v=IfrfJn_-24g"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "9u6_x6uxtfw",
+      "url": "https://www.youtube.com/watch?v=9u6_x6uxtfw"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "F3Wl-OiZCO4",
+      "url": "https://www.youtube.com/watch?v=F3Wl-OiZCO4"
+    }
+  ]
+}

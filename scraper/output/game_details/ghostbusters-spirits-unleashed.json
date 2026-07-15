@@ -1,0 +1,133 @@
+{
+  "slug": "ghostbusters-spirits-unleashed",
+  "igdb_id": 194682,
+  "name": "Ghostbusters: Spirits Unleashed",
+  "summary": "An all-ages take on its brand of four-versus-one asymmetric multiplayer games, where you play as your own original Ghostbusters team — or take on the role of a ghost hellbent on wreaking haunted havoc.",
+  "first_release_year": 2022,
+  "developers": [
+    "Illfonic"
+  ],
+  "publishers": [
+    "Illfonic"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Ghostbusters"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "asymmetrical survival horror",
+    "asymmetrical"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Ghostbusters:%20Spirits%20Unleashed"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/ghostbusters-spirits-unleashed"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ghostbusters-spirits-unleashed-ecto-edition/9PHJC0H6HPKD"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002507"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ghostbusterssu.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/ghostbustersSU"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://Instagram.com/ghostbustersSU"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/GhostbustersSpiritsUnleashed/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 18, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-18"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 18, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 18, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-18"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 18, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-18"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 18, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-18"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 19, 2023",
+      "status": "Released",
+      "date_iso": "2023-10-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1lmu.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Dev Diary",
+      "youtube_id": "tsxNEtJXr14",
+      "url": "https://www.youtube.com/watch?v=tsxNEtJXr14"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "SvU0NnTCxXM",
+      "url": "https://www.youtube.com/watch?v=SvU0NnTCxXM"
+    }
+  ]
+}

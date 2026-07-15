@@ -1,0 +1,260 @@
+{
+  "slug": "dark-souls-iii-نسخه-complete-edition-ps4",
+  "igdb_id": 11133,
+  "name": "Dark Souls III",
+  "summary": "Dark Souls III is an action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment. Released in March 2016, it is the fourth entry in the Souls series and the final instalment in the Dark Souls trilogy. Set in the decaying kingdom of Lothric, players take on the role of the \"Ashen One,\" an undead warrior tasked with rekindling the First Flame to prevent the world from falling into darkness.\n\nThe game features challenging combat, intricate level design, and a deep, lore-rich narrative.",
+  "first_release_year": 2016,
+  "developers": [
+    "FromSoftware"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment",
+    "FromSoftware"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Dark Souls"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Dark Souls"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "medieval",
+    "3d",
+    "dark fantasy",
+    "death",
+    "action-adventure",
+    "online",
+    "sequel",
+    "sword & sorcery",
+    "customizable characters",
+    "bink video",
+    "human",
+    "playstation experience 2015",
+    "pick your gender",
+    "downloadable content",
+    "parrying",
+    "d.i.c.e. awards 2017",
+    "crab",
+    "pax prime 2015",
+    "canonical death",
+    "british accent",
+    "camera control",
+    "sliding down ladders",
+    "new game plus",
+    "entering world in a painting",
+    "the game awards - nominee",
+    "the game awards 2016",
+    "best role playing game: nominee - 2016 (the game awards)",
+    "soulslike",
+    "realtime 3d",
+    "the game awards - best roleplaying game - nominee",
+    "interconnected-world"
+  ],
+  "alternative_names": [
+    {
+      "name": "DARK SOULS III",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Dark Souls 3",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "黑暗之魂III",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "다크 소울 3",
+      "comment": "Korean title - alternative"
+    },
+    {
+      "name": "DS3",
+      "comment": "Abbreviation"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/201190"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://en.bandainamcoent.eu/dark-souls/dark-souls-iii"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/dark-souls-iii/BW2XDRNSCCPZ"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Dark%20Souls%20III"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/374320"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/darksouls"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://darksouls.wikia.com/wiki/Dark_Souls_III"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/DarkSoulsGame"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dark_Souls_III"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 12, 2016",
+      "status": "Released",
+      "date_iso": "2016-04-12"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 12, 2016",
+      "status": "Released",
+      "date_iso": "2016-04-12"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 11, 2016",
+      "status": "Released",
+      "date_iso": "2016-04-11"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 24, 2016",
+      "status": "Released",
+      "date_iso": "2016-03-24"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 12, 2016",
+      "status": "Released",
+      "date_iso": "2016-04-12"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 12, 2016",
+      "status": "Released",
+      "date_iso": "2016-04-12"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 24, 2016",
+      "status": "Released",
+      "date_iso": "2016-03-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 24, 2016",
+      "status": "Released",
+      "date_iso": "2016-03-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 12, 2016",
+      "status": "Released",
+      "date_iso": "2016-04-12"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 12, 2016",
+      "status": "Released",
+      "date_iso": "2016-04-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/fhus0o2shprmwdzusa2s.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/quxzkzvv2hwsz4breb5e.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/jqzkjvrsj8wlq4e7efs4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/v2pavwp088owka1apo7i.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/mxm1484auglbkhmz9ui0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/mikzjnzposfdvsnchruj.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/tucddygamveptspwvwbm.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/idp7ltwv6torjzfbbqnz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/tnfuuqdqy78uevbetqb7.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/jg2i8o0u3t0d2qvqkmu6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/dgxdejngrautbjsku15z.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4ko8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5dnd.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "8UPmw8YwV98",
+      "url": "https://www.youtube.com/watch?v=8UPmw8YwV98"
+    },
+    {
+      "title": "Gameplay video",
+      "youtube_id": "jjK5f7ozzOM",
+      "url": "https://www.youtube.com/watch?v=jjK5f7ozzOM"
+    },
+    {
+      "title": "Gameplay Reveal Gamescom 2015 Trailer",
+      "youtube_id": "KNpgLOCYHAE",
+      "url": "https://www.youtube.com/watch?v=KNpgLOCYHAE"
+    },
+    {
+      "title": "E3 Announcement Trailer",
+      "youtube_id": "Upp8cuRmRfQ",
+      "url": "https://www.youtube.com/watch?v=Upp8cuRmRfQ"
+    },
+    {
+      "title": "Opening Cinematic Trailer",
+      "youtube_id": "BsAE4_-G2d0",
+      "url": "https://www.youtube.com/watch?v=BsAE4_-G2d0"
+    },
+    {
+      "title": "Darkness Has Spread Trailer",
+      "youtube_id": "jncf677BTUw",
+      "url": "https://www.youtube.com/watch?v=jncf677BTUw"
+    },
+    {
+      "title": "Accursed Trailer",
+      "youtube_id": "HvL2vzCwFbw",
+      "url": "https://www.youtube.com/watch?v=HvL2vzCwFbw"
+    },
+    {
+      "title": "True Colors of Darkness",
+      "youtube_id": "m06XtmQXDuM",
+      "url": "https://www.youtube.com/watch?v=m06XtmQXDuM"
+    }
+  ]
+}

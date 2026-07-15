@@ -1,0 +1,204 @@
+{
+  "slug": "pragmata",
+  "igdb_id": 134612,
+  "name": "Pragmata",
+  "summary": "Pragmata is a sci-fi action-adventure game set in the near future. The story follows Hugh and his android companion Diana as they navigate a Lunar research station. Gameplay incorporates action elements alongside mechanics involving interaction with systems within the environment.",
+  "first_release_year": 2026,
+  "developers": [
+    "Capcom"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "RE Engine"
+  ],
+  "keywords": [
+    "robots",
+    "futuristic",
+    "multiple protagonists",
+    "hacking",
+    "artificial intelligence",
+    "story rich"
+  ],
+  "alternative_names": [
+    {
+      "name": "PRAGMATA",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "PRAGMATA.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002075"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@PRAGMATAgame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/pragmata"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3357650/PRAGMATA/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.capcom-games.com/pragmata/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/PragmataGame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/pragmatagame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/PRAGMATAgame"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pragmata"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Pragmata/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/pragmata-switch-2/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/pragmata/9P5WNGBTL9X6/0010"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Apr 17, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 17, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 17, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 17, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3o1x.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5bmn.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5bmp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5c07.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5c06.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5c00.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5c01.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5c02.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5c03.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5c04.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5c05.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5pyg.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5pyf.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5c08.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "0FTq_snLzIw",
+      "url": "https://www.youtube.com/watch?v=0FTq_snLzIw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "7Qe2rzT0hZ8",
+      "url": "https://www.youtube.com/watch?v=7Qe2rzT0hZ8"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "8-N5fYjhQO8",
+      "url": "https://www.youtube.com/watch?v=8-N5fYjhQO8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "PdDVyBtYrUI",
+      "url": "https://www.youtube.com/watch?v=PdDVyBtYrUI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "GeLG6sBVuqI",
+      "url": "https://www.youtube.com/watch?v=GeLG6sBVuqI"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "tliliBfCnUU",
+      "url": "https://www.youtube.com/watch?v=tliliBfCnUU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Wq0K_qgsQHI",
+      "url": "https://www.youtube.com/watch?v=Wq0K_qgsQHI"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "A6YCL6UW1lI",
+      "url": "https://www.youtube.com/watch?v=A6YCL6UW1lI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "6lbf5ZPUtx0",
+      "url": "https://www.youtube.com/watch?v=6lbf5ZPUtx0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "pVCn8Jpvewo",
+      "url": "https://www.youtube.com/watch?v=pVCn8Jpvewo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "TzBtbtOghV0",
+      "url": "https://www.youtube.com/watch?v=TzBtbtOghV0"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "slug": "crysis-3-remastered-ps4-و",
+  "igdb_id": 1268,
+  "name": "Crysis 3",
+  "summary": "The award-winning developer Crytek is back with Crysis 3, the first blockbuster shooter of 2013! Crysis 3 is the ultimate sandbox shooter, realized in the stunning visuals only Crytek and the latest version of CryENGINE can deliver. Available now on Xbox 360, PlayStation 3, and PC.",
+  "first_release_year": 2013,
+  "developers": [
+    "Crytek Frankfurt",
+    "Crytek UK"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Crysis"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "CryEngine"
+  ],
+  "keywords": [
+    "aliens",
+    "helicopter",
+    "building",
+    "ability system",
+    "sequel",
+    "black protagonist",
+    "swimming",
+    "hexagon",
+    "alien invasion",
+    "explosion",
+    "xbox controller support for pc",
+    "playstation trophies",
+    "voice acting",
+    "human",
+    "polygonal 3d",
+    "bow and arrow",
+    "ea app",
+    "motion blur",
+    "color separation",
+    "playstation plus",
+    "melee",
+    "kill feed",
+    "real-time combat",
+    "underwater gameplay",
+    "vision obstruction",
+    "games with gold",
+    "mercenary",
+    "gamescom 2012",
+    "linear gameplay",
+    "vent crawling",
+    "trilogy",
+    "pc to console port",
+    "online multiplayer achievements",
+    "killcam"
+  ],
+  "alternative_names": [
+    {
+      "name": "Crysis III",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "末日之戰3",
+      "comment": "Chinese title - traditional"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1282690"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.crysis.com"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/crysis-3/BNKKJL1VRR5P"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/crysis3"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/crysis"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Crysis_3"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/crysis"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://crysis.wikia.com/wiki/Crysis_3"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Crysis%203"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 19, 2013",
+      "status": "Cancelled",
+      "date_iso": "2013-02-19"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Feb 19, 2013",
+      "status": "Cancelled",
+      "date_iso": "2013-02-19"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Feb 22, 2013",
+      "status": "Cancelled",
+      "date_iso": "2013-02-22"
+    },
+    {
+      "platform": "Wii U",
+      "region": null,
+      "date": "TBD",
+      "status": "Offline"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Feb 19, 2013",
+      "status": "Cancelled",
+      "date_iso": "2013-02-19"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Feb 21, 2013",
+      "status": "Cancelled",
+      "date_iso": "2013-02-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7wv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7wu.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "8PdGUZauShA",
+      "url": "https://www.youtube.com/watch?v=8PdGUZauShA"
+    }
+  ]
+}

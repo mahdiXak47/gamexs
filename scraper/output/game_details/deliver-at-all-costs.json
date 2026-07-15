@@ -1,0 +1,166 @@
+{
+  "slug": "deliver-at-all-costs",
+  "igdb_id": 177169,
+  "name": "Deliver At All Costs",
+  "summary": "Deliver At All Costs is a thrilling action game where destruction, absurdity and intrigue collide! Step into the shoes of Winston Green — a down-on-his-luck courier with a fiery temper and a mysterious past — as he delivers highly unconventional cargo, leaving a trail of havoc and chaos behind him.",
+  "first_release_year": 2025,
+  "developers": [
+    "Far Out Games"
+  ],
+  "publishers": [
+    "Konami"
+  ],
+  "genres": [
+    "Racing",
+    "Adventure",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Comedy",
+    "Drama",
+    "Sandbox"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "nextfest february 2025"
+  ],
+  "alternative_names": [
+    {
+      "name": "Deliver At All Costs.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.deliveratallcosts.com/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-ca/games/store/deliver-at-all-costs/9pmwkz7ftnp0"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/deliver_at_all_costs"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/FarOutGames"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@studiofaroutgames"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/FarOutGames"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/faroutgames.bsky.social"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10012329"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Deliver_At_All_Costs"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/faroutgames/"
+    },
+    {
+      "label": "Itch",
+      "url": "https://yrgo-game-creator.itch.io/deliver-at-all-costs"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1880610"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Deliver%20At%20All%20Costs"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/deliver-at-all-costs-a30c8d"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/chbs4NHHks"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/user/FarOutGames/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 22, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 22, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 22, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3n2j.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3n2k.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "Hb2Avd8qCYs",
+      "url": "https://www.youtube.com/watch?v=Hb2Avd8qCYs"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "W5R_wrQG_Rk",
+      "url": "https://www.youtube.com/watch?v=W5R_wrQG_Rk"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "bTZKWYyzw9A",
+      "url": "https://www.youtube.com/watch?v=bTZKWYyzw9A"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "gpu7smkLI_k",
+      "url": "https://www.youtube.com/watch?v=gpu7smkLI_k"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "wAnwbhl0944",
+      "url": "https://www.youtube.com/watch?v=wAnwbhl0944"
+    }
+  ]
+}

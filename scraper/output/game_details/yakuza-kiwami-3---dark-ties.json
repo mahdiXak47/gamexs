@@ -1,0 +1,144 @@
+{
+  "slug": "yakuza-kiwami-3---dark-ties",
+  "igdb_id": 369852,
+  "name": "Yakuza Kiwami 3 & Dark Ties",
+  "summary": "YAKUZA KIWAMI 3 is an extreme remake of the action-adventure beat 'em up Yakuza 3 featuring ex-yakuza Kazuma Kiryu's fight to protect those he loves. DARK TIES is a brand-new game featuring Yoshitaka Mine from Yakuza 3 included as a separate action-packed experience.",
+  "first_release_year": 2026,
+  "developers": [
+    "Ryu Ga Gotoku Studios"
+  ],
+  "publishers": [
+    "Sega"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Yakuza: Like a Dragon"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Yakuza: Like a Dragon"
+  ],
+  "game_engines": [
+    "Dragon Engine"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Ryu ga Gotoku Kiwami 3 / Ryu ga Gotoku 3 Gaiden: Dark Ties",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "Like a Dragon Kiwami 3 / Like a Dragon 3 Gaiden: Dark Ties",
+      "comment": "Japanese title - translated"
+    },
+    {
+      "name": "Like a Dragon Extreme 3 / Like a Dragon 3 Side Story: Dark Ties",
+      "comment": "Japanese title - translated"
+    },
+    {
+      "name": "龍が如く 極3 / 龍が如く3外伝 Dark Ties",
+      "comment": "Japanese title - stylized"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yakuza_Kiwami_3_%26_Dark_Ties"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3937550/Yakuza_Kiwami_3__Dark_Ties/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/yakuza-kiwami-3-dark-ties/9PL8B0T091SZ/0010"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10015219"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://sega.com/like-a-dragon-yakuza/yakuza-kiwami-3-dark-ties"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/yakuza-kiwami-3-and-dark-ties-switch-2/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 12, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 12, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-12"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 12, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-12"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 12, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-12"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Feb 12, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4a6f.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4a6g.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "za9rjoTdG_M",
+      "url": "https://www.youtube.com/watch?v=za9rjoTdG_M"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "loziRUFY6YU",
+      "url": "https://www.youtube.com/watch?v=loziRUFY6YU"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "WEg1taCJeBU",
+      "url": "https://www.youtube.com/watch?v=WEg1taCJeBU"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "XWzP-XXEwjc",
+      "url": "https://www.youtube.com/watch?v=XWzP-XXEwjc"
+    }
+  ]
+}

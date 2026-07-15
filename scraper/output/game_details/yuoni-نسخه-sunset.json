@@ -1,0 +1,77 @@
+{
+  "slug": "yuoni-نسخه-sunset",
+  "igdb_id": 171858,
+  "name": "Yuoni: Sunset Edition",
+  "summary": "Yuoni is a first-person narrative horror game that whisks you away to a sunset-stained world to play a deadly game of hide and seek. As grade-schooler Ai, navigate authentic Japanese environments and utilise every hiding space you can find to survive the horrors ahead. And if they find you… run.",
+  "first_release_year": 2021,
+  "developers": [
+    "Tricore Inc."
+  ],
+  "publishers": [
+    "Meridiem Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "1990s",
+    "story rich"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/yuonigame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://chorusworldwide.com/yuoni"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/%E5%A4%95%E9%AC%BC-2124409067625107"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 03, 2021",
+      "status": "Released",
+      "date_iso": "2021-12-03"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar19yk.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar19yj.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "rPXFs6Qgq7U",
+      "url": "https://www.youtube.com/watch?v=rPXFs6Qgq7U"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "8LyOmAKWkng",
+      "url": "https://www.youtube.com/watch?v=8LyOmAKWkng"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "pig-2",
+  "igdb_id": 353565,
+  "name": "Pig Escape 2",
+  "summary": "",
+  "first_release_year": 2025,
+  "developers": [],
+  "publishers": [],
+  "genres": [
+    "Arcade"
+  ],
+  "themes": [],
+  "game_modes": [],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10015749"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 26, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-26"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4xnl.jpg"
+  ],
+  "videos": []
+}

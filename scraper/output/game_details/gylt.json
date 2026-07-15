@@ -1,0 +1,156 @@
+{
+  "slug": "gylt",
+  "igdb_id": 119247,
+  "name": "Gylt",
+  "summary": "Enter the new creation from Tequila Works, a journey where you face your worst fears and are confronted with the emotional impact of your actions. Set in a creepy and melancholic world, GYLT is an eerie story mixing fantasy and reality in a surrealist place where your nightmares become reality. Hide from terrible creatures or confront them as you find your way through the challenges of this wicked world.",
+  "first_release_year": 2019,
+  "developers": [
+    "Tequila Works",
+    "Parallel Circles"
+  ],
+  "publishers": [
+    "Tequila Works"
+  ],
+  "genres": [
+    "Puzzle",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "previously on - stadia pro"
+  ],
+  "alternative_names": [
+    {
+      "name": "Gylt.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/gylt/9N3NBRGQWP1S"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007169"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/gylt-switch/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Gyltthegame"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.gyltthegame.com/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/gylt"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2206210"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/gyltthegame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Gylt"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gylt"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCZDnDCBHzRJAITewDPvL4AA"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Nov 19, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-11-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-06"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-06"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-06"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-06"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 14, 2024",
+      "status": "Released",
+      "date_iso": "2024-03-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2baq.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "UjMMbTOWIJE",
+      "url": "https://www.youtube.com/watch?v=UjMMbTOWIJE"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "gu21vP9PhRs",
+      "url": "https://www.youtube.com/watch?v=gu21vP9PhRs"
+    }
+  ]
+}

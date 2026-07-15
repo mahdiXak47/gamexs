@@ -1,0 +1,169 @@
+{
+  "slug": "samurai-warriors-5",
+  "igdb_id": 143608,
+  "name": "Samurai Warriors 5",
+  "summary": "Experience exhilarating action set in a dramatic historical setting in SAMURAI WARRIORS 5. As the latest numbered entry in the SAMURAI WARRIORS franchise, the story, characters, and visuals have been re-imagined to set the stage for a thrilling new series. The story takes place after the Ōnin War during the golden age of the Sengoku period, and features a story that centers on the lives of two of the most representative military commanders of this era: Nobunaga Oda and Mitsuhide Akechi.",
+  "first_release_year": 2021,
+  "developers": [
+    "Omega Force"
+  ],
+  "publishers": [
+    "Koei Tecmo Games"
+  ],
+  "genres": [
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Historical"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Samurai Warriors"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Dynasty Warriors"
+  ],
+  "game_engines": [
+    "Katana Engine"
+  ],
+  "keywords": [
+    "samurai",
+    "japan",
+    "feudal japan",
+    "sengoku period",
+    "historical japan"
+  ],
+  "alternative_names": [
+    {
+      "name": "Sengoku Musou 5",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "SW5.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCM0d5CqnNiJu4zsPTnwmjAQ/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/samurai-warriors-5-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/samurai-warriors-5/9nlcqsqt25wc"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001263"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/sengoku_musou"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/KT.Sengoku.musou"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1591530"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.koeitecmoamerica.com/sw5"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Samurai_Warriors_5"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Samurai%20Warriors%205"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://koeitecmo.wiki/wiki/Samurai_Warriors_5"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 24, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-24"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 27, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-27"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 24, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-24"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 24, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-24"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 27, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-27"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 27, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-27"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 27, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar9id.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "skgIyOdyzaE",
+      "url": "https://www.youtube.com/watch?v=skgIyOdyzaE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "AE-63RR0IFM",
+      "url": "https://www.youtube.com/watch?v=AE-63RR0IFM"
+    }
+  ]
+}

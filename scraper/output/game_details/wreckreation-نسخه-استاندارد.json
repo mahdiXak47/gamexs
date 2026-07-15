@@ -1,0 +1,147 @@
+{
+  "slug": "wreckreation-نسخه-استاندارد",
+  "igdb_id": 213241,
+  "name": "Wreckreation",
+  "summary": "Wreckreation hands you the keys to your very own driving and building open world called MixWorld! Explore 400 square kilometers of pure sandbox joy as you create, race and wreck alone or together with your friends.",
+  "first_release_year": 2025,
+  "developers": [
+    "Three Fields Entertainment"
+  ],
+  "publishers": [
+    "THQ Nordic"
+  ],
+  "genres": [
+    "Racing",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "level editor",
+    "driving",
+    "building",
+    "steam trading cards",
+    "steam achievements",
+    "xbox controller support for pc",
+    "steam cloud",
+    "controller support",
+    "steam families"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/wreckreation"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/wreckreation/9n0llb6pg0r4"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005975"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/ArcadeDriving"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/people/Wreckreation/61574989705784/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/wreckreation_game/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1594040/Wreckreation"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Wreckreation"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://wreckreation.thqnordic.com/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/wreckreation"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 28, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 28, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 28, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-28"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 28, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5k7b.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4zkf.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4zkg.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "e84CyMTSHdg",
+      "url": "https://www.youtube.com/watch?v=e84CyMTSHdg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "pk34AhP_H6s",
+      "url": "https://www.youtube.com/watch?v=pk34AhP_H6s"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "E2zVrA28zkg",
+      "url": "https://www.youtube.com/watch?v=E2zVrA28zkg"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "kEMB3PehB38",
+      "url": "https://www.youtube.com/watch?v=kEMB3PehB38"
+    }
+  ]
+}

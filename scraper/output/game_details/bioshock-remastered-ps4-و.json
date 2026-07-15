@@ -1,0 +1,71 @@
+{
+  "slug": "bioshock-remastered-ps4-و",
+  "igdb_id": 152660,
+  "name": "BioShock",
+  "summary": "The year is 1960 and the player character, Jack, is on board a plane crossing the Atlantic ocean. Things go wrong though and the plane crashes. Jack is lucky though and finds himself outside a lighthouse. This is no ordinary lighthouse however. It leads to Rapture, an Utopian underwater city built by the tycoon Andrew Ryan. It's not long until Jack is contacted by a man called Atlas who offers Jack his support.",
+  "first_release_year": 2010,
+  "developers": [
+    "IG Fun"
+  ],
+  "publishers": [
+    "2K Games",
+    "Starwave"
+  ],
+  "genres": [
+    "Shooter",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Thriller"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Bioshock"
+  ],
+  "spin_off_of": "BioShock",
+  "franchises": [
+    "Bioshock"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "1950s",
+    "hacking",
+    "demake"
+  ],
+  "alternative_names": [
+    {
+      "name": "BioShock 2D",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://2k.com/games/bioshock/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Legacy Mobile Device",
+      "region": null,
+      "date": "Jan 05, 2010",
+      "status": "Released",
+      "date_iso": "2010-01-05"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "hmjIJyOzwdI",
+      "url": "https://www.youtube.com/watch?v=hmjIJyOzwdI"
+    }
+  ]
+}

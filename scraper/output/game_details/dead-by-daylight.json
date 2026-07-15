@@ -1,0 +1,63 @@
+{
+  "slug": "dead-by-daylight",
+  "igdb_id": 330916,
+  "name": "Dead Daylight",
+  "summary": "\"DEADDAYLIGHT\" is a side-scrolling platform action-adventure game.Developed independently by a single person. It tells the dark story of a protagonist who wakes up from a nightmare about the plague during a plague after the gods abandoned the earth, and then return to the Cathedral of Holy Light.",
+  "first_release_year": 2025,
+  "developers": [],
+  "publishers": [],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "DEAD DAYLIGHT",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "START.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3453670"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Feb 09, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-09"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 09, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-09"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3azx.jpg"
+  ],
+  "videos": []
+}

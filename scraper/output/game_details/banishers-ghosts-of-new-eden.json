@@ -1,0 +1,176 @@
+{
+  "slug": "banishers-ghosts-of-new-eden",
+  "igdb_id": 228539,
+  "name": "Banishers: Ghosts of New Eden",
+  "summary": "Hunt ghosts as two memorable characters in a story-driven Action-RPG where your decisions carry dramatic consequences. Torn between honoring your oath to the living and saving your departed partner, how far will you go for love?",
+  "first_release_year": 2024,
+  "developers": [
+    "DON'T NOD"
+  ],
+  "publishers": [
+    "Focus Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "ghosts",
+    "exploration",
+    "dark fantasy",
+    "cinematic",
+    "action-adventure",
+    "supernatural",
+    "multiple protagonists",
+    "narration",
+    "atmospheric",
+    "ghost hunter",
+    "emotional",
+    "story rich",
+    "choices matter",
+    "ghostly manifestation",
+    "ghost hunting",
+    "arpg",
+    "lore rich",
+    "ghost"
+  ],
+  "alternative_names": [
+    {
+      "name": "Banishers-Win64-Shipping.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/banishers-ghosts-of-new-eden-f9e3f2"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/focusentmt"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006098"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/banishers-ghosts-of-new-eden/9NKFS43DLFFL"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://banishers-ghosts-of-new-eden.fandom.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Banishers:_Ghosts_of_New_Eden"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1493640/Banishers_Ghosts_of_New_Eden"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Banishers:%20Ghosts%20of%20New%20Eden"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.focus-entmt.com/en/games/banishers-ghosts-of-new-eden"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Banishers"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/DONTNOD.Entertainment"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@DONTNOD"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/dontnod_ent"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/DONTNOD_Ent"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 13, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 13, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-13"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 13, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2hre.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2hrf.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "y4nHiS9O5PM",
+      "url": "https://www.youtube.com/watch?v=y4nHiS9O5PM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "CKUZkC1iO4c",
+      "url": "https://www.youtube.com/watch?v=CKUZkC1iO4c"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "C_w0bDXXtAs",
+      "url": "https://www.youtube.com/watch?v=C_w0bDXXtAs"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "4DggGY6tZ1Y",
+      "url": "https://www.youtube.com/watch?v=4DggGY6tZ1Y"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "mH2aDGahZ1U",
+      "url": "https://www.youtube.com/watch?v=mH2aDGahZ1U"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "AtNiKMQoTqs",
+      "url": "https://www.youtube.com/watch?v=AtNiKMQoTqs"
+    }
+  ]
+}

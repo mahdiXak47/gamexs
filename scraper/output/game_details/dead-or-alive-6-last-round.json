@@ -1,0 +1,126 @@
+{
+  "slug": "dead-or-alive-6-last-round",
+  "igdb_id": 389425,
+  "name": "Dead or Alive 6 Last Round",
+  "summary": "Fan-favorite 3D fighting game Dead or Alive 6 is back with stylish moves, striking animations, and a cast of colorful characters to go head-to-head in the fighting game world's most extreme battles!",
+  "first_release_year": 2026,
+  "developers": [
+    "Team NINJA"
+  ],
+  "publishers": [
+    "Koei Tecmo Games"
+  ],
+  "genres": [
+    "Fighting"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Dead or Alive"
+  ],
+  "spin_off_of": "Dead or Alive 6",
+  "franchises": [
+    "Dead or Alive"
+  ],
+  "game_engines": [
+    "Katana Engine"
+  ],
+  "keywords": [
+    "steam achievements",
+    "accessibility options",
+    "keyboard only option"
+  ],
+  "alternative_names": [
+    {
+      "name": "DEAD OR ALIVE 6 Last Round",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4144680"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/231800"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/dead-or-alive-6-last-round"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://teamninja-studio.com/doa6/lastround/us/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/DOATEC_OFFICIAL"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/dead-or-alive-6-last-round/9nd19sm06dcx"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://deadoralive.fandom.com/wiki/Dead_or_Alive_6_Last_Round"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 25, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-06-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 25, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-06-25"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 25, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-06-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar66ck.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar66cl.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar66cm.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar61n5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5b7w.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "VRvKpCznyJI",
+      "url": "https://www.youtube.com/watch?v=VRvKpCznyJI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "eqKxb-CSR0Y",
+      "url": "https://www.youtube.com/watch?v=eqKxb-CSR0Y"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "_5dSXG3-YqY",
+      "url": "https://www.youtube.com/watch?v=_5dSXG3-YqY"
+    }
+  ]
+}

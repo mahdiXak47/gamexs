@@ -1,0 +1,175 @@
+{
+  "slug": "five-nights-at-freddy’s-into-the-pit",
+  "igdb_id": 283679,
+  "name": "Five Nights at Freddy's: Into the Pit",
+  "summary": "Jump into the pit and immerse yourself in a new chapter in the Five Nights at Freddy’s universe. Oswald wishes his town, and his life, weren’t so boring. That all changes when he explores the ball pit in a rundown pizzeria and finds himself in the past. However, Oswald’s deepest desire will have an unexpected cost…\n\nSurvive five nights of terror in this chilling adventure game. Travel between time periods, gather clues, and outrun the threat relentlessly pursuing you. Move swiftly and stay hidden, and you may just survive. But be careful—it’s not just your own life that’s on the line. Oswald’s father and children from the past could all meet their end if you don’t save them.",
+  "first_release_year": 2024,
+  "developers": [
+    "Mega Cat Studios"
+  ],
+  "publishers": [
+    "Mega Cat Studios"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Five Nights at Freddy's"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Five Nights at Freddy's"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "book adaptation"
+  ],
+  "alternative_names": [
+    {
+      "name": "FNaF: Into the Pit",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "FNaF: ItP",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "Five Nights at Freddy's Into the Pit.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/five-nights-at-freddys-into-the-pit-switch/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/five-nights-at-freddys-into-the-pit-99c563"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009158"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/five-nights-at-freddy's-into-the-pit/9PMP3DDWDRNW"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/fivenightsatfreddys/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/five-nights-at-freddys-into-the-pit"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2638370/Five_Nights_at_Freddys_Into_the_Pit/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://www.twitter.com/megacatstudios"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/megacatstudios"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@megacatstudios"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/fnafreddys"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://megacatstudios.com/pages/five-nights-at-freddys-into-the-pit"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/megacatstudios/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy%27s:_Into_the_Pit"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 31, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-31"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 07, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-07"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-27"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-27"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2zb3.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "dszBScdRwus",
+      "url": "https://www.youtube.com/watch?v=dszBScdRwus"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "5A0bwuYFEC8",
+      "url": "https://www.youtube.com/watch?v=5A0bwuYFEC8"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "2pTYUVB6-zM",
+      "url": "https://www.youtube.com/watch?v=2pTYUVB6-zM"
+    }
+  ]
+}

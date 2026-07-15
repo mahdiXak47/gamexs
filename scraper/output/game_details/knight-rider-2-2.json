@@ -1,0 +1,100 @@
+{
+  "slug": "knight-rider-2-2",
+  "igdb_id": 22370,
+  "name": "Knight Rider 2: The Game",
+  "summary": "In the sequel to Knight Rider: The Game, Michael and KITT are targeted by a missile attack while driving back to the foundation. They barely survive and set up a meeting with the base. On their way home however, they notice unusual black marks in demolished villages, and decide to investigate.\n\nAll missions have the player control KITT, who has now been equipped with three weapons: a lock-on laser, a plasma gun, and missiles. There is also turbo boost to jump over obstacles, micro jam to scan items and recharge, the ski mode to drive on two wheels through narrow passages, super pursuit mode for faster speed, and a shield to block incoming attacks. When damaged or running low on energy, certain functions are disabled.\n\nThe different missions are linked by sequences where the story is further explained using the in-game engine. Many familiar characters from the tv series make an appearance, such as Bonnie, Devon, Garth and KARR. Missions either focus on racing or exploration. In the first type, the player mainly evades attacks while racing on a highway. The latter has the player drive inside closed areas, maneuvering through passages and fighting robots. There are also a few puzzle elements where the player has to locate terminals, shoot an object in the environment, or find enemies' weaknesses. When a stunt is performed, the action slows down and the camera switches to a spectacular angle.\n\nNext to the main story mode, the individual missions can be replayed in the mission mode. The player can also unlock TV scenes, view background information about the series, or do a quiz.",
+  "first_release_year": 2004,
+  "developers": [
+    "Davilex Software B.V."
+  ],
+  "publishers": [
+    "Davilex Software B.V."
+  ],
+  "genres": [
+    "Shooter",
+    "Racing"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Knight Rider"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Knight Rider"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "driving",
+    "based on - tv show",
+    "licensed game"
+  ],
+  "alternative_names": [
+    {
+      "name": "Рыцарь дорог 2",
+      "comment": "Russian title"
+    },
+    {
+      "name": "K2000: La Revanche de KITT",
+      "comment": "French title"
+    },
+    {
+      "name": "Knight Rider 2: El Coche Fantástico",
+      "comment": "Spanish title"
+    },
+    {
+      "name": "Supercar 2: Knight Rider",
+      "comment": "Italian title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Knight%20Rider%202:%20The%20Game"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 2005",
+      "status": "Released",
+      "date_iso": "2005-04-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 29, 2004",
+      "status": "Released",
+      "date_iso": "2004-10-29"
+    },
+    {
+      "platform": "PlayStation 2",
+      "region": null,
+      "date": "Oct 29, 2004",
+      "status": "Released",
+      "date_iso": "2004-10-29"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "LoFABodMf4k",
+      "url": "https://www.youtube.com/watch?v=LoFABodMf4k"
+    },
+    {
+      "title": "Game Intro",
+      "youtube_id": "Tk9YduSS_Dg",
+      "url": "https://www.youtube.com/watch?v=Tk9YduSS_Dg"
+    }
+  ]
+}

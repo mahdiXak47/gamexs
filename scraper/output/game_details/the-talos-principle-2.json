@@ -1,0 +1,146 @@
+{
+  "slug": "the-talos-principle-2",
+  "igdb_id": 79864,
+  "name": "The Talos Principle II",
+  "summary": "The Talos Principle II is a thought-provoking first-person puzzle experience that greatly expands on the first game's philosophical themes and stunning environments with increasingly mind-bending challenges.",
+  "first_release_year": 2023,
+  "developers": [
+    "Croteam"
+  ],
+  "publishers": [
+    "Devolver Digital"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Talos Principle"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "robots",
+    "artificial intelligence",
+    "story rich",
+    "philosophical"
+  ],
+  "alternative_names": [
+    {
+      "name": "The Talos Principle II",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "The Talos Principle 2",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Talos2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/croteam"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/the-talos-principle-2-ab1034"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004172"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/the-talos-principle-2/9N7P8GVMF6SS"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@DevolverDigital"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/the_talos_principle_2"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/the-talos-principle-ii"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/835960/The_Talos_Principle_2/"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://talosprinciple.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Talos_Principle"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/TalosPrinciple"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 02, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-02"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 02, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-02"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 02, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-02"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2bqa.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "2NgMGOuoAiA",
+      "url": "https://www.youtube.com/watch?v=2NgMGOuoAiA"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "UgVQDrfUbq0",
+      "url": "https://www.youtube.com/watch?v=UgVQDrfUbq0"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "6slinvkF0Rs",
+      "url": "https://www.youtube.com/watch?v=6slinvkF0Rs"
+    }
+  ]
+}

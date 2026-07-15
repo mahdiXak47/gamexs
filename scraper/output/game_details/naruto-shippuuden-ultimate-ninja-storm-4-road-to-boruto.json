@@ -1,0 +1,116 @@
+{
+  "slug": "naruto-shippuuden-ultimate-ninja-storm-4-road-to-boruto",
+  "igdb_id": 24287,
+  "name": "Naruto Shippuden: Shinobi Rumble",
+  "summary": "Naruto Shippūden: Shinobi Rumble is the fifth instalment of the Ninja Council series on the Nintendo DS.",
+  "first_release_year": 2010,
+  "developers": [
+    "Tomy"
+  ],
+  "publishers": [],
+  "genres": [
+    "Fighting"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Naruto: Ninja Council",
+    "Naruto"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Naruto"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "martial arts",
+    "anime",
+    "ninja",
+    "high score",
+    "digital distribution",
+    "based on - anime",
+    "licensed game",
+    "based on - comics",
+    "young protagonist"
+  ],
+  "alternative_names": [
+    {
+      "name": "Naruto Shippuuden: Shinobi Retsuden",
+      "comment": "Other Alias"
+    },
+    {
+      "name": "Naruto Shippuuden: Ninja Destiny 3",
+      "comment": "Other Alias"
+    },
+    {
+      "name": "Naruto Shippuuden: Shinobi RetsudenNaruto Shippuuden: Ninja Destiny 3",
+      "comment": "Other"
+    },
+    {
+      "name": "Naruto Shippuden: Narutimate Blazing",
+      "comment": "Other"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://naruto.fandom.com/wiki/Naruto_Shipp%C5%ABden%3A_Shinobi_Rumble"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Naruto%20Shippuden%3A%20Shinobi%20Rumble"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo DS",
+      "region": null,
+      "date": "Apr 22, 2010",
+      "status": "Released",
+      "date_iso": "2010-04-22"
+    },
+    {
+      "platform": "Nintendo DS",
+      "region": null,
+      "date": "Feb 08, 2011",
+      "status": "Released",
+      "date_iso": "2011-02-08"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Jul 14, 2016",
+      "status": "Released",
+      "date_iso": "2016-07-14"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Aug 24, 2016",
+      "status": "Released",
+      "date_iso": "2016-08-24"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Jul 14, 2016",
+      "status": "Released",
+      "date_iso": "2016-07-14"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "iRLTwayDXn8",
+      "url": "https://www.youtube.com/watch?v=iRLTwayDXn8"
+    }
+  ]
+}

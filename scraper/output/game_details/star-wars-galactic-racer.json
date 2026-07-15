@@ -1,0 +1,160 @@
+{
+  "slug": "star-wars-galactic-racer",
+  "igdb_id": 381248,
+  "name": "Star Wars: Galactic Racer",
+  "summary": "STAR WARS: Galactic Racer is a runs-based, high-stakes reinvention of racing born in the lawless Outer Rim. With the Empire gone and the galaxy rebuilding, The Galactic League is created: an underground, unsanctioned circuit where syndicates bankroll chaos and champions are forged.",
+  "first_release_year": 2026,
+  "developers": [
+    "Fuse Games"
+  ],
+  "publishers": [
+    "Secret Mode"
+  ],
+  "genres": [
+    "Racing",
+    "Sport",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Star Wars"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "adjustable difficulty",
+    "accessibility options",
+    "subtitles",
+    "adjustable text size",
+    "stereo sound",
+    "custom volume controls",
+    "narrated game menus",
+    "camera comfort",
+    "surround sound"
+  ],
+  "alternative_names": [
+    {
+      "name": "STAR WARS: Galactic Racer",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4078430"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://starwarsgalacticracer.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/star-wars-galactic-racer"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/SWGalacticRacer"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=61580982123086"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/starwarsgalacticracer/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC57GnaDS_gIMHRquyknLcnQ"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/star-wars-galactic-racer-246fdc"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10014146"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/star-wars-galactic-racer/9mxdpxsrvml5"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://starwars.fandom.com/wiki/Star_Wars:_Galactic_Racer"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Star_Wars%3A_Galactic_Racer"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 06, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-10-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 06, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-10-06"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 06, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-10-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4v24.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5bb4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4v25.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "B2g95FIBP04",
+      "url": "https://www.youtube.com/watch?v=B2g95FIBP04"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "RiavNl4qxWY",
+      "url": "https://www.youtube.com/watch?v=RiavNl4qxWY"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "XDBc-kbL-Ic",
+      "url": "https://www.youtube.com/watch?v=XDBc-kbL-Ic"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "GvDXZ1kzEO4",
+      "url": "https://www.youtube.com/watch?v=GvDXZ1kzEO4"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "g7Nt6GINxl8",
+      "url": "https://www.youtube.com/watch?v=g7Nt6GINxl8"
+    }
+  ]
+}

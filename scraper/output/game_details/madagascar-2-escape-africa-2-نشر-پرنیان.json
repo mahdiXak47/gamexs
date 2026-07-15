@@ -1,0 +1,47 @@
+{
+  "slug": "madagascar-2-escape-africa-2-نشر-پرنیان",
+  "igdb_id": 116787,
+  "name": "Madagascar: Escape 2 Africa",
+  "summary": "Madagascar: Escape 2 Africa DS is a third-person action-platformer based on the movie of the same name.\n\nAll of the Madagascar characters are available for play, including Alex, Gloria, Melman, and the giant Moto-Moto, each with their own unique moves. Players explore the African savanna, climbing, jumping, swimming, confusing tourists, finding monkeys, and collecting items along the way.",
+  "first_release_year": 2008,
+  "developers": [
+    "Griptonite Games"
+  ],
+  "publishers": [
+    "Activision Publishing"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Madagascar"
+  ],
+  "spin_off_of": "Madagascar: Escape 2 Africa",
+  "franchises": [
+    "Madagascar"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [],
+  "release_dates": [
+    {
+      "platform": "Nintendo DS",
+      "region": null,
+      "date": "Nov 04, 2008",
+      "status": "Released",
+      "date_iso": "2008-11-04"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

@@ -1,0 +1,151 @@
+{
+  "slug": "epic-mickey-rebrushed",
+  "igdb_id": 287849,
+  "name": "Epic Mickey: Rebrushed",
+  "summary": "Embark on a magical journey in Disney Epic Mickey: Rebrushed! Shape your adventure with the stroke of a brush and transform Wasteland as Mickey Mouse in this beautifully recreated 3D platformer.",
+  "first_release_year": 2024,
+  "developers": [
+    "Purple Lamp Studios"
+  ],
+  "publishers": [
+    "THQ Nordic"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Epic Mickey"
+  ],
+  "spin_off_of": "Epic Mickey",
+  "franchises": [
+    "Mickey Mouse"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "family friendly",
+    "licensed game"
+  ],
+  "alternative_names": [
+    {
+      "name": "Disney Epic Mickey: Rebrushed",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Rebrushed.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1522160/Disney_Epic_Mickey_Rebrushed/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008074"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/thqnordic"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/disney-epic-mickey-rebrushed-switch/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/disney_epic_mickey_rebrushed?cjdata=MXxZfDB8WXww&utm_campaign=cj&utm_medium=affiliate&utm_source=cj&r=true"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/epic-mickey-rebrushed"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://epicmickey.thqnordic.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 24, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 24, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 24, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 24, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-24"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 24, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 24, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-24"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Oct 06, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-10-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2v9s.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "M3UPoTalv4A",
+      "url": "https://www.youtube.com/watch?v=M3UPoTalv4A"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "EF4XVQ0d5kk",
+      "url": "https://www.youtube.com/watch?v=EF4XVQ0d5kk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "R_ZFP4sDsYk",
+      "url": "https://www.youtube.com/watch?v=R_ZFP4sDsYk"
+    }
+  ]
+}

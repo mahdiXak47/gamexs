@@ -1,0 +1,160 @@
+{
+  "slug": "bloodborne",
+  "igdb_id": 7334,
+  "name": "Bloodborne",
+  "summary": "An action RPG in which the player embodies a Hunter who, after being transfused with the mysterious blood local to the city of Yharnam, sets off into a \"night of the Hunt\", an extended night in which Hunters may phase in and out of dream and reality in order to thin the outbreak of abominable beasts that plague the land and, for the more resilient and insightful Hunters, uncover the answers to the Hunt's many mysteries.",
+  "first_release_year": 2015,
+  "developers": [
+    "FromSoftware"
+  ],
+  "publishers": [
+    "Sony Computer Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Horror",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "bloody",
+    "disease",
+    "gothic",
+    "difficult",
+    "action-adventure",
+    "lovecraftian",
+    "online",
+    "sword & sorcery",
+    "playstation network",
+    "digital distribution",
+    "playstation trophies",
+    "leveling up",
+    "playstation experience 2015",
+    "character creation",
+    "side quests",
+    "pick your gender",
+    "downloadable content",
+    "auto-saving",
+    "real-time combat",
+    "male antagonist",
+    "female antagonist",
+    "pax prime 2014",
+    "gamescom 2014",
+    "mercenary",
+    "canonical death",
+    "british accent",
+    "camera control",
+    "sliding down ladders",
+    "day one patch",
+    "tokyo game show 2014",
+    "new game plus",
+    "no game pause",
+    "the game awards 2014",
+    "soulslike",
+    "physical release",
+    "the game awards - world premiere"
+  ],
+  "alternative_names": [
+    {
+      "name": "Project Beast",
+      "comment": "Working title"
+    },
+    {
+      "name": "血源诅咒",
+      "comment": "Chinese title - simplified"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/bloodborne"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://bloodborne.wiki.fextralife.com/Bloodborne+Wiki"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/200520"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bloodborne"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Bloodborne"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 26, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-03-26"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 24, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-03-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 27, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-03-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3mkv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3mkw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3mkx.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "2UJxaWZoK6Y",
+      "url": "https://www.youtube.com/watch?v=2UJxaWZoK6Y"
+    },
+    {
+      "title": "E3 Teaser",
+      "youtube_id": "Ga98zSE9Q3Y",
+      "url": "https://www.youtube.com/watch?v=Ga98zSE9Q3Y"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "AXiUYQ8eunw",
+      "url": "https://www.youtube.com/watch?v=AXiUYQ8eunw"
+    },
+    {
+      "title": "Gamescom Trailer",
+      "youtube_id": "rMxEpPCSH5A",
+      "url": "https://www.youtube.com/watch?v=rMxEpPCSH5A"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "QEv7ZHytVAk",
+      "url": "https://www.youtube.com/watch?v=QEv7ZHytVAk"
+    }
+  ]
+}

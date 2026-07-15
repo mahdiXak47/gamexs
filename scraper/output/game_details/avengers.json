@@ -1,0 +1,81 @@
+{
+  "slug": "avengers",
+  "igdb_id": 46822,
+  "name": "Avengers",
+  "summary": "Avengers, sometimes known as Avenger, and known in Japan as Hissatsu Buraiken (必殺 無頼拳?, lit. \"Deadly Ruffian Fist\"), is a 1987 overhead-view vertically scrolling beat 'em up arcade game developed and published by Capcom. The game was directed by Takashi Nishiyama, who later co-planned the original Street Fighter and a few of SNK's early fighting games.\n\nThe game takes place in Paradise City, where the villain, \"Geshita\", has captured 6 girls from the city. The player's objective (as Ryu or Ko) is to banish \"Geshita\" from Paradise City once and for all. During the game, the player can pick up powerups like the \"Speed Up\", the Super Punch, Grenades, Shurikens, Nunchaku and extra health. The game also features hidden areas on each level, accessed by breaking doors in structures on either side of the screen. The player's character has 3 normal means of attack: Punches, which are quick with short range, Kicks, which are slower with longer range, and the Roundhouse, which hits in a 360 degree motion.",
+  "first_release_year": 1986,
+  "developers": [
+    "Capcom"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [
+    "Hack and slash/Beat 'em up",
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Hissatsu Buraiken",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "Avenger",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Deadly Ruffian Fist",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Avengers_(1987_video_game)"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Avenger"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Arcade",
+      "region": null,
+      "date": "Feb 1987",
+      "status": "Released",
+      "date_iso": "1987-02-01"
+    },
+    {
+      "platform": "Arcade",
+      "region": null,
+      "date": "Dec 1986",
+      "status": "Released",
+      "date_iso": "1986-12-01"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "vcAVQTs8gw8",
+      "url": "https://www.youtube.com/watch?v=vcAVQTs8gw8"
+    }
+  ]
+}

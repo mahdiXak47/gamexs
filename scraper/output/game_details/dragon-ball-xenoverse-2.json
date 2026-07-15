@@ -1,0 +1,219 @@
+{
+  "slug": "dragon-ball-xenoverse-2",
+  "igdb_id": 19449,
+  "name": "Dragon Ball: Xenoverse 2",
+  "summary": "DRAGON BALL XENOVERSE 2 builds upon the highly popular DRAGON BALL XENOVERSE with enhanced graphics that will further immerse players into the largest and most detailed Dragon Ball world ever developed.\n\nDRAGON BALL XENOVERSE 2 will deliver a new hub city and the most character customization choices to date among a multitude of new features and special upgrades.",
+  "first_release_year": 2016,
+  "developers": [
+    "Dimps"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Fighting",
+    "Role-playing (RPG)",
+    "Simulator",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Massively Multiplayer Online (MMO)"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Dragon Ball: Xenoverse"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Dragon Ball"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "anime",
+    "time travel",
+    "character customization",
+    "flight",
+    "steam",
+    "online",
+    "sequel",
+    "based on - anime",
+    "licensed game",
+    "customizable characters",
+    "voice acting",
+    "language selection",
+    "human",
+    "character creation",
+    "downloadable content",
+    "pax west 2016",
+    "auto-saving",
+    "online multiplayer achievements"
+  ],
+  "alternative_names": [
+    {
+      "name": "DragonBall Xenoverse 2",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "START.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/217012"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/dragon-ball-xenoverse-2-for-nintendo-switch-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/dragon-ball-xenoverse-2/BX03760D0QGN"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://dragonball.wikia.com/wiki/Dragon_Ball_Xenoverse_2"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/454650"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dragon_Ball_Xenoverse_2"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/DragonBall%20Xenoverse%202"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.dragonballxenoverse2.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 24, 2024",
+      "status": "Released",
+      "date_iso": "2024-05-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 24, 2024",
+      "status": "Released",
+      "date_iso": "2024-05-24"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 25, 2016",
+      "status": "Released",
+      "date_iso": "2016-10-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 28, 2016",
+      "status": "Released",
+      "date_iso": "2016-10-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 27, 2016",
+      "status": "Released",
+      "date_iso": "2016-10-27"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 22, 2017",
+      "status": "Released",
+      "date_iso": "2017-09-22"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Dec 17, 2019",
+      "status": "Released",
+      "date_iso": "2019-12-17"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 28, 2016",
+      "status": "Released",
+      "date_iso": "2016-10-28"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 07, 2017",
+      "status": "Released",
+      "date_iso": "2017-09-07"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 25, 2016",
+      "status": "Released",
+      "date_iso": "2016-10-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 02, 2016",
+      "status": "Released",
+      "date_iso": "2016-11-02"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 22, 2017",
+      "status": "Released",
+      "date_iso": "2017-09-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5kc.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3u56.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Japan Expo Trailer",
+      "youtube_id": "_CVdjnzVoSc",
+      "url": "https://www.youtube.com/watch?v=_CVdjnzVoSc"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "ArPUlyb2fgA",
+      "url": "https://www.youtube.com/watch?v=ArPUlyb2fgA"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "DGh53Ar4OcM",
+      "url": "https://www.youtube.com/watch?v=DGh53Ar4OcM"
+    },
+    {
+      "title": "Gamescom 2016 Trailer",
+      "youtube_id": "BNYqqztGhKM",
+      "url": "https://www.youtube.com/watch?v=BNYqqztGhKM"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "slug": "grand-theft-auto-vi-ultimate-edition",
+  "igdb_id": 52189,
+  "name": "Grand Theft Auto VI",
+  "summary": "Grand Theft Auto VI heads to the state of Leonida, home to the neon-soaked streets of Vice City and beyond in the biggest, most immersive evolution of the Grand Theft Auto series yet.",
+  "first_release_year": 2026,
+  "developers": [
+    "Rockstar Games"
+  ],
+  "publishers": [
+    "Take-Two Interactive",
+    "Rockstar Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Racing",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Comedy",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Grand Theft Auto"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Grand Theft Auto"
+  ],
+  "game_engines": [
+    "RAGE"
+  ],
+  "keywords": [
+    "vehicular combat",
+    "violence",
+    "bloody",
+    "murder",
+    "heist",
+    "crime",
+    "atmospheric",
+    "realistic",
+    "human",
+    "photorealistic"
+  ],
+  "alternative_names": [
+    {
+      "name": "GTA 6",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Grand Theft Auto 6",
+      "comment": "Numerical"
+    },
+    {
+      "name": "GTA VI",
+      "comment": "Acronym"
+    },
+    {
+      "name": "GTA6",
+      "comment": "Acronym"
+    },
+    {
+      "name": "GTAVI",
+      "comment": "Acronym"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/-/9NL3WWNZLZZN"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/GTA6/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/RockstarGames"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/rockstargames"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000730"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.rockstargames.com/VI"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/@rockstargames"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/rockstargames"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/rockstargames.com"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/rockstargames"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://gta.wiki/w/Grand_Theft_Auto_VI"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 19, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-11-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 19, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-11-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6451.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6455.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6457.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6458.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6459.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar645a.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar646w.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar64ej.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar64ek.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar64kj.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar64ko.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar64kn.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar64kk.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar64km.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar64kl.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar52fz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar52g1.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "QdBZY2fkU-0",
+      "url": "https://www.youtube.com/watch?v=QdBZY2fkU-0"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "VQRLujxTm3c",
+      "url": "https://www.youtube.com/watch?v=VQRLujxTm3c"
+    }
+  ]
+}

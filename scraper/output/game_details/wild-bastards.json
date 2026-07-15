@@ -1,0 +1,138 @@
+{
+  "slug": "wild-bastards",
+  "igdb_id": 278602,
+  "name": "Wild Bastards",
+  "summary": "The spiritual successor to the epic strategy-shooter Void Bastards, Wild Bastards is a hybrid FPS/strategy game with heart-pounding tactical combat, detailed management systems, and a roguelike campaign. Saddle up and lead the most notorious outlaws in the galaxy.",
+  "first_release_year": 2024,
+  "developers": [
+    "Blue Manchu"
+  ],
+  "publishers": [
+    "Modus Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Strategy",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "WildBastards.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/wild-bastards-3e91e0"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://wildbastards.wiki.gg/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/wildbastardsofficial/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/WildBastards"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://wildbastards.com/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/bluemanchuofficial"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009549"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/wild-bastards"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1660840/Wild_Bastards/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@cardhuntergame/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 12, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 12, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-12"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 12, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-12"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 12, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2noo.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "JFsh32n3KPc",
+      "url": "https://www.youtube.com/watch?v=JFsh32n3KPc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "H-dSVxF6J2Y",
+      "url": "https://www.youtube.com/watch?v=H-dSVxF6J2Y"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "TFtKHCrvZHA",
+      "url": "https://www.youtube.com/watch?v=TFtKHCrvZHA"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "CKFpjONRnRA",
+      "url": "https://www.youtube.com/watch?v=CKFpjONRnRA"
+    }
+  ]
+}

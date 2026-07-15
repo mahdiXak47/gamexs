@@ -1,0 +1,124 @@
+{
+  "slug": "1348-ex-voto",
+  "igdb_id": 362064,
+  "name": "1348: Ex Voto",
+  "summary": "Journey through a tumultuous Medieval Italy as Aeta, a young knight errant who sets off on a brutal quest to find and save her closest one. 1348 Ex Voto is a cinematic action-adventure game inspired by chivalric tales.",
+  "first_release_year": 2026,
+  "developers": [
+    "Sedleo"
+  ],
+  "publishers": [
+    "Dear Villagers"
+  ],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Drama"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "nextfest february 2026"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://epicgames.com/p/1348-ex-voto-251865"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10011637/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://1348exvoto.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1895900/1348__Ex_Voto/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/dearvillagers"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/dearvillagers"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/dearvillagers/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Sedleo_Games"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/1348-ex-voto/9p3d2jc7prq6"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 12, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 12, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-12"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "TBD",
+      "status": "Offline"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar41k9.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar41ka.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "BPhjkKVFIMQ",
+      "url": "https://www.youtube.com/watch?v=BPhjkKVFIMQ"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "MzjshfDkW1c",
+      "url": "https://www.youtube.com/watch?v=MzjshfDkW1c"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "ncwspEkfVc4",
+      "url": "https://www.youtube.com/watch?v=ncwspEkfVc4"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "bi1F-bNhAfQ",
+      "url": "https://www.youtube.com/watch?v=bi1F-bNhAfQ"
+    }
+  ]
+}

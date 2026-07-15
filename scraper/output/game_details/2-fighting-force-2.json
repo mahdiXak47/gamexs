@@ -1,0 +1,118 @@
+{
+  "slug": "2-fighting-force-2",
+  "igdb_id": 11615,
+  "name": "Fighting Force 2",
+  "summary": "Fighting Force 2 is the sequel to 1997's original Fighting Force, which was one of the first 3D takes on the 2D Beat 'em up genre. The game was released for the PlayStation and Dreamcast and was developed by Core Design and published by Eidos Interactive. It was released in North America on 30 November 1999.",
+  "first_release_year": 1999,
+  "developers": [
+    "Core Design"
+  ],
+  "publishers": [
+    "Eidos Interactive",
+    "Square Enix"
+  ],
+  "genres": [
+    "Fighting",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Fighting Force"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "bloody",
+    "death",
+    "military",
+    "robots",
+    "cyborg",
+    "backtracking",
+    "mutants",
+    "hacking",
+    "artificial intelligence",
+    "tank",
+    "sequel",
+    "explosion",
+    "polygonal 3d",
+    "sniping",
+    "melee",
+    "secret area",
+    "vending machine interaction",
+    "clone",
+    "playstation underground"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fighting_Force_2"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Fighting%20Force%202"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation",
+      "region": null,
+      "date": "Dec 13, 1999",
+      "status": "Released",
+      "date_iso": "1999-12-13"
+    },
+    {
+      "platform": "Dreamcast",
+      "region": null,
+      "date": "Dec 13, 1999",
+      "status": "Released",
+      "date_iso": "1999-12-13"
+    },
+    {
+      "platform": "Dreamcast",
+      "region": null,
+      "date": "Dec 22, 1999",
+      "status": "Released",
+      "date_iso": "1999-12-22"
+    },
+    {
+      "platform": "PlayStation",
+      "region": null,
+      "date": "Dec 22, 1999",
+      "status": "Released",
+      "date_iso": "1999-12-22"
+    },
+    {
+      "platform": "PlayStation Vita",
+      "region": null,
+      "date": "Aug 29, 2012",
+      "status": "Released",
+      "date_iso": "2012-08-29"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "1Udshzmh628",
+      "url": "https://www.youtube.com/watch?v=1Udshzmh628"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "65rX62I01ic",
+      "url": "https://www.youtube.com/watch?v=65rX62I01ic"
+    }
+  ]
+}

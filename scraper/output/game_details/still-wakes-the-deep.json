@@ -1,0 +1,141 @@
+{
+  "slug": "still-wakes-the-deep",
+  "igdb_id": 252837,
+  "name": "Still Wakes the Deep",
+  "summary": "1975. Disaster strikes the Beira D oil rig off the coast of Scotland. Navigate the collapsing rig to save your crew from an otherworldly horror on the edge of all logic and reality.",
+  "first_release_year": 2024,
+  "developers": [
+    "The Chinese Room"
+  ],
+  "publishers": [
+    "Secret Mode"
+  ],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction",
+    "Horror",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "dark",
+    "gore",
+    "story rich",
+    "narrative"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://stillwakesthedeep.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/SWTD_Game"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005163"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/still-wakes-the-deep/9N88DFRX8WCJ"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/TYXxVxbvCC"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/still-wakes-the-deep-698c81"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1622910"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/still-wakes-the-deep"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-18"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2cjz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4yfs.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Dev Diary",
+      "youtube_id": "K-JLanChkIA",
+      "url": "https://www.youtube.com/watch?v=K-JLanChkIA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "OLWQDX5pbDM",
+      "url": "https://www.youtube.com/watch?v=OLWQDX5pbDM"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "2-zKU2pjq-U",
+      "url": "https://www.youtube.com/watch?v=2-zKU2pjq-U"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "HWh4ThaGayw",
+      "url": "https://www.youtube.com/watch?v=HWh4ThaGayw"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "9uuX4l34Czs",
+      "url": "https://www.youtube.com/watch?v=9uuX4l34Czs"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "X7Q7FUSxM8c",
+      "url": "https://www.youtube.com/watch?v=X7Q7FUSxM8c"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3svNksUg_BM",
+      "url": "https://www.youtube.com/watch?v=3svNksUg_BM"
+    }
+  ]
+}

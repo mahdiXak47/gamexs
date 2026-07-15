@@ -1,0 +1,123 @@
+{
+  "slug": "concept-destruction",
+  "igdb_id": 123561,
+  "name": "Concept Destruction",
+  "summary": "Concept Destruction is all about driving miniature cars made of cardboard, and crashing them into each other to earn points by destroying them! Pick from several different modes that suits your playstyle. Pick championship mode if you want to fight your way through mass production or choose survival mode to see how long you can survive a wave of deadly cardboard automobiles!",
+  "first_release_year": 2020,
+  "developers": [
+    "Thinice Games"
+  ],
+  "publishers": [
+    "Ratalaika Games"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "ダンボール ミニカーズ",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "Concept Destruction.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/concept-destruction-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000281"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1153540"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Concept%20Destruction"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 22, 2020",
+      "status": "Released",
+      "date_iso": "2020-05-22"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 22, 2020",
+      "status": "Released",
+      "date_iso": "2020-05-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 22, 2020",
+      "status": "Released",
+      "date_iso": "2020-05-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "May 19, 2020",
+      "status": "Released",
+      "date_iso": "2020-05-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 23, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-23"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 19, 2020",
+      "status": "Released",
+      "date_iso": "2020-05-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arcz7.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "yNYjEvchpUA",
+      "url": "https://www.youtube.com/watch?v=yNYjEvchpUA"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "wHbBrDSZSxQ",
+      "url": "https://www.youtube.com/watch?v=wHbBrDSZSxQ"
+    }
+  ]
+}

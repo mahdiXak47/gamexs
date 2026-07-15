@@ -1,0 +1,141 @@
+{
+  "slug": "scars-above",
+  "igdb_id": 152074,
+  "name": "Scars Above",
+  "summary": "Scars Above is a challenging sci-fi third-person action adventure shooter combining the rewarding feel of overcoming difficulty with a compelling and intricate story, set in a mysterious alien world to explore.",
+  "first_release_year": 2023,
+  "developers": [
+    "Mad Head Games"
+  ],
+  "publishers": [
+    "Prime Matter"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "story driven",
+    "crafting",
+    "narrative"
+  ],
+  "alternative_names": [
+    {
+      "name": "ScarsAbove.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Scars%20Above"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1196090/Scars_Above"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005258"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/ScarsAbove"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://scarsabove.primematter.gg"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/scars_above"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-28"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar906.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar908.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar909.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar907.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "_n4x2FQClps",
+      "url": "https://www.youtube.com/watch?v=_n4x2FQClps"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "R1eAGn1M8_s",
+      "url": "https://www.youtube.com/watch?v=R1eAGn1M8_s"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "9Yr8Gi8A3ek",
+      "url": "https://www.youtube.com/watch?v=9Yr8Gi8A3ek"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "pnbHxx2j3wA",
+      "url": "https://www.youtube.com/watch?v=pnbHxx2j3wA"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "jxnsQNaWgyQ",
+      "url": "https://www.youtube.com/watch?v=jxnsQNaWgyQ"
+    }
+  ]
+}

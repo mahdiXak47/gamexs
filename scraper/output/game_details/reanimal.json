@@ -1,0 +1,211 @@
+{
+  "slug": "reanimal",
+  "igdb_id": 314265,
+  "name": "Reanimal",
+  "summary": "The creators of Little Nightmares I & II have returned to take you on a darker, more terrifying journey than ever before. In this horror adventure game, a brother & sister go through hell to rescue their missing friends and escape the island that they used to call home.",
+  "first_release_year": 2026,
+  "developers": [
+    "Tarsier Studios"
+  ],
+  "publishers": [
+    "THQ Nordic"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "dark",
+    "steam trading cards",
+    "atmospheric",
+    "steam achievements",
+    "xbox controller support for pc",
+    "steam cloud",
+    "remote play",
+    "controller support",
+    "cross-platform",
+    "steam families",
+    "nextfest october 2025"
+  ],
+  "alternative_names": [
+    {
+      "name": "REANIMAL",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "REANIMAL.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/TarsierStudios"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/reanimal"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/reanimal"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/reanimal/9n67dhnp2m0t"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010999"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2129530"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/tarsierstudios.bsky.social"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/nf2y43K4zR"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/TarsierStudios"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/tarsierstudios"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/reanimal-switch-2/?srsltid=AfmBOoo_8z37nRrael8TC454YWxxtl3oYlPSFnjT-t2Sc1U_PcIGLuBt"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://reanimal.fandom.com/wiki/REANIMAL_Wiki"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Reanimal"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/ReanimalGame/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://reanimal.thqnordic.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/TarsierStudios"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/reanimal"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Feb 13, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-13"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 13, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 13, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-13"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 13, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4pqy.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4pr1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4pqz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5dnu.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ai6lH55Dn8I",
+      "url": "https://www.youtube.com/watch?v=ai6lH55Dn8I"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "4BnNXI0Uy04",
+      "url": "https://www.youtube.com/watch?v=4BnNXI0Uy04"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "bSAyHAzqQxk",
+      "url": "https://www.youtube.com/watch?v=bSAyHAzqQxk"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "UMAxY69lfMk",
+      "url": "https://www.youtube.com/watch?v=UMAxY69lfMk"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "P9sEV58DC7w",
+      "url": "https://www.youtube.com/watch?v=P9sEV58DC7w"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "xCQo60PWWYA",
+      "url": "https://www.youtube.com/watch?v=xCQo60PWWYA"
+    },
+    {
+      "title": "Co-op Trailer",
+      "youtube_id": "hw4MqME1paY",
+      "url": "https://www.youtube.com/watch?v=hw4MqME1paY"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "5_EfcYKD65g",
+      "url": "https://www.youtube.com/watch?v=5_EfcYKD65g"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "ZZUGINJpIMw",
+      "url": "https://www.youtube.com/watch?v=ZZUGINJpIMw"
+    }
+  ]
+}

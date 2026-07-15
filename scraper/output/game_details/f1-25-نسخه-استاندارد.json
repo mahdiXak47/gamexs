@@ -1,0 +1,145 @@
+{
+  "slug": "f1-25-نسخه-استاندارد",
+  "igdb_id": 336964,
+  "name": "F1 25",
+  "summary": "Leave your mark on the world of racing in F1 25, the official video game of the 2025 FIA Formula One World Championship, featuring a revamped My Team mode, the thrilling third chapter of Braking Point, and more!",
+  "first_release_year": 2025,
+  "developers": [
+    "Codemasters"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "F1"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Formula 1"
+  ],
+  "game_engines": [
+    "Ego Engine"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "EA Sports F1 25",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "EAAntiCheat.GameServiceLauncher.exe",
+      "comment": "windows executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/f1-25-standard-edition/9N77NTZ6T6MK/0017"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/F1Game/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/f1-25-0729b0"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/f1-25"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3059520"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/f1/f1-25"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/F1_25"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP0006-PPSA24662_00-F12025PS5GAME000"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/EASPORTSF1"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/EASPORTSF1"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@EASPORTSF1/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 27, 2025",
+      "status": "status_34",
+      "date_iso": "2025-05-27"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3dnb.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "u5rWBgBjDsc",
+      "url": "https://www.youtube.com/watch?v=u5rWBgBjDsc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "D52QfcK9qJc",
+      "url": "https://www.youtube.com/watch?v=D52QfcK9qJc"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "smwFJlL9wCU",
+      "url": "https://www.youtube.com/watch?v=smwFJlL9wCU"
+    }
+  ]
+}

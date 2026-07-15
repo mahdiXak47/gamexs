@@ -1,0 +1,213 @@
+{
+  "slug": "shadows-of-doubt",
+  "igdb_id": 119273,
+  "name": "Shadows of Doubt",
+  "summary": "Shadows of Doubt is a detective stealth game set in a fully-simulated neo-noir metropolis.\n\nAn open world stealth game with a whole city of secrets at your fingertips!\n\nSet in an alternate reality hyper-industrialized 1980s where the government outsources police work to private corporations and contractors. You play the role of a private intelligence investigator, making money by finding and selling information. Capture of the rampant serial killer carries a hefty bounty, but who knows what secrets you’ll find along the way. In this world of secrets & lies, information is power, and the cards you hold are determined by how far you’ll go to acquire it…\n\nBreak into apartments, rifle through secret documents and hack security systems. The entire world is fully simulated. Each citizen has an apartment, a job, a daily routine, favorite things to do, places to go, and people to interact with. Uncover this knowledge and use it to your advantage!",
+  "first_release_year": 2024,
+  "developers": [
+    "ColePowered Games"
+  ],
+  "publishers": [
+    "Fireshine Games"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Simulator",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Stealth",
+    "Sandbox",
+    "Open world",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "neo noir",
+    "cyberpunk",
+    "violence",
+    "bloody",
+    "character customization",
+    "detective",
+    "murder",
+    "drugs",
+    "3d",
+    "police",
+    "procedural generation",
+    "voxel",
+    "achievements",
+    "gore",
+    "hacking",
+    "murder mystery",
+    "snow",
+    "pixel graphics",
+    "private detective",
+    "procedurally generated",
+    "low-poly",
+    "steam achievements",
+    "xbox controller support for pc",
+    "steam cloud",
+    "dualshock 4 support for pc",
+    "gun",
+    "scientist",
+    "vent crawling",
+    "remote play",
+    "stalker",
+    "controller support",
+    "food",
+    "coffee",
+    "donuts",
+    "immersive sim",
+    "tobacco",
+    "steam families",
+    "money",
+    "simulated operating system",
+    "lgbtq",
+    "dualsense support for pc",
+    "alcohol",
+    "crouching"
+  ],
+  "alternative_names": [
+    {
+      "name": "凶影疑云",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Shadows of Doubt.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/45VsnXECMT"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://shadows-of-doubt.fandom.com/wiki/Shadows_of_Doubt_Wiki"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/colepowered.bsky.social"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/shadows-of-doubt"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010521"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/colepowered/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/986130"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/detectivesim"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://shadows.game/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/colepoweredgames/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/colepowered/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Shadows_of_Doubt"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shadows_of_Doubt"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/shadows_of_doubt"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 26, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 24, 2023",
+      "status": "Beta",
+      "date_iso": "2023-04-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 26, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-26"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 26, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-26"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1p8n.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "dI1UJNoQ8Mk",
+      "url": "https://www.youtube.com/watch?v=dI1UJNoQ8Mk"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "AkfbR3OmS1U",
+      "url": "https://www.youtube.com/watch?v=AkfbR3OmS1U"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "Hz2ovrxAuN0",
+      "url": "https://www.youtube.com/watch?v=Hz2ovrxAuN0"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "roO6zbPEODA",
+      "url": "https://www.youtube.com/watch?v=roO6zbPEODA"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "orBsfSBxRkA",
+      "url": "https://www.youtube.com/watch?v=orBsfSBxRkA"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "slug": "plateup!",
+  "igdb_id": 151353,
+  "name": "PlateUp!",
+  "summary": "Hectic single-player and co-op restaurant management: cook and serve your dishes, upgrade and customise your restaurants, and expand your culinary kingdom with each procedurally-generated location. Work together to cook food, deal with customers, and serve drinks - or do it all yourself!",
+  "first_release_year": 2022,
+  "developers": [
+    "It’s happening"
+  ],
+  "publishers": [
+    "Yogscast Games"
+  ],
+  "genres": [
+    "Simulator",
+    "Strategy",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Business",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "3d",
+    "cooking",
+    "baking",
+    "management",
+    "restaurant",
+    "dungeon management",
+    "business simulation",
+    "store management",
+    "pizza",
+    "chef",
+    "turkey",
+    "4 player co-op",
+    "teamwork",
+    "stickman",
+    "roguelite",
+    "play with friends",
+    "twitch integration"
+  ],
+  "alternative_names": [
+    {
+      "name": "速速上菜！",
+      "comment": "Chinese title - traditional"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@YogscastGames"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/PlateUp!"
+    },
+    {
+      "label": "Epic",
+      "url": "https://epicgames.com/p/plateup-a99631"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/plateup!/9P2HHT3VS7MP"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007566"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/plateup-switch/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/plateupgame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/nnBmeXe63a"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1599600"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.plateupgame.com"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 25, 2025",
+      "status": "Released",
+      "date_iso": "2025-09-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 15, 2024",
+      "status": "Released",
+      "date_iso": "2024-02-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 15, 2024",
+      "status": "Released",
+      "date_iso": "2024-02-15"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 15, 2024",
+      "status": "Released",
+      "date_iso": "2024-02-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 04, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-08-04"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 15, 2024",
+      "status": "Released",
+      "date_iso": "2024-02-15"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Feb 15, 2024",
+      "status": "Released",
+      "date_iso": "2024-02-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arroc.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "0LbK7MHm8g4",
+      "url": "https://www.youtube.com/watch?v=0LbK7MHm8g4"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "I0kmWq-Sz-w",
+      "url": "https://www.youtube.com/watch?v=I0kmWq-Sz-w"
+    }
+  ]
+}

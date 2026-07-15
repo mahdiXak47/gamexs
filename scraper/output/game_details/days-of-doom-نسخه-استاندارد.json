@@ -1,0 +1,108 @@
+{
+  "slug": "days-of-doom-نسخه-استاندارد",
+  "igdb_id": 251728,
+  "name": "Days of Doom",
+  "summary": "Gather your heroes and fight to make it to Sanctuary in this tactical RPG roguelite. Did we mention the zombies, raiders, and mysterious monstrosities that inhabit this post-apocalyptic wasteland? Welcome to the world of Days of Doom.",
+  "first_release_year": 2023,
+  "developers": [
+    "SneakyBox"
+  ],
+  "publishers": [
+    "Atari, Inc."
+  ],
+  "genres": [
+    "Strategy"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/days-of-doom-b29861"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007933"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/days-of-doom-switch/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/atariclub"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2258180"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-21"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2c30.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "y6MDZ6MynL8",
+      "url": "https://www.youtube.com/watch?v=y6MDZ6MynL8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "7AOb7jgvr8A",
+      "url": "https://www.youtube.com/watch?v=7AOb7jgvr8A"
+    }
+  ]
+}

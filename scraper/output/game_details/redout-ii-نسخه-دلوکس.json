@@ -1,0 +1,167 @@
+{
+  "slug": "redout-ii-نسخه-دلوکس",
+  "igdb_id": 186059,
+  "name": "Redout 2",
+  "summary": "The fastest racing game in the universe. Redout 2 is a tribute to classic arcade racing games and the sequel to the critically acclaimed Redout. Reach impossible speeds in exhilarating futuristic races across an extensive single-player campaign and competitive multiplayer.",
+  "first_release_year": 2022,
+  "developers": [
+    "34BigThings"
+  ],
+  "publishers": [
+    "Saber Interactive"
+  ],
+  "genres": [
+    "Racing",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Redout"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "online multiplayer",
+    "anti-gravity racing"
+  ],
+  "alternative_names": [
+    {
+      "name": "레드아웃 2",
+      "comment": "Korean title"
+    },
+    {
+      "name": "レッドアウト２",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "Redout 2 (レッドアウト２)",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "Redout2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1799930/Redout_2"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004160"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://redout.games/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Redout2Game"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCXo34BQiG_xcDcBflVSLxiQ"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/redoutgame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/redout"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/redout2game"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Redout%202"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/redout-2"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-16"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-16"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-16"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-16"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-16"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-16"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1f9f.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "_Xw93COtiBo",
+      "url": "https://www.youtube.com/watch?v=_Xw93COtiBo"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "tWOfwYRju8o",
+      "url": "https://www.youtube.com/watch?v=tWOfwYRju8o"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "Vl3z-7xzan8",
+      "url": "https://www.youtube.com/watch?v=Vl3z-7xzan8"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "iuV_4FAWygY",
+      "url": "https://www.youtube.com/watch?v=iuV_4FAWygY"
+    }
+  ]
+}

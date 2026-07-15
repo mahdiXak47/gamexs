@@ -1,0 +1,175 @@
+{
+  "slug": "remnant-ii-standard-edition",
+  "igdb_id": 228535,
+  "name": "Remnant II",
+  "summary": "Remnant II is the sequel to the best-selling game Remnant: From the Ashes that pits survivors of humanity against new deadly creatures and god-like bosses across terrifying worlds. Play solo or co-op with two other friends to explore the depths of the unknown to stop an evil from destroying reality itself. To succeed, players will need to rely on their own skills and those of their team to overcome the toughest challenges and to stave off humanity’s extinction.",
+  "first_release_year": 2023,
+  "developers": [
+    "Gunfire Games"
+  ],
+  "publishers": [
+    "Gearbox Publishing"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Remnant"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "post-apocalyptic",
+    "character customization",
+    "dark",
+    "invasion",
+    "dark fantasy",
+    "parallel worlds",
+    "corruption",
+    "soulslike",
+    "alien world"
+  ],
+  "alternative_names": [
+    {
+      "name": "Remnant 2",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Remnant2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/RemnantGame/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Remnant%20II"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/remnantgame"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/remnant-2"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/remnant-ii---standard-edition/9P9278ZMGQLJ"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004544"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1282100"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.remnantgame.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Remnant_2"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Remnant_Game"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/remnantgame/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@RemnantGame"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/remnantgame"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://remnant.wiki/Main_Page"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 25, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 25, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-25"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 25, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar21rt.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "zuz3t_ldYk0",
+      "url": "https://www.youtube.com/watch?v=zuz3t_ldYk0"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "H9j1S-x2etM",
+      "url": "https://www.youtube.com/watch?v=H9j1S-x2etM"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "GbNzgWFRWVk",
+      "url": "https://www.youtube.com/watch?v=GbNzgWFRWVk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "biuSSs32o8I",
+      "url": "https://www.youtube.com/watch?v=biuSSs32o8I"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "b2_Ha4BHdJQ",
+      "url": "https://www.youtube.com/watch?v=b2_Ha4BHdJQ"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "LcFWOd41Jh0",
+      "url": "https://www.youtube.com/watch?v=LcFWOd41Jh0"
+    }
+  ]
+}

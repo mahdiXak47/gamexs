@@ -1,0 +1,150 @@
+{
+  "slug": "just-dance-2021",
+  "igdb_id": 137131,
+  "name": "Just Dance 2021",
+  "summary": "Just Dance 2021 is the ultimate dance game, with 40 hot new tracks from chart-topping hits from artists like Dua Lipa, Twice, Shawn Mendes and Billie Eilish. Start dancing right away in quickplay mode or join the improved dance floor where you can challenge other dancers from all over the world. Time to start a dance party your friends and family can enjoy!",
+  "first_release_year": 2020,
+  "developers": [
+    "Ubisoft Paris"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Music"
+  ],
+  "themes": [
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [],
+  "series": [
+    "Just Dance"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "dancing",
+    "music and rhythm"
+  ],
+  "alternative_names": [
+    {
+      "name": "ジャストダンス2021",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "저스트 댄스 2021",
+      "comment": "Korean title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/just-dance-2021-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000642"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ubisoft.com/en-us/game/just-dance/2021"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Just%20Dance%202021/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/justdancegame"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Just_Dance_2021"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/JustDance"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://justdance.fandom.com/wiki/Just_Dance_2021"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/justdancegame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/justdancegame_us"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/justdancegame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 24, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-24"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-12"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-12"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-12"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-12"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar9jm.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "0g8_Jd49No4",
+      "url": "https://www.youtube.com/watch?v=0g8_Jd49No4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "BXe82ocZDUM",
+      "url": "https://www.youtube.com/watch?v=BXe82ocZDUM"
+    }
+  ]
+}

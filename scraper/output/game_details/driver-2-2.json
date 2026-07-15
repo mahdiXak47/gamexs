@@ -1,0 +1,53 @@
+{
+  "slug": "driver-2-2",
+  "igdb_id": 148858,
+  "name": "Hard Driver 2",
+  "summary": "A new part of the hurricane runner, where you act as an unlucky driver who tries to get to his home, can you Dodge obstacles, jump over cliffs, collect coins and improve your car to help the driver in his difficult game of survival?",
+  "first_release_year": 2021,
+  "developers": [],
+  "publishers": [],
+  "genres": [
+    "Racing",
+    "Sport",
+    "Indie"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "HardDriver2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1341650"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Hard%20Driver%202"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 18, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arcq5.jpg"
+  ],
+  "videos": []
+}

@@ -1,0 +1,271 @@
+{
+  "slug": "hades-نسخه-استاندارد",
+  "igdb_id": 113112,
+  "name": "Hades",
+  "summary": "A rogue-lite hack and slash dungeon crawler in which Zagreus, son of Hades the Greek god of the dead, attempts to escape his home and his oppressive father by fighting the souls of the dead through the various layers of the ever-shifting underworld, while getting to know and forging relationships with its inhabitants.",
+  "first_release_year": 2020,
+  "developers": [
+    "Supergiant Games"
+  ],
+  "publishers": [
+    "Supergiant Games",
+    "Netflix"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Drama"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Hades"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Proprietary Engine"
+  ],
+  "keywords": [
+    "greek mythology",
+    "roguelike",
+    "difficult",
+    "mythology",
+    "supernatural",
+    "stylized",
+    "dungeon crawler",
+    "story rich",
+    "the game awards - best score or music - nominee",
+    "roguelite",
+    "netflix",
+    "you can pet the dog",
+    "the game awards - best action game - winner",
+    "the game awards - best art direction - nominee",
+    "the game awards - best game direction - nominee",
+    "the game awards - best independent game - winner",
+    "the game awards - best narrative - nominee",
+    "the game awards - best performance - nominee",
+    "the game awards - game of the year - nominee",
+    "weapons"
+  ],
+  "alternative_names": [
+    {
+      "name": "Hades.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Hades"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/hades/9P8DL6W0JBB8"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/hades-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002648"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.supergiantgames.com/games/hades"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hades_(video_game)"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1145360"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/product/hades/home"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/SupergiantGames"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/HadesTheGame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/supergiantgames"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/SupergiantGames"
+    },
+    {
+      "label": "iPad",
+      "url": "https://apps.apple.com/app/hades-netflix/id6450063142"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/app/hades-netflix/id6450063142"
+    },
+    {
+      "label": "Facebook",
+      "url": "http://www.facebook.com/SupergiantGames"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://hades.fandom.com/wiki/Hades_Wiki"
+    },
+    {
+      "label": "Discord",
+      "url": "http://www.discord.gg/Supergiant"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 17, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-09-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 13, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-08-13"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 13, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-08-13"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 13, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-08-13"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Mar 19, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-19"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Sep 17, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-09-17"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 24, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-06-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 13, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-08-13"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Dec 10, 2019",
+      "status": "Beta",
+      "date_iso": "2019-12-10"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 17, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-09-17"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 18, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-03-18"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 17, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-09-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 07, 2018",
+      "status": "Beta",
+      "date_iso": "2018-12-07"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar17ut.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar17uq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar17uu.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar17ur.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar17uv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar17uw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar17ux.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m4o.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6685.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar57k.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar10j1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar17uy.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar17us.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m4s.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m4q.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m4r.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m4p.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "YZZFlcE0fWE",
+      "url": "https://www.youtube.com/watch?v=YZZFlcE0fWE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "sr__hTXlDZk",
+      "url": "https://www.youtube.com/watch?v=sr__hTXlDZk"
+    },
+    {
+      "title": "Early Access Trailer",
+      "youtube_id": "593xCDfumN0",
+      "url": "https://www.youtube.com/watch?v=593xCDfumN0"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "Bz8l935Bv0Y",
+      "url": "https://www.youtube.com/watch?v=Bz8l935Bv0Y"
+    }
+  ]
+}

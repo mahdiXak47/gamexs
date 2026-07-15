@@ -1,0 +1,196 @@
+{
+  "slug": "unbound-worlds-apart",
+  "igdb_id": 89597,
+  "name": "Unbound: Worlds Apart",
+  "summary": "Unbound is an atmospheric 2D Puzzle-Platformer where the main character, Soli, can conjure magic portals to travel between different realities in order to learn more about the catastrophe that ravaged his world. Inside certain portals, the physical properties of the character or world elements can change, offering new gameplay possibilities.\n\nUnbound’s artistic approach can be summarized as a dark fairy tale presented in a cartoonish style, with the purpose to give the game experience a fresh look and feel. Curiosity and exploration will have an impact on the overall atmosphere and will immerse the player even more.",
+  "first_release_year": 2021,
+  "developers": [
+    "Alien Pixel Studios"
+  ],
+  "publishers": [
+    "Alien Pixel Studios"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "crowdfunding - kickstarter"
+  ],
+  "alternative_names": [
+    {
+      "name": "Unbound.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/unbound-worlds-apart"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/unbound-worlds-apart-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002464"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://unboundthegame.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/814680"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/UnboundTheGame"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/UnboundGame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/alienpixel/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/unbound_worlds_apart"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/unbound"
+    },
+    {
+      "label": "Itch",
+      "url": "https://alienpixelstudios.itch.io/unbound"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Unbound%3A%20Worlds%20Apart"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-28"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jul 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-28"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Jul 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-28"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-28"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jul 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-28"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Jul 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-28"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 11, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-11"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 11, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-11"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 09, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-09"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5o2.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5o3.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5bf.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5bv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5bt.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5o1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5o0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5nz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5bu.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5ny.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "trna9Fhc6wU",
+      "url": "https://www.youtube.com/watch?v=trna9Fhc6wU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "GA8yiUq8NI4",
+      "url": "https://www.youtube.com/watch?v=GA8yiUq8NI4"
+    }
+  ]
+}

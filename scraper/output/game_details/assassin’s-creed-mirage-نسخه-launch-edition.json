@@ -1,0 +1,117 @@
+{
+  "slug": "assassin’s-creed-mirage-نسخه-launch-edition",
+  "igdb_id": 276451,
+  "name": "Assassin’s Creed Mirage: Master Assassin Edition",
+  "summary": "Assassin’s Creed Mirage is a stealth-focused action-adventure game set in ninth-century Baghdad. It emphasizes parkour, infiltration, and targeted assassinations. The game follows a more compact structure than recent entries in the series. Players control Basim, a young thief drawn into a secretive order. The title blends historical settings with narrative elements tied to the franchise’s established lore.\n\nThe Master Assassin Edition includes the base game and six additional packs: the Deluxe Pack, the Lightning Pack, the Jinn Pack, the Fire Demon Pack, the Master Assassin Pack, and the Guardian Pack.",
+  "first_release_year": 2023,
+  "developers": [
+    "Ubisoft Bordeaux"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Stealth",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Assassin's Creed"
+  ],
+  "game_engines": [
+    "Ubisoft Anvil"
+  ],
+  "keywords": [
+    "assassin",
+    "parkour",
+    "climbing",
+    "islam",
+    "collectibles"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3230590"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/assassins-creed-mirage--master-assassin-edition"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/assassin's-creed-mirage-master-assassin-edition/9N1VXP11C7ND"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/assassinscreed"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP0001-PPSA07230_00-EDITIONMENTOR000"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/assassinscreed"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_Mirage"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-14"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-14"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-14"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2ms1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5pyj.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5pyk.jpg"
+  ],
+  "videos": []
+}

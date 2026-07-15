@@ -1,0 +1,219 @@
+{
+  "slug": "hunt-showdown-1896",
+  "igdb_id": 7291,
+  "name": "Hunt: Showdown 1896",
+  "summary": "Hunt the corrupted in backwaters lost to history. Fight back against a timeless evil that pits you against twisted monsters and other desperate Hunters – solo or in a group – in a high-stakes, tactical, PvPvE, first person shooter. There are no heroes here. Risk everything as Hunt consumes you.",
+  "first_release_year": 2019,
+  "developers": [
+    "Crytek Frankfurt"
+  ],
+  "publishers": [
+    "Crytek"
+  ],
+  "genres": [
+    "Shooter",
+    "Simulator"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "CryEngine"
+  ],
+  "keywords": [
+    "atmospheric",
+    "4 player co-op",
+    "immersive",
+    "pvpve",
+    "extraction shooter"
+  ],
+  "alternative_names": [
+    {
+      "name": "Hunt: Horrors of the Gilded Age",
+      "comment": "Working title"
+    },
+    {
+      "name": "Hunt: Showdown",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "hunt.exe",
+      "comment": "windows executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/hunt-showdown-1896/9NPRV0R4CS1Z"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/HuntShowdown"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/CrytekHunt/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/huntshowdown/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/234014"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/594650"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.huntshowdown.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hunt:_Showdown"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/HuntShowdown"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/huntthegame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Hunt:%20Showdown"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/huntshowdown"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 27, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-08-27"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 18, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-02-18"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 19, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-09-19"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 15, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 13, 2024",
+      "status": "Early Access",
+      "date_iso": "2024-08-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 15, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-15"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 13, 2024",
+      "status": "Early Access",
+      "date_iso": "2024-08-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar74c.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ndp7o0bpu2dx7xxrmkxi.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "XG-OKxLfOSs",
+      "url": "https://www.youtube.com/watch?v=XG-OKxLfOSs"
+    },
+    {
+      "title": "Steam Trailer",
+      "youtube_id": "dOWkNr3KP2g",
+      "url": "https://www.youtube.com/watch?v=dOWkNr3KP2g"
+    },
+    {
+      "title": "Early Access Launch Trailer",
+      "youtube_id": "hdUWOetEpw8",
+      "url": "https://www.youtube.com/watch?v=hdUWOetEpw8"
+    },
+    {
+      "title": "E3 2017 Gameplay Trailer",
+      "youtube_id": "7xwM55lX3Ac",
+      "url": "https://www.youtube.com/watch?v=7xwM55lX3Ac"
+    },
+    {
+      "title": "E3 2018 New Content Teaser",
+      "youtube_id": "EqEXMMFUS-s",
+      "url": "https://www.youtube.com/watch?v=EqEXMMFUS-s"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "3Nrpz5OFPNg",
+      "url": "https://www.youtube.com/watch?v=3Nrpz5OFPNg"
+    },
+    {
+      "title": "Hellborn Announcement Trailer",
+      "youtube_id": "jRVtl7eiqs4",
+      "url": "https://www.youtube.com/watch?v=jRVtl7eiqs4"
+    },
+    {
+      "title": "Scorched Earth Announcement Trailer",
+      "youtube_id": "UiO-DVP8AGg",
+      "url": "https://www.youtube.com/watch?v=UiO-DVP8AGg"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "16vBsmpcxh4",
+      "url": "https://www.youtube.com/watch?v=16vBsmpcxh4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ab4ckVFqBTs",
+      "url": "https://www.youtube.com/watch?v=ab4ckVFqBTs"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "zXGH7maO41k",
+      "url": "https://www.youtube.com/watch?v=zXGH7maO41k"
+    }
+  ]
+}

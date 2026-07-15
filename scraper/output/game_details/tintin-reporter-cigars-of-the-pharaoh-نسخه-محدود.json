@@ -1,0 +1,164 @@
+{
+  "slug": "tintin-reporter-cigars-of-the-pharaoh-نسخه-محدود",
+  "igdb_id": 223863,
+  "name": "Tintin Reporter: Cigars of the Pharaoh",
+  "summary": "Tintin and his faithful companion Snowy are going to experience some extraordinary adventures…After meeting Professor Sarcophagus whilst cruising the Mediterranean Sea, the famous reporter sets out in search of the tomb of the Pharaoh Kih-Oskh.",
+  "first_release_year": 2023,
+  "developers": [
+    "Pendulo Studios"
+  ],
+  "publishers": [
+    "Microids"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Adventures of Tintin"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Tintin Reporter: Les Cigares du Pharaon",
+      "comment": "French title"
+    },
+    {
+      "name": "Tintin reporter: Cygara Faraona",
+      "comment": "Polish title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.microids.com/game-tintin-reporter-cigars-of-the-pharaoh"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Tintin%20Reporter:%20Cigars%20of%20the%20Pharaoh"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/microids/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/microids_official"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/tintin_reporter_cigars_of_the_pharaoh"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC9-1o8dj5vp5T1d1aVuHEWQ"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/tintin-reporter-cigars-of-the-pharaoh-8b32ea"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2125090"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Microids_off"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007416"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/tintin-reporter-cigars-of-the-pharaoh-switch/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/microids"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-07"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-07"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-07"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-07"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-07"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-07"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 17, 2024",
+      "status": "Released",
+      "date_iso": "2024-10-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar280w.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "JkFgD8jgnjk",
+      "url": "https://www.youtube.com/watch?v=JkFgD8jgnjk"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Me2nhs1ufGM",
+      "url": "https://www.youtube.com/watch?v=Me2nhs1ufGM"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "xlWZAwK_cNc",
+      "url": "https://www.youtube.com/watch?v=xlWZAwK_cNc"
+    }
+  ]
+}

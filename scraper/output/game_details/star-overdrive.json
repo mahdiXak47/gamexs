@@ -1,0 +1,151 @@
+{
+  "slug": "star-overdrive",
+  "igdb_id": 314935,
+  "name": "Star Overdrive",
+  "summary": "Use your powers to explore a massive world on your Hoverboard at lightning speed, face multitudes of enemies and epic bosses. Journey through four uniquely distinct biomes, each brimming with challenges and secrets to uncover.",
+  "first_release_year": 2025,
+  "developers": [
+    "Caracal Games"
+  ],
+  "publishers": [
+    "Dear Villagers"
+  ],
+  "genres": [
+    "Racing",
+    "Adventure",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "hoverboard",
+    "steam families",
+    "nextfest june 2025"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/star_overdrive/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/star-overdrive-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010609"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/dearvillagers"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/star-overdrive-384f54"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/star-overdrive/9nfc60k6v0bh"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/star-overdrive"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/staroverdrive.com"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://staroverdrive.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=61560770525416"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/star_overdrive"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@star_overdrive"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2055590"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 19, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 19, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-19"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 10, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-10"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 19, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3at1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3f6b.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ral.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "MWCDAcmpPkc",
+      "url": "https://www.youtube.com/watch?v=MWCDAcmpPkc"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "X4Rh3wsWHbU",
+      "url": "https://www.youtube.com/watch?v=X4Rh3wsWHbU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "YyhQg52FtFw",
+      "url": "https://www.youtube.com/watch?v=YyhQg52FtFw"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "BYt4ntdmLQg",
+      "url": "https://www.youtube.com/watch?v=BYt4ntdmLQg"
+    }
+  ]
+}

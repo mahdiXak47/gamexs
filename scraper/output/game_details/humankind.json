@@ -1,0 +1,198 @@
+{
+  "slug": "humankind",
+  "igdb_id": 121731,
+  "name": "Humankind",
+  "summary": "Humankind is a historical strategy game where you will re-write the entire narrative of humankind, a convergence of culture, history, and values that allows you to create a civilization that is as unique as you are. How far will you push humankind?",
+  "first_release_year": 2021,
+  "developers": [
+    "Amplitude Studios"
+  ],
+  "publishers": [
+    "Sega"
+  ],
+  "genres": [
+    "Simulator",
+    "Strategy",
+    "Turn-based strategy (TBS)"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "4X (explore, expand, exploit, and exterminate)"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "construction",
+    "turn-based",
+    "military",
+    "alternate history",
+    "diplomacy",
+    "economy",
+    "city builder",
+    "world map",
+    "resource gathering"
+  ],
+  "alternative_names": [
+    {
+      "name": "HMKD",
+      "comment": "Teaser title"
+    },
+    {
+      "name": "HUMANKIND",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Humankind.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004309"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCzjhH77txF23poNjbn6fJGA"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/HumankindTheGame/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Humankind_(video_game)"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/amplitude"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1124300"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/humankindgame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://humankind.game/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/humankindgame"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/product/humankind"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Humankind"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/humankindgame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 17, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-17"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Aug 17, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 22, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 22, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 22, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 22, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-22"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Aug 17, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar91g.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar115t.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "srecHtpe-j0",
+      "url": "https://www.youtube.com/watch?v=srecHtpe-j0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "-QlxCQThAI8",
+      "url": "https://www.youtube.com/watch?v=-QlxCQThAI8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "bhvonlftkNs",
+      "url": "https://www.youtube.com/watch?v=bhvonlftkNs"
+    },
+    {
+      "title": "Developer Diary",
+      "youtube_id": "tBYzh3qDibY",
+      "url": "https://www.youtube.com/watch?v=tBYzh3qDibY"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "SVNk9ispdcw",
+      "url": "https://www.youtube.com/watch?v=SVNk9ispdcw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "cfsBAPFpMU4",
+      "url": "https://www.youtube.com/watch?v=cfsBAPFpMU4"
+    }
+  ]
+}

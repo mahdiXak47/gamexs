@@ -1,0 +1,158 @@
+{
+  "slug": "amerzone-the-explorer's-legacy",
+  "igdb_id": 289353,
+  "name": "Amerzone: The Explorer's Legacy",
+  "summary": "A full remake of a 2001 point-and-click adventure game Amerzone which served as the first game in the later-created Syberia series.\n\nThe remake is more like a reimagining of an old classic adventure with new tough puzzles and new challenges.",
+  "first_release_year": 2025,
+  "developers": [
+    "Microids Studio Paris"
+  ],
+  "publishers": [
+    "Microids",
+    "Microids"
+  ],
+  "genres": [
+    "Point-and-click",
+    "Puzzle",
+    "Simulator",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Syberia"
+  ],
+  "spin_off_of": "Amerzone: The Explorer's Legacy",
+  "franchises": [
+    "syberia"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "bird",
+    "jungle",
+    "latin america"
+  ],
+  "alternative_names": [
+    {
+      "name": "L'Amerzone - Le Testament de l'Explorateur",
+      "comment": "French title"
+    },
+    {
+      "name": "Amerzone - 探險家的記憶傳承",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Amerzone - 探險家的記憶傳承",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "Amerzone: Das Testament des Forschungsreisenden",
+      "comment": "German title"
+    },
+    {
+      "name": "Amerzone.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2429190/Amerzone__The_Explorers_Legacy/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/amerzone-the-explorers-legacy-remake-88464f"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/amerzone---the-explorer's-legacy/9MXTN71QMQWK"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008226"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/amerzone-the-explorers-legacy-1"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.microids.com/amerzone-the-explorers-legacy/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/microids"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC9-1o8dj5vp5T1d1aVuHEWQ"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/microids/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Microids_off"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/amerzone_remake_the_explorers_legacy"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-24"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2sqy.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2sqz.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "lQf1kBoskWw",
+      "url": "https://www.youtube.com/watch?v=lQf1kBoskWw"
+    },
+    {
+      "title": "Story Trailer",
+      "youtube_id": "q62WD2p-uaA",
+      "url": "https://www.youtube.com/watch?v=q62WD2p-uaA"
+    }
+  ]
+}

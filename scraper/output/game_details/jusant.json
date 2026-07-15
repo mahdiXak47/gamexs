@@ -1,0 +1,134 @@
+{
+  "slug": "jusant",
+  "igdb_id": 252836,
+  "name": "Jusant",
+  "summary": "Enjoy meditative vibes in Jusant, an action-puzzle climbing game. Scale an immeasurably tall tower and ascend to new heights alongside your watery companion. Master your climbing tools, find your way up through diverse biomes, and piece together the tower's past.",
+  "first_release_year": 2023,
+  "developers": [
+    "DON'T NOD"
+  ],
+  "publishers": [
+    "DON'T NOD"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "rock climbing"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006168"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/dontnod_ent/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@DONTNOD"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/jusant/9PJB1ZRJDCBQ"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/DONTNOD.Entertainment/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/DONTNOD_Ent"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jusant"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1977170"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://dont-nod.com/en/games/jusant/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/jusant"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://jusant.fandom.com/wiki/Jusant"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/jusant"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/JusantGame/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/jusant"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-31"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-31"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2cju.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "tfsNMOMLZoI",
+      "url": "https://www.youtube.com/watch?v=tfsNMOMLZoI"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ME27Pxsy8RU",
+      "url": "https://www.youtube.com/watch?v=ME27Pxsy8RU"
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "slug": "battlefield-hardline-ultimate-edition",
+  "igdb_id": 7081,
+  "name": "Battlefield Hardline",
+  "summary": "Battlefield: Hardline features a whole new variety of gameplay that breaks away from the traditional Battlefield game modes. The new game modes are Heist Mode, Rescue Mode, Hotwire Mode and Bloodmoney Mode. The focus of the game has been shifted to police rather than the millitary background that has spanned the whole series up to now. Players will have access to various millitary grade weapons and vehicles as well as having police equipment such as tasers and handcuffs.",
+  "first_release_year": 2015,
+  "developers": [
+    "Visceral Games",
+    "EA Digital Illusions CE"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Stealth",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Battlefield"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Frostbite"
+  ],
+  "keywords": [
+    "helicopter",
+    "detective",
+    "murder",
+    "drugs",
+    "organized crime",
+    "police",
+    "swat",
+    "battlefield",
+    "death",
+    "soldier",
+    "military",
+    "counter-terrorists",
+    "gangs",
+    "steam",
+    "bird",
+    "achievements",
+    "online",
+    "crime",
+    "racism",
+    "capitalism",
+    "playstation network",
+    "playstation trophies",
+    "pre-release public testing",
+    "60 fps on consoles",
+    "voice acting",
+    "loot boxes",
+    "licensed soundtrack",
+    "ea app",
+    "color separation",
+    "profanity",
+    "corpse",
+    "alligator",
+    "xbox live",
+    "kill feed",
+    "grapple",
+    "real-time combat",
+    "adultery",
+    "betrayal",
+    "vending machine interaction",
+    "gamescom 2014",
+    "mercenary",
+    "robbery",
+    "destructible environment",
+    "law",
+    "surveillance camera",
+    "quick time event",
+    "color blind assist",
+    "linear gameplay",
+    "agents",
+    "tokyo game show 2014",
+    "enemy tagging",
+    "kidnapping",
+    "companion app",
+    "crime fighting",
+    "journalist",
+    "anarchism",
+    "vigilante",
+    "story recap",
+    "sex work",
+    "police chase",
+    "enforced speeding laws",
+    "objective-based team gameplay",
+    "colt detective special",
+    "online multiplayer achievements",
+    "lgbtq+",
+    "political"
+  ],
+  "alternative_names": [
+    {
+      "name": "BFH",
+      "comment": "Acronym"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/200450"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/battlefield-hardline-standard-edition/C2WJ0ZTTWVQS"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.battlefield.com/hardline"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/BattlefieldHardline/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Battlefield%20Hardline"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Battlefield_Hardline"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 19, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-03-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 17, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-03-17"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Mar 20, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-03-20"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Mar 17, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-03-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 20, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-03-20"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 17, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-03-17"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Mar 17, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-03-17"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Mar 19, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-03-19"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 19, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-03-19"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 19, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-03-19"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 17, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-03-17"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Jun 22, 2026",
+      "status": "Early Access",
+      "date_iso": "2026-06-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 22, 2026",
+      "status": "Early Access",
+      "date_iso": "2026-06-22"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Jun 22, 2026",
+      "status": "Early Access",
+      "date_iso": "2026-06-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 22, 2026",
+      "status": "Early Access",
+      "date_iso": "2026-06-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7ui.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4ge.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay video",
+      "youtube_id": "_XA7A5yyj_U",
+      "url": "https://www.youtube.com/watch?v=_XA7A5yyj_U"
+    },
+    {
+      "title": "E3 Multiplayer Trailer",
+      "youtube_id": "gciurrO3eI0",
+      "url": "https://www.youtube.com/watch?v=gciurrO3eI0"
+    },
+    {
+      "title": "Rescue Trailer",
+      "youtube_id": "UeWlFhIhe7Y",
+      "url": "https://www.youtube.com/watch?v=UeWlFhIhe7Y"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "dIfeh6EGZo8",
+      "url": "https://www.youtube.com/watch?v=dIfeh6EGZo8"
+    },
+    {
+      "title": "TGA 2014 Trailer",
+      "youtube_id": "1VCA17t0rts",
+      "url": "https://www.youtube.com/watch?v=1VCA17t0rts"
+    }
+  ]
+}

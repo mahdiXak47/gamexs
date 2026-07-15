@@ -1,0 +1,176 @@
+{
+  "slug": "the-invincible",
+  "igdb_id": 138906,
+  "name": "The Invincible",
+  "summary": "Rethink human’s dominion in The Invincible: a story-driven adventure set in a hard sci-fi world by Stanisław Lem. Discover planet Regis III as scientist Yasna, use atompunk tools looking for a missing crew and face unforeseen threats. Make choices in a philosophical story that’s driven by science.",
+  "first_release_year": 2023,
+  "developers": [
+    "Starward Industries"
+  ],
+  "publishers": [
+    "11 bit studios"
+  ],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Thriller",
+    "Survival",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "exploration",
+    "interactive fiction",
+    "3d",
+    "multiple endings",
+    "retro future",
+    "dynamic narrative"
+  ],
+  "alternative_names": [
+    {
+      "name": "Niezwyciężony",
+      "comment": "Polish title"
+    },
+    {
+      "name": "TheInvincible.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/starwardindustries.bsky.social"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002666"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/731040/The_Invincible"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/StarwardInd"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/the_invincible"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/the-invincible"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/7CMcj3ZEp6"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://invinciblethegame.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20Invincible"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/TheInvincible"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Invincible_(video_game)"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/StarwardIndustries"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UChzBVVehIGcosN6pxsKbXqA"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/starwardindustries/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-06"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-06"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/armny.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2cn3.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Xmx0w-eAoTk",
+      "url": "https://www.youtube.com/watch?v=Xmx0w-eAoTk"
+    },
+    {
+      "title": "Chronicles Vol.1",
+      "youtube_id": "rCwqtPrRTH0",
+      "url": "https://www.youtube.com/watch?v=rCwqtPrRTH0"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "BIQECCQlerk",
+      "url": "https://www.youtube.com/watch?v=BIQECCQlerk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "yo7Ca6kXz08",
+      "url": "https://www.youtube.com/watch?v=yo7Ca6kXz08"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ESEJwKMOmuk",
+      "url": "https://www.youtube.com/watch?v=ESEJwKMOmuk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "sdyJr4iGJWs",
+      "url": "https://www.youtube.com/watch?v=sdyJr4iGJWs"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "IhOhWDJcSvg",
+      "url": "https://www.youtube.com/watch?v=IhOhWDJcSvg"
+    }
+  ]
+}

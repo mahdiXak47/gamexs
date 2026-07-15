@@ -1,0 +1,168 @@
+{
+  "slug": "call-of-duty-vanguard-–-cross-gen-bundle",
+  "igdb_id": 165067,
+  "name": "Call of Duty: Vanguard",
+  "summary": "This is WWII combat like never before. Witness the origins of Special Forces as you play a pivotal role and change the face of history, forming Task Force One in a gripping Campaign across four major theaters of war. Become an original Special Forces Operator in an online Multiplayer rich in innovation with 20 maps available at launch. Prepare for a franchise-first, universe-expanding Zombies crossover. Immerse yourself in a fully integrated Call of Duty: Warzone experience featuring a new and massive map. This is the most connected Call of Duty ever, all powered by the next generation Call of Duty engine introduced in Modern Warfare.\n\nThis is Call of Duty: Vanguard.",
+  "first_release_year": 2021,
+  "developers": [
+    "Sledgehammer Games"
+  ],
+  "publishers": [
+    "Activision"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Call of Duty"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Call of Duty"
+  ],
+  "game_engines": [
+    "IW Engine"
+  ],
+  "keywords": [
+    "world war ii - ww2"
+  ],
+  "alternative_names": [
+    {
+      "name": "COD: Vanguard",
+      "comment": "Acronym"
+    },
+    {
+      "name": "bootstrapper.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/call-of-duty-vanguard---standard-edition/9NQQ8B4PJR25"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001234"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.callofduty.com/vanguard"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/callofduty"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1985820"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/CallofDuty"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/callofduty"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/callofduty"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://callofduty.fandom.com/wiki/Call_of_Duty:_Vanguard"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/callofduty"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/CallofDuty"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/callofduty"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Vanguard"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/callofduty.com"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 05, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-05"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 05, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-05"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 05, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-05"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 05, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 05, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar115s.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar115r.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "OQ1CwPhE8KQ",
+      "url": "https://www.youtube.com/watch?v=OQ1CwPhE8KQ"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "rRMSlBKYc6A",
+      "url": "https://www.youtube.com/watch?v=rRMSlBKYc6A"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "GYeaKjAahjA",
+      "url": "https://www.youtube.com/watch?v=GYeaKjAahjA"
+    }
+  ]
+}

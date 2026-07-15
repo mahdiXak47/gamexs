@@ -1,0 +1,127 @@
+{
+  "slug": "final-fantasy-resonance",
+  "igdb_id": 405454,
+  "name": "Final Fantasy Resonance",
+  "summary": "Return to the pixelart world of FINAL FANTASY, evolved from its classic roots. Travel with companions bound by fate and call on Visions to aid you in battle to uncover the truth behind a force that threatens to bring everything to ruin.",
+  "first_release_year": 2026,
+  "developers": [
+    "Lancarse",
+    "Square Enix Creative Studio 5"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": "Final Fantasy: Brave Exvius",
+  "franchises": [
+    "Final Fantasy"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "steam achievements",
+    "adjustable difficulty",
+    "accessibility options",
+    "playable without timed input",
+    "custom volume controls",
+    "keyboard only option"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3259780"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/final-fantasy-resonance"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/FinalFantasy"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SquareEnix"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/SquareEnixNA"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.square-enix.com/finalfantasyresonance"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/final-fantasy-resonance/9nncprh9vwg4"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/JP0082-PPSA31544_00-FFRSSTDWW0000000"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 22, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-10-22"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Oct 22, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-10-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 22, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-10-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 22, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-10-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 22, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-10-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar61bc.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar61c1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar61c2.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar61g5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar61g6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar61ws.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar61wt.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "C3OtFE5mZe4",
+      "url": "https://www.youtube.com/watch?v=C3OtFE5mZe4"
+    }
+  ]
+}

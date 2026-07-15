@@ -1,0 +1,167 @@
+{
+  "slug": "asterix-obelix-xxl3-the-crystal-menhir-نسخه-استاندارد",
+  "igdb_id": 105002,
+  "name": "Asterix & Obelix XXL 3: The Crystal Menhir",
+  "summary": "Asterix & Obelix XXL 3: The Crystal Menhir is an action platformer and the only game in the XXL series which offers cooperative gameplay. Platforming is very different to the previous games in the series: the player can no longer jump vertically and should be more careful when moving around. The Crystal Menhir is used to clear obstacles from paths and interact with mechanisms.",
+  "first_release_year": 2019,
+  "developers": [
+    "OSome Studio"
+  ],
+  "publishers": [
+    "Microids"
+  ],
+  "genres": [
+    "Fighting",
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Asterix & Obelix XXL"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Asterix"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "available on - blacknut"
+  ],
+  "alternative_names": [
+    {
+      "name": "Asterix and Obelix XXL3",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Astérix & Obélix XXL3 : Le Menhir de Cristal",
+      "comment": "French title"
+    },
+    {
+      "name": "Asterix & Obelix XXL3: Der Kristall-Hinkelstein",
+      "comment": "German title"
+    },
+    {
+      "name": "Astérix & Obélix XXL 3 : Le Menhir de Cristal",
+      "comment": "French title"
+    },
+    {
+      "name": "Asterix & Obelix XXL 3: Der Kristall-Hinkelstein",
+      "comment": "German title"
+    },
+    {
+      "name": "oXXL3Game.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/asterix-and-obelix-xxl-3-the-crystal-menhir-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/234766"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.microids.com/game-asterix-obelix-xxl-3/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1109690"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/asterix_obelix_xxl_3_the_crystal_menhir"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Asterix%20&%20Obelix%20XXL%203"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Feb 04, 2021",
+      "status": "Released",
+      "date_iso": "2021-02-04"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 21, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-21"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Nov 21, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 05, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-05"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 21, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-21"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 21, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-21"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 21, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-21"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 21, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arcrj.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "SYefJ-iV2lI",
+      "url": "https://www.youtube.com/watch?v=SYefJ-iV2lI"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "oOS3F29rIm8",
+      "url": "https://www.youtube.com/watch?v=oOS3F29rIm8"
+    }
+  ]
+}

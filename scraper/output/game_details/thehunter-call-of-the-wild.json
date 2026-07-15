@@ -1,0 +1,185 @@
+{
+  "slug": "thehunter-call-of-the-wild",
+  "igdb_id": 26381,
+  "name": "TheHunter: Call of the Wild",
+  "summary": "Never before have you experienced a hunting game like theHunter: Call of the Wild. Plunge into an atmospheric open world, teeming with life: from the majestic true-to-life animals to the rustling of leaves above you as you stalk your prey. You can decide to hunt on your own or join up and hunt together with friends. Just remember, you are not just a visitor in this world, you are a living and breathing part of it. As you finally spot the majestic crown of your first red deer through the brush, the feeling is indescribable.",
+  "first_release_year": 2017,
+  "developers": [
+    "Expansive Worlds"
+  ],
+  "publishers": [
+    "Avalanche Studios"
+  ],
+  "genres": [
+    "Shooter",
+    "Simulator",
+    "Sport",
+    "Strategy",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "theHunter"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Apex"
+  ],
+  "keywords": [
+    "hunting",
+    "steam",
+    "achievements",
+    "sequel",
+    "hunter",
+    "steam achievements",
+    "digital distribution",
+    "steam cloud",
+    "playstation trophies",
+    "xbox one x enhanced",
+    "xbox live"
+  ],
+  "alternative_names": [
+    {
+      "name": "The Hunter: Call of the Wild",
+      "comment": "Other Alias"
+    },
+    {
+      "name": "theHunter: Call of the Wild",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "theHunterCotW_F.exe",
+      "comment": "windows executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://thehuntercotw.fandom.com/wiki/TheHunter:_Call_of_the_Wild_Wiki"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/228868"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/thehunter-call-of-the-wild/BXBJQ1932138"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/thehuntercotw"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/theHunterCOTW"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/TheHunter"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/theHunter/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/thehunter-call-of-the-wild"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/ExpansiveWorlds"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://callofthewild.thehunter.com/en/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/518790"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/thehunter-call-of-the-wild"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/thehunter_cotw/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/thehunterofficial"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 16, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-02-16"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 02, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-10-02"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 02, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-10-02"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 06, 2022",
+      "status": "status_36",
+      "date_iso": "2022-12-06"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 06, 2022",
+      "status": "status_36",
+      "date_iso": "2022-12-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/epzxpquobt16ix0ibsi3.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/mt0ho0lqt4qt2moizyds.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/udfncdif7dcfiypst3j9.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar8hn.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "VGOTYfGMyoE",
+      "url": "https://www.youtube.com/watch?v=VGOTYfGMyoE"
+    },
+    {
+      "title": "Walktrough Trailer",
+      "youtube_id": "-5vGmuY8g4o",
+      "url": "https://www.youtube.com/watch?v=-5vGmuY8g4o"
+    },
+    {
+      "title": "Layton Lake Trailer",
+      "youtube_id": "RpwgV8D4GiU",
+      "url": "https://www.youtube.com/watch?v=RpwgV8D4GiU"
+    }
+  ]
+}

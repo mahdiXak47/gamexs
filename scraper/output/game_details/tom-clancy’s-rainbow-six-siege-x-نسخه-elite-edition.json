@@ -1,0 +1,68 @@
+{
+  "slug": "tom-clancy’s-rainbow-six-siege-x-نسخه-elite-edition",
+  "igdb_id": 349562,
+  "name": "Tom Clancy's Rainbow Six Siege X: Elite Edition",
+  "summary": "Tom Clancy's Rainbow Six Siege X is the undisputed reference in tactical team shooters, where elite strategy and execution triumph.\n\nSiege X marks the biggest evolution in its history and deepens the game’s tactical core.\n\nThe Elite Edition grants access to all game modes including Ranked playlists and the Siege Cup, and 16 additional operators.",
+  "first_release_year": 2025,
+  "developers": [
+    "Ubisoft Montreal"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Tactical"
+  ],
+  "themes": [
+    "Action",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/rainbow-six-siege-x"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 10, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 10, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-10"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 10, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4582.jpg"
+  ],
+  "videos": []
+}

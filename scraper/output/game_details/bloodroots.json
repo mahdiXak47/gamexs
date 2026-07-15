@@ -1,0 +1,161 @@
+{
+  "slug": "bloodroots",
+  "igdb_id": 106822,
+  "name": "Bloodroots",
+  "summary": "Betrayed by his partners and left for dead, Mr. Wolf is hell-bent on enacting his revenge - alone, and vastly outnumbered. Thankfully for Mr. Wolf, in Bloodroots the world is your weapon. In this relentless action game, you'll choreograph spectacular, ultra-violent combos by making use of everything around you, from hatchets, to ladders, to...carrots? It's improvise or die, as Mr. Wolf fights his way to the center of the mystery: why was he betrayed?",
+  "first_release_year": 2020,
+  "developers": [
+    "Paper Cult"
+  ],
+  "publishers": [
+    "Paper Cult"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "western",
+    "violent"
+  ],
+  "alternative_names": [
+    {
+      "name": "블러드루츠",
+      "comment": "Korean title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/paper.cult.games"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/papercultgames"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/bloodroots-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/234402"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.bloodrootsgame.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/PaperCultGames"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCYaLjiGdDIaCfOsE1pmWeKw"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/product/bloodroots"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/bloodroots"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Bloodroots"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/820540/Bloodroots"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Feb 28, 2020",
+      "status": "Released",
+      "date_iso": "2020-02-28"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Feb 27, 2020",
+      "status": "Released",
+      "date_iso": "2020-02-27"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 12, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-12"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 15, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 15, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 03, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-03"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 28, 2020",
+      "status": "Released",
+      "date_iso": "2020-02-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4n4.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "p_BWA69Gux4",
+      "url": "https://www.youtube.com/watch?v=p_BWA69Gux4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Z1bCllYcY3I",
+      "url": "https://www.youtube.com/watch?v=Z1bCllYcY3I"
+    },
+    {
+      "title": "Demo Release Teaser",
+      "youtube_id": "xUTNlGcFzHA",
+      "url": "https://www.youtube.com/watch?v=xUTNlGcFzHA"
+    }
+  ]
+}

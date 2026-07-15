@@ -1,0 +1,188 @@
+{
+  "slug": "marvel’s-spider-man-2-digital-deluxe-edition",
+  "igdb_id": 127044,
+  "name": "Marvel's Spider-Man 2",
+  "summary": "Marvel's Spider-Man 2 is an action-adventure game developed by Insomniac Games and published by Sony Interactive Entertainment. Released in October 2023 exclusively for the PlayStation 5, it is a direct sequel to Marvel's Spider-Man (2018) and Marvel's Spider-Man: Miles Morales (2020). The game continues the story of Peter Parker and Miles Morales as they face new challenges and threats in New York City.\n\nIn Marvel's Spider-Man 2, players can switch between Peter and Miles, each with unique abilities and combat styles. The game introduces new villains, including Kraven the Hunter and Venom, while expanding the open-world environment with more detailed and interactive elements.",
+  "first_release_year": 2023,
+  "developers": [
+    "Insomniac Games"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment",
+    "PlayStation Studios"
+  ],
+  "genres": [
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Stealth",
+    "Drama",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Marvel's Spider-Man",
+    "Spider-Man"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Marvel",
+    "Spider-Man",
+    "Venom"
+  ],
+  "game_engines": [
+    "Insomniac Engine v.4.0"
+  ],
+  "keywords": [
+    "exploration",
+    "collecting",
+    "story driven",
+    "parkour",
+    "fast paced",
+    "cinematic",
+    "hand-to-hand combat",
+    "multiple protagonists",
+    "stylized",
+    "new york",
+    "combat",
+    "over the shoulder",
+    "superhero",
+    "great soundtrack",
+    "alternate costumes",
+    "special attacks",
+    "skill tree",
+    "acrobatics",
+    "narrative",
+    "multiple playable characters",
+    "the game awards - best action-adventure game - nominee",
+    "the game awards - best audio design - nominee",
+    "the game awards - best game direction - nominee",
+    "the game awards - best narrative - nominee",
+    "the game awards - best performance - nominee",
+    "the game awards - game of the year - nominee",
+    "alien"
+  ],
+  "alternative_names": [
+    {
+      "name": "Spider-Man 2",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "Spider-Man2.exe",
+      "comment": "windows executable"
+    },
+    {
+      "name": "Marvel Человек-Паук 2",
+      "comment": "Russian title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2651280"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://marvels-spider-man.fandom.com/wiki/Marvel%27s_Spider-Man_2"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002456"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/insomniacgames?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Marvel's%20Spider-Man%202"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/spiderman2/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/marvels-spider-man-2"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Spider-Man_2_(2023_video_game)"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://insomniac.games/game/marvels-spider-man-2"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-01-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2d8r.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4uyy.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4uyx.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "yF60tx4GfN0",
+      "url": "https://www.youtube.com/watch?v=yF60tx4GfN0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "qIQ3xNqkVC4",
+      "url": "https://www.youtube.com/watch?v=qIQ3xNqkVC4"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "XrPZSq5YXqc",
+      "url": "https://www.youtube.com/watch?v=XrPZSq5YXqc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "eAIrrR_YMRc",
+      "url": "https://www.youtube.com/watch?v=eAIrrR_YMRc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "bgqGdIoa52s",
+      "url": "https://www.youtube.com/watch?v=bgqGdIoa52s"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "9fVYKsEmuRo",
+      "url": "https://www.youtube.com/watch?v=9fVYKsEmuRo"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "grZigSpVDno",
+      "url": "https://www.youtube.com/watch?v=grZigSpVDno"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "wOJaeD0Si04",
+      "url": "https://www.youtube.com/watch?v=wOJaeD0Si04"
+    }
+  ]
+}

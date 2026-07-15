@@ -1,0 +1,139 @@
+{
+  "slug": "crash-team-rumble-نسخه-دلوکس",
+  "igdb_id": 228540,
+  "name": "Crash Team Rumble",
+  "summary": "In Crash Team Rumble, players can play as Crash, Dingodile, and a host of other friends and frenemies, each of which has their own distinct power, personality, and playstyle, as they compete across wild and varied arenas in four-versus-four team-based online multiplayer action. To lead their squad to victory, players will slide, smash, bump and bash as a team to be the “fur-st” to bank the most Wumpa fruit in their drop-off zone, while simultaneously defending the opponent team’s drop zone. Featuring cross-platform play, Crash Team Rumble will feature tons of strategic gameplay elements that will be sure to turn the tide of scoring in hilarious ways.",
+  "first_release_year": 2023,
+  "developers": [
+    "Toys for Bob"
+  ],
+  "publishers": [
+    "Activision"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Party"
+  ],
+  "game_modes": [
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Crash Bandicoot"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Crash Bandicoot"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003516"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/crash-team-rumble-standard-edition/9plqtd4lt2ks"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://crashbandicoot.fandom.com/wiki/Crash_Team_Rumble"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/CrashTeamRumble"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Crash_Team_Rumble"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/CrashBandicoot/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.crashbandicoot.com/crashteamrumble"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Crash%20Team%20Rumble"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC9ktd916KolmGkOhnbSGZjQ"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/crashbandicoot"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/crashbandicoot/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 20, 2023",
+      "status": "Released",
+      "date_iso": "2023-06-20"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 20, 2023",
+      "status": "Released",
+      "date_iso": "2023-06-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 20, 2023",
+      "status": "Released",
+      "date_iso": "2023-06-20"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 27, 2023",
+      "status": "Released",
+      "date_iso": "2023-06-27"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 27, 2023",
+      "status": "Released",
+      "date_iso": "2023-06-27"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 20, 2023",
+      "status": "Released",
+      "date_iso": "2023-06-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar28bh.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar28bg.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "becrLd9GOB4",
+      "url": "https://www.youtube.com/watch?v=becrLd9GOB4"
+    }
+  ]
+}

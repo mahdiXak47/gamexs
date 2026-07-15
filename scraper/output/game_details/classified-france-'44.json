@@ -1,0 +1,105 @@
+{
+  "slug": "classified-france-'44",
+  "igdb_id": 253409,
+  "name": "Classified: France '44",
+  "summary": "Command an elite team of allied special operators in Nazi-occupied France wreaking havoc in the run up to D-Day in this ambitious turn-based tactics game. Take on the might of Germany's war machine and launch daring raids in occupied territory. Can you do enough to ensure Allied victory?",
+  "first_release_year": 2024,
+  "developers": [
+    "Absolutely Games"
+  ],
+  "publishers": [
+    "Team17"
+  ],
+  "genres": [
+    "Strategy",
+    "Turn-based strategy (TBS)",
+    "Tactical"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "world war ii - ww2",
+    "france"
+  ],
+  "alternative_names": [
+    {
+      "name": "ClassifiedFrance44.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007316"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/classified-france-44-990537"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/classified-france-44"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2085370"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.classifiedfrance44.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-05"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2cum.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "paYCSI1lssI",
+      "url": "https://www.youtube.com/watch?v=paYCSI1lssI"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "dNjHOudC2P8",
+      "url": "https://www.youtube.com/watch?v=dNjHOudC2P8"
+    }
+  ]
+}

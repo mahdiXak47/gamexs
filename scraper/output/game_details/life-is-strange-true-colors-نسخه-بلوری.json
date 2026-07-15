@@ -1,0 +1,246 @@
+{
+  "slug": "life-is-strange-true-colors-نسخه-بلوری",
+  "igdb_id": 144765,
+  "name": "Life is Strange: True Colors",
+  "summary": "Life is Strange is a series of award-winning and critically-acclaimed narrative adventure games. Discover a universe where everyday heroes wield supernatural powers, while dealing with real challenges, real relationships, and real emotions. It's our world... with a twist of the strange. No matter your choices, the experience will stay with you forever. Deep in the mountains of Colorado, you'll find Haven Springs, a small mining town filled with beauty and mystery. As Alex, you'll discover the shocking secrets behind your brother’s death in an emotional roller-coaster of an adventure, using your psychic power of Empathy to change fate and change lives.",
+  "first_release_year": 2021,
+  "developers": [
+    "Deck Nine"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Thriller",
+    "Drama",
+    "Mystery",
+    "Romance"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Life is Strange"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Life is Strange"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "exploration",
+    "story driven",
+    "cinematic",
+    "supernatural",
+    "narrative-driven",
+    "dialogue trees",
+    "atmospheric",
+    "psychological",
+    "emotional",
+    "story rich",
+    "choices matter",
+    "teenager",
+    "superpowers",
+    "narrative",
+    "lgbtq+",
+    "meaningful choices",
+    "dramatic",
+    "the game awards - best narrative - nominee",
+    "the game awards - best performance - nominee",
+    "the game awards - games for impact - winner"
+  ],
+  "alternative_names": [
+    {
+      "name": "ライフ イズ ストレンジ トゥルー カラーズ",
+      "comment": "Japanese title - original"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/lifeisstrange"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Life_Is_Strange:_True_Colors"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://life-is-strange.fandom.com/wiki/Life_is_Strange:_True_Colors"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/235172"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/life-is-strange-true-colors-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/life-is-strange-true-colors/9NFWSNN4JWKB"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://lifeisstrange.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/lifeisstrange"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/lifeisstrange"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/lifeisstrangegame"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/lifeisstrange"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/squareenix"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/936790/Life_is_Strange_True_Colors"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/lifeisstrangegame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 10, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-10"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Sep 10, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-10"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 10, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-10"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-01"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-01"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-01"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-01"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 10, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-10"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-01"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 10, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-10"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 10, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-10"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-01"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 10, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arcol.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4p6t.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4p6s.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer - Japanese Voice Cast",
+      "youtube_id": "K65bPigfGGg",
+      "url": "https://www.youtube.com/watch?v=K65bPigfGGg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "SOeB_LXeV4c",
+      "url": "https://www.youtube.com/watch?v=SOeB_LXeV4c"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "VvJh17h8oD8",
+      "url": "https://www.youtube.com/watch?v=VvJh17h8oD8"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "b6CkzwVAr0M",
+      "url": "https://www.youtube.com/watch?v=b6CkzwVAr0M"
+    }
+  ]
+}

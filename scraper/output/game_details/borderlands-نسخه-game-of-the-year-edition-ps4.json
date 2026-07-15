@@ -1,0 +1,148 @@
+{
+  "slug": "borderlands-نسخه-game-of-the-year-edition-ps4",
+  "igdb_id": 21758,
+  "name": "Borderlands: Game of the Year Edition",
+  "summary": "Lock, Load, & Face the Madness! Get ready for the mind-blowing insanity, as one of four trigger-happy mercenaries, taking out everything that stands in your way. With its addictive action, frantic first person shooter combat, massive arsenal of weaponry, RPG elements and four-player co-op, Borderlands is the breakthrough experience that challenges all the conventions of modern shooters. Borderlands places you in the role of a mercenary on the lawless and desolate planet of Pandora, hell bent on finding a legendary stockpile of powerful alien technology known as The Vault.",
+  "first_release_year": 2010,
+  "developers": [
+    "Gearbox Software"
+  ],
+  "publishers": [
+    "2K Games",
+    "Take-Two Interactive"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)"
+  ],
+  "themes": [
+    "Action",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Borderlands"
+  ],
+  "game_engines": [
+    "Unreal Engine 3"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "ボーダーランズ ゲーム・オブ・ザ・イヤー エディション",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "보더랜드: 올해의 게임 에디션",
+      "comment": "Korean title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/231364"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/borderlands-game-of-the-year-edition/BVMMV3Q3ZB1F"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/borderlands-game-of-the-year-edition-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://borderlandsthegame.com/game/borderlands-game-of-the-year-edition"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/8980/Borderlands_Game_of_the_Year/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 03, 2019",
+      "status": "Released",
+      "date_iso": "2019-04-03"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jan 26, 2011",
+      "status": "Released",
+      "date_iso": "2011-01-26"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 19, 2020",
+      "status": "Released",
+      "date_iso": "2020-06-19"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 03, 2019",
+      "status": "Released",
+      "date_iso": "2019-04-03"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 12, 2010",
+      "status": "Released",
+      "date_iso": "2010-10-12"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 29, 2020",
+      "status": "Released",
+      "date_iso": "2020-05-29"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Dec 03, 2010",
+      "status": "Released",
+      "date_iso": "2010-12-03"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Oct 12, 2010",
+      "status": "Released",
+      "date_iso": "2010-10-12"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Oct 12, 2010",
+      "status": "Released",
+      "date_iso": "2010-10-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar74n.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "UKzMC90kaRw",
+      "url": "https://www.youtube.com/watch?v=UKzMC90kaRw"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "مدل-chuck-rock",
+  "igdb_id": 275025,
+  "name": "Chuck Rock",
+  "summary": "",
+  "first_release_year": 1991,
+  "developers": [
+    "Core Design"
+  ],
+  "publishers": [
+    "Tec Toy"
+  ],
+  "genres": [
+    "Platform"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Chuck Rock"
+  ],
+  "spin_off_of": "Chuck Rock",
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chuck_Rock"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Sega Game Gear",
+      "region": null,
+      "date": "TBD",
+      "status": "Cancelled"
+    },
+    {
+      "platform": "Sega Game Gear",
+      "region": null,
+      "date": "TBD",
+      "status": "Cancelled"
+    },
+    {
+      "platform": "Sega Game Gear",
+      "region": null,
+      "date": "1991",
+      "status": "Cancelled",
+      "date_iso": "1991-12-31"
+    },
+    {
+      "platform": "Sega Master System/Mark III",
+      "region": null,
+      "date": "1991",
+      "status": "Cancelled",
+      "date_iso": "1991-12-31"
+    },
+    {
+      "platform": "Sega Master System/Mark III",
+      "region": null,
+      "date": "1992",
+      "status": "Cancelled",
+      "date_iso": "1992-12-31"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

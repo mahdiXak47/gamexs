@@ -1,0 +1,126 @@
+{
+  "slug": "planet-coaster-2",
+  "igdb_id": 308099,
+  "name": "Planet Coaster 2",
+  "summary": "Dive into the thrilling world of Planet Coaster 2! Construct the theme park of your dreams with an intuitive piece-by-piece building system, as you meticulously craft and customise every aspect of your park down to the smallest detail. From towering rollercoasters to spectacular twisting water slides, let your imagination reach new heights to delight and thrill your guests.",
+  "first_release_year": 2024,
+  "developers": [
+    "Frontier Developments"
+  ],
+  "publishers": [
+    "Frontier Developments"
+  ],
+  "genres": [
+    "Simulator",
+    "Strategy",
+    "Adventure"
+  ],
+  "themes": [
+    "Sandbox"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Planet Coaster"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/@planetcoaster"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/PlanetCoaster/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/planetcoaster/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.planetcoaster.com/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/planet-coaster-2-983fe9"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/planet-coaster-2/9PK5WS0HXQKQ"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009610"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2688950/Planet_Coaster_2/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/planetcoaster"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/frontierunlocked?proof=e0a84d3ff421d4fb"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 06, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 06, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-06"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 06, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar32el.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "UChxrl60x8Y",
+      "url": "https://www.youtube.com/watch?v=UChxrl60x8Y"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "82gEWEdDn78",
+      "url": "https://www.youtube.com/watch?v=82gEWEdDn78"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "nQ561uC8UbE",
+      "url": "https://www.youtube.com/watch?v=nQ561uC8UbE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "qGPREY4fEeo",
+      "url": "https://www.youtube.com/watch?v=qGPREY4fEeo"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "slug": "god-of-war-sons-of-sparta",
+  "igdb_id": 389443,
+  "name": "God of War Sons of Sparta",
+  "summary": "Join young Kratos and Deimos, sons of Sparta, on a Greek odyssey as they discover the meaning of duty and honour.\nAn engaging and exciting 2D action-adventure brought to life from the talented pixel superstars at Mega Cat Studios. Experience retro classic gameplay with God of War’s signature spectacle, action, and heartfelt storytelling.",
+  "first_release_year": 2026,
+  "developers": [
+    "Mega Cat Studios"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "God of War"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "God of War"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "greek mythology",
+    "2d",
+    "prequel",
+    "metroidvania",
+    "kratos"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP9000-PPSA28997_00-SONSOFSPARTAPS50"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.playstation.com/en-us/games/god-of-war-sons-of-sparta/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/god-of-war-sons-of-sparta"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/God_of_War_Sons_of_Sparta"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://godofwar.fandom.com/wiki/God_of_War_Sons_of_Sparta"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 12, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar67bd.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar67be.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar67bf.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5bym.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5byn.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "eFhOo6NTt70",
+      "url": "https://www.youtube.com/watch?v=eFhOo6NTt70"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "TgkxVAIAEcw",
+      "url": "https://www.youtube.com/watch?v=TgkxVAIAEcw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "YLwmJ1pSkxA",
+      "url": "https://www.youtube.com/watch?v=YLwmJ1pSkxA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Hk3aJzrcgu4",
+      "url": "https://www.youtube.com/watch?v=Hk3aJzrcgu4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "MPy_8uf2TOA",
+      "url": "https://www.youtube.com/watch?v=MPy_8uf2TOA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "jvZSGqwIJmg",
+      "url": "https://www.youtube.com/watch?v=jvZSGqwIJmg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "1DSwSknnp1k",
+      "url": "https://www.youtube.com/watch?v=1DSwSknnp1k"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "5oqO5WuxoVE",
+      "url": "https://www.youtube.com/watch?v=5oqO5WuxoVE"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "slug": "ark-survival-ascended",
+  "igdb_id": 250509,
+  "name": "Ark: Survival Ascended",
+  "summary": "Ark: Survival Ascended is a next-generation remaster of our beloved ARK: Survival Evolved, harnessing the power of Unreal Engine 5. The base game will include SOTF and all the Ark: Survival Evolved DLC maps (which will be added to ASA over time).",
+  "first_release_year": 2023,
+  "developers": [
+    "Studio Wildcard"
+  ],
+  "publishers": [
+    "Studio Wildcard"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Simulator",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Survival",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Massively Multiplayer Online (MMO)"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Ark"
+  ],
+  "spin_off_of": "Ark: Survival Evolved",
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "dinosaurs"
+  ],
+  "alternative_names": [
+    {
+      "name": "ARK: Survival Ascended",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "ShooterGame\\Binaries\\Win64\\ArkAscended_BE.exe",
+      "comment": "windows executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/survivetheark"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/ark-survival-ascended"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://playark.com/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ark-survival-ascended/9P33VJGVPHVP"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008286"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/playark/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/Survivetheark"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/ark-survival-ascended"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/survivetheark"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2399830/ARK_Survival_Ascended/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/survivetheark"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/playark"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 21, 2023",
+      "status": "Beta",
+      "date_iso": "2023-11-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 30, 2023",
+      "status": "Beta",
+      "date_iso": "2023-11-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 25, 2023",
+      "status": "Beta",
+      "date_iso": "2023-10-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2lmp.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "JIOEdp8kvvg",
+      "url": "https://www.youtube.com/watch?v=JIOEdp8kvvg"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "0gLODoXanog",
+      "url": "https://www.youtube.com/watch?v=0gLODoXanog"
+    }
+  ]
+}

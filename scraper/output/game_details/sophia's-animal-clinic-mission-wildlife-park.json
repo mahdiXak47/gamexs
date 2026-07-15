@@ -1,0 +1,66 @@
+{
+  "slug": "sophia's-animal-clinic-mission-wildlife-park",
+  "igdb_id": 380652,
+  "name": "Sophia’s Animal Clinic: Mission Wildlife Park",
+  "summary": "Your veterinary adventure begins at the wildlife park! Help injured and sick animals such as horses, deer, ducks, donkeys, goats, rabbits, and many more.",
+  "first_release_year": 2025,
+  "developers": [],
+  "publishers": [
+    "Joindots GmbH"
+  ],
+  "genres": [
+    "Simulator",
+    "Arcade"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "casual",
+    "family friendly"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/EP1629-PPSA32006_00-SOFANIHOMWPJDPS5"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/sophias-animal-clinic-mission-wildlife-park-switch/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 15, 2025",
+      "status": "Released",
+      "date_iso": "2025-12-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-04"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-04"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5352.jpg"
+  ],
+  "videos": []
+}

@@ -1,0 +1,148 @@
+{
+  "slug": "stranger-of-paradise-final-fantasy-origin",
+  "igdb_id": 152250,
+  "name": "Stranger of Paradise: Final Fantasy Origin",
+  "summary": "Jack and his allies, Ash and Jed, burn with resolve to defeat Chaos as they throw open the gates to the Chaos Shrine. Yet doubts remain—are they truly the Warriors of Light the prophecy foretold?\nStep into a world of dark fantasy and revel in the exhilarating, action-packed battles!",
+  "first_release_year": 2022,
+  "developers": [
+    "Team NINJA"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Final Fantasy"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Final Fantasy"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "party-based combat",
+    "job system",
+    "action-rpg"
+  ],
+  "alternative_names": [
+    {
+      "name": "스트레인저 오브 파라다이스 파이널 판타지 오리진",
+      "comment": "Korean title"
+    },
+    {
+      "name": "SOPFFO.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@finalfantasy/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002585"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/fforigin"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://square-enix-games.com/sopffo/en-us"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/stranger-of-paradise-final-fantasy-origin"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1358700"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stranger_of_Paradise:_Final_Fantasy_Origin"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Stranger%20of%20Paradise:%20Final%20Fantasy%20Origin"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 18, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-18"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 18, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 18, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 18, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-18"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 18, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar58k8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar58k6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar58k7.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r2x.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5eml.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5emq.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "ee48s_zto0k",
+      "url": "https://www.youtube.com/watch?v=ee48s_zto0k"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ntQ-utIdWWE",
+      "url": "https://www.youtube.com/watch?v=ntQ-utIdWWE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "1C-maLQ4hvk",
+      "url": "https://www.youtube.com/watch?v=1C-maLQ4hvk"
+    }
+  ]
+}

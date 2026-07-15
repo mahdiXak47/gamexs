@@ -1,0 +1,101 @@
+{
+  "slug": "mato-anomalies-day-one-edition",
+  "igdb_id": 228732,
+  "name": "Mato Anomalies: Day One Edition",
+  "summary": "The Day One Edition of Mato Anomalies includes:\n- The game\n- Exclusive artbook with over 30 pages of stunning concept art of the game",
+  "first_release_year": 2023,
+  "developers": [
+    "Arrowiz"
+  ],
+  "publishers": [
+    "Prime Matter"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure",
+    "Visual Novel"
+  ],
+  "themes": [
+    "Fantasy",
+    "Science fiction",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Text"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "anime",
+    "psychological horror",
+    "detective",
+    "jrpg",
+    "multiple endings",
+    "nudity",
+    "violent"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/MatoAnomalies"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://arrowiz.com/games/mato-anomalies"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 09, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-09"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 09, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-09"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 09, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-09"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 09, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-09"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 09, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-09"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "kQ991PGo4bA",
+      "url": "https://www.youtube.com/watch?v=kQ991PGo4bA"
+    }
+  ]
+}

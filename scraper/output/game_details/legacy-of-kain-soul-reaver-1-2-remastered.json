@@ -1,0 +1,150 @@
+{
+  "slug": "legacy-of-kain-soul-reaver-1-2-remastered",
+  "igdb_id": 317625,
+  "name": "Legacy of Kain: Soul Reaver 1 & 2 Remastered",
+  "summary": "Experience the epic conflict of Kain and Raziel in original form or with remastered graphics.",
+  "first_release_year": 2024,
+  "developers": [
+    "Crystal Dynamics"
+  ],
+  "publishers": [
+    "Aspyr Media"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Legacy of Kain"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Legacy of Kain"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Legacy of Kain Soul Reaver 1-2 Remastered",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Legacy of Kain: Soul Reaver 1 and 2 Remastered",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/legacy-of-kain-soul-reaver-12-remastered-f5c5ec"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/legacyofkainofficial"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/legacy-of-kain-soul-reaver-1-and-2-remastered-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009063"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/legacy-of-kain-soul-reaver-1&2-remastered/9NX852XQ77SD"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@LegacyofKainOfficial"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/legacy_of_kain_soul_reaver_12_remastered"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.aspyr.com/games/soul-reaver"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2521380"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 10, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-10"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 10, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-10"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 10, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-10"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 10, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-10"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 10, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-10"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 10, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar34ye.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar34yf.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "rnsaUOvp6to",
+      "url": "https://www.youtube.com/watch?v=rnsaUOvp6to"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "_LNwg70NMU8",
+      "url": "https://www.youtube.com/watch?v=_LNwg70NMU8"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "t5qzpSrd-ko",
+      "url": "https://www.youtube.com/watch?v=t5qzpSrd-ko"
+    }
+  ]
+}

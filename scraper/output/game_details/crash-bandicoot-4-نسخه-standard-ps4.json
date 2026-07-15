@@ -1,0 +1,57 @@
+{
+  "slug": "crash-bandicoot-4-نسخه-standard-ps4",
+  "igdb_id": 323730,
+  "name": "Crash Bandicoot 4: N. Hanced",
+  "summary": "A mod for Crash 4 designed to make completion and general gameplay more fair and more fun. It aims to fix the flaws and weaker elements of the completion system and level designs to make the game into a better version of itself.",
+  "first_release_year": 2024,
+  "developers": [],
+  "publishers": [],
+  "genres": [
+    "Platform"
+  ],
+  "themes": [
+    "Non-fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": "Crash Bandicoot 4: It's About Time",
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "crash bandicoot",
+    "mascot platformer"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@Rayrobi_CB"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.nexusmods.com/crashbandicoot4itsabouttime/mods/194"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 29, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-04-29"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "sBI83KMV6lM",
+      "url": "https://www.youtube.com/watch?v=sBI83KMV6lM"
+    }
+  ]
+}

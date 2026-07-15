@@ -1,0 +1,256 @@
+{
+  "slug": "darksiders-warmastered-edition-ps4",
+  "igdb_id": 25081,
+  "name": "Darksiders: Warmastered Edition",
+  "summary": "Deceived by the forces of evil into prematurely bringing about the end of the world, War – the first Horseman of the Apocalypse – stands accused of breaking the sacred law by inciting a war between Heaven and Hell. In the slaughter that ensued, the demonic forces defeated the heavenly hosts and laid claim to the Earth.\n\nBrought before the sacred Charred Council, War is indicted for his crimes and stripped of his powers. Dishonored and facing his own death, War is given the opportunity to return to Earth to search for the truth and punish those responsible.\n\nHunted by a vengeful group of Angels, War must take on the forces of Hell, forge uneasy alliances with the very demons he hunts, and journey across the ravaged remains of the Earth on his quest for vengeance and vindication.",
+  "first_release_year": 2016,
+  "developers": [
+    "Kaiko"
+  ],
+  "publishers": [
+    "Nordic Games Group",
+    "THQ Nordic"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Darksiders"
+  ],
+  "spin_off_of": "Darksiders",
+  "franchises": [
+    "Darksiders"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "violence",
+    "metroidvania",
+    "difficult",
+    "demons",
+    "gore",
+    "story rich",
+    "xbox one x enhanced",
+    "wii u pro controller support",
+    "xbox one backwards compatibility",
+    "controller support",
+    "previously on - xbox gamepass"
+  ],
+  "alternative_names": [
+    {
+      "name": "Darksiders Warmastered Edition（ダークサイダーズ ウォーマスターエディション）",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "ダークサイダーズ ウォーマスターエディション",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "darksiders1.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Darksiders"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://darksiders.wikia.com"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/228188"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/darksiders-warmastered-edition-switch/"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/thqnordic.com"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/darksiders"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/darksiders"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/darksiders_warmastered_edition"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/darksiders"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Darksiders"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.thqnordic.com/games/darksiders"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/thqnordic/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/DarksidersCommunity"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/462780"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Darksiders:%20Warmastered%20Edition"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Darksiders"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 02, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-04-02"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 29, 2016",
+      "status": "Cancelled",
+      "date_iso": "2016-11-29"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 22, 2016",
+      "status": "Released",
+      "date_iso": "2016-11-22"
+    },
+    {
+      "platform": "Wii U",
+      "region": null,
+      "date": "May 23, 2017",
+      "status": "Released",
+      "date_iso": "2017-05-23"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 22, 2016",
+      "status": "Released",
+      "date_iso": "2016-11-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 22, 2016",
+      "status": "Released",
+      "date_iso": "2016-11-22"
+    },
+    {
+      "platform": "Wii U",
+      "region": null,
+      "date": "May 23, 2017",
+      "status": "Released",
+      "date_iso": "2017-05-23"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 25, 2016",
+      "status": "Released",
+      "date_iso": "2016-11-25"
+    },
+    {
+      "platform": "Wii U",
+      "region": null,
+      "date": "Nov 22, 2016",
+      "status": "Released",
+      "date_iso": "2016-11-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 22, 2016",
+      "status": "Released",
+      "date_iso": "2016-11-22"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 26, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-04-26"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 02, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-04-02"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 19, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-19"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 19, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/vqvgkappadgzduvp0kwc.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "3V5cdXlMSbM",
+      "url": "https://www.youtube.com/watch?v=3V5cdXlMSbM"
+    },
+    {
+      "title": "PC Release Trailer",
+      "youtube_id": "JXMqeTprZgU",
+      "url": "https://www.youtube.com/watch?v=JXMqeTprZgU"
+    },
+    {
+      "title": "Cinematic Intro Trailer",
+      "youtube_id": "zhuajMsvcuI",
+      "url": "https://www.youtube.com/watch?v=zhuajMsvcuI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "v5TReeO1umQ",
+      "url": "https://www.youtube.com/watch?v=v5TReeO1umQ"
+    }
+  ]
+}

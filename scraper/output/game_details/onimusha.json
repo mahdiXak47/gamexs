@@ -1,0 +1,113 @@
+{
+  "slug": "onimusha",
+  "igdb_id": 6526,
+  "name": "Onimusha Tactics",
+  "summary": "Onimusha Tactics is a turn-based strategy game between the player's side and the enemy's side. In each level you can bring a squad of no more than 10 people. There are no items to buy or sell, however equipment is available and customizable. Upgrades of existing weapons and armor can be done using the defeated souls of enemies absorbed into the Oni Gauntlet. New weapons and armor can be found or created through fusion of Genma Stones. Recipes must be found for each separate item before it can be fused.",
+  "first_release_year": 2003,
+  "developers": [
+    "Capcom"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Strategy",
+    "Turn-based strategy (TBS)",
+    "Tactical"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [
+    "Onimusha"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "turn-based",
+    "death",
+    "grid-based movement",
+    "feudal japan",
+    "tactical turn-based combat",
+    "bow and arrow",
+    "unlockables",
+    "real-time combat",
+    "historical figures in fictional settings",
+    "cross culture language skills",
+    "character models based on actual people",
+    "western published japanese games",
+    "wii u virtual console"
+  ],
+  "alternative_names": [
+    {
+      "name": "鬼武者～Onimusha Tactics～",
+      "comment": "Japanese title - stylized"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Onimusha%20Tactics"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/onimusha-tactics-wii-u/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.nintendo.co.uk/Games/Game-Boy-Advance/Onimusha-Tactics--1076138.html"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Game Boy Advance",
+      "region": null,
+      "date": "Nov 11, 2003",
+      "status": "Released",
+      "date_iso": "2003-11-11"
+    },
+    {
+      "platform": "Game Boy Advance",
+      "region": null,
+      "date": "Dec 05, 2003",
+      "status": "Released",
+      "date_iso": "2003-12-05"
+    },
+    {
+      "platform": "Wii U",
+      "region": null,
+      "date": "Aug 06, 2015",
+      "status": "Released",
+      "date_iso": "2015-08-06"
+    },
+    {
+      "platform": "Wii U",
+      "region": null,
+      "date": "Dec 16, 2015",
+      "status": "Released",
+      "date_iso": "2015-12-16"
+    },
+    {
+      "platform": "Wii U",
+      "region": null,
+      "date": "Feb 24, 2016",
+      "status": "Released",
+      "date_iso": "2016-02-24"
+    },
+    {
+      "platform": "Game Boy Advance",
+      "region": null,
+      "date": "Jul 25, 2003",
+      "status": "Released",
+      "date_iso": "2003-07-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1kjr.jpg"
+  ],
+  "videos": []
+}

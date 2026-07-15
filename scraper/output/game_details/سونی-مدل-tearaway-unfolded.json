@@ -1,0 +1,120 @@
+{
+  "slug": "سونی-مدل-tearaway-unfolded",
+  "igdb_id": 7606,
+  "name": "Tearaway: Unfolded",
+  "summary": "Journey through a vibrant, living papery world, with a plucky messenger who has a unique message to deliver - to you! Choose to guide either atoi or iota on this adventure, each a bold courier with an expressive personality and a unique message for you locked away inside their envelope head. In order to read it though, they're going to need your help to deliver it!",
+  "first_release_year": 2015,
+  "developers": [
+    "Media Molecule"
+  ],
+  "publishers": [
+    "Sony Computer Entertainment"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Comedy",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Tearaway"
+  ],
+  "spin_off_of": "Tearaway",
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "action-adventure",
+    "playstation plus",
+    "playstation experience 2015"
+  ],
+  "alternative_names": [
+    {
+      "name": "Tear Away Unfolded",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Tearaway PS4",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/215974"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/mediamolecule"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/tearawaygame"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://tearaway.mediamolecule.com"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Tearaway%20Unfolded"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://wikipedia.org/wiki/Tearaway_Unfolded"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://tearaway.fandom.com/wiki/Tearaway_Unfolded"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 01, 2015",
+      "status": "Released",
+      "date_iso": "2015-10-01"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 09, 2015",
+      "status": "Released",
+      "date_iso": "2015-09-09"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1cgu.jpg"
+  ],
+  "videos": [
+    {
+      "title": "E3 Trailer",
+      "youtube_id": "jVAxV6gl5fg",
+      "url": "https://www.youtube.com/watch?v=jVAxV6gl5fg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "KAGs8jd_MH0",
+      "url": "https://www.youtube.com/watch?v=KAGs8jd_MH0"
+    },
+    {
+      "title": "Gamescom Trailer",
+      "youtube_id": "fO9bLH6jTr0",
+      "url": "https://www.youtube.com/watch?v=fO9bLH6jTr0"
+    },
+    {
+      "title": "PSX 2014 Trailer",
+      "youtube_id": "ivZKqwbWYik",
+      "url": "https://www.youtube.com/watch?v=ivZKqwbWYik"
+    }
+  ]
+}

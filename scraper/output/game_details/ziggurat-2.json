@@ -1,0 +1,166 @@
+{
+  "slug": "ziggurat-2",
+  "igdb_id": 139416,
+  "name": "Ziggurat 2",
+  "summary": "Ziggurat is back, and now it's even better! Use powerful weapons and spells to break through hordes of enemies and explore laberynthine dungeons in this hectic roguelite FPS, while you improve your skills and discover new equipment. Will you be up to the task?",
+  "first_release_year": 2020,
+  "developers": [
+    "Milkstone Studios"
+  ],
+  "publishers": [
+    "Milkstone Studios"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Ziggurat"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "retro",
+    "wizards",
+    "fast paced",
+    "roguelite"
+  ],
+  "alternative_names": [
+    {
+      "name": "Ziggurat II",
+      "comment": "Other"
+    },
+    {
+      "name": "Ziggurat2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/ziggurat_2"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ziggurat-2/9MVTM9V0GWVP"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/milkstonestudiossl/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/ziggurat-2-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003708"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/milkstone"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1159560/Ziggurat_2"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.milkstonestudios.com/games/ziggurat-2"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Ziggurat%202"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/vq2pb9U"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Ziggurat2"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 03, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-03"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 11, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-11"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 03, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-03"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 22, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-22"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Oct 22, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-22"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Oct 22, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-22"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Feb 07, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-07"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 11, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-11"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arg37.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "1_iUAA8N6kU",
+      "url": "https://www.youtube.com/watch?v=1_iUAA8N6kU"
+    }
+  ]
+}

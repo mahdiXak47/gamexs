@@ -1,0 +1,162 @@
+{
+  "slug": "jujutsu-kaisen-cursed-clash",
+  "igdb_id": 255396,
+  "name": "Jujutsu Kaisen: Cursed Clash",
+  "summary": "Jujutsu Kaisen: Cursed Clash is an action-fighting game based on the manga series Jujutsu Kaisen.",
+  "first_release_year": 2024,
+  "developers": [
+    "Byking Inc."
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Fighting"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Jujutsu Kaisen"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "anime",
+    "based on - manga",
+    "based on - anime",
+    "licensed game"
+  ],
+  "alternative_names": [
+    {
+      "name": "Jujutsu Kaisen CC.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/jujutsu-kaisen-cursed-clash-switch/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jujutsu_Kaisen:_Cursed_Clash"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005862"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.bandainamcoent.com/games/jujutsu-kaisen-cursed-clash"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1877020"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/jujutsu-kaisen-cursed-clash/9N1T03Q2J6NH"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/jujutsu-kaisen-cursed-clash"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://jujutsu-kaisen.fandom.com/wiki/Jujutsu_Kaisen:_Cursed_Clash"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/BandaiNamcoUS"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/BandaiNamcoUS"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/bandainamcous"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@BandaiNamcoAmerica"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/JJK_Cursed_Clash/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Feb 02, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-02"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 02, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-02"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 02, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-02"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 02, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-02"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 02, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-02"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 02, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-02"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2km6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2km5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4941.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "FiEMrmP6aRA",
+      "url": "https://www.youtube.com/watch?v=FiEMrmP6aRA"
+    },
+    {
+      "title": "Character Trailer",
+      "youtube_id": "sNHv1y46dhs",
+      "url": "https://www.youtube.com/watch?v=sNHv1y46dhs"
+    }
+  ]
+}

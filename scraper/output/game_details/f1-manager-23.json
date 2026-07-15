@@ -1,0 +1,172 @@
+{
+  "slug": "f1-manager-23",
+  "igdb_id": 247383,
+  "name": "F1 Manager 2023",
+  "summary": "F1 Manager 2023 gives you unparalleled control of your chosen F1 team, with rich and detailed management features, refined racing spectacle, deeper authenticity and a brand-new mode that allows you to rewrite the season on your terms.Drive every decision and become the best team on the grid across the official 2023 F1 season and beyond.",
+  "first_release_year": 2023,
+  "developers": [
+    "Frontier Developments"
+  ],
+  "publishers": [
+    "Frontier Developments"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport",
+    "Strategy"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [
+    "F1 Manager"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Formula 1"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "F1 Manager 23",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008015"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/F1_Manager_2023"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/f1-manager-2023"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.f1manager.com/2023/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/f1-manager-2023/9P80FVDCXJKB/0010"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/f1-manager-2023"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/F1Manager"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/F1ManagerGame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/F1Manager"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@F1-Manager-game"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/F1Manager/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discordapp.com/invite/76RYP3B83C"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2287220"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-31"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-31"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-31"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-31"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2bq7.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "896qC-7x9Mg",
+      "url": "https://www.youtube.com/watch?v=896qC-7x9Mg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "t_Nw337WY2Q",
+      "url": "https://www.youtube.com/watch?v=t_Nw337WY2Q"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "PPg1sninTTY",
+      "url": "https://www.youtube.com/watch?v=PPg1sninTTY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "XBXE0wxXru4",
+      "url": "https://www.youtube.com/watch?v=XBXE0wxXru4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "RdAkdMR05_M",
+      "url": "https://www.youtube.com/watch?v=RdAkdMR05_M"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "z95AlctvP7E",
+      "url": "https://www.youtube.com/watch?v=z95AlctvP7E"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "3IOpvsO01N0",
+      "url": "https://www.youtube.com/watch?v=3IOpvsO01N0"
+    }
+  ]
+}

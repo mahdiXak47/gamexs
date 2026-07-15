@@ -1,0 +1,222 @@
+{
+  "slug": "sekiro-shadows-die-twice",
+  "igdb_id": 76882,
+  "name": "Sekiro: Shadows Die Twice",
+  "summary": "Carve your own clever path to vengeance as you come face-to-face with larger than life foes in FromSoftware's dark and twisted adventure set in feudal Japan. Unleash an arsenal of deadly prosthetic tools and ninja abilities, while blending stealth, vertical traversal, and visceral combat. Survive a relentless and bloody confrontation on a quest to restore your honor and save the one you're sworn to protect.",
+  "first_release_year": 2019,
+  "developers": [
+    "FromSoftware"
+  ],
+  "publishers": [
+    "Activision"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Historical",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "ninja",
+    "japan",
+    "skill tree",
+    "the game awards 2017",
+    "sengoku period",
+    "shinobi",
+    "the game awards - best action-adventure game - winner",
+    "the game awards - best art direction - nominee",
+    "the game awards - best audio design - nominee",
+    "the game awards - best game direction - nominee",
+    "the game awards - game of the year - winner",
+    "the game awards - world premiere"
+  ],
+  "alternative_names": [
+    {
+      "name": "Shadows Die Twice",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "Sekiro: Schatten Sterben Zweimal",
+      "comment": "German title"
+    },
+    {
+      "name": " SEKIRO: SHADOWS DIE TWICE",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "隻狼",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "SEKIRO",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "세키로: 그림자는 두 번 죽는다",
+      "comment": "Korean title - translated"
+    },
+    {
+      "name": "隻狼：暗影雙死",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "只狼：影逝二度",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Sekiro",
+      "comment": "Abbreviation"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/sekirothegame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/232898"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/814380"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.sekirothegame.com/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Sekiro"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Sekiro:%20Shadows%20Die%20Twice"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://sekiroshadowsdietwice.wiki.fextralife.com/Sekiro+Shadows+Die+Twice+Wiki"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCFlG1-ulYM9smpUYWlgOtBg"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/sekirothegame"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sekiro:_Shadows_Die_Twice"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/sekirothegame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 22, 2019",
+      "status": "Released",
+      "date_iso": "2019-03-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 22, 2019",
+      "status": "Released",
+      "date_iso": "2019-03-22"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Oct 28, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 22, 2019",
+      "status": "Released",
+      "date_iso": "2019-03-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5kdp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5kdr.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5kdn.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5kdo.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5kdq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5kdt.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5kds.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5f1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5f4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5kdl.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5kdk.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5kdm.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5kdu.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay video",
+      "youtube_id": "gV010Rgu_2M",
+      "url": "https://www.youtube.com/watch?v=gV010Rgu_2M"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "uP8lFi_BibY",
+      "url": "https://www.youtube.com/watch?v=uP8lFi_BibY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "OqsJSeJ_0kU",
+      "url": "https://www.youtube.com/watch?v=OqsJSeJ_0kU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "J3AbM_JRkWQ",
+      "url": "https://www.youtube.com/watch?v=J3AbM_JRkWQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "0wggC3y2aQo",
+      "url": "https://www.youtube.com/watch?v=0wggC3y2aQo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "iWFgvbf_Zu8",
+      "url": "https://www.youtube.com/watch?v=iWFgvbf_Zu8"
+    },
+    {
+      "title": "Gameplay video",
+      "youtube_id": "ndZv4mix9qg",
+      "url": "https://www.youtube.com/watch?v=ndZv4mix9qg"
+    },
+    {
+      "title": "Overview Trailer",
+      "youtube_id": "O6rN540rzjY",
+      "url": "https://www.youtube.com/watch?v=O6rN540rzjY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "GFrFQFFLBGs",
+      "url": "https://www.youtube.com/watch?v=GFrFQFFLBGs"
+    }
+  ]
+}

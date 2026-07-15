@@ -1,0 +1,159 @@
+{
+  "slug": "backbeat",
+  "igdb_id": 164120,
+  "name": "Backbeat",
+  "summary": "A truly creative musical puzzle game. Manipulate four threads of time to guide your band through perilous predicaments. Perform jam band tricks to maximize your score. Customize your play with musical effect pedals and playing styles.",
+  "first_release_year": 2023,
+  "developers": [
+    "Ichigoichie"
+  ],
+  "publishers": [
+    "Ichigoichie"
+  ],
+  "genres": [
+    "Music",
+    "Puzzle",
+    "Strategy",
+    "Indie",
+    "Card & Board Game"
+  ],
+  "themes": [
+    "Comedy",
+    "Drama",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "female protagonist",
+    "hand-drawn"
+  ],
+  "alternative_names": [
+    {
+      "name": "backbeat.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005812"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1585730/Backbeat"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCpmGA2gUf6nTw_-tLiPTE9w"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/backbeat-switch/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/jWA5DBXTy2"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/ichigoichiegames.bsky.social"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/ichigoichieGames/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/ichigoichieGames"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://backbeatgame.com/en"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Ichigoichie_Inc"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Backbeat"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/backbeat-e59d86"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 16, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-16"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 16, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-16"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 16, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-16"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 16, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-16"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 16, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-16"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 16, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-16"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar23e6.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ch8AvNZ2zvw",
+      "url": "https://www.youtube.com/watch?v=ch8AvNZ2zvw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ehT9LyuGbyI",
+      "url": "https://www.youtube.com/watch?v=ehT9LyuGbyI"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "l9zwBA5iooY",
+      "url": "https://www.youtube.com/watch?v=l9zwBA5iooY"
+    }
+  ]
+}

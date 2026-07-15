@@ -1,0 +1,141 @@
+{
+  "slug": "ikai",
+  "igdb_id": 157133,
+  "name": "Ikai",
+  "summary": "Fear and anxiety prevail after the darkest tales from Japanese folklore come to life in this first-person psychological horror game. Set in a feudal era, Ikai revolves around the priestess of a shrine struggling to defeat the spirits of her past and her present.",
+  "first_release_year": 2022,
+  "developers": [
+    "Endflame"
+  ],
+  "publishers": [
+    "PM Studios"
+  ],
+  "genres": [
+    "Puzzle",
+    "Indie"
+  ],
+  "themes": [
+    "Horror",
+    "Thriller"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "アイケーエーアイ",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "이카이",
+      "comment": "Korean title"
+    },
+    {
+      "name": "Ikai.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004529"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/ikai-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.pm-studios.com/Projects/Ikai"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1315210/Ikai"
+    },
+    {
+      "label": "Itch",
+      "url": "https://pmstudios.itch.io/ikai"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/endflame.studio?hl=en"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Ikai"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/endflamestudio"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCgonn3RMDuaYJn9aoVIe9Cw/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 29, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-29"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 29, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 29, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-29"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 29, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-29"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 29, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1i65.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "DWhlG4A9FhY",
+      "url": "https://www.youtube.com/watch?v=DWhlG4A9FhY"
+    }
+  ]
+}

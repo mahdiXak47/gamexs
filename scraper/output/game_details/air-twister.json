@@ -1,0 +1,145 @@
+{
+  "slug": "air-twister",
+  "igdb_id": 203458,
+  "name": "Air Twister",
+  "summary": "Soar through the sky battling against invaders in this all-new fantasy endless shooter from legendary game creator, Yu Suzuki. Players will assume the role of Princess Arch fighting back against bizarre invaders to save their planet from destruction. They’ll rain down their homing arrows to trace graceful arcs of light across beautiful, artfully crafted stages, before they pierce their foes. With a fun and easy touchscreen swipe-shooting gameplay mechanic, the destiny of the planet is in the player’s hands.",
+  "first_release_year": 2022,
+  "developers": [
+    "Ys Net"
+  ],
+  "publishers": [
+    "Ys Net"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "previously on - apple arcade"
+  ],
+  "alternative_names": [
+    {
+      "name": "GunsAndWings.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/air-twister-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008088"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ysnet.games/en/air-twister"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/us/app/air-twister/id1555621822"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Air_Twister"
+    },
+    {
+      "label": "iPad",
+      "url": "http://itunes.apple.com/us/app/id1555621822#?platform=ipad"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Air%20Twister"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2403620"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jun 24, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-24"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Jun 24, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 10, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 10, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-10"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 10, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-10"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 10, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-10"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 10, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-10"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 10, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2i61.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2i5y.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2i62.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "P-0RSl_UGv0",
+      "url": "https://www.youtube.com/watch?v=P-0RSl_UGv0"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "panda-hero",
+  "igdb_id": 112813,
+  "name": "Panda Hero",
+  "summary": "Release the panda in you!",
+  "first_release_year": 2018,
+  "developers": [
+    "Joindots"
+  ],
+  "publishers": [
+    "TREVA Entertainment",
+    "Markt+Technik Verlag",
+    "Markt & Technik"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure",
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Panda Hero.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/panda-hero-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/981980"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.nintendo.com/games/detail/panda-hero-switch"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/232746"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Panda%20Hero"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 22, 2018",
+      "status": "Released",
+      "date_iso": "2018-11-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 10, 2019",
+      "status": "Released",
+      "date_iso": "2019-01-10"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 04, 2019",
+      "status": "Released",
+      "date_iso": "2019-07-04"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ard8q.jpg"
+  ],
+  "videos": []
+}

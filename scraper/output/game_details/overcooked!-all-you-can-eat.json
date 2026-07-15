@@ -1,0 +1,188 @@
+{
+  "slug": "overcooked!-all-you-can-eat",
+  "igdb_id": 135915,
+  "name": "Overcooked! All You Can Eat",
+  "summary": "Hold onto your chef hats and prepare your appetite for an XXL portion of Overcooked magic! Overcooked, Overcooked 2 and every morsel of additional content released for both games are being blended together and remastered from the ground up in Overcooked! All You Can Eat.",
+  "first_release_year": 2020,
+  "developers": [
+    "Team17",
+    "Ghost Town Games"
+  ],
+  "publishers": [
+    "Team17"
+  ],
+  "genres": [
+    "Simulator",
+    "Strategy",
+    "Indie"
+  ],
+  "themes": [
+    "Comedy",
+    "Kids",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Overcooked"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "casual",
+    "cooking",
+    "management",
+    "previously on - stadia pro"
+  ],
+  "alternative_names": [
+    {
+      "name": "Overcooked! Oukoku no Full Course"
+    },
+    {
+      "name": "OVERCOOKED: ALL YOU CAN EAT",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/overcooked-all-you-can-eat-switch/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Team17"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/team17ltd/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/overcooked!-all-you-can-eat/9PP2NCZ72C79"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000899"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1243830"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/team17ltd"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.team17.com/games/overcooked-all-you-can-eat/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 17, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 17, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-17"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Apr 2022",
+      "status": "Released",
+      "date_iso": "2022-04-01"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 22, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-12"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 23, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-23"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 23, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-23"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 23, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-23"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 23, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1thv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar30dw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7cu.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4tvc.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "qx-B8HsnfLo",
+      "url": "https://www.youtube.com/watch?v=qx-B8HsnfLo"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "DdMtOnbl1B4",
+      "url": "https://www.youtube.com/watch?v=DdMtOnbl1B4"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "_UMeS0S0oy0",
+      "url": "https://www.youtube.com/watch?v=_UMeS0S0oy0"
+    },
+    {
+      "title": "TGA 2020 Trailer",
+      "youtube_id": "B66A90sj5Gg",
+      "url": "https://www.youtube.com/watch?v=B66A90sj5Gg"
+    }
+  ]
+}

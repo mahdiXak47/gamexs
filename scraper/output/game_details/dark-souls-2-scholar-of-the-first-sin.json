@@ -1,0 +1,180 @@
+{
+  "slug": "dark-souls-2-scholar-of-the-first-sin",
+  "igdb_id": 8222,
+  "name": "Dark Souls II: Scholar of the First Sin",
+  "summary": "Dark Souls II: Scholar of the First Sin is an enhanced edition of Dark Souls II, released in April 2015 by FromSoftware and Bandai Namco Entertainment. This version includes updated graphics, improved performance, and all previously released DLC expansions (Crown of the Sunken King, Crown of the Old Iron King, and Crown of the Ivory King). It also features rebalanced gameplay, new enemy placements, additional NPCs, and expanded lore,",
+  "first_release_year": 2015,
+  "developers": [
+    "FromSoftware"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Dark Souls"
+  ],
+  "spin_off_of": "Dark Souls II",
+  "franchises": [
+    "Dark Souls"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "medieval",
+    "dark",
+    "magic",
+    "3d",
+    "action-adventure",
+    "sword & sorcery",
+    "60 fps on consoles",
+    "humble bundle",
+    "release upgrade",
+    "consolation achievements",
+    "blacksmith",
+    "soulslike",
+    "realtime 3d",
+    "interconnected-world"
+  ],
+  "alternative_names": [
+    {
+      "name": "DARK SOULS II: Scholar of the First Sin",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Dark Souls II SotFS",
+      "comment": "Abbreviation"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.bandainamcoent.com/games/dark-souls-ii"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/226237"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/dark-souls-ii-scholar-of-the-first-sin/BVBQ72FDB4LK"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://darksouls.fandom.com/wiki/Dark_Souls_II:_Scholar_of_the_First_Sin"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dark_Souls_II"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/335300"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Dark%20Souls%20II:%20Scholar%20of%20the%20First%20Sin"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 07, 2015",
+      "status": "Released",
+      "date_iso": "2015-04-07"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 02, 2015",
+      "status": "Released",
+      "date_iso": "2015-04-02"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Apr 07, 2015",
+      "status": "Released",
+      "date_iso": "2015-04-07"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Apr 04, 2015",
+      "status": "Released",
+      "date_iso": "2015-04-04"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 02, 2015",
+      "status": "Released",
+      "date_iso": "2015-04-02"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Apr 02, 2015",
+      "status": "Released",
+      "date_iso": "2015-04-02"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 07, 2015",
+      "status": "Released",
+      "date_iso": "2015-04-07"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Apr 02, 2015",
+      "status": "Released",
+      "date_iso": "2015-04-02"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 04, 2015",
+      "status": "Released",
+      "date_iso": "2015-04-04"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 02, 2015",
+      "status": "Released",
+      "date_iso": "2015-04-02"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar74m.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Annoucement Trailer",
+      "youtube_id": "3nErjDw8dP8",
+      "url": "https://www.youtube.com/watch?v=3nErjDw8dP8"
+    },
+    {
+      "title": "Forlorn Hope Trailer",
+      "youtube_id": "nFATZnAq6Ps",
+      "url": "https://www.youtube.com/watch?v=nFATZnAq6Ps"
+    }
+  ]
+}

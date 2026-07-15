@@ -1,0 +1,122 @@
+{
+  "slug": "demons-souls",
+  "igdb_id": 134606,
+  "name": "Demon's Souls",
+  "summary": "Entirely rebuilt from the ground up and masterfully enhanced, Demon's Souls is a remake of the 2009 release that introduces the horrors of a fog-laden, dark fantasy land to a whole new generation of gamers. Those who’ve faced its trials and tribulations before, can once again challenge the darkness in stunning visual quality with incredible performance. The remake features improved graphics and animations, sound and lighting tweaks and a reimagining of many of the visual, musical and mechanical aspects of the original game.",
+  "first_release_year": 2020,
+  "developers": [
+    "Bluepoint Games"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Horror",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": "Demon's Souls",
+  "franchises": [],
+  "game_engines": [
+    "Bluepoint Engine"
+  ],
+  "keywords": [
+    "magic",
+    "pvp",
+    "permadeath",
+    "difficult",
+    "online co-op",
+    "enhanced version",
+    "non-linear",
+    "boss fight",
+    "parrying",
+    "soulslike",
+    "souls",
+    "no pause menu"
+  ],
+  "alternative_names": [
+    {
+      "name": "Demon's Souls Remake",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000368"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.playstation.com/en-us/games/demons-souls/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/demonssouls"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Demon%27s_Souls_(2020_video_game)"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Demon's%20Souls"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 19, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7dg.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7dh.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7df.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7de.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7dd.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7dc.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3sel.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "2TMs2E6cms4",
+      "url": "https://www.youtube.com/watch?v=2TMs2E6cms4"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "JiqGi3GMTko",
+      "url": "https://www.youtube.com/watch?v=JiqGi3GMTko"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "C7NqSTQvRBw",
+      "url": "https://www.youtube.com/watch?v=C7NqSTQvRBw"
+    }
+  ]
+}

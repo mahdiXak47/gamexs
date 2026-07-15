@@ -1,0 +1,166 @@
+{
+  "slug": "way-of-the-hunter",
+  "igdb_id": 198388,
+  "name": "Way of the Hunter",
+  "summary": "Become the new owner of a hunting lodge nestled among gorgeous habitats and rich animal populations. Explore vast open world environments and hunt with a premium selection of firearms. Enjoy the perfect hunt on your own or with friends in co-op.",
+  "first_release_year": 2022,
+  "developers": [
+    "Nine Rocks Games"
+  ],
+  "publishers": [
+    "THQ Nordic"
+  ],
+  "genres": [
+    "Shooter",
+    "Simulator",
+    "Sport",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Survival",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "hunting",
+    "animals",
+    "3d"
+  ],
+  "alternative_names": [
+    {
+      "name": "웨이 오브 더 헌터",
+      "comment": "Korean title"
+    },
+    {
+      "name": "WayOfTheHunter.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://way-of-the-hunter.fandom.com/wiki/Way_Of_the_Hunter_Wiki"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/wayofthehunter"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/wayofthehunter"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/way_of_the_hunter"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/way-of-the-hunter/9PHW62DC4LGS"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Way%20of%20the%20Hunter"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003862"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/THQNordic/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1288320/Way_of_the_Hunter"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/thqnordic"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/way-of-the-hunter"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.wayofthehunter.com/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/WayOfTheHunter/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/THQNordic"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-16"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-16"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-16"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1lnq.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "-UDoaPCTVr4",
+      "url": "https://www.youtube.com/watch?v=-UDoaPCTVr4"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "vtzmfYEmGBE",
+      "url": "https://www.youtube.com/watch?v=vtzmfYEmGBE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "pzakA-w2YdU",
+      "url": "https://www.youtube.com/watch?v=pzakA-w2YdU"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "slug": "persona-4-revival",
+  "igdb_id": 348210,
+  "name": "Persona 4 Revival",
+  "summary": "Who’s on Air? Legend has it that a mysterious broadcast known as the \"Midnight Channel\" appears only on rainy nights. The day after it airs, a corpse is found in Inaba, a quiet and peaceful town in rural Japan suddenly thrown into turmoil. To uncover the truth behind these chilling mysteries, you and your friends form an investigation team to unravel the secrets of the Midnight Channel and the bizarre murders. As your adventure unfolds, you face off against \"Shadows,\" eerie manifestations of individuals' darker selves. Together, you awaken a hidden power called \"Persona\" and embark on a journey to prevent more tragedies while uncovering the truth behind the chaos.",
+  "first_release_year": 2027,
+  "developers": [
+    "P Studio"
+  ],
+  "publishers": [
+    "Atlus",
+    "Sega"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Fantasy",
+    "Drama",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Persona",
+    "Persona 4"
+  ],
+  "spin_off_of": "Persona 4 Golden",
+  "franchises": [
+    "Persona",
+    "Megami Tensei"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "turn-based",
+    "murder mystery",
+    "party-based",
+    "turn-based combat",
+    "turn-based rpg"
+  ],
+  "alternative_names": [
+    {
+      "name": "P4R",
+      "comment": "Acronym"
+    },
+    {
+      "name": "女神异闻录４ Revival",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "女神異聞錄４ Revival",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "Persona 4 Revival",
+      "comment": "Japanese title - romanization"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/persona-4-revival"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/atlus_west/?hl=en"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Atlus_West"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/AtlusWest/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/atlus"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2963950"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10011107"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/persona-4-revival/9n40dk5n4ld4"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Persona_4_Revival"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://megamitensei.fandom.com/wiki/Persona_4_Revival"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.sega.com/persona/persona-4-revival"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 18, 2027",
+      "status": "Cancelled",
+      "date_iso": "2027-02-18"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 18, 2027",
+      "status": "Cancelled",
+      "date_iso": "2027-02-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 18, 2027",
+      "status": "Cancelled",
+      "date_iso": "2027-02-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar60x1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar60wy.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar60wz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar60x0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar60x8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar614n.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3oup.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "Tcrb4s9ecd4",
+      "url": "https://www.youtube.com/watch?v=Tcrb4s9ecd4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Wg3Enwd7Ba4",
+      "url": "https://www.youtube.com/watch?v=Wg3Enwd7Ba4"
+    }
+  ]
+}

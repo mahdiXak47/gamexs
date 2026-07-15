@@ -1,0 +1,155 @@
+{
+  "slug": "eternal-strands",
+  "igdb_id": 295199,
+  "name": "Eternal Strands",
+  "summary": "Fight epic, towering creatures while blending magical abilities with an arsenal of powerful weapons to keep the world from crumbling in this third-person, action-adventure game.",
+  "first_release_year": 2025,
+  "developers": [
+    "Yellow Brick Games"
+  ],
+  "publishers": [
+    "Yellow Brick Games"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "magic",
+    "female protagonist",
+    "steam cloud",
+    "controller support",
+    "action combat",
+    "adjustable difficulty",
+    "steam deck"
+  ],
+  "alternative_names": [
+    {
+      "name": "EternalStrands.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/eternal-strands"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/eternal-strands/9NNKJNRKFT0G"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010810"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/eternal_strands"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/yellowbrickgames/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eternal_Strands"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1491410"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.eternalstrandsgame.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/YellowBrick_Qc"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/eternal-strands-36a503"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/yellowbrickgames/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@yellowbrickgames_qc"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 28, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-01-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 28, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-01-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 28, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-01-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2vdg.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "YLliDntAitQ",
+      "url": "https://www.youtube.com/watch?v=YLliDntAitQ"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "Ap8M4bfmio0",
+      "url": "https://www.youtube.com/watch?v=Ap8M4bfmio0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "hfDntcgkHJk",
+      "url": "https://www.youtube.com/watch?v=hfDntcgkHJk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ESJWCOL8mA4",
+      "url": "https://www.youtube.com/watch?v=ESJWCOL8mA4"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "AHxtabO0hj8",
+      "url": "https://www.youtube.com/watch?v=AHxtabO0hj8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "by2m9E81aac",
+      "url": "https://www.youtube.com/watch?v=by2m9E81aac"
+    }
+  ]
+}

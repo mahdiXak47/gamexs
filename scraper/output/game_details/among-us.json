@@ -1,0 +1,267 @@
+{
+  "slug": "among-us",
+  "igdb_id": 111469,
+  "name": "Among Us",
+  "summary": "Play with 4-15 player online or via local WiFi as you attempt to prepare your spaceship for departure, but beware as one or more random players among the Crew are Impostors bent on killing everyone!\n\nOriginally created as a party game, we recommend playing with friends at a LAN party or online using voice chat. Enjoy cross-platform play between Android, iOS, PC, and console.",
+  "first_release_year": 2018,
+  "developers": [
+    "Innersloth"
+  ],
+  "publishers": [
+    "Innersloth"
+  ],
+  "genres": [
+    "Strategy",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Survival",
+    "Stealth",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity 2022"
+  ],
+  "keywords": [
+    "violence",
+    "character customization",
+    "murder",
+    "investigation",
+    "2d",
+    "space",
+    "online co-op",
+    "social",
+    "cartoon graphics",
+    "memes",
+    "cartoon violence",
+    "meme origin",
+    "teamwork",
+    "social deduction",
+    "minigame",
+    "reference to other games"
+  ],
+  "alternative_names": [
+    {
+      "name": "어몽 어스",
+      "comment": "Korean title"
+    },
+    {
+      "name": "Among Us.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/product/among-us"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/among-us-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002811"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://among-us-wiki.fandom.com/wiki/Among_Us_Wiki"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/AmongUsGame"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/among-us/9NG07QJNK38J"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/945360"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCKuI2VapWQjkMz2DDrLvLKw"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/innersloth"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/InnerSloth"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Among_Us"
+    },
+    {
+      "label": "Itch",
+      "url": "https://innersloth.itch.io/among-us"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.innersloth.spacemafia"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/AmongUs"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/app/id1351168404"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.innersloth.com/games/among-us"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Among%20Us"
+    },
+    {
+      "label": "iPad",
+      "url": "https://apps.apple.com/us/app/among-us/id1351168404"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/innerslothdev"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/amongus.innersloth.com"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Jun 15, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-06-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 14, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-12-14"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Jun 15, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-06-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 16, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-11-16"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 14, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-12-14"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 15, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-12-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 14, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-12-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 14, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-12-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar63op.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar63oq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar63or.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Beta Launch Trailer",
+      "youtube_id": "sYvKjZKunyo",
+      "url": "https://www.youtube.com/watch?v=sYvKjZKunyo"
+    },
+    {
+      "title": "MIRA HQ Launch Trailer",
+      "youtube_id": "ZHhk0dDJwBM",
+      "url": "https://www.youtube.com/watch?v=ZHhk0dDJwBM"
+    },
+    {
+      "title": "Polus Map Trailer",
+      "youtube_id": "rx1IIEwwX_g",
+      "url": "https://www.youtube.com/watch?v=rx1IIEwwX_g"
+    },
+    {
+      "title": "The Airship Map Reveal Trailer",
+      "youtube_id": "ixfokUG711U",
+      "url": "https://www.youtube.com/watch?v=ixfokUG711U"
+    },
+    {
+      "title": "The Airship Update Trailer",
+      "youtube_id": "shX9aZH1bjs",
+      "url": "https://www.youtube.com/watch?v=shX9aZH1bjs"
+    },
+    {
+      "title": "PlayStation Trailer",
+      "youtube_id": "st6YX5knE44",
+      "url": "https://www.youtube.com/watch?v=st6YX5knE44"
+    },
+    {
+      "title": "15 Player Lobbies Trailer",
+      "youtube_id": "JpalSQkmp2g",
+      "url": "https://www.youtube.com/watch?v=JpalSQkmp2g"
+    },
+    {
+      "title": "Cosmicude Trailer",
+      "youtube_id": "TJ7lF3MDTsQ",
+      "url": "https://www.youtube.com/watch?v=TJ7lF3MDTsQ"
+    },
+    {
+      "title": "Roles Trailer",
+      "youtube_id": "bqibX3lW6_4",
+      "url": "https://www.youtube.com/watch?v=bqibX3lW6_4"
+    },
+    {
+      "title": "Hide n Seek Trailer",
+      "youtube_id": "m4smMkGbhHw",
+      "url": "https://www.youtube.com/watch?v=m4smMkGbhHw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "TsIZD1ic2Dg",
+      "url": "https://www.youtube.com/watch?v=TsIZD1ic2Dg"
+    }
+  ]
+}

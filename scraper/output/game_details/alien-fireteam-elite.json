@@ -1,0 +1,171 @@
+{
+  "slug": "alien-fireteam-elite",
+  "igdb_id": 144153,
+  "name": "Aliens: Fireteam Elite",
+  "summary": "Set in the iconic Alien universe, Aliens: Fireteam Elite is a cooperative 3rd-person survival shooter that drops your fireteam of hardened marines into a desparate fight to contain the evolving Xenomorph threat. Create and customize your own Colonial Marine, choosing from an extensive variety of classes, weapons, gear and perks, battling overwhelming odds in this heart-pounding survival shooting experience.",
+  "first_release_year": 2021,
+  "developers": [
+    "Cold Iron Studios"
+  ],
+  "publishers": [
+    "Focus Entertainment"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Aliens: Fireteam Elite"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Alien"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "aliens",
+    "androids"
+  ],
+  "alternative_names": [
+    {
+      "name": "Aliens: Fireteam",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "AFE",
+      "comment": "Acronym"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/aliens-fireteam-elite/9PG28RXDG9GQ"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002794"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/aliens-fireteam-elite-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1549970/Aliens_Fireteam"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.aliensfireteam.com/en/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Aliens:%20Fireteam%20Elite"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://avp.fandom.com/wiki/Aliens:_Fireteam_Elite"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/AliensFireteamElite"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aliens:_Fireteam_Elite"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCb2xQb7zbHUX9cXXxhVwhRw"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/AliensFireteam"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/aliensfireteam"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/aliensfireteam"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/aliensfireteame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 23, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-08-23"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 26, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-04-26"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 24, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-08-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 24, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-08-24"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 24, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-08-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 24, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-08-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arqnk.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "B63_ljZ91Mc",
+      "url": "https://www.youtube.com/watch?v=B63_ljZ91Mc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "C50s4OZO5bQ",
+      "url": "https://www.youtube.com/watch?v=C50s4OZO5bQ"
+    }
+  ]
+}

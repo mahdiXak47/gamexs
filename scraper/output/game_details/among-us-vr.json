@@ -1,0 +1,149 @@
+{
+  "slug": "among-us-vr",
+  "igdb_id": 185254,
+  "name": "Among Us 3D: VR",
+  "summary": "Teamwork and betrayal in space! In this VR party game, Crewmates work together to complete tasks before one or more Impostors kill everyone aboard. Experience all of the same deception and deceit as the original game, but now in your own virtual Skeld.",
+  "first_release_year": 2022,
+  "developers": [
+    "Innersloth"
+  ],
+  "publishers": [],
+  "genres": [
+    "Simulator",
+    "Strategy",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Survival",
+    "Stealth",
+    "Party"
+  ],
+  "game_modes": [
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Virtual Reality"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Among Us"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "social",
+    "party-based",
+    "social deduction",
+    "previously on - horizon plus"
+  ],
+  "alternative_names": [
+    {
+      "name": "AmongUsVR.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005565"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1849900/Among_Us_3D_VR/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/amongus3dgame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/SchellGamesTV"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/innersloth"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SchellGames"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://amongus3D.com"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Among%20Us%20VR"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Meta Quest 2",
+      "region": null,
+      "date": "Nov 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-10"
+    },
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "Nov 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-10"
+    },
+    {
+      "platform": "PlayStation VR",
+      "region": null,
+      "date": "Nov 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-10"
+    },
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    },
+    {
+      "platform": "Oculus Quest",
+      "region": null,
+      "date": "Nov 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1v8r.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "swcOy4ORz9c",
+      "url": "https://www.youtube.com/watch?v=swcOy4ORz9c"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "udg_jSMG7SQ",
+      "url": "https://www.youtube.com/watch?v=udg_jSMG7SQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "K9AlLx8Eidk",
+      "url": "https://www.youtube.com/watch?v=K9AlLx8Eidk"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "tf6yF6TIRnE",
+      "url": "https://www.youtube.com/watch?v=tf6yF6TIRnE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "tU5FYiiuFp4",
+      "url": "https://www.youtube.com/watch?v=tU5FYiiuFp4"
+    }
+  ]
+}

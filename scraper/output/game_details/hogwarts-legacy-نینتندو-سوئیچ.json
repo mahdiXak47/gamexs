@@ -1,0 +1,281 @@
+{
+  "slug": "hogwarts-legacy-نینتندو-سوئیچ",
+  "igdb_id": 136625,
+  "name": "Hogwarts Legacy",
+  "summary": "Hogwarts Legacy is an immersive, open-world action RPG set in the world first introduced in the Harry Potter books. Now you can take control of the action and be at the center of your own adventure in the wizarding world. Embark on a journey through familiar and new locations as you explore and discover fantastic beasts, customize your character and craft potions, master spell casting, upgrade talents, and become the wizard you want to be. Discover the feeling of living at Hogwarts as you make allies, battle Dark wizards, and ultimately decide the fate of the wizarding world. Your legacy is what you make of it.",
+  "first_release_year": 2023,
+  "developers": [
+    "Avalanche Software"
+  ],
+  "publishers": [
+    "Warner Bros. Games"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Harry Potter"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "exploration",
+    "wizards",
+    "character customization",
+    "dark",
+    "magic",
+    "3d",
+    "insects",
+    "goblin",
+    "dragon",
+    "nature",
+    "forest",
+    "witches",
+    "bird",
+    "flying",
+    "based on - movie",
+    "achievements",
+    "based on - book",
+    "atmospheric",
+    "combat",
+    "giant insects",
+    "castle",
+    "story rich",
+    "family friendly",
+    "trolls",
+    "steam achievements",
+    "xbox controller support for pc",
+    "steam cloud",
+    "spider",
+    "dualshock 4 support for pc",
+    "voice acting",
+    "goblins",
+    "young protagonist",
+    "spellcaster",
+    "teenager",
+    "lock picking",
+    "controller support",
+    "in-app purchases",
+    "animated cutscenes",
+    "wand",
+    "full voice acting",
+    "spell caster",
+    "merlin",
+    "spells",
+    "spiders",
+    "steam families",
+    "cloud saves",
+    "dualsense support for pc",
+    "alcohol",
+    "woodland",
+    "cave",
+    "available on - luna plus"
+  ],
+  "alternative_names": [
+    {
+      "name": "霍格華茲的傳承",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "霍格沃兹之遗",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Hogwarts Legacy : L'Héritage de Poudlard",
+      "comment": "French title"
+    },
+    {
+      "name": "Phoenix-Win64-Test.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "Заветът на Хогуортс",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/hogwarts-legacy-switch/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/hogwarts-legacy"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/232447"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/hogwarts-legacy-xbox-series-x|s-version/9MT5NJ5W7B8Z"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/HogwartsLegacy"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/HogwartsLegacy"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hogwarts_Legacy"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/990080"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Hogwarts%20Legacy"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://hogwartslegacy.warnerbrosgames.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/HogwartsLegacy"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/HogwartsLegacy"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/HogwartsLegacy"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/HarryPotterGame/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://harrypotter.fandom.com/wiki/Hogwarts_Legacy"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Jun 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 10, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-10"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 05, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-05-05"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 10, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-10"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 07, 2023",
+      "status": "status_34",
+      "date_iso": "2023-02-07"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 07, 2023",
+      "status": "status_34",
+      "date_iso": "2023-02-07"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 10, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-10"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "May 05, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-05-05"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-14"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 07, 2023",
+      "status": "status_34",
+      "date_iso": "2023-02-07"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar79n.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5vnz.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "BsC-Rl9GYy0",
+      "url": "https://www.youtube.com/watch?v=BsC-Rl9GYy0"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "2AZmuZNu5LA",
+      "url": "https://www.youtube.com/watch?v=2AZmuZNu5LA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "lutoaYeUVhw",
+      "url": "https://www.youtube.com/watch?v=lutoaYeUVhw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "TFp1vsPz2H4",
+      "url": "https://www.youtube.com/watch?v=TFp1vsPz2H4"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "WS4qPq20aVo",
+      "url": "https://www.youtube.com/watch?v=WS4qPq20aVo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "64gYTiV-LAk",
+      "url": "https://www.youtube.com/watch?v=64gYTiV-LAk"
+    }
+  ]
+}

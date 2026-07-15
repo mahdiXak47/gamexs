@@ -1,0 +1,98 @@
+{
+  "slug": "playstation-vr-worlds",
+  "igdb_id": 24781,
+  "name": "PlayStation VR Worlds",
+  "summary": "Step into PlayStation VR Worlds and journey through five unique and exclusive PlayStationVR experiences.\n\nGo nose to nose with a great white shark, crawl through decaying space hulks, weave between oncoming traffic, survive a futuristic sport or take part in a gritty London gangster thriller.",
+  "first_release_year": 2016,
+  "developers": [
+    "SCE London Studio"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Virtual Reality"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "minigames",
+    "minigame collection",
+    "playstation experience 2016",
+    "pax west 2016"
+  ],
+  "alternative_names": [
+    {
+      "name": "The London Heist",
+      "comment": "Other"
+    },
+    {
+      "name": "VR Luge",
+      "comment": "Other"
+    },
+    {
+      "name": "Danger Ball",
+      "comment": "Other"
+    },
+    {
+      "name": "Into the Deep",
+      "comment": "Other"
+    },
+    {
+      "name": "Scavenger's Odyssey",
+      "comment": "Other"
+    },
+    {
+      "name": "VR Worlds",
+      "comment": "Abbreviation"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/PlayStation%20VR%20Worlds"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/221798"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/PlayStation_VR_Worlds"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.playstation.com/en-us/games/playstation-vr-worlds"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation VR",
+      "region": null,
+      "date": "Oct 13, 2016",
+      "status": "Released",
+      "date_iso": "2016-10-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1d3q.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "S48IDVMUDcE",
+      "url": "https://www.youtube.com/watch?v=S48IDVMUDcE"
+    }
+  ]
+}

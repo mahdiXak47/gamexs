@@ -1,0 +1,157 @@
+{
+  "slug": "spongebob-squarepants-the-patrick-star-نسخه-standard",
+  "igdb_id": 314939,
+  "name": "SpongeBob SquarePants: The Patrick Star Game",
+  "summary": "Patrick fans, your time has come – and Bikini Bottom is your open-world playground! You can skydive with just a parasol (or nothing at all), search for buried treasure in the Dump, or release the rage in Mrs. Puff’s Rage Room. Use almost any item you find, - from the reef blower to a paint can, - to make the world more Patrick. And take on challenges only Patrick would attempt, set by up SpongeBob, Sandy Cheeks, Mr. Krabs, and more. So become the Star of the show, put your silliest ideas into action, and enjoy the physics-based chaos that unfolds all around you!",
+  "first_release_year": 2024,
+  "developers": [
+    "PHL Collective"
+  ],
+  "publishers": [
+    "Outright Games"
+  ],
+  "genres": [
+    "Simulator",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Spongebob Squarepants"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Bob L'éponge : Patrick l'Étoile de Mer - Le Jeu ",
+      "comment": "French title"
+    },
+    {
+      "name": "The Patrick Star Game",
+      "comment": "Abbreviation"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/SpongeBob_SquarePants%3A_The_Patrick_Star_Game"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/spongebob-squarepants-the-patrick-star-game/9NMF3KXT4P4G"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007960"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/spongebob-squarepants-the-patrick-star-game"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://spongebob.fandom.com/wiki/The_Patrick_Star_Game"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/spongebob-squarepants-the-patrick-star-game-switch/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/OutrightGames/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/FcF6vJqFsU"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/outright_games/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://outrightgames.com/games/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@OutrightGames"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/outright_games"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2322380"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-04"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-04"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-04"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-04"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-04"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-04"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar33lu.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "5IMfRxbkIxM",
+      "url": "https://www.youtube.com/watch?v=5IMfRxbkIxM"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "PhFU5c-khi0",
+      "url": "https://www.youtube.com/watch?v=PhFU5c-khi0"
+    }
+  ]
+}

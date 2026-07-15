@@ -1,0 +1,179 @@
+{
+  "slug": "expeditions-a-mudrunner-game",
+  "igdb_id": 262534,
+  "name": "Expeditions: A MudRunner Game",
+  "summary": "Embark on scientific expeditions with this new off-road adventure from the creators of MudRunner and SnowRunner. Lead research missions as you drive a variety of all-terrain vehicles, using high-tech tools and managing your camp and crew to ensure your success in the wild.",
+  "first_release_year": 2024,
+  "developers": [
+    "Saber Interactive"
+  ],
+  "publishers": [
+    "Focus Entertainment"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Spintires",
+    "Mudrunner"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Swarm Engine"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Expeditions.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCtBg1H3RnyRtvhsakLrm1HA"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/expeditions-a-mudrunner-game"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008790"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/focusentmt"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/expeditions-a-mudrunner-game-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/expeditions-a-mudrunner-game/9NP9J3T0JWRL"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/focus_entmt/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Focus_entmt"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/FocusEntertainmentOfficial"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2477340/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/expeditions-a-mudrunner-game-e6bda2"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.focus-entmt.com/games/expeditions-a-mudrunner-game"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://spintires.fandom.com/wiki/Expeditions"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Expeditions/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Expeditions:_A_MudRunner_Game"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-05"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-05"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-05"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-05"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2hl9.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "GGEGqbVQnPw",
+      "url": "https://www.youtube.com/watch?v=GGEGqbVQnPw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "e6g0EzTpEqQ",
+      "url": "https://www.youtube.com/watch?v=e6g0EzTpEqQ"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "N_5Dj3dSJlQ",
+      "url": "https://www.youtube.com/watch?v=N_5Dj3dSJlQ"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "nOmoZ2FIDsw",
+      "url": "https://www.youtube.com/watch?v=nOmoZ2FIDsw"
+    }
+  ]
+}

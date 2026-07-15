@@ -1,0 +1,120 @@
+{
+  "slug": "rocket-arena-mythic-edition-ps4",
+  "igdb_id": 136456,
+  "name": "Rocket Arena: Mythic Edition",
+  "summary": "Rockets rule everything in Rocket Arena, an explosive 3v3 shooter where you're never out of the action. Master your hero's unique rockets and abilities to rule the arena and become a champion. Let's Rocket!\n\nThe Mythic Edition includes:\n- Guardian Phoenix Jayto Mythic Outfit\n- Frost Princess Kayi Outfit\n- Cyber Sailor Blastbeard Outfit\n- Stone Temple Izell Outfit\n- Pulsar Megablast Trail\n- Fragment Return Trail\n- 1000 Rocket Fuel",
+  "first_release_year": 2020,
+  "developers": [
+    "Final Strike Games"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1233550"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/rocket-arena"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/rocketarena"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/dPYnmGu"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/rocketarena"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCJ8gEWetIo9rmic8Ss4rpiA"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/rocketarena"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rocket_Arena_(video_game)"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/RocketArena"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/rocketarena"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 14, 2020",
+      "status": "Released",
+      "date_iso": "2020-07-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 14, 2020",
+      "status": "Released",
+      "date_iso": "2020-07-14"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 14, 2020",
+      "status": "Released",
+      "date_iso": "2020-07-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 14, 2020",
+      "status": "Released",
+      "date_iso": "2020-07-14"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "Pi1glpgx0EU",
+      "url": "https://www.youtube.com/watch?v=Pi1glpgx0EU"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "NZJ-tIQukmE",
+      "url": "https://www.youtube.com/watch?v=NZJ-tIQukmE"
+    }
+  ]
+}

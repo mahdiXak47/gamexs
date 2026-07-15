@@ -1,0 +1,119 @@
+{
+  "slug": "baby-shark-sing-and-swim-party",
+  "igdb_id": 254843,
+  "name": "Baby Shark: Sing & Swim Party",
+  "summary": "Swim across the wide ocean with the Shark Family to enjoy the Fin-tastic Festival. Choose from five customizable characters and play either in the runner or rhythmic game mode. Sing and swim to fin-omenal songs and get rewarded with tons of musical cards to add to your album.",
+  "first_release_year": 2023,
+  "developers": [
+    "Recotechnology"
+  ],
+  "publishers": [
+    "Outright Games"
+  ],
+  "genres": [
+    "Music",
+    "Adventure"
+  ],
+  "themes": [
+    "Kids",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "licensed game"
+  ],
+  "alternative_names": [
+    {
+      "name": "Baby Shark.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2075240"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/baby-shark-sing-and-swim-party-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005730"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://outrightgames.com/games/baby-shark-sing-swim-party/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 15, 2023",
+      "status": "Released",
+      "date_iso": "2023-09-15"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 15, 2023",
+      "status": "Released",
+      "date_iso": "2023-09-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2evb.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "CyJg1ZaZXlc",
+      "url": "https://www.youtube.com/watch?v=CyJg1ZaZXlc"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "P5mtTBdzMSM",
+      "url": "https://www.youtube.com/watch?v=P5mtTBdzMSM"
+    }
+  ]
+}

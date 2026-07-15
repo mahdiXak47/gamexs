@@ -1,0 +1,197 @@
+{
+  "slug": "red-dead-redemption-remastered",
+  "igdb_id": 260737,
+  "name": "Red Dead Redemption",
+  "summary": "A bundle containing ports of Red Dead Redemption and the Undead Nightmare expansion missing multiplayer components and including some parts of the GOTY release.",
+  "first_release_year": 2023,
+  "developers": [
+    "Rockstar Games"
+  ],
+  "publishers": [
+    "Rockstar Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "RAGE"
+  ],
+  "keywords": [
+    "western",
+    "poker",
+    "1910s",
+    "gambling",
+    "blackjack",
+    "snow",
+    "wolf",
+    "racism",
+    "dice",
+    "dog",
+    "economy",
+    "weapons swap",
+    "armadillo"
+  ],
+  "alternative_names": [
+    {
+      "name": "RDR",
+      "comment": "Acronym"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006164"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/red-dead-redemption-switch/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/red-dead-redemption"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/reddeadredemption"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Red_Dead_Redemption"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2668510/Red_Dead_Redemption/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/red-dead-redemption"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/reddeadredemption"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://reddead.wikia.com/wiki/Red_Dead_Redemption"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC_sqYbA2kXPSfwGcm28WOYw"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/rdr"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.rockstargames.com/reddeadredemption/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 04, 2023",
+      "status": "status_36",
+      "date_iso": "2023-10-04"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 02, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-02"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 02, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-02"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Dec 02, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-02"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Dec 02, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-02"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Dec 02, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-02"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-17"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 29, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5xte.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5xtd.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "t5Nwgd_T1-4",
+      "url": "https://www.youtube.com/watch?v=t5Nwgd_T1-4"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "KlylKoFgl80",
+      "url": "https://www.youtube.com/watch?v=KlylKoFgl80"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "hz-_LkXrC1w",
+      "url": "https://www.youtube.com/watch?v=hz-_LkXrC1w"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "SlkizyzZ8k4",
+      "url": "https://www.youtube.com/watch?v=SlkizyzZ8k4"
+    }
+  ]
+}

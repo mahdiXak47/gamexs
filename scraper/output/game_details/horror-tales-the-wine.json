@@ -1,0 +1,151 @@
+{
+  "slug": "horror-tales-the-wine",
+  "igdb_id": 139514,
+  "name": "Horror Tales: The Wine",
+  "summary": "Immerse yourself in a post-pandemic island and confront your worst fears! Explore a vast, vertical and mysterious world apparently abandoned and find the precious wine bottle to cure the illness that killed everyone. But be aware; someone is lurking in the dark.",
+  "first_release_year": 2021,
+  "developers": [
+    "Carlos Coronado"
+  ],
+  "publishers": [
+    "Carlos Coronado",
+    "Eastasiasoft",
+    "JanduSoft"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "physics",
+    "metroidvania",
+    "atmospheric",
+    "realism"
+  ],
+  "alternative_names": [
+    {
+      "name": "ホラー・テール: ザ ワイン",
+      "comment": "Japanese title - original"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/horror-tales-the-wine-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002840"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/CarlosGameDev"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1340640/HORROR_TALES_The_Wine"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/horror-tales-the-wine-3ab2b2"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/HORROR%20TALES%3A%20The%20Wine"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 24, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 30, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 30, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 24, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-24"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 24, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-24"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 30, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 30, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-30"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 30, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 30, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arcpb.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "Qe00cYLwMhg",
+      "url": "https://www.youtube.com/watch?v=Qe00cYLwMhg"
+    }
+  ]
+}

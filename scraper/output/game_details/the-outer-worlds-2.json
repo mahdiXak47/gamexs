@@ -1,0 +1,182 @@
+{
+  "slug": "the-outer-worlds-2",
+  "igdb_id": 152246,
+  "name": "The Outer Worlds 2",
+  "summary": "The Outer Worlds 2 is the sequel to the award-winning first-person sci-fi RPG from Obsidian Entertainment.",
+  "first_release_year": 2025,
+  "developers": [
+    "Obsidian Entertainment"
+  ],
+  "publishers": [
+    "Xbox Game Studios"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "The Outer Worlds"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "exploration",
+    "character customization",
+    "space",
+    "steam trading cards",
+    "story rich",
+    "steam achievements",
+    "xbox controller support for pc",
+    "steam cloud",
+    "controller support",
+    "steam families"
+  ],
+  "alternative_names": [
+    {
+      "name": "TheOuterWorlds2Dev.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1449110"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/obsidian"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/the-outer-worlds-2/9p8rmkxrml7d"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://theouterworlds2.wiki.fextralife.com/The+Outer+Worlds+2+Wiki"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Outer_Worlds_2"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/obsidian"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://outerworlds2.obsidian.net/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/obsidian"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@ObsidianEnt"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/obsidian"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP6312-PPSA24588_00-0872768154966924"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/the-outer-worlds-2"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 29, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-29"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 29, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 24, 2025",
+      "status": "status_34",
+      "date_iso": "2025-10-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 24, 2025",
+      "status": "status_34",
+      "date_iso": "2025-10-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 24, 2025",
+      "status": "status_34",
+      "date_iso": "2025-10-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 29, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar387i.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar42bo.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar42bn.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4jys.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ovo.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "ClhDyC0ZECs",
+      "url": "https://www.youtube.com/watch?v=ClhDyC0ZECs"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "I_rvTE-3S4c",
+      "url": "https://www.youtube.com/watch?v=I_rvTE-3S4c"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "EQ_PNu2c87A",
+      "url": "https://www.youtube.com/watch?v=EQ_PNu2c87A"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "Mta8Qj5DDjk",
+      "url": "https://www.youtube.com/watch?v=Mta8Qj5DDjk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "YtHvZbKYv8k",
+      "url": "https://www.youtube.com/watch?v=YtHvZbKYv8k"
+    }
+  ]
+}

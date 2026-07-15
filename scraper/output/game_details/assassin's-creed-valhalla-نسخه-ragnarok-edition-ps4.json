@@ -1,0 +1,152 @@
+{
+  "slug": "assassin's-creed-valhalla-نسخه-ragnarok-edition-ps4",
+  "igdb_id": 185706,
+  "name": "Assassin's Creed Valhalla: Dawn of Ragnarök",
+  "summary": "In the most ambitious expansion in franchise history, Eivor must embrace their destiny as Odin, the Norse god of Battle and Wisdom. Unleash new divine powers as you embark on a desperate quest through a breathtaking world. Complete a legendary Viking saga and save your son in the face of the gods’ doom.",
+  "first_release_year": 2022,
+  "developers": [
+    "Ubisoft Montreal"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Stealth",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Assassin's Creed"
+  ],
+  "spin_off_of": "Assassin's Creed Valhalla",
+  "franchises": [
+    "Assassin's Creed"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Assassin's Creed Valhalla: Dawn of Ragnarok",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Assassin's Creed Valhalla: Die Zeichen Ragnaröks",
+      "comment": "German title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.ubisoft.com/en-gb/game/assassins-creed/valhalla/post-launch/dawn-of-ragnarok"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/assassins-creed-valhalla--dawn-of-ragnarok"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2210140"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/ubisoft"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/assassinscreedUS"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/assassinscreed_us"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/assassinscreed"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/assassinscreed"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://assassinscreed.fandom.com/wiki/Dawn_of_Ragnar%C3%B6k"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/ac"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Assassin's_Creed_Valhalla"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/assassinscreed"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-10"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-10"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-10"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Mar 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-10"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1j51.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "1wiclO4a60A",
+      "url": "https://www.youtube.com/watch?v=1wiclO4a60A"
+    }
+  ]
+}

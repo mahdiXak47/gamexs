@@ -1,0 +1,156 @@
+{
+  "slug": "wanted-dead",
+  "igdb_id": 173091,
+  "name": "Wanted: Dead",
+  "summary": "Wanted: Dead promises \"spectacular melee combat and exciting gunplay,\" and is set in a \"dark and dangerous version of science-fiction Hong Kong where you will need sharpened skills to survive.\"",
+  "first_release_year": 2023,
+  "developers": [
+    "Soleil"
+  ],
+  "publishers": [
+    "110 Industries"
+  ],
+  "genres": [
+    "Shooter",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "cyberpunk"
+  ],
+  "alternative_names": [
+    {
+      "name": "WDGame.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/110industries"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wanted:_Dead"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003731"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://110industries.com/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/110industries"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/110industries"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/110industriesofficial"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1981610/Wanted_Dead"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/wanted-dead-798c3c"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/upFJXFPwxV"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCKaUOOjynO3Ky2i3o7yc7AA"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 14, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-14"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 14, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 14, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 14, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-14"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 14, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1tt3.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "qITxSJGL3B4",
+      "url": "https://www.youtube.com/watch?v=qITxSJGL3B4"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "aEtHcCQQE_E",
+      "url": "https://www.youtube.com/watch?v=aEtHcCQQE_E"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "t7hA_VmMq70",
+      "url": "https://www.youtube.com/watch?v=t7hA_VmMq70"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "v2-mFZJGxkw",
+      "url": "https://www.youtube.com/watch?v=v2-mFZJGxkw"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "9w4r9aOqlhA",
+      "url": "https://www.youtube.com/watch?v=9w4r9aOqlhA"
+    }
+  ]
+}

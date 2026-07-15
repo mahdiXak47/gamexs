@@ -1,0 +1,197 @@
+{
+  "slug": "crash-bandicoot-4-it-s-about-time",
+  "igdb_id": 135254,
+  "name": "Crash Bandicoot 4: It's About Time",
+  "summary": "Crash Bandicoot 4: It's About Time is the eighth Crash Bandicoot series game, though the fourth chronologically. The game retains the series' core platforming gameplay and adds new elements through the use of the Quantum Masks, who can alter levels and provide means to traverse or overcome obstacles. It also includes additional game modes for replaying levels, and the ability to control five characters, three of whom – Cortex, Dingodile, and Tawna – have their own unique gameplay and levels.",
+  "first_release_year": 2020,
+  "developers": [
+    "Toys for Bob"
+  ],
+  "publishers": [
+    "Activision"
+  ],
+  "genres": [
+    "Platform"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Side view"
+  ],
+  "series": [
+    "Crash Bandicoot"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Crash Bandicoot"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "time travel",
+    "mascot",
+    "time manipulation",
+    "sequel",
+    "level selection",
+    "3d platformer",
+    "alternate costumes",
+    "sequel by a different developer",
+    "crash bandicoot",
+    "multiple playable characters"
+  ],
+  "alternative_names": [
+    {
+      "name": "Crash 4",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "Crash Bandicoot 4: Это вопрос времени",
+      "comment": "Russian title"
+    },
+    {
+      "name": "Crash Bandicoot 4: Najwyższy czas",
+      "comment": "Polish title"
+    },
+    {
+      "name": "Crash Bandicoot 4",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "Краш Бандикут 4: Време е",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/crashbandicoot"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC9ktd916KolmGkOhnbSGZjQ"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Crash%20Bandicoot%204%3A%20It's%20About%20Time"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Crash_Bandicoot_4:_It%27s_About_Time"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000264"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/crash-bandicoot-4-its-about-time-switch/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://crashbandicoot.fandom.com/wiki/Crash_Bandicoot_4:_It%27s_About_Time"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.crashbandicoot.com/crash4/home"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1378990"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/CrashBandicoot"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/crashbandicoot"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 26, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-26"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 02, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-02"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 11, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-11"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 12, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-12"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 12, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-12"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 11, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-11"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 12, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-12"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 02, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-02"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7dk.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "5D8mJ4imNqY",
+      "url": "https://www.youtube.com/watch?v=5D8mJ4imNqY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "rlb-6_A7_n4",
+      "url": "https://www.youtube.com/watch?v=rlb-6_A7_n4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "u0uKPRxaMNI",
+      "url": "https://www.youtube.com/watch?v=u0uKPRxaMNI"
+    }
+  ]
+}

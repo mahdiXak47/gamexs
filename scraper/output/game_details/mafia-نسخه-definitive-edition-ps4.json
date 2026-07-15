@@ -1,0 +1,107 @@
+{
+  "slug": "mafia-نسخه-definitive-edition-ps4",
+  "igdb_id": 325379,
+  "name": "Mafia",
+  "summary": "Mafia is a psychological game played in a group, similar to Werewolf or Assassin. It takes strategic role playing to a whole new level. With the Mafia App, it’s easy to learn how to play Mafia. Each person in your group is randomly — and secretly — assigned a role, such as Mafia, Police, Doctor, Spy, Prostitute, and more. The peaceful Citizens try to figure out who has the Mafia role and eliminate them. The Mafia tries to eliminate Citizens. With each turn, tensions rise. Everybody claims to not be Mafia. But some of you are lying…",
+  "first_release_year": 2020,
+  "developers": [
+    "Keskinov"
+  ],
+  "publishers": [],
+  "genres": [],
+  "themes": [
+    "Survival",
+    "Party",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Multiplayer"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Mafia Online mit Video-Chat",
+      "comment": "German title"
+    },
+    {
+      "name": "화상 채팅으로 온라인 마피아",
+      "comment": "Korean title - translated"
+    },
+    {
+      "name": "Mafia Online z Czatem Wideo",
+      "comment": "Polish title"
+    },
+    {
+      "name": "Мафия онлайн с видеочатом",
+      "comment": "Russian title"
+    },
+    {
+      "name": "Mafia en Línea con Video Chat",
+      "comment": "Spanish title"
+    },
+    {
+      "name": "Mafia avec chat vidéo",
+      "comment": "French title"
+    },
+    {
+      "name": "Mafia Online With Video Chat",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://mafia-game.net/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@mafia-game"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.mafialab.mafia"
+    },
+    {
+      "label": "iPad",
+      "url": "https://apps.apple.com/us/app/mafia-game-with-video-chat/id1529019957"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Aug 15, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-08-15"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Aug 05, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-08-05"
+    },
+    {
+      "platform": "Web browser",
+      "region": null,
+      "date": "Jan 01, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-01-01"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5ole.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "t19rSwrrIR4",
+      "url": "https://www.youtube.com/watch?v=t19rSwrrIR4"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "slug": "little-nightmares-i-ii-bundle",
+  "igdb_id": 178179,
+  "name": "Little Nightmares I & II",
+  "summary": "This collection of two Little Nightmares games will introduce you to a lovely, frightening and iconic puzzle-platformer series, starting with the original from 2017.",
+  "first_release_year": 2021,
+  "developers": [
+    "Tarsier Studios"
+  ],
+  "publishers": [
+    "Bandai Namco Holdings"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Strategy",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Horror",
+    "Thriller",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "psychological horror",
+    "psychological thriller"
+  ],
+  "alternative_names": [
+    {
+      "name": "LITTLE NIGHTMARES-リトルナイトメア-１＆２セット",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "リトルナイトメア-１＆２セット",
+      "comment": "Japanese title - original"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/bundle/25271/Little_Nightmares_I__II/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/little_nightmares_i_ii_bundle"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/little-nightmares-i-and-ii-bundle-switch/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-28"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 05, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-05"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 05, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-05"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-28"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1m8j.jpg"
+  ],
+  "videos": []
+}

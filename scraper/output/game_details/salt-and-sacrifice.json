@@ -1,0 +1,155 @@
+{
+  "slug": "salt-and-sacrifice",
+  "igdb_id": 152065,
+  "name": "Salt and Sacrifice",
+  "summary": "Salt and Sacrifice is a 2D action role-playing game developed by Ska Studios and released in 2022. It serves as a follow-up to Salt and Sanctuary, introducing a more open, hunt-focused structure. Players take on the role of a Marked Inquisitor tasked with tracking and defeating powerful mages across interconnected regions.",
+  "first_release_year": 2022,
+  "developers": [
+    "Ska Studios"
+  ],
+  "publishers": [
+    "Ska Studios"
+  ],
+  "genres": [
+    "Platform",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Salt"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "metroidvania",
+    "action-adventure",
+    "atmospheric",
+    "soulslike",
+    "dark atmosphere"
+  ],
+  "alternative_names": [
+    {
+      "name": "솔트 앤 새크리파이스",
+      "comment": "Korean title"
+    },
+    {
+      "name": "ProjectMage.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003231"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/salt-and-sacrifice-switch/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/salt-and-sacrifice"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/skastudios/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://ska-studios.com/games/salt-and-sacrifice"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/vhJg65yH"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/skastudios"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1437400"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/skastudios"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Salt_and_Sacrifice"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-10"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 07, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-07"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-10"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1bqv.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ZnBkp9ascxc",
+      "url": "https://www.youtube.com/watch?v=ZnBkp9ascxc"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "DljZ9-pW8I0",
+      "url": "https://www.youtube.com/watch?v=DljZ9-pW8I0"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "P7cuQRCASCQ",
+      "url": "https://www.youtube.com/watch?v=P7cuQRCASCQ"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "HJ3Vc66jI2A",
+      "url": "https://www.youtube.com/watch?v=HJ3Vc66jI2A"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "UZuIbooK28E",
+      "url": "https://www.youtube.com/watch?v=UZuIbooK28E"
+    }
+  ]
+}

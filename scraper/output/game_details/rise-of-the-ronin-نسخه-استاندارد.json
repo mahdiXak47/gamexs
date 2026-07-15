@@ -1,0 +1,145 @@
+{
+  "slug": "rise-of-the-ronin-نسخه-استاندارد",
+  "igdb_id": 217594,
+  "name": "Rise of the Ronin",
+  "summary": "Rise of the Rōnin is a combat focused open-world action RPG that takes place in Japan at a time of great change. It is the very end of a 300-year long Edo Period, commonly known as “Bakumatsu”. Set in the late 19th century, Japan is facing the darkest of times as it struggles with its oppressive rulers and deadly diseases while western influence permeates as civil war continues to rage between the Tokugawa Shogunate and the Anti-Shogunate factions.",
+  "first_release_year": 2024,
+  "developers": [
+    "Team NINJA"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment",
+    "Koei Tecmo Games Co."
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Historical"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Katana Engine"
+  ],
+  "keywords": [
+    "exploration",
+    "japan"
+  ],
+  "alternative_names": [
+    {
+      "name": "Rise of the Rōnin",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "浪人崛起",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "浪人崛起",
+      "comment": "Chinese title - simplified"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://koeitecmo.wiki/wiki/Rise_of_the_R%C5%8Dnin"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003386"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/koeitecmogames/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://teamninja-studio.com/ronin/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/riseoftheronin/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rise_of_the_R%C5%8Dnin"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Rise%20of%20the%20Ronin"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCWfeEWPg3h0jyaGY7EceTZg"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/TeamNINJAStudio"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1340990/Rise_of_the_Ronin/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 10, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 22, 2024",
+      "status": "Released",
+      "date_iso": "2024-03-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2ou6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2ou4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4u6t.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4u6s.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "0gwsQvDGh4o",
+      "url": "https://www.youtube.com/watch?v=0gwsQvDGh4o"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "6NWkzt0pQvw",
+      "url": "https://www.youtube.com/watch?v=6NWkzt0pQvw"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "JydfazusHfI",
+      "url": "https://www.youtube.com/watch?v=JydfazusHfI"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "mkax2cZKVUY",
+      "url": "https://www.youtube.com/watch?v=mkax2cZKVUY"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "W-SIU_2lTLo",
+      "url": "https://www.youtube.com/watch?v=W-SIU_2lTLo"
+    }
+  ]
+}

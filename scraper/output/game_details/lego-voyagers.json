@@ -1,0 +1,148 @@
+{
+  "slug": "lego-voyagers",
+  "igdb_id": 347646,
+  "name": "LEGO Voyagers",
+  "summary": "From the makers of LEGO Builder's Journey comes a new 2-player co-op adventure about friendship and play. When two friends make it their mission to rescue an abandoned spaceship, they embark on a journey beyond their wildest dreams.",
+  "first_release_year": 2025,
+  "developers": [
+    "Light Brick Studio"
+  ],
+  "publishers": [
+    "Annapurna Interactive"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Kids"
+  ],
+  "game_modes": [
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "LEGO"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "exploration",
+    "steam achievements",
+    "xbox controller support for pc",
+    "steam cloud",
+    "remote play",
+    "controller support",
+    "steam deck",
+    "steam families"
+  ],
+  "alternative_names": [
+    {
+      "name": "EOSBootstrapper.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://legovoyagers.com/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/lego-voyagers-switch/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/lego-voyagers"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lego_Voyagers"
+    },
+    {
+      "label": "Epic",
+      "url": "https://epicgames.com/p/lego-voyagers-9b1851"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1538550"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/lego-voyagers/9NKD66G942R8"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10011346"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 15, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 15, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 15, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 15, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-15"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Sep 15, 2025",
+      "status": "Released",
+      "date_iso": "2025-09-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 15, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3oe7.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar48d2.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3oe8.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "YnBikeqGp6w",
+      "url": "https://www.youtube.com/watch?v=YnBikeqGp6w"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "S70yl1zYGNI",
+      "url": "https://www.youtube.com/watch?v=S70yl1zYGNI"
+    }
+  ]
+}

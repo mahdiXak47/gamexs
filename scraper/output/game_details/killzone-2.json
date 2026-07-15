@@ -1,0 +1,147 @@
+{
+  "slug": "killzone-2",
+  "igdb_id": 1866,
+  "name": "Killzone 2",
+  "summary": "Killzone 2 is the third game in the Killzone franchise and continues the story two years after the events of the first two games. The gameplay consists of what the developers describe as Hollywood Realism, focusing on scripted, cinematic gameplay. The game is played entirely from the first-person perspective, except for the portions with vehicular combat with a tank and an exoskeleton. Next to the single-player campaign, there is squad-based multiplayer called Warzone with five different kinds of missions (Assassination, Search & Retrieve, Search & Destroy, Bodycount and Capture & Hold) based on seven kinds of classes. There is support for up to 32 players, with the addition of bots to fill the remaining spots.",
+  "first_release_year": 2009,
+  "developers": [
+    "Guerrilla Games"
+  ],
+  "publishers": [
+    "Sony Computer Entertainment"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Killzone"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Killzone"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "military",
+    "futuristic",
+    "platform exclusive",
+    "real-time combat",
+    "mercenary",
+    "linear gameplay",
+    "bots",
+    "playstation home tie-in"
+  ],
+  "alternative_names": [
+    {
+      "name": "KZ2",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "KILLZONE 2",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/killzonedotcom"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/killzone"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Killzone%202"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Killzone_2"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.killzone.com/en_GB/killzone2.html"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://killzone.wikia.com/wiki/Killzone_2"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Apr 23, 2009",
+      "status": "Released",
+      "date_iso": "2009-04-23"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Feb 26, 2009",
+      "status": "Released",
+      "date_iso": "2009-02-26"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Feb 27, 2009",
+      "status": "Released",
+      "date_iso": "2009-02-27"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Feb 25, 2009",
+      "status": "Released",
+      "date_iso": "2009-02-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/jlyrtcyi2wzkly6gv5vs.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ucmlj9uymx95qn0zur5m.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/csnwoxffrtm6jzhtdku1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/sujq6svx1d05thjq5str.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/nf7ooqpkqfl5qifw5ti4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/n4a9gkivn0bcoycp6n11.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/bukik9btkmbhbki3kkrq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/sp5d1zshzoxyow9bbcxq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/jxj6tf7ui6xhkszzsj1f.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/m2ciecyqynw6y764zyxj.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/c9jjzdeuvedlc1m4dccy.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "ZFOugKGWSeE",
+      "url": "https://www.youtube.com/watch?v=ZFOugKGWSeE"
+    },
+    {
+      "title": "Game Intro",
+      "youtube_id": "LRNwgE4iPJg",
+      "url": "https://www.youtube.com/watch?v=LRNwgE4iPJg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "dwrp9hndH_U",
+      "url": "https://www.youtube.com/watch?v=dwrp9hndH_U"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "tQ1EU9CLJrw",
+      "url": "https://www.youtube.com/watch?v=tQ1EU9CLJrw"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "slug": "asterigos-curse-of-the-stars",
+  "igdb_id": 169994,
+  "name": "Asterigos: Curse of the Stars",
+  "summary": "Embark on a journey full of danger in this action RPG, inspired by Greek and Roman mythologies. Explore the breathtaking city of Aphes and forge your way through legions of unique foes and mythical bosses to discover the truth behind the city’s curse.",
+  "first_release_year": 2022,
+  "developers": [
+    "Acme Gamestudio"
+  ],
+  "publishers": [
+    "tinyBuild"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Historical"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "greek mythology",
+    "roman mythology",
+    "action-rpg"
+  ],
+  "alternative_names": [
+    {
+      "name": "Asterigos",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Asterigos.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005233"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/asterigos-curse-of-the-stars/9PB5XB3FM6XC"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1731070"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.asterigos.com/en"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/asterigos_curse_of_the_stars"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/asterigos-424313"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Asterigos:%20Curse%20of%20the%20Stars"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/MqErEDrf8Z"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/ACME58512734"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCTZmUQ0axuj8nhXSAYEf03A"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Asterigos"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 11, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-11"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 11, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-11"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 11, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-11"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 11, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-11"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 11, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-11"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1m0b.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "2Kp-m1RqwYc",
+      "url": "https://www.youtube.com/watch?v=2Kp-m1RqwYc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "C4raEawECDQ",
+      "url": "https://www.youtube.com/watch?v=C4raEawECDQ"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "Ur5LxWDSfWA",
+      "url": "https://www.youtube.com/watch?v=Ur5LxWDSfWA"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "-Cun756o5Ms",
+      "url": "https://www.youtube.com/watch?v=-Cun756o5Ms"
+    }
+  ]
+}

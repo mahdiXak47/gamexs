@@ -1,0 +1,139 @@
+{
+  "slug": "football-manager-2023",
+  "igdb_id": 216178,
+  "name": "Football Manager 2023",
+  "summary": "New tools thrust you closer to every aspect of the beautiful game in FM23. Get ready for your journey towards footballing glory.",
+  "first_release_year": 2022,
+  "developers": [
+    "Sports Interactive"
+  ],
+  "publishers": [
+    "Sega"
+  ],
+  "genres": [
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [
+    "Business"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Football Manager"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Football Manager 2023 Console",
+      "comment": "Console title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "iPhone",
+      "url": "http://itunes.apple.com/us/app/id1626267810#?platform=iphone"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.footballmanager.com/"
+    },
+    {
+      "label": "iPad",
+      "url": "http://itunes.apple.com/us/app/id1626267810#?platform=ipad"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004729"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/football-manager-2023"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1904540"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Football%20Manager%202023"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-08"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-08"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-08"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Nov 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-08"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Nov 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-08"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Nov 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-08"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 01, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-01"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1u4y.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "ISJxT7VLzYg",
+      "url": "https://www.youtube.com/watch?v=ISJxT7VLzYg"
+    }
+  ]
+}

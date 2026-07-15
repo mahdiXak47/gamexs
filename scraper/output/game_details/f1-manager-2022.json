@@ -1,0 +1,178 @@
+{
+  "slug": "f1-manager-2022",
+  "igdb_id": 193538,
+  "name": "F1 Manager 2022",
+  "summary": "Make your mark on Formula 1 in the officially licensed F1 Manager 2022. Choose your team and be the boss with the full 2022 roster of staff and drivers. Featuring full F1 licensing and true-to-life presentation.",
+  "first_release_year": 2022,
+  "developers": [
+    "Frontier Developments"
+  ],
+  "publishers": [
+    "Frontier Developments"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport",
+    "Strategy"
+  ],
+  "themes": [
+    "Business"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Text"
+  ],
+  "series": [
+    "F1 Manager"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Formula 1"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "pve",
+    "immersive"
+  ],
+  "alternative_names": [
+    {
+      "name": "F1 マネージャー2022",
+      "comment": "Japanese title - original"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004281"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1708520"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/F1ManagerGame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/F1Manager"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/F1_Manager_2022"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.f1manager.com/2022/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/f1-manager-2022"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/F1Manager"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@F1-Manager-game"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/f1-manager-2022/9P5ZSRKCJ6VG"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://f1.fandom.com/wiki/F1_Manager_2022"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/F1Manager/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discordapp.com/invite/76RYP3B83C"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/f1-manager-2022"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-30"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1ic0.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "6m-pNGzZ5QM",
+      "url": "https://www.youtube.com/watch?v=6m-pNGzZ5QM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "gLRcq9OitJ8",
+      "url": "https://www.youtube.com/watch?v=gLRcq9OitJ8"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "LULVyZhMbHY",
+      "url": "https://www.youtube.com/watch?v=LULVyZhMbHY"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "T6DCSwimUBA",
+      "url": "https://www.youtube.com/watch?v=T6DCSwimUBA"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "PWolO2D0H6Q",
+      "url": "https://www.youtube.com/watch?v=PWolO2D0H6Q"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "qKlhQg4CA7E",
+      "url": "https://www.youtube.com/watch?v=qKlhQg4CA7E"
+    }
+  ]
+}

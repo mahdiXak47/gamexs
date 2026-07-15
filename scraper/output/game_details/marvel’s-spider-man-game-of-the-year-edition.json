@@ -1,0 +1,73 @@
+{
+  "slug": "marvel’s-spider-man-game-of-the-year-edition",
+  "igdb_id": 122095,
+  "name": "Marvel's Spider-Man: Game of the Year Edition",
+  "summary": "Experience the Game of the Year Edition of Marvel’s Spider-Man, which includes the full game, plus Marvel’s Spider-Man: The City That Never Sleeps complete DLC story arc content.\n\nThis isn’t the Spider-Man you’ve met or ever seen before. This is an experienced Peter Parker who’s more masterful at fighting big crime in New York City. At the same time, he’s struggling to balance his chaotic personal life and career while the fate of Marvel’s New York rest upon his shoulders.",
+  "first_release_year": 2019,
+  "developers": [
+    "Insomniac Games"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Spider-Man",
+    "Marvel"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000762"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.playstation.com/en-us/games/marvels-spider-man-ps4/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 28, 2019",
+      "status": "Released",
+      "date_iso": "2019-08-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 28, 2019",
+      "status": "Released",
+      "date_iso": "2019-08-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1cih.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1cig.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "LTqczRnNqDc",
+      "url": "https://www.youtube.com/watch?v=LTqczRnNqDc"
+    }
+  ]
+}

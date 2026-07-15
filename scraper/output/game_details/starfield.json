@@ -1,0 +1,203 @@
+{
+  "slug": "starfield",
+  "igdb_id": 96437,
+  "name": "Starfield",
+  "summary": "Starfield is a single-player action role-playing game developed by Bethesda Game Studios and set in an open-world space environment. Players create a customizable character and explore a region of the Milky Way galaxy spanning approximately 50 light-years, landing on over 1,000 planets with procedurally generated landscapes. Gameplay includes first-person and third-person combat using firearms, explosives, and melee weapons, as well as spaceship construction, outpost building, resource gathering, and crafting. Players recruit companion characters, join factions, and progress through skill trees spanning Physical, Social, Combat, Science, and Tech categories.",
+  "first_release_year": 2023,
+  "developers": [
+    "Bethesda Game Studios"
+  ],
+  "publishers": [
+    "Bethesda Softworks"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Creation Engine 2"
+  ],
+  "keywords": [
+    "space",
+    "space exploration",
+    "spaceship customization",
+    "space combat",
+    "the game awards - most anticipated game - nominee",
+    "the game awards - best roleplaying game - nominee",
+    "nasa punk"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/starfield.bethesdastudios.com"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/starfield/9NCJSXWZTP88"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://starfield.fandom.com/wiki/Starfield"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1716740"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Starfield"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://bethesda.net/en/game/starfield"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/bethesdastudios"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/bethesda"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Starfield"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Starfield_(video_game)"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/starfieldgame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/starfieldgame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/starfieldgame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10011934"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 01, 2023",
+      "status": "status_34",
+      "date_iso": "2023-09-01"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 01, 2023",
+      "status": "status_34",
+      "date_iso": "2023-09-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-06"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 07, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-07"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar91m.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar67ei.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Dev Diary",
+      "youtube_id": "tvYuWDps7dE",
+      "url": "https://www.youtube.com/watch?v=tvYuWDps7dE"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "oIC9yW1Gy3M",
+      "url": "https://www.youtube.com/watch?v=oIC9yW1Gy3M"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "JUobbpHERh8",
+      "url": "https://www.youtube.com/watch?v=JUobbpHERh8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "B-LlfIXT8to",
+      "url": "https://www.youtube.com/watch?v=B-LlfIXT8to"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "zmb2FJGvnAw",
+      "url": "https://www.youtube.com/watch?v=zmb2FJGvnAw"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "raWbElTCea8",
+      "url": "https://www.youtube.com/watch?v=raWbElTCea8"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "uMOPoAq5vIA",
+      "url": "https://www.youtube.com/watch?v=uMOPoAq5vIA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "-VwQQ2t1xKA",
+      "url": "https://www.youtube.com/watch?v=-VwQQ2t1xKA"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "ZALcfZ-m0Kc",
+      "url": "https://www.youtube.com/watch?v=ZALcfZ-m0Kc"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "xUS6igFziPc",
+      "url": "https://www.youtube.com/watch?v=xUS6igFziPc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "WhfHnKmcXAE",
+      "url": "https://www.youtube.com/watch?v=WhfHnKmcXAE"
+    }
+  ]
+}

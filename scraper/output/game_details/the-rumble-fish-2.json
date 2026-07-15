@@ -1,0 +1,120 @@
+{
+  "slug": "the-rumble-fish-2",
+  "igdb_id": 222946,
+  "name": "The Rumble Fish 2",
+  "summary": "A legendary arcade game developed by Dimps in 2005. This fighting game gained popularity for its smooth visuals powered by S.M.A as well as the high level of strategy driven by its 2-gauges system. And with the addition of new current-gen features it's even easier to play.",
+  "first_release_year": 2022,
+  "developers": [
+    "Dimps"
+  ],
+  "publishers": [
+    "3goo"
+  ],
+  "genres": [
+    "Fighting",
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": "The Rumble Fish 2",
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "time attack"
+  ],
+  "alternative_names": [
+    {
+      "name": "ザ・ランブルフィッシュ２",
+      "comment": "Japanese title - original"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005374"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/the-rumble-fish-2-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.therumblefish2.com/en/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2059960/The_Rumble_Fish_2"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-07-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-07-28"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 07, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-07"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-08"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 07, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-07"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1yv1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1yww.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1yxp.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "gtrhFxv-2WA",
+      "url": "https://www.youtube.com/watch?v=gtrhFxv-2WA"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "JHBPAQzu_nQ",
+      "url": "https://www.youtube.com/watch?v=JHBPAQzu_nQ"
+    }
+  ]
+}

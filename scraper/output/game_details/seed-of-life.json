@@ -1,0 +1,124 @@
+{
+  "slug": "seed-of-life",
+  "igdb_id": 117261,
+  "name": "Seed of Life",
+  "summary": "Seed of Life is an epic adventure game about the persistence of life. You're Cora, the last known survivor of Lumia, a dying planet. Your only hope to save your homeworld is to activate the Seed of Life and rekindle the sun once again. Will you be the light that conquers the darkness?",
+  "first_release_year": 2021,
+  "developers": [
+    "MadLight"
+  ],
+  "publishers": [
+    "Leonardo Interactive",
+    "GS2 Games"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Drama"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "3d",
+    "female protagonist"
+  ],
+  "alternative_names": [
+    {
+      "name": "SeedOfLife.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/seed-of-life-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008989"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1030060"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Seed%20of%20Life"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 11, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-08-11"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 03, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-03"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 30, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-05-30"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 30, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-05-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 06, 2024",
+      "status": "Released",
+      "date_iso": "2024-08-06"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 06, 2024",
+      "status": "Released",
+      "date_iso": "2024-08-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arfi8.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "-o_VkztbUOY",
+      "url": "https://www.youtube.com/watch?v=-o_VkztbUOY"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "3Z8wGWOcuT8",
+      "url": "https://www.youtube.com/watch?v=3Z8wGWOcuT8"
+    }
+  ]
+}

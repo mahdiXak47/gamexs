@@ -1,0 +1,159 @@
+{
+  "slug": "pac-man-world-re-pac",
+  "igdb_id": 206811,
+  "name": "Pac-Man World Re-Pac",
+  "summary": "With polished graphics, enhanced gameplay, and updated features, Pac-Man World Re-Pac is action/platforming fun for both experienced Pac-fans and new Pac-thusiasts the world over!",
+  "first_release_year": 2022,
+  "developers": [
+    "NOW Production"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Side view"
+  ],
+  "series": [
+    "PAC-MAN World",
+    "Pac-Man"
+  ],
+  "spin_off_of": "Pac-Man World",
+  "franchises": [
+    "Pac-Man"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "male protagonist"
+  ],
+  "alternative_names": [
+    {
+      "name": "PAC-MAN WORLD Re-PAC",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "PAC-MAN WORLD Re-PAC.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1859470"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pac-Man_World"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/NamcoBandaiGamesEU"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/pac-man-world-re-pac-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003398"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/pac-man-world-re-pac/9P8XPNNN3VPL"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://en.bandainamcoent.eu/pac-man/pac-man-world-re-pac"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/BandaiNamcoEU"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/bandainamcoeu"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Pac-Man%20World%20Re-Pac"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/bandainamcoeu"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://pacman.fandom.com/wiki/Pac-Man_World_Re-Pac"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 25, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 26, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-26"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 26, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-26"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 26, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-26"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 26, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-26"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 26, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-26"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar493z.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar493y.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4940.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "yJwxLT5zyxo",
+      "url": "https://www.youtube.com/watch?v=yJwxLT5zyxo"
+    }
+  ]
+}

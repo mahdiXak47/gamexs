@@ -1,0 +1,136 @@
+{
+  "slug": "towa-and-the-guardians-of-the-sacred-tree",
+  "igdb_id": 347657,
+  "name": "Towa and the Guardians of the Sacred Tree",
+  "summary": "In this Roguelite set in a far-off mystic realm, ancient forces stir, and untold dangers await. As Towa, lead the guardians of the sacred tree in forging strong relationships and powerful swords to fight Magatsu’s forces and determine the future of Shinju Village.",
+  "first_release_year": 2025,
+  "developers": [
+    "Brownies"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "永久与神树的祈愿者",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "永久與神樹的祈願者",
+      "comment": "Chinese title - traditional"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/towa-and-the-guardians-of-the-sacred-tree-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/towa-and-the-guardians-of-the-sacred-tree/9P3BBJCG9WNZ"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP0700-PPSA25938_00-MAINGAME00000000"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.bandainamcoent.com/games/towa-and-the-guardians-of-the-sacred-tree"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://towa-and-the-guardians-of-the-sacred-tree.fandom.com/wiki/Towa_and_the_Guardians_of_the_Sacred_Tree_Wiki"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/TowaandtheGuardians"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/towa-and-the-guardians-of-the-sacred-tree"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1910090"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 19, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 19, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 19, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-19"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 19, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3oet.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3of7.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "VmqwKRm0hRY",
+      "url": "https://www.youtube.com/watch?v=VmqwKRm0hRY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Mtu17D_rNV8",
+      "url": "https://www.youtube.com/watch?v=Mtu17D_rNV8"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "QKGHjVCKKQY",
+      "url": "https://www.youtube.com/watch?v=QKGHjVCKKQY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "khhPaDwwEYE",
+      "url": "https://www.youtube.com/watch?v=khhPaDwwEYE"
+    }
+  ]
+}

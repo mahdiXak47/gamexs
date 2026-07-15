@@ -1,0 +1,135 @@
+{
+  "slug": "flint-treasure-of-oblivion",
+  "igdb_id": 295635,
+  "name": "Flint: Treasure of Oblivion",
+  "summary": "Experience the golden age of piracy through a strong and original narrative, real-time exploration and turn-based tactical combat in Flint - Treasure of Oblivion.",
+  "first_release_year": 2024,
+  "developers": [
+    "Savage Level"
+  ],
+  "publishers": [
+    "Microids"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Strategy",
+    "Turn-based strategy (TBS)",
+    "Tactical",
+    "Adventure"
+  ],
+  "themes": [
+    "Fantasy",
+    "Historical"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "pirates",
+    "realism",
+    "alternate reality",
+    "comic book cutscene",
+    "latin america"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2366130/Flint__Treasure_of_Oblivion/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/flint-treasure-of-oblivion"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/PlayFlintGame/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/flint_the_treasure_of_oblivion"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/microids_official"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/microids"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/microids"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007641"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.microids.com/flint-treasure-of-oblivion-2/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/flint-the-treasure-of-oblivion-d6c738"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@MicroidsOff"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2vo7.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar34im.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar34in.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "tr7DZEm4sE4",
+      "url": "https://www.youtube.com/watch?v=tr7DZEm4sE4"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "KicdsYswcto",
+      "url": "https://www.youtube.com/watch?v=KicdsYswcto"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "u0gy46Pj34k",
+      "url": "https://www.youtube.com/watch?v=u0gy46Pj34k"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "slug": "agatha-christie-death-on-the-nile-نسخه-محدود",
+  "igdb_id": 326130,
+  "name": "Agatha Christie: Death on the Nile",
+  "summary": "Death on the Nile is an adventure-detective game, offering a fresh twist on Agatha Christie’s famous story. Set in the lively 1970s, play as Hercule Poirot and detective Jane Royce as they solve two connected mysteries. Dive into a journey filled with intrigue, deception, and unexpected revelations.",
+  "first_release_year": 2025,
+  "developers": [
+    "Microids Studio Lyon"
+  ],
+  "publishers": [
+    "Microids"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Thriller",
+    "Drama",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Hercule Poirot 2023"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Agatha Christie"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "detective",
+    "investigation",
+    "3d",
+    "female protagonist",
+    "modern",
+    "murder mystery",
+    "based on - book",
+    "narration",
+    "crime",
+    "atmospheric",
+    "psychological",
+    "realistic",
+    "story rich",
+    "colorful",
+    "text-based",
+    "logic",
+    "hercule poirot",
+    "available on - blacknut"
+  ],
+  "alternative_names": [
+    {
+      "name": "Agatha Christie - Death on the Nile.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "Agatha Christie – Mort sur le Nil",
+      "comment": "French title"
+    },
+    {
+      "name": "Agatha Christie - Death on the Nile",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3150480/Agatha_Christie__Death_on_the_Nile/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/microids"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/MicroidsLyon"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/agatha-christie-death-on-the-nile/9pc9xbhmmcft"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/agatha-christie-death-on-the-nile-2025"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://agathachristie.fandom.com/wiki/Agatha_Christie:_Death_on_the_Nile_(2025_video_game)"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10013650"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/agatha-christie-death-on-the-nile-switch/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/agatha-christie-death-on-the-nile-1c0cee"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/agatha_christie_death_on_the_nile"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 25, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-25"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 25, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 25, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 25, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3awd.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "deE-kzpkgNo",
+      "url": "https://www.youtube.com/watch?v=deE-kzpkgNo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "2ma2IrjEr54",
+      "url": "https://www.youtube.com/watch?v=2ma2IrjEr54"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "slug": "final-fantasy-vii-rebirth",
+  "igdb_id": 133236,
+  "name": "Final Fantasy VII Rebirth",
+  "summary": "Final Fantasy VII Rebirth is the second entry in the Final Fantasy VII remake project, which retells the story of the genre-redefining RPG across three distinct games. Iconic heroes Cloud, Barret, Tifa, Aerith and Red XIII have escaped from the dystopian city Midgar and are now in pursuit of Sephiroth, the vengeful swordsman from Cloud’s past who was thought to be dead.",
+  "first_release_year": 2024,
+  "developers": [
+    "Square Enix Creative Business Unit I"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Strategy",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Final Fantasy",
+    "Compilation of Final Fantasy VII",
+    "Final Fantasy VII Remake",
+    "Final Fantasy VII"
+  ],
+  "spin_off_of": "Final Fantasy VII",
+  "franchises": [
+    "Final Fantasy"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "the game awards - best score or music - winner",
+    "the game awards - best audio design - nominee",
+    "the game awards - best game direction - nominee",
+    "the game awards - best narrative - nominee",
+    "the game awards - best performance - nominee",
+    "the game awards - best roleplaying game - nominee",
+    "the game awards - game of the year - nominee",
+    "the game awards - most anticipated game - winner"
+  ],
+  "alternative_names": [
+    {
+      "name": "Final Fantasy VII Remake Part II",
+      "comment": "Rumored title"
+    },
+    {
+      "name": "Final Fantasy VII 重生",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "Final Fantasy 7 Rebirth",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "FFVII Rebirth",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "FF7 Rebirth",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "FINAL FANTASY VII REBIRTH",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://finalfantasywiki.com/wiki/Final_Fantasy_VII_Rebirth"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003999"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/FinalFantasy7_Rebirth/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/finalfantasy"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/finalfantasyvii/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/finalfantasyvii"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/finalfantasyvii"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://ffvii.square-enix-games.com/games/rebirth/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Final_Fantasy_VII_Rebirth"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/final-fantasy-vii-rebirth"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2909400/FINAL_FANTASY_VII_REBIRTH/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/final-fantasy-vii-rebirth"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/final-fantasy-vii-rebirth/9n4728d0t6jn"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/final-fantasy-vii-rebirth-switch-2/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-01-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 29, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-29"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Jun 03, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-06-03"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 03, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-06-03"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar61fx.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar61fy.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar61fz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3nl5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar58fq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5cd6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5za5.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "H_4CkyOmuuU",
+      "url": "https://www.youtube.com/watch?v=H_4CkyOmuuU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "HkD8BCCYsS0",
+      "url": "https://www.youtube.com/watch?v=HkD8BCCYsS0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "okGnXYjvJRM",
+      "url": "https://www.youtube.com/watch?v=okGnXYjvJRM"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "lNVL-ygqw3w",
+      "url": "https://www.youtube.com/watch?v=lNVL-ygqw3w"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "1bzWvyncQh8",
+      "url": "https://www.youtube.com/watch?v=1bzWvyncQh8"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "KOhs9ZLImgE",
+      "url": "https://www.youtube.com/watch?v=KOhs9ZLImgE"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "08qdAc3jh8Y",
+      "url": "https://www.youtube.com/watch?v=08qdAc3jh8Y"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "6dbPcO5TFhY",
+      "url": "https://www.youtube.com/watch?v=6dbPcO5TFhY"
+    }
+  ]
+}

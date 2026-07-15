@@ -1,0 +1,112 @@
+{
+  "slug": "thief-vr-legacy-of-shadow",
+  "igdb_id": 347124,
+  "name": "Thief VR: Legacy of Shadow",
+  "summary": "Step into the shadows in Thief VR. You are Magpie, a cunning thief orphaned by Baron Northcrest and shaped by the streets. Use VR mechanics to steal, evade, and outsmart the City's forces. Your goal? A relic in Northcrest's vault, which uncovers a far greater artifact with a powerful legacy.",
+  "first_release_year": 2025,
+  "developers": [
+    "Maze Theory"
+  ],
+  "publishers": [
+    "Vertigo Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Simulator",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Virtual Reality"
+  ],
+  "series": [
+    "Thief"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Shadow.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (25)",
+      "url": "https://www.meta.com/en-us/experiences/thief-vr-legacy-of-shadow/6429437293824115/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/thief"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Thief/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2800080/Thief_VR_Legacy_of_shadow/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://thiefvr.com/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-gb/concept/10010853"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thief_VR:_Legacy_of_Shadow"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Meta Quest 2",
+      "region": null,
+      "date": "Dec 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-04"
+    },
+    {
+      "platform": "Meta Quest 3",
+      "region": null,
+      "date": "Dec 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-04"
+    },
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "Dec 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-04"
+    },
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "Dec 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-04"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3nwg.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "xrtbCcnZEhQ",
+      "url": "https://www.youtube.com/watch?v=xrtbCcnZEhQ"
+    }
+  ]
+}

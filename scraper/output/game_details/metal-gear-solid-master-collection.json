@@ -1,0 +1,109 @@
+{
+  "slug": "metal-gear-solid-master-collection",
+  "igdb_id": 393638,
+  "name": "Metal Gear Solid: Master Collection Version",
+  "summary": "Released in 1998, this was the first 3D title in the Metal Gear series. The game pioneers 3D stealth action against the threat of war and global nuclear weapons, using live action footage, cinematic cut scenes, interwoven with innovative gameplay. The storyline, a whirlwind of intrigue and betrayal, has been hailed as the greatest story of the 20th century and was the third title in the Metal Gear series to become a hit in subsequent years.",
+  "first_release_year": 2023,
+  "developers": [
+    "M2"
+  ],
+  "publishers": [
+    "Konami"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Metal Gear",
+    "Metal Gear Solid"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Metal Gear Solid - Master Collection Version PS4 & PS5",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/metal-gear-solid-master-collection-version/9PH8LGJLKLNS/0010"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP0101-PPSA14363_00-METALGEARSOLID01"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/metal-gear-solid-master-collection-version-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.konami.com/mg/mc/eu/en/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Metal_Gear_Solid:_Master_Collection"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2131630/METAL_GEAR_SOLID__Master_Collection_Version/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-24"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-24"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Feb 12, 2026",
+      "status": "status_36",
+      "date_iso": "2026-02-12"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

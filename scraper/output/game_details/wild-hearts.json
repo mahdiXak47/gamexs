@@ -1,0 +1,117 @@
+{
+  "slug": "wild-hearts",
+  "igdb_id": 218793,
+  "name": "Wild Hearts",
+  "summary": "Prepare for an epic adventure set in a fantasy world inspired by feudal Japan. Developed by Omega Force, the Japanese studio behind Dynasty Warriors, in partnership with Electronic Arts.",
+  "first_release_year": 2023,
+  "developers": [
+    "Omega Force"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Katana Engine"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "狂野之心",
+      "comment": "Chinese title - traditional"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/wild-hearts-standard-edition/9NTFPTBXDDT3"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005161"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/playWildHearts"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCJCp1xXpHAjbPMfb_pk2d8g"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1938010"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/wild-hearts"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Wild%20Hearts"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/wild-hearts/wild-hearts"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 17, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 16, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-16"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 16, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-16"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 16, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-16"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1x31.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Reveal Trailer",
+      "youtube_id": "hxcnwH8TPEg",
+      "url": "https://www.youtube.com/watch?v=hxcnwH8TPEg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3Unvi9AYupc",
+      "url": "https://www.youtube.com/watch?v=3Unvi9AYupc"
+    }
+  ]
+}

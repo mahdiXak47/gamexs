@@ -1,0 +1,170 @@
+{
+  "slug": "crusader-kings-3",
+  "igdb_id": 124954,
+  "name": "Crusader Kings III",
+  "summary": "Crusader Kings III is the newest generation in the medieval role-playing grand strategy game series Crusader Kings. Expand and improve your realm, whether a mighty kingdom or modest county. Use marriage, diplomacy and war to increase your power and prestige in a meticulously detailed map that stretches from Spain to India, Scandinavia to Central Africa.",
+  "first_release_year": 2020,
+  "developers": [
+    "Paradox Development Studio"
+  ],
+  "publishers": [
+    "Paradox Interactive"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Simulator",
+    "Strategy"
+  ],
+  "themes": [
+    "Historical",
+    "Sandbox",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric",
+    "Text"
+  ],
+  "series": [
+    "Crusader Kings"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Clausewitz Engine"
+  ],
+  "keywords": [
+    "grand strategy",
+    "medieval"
+  ],
+  "alternative_names": [
+    {
+      "name": "Crusader Kings 3",
+      "comment": "Other"
+    },
+    {
+      "name": "CK3",
+      "comment": "Acronym"
+    },
+    {
+      "name": "launcher/dowser.exe",
+      "comment": "windows executable"
+    },
+    {
+      "name": "Crusader Kings III: Console Edition",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@CrusaderKings"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.crusaderkings.com/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/crusaderkings"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/crusader-kings-iii/9MZ8RZSD0NFQ"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001858"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Crusaderkings"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1158310"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://ck3.paradoxwikis.com/Crusader_Kings_III"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Crusader%20Kings%20III"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/crusaderkings"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Crusader_Kings_III"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 29, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-29"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 29, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 01, 2020",
+      "status": "Released",
+      "date_iso": "2020-09-01"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Sep 01, 2020",
+      "status": "Released",
+      "date_iso": "2020-09-01"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Sep 01, 2020",
+      "status": "Released",
+      "date_iso": "2020-09-01"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7wq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar67es.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "YlOXhOxEum0",
+      "url": "https://www.youtube.com/watch?v=YlOXhOxEum0"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "F8QF263PfGI",
+      "url": "https://www.youtube.com/watch?v=F8QF263PfGI"
+    },
+    {
+      "title": "Story Trailer",
+      "youtube_id": "to8N_6xtr0Q",
+      "url": "https://www.youtube.com/watch?v=to8N_6xtr0Q"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "emobBLz5x2g",
+      "url": "https://www.youtube.com/watch?v=emobBLz5x2g"
+    }
+  ]
+}

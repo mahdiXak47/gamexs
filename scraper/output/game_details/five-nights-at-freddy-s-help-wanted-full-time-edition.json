@@ -1,0 +1,108 @@
+{
+  "slug": "five-nights-at-freddy-s-help-wanted-full-time-edition",
+  "igdb_id": 277547,
+  "name": "Five Nights at Freddy's: Help Wanted - Full Time Edition",
+  "summary": "Five Nights at Freddy’s: Help Wanted - Full Time Edition is a combined version of the best selling Five Nights at Freddy’s: Help Wanted, and it’s DLC, Curse of Dreadbear EXCLUSIVELY for the PS5 & PSVR2. This new edition includes all content from the original Help Wanted, plus the Halloween DLC, Curse of Dreadbear, giving you over 50 scary-fun minigames in one terrifying package.\n\nFace your fears in VR or Standard non-VR modes, and see if you’ve got what it takes to be an upstanding, committed member of the Fazbear team!",
+  "first_release_year": 2023,
+  "developers": [
+    "Steel Wool Studios"
+  ],
+  "publishers": [
+    "Steel Wool Studios"
+  ],
+  "genres": [
+    "Simulator",
+    "Strategy"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Horror",
+    "Thriller",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Virtual Reality"
+  ],
+  "series": [
+    "Five Nights at Freddy's"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Five Nights at Freddy's"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "FNaF: HW - FTE",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Five Nights at Freddy's VR: Help Wanted - Full Time Edition",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/SteelWoolStudio"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/fivenightsatfreddys"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/234277"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/steel_wool_studios"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SteelWoolStudios"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/fnafreddys"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy%27s:_Help_Wanted_-_Full_Time_Edition"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/Steelwoolgames"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Five%20Nights%20at%20Freddy's%20VR%3A%20Help%20Wanted"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-21"
+    },
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "Nov 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-21"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

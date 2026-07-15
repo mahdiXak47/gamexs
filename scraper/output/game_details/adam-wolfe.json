@@ -1,0 +1,127 @@
+{
+  "slug": "adam-wolfe",
+  "igdb_id": 26860,
+  "name": "Adam Wolfe",
+  "summary": "Acting as Adam Wolfe, an investigator of the paranormal, you will discover a hidden world under the modern San Francisco. In this city, ghosts, artifacts, secret orders and curses are just some of the things that Adam will come across working on his most important case.",
+  "first_release_year": 2016,
+  "developers": [
+    "Mad Head Games"
+  ],
+  "publishers": [],
+  "genres": [
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "detective",
+    "supernatural",
+    "previously on - utomik",
+    "available on - iwin all access",
+    "previously on - stadia pro"
+  ],
+  "alternative_names": [
+    {
+      "name": "AdamWolfe.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Adam%20Wolfe"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009545"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/adam-wolfe-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/483420"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.madheadgames.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 08, 2024",
+      "status": "Released",
+      "date_iso": "2024-03-08"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 08, 2024",
+      "status": "Released",
+      "date_iso": "2024-03-08"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Mar 01, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-01"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Oct 07, 2016",
+      "status": "Released",
+      "date_iso": "2016-10-07"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 07, 2016",
+      "status": "Released",
+      "date_iso": "2016-10-07"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Feb 16, 2024",
+      "status": "Released",
+      "date_iso": "2024-02-16"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/armua.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "4U9QG3hUiDY",
+      "url": "https://www.youtube.com/watch?v=4U9QG3hUiDY"
+    }
+  ]
+}

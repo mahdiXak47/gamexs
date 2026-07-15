@@ -1,0 +1,111 @@
+{
+  "slug": "saints-row-نسخه-notorious",
+  "igdb_id": 168551,
+  "name": "Saints Row: Notorious Edition",
+  "summary": "Welcome to Santo Also, a vibrant fictional city in the heart of the American Southwest. In a world rife with crime, where lawless factions fight for power, a group of young friends embark on their own criminal venture, as they rise to the top in their bid to become Self Made.\n\nThe notorious edition includes the following:\n- Exclusive steelbook with game disc\n- Expansion Pass\n- Double-sided poster (66cm(W) x 39.3cm(H))\n- Mini Artbook\n- 4 Santo Ileso postcards\n- 4 character art cards\n- Bonus -Los Panteros American Muscle Bundle\n- Bonus - The Saints Criminal Customs",
+  "first_release_year": 2022,
+  "developers": [
+    "Volition"
+  ],
+  "publishers": [
+    "Deep Silver"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Open world"
+  ],
+  "game_modes": [],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://saintsrow.com/gb"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Saints_Row_(2022_video_game)"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/SaintsRow"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/saintsrow"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/deepsilver"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCnozt2_C8K4wBXvRhhdhAAA"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/saintsrow"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 23, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-23"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 23, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-23"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 23, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 23, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 23, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1c6p.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "JR1w18sv4Rw",
+      "url": "https://www.youtube.com/watch?v=JR1w18sv4Rw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "f3J0bJ-YpQg",
+      "url": "https://www.youtube.com/watch?v=f3J0bJ-YpQg"
+    }
+  ]
+}

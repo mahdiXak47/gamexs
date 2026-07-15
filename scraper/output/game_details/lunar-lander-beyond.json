@@ -1,0 +1,146 @@
+{
+  "slug": "lunar-lander-beyond",
+  "igdb_id": 260301,
+  "name": "Lunar Lander Beyond",
+  "summary": "Guide a roster of colorful pilots, eclectic advisors and state-of-the-art landers through a taxing series of missions. Deliver cargo, retrieve resources, and rescue stranded pilots as you navigate a mysterious universe of moons and planets.",
+  "first_release_year": 2024,
+  "developers": [
+    "Dreams Uncorporated"
+  ],
+  "publishers": [
+    "Atari"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure",
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Lunar Lander Beyond.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/lunar-lander-beyond-30b7a0"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://atari.com/products/lunar-lander-beyond"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/lunar-lander-beyond-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005702"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2376270"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/lunar-lander-beyond/9NXSBLM4MBP6"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://www.twitter.com/atari"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/atari"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/atari"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/atari"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/atariclub"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 23, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-04-23"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 23, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-04-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 23, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-04-23"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 23, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-04-23"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 23, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-04-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 23, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-04-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2g2b.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "thOL8-qZ28Q",
+      "url": "https://www.youtube.com/watch?v=thOL8-qZ28Q"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "F0a_ykHY3lk",
+      "url": "https://www.youtube.com/watch?v=F0a_ykHY3lk"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "rjYZG25IJRM",
+      "url": "https://www.youtube.com/watch?v=rjYZG25IJRM"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "slug": "tiny-troopers-global-ops",
+  "igdb_id": 158262,
+  "name": "Tiny Troopers: Global Ops",
+  "summary": "Attention! Tiny Troopers: Global Ops is a fast-paced arcade twin-stick shooter in which you lead an elite squad of Tiny Troopers on action-packed missions to take down hordes of unscrupulous enemies from all corners of the world!",
+  "first_release_year": 2023,
+  "developers": [
+    "epiphany games"
+  ],
+  "publishers": [
+    "Wired Productions"
+  ],
+  "genres": [
+    "Shooter",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Comedy",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "pvp",
+    "military",
+    "combat"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/tinytroopers"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/tiny-troopers-global-ops-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002214"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1374350"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://wiredproductions.com/games/tiny-troopers-global-ops"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/tiny_trooper_global_ops"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Tiny%20Troopers:%20Global%20Ops"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/tiny-troopers-global-ops-4ac32b"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/wired_productions/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/tinytroopers"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@WiredP"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/TheTinyTroopers"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 09, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-09"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 09, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-09"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 09, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-09"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 09, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-09"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 09, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-09"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 09, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-03-09"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arxdz.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "arJo4FV4NTg",
+      "url": "https://www.youtube.com/watch?v=arJo4FV4NTg"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "QOeOU4F1UvM",
+      "url": "https://www.youtube.com/watch?v=QOeOU4F1UvM"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "slug": "farming-simulator-22",
+  "igdb_id": 146112,
+  "name": "Farming Simulator 22",
+  "summary": "Take on the role of a modern farmer! Agriculture, animal husbandry and forestry offer a huge variety of farming activities while you face the challenges of the four seasons, especially when winter sets in. Creatively build your own farm and extend your farming operations with production chains, forming an agricultural empire! Even run your farm together with friends and enjoy crossplatform multiplayer together.",
+  "first_release_year": 2021,
+  "developers": [
+    "Giants Software"
+  ],
+  "publishers": [
+    "Giants Software"
+  ],
+  "genres": [
+    "Simulator"
+  ],
+  "themes": [
+    "Business",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Farming-Simulator"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "GIANTS Engine"
+  ],
+  "keywords": [
+    "character customization",
+    "3d",
+    "horse",
+    "online co-op",
+    "management",
+    "farming",
+    "nature",
+    "economy",
+    "agriculture",
+    "family friendly",
+    "mod support",
+    "immersive",
+    "farming simulator",
+    "chainsaw"
+  ],
+  "alternative_names": [
+    {
+      "name": "Landwirtschafts-Simulator 22 ",
+      "comment": "German title"
+    },
+    {
+      "name": "FarmingSimulator2022Game.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/farming-simulator-22/9P6SRW1HVW9K"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001771"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://farming-simulator.com/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/farming-simulator-22"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/farmingsimulator"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Farming%20Simulator%2022"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/giantssoftware"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1248130/Farming_Simulator_22"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://farmingsimulator.fandom.com/wiki/Farming_Simulator_22"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/farmingsimulator"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Farming_Simulator"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/farmingsim"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/giants.farming.simulator"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCOmANDuJs2IHiEq8p9Ll5tw"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 22, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-22"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Nov 22, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 22, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 22, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 22, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 22, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-22"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Nov 22, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arunf.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Dev Diary",
+      "youtube_id": "J9sbxDhD7oY",
+      "url": "https://www.youtube.com/watch?v=J9sbxDhD7oY"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "Z9ck775MlJk",
+      "url": "https://www.youtube.com/watch?v=Z9ck775MlJk"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "-FGrZolntqk",
+      "url": "https://www.youtube.com/watch?v=-FGrZolntqk"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "L8Dqor98iAE",
+      "url": "https://www.youtube.com/watch?v=L8Dqor98iAE"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "JpBzfTe_yWE",
+      "url": "https://www.youtube.com/watch?v=JpBzfTe_yWE"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Fu9Wly311o4",
+      "url": "https://www.youtube.com/watch?v=Fu9Wly311o4"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "tgv3RzTaxQM",
+      "url": "https://www.youtube.com/watch?v=tgv3RzTaxQM"
+    }
+  ]
+}

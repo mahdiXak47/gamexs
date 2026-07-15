@@ -1,0 +1,175 @@
+{
+  "slug": "steelrising",
+  "igdb_id": 135670,
+  "name": "Steelrising",
+  "summary": "Paris, 1789. The French Revolution has been suppressed with bloodshed by Louis XVI and his merciless mechanical army. Aegis, a mysterious automaton masterpiece, must confront the king's army alone to save history in this challenging action-RPG.",
+  "first_release_year": 2022,
+  "developers": [
+    "Spiders"
+  ],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Historical"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Silk Engine"
+  ],
+  "keywords": [
+    "gothic",
+    "french revolution",
+    "soulslike"
+  ],
+  "alternative_names": [
+    {
+      "name": "スチールライジング",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "스틸라이징",
+      "comment": "Korean title"
+    },
+    {
+      "name": "Steelrising.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC6CGQMMnnUwwjeK0ujkeF6Q"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/PlaySteelrising"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://steelrising.fandom.com/wiki/Steelrising_Wiki"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003187"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1283400"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/PlaySteelrising"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/steelrising"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/PlaySteelrising"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/steelrising"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://steelrising.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Steelrising"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-08"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar73x.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar73y.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar73z.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "KDAaeBSp4ow",
+      "url": "https://www.youtube.com/watch?v=KDAaeBSp4ow"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "1OooSkhwppc",
+      "url": "https://www.youtube.com/watch?v=1OooSkhwppc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "8NzOe4FwPUU",
+      "url": "https://www.youtube.com/watch?v=8NzOe4FwPUU"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "QI3oKkDHcGQ",
+      "url": "https://www.youtube.com/watch?v=QI3oKkDHcGQ"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "9pbvMtwYluE",
+      "url": "https://www.youtube.com/watch?v=9pbvMtwYluE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "LIQHKd7Pzxk",
+      "url": "https://www.youtube.com/watch?v=LIQHKd7Pzxk"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "P9_6YAOrGdg",
+      "url": "https://www.youtube.com/watch?v=P9_6YAOrGdg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "U-pii4ZK6wg",
+      "url": "https://www.youtube.com/watch?v=U-pii4ZK6wg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "w35qxHMZ7wc",
+      "url": "https://www.youtube.com/watch?v=w35qxHMZ7wc"
+    }
+  ]
+}

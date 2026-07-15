@@ -1,0 +1,84 @@
+{
+  "slug": "devil-may-cry-5-special-edition",
+  "igdb_id": 138932,
+  "name": "Devil May Cry 5: Special Edition",
+  "summary": "Devil May Cry 5: Special Edition features improved visuals and gameplay at up to 120 frames per second. Alongside all previously-released downloadable content, other additions include Vergil as a playable character, ray tracing graphics options, and two additional game modes: Legendary Dark Knight mode, which significantly increases the number of enemies in each level, and Turbo mode, which increases the game speed by 20%.",
+  "first_release_year": 2020,
+  "developers": [
+    "Capcom Development Division 1"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Devil May Cry"
+  ],
+  "spin_off_of": "Devil May Cry 5",
+  "franchises": [
+    "Devil May Cry"
+  ],
+  "game_engines": [
+    "RE Engine"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/227315"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/devil-may-cry-5-special-edition/9MZ11KT5KLP6"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.devilmaycry.com/5se"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Devil%20May%20Cry%205:%20Special%20Edition"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar8q6.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "4mT1N4yIYUo",
+      "url": "https://www.youtube.com/watch?v=4mT1N4yIYUo"
+    }
+  ]
+}

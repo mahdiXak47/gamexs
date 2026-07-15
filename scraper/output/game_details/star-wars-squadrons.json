@@ -1,0 +1,187 @@
+{
+  "slug": "star-wars-squadrons",
+  "igdb_id": 134706,
+  "name": "Star Wars: Squadrons",
+  "summary": "Master the art of starfighter combat in the authentic piloting experience STAR WARS: Squadrons. Buckle up, feel the adrenaline of first-person multiplayer space dogfights alongside your squadron, and learn what it means to be a pilot in a thrilling STAR WARS single-player campaign.",
+  "first_release_year": 2020,
+  "developers": [
+    "Motive Studios"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Shooter",
+    "Simulator"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Virtual Reality"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Star Wars"
+  ],
+  "game_engines": [
+    "Frostbite 3"
+  ],
+  "keywords": [
+    "star wars",
+    "spaceship",
+    "online multiplayer",
+    "canon star wars"
+  ],
+  "alternative_names": [
+    {
+      "name": "Star Wars Squadrons",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1222730"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/234657"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/star-wars-squadrons/BV9CWVQWNS4P"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/EAStarWars"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/EAStarWars"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/starwars/squadrons"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://starwars.fandom.com/wiki/Star_Wars:_Squadrons"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/StarWarsSquadrons"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Star%20Wars%3A%20Squadrons"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Star_Wars:_Squadrons"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/product/star-wars-squadrons"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/EAStarWars"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "Oct 02, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-02"
+    },
+    {
+      "platform": "Oculus Rift",
+      "region": null,
+      "date": "Oct 02, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-02"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 01, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-01"
+    },
+    {
+      "platform": "PlayStation VR",
+      "region": null,
+      "date": "Oct 02, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-02"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 02, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-02"
+    },
+    {
+      "platform": "Windows Mixed Reality",
+      "region": null,
+      "date": "Oct 02, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-02"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 02, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-02"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 25, 2020",
+      "status": "status_36",
+      "date_iso": "2020-11-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 25, 2020",
+      "status": "status_36",
+      "date_iso": "2020-11-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar8fz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar70h.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "w0eRkhR1z6A",
+      "url": "https://www.youtube.com/watch?v=w0eRkhR1z6A"
+    },
+    {
+      "title": "Gamescom 2020 Single player Trailer",
+      "youtube_id": "DeS7qgFjDUE",
+      "url": "https://www.youtube.com/watch?v=DeS7qgFjDUE"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "nCcfJ9uEwvs",
+      "url": "https://www.youtube.com/watch?v=nCcfJ9uEwvs"
+    }
+  ]
+}

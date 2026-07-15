@@ -1,0 +1,179 @@
+{
+  "slug": "little-nightmares-ii-enhanced-edition-نسخه-enhanced-edition",
+  "igdb_id": 121760,
+  "name": "Little Nightmares II",
+  "summary": "Little Nightmares II is a puzzle-platformer and survival horror game in which players control Mono, a young boy navigating a nightmarish world warped by the transmission of a distant Signal Tower. Gameplay combines environmental puzzle-solving with stealth and light combat, as Mono and his AI companion Six work together to evade grotesque enemies and traverse dangerous environments. The game is a prequel to the original Little Nightmares and features collectible items that unlock additional story content.",
+  "first_release_year": 2021,
+  "developers": [
+    "Tarsier Studios"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Stealth",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Side view"
+  ],
+  "series": [
+    "Little Nightmares"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "dark",
+    "atmospheric",
+    "previously on - stadia pro"
+  ],
+  "alternative_names": [
+    {
+      "name": "Little Nightmares 2",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Ritorunaitomea 2",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "리틀 나이트메어 II",
+      "comment": "Korean title - alternative"
+    },
+    {
+      "name": "小小夢魘2",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "小小梦魇2",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Little Nightmares II.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Little_Nightmares_II"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/232583"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/little-nightmares-ii/C1H74N0TR8KT"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://littlenightmares.fandom.com/wiki/Little_Nightmares_II_(video_game)"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/860510"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/LittleNightmares"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/little_nightmares_ii"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/TarsierStudios"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/little-nightmares-ii-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.bandainamcoent.com/games/little-nightmares-2"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/little-nightmares-ii"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/LittleNights"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@TarsierStudios"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Feb 11, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-02-11"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Feb 11, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-02-11"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 10, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-02-10"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 11, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-02-11"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 11, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-02-11"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar65wy.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar65wz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar65x0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7g1.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "AI9zBBTyX-E",
+      "url": "https://www.youtube.com/watch?v=AI9zBBTyX-E"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "OaTz44jLYd4",
+      "url": "https://www.youtube.com/watch?v=OaTz44jLYd4"
+    }
+  ]
+}

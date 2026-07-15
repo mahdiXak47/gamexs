@@ -1,0 +1,148 @@
+{
+  "slug": "cygni-all-guns-blazing",
+  "igdb_id": 133904,
+  "name": "Cygni: All Guns Blazing",
+  "summary": "It's a twin-stick vertical scrolling Shooter hybrid with a cinematic flare:\n\nAn unrelenting onslaught of eye-popping visuals, ear bursting soundscapes and mind-melting action makes Cygni the vanguard for the next generation of shoot-em ups.",
+  "first_release_year": 2024,
+  "developers": [
+    "KeelWorks"
+  ],
+  "publishers": [
+    "Konami"
+  ],
+  "genres": [
+    "Shooter",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "shoot 'em up",
+    "cinematic",
+    "shmup",
+    "space",
+    "twin stick control"
+  ],
+  "alternative_names": [
+    {
+      "name": "CYGNI: All Guns Blazing",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004231"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Cygni%3A%20All%20Guns%20Blazing"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/mt62aE4"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1248080/Cygni_All_Guns_Blazing"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/cygni"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.cygnigame.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/CygniGame"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Cygnigame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC3fBCB6qlhVN8b5_xVOTlbA"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/cygni-all-guns-blazing-98f872"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cygni:_All_Guns_Blazing"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 06, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 06, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-06"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 06, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1rkg.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "kJm08-MRnj0",
+      "url": "https://www.youtube.com/watch?v=kJm08-MRnj0"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "8bzenHb-3TU",
+      "url": "https://www.youtube.com/watch?v=8bzenHb-3TU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "EgnuUkdxvhg",
+      "url": "https://www.youtube.com/watch?v=EgnuUkdxvhg"
+    },
+    {
+      "title": "Story Trailer",
+      "youtube_id": "vg6Q6YB9jHc",
+      "url": "https://www.youtube.com/watch?v=vg6Q6YB9jHc"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "yEmbMf0RU5c",
+      "url": "https://www.youtube.com/watch?v=yEmbMf0RU5c"
+    }
+  ]
+}

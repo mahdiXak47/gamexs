@@ -1,0 +1,221 @@
+{
+  "slug": "balatro",
+  "igdb_id": 251833,
+  "name": "Balatro",
+  "summary": "Balatro is a deck-building roguelite in which players construct poker hands to earn chips and overcome enemy blinds. The game features mechanics for enhancing a deck of playing cards, purchasing Jokers that modify hand effects, and discovering synergies to progress through increasingly challenging encounters.",
+  "first_release_year": 2024,
+  "developers": [
+    "LocalThunk"
+  ],
+  "publishers": [
+    "Playstack"
+  ],
+  "genres": [
+    "Strategy",
+    "Turn-based strategy (TBS)",
+    "Indie",
+    "Card & Board Game"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "LÖVE"
+  ],
+  "keywords": [
+    "poker",
+    "roguelike",
+    "clowns",
+    "collecting card game - ccg",
+    "collaboration",
+    "the game awards - best debut indie game - winner",
+    "the game awards - best game direction - nominee",
+    "the game awards - best independent game - winner",
+    "the game awards - best mobile game - winner",
+    "the game awards - game of the year - nominee",
+    "available on - apple arcade"
+  ],
+  "alternative_names": [
+    {
+      "name": "Balatro+",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Balatro.exe",
+      "comment": "windows executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.playstack.balatro.android"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/balatro/9PK087LNGJC5"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/balatro-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010334"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/balatro"
+    },
+    {
+      "label": "iPad",
+      "url": "https://apps.apple.com/us/app/balatro/id6502451661"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/app/id6502453075"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/playbalatro.com"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@playstack/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://balatrowiki.org/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/balatro/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/5mH3dNhjx2"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2379780"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/balatrogame"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Balatro_(video_game)"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.playbalatro.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Mar 01, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-01"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 20, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 20, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 20, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 20, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-20"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Sep 26, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-26"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Feb 20, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-20"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 20, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-20"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Sep 26, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-26"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Feb 25, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4m0f.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4m0d.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4m0g.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4m0c.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Friends of Jimbo Reveal Trailer",
+      "youtube_id": "qChMssQkk3M",
+      "url": "https://www.youtube.com/watch?v=qChMssQkk3M"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3tUJdI3AO9I",
+      "url": "https://www.youtube.com/watch?v=3tUJdI3AO9I"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "2n9pkiuSZLU",
+      "url": "https://www.youtube.com/watch?v=2n9pkiuSZLU"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "9R_tdnasl1Y",
+      "url": "https://www.youtube.com/watch?v=9R_tdnasl1Y"
+    }
+  ]
+}

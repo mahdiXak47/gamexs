@@ -1,0 +1,250 @@
+{
+  "slug": "star-wars-battlefront-ultimate-edition",
+  "igdb_id": 2113,
+  "name": "Star Wars Battlefront",
+  "summary": "In 2004, the original Star Wars: Battlefront came onto the scene and took gamers – and Star Wars fans – by surprise. It was an ambitious action shooter that gave players the opportunity to step into the shoes of their favorite Star Wars characters, pilot quintessential Star Wars vehicles, and relive classic Star Wars battles.\n\nFast forward nearly 10 years and gamers still have many of those same Star Wars gaming fantasies – but now they wish to experience those larger-than-life battles in magnificent high definition, with all of the amazing special effects, vehicle physics and gameplay intensity that the next-generation has to offer.\n\nStar Wars Battlefront, developed by DICE on Frostbite 3, will surprise and delight fans yet again with a new experience inside this beloved universe made with our signature DICE craftsmanship and commitment to excellence.",
+  "first_release_year": 2015,
+  "developers": [
+    "EA Digital Illusions CE"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Star Wars Battlefront"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Star Wars"
+  ],
+  "game_engines": [
+    "Frostbite"
+  ],
+  "keywords": [
+    "aliens",
+    "military",
+    "space warfare",
+    "achievements",
+    "online",
+    "over the shoulder",
+    "playstation network",
+    "explosion",
+    "digital distribution",
+    "game critics awards",
+    "playstation trophies",
+    "60 fps on consoles",
+    "ea app",
+    "playstation experience 2016",
+    "playstation experience 2015",
+    "xbox live",
+    "kill feed",
+    "real-time combat",
+    "d.i.c.e. awards 2016",
+    "same name reboot",
+    "galactic civil war",
+    "pax prime 2015",
+    "active reload",
+    "tokyo game show 2015",
+    "x-wing",
+    "canon star wars"
+  ],
+  "alternative_names": [
+    {
+      "name": "STAR WARS  Battlefront ",
+      "comment": "Other Alias"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Star_Wars_Battlefront_(2015_video_game)"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Star%20Wars%20Battlefront"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/EAStarWars"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/star-wars-battlefront/BRXTM276DLPR"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/EAStarWars"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.ea.com/ca/star-wars-battlefront"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/EAStarWars"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/EAStarWars"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://starwars.wikia.com/wiki/Star_Wars_Battlefront"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1237980/STAR_WARS_Battlefront/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 19, 2015",
+      "status": "Released",
+      "date_iso": "2015-11-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 20, 2015",
+      "status": "Released",
+      "date_iso": "2015-11-20"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 20, 2015",
+      "status": "Released",
+      "date_iso": "2015-11-20"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 17, 2015",
+      "status": "Released",
+      "date_iso": "2015-11-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 19, 2015",
+      "status": "Released",
+      "date_iso": "2015-11-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 19, 2015",
+      "status": "Released",
+      "date_iso": "2015-11-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 17, 2015",
+      "status": "Released",
+      "date_iso": "2015-11-17"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 20, 2015",
+      "status": "Released",
+      "date_iso": "2015-11-20"
+    },
+    {
+      "platform": "PlayStation VR",
+      "region": null,
+      "date": "Nov 19, 2015",
+      "status": "Released",
+      "date_iso": "2015-11-19"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 17, 2015",
+      "status": "Released",
+      "date_iso": "2015-11-17"
+    },
+    {
+      "platform": "PlayStation VR",
+      "region": null,
+      "date": "Nov 17, 2015",
+      "status": "Released",
+      "date_iso": "2015-11-17"
+    },
+    {
+      "platform": "PlayStation VR",
+      "region": null,
+      "date": "Nov 20, 2015",
+      "status": "Released",
+      "date_iso": "2015-11-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4rr.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar8ez.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4rp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4rs.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4rq.jpg"
+  ],
+  "videos": [
+    {
+      "title": "E3 2015 Co-Op Missions Gameplay",
+      "youtube_id": "lg_ht2GfQJU",
+      "url": "https://www.youtube.com/watch?v=lg_ht2GfQJU"
+    },
+    {
+      "title": "Reveal Trailer",
+      "youtube_id": "eNy9LIZscXA",
+      "url": "https://www.youtube.com/watch?v=eNy9LIZscXA"
+    },
+    {
+      "title": "Paris Games Week 2015 Trailer",
+      "youtube_id": "QV47USNZk1Y",
+      "url": "https://www.youtube.com/watch?v=QV47USNZk1Y"
+    },
+    {
+      "title": "Fighter Squadron Trailer",
+      "youtube_id": "6_FCXCpZWYU",
+      "url": "https://www.youtube.com/watch?v=6_FCXCpZWYU"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "2wquKeip3lo",
+      "url": "https://www.youtube.com/watch?v=2wquKeip3lo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "2yKv45X_OIo",
+      "url": "https://www.youtube.com/watch?v=2yKv45X_OIo"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "jXU5k4U8x20",
+      "url": "https://www.youtube.com/watch?v=jXU5k4U8x20"
+    },
+    {
+      "title": "PSX 2015 Best of Trailer",
+      "youtube_id": "nybNeHjRLTY",
+      "url": "https://www.youtube.com/watch?v=nybNeHjRLTY"
+    }
+  ]
+}

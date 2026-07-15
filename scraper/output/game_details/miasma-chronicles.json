@@ -1,0 +1,151 @@
+{
+  "slug": "miasma-chronicles",
+  "igdb_id": 201795,
+  "name": "Miasma Chronicles",
+  "summary": "From the creators of Mutant Year Zero: Road to Eden comes a beautifully crafted tactical adventure you won’t forget. Embark on a quest across a post-apocalyptic wasteland torn apart by a savage force known only as the ‘Miasma’.",
+  "first_release_year": 2023,
+  "developers": [
+    "The Bearded Ladies"
+  ],
+  "publishers": [
+    "505 Games"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Strategy",
+    "Turn-based strategy (TBS)",
+    "Tactical",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "post-apocalyptic",
+    "robots",
+    "tactical rpg ( trpg )",
+    "violent",
+    "steam achievements",
+    "xbox controller support for pc",
+    "steam cloud",
+    "controller support",
+    "steam families"
+  ],
+  "alternative_names": [
+    {
+      "name": "Miasma.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/MiasmaChron"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/miasmachronicles"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/miasma_chronicles"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/miasmachron/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/miasma-chronicles"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/miasma-chronicles/9N1NSTSFN5NM"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004322"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://miasmachronicles.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Miasma_Chronicles"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/ustAVY2kFg"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1649010"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/MiasmaChronicles"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Miasma%20Chronicles"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 23, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-05-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 23, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-05-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 23, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-05-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1n7t.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3uyv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3uyw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3uyx.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "V1_xUNcm2Zo",
+      "url": "https://www.youtube.com/watch?v=V1_xUNcm2Zo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "q0UyAF9V1dY",
+      "url": "https://www.youtube.com/watch?v=q0UyAF9V1dY"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "yzV7o8uqxRk",
+      "url": "https://www.youtube.com/watch?v=yzV7o8uqxRk"
+    }
+  ]
+}

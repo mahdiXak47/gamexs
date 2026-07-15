@@ -1,0 +1,209 @@
+{
+  "slug": "tetris-effect-connected",
+  "igdb_id": 135999,
+  "name": "Tetris Effect: Connected",
+  "summary": "Tetris Effect: Connected adds an all-new robust multiplayer expansion to the huge variety of addictive and innovative single-player modes that Tetris Effect is known for. Connect and play with or against each other in all-new modes like \"Zone Battle,\" which shakes up traditional 1-on-1 Tetris gameplay via the time-stopping Zone mechanic, or try the innovative co-op of \"Connected\" mode, where up to three players can literally connect their Tetris playfields together and play as one, as they work together to take down a series of increasingly-challenging CPU-controlled bosses.",
+  "first_release_year": 2020,
+  "developers": [
+    "Monstars"
+  ],
+  "publishers": [
+    "Enhance"
+  ],
+  "genres": [
+    "Music",
+    "Puzzle",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view",
+    "Virtual Reality"
+  ],
+  "series": [
+    "Tetris"
+  ],
+  "spin_off_of": "Tetris Effect",
+  "franchises": [
+    "Tetris"
+  ],
+  "game_engines": [
+    "Unreal Engine 4",
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "tetris",
+    "vr experience",
+    "available on - horizon catalog"
+  ],
+  "alternative_names": [
+    {
+      "name": "TE:C",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Tetris® Effect: Connected",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "TetrisEffect.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/enhance"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tetris_Effect"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/232708"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/tetris-effect-connected-switch/"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/enhance-experience.com"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.tetriseffect.game/connected/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/enhance_exp"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/tetriseffectgame"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1003590"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://tetris.wiki/Tetris_Effect:_Connected"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/tetris-effect"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://twitch.tv/enhanceexperience"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/c/EnhanceExperience"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/enhance_experience"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/TetrisEffect"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 08, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-10-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 18, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-08-18"
+    },
+    {
+      "platform": "Oculus Quest",
+      "region": null,
+      "date": "May 14, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-05-14"
+    },
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "Feb 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 18, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-08-18"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-22"
+    },
+    {
+      "platform": "Meta Quest 2",
+      "region": null,
+      "date": "Aug 18, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-08-18"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-11-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar8gn.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "TpsJktNeeVA",
+      "url": "https://www.youtube.com/watch?v=TpsJktNeeVA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Xzle2GLuWhg",
+      "url": "https://www.youtube.com/watch?v=Xzle2GLuWhg"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "VdBjK4CFAks",
+      "url": "https://www.youtube.com/watch?v=VdBjK4CFAks"
+    }
+  ]
+}

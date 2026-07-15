@@ -1,0 +1,144 @@
+{
+  "slug": "mx-vs-atv-legends",
+  "igdb_id": 171216,
+  "name": "MX vs. ATV: Legends",
+  "summary": "Race your way to victory on bikes, ATVs and UTVs in MX vs ATV Legends! Featuring massive new open environments, plus a career mode that lets you experience all the risks and rewards of becoming a world-famous professional rider. Become an off-road racing legend in your own right! Your time is now!",
+  "first_release_year": 2022,
+  "developers": [
+    "Rainbow Studios"
+  ],
+  "publishers": [
+    "THQ Nordic"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport",
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "motocross",
+    "3d",
+    "pvp",
+    "driving",
+    "family friendly",
+    "off-roading",
+    "realism"
+  ],
+  "alternative_names": [
+    {
+      "name": "MX vs ATV Legends",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "MX vs ATV: Legends",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "MxGame2021.exe",
+      "comment": "windows executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/mx-vs-atv-legends/9NLGR76G498K"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/mxvsatv"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/mxvsatv"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000928"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1205970/MX_vs_ATV_Legends"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.mxvsatv.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/mxvsatv"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/MX%20vs.%20ATV:%20Legends"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/mxvsatv"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-28"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1lgj.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "I05G__0UTKs",
+      "url": "https://www.youtube.com/watch?v=I05G__0UTKs"
+    }
+  ]
+}

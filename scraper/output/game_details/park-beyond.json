@@ -1,0 +1,139 @@
+{
+  "slug": "park-beyond",
+  "igdb_id": 165354,
+  "name": "Park Beyond",
+  "summary": "In Park Beyond players can create the park of their dreams, without being held back by gravity! As the newly-hired visionary architect for a struggling company, players will be able to create mind-twisting theme parks. Players can create rides they have always dreamt about but that couldn’t exist in real life. Along with Phil, the enthusiastic park veteran and Izzy, the stern but friendly executive and a host of other colorful and passionate characters, players will pave the way to a successful and profitable park company. Thanks to accessible controls and a story-driven campaign mode, players will get to learn the ropes of park management and build increasingly crazy rides and modular coasters.",
+  "first_release_year": 2023,
+  "developers": [
+    "Limbic Entertainment"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Simulator",
+    "Strategy"
+  ],
+  "themes": [
+    "Business",
+    "Sandbox"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "amusement park",
+    "management"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Park_Beyond"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/ParkBeyondGame"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/ParkBeyondGame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/parkbeyondgame/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001225"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/park-beyond/9MTS16VGTT7J/0010"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.bandainamcoent.com/games/park-beyond"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1368130"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Park%20Beyond"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/ParkBeyond/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://park-beyond.fandom.com/wiki/Park_Beyond_Wiki"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 16, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-16"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 16, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-16"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 16, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-16"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1fbc.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar48wy.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar48wz.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "2ROFu9dnqxQ",
+      "url": "https://www.youtube.com/watch?v=2ROFu9dnqxQ"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "HUUInM1N4t4",
+      "url": "https://www.youtube.com/watch?v=HUUInM1N4t4"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "qE3tkaWmBAM",
+      "url": "https://www.youtube.com/watch?v=qE3tkaWmBAM"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "NhbRL_7vrY4",
+      "url": "https://www.youtube.com/watch?v=NhbRL_7vrY4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "WrIBgONsbP4",
+      "url": "https://www.youtube.com/watch?v=WrIBgONsbP4"
+    }
+  ]
+}

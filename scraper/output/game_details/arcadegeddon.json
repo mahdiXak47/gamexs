@@ -1,0 +1,160 @@
+{
+  "slug": "arcadegeddon",
+  "igdb_id": 154814,
+  "name": "Arcadegeddon",
+  "summary": "Rise up and play with up to three friends in this ever-evolving cooperative multiplayer, roguelite shooter. Explore multiple biomes, mini games, find hidden chests, and defeat numerous enemies and bosses.",
+  "first_release_year": 2022,
+  "developers": [
+    "Illfonic"
+  ],
+  "publishers": [
+    "Illfonic"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "아케이드게돈",
+      "comment": "Korean title"
+    },
+    {
+      "name": "Arcade.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002495"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/arcadegeddon/9PKR5R6L4L47/0010"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/arcadegeddon"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/arcadegeddon"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/4jnv82WXFT"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/arcadegeddon"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/illfonic"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Arcadegeddon"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Arcadegeddon"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.arcadegeddon.com/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/arcadegeddon"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1515640"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 05, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 05, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-05"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 05, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-05"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 05, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-05"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 05, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1d98.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1d99.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1d96.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "LzmtaOkD8FE",
+      "url": "https://www.youtube.com/watch?v=LzmtaOkD8FE"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "2NesjbT7Xks",
+      "url": "https://www.youtube.com/watch?v=2NesjbT7Xks"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "0Ibgk7vutP4",
+      "url": "https://www.youtube.com/watch?v=0Ibgk7vutP4"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "VkGoYKnzsIE",
+      "url": "https://www.youtube.com/watch?v=VkGoYKnzsIE"
+    }
+  ]
+}

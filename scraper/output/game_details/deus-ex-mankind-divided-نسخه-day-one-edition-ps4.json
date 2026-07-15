@@ -1,0 +1,65 @@
+{
+  "slug": "deus-ex-mankind-divided-نسخه-day-one-edition-ps4",
+  "igdb_id": 46024,
+  "name": "Deus Ex: Mankind Divided - Day One Edition",
+  "summary": "Deus Ex: Mankind Divided directly follows the aftermath of the Aug Incident, a day when mechanically augmented citizens all over the world were stripped of control over their minds and bodies, resulting in the deaths of millions of innocents. The year is now 2029, and the golden era of augmentations is over. Mechanically augmented humans have been deemed outcasts and segregated from the rest of society. Crime and acts of terror serve as a thin veil to cover up an overarching conspiracy aimed at controlling the future of mankind…",
+  "first_release_year": 2016,
+  "developers": [
+    "Eidos Montréal"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Sport",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Dawn Engine"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 23, 2016",
+      "status": "Cancelled",
+      "date_iso": "2016-08-23"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 23, 2016",
+      "status": "Cancelled",
+      "date_iso": "2016-08-23"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 23, 2016",
+      "status": "Released",
+      "date_iso": "2016-08-23"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

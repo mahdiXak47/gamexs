@@ -1,0 +1,169 @@
+{
+  "slug": "greedfall-the-dying-world",
+  "igdb_id": 201961,
+  "name": "GreedFall: The Dying World",
+  "summary": "The story starts three years before the events of the first game and the adventures of De Sardet.\n\nThis time you play as a native of Teer Fradee, uprooted by force from your island and taken to the continent of Gacane, where the colonists are from. In this old world ravaged by war and scarred by the Malichor plague and the political scheming of the different factions, you need to regain your freedom and control of your own destiny. Using diplomacy, cunning or combat, as well as help from allies you make, it's up to you to end one man's ambitions of conquest, which could spell the end for the continent and your island.\n\nExperience the unique world of GreedFall again by exploring the old continent! Travel across new landscapes, from Olima – the city of stars of the Bridge Alliance – to the shores of Uxantis, and uncover the secrets of these ancient lands. Meet all the factions that share control over these nations and navigate the treacherous waters of their schemes and conspiracies.\n\nCreate your own character and find allies to join your team. Help them with their quests, uncover their secrets and make them your friends, rivals or even lovers. As well as equipping them the way you want, you can also take control of them in combat.\n\nImmerse yourself in an ever deeper RPG experience where every choice has an impact on your adventure and where diplomacy, manipulation, infiltration and combat are all viable paths for you to achieve your aims.",
+  "first_release_year": 2026,
+  "developers": [
+    "Spiders"
+  ],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "GreedFall"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Silk Engine"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "GreedFall2.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "GreedFall 2: The Dying World",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "GreedFall 2",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/greedfall-2-the-dying-world"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/greedfallgame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/Nacon"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010517/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/k3qz2z7C4Y"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/greedfall_ii_the_dying_world"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/greedfall"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/greedfall"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/greedfall"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1997660/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/GreedFall_2:_The_Dying_World"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 24, 2024",
+      "status": "Beta",
+      "date_iso": "2024-09-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 12, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-12"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 12, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-12"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 10, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar592l.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar592m.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar58kg.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "LGiVuJ8tGSE",
+      "url": "https://www.youtube.com/watch?v=LGiVuJ8tGSE"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ryl5dbOlpyg",
+      "url": "https://www.youtube.com/watch?v=ryl5dbOlpyg"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "mcundAO1J_I",
+      "url": "https://www.youtube.com/watch?v=mcundAO1J_I"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "TEx01uSkG_I",
+      "url": "https://www.youtube.com/watch?v=TEx01uSkG_I"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "wwAXL6DEl7Y",
+      "url": "https://www.youtube.com/watch?v=wwAXL6DEl7Y"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "UC467B_HoQ8",
+      "url": "https://www.youtube.com/watch?v=UC467B_HoQ8"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "Skzz7WTRkE4",
+      "url": "https://www.youtube.com/watch?v=Skzz7WTRkE4"
+    }
+  ]
+}

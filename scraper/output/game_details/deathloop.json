@@ -1,0 +1,187 @@
+{
+  "slug": "deathloop",
+  "igdb_id": 113598,
+  "name": "Deathloop",
+  "summary": "Deathloop transports players to the lawless island of Blackreef in an eternal struggle between two extraordinary assassins. Explore stunning environments and meticulously designed levels in an immersive gameplay experience that lets you approach every situation any way you like. Hunt down targets all over the island in an effort to put an end to the cycle once and for all, and remember, if at first you don’t succeed… die, die again.",
+  "first_release_year": 2021,
+  "developers": [
+    "Arkane Studios"
+  ],
+  "publishers": [
+    "Bethesda Softworks"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Void Engine"
+  ],
+  "keywords": [
+    "assassin",
+    "time travel",
+    "time manipulation",
+    "stylized",
+    "multiple endings",
+    "dark humor",
+    "black protagonist",
+    "time loop",
+    "choices matter",
+    "upgradeable weapons",
+    "female antagonist",
+    "non-linear storytelling",
+    "stealth kill",
+    "alternate reality",
+    "groundhog day scenario",
+    "the game awards - best score or music - nominee",
+    "immersive",
+    "pre-order bonus",
+    "meaningful choices",
+    "the game awards - best action game - nominee",
+    "the game awards - best art direction - winner",
+    "the game awards - best audio design - nominee",
+    "the game awards - best game direction - winner",
+    "the game awards - best narrative - nominee",
+    "the game awards - best performance - nominee",
+    "the game awards - game of the year - nominee",
+    "immersive sim"
+  ],
+  "alternative_names": [
+    {
+      "name": "데스루프",
+      "comment": "Korean title - alternative"
+    },
+    {
+      "name": "DEATHLOOP",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Deathloop.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/deathloop"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Deathloop"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000185"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://deathloop.fandom.com/wiki/Deathloop_Wiki"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/deathloop/9P5Z4530318L"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/deathloopgame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://bethesda.net/en/game/deathloop"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1252330"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/BethesdaSoftworks"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Deathloop"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Deathloop"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/DEATHLOOPgame.anz"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/deathloop"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 14, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 14, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4u5v.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4u5t.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4u5u.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "cGd--oZUBlA",
+      "url": "https://www.youtube.com/watch?v=cGd--oZUBlA"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "jziktWnfJcA",
+      "url": "https://www.youtube.com/watch?v=jziktWnfJcA"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "Rzjq6myYALo",
+      "url": "https://www.youtube.com/watch?v=Rzjq6myYALo"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "-dqJptSr1FQ",
+      "url": "https://www.youtube.com/watch?v=-dqJptSr1FQ"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "k4NsBsUbSy8",
+      "url": "https://www.youtube.com/watch?v=k4NsBsUbSy8"
+    }
+  ]
+}

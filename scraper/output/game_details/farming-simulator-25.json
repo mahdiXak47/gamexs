@@ -1,0 +1,159 @@
+{
+  "slug": "farming-simulator-25",
+  "igdb_id": 306822,
+  "name": "Farming Simulator 25",
+  "summary": "Farming Simulator 25 floods the fields with a host of new machines, gameplay features, visual upgrades, and even fresh water to grow rice - adding even more agricultural depth and diversity to the family-friendly series.",
+  "first_release_year": 2024,
+  "developers": [
+    "Giants Software"
+  ],
+  "publishers": [
+    "Giants Software"
+  ],
+  "genres": [
+    "Simulator"
+  ],
+  "themes": [
+    "Business",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Farming-Simulator"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "GIANTS Engine"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Landwirtschafts-Simulator 25",
+      "comment": "German title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/farmingsimulator"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Farming_Simulator"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2300320/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCOmANDuJs2IHiEq8p9Ll5tw"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/farmingsim"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://farming-simulator.com/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/giantssoftware"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/farming-simulator-25-917e48"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/farming-simulator-25/9NMCDQ6RCJKH"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009612"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://farmingsimulator.fandom.com/wiki/Farming_Simulator_25"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/farming-simulator-25"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/farmingsimulator"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/giants.farming.simulator"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 12, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 12, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-12"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 12, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-12"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Nov 12, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar30bp.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "8MlSiOBNSSs",
+      "url": "https://www.youtube.com/watch?v=8MlSiOBNSSs"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "sl7Bk3uB4L4",
+      "url": "https://www.youtube.com/watch?v=sl7Bk3uB4L4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "KAIj_2LmzfQ",
+      "url": "https://www.youtube.com/watch?v=KAIj_2LmzfQ"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "0kCHne_jrFk",
+      "url": "https://www.youtube.com/watch?v=0kCHne_jrFk"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "warm-snow",
+  "igdb_id": 167432,
+  "name": "Warm Snow",
+  "summary": "'Warm Snow' is a Rogue-like action game with a background set in a dark fantasy world, where the eerie 'Warm Snow' holds sway. You will play as the Warrior 'Bi-an' on a crusade against the Five Great Clans, in order to save a world teetering on the brink of destruction.",
+  "first_release_year": 2022,
+  "developers": [
+    "BadMudStudio"
+  ],
+  "publishers": [
+    "Bilibili Game"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "2d",
+    "roguelike"
+  ],
+  "alternative_names": [
+    {
+      "name": "暖雪 ",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "WarmSnow.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Warm%20Snow"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/rXQQFpGB6F"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008966"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/warm-snow-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1296830"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://game.bilibili.com/warmsnow"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-20"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-20"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 20, 2023",
+      "status": "Released",
+      "date_iso": "2023-10-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 20, 2023",
+      "status": "Released",
+      "date_iso": "2023-10-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 19, 2022",
+      "status": "Released",
+      "date_iso": "2022-01-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1291.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "H6hfHok2axM",
+      "url": "https://www.youtube.com/watch?v=H6hfHok2axM"
+    }
+  ]
+}

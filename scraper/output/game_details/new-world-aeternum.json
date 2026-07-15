@@ -1,0 +1,174 @@
+{
+  "slug": "new-world-aeternum",
+  "igdb_id": 24654,
+  "name": "New World: Aeternum",
+  "summary": "Explore a thrilling, open-world MMO filled with danger and opportunity where you'll forge a new destiny for yourself as an adventurer shipwrecked on the supernatural island of Aeternum. Endless opportunities to fight, forage, and forge await you among the island's wilderness and ruins. Channel supernatural forces or wield deadly weapons in a classless, real-time combat system, and fight alone, with a small team, or in massed armies for PvE and PvP battles—the choices are all yours.",
+  "first_release_year": 2021,
+  "developers": [
+    "Amazon Games"
+  ],
+  "publishers": [
+    "Amazon Games"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Sandbox"
+  ],
+  "game_modes": [
+    "Multiplayer",
+    "Co-operative",
+    "Massively Multiplayer Online (MMO)"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Amazon Lumberyard"
+  ],
+  "keywords": [
+    "digital distribution",
+    "seasons",
+    "streamer game",
+    "twitch integration"
+  ],
+  "alternative_names": [
+    {
+      "name": "New World",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "NewWorldLauncher.exe",
+      "comment": "windows executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://newworld.fandom.com/wiki/New_World_Wiki"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/new-world-aeternum-standard-edition/9NZXV2K8KGJN"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/playnewworld"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/playnewworld"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/newworldgame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCSLYSDLpSNmZP-1cjNQu6hw"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1063730/New_World/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/New%20World"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://newworld.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/playnewworld"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/playnewworld"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/New_World_(video_game)"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004947"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 15, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 15, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ardga.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4gby.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "qK8jtTMHCRU",
+      "url": "https://www.youtube.com/watch?v=qK8jtTMHCRU"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "FOMhUJitBD4",
+      "url": "https://www.youtube.com/watch?v=FOMhUJitBD4"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "O0DRS99ELNE",
+      "url": "https://www.youtube.com/watch?v=O0DRS99ELNE"
+    },
+    {
+      "title": "TGA 2019 Trailer",
+      "youtube_id": "d_mmIyjgK1s",
+      "url": "https://www.youtube.com/watch?v=d_mmIyjgK1s"
+    },
+    {
+      "title": "Closed Beta Trailer",
+      "youtube_id": "12B4x0FDWBc",
+      "url": "https://www.youtube.com/watch?v=12B4x0FDWBc"
+    },
+    {
+      "title": "Chart Your Fate Trailer",
+      "youtube_id": "1C8y7X5aXOc",
+      "url": "https://www.youtube.com/watch?v=1C8y7X5aXOc"
+    },
+    {
+      "title": "Aeternum Awaits Trailer",
+      "youtube_id": "OKnUBs-Ko44",
+      "url": "https://www.youtube.com/watch?v=OKnUBs-Ko44"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "P-A6WhaxbVM",
+      "url": "https://www.youtube.com/watch?v=P-A6WhaxbVM"
+    }
+  ]
+}

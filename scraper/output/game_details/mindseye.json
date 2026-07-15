@@ -1,0 +1,166 @@
+{
+  "slug": "mindseye",
+  "igdb_id": 320873,
+  "name": "MindsEye",
+  "summary": "MindsEye is an ever-expanding gameplay experience with a story campaign, endless stream of new playable content delivered regularly, and the power to create your own games with the simple to use building tool.",
+  "first_release_year": 2025,
+  "developers": [
+    "Build a Rocket Boy"
+  ],
+  "publishers": [
+    "Build a Rocket Boy"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "cinematic",
+    "futuristic",
+    "story rich",
+    "steam achievements",
+    "xbox controller support for pc",
+    "steam cloud",
+    "controller support",
+    "steam families"
+  ],
+  "alternative_names": [
+    {
+      "name": "MindsEye.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/mindseye-cb0316"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/MindsEye"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10014002"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/mindseyegame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://mindseye.game/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/mindseye"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/mindseyegame/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/MindsEyeGame"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/mindseye/9MTQJ81HTDGF"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3265250/MindsEye/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@mindseyegame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://www.discord.gg/MindsEyeGame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 10, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 10, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-10"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 10, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar36al.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4zc4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4zc3.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3qzw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4zc5.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "NtfMjgFKG-w",
+      "url": "https://www.youtube.com/watch?v=NtfMjgFKG-w"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "zSn42TbRngY",
+      "url": "https://www.youtube.com/watch?v=zSn42TbRngY"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "ewLXQeRGvjk",
+      "url": "https://www.youtube.com/watch?v=ewLXQeRGvjk"
+    },
+    {
+      "title": "Story Trailer",
+      "youtube_id": "oprmuMXtfAo",
+      "url": "https://www.youtube.com/watch?v=oprmuMXtfAo"
+    },
+    {
+      "title": "Introducing MindsEye - Explainer",
+      "youtube_id": "4s3jVJaFrbM",
+      "url": "https://www.youtube.com/watch?v=4s3jVJaFrbM"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "PAcor9SdBTs",
+      "url": "https://www.youtube.com/watch?v=PAcor9SdBTs"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "XRXbiAUV1MQ",
+      "url": "https://www.youtube.com/watch?v=XRXbiAUV1MQ"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "slug": "warhammer-40-000-mechanicus-ii",
+  "igdb_id": 302176,
+  "name": "Warhammer 40,000: Mechanicus II",
+  "summary": "Fast-paced tactical combat meets strategic management in this sequel to the acclaimed Warhammer 40,000: Mechanicus. Take control of either the ancient and deathless Necron legions or the techno-religious acolytes of the Omnissiah, with the fate of a world in your hands.",
+  "first_release_year": 2026,
+  "developers": [
+    "Bulwark Studios"
+  ],
+  "publishers": [
+    "Kasedo Games"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Strategy",
+    "Turn-based strategy (TBS)"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Warhammer 40,000: Mechanicus"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Warhammer 40,000"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Mechanicus2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/warhammer-40-000-mechanicus-ii/9n3b790rkwtw"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/mechanicus40k"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/mechanicus40k"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/warhammer-40k-mechanicus-edf53b"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/warhammer-40-000-mechanicus-ii"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2532480"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@KasedoGames"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Mechanicus40K/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008848"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.mechanicus40k.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Warhammer_40,000:_Mechanicus_II"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 21, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 21, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 21, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2xz3.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5wn3.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5wn4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5wn6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5wn5.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "hpFGfk5l4PA",
+      "url": "https://www.youtube.com/watch?v=hpFGfk5l4PA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "V8RGHUQ2hnE",
+      "url": "https://www.youtube.com/watch?v=V8RGHUQ2hnE"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "g1ATSF2dUtU",
+      "url": "https://www.youtube.com/watch?v=g1ATSF2dUtU"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "atari-mania",
+  "igdb_id": 205172,
+  "name": "Atari Mania",
+  "summary": "A wild journey through videogame history, Atari Mania is a microgame collection wrapped in an hilarious retro-driven narrative of exploration and surprise.",
+  "first_release_year": 2022,
+  "developers": [
+    "Illogika Studios"
+  ],
+  "publishers": [
+    "Atari, Inc."
+  ],
+  "genres": [
+    "Adventure",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric",
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "AtariMania.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/atari-mania-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006959"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1911800"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Atari%20Mania"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/atari-mania-702c68"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://atari.com/products/atari-mania"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 13, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 04, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-04-04"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 04, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-04-04"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 13, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1oty.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "DT7G-4QZq4o",
+      "url": "https://www.youtube.com/watch?v=DT7G-4QZq4o"
+    }
+  ]
+}

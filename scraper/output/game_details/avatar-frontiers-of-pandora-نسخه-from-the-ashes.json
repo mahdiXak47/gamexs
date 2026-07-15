@@ -1,0 +1,104 @@
+{
+  "slug": "avatar-frontiers-of-pandora-نسخه-from-the-ashes",
+  "igdb_id": 371949,
+  "name": "Avatar: Frontiers of Pandora - From the Ashes",
+  "summary": "Avatar Frontiers of Pandora: From the Ashes sees players embark on the journey of So’lek, a battle-hardened Na’vi warrior from the Trr’ong clan. Ambushed and left for dead by the RDA and their new allies—the ruthless Ash clan—So’lek awakens to a world in flames and his Sarentu family scattered.",
+  "first_release_year": 2025,
+  "developers": [
+    "Massive Entertainment"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": "Avatar: Frontiers of Pandora",
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://store.ubisoft.com/us/avatar--frontiers-of-pandora-from-the-ashes/6899f64135b3e504b3ee3703.html?lang=en_US"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3915910"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/from-the-ashes-expansion-avatar-frontiers-of-pandora/9pmt40thk5x3"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP0001-PPSA01576_00-AVATAR2DLC300000"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/avatar-frontiers-of-pandora-from-the-ashes"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 19, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 19, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 19, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4p4b.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4p4c.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "24Lc7E-Vt80",
+      "url": "https://www.youtube.com/watch?v=24Lc7E-Vt80"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "YcgoabsHxzw",
+      "url": "https://www.youtube.com/watch?v=YcgoabsHxzw"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "xe30wUKlV8o",
+      "url": "https://www.youtube.com/watch?v=xe30wUKlV8o"
+    }
+  ]
+}

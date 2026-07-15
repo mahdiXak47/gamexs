@@ -1,0 +1,95 @@
+{
+  "slug": "super-mario-party-jamboree-نسخه-استاندارد-nintendo-switch",
+  "igdb_id": 338071,
+  "name": "Super Mario Party Jamboree: Nintendo Switch 2 Edition + Jamboree TV",
+  "summary": "Super Mario Party Jamboree is getting even more minigames and an upgrade on Nintendo Switch 2! The upgrade expands on the base game and adds Nintendo Switch 2 gameplay features, such as mouse controls, enhanced rumble, sound recognition, and modes that use a camera accessory (sold separately).",
+  "first_release_year": 2025,
+  "developers": [
+    "Nintendo Cube"
+  ],
+  "publishers": [
+    "Nintendo"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure",
+    "Card & Board Game"
+  ],
+  "themes": [
+    "Action",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Mario Party",
+    "Super Mario Party"
+  ],
+  "spin_off_of": "Super Mario Party Jamboree",
+  "franchises": [
+    "Mario"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "minigames",
+    "minigame collection",
+    "camera control",
+    "microphone use",
+    "nintendo switch 2 mouse support",
+    "nintendo switch 2 camera support"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/super-mario-party-jamboree-nintendo-switch-2-edition-plus-jamboree-tv-upgrade-pack-switch-2/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-Edition/Super-Mario-Party-Jamboree-Nintendo-Switch-2-Edition-Jamboree-TV-2785806.html"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://www.mariowiki.com/Super_Mario_Party_Jamboree_%E2%80%93_Nintendo_Switch_2_Edition_%2B_Jamboree_TV"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/super-mario-party-jamboree-nintendo-switch-2-edition-jamboree-tv"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Jul 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3k7n.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Dev Diary",
+      "youtube_id": "sDapFg1BlZE",
+      "url": "https://www.youtube.com/watch?v=sDapFg1BlZE"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ygEdhJqzGUI",
+      "url": "https://www.youtube.com/watch?v=ygEdhJqzGUI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "w0jkSlm6gVA",
+      "url": "https://www.youtube.com/watch?v=w0jkSlm6gVA"
+    }
+  ]
+}

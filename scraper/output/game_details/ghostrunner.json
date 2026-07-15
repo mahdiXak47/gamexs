@@ -1,0 +1,219 @@
+{
+  "slug": "ghostrunner",
+  "igdb_id": 121752,
+  "name": "Ghostrunner",
+  "summary": "Ascend humanity’s last remaining shelter, a great tower-city. The tower is torn by violence, poverty and chaos. Conquer your enemies, discover the secrets of the superstructure and your own origin and obtain the power to challenge The Keymaster.",
+  "first_release_year": 2020,
+  "developers": [
+    "Slipgate Ironworks",
+    "3D Realms",
+    "One More Level"
+  ],
+  "publishers": [
+    "505 Games",
+    "All In! Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Ghostrunner"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "post-apocalyptic",
+    "cyberpunk",
+    "parkour",
+    "fast paced",
+    "first-person platforming",
+    "gamescom 2019",
+    "pax east 2020",
+    "pax south 2020"
+  ],
+  "alternative_names": [
+    {
+      "name": "고스트러너",
+      "comment": "Korean title"
+    },
+    {
+      "name": "ゴーストランナー",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "Ghostrunner.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Ghostrunner"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/GhostrunnerGame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001291"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://ghostrunner.fandom.com/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/ghostrunner-switch/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/ghostrunner"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ghostrunner"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://ghostrunnergame.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1139900"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/ghostrunnerthegame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCqvU-FrJRPqNoXy8KeuyKVg"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/ghostrunner_game"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/product/ghostrunner/home"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/GhostRunner"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/ghostrunner"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-28"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 09, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-09"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 25, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 27, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-27"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 30, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 27, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-27"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 27, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6q7.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6qb.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6q9.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar8ql.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6q8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar67eo.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6q6.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "FJgDU5QSD8Y",
+      "url": "https://www.youtube.com/watch?v=FJgDU5QSD8Y"
+    },
+    {
+      "title": "Gamescom 2020 trailer",
+      "youtube_id": "lQ_hlg0PVJ8",
+      "url": "https://www.youtube.com/watch?v=lQ_hlg0PVJ8"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Wa3j9mdtrjs",
+      "url": "https://www.youtube.com/watch?v=Wa3j9mdtrjs"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "bdwr3oTTpvk",
+      "url": "https://www.youtube.com/watch?v=bdwr3oTTpvk"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "zsjaRHMr088",
+      "url": "https://www.youtube.com/watch?v=zsjaRHMr088"
+    }
+  ]
+}

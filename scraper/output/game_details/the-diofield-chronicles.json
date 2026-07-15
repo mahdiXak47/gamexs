@@ -1,0 +1,161 @@
+{
+  "slug": "the-diofield-chronicles",
+  "igdb_id": 194209,
+  "name": "The DioField Chronicle",
+  "summary": "The DioField Chronicle is a tale of war and honor. Featuring a unique and beautiful world that blends fantasy, medieval and modern-day influences with a deep yet innovative real-time battle system.",
+  "first_release_year": 2022,
+  "developers": [
+    "Lancarse",
+    "Square Enix Creative Business Unit II"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Simulator",
+    "Strategy",
+    "Turn-based strategy (TBS)"
+  ],
+  "themes": [
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "더 디오필드 크로니클",
+      "comment": "Korean title"
+    },
+    {
+      "name": "DFC.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/the-diofield-chronicle-switch/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/DiofieldGame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003580"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://diofieldchronicle.square-enix-games.com/en-us"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1399080"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20DioField%20Chronicle"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Diofield_Chronicle"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/DiofieldGame"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SquareEnix"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/squareenixna"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 22, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 22, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 22, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 22, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 22, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 01, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-01"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 01, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-01"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 22, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1iyt.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "a_Jnap7qQK8",
+      "url": "https://www.youtube.com/watch?v=a_Jnap7qQK8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "u_OqL0y9ePo",
+      "url": "https://www.youtube.com/watch?v=u_OqL0y9ePo"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "slug": "stories-from-sol-the-gun-dog",
+  "igdb_id": 212585,
+  "name": "Stories from Sol: The Gun-Dog",
+  "summary": "An indie graphic adventure / visual novel game in the style of PC-98 titles. Players take on the role of a ship's security officer in deep space near Jupiter as a deadly mystery threatens the entire crew.",
+  "first_release_year": 2025,
+  "developers": [
+    "Space Colony Studios"
+  ],
+  "publishers": [
+    "Meridiem Games",
+    "Astrolabe Games"
+  ],
+  "genres": [
+    "Point-and-click",
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie",
+    "Visual Novel"
+  ],
+  "themes": [
+    "Science fiction",
+    "Thriller",
+    "Drama",
+    "Mystery",
+    "Romance"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Text"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "renpy"
+  ],
+  "keywords": [
+    "anime",
+    "retro",
+    "1980s",
+    "graphic adventure",
+    "80s",
+    "suspense"
+  ],
+  "alternative_names": [
+    {
+      "name": "Stories from Sol part 1: The Gun-Dog",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/stories-from-sol-part-1-the-gun-dog"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2118420/Stories_from_Sol_The_GunDog/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@SpaceColonyStudios"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.spacecolonystudios.com/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009382"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/stories-from-sol-the-gun-dog-switch/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://www.twitter.com/colonycreations"
+    },
+    {
+      "label": "Itch",
+      "url": "https://space-colony-studios.itch.io/storiesfromsol1"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/spacecolonystudios.bsky.social"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/spacecolonystudios"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/7gU7af7DJM"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 20, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-20"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Feb 20, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-20"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Feb 19, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 19, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 20, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2x2i.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "AJHca_dn-f8",
+      "url": "https://www.youtube.com/watch?v=AJHca_dn-f8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "0o3Sp66ze_4",
+      "url": "https://www.youtube.com/watch?v=0o3Sp66ze_4"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "4pYkuGID9IA",
+      "url": "https://www.youtube.com/watch?v=4pYkuGID9IA"
+    }
+  ]
+}

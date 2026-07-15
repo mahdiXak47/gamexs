@@ -1,0 +1,210 @@
+{
+  "slug": "مدل-mortal-kombat-1",
+  "igdb_id": 239392,
+  "name": "Mortal Kombat 1",
+  "summary": "A new era has begun. It's In Our Blood. Discover a reborn Mortal Kombat Universe created by Fire God Liu Kang. Mortal Kombat 1 ushers in a new era of the iconic franchise with a new fighting system, game modes, and Fatalities!",
+  "first_release_year": 2023,
+  "developers": [
+    "NetherRealm Studios"
+  ],
+  "publishers": [
+    "WB Games"
+  ],
+  "genres": [
+    "Fighting",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Mortal Kombat"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Mortal Kombat"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "violence",
+    "gore"
+  ],
+  "alternative_names": [
+    {
+      "name": "真人快打12",
+      "comment": "Chinese Title"
+    },
+    {
+      "name": "MK 1",
+      "comment": "Acronym"
+    },
+    {
+      "name": "MK1",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Mortal Kombat 12",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "真人快打 1",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "MK12.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/mortal-kombat-1/9N7271QN4SGB"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004911"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/MKCommunityManager"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1971870"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/mortal-kombat-1"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://mortalkombat.fandom.com/wiki/Mortal_Kombat_1"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/mortalkombat"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/mortalkombat"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discordapp.com/invite/mortalkombat"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/mortal-kombat-1-switch/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/mortal-kombat-1"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/mortalkombat"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mortal_Kombat_1"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Mortal_Kombat_1/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.mortalkombat.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 19, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 19, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 14, 2023",
+      "status": "status_34",
+      "date_iso": "2023-09-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 14, 2023",
+      "status": "status_34",
+      "date_iso": "2023-09-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 14, 2023",
+      "status": "status_34",
+      "date_iso": "2023-09-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 19, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2bhx.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2bhv.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "UZ6eFEjFfJ0",
+      "url": "https://www.youtube.com/watch?v=UZ6eFEjFfJ0"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "uQkWCpPohgk",
+      "url": "https://www.youtube.com/watch?v=uQkWCpPohgk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "_sLJ-xyjMQo",
+      "url": "https://www.youtube.com/watch?v=_sLJ-xyjMQo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "eT-3vhCl6N4",
+      "url": "https://www.youtube.com/watch?v=eT-3vhCl6N4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "M39CVZt6uu0",
+      "url": "https://www.youtube.com/watch?v=M39CVZt6uu0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "_zQB1gkU8kA",
+      "url": "https://www.youtube.com/watch?v=_zQB1gkU8kA"
+    }
+  ]
+}

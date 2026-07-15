@@ -1,0 +1,224 @@
+{
+  "slug": "sea-of-stars",
+  "igdb_id": 131890,
+  "name": "Sea of Stars",
+  "summary": "Sea of Stars is a turn-based RPG inspired by the classics. Promising the Sabotage touch in every system, Sea of Stars aims to modernize the classic RPG in terms of turn-based combat, storytelling, exploration and interactions with the environment, while still offering a hearty slice of nostalgia and good old, simple fun.",
+  "first_release_year": 2023,
+  "developers": [
+    "Sabotage"
+  ],
+  "publishers": [
+    "Sabotage",
+    "Playdigious"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Fantasy",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "jrpg",
+    "overworld",
+    "pixel graphics",
+    "turn-based combat",
+    "crowdfunding - kickstarter",
+    "story rich",
+    "crowdfunding",
+    "turn-based rpg",
+    "party-based rpg",
+    "the game awards - best independent game - winner",
+    "the game awards - best roleplaying game - nominee"
+  ],
+  "alternative_names": [
+    {
+      "name": "Project Solstice",
+      "comment": "Working title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/sea-of-stars-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/sea-of-stars/9NLLTTJZH40L"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004226"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/seaofstarsgame"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1244090"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://seaofstarsgame.co/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/seaofstars"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sea_of_Stars"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/sea-of-stars"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/sabotage.studio"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SabotageQC"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://seaofstars.fandom.com/wiki/Sea_of_Stars_Wiki"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCFqkoH39JOvUTmQch2yRFFQ"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/sabotagestudio"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.playdigious.seaofstars"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/us/app/sea-of-stars/id6673906410"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 29, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-29"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 29, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-29"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 29, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-29"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 29, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-29"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 29, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 28, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-28"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Apr 07, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-07"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Apr 07, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-07"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Jun 08, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-06-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar67f6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6px.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6py.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "GZVLA08lcR0",
+      "url": "https://www.youtube.com/watch?v=GZVLA08lcR0"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "AhU_K3DVIN4",
+      "url": "https://www.youtube.com/watch?v=AhU_K3DVIN4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "1cBBRM4POBI",
+      "url": "https://www.youtube.com/watch?v=1cBBRM4POBI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "uRwB7RH1lVE",
+      "url": "https://www.youtube.com/watch?v=uRwB7RH1lVE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "XkAsMAFj_LM",
+      "url": "https://www.youtube.com/watch?v=XkAsMAFj_LM"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "P8b_7dwvdSs",
+      "url": "https://www.youtube.com/watch?v=P8b_7dwvdSs"
+    }
+  ]
+}

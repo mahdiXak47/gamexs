@@ -1,0 +1,181 @@
+{
+  "slug": "dirt-5",
+  "igdb_id": 133301,
+  "name": "Dirt 5",
+  "summary": "Dirt 5 is the bold new off-road racing experience created by Codemasters. Blaze a trail across the most iconic routes in the world. Drive the widest roster of cars from rally icons, to trucks, to GT heroes and lots more. Play through a star-studded Career, four-player split-screen, innovative online modes, livery editor and more new features, DIRT 5 is the next generation of extreme racing.",
+  "first_release_year": 2020,
+  "developers": [
+    "Codemasters Cheshire"
+  ],
+  "publishers": [
+    "Codemasters"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Dirt"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Colin McRae"
+  ],
+  "game_engines": [
+    "Ego Engine"
+  ],
+  "keywords": [
+    "rally",
+    "colorful",
+    "previously on - stadia pro"
+  ],
+  "alternative_names": [
+    {
+      "name": "DIRT 5",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/234401"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/dirt-5/9PJGM0T0827V"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://dirt.fandom.com/wiki/DIRT_5"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dirt_5"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/dirtgame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Dirt%205"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1038250"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/dirtgame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://dirtgame.com/dirt5"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/dirtgame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/dirtgame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/discord.gg/BYGnqQB"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/dirtgame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Mar 24, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-12"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 05, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 06, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-06"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 06, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7x3.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Story Trailer",
+      "youtube_id": "1dVtuX6L2Wo",
+      "url": "https://www.youtube.com/watch?v=1dVtuX6L2Wo"
+    },
+    {
+      "title": "Gamescom 2020 Trailer",
+      "youtube_id": "AIHtcsDbgvU",
+      "url": "https://www.youtube.com/watch?v=AIHtcsDbgvU"
+    },
+    {
+      "title": "Features Trailer",
+      "youtube_id": "cEwzdTcFeYA",
+      "url": "https://www.youtube.com/watch?v=cEwzdTcFeYA"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "bgQeGe3vfbk",
+      "url": "https://www.youtube.com/watch?v=bgQeGe3vfbk"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "4sU1G2sXRHQ",
+      "url": "https://www.youtube.com/watch?v=4sU1G2sXRHQ"
+    }
+  ]
+}

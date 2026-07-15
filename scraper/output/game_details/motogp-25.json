@@ -1,0 +1,143 @@
+{
+  "slug": "motogp-25",
+  "igdb_id": 333787,
+  "name": "MotoGP 25",
+  "summary": "Join the official Championship and step into the boots of your favorite riders. Master the most iconic bikes and tracks of the season and challenge the best riders in the world. Feel the authentic race thrills thanks to an overhauled sound design, recorded on-site from official bikes.",
+  "first_release_year": 2025,
+  "developers": [
+    "Milestone"
+  ],
+  "publishers": [
+    "Milestone"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "MotoGP"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/S47gpx5vE2"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10012137"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3077390/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/motogp-25"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/motogp25---xbox-one/9P0HQQ15QST3"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/motogp-25-switch/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@milestoneteam/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/motoGPVideogame/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/motogpvideogame/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/MilestoneItaly/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/motogp25-12906a"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://milestone.it/games/motogp-25/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-30"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-30"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3c9b.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3c9g.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3c9h.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "2cVgPoQ71as",
+      "url": "https://www.youtube.com/watch?v=2cVgPoQ71as"
+    }
+  ]
+}

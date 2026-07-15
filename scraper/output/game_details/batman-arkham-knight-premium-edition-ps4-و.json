@@ -1,0 +1,119 @@
+{
+  "slug": "batman-arkham-knight-premium-edition-ps4-و",
+  "igdb_id": 25972,
+  "name": "Batman: Arkham Knight - Batman Inc. Skin",
+  "summary": "This addon introduces the Batman Inc. costume to Batman: Arkham Knight.",
+  "first_release_year": 2015,
+  "developers": [
+    "Rocksteady Studios"
+  ],
+  "publishers": [
+    "Warner Bros. Interactive Entertainment"
+  ],
+  "genres": [
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Thriller",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": "Batman: Arkham Knight",
+  "franchises": [
+    "Batman",
+    "DC Comics"
+  ],
+  "game_engines": [
+    "Unreal Engine 3"
+  ],
+  "keywords": [
+    "batman",
+    "character skin"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCzi3f1gdbL-rDLUHFxq1GpA"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://arkhamcity.fandom.com/wiki/Alternate_Skins_List"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Batman:_Arkham_Knight"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://rocksteadyltd.com/#arkham-knight"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/208650/Batman_Arkham_Knight"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/batmanarkham"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/BatmanArkham"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/product/batman-arkham-knight/home"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/rocksteady"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/BatmanArkhamUK"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/batmanarkham"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 16, 2015",
+      "status": "Released",
+      "date_iso": "2015-06-16"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 16, 2015",
+      "status": "Released",
+      "date_iso": "2015-06-16"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 16, 2015",
+      "status": "Released",
+      "date_iso": "2015-06-16"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "VCfEMv8OXs4",
+      "url": "https://www.youtube.com/watch?v=VCfEMv8OXs4"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "slug": "goat-simulator-3",
+  "igdb_id": 204360,
+  "name": "Goat Simulator 3",
+  "summary": "Pilgor’s baaack! Gather your herd and venture forth into Goat Simulator 3; a totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage together, or compete in mini-games and then not be friends.",
+  "first_release_year": 2022,
+  "developers": [
+    "Coffee Stain Studios"
+  ],
+  "publishers": [
+    "Coffee Stain Publishing"
+  ],
+  "genres": [
+    "Simulator",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Comedy",
+    "Sandbox"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Goat Simulator"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "animal protagonist"
+  ],
+  "alternative_names": [
+    {
+      "name": "고트 시뮬레이터 3",
+      "comment": "Korean title"
+    },
+    {
+      "name": "Goat2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/goat-simulator-3"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/goatsimulator"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.goatsimulator3.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Goat_Simulator_3"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://goatsimulator.fandom.com/wiki/Goat_Simulator_3"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC9Hb83720kWj8NugAtpxP"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/aK9Z4z2yRP"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/goatsimulator3/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/GoatSimulator"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/coffeestainnorth/?hl=en"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.coffeestain.goatsimulator3"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/us/app/goat-simulator-3/id1618202932"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/850190/Goat_Simulator_3/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003123"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/goat-simulator-3/9NMB4T25W817"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/goat-simulator-3-switch/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Goat%20Simulator%203"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/goatsimulatorgame.bsky.social"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Dec 05, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-05"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Dec 01, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-01"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 24, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-24"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-27"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 17, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-11-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 16, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-11-16"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 16, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-11-16"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Apr 01, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-01"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4rz6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4rz7.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "4PrLhrn9RZg",
+      "url": "https://www.youtube.com/watch?v=4PrLhrn9RZg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ohpP5-QFw_Q",
+      "url": "https://www.youtube.com/watch?v=ohpP5-QFw_Q"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ZQV5boMrKuA",
+      "url": "https://www.youtube.com/watch?v=ZQV5boMrKuA"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "t773F4dE96U",
+      "url": "https://www.youtube.com/watch?v=t773F4dE96U"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "tfFAZ5rpOE8",
+      "url": "https://www.youtube.com/watch?v=tfFAZ5rpOE8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "P2Gmif5v7G0",
+      "url": "https://www.youtube.com/watch?v=P2Gmif5v7G0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "l--q-pxfv3M",
+      "url": "https://www.youtube.com/watch?v=l--q-pxfv3M"
+    }
+  ]
+}

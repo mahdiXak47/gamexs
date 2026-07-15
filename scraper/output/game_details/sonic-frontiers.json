@@ -1,0 +1,259 @@
+{
+  "slug": "sonic-frontiers",
+  "igdb_id": 150010,
+  "name": "Sonic Frontiers",
+  "summary": "Worlds will collide in Sonic the Hedgehog’s newest adventure.\n\nAn experience like never before, accelerate to new heights and experience the thrill of high velocity open-zone freedom. Battle powerful enemies as you speed through the Starfall Islands - landscapes brimming with dense forests, overflowing waterfalls, sizzling deserts and more!",
+  "first_release_year": 2022,
+  "developers": [
+    "Sonic Team"
+  ],
+  "publishers": [
+    "Sega"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Side view"
+  ],
+  "series": [
+    "Sonic the Hedgehog"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Sonic The Hedgehog"
+  ],
+  "game_engines": [
+    "Hedgehog Engine 2"
+  ],
+  "keywords": [
+    "exploration",
+    "ninja",
+    "character customization",
+    "3d",
+    "fishing",
+    "fast paced",
+    "robots",
+    "steam",
+    "achievements",
+    "steam trading cards",
+    "in-game currency",
+    "combat",
+    "talking animals",
+    "story rich",
+    "colorful",
+    "great soundtrack",
+    "steam achievements",
+    "digital distribution",
+    "steam cloud",
+    "anthropomorphism",
+    "playstation trophies",
+    "world map",
+    "voice acting",
+    "protagonist's name in the title",
+    "xbox one x enhanced",
+    "hedgehog",
+    "collectibles",
+    "cross buy",
+    "skill tree",
+    "cutscene pause",
+    "super speed",
+    "spiky-haired protagonist",
+    "fast traveling",
+    "60fps",
+    "green hill zone",
+    "level up",
+    "reference to other games",
+    "xbox achievements",
+    "xbox smart delivery",
+    "steam families",
+    "available on - luna plus"
+  ],
+  "alternative_names": [
+    {
+      "name": "索尼克 未知邊境",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "Sonic Rangers",
+      "comment": "Working title"
+    },
+    {
+      "name": "Sonic 2022",
+      "comment": "Working title"
+    },
+    {
+      "name": "索尼克 未知边境",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "SonicFrontiers.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/sonic_hedgehog"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002956"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Sonic"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/sonic-frontiers"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/sonic-frontiers-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/sonic-frontiers/9PG495V9BT52"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sonic_Frontiers"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Sonic%20Frontiers"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://frontiers.sonicthehedgehog.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1237320/Sonic_Frontiers"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/SonicFrontiers"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/Sonic"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/sonicthehedgehog/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://sonic.fandom.com/wiki/Sonic_Frontiers"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 07, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-11-07"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-08"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-08"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-08"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-08"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1p22.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4hus.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4hv8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4hv9.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4hva.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4hup.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4huq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4hur.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4hv4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4hv5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4hv6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4hv7.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4hun.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4huo.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "klbJ-qyfw5I",
+      "url": "https://www.youtube.com/watch?v=klbJ-qyfw5I"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "WoRM3qUPi8U",
+      "url": "https://www.youtube.com/watch?v=WoRM3qUPi8U"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "RRkKZG1z9PY",
+      "url": "https://www.youtube.com/watch?v=RRkKZG1z9PY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "RjSTwlFuaxk",
+      "url": "https://www.youtube.com/watch?v=RjSTwlFuaxk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "o3wolC1aR9U",
+      "url": "https://www.youtube.com/watch?v=o3wolC1aR9U"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "XET9s-9PLas",
+      "url": "https://www.youtube.com/watch?v=XET9s-9PLas"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "-bZZUt_eXgE",
+      "url": "https://www.youtube.com/watch?v=-bZZUt_eXgE"
+    }
+  ]
+}

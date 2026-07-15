@@ -1,0 +1,152 @@
+{
+  "slug": "lego-horizon-adventure-نسخه-استاندارد",
+  "igdb_id": 305003,
+  "name": "LEGO Horizon Adventures",
+  "summary": "LEGO Horizon Adventures is an action-adventure game developed by Guerrilla Games and Studio Gobo, blending the Horizon series setting with LEGO-style visuals and humour.\nPlayers follow a retelling of Aloy’s story as she travels across a post-apocalyptic world inhabited by machine creatures. Gameplay includes exploration, combat, puzzle-solving, and cooperative play.",
+  "first_release_year": 2024,
+  "developers": [
+    "Guerrilla Games"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Horizon"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Horizon",
+    "LEGO"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "crafting",
+    "female protagonist",
+    "online co-op",
+    "couch co-op",
+    "robot dinosaur"
+  ],
+  "alternative_names": [
+    {
+      "name": "LegoHorizonAdventures.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/lego-horizon-adventures-switch/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/lego-horizon-adventures"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2428810/LEGO_Horizon_Adventures/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007722"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/PlayStation"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/horizon"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lego_Horizon_Adventures"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/lego-horizon-adventures"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.playstation.com/en-us/games/lego-horizon-adventures/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/playstation/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/PlayStation/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/playstation"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 14, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-14"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 14, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 14, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar496r.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar496p.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar496q.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3qvq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3qvp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3seg.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "AqR6phhGHhA",
+      "url": "https://www.youtube.com/watch?v=AqR6phhGHhA"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "D7FOW6GmEhg",
+      "url": "https://www.youtube.com/watch?v=D7FOW6GmEhg"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "fNAdje1kPxA",
+      "url": "https://www.youtube.com/watch?v=fNAdje1kPxA"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "slug": "bus-bound-نسخه-دلوکس",
+  "igdb_id": 348339,
+  "name": "Bus Bound",
+  "summary": "Step into the driver’s seat in Bus Bound, the latest title from the creators of Bus Simulator 21. Explore the vibrant city of Emberville in officially licensed buses, and help transform it into a pedestrian-friendly paradise—one stop at a time.",
+  "first_release_year": 2026,
+  "developers": [
+    "stillalive studios"
+  ],
+  "publishers": [
+    "Saber Interactive"
+  ],
+  "genres": [
+    "Simulator"
+  ],
+  "themes": [
+    "Business"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "BusGame.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2095420"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/SaberGames"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/sabergames"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/saber.games"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/bus-bound/9NZP4F5QM6MH/0017"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-gb/product/EP6853-PPSA22482_00-PROJECTBEE000000"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://saber.games/busbound/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/bus-bound-9f6f44"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/bus-bound"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 30, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 30, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 30, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3oxf.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "YR74rppF3wA",
+      "url": "https://www.youtube.com/watch?v=YR74rppF3wA"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "TyqB0gge0rU",
+      "url": "https://www.youtube.com/watch?v=TyqB0gge0rU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "PvHFFZ3A1ps",
+      "url": "https://www.youtube.com/watch?v=PvHFFZ3A1ps"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "LptQ_BY2F4Y",
+      "url": "https://www.youtube.com/watch?v=LptQ_BY2F4Y"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "-AVsW7RCD-0",
+      "url": "https://www.youtube.com/watch?v=-AVsW7RCD-0"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "uXMAkn7Wx_I",
+      "url": "https://www.youtube.com/watch?v=uXMAkn7Wx_I"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "slug": "code-vein-ii",
+  "igdb_id": 347636,
+  "name": "Code Vein II",
+  "summary": "Code Vein II is an action role-playing game set in a post-apocalyptic world where Revenants are being transformed into hostile \"Horrors.\" A Revenant Hunter must partner with a time-manipulating companion named Lou.\nGameplay features third-person action combat and deep RPG progression, emphasizing specialized Blood-based mechanics and character customization. An evolved Partner System enhances tactical cooperation with AI companions during exploration and high-difficulty boss encounters. Success depends on mastering diverse weaponry and temporal abilities to survive a world defined by memory and ruin.",
+  "first_release_year": 2026,
+  "developers": [
+    "Bandai Namco Studios",
+    "Shift"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Code Vein"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "post-apocalyptic",
+    "character customization"
+  ],
+  "alternative_names": [
+    {
+      "name": "CODE VEIN II",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Code Vein 2",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/code-vein-ii"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/BandaiNamcoEU/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/bandainamcoeu/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.bandainamcoent.com/games/code-vein-ii"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/codeveingame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@BandaiNamcoAmerica"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2362060"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10011448"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/code-vein-ii/9N851Q7SDGQW/0010"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Code_Vein_II"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 29, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-01-29"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 26, 2026",
+      "status": "status_34",
+      "date_iso": "2026-01-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 29, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-01-29"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 26, 2026",
+      "status": "status_34",
+      "date_iso": "2026-01-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 29, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-01-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 26, 2026",
+      "status": "status_34",
+      "date_iso": "2026-01-26"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3of5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar46ay.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar46ax.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3of6.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "mdD6dEhhges",
+      "url": "https://www.youtube.com/watch?v=mdD6dEhhges"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "5ht1mdJTT7s",
+      "url": "https://www.youtube.com/watch?v=5ht1mdJTT7s"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "gpBteyC_OrA",
+      "url": "https://www.youtube.com/watch?v=gpBteyC_OrA"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "EkajrffHLVo",
+      "url": "https://www.youtube.com/watch?v=EkajrffHLVo"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "uF6xLKM-zwg",
+      "url": "https://www.youtube.com/watch?v=uF6xLKM-zwg"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "bratz-rhythm-and-style",
+  "igdb_id": 347308,
+  "name": "Bratz Rhythm & Style",
+  "summary": "Conquer the world of fashion with your new BFFs, the Bratz Pack!",
+  "first_release_year": 2025,
+  "developers": [
+    "Recotechnology"
+  ],
+  "publishers": [
+    "Outright Games"
+  ],
+  "genres": [
+    "Music",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Kids",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "based on - cartoons"
+  ],
+  "alternative_names": [
+    {
+      "name": "Bratz.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010247"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/bratz-rhythm-and-style-switch/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/OutrightGames"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3212580"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Outright_Games"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 12, 2025",
+      "status": "Released",
+      "date_iso": "2025-09-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 12, 2025",
+      "status": "Released",
+      "date_iso": "2025-09-12"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 12, 2025",
+      "status": "Released",
+      "date_iso": "2025-09-12"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 12, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-12"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 12, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar465w.jpg"
+  ],
+  "videos": []
+}

@@ -1,0 +1,158 @@
+{
+  "slug": "forspoken",
+  "igdb_id": 134583,
+  "name": "Forspoken",
+  "summary": "Forspoken follows the journey of Frey, a young New Yorker transported to the beautiful and cruel land of Athia. In search of a way home, Frey must use her newfound magical abilities to traverse sprawling landscapes and battle monstrous creatures.",
+  "first_release_year": 2023,
+  "developers": [
+    "Luminous Productions"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Luminous Studio"
+  ],
+  "keywords": [
+    "magic",
+    "parkour",
+    "female protagonist",
+    "black protagonist"
+  ],
+  "alternative_names": [
+    {
+      "name": "FORSPOKEN",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Project Athia",
+      "comment": "Working title"
+    },
+    {
+      "name": "FORSPOKEN.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000846"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Forspoken"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/forspoken"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1680880"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/SQEXMembersNA"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Forspoken"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Forspoken"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Forspoken"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/forspoken/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://forspoken.square-enix-games.com/en-us"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 24, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 24, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3orj.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ori.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer - Japanese Cast",
+      "youtube_id": "bgAWVC5xm7E",
+      "url": "https://www.youtube.com/watch?v=bgAWVC5xm7E"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "J_3fndPnBmQ",
+      "url": "https://www.youtube.com/watch?v=J_3fndPnBmQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "oR1zX8zfOdM",
+      "url": "https://www.youtube.com/watch?v=oR1zX8zfOdM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "AdZUrXCqUck",
+      "url": "https://www.youtube.com/watch?v=AdZUrXCqUck"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Tku_2N6yhgc",
+      "url": "https://www.youtube.com/watch?v=Tku_2N6yhgc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "y8f8QZTOrfk",
+      "url": "https://www.youtube.com/watch?v=y8f8QZTOrfk"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "i6skG7ykCiY",
+      "url": "https://www.youtube.com/watch?v=i6skG7ykCiY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "mIOZjH7EKf4",
+      "url": "https://www.youtube.com/watch?v=mIOZjH7EKf4"
+    }
+  ]
+}

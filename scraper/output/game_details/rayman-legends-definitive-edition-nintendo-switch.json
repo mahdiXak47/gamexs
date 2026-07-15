@@ -1,0 +1,225 @@
+{
+  "slug": "rayman-legends-definitive-edition-nintendo-switch",
+  "igdb_id": 1968,
+  "name": "Rayman Legends",
+  "summary": "Rayman Legends is a side-scrolling platform game supporting up to four simultaneous players. Players control Rayman, Globox, Teensies, or the new character Barbara as they run, jump, and attack through over one hundred twenty levels. An assist character named Murfy can interact with the environment by cutting ropes, activating mechanisms, and grabbing enemies. The game features rhythm-based levels set to music, daily and weekly online challenge stages with leaderboards, remastered levels from Rayman Origins, and a local multiplayer football minigame called Kung Foot.",
+  "first_release_year": 2013,
+  "developers": [
+    "Ubisoft Montpellier"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Rayman"
+  ],
+  "spin_off_of": "Rayman Legends",
+  "franchises": [
+    "Rayman"
+  ],
+  "game_engines": [
+    "UbiArt Framework"
+  ],
+  "keywords": [
+    "skeleton",
+    "steam",
+    "fairy",
+    "multiple protagonists",
+    "asymmetric gameplay",
+    "online",
+    "kid friendly",
+    "sequel",
+    "wall jump",
+    "swimming",
+    "bats",
+    "playstation network",
+    "digital distribution",
+    "xbox controller support for pc",
+    "challenges",
+    "spider",
+    "60 fps on consoles",
+    "voice acting",
+    "protagonist's name in the title",
+    "rat",
+    "collectibles",
+    "ea app",
+    "unlockables",
+    "4 player co-op",
+    "melee",
+    "real-time combat",
+    "shielded enemies",
+    "games with gold",
+    "asymmetric co-op",
+    "pax prime 2013",
+    "gamescom 2013",
+    "mercenary",
+    "digital rights management",
+    "daily content",
+    "xbox one backwards compatibility",
+    "games on demand",
+    "gamescom 2012",
+    "unskippable cutscene",
+    "food-themed stage",
+    "music-themed stage",
+    "hidden room",
+    "rotating platforms"
+  ],
+  "alternative_names": [
+    {
+      "name": "Rayman: Legends",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Rayman Legends.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.ubisoft.com/en-us/game/rayman/legends"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rayman_Legends"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/rayman"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/RaymanGame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/rayman_game/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@Ubisoft"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/203902"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/rayman-legends/C26K4DVGR45B"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/rayman-legends-wii-u/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/242550"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/product/rayman-legends"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://raymanpc.com/wiki/en/Rayman_Legends"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Nov 23, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-23"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Aug 30, 2013",
+      "status": "Released",
+      "date_iso": "2013-08-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 30, 2013",
+      "status": "Released",
+      "date_iso": "2013-08-30"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Sep 03, 2013",
+      "status": "Released",
+      "date_iso": "2013-09-03"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 18, 2014",
+      "status": "Released",
+      "date_iso": "2014-02-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 03, 2013",
+      "status": "Released",
+      "date_iso": "2013-09-03"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 21, 2014",
+      "status": "Released",
+      "date_iso": "2014-02-21"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Aug 30, 2013",
+      "status": "Released",
+      "date_iso": "2013-08-30"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 21, 2014",
+      "status": "Released",
+      "date_iso": "2014-02-21"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 18, 2014",
+      "status": "Released",
+      "date_iso": "2014-02-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5n2.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "8UzRNKTXOjc",
+      "url": "https://www.youtube.com/watch?v=8UzRNKTXOjc"
+    }
+  ]
+}

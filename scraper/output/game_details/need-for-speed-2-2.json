@@ -1,0 +1,93 @@
+{
+  "slug": "need-for-speed-2-2",
+  "igdb_id": 91,
+  "name": "Need for Speed II",
+  "summary": "There are three main game types. The first two are single race and tournament and the last is a knockout race. Single races allow players to become familiar with the circuits and increase their skill of any one of the six tracks. The six tracks are called Mediterranean, Mystic Peaks, Proving Grounds, Outback, North Country, and Pacific Spirit.",
+  "first_release_year": 1997,
+  "developers": [
+    "EA Canada"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Need for Speed"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Need for Speed"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Need for Speed 2",
+      "comment": "Other Alias"
+    },
+    {
+      "name": "NFS2",
+      "comment": "Other Alias"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Need_for_Speed_II"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Need%20for%20Speed%20II"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation",
+      "region": null,
+      "date": "May 1997",
+      "status": "Released",
+      "date_iso": "1997-05-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "1997",
+      "status": "Released",
+      "date_iso": "1997-12-31"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 30, 1997",
+      "status": "Released",
+      "date_iso": "1997-04-30"
+    },
+    {
+      "platform": "PlayStation",
+      "region": null,
+      "date": "Mar 31, 1997",
+      "status": "Released",
+      "date_iso": "1997-03-31"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Gameplay video",
+      "youtube_id": "lN8aoLrGhhk",
+      "url": "https://www.youtube.com/watch?v=lN8aoLrGhhk"
+    }
+  ]
+}

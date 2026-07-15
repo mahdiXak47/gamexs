@@ -1,0 +1,246 @@
+{
+  "slug": "hello-neighbor",
+  "igdb_id": 18167,
+  "name": "Hello Neighbor",
+  "summary": "Hello Neighbor is a stealth horror game about sneaking into your creepy neighbor's house to figure out what horrible secrets he's hiding in his basement. You play against an AI that adapts from your actions. Really enjoying climbing through that backyard window? Expect a bear trap there. Sneaking through the front door? There'll be cameras there soon. Trying to escape? Your neighbor will find a shortcut and catch you.",
+  "first_release_year": 2017,
+  "developers": [
+    "DYNAMIC PIXELS"
+  ],
+  "publishers": [
+    "tinyBuild"
+  ],
+  "genres": [
+    "Puzzle",
+    "Role-playing (RPG)",
+    "Strategy",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Thriller",
+    "Stealth",
+    "Comedy",
+    "Sandbox"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Hello Neighbor"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Hello Neighbor"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "steam",
+    "achievements",
+    "steam achievements",
+    "pax west 2017",
+    "xbox play anywhere",
+    "xbox one x enhanced",
+    "pax south 2017",
+    "ea app",
+    "4k ultra hd",
+    "previously on - stadia pro"
+  ],
+  "alternative_names": [
+    {
+      "name": "Hello, Neighbour!"
+    },
+    {
+      "name": "HelloNeighbor.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/hello-neighbor/C0G1L18DT97K"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/hello-neighbor-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/231096"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/521890"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://itunes.apple.com/us/app/hello-neighbor/id1386358600?mt=8"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hello_Neighbor"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/hello_neighbor"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/hello-neighbor"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.tinybuildgames.helloneighb"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/user/tinyBuildGAMES"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/NeighborGamesHQ"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/NeighborGamesHQ/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/NeighborGames"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://helloneighborgame.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://twitch.tv/directory/game/Hello%20Neighbor"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://reddit.com/r/HelloNeighborGame"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://hello-neighbor.wikia.com/wiki/Hello_Neighbor_Wiki"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/NeighborGamesHQ"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 27, 2018",
+      "status": "Released",
+      "date_iso": "2018-07-27"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 08, 2017",
+      "status": "Released",
+      "date_iso": "2017-12-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 08, 2017",
+      "status": "Released",
+      "date_iso": "2017-12-08"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Sep 01, 2020",
+      "status": "Early Access",
+      "date_iso": "2020-09-01"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Jul 26, 2018",
+      "status": "Released",
+      "date_iso": "2018-07-26"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Jul 26, 2018",
+      "status": "Released",
+      "date_iso": "2018-07-26"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 27, 2018",
+      "status": "Released",
+      "date_iso": "2018-07-27"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Sep 01, 2020",
+      "status": "Released",
+      "date_iso": "2020-09-01"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 26, 2026",
+      "status": "Released",
+      "date_iso": "2026-03-26"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 27, 2026",
+      "status": "Released",
+      "date_iso": "2026-03-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ttvvipolqq7peji8h49r.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4pix.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4piy.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4piw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4piu.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4piv.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "uXq6_0wUxi0",
+      "url": "https://www.youtube.com/watch?v=uXq6_0wUxi0"
+    },
+    {
+      "title": "Pre-Launch Trailer",
+      "youtube_id": "N311ZFXgu-o",
+      "url": "https://www.youtube.com/watch?v=N311ZFXgu-o"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "TKLx5rhpS2k",
+      "url": "https://www.youtube.com/watch?v=TKLx5rhpS2k"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "U5QdZjbDkY8",
+      "url": "https://www.youtube.com/watch?v=U5QdZjbDkY8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Px7EQXeEMd8",
+      "url": "https://www.youtube.com/watch?v=Px7EQXeEMd8"
+    }
+  ]
+}

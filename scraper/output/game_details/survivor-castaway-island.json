@@ -1,0 +1,150 @@
+{
+  "slug": "survivor-castaway-island",
+  "igdb_id": 258309,
+  "name": "Survivor: Castaway Island",
+  "summary": "Do you have what it takes to outplay your mates and become the sole Survivor? Explore a deserted island where you can only rely on instinct and strategy to outlast competition and survive on the island.",
+  "first_release_year": 2023,
+  "developers": [
+    "Magic Pockets"
+  ],
+  "publishers": [
+    "Microids"
+  ],
+  "genres": [
+    "Puzzle",
+    "Simulator",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Survival",
+    "Kids",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Survivor"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "based on - tv show",
+    "tropical",
+    "castaway",
+    "available on - blacknut"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/survivor-castaway-island-16f672"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008014"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/survivor-castaway-island-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/survivor-castaway-island/9NQ6MM2WDZ9Z"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2396060"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@MicroidsOff?sub_confirmation=1"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/survivor_castaway_island"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/microids"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.microids.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/microids"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/microids_off"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/microids_official"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 03, 2023",
+      "status": "Released",
+      "date_iso": "2023-10-03"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 03, 2023",
+      "status": "Released",
+      "date_iso": "2023-10-03"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 03, 2023",
+      "status": "Released",
+      "date_iso": "2023-10-03"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 03, 2023",
+      "status": "Released",
+      "date_iso": "2023-10-03"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 12, 2023",
+      "status": "Released",
+      "date_iso": "2023-10-12"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 12, 2023",
+      "status": "Released",
+      "date_iso": "2023-10-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2ey8.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "j3FSGt_E9H0",
+      "url": "https://www.youtube.com/watch?v=j3FSGt_E9H0"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "slug": "looney-tunes-wacky-world-of-sports",
+  "igdb_id": 306142,
+  "name": "Looney Tunes: Wacky World of Sports",
+  "summary": "Compete against friends and family with the Looney Tunes squad in basketball, soccer, golf and tennis.\n\nPlay your way solo or in four-player local co-op and choose the characters that best suit your play style.\n\nAvoid wacky obstacles and gain power-ups to incite chaos as you control your favorite Looney Tunes all-stars!",
+  "first_release_year": 2024,
+  "developers": [
+    "Bamtang Games"
+  ],
+  "publishers": [
+    "GameMill Entertainment"
+  ],
+  "genres": [
+    "Sport"
+  ],
+  "themes": [
+    "Kids",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Looney Tunes"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Lts-Win64-ShippingDRM.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.gamemill.com"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009580"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/looney-tunes-wacky-world-of-sports/9n46gnzvm3wm"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://looneytunes.fandom.com/wiki/Looney_Tunes:_Wacky_World_of_Sports"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/looney-tunes-wacky-world-of-sports-switch/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@GameMillEntertainment"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/GameMillEnt"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2330430/Looney_Tunes_Wacky_World_of_Sports/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/looney-tunes-wacky-world-of-sports"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-27"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-27"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-27"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 27, 2024",
+      "status": "Released",
+      "date_iso": "2024-09-27"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar33rs.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar33rt.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar33ru.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "IPVfbLZ4w8I",
+      "url": "https://www.youtube.com/watch?v=IPVfbLZ4w8I"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "slug": "metal-gear-solid-δ-snake-eater",
+  "igdb_id": 250634,
+  "name": "Metal Gear Solid Delta: Snake Eater",
+  "summary": "The same gripping story and engrossing world, but now with cutting-edge graphics and 3D audio, which bring the jungle to life. Get ready for the ultimate survival, stealth and action experience.",
+  "first_release_year": 2025,
+  "developers": [
+    "Konami Digital Entertainment"
+  ],
+  "publishers": [
+    "Konami"
+  ],
+  "genres": [
+    "Shooter",
+    "Tactical",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Metal Gear Solid"
+  ],
+  "spin_off_of": "Metal Gear Solid 3: Snake Eater",
+  "franchises": [
+    "Metal Gear",
+    "Metal Gear Solid"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "METAL GEAR SOLID Δ: SNAKE EATER",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/metal-gear-solid-d-snake-eater/9NX56N49H8V0"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://metalgear.fandom.com/wiki/Metal_Gear_Solid_Delta:_Snake_Eater"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007293"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Metalgear"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.konami.com/mg/mgs3r/eu/en/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Metal_Gear_Solid_Delta:_Snake_Eater"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2417610/METAL_GEAR_SOLID__SNAKE_EATER/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/metal-gear-solid-delta-snake-eater"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 26, 2025",
+      "status": "status_34",
+      "date_iso": "2025-08-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 28, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 26, 2025",
+      "status": "status_34",
+      "date_iso": "2025-08-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 28, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 28, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 26, 2025",
+      "status": "status_34",
+      "date_iso": "2025-08-26"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar42d1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar42d2.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3n2q.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "ij7eCfLxYrU",
+      "url": "https://www.youtube.com/watch?v=ij7eCfLxYrU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "wUOsNavOluw",
+      "url": "https://www.youtube.com/watch?v=wUOsNavOluw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "VTVaEPHa9Bc",
+      "url": "https://www.youtube.com/watch?v=VTVaEPHa9Bc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "fKCkjkyIngU",
+      "url": "https://www.youtube.com/watch?v=fKCkjkyIngU"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "E6-XfqBTbuw",
+      "url": "https://www.youtube.com/watch?v=E6-XfqBTbuw"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "4wgH4szXiqU",
+      "url": "https://www.youtube.com/watch?v=4wgH4szXiqU"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "VifvSU5wlY0",
+      "url": "https://www.youtube.com/watch?v=VifvSU5wlY0"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "XdMAKj0Uq1k",
+      "url": "https://www.youtube.com/watch?v=XdMAKj0Uq1k"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "e7pOlFOTR-g",
+      "url": "https://www.youtube.com/watch?v=e7pOlFOTR-g"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "sKMayCD1u3w",
+      "url": "https://www.youtube.com/watch?v=sKMayCD1u3w"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "APCMK5Zsf9Y",
+      "url": "https://www.youtube.com/watch?v=APCMK5Zsf9Y"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "NtuwoofCSRY",
+      "url": "https://www.youtube.com/watch?v=NtuwoofCSRY"
+    }
+  ]
+}

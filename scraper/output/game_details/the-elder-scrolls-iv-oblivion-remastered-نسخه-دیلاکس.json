@@ -1,0 +1,445 @@
+{
+  "slug": "the-elder-scrolls-iv-oblivion-remastered-نسخه-دیلاکس",
+  "igdb_id": 59,
+  "name": "The Elder Scrolls IV: Oblivion",
+  "summary": "The Elder Scrolls IV: Oblivion, the fourth game in the Elder Scrolls story, is set within the province of Cyrodiil, the heartland and Imperial capital of Tamriel. Emperor Uriel Septim VII is assassinated in flight from his own palace, but just before he dies he passes on to you the mystic Amulet of Kings. The adventure proper begins with the quest to find Uriel's lost and illegitimate son who is the only heir to the throne. In a world where the forces of darkness seek their ultimate dominion over the ranks of man and mer alike, you alone stand between the future of Tamriel and the gates of Oblivion.",
+  "first_release_year": 2006,
+  "developers": [
+    "Bethesda Game Studios"
+  ],
+  "publishers": [
+    "2K Games",
+    "Bethesda Softworks",
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Historical",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "The Elder Scrolls"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "The Elder Scrolls"
+  ],
+  "game_engines": [
+    "Gamebryo"
+  ],
+  "keywords": [
+    "ghosts",
+    "assassin",
+    "hunting",
+    "exploration",
+    "orcs",
+    "bloody",
+    "wizards",
+    "medieval",
+    "disease",
+    "vampire",
+    "murder",
+    "drugs",
+    "magic",
+    "3d",
+    "minigames",
+    "organized crime",
+    "guild",
+    "summoning support",
+    "death",
+    "elves",
+    "horse",
+    "archery",
+    "swordplay",
+    "deer",
+    "mythology",
+    "female protagonist",
+    "hand-to-hand combat",
+    "skeleton",
+    "religion",
+    "steam",
+    "achievements",
+    "undead",
+    "traps",
+    "stacking",
+    "portals",
+    "artificial intelligence",
+    "custom soundtrack",
+    "dialogue trees",
+    "revenge",
+    "snow",
+    "wolf",
+    "torture",
+    "slavery",
+    "racism",
+    "dog",
+    "teleportation",
+    "singing",
+    "sequel",
+    "chemistry",
+    "dreams",
+    "good vs evil",
+    "swimming",
+    "day/night cycle",
+    "gladiators",
+    "cult",
+    "playstation network",
+    "alchemy",
+    "darkness",
+    "trolls",
+    "user generated content",
+    "horse riding",
+    "boss fight",
+    "trainer",
+    "sexual content",
+    "sheep",
+    "necromancy",
+    "single-player only",
+    "anthropomorphism",
+    "game critics awards",
+    "playstation trophies",
+    "attributes",
+    "rivaling factions",
+    "customizable characters",
+    "leveling up",
+    "world map",
+    "voice acting",
+    "bink video",
+    "demon invasion",
+    "mind control",
+    "human",
+    "shopping",
+    "bow and arrow",
+    "loot gathering",
+    "microtransaction",
+    "goblins",
+    "skeletons",
+    "rat",
+    "lion",
+    "original soundtrack release",
+    "active ability",
+    "non-player character",
+    "corpse",
+    "sprinting mechanics",
+    "arena combat",
+    "minotaurs",
+    "ragdoll physics",
+    "escort mission",
+    "falling damage",
+    "treasure chest",
+    "character creation",
+    "saving the world",
+    "moral decisions",
+    "side quests",
+    "pick your gender",
+    "branching storyline",
+    "royalty",
+    "duel",
+    "downloadable content",
+    "questing",
+    "potion",
+    "black market",
+    "melee",
+    "auto-saving",
+    "real-time combat",
+    "a.i. companion",
+    "stat tracking",
+    "instant kill",
+    "invisible enemy",
+    "betrayal",
+    "shielded enemies",
+    "difficulty level",
+    "spellcaster",
+    "multiple gameplay perspectives",
+    "mercenary",
+    "crab",
+    "magic staff",
+    "robbery",
+    "bread",
+    "commerce",
+    "bribery",
+    "theft",
+    "vampire hunter",
+    "interactive environments",
+    "changing sides",
+    "xbox one backwards compatibility",
+    "physics manipulation",
+    "sleeping",
+    "item combination",
+    "shape-shifting",
+    "controversy",
+    "games on demand",
+    "never-ending",
+    "merchants",
+    "reptilian humanoid",
+    "mod support",
+    "high definition graphics",
+    "particle system",
+    "dolby digital",
+    "summoners",
+    "boss assistance",
+    "valuable garbage",
+    "stealth kill",
+    "fetch quests",
+    "regicide",
+    "quest tracking",
+    "mana",
+    "meme origin",
+    "animal cruelty",
+    "levitation",
+    "book adaptation",
+    "camera shift",
+    "poisoning",
+    "invisibility",
+    "scripted events",
+    "fire manipulation",
+    "blacksmith",
+    "zero to hero",
+    "pickpocketing",
+    "dual wielding",
+    "lock picking",
+    "telekinesis",
+    "optional lore",
+    "escaping imprisonment",
+    "fast traveling",
+    "dream sequence",
+    "barbarians",
+    "innocent people die",
+    "acrobatics",
+    "sociopathy",
+    "restoration",
+    "dark elves",
+    "fully customizable controls",
+    "moving bodies",
+    "behind the waterfall",
+    "foreshadowing",
+    "movement penalty",
+    "battle mage",
+    "two-handed weapons",
+    "verticality",
+    "pseudo non-linear",
+    "flower picking",
+    "bartender",
+    "persistent world",
+    "cryokinesis",
+    "god mode",
+    "boar",
+    "ghostly manifestation",
+    "sneaking mission",
+    "warping",
+    "heroic sacrifice",
+    "negotiation",
+    "plane shifting",
+    "adamantium",
+    "greatest hits",
+    "white magic",
+    "conjuration",
+    "illusion",
+    "vampirism",
+    "level scaling",
+    "monomyth",
+    "pc to console port",
+    "kill quest",
+    "aberrant a.i. behaviour",
+    "tomb raiding",
+    "level by doing",
+    "witch hunter",
+    "multi-monitor support",
+    "infinite pockets",
+    "uncanny valley",
+    "fake interactivity",
+    "memorial",
+    "roaming the countryside",
+    "interactive achievement awards 2007",
+    "spike video game awards 2006",
+    "immersive",
+    "suggestive themes",
+    "lgbtq",
+    "sword sorcery"
+  ],
+  "alternative_names": [
+    {
+      "name": "TESIV",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Elder Scrolls 4",
+      "comment": "Other"
+    },
+    {
+      "name": "Oblivion",
+      "comment": "Other"
+    },
+    {
+      "name": "Elder Scrolls 4",
+      "comment": "Other Alias"
+    },
+    {
+      "name": "TES4",
+      "comment": "Other"
+    },
+    {
+      "name": "TESIV Oblivion",
+      "comment": "Other"
+    },
+    {
+      "name": "TES4 Oblivion",
+      "comment": "Other"
+    },
+    {
+      "name": "TES Oblivion",
+      "comment": "Other"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/oblivion/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Elder_Scrolls_IV:_Oblivion"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/the-elder-scrolls-iv-oblivion/C5K89TFLSV19"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/elder_scrolls_iv_oblivion_game_of_the_year_edition_deluxe_the"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.elderscrolls.com"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://en.uesp.net/wiki/Oblivion:Oblivion"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20Elder%20Scrolls%20IV:%20Oblivion"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/22330"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Sep 27, 2007",
+      "status": "Released",
+      "date_iso": "2007-09-27"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Apr 27, 2007",
+      "status": "Released",
+      "date_iso": "2007-04-27"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Mar 20, 2007",
+      "status": "Released",
+      "date_iso": "2007-03-20"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Apr 26, 2007",
+      "status": "Released",
+      "date_iso": "2007-04-26"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Jul 26, 2007",
+      "status": "Released",
+      "date_iso": "2007-07-26"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Mar 31, 2006",
+      "status": "Released",
+      "date_iso": "2006-03-31"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Mar 24, 2006",
+      "status": "Released",
+      "date_iso": "2006-03-24"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Mar 20, 2006",
+      "status": "Released",
+      "date_iso": "2006-03-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 20, 2006",
+      "status": "Released",
+      "date_iso": "2006-03-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 23, 2006",
+      "status": "Released",
+      "date_iso": "2006-03-23"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Mar 23, 2006",
+      "status": "Released",
+      "date_iso": "2006-03-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 24, 2006",
+      "status": "Released",
+      "date_iso": "2006-03-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m4l.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar89f.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m4n.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m4m.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "qJnnPh44Rlo",
+      "url": "https://www.youtube.com/watch?v=qJnnPh44Rlo"
+    },
+    {
+      "title": "Gameplay video",
+      "youtube_id": "LM1IwZdpL2Y",
+      "url": "https://www.youtube.com/watch?v=LM1IwZdpL2Y"
+    }
+  ]
+}

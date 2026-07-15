@@ -1,0 +1,51 @@
+{
+  "slug": "no-mans-sky",
+  "igdb_id": 336874,
+  "name": "No Man's Sky: Relics",
+  "summary": "Turn your hand to palaeontology in update 5.6, RELICS! Unearth hundreds of unique bones, assemble skeletons to design fossil exhibits, join the community on an expedition to recreate lost creatures, battle against gargantuan stone guardians, and more!",
+  "first_release_year": 2025,
+  "developers": [
+    "Hello Games"
+  ],
+  "publishers": [
+    "Hello Games"
+  ],
+  "genres": [],
+  "themes": [],
+  "game_modes": [],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": "No Man's Sky",
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "No Man's Sky: 5.60",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.nomanssky.com/relics-update/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 26, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-26"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "B3TWSQHaIMw",
+      "url": "https://www.youtube.com/watch?v=B3TWSQHaIMw"
+    }
+  ]
+}

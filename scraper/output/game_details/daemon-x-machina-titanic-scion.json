@@ -1,0 +1,159 @@
+{
+  "slug": "daemon-x-machina-titanic-scion",
+  "igdb_id": 250925,
+  "name": "Daemon x Machina: Titanic Scion",
+  "summary": "From Marvelous First Studio comes an action-packed new entry in the Daemon X Machina series. Fly into battle in your customized Arsenal, unleashing a variety of attacks tailored to your playstyle. Feel the exhilaration of fast-paced combat as you freely explore a deadly and dangerous open world on land or in the air. After taking down your foes, collect their weapons and equipment, and upgrade your skills to expand your options on the battlefield. Suit up for a dark sci-fi story where you can face the titanic boss battles alone or with up to two other players online. New and veteran Daemon X Machina players alike will find a worthy adventure here.\n\nCreated and produced by Kenichiro Tsukuda and featuring stunning mechanical designs from Shoji Kawamori, Daemon X Machina: Titanic Scion takes the franchise in a dramatic new direction.\n\nHumanity’s fight for liberation begins now!",
+  "first_release_year": 2025,
+  "developers": [
+    "Marvelous First Studio"
+  ],
+  "publishers": [
+    "Marvelous",
+    "Marvelous Europe Ltd.",
+    "XSEED Games",
+    "Marvelous USA, Inc."
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Daemon X Machina"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "mecha"
+  ],
+  "alternative_names": [
+    {
+      "name": "Game.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "DAEMON X MACHINA: TITANIC SCION",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/daemon-x-machina-titanic-scion/9n43xqb60804"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/daemon-x-machina-titanic-scion"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://daemonxmachinatitanicscion.wiki.gg/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Daemon_X_Machina%3A_Titanic_Scion"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/daemon-x-machina-titanic-scion-switch-2/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1342490"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/xseedgames"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/@marveloususa"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/marveloususa"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/marveloususainc"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://eu.daemonxmachina.com/titanicscion/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/DXM_game"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://reddit.com/r/DaemonXMachina"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10011097"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-05"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Sep 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-05"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar41de.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4x5o.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "13ioks6jwF0",
+      "url": "https://www.youtube.com/watch?v=13ioks6jwF0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "LCeAlIIlQ-k",
+      "url": "https://www.youtube.com/watch?v=LCeAlIIlQ-k"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "f7dZAVGbopM",
+      "url": "https://www.youtube.com/watch?v=f7dZAVGbopM"
+    }
+  ]
+}

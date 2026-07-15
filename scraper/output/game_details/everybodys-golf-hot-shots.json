@@ -1,0 +1,121 @@
+{
+  "slug": "everybodys-golf-hot-shots",
+  "igdb_id": 337034,
+  "name": "Everybody’s Golf: Hot Shots",
+  "summary": "Everybody’s favorite golf game series finally returns to the fairway! Hit the green with a variety of unique characters and courses in online and offline AND single and multiplayer modes!",
+  "first_release_year": 2025,
+  "developers": [
+    "Hyde"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Sport"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Everybody's Golf"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Pac-Man"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "golf",
+    "crossover",
+    "snow"
+  ],
+  "alternative_names": [
+    {
+      "name": "全民高尔夫 环球之旅",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "全民高爾夫 環球之旅",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "EVERYBODY'S GOLF: HOT SHOTS",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "みんなのGOLF WORLD",
+      "comment": "Japanese title - stylized"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2730810/EVERYBODYS_GOLF_HOT_SHOTS/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/everybodys-golf-hot-shots"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Everybody%27s_Golf_Hot_Shots"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/everybodys-golf-hot-shots-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP0700-PPSA26146_00-MAINGAME00000000"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.bandainamcoent.com/games/everybodys-golf-hot-shots"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-05"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-05"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3dio.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "cBXqGv3tMaE",
+      "url": "https://www.youtube.com/watch?v=cBXqGv3tMaE"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "MBlRVZmA8fA",
+      "url": "https://www.youtube.com/watch?v=MBlRVZmA8fA"
+    }
+  ]
+}

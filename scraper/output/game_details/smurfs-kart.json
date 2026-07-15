@@ -1,0 +1,142 @@
+{
+  "slug": "smurfs-kart",
+  "igdb_id": 206680,
+  "name": "Smurfs Kart",
+  "summary": "That is the question you will need to answer in this dynamic kart racing game in the world of Smurfs! The whole family can choose one Smurf, its kart and special power, then you’re ready to go on wild races!",
+  "first_release_year": 2022,
+  "developers": [
+    "Eden Games"
+  ],
+  "publishers": [
+    "Microids"
+  ],
+  "genres": [
+    "Racing",
+    "Arcade"
+  ],
+  "themes": [
+    "Educational",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "The Smurfs"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "120fps"
+  ],
+  "alternative_names": [
+    {
+      "name": "Die Schlümpfe: Kart",
+      "comment": "German title"
+    },
+    {
+      "name": "Schtroumpf Kart",
+      "comment": "French title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/smurfs-kart-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004796"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1911220"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/microids"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Smurfs%20Kart"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.microids.com/game-smurfs-kart/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 22, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-22"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-15"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 22, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 22, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 22, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1w2y.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ljKTN1NuRyw",
+      "url": "https://www.youtube.com/watch?v=ljKTN1NuRyw"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "amikjGreRKM",
+      "url": "https://www.youtube.com/watch?v=amikjGreRKM"
+    }
+  ]
+}

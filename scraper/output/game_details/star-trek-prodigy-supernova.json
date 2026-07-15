@@ -1,0 +1,156 @@
+{
+  "slug": "star-trek-prodigy-supernova",
+  "igdb_id": 202419,
+  "name": "Star Trek Prodigy: Supernova",
+  "summary": "After the U.S.S. Protostar picks up strange readings from a dying star, Dal and Gwyn must race against time to save their friends, their ship, and an entire planetary system before a supernova destroys them all! Using their unique skills to overcome ingenious puzzles, endure hostile environments and battle deadly robot armies, Dal and Gwyn must save their captured crewmates Jankom Pog, Rok-Tahk, Zero, and Murf. But they soon encounter a deadly new enemy, one that will stop at nothing to destroy the U.S.S. Protostar and change the very course of history!",
+  "first_release_year": 2022,
+  "developers": [
+    "Tessera Studios"
+  ],
+  "publishers": [
+    "Outright Games"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Star Trek"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "based on - tv show",
+    "licensed game"
+  ],
+  "alternative_names": [
+    {
+      "name": "Star Trek Prodigy: スーパーノヴァ",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "Star Trek Prodigy: 슈퍼노바",
+      "comment": "Korean title"
+    },
+    {
+      "name": "StarTrekProdigy.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1655220"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003266"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/star-trek-prodigy-supernova-switch/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Outright_Games"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://outrightgames.com/news/outright-games-to-launch-star-trek-prodigy-supernova-original-global-video-game-inspired-by-animated-series-star-trek-prodigy/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/OutrightGames/videos"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/outright_games"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Star%20Trek%20Prodigy:%20Supernova"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/star-trek-prodigy-supernova-cdb770"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-14"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-14"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-14"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-14"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1u52.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "Gea-UmZaO0M",
+      "url": "https://www.youtube.com/watch?v=Gea-UmZaO0M"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "0KgQpVtEj5M",
+      "url": "https://www.youtube.com/watch?v=0KgQpVtEj5M"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "turok-trilogy-bundle-نسخه-استاندارد",
+  "igdb_id": 279028,
+  "name": "Turok Trilogy Bundle",
+  "summary": "Turok is back and no dinosaur is safe! When it was first released in 1997, Turok introduced gamers to a world teeming with cunning enemies, traps, puzzles and deadly weapons all within a vast 3D environment ready to explore.\nNow the classic game has been restored and enhanced with a new visual engine and exciting new features to sink your teeth into!",
+  "first_release_year": 2023,
+  "developers": [
+    "Nightdive Studios",
+    "Iguana Entertainment"
+  ],
+  "publishers": [
+    "Nightdive Studios"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/turok-trilogy-bundle/9P13DT8NX19S"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/turok-trilogy-bundle-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP0913-CUSA20201_00-0808844413353812"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 30, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 30, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-30"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 30, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 31, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4zsv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4zsu.jpg"
+  ],
+  "videos": []
+}

@@ -1,0 +1,172 @@
+{
+  "slug": "ace-combat-8-wings-of-theve",
+  "igdb_id": 381247,
+  "name": "Ace Combat 8: Wings of Theve",
+  "summary": "Soar through the skies and rise above every challenge to earn your place among the elite. Engage in intense aerial combat to dominate the battlefield with powerful weapons. Experience a breathtaking campaign filled with high-stakes missions, hard choices, and deep squad connections.",
+  "first_release_year": 2026,
+  "developers": [
+    "Bandai Namco Aces Inc."
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Simulator",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Drama",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Ace Combat"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Ace Combat"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "ACE COMBAT 8: WINGS OF THEVE",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://x.com/acecombatgames"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/acecombatgames"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/AceCombatAmericas"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ace-combat-8-wings-of-theve/9nt1n9zvhxjk"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/NnDQkXWBSx"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2288340"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10011942"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/ace-combat-8-wings-of-theve"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.bandainamcoent.com/games/ace-combat-8"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://acecombat.wiki.gg/wiki/Ace_Combat_8:_Wings_of_Theve"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 02, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-10-02"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 29, 2026",
+      "status": "status_34",
+      "date_iso": "2026-09-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 29, 2026",
+      "status": "status_34",
+      "date_iso": "2026-09-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 02, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-10-02"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 02, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-10-02"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 29, 2026",
+      "status": "status_34",
+      "date_iso": "2026-09-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4v1z.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4v21.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "OeKsDHjPJiw",
+      "url": "https://www.youtube.com/watch?v=OeKsDHjPJiw"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "c2bgoQhlzqE",
+      "url": "https://www.youtube.com/watch?v=c2bgoQhlzqE"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "cW6zBuO7sb4",
+      "url": "https://www.youtube.com/watch?v=cW6zBuO7sb4"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "JQYx_867ua0",
+      "url": "https://www.youtube.com/watch?v=JQYx_867ua0"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "70-qgnDyMZs",
+      "url": "https://www.youtube.com/watch?v=70-qgnDyMZs"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "piAsflzmzaA",
+      "url": "https://www.youtube.com/watch?v=piAsflzmzaA"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "metroid-prime-remastered-نسخه-remastered-nintendo-switch",
+  "igdb_id": 134257,
+  "name": "Metroid Prime",
+  "summary": "Wii de Asobu: Metroid Prime (also known as New Play Control! Metroid Prime) is a port of Metroid Prime for the Wii with motion controls compatibility. This port later released as a part of Metroid Prime: Trilogy in the West.",
+  "first_release_year": 2009,
+  "developers": [
+    "Retro Studios"
+  ],
+  "publishers": [
+    "Nintendo"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Metroid Prime",
+    "Metroid"
+  ],
+  "spin_off_of": "Metroid Prime",
+  "franchises": [
+    "Metroid"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "metroidvania"
+  ],
+  "alternative_names": [
+    {
+      "name": "Metroid Prime: Wii de Asobu",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Wii de Asobu: Metroid Prime",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "New Play Control! Metroid Prime",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://metroid.fandom.com/wiki/New_Play_Control!_Metroid_Prime"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Metroid_Prime"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Wii",
+      "region": null,
+      "date": "Feb 19, 2009",
+      "status": "Released",
+      "date_iso": "2009-02-19"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "e7Tn8dJvnAg",
+      "url": "https://www.youtube.com/watch?v=e7Tn8dJvnAg"
+    }
+  ]
+}

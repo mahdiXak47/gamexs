@@ -1,0 +1,371 @@
+{
+  "slug": "resident-evil-7-gold-edition-+-village-gold-edition-bundle",
+  "igdb_id": 19562,
+  "name": "Resident Evil 7: Biohazard",
+  "summary": "Resident Evil 7: Biohazard is the first game of the Resident Evil series to switch from 3rd-person to fully 1st-person perspective. A complete refresh of gameplay systems simultaneously propels the survival horror experience to another level. It is as much horror as it is survival, boosting up scare elements and minimizing downright shooting action. The game allows use of Sony's PSVR Headset to play in VR mode.",
+  "first_release_year": 2017,
+  "developers": [
+    "Capcom Development Division 1"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [
+    "Shooter",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Virtual Reality"
+  ],
+  "series": [
+    "Resident Evil"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Resident Evil"
+  ],
+  "game_engines": [
+    "RE Engine"
+  ],
+  "keywords": [
+    "zombies",
+    "psychological horror",
+    "crafting",
+    "female protagonist",
+    "action-adventure",
+    "multiple protagonists",
+    "gore",
+    "multiple endings",
+    "hiding",
+    "atmospheric",
+    "dice",
+    "sequel",
+    "scary",
+    "explosion",
+    "countdown timer",
+    "spider",
+    "windows store",
+    "xbox play anywhere",
+    "xbox one x enhanced",
+    "pax south 2017",
+    "original soundtrack release",
+    "unlockables",
+    "white noise",
+    "color separation",
+    "extreme violence",
+    "profanity",
+    "corpse",
+    "tape recorder",
+    "save point",
+    "playstation experience 2016",
+    "pax west 2016",
+    "stat tracking",
+    "unbeatable enemies",
+    "vision obstruction",
+    "difficulty level",
+    "scary children",
+    "female antagonist",
+    "gamescom 2016",
+    "liberation",
+    "inconvenient malfunction",
+    "bread",
+    "been here before",
+    "unlockable difficulty level",
+    "trophies",
+    "plot twist",
+    "blender",
+    "flashback",
+    "vent crawling",
+    "surprising character switches",
+    "escaping imprisonment",
+    "severed limbs",
+    "foreshadowing",
+    "the game awards 2017",
+    "the game awards - nominee",
+    "4k ultra hd",
+    "male protagonist",
+    "the game awards - best audio design - nominee",
+    "the game awards - best game direction - nominee",
+    "the game awards - best vr game - winner",
+    "the game awards - best vr game - nominee"
+  ],
+  "alternative_names": [
+    {
+      "name": "RE7",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Resident Evil 7",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Resident Evil VII: Biohazard",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Resident Evil 7: Biohazard - Grotesque Version",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "re7.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "RESIDENT EVIL 7 biohazard",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/t/resident_evil_7_biohazard"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/resident-evil-7-biohazard/BVFDTJ1XF6CS"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/220037"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Resident%20Evil%207:%20Biohazard"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/418370"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/ResidentEvil"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/app/resident-evil-7-biohazard/id1640629241"
+    },
+    {
+      "label": "iPad",
+      "url": "https://apps.apple.com/app/resident-evil-7-biohazard/id1640629241"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://residentevil.wikia.com/wiki/Resident_Evil_7:_Biohazard"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://residentevil7.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Resident_Evil_7:_Biohazard"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/RE_Games"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 26, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-01-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 26, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-01-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 14, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-06-14"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 24, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-01-24"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Feb 27, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-27"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Apr 01, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-04-01"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Jul 02, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-02"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jul 02, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-02"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 24, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-01-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 13, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-06-13"
+    },
+    {
+      "platform": "PlayStation VR",
+      "region": null,
+      "date": "Jan 26, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-01-26"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 26, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-01-26"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 24, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-01-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 13, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-06-13"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 14, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-06-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/kvo8i8r4frk2hlvsyebm.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4vh4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4vgy.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4vgv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4vgw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4vgx.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4vh0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4vh1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4vh2.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4vh3.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4vgz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4l15.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "h3hvpxSe4h8",
+      "url": "https://www.youtube.com/watch?v=h3hvpxSe4h8"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "kRKpR2g--Vg",
+      "url": "https://www.youtube.com/watch?v=kRKpR2g--Vg"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "IlkPYxj-j3s",
+      "url": "https://www.youtube.com/watch?v=IlkPYxj-j3s"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3sc5lxqcKao",
+      "url": "https://www.youtube.com/watch?v=3sc5lxqcKao"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "L7ljCTiiLIw",
+      "url": "https://www.youtube.com/watch?v=L7ljCTiiLIw"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "0osKz2rOTHo",
+      "url": "https://www.youtube.com/watch?v=0osKz2rOTHo"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "x3ti_ZSb2vE",
+      "url": "https://www.youtube.com/watch?v=x3ti_ZSb2vE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "o08Xq20Ri8E",
+      "url": "https://www.youtube.com/watch?v=o08Xq20Ri8E"
+    },
+    {
+      "title": "Gameplay Demo",
+      "youtube_id": "sQ27VZz2kkQ",
+      "url": "https://www.youtube.com/watch?v=sQ27VZz2kkQ"
+    },
+    {
+      "title": "Vol.1 “Mysterious Caller”",
+      "youtube_id": "gjqh-BPYU7U",
+      "url": "https://www.youtube.com/watch?v=gjqh-BPYU7U"
+    },
+    {
+      "title": "Vol.2 “Shotgun In The Box”",
+      "youtube_id": "0tIC7vd_lPY",
+      "url": "https://www.youtube.com/watch?v=0tIC7vd_lPY"
+    },
+    {
+      "title": "Welcome Home Trailer",
+      "youtube_id": "K2WRq1zy8O0",
+      "url": "https://www.youtube.com/watch?v=K2WRq1zy8O0"
+    },
+    {
+      "title": "Gamescom 2016 Trailer",
+      "youtube_id": "zgAnAezOAh0",
+      "url": "https://www.youtube.com/watch?v=zgAnAezOAh0"
+    },
+    {
+      "title": "Welcome Home Trailer",
+      "youtube_id": "YwPV3rfA1fI",
+      "url": "https://www.youtube.com/watch?v=YwPV3rfA1fI"
+    }
+  ]
+}

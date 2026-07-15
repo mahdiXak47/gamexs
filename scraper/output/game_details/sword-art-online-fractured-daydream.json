@@ -1,0 +1,170 @@
+{
+  "slug": "sword-art-online-fractured-daydream",
+  "igdb_id": 287852,
+  "name": "Sword Art Online: Fractured Daydream",
+  "summary": "In this online co-op action game, enter a distorted version of the SWORD ART ONLINE world. Pick your role in the form of favorite SWORD ART ONLINE characters and team up with 20 players for raids to defeat powerful enemies.",
+  "first_release_year": 2024,
+  "developers": [
+    "Dimps"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Sword Art Online"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Sword Art Online"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "based on - anime",
+    "licensed game"
+  ],
+  "alternative_names": [
+    {
+      "name": "刀剑神域 碎梦边境",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "刀劍神域 碎夢邊境",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "SWORD ART ONLINE Fractured Daydream",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "start_protected_game.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004518"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/sword-art-online-fractured-daydream-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://fd.sao-game.jp/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/sword-art-online-fractured-daydream"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1858630"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/7rr54TVwMb"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-04"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 01, 2024",
+      "status": "status_34",
+      "date_iso": "2024-10-01"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-04"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-04"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-04"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 01, 2024",
+      "status": "status_34",
+      "date_iso": "2024-10-01"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 01, 2024",
+      "status": "status_34",
+      "date_iso": "2024-10-01"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 01, 2024",
+      "status": "status_34",
+      "date_iso": "2024-10-01"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2sij.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar45mx.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4763.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "J5nzHO22bPA",
+      "url": "https://www.youtube.com/watch?v=J5nzHO22bPA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "yAoNWeS1QPo",
+      "url": "https://www.youtube.com/watch?v=yAoNWeS1QPo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "SlFkxYHRp_w",
+      "url": "https://www.youtube.com/watch?v=SlFkxYHRp_w"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "sTOvj6azEMs",
+      "url": "https://www.youtube.com/watch?v=sTOvj6azEMs"
+    }
+  ]
+}

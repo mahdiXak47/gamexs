@@ -1,0 +1,203 @@
+{
+  "slug": "forza-horizon-5-premium-edition",
+  "igdb_id": 141503,
+  "name": "Forza Horizon 5",
+  "summary": "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open-world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars.",
+  "first_release_year": 2021,
+  "developers": [
+    "Playground Games"
+  ],
+  "publishers": [
+    "Xbox Game Studios",
+    "Microsoft Corporation"
+  ],
+  "genres": [
+    "Racing"
+  ],
+  "themes": [
+    "Action",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Forza Horizon"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Forza"
+  ],
+  "game_engines": [
+    "ForzaTech"
+  ],
+  "keywords": [
+    "rally",
+    "character customization",
+    "vehicle simulation",
+    "mexico",
+    "racing sim",
+    "color customization",
+    "party system",
+    "realism",
+    "the game awards - best sports or racing game - winner",
+    "vehicles",
+    "ray tracing",
+    "the game awards - best audio design - winner",
+    "drag racing",
+    "automobile",
+    "dynamic weather",
+    "offroad"
+  ],
+  "alternative_names": [
+    {
+      "name": "포르자 호라이즌 5",
+      "comment": "Korean title - alternative"
+    },
+    {
+      "name": "ForzaHorizon5.exe",
+      "comment": "windows executable"
+    },
+    {
+      "name": "FH5",
+      "comment": "Acronym"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Forza_Horizon_5"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/ForzaHorizon"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/forza-horizon-5-standard-edition/9NKX70BBCDRN"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/forza"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://forza.net/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/forzahorizon"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@Forza"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010647"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/forzahorizonofficial"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/forza"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://forza.fandom.com/wiki/Forza_Horizon_5"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1551360"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/forzamotorsport"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/horizon.forza.net"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 29, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-29"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 25, 2025",
+      "status": "status_34",
+      "date_iso": "2025-04-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 09, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-11-09"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 09, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-11-09"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 09, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-11-09"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4tba.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/aruoz.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "7fytkGUU7jk",
+      "url": "https://www.youtube.com/watch?v=7fytkGUU7jk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "FYH9n37B7Yw",
+      "url": "https://www.youtube.com/watch?v=FYH9n37B7Yw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "eitSF5rVAOI",
+      "url": "https://www.youtube.com/watch?v=eitSF5rVAOI"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "d_20X1YM28U",
+      "url": "https://www.youtube.com/watch?v=d_20X1YM28U"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "CPgUk3NZcbI",
+      "url": "https://www.youtube.com/watch?v=CPgUk3NZcbI"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "W-SpP-Z0Uu8",
+      "url": "https://www.youtube.com/watch?v=W-SpP-Z0Uu8"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "slug": "mortal-shell-2",
+  "igdb_id": 347633,
+  "name": "Mortal Shell II",
+  "summary": "Their Flesh Is Your Weapon. Mortal Shell II is a standalone sequel action-RPG with adrenaline-charged, high-stakes combat. Possess warrior Shells, dethrone false gods, redeem a ravaged world.",
+  "first_release_year": 2026,
+  "developers": [
+    "Cold Symmetry"
+  ],
+  "publishers": [
+    "Playstack"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Horror",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Mortal Shell"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "steam next fest june 2026"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010058/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/mortal-shell-ii/9NS9TJV1JL86"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/mortal-shell-ii"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2584270"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCznkRchE04jrOPmlgPbfZyA"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/mortalshellgame/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/MortalShellGame"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.mortalshell.com"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/mortalshellgame.bsky.social"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 06, 2026",
+      "status": "Alpha",
+      "date_iso": "2026-06-06"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 20, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-08-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 20, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-08-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 20, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-08-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3odr.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5mx7.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5mx8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5mx9.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5mxa.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3odq.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "w0SLSLuYMhw",
+      "url": "https://www.youtube.com/watch?v=w0SLSLuYMhw"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "cPSE1yrooT4",
+      "url": "https://www.youtube.com/watch?v=cPSE1yrooT4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "zLx-hQE7hqs",
+      "url": "https://www.youtube.com/watch?v=zLx-hQE7hqs"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "slug": "motogp™26",
+  "igdb_id": 394406,
+  "name": "MotoGP 26",
+  "summary": "Live the real MotoGP experience with all the thrills of the Official 2026 Season, renewed physics built around a new rider-based handling system, a more complete Career mode, dynamic Riders Ratings and much more.",
+  "first_release_year": 2026,
+  "developers": [
+    "Milestone S.r.l."
+  ],
+  "publishers": [
+    "Milestone S.r.l."
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "MotoGP"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "simulation",
+    "motorsports",
+    "ea sports nhl",
+    "bikes",
+    "motorbikes"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3875050/MotoGP26/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/motogp26-f3903d"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/motogp-26/9nv14k21sp0n"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://milestone.it/games/motogp-26/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/MilestoneItaly"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/motogpvideogame/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/motoGPVideogame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@MilestoneTeam"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/6j5ptCdX"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10016581"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/motogp-26-switch-2/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 29, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-29"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 29, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-29"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 29, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-29"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Apr 29, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 29, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5j3f.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5j3e.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5ja9.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5jaa.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5jab.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "Ph0fqfJTfIY",
+      "url": "https://www.youtube.com/watch?v=Ph0fqfJTfIY"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "YY7Z2PdxntA",
+      "url": "https://www.youtube.com/watch?v=YY7Z2PdxntA"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "qobY1TmMKLc",
+      "url": "https://www.youtube.com/watch?v=qobY1TmMKLc"
+    }
+  ]
+}

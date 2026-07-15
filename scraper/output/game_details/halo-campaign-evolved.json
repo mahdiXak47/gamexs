@@ -1,0 +1,166 @@
+{
+  "slug": "halo-campaign-evolved",
+  "igdb_id": 375232,
+  "name": "Halo: Campaign Evolved",
+  "summary": "Halo: Campaign Evolved is a faithful yet modernized remake of Halo: Combat Evolved’s campaign. Experience the original story rebuilt with high-definition visuals, updated cinematics, and refined controls, plus three brand-new prequel missions featuring the Master Chief and Sgt. Johnson. A broader arsenal of weapons, vehicles, enemies, and gameplay-modifying “Skulls” – optional modifiers that change combat in fun and challenging ways – add fresh tactics and endless replayability.",
+  "first_release_year": 2026,
+  "developers": [
+    "Halo Studios"
+  ],
+  "publishers": [
+    "Xbox Game Studios"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Halo"
+  ],
+  "spin_off_of": "Halo: Combat Evolved",
+  "franchises": [
+    "Halo"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "cross-platform multiplayer",
+    "cross-platform"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Halo:_Campaign_Evolved"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/halo-campaign-evolved/9N683TDT5M7R/0010"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-gb/concept/10013884"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2806050"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.halowaypoint.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Halo"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/halo"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/Halo"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 28, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-07-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 23, 2026",
+      "status": "status_34",
+      "date_iso": "2026-07-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 23, 2026",
+      "status": "status_34",
+      "date_iso": "2026-07-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 28, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-07-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 23, 2026",
+      "status": "status_34",
+      "date_iso": "2026-07-23"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 28, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-07-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar614o.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar614p.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar614q.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6189.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar63he.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar63kq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4jqb.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4jqc.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "e-tXi1NC_aU",
+      "url": "https://www.youtube.com/watch?v=e-tXi1NC_aU"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "efThjRym-ks",
+      "url": "https://www.youtube.com/watch?v=efThjRym-ks"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "hSjbIM0iegY",
+      "url": "https://www.youtube.com/watch?v=hSjbIM0iegY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "DPrm70EK2f0",
+      "url": "https://www.youtube.com/watch?v=DPrm70EK2f0"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "0MxBFXH2a_U",
+      "url": "https://www.youtube.com/watch?v=0MxBFXH2a_U"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "C6JyOj-7tH8",
+      "url": "https://www.youtube.com/watch?v=C6JyOj-7tH8"
+    }
+  ]
+}

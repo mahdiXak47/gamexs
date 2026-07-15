@@ -1,0 +1,195 @@
+{
+  "slug": "mount-blade-ii-bannerlord-نسخه-استاندارد",
+  "igdb_id": 9608,
+  "name": "Mount & Blade II: Bannerlord",
+  "summary": "Mount & Blade II: Bannerlord is the eagerly awaited sequel to the acclaimed medieval combat simulator and role-playing game Mount & Blade: Warband. Set 200 years before, it expands both the detailed fighting system and the world of Calradia. Bombard mountain fastnesses with siege engines, establish secret criminal empires in the back alleys of cities, or charge into the thick of chaotic battles in your quest for power.",
+  "first_release_year": 2020,
+  "developers": [
+    "Taleworlds"
+  ],
+  "publishers": [
+    "Taleworlds",
+    "Prime Matter"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Simulator",
+    "Strategy",
+    "Tactical",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Mount & Blade"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "In-house engine"
+  ],
+  "keywords": [
+    "medieval",
+    "horse",
+    "day/night cycle",
+    "rivaling factions",
+    "polygonal 3d",
+    "bow and arrow",
+    "mod support"
+  ],
+  "alternative_names": [
+    {
+      "name": "Mount and Blade 2",
+      "comment": "Other Alias"
+    },
+    {
+      "name": "Mount & Blade 2: Bannerlord",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Mount and Blade 2: Bannerlord",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/taleworldschannel"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/mountandbladegame/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/product/mount-and-blade-2"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/mount-and-blade-ii-bannerlord"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/mount-&-blade-ii-bannerlord/9PDHWZ7X3P03"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/233621"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/mountandblade.taleworlds.com"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.taleworlds.com/en/Games/Bannerlord"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mount_%26_Blade_II:_Bannerlord"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/mount_blade_ii_bannerlord"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/261550"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Mount_and_Blade"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/mountandblade"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://mountandblade.wikia.com/wiki/Mount%26Blade_II:_Bannerlord"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 30, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-03-30"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 25, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 25, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 25, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 25, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/argae.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "XLB9PlqkONo",
+      "url": "https://www.youtube.com/watch?v=XLB9PlqkONo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "pv2qb66PbUg",
+      "url": "https://www.youtube.com/watch?v=pv2qb66PbUg"
+    },
+    {
+      "title": "Gamescom 2017: Captain Mode Explained Trailer",
+      "youtube_id": "CHEARGN7uZ4",
+      "url": "https://www.youtube.com/watch?v=CHEARGN7uZ4"
+    },
+    {
+      "title": "E3 2017 Gameplay",
+      "youtube_id": "LmX5DFgRBXk",
+      "url": "https://www.youtube.com/watch?v=LmX5DFgRBXk"
+    },
+    {
+      "title": "Gamescom 2017: Captain Mode Trailer",
+      "youtube_id": "oIMXTRwFA60",
+      "url": "https://www.youtube.com/watch?v=oIMXTRwFA60"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "M_PSRDwORDQ",
+      "url": "https://www.youtube.com/watch?v=M_PSRDwORDQ"
+    }
+  ]
+}

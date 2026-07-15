@@ -1,0 +1,119 @@
+{
+  "slug": "the-callisto-protocol-نسخه-day-one-edition",
+  "igdb_id": 204904,
+  "name": "The Callisto Protocol: Day One Edition",
+  "summary": "Pre-purchase now to get the following digital content:\n- Retro Prisoner Character & Weapons Skin\n\nSurvive to escape the horrors of Callisto and uncover the dark secrets of Jupiter's dead moon.",
+  "first_release_year": 2022,
+  "developers": [
+    "Striking Distance Studios"
+  ],
+  "publishers": [
+    "Krafton",
+    "Skybound Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "story driven",
+    "survival horror"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/the-callisto-protocol--day-one-edition"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/tetqmCgwJz"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Callistothegame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/callistothegame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/CallistoTheGame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://callisto.sds.com"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 02, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-02"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 02, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-02"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 02, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-02"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 02, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-02"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 02, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-02"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1oqt.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "gghRJv_tdb0",
+      "url": "https://www.youtube.com/watch?v=gghRJv_tdb0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "tXt7qWaN6KI",
+      "url": "https://www.youtube.com/watch?v=tXt7qWaN6KI"
+    }
+  ]
+}

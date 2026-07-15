@@ -1,0 +1,188 @@
+{
+  "slug": "immortals-fenyx-rising",
+  "igdb_id": 119357,
+  "name": "Immortals Fenyx Rising",
+  "summary": "From the creators of Assassin’s Creed Odyssey comes a storybook adventure about a forgotten hero on a quest to save the Greek gods.\n\nEmbark on a journey to the Isle of the Blessed, taken over by dangerous creatures of mythology. Prove your legendary heroism by taking on their leader, Typhon, the deadliest monster in all of mythology in a face-off for the ages.\nExplore a beautiful fantasy world where tricky puzzles, mysterious dungeons and heroic feats await. The journey will be as challenging and rewarding as the final destination.\nWill you be the Hero of the legends foretold?",
+  "first_release_year": 2020,
+  "developers": [
+    "Ubisoft Québec"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Puzzle",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Ubisoft Anvil"
+  ],
+  "keywords": [
+    "greek mythology"
+  ],
+  "alternative_names": [
+    {
+      "name": "Immortals Fenix Rising™",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Gods & Monsters",
+      "comment": "Working title"
+    },
+    {
+      "name": "Gods and Monsters",
+      "comment": "Working title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Immortals_Fenyx_Rising"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2221920"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/234423"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/immortals-fenyx-rising-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/immortals-fenyx-rising/C07KJZRH0L7S"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ubisoft.com/en-us/game/gods-and-monsters/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/ubisoft"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Ubisoft"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/FenyxRising"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/product/immortals-fenyx-rising"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Ubisoft.Nordic"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/ubisoft"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Gods%20%26%20Monsters"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-03"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-03"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-03"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-03"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-03"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Dec 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-03"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 02, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-02"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-03"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5sb.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5sa.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7eb.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5s8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5s9.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "WQ6m8jbtsZI",
+      "url": "https://www.youtube.com/watch?v=WQ6m8jbtsZI"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "phpm8v_uRWs",
+      "url": "https://www.youtube.com/watch?v=phpm8v_uRWs"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "Egzb6_HCqQw",
+      "url": "https://www.youtube.com/watch?v=Egzb6_HCqQw"
+    }
+  ]
+}

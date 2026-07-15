@@ -1,0 +1,137 @@
+{
+  "slug": "avatar-frontiers-of-pandora",
+  "igdb_id": 152202,
+  "name": "Avatar: Frontiers of Pandora",
+  "summary": "Avatar: Frontiers of Pandora is a first-person, action-adventure game set in the never-before-seen Western Frontier of Pandora. Abducted by the human militaristic corporation known as the RDA, you, a Na’vi, were trained and molded to serve their purpose. Fifteen years later, you are free, but find yourself a stranger in your birthplace. Reconnect with your lost heritage, discover what it truly means to be Na'vi, and join other clans to protect Pandora from the RDA.",
+  "first_release_year": 2023,
+  "developers": [
+    "Massive Entertainment"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "James Cameron's Avatar"
+  ],
+  "game_engines": [
+    "Snowdrop"
+  ],
+  "keywords": [
+    "crafting",
+    "upgradeable weapons",
+    "side quests",
+    "alien world",
+    "available on - luna ubisoft plus"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Avatar:_Frontiers_of_Pandora"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/avatar-frontiers-of-pandora"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/235179"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/avatar-frontiers-of-pandora/9N9QJG4S82B5"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ubisoft.com/en-us/game/avatar-frontiers-of-pandora"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/YmpMPruPqs"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2840770/Avatar_Frontiers_of_Pandora/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Avatar"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Avatar:%20Frontiers%20of%20Pandora"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-07"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-07"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-07"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4m7k.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4m7j.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "Axmg1E4HrVE",
+      "url": "https://www.youtube.com/watch?v=Axmg1E4HrVE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "RDzw1EKnaIA",
+      "url": "https://www.youtube.com/watch?v=RDzw1EKnaIA"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "g7D2zu7PKyM",
+      "url": "https://www.youtube.com/watch?v=g7D2zu7PKyM"
+    },
+    {
+      "title": "PC Features Trailer",
+      "youtube_id": "LMKjgVkGwzU",
+      "url": "https://www.youtube.com/watch?v=LMKjgVkGwzU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "H1D8UnqJp8k",
+      "url": "https://www.youtube.com/watch?v=H1D8UnqJp8k"
+    }
+  ]
+}

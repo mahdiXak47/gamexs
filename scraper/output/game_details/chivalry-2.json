@@ -1,0 +1,210 @@
+{
+  "slug": "chivalry-2",
+  "igdb_id": 119342,
+  "name": "Chivalry 2",
+  "summary": "Chivalry 2 is a multiplayer first person slasher inspired by epic medieval movie battles. Players are thrust into the action of every iconic moment of the era - from clashing swords, to storms of flaming arrows, to sprawling castle sieges and more.",
+  "first_release_year": 2021,
+  "developers": [
+    "Torn Banner Studios"
+  ],
+  "publishers": [
+    "Tripwire Interactive"
+  ],
+  "genres": [
+    "Fighting",
+    "Tactical",
+    "Hack and slash/Beat 'em up",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Chivalry"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "gore",
+    "combat",
+    "online multiplayer"
+  ],
+  "alternative_names": [
+    {
+      "name": "Chivalry2Launcher.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chivalry_2"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/234762"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/chivalry-2/9N7CJX93ZGWN"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Chivalrythegame"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/product/chivalry-2/home"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.chivalry2.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/chivalrygame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/5cr2cMp"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1824220"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Chivalry%20II"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://chivalry.wiki.gg/wiki/Chivalry_2"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/TornBannerStudios"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 08, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-08"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 08, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-08"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 08, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-08"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 24, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 08, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-08"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 24, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 24, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-24"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 08, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r9.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4myn.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ESPXnkkx1rA",
+      "url": "https://www.youtube.com/watch?v=ESPXnkkx1rA"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "mN2n02ckVSA",
+      "url": "https://www.youtube.com/watch?v=mN2n02ckVSA"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "Ol4qnwqs1-k",
+      "url": "https://www.youtube.com/watch?v=Ol4qnwqs1-k"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "agwsptm3vsw",
+      "url": "https://www.youtube.com/watch?v=agwsptm3vsw"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "JkDKleAkBqM",
+      "url": "https://www.youtube.com/watch?v=JkDKleAkBqM"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "oZUGJOtSyhA",
+      "url": "https://www.youtube.com/watch?v=oZUGJOtSyhA"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "bC5p_ZKNrU8",
+      "url": "https://www.youtube.com/watch?v=bC5p_ZKNrU8"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "7-z9c8ymIU8",
+      "url": "https://www.youtube.com/watch?v=7-z9c8ymIU8"
+    },
+    {
+      "title": "TGA 2021 Trailer",
+      "youtube_id": "4gs1tu3keEE",
+      "url": "https://www.youtube.com/watch?v=4gs1tu3keEE"
+    }
+  ]
+}

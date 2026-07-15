@@ -1,0 +1,58 @@
+{
+  "slug": "detective-collection",
+  "igdb_id": 302397,
+  "name": "AI Detective Collection",
+  "summary": "AI Detective Collection combines the AI large language model to create a detective deciphering game. Players will be integrated into the deduction story, using AI assistants to deeply investigate clues, examine evidence, and uncover the truth behind the case through logical thinking and deduction.",
+  "first_release_year": 2024,
+  "developers": [],
+  "publishers": [],
+  "genres": [
+    "Role-playing (RPG)",
+    "Simulator",
+    "Strategy",
+    "Adventure"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "AI探案集",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "AI Detective Collection.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2917100"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/ai-detective-collection"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2y5u.jpg"
+  ],
+  "videos": []
+}

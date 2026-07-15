@@ -1,0 +1,203 @@
+{
+  "slug": "metal-slug-anthology",
+  "igdb_id": 5004,
+  "name": "Metal Slug Anthology",
+  "summary": "A compilation of the successful side-scrolling arcade games as a result of the series 10th anniversary. A upgraded PS4 version with trophy support and 1080p visuals was launched July 5th 2016 as part of the PS2-PS4 program.",
+  "first_release_year": 2006,
+  "developers": [
+    "Nazca Corporation",
+    "Noise Factory",
+    "SNK",
+    "SNK Playmore"
+  ],
+  "publishers": [
+    "SNK",
+    "SNK Playmore"
+  ],
+  "genres": [
+    "Shooter",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Comedy",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Metal Slug"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Metal Slug"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "modern warfare",
+    "aliens",
+    "bloody",
+    "death",
+    "run and gun",
+    "mummy",
+    "compilation",
+    "war",
+    "multiple protagonists",
+    "scrolling shooter",
+    "pixel art",
+    "tank",
+    "high score",
+    "playstation network",
+    "boss fight",
+    "explosion",
+    "digital distribution",
+    "throwing weapons",
+    "modern military",
+    "character select screen",
+    "collectibles",
+    "emulation",
+    "non-player character",
+    "melee",
+    "playstation tv support",
+    "wii classic controller support",
+    "one-handed gameplay",
+    "competitive co-op",
+    "button mashing",
+    "close quarters combat",
+    "developer commentary",
+    "ps2 classics",
+    "gamecube controller support on wii"
+  ],
+  "alternative_names": [
+    {
+      "name": "MSA",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Metal Slug Complete",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.metalslug10th.com/complete/index.php"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/202875"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Metal_Slug_Anthology"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 20, 2016",
+      "status": "status_35",
+      "date_iso": "2016-09-20"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 05, 2016",
+      "status": "status_35",
+      "date_iso": "2016-07-05"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Aug 19, 2015",
+      "status": "status_35",
+      "date_iso": "2015-08-19"
+    },
+    {
+      "platform": "Wii",
+      "region": null,
+      "date": "Dec 14, 2006",
+      "status": "Cancelled",
+      "date_iso": "2006-12-14"
+    },
+    {
+      "platform": "PlayStation Portable",
+      "region": null,
+      "date": "Feb 20, 2007",
+      "status": "Cancelled",
+      "date_iso": "2007-02-20"
+    },
+    {
+      "platform": "PlayStation Portable",
+      "region": null,
+      "date": "Feb 22, 2007",
+      "status": "Cancelled",
+      "date_iso": "2007-02-22"
+    },
+    {
+      "platform": "PlayStation 2",
+      "region": null,
+      "date": "Jul 06, 2007",
+      "status": "Cancelled",
+      "date_iso": "2007-07-06"
+    },
+    {
+      "platform": "PlayStation Portable",
+      "region": null,
+      "date": "Feb 09, 2007",
+      "status": "Cancelled",
+      "date_iso": "2007-02-09"
+    },
+    {
+      "platform": "PlayStation Portable",
+      "region": null,
+      "date": "Dec 14, 2006",
+      "status": "Cancelled",
+      "date_iso": "2006-12-14"
+    },
+    {
+      "platform": "Wii",
+      "region": null,
+      "date": "Dec 27, 2007",
+      "status": "Cancelled",
+      "date_iso": "2007-12-27"
+    },
+    {
+      "platform": "Wii",
+      "region": null,
+      "date": "Mar 30, 2007",
+      "status": "Cancelled",
+      "date_iso": "2007-03-30"
+    },
+    {
+      "platform": "PlayStation 2",
+      "region": null,
+      "date": "Mar 27, 2007",
+      "status": "Cancelled",
+      "date_iso": "2007-03-27"
+    },
+    {
+      "platform": "PlayStation 2",
+      "region": null,
+      "date": "May 05, 2007",
+      "status": "Cancelled",
+      "date_iso": "2007-05-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1d8p.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "oZebYVW2I_c",
+      "url": "https://www.youtube.com/watch?v=oZebYVW2I_c"
+    }
+  ]
+}

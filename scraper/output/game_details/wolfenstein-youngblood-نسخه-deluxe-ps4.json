@@ -1,0 +1,172 @@
+{
+  "slug": "wolfenstein-youngblood-نسخه-deluxe-ps4",
+  "igdb_id": 103301,
+  "name": "Wolfenstein: Youngblood",
+  "summary": "Wolfenstein: Youngblood is a brand-new co-op experience from MachineGames, the award-winning studio that developed the critically acclaimed Wolfenstein II: The New Colossus.\n\nSet in 1980, 19 years after BJ Blazkowicz ignited the second American Revolution, Wolfenstein: Youngblood introduces the next Blazkowicz generation to the fight against the Nazis. Play as one of BJ’s twin daughters, Jess and Soph, as you search for your missing father in Nazi-occupied Paris.",
+  "first_release_year": 2019,
+  "developers": [
+    "MachineGames"
+  ],
+  "publishers": [
+    "Bethesda Softworks"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Wolfenstein: The New Order",
+    "Wolfenstein"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Wolfenstein"
+  ],
+  "game_engines": [
+    "id Tech 6"
+  ],
+  "keywords": [
+    "alternate history",
+    "nazis"
+  ],
+  "alternative_names": [
+    {
+      "name": "Wolfenstein Youngblood",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Wolfenstein: Youngblood - International Version",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Youngblood_x64vk.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wolfenstein:_Youngblood"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/wolfenstein-youngblood-standard-edition-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/wolfenstein-youngblood/C421ZX7RCG0W"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/232887"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Wolfenstein"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/wolfenstein"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://wolfenstein.bethesda.net/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://wolfenstein.fandom.com/wiki/Wolfenstein:_Youngblood"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/wolfenstein"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Wolfenstein"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Wolfenstein%3A%20Youngblood"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1056960/Wolfenstein_Youngblood/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 26, 2019",
+      "status": "Released",
+      "date_iso": "2019-07-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 25, 2019",
+      "status": "Released",
+      "date_iso": "2019-07-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 26, 2019",
+      "status": "Released",
+      "date_iso": "2019-07-26"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 26, 2019",
+      "status": "Released",
+      "date_iso": "2019-07-26"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Nov 19, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5cd.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5aq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4pi.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "O6K_ZzMWTTo",
+      "url": "https://www.youtube.com/watch?v=O6K_ZzMWTTo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "SNpgKytPcc4",
+      "url": "https://www.youtube.com/watch?v=SNpgKytPcc4"
+    },
+    {
+      "title": "E3 2018 Trailer",
+      "youtube_id": "JVYEf-vQPIE",
+      "url": "https://www.youtube.com/watch?v=JVYEf-vQPIE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Zjwo5EJxn9E",
+      "url": "https://www.youtube.com/watch?v=Zjwo5EJxn9E"
+    }
+  ]
+}

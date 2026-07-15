@@ -1,0 +1,231 @@
+{
+  "slug": "speedrunners",
+  "igdb_id": 9527,
+  "name": "SpeedRunners",
+  "summary": "Cut-throat multiplayer running game that pits 4 players against each other, locally and/or online. Run, jump, swing around, and use devious weapons and pick-ups to knock opponents off-screen",
+  "first_release_year": 2016,
+  "developers": [
+    "DoubleDutch Games"
+  ],
+  "publishers": [
+    "tinyBuild"
+  ],
+  "genres": [
+    "Platform",
+    "Racing",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "SpeedRunners"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "FNA"
+  ],
+  "keywords": [
+    "steam",
+    "steam trading cards",
+    "wall jump",
+    "superhero",
+    "explosion",
+    "digital distribution",
+    "xbox controller support for pc",
+    "pax west 2017",
+    "pre-release public testing",
+    "pax south 2017",
+    "humble bundle",
+    "downloadable content",
+    "pax east 2016",
+    "pax west 2016",
+    "grapple",
+    "games with gold",
+    "pax prime 2014",
+    "pax east 2014",
+    "pax prime 2015",
+    "pax east 2015",
+    "flash game origin"
+  ],
+  "alternative_names": [
+    {
+      "name": "SpeedRunners: Online PVP",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "SpeedRunners.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/SpeedRunners"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/SpeedRunners"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/221759"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/speedrunners-switch/"
+    },
+    {
+      "label": "iPad",
+      "url": "https://apps.apple.com/app/speedrunners-online-pvp/id1445902625"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/app/speedrunners-online-pvp/id1445902625"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/SpeedRunnersHQ"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/157128584341675"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/speedrunnershq/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/@tinybuildgames"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/SpeedRunnersGame"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/speedrunners/c3pb0bp0g04l"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://speedrunners.wikia.com/wiki/SpeedRunners_Wiki:Main_Page"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/207140"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://tinybuild.com/speedrunners"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jan 23, 2020",
+      "status": "Released",
+      "date_iso": "2020-01-23"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jan 22, 2020",
+      "status": "Released",
+      "date_iso": "2020-01-22"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Apr 19, 2016",
+      "status": "Released",
+      "date_iso": "2016-04-19"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Feb 25, 2019",
+      "status": "Early Access",
+      "date_iso": "2019-02-25"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Apr 19, 2016",
+      "status": "Released",
+      "date_iso": "2016-04-19"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 01, 2017",
+      "status": "Released",
+      "date_iso": "2017-06-01"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 05, 2017",
+      "status": "Released",
+      "date_iso": "2017-07-05"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 19, 2016",
+      "status": "Released",
+      "date_iso": "2016-04-19"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 01, 2017",
+      "status": "Released",
+      "date_iso": "2017-06-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 19, 2016",
+      "status": "Released",
+      "date_iso": "2016-04-19"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Feb 25, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-02-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ard1m.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4c47.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4c48.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4c49.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "yzOxfKE-yzo",
+      "url": "https://www.youtube.com/watch?v=yzOxfKE-yzo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "rWwUDenjkzs",
+      "url": "https://www.youtube.com/watch?v=rWwUDenjkzs"
+    }
+  ]
+}

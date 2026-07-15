@@ -1,0 +1,95 @@
+{
+  "slug": "arcade-game-series-pac-man",
+  "igdb_id": 68344,
+  "name": "Arcade Game Series: Pac-Man",
+  "summary": "First appearing in arcades in 1980, the masterpiece PAC-MAN finally comes to modern platforms!\nMove PAC-MAN up, down, left, and right to eat all the Pac-Dots, while avoiding the ghosts, to advance to the next stage.\nEat a Power Pellet to turn the tables on the ghosts and rack up a huge score!\n\nWith simple rules but deep gameplay, it's easy to see why the adorable PAC-MAN took the world by storm!\nPAC-MAN was awarded the Guinness World Record in 2005 for being the most successful coin-operated arcade machine in history.\n\nThis latest port comes with scanline and sound settings, and the option to play with the Round 256 bug - perfect for PAC-MANiacs!\nExperience the masterpiece that charmed the planet!",
+  "first_release_year": 2016,
+  "developers": [
+    "Bandai Namco Entertainment Europe"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment Europe"
+  ],
+  "genres": [
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Arcade Game Series"
+  ],
+  "spin_off_of": "Pac-Man",
+  "franchises": [
+    "Pac-Man"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "classic"
+  ],
+  "alternative_names": [
+    {
+      "name": "Arcade Game Series - Pac-Man",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "PAC-MAN.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://pacman.fandom.com/wiki/Pac-Man_(game)"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/206125"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/arcade-game-series-pac-man/BQPZGCHPFPV6"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/394160"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pac-Man"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 19, 2016",
+      "status": "Released",
+      "date_iso": "2016-04-19"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 20, 2016",
+      "status": "Released",
+      "date_iso": "2016-04-20"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 20, 2016",
+      "status": "Released",
+      "date_iso": "2016-04-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5me.jpg"
+  ],
+  "videos": []
+}

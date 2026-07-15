@@ -1,0 +1,115 @@
+{
+  "slug": "planet-zoo-نسخه",
+  "igdb_id": 117717,
+  "name": "Planet Zoo",
+  "summary": "Build a world for wildlife in Planet Zoo. From the creators of Planet Coaster and Zoo Tycoon comes the ultimate zoo sim. Construct detailed habitats, manage your zoo, and meet authentic living animals who think, feel and explore the world you create around them.",
+  "first_release_year": 2019,
+  "developers": [
+    "Frontier Developments"
+  ],
+  "publishers": [
+    "Frontier Developments"
+  ],
+  "genres": [
+    "Simulator",
+    "Strategy"
+  ],
+  "themes": [
+    "Business",
+    "Sandbox"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Planet Zoo"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Cobra"
+  ],
+  "keywords": [
+    "animals",
+    "zoo"
+  ],
+  "alternative_names": [
+    {
+      "name": "星球动物园",
+      "comment": "Chinese title"
+    },
+    {
+      "name": "PlanetZoo.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.planetzoogame.com/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/PlanetZooGame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Planet%20Zoo"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/PlanetZooGame"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/PlanetZooGame"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Planet_Zoo"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/planetzoo"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/703080/Planet_Zoo/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCjPj7iZAzsc6mRyo038889g"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP2514-PPSA18027_00-PLANETZOOOOOOOOO"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 05, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5eg.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "wyMAUjcRvr8",
+      "url": "https://www.youtube.com/watch?v=wyMAUjcRvr8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "U0dKVohY8p0",
+      "url": "https://www.youtube.com/watch?v=U0dKVohY8p0"
+    }
+  ]
+}

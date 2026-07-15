@@ -1,0 +1,170 @@
+{
+  "slug": "like-a-dragon-pirate-yakuza-in-hawaii",
+  "igdb_id": 317317,
+  "name": "Like a Dragon: Pirate Yakuza in Hawaii",
+  "summary": "A new legend begins as you step into the steel toe boots of Goro Majima, a man who has lost his memory and reinvents himself as a pirate on the open sea.\n\nEmbark on an over-the-top, modern-day pirate adventure with an ex-yakuza, now pirate captain and his crew as they engage in exhilarating combat on land and sea in the hunt for lost memories and a legendary treasure.",
+  "first_release_year": 2025,
+  "developers": [
+    "Ryu Ga Gotoku Studios"
+  ],
+  "publishers": [
+    "Sega"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Yakuza: Like a Dragon"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Yakuza: Like a Dragon"
+  ],
+  "game_engines": [
+    "Dragon Engine"
+  ],
+  "keywords": [
+    "pirate",
+    "asian protagonist"
+  ],
+  "alternative_names": [
+    {
+      "name": "Like a Dragon 8 Gaiden: Pirates in Hawaii",
+      "comment": "Japanese title - translated"
+    },
+    {
+      "name": "Like a Dragon Gaiden: Pirates in Hawaii",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "人中之龍８外傳 Pirates in Hawaii",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "人中之龙８外传 Pirates in Hawaii",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "startup.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/like-a-dragon-pirate-yakuza-in-hawaii/9P1303FCXW6X"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10011704"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://gaiden.sega.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3061810/Like_a_Dragon_Pirate_Yakuza_in_Hawaii/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@Ryugagotoku_official"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/yakuzagames/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/RGGStudioWest"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/RGGStudioWest"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/ryugagotoku"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-21"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-21"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ptw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ptv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ptx.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "RmDgdb2JQfw",
+      "url": "https://www.youtube.com/watch?v=RmDgdb2JQfw"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "T6aJQ9hDFxk",
+      "url": "https://www.youtube.com/watch?v=T6aJQ9hDFxk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "GCmDF0NqZQc",
+      "url": "https://www.youtube.com/watch?v=GCmDF0NqZQc"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "vYdVaDalhSg",
+      "url": "https://www.youtube.com/watch?v=vYdVaDalhSg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "rL-OoVxc6NU",
+      "url": "https://www.youtube.com/watch?v=rL-OoVxc6NU"
+    }
+  ]
+}

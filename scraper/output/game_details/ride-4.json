@@ -1,0 +1,143 @@
+{
+  "slug": "ride-4",
+  "igdb_id": 133922,
+  "name": "Ride 4",
+  "summary": "Are you ready to live the best gaming experience that a motorcycle fan can get? RIDE 4 will spark your competitive soul with hundreds of bikes, dozens of tracks and a whole new level of realism.",
+  "first_release_year": 2020,
+  "developers": [
+    "Milestone"
+  ],
+  "publishers": [
+    "Milestone"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Ride"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "available on - luna plus"
+  ],
+  "alternative_names": [
+    {
+      "name": "RIDE 4",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1259980"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/235338"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ride-4/9nzp81bp50xq"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/MilestoneItaly"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/milestoneteam"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Ride%204/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://ride4.ridevideogame.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ride_4"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 08, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-08"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 08, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-08"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 21, 2021",
+      "status": "Released",
+      "date_iso": "2021-01-21"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 08, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-08"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 08, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-08"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 21, 2021",
+      "status": "Released",
+      "date_iso": "2021-01-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 08, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arpqd.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "fkUgGGcZ7EM",
+      "url": "https://www.youtube.com/watch?v=fkUgGGcZ7EM"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "-6v5fsxYMK8",
+      "url": "https://www.youtube.com/watch?v=-6v5fsxYMK8"
+    }
+  ]
+}

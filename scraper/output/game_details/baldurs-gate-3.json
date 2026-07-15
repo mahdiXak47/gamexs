@@ -1,0 +1,301 @@
+{
+  "slug": "baldurs-gate-3",
+  "igdb_id": 119171,
+  "name": "Baldur's Gate III",
+  "summary": "An ancient evil has returned to Baldur's Gate, intent on devouring it from the inside out. The fate of Faerun lies in your hands. Alone, you may resist. But together, you can overcome.",
+  "first_release_year": 2023,
+  "developers": [
+    "Larian Studios"
+  ],
+  "publishers": [
+    "Larian Studios"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Strategy",
+    "Turn-based strategy (TBS)"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Baldur's Gate"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Dungeons & Dragons",
+    "Forgotten Realms"
+  ],
+  "game_engines": [
+    "Divinity Engine"
+  ],
+  "keywords": [
+    "exploration",
+    "monsters",
+    "violence",
+    "bloody",
+    "medieval",
+    "character customization",
+    "dark",
+    "magic",
+    "turn-based",
+    "choose your own adventure",
+    "crafting",
+    "dark fantasy",
+    "demons",
+    "gore",
+    "multiple endings",
+    "traps",
+    "combat",
+    "grid-based movement",
+    "dice",
+    "nudity",
+    "dungeon crawler",
+    "good vs evil",
+    "party-based",
+    "choices matter",
+    "sexual content",
+    "tactical turn-based combat",
+    "customizable characters",
+    "leveling up",
+    "loot gathering",
+    "multiple storylines",
+    "character creation",
+    "moral decisions",
+    "branching storyline",
+    "betrayal",
+    "redemption",
+    "friendship",
+    "the game awards - best score or music - nominee",
+    "immersive",
+    "meaningful choices",
+    "turn-based rpg",
+    "you can pet the dog",
+    "steam deck",
+    "the game awards - best game direction - nominee",
+    "the game awards - best multiplayer game - winner",
+    "the game awards - best narrative - nominee",
+    "the game awards - best performance - winner",
+    "the game awards - best roleplaying game - winner",
+    "the game awards - game of the year - winner",
+    "spells",
+    "puzzles",
+    "isometric"
+  ],
+  "alternative_names": [
+    {
+      "name": "Baldurs Gate 3",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "BG3",
+      "comment": "Acronym"
+    },
+    {
+      "name": "BGIII",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Launcher\\LariLauncher.exe",
+      "comment": "windows executable"
+    },
+    {
+      "name": "Baldur's Gate 3",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Baldur's Gate 3",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/LarianStudios/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://baldursgate3.game"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007460"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/baldur's-gate-3/9ND58LQTG09T"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/baldursgate3"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/baldursgate3/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/baldurs_gate_iii"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1086940"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Baldur's%20Gate%203"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Baldur%27s_Gate_III"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/BaldursGate3/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://bg3.wiki/wiki/Baldur%27s_Gate_3"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/larianstudios"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/larianstudios/"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/larianstudios.com"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Sep 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-06"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 08, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 06, 2020",
+      "status": "Beta",
+      "date_iso": "2020-10-06"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Oct 06, 2020",
+      "status": "Beta",
+      "date_iso": "2020-10-06"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "TBD",
+      "status": "Offline"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Oct 06, 2020",
+      "status": "Beta",
+      "date_iso": "2020-10-06"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 03, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-03"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Sep 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3n2t.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar666v.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3tfx.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3n2r.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3n2s.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "jNY7AEQ59-8",
+      "url": "https://www.youtube.com/watch?v=jNY7AEQ59-8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "o5xpbAsly48",
+      "url": "https://www.youtube.com/watch?v=o5xpbAsly48"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "tavPnYeFrV4",
+      "url": "https://www.youtube.com/watch?v=tavPnYeFrV4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "zTX79cgruXE",
+      "url": "https://www.youtube.com/watch?v=zTX79cgruXE"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "t0uYhTLPGLQ",
+      "url": "https://www.youtube.com/watch?v=t0uYhTLPGLQ"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "XuCfkgaaa08",
+      "url": "https://www.youtube.com/watch?v=XuCfkgaaa08"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "OcP0WdH7rTs",
+      "url": "https://www.youtube.com/watch?v=OcP0WdH7rTs"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "Ks-KF9iueE0",
+      "url": "https://www.youtube.com/watch?v=Ks-KF9iueE0"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "fcmH0c3ywxk",
+      "url": "https://www.youtube.com/watch?v=fcmH0c3ywxk"
+    }
+  ]
+}

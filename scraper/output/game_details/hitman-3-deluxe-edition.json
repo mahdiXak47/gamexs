@@ -1,0 +1,195 @@
+{
+  "slug": "hitman-3-deluxe-edition",
+  "igdb_id": 134595,
+  "name": "Hitman 3",
+  "summary": "Hitman 3 is the dramatic conclusion to the World of Assassination trilogy. Become Agent 47, a legendary assassin and use creativity and improvisation to execute the most ingenious and spectacular eliminations, in sprawling sandbox locations all around the globe.",
+  "first_release_year": 2021,
+  "developers": [
+    "IO Interactive"
+  ],
+  "publishers": [
+    "IO Interactive"
+  ],
+  "genres": [
+    "Shooter",
+    "Tactical",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Thriller",
+    "Stealth",
+    "Sandbox"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Hitman"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Hitman"
+  ],
+  "game_engines": [
+    "Glacier 2"
+  ],
+  "keywords": [
+    "assassin",
+    "cinematic",
+    "hitman",
+    "agent 47",
+    "assassination"
+  ],
+  "alternative_names": [
+    {
+      "name": "HITMAN III",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "HITMAN 3",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Launcher.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hitman_3"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000248"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://hitman.fandom.com/wiki/HITMAN%E2%84%A2_III"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/hitman"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/hitman"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://hitman.com"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/product/hitman-3/home"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1659040"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Hitman%203"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/hitman_official"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/hitman"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/HiTMAN"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/hitman"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/hitman-3/9N647K4PK0KV/0010"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Jan 20, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-01-20"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 20, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-01-20"
+    },
+    {
+      "platform": "PlayStation VR",
+      "region": null,
+      "date": "Jan 20, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-01-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 20, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-01-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 20, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-01-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 20, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-01-20"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 20, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-01-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar793.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Game Intro",
+      "youtube_id": "te_nocX0gi4",
+      "url": "https://www.youtube.com/watch?v=te_nocX0gi4"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "R_Ob-fupzKg",
+      "url": "https://www.youtube.com/watch?v=R_Ob-fupzKg"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "1a2SBO_q66o",
+      "url": "https://www.youtube.com/watch?v=1a2SBO_q66o"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "YAvs_w9Dsls",
+      "url": "https://www.youtube.com/watch?v=YAvs_w9Dsls"
+    }
+  ]
+}

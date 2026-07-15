@@ -1,0 +1,128 @@
+{
+  "slug": "dora-rainforest-rescue",
+  "igdb_id": 364161,
+  "name": "Dora: Rainforest Rescue",
+  "summary": "Are you ready for an interactive adventure with Dora and her amigos? Stop Swiper, fix the Duplicator and restore the Alebrije tree. ¡Vámonos! Let’s go!",
+  "first_release_year": 2025,
+  "developers": [],
+  "publishers": [
+    "Outright Games"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Dora the Explorer"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "controller required"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/OGClub"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10012806"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/dora-rainforest-rescue/9p1mgqxtq5ln"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/dora-rainforest-rescue-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://outrightgames.com/games/dora-rainforest-rescue/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3273550/Dora_Rainforest_Rescue/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/outright_games/?hl=en"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/OutrightGames"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Outright_Games"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-24"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar43i9.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar43kp.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "km2tzTlCCvM",
+      "url": "https://www.youtube.com/watch?v=km2tzTlCCvM"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "portrait-of-a-torn",
+  "igdb_id": 318362,
+  "name": "Portrait of a Torn",
+  "summary": "As a young soldier returning to an eerily deserted home, you'll explore enigmatic rooms, solve intricate puzzles, and uncover a haunting, tragic story.",
+  "first_release_year": 2024,
+  "developers": [
+    "Indigo Studios - Interactive Stories"
+  ],
+  "publishers": [
+    "Poysky Productions"
+  ],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "PortraitOfATorn",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3059500"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://indigostudios.one"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/firenutgames"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/firenutgames.bsky.social"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@firenutgames"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/qsCzxnFCuF"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10014988"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 24, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 05, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "2026",
+      "status": "Cancelled",
+      "date_iso": "2026-12-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar361l.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "RUJyAvsw8w8",
+      "url": "https://www.youtube.com/watch?v=RUJyAvsw8w8"
+    }
+  ]
+}

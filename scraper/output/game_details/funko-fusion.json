@@ -1,0 +1,189 @@
+{
+  "slug": "funko-fusion",
+  "igdb_id": 247567,
+  "name": "Funko Fusion",
+  "summary": "Funko Fusion is a third-person action game that’s all about celebrating fandom. Play with some of your favorite characters from across TV, movies, games, and comics, and explore handcrafted worlds inspired by Jurassic World, Back to the Future, JAWS, The Thing, Chucky, Battlestar Galactica, Hot Fuzz, The Umbrella Academy, Five Nights at Freddy’s, Masters of the Universe, Invincible, and many more!",
+  "first_release_year": 2024,
+  "developers": [
+    "10:10 Games"
+  ],
+  "publishers": [
+    "10:10 Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Platform",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Funko Pop!"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "crossover",
+    "pop culture",
+    "movies",
+    "comic book",
+    "licensed game"
+  ],
+  "alternative_names": [
+    {
+      "name": "FunkoFusion.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/funko-fusion-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009469"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/funko-fusion/9n1dxpflxwmx"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.funkofusion.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1843310"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/funkofusiongame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/@1010gamesltd"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/funkofusiongame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/QxAkeptF"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/funkofusiongame"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Funko_Fusion"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 13, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-13"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 06, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-06"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 15, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 13, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 13, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2bq6.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "KgKlhrsyMng",
+      "url": "https://www.youtube.com/watch?v=KgKlhrsyMng"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "q6XoSA_wZJ4",
+      "url": "https://www.youtube.com/watch?v=q6XoSA_wZJ4"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "q8h_Uh1D6j4",
+      "url": "https://www.youtube.com/watch?v=q8h_Uh1D6j4"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "DCtkVAz5h0A",
+      "url": "https://www.youtube.com/watch?v=DCtkVAz5h0A"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "IF71PqJrO0c",
+      "url": "https://www.youtube.com/watch?v=IF71PqJrO0c"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "G8qnl0mBJjg",
+      "url": "https://www.youtube.com/watch?v=G8qnl0mBJjg"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "yWPuEArO3to",
+      "url": "https://www.youtube.com/watch?v=yWPuEArO3to"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "UsgMx0J3QxQ",
+      "url": "https://www.youtube.com/watch?v=UsgMx0J3QxQ"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "6l3QEp24i8M",
+      "url": "https://www.youtube.com/watch?v=6l3QEp24i8M"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "vcA4iSXESFo",
+      "url": "https://www.youtube.com/watch?v=vcA4iSXESFo"
+    }
+  ]
+}

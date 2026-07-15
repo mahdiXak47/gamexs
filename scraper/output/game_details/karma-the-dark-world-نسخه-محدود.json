@@ -1,0 +1,197 @@
+{
+  "slug": "karma-the-dark-world-نسخه-محدود",
+  "igdb_id": 172357,
+  "name": "Karma: The Dark World",
+  "summary": "This is a first-person story-driven psychological horror game. Delve into this dark and strange world with an investigation officer from Roam to find traces of lost memories and fulfill your destiny.",
+  "first_release_year": 2025,
+  "developers": [
+    "POLLARD STUDIO LLC"
+  ],
+  "publishers": [
+    "Gamirror Games",
+    "Wired Productions"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Science fiction",
+    "Horror",
+    "Thriller"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "exploration",
+    "1980s",
+    "psychological horror",
+    "detective",
+    "interactive fiction",
+    "germany",
+    "experimental",
+    "dystopian",
+    "memory loss",
+    "cinematic",
+    "psychedelic",
+    "walking simulator",
+    "atmospheric",
+    "psychological",
+    "emotional",
+    "realistic",
+    "story rich",
+    "philosophical"
+  ],
+  "alternative_names": [
+    {
+      "name": "KARMA: The Dark World",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "The Dark World: Karma",
+      "comment": "Working title"
+    },
+    {
+      "name": "業力：黑暗世界",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "Karma.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/the-dark-world-karma"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010911"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@WiredP"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1376200"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Pollard-Studio-LLC-110048268040029"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/karma_the_dark_world"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/DarkWorldKarma"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/5WtS3J3jQb"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/the-dark-world-karma-3921c2"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://karmadarkworld.com/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/DarkWorldKarma"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/karma-the-dark-world/9pbtrh54wm9q"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 27, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 27, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-27"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 10, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar14il.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "ScWMo9A7Y2w",
+      "url": "https://www.youtube.com/watch?v=ScWMo9A7Y2w"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "eDuXZeN6_kc",
+      "url": "https://www.youtube.com/watch?v=eDuXZeN6_kc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "KNRbL_Is6aA",
+      "url": "https://www.youtube.com/watch?v=KNRbL_Is6aA"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "gs4x3Eu_Ut0",
+      "url": "https://www.youtube.com/watch?v=gs4x3Eu_Ut0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "qO1os2P_0A4",
+      "url": "https://www.youtube.com/watch?v=qO1os2P_0A4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "gqBLsTzCekw",
+      "url": "https://www.youtube.com/watch?v=gqBLsTzCekw"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ORgCQ8UPVfU",
+      "url": "https://www.youtube.com/watch?v=ORgCQ8UPVfU"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "mhM9jZnk42M",
+      "url": "https://www.youtube.com/watch?v=mhM9jZnk42M"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ly06lAAYnu8",
+      "url": "https://www.youtube.com/watch?v=ly06lAAYnu8"
+    }
+  ]
+}

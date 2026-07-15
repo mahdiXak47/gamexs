@@ -1,0 +1,91 @@
+{
+  "slug": "ea-sports-college-football-26",
+  "igdb_id": 329146,
+  "name": "EA Sports College Football 26",
+  "summary": "In EA SPORTS College Football 26, the playbook is yours. Rise from high school recruit to Heisman legend, or cement your legacy as a coach by leading your program to glory.",
+  "first_release_year": 2025,
+  "developers": [
+    "EA Orlando"
+  ],
+  "publishers": [
+    "EA Sports"
+  ],
+  "genres": [
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [
+    "Non-fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "NCAA Football"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "NCAA"
+  ],
+  "game_engines": [
+    "Frostbite"
+  ],
+  "keywords": [
+    "american football",
+    "college"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/ea-sports-college-football/college-football-26"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP0006-PPSA25859_00-COLLEGEFOOTBAL26"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/ea-sports-college-football-26-standard-edition/9N0XZWHT8TT7"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 11, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-11"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 11, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-11"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "EIp9SMjNH1w",
+      "url": "https://www.youtube.com/watch?v=EIp9SMjNH1w"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "sMGIfmAcNwA",
+      "url": "https://www.youtube.com/watch?v=sMGIfmAcNwA"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "nsKxOhw9J6g",
+      "url": "https://www.youtube.com/watch?v=nsKxOhw9J6g"
+    }
+  ]
+}

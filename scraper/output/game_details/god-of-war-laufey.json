@@ -1,0 +1,106 @@
+{
+  "slug": "god-of-war-laufey",
+  "igdb_id": 404063,
+  "name": "God of War Laufey",
+  "summary": "God of War: Laufey is an upcoming action-adventure game developed by Santa Monica Studio for PlayStation 5. The game follows Laufey, also known as Faye, after she awakens in a strange afterlife realm following her death. To protect Kratos and Atreus, she travels through the Everywhen, an afterlife of the gods where deities from different mythologies compete for power. The game shifts the focus from Kratos to Faye and features sword-based combat, magic, and new supporting characters.",
+  "first_release_year": null,
+  "developers": [
+    "SIE Santa Monica Studio"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "God of War"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "God of War"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "magic",
+    "sword",
+    "story driven",
+    "norse mythology",
+    "swordplay",
+    "female protagonist",
+    "afterlife",
+    "egyptian mythology"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.playstation.com/en-us/games/god-of-war-laufey/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009461"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/sonysantamonica"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/godofwar"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/santamonicastudio"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/PlayStation"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://godofwar.fandom.com/wiki/God_of_War_Laufey"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "TBD",
+      "status": "Cancelled"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5z7c.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5z6n.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "szwYBVY7FsU",
+      "url": "https://www.youtube.com/watch?v=szwYBVY7FsU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "uKMCqyeBWmU",
+      "url": "https://www.youtube.com/watch?v=uKMCqyeBWmU"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "HLMX2w3cwuE",
+      "url": "https://www.youtube.com/watch?v=HLMX2w3cwuE"
+    }
+  ]
+}

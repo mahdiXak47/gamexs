@@ -1,0 +1,93 @@
+{
+  "slug": "a-red-walking-robot",
+  "igdb_id": 276712,
+  "name": "A-Red Walking Robot",
+  "summary": "A-Red Walking Robot is a physics based toy robot simulator where you pilot tiny A-Red, a small clockwork operated robot that needs to overcome the trials it’s creator set in a workshop. A miniature nerve-wrecking/patience-proving journey where you are granted to fall… a lot.",
+  "first_release_year": 2025,
+  "developers": [],
+  "publishers": [],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "A-RED Walking Robot",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://x.com/jookitooz"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@jookitooz/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10012585"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2659840"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.jookitooz.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-17"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Jul 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2mvq.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "b_8Q54tliIA",
+      "url": "https://www.youtube.com/watch?v=b_8Q54tliIA"
+    }
+  ]
+}

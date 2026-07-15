@@ -1,0 +1,165 @@
+{
+  "slug": "choo-choo-charles",
+  "igdb_id": 173432,
+  "name": "Choo-Choo Charles",
+  "summary": "Navigate an island in an old train, upgrade it over time, and use it to fight an evil sentient train that terrorizes your home. Charles is hungry; don't be his next meal.",
+  "first_release_year": 2022,
+  "developers": [
+    "Two Star Games"
+  ],
+  "publishers": [
+    "Two Star Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "dark",
+    "forest"
+  ],
+  "alternative_names": [
+    {
+      "name": "Obscure.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/choo-choo-charles-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008639"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/choo-choo-charles/9P17KJLSCR59"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1766740/ChooChoo_Charles"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/ChooChooCharles"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://choochoo-charles.fandom.com/wiki/Choo-Choo_Charles_(game)"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC0szxwii-u4CZkJIt2iu4_A"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/TwoStarGames"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/choochoo-charles-0eece5"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Choo-Choo%20Charles"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://twostargames.com"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Choo-Choo_Charles"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 09, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-09"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jan 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-01-18"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-21"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1fol.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "Rk7c_9pwxDE",
+      "url": "https://www.youtube.com/watch?v=Rk7c_9pwxDE"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "Vfdu-g10Y2I",
+      "url": "https://www.youtube.com/watch?v=Vfdu-g10Y2I"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "4jOvGjxM1xg",
+      "url": "https://www.youtube.com/watch?v=4jOvGjxM1xg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "UW18hEJ4Q5w",
+      "url": "https://www.youtube.com/watch?v=UW18hEJ4Q5w"
+    }
+  ]
+}

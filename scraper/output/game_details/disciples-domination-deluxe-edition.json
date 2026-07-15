@@ -1,0 +1,142 @@
+{
+  "slug": "disciples-domination-deluxe-edition",
+  "igdb_id": 360140,
+  "name": "Disciples: Domination",
+  "summary": "Rule through the chaos! Fifteen years after Avyanna freed Nevendaar from the tyrannical grip of the gods, Disciples: Domination returns you to a realm hanging in the balance. In this dark fantasy strategy RPG with turn-based combat, take your place on Queen Avyanna’s throne – and attempt to hold together a crumbling kingdom.\n\nThe fire of doubt burns scorching within her, sparked by the crushing weight of the throne in Yllian and stoked by twisted dreams of becoming one of the very monsters she once defied – and destroyed. Paralyzed by fear and haunted by her own power, Avyanna’s rule begins to crack. Allies disappear and abandon her. An unknown force spreads strife and madness through her realm.\n\nThe choice is yours – shape the future, for salvation or ruin. As you chase the truths behind the ceaseless conflicts, dark magic and lurking conspiracies infecting your rotting empire, you’ll face betrayal, strife, and shadowy schemes. Uncover the long-lost Mountain Clans, witness the rise of an ancient cult and confront a corrupted seer whose visions have awoken bitter grudges, while old enemies are on the rise.\n\nIt will take all your courage to save Nevendaar. Are you brave enough to face – and embrace – its darkest truths?",
+  "first_release_year": 2026,
+  "developers": [
+    "Artefacts Studio"
+  ],
+  "publishers": [
+    "Kalypso Media"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Strategy"
+  ],
+  "themes": [
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Disciples"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "LauncherDisciplesDomination.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://epicgames.com/p/disciples-domination-38b490"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2808560/Disciples_Domination/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/kalypsomedia"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.kalypsomedia.com/disciples-domination"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10012987"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/disciples-domination/9nbl87tng7x6"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/kalypsomedia"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/kalypso_media"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/kalypsomedia"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/@kalypsomediagroup/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/disciples-domination"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 12, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-12"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 12, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 12, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-12"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Feb 12, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3z7s.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "vJ21TtDOrdw",
+      "url": "https://www.youtube.com/watch?v=vJ21TtDOrdw"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "f980AQV168k",
+      "url": "https://www.youtube.com/watch?v=f980AQV168k"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "vx_H9rXkyE8",
+      "url": "https://www.youtube.com/watch?v=vx_H9rXkyE8"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "qibYooMRqsg",
+      "url": "https://www.youtube.com/watch?v=qibYooMRqsg"
+    }
+  ]
+}

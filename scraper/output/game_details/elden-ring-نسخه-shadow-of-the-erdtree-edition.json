@@ -1,0 +1,136 @@
+{
+  "slug": "elden-ring-نسخه-shadow-of-the-erdtree-edition",
+  "igdb_id": 240009,
+  "name": "Elden Ring: Shadow of the Erdtree",
+  "summary": "The Shadow of the Erdtree is a fully-fledged expansion that features an all-new story set in the Land of Shadow. It adds a whole new map with 70 new weapons, ten new shields, 39 new Talismans, 14 new sorceries, 28 new incantations, 20 new Spirit Ashes, 25 New Ashes of War, 30 new armour sets, and new consumables and craftables.",
+  "first_release_year": 2024,
+  "developers": [
+    "FromSoftware"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Elden Ring"
+  ],
+  "spin_off_of": "Elden Ring",
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "boss fight",
+    "soulslike",
+    "the game awards - best art direction - nominee",
+    "the game awards - best game direction - nominee",
+    "the game awards - best roleplaying game - nominee",
+    "the game awards - game of the year - nominee"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2778580"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://eldenring.wiki.fextralife.com/Shadow+of+the+Erdtree"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/elden-ring-shadow-of-the-erdtree/9PMPZZLKQM43"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP0700-PPSA04610_00-ELDENRINGDLC0000"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.eldenring.jp/shadowoftheerdtree.html"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 21, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 21, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 21, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-21"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 21, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 21, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-21"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "2026",
+      "status": "Cancelled",
+      "date_iso": "2026-12-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar27k5.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "M-Xh4vbs6go",
+      "url": "https://www.youtube.com/watch?v=M-Xh4vbs6go"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "qLZenOn7WUo",
+      "url": "https://www.youtube.com/watch?v=qLZenOn7WUo"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "6uT8wGtB3yQ",
+      "url": "https://www.youtube.com/watch?v=6uT8wGtB3yQ"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "YwgL7Neo_7g",
+      "url": "https://www.youtube.com/watch?v=YwgL7Neo_7g"
+    }
+  ]
+}

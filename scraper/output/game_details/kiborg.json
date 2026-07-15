@@ -1,0 +1,174 @@
+{
+  "slug": "kiborg",
+  "igdb_id": 249998,
+  "name": "Kiborg",
+  "summary": "Kiborg is a fast-paced, story-driven action game with rogue-lite encounters. Each challenge is unique and the narrative always moves forward, win or lose. Become an unstoppable war machine and face the consequences of your actions as you lead a resistance group on a faraway prison planet.",
+  "first_release_year": 2025,
+  "developers": [
+    "Sobaka Studio"
+  ],
+  "publishers": [
+    "Sobaka Studio"
+  ],
+  "genres": [
+    "Fighting",
+    "Shooter",
+    "Hack and slash/Beat 'em up",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "roguelike"
+  ],
+  "alternative_names": [
+    {
+      "name": "KIBORG",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://x.com/SobakaStudio"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/kiborg"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2405060"
+    },
+    {
+      "label": "Epic",
+      "url": "https://epicgames.com/p/kiborg-3e5369"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/kiborg-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008983"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@sobakastudio/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/kiborg/9N6GLJSQBNZD"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://playkiborg.com/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/rRRmwA9hkn"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-30"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 09, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-09"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2bg5.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "z2dguMtBCr0",
+      "url": "https://www.youtube.com/watch?v=z2dguMtBCr0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "pQxW8xdxEkY",
+      "url": "https://www.youtube.com/watch?v=pQxW8xdxEkY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "aH5rnpkcag4",
+      "url": "https://www.youtube.com/watch?v=aH5rnpkcag4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "01Wl4LOmwJo",
+      "url": "https://www.youtube.com/watch?v=01Wl4LOmwJo"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "AVCx0RdMzYY",
+      "url": "https://www.youtube.com/watch?v=AVCx0RdMzYY"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "Yk-nwn4YLYA",
+      "url": "https://www.youtube.com/watch?v=Yk-nwn4YLYA"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "8pPyCAro1gE",
+      "url": "https://www.youtube.com/watch?v=8pPyCAro1gE"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "kbfT2hgBvjs",
+      "url": "https://www.youtube.com/watch?v=kbfT2hgBvjs"
+    }
+  ]
+}

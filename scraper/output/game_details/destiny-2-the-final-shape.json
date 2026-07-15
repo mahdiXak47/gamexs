@@ -1,0 +1,151 @@
+{
+  "slug": "destiny-2-the-final-shape",
+  "igdb_id": 250645,
+  "name": "Destiny 2: The Final Shape",
+  "summary": "The Final Shape looms—a nightmarish calcification of reality into the Witness's twisted design. Embark on a perilous journey into the heart of the Traveler, rally the Vanguard, and end the War of Light and Darkness.",
+  "first_release_year": 2024,
+  "developers": [
+    "Bungie"
+  ],
+  "publishers": [
+    "Bungie"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Destiny"
+  ],
+  "spin_off_of": "Destiny 2",
+  "franchises": [
+    "Destiny"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "looter shooter"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://x.com/destinythegame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP0002-PPSA02409_00-D2FSBUNDLE000001"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/destiny2/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/destiny-2-the-final-shape/9PLTKZZK35RF/0010"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/destiny-2"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/destinythegame.bungie.net"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/destinygame"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/destiny-2--the-final-shape"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.bungie.net/7/en/Destiny/TheFinalShape"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2336880"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-04"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-04"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-04"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-04"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-04"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2gxt.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "gGa8K-yQr8k",
+      "url": "https://www.youtube.com/watch?v=gGa8K-yQr8k"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "DpjDxIg498U",
+      "url": "https://www.youtube.com/watch?v=DpjDxIg498U"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "-tRv1m0f6V0",
+      "url": "https://www.youtube.com/watch?v=-tRv1m0f6V0"
+    },
+    {
+      "title": "Reveal Trailer",
+      "youtube_id": "Ehl6aWUiA4Y",
+      "url": "https://www.youtube.com/watch?v=Ehl6aWUiA4Y"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "UchfadQhX7w",
+      "url": "https://www.youtube.com/watch?v=UchfadQhX7w"
+    }
+  ]
+}

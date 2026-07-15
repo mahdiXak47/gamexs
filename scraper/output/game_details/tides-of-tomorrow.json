@@ -1,0 +1,126 @@
+{
+  "slug": "tides-of-tomorrow",
+  "igdb_id": 305036,
+  "name": "Tides of Tomorrow",
+  "summary": "From the makers of Road 96 comes a groundbreaking narrative adventure. Your choices shape the story for other players! Follow in your friends’ footsteps, face the consequences of their actions and choose the fate of this plasticpunk world.",
+  "first_release_year": 2026,
+  "developers": [
+    "DigixArt"
+  ],
+  "publishers": [
+    "THQ Nordic"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "TidesOfTomorrow.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tides_of_Tomorrow_(video_game)"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10015068"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/tides-of-tomorrow/9nvsc8dxskrs"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Tides_of_Tomorrow/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/digixart"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://tidesoftomorrow.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@Digixart"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Digixart"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2678080"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/tides_of_tomorrow"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 22, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 22, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 22, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2zhp.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "gpYugtT2nhw",
+      "url": "https://www.youtube.com/watch?v=gpYugtT2nhw"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "wy7TP81eBc8",
+      "url": "https://www.youtube.com/watch?v=wy7TP81eBc8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "v60FWW8iNP8",
+      "url": "https://www.youtube.com/watch?v=v60FWW8iNP8"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "n1HLy37pXy4",
+      "url": "https://www.youtube.com/watch?v=n1HLy37pXy4"
+    }
+  ]
+}

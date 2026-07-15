@@ -1,0 +1,115 @@
+{
+  "slug": "mlb-the-show-24",
+  "igdb_id": 282900,
+  "name": "MLB The Show 24",
+  "summary": "Swing for the fences, experience game-deciding moments, become a legend and live out your baseball dreams in MLB The Show 24. Earn your call up from the minors to the big leagues and prove you’ve got what it takes at the top. Learn about known and unsung legends of the sport and take inspiration from their heroics. Hold your nerve when it matters and earn the right to be called World Series champions.",
+  "first_release_year": 2024,
+  "developers": [
+    "SIE San Diego Studio"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [],
+  "series": [
+    "MLB: The Show"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "baseball",
+    "previously on - xbox gamepass"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/mlb-the-show-24---xbox-series-x|s-standard-edition/9NSNT0W40844"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/mlb-the-show-24-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008651"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/mlb-the-show-24"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 19, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-19"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 19, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-19"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 19, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-19"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 19, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-19"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 19, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2q65.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2q69.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2q2i.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2q2h.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2q2j.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ZIsGTrrNhpM",
+      "url": "https://www.youtube.com/watch?v=ZIsGTrrNhpM"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Z9dcjLprttQ",
+      "url": "https://www.youtube.com/watch?v=Z9dcjLprttQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "MMJ8jd0VsMo",
+      "url": "https://www.youtube.com/watch?v=MMJ8jd0VsMo"
+    }
+  ]
+}

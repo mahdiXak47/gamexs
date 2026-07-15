@@ -1,0 +1,99 @@
+{
+  "slug": "call-of-duty-modern-warfare-2-campaign-remastered",
+  "igdb_id": 95062,
+  "name": "Call of Duty: Modern Warfare 2 Campaign Remastered",
+  "summary": "The Call of Duty: Modern Warfare 2 Campaign has been fully remastered with improved textures, animations, physically based rendering, high-dynamic range lighting, and much more. Experience classic missions including Cliffhanger, The Gulag, and Whiskey Hotel as you join Soap, Price, Ghost and the rest of Task Force 141 in the globe-spanning fight to restore order to the world.",
+  "first_release_year": 2020,
+  "developers": [
+    "Infinity Ward",
+    "Beenox"
+  ],
+  "publishers": [
+    "Activision"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Call of Duty",
+    "Call of Duty: Modern Warfare"
+  ],
+  "spin_off_of": "Call of Duty: Modern Warfare 2",
+  "franchises": [
+    "Call of Duty"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Call of Duty: Modern Warfare 2 Remastered",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://callofduty.fandom.com/wiki/Call_of_Duty:_Modern_Warfare_2_Campaign_Remastered"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/229433"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/call-of-duty-modern-warfare-2-campaign-remastered/9N2CTV36Z5S6"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.callofduty.com/mw2campaignremastered"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Call%20of%20Duty:%20Modern%20Warfare%202%20Campaign%20Remastered"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 30, 2020",
+      "status": "Released",
+      "date_iso": "2020-04-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 30, 2020",
+      "status": "Released",
+      "date_iso": "2020-04-30"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 31, 2020",
+      "status": "Released",
+      "date_iso": "2020-03-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar10dj.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar10dh.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "x993FRC4rXA",
+      "url": "https://www.youtube.com/watch?v=x993FRC4rXA"
+    }
+  ]
+}

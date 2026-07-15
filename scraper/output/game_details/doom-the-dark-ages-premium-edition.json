@@ -1,0 +1,178 @@
+{
+  "slug": "doom-the-dark-ages-premium-edition",
+  "igdb_id": 302704,
+  "name": "Doom: The Dark Ages",
+  "summary": "A single-player first-person shooter and prequel to Doom (2016). Set in the dark medieval world of Argent D'Nur, players control the Doom Slayer in a grounded, weighty combat style that emphasizes strategic engagements over the acrobatic mobility of previous entries. The game introduces a Shield Saw for blocking and parrying, new melee weapons, and drivable vehicles including a cybernetic dragon and a massive mech. The narrative focuses on the Slayer's origin story with expanded cutscenes and character development.",
+  "first_release_year": 2025,
+  "developers": [
+    "id Software"
+  ],
+  "publishers": [
+    "Bethesda Softworks"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Doom"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Doom"
+  ],
+  "game_engines": [
+    "id Tech 8"
+  ],
+  "keywords": [
+    "violence",
+    "bloody",
+    "3d",
+    "prequel",
+    "demons",
+    "gore",
+    "gun",
+    "extreme violence",
+    "guns and bullets",
+    "gore system",
+    "shield"
+  ],
+  "alternative_names": [
+    {
+      "name": "DOOM: The Dark Ages",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "idTechLauncher.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/doom-the-dark-ages"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009984"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/doom-the-dark-ages/9PH9X0760B0T/0010"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discordapp.com/invite/DOOM"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@bethesda"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/doom"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/doom.com"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://doom.bethesda.net/en-US"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/doom"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Doom"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3017860/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Doom:_The_Dark_Ages"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/DOOM"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 15, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 15, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 13, 2025",
+      "status": "status_34",
+      "date_iso": "2025-05-13"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 15, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar61hj.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m4x.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m4z.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m4y.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m50.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "4tk8lkmYGWQ",
+      "url": "https://www.youtube.com/watch?v=4tk8lkmYGWQ"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "FGFuaVUI6_E",
+      "url": "https://www.youtube.com/watch?v=FGFuaVUI6_E"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "8KyA7bf4IB0",
+      "url": "https://www.youtube.com/watch?v=8KyA7bf4IB0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "s1i3YfGl5ag",
+      "url": "https://www.youtube.com/watch?v=s1i3YfGl5ag"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "S7IEg0_qNXs",
+      "url": "https://www.youtube.com/watch?v=S7IEg0_qNXs"
+    }
+  ]
+}

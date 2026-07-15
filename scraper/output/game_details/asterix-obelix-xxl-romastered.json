@@ -1,0 +1,135 @@
+{
+  "slug": "asterix-obelix-xxl-romastered",
+  "igdb_id": 138352,
+  "name": "Asterix & Obelix XXL: Romastered",
+  "summary": "Asterix and Obelix make an XXL comeback in a Romastered version full of Romans!\n\nThe year is 50 B.C. Gaul is entirely occupied by the Romans. Well, not entirely... One small village of indomitable Gauls still holds out against the invaders. And life is not easy for the Roman legionaries who garrison the fortified camps of Totorum, Aquarium, Laudanum and Compendium.\n\nPeace reigns in the small Armorican village, where the villagers go about their daily business. Our two heroes, Asterix and Obelix, hunt wild boar, the blacksmith and the fishmonger quarrel, and the village chief strolls around the village square atop his shield.\n\nAfter a fine day's hunting, Asterix and Obelix return to find their village in flames, pillaged by the Romans! They set off to rescue their fellow villagers, accompanied by their faithful Dogmatix. Their journey will take them to Normandy, Greece Helvetia, Egypt and, finally, Rome, in order to save the villagers from the clutches of the emperor Caesar...",
+  "first_release_year": 2020,
+  "developers": [
+    "OSome Studio"
+  ],
+  "publishers": [
+    "Microids"
+  ],
+  "genres": [
+    "Fighting",
+    "Platform",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Asterix & Obelix XXL"
+  ],
+  "spin_off_of": "Asterix & Obelix: Kick Buttix",
+  "franchises": [
+    "Asterix"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "combat",
+    "colorful",
+    "cartoony",
+    "available on - blacknut"
+  ],
+  "alternative_names": [
+    {
+      "name": "Astérix & Obélix XXL : Romastered",
+      "comment": "French title"
+    },
+    {
+      "name": "oXXL1Game.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/asterix_obelix_xxl_romastered"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000621"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/asterix-and-obelix-xxl-romastered-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1261520"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Asterix%20%26%20Obelix%20XXL%3A%20Romastered"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 22, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-22"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Oct 22, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 22, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-22"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 22, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 22, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 01, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 22, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar9b2.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "nzRT9y2MPME",
+      "url": "https://www.youtube.com/watch?v=nzRT9y2MPME"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "slug": "fairy-tail-2",
+  "igdb_id": 306138,
+  "name": "Fairy Tail 2",
+  "summary": "The sequel to the 2020 \"FAIRY TAIL\" console game has finally arrived! Play as Fairy Tail guild members such as protagonists Natsu or Lucy, and experience first-hand how the dramatic events unfold in the series' climactic Alvarez Empire Arc. Enjoy epic battles against Zeref, the Emperor of the Alvarez Empire, his team of elites, the Spriggan 12, and the Black Dragon Acnologia.",
+  "first_release_year": 2024,
+  "developers": [
+    "Gust"
+  ],
+  "publishers": [
+    "Koei Tecmo Games Co.",
+    "Koei Tecmo"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Tactical",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Fairy Tail"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Fairy Tail"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "based on - anime"
+  ],
+  "alternative_names": [
+    {
+      "name": "FAIRY TAIL 2",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@KOEITECMOofficial"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10011532"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/fairy-tail-2-switch/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/kt_fairytail"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://fairytailgame.com/2/us/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://twitch.tv/directory/category/fairy-tail-2"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3002850/FAIRY_TAIL_2/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 13, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-13"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 13, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 13, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-13"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 11, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-11"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar36u0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar36u1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar473n.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar473o.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar473p.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar473m.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "MD32HN5gEyE",
+      "url": "https://www.youtube.com/watch?v=MD32HN5gEyE"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "lOWVJPomC20",
+      "url": "https://www.youtube.com/watch?v=lOWVJPomC20"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "f90jeiicRBQ",
+      "url": "https://www.youtube.com/watch?v=f90jeiicRBQ"
+    }
+  ]
+}

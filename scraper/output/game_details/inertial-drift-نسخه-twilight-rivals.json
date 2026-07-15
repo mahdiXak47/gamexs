@@ -1,0 +1,129 @@
+{
+  "slug": "inertial-drift-نسخه-twilight-rivals",
+  "igdb_id": 227054,
+  "name": "Inertial Drift: Twilight Rivals",
+  "summary": "Strap in, all-new content skids onto Inertial Drift! Inertial Drift: Twilight Rivals Pack comes bursting with new story content, a pulse-racing original Eurobeats soundtrack mixed by renown producer 'Turbo', new cars and tracks!",
+  "first_release_year": 2022,
+  "developers": [
+    "Level 91 Entertainment"
+  ],
+  "publishers": [
+    "PQube"
+  ],
+  "genres": [
+    "Racing",
+    "Indie"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": "Inertial Drift",
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "driving",
+    "drifting",
+    "twin stick"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/inertial-drift--twilight-rivals"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/AxXHwgJ"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCfAp4yllc-VdDcuDxbamP4Q"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2075290/Inertial_Drift__Twilight_Rivals_DLC/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://pqube.co.uk/games/inertial-drift/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/inertial-drift-twilight-rivals-pack/9PGZW8FRPDRM/0010"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP4293-PPSA04897_00-7719151181441990"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/inertial-drift"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/InertialDrift"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/InertialDriftGame/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/inertialdriftgame/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/inertial-drift-twilight-rivals-pack-70050000036440-switch/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 22, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar20h5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1zyh.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "naR_2K2Q2-I",
+      "url": "https://www.youtube.com/watch?v=naR_2K2Q2-I"
+    }
+  ]
+}

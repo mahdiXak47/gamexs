@@ -1,0 +1,73 @@
+{
+  "slug": "dragon-ball-z-kakarot-نسخه-daima",
+  "igdb_id": 386957,
+  "name": "Dragon Ball Z: Kakarot - Daima Edition",
+  "summary": "The DAIMA EDITION includes:\n• DRAGON BALL Z: KAKAROT\n• DAIMA: Adventure Through the Demon Realm Pack\n- DAIMA: Adventure Through the Demon Realm Part 1\n- DAIMA: Adventure Through the Demon Realm Part 2\n• Pack Bonus: Ultimate Meat Feast, Mega Sacred Water, Purple Dino Horn, and Awakening Water",
+  "first_release_year": 2025,
+  "developers": [],
+  "publishers": [],
+  "genres": [],
+  "themes": [],
+  "game_modes": [],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP0700-PPSA08084_00-DBZKTDAIMAEDIT00"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/dragon-ball-z-kakarot-plus-a-new-power-awakens-set-daima-edition-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://store.bandainamcoent.com/dragon-ball-z-kakarot-daima-edition/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 16, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-16"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 16, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-16"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 16, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-16"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 16, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-16"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar55tz.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "Jb6RrDTBgYo",
+      "url": "https://www.youtube.com/watch?v=Jb6RrDTBgYo"
+    }
+  ]
+}

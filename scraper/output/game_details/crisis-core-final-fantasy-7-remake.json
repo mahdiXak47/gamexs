@@ -1,0 +1,129 @@
+{
+  "slug": "crisis-core-final-fantasy-7-remake",
+  "igdb_id": 2407,
+  "name": "Crisis Core: Final Fantasy VII",
+  "summary": "In CRISIS CORE, players can experience the D.M.W (Digital Mind Wave) system, which enhances the real-time battle system, allowing players to unleash special attacks or call upon various FINAL FANTASY summons. Players can also witness graphics and CG cutscenes coupled with voice acting in a 16:9 widescreen presentation, made possible by the PSP system hardware.",
+  "first_release_year": 2007,
+  "developers": [
+    "Square Enix Product Development Division 1"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Compilation of Final Fantasy VII",
+    "Final Fantasy",
+    "Final Fantasy VII"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Final Fantasy"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "military",
+    "bromance",
+    "political thriller",
+    "mercenary",
+    "interactive environments",
+    "evil organization",
+    "innocent people die",
+    "secret history",
+    "secret past",
+    "eco-terrorism",
+    "kill quest"
+  ],
+  "alternative_names": [
+    {
+      "name": "FFVII: CC",
+      "comment": "Acronym"
+    },
+    {
+      "name": "CC: FFVII",
+      "comment": "Acronym"
+    },
+    {
+      "name": "FF7: Crisis Core",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "Final Fantasy 7: Crisis Core",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "CRISIS CORE: FINAL FANTASY VII",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "http://www.crisiscore.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Crisis_Core:_Final_Fantasy_VII"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://finalfantasy.fandom.com/wiki/Crisis_Core_-Final_Fantasy_VII-"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Crisis%20Core:%20Final%20Fantasy%20VII"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation Portable",
+      "region": null,
+      "date": "Jun 20, 2008",
+      "status": "Released",
+      "date_iso": "2008-06-20"
+    },
+    {
+      "platform": "PlayStation Portable",
+      "region": null,
+      "date": "Sep 13, 2007",
+      "status": "Released",
+      "date_iso": "2007-09-13"
+    },
+    {
+      "platform": "PlayStation Portable",
+      "region": null,
+      "date": "Mar 24, 2008",
+      "status": "Released",
+      "date_iso": "2008-03-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/raiaxap2twvn15rnjml2.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/nuo3qimxinljjnegsnma.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/xc6ahcry9ja5nj7rx3yh.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/zh35jvkn2nk9qunilfah.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/fezwe26cpgpkx5juqstn.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/la4xyzk29l0sf4jjvnui.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/pjqee82ptioqodsq33rg.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "iQoLYigS_6g",
+      "url": "https://www.youtube.com/watch?v=iQoLYigS_6g"
+    }
+  ]
+}

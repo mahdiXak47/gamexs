@@ -1,0 +1,59 @@
+{
+  "slug": "red-dead-redemption-red-dead-redemption-2-bundle",
+  "igdb_id": 262052,
+  "name": "Red Dead Redemption & Red Dead Redemption 2 Bundle",
+  "summary": "This bundle includes Red Dead Redemption, Red Dead Redemption: Undead Nightmare, Red Dead Online, and Red Dead Redemption 2: Story Mode.",
+  "first_release_year": 2023,
+  "developers": [],
+  "publishers": [
+    "Rockstar Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "compilation"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/red-dead-redemption-&-red-dead-redemption-2-bundle/9P86HR73LQJZ"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-17"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2guu.jpg"
+  ],
+  "videos": []
+}

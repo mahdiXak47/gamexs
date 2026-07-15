@@ -1,0 +1,140 @@
+{
+  "slug": "call-of-duty-black-ops-3-zombies-chronicles-edition",
+  "igdb_id": 28413,
+  "name": "Call of Duty: Black Ops III - Zombies Chronicles",
+  "summary": "Call of Duty: Black Ops III - Zombies Chronicles is a content expansion that delivers 8 remastered classic Zombies maps from Call of Duty: World at War, Call of Duty: Black Ops and Call of Duty: Black Ops II. Complete maps from the original saga are fully remastered and HD playable, within Call of Duty: Black Ops III.",
+  "first_release_year": 2017,
+  "developers": [
+    "Treyarch"
+  ],
+  "publishers": [
+    "Activision"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [],
+  "series": [
+    "Call of Duty: Black Ops",
+    "Call of Duty"
+  ],
+  "spin_off_of": "Call of Duty: Black Ops III",
+  "franchises": [
+    "Call of Duty"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Call Of Duty: Black Ops 3 - Zombies Chronicles",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/call-of-duty-black-ops-iii---zombies-chronicles/BRS3HHJNP5H3"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/581450"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Call%20of%20Duty%3A%20Black%20Ops%20III%20-%20Zombies%20Chronicles"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.callofduty.com/zombieschronicles"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://callofduty.fandom.com/wiki/Zombies_Chronicles"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/callofduty/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/CallofDuty"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/callofduty.com"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@CallofDuty"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/callofdutyofficial?proof=c6694c386fb2ce79"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/CallofDuty"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jun 15, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-06-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 15, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-06-15"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 15, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-06-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 16, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-05-16"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Apr 04, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-04-04"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1dqd.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Ni3pi3PJJvM",
+      "url": "https://www.youtube.com/watch?v=Ni3pi3PJJvM"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "_uTDtbs2jZ4",
+      "url": "https://www.youtube.com/watch?v=_uTDtbs2jZ4"
+    }
+  ]
+}

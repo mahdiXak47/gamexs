@@ -1,0 +1,175 @@
+{
+  "slug": "killer-klowns-from-outer-space-the-game",
+  "igdb_id": 214411,
+  "name": "Killer Klowns from Outer Space: The Game",
+  "summary": "Plan your own alien invasion and harvest humans as the iconic Killer Klowns, or gather a team of survivors to fight the extraterrestrial threat, in a game based on the ‘80s cult classic movie. Welcome to a new, craazzy take on the asymmetrical multiplayer horror experience!",
+  "first_release_year": 2024,
+  "developers": [
+    "Teravision Games"
+  ],
+  "publishers": [
+    "Illfonic"
+  ],
+  "genres": [
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror",
+    "Survival",
+    "Stealth",
+    "Open world"
+  ],
+  "game_modes": [
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "pvp",
+    "based on - movie",
+    "combat",
+    "violent",
+    "licensed game",
+    "clowns",
+    "asymmetrical survival horror",
+    "asymmetrical"
+  ],
+  "alternative_names": [
+    {
+      "name": "start_protected_game.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/killer-klowns-from-outer-space-the-game/9NVHCV80ZZMH"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009210"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Killer_Klowns_from_Outer_Space:_The_Game"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/killer-klowns-from-outer-space-the-game"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/killer-klowns-from-outer-space-the-game-619daa"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://killerklowns.fandom.com/wiki/Killer_Klowns_from_Outer_Space:_The_Game"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCd3Xj5W-Of9OwMkKdcGjHiw"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/KillerKlownsGame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/klownsthegame/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1556100/Killer_Klowns_from_Outer_Space_The_Game"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.killerklownsthegame.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/klownsthegame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/killerklownsgame"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/KillerKlownsGame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 28, 2024",
+      "status": "status_34",
+      "date_iso": "2024-05-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-04"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-04"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-04"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 28, 2024",
+      "status": "status_34",
+      "date_iso": "2024-05-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 28, 2024",
+      "status": "status_34",
+      "date_iso": "2024-05-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1t8s.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "cZ_YJaniCXs",
+      "url": "https://www.youtube.com/watch?v=cZ_YJaniCXs"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "KDTrJbzDr0s",
+      "url": "https://www.youtube.com/watch?v=KDTrJbzDr0s"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "qf4zUiqNQK8",
+      "url": "https://www.youtube.com/watch?v=qf4zUiqNQK8"
+    }
+  ]
+}

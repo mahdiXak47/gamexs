@@ -1,0 +1,238 @@
+{
+  "slug": "outlast-bundle-of-terror",
+  "igdb_id": 1910,
+  "name": "Outlast",
+  "summary": "Hell is an experiment you can't survive in Outlast, a first-person survival horror game developed by veterans of some of the biggest game franchises in history. As investigative journalist Miles Upshur, explore Mount Massive Asylum and try to survive long enough to discover its terrible secret... if you dare.",
+  "first_release_year": 2013,
+  "developers": [
+    "Red Barrels"
+  ],
+  "publishers": [
+    "Red Barrels"
+  ],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival",
+    "Stealth",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Outlast"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 3"
+  ],
+  "keywords": [
+    "bloody",
+    "psychological horror",
+    "psychological exploration",
+    "dark",
+    "investigation",
+    "death",
+    "doctor",
+    "steam",
+    "hiding",
+    "steam trading cards",
+    "camera",
+    "survival horror",
+    "nudity",
+    "mad scientist",
+    "climbing",
+    "cult",
+    "darkness",
+    "steam achievements",
+    "digital distribution",
+    "single-player only",
+    "playing cards",
+    "60 fps on consoles",
+    "bink video",
+    "polygonal 3d",
+    "priest",
+    "original soundtrack release",
+    "motion blur",
+    "wasd movement",
+    "white noise",
+    "color separation",
+    "extreme violence",
+    "profanity",
+    "corpse",
+    "sprinting mechanics",
+    "playstation plus",
+    "falling damage",
+    "downloadable content",
+    "auto-saving",
+    "vision obstruction",
+    "games with gold",
+    "jump scare moment",
+    "inconvenient malfunction",
+    "vending machine interaction",
+    "mercenary",
+    "no hud",
+    "been here before",
+    "difficulty achievement",
+    "surveillance camera",
+    "dynamic soundtrack",
+    "quick time event",
+    "evil organization",
+    "linear gameplay",
+    "regenerating health",
+    "ambient music",
+    "scripted events",
+    "vent crawling",
+    "jumping puzzle",
+    "aggressive door-opening",
+    "first-person platforming",
+    "journalist",
+    "waking up captured",
+    "severed limbs",
+    "context sensitive",
+    "pax east 2013",
+    "foreshadowing",
+    "persistent enemy",
+    "male protagonist"
+  ],
+  "alternative_names": [
+    {
+      "name": "Outlast 1"
+    },
+    {
+      "name": "OutlastLauncher.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/238320"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/RedBarrels"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/203196"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/outlast/BP3GH4D3HP2H"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/outlast"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Outlast"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/redbarrelsgames"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/theredbarrels"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://redbarrelsgames.com/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/outlast"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/outlast"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Outlast"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://outlast.wikia.com"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 19, 2014",
+      "status": "Released",
+      "date_iso": "2014-06-19"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Mar 31, 2015",
+      "status": "Released",
+      "date_iso": "2015-03-31"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 19, 2014",
+      "status": "Released",
+      "date_iso": "2014-06-19"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 04, 2014",
+      "status": "Released",
+      "date_iso": "2014-02-04"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Feb 27, 2018",
+      "status": "Released",
+      "date_iso": "2018-02-27"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 04, 2013",
+      "status": "Released",
+      "date_iso": "2013-09-04"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Mar 31, 2015",
+      "status": "Released",
+      "date_iso": "2015-03-31"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 05, 2014",
+      "status": "Released",
+      "date_iso": "2014-02-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar75m.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "2GPf3MdVOKI",
+      "url": "https://www.youtube.com/watch?v=2GPf3MdVOKI"
+    }
+  ]
+}

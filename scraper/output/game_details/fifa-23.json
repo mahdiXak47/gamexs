@@ -1,0 +1,185 @@
+{
+  "slug": "fifa-23",
+  "igdb_id": 205780,
+  "name": "FIFA 23",
+  "summary": "FIFA 23 brings The World’s Game to the pitch, with HyperMotion2 Technology that delivers even more gameplay realism, men’s and women’s FIFA World Cup coming during the season, women’s club teams, cross-play features, and more.",
+  "first_release_year": 2022,
+  "developers": [
+    "EA Vancouver"
+  ],
+  "publishers": [
+    "EA Sports"
+  ],
+  "genres": [
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [
+    "Non-fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "FIFA"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "FIFA"
+  ],
+  "game_engines": [
+    "Frostbite"
+  ],
+  "keywords": [
+    "soccer",
+    "football"
+  ],
+  "alternative_names": [
+    {
+      "name": "EA SPORTS™ FIFA 23",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ea-sports-fifa-23-standard-edition-xbox-series-x-s/9N4K3F9558RP"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004336"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/fifa-23"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/FIFA_23"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/FIFA%2023"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1811260"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/fifa/fifa-23?utm_source=youtube&ts=1658369688853&cid=73912&utm_campaign=fifa23_hd_ww_ic_soco_yt_fifa-23-homepage-yt&utm_medium=social"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Sep 27, 2022",
+      "status": "status_34",
+      "date_iso": "2022-09-27"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 27, 2022",
+      "status": "status_34",
+      "date_iso": "2022-09-27"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 27, 2022",
+      "status": "status_34",
+      "date_iso": "2022-09-27"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 27, 2022",
+      "status": "status_34",
+      "date_iso": "2022-09-27"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 27, 2022",
+      "status": "status_34",
+      "date_iso": "2022-09-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 27, 2022",
+      "status": "status_34",
+      "date_iso": "2022-09-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1qhx.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "o3V-GvvzjE4",
+      "url": "https://www.youtube.com/watch?v=o3V-GvvzjE4"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "xu0jf2LwafY",
+      "url": "https://www.youtube.com/watch?v=xu0jf2LwafY"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "0tIW1X2dv0c",
+      "url": "https://www.youtube.com/watch?v=0tIW1X2dv0c"
+    }
+  ]
+}

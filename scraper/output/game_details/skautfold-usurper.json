@@ -1,0 +1,143 @@
+{
+  "slug": "skautfold-usurper",
+  "igdb_id": 251103,
+  "name": "Skautfold: Usurper",
+  "summary": "With Eldritch horrors having been unleashed by the outer-worldly Citadel, your job is to rid London of its terrors and defeat the Navigator!",
+  "first_release_year": 2018,
+  "developers": [
+    "Pugware"
+  ],
+  "publishers": [
+    "Red Art Games",
+    "Pugware"
+  ],
+  "genres": [
+    "Platform",
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Skautfold"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "GameMaker"
+  ],
+  "keywords": [
+    "metroidvania"
+  ],
+  "alternative_names": [
+    {
+      "name": "Usurper",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Usurper.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/skautfold-usurper-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007300"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/pugwaredev"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCZmjESctR8Mj6A2i2sj9pZg/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.facebook.com/pugwaredev"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/603020"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/skautfold-usurper"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/pugwaredev"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 20, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-02-20"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 23, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-23"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 23, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 23, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-23"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 23, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-23"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 23, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2bxd.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "1cTAgQsJFPc",
+      "url": "https://www.youtube.com/watch?v=1cTAgQsJFPc"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "0GV2iB0Vc7w",
+      "url": "https://www.youtube.com/watch?v=0GV2iB0Vc7w"
+    }
+  ]
+}

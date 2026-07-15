@@ -1,0 +1,139 @@
+{
+  "slug": "hunter-x-hunter-nen-x-impact",
+  "igdb_id": 281740,
+  "name": "Hunter x Hunter: Nen x Impact",
+  "summary": "Hunter x Hunter: Nen x Impact is a Hunter x Hunter fighting game,\nPublished by Bushiroad Games.\n\nChoose your favorite Nen User characters for the 3V3 Team Battle!\nThe compatibility and order of the teammates are the keys to victory!\nBuild the strongest team and battle for victory!",
+  "first_release_year": 2025,
+  "developers": [
+    "Eighting",
+    "Bushiroad Games"
+  ],
+  "publishers": [
+    "Arc System Works",
+    "Bushiroad Games"
+  ],
+  "genres": [
+    "Fighting",
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Hunter X Hunter"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Hunter x Hunter"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "HUNTER×HUNTER NEN×IMPACT",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2456420"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://hunterhunter-ni.bushiroadgames.com/en/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/hunterNI_games"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/hunterxhunter-nenximpact-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007325"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/HXHNenImpact/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 15, 2025",
+      "status": "status_34",
+      "date_iso": "2025-07-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 15, 2025",
+      "status": "status_34",
+      "date_iso": "2025-07-15"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2x2l.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar459u.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar459v.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "oIEYoLbw3qo",
+      "url": "https://www.youtube.com/watch?v=oIEYoLbw3qo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "iBPyHSpZ1HY",
+      "url": "https://www.youtube.com/watch?v=iBPyHSpZ1HY"
+    },
+    {
+      "title": "Character Trailer",
+      "youtube_id": "yj5XRkPFpps",
+      "url": "https://www.youtube.com/watch?v=yj5XRkPFpps"
+    },
+    {
+      "title": "Character Trailer",
+      "youtube_id": "ATLzoqtlxJM",
+      "url": "https://www.youtube.com/watch?v=ATLzoqtlxJM"
+    },
+    {
+      "title": "Character Trailer",
+      "youtube_id": "3uOzSootjWw",
+      "url": "https://www.youtube.com/watch?v=3uOzSootjWw"
+    }
+  ]
+}

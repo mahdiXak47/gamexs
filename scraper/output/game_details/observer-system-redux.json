@@ -1,0 +1,189 @@
+{
+  "slug": "observer-system-redux",
+  "igdb_id": 132165,
+  "name": "Observer: System Redux",
+  "summary": "The year is 2084.\nIn a dark cyberpunk world shattered by plagues and wars, become a neural detective and hack into the minds of others.\n\nRebuilt and augmented for the next-generation, Observer: System Redux is the definitive vision of one of the most acclaimed cyberpunk stories in games.",
+  "first_release_year": 2020,
+  "developers": [
+    "Bloober Team"
+  ],
+  "publishers": [
+    "Bloober Team"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror",
+    "Thriller"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": "Observer",
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "cyberpunk",
+    "psychological horror",
+    "dystopian"
+  ],
+  "alternative_names": [
+    {
+      "name": "オブザーバー：システムリダックス",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "オブザーバー: システムリダックス",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "ObserverSystemRedux.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/ObserverRedux"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/ObserverRedux"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/blooberteam"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001519"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Observer_(video_game)"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1386900"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://observersystemredux.com/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/observer_system_redux"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/observer-system-redux"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Observer:%20System%20Redux"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/observer_system_redux"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 16, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-16"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-12"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 16, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-16"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 19, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-19"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Jun 18, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-06-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ark45.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gamescom 2020 Trailer",
+      "youtube_id": "1W4ts5u_Ujs",
+      "url": "https://www.youtube.com/watch?v=1W4ts5u_Ujs"
+    },
+    {
+      "title": "Next Gen Reveal Trailer",
+      "youtube_id": "RseKlXtD8cE",
+      "url": "https://www.youtube.com/watch?v=RseKlXtD8cE"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "Zuzh49lsl2s",
+      "url": "https://www.youtube.com/watch?v=Zuzh49lsl2s"
+    },
+    {
+      "title": "New Quests Gameplay",
+      "youtube_id": "wRrcMGx0QGo",
+      "url": "https://www.youtube.com/watch?v=wRrcMGx0QGo"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "TQNicJZOFYA",
+      "url": "https://www.youtube.com/watch?v=TQNicJZOFYA"
+    }
+  ]
+}

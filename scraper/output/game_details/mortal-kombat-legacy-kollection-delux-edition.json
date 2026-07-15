@@ -1,0 +1,66 @@
+{
+  "slug": "mortal-kombat-legacy-kollection-delux-edition",
+  "igdb_id": 398998,
+  "name": "Mortal Kombat: Legacy Kollection - Deluxe Edition",
+  "summary": "Deluxe Edition includes: Collector's Box, Standard Game, Steelbook, Arcade Flyers, Arcade Cabinet Cards, Lenticular Card, Mini-Marquees, Magnet.\n\nStep into the arena and choose your fighter! Mortal Kombat: Legacy Kollection includes all the essential games from Mortal Kombat's early years. Experience the legendary origins of the franchise with the iconic arcade classics that started it all—alongside a curated selection of most-loved home versions for the Super NES and Sega Genesis. Dive deeper with rare and fan-favorite releases across the Game Boy, Game Gear, Sega 32X, Game Boy Advance, and more—a celebration of the franchise’s groundbreaking legacy.\n\nDigital Eclipse's interactive documentary format explores how Mortal Kombat changed the way society perceived video games. By using digitized humans as player sprites in an over-the-top, martial-arts fighter, the game thrilled players, shocked critics, and laid the foundation for a franchise that has thrived for more than 30 years. Hear firsthand from the original dev team of Ed Boon, John Tobias, John Vogel, and Dan Forden, along with other exclusive interviews, rare concept art, vintage marketing materials, and archival video footage.\n\nMortal Kombat: Legacy Kollection also lets players explore Mortal Kombat lore, with a timeline of the original series' storyline and comprehensive character histories that offer stories, secrets, and glimpses behind the scenes at their creation.",
+  "first_release_year": 2025,
+  "developers": [
+    "Digital Eclipse"
+  ],
+  "publishers": [
+    "Atari",
+    "Digital Eclipse"
+  ],
+  "genres": [
+    "Fighting",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Side view"
+  ],
+  "series": [
+    "Mortal Kombat"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Mortal Kombat"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 12, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-12"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 12, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-12"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Dec 12, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-12"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

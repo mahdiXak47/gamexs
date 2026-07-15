@@ -1,0 +1,167 @@
+{
+  "slug": "the-gap",
+  "igdb_id": 151120,
+  "name": "The Gap",
+  "summary": "The Gap is a sci-fi first person narrative exploration thriller. You play as Joshua Hayes, a neuroscientist who's lost it all. Your mysterious ability to explore parallel realities through deja vu seems to be the only way to recover your memories and salvage your life.",
+  "first_release_year": 2023,
+  "developers": [
+    "Label This"
+  ],
+  "publishers": [
+    "Crunching Koalas"
+  ],
+  "genres": [
+    "Puzzle",
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Thriller",
+    "Drama"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal"
+  ],
+  "keywords": [
+    "exploration",
+    "investigation",
+    "short",
+    "walking simulator",
+    "previously on - prime gaming"
+  ],
+  "alternative_names": [
+    {
+      "name": "TheGap.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/crunchingkoalas"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/crunchingkoalas"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/the-gap-e8d40c"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/the-gap-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006089"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@crunchingkoalas/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1458300"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://thegapgame.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/TheGapGame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20Gap"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/QhY3VmZVSW"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/the_gap"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 19, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 19, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-19"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-04-04"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 19, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 19, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-19"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 19, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arn9s.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "J3OUb6tGCwE",
+      "url": "https://www.youtube.com/watch?v=J3OUb6tGCwE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "q2RbXeS-Cd0",
+      "url": "https://www.youtube.com/watch?v=q2RbXeS-Cd0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "wwmHUupHSMY",
+      "url": "https://www.youtube.com/watch?v=wwmHUupHSMY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "xcylve_bwVc",
+      "url": "https://www.youtube.com/watch?v=xcylve_bwVc"
+    }
+  ]
+}

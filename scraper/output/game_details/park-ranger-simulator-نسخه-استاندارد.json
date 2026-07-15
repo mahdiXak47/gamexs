@@ -1,0 +1,75 @@
+{
+  "slug": "park-ranger-simulator-نسخه-استاندارد",
+  "igdb_id": 314460,
+  "name": "Park Ranger Simulator",
+  "summary": "Manage your own park facility in a huge open world in Park Ranger Simulator. Take on all the tasks that need to be completed as a park ranger - alone or together in cross-platform multiplayer! You have a variety of vehicles and equipment at your disposal to complete the challenges ahead!",
+  "first_release_year": 2026,
+  "developers": [
+    "Polygon Art"
+  ],
+  "publishers": [
+    "Aerosoft"
+  ],
+  "genres": [
+    "Simulator",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "nature",
+    "nextfest october 2025"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2622690"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/PXwYmsPTJt"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009928"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 19, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 19, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar33fp.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "KnthWUKy05o",
+      "url": "https://www.youtube.com/watch?v=KnthWUKy05o"
+    }
+  ]
+}

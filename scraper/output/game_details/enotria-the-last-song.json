@@ -1,0 +1,162 @@
+{
+  "slug": "enotria-the-last-song",
+  "igdb_id": 218521,
+  "name": "Enotria: The Last Song",
+  "summary": "Enotria: The Last Song is a soulslike set in a beautiful sun-lit world inspired by Italian folklore where the brightest sun casts the darkest shadow. Wear unique role-altering masks, face formidable foes and alter reality with the power of Ardore to unravel the secrets of Enotria.",
+  "first_release_year": 2024,
+  "developers": [
+    "Jyamma Games"
+  ],
+  "publishers": [
+    "Jyamma Games"
+  ],
+  "genres": [
+    "Fighting",
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "italy",
+    "folklore"
+  ],
+  "alternative_names": [
+    {
+      "name": "Project Galileo",
+      "comment": "Working title"
+    },
+    {
+      "name": "Enotria.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/wXVTeyR9gZ"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008826"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/enotria-the-last-song-dee164"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://enotriathelastsong.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/ProjectGalileo"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/enotriathelastsong"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/enotriathelastsong"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/enotriagame?s=20&t=VUowrOSHoYz87MroA5wEFg"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2102450"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/enotria-the-last-song"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Enotria:_The_Last_Song"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 19, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 19, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 16, 2024",
+      "status": "status_34",
+      "date_iso": "2024-09-16"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 12, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 16, 2024",
+      "status": "status_34",
+      "date_iso": "2024-09-16"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2h2h.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "4DYZayzsbMM",
+      "url": "https://www.youtube.com/watch?v=4DYZayzsbMM"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "iPwp2kb7rds",
+      "url": "https://www.youtube.com/watch?v=iPwp2kb7rds"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Y_R4xk_9yTM",
+      "url": "https://www.youtube.com/watch?v=Y_R4xk_9yTM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "RLHhavkbTHg",
+      "url": "https://www.youtube.com/watch?v=RLHhavkbTHg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3IO29PB62fI",
+      "url": "https://www.youtube.com/watch?v=3IO29PB62fI"
+    }
+  ]
+}

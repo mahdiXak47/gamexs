@@ -1,0 +1,83 @@
+{
+  "slug": "tom-clancy's-rainbow-six-siege-deluxe-edition-ps4",
+  "igdb_id": 349484,
+  "name": "Tom Clancy's Rainbow Six Siege X",
+  "summary": "Rainbow Six Siege X is the reference in tactical team shooters, where elite strategy and execution triumph. Enjoy free access to Quick Match, Unranked and Dual Front game modes with a selection of operators.",
+  "first_release_year": 2025,
+  "developers": [
+    "Ubisoft Montreal"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Tactical"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Rainbow Six"
+  ],
+  "spin_off_of": "Rainbow Six Siege",
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.ubisoft.com/en-gb/game/rainbow-six/siege/game-info/discover"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege_X/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 10, 2025",
+      "status": "Released",
+      "date_iso": "2025-06-10"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 10, 2025",
+      "status": "Released",
+      "date_iso": "2025-06-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 10, 2025",
+      "status": "Released",
+      "date_iso": "2025-06-10"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 10, 2025",
+      "status": "Released",
+      "date_iso": "2025-06-10"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "BI9fgQY0d5I",
+      "url": "https://www.youtube.com/watch?v=BI9fgQY0d5I"
+    }
+  ]
+}

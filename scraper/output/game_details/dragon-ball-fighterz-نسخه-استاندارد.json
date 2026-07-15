@@ -1,0 +1,99 @@
+{
+  "slug": "dragon-ball-fighterz-نسخه-استاندارد",
+  "igdb_id": 144706,
+  "name": "Dragon Ball FighterZ: Goku",
+  "summary": "Coming back to the roots of the DRAGON BALL Z series, Goku is now ready to unleash his fearsome techniques, born from the combination of Saiyan DNA and earthling martial arts!\n\nThis content includes:\n- Goku as a new playable character\n- 5 alternative colors for his outfit\n- Goku Lobby Avatar\n- Goku Z Stamp",
+  "first_release_year": 2018,
+  "developers": [
+    "Arc System Works"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Fighting"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": "Dragon Ball FighterZ",
+  "franchises": [
+    "Dragon Ball"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "DRAGON BALL FighterZ - Goku",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/dragon-ball-fighterz-goku-70050000007391-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/779936/DRAGON_BALL_FighterZ__Goku"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.bandainamcoent.com/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://dragonball.wikia.com/wiki/Dragon_Ball_FighterZ"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 08, 2018",
+      "status": "Released",
+      "date_iso": "2018-08-08"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 08, 2018",
+      "status": "Released",
+      "date_iso": "2018-08-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 08, 2018",
+      "status": "Released",
+      "date_iso": "2018-08-08"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 28, 2018",
+      "status": "Released",
+      "date_iso": "2018-09-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar11kv.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "SpGlFa34xEQ",
+      "url": "https://www.youtube.com/watch?v=SpGlFa34xEQ"
+    }
+  ]
+}

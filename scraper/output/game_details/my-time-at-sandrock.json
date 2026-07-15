@@ -1,0 +1,206 @@
+{
+  "slug": "my-time-at-sandrock",
+  "igdb_id": 140427,
+  "name": "My Time at Sandrock",
+  "summary": "You'll take the role of a fledgling Builder to Sandrock. It’s up to you and your trusty toolset to gather resources, construct machines, and fix up your workshop into a well-oiled production machine, and save the town from the jaws of economic ruin, as well as a few other unexpected complications.",
+  "first_release_year": 2023,
+  "developers": [
+    "Pathea Games"
+  ],
+  "publishers": [
+    "PM Studios",
+    "Pathea Games"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Simulator",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Sandbox",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "My Time"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Sandrock.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/MyTimeAtSandrock"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/my-time-at-sandrock-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007685"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/my-time-at-sandrock/9N15RZTXDNPG"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/my-time-at-sandrock"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/my_time_at_sandrock"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/PatheaGames"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1084600"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/My%20Time%20at%20Sandrock"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://mytimeatsandrock.fandom.com/wiki/My_Time_at_Sandrock"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/MTASandrock"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/mtasandrock"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/CUyWt8U"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://sandrock.pathea.net/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/MyTimeAtSandrock"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 02, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-02"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 02, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-02"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 02, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-02"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 02, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-02"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 02, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-02"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 02, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-02"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 25, 2022",
+      "status": "Beta",
+      "date_iso": "2022-05-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 02, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-02"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 02, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-02"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1bue.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "a2Nyn7IYEVM",
+      "url": "https://www.youtube.com/watch?v=a2Nyn7IYEVM"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "qzMeCOArrGA",
+      "url": "https://www.youtube.com/watch?v=qzMeCOArrGA"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "UpBS8qyZPdU",
+      "url": "https://www.youtube.com/watch?v=UpBS8qyZPdU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "4stRss_3kqA",
+      "url": "https://www.youtube.com/watch?v=4stRss_3kqA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "aWE41sSrhcQ",
+      "url": "https://www.youtube.com/watch?v=aWE41sSrhcQ"
+    }
+  ]
+}

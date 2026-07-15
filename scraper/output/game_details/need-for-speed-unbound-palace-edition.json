@@ -1,0 +1,72 @@
+{
+  "slug": "need-for-speed-unbound-palace-edition",
+  "igdb_id": 220860,
+  "name": "Need for Speed Unbound: Palace Edition",
+  "summary": "Need for Speed Unbound Palace Edition and get 3 days early access plus exclusive Palace branded content including:\n- 4 stunningly intense new Custom Cars\n- Palace Clothing Pack containing 20 items\n- Palace Driving Effects\n- Loads more bitz",
+  "first_release_year": 2022,
+  "developers": [
+    "Criterion Games"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Racing"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [],
+  "series": [
+    "Need for Speed"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/need-for-speed-unbound--palace-edition"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 29, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 29, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-29"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 29, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1z3z.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar20hy.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "EnE2oFZF7FE",
+      "url": "https://www.youtube.com/watch?v=EnE2oFZF7FE"
+    }
+  ]
+}

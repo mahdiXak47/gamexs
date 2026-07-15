@@ -1,0 +1,192 @@
+{
+  "slug": "lords-of-the-fallen-2014",
+  "igdb_id": 4847,
+  "name": "Lords of the Fallen",
+  "summary": "Lords of the Fallen is a challenging fantasy action RPG set in a harsh world where humanity has defeated its God. When his army starts to re-emerge from its demonic realm, led by the formidable Lords, humanity turns to an unlikely defender for help.\n\nLords of the Fallen offers a deep and satisfying melee combat system with weapons, armour and skills influencing speed, power and agility. Every fight is both a challenge and a meaningful victory. Powerful and spectacular magic complete the arsenal. Embark on an epic journey of combat, exploration and discovery\nto become the world’s salvation… or doom.\n\nDeveloped by CI Games of Warsaw, in collaboration with Deck 13, a developer based in Germany.",
+  "first_release_year": 2014,
+  "developers": [
+    "Deck13 Interactive",
+    "City Interactive"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Lords of the Fallen"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "FLEDGE Engine",
+    "Nvidia PhysX",
+    "FMOD",
+    "Autodesk"
+  ],
+  "keywords": [
+    "magic",
+    "3d",
+    "dark fantasy",
+    "difficult",
+    "demons",
+    "labyrinth",
+    "treasure hunt",
+    "class-based",
+    "combat",
+    "melee combat",
+    "giants",
+    "boss fight",
+    "choices matter",
+    "customization",
+    "armor",
+    "questing",
+    "melee",
+    "weapon modification",
+    "soulslike",
+    "beautiful",
+    "bosses",
+    "lore rich",
+    "weapons",
+    "spells",
+    "collecting items",
+    "character classes"
+  ],
+  "alternative_names": [
+    {
+      "name": "LotF",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Lords of the Fallen 2014",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "LordsOfTheFallen.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/202563"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://web.archive.org/web/20140429100351/http://lordsofthefallen.com/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/LordsoftheFallen"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/lotfgame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/lotfgame"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/265300"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://lordsofthefallen.wiki.fextralife.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/lords-of-the-fallen"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/lotfgame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@cigames"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lords_of_the_Fallen_(2014_video_game)"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 31, 2014",
+      "status": "Cancelled",
+      "date_iso": "2014-10-31"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 28, 2014",
+      "status": "Cancelled",
+      "date_iso": "2014-10-28"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 28, 2014",
+      "status": "Cancelled",
+      "date_iso": "2014-10-28"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 31, 2014",
+      "status": "Cancelled",
+      "date_iso": "2014-10-31"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 28, 2014",
+      "status": "Cancelled",
+      "date_iso": "2014-10-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4k5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4k3.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4k4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar69d.jpg"
+  ],
+  "videos": [
+    {
+      "title": "World Trailer",
+      "youtube_id": "x7DOCA1i9Cg",
+      "url": "https://www.youtube.com/watch?v=x7DOCA1i9Cg"
+    },
+    {
+      "title": "Gameplay video",
+      "youtube_id": "dcWx_yT_ZuA",
+      "url": "https://www.youtube.com/watch?v=dcWx_yT_ZuA"
+    },
+    {
+      "title": "Debut Trailer",
+      "youtube_id": "SsSKj9pnh1o",
+      "url": "https://www.youtube.com/watch?v=SsSKj9pnh1o"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "FO3wCucDmNU",
+      "url": "https://www.youtube.com/watch?v=FO3wCucDmNU"
+    }
+  ]
+}

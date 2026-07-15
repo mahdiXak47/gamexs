@@ -1,0 +1,181 @@
+{
+  "slug": "dragon-ball-z-kakarot-نسخه-استاندارد",
+  "igdb_id": 114009,
+  "name": "Dragon Ball Z: Kakarot",
+  "summary": "Relive the story of Goku in Dragon Ball Z: Kakarot! Beyond the epic battles, experience life in the Dragon Ball Z world as you fight, fish, eat, and train with Goku. Explore the new areas and adventures as you advance through the story and form powerful bonds with other heroes from the Dragon Ball Z universe.",
+  "first_release_year": 2020,
+  "developers": [
+    "CyberConnect2"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment",
+    "Bandai Namco Entertainment America",
+    "Bandai Namco Entertainment Europe"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Dragon Ball",
+    "Dragon Ball Z"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "anime"
+  ],
+  "alternative_names": [
+    {
+      "name": "Dragon Ball Game - Project Z",
+      "comment": "Working title"
+    },
+    {
+      "name": "DBZ: Kakarot",
+      "comment": "Acronym"
+    },
+    {
+      "name": "DBZ Kakarot",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Project Z",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "DRAGON BALL Z: KAKAROT",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "AT.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Dragon%20Ball%20Z:%20Kakarot"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/dragon-ball-z-kakarot/BT5X0XGCWGD6"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/233235"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC_ntXHv-XdKCD7CPynVvnQw"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/851850"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://dragonball.fandom.com/wiki/Dragon_Ball_Z:_Kakarot"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dragon_Ball_Z:_Kakarot"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.bandainamcoent.com/games/dragon-ball-game-project-z"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 17, 2020",
+      "status": "Released",
+      "date_iso": "2020-01-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 13, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-13"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 24, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 13, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-13"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 17, 2020",
+      "status": "Released",
+      "date_iso": "2020-01-17"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Oct 26, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-26"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 17, 2020",
+      "status": "Released",
+      "date_iso": "2020-01-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar752.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "XEHQgdyk0ZA",
+      "url": "https://www.youtube.com/watch?v=XEHQgdyk0ZA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "S8Gd4bDQ9Po",
+      "url": "https://www.youtube.com/watch?v=S8Gd4bDQ9Po"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "OSgGsTnKZ-Y",
+      "url": "https://www.youtube.com/watch?v=OSgGsTnKZ-Y"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "KJtbl6DIRbE",
+      "url": "https://www.youtube.com/watch?v=KJtbl6DIRbE"
+    }
+  ]
+}

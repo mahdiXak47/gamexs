@@ -1,0 +1,182 @@
+{
+  "slug": "sifu-نسخه-استاندارد",
+  "igdb_id": 144022,
+  "name": "Sifu",
+  "summary": "Sifu is a realistic third-person brawler with tight Kung Fu combat mechanics and cinematic martial arts action embarking you on a path for revenge.",
+  "first_release_year": 2022,
+  "developers": [
+    "Sloclap"
+  ],
+  "publishers": [
+    "Sloclap",
+    "Kepler Interactive"
+  ],
+  "genres": [
+    "Hack and slash/Beat 'em up",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "kung fu"
+  ],
+  "alternative_names": [
+    {
+      "name": "SIFU",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Sifu.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/sifu-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001973"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/sifu/9P7PF6ZP3958"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SifuGame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/Sloclap"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Sifu"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2138710"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/SifuGame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.sifugame.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sifu_(video_game)"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://sifu.fandom.com/wiki/Sifu_Wiki"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/sifu"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/SifuGame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/sifugame/?hl=en"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/tt4hH8T2Ub"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-08"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-28"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-08"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar12vu.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "1FQ1YO3Ks2U",
+      "url": "https://www.youtube.com/watch?v=1FQ1YO3Ks2U"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "q9tXb5F1WzY",
+      "url": "https://www.youtube.com/watch?v=q9tXb5F1WzY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "AYbLI3a7SD8",
+      "url": "https://www.youtube.com/watch?v=AYbLI3a7SD8"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Vy-enf5xxgQ",
+      "url": "https://www.youtube.com/watch?v=Vy-enf5xxgQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "T7jWeH0VXMg",
+      "url": "https://www.youtube.com/watch?v=T7jWeH0VXMg"
+    }
+  ]
+}

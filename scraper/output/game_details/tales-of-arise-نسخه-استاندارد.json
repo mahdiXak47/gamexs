@@ -1,0 +1,140 @@
+{
+  "slug": "tales-of-arise-نسخه-استاندارد",
+  "igdb_id": 119270,
+  "name": "Tales of Arise",
+  "summary": "On the planet Dahna, reverence has always been given to Rena--the planet in the sky--as a land of the righteous and divine. Stories handed down for generations became truth and masked reality for the people of Dahna. For 300 years, Rena has ruled over Dahna, pillaging the planet of its resources and stripping people of their dignity and freedom.\n\nOur tale begins with two people, born on different worlds, each looking to change their fate and create a new future. Featuring a diverse cast of characters, intuitive and rewarding combat system, and a captivating story set in a lush world worth fighting for, Tales of Arise delivers a first-class JRPG experience.",
+  "first_release_year": 2021,
+  "developers": [
+    "Bandai Namco Studios"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Tales"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Tales of"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "anime",
+    "jrpg"
+  ],
+  "alternative_names": [
+    {
+      "name": "破曉傳奇",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "破晓传奇",
+      "comment": "Chinese title - simplified"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tales_of_Arise"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/tales-of-arise/9P91PLSLZBKW"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/234823"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.bandainamcoent.com/games/tales-of-arise"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/740130"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Tales%20of%20Arise"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://aselia.fandom.com/wiki/Tales_of_Arise"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 10, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-10"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 10, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 10, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-10"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 10, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-10"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 10, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5qu.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5sfn.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5sfo.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "1C-zxf8BxQ0",
+      "url": "https://www.youtube.com/watch?v=1C-zxf8BxQ0"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "y6qvHWWr2R0",
+      "url": "https://www.youtube.com/watch?v=y6qvHWWr2R0"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ltVgvd-Me6A",
+      "url": "https://www.youtube.com/watch?v=ltVgvd-Me6A"
+    }
+  ]
+}

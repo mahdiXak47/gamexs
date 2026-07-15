@@ -1,0 +1,357 @@
+{
+  "slug": "ark-survival-evolved",
+  "igdb_id": 10239,
+  "name": "Ark: Survival Evolved",
+  "summary": "Ark: Survival Evolved is an open-world action-adventure survival game where players awaken stranded on a mysterious island populated by dinosaurs, prehistoric creatures, and mythical beasts. Gameplay revolves around gathering resources, crafting tools and structures, and taming creatures that can be ridden or used for combat and transportation. The game supports both single-player and multiplayer modes, with multiplayer servers allowing players to form tribes and compete or cooperate. Several expansion packs add new maps and storylines, and the game spawned an animated series, a remaster in Unreal Engine 5 titled Ark: Survival Ascended, and a planned sequel.",
+  "first_release_year": 2017,
+  "developers": [
+    "Studio Wildcard"
+  ],
+  "publishers": [
+    "Studio Wildcard",
+    "Snail Games",
+    "Snail Games USA"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Simulator",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Survival",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen",
+    "Massively Multiplayer Online (MMO)",
+    "Battle Royale"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person",
+    "Virtual Reality"
+  ],
+  "series": [
+    "Ark"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "dinosaurs",
+    "crafting",
+    "action-adventure",
+    "online",
+    "prehistoric",
+    "building",
+    "pax west 2017",
+    "pre-release public testing",
+    "xbox play anywhere",
+    "xbox one x enhanced",
+    "pax east 2016",
+    "pax west 2016",
+    "pax prime 2015",
+    "valve anti-cheat",
+    "dinosaur riding",
+    "previously on - stadia pro"
+  ],
+  "alternative_names": [
+    {
+      "name": "方舟：生存进化",
+      "comment": "Chinese title"
+    },
+    {
+      "name": "ARK: Survival Evolved",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "ARK: Survival of the Fittest",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "方舟：生存進化",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "ShooterGame_BE.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/playark"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://ark.wiki.gg/wiki/ARK:_Survival_Evolved"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ark-survival-evolved/BNBLC4ZGFNKB"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/224802"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/ark-survival-evolved-switch/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/survivetheark"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.playark.com"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/survivetheark"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/346110"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ark:_Survival_Evolved"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.studiowildcard.wardrumstudios.ark&hl=en_US"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://itunes.apple.com/ca/app/ark-survival-evolved/id1280480538?mt=8"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/product/ark/home"
+    },
+    {
+      "label": "iPad",
+      "url": "https://itunes.apple.com/us/app/id1280480538#?platform=ipad"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/ARK"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/Survivetheark"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/survivetheark"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/playark"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Jun 14, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-06-14"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Sep 01, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-09-01"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 28, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-28"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 31, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-08-31"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 27, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-08-27"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 29, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-08-29"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 26, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-01-26"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Jul 01, 2015",
+      "status": "Beta",
+      "date_iso": "2015-07-01"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Feb 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 29, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-08-29"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 31, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-08-31"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 21, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-02-21"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Jun 14, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-06-14"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Aug 27, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-08-27"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Aug 27, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-08-27"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 30, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-11-30"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 20, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-11-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 02, 2015",
+      "status": "Beta",
+      "date_iso": "2015-06-02"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 06, 2016",
+      "status": "Beta",
+      "date_iso": "2016-12-06"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 29, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-08-29"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 29, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-08-29"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jun 28, 2015",
+      "status": "Beta",
+      "date_iso": "2015-06-28"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 16, 2015",
+      "status": "Beta",
+      "date_iso": "2015-12-16"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5kw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6fe.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gamescom 2015 Trailer",
+      "youtube_id": "hh2VkuYQQHE",
+      "url": "https://www.youtube.com/watch?v=hh2VkuYQQHE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "5-I92iPYOWs",
+      "url": "https://www.youtube.com/watch?v=5-I92iPYOWs"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "j4NvBtcMfZM",
+      "url": "https://www.youtube.com/watch?v=j4NvBtcMfZM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "2d_b5fRZmlA",
+      "url": "https://www.youtube.com/watch?v=2d_b5fRZmlA"
+    },
+    {
+      "title": "Reveal Trailer",
+      "youtube_id": "kJ8Io-vOejA",
+      "url": "https://www.youtube.com/watch?v=kJ8Io-vOejA"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "slug": "maneater",
+  "igdb_id": 46800,
+  "name": "Maneater",
+  "summary": "You were cut from your mother's body and left to die in the unforgiving waters of the Gulf Coast. Your only tools are your wits, your jaws, and an uncanny ability to evolve as you feed. Anything and everything is on the menu... provided you kill it before it kills you.",
+  "first_release_year": 2020,
+  "developers": [
+    "Blindside Interactive",
+    "Tripwire Interactive"
+  ],
+  "publishers": [
+    "Deep Silver",
+    "Tripwire Interactive"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "bloody",
+    "underwater",
+    "animals",
+    "shark",
+    "female protagonist",
+    "animal protagonist",
+    "gore",
+    "steam trading cards",
+    "steam achievements",
+    "steam cloud",
+    "human",
+    "alligator",
+    "steam families"
+  ],
+  "alternative_names": [
+    {
+      "name": "맨이터",
+      "comment": "Korean title"
+    },
+    {
+      "name": "Maneater.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/maneater-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/maneater/9P5B81KVDGP1"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/233202"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/629820"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/maneatergame"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/product/maneater/home"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://maneatergame.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/tripwireinteractive/featured"
+    },
+    {
+      "label": "Discord",
+      "url": "http://discord.gg/maneater"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Maneater_(video_game)"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/maneater"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Maneater"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/maneatergame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/tripwireinteractive/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://maneater.fandom.com/wiki/Maneater_Wiki"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 25, 2021",
+      "status": "Released",
+      "date_iso": "2021-05-25"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 25, 2021",
+      "status": "Released",
+      "date_iso": "2021-05-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 17, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-17"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 17, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 22, 2020",
+      "status": "Released",
+      "date_iso": "2020-05-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 22, 2020",
+      "status": "Released",
+      "date_iso": "2020-05-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 19, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-12"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 25, 2021",
+      "status": "Released",
+      "date_iso": "2021-05-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "May 22, 2020",
+      "status": "Released",
+      "date_iso": "2020-05-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3s8w.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3s8x.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3s8z.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3s8y.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "ymRLGxKR248",
+      "url": "https://www.youtube.com/watch?v=ymRLGxKR248"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "a1ixsDRnT_Q",
+      "url": "https://www.youtube.com/watch?v=a1ixsDRnT_Q"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "wIC7xg75Hn0",
+      "url": "https://www.youtube.com/watch?v=wIC7xg75Hn0"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "DZuXcPm8J6k",
+      "url": "https://www.youtube.com/watch?v=DZuXcPm8J6k"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "hazelight-bundle",
+  "igdb_id": 219184,
+  "name": "Hazelight Bundle",
+  "summary": "Two exclusively co-op adventures best played with friends!\nHelp each other through unexpected obstacles and laugh-out-loud moments to fix a fractured relationship in It Takes Two.\nPlay the role of one of two prisoners making their daring escape from prison in A Way Out.",
+  "first_release_year": 2022,
+  "developers": [
+    "Hazelight Studios"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/hazelight-bundle/9NSHWS6N4C08"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-20"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1vy3.jpg"
+  ],
+  "videos": []
+}

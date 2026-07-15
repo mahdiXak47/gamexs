@@ -1,0 +1,75 @@
+{
+  "slug": "tiny-tina’s-wonderlands-نسخه-next-level",
+  "igdb_id": 170024,
+  "name": "Tiny Tina's Wonderlands: Next Level Edition",
+  "summary": "Embark on an adventure full of whimsy, wonder, and high-powered weaponry! Roll your own multiclass hero then shoot, loot, slash, and cast on a quest to stop the Dragon Lord.\n\nThis Edition Includes:\n-Full Game\n-Optimized for Xbox Series X|S\n-Dragon Lord Pack",
+  "first_release_year": 2022,
+  "developers": [],
+  "publishers": [],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "ワンダーランズ ～タイニー・ティナと魔法の世界 超レベルアップ・エディション",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "ワンダーランズ ～タイニー ティナと魔法の世界 超レベルアップ エディション",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "타이니 티나의 원더랜드: 넥스트 레벨 에디션",
+      "comment": "Korean title"
+    }
+  ],
+  "websites": [],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 25, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 25, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 25, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 25, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar17tc.jpg"
+  ],
+  "videos": []
+}

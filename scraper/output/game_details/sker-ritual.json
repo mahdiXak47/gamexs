@@ -1,0 +1,155 @@
+{
+  "slug": "sker-ritual",
+  "igdb_id": 182116,
+  "name": "Sker Ritual",
+  "summary": "The co-op survival FPS and spiritual successor to the award-winning occult horror, Maid of Sker. Play solo or up to 4 players to survive the supernatural onslaught of the Quiet Ones.",
+  "first_release_year": 2024,
+  "developers": [
+    "Wales Interactive"
+  ],
+  "publishers": [
+    "Wales Interactive"
+  ],
+  "genres": [
+    "Shooter",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "demo",
+    "story rich",
+    "free demo",
+    "zombie shooter"
+  ],
+  "alternative_names": [
+    {
+      "name": "SkerRitual.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/walesinteractive"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/sker-ritual/9MX03V2FP6PJ"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005307"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/WalesInter"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/WalesInteractive"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/Pb2uFYRB7P"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1492070/Sker_Ritual"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.walesinteractive.com/skerritual"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/walesinteractive"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/SkerRitual"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/WalesInteractive"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/sker-ritual-aac702"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-04-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-04-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-04-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 06, 2022",
+      "status": "Beta",
+      "date_iso": "2022-10-06"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 24, 2025",
+      "status": "Released",
+      "date_iso": "2025-04-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1nxu.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "Ae7nkalvsfQ",
+      "url": "https://www.youtube.com/watch?v=Ae7nkalvsfQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "0E-MlYHf4II",
+      "url": "https://www.youtube.com/watch?v=0E-MlYHf4II"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "dQsWwF9V9Kw",
+      "url": "https://www.youtube.com/watch?v=dQsWwF9V9Kw"
+    }
+  ]
+}

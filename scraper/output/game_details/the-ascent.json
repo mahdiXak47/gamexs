@@ -1,0 +1,167 @@
+{
+  "slug": "the-ascent",
+  "igdb_id": 133307,
+  "name": "The Ascent",
+  "summary": "The Ascent is a solo and co-op action RPG set in a cyberpunk world. The mega corporation that owns you and everyone, The Ascent Group, has just collapsed. Confusion and chaos ensue, security and order are in disarray, and without protection, everyone is left to fend for themselves. Stop gangs and hostile corporations from taking over and discover what really happened.",
+  "first_release_year": 2021,
+  "developers": [
+    "Neon Giant"
+  ],
+  "publishers": [
+    "Krafton",
+    "Curve Digital"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "cyberpunk",
+    "dystopian",
+    "previously on - utomik"
+  ],
+  "alternative_names": [
+    {
+      "name": "アセント",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "디 어센트 (The Ascent)",
+      "comment": "Korean title"
+    },
+    {
+      "name": "디 어센트",
+      "comment": "Korean title"
+    },
+    {
+      "name": "TheAscent.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20Ascent"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Ascent_(video_game)"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/233248"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/979690/The_Ascent/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://theascent.wiki.fextralife.com/The+Ascent+Wiki"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://theascent.krafton.com/en"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/AscentTheGame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@AscentTheGame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/theascent"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 24, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-24"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 29, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-29"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 29, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-29"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 24, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 29, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar8rj.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "s26fxOi9HH4",
+      "url": "https://www.youtube.com/watch?v=s26fxOi9HH4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "MA6HMWcldHE",
+      "url": "https://www.youtube.com/watch?v=MA6HMWcldHE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "lljMQevCWOQ",
+      "url": "https://www.youtube.com/watch?v=lljMQevCWOQ"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "OzRREaPGhCU",
+      "url": "https://www.youtube.com/watch?v=OzRREaPGhCU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Fnz2KmWws4Y",
+      "url": "https://www.youtube.com/watch?v=Fnz2KmWws4Y"
+    }
+  ]
+}

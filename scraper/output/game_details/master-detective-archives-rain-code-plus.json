@@ -1,0 +1,124 @@
+{
+  "slug": "master-detective-archives-rain-code-plus",
+  "igdb_id": 300724,
+  "name": "Master Detective Archives: Rain Code Plus",
+  "summary": "A brand new dark fantasy detective action game from the minds behind the Danganronpa series! Yuma, an amnesiac detective-in-training, and Shinigami, the spirit haunting him, tackle unsolved mysteries in a strange city caged by unending rain.",
+  "first_release_year": 2024,
+  "developers": [
+    "Spike Chunsoft",
+    "Too Kyo Games"
+  ],
+  "publishers": [
+    "Spike Chunsoft"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Master Detective Archives: Rain Code +",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Master Detective Archives: RAIN CODE +",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "RainCodePlus.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/master-detective-archives-rain-code-plus/9nqpbdcbnq6p"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009057"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.spike-chunsoft.co.jp/raincode/en/plus/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2903950"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 01, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 01, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-01"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 01, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-01"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-18"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2x7m.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2x7o.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2x7i.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "idLR-CAfPCw",
+      "url": "https://www.youtube.com/watch?v=idLR-CAfPCw"
+    }
+  ]
+}

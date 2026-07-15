@@ -1,0 +1,172 @@
+{
+  "slug": "the-lord-of-the-rings-gollum",
+  "igdb_id": 116584,
+  "name": "The Lord of the Rings: Gollum",
+  "summary": "The Lord of the Rings: Gollum is an action-adventure game developed by Daedalic Entertainment. The game, set in the fictional world of Middle-earth created by J. R. R. Tolkien, takes place in between the events of The Hobbit and The Fellowship of the Ring. The player controls Gollum through a series of locations, such as Cirith Ungol, Barad-dûr, and Mirkwood, as he attempts to find Bilbo Baggins and retake the One Ring whilst battling and avoiding Sauron. The Lord of the Rings: Gollum released on 25 May 2023 for PlayStation 4, PlayStation 5, Windows, Xbox One and Xbox Series X/S. The game was a commercial failure and received negative reviews from critics. It was ranked by Metacritic as the worst game of 2023.",
+  "first_release_year": 2023,
+  "developers": [
+    "Daedalic Entertainment"
+  ],
+  "publishers": [
+    "Nacon",
+    "Daedalic Entertainment"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "The Lord of the Rings"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "tolkien",
+    "lord of the rings"
+  ],
+  "alternative_names": [
+    {
+      "name": "The Lord of the Rings™: Gollum™",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "반지의 제왕™: 골룸™",
+      "comment": "Korean alternative title"
+    },
+    {
+      "name": "Gollum.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/Gollum_Game"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003139"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1265780"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_Gollum"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/GollumGame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.daedalic.com/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/the-lord-of-the-rings-gollum-436d4f"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20Lord%20of%20the%20Rings:%20Gollum"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://lotr.fandom.com/wiki/The_Lord_of_the_Rings:_Gollum"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/the_lord_of_the_rings_gollum"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/GollumGame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 25, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-05-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 25, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-05-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 25, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-05-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "May 25, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-05-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 25, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-05-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6se.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "5UwSq0Vu7V4",
+      "url": "https://www.youtube.com/watch?v=5UwSq0Vu7V4"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "6_kDxUpGdy4",
+      "url": "https://www.youtube.com/watch?v=6_kDxUpGdy4"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "33F-zylUHJ4",
+      "url": "https://www.youtube.com/watch?v=33F-zylUHJ4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "IQVGWoXwC3M",
+      "url": "https://www.youtube.com/watch?v=IQVGWoXwC3M"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "lsq1ZGpL7pw",
+      "url": "https://www.youtube.com/watch?v=lsq1ZGpL7pw"
+    },
+    {
+      "title": "Story Trailer",
+      "youtube_id": "bAoFO31YVF0",
+      "url": "https://www.youtube.com/watch?v=bAoFO31YVF0"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "slug": "monster-truck-championship",
+  "igdb_id": 132220,
+  "name": "Monster Truck Championship",
+  "summary": "The first Monster Truck simulation. A unique and challenging motor racing experience where local or online victory depends solely on your driving skills. 16 customizable trucks, 25 arenas and 3 leagues to win to become champion!",
+  "first_release_year": 2020,
+  "developers": [
+    "Teyon"
+  ],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "destruction",
+    "driving"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000346"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/monster-truck-championship-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1209360/Monster_Truck_Championship"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://monstertruckchampionshipthegame.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Monster%20Truck%20Championship"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 24, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-24"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 15, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 16, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-16"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 11, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-11"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 19, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 15, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 15, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-15"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 15, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 16, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-16"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ararh.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "oJPS6WXntJ8",
+      "url": "https://www.youtube.com/watch?v=oJPS6WXntJ8"
+    }
+  ]
+}

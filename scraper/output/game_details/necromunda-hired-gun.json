@@ -1,0 +1,144 @@
+{
+  "slug": "necromunda-hired-gun",
+  "igdb_id": 144725,
+  "name": "Necromunda: Hired Gun",
+  "summary": "Pick your contracts. Hunt your targets. Collect the bounty.\n\nNavigate an ocean of crime and corruption to balance the bloody ecosystem of Necromunda as a merciless hired gun. The money’s good, the dog’s loyal, and the gun’s reliable – but can you survive the hunt? Necromunda: Hired Gun is an indie fast-paced, violent, and thrilling FPS set in the darkest reaches of Warhammer 40,000’s most infamous hive city.\n\nFor the right price, eliminate the most notorious gangers and mutants. Your armory is a sprawling arsenal. Your body is enhanced with a dozen customizable augments to run on walls and leap over chasms. Your cyber-mastiff will sniff out and kill enemies for you, while your grappling hook allows quick, agile traversal of the massive environments.\n\n- An indie fast-paced FPS in the Warhammer 40,000 universe\n- Upgrade and fight alongside your loyal cyber-mastiff\n- Endless weapon and augment customization\n- Upgrade, advance, and level up as you collect bounties",
+  "first_release_year": 2021,
+  "developers": [
+    "Streum On Studio"
+  ],
+  "publishers": [
+    "Focus Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Turn-based strategy (TBS)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Warhammer 40,000",
+    "Necromunda"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "previously on - prime gaming"
+  ],
+  "alternative_names": [
+    {
+      "name": "ネクロムンダ：ハイヤードガン",
+      "comment": "Japanese title - original"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/focusentmt"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/focusinteractive"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/PlayHiredGun/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/PlayHiredGun"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001848"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.focus-home.com/en-us/games/necromunda-hired-gun"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/necromunda-hired-gun"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1222370"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/necromunda_hired_gun"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/focushomeinteractive"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/PlayHiredGun/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-01"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-01"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-01"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-01"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7i4.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ZxJTh3tt430",
+      "url": "https://www.youtube.com/watch?v=ZxJTh3tt430"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "DoCqeEh8_Ik",
+      "url": "https://www.youtube.com/watch?v=DoCqeEh8_Ik"
+    }
+  ]
+}

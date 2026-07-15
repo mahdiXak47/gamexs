@@ -1,0 +1,241 @@
+{
+  "slug": "shinobi-art-of-vengeance",
+  "igdb_id": 279630,
+  "name": "Shinobi: Art of Vengeance",
+  "summary": "Slay the enemies in the silence of the moment. Run through the world of Shinobi full of monsters and ninja actions. Grab Oborozuki, the legendary sword, and slay evil once more. Your clan and the world are counting on you.",
+  "first_release_year": 2025,
+  "developers": [
+    "Lizardcube"
+  ],
+  "publishers": [
+    "Sega"
+  ],
+  "genres": [
+    "Platform",
+    "Hack and slash/Beat 'em up"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Shinobi"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Shinobi"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "ninja",
+    "2d platformer"
+  ],
+  "alternative_names": [
+    {
+      "name": "Shinobi AoV",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "超级忍 反攻的斩击",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Shinobi",
+      "comment": "Working title"
+    },
+    {
+      "name": "SHINOBI: Art of Vengeance",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "SHINOBI 反攻的斬擊",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "SHINOBI_AOV.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2361770"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://shinobi.sega.com/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008251"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shinobi:_Art_of_Vengeance"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/shinobi-art-of-vengeance-switch/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://shinobi.fandom.com/wiki/Shinobi:_Art_of_Vengeance"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/shinobi/9N26QS8MPTT9/0017"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/untitled-shinobi-game"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 29, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-29"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 29, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-29"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 29, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 29, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 26, 2025",
+      "status": "status_34",
+      "date_iso": "2025-08-26"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 29, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-29"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 26, 2025",
+      "status": "status_34",
+      "date_iso": "2025-08-26"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 26, 2025",
+      "status": "status_34",
+      "date_iso": "2025-08-26"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 29, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-29"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 26, 2025",
+      "status": "status_34",
+      "date_iso": "2025-08-26"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 26, 2025",
+      "status": "status_34",
+      "date_iso": "2025-08-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 26, 2025",
+      "status": "status_34",
+      "date_iso": "2025-08-26"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Sep 24, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-09-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3b3k.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar455v.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar455q.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar455r.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar455s.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar455t.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar455u.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3y33.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "0VHYLJR9pNg",
+      "url": "https://www.youtube.com/watch?v=0VHYLJR9pNg"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "duSFn7ptRIw",
+      "url": "https://www.youtube.com/watch?v=duSFn7ptRIw"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "Ge__8Dan6bU",
+      "url": "https://www.youtube.com/watch?v=Ge__8Dan6bU"
+    },
+    {
+      "title": "Story Trailer",
+      "youtube_id": "Wb64Ff5XKKI",
+      "url": "https://www.youtube.com/watch?v=Wb64Ff5XKKI"
+    },
+    {
+      "title": "Combat Trailer",
+      "youtube_id": "ahKG2_5QRLw",
+      "url": "https://www.youtube.com/watch?v=ahKG2_5QRLw"
+    },
+    {
+      "title": "Demo Trailer",
+      "youtube_id": "D164gIK7JkM",
+      "url": "https://www.youtube.com/watch?v=D164gIK7JkM"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "QGLvm8hASbw",
+      "url": "https://www.youtube.com/watch?v=QGLvm8hASbw"
+    }
+  ]
+}

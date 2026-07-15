@@ -1,0 +1,176 @@
+{
+  "slug": "dragon-age-the-veilguard-نسخه-استاندارد",
+  "igdb_id": 30208,
+  "name": "Dragon Age: The Veilguard",
+  "summary": "Select from different races and combat classes, customize your appearance, choose your character’s backstory and begin your journey as Rook, Dragon Age’s newest hero.\n\nSelect from three classes (Warrior, Mage, and Rogue), each with two distinct weapon types and unique abilities you can select between mid-combat. Experience new strategic depth as you combine fast-paced attacks, parries, and dodges with the companion ability wheel to exploit enemy weaknesses and seize victory with devastating combat combos.\n\nThe Veilguard contains several different factions, any of these could prove to be important ally during the story. Your faction choice will influence Rook's backstory, conversation options and more.",
+  "first_release_year": 2024,
+  "developers": [
+    "BioWare"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Strategy",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Dragon Age"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Dragon Age"
+  ],
+  "game_engines": [
+    "Frostbite"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Dragon Age 4",
+      "comment": "Working title"
+    },
+    {
+      "name": "Dragon Age: Dreadwolf",
+      "comment": "Working title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@dragonage"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/dragonage"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000586"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/dragon-age-the-veilguard/BSDX4FNNC0DK"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/dragonage"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/dragonage"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/en-us/games/dragon-age/dragon-age-the-veilguard"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/dragon-age-the-veilguard"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dragon_Age:_The_Veilguard"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1845910"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Dragon%20Age:%20Dreadwolf"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 31, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-31"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 31, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-31"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 31, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar66m9.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar66ma.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3396.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3398.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3395.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3397.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar339a.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3399.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4mdl.jpg"
+  ],
+  "videos": [
+    {
+      "title": "BTS Teaser - Gamescom 2020",
+      "youtube_id": "acSr9Ki7P_w",
+      "url": "https://www.youtube.com/watch?v=acSr9Ki7P_w"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "Nw3lrXlti-8",
+      "url": "https://www.youtube.com/watch?v=Nw3lrXlti-8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "W7x685DxMcw",
+      "url": "https://www.youtube.com/watch?v=W7x685DxMcw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "tCokMTQ6qKk",
+      "url": "https://www.youtube.com/watch?v=tCokMTQ6qKk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "drVOCrvXHhE",
+      "url": "https://www.youtube.com/watch?v=drVOCrvXHhE"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "CTNwHShylIg",
+      "url": "https://www.youtube.com/watch?v=CTNwHShylIg"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "g8DkDQhPx2A",
+      "url": "https://www.youtube.com/watch?v=g8DkDQhPx2A"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "AUOLOMDH-7M",
+      "url": "https://www.youtube.com/watch?v=AUOLOMDH-7M"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "NdtmtuzICOI",
+      "url": "https://www.youtube.com/watch?v=NdtmtuzICOI"
+    }
+  ]
+}

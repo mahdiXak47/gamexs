@@ -1,0 +1,266 @@
+{
+  "slug": "kingdom-come-deliverance",
+  "igdb_id": 4843,
+  "name": "Kingdom Come: Deliverance",
+  "summary": "Story-driven open-world RPG that immerses you in an epic adventure in the Holy Roman Empire. Avenge your parents' death as you battle invading forces, go on game-changing quests, and make influential choices. Explore castles, forests, villages and other realistic settings in medieval Bohemia!",
+  "first_release_year": 2018,
+  "developers": [
+    "Warhorse Studios"
+  ],
+  "publishers": [
+    "Warhorse Studios",
+    "Deep Silver"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Stealth",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Kingdom Come: Deliverance"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "CryEngine"
+  ],
+  "keywords": [
+    "knights",
+    "medieval",
+    "steam trading cards",
+    "melee combat",
+    "non-linear",
+    "crowdfunding - kickstarter",
+    "day/night cycle",
+    "inventory management",
+    "alchemy",
+    "crowdfunding",
+    "steam achievements",
+    "steam cloud",
+    "human",
+    "xbox one x enhanced",
+    "using dialogue to avoid combat",
+    "real-time combat",
+    "crowd funded",
+    "rpg elements",
+    "mercenary",
+    "realism",
+    "pickpocketing",
+    "lock picking",
+    "character models based on actual people",
+    "steam families"
+  ],
+  "alternative_names": [
+    {
+      "name": "KCD",
+      "comment": "Acronym"
+    },
+    {
+      "name": "天国：拯救",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "KingdomCome.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/kingdom-come-deliverance/BNBWFH89FCF1"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.kingdomcomerpg.com"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/mNMVwmkVDm"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://kingdomcomedeliverance.wiki.gg/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kingdom_Come:_Deliverance"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Kingdom%20Come:%20Deliverance"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/227410"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/WarhorseStudios"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/379430"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/kingdom-come-deliverance"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCIqUdfkbYmCGM-YRmk28zCg"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/kingdom_come_deliverance"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/kingdomcome"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/warhorsestudios"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/kingdomcomerpg"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 15, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 13, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-02-13"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 13, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-02-13"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 13, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-02-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 13, 2026",
+      "status": "status_36",
+      "date_iso": "2026-02-13"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 13, 2026",
+      "status": "status_36",
+      "date_iso": "2026-02-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5m6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4wsk.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4wsj.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "IWG3oA8Hjm8",
+      "url": "https://www.youtube.com/watch?v=IWG3oA8Hjm8"
+    },
+    {
+      "title": "Gameplay video",
+      "youtube_id": "5Cn70tmCoXo",
+      "url": "https://www.youtube.com/watch?v=5Cn70tmCoXo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "1cn4Hg6q9XU",
+      "url": "https://www.youtube.com/watch?v=1cn4Hg6q9XU"
+    },
+    {
+      "title": "Weapons vs Armor Developer Diary",
+      "youtube_id": "Zx0Rj7kUvnE",
+      "url": "https://www.youtube.com/watch?v=Zx0Rj7kUvnE"
+    },
+    {
+      "title": "Alpha Teaser",
+      "youtube_id": "vuc6iKBcVjY",
+      "url": "https://www.youtube.com/watch?v=vuc6iKBcVjY"
+    },
+    {
+      "title": "Gamescom 2017 Trailer",
+      "youtube_id": "snHPepmqvaU",
+      "url": "https://www.youtube.com/watch?v=snHPepmqvaU"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "JdPyK1fI6Dw",
+      "url": "https://www.youtube.com/watch?v=JdPyK1fI6Dw"
+    },
+    {
+      "title": "Global Announcement Teaser",
+      "youtube_id": "4z8bnUqLxFk",
+      "url": "https://www.youtube.com/watch?v=4z8bnUqLxFk"
+    },
+    {
+      "title": "Developer Diary: Combat",
+      "youtube_id": "i5MVGAv0INc",
+      "url": "https://www.youtube.com/watch?v=i5MVGAv0INc"
+    },
+    {
+      "title": "E3 2017: Rex, Familia et Ultio Trailer",
+      "youtube_id": "5bMsSFmenY8",
+      "url": "https://www.youtube.com/watch?v=5bMsSFmenY8"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ozX1-ojzq1M",
+      "url": "https://www.youtube.com/watch?v=ozX1-ojzq1M"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "IYvQqubalP8",
+      "url": "https://www.youtube.com/watch?v=IYvQqubalP8"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "NlK3MURumeE",
+      "url": "https://www.youtube.com/watch?v=NlK3MURumeE"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "tpnuBdG9txM",
+      "url": "https://www.youtube.com/watch?v=tpnuBdG9txM"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "H_gLXjKFYQg",
+      "url": "https://www.youtube.com/watch?v=H_gLXjKFYQg"
+    }
+  ]
+}

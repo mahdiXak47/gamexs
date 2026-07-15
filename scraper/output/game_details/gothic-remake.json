@@ -1,0 +1,207 @@
+{
+  "slug": "gothic-remake",
+  "igdb_id": 2262,
+  "name": "Gothic II",
+  "summary": "Gothic II is a role-playing video game and the sequel to Gothic, by the German developer Piranha Bytes. It was first released on November 29, 2002 in Germany, with North America following almost one year later on October 28, 2003. The game was published by JoWooD Entertainment and Atari.",
+  "first_release_year": 2002,
+  "developers": [
+    "Piranha Bytes"
+  ],
+  "publishers": [
+    "JoWooD Entertainment AG",
+    "Nordic Games Publishing",
+    "Atari, Inc."
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Strategy",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Horror",
+    "Survival",
+    "Stealth",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Gothic"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "ZenGin"
+  ],
+  "keywords": [
+    "pirates",
+    "dinosaurs",
+    "orcs",
+    "bloody",
+    "wizards",
+    "murder",
+    "drugs",
+    "magic",
+    "guild",
+    "parkour",
+    "summoning support",
+    "crafting",
+    "religion",
+    "farming",
+    "witches",
+    "undead",
+    "dialogue trees",
+    "wolf",
+    "slavery",
+    "mining",
+    "swimming",
+    "day/night cycle",
+    "sword & sorcery",
+    "alchemy",
+    "trolls",
+    "trainer",
+    "sheep",
+    "attributes",
+    "leveling up",
+    "bink video",
+    "demon invasion",
+    "polygonal 3d",
+    "bow and arrow",
+    "loot gathering",
+    "skeletons",
+    "rat",
+    "original soundtrack release",
+    "corpse",
+    "treasure chest",
+    "moral decisions",
+    "duel",
+    "titular antagonist",
+    "potion",
+    "real-time combat",
+    "spellcaster",
+    "multiple gameplay perspectives",
+    "rpg elements",
+    "falling sequence",
+    "theft",
+    "interactive environments",
+    "changing sides",
+    "been here before",
+    "gamersgate",
+    "sleeping",
+    "shape-shifting",
+    "reptilian humanoid",
+    "summoners",
+    "poverty",
+    "weapon workshops",
+    "kidnapping",
+    "paladins",
+    "blacksmith",
+    "zero to hero",
+    "pickpocketing",
+    "lock picking",
+    "sleeping enemies",
+    "exorcism",
+    "nameless protagonist",
+    "acrobatics",
+    "archeology",
+    "trilogy",
+    "point of no return",
+    "sea monster",
+    "sex work",
+    "bartender",
+    "insect infestation",
+    "god mode",
+    "boar",
+    "class change",
+    "siege warfare",
+    "removed from gog.com",
+    "pyromancer",
+    "aberrant a.i. behaviour",
+    "infinite pockets",
+    "nocturnality"
+  ],
+  "alternative_names": [
+    {
+      "name": "Готика II",
+      "comment": "Russian title"
+    },
+    {
+      "name": "救世英豪 II",
+      "comment": "Chinese title"
+    },
+    {
+      "name": "Gothic 2",
+      "comment": "Other"
+    },
+    {
+      "name": "Gothic 2",
+      "comment": "Other Alias"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gothic_II"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.gothic.de/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://arcania.wikia.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Gothic%20II"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/worldofgothic"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 29, 2002",
+      "status": "Released",
+      "date_iso": "2002-11-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 28, 2003",
+      "status": "Released",
+      "date_iso": "2003-10-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 10, 2009",
+      "status": "Released",
+      "date_iso": "2009-02-10"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 08, 2003",
+      "status": "Released",
+      "date_iso": "2003-08-08"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "v0R0k9djvc0",
+      "url": "https://www.youtube.com/watch?v=v0R0k9djvc0"
+    }
+  ]
+}

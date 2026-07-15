@@ -1,0 +1,209 @@
+{
+  "slug": "watch-dogs-legion",
+  "igdb_id": 100413,
+  "name": "Watch Dogs: Legion",
+  "summary": "In Watch Dogs: Legion, near future London is facing its downfall... Unless you do something about it. Build a resistance, fight back, and give the city back to the people. It's time to rise up.",
+  "first_release_year": 2020,
+  "developers": [
+    "Ubisoft Toronto"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Stealth",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Watch Dogs"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Watch_Dogs"
+  ],
+  "game_engines": [
+    "Disrupt"
+  ],
+  "keywords": [
+    "cyberpunk",
+    "permadeath",
+    "hacking"
+  ],
+  "alternative_names": [
+    {
+      "name": "Watch Dogs 3",
+      "comment": "Working title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://watchdogs.fandom.com/wiki/Watch_Dogs:_Legion"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/232581"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/watch-dogs-legion/C1WRX8ZD77M9"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://watchdogs.ubisoft.com/game/en-us/legion"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/watchdogsgame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC0KU8F9jJqSLS11LRXvFWmg"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Watch_Dogs:_Legion"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2239550"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/watchdogsgame"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/product/watch-dogs-legion/home"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/watch_dogs"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Watch%20Dogs%20Legion"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/watchdogs"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/watchdogsgame_us"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 29, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-29"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 29, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-29"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 29, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-29"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Nov 19, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar66b.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5sh.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5si.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar66d.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5se.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar67en.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5sg.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5sf.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar66c.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "Zi8k4KGyW6o",
+      "url": "https://www.youtube.com/watch?v=Zi8k4KGyW6o"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3ZhmChlqz1w",
+      "url": "https://www.youtube.com/watch?v=3ZhmChlqz1w"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "mqh4BX8-VR4",
+      "url": "https://www.youtube.com/watch?v=mqh4BX8-VR4"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "E_V-YQW3Gos",
+      "url": "https://www.youtube.com/watch?v=E_V-YQW3Gos"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "3orYqGDSDUk",
+      "url": "https://www.youtube.com/watch?v=3orYqGDSDUk"
+    },
+    {
+      "title": "Story Trailer",
+      "youtube_id": "8mOVusuXl7E",
+      "url": "https://www.youtube.com/watch?v=8mOVusuXl7E"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "qxkM9ddLkl8",
+      "url": "https://www.youtube.com/watch?v=qxkM9ddLkl8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "gT9J2AkWvO8",
+      "url": "https://www.youtube.com/watch?v=gT9J2AkWvO8"
+    }
+  ]
+}

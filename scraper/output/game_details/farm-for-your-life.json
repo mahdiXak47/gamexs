@@ -1,0 +1,126 @@
+{
+  "slug": "farm-for-your-life",
+  "igdb_id": 30248,
+  "name": "Farm for your Life",
+  "summary": "Your community was taken down by a heavy storm which caused an apocalypse and unleashed the living dead. Together with the other survivors, it is your task to rebuild and to allow that sustainable life can still be assured. Cultivate your farm and manage your restaurant to provide food and deal with all the zombies.\n\nIt’s a strange Time Management Game. The lightheartedness of a casual game collides with elements, which are usually only seen in horror genres. Discover the contrast, which takes both genres for a wild ride.",
+  "first_release_year": 2014,
+  "developers": [],
+  "publishers": [],
+  "genres": [
+    "Puzzle",
+    "Simulator",
+    "Strategy",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "previously on - gametap"
+  ],
+  "alternative_names": [
+    {
+      "name": "Farm for your Life: 人生を耕そう",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "FarmForYourLife.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Farm%20for%20your%20Life"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002273"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/farm-for-your-life-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/266390"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.farmforyourlife.com"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Jun 16, 2014",
+      "status": "Cancelled",
+      "date_iso": "2014-06-16"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jun 16, 2014",
+      "status": "Cancelled",
+      "date_iso": "2014-06-16"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 24, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-06-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 16, 2014",
+      "status": "Cancelled",
+      "date_iso": "2014-06-16"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 24, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-06-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 24, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-06-24"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 24, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-06-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 24, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-06-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arcpn.jpg"
+  ],
+  "videos": []
+}

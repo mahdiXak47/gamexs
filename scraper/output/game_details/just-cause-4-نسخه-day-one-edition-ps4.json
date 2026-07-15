@@ -1,0 +1,63 @@
+{
+  "slug": "just-cause-4-نسخه-day-one-edition-ps4",
+  "igdb_id": 201031,
+  "name": "Just Cause 4: Day One Edition",
+  "summary": "Rogue agent Rico Rodriguez journeys to Solis, a huge South American world home of conflict, oppression and extreme weather conditions. Strap into your wingsuit, equip your fully customizable grappling hook, and get ready to bring the thunder!",
+  "first_release_year": 2018,
+  "developers": [
+    "Avalanche Studios"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://justcause.square-enix-games.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 04, 2018",
+      "status": "Released",
+      "date_iso": "2018-12-04"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 04, 2018",
+      "status": "Released",
+      "date_iso": "2018-12-04"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 04, 2018",
+      "status": "Released",
+      "date_iso": "2018-12-04"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

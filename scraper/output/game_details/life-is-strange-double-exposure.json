@@ -1,0 +1,148 @@
+{
+  "slug": "life-is-strange-double-exposure",
+  "igdb_id": 305158,
+  "name": "Life is Strange: Double Exposure",
+  "summary": "Max Caulfield, photographer-in-residence at the prestigious Caledon University, discovers her closest new friend Safi dead in the snow. Murdered. To save her, Max tries to Rewind time – a power she’s not used in years… Instead, Max opens the way to a parallel timeline where Safi is still alive and still in danger! Max realizes the killer will soon strike again – in both versions of reality. Only Max can Shift between the two parallel timelines to solve and prevent the same murder.",
+  "first_release_year": 2024,
+  "developers": [
+    "Deck Nine"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Life is Strange"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Life is Strange"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "LifeIsStrangeDoubleExposure.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP0082-PPSA16105_00-0460099951583879"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/lifeisstrange"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/lifeisstrangegame/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://life-is-strange.fandom.com/wiki/Life_is_Strange:_Double_Exposure"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Life_Is_Strange:_Double_Exposure"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/lifeisstrange"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/life-is-strange-double-exposure-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1874000"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://lifeisstrange.square-enix-games.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/LifeIsStrangeGame/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/life-is-strange-double-exposure"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/LifeIsStrange"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@lifeisstrange"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/life-is-strange-double-exposure/9NPZHQH1TT23"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 29, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-29"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 29, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-29"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 19, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 29, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar60gn.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar60go.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2zk7.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4p6w.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "TOYz4NCFIXg",
+      "url": "https://www.youtube.com/watch?v=TOYz4NCFIXg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "7ViIWFDHvkI",
+      "url": "https://www.youtube.com/watch?v=7ViIWFDHvkI"
+    }
+  ]
+}

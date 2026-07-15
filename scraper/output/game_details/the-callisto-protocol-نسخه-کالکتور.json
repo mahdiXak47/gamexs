@@ -1,0 +1,170 @@
+{
+  "slug": "the-callisto-protocol-نسخه-کالکتور",
+  "igdb_id": 141538,
+  "name": "The Callisto Protocol",
+  "summary": "In this narrative-driven, third-person survival horror game set 300 years in the future, the player will take on the role of Jacob Lee – a victim of fate thrown into Black Iron Prison, a maximum-security penitentiary located on Jupiter's moon, Callisto. When inmates begin to transform into monstrous creatures, the prison is thrown into chaos.",
+  "first_release_year": 2022,
+  "developers": [
+    "Striking Distance Studios"
+  ],
+  "publishers": [
+    "Krafton",
+    "Skybound Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "The Callisto Protocol"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "story driven",
+    "survival horror",
+    "steam achievements",
+    "steam cloud",
+    "steam families"
+  ],
+  "alternative_names": [
+    {
+      "name": "木卫四协议",
+      "comment": "Chinese title - simplified"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCj0-w3qF-xYYpnPc6w2m8UA"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002652"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/the-callisto-protocol-for-xbox-series-x|s/9N1L0KL84B56"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Callisto_Protocol"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/the-callisto-protocol"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1544020"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/tetqmCgwJz"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20Callisto%20Protocol"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.callistothegame.com/en"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/Callistothegame"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Callistothegame"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/user/CallistoTheGame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Callistothegame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 02, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-12-02"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 02, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-12-02"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 02, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-12-02"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 02, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-12-02"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 02, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-12-02"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1nxg.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1nxh.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1nxf.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3763.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "WnVhgyLbC8A",
+      "url": "https://www.youtube.com/watch?v=WnVhgyLbC8A"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ysFqUiXBAd0",
+      "url": "https://www.youtube.com/watch?v=ysFqUiXBAd0"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "tXt7qWaN6KI",
+      "url": "https://www.youtube.com/watch?v=tXt7qWaN6KI"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "gghRJv_tdb0",
+      "url": "https://www.youtube.com/watch?v=gghRJv_tdb0"
+    }
+  ]
+}

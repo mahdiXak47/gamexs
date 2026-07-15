@@ -1,0 +1,115 @@
+{
+  "slug": "bus-simulator-27",
+  "igdb_id": 355086,
+  "name": "Bus Simulator 27",
+  "summary": "Get ready for Bus Simulator 27, the most advanced entry in the history of the franchise. Look forward to our most comprehensive bus fleet yet — with new officially licensed brands and models, as well as iconic buses from the series.",
+  "first_release_year": null,
+  "developers": [
+    "Simteract"
+  ],
+  "publishers": [
+    "astragon Entertainment"
+  ],
+  "genres": [
+    "Simulator",
+    "Adventure"
+  ],
+  "themes": [
+    "Business",
+    "Sandbox"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Bus Simulator"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "realistic"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bus_Simulator_27"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/bus-simulator-27-b34229"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2397320"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008396/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/bus-simulator-27/9PNHKN79L7NF"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.bussimulator.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/BusSimulatorGame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/BusSimGame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/BusSimGame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/astragon"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "TBD",
+      "status": "Cancelled"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "TBD",
+      "status": "Cancelled"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "TBD",
+      "status": "Cancelled"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4uk6.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "MR1913Q0uSk",
+      "url": "https://www.youtube.com/watch?v=MR1913Q0uSk"
+    }
+  ]
+}

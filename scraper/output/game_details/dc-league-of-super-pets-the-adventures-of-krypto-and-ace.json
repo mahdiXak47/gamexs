@@ -1,0 +1,146 @@
+{
+  "slug": "dc-league-of-super-pets-the-adventures-of-krypto-and-ace",
+  "igdb_id": 183648,
+  "name": "DC League of Super-Pets: The Adventures of Krypto and Ace",
+  "summary": "DC League of Super-Pets: The Adventures of Krypto and Ace is a 2022 video game tie-in to the 2022 movie DC League of Super-Pets.\n\nThe player controls Krypto and Ace as they take to the skies to protect the animal population of Metropolis from a new and looming threat.",
+  "first_release_year": 2022,
+  "developers": [
+    "Outright Games"
+  ],
+  "publishers": [
+    "WB Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "DC Comics"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "based on - movie",
+    "tie-in",
+    "superpowers"
+  ],
+  "alternative_names": [
+    {
+      "name": "DC League of Super-Pets: Die Abenteuer von Krypto und Ace",
+      "comment": "German title"
+    },
+    {
+      "name": "Dc Krypto Super-chien : Les Aventures De Krypto Et Ace",
+      "comment": "French title"
+    },
+    {
+      "name": "DC League of Super Pets.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1697760"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://dc.fandom.com/wiki/DC_League_of_Super-Pets:_The_Adventures_of_Krypto_and_Ace"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003532"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/dc-league-of-super-pets-the-adventures-of-krypto-and-ace-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://outrightgames.com/games/dc-league-of-superpets-the-adventures-of-krypto-and-ace/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/DC%20League%20of%20Super-Pets:%20The%20Adventures%20of%20Krypto%20and%20Ace"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Outright_Games"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-15"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-15"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Jul 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1ls8.jpg"
+  ],
+  "videos": []
+}

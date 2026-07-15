@@ -1,0 +1,261 @@
+{
+  "slug": "suicide-squad-kill-the-justice-league-نسخه-استاندارد",
+  "igdb_id": 136627,
+  "name": "Suicide Squad: Kill the Justice League",
+  "summary": "Suicide Squad: Kill the Justice League is an action-adventure shooter developed by Rocksteady Studios. Set in Metropolis, players control Harley Quinn, Deadshot, Captain Boomerang, and King Shark as they battle a brainwashed Justice League under Brainiac's control. The game features third-person combat, open-world exploration, and live-service elements.",
+  "first_release_year": 2024,
+  "developers": [
+    "Rocksteady Studios"
+  ],
+  "publishers": [
+    "Warner Bros. Interactive Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Batman: Arkham"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Justice League",
+    "Suicide Squad",
+    "DC Comics",
+    "Batman",
+    "Superman",
+    "Green Lantern",
+    "Wonder Woman",
+    "The Flash"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "multiple protagonists",
+    "superhero",
+    "villain protagonist",
+    "based on - comics",
+    "superpowers"
+  ],
+  "alternative_names": [
+    {
+      "name": "Suicide Squad",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "自杀小队：消灭正义联盟",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Отряд самоубийц: Конец Лиги справедливости",
+      "comment": "Russian title"
+    },
+    {
+      "name": "Загін самогубців: Вбити Лігу Справедливості",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "自殺突擊隊：戰勝正義聯盟",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "수어사이드 스쿼드: 킬 더 저스티스 리그",
+      "comment": "Korean title - translated"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001609"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SuicideSquadRocksteady"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-au/games/store/suicide-squad-kill-the-justice-league/c0hsbw2l0378"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://dc.fandom.com/wiki/Suicide_Squad:_Kill_the_Justice_League"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/SuicideSquadGaming/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/suicidesquadrs"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/315210"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/suicidesquadRS"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Suicide%20Squad%3A%20Kill%20the%20Justice%20League"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/SuicideSquadRS"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/suicidesquadrs"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.suicidesquadgame.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Suicide_Squad:_Kill_the_Justice_League"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/suicide-squad-kill-the-justice-league"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 02, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-02"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 02, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-02"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 30, 2024",
+      "status": "status_34",
+      "date_iso": "2024-01-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 30, 2024",
+      "status": "status_34",
+      "date_iso": "2024-01-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 02, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-02"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 30, 2024",
+      "status": "status_34",
+      "date_iso": "2024-01-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar16nr.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "FlwgE8YrDqg",
+      "url": "https://www.youtube.com/watch?v=FlwgE8YrDqg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "zBczhEOp-m0",
+      "url": "https://www.youtube.com/watch?v=zBczhEOp-m0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ti09XofZflc",
+      "url": "https://www.youtube.com/watch?v=ti09XofZflc"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "72RyZMzcIB0",
+      "url": "https://www.youtube.com/watch?v=72RyZMzcIB0"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "eo_BBiFfZy4",
+      "url": "https://www.youtube.com/watch?v=eo_BBiFfZy4"
+    },
+    {
+      "title": "Pre-Order Bonuses Trailer",
+      "youtube_id": "BeTHRiOTkzQ",
+      "url": "https://www.youtube.com/watch?v=BeTHRiOTkzQ"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "XjcKrDmID_o",
+      "url": "https://www.youtube.com/watch?v=XjcKrDmID_o"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "G7BhTuAmK0k",
+      "url": "https://www.youtube.com/watch?v=G7BhTuAmK0k"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Rv6khKU377g",
+      "url": "https://www.youtube.com/watch?v=Rv6khKU377g"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "y8OVezXZSIM",
+      "url": "https://www.youtube.com/watch?v=y8OVezXZSIM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "nfIMl9FA84E",
+      "url": "https://www.youtube.com/watch?v=nfIMl9FA84E"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "2EVFYstVuVk",
+      "url": "https://www.youtube.com/watch?v=2EVFYstVuVk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ffYjc4J_IX8",
+      "url": "https://www.youtube.com/watch?v=ffYjc4J_IX8"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "vVUGQ-Ndp6A",
+      "url": "https://www.youtube.com/watch?v=vVUGQ-Ndp6A"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "Ai_-naZXahA",
+      "url": "https://www.youtube.com/watch?v=Ai_-naZXahA"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "slug": "spider-man-2",
+  "igdb_id": 6285,
+  "name": "Spider-Man 2",
+  "summary": "In the console version of \"Spider-Man 2\", Manhattan becomes a gamer's playground as you take the role of Spider-Man in a battle against the nefarious Doc Ock. Based on the plot of the movie Spider-Man 2 and the heroes and villains created by Marvel, the game allows players to encounter unique and dangerous villains as they patrol the streets and rooftops of the biggest city created in any Super Hero game to date.\n\nAs Spider-Man, players must master new combo moves as they protect the denizens of New York City from the nefarious Doc Ock and other classic Marvel villains by swinging, jumping and wall-crawling through 19 new levels that extend beyond the film. With an unprecedented depth of gameplay, players experience original storylines featuring Vulture, Shocker, Rhino, and Mysterio all while battling through graphically rich 3D environments.",
+  "first_release_year": 2004,
+  "developers": [
+    "Treyarch",
+    "Activision"
+  ],
+  "publishers": [
+    "Taito",
+    "Activision"
+  ],
+  "genres": [
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Spider-Man",
+    "Marvel"
+  ],
+  "game_engines": [
+    "Treyarch NGL"
+  ],
+  "keywords": [
+    "based on - movie",
+    "hostages",
+    "climbing",
+    "superhero",
+    "comic book",
+    "spider-man",
+    "licensed game",
+    "based on - comics",
+    "octopus",
+    "tie-in",
+    "superpowers",
+    "rhino"
+  ],
+  "alternative_names": [
+    {
+      "name": "The Amazing Spider-Man 2",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Spider-Man 2: The Game",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "蜘蛛侠2",
+      "comment": "Chinese title - simplified"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://spiderman-films.fandom.com/wiki/Spider-Man_2_(video_game)"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Spider-Man_2_(2004_video_game)"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Spider-Man%202"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo GameCube",
+      "region": null,
+      "date": "Jun 28, 2004",
+      "status": "Cancelled",
+      "date_iso": "2004-06-28"
+    },
+    {
+      "platform": "PlayStation 2",
+      "region": null,
+      "date": "Jun 28, 2004",
+      "status": "Cancelled",
+      "date_iso": "2004-06-28"
+    },
+    {
+      "platform": "Xbox",
+      "region": null,
+      "date": "Jun 28, 2004",
+      "status": "Cancelled",
+      "date_iso": "2004-06-28"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "FX8oB68O1ms",
+      "url": "https://www.youtube.com/watch?v=FX8oB68O1ms"
+    },
+    {
+      "title": "Gameplay video",
+      "youtube_id": "f5HDRuAeL7s",
+      "url": "https://www.youtube.com/watch?v=f5HDRuAeL7s"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "86G-9KC8AUA",
+      "url": "https://www.youtube.com/watch?v=86G-9KC8AUA"
+    }
+  ]
+}

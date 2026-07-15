@@ -1,0 +1,91 @@
+{
+  "slug": "metro-saga-bundle-ps4-و",
+  "igdb_id": 164753,
+  "name": "Metro Saga Bundle",
+  "summary": "The Metro Saga Bundle includes all three games in the critically acclaimed Metro series - Metro 2033 Redux, Metro: Last Light Redux and Metro Exodus Gold Edition (featuring all bonus DLC)",
+  "first_release_year": 2020,
+  "developers": [
+    "4A Games",
+    "4A Games"
+  ],
+  "publishers": [
+    "Deep Silver",
+    "Deep Silver"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Metro"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/metro-saga-bundle/9N9Z4S1RD397"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP2047-CUSA11408_00-METROSAGABUNDLE0"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/bundle/13326/Metro_Saga_Bundle/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 14, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-12-14"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 14, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-12-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 14, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-12-14"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 01, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-03-01"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 01, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-03-01"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar10s9.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar10sa.jpg"
+  ],
+  "videos": []
+}

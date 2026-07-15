@@ -1,0 +1,164 @@
+{
+  "slug": "motogp",
+  "igdb_id": 143772,
+  "name": "MotoGP 21",
+  "summary": "Take your place on the starting grid and get ready for the most realistic and immersive MotoGP videogame ever. Live the most authentic 2-wheels racing experience with the new MotoGP21!",
+  "first_release_year": 2021,
+  "developers": [
+    "Milestone"
+  ],
+  "publishers": [
+    "Milestone"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "MotoGP"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "MotoGP21",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "GP21",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "MotoGP",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://motogpvideogame.com/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/motogp21-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001934"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/motogpvideogame/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCy9_4oCluE1Cih3QjQWLjdg"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/motogp-21"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/motoGPVideogame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/zfQcEYQXta?fbclid=IwAR2wTy37wxMsUJKve4hcmKqVHndmZemDK2BlUTyPrSiVUkwaFn5T034G1vw"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/milestoneitaly"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1447000/MotoGP21"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/MotoGP%2021"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 22, 2021",
+      "status": "Released",
+      "date_iso": "2021-04-22"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Feb 01, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-01"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 21, 2021",
+      "status": "Released",
+      "date_iso": "2021-04-21"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 22, 2021",
+      "status": "Released",
+      "date_iso": "2021-04-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 22, 2021",
+      "status": "Released",
+      "date_iso": "2021-04-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 22, 2021",
+      "status": "Released",
+      "date_iso": "2021-04-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 22, 2021",
+      "status": "Released",
+      "date_iso": "2021-04-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 22, 2021",
+      "status": "Released",
+      "date_iso": "2021-04-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arash.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "H4N9zmT3uJk",
+      "url": "https://www.youtube.com/watch?v=H4N9zmT3uJk"
+    }
+  ]
+}

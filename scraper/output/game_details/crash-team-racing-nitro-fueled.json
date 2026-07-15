@@ -1,0 +1,151 @@
+{
+  "slug": "crash-team-racing-nitro-fueled",
+  "igdb_id": 113113,
+  "name": "Crash Team Racing Nitro-Fueled",
+  "summary": "Crash Team Racing Nitro-Fueled is a kart racing game developed by Beenox and published by Activision. It is a remaster of Crash Team Racing, which was originally developed by Naughty Dog for the PlayStation.",
+  "first_release_year": 2019,
+  "developers": [
+    "Beenox"
+  ],
+  "publishers": [
+    "Activision Blizzard",
+    "Activision"
+  ],
+  "genres": [
+    "Racing",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Comedy",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Crash Racing"
+  ],
+  "spin_off_of": "Crash Team Racing",
+  "franchises": [
+    "Crash Bandicoot"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "arena",
+    "reboot",
+    "boss fight",
+    "alternate costumes",
+    "microtransaction",
+    "collectibles",
+    "unlockables",
+    "auto-saving",
+    "time trials",
+    "playable boss"
+  ],
+  "alternative_names": [
+    {
+      "name": "CTR Nitro Fueled",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Crash Team Racing Nitro Fueled",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/crash-team-racing-nitro-fueled/BQRB60PW2SDL"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/233410"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/crashbandicoot"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Crash_Team_Racing_Nitro-Fueled"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/crash-team-racing-nitro-fueled"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/crashbandicoot"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/crashbandicoot/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://crashbandicoot.fandom.com/wiki/Crash_Team_Racing_Nitro-Fueled"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/CrashBandicoot/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/crash-team-racing-nitro-fueled-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.crashbandicoot.com/crashteamracing"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@crashbandicoot/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 21, 2019",
+      "status": "Released",
+      "date_iso": "2019-06-21"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 21, 2019",
+      "status": "Released",
+      "date_iso": "2019-06-21"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 21, 2019",
+      "status": "Released",
+      "date_iso": "2019-06-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar59n.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "cuTM-G3nfgY",
+      "url": "https://www.youtube.com/watch?v=cuTM-G3nfgY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "WgwA1gYDb5Q",
+      "url": "https://www.youtube.com/watch?v=WgwA1gYDb5Q"
+    }
+  ]
+}

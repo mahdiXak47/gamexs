@@ -1,0 +1,110 @@
+{
+  "slug": "everspace-2-stellar-edition",
+  "igdb_id": 246298,
+  "name": "Everspace 2: Stellar Edition",
+  "summary": "EVERSPACE 2: Stellar Edition Includes:\n- Base game\n- SteelBook case\n- Digital original soundtrack.",
+  "first_release_year": 2023,
+  "developers": [
+    "ROCKFISH Games"
+  ],
+  "publishers": [
+    "ROCKFISH Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Simulator",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "space",
+    "demo",
+    "crowdfunding - kickstarter",
+    "free demo"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Everspace"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/everspace_game"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Everspace%202"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.everspace.game/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/everspace_game"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/rockfishgames"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/rockfishgames"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/everspace.game"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2pdv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2pdu.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "XIAIXXJYmV8",
+      "url": "https://www.youtube.com/watch?v=XIAIXXJYmV8"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "qIHmHKG9IhA",
+      "url": "https://www.youtube.com/watch?v=qIHmHKG9IhA"
+    }
+  ]
+}

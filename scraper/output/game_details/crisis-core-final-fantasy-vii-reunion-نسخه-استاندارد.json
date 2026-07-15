@@ -1,0 +1,161 @@
+{
+  "slug": "crisis-core-final-fantasy-vii-reunion-نسخه-استاندارد",
+  "igdb_id": 205201,
+  "name": "Crisis Core: Final Fantasy VII - Reunion",
+  "summary": "Crisis Core: Final Fantasy VII - Reunion is an HD remaster of the smash hit prequel to Final Fantasy VII. In addition to all graphics being remastered in HD, fully voiced dialogue and new soundtrack arrangements make for a dynamic new retelling of a beloved classic.",
+  "first_release_year": 2022,
+  "developers": [
+    "Tose",
+    "Square Enix Creative Business Unit I"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Role-playing (RPG)"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Compilation of Final Fantasy VII",
+    "Final Fantasy",
+    "Final Fantasy VII"
+  ],
+  "spin_off_of": "Crisis Core: Final Fantasy VII",
+  "franchises": [
+    "Final Fantasy"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "real-time battles",
+    "upgradable equipment",
+    "boss fight",
+    "voice acting"
+  ],
+  "alternative_names": [
+    {
+      "name": "CCFFVII Reunion",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "CRISIS CORE: FINAL FANTASY VII - REUNION",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "CRISIS CORE: FINAL FANTASY 7 - REUNION",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "CRISIS CORE -FINAL FANTASY VII- REUNION",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "CCFF7R.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/FinalFantasyVII"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Crisis%20Core:%20Final%20Fantasy%20VII%20-%20Reunion"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/crisis-core--final-fantasy-vii--reunion/9P6J9NFKGJ68"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/crisis-core-final-fantasy-vii-reunion-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004142"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@finalfantasy/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/FinalFantasyVII"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.jp.square-enix.com/ccffvii_reunion"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1608070/CRISIS_CORE_FINAL_FANTASY_VII_REUNION"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Crisis_Core_Reunion"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 13, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-12-13"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 13, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-12-13"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 13, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-12-13"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 13, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-12-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 13, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-12-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1vdj.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "RjXBCaZexK4",
+      "url": "https://www.youtube.com/watch?v=RjXBCaZexK4"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "AiL7huRoyxM",
+      "url": "https://www.youtube.com/watch?v=AiL7huRoyxM"
+    }
+  ]
+}

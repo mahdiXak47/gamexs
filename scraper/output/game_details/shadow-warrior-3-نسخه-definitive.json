@@ -1,0 +1,159 @@
+{
+  "slug": "shadow-warrior-3-نسخه-definitive",
+  "igdb_id": 135655,
+  "name": "Shadow Warrior 3",
+  "summary": "Shadow Warrior 3 launches the offbeat first-person shooter series to the next level with a seamless blend of fast-paced gunplay, razor-sharp melee combat, and a spectacular free-running movement system.",
+  "first_release_year": 2022,
+  "developers": [
+    "Flying Wild Hog"
+  ],
+  "publishers": [
+    "Devolver Digital"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction",
+    "Horror",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Shadow Warrior"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "ninja",
+    "dark",
+    "mythology",
+    "demons",
+    "arena shooter",
+    "funny",
+    "colorful"
+  ],
+  "alternative_names": [
+    {
+      "name": "쉐도우 워리어 3",
+      "comment": "Korean title"
+    },
+    {
+      "name": "SW3.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1036890"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002224"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Shadow%20Warrior%203"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://shadowwarrior.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/ShadowWarrior"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/shadow_warrior_3"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shadow_Warrior_3"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 16, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-16"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 16, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-16"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 01, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-01"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 01, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 01, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-01"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1gz3.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1gz5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1gz4.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "SUsIYpeR0rA",
+      "url": "https://www.youtube.com/watch?v=SUsIYpeR0rA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "NYH5pwuIx58",
+      "url": "https://www.youtube.com/watch?v=NYH5pwuIx58"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "Te8jkrc0NFA",
+      "url": "https://www.youtube.com/watch?v=Te8jkrc0NFA"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ME43wnIEyKA",
+      "url": "https://www.youtube.com/watch?v=ME43wnIEyKA"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "TTD2Q8ArVEk",
+      "url": "https://www.youtube.com/watch?v=TTD2Q8ArVEk"
+    }
+  ]
+}

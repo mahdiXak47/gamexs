@@ -1,0 +1,143 @@
+{
+  "slug": "tape-unveil-the-memories",
+  "igdb_id": 194903,
+  "name": "Tape: Unveil the Memories",
+  "summary": "Iria, a girl from the small town of Antumbria, receives a VHS tape from her father asking for help. From this message, Iria will dive into her memories, where she will have to use her father's old video camera to explore her memory and discover her family's dark secrets.",
+  "first_release_year": 2022,
+  "developers": [
+    "BlackChiliGoat Studio"
+  ],
+  "publishers": [],
+  "genres": [
+    "Puzzle",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Horror",
+    "Thriller",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "camera",
+    "vhs",
+    "memories"
+  ],
+  "alternative_names": [
+    {
+      "name": "TAPE: Unveil the Memories",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Tape.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/234878"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/tape-unveil-the-memories-switch/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/BlackChiliGoat"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/blackchiligoat"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCb4mj7W_bQdNo3AyaObq4PQ"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.blackchiligoat.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1910320/TAPE_Unveil_the_Memories?utm_source=Steam"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Tape:%20Unveil%20the%20Memories"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-14"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-14"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-14"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-14"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 14, 2023",
+      "status": "Released",
+      "date_iso": "2023-04-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1jih.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "YWr2kPiZVSg",
+      "url": "https://www.youtube.com/watch?v=YWr2kPiZVSg"
+    }
+  ]
+}

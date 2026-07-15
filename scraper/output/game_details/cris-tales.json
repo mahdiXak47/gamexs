@@ -1,0 +1,198 @@
+{
+  "slug": "cris-tales",
+  "igdb_id": 119349,
+  "name": "Cris Tales",
+  "summary": "Discover a unique combination of branching stories, innovative combat, and classic RPG gameplay in Cris Tales’ exciting and unforgettable exploration of how our actions echo through time. Join the newly awakened Time Mage, Crisbell, and her fantastical companions in a fantasy world facing a grim future. The powerful Time Empress and her forces threaten to bring about a cataclysm tearing apart Crystallis and the other four Kingdoms of the region.",
+  "first_release_year": 2021,
+  "developers": [
+    "SYCK",
+    "Dreams Uncorporated"
+  ],
+  "publishers": [
+    "Modus Games",
+    "Maximum Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "jrpg",
+    "previously on - utomik"
+  ],
+  "alternative_names": [
+    {
+      "name": "CrisTales",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Cristales.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cris_Tales"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001088"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/cris-tales-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://modusgames.com/cris-tales/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCdYYIsM2m513a3RUQ_zqWqQ"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/cris_tales"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/cris-tales"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1079830/Cris_Tales"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Cris%20Tales"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Modus_Games"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discordapp.com/invite/6p9T7hg"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://cristales.fandom.com/wiki/Cris_Tales"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/ModusGames"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 19, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-19"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 20, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-20"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 20, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 20, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 20, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 20, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-20"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Jul 20, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-20"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 20, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5rj.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar8s1.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "yGLBJ0AwpQ4",
+      "url": "https://www.youtube.com/watch?v=yGLBJ0AwpQ4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "RW9s86k2Y2o",
+      "url": "https://www.youtube.com/watch?v=RW9s86k2Y2o"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "0nBZtEnZngw",
+      "url": "https://www.youtube.com/watch?v=0nBZtEnZngw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "26LM7EWd8JU",
+      "url": "https://www.youtube.com/watch?v=26LM7EWd8JU"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "Y6kRFUYKE3c",
+      "url": "https://www.youtube.com/watch?v=Y6kRFUYKE3c"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "EXAUWjhqeKg",
+      "url": "https://www.youtube.com/watch?v=EXAUWjhqeKg"
+    }
+  ]
+}

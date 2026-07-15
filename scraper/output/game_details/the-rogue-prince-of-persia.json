@@ -1,0 +1,208 @@
+{
+  "slug": "the-rogue-prince-of-persia",
+  "igdb_id": 296843,
+  "name": "The Rogue Prince of Persia",
+  "summary": "The Rogue Prince of Persia is a 2D action-platformer developed by Evil Empire in collaboration with Ubisoft. The game combines fast-paced parkour movement with roguelite combat and progression systems. Players control the Prince as he battles enemies and explores procedurally generated levels filled with traps and hazards.\nEach run offers new weapons, upgrades, and choices that influence gameplay and replayability.",
+  "first_release_year": 2025,
+  "developers": [
+    "Evil Empire"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Platform",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Historical"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Prince of Persia"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Prince of Persia"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "roguelike",
+    "wall jump",
+    "upgradable equipment",
+    "bow and arrow",
+    "wall run",
+    "roguelike platform",
+    "rougelite",
+    "action roguelike"
+  ],
+  "alternative_names": [
+    {
+      "name": "The Rogue Prince of Persia.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Rogue_Prince_of_Persia"
+    },
+    {
+      "label": "Epic",
+      "url": "https://epicgames.com/p/the-rogue-prince-of-persia"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.therogueprinceofpersia.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/princeofpersia"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/evilempirestudio"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCxxaHW3xw8sByMXnrcAMEPg"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/the-rogue-prince-of-persia/9P7M1VCXKQVD/0010"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/EP0001-PPSA28155_00-ROGUEPOPWWR00000"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/the-rogue-prince-of-persia"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://princeofpersia.fandom.com/wiki/The_Rogue_Prince_of_Persia"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/the-rogue-prince-of-persia-switch-2/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2717880"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/princeofpersia"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 16, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-16"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Dec 16, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-16"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 27, 2024",
+      "status": "Beta",
+      "date_iso": "2024-05-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 20, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 20, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 20, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar41kl.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar41kx.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar41ky.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar41l0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar41l1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar41n1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4236.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar41kr.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar41l5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar41l4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar567i.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "XZzOxEK7hXo",
+      "url": "https://www.youtube.com/watch?v=XZzOxEK7hXo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "IZcC8TPRCpU",
+      "url": "https://www.youtube.com/watch?v=IZcC8TPRCpU"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "00Xb4zCkAEM",
+      "url": "https://www.youtube.com/watch?v=00Xb4zCkAEM"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "kUlGdstLhEQ",
+      "url": "https://www.youtube.com/watch?v=kUlGdstLhEQ"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "EAeRM7fJ2S0",
+      "url": "https://www.youtube.com/watch?v=EAeRM7fJ2S0"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "9c1QFum8GXY",
+      "url": "https://www.youtube.com/watch?v=9c1QFum8GXY"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "YdJJbvwrAsI",
+      "url": "https://www.youtube.com/watch?v=YdJJbvwrAsI"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "fF3vqYmt16U",
+      "url": "https://www.youtube.com/watch?v=fF3vqYmt16U"
+    }
+  ]
+}

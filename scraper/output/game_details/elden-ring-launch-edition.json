@@ -1,0 +1,298 @@
+{
+  "slug": "elden-ring-launch-edition",
+  "igdb_id": 119133,
+  "name": "Elden Ring",
+  "summary": "Elden Ring is an action RPG developed by FromSoftware and published by Bandai Namco Entertainment, released in February 2022. Directed by Hidetaka Miyazaki, with world-building contributions from novelist George R. R. Martin, the game features an expansive open world called the Lands Between. Players assume the role of a customisable character known as the Tarnished, who must explore this world, battle formidable enemies, and seek to restore the Elden Ring to become the Elden Lord.\n\nThe game builds on the challenging gameplay mechanics familiar from the Dark Souls series but introduces a more open-ended structure with vast exploration, dynamic weather, and a day-night cycle. It offers deep lore, complex characters, and an interconnected world filled with secrets, dungeons, and powerful bosses.",
+  "first_release_year": 2022,
+  "developers": [
+    "FromSoftware"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment",
+    "FromSoftware"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Elden Ring"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Dantelion"
+  ],
+  "keywords": [
+    "exploration",
+    "monsters",
+    "knights",
+    "violence",
+    "medieval",
+    "brutal",
+    "magic",
+    "sword",
+    "3d",
+    "dragons",
+    "death",
+    "horse",
+    "archery",
+    "difficult",
+    "insanity",
+    "dragon",
+    "achievements",
+    "apocalypse",
+    "undead",
+    "online",
+    "traps",
+    "steam trading cards",
+    "explorable world",
+    "horse riding",
+    "boss fight",
+    "steam achievements",
+    "xbox controller support for pc",
+    "steam cloud",
+    "customizable characters",
+    "polygonal 3d",
+    "bow and arrow",
+    "upgradeable weapons",
+    "wasd movement",
+    "non-player character",
+    "minotaurs",
+    "ragdoll physics",
+    "checkpoints",
+    "saving the world",
+    "moral decisions",
+    "side quests",
+    "branching storyline",
+    "player vs player",
+    "melee",
+    "auto-saving",
+    "optional boss",
+    "parrying",
+    "mercenary",
+    "non-linear storytelling",
+    "multiple enemy boss fights",
+    "stealth kill",
+    "new game plus",
+    "dual wielding",
+    "fast traveling",
+    "secret achievements",
+    "status effects",
+    "hidden room",
+    "souls as currency",
+    "soul steal",
+    "old-fashioned english",
+    "pyromancer",
+    "the game awards - best score or music - nominee",
+    "controller support",
+    "soulslike",
+    "dual wield",
+    "fictional world",
+    "bosses",
+    "the game awards - best art direction - winner",
+    "the game awards - best audio design - nominee",
+    "the game awards - best game direction - winner",
+    "the game awards - best narrative - nominee",
+    "the game awards - best roleplaying game - winner",
+    "the game awards - game of the year - winner",
+    "the game awards - game of the year - nominee",
+    "lore rich",
+    "interconnected-world",
+    "shield",
+    "epic adventure",
+    "axe",
+    "steam families",
+    "sword sorcery",
+    "spear",
+    "scythe",
+    "dynamic weather",
+    "the game awards 2022",
+    "the game awards - most anticipated game - winner"
+  ],
+  "alternative_names": [
+    {
+      "name": "Great Rune",
+      "comment": "Other"
+    },
+    {
+      "name": "ELDEN RING",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "エルデンリング",
+      "comment": "Japanese title - translated"
+    },
+    {
+      "name": "艾爾登法環",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "艾尔登法环",
+      "comment": "Chinese title - simplified"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Elden%20Ring"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/BandaiNamcoEntertainmentAmerica"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/eldenring.bsky.social"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000333"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/elden-ring/9P3J32CTXLRZ"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1245620"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/ELDENRINGEU"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/ELDENRING"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/eldenring"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.bandainamcoent.com/games/elden-ring"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://reddit.com/r/EldenRing"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/eldenring?hl=en"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://eldenring.wiki.gg/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Elden_Ring"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 25, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-02-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 25, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-02-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 25, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-02-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 25, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-02-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 25, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-02-25"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "2026",
+      "status": "Cancelled",
+      "date_iso": "2026-12-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m1o.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m1p.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1481.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m1n.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "D1mDo1CEMuE",
+      "url": "https://www.youtube.com/watch?v=D1mDo1CEMuE"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "E3Huy2cdih0",
+      "url": "https://www.youtube.com/watch?v=E3Huy2cdih0"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "qqiC88f9ogU",
+      "url": "https://www.youtube.com/watch?v=qqiC88f9ogU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "D8YkCHkWRyk",
+      "url": "https://www.youtube.com/watch?v=D8YkCHkWRyk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "DbPbQMuEyX8",
+      "url": "https://www.youtube.com/watch?v=DbPbQMuEyX8"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "l6pCyV7PnqI",
+      "url": "https://www.youtube.com/watch?v=l6pCyV7PnqI"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "e5wwSxl0atc",
+      "url": "https://www.youtube.com/watch?v=e5wwSxl0atc"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "gyMcCOc6bIM",
+      "url": "https://www.youtube.com/watch?v=gyMcCOc6bIM"
+    }
+  ]
+}

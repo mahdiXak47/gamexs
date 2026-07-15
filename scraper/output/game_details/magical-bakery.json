@@ -1,0 +1,127 @@
+{
+  "slug": "magical-bakery",
+  "igdb_id": 305078,
+  "name": "Magical Bakery",
+  "summary": "Experience a life full of magic, challenges, and the joy of creating sweets that will leave a spellbinding impression on your customers. Become the ultimate magical baker and prove yourself worthy to inherit the Magical Bakery!",
+  "first_release_year": 2024,
+  "developers": [
+    "SUPERLUMEN"
+  ],
+  "publishers": [
+    "SOEDESCO Publishing"
+  ],
+  "genres": [
+    "Simulator",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "magic",
+    "cooking"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/magical-bakery-57f8e8"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009878"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/magical-bakery-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2595940"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/SOEDESCO"
+    },
+    {
+      "label": "Discord",
+      "url": "https://www.discord.gg/soedesco"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://www.twitter.com/soedesco"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/soedesco"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Soedesco/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.soedesco.com/games/magical-bakery"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 07, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-07"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 07, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-07"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 07, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-07"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 07, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-07"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2zju.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "PWhaOaC-1IU",
+      "url": "https://www.youtube.com/watch?v=PWhaOaC-1IU"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "2FKGAvyrDwY",
+      "url": "https://www.youtube.com/watch?v=2FKGAvyrDwY"
+    }
+  ]
+}

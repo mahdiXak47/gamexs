@@ -1,0 +1,120 @@
+{
+  "slug": "bulletstorm-vr",
+  "igdb_id": 251567,
+  "name": "Bulletstorm VR",
+  "summary": "Bulletstorm VR is a brutally creative action shooter that puts players in the ass-kicking boots of the hotheaded space mercenary Grayson Hunt as he shoots, kicks, and leashes all he can see across a hostile world in Virtual Reality!",
+  "first_release_year": 2024,
+  "developers": [
+    "Incuvo SA"
+  ],
+  "publishers": [
+    "People Can Fly"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Virtual Reality"
+  ],
+  "series": [],
+  "spin_off_of": "Bulletstorm",
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Bulletstorm"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008677"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@bulletstormvr/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2451320/Bulletstorm_VR/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://peoplecanfly.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Bulletstorm"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/bulletstormgame/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Meta Quest 2",
+      "region": null,
+      "date": "Jan 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-01-18"
+    },
+    {
+      "platform": "Meta Quest 3",
+      "region": null,
+      "date": "Jan 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-01-18"
+    },
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "Jan 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-01-18"
+    },
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "Jan 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-01-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2bzd.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "kytLzxyeH7Y",
+      "url": "https://www.youtube.com/watch?v=kytLzxyeH7Y"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "XZedGMbeCNM",
+      "url": "https://www.youtube.com/watch?v=XZedGMbeCNM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "UHO9pMY8_0I",
+      "url": "https://www.youtube.com/watch?v=UHO9pMY8_0I"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "CtRtxylpVJM",
+      "url": "https://www.youtube.com/watch?v=CtRtxylpVJM"
+    }
+  ]
+}

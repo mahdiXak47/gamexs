@@ -1,0 +1,205 @@
+{
+  "slug": "forgotten-city",
+  "igdb_id": 103320,
+  "name": "The Forgotten City",
+  "summary": "The Forgotten City is a mystery adventure game of exploration and deduction, and a re-imagining of the critically acclaimed mod of the same name. Combat is an option, but violence will only get you so far. Only by questioning an intertwined community of colorful characters, cleverly exploiting the time loop, and making difficult moral choices can you hope to solve this epic mystery. Here, your decisions matter. The fate of the city is in your hands.",
+  "first_release_year": 2021,
+  "developers": [
+    "Modern Storyteller"
+  ],
+  "publishers": [
+    "Dear Villagers",
+    "Plug In Digital"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Fantasy",
+    "Historical",
+    "Drama",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "time travel",
+    "character customization",
+    "detective",
+    "investigation",
+    "time manipulation",
+    "multiple endings",
+    "roman empire",
+    "murder mystery",
+    "narrative-driven",
+    "time loop",
+    "non-linear",
+    "customizable characters",
+    "previously on - prime gaming"
+  ],
+  "alternative_names": [
+    {
+      "name": "포가튼 시티",
+      "comment": "Korean title"
+    },
+    {
+      "name": "忘れられた都市",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "忘れられた都市 - The Forgotten City",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "ModernStoryteller01.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/the_forgotten_city"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/the-forgotten-city"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/the-forgotten-city/9NJ4R763M7TH"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002458"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/modnstoryteller"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://forgottencitygame.com/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://theforgottencity.fandom.com/wiki/The_Forgotten_City_Wiki"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Forgotten_City"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/DearVillagers/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/theforgottencity"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/874260/The_Forgotten_City"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20Forgotten%20City"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-28"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Feb 23, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/aremu.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4yfz.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "EIWY29UcMVQ",
+      "url": "https://www.youtube.com/watch?v=EIWY29UcMVQ"
+    },
+    {
+      "title": "Developer Interview",
+      "youtube_id": "qHwbcfSM0pw",
+      "url": "https://www.youtube.com/watch?v=qHwbcfSM0pw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "9mAcBgiUGAk",
+      "url": "https://www.youtube.com/watch?v=9mAcBgiUGAk"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "7pOop70bYTs",
+      "url": "https://www.youtube.com/watch?v=7pOop70bYTs"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "XNTCb8N8yz4",
+      "url": "https://www.youtube.com/watch?v=XNTCb8N8yz4"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "mlmVPG3y03Q",
+      "url": "https://www.youtube.com/watch?v=mlmVPG3y03Q"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "OsnshS-_xoQ",
+      "url": "https://www.youtube.com/watch?v=OsnshS-_xoQ"
+    }
+  ]
+}

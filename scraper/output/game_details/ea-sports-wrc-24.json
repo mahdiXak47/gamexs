@@ -1,0 +1,60 @@
+{
+  "slug": "ea-sports-wrc-24",
+  "igdb_id": 319197,
+  "name": "EA Sports WRC 24",
+  "summary": "Elevate your rally experience with the WRC 2024 Season Expansion Bundle! Discover thrilling new locations, Tet Rally Latvia and the Orlen 80th Rally Poland. Drive the latest high-performance vehicles including the Ford Fiesta Rally3 Evo and Toyota GR Yaris Rally1 HYBRID '24. Customize your rally cars with more than 50 new liveries and compete against 52 official crews. Brace yourself to embark on your continued rally journey.",
+  "first_release_year": 2024,
+  "developers": [
+    "Codemasters"
+  ],
+  "publishers": [
+    "EA"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": "EA Sports WRC",
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "rally"
+  ],
+  "alternative_names": [],
+  "websites": [],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 08, 2024",
+      "status": "Released",
+      "date_iso": "2024-10-08"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 08, 2024",
+      "status": "Released",
+      "date_iso": "2024-10-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 08, 2024",
+      "status": "Released",
+      "date_iso": "2024-10-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3b48.jpg"
+  ],
+  "videos": []
+}

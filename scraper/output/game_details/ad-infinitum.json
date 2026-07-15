@@ -1,0 +1,124 @@
+{
+  "slug": "ad-infinitum",
+  "igdb_id": 77338,
+  "name": "Ad Infinitum",
+  "summary": "Ad Infinitum is an atmospheric single-player horror game, which puts you into a World War I setting seen through a first-person perspective. You find yourself in the trenches of a forlorn battlefield where your are being hunted by vicious creatures. Solve puzzles to clear pathways and sneak through trenches to hide from vicious creatures. Avoid dangerous threats and try to escape this world of pain and death. Besides the realistic graphics, the game features a stealth system, puzzle-solving and exploration of the vicious game world which all culminates in a subtle yet intense story.",
+  "first_release_year": 2023,
+  "developers": [
+    "Hekate"
+  ],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Thriller",
+    "Survival",
+    "Historical",
+    "Stealth",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "world war i - ww1"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/ad-infinitum"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ad-infinitum/9ND80SNMBMH8"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004716"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://ad-infinitum-game.de/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1234430/Ad_Infinitum"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/ad_infinitum"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 14, 2023",
+      "status": "Released",
+      "date_iso": "2023-09-14"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 14, 2023",
+      "status": "Released",
+      "date_iso": "2023-09-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 14, 2023",
+      "status": "Released",
+      "date_iso": "2023-09-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arywv.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "zr0DgiomX-8",
+      "url": "https://www.youtube.com/watch?v=zr0DgiomX-8"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "VQUQKZbw1Vs",
+      "url": "https://www.youtube.com/watch?v=VQUQKZbw1Vs"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "yaHW8Y3AMJ8",
+      "url": "https://www.youtube.com/watch?v=yaHW8Y3AMJ8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "YS_ggSstkVc",
+      "url": "https://www.youtube.com/watch?v=YS_ggSstkVc"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "HbAm26-29Rw",
+      "url": "https://www.youtube.com/watch?v=HbAm26-29Rw"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "JY7CpAIWcc8",
+      "url": "https://www.youtube.com/watch?v=JY7CpAIWcc8"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "slug": "warhammer-age-of-sigmar-realms-of-ruin",
+  "igdb_id": 250905,
+  "name": "Warhammer Age of Sigmar: Realms of Ruin",
+  "summary": "Wage a campaign of brutal conquest in this realm-shattering real-time strategy game set in the Warhammer Age of Sigmar universe. Command four unique factions in dynamic battles as part of a story-driven campaign and test your mettle against warlords afar in online multiplayer.",
+  "first_release_year": 2023,
+  "developers": [
+    "Frontier Developments"
+  ],
+  "publishers": [
+    "Frontier Developments"
+  ],
+  "genres": [
+    "Real Time Strategy (RTS)",
+    "Simulator",
+    "Strategy"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Warhammer",
+    "Warhammer Age of Sigmar"
+  ],
+  "game_engines": [
+    "Cobra"
+  ],
+  "keywords": [
+    "pvp",
+    "war",
+    "story rich",
+    "photo mode",
+    "in-game map editor"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1844380"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004639"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.aosrealmsofruin.com/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/warhammer-age-of-sigmar-realms-of-ruin"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 07, 2023",
+      "status": "Alpha",
+      "date_iso": "2023-07-07"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 14, 2023",
+      "status": "status_34",
+      "date_iso": "2023-11-14"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 14, 2023",
+      "status": "status_34",
+      "date_iso": "2023-11-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 14, 2023",
+      "status": "status_34",
+      "date_iso": "2023-11-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 07, 2023",
+      "status": "Alpha",
+      "date_iso": "2023-07-07"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 07, 2023",
+      "status": "Alpha",
+      "date_iso": "2023-07-07"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2c4n.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "CXW7h2hC8_4",
+      "url": "https://www.youtube.com/watch?v=CXW7h2hC8_4"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "4wAL31C4QQI",
+      "url": "https://www.youtube.com/watch?v=4wAL31C4QQI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "CkFjp2anJXU",
+      "url": "https://www.youtube.com/watch?v=CkFjp2anJXU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "BBclwqcmzQA",
+      "url": "https://www.youtube.com/watch?v=BBclwqcmzQA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "mn35LpoE7Sw",
+      "url": "https://www.youtube.com/watch?v=mn35LpoE7Sw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "rpxKiK55cLM",
+      "url": "https://www.youtube.com/watch?v=rpxKiK55cLM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "QU1wFho-6Jk",
+      "url": "https://www.youtube.com/watch?v=QU1wFho-6Jk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "XGaouEvpcwo",
+      "url": "https://www.youtube.com/watch?v=XGaouEvpcwo"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "scf0u1M7ph8",
+      "url": "https://www.youtube.com/watch?v=scf0u1M7ph8"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "gran-turismo-7-نسخه-استیل-بوک",
+  "igdb_id": 101006,
+  "name": "Gran Turismo 7",
+  "summary": "Gran Turismo 7 brings together the very best features of the Real Driving Simulator. Whether you’re a competitive or casual racer, collector, tuner, livery designer or photographer – find your line with a staggering collection of game modes including fan-favorites like GT Campaign, Arcade and Driving School. With the reintroduction of the legendary GT Simulation Mode, buy, tune, race and sell your way through a rewarding solo campaign as you unlock new cars and challenges. And if you love going head-to-head with others, hone your skills and compete in the GT Sport Mode.",
+  "first_release_year": 2022,
+  "developers": [
+    "Polyphony Digital"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [
+    "Non-fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person",
+    "Side view",
+    "Virtual Reality"
+  ],
+  "series": [
+    "Gran Turismo"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Gran Turismo"
+  ],
+  "game_engines": [
+    "Custom Engine"
+  ],
+  "keywords": [
+    "rally",
+    "vehicle simulation",
+    "horse racing",
+    "racing simulator",
+    "racing sim",
+    "sports cars",
+    "the game awards - best sports or racing game - winner",
+    "the game awards - best audio design - nominee",
+    "the game awards - best vr game - nominee"
+  ],
+  "alternative_names": [
+    {
+      "name": "GT7",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Guran Tsuurisumo Sebun",
+      "comment": "Japanese title - romanization"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/thegranturismo"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gran_Turismo_7"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000956"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Gran%20Turismo%207"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.gran-turismo.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/thegranturismo"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/granturismo"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://gran-turismo.fandom.com/wiki/Gran_Turismo_7"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/GranTurismo"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/GranTurismoOfficial"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/zdb7sVe"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 04, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-04"
+    },
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 04, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-04"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1cxh.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1cxg.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "OyAbx6S_VCA",
+      "url": "https://www.youtube.com/watch?v=OyAbx6S_VCA"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "oz-O74SmTSQ",
+      "url": "https://www.youtube.com/watch?v=oz-O74SmTSQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "1tBUsXIkG1A",
+      "url": "https://www.youtube.com/watch?v=1tBUsXIkG1A"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "slug": "the-blood-of-dawnwalker",
+  "igdb_id": 282831,
+  "name": "The Blood of Dawnwalker",
+  "summary": "The Blood of Dawnwalker is an open-world dark fantasy action RPG set in 14th-century Europe. You play as Coen, human by day and vampire by night, fighting to save your family in a story shaped by your actions and the secrets you uncover.",
+  "first_release_year": 2026,
+  "developers": [
+    "Rebel Wolves"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "dark fantasy",
+    "multiple endings",
+    "atmospheric",
+    "vampires"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/DawnwalkerGame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10013855"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/dawnwalker"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/the-blood-of-dawnwalker/9MVWT39J9R2C"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://dawnwalker.fandom.com/wiki/Dawnwalker_Wiki"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Blood_of_Dawnwalker"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3751260"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/DawnwalkerGame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://dawnwalkergame.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@DawnwalkerGame"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/DawnwalkerOfficial"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/dawnwalkergame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/DawnwalkerGame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 03, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-09-03"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 03, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-09-03"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 03, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-09-03"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar616g.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar527k.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar527j.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5uwt.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5uwu.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5uwr.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5uws.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "eeH0HMqd9VY",
+      "url": "https://www.youtube.com/watch?v=eeH0HMqd9VY"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "HkICrJEVTjI",
+      "url": "https://www.youtube.com/watch?v=HkICrJEVTjI"
+    },
+    {
+      "title": "Gameplay Overview",
+      "youtube_id": "ro8psdfcxJE",
+      "url": "https://www.youtube.com/watch?v=ro8psdfcxJE"
+    },
+    {
+      "title": "Trapped Between Two Worlds Trailer",
+      "youtube_id": "hAnm8_z3JQY",
+      "url": "https://www.youtube.com/watch?v=hAnm8_z3JQY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "xwi78ZbjIR0",
+      "url": "https://www.youtube.com/watch?v=xwi78ZbjIR0"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "caCTAdEmXQM",
+      "url": "https://www.youtube.com/watch?v=caCTAdEmXQM"
+    },
+    {
+      "title": "Gameplay Overview (Part II)",
+      "youtube_id": "arbNkIdeAVs",
+      "url": "https://www.youtube.com/watch?v=arbNkIdeAVs"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "pa0S8c_gp7M",
+      "url": "https://www.youtube.com/watch?v=pa0S8c_gp7M"
+    },
+    {
+      "title": "Gameplay Overview (Part III)",
+      "youtube_id": "99w_x1SsK-g",
+      "url": "https://www.youtube.com/watch?v=99w_x1SsK-g"
+    },
+    {
+      "title": "Story Trailer",
+      "youtube_id": "jVQiJ9ci0HI",
+      "url": "https://www.youtube.com/watch?v=jVQiJ9ci0HI"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "BXrn33vfczU",
+      "url": "https://www.youtube.com/watch?v=BXrn33vfczU"
+    },
+    {
+      "title": "The Dawnwalker Saga - A Glimpse Into The Future",
+      "youtube_id": "BnwS1bOPJUo",
+      "url": "https://www.youtube.com/watch?v=BnwS1bOPJUo"
+    },
+    {
+      "title": "Summer Game Fest Trailer",
+      "youtube_id": "bKOVwBBGBds",
+      "url": "https://www.youtube.com/watch?v=bKOVwBBGBds"
+    }
+  ]
+}

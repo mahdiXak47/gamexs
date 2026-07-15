@@ -1,0 +1,117 @@
+{
+  "slug": "the-foglands",
+  "igdb_id": 239380,
+  "name": "The Foglands",
+  "summary": "Run into the unknown, fight monsters, scavenge loot, and try to make it back before you are swallowed by the fog. The Foglands is an atmospheric roguelike adventure where you’ll discover new paths and uncover old secrets.",
+  "first_release_year": 2023,
+  "developers": [
+    "Well Told Entertainment"
+  ],
+  "publishers": [
+    "Well Told Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Simulator",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Virtual Reality"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003574"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/636190/The_Foglands"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.welltold.io"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/the-foglands"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/GsYQUSp5ST"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/WellToldEnt"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@welltoldent"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Meta Quest 2",
+      "region": null,
+      "date": "Oct 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-31"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "TBD",
+      "status": "Cancelled"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-31"
+    },
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "Oct 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-31"
+    },
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "Oct 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar27nn.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "GS2pD5N3g9Y",
+      "url": "https://www.youtube.com/watch?v=GS2pD5N3g9Y"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "OzMamRo5_yE",
+      "url": "https://www.youtube.com/watch?v=OzMamRo5_yE"
+    }
+  ]
+}

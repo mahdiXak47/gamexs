@@ -1,0 +1,193 @@
+{
+  "slug": "worldless",
+  "igdb_id": 214709,
+  "name": "Worldless",
+  "summary": "Worldless is a stylised 2D Adventure Platformer with turn-based combat and a mind-bending, interpretative narrative. Players will walk the line between physical and astral planes within a shapeless world, embarking on a journey of self-growth and understanding.",
+  "first_release_year": 2023,
+  "developers": [
+    "Noname Studios"
+  ],
+  "publishers": [
+    "Coatsink"
+  ],
+  "genres": [
+    "Fighting",
+    "Platform",
+    "Role-playing (RPG)",
+    "Strategy",
+    "Turn-based strategy (TBS)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "2.5d",
+    "stylized",
+    "atmospheric"
+  ],
+  "alternative_names": [
+    {
+      "name": "Worldless.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://playworldless.com/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008469"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/worldless-switch/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/nonamestudiosbarcelona/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Worldless/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/worldless-49eae3"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/noname-studios.es"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@nonamestudiosbcn"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/worldless_game"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/coatsink"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1898500/Worldless"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Worldless"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/worldless"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-20"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-20"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-20"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 21, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 21, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-21"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 21, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1uan.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "2MqZVUaor_Q",
+      "url": "https://www.youtube.com/watch?v=2MqZVUaor_Q"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "9OQn7s3UMCU",
+      "url": "https://www.youtube.com/watch?v=9OQn7s3UMCU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "x7o3WAn9NZA",
+      "url": "https://www.youtube.com/watch?v=x7o3WAn9NZA"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "40NMjJi4bS0",
+      "url": "https://www.youtube.com/watch?v=40NMjJi4bS0"
+    }
+  ]
+}

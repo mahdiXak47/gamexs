@@ -1,0 +1,194 @@
+{
+  "slug": "کارکرده-atomic-heart",
+  "igdb_id": 76747,
+  "name": "Atomic Heart",
+  "summary": "Atomic Heart is an adventure first-person shooter, events of which unfolds in an alternate universe during the high noon of the Soviet Union. The principal character of the game is a special agent P-3, who after an unsuccessful landing on enterprise \"3826\" is trying to figure out what went wrong.",
+  "first_release_year": 2023,
+  "developers": [
+    "Mundfish"
+  ],
+  "publishers": [
+    "Focus Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Open world",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Atomic Heart"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Atomic Universe"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "soviet union",
+    "alternative history"
+  ],
+  "alternative_names": [
+    {
+      "name": "AtomicHeart.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/atomic-heart/9P731Z4BBCT3"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006316"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://atomic.mundfish.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/668580"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/AtomicHeartOfficial"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/mundfish"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/AtomicHeart"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Atomic_Heart_(video_game)"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@Mundfish"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/atomic-heart"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 21, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-21"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 21, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 21, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-21"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 21, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 21, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1y0l.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1y0k.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar277f.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar277g.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar277i.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar277h.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "AyHkMK3cT_c",
+      "url": "https://www.youtube.com/watch?v=AyHkMK3cT_c"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "_tEgeZrOOHM",
+      "url": "https://www.youtube.com/watch?v=_tEgeZrOOHM"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "mX_f-fFArW4",
+      "url": "https://www.youtube.com/watch?v=mX_f-fFArW4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "SstWbERMv00",
+      "url": "https://www.youtube.com/watch?v=SstWbERMv00"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Ne3qBSUQqdM",
+      "url": "https://www.youtube.com/watch?v=Ne3qBSUQqdM"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "kxdWSyoBcH0",
+      "url": "https://www.youtube.com/watch?v=kxdWSyoBcH0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "FndjDVw72sg",
+      "url": "https://www.youtube.com/watch?v=FndjDVw72sg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "WplTw-DSGYc",
+      "url": "https://www.youtube.com/watch?v=WplTw-DSGYc"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "VbIc2_FwReE",
+      "url": "https://www.youtube.com/watch?v=VbIc2_FwReE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "WiwvWuZCGT0",
+      "url": "https://www.youtube.com/watch?v=WiwvWuZCGT0"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "ZXSi4EcxnuY",
+      "url": "https://www.youtube.com/watch?v=ZXSi4EcxnuY"
+    }
+  ]
+}

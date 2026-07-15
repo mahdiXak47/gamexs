@@ -1,0 +1,92 @@
+{
+  "slug": "necrophosis-full-consciousness",
+  "igdb_id": 393020,
+  "name": "Necrophosis: Full Consciousness",
+  "summary": "The complete experience comes alive in Necrophosis: Full Consciousness, a first-person psychological horror adventure with engrossing puzzles that plunges you into a surreal haunting world where only death endures.\n\nBegin as Consciousness, trapped within an emaciated, decaying vessel devoid of memories. Explore grotesque environments cursed with eternal deterioration to unravel fragments of the truth and learn why you have awakened. Soon your journey descends into the darker realms of the subconscious as you become the guiding hand that navigates its shadowy depths while piecing together echoes of the past.\n\nLong forsaken gods have been left to rot beyond eternity, yet something still calls. Prepare for a dark odyssey where every disturbing encounter and mind-expanding puzzle will draw you deeper into the macabre.",
+  "first_release_year": 2026,
+  "developers": [
+    "Dragonis Games"
+  ],
+  "publishers": [
+    "PQube"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Horror"
+  ],
+  "game_modes": [],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": "Necrophosis",
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "lovecraftian"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/necrophosis-full-consciousness/9nhpjq77nc1w"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10017979/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://pqube.co.uk/games/necrophosis-full-consciousness/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/necrophosis-full-consciousness"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 28, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 28, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 28, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5tkk.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5tkj.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5tkl.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ReIlxrKfaX0",
+      "url": "https://www.youtube.com/watch?v=ReIlxrKfaX0"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "euBoIB4En2g",
+      "url": "https://www.youtube.com/watch?v=euBoIB4En2g"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "_zyUnHEYIuI",
+      "url": "https://www.youtube.com/watch?v=_zyUnHEYIuI"
+    }
+  ]
+}

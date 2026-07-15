@@ -1,0 +1,115 @@
+{
+  "slug": "tony-hawks-pro-skater-3-+-4",
+  "igdb_id": 334422,
+  "name": "Tony Hawk's Pro Skater 3 + 4: Digital Deluxe Edition",
+  "summary": "Tony Hawk's Pro Skater 3+4 is a remake of the two skateboarding games originally released in the early 2000s. Players perform tricks, complete objectives, and explore varied skate parks across global locations. The gameplay emphasizes fluid controls, combo chaining, and arcade-style challenges. Each title features a roster of professional skaters, along with customizable characters and gear. The collection preserves the core mechanics of the originals while offering updated visuals and performance on modern platforms.\n\nThe Digital Deluxe Edition includes:\n- The Doom Slayer and The Revenant playable skaters, each including two secret moves. The Doom Slayer includes 2 unique outfits and the Unmaykr Hoverboard skate deck;\n- Additional songs included with the in-game soundtrack;\n- Exclusive Doom Slayer, Revenant, and Create-a-Skater skate decks;\n- Exclusive themed Create-a-Skater items.",
+  "first_release_year": 2025,
+  "developers": [
+    "Iron Galaxy Studios"
+  ],
+  "publishers": [
+    "Activision"
+  ],
+  "genres": [
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Tony Hawk's"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "cross-platform multiplayer",
+    "skateboarding",
+    "licensed soundtrack",
+    "character creation",
+    "cross-platform"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/tony-hawks-pro-skater-3-plus-4-digital-deluxe-edition-switch/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tony_Hawk%27s_Pro_Skater_3_%2B_4"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2545710/Tony_Hawks_Pro_Skater_3__4/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.tonyhawkthegame.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 11, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-11"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 11, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-11"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 11, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-11"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 11, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-11"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 11, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-11"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 11, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-11"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4a6a.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4a69.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "D-PedsiljOc",
+      "url": "https://www.youtube.com/watch?v=D-PedsiljOc"
+    }
+  ]
+}

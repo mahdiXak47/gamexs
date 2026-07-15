@@ -1,0 +1,59 @@
+{
+  "slug": "tramsim-نسخه-دلوکس",
+  "igdb_id": 165382,
+  "name": "TramSim Munich",
+  "summary": "Discover a new city with numerous landmarks and the low-floor tram model R2.2.b in TramSim Munich! Transport your passengers through the centre of the German capital of Bavaria with three detailed tram lines in full length.",
+  "first_release_year": 2021,
+  "developers": [
+    "ViewApp"
+  ],
+  "publishers": [
+    "Aerosoft"
+  ],
+  "genres": [
+    "Simulator",
+    "Indie"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "exploration",
+    "driving",
+    "relaxing",
+    "family friendly",
+    "colorful"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1736400/TramSim_Munich"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/TramSim%20Munich"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 04, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-04"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar18ug.jpg"
+  ],
+  "videos": []
+}

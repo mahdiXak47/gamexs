@@ -1,0 +1,139 @@
+{
+  "slug": "rayman-legends-retold-deluxe-edition",
+  "igdb_id": 404044,
+  "name": "Rayman Legends Retold",
+  "summary": "Embark on a bold reimagining of the beloved platformer, with new visuals and a retold story. Play solo or up to 4‑player couch co‑op, explore a mysterious new realm, jam through new musical stages, and more!",
+  "first_release_year": 2026,
+  "developers": [
+    "Ubisoft Montpellier",
+    "Ubisoft Milan"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Rayman"
+  ],
+  "spin_off_of": "Rayman Legends",
+  "franchises": [
+    "Rayman"
+  ],
+  "game_engines": [
+    "Snowdrop"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Rayman Legends Remake",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://x.com/RaymanGame"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4084710"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/rayman-legends-retold"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/rayman-legends-retold-deluxe-edition/9NMP2PLJN7N9/0017/9XHBZGL0QPLF"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10017364/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.raymanlegendsretold.com/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/stories/rayman_game/"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/rayman.ubisoft.com"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Rayman/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/rayman-legends-retold-switch-2/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Oct 01, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-10-01"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 01, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-10-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 01, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-10-01"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 01, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-10-01"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5zbo.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5zcw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5zcx.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5zcz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5zcy.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5zbq.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "2_7BQ9hLGkk",
+      "url": "https://www.youtube.com/watch?v=2_7BQ9hLGkk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "79qhDLUgBaQ",
+      "url": "https://www.youtube.com/watch?v=79qhDLUgBaQ"
+    }
+  ]
+}

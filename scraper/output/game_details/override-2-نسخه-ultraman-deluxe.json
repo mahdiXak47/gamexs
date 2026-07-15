@@ -1,0 +1,60 @@
+{
+  "slug": "override-2-نسخه-ultraman-deluxe",
+  "igdb_id": 161784,
+  "name": "Override 2: Super Mech League - Ultraman",
+  "summary": "This DLC unlocks Ultraman as a playable character Override 2: Super Mech League.",
+  "first_release_year": 2020,
+  "developers": [],
+  "publishers": [],
+  "genres": [
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": "Override 2: Super Mech League",
+  "franchises": [
+    "Ultraman"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Override 2: Super Mech League - Ultraman DLC",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/override-2-ultraman-ultraman-fighter-dlc-70050000023458-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1416830"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 22, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 22, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1z6l.jpg"
+  ],
+  "videos": []
+}

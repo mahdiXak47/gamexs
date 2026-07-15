@@ -1,0 +1,150 @@
+{
+  "slug": "v-rising",
+  "igdb_id": 148228,
+  "name": "V Rising",
+  "summary": "Awaken as a vampire. Hunt for blood in nearby settlements to regain your strength and evade the scorching sun to survive. Raise your castle and thrive in an ever-changing open world full of mystery. Gain allies online and conquer the land of the living.",
+  "first_release_year": 2024,
+  "developers": [
+    "Stunlock Studios"
+  ],
+  "publishers": [
+    "Stunlock Studios",
+    "Tencent Games"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Survival",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity 2022"
+  ],
+  "keywords": [
+    "pvp",
+    "pve"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/vrisinggame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007965"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCKToYSCkBY_jUYO2AjxfGVA/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1604030/V_Rising"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://playvrising.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/V%20Rising"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/VRisingGame"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/vrising/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://vrising.fandom.com/wiki/V_Rising"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/VRisingGame/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/vrising"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/V_Rising"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-05-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 17, 2022",
+      "status": "Beta",
+      "date_iso": "2022-05-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 11, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-11"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arxt2.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arxt1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r6x.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r6y.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r6z.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "cZt90OPsxdc",
+      "url": "https://www.youtube.com/watch?v=cZt90OPsxdc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "-JnDXJMO-wY",
+      "url": "https://www.youtube.com/watch?v=-JnDXJMO-wY"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "dBEIFTreqdY",
+      "url": "https://www.youtube.com/watch?v=dBEIFTreqdY"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "_UIvPe5W2Sw",
+      "url": "https://www.youtube.com/watch?v=_UIvPe5W2Sw"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "IjEw901V7JE",
+      "url": "https://www.youtube.com/watch?v=IjEw901V7JE"
+    }
+  ]
+}

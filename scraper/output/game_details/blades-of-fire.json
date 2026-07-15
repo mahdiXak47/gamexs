@@ -1,0 +1,135 @@
+{
+  "slug": "blades-of-fire",
+  "igdb_id": 333600,
+  "name": "Blades of Fire",
+  "summary": "Introducing Blades of Fire, an all-new action adventure that takes you across a beautiful world full of uncertainty and challenge. You take on the role of Aran de Lira, firstborn of the King’s Ward. The newly crowned Queen Nerea has cast a powerful spell that turns steel into stone and only her arms of abominations wield the divine metal against which other blades shatter…",
+  "first_release_year": 2025,
+  "developers": [
+    "MercurySteam"
+  ],
+  "publishers": [
+    "505 Games"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Mercury Engine"
+  ],
+  "keywords": [
+    "crafting",
+    "nextfest february 2026"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10011854"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/blades-of-fire-f8178f"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/PlayBladesofFire"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/Blades_of_Fire"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Blades_of_Fire"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@Blades_of_Fire"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://bladesoffire.com/en/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2091020"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/blades-of-fire"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/BladesofFire/"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/bladesoffire.bsky.social"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/blades-of-fire/9N0B2VBSMW2P"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blades_of_Fire"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 22, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 22, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 22, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3c98.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3c96.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "PqRBRdAOpss",
+      "url": "https://www.youtube.com/watch?v=PqRBRdAOpss"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "gF9tW9Zti_Y",
+      "url": "https://www.youtube.com/watch?v=gF9tW9Zti_Y"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "U5fHtXRfz28",
+      "url": "https://www.youtube.com/watch?v=U5fHtXRfz28"
+    }
+  ]
+}

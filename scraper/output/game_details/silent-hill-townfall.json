@@ -1,0 +1,133 @@
+{
+  "slug": "silent-hill-townfall",
+  "igdb_id": 222342,
+  "name": "Silent Hill: Townfall",
+  "summary": "Silent Hill: Townfall is a full-length, self-contained psychological horror set against the cold, isolated backdrop of Scotland, 1996.\n\nPlayers can explore St. Amelia, where fog-soaked streets, abandoned communities, and forgotten corners tell their story through atmosphere and history. Reality and delusion subtly intertwine to lure players into the depths of St. Amelia's grounded, tangible world.",
+  "first_release_year": 2026,
+  "developers": [
+    "Screen Burn"
+  ],
+  "publishers": [
+    "Annapurna Interactive",
+    "Konami"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Silent Hill"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Silent Hill"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "exploration",
+    "bloody",
+    "psychological horror",
+    "survival horror",
+    "steam achievements",
+    "steam cloud"
+  ],
+  "alternative_names": [
+    {
+      "name": "SILENT HILL: townfall",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Cannula",
+      "comment": "Working title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Silent%20Hill:%20Townfall"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://silenthill.fandom.com/wiki/Silent_Hill:_Townfall"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1636440/SILENT_HILL_Townfall"
+    },
+    {
+      "label": "Epic",
+      "url": "https://epicgames.com/p/silent-hill-townfall-0cb037"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.konami.com/games/silenthill/townfall/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/SilentHill"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10016947"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Silent_Hill:_Townfall"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 24, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-09-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 24, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-09-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar63ph.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5b7i.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5z7w.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5z7v.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5z7x.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5z8u.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5b7k.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5z7y.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "bpqRBsXP6M0",
+      "url": "https://www.youtube.com/watch?v=bpqRBsXP6M0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "CvN3dP92wxU",
+      "url": "https://www.youtube.com/watch?v=CvN3dP92wxU"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "eXLfSEipn7I",
+      "url": "https://www.youtube.com/watch?v=eXLfSEipn7I"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "slug": "persona-5-tactica-نسخه",
+  "igdb_id": 252729,
+  "name": "Persona 5 Tactica",
+  "summary": "After a strange incident, the Phantom Thieves wander into a bizarre realm where its citizens are living under tyrannical oppression. Surrounded by a military group named Legionnaires, they find themselves in grave danger until a mysterious revolutionary named Erina rescues them and offers an enticing deal in exchange for their help. What truth lies behind Erina and the deal she offers to the Phantom Thieves.",
+  "first_release_year": 2023,
+  "developers": [
+    "P Studio"
+  ],
+  "publishers": [
+    "Sega",
+    "Atlus"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Simulator",
+    "Strategy",
+    "Tactical"
+  ],
+  "themes": [
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Persona",
+    "Persona 5"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Persona"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "turn-based",
+    "multiple playable characters"
+  ],
+  "alternative_names": [
+    {
+      "name": "女神异闻录5 战略版",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "女神異聞錄5 戰略版",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "P5T",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Persona 5 Tactics",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Persona 5 Tactica.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "ペルソナ５ タクティカ",
+      "comment": "Japanese title - stylized"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005896"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/persona-5-tactica-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/persona-5-tactica/9p07f616xr9r"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://m.twitch.tv/directory/category/persona-5-tactica"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2254740"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://persona.atlus.com/p5t/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://megatenwiki.com/wiki/Persona_5_Tactica"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Persona_5_Tactica"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-17"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2ddb.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2ddd.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2dcs.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2ddc.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "6iPrNxNdmhk",
+      "url": "https://www.youtube.com/watch?v=6iPrNxNdmhk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "1lDRDLAAmyc",
+      "url": "https://www.youtube.com/watch?v=1lDRDLAAmyc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "gTXPfo2_ij0",
+      "url": "https://www.youtube.com/watch?v=gTXPfo2_ij0"
+    }
+  ]
+}

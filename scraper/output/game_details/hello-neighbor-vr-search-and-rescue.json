@@ -1,0 +1,137 @@
+{
+  "slug": "hello-neighbor-vr-search-and-rescue",
+  "igdb_id": 225534,
+  "name": "Hello Neighbor: Search and Rescue",
+  "summary": "Hello Neighbor: Search and Rescue is a groundbreaking VR horror-puzzle game where you sneak into your creepy neighbor's house to save your friend.",
+  "first_release_year": 2023,
+  "developers": [
+    "Steel Wool Studios"
+  ],
+  "publishers": [
+    "tinyBuild"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Thriller",
+    "Survival",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Virtual Reality"
+  ],
+  "series": [
+    "Hello Neighbor"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Hello Neighbor"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Hello Neighbor VR",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Hello Neighbor VR: Search and Rescue",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "HNVR.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/tinyBuildGAMES"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006454"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/neighborgames"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.helloneighborvr.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/NeighborGamesHQ"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2206320/Hello_Neighbor_VR_Search_and_Rescue"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Hello%20Neighbor%20VR:%20Search%20and%20Rescue"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://helloneighbor.wiki.gg/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Meta Quest 2",
+      "region": null,
+      "date": "May 25, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-05-25"
+    },
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "May 25, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-05-25"
+    },
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "May 25, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-05-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1yvk.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1yvj.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "h2fZ7rMvhSQ",
+      "url": "https://www.youtube.com/watch?v=h2fZ7rMvhSQ"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "JsAhI-JQQFA",
+      "url": "https://www.youtube.com/watch?v=JsAhI-JQQFA"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Ai9kNccITvU",
+      "url": "https://www.youtube.com/watch?v=Ai9kNccITvU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "-XhqgmQdDec",
+      "url": "https://www.youtube.com/watch?v=-XhqgmQdDec"
+    }
+  ]
+}

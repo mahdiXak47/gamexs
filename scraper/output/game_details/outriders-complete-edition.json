@@ -1,0 +1,195 @@
+{
+  "slug": "outriders-complete-edition",
+  "igdb_id": 102058,
+  "name": "Outriders",
+  "summary": "Outriders is a 1-3 player co-op RPG shooter set in an original, dark and desperate sci-fi universe. As mankind bleeds out in the trenches of Enoch, you’ll create your own Outrider and embark on a journey across the hostile planet. With rich storytelling spanning a diverse world, you’ll leave behind the slums and shanty towns of the First City and traverse forests, mountains and desert in the pursuit of a mysterious signal. Combining intense gunplay with violent powers and an arsenal of increasingly twisted weaponry and gear-sets, Outriders offers countless hours of gameplay.",
+  "first_release_year": 2021,
+  "developers": [
+    "People Can Fly"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "previously on - stadia pro"
+  ],
+  "alternative_names": [
+    {
+      "name": "아웃라이더스",
+      "comment": "Korean Alias"
+    },
+    {
+      "name": "OUTRIDERS-Win64-Shipping.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/outridersgame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/227401"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/outriders"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/outridersgame"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/outriders"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/OUTRIDERS"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Outriders_(video_game)"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://outriders.square-enix-games.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/680420"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/outriders"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/outriders"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-04-01"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Apr 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-04-01"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-04-01"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-04-01"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-04-01"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-04-01"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5s2.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5rs.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "dqB46adBC-o",
+      "url": "https://www.youtube.com/watch?v=dqB46adBC-o"
+    },
+    {
+      "title": "Story Trailer",
+      "youtube_id": "wXJ0rCTNWYw",
+      "url": "https://www.youtube.com/watch?v=wXJ0rCTNWYw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "1tU6uw1tknA",
+      "url": "https://www.youtube.com/watch?v=1tU6uw1tknA"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "oYGk_MM7Rwc",
+      "url": "https://www.youtube.com/watch?v=oYGk_MM7Rwc"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "lVB98xP6gds",
+      "url": "https://www.youtube.com/watch?v=lVB98xP6gds"
+    },
+    {
+      "title": "Reveal Trailer",
+      "youtube_id": "kVlzMyPlKek",
+      "url": "https://www.youtube.com/watch?v=kVlzMyPlKek"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "TiwOS45F_v8",
+      "url": "https://www.youtube.com/watch?v=TiwOS45F_v8"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "Ag9TEwcizw0",
+      "url": "https://www.youtube.com/watch?v=Ag9TEwcizw0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "gzRocxoettU",
+      "url": "https://www.youtube.com/watch?v=gzRocxoettU"
+    },
+    {
+      "title": "Reveal Trailer",
+      "youtube_id": "mgmLPGtkLVw",
+      "url": "https://www.youtube.com/watch?v=mgmLPGtkLVw"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "slug": "split-fiction",
+  "igdb_id": 325594,
+  "name": "Split Fiction",
+  "summary": "Split Fiction is a 2025 cooperative multiplayer game. It follows two writers, Mio Hudson and Zoe Foster, as they become trapped in their imaginations.",
+  "first_release_year": 2025,
+  "developers": [
+    "Hazelight Studios"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "dragons",
+    "couch co-op",
+    "local co-op",
+    "local multiplayer",
+    "controller support",
+    "cross-platform",
+    "steam deck",
+    "the game awards - best action-adventure game - nominee",
+    "the game awards - best family game - nominee",
+    "the game awards - best game direction - nominee",
+    "the game awards - best multiplayer game - nominee",
+    "online coop"
+  ],
+  "alternative_names": [
+    {
+      "name": "双影奇境",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "SplitFiction.exe",
+      "comment": "windows executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/split-fiction"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/split-fiction/9N1WXXD1RL8D"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005449"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/split-fiction-switch-2/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/split-fiction"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2001120"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/HazelightGames"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/Hazelight"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Split_Fiction"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/SplitFiction/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/split-fiction/split-fiction"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Jun 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-05"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 06, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 06, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-06"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 06, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3me6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3mkt.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3mku.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3me7.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "vRDXNJJ5Y3c",
+      "url": "https://www.youtube.com/watch?v=vRDXNJJ5Y3c"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "fcwngWPXQtg",
+      "url": "https://www.youtube.com/watch?v=fcwngWPXQtg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "0TlySOphMuo",
+      "url": "https://www.youtube.com/watch?v=0TlySOphMuo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "sUfcC1Qr1-0",
+      "url": "https://www.youtube.com/watch?v=sUfcC1Qr1-0"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "SMrP5tla-S4",
+      "url": "https://www.youtube.com/watch?v=SMrP5tla-S4"
+    }
+  ]
+}

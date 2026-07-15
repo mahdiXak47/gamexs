@@ -1,0 +1,156 @@
+{
+  "slug": "super-monkey-ball-banana-mania-نسخه-launch",
+  "igdb_id": 152355,
+  "name": "Super Monkey Ball: Banana Mania",
+  "summary": "Super Monkey Ball: Banana Mania is a \"modern HD remaster\" of Super Monkey Ball, Super Monkey Ball 2, and Super Monkey Ball Deluxe.\n\nThis bundle was created to celebrate the 20th anniversary of the franchise.",
+  "first_release_year": 2021,
+  "developers": [
+    "Ryu Ga Gotoku Studios"
+  ],
+  "publishers": [
+    "Sega"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Comedy",
+    "Kids",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Super Monkey Ball"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Super Monkey Ball"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Super Monkey Ball Banana Mania",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Tabegoro! Super Monkey Ball 1&2 Remake",
+      "comment": "Japanese title - translated"
+    },
+    {
+      "name": "smbbm.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/super-monkey-ball-banana-mania-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000952"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Super_Monkey_Ball:_Banana_Mania"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://supermonkeyball.fandom.com/wiki/Super_Monkey_Ball:_Banana_Mania"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1316910"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/SuperMonkeyBall"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Super%20Monkey%20Ball:%20Banana%20Mania"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://smb.sega.com/bananamania/lang/en.html"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 05, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-05"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 05, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-05"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 05, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-05"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 05, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 05, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-05"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 05, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arcon.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "sFNKTTKn4dI",
+      "url": "https://www.youtube.com/watch?v=sFNKTTKn4dI"
+    },
+    {
+      "title": "Kazuma Kiryu Character Trailer",
+      "youtube_id": "xIx3YOMDNk8",
+      "url": "https://www.youtube.com/watch?v=xIx3YOMDNk8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "snIaMzYhvxU",
+      "url": "https://www.youtube.com/watch?v=snIaMzYhvxU"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "marvels-avengers",
+  "igdb_id": 18028,
+  "name": "Marvel Avengers Academy",
+  "summary": "Marvel Avengers Academy is a mobile simulation game that invites players into a reimagining of the Marvel Universe. Players take on the role of a director tasked with building and managing their own superhero academy, where iconic Marvel characters like Iron Man, Captain America, Black Widow, Hulk, Thor, and many others are reimagined as students. As the academy grows, players can unlock new characters, outfits, and abilities, while also expanding their campus and completing missions to advance the storyline.",
+  "first_release_year": 2016,
+  "developers": [
+    "TinyCo"
+  ],
+  "publishers": [],
+  "genres": [
+    "Simulator"
+  ],
+  "themes": [],
+  "game_modes": [],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Marvel"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "robots",
+    "superhero",
+    "digital distribution",
+    "licensed game",
+    "based on - comics"
+  ],
+  "alternative_names": [
+    {
+      "name": "MARVEL Avengers Academy",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "http://www.tinyco.com/tinyco-games/marvel-avengers-academy/"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://itunes.apple.com/us/app/marvel-avengers-academy/id1061768547?mt=8&uo=4"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marvel_Avengers_Academy"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Marvel%20Avengers%20Academy"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Feb 04, 2016",
+      "status": "Released",
+      "date_iso": "2016-02-04"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Feb 04, 2016",
+      "status": "Released",
+      "date_iso": "2016-02-04"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Feb 03, 2016",
+      "status": "Released",
+      "date_iso": "2016-02-03"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "special-forces-2",
+  "igdb_id": 41098,
+  "name": "Special Forces II",
+  "summary": "",
+  "first_release_year": 1985,
+  "developers": [],
+  "publishers": [],
+  "genres": [
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Special%20Forces%20II"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Arcade",
+      "region": null,
+      "date": "Jun 01, 1985",
+      "status": "Released",
+      "date_iso": "1985-06-01"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

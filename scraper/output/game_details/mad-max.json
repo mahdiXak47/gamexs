@@ -1,0 +1,291 @@
+{
+  "slug": "mad-max",
+  "igdb_id": 2552,
+  "name": "Mad Max",
+  "summary": "In Mad Max, the player takes on the role of titular character Mad Max; a dangerous melee fighter and can use his attacks to kill almost anyone. His weapon of choice is his shotgun. He is assisted by another man called Chumbucket. Chum mainly works with Max to build and upgrade the Magnum Opus vehicle.\n\nMad Max will feature a variety of weapons which Max can use to defeat enemies. Though the shotgun is Max's weapon of choice, ammo is scarce, and so melee options are the smarter way to go. The 'thunderstick' is an explosive weapon that can be lanced into an enemy's chest, crackling like a lit dynamite fuse before blowing the victim to smithereens. The Harpoon is also one of Max's favorite weapon though it can only be used in-vehicle with Chum riding along. Max's Magnum Opus can be combined with a speedy V12 engine and powerful ramming ability to destroy enemies's vehicles and weaponry. When simultaneously driving and aiming, the game enters slow-motion and allows you to toggle between targets. Not much is known about the vehicular combat and its features.\n\nMad Max will feature crafting system which can be used to craft new weapons and tools. Max's garage can also be used to change and modify the car's engines, chassis, wheels, body works including paint treatment and the “shell” of the auto-mobile and the car’s weight and attributes update accordingly. Max can also be upgraded though it's plans hasn't fully been implemented.\n\nMany choices are given in the game, such as, either playing silently or aggressively. Max can also get guidance from Chum about how he can complete his objectives strategically. However, its largely up to the player how he can complete the objectives.",
+  "first_release_year": 2015,
+  "developers": [
+    "Avalanche Studios"
+  ],
+  "publishers": [
+    "Feral Interactive",
+    "WB Games"
+  ],
+  "genres": [
+    "Racing",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Survival",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Mad Max"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Mad Max"
+  ],
+  "game_engines": [
+    "Avalanche engine"
+  ],
+  "keywords": [
+    "vehicular combat",
+    "post-apocalyptic",
+    "bloody",
+    "cars",
+    "destruction",
+    "death",
+    "hand-to-hand combat",
+    "action-adventure",
+    "steam",
+    "based on - movie",
+    "apocalypse",
+    "steam trading cards",
+    "vehicle combat",
+    "steam achievements",
+    "digital distribution",
+    "xbox controller support for pc",
+    "steam cloud",
+    "customization",
+    "dualshock 4 support for pc",
+    "voice acting",
+    "extreme violence",
+    "vehicle customization",
+    "melee",
+    "useable vehicles",
+    "fuel management",
+    "gamescom 2013",
+    "pax prime 2015",
+    "banter during gameplay",
+    "cannibalism",
+    "tower reveals map",
+    "day one patch",
+    "male protagonist",
+    "interior design",
+    "gog preservation program"
+  ],
+  "alternative_names": [
+    {
+      "name": "MM",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Mad Max 2015",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "MadMax.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "http://madmax.wikia.com/wiki/Mad_Max_(2015_video_game)"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://web.archive.org/web/20180512105842/http://madmaxgame.com/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/mad_max"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/mad-max/BQ2F1LGNL6M1"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/202765"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mad_Max_(2015_video_game)"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/MadMaxGame"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/MadMaxGame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Mad%20Max"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/234140"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 04, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-09-04"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 02, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-09-02"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 02, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-09-02"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 01, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-09-01"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 04, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-09-04"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 03, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-09-03"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Oct 20, 2016",
+      "status": "Cancelled",
+      "date_iso": "2016-10-20"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Oct 20, 2016",
+      "status": "Cancelled",
+      "date_iso": "2016-10-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 02, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-09-02"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 04, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-09-04"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 01, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-09-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 03, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-09-03"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 01, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-09-01"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 03, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-09-03"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 01, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-10-01"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 01, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-10-01"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ario7.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Savage Road Trailer",
+      "youtube_id": "To1D7yskuUY",
+      "url": "https://www.youtube.com/watch?v=To1D7yskuUY"
+    },
+    {
+      "title": "Walkthrough Trailer",
+      "youtube_id": "I_n2FdVVP3o",
+      "url": "https://www.youtube.com/watch?v=I_n2FdVVP3o"
+    },
+    {
+      "title": "Stronghold Trailer",
+      "youtube_id": "TjqhV-vzKik",
+      "url": "https://www.youtube.com/watch?v=TjqhV-vzKik"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "uXWlMu_xkz8",
+      "url": "https://www.youtube.com/watch?v=uXWlMu_xkz8"
+    },
+    {
+      "title": "Soul of a Man Gameplay Trailer",
+      "youtube_id": "ruEwqjYqXIs",
+      "url": "https://www.youtube.com/watch?v=ruEwqjYqXIs"
+    },
+    {
+      "title": "Magnum Opus Trailer",
+      "youtube_id": "37UyZk8fr4Q",
+      "url": "https://www.youtube.com/watch?v=37UyZk8fr4Q"
+    },
+    {
+      "title": "Scrotus Trailer",
+      "youtube_id": "Y1aSDPWXvOU",
+      "url": "https://www.youtube.com/watch?v=Y1aSDPWXvOU"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "QJMTTjhgBQ4",
+      "url": "https://www.youtube.com/watch?v=QJMTTjhgBQ4"
+    }
+  ]
+}

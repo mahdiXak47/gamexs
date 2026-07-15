@@ -1,0 +1,240 @@
+{
+  "slug": "teenage-mutant-ninja-turtles-splintered-fate-نسخه-دلوکس",
+  "igdb_id": 248582,
+  "name": "Teenage Mutant Ninja Turtles: Splintered Fate",
+  "summary": "TMNT Splintered Fate - Unleash the Turtles in a rogue-like quest to rescue Splinter from the Foot Clan! Master ninja skills, unite in bodacious co-op gameplay, and conquer iconic NYC locales.",
+  "first_release_year": 2023,
+  "developers": [
+    "Super Evil Megacorp"
+  ],
+  "publishers": [
+    "Viacom International"
+  ],
+  "genres": [
+    "Fighting",
+    "Hack and slash/Beat 'em up",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Teenage Mutant Ninja Turtles"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Teenage Mutant Ninja Turtles"
+  ],
+  "game_engines": [
+    "E.V.I.L Engine"
+  ],
+  "keywords": [
+    "cross-platform multiplayer",
+    "turtle",
+    "steam cloud",
+    "controller support",
+    "apple arcade",
+    "action roguelike",
+    "available on - apple arcade",
+    "nextfest october 2024"
+  ],
+  "alternative_names": [
+    {
+      "name": "TMNT Splintered Fate",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "TMNTSF.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@Super-Evil-Megacorp"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/superevilmegacorp.bsky.social"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10011976"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/superevilmegacorp/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SuperEvilMegacorp/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/superevilmc"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/tmnt-splintered-fate"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://superevilmegacorp.com/games/tmnt-splintered-fate/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2996040"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/teenage-mutant-ninja-turtles-splintered-fate-0722ac"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/us/app/tmnt-splintered-fate/id1625907876https://apps.apple.com/us/app/tmnt-splintered-fate/id1625907876"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/teenage-mutant-ninja-turtles-splintered-fate/9NM22MRRMX6Z"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/superevilmegaco"
+    },
+    {
+      "label": "iPad",
+      "url": "https://apps.apple.com/us/app/tmnt-splintered-fate/id1625907876"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://tmnt-splintered-fate.fandom.com/wiki/TMNT_Splintered_Fate_Wiki"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles:_Splintered_Fate"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/TMNTSplinteredFate/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/teenage-mutant-ninja-turtles-splintered-fate-nintendo-switch-2-edition-switch-2/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-17"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "May 04, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-05-04"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "May 04, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-05-04"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 06, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-06"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-24"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Dec 16, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-16"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5k7f.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5k7e.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "YsO3F2_sY1k",
+      "url": "https://www.youtube.com/watch?v=YsO3F2_sY1k"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "apa2MnxUz7I",
+      "url": "https://www.youtube.com/watch?v=apa2MnxUz7I"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "75aZnLv0h3k",
+      "url": "https://www.youtube.com/watch?v=75aZnLv0h3k"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "fIaR93sOHRQ",
+      "url": "https://www.youtube.com/watch?v=fIaR93sOHRQ"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "kmjrhiOWdHU",
+      "url": "https://www.youtube.com/watch?v=kmjrhiOWdHU"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "lVR-9Klu8PM",
+      "url": "https://www.youtube.com/watch?v=lVR-9Klu8PM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "NFv94yCHDxQ",
+      "url": "https://www.youtube.com/watch?v=NFv94yCHDxQ"
+    }
+  ]
+}

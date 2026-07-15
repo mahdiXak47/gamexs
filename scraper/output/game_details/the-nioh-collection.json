@@ -1,0 +1,60 @@
+{
+  "slug": "the-nioh-collection",
+  "igdb_id": 140979,
+  "name": "The Nioh Collection",
+  "summary": "The Nioh Collection is a package released by Team Ninja and Koei Tecmo in February 2021. This collection includes remastered versions of both Nioh games, optimized for next-gen consoles. Specifically, it features:\n\n- Nioh Remastered - Complete Edition: The original Nioh game, along with all its DLC expansions (Dragon of the North, Defiant Honor, and Bloodshed's End), enhanced for improved graphics, faster load times, and support for 4K resolution and up to 120 FPS on compatible hardware.\n\n- Nioh 2 Remastered - Complete Edition: The second installment, including all its DLC expansions (The Tengu's Disciple, Darkness in the Capital, and The First Samurai), also optimized with enhanced visuals, performance, and technical improvements.",
+  "first_release_year": 2021,
+  "developers": [
+    "Team NINJA"
+  ],
+  "publishers": [
+    "Koei Tecmo"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Historical"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Nioh"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "violent",
+    "soulslike"
+  ],
+  "alternative_names": [],
+  "websites": [],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 05, 2021",
+      "status": "Released",
+      "date_iso": "2021-02-05"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "v9CP2GXo3Ew",
+      "url": "https://www.youtube.com/watch?v=v9CP2GXo3Ew"
+    }
+  ]
+}

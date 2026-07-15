@@ -1,0 +1,114 @@
+{
+  "slug": "horizon-call-of-the-mountain",
+  "igdb_id": 186309,
+  "name": "Horizon Call of the Mountain",
+  "summary": "Horizon Call of the Mountain, created for PlayStation’s Next-Gen VR hardware, is an upcoming brand-new adventure in the world of Horizon. Embrace a new level of immersion in a unique experience, designed to push hardware technology, innovation, and gameplay.",
+  "first_release_year": 2023,
+  "developers": [
+    "Firesprite Ltd"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Virtual Reality"
+  ],
+  "series": [
+    "Horizon"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Horizon"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "호라이즌 콜 오브 더 마운틴",
+      "comment": "Korean title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Horizon_Call_of_the_Mountain"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/HorizonCallofMountain/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://horizon.fandom.com/wiki/Horizon_Call_of_the_Mountain"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.guerrilla-games.com/play/horizon"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/guerrillagames/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/guerrillagames"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/horizon"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004029"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Horizon%20Call%20of%20the%20Mountain"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "Feb 22, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1yvo.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1yvn.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1yvp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2b63.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4kqt.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "yPNn-jwAC9c",
+      "url": "https://www.youtube.com/watch?v=yPNn-jwAC9c"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "zxvsl34f_HM",
+      "url": "https://www.youtube.com/watch?v=zxvsl34f_HM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Q5NdLcyKM98",
+      "url": "https://www.youtube.com/watch?v=Q5NdLcyKM98"
+    }
+  ]
+}

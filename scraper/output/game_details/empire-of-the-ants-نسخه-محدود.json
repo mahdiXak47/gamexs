@@ -1,0 +1,188 @@
+{
+  "slug": "empire-of-the-ants-نسخه-محدود",
+  "igdb_id": 237276,
+  "name": "Empire of the Ants",
+  "summary": "Embark on an epic journey into the infinitesimal in this photorealistic strategy game. Play as a fearless ant and guide your colony through the dangers of the forest.",
+  "first_release_year": 2024,
+  "developers": [
+    "Tower Five"
+  ],
+  "publishers": [
+    "Anuman Interactive",
+    "Microids",
+    "Rainy Frog"
+  ],
+  "genres": [
+    "Real Time Strategy (RTS)",
+    "Strategy",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": "Empire of the Ants",
+  "franchises": [
+    "Les Fourmis"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "grand strategy",
+    "ants",
+    "based on - book",
+    "steam achievements",
+    "steam cloud",
+    "steam families"
+  ],
+  "alternative_names": [
+    {
+      "name": "蚂蚁帝国",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "螞蟻雄兵",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "Les Fourmis",
+      "comment": "French title"
+    },
+    {
+      "name": "베르나르 베르베르의 개미(Empire of the Ants)",
+      "comment": "Korean title - translated"
+    },
+    {
+      "name": "「蟻の帝国――Empire of the Ants」",
+      "comment": "Japanese title - translated"
+    },
+    {
+      "name": "Empire.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/empire-of-the-ants/9P82CBM74SRG"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/EmpireAntsGame/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/playlist?list=PLkqP2Oulr-MTRYDf8pFpFWpkSILLLoSnU"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007652"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/empire_of_the_ants"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2287330"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.towerfive.net/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Empire_of_the_Ants_(video_game)"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/EmpireAntsGame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/empire-of-the-ants-1"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/empire-of-the-ants-ffcba5"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/microids"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 07, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-07"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 03, 2024",
+      "status": "status_34",
+      "date_iso": "2024-11-03"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 07, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-07"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 03, 2024",
+      "status": "status_34",
+      "date_iso": "2024-11-03"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 07, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-07"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 03, 2024",
+      "status": "status_34",
+      "date_iso": "2024-11-03"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar25z0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar36r4.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "TY5r0nEd2ag",
+      "url": "https://www.youtube.com/watch?v=TY5r0nEd2ag"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "LSsX4T5VPEQ",
+      "url": "https://www.youtube.com/watch?v=LSsX4T5VPEQ"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "yL5mXyAibyE",
+      "url": "https://www.youtube.com/watch?v=yL5mXyAibyE"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "slug": "slave-zero-x",
+  "igdb_id": 210941,
+  "name": "Slave Zero X",
+  "summary": "Slave Zero X is a stylish 2.5D character action game set in the biopunk world of Slave Zero (1999). Run & Slash your way through a dystopian future in this character action game which will resonate with fans of Devil May Cry, Strider, and Guilty Gear.",
+  "first_release_year": 2024,
+  "developers": [
+    "Poppy Works"
+  ],
+  "publishers": [
+    "Ziggurat Interactive"
+  ],
+  "genres": [
+    "Fighting",
+    "Platform",
+    "Hack and slash/Beat 'em up",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "GameMaker"
+  ],
+  "keywords": [
+    "retro",
+    "dystopian",
+    "pixel graphics"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.ziggurat.games/game/slave-zero-x"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/slave-zero-x-switch/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@ZigguratInteractive"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005401"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/playziggurat"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/zigguratinteractive"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/slave_zero_x"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Slave%20Zero%20X"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1903910"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 21, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 21, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 21, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-21"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 21, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 21, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-21"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 11, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-04-11"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1qs8.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "iPhPkQgen1Y",
+      "url": "https://www.youtube.com/watch?v=iPhPkQgen1Y"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "z4GSxUbttew",
+      "url": "https://www.youtube.com/watch?v=z4GSxUbttew"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "nmo2ilg9p40",
+      "url": "https://www.youtube.com/watch?v=nmo2ilg9p40"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "tJ9yRZxbF7Q",
+      "url": "https://www.youtube.com/watch?v=tJ9yRZxbF7Q"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "PZ80UpGVx1s",
+      "url": "https://www.youtube.com/watch?v=PZ80UpGVx1s"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Yqagp9UcjUw",
+      "url": "https://www.youtube.com/watch?v=Yqagp9UcjUw"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "bNFTScFX0rU",
+      "url": "https://www.youtube.com/watch?v=bNFTScFX0rU"
+    }
+  ]
+}

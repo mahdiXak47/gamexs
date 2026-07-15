@@ -1,0 +1,179 @@
+{
+  "slug": "ratchet-clank-rift-apart",
+  "igdb_id": 134582,
+  "name": "Ratchet & Clank: Rift Apart",
+  "summary": "Go dimension-hopping with Ratchet and Clank as they take on an evil emperor from another reality. Jump between action-packed worlds and beyond at mind-blowing speeds, complete with dazzling visuals and an insane arsenal.",
+  "first_release_year": 2021,
+  "developers": [
+    "Insomniac Games"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment",
+    "PlayStation Studios"
+  ],
+  "genres": [
+    "Shooter",
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Ratchet & Clank",
+    "Ratchet & Clank Future"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Ratchet & Clank"
+  ],
+  "game_engines": [
+    "Proprietary Engine"
+  ],
+  "keywords": [
+    "aliens",
+    "pirates",
+    "collecting",
+    "story driven",
+    "fast paced",
+    "robots",
+    "cinematic",
+    "space",
+    "stylized",
+    "portals",
+    "funny",
+    "3d platformer",
+    "colorful",
+    "boss fight",
+    "cartoony",
+    "sheep",
+    "upgradeable weapons",
+    "alternate reality",
+    "planet",
+    "narrative",
+    "multiple playable characters",
+    "the game awards - best action-adventure game - nominee",
+    "the game awards - best art direction - nominee",
+    "the game awards - best audio design - nominee",
+    "the game awards - best game direction - nominee",
+    "the game awards - game of the year - nominee",
+    "weapons"
+  ],
+  "alternative_names": [
+    {
+      "name": "Ratchet and Clank: Rift Apart",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "RiftApart.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "Ratchet & Clank: Сквозь миры",
+      "comment": "Russian title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://insomniac.games/game/ratchet-clank-rift-apart"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Ratchet%20%26%20Clank%3A%20Rift%20Apart"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/insomniacgames"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000669"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/insomniacgames"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/insomgames"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/ratchet-clank-rift-apart"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://ratchetandclank.fandom.com/wiki/Ratchet_%26_Clank:_Rift_Apart"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/insomniacgames"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/RatchetAndClank"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1895880/Ratchet__Clank_Rift_Apart/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ratchet_%26_Clank:_Rift_Apart"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/ps"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 26, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 11, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-06-11"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3sek.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5jvf.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "LjuAi3WVlqk",
+      "url": "https://www.youtube.com/watch?v=LjuAi3WVlqk"
+    },
+    {
+      "title": "Gamescom 2020 Gameplay Demo",
+      "youtube_id": "tS0dl8KEbng",
+      "url": "https://www.youtube.com/watch?v=tS0dl8KEbng"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "9aJK8K_NnTE",
+      "url": "https://www.youtube.com/watch?v=9aJK8K_NnTE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "i_jZ3BV6Adc",
+      "url": "https://www.youtube.com/watch?v=i_jZ3BV6Adc"
+    }
+  ]
+}

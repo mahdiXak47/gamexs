@@ -1,0 +1,129 @@
+{
+  "slug": "the-devil-within-satgat",
+  "igdb_id": 213423,
+  "name": "The Devil Within: Satgat",
+  "summary": "The Devil Within: Satgat is a 2.5D stylish action adventure that follows the journey of an Eastern warrior infected with demonic blood. Dig into the secrets of a ruined world while taking down enemies in stylish action sequences.",
+  "first_release_year": 2024,
+  "developers": [
+    "Newcore Games",
+    "Astrolabe Games"
+  ],
+  "publishers": [
+    "Newcore Games"
+  ],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "SatGat.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1802880"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20Devil%20Within:%20Satgat"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/the-devil-within-satgat-bb3fff"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007474"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/67MPtfA5Hm"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Newcore_Games"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@newcoregames"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/newcoregames"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "TBD",
+      "status": "Cancelled"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 09, 2024",
+      "status": "Beta",
+      "date_iso": "2024-04-09"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 21, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-21"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 21, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1smz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4uu2.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "DVI5huZzlu8",
+      "url": "https://www.youtube.com/watch?v=DVI5huZzlu8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "oLFo_dm8z7E",
+      "url": "https://www.youtube.com/watch?v=oLFo_dm8z7E"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "9Uw7OqcLNlk",
+      "url": "https://www.youtube.com/watch?v=9Uw7OqcLNlk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "csm3DtS6les",
+      "url": "https://www.youtube.com/watch?v=csm3DtS6les"
+    }
+  ]
+}

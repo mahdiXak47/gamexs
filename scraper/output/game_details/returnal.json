@@ -1,0 +1,166 @@
+{
+  "slug": "returnal",
+  "igdb_id": 134584,
+  "name": "Returnal",
+  "summary": "Returnal is a 2021 roguelike third-person shooter video game developed by Housemarque and published by Sony Interactive Entertainment.\n\nIt follows Selene Vassos, an astronaut who lands on the planet Atropos in search of the mysterious \"White Shadow\" signal and finds herself trapped in a time loop.\n\nAfter crash-landing on a shape-shifting alien planet, Selene finds herself fighting tooth and nail for survival. Every time she’s defeated, the player is forced to restart the journey.",
+  "first_release_year": 2021,
+  "developers": [
+    "Housemarque"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "exploration",
+    "psychological horror",
+    "surrealism",
+    "dark",
+    "story driven",
+    "roguelike",
+    "fast paced",
+    "upgradable weapons",
+    "procedural generation",
+    "permadeath",
+    "time manipulation",
+    "cinematic",
+    "difficult",
+    "bullet hell",
+    "atmospheric",
+    "surreal",
+    "psychological",
+    "time loop",
+    "boss fight",
+    "steam achievements",
+    "steam cloud",
+    "resource gathering",
+    "narrative",
+    "roguelite",
+    "alien world",
+    "the game awards - best action game - winner",
+    "the game awards - best audio design - nominee",
+    "the game awards - best game direction - nominee",
+    "action roguelike",
+    "steam families"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000176"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Housemarque"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Housemarque"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/returnal"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1649240/Returnal"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Returnal"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://returnal.fandom.com/wiki/Returnal_Wiki"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Returnal_(video_game)"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Returnal"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/housemarque?hl=en"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://housemarque.com/games/returnal"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/housemarquegames"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 30, 2021",
+      "status": "Released",
+      "date_iso": "2021-04-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7fb.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3d08.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "5929rKazHbE",
+      "url": "https://www.youtube.com/watch?v=5929rKazHbE"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "d3K3AUXKCnY",
+      "url": "https://www.youtube.com/watch?v=d3K3AUXKCnY"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "Jv4BjWoB-NA",
+      "url": "https://www.youtube.com/watch?v=Jv4BjWoB-NA"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "E94-hzpdBPU",
+      "url": "https://www.youtube.com/watch?v=E94-hzpdBPU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "0iNGNYuR5_8",
+      "url": "https://www.youtube.com/watch?v=0iNGNYuR5_8"
+    }
+  ]
+}

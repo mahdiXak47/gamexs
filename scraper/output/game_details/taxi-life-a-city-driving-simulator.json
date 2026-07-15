@@ -1,0 +1,150 @@
+{
+  "slug": "taxi-life-a-city-driving-simulator",
+  "igdb_id": 215898,
+  "name": "Taxi Life: A City Driving Simulator",
+  "summary": "Climb into the driver's seat of your car and your business, transport passengers across Barcelona and grow your company! Can you help relieve the transportation challenges of a city that never sleeps?",
+  "first_release_year": 2024,
+  "developers": [
+    "Simteract"
+  ],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Simulator"
+  ],
+  "themes": [
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "life simulation",
+    "vehicle simulation",
+    "steam achievements",
+    "xbox controller support for pc",
+    "steam cloud",
+    "controller support",
+    "barcelona",
+    "steam families"
+  ],
+  "alternative_names": [
+    {
+      "name": "TaxiLife.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Taxi%20Life:%20A%20City%20Driving%20Simulator"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1351240"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/TaxiLife/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007412"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/taxi-life-a-city-driving-simulator/9PP1T546WJFM"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/simteract"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://simteract.com/projects/urban-venture/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/fr/p/taxi-life-a-city-driving-simulator"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCcBBggm47weZ7n5EfcKzNoA"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/simteract/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/cJtfU3f3sD"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 07, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-07"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 07, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-07"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 07, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-07"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1tzb.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar49x9.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar49x8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar49x7.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "htnkHhX8CAI",
+      "url": "https://www.youtube.com/watch?v=htnkHhX8CAI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "NqjenN2qohI",
+      "url": "https://www.youtube.com/watch?v=NqjenN2qohI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "6XsNjIrR2nA",
+      "url": "https://www.youtube.com/watch?v=6XsNjIrR2nA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "b_rQr01KqeE",
+      "url": "https://www.youtube.com/watch?v=b_rQr01KqeE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "qVx2hYcJzmU",
+      "url": "https://www.youtube.com/watch?v=qVx2hYcJzmU"
+    }
+  ]
+}

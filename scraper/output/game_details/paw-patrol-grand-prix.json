@@ -1,0 +1,150 @@
+{
+  "slug": "paw-patrol-grand-prix",
+  "igdb_id": 202417,
+  "name": "Paw Patrol: Grand Prix",
+  "summary": "No track is too big, no racer too small! The PAW Patrol are on their fastest mission yet – To win the Pup Cup! Race around iconic locations including Adventure Bay, Jake’s Snowboarding Resort and The Jungle in this 4-player-championship to find out who will be crowned the winner.",
+  "first_release_year": 2022,
+  "developers": [
+    "3DClouds"
+  ],
+  "publishers": [],
+  "genres": [
+    "Racing",
+    "Sport"
+  ],
+  "themes": [
+    "Action",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "La Patrulla Canina: Grand Prix\t",
+      "comment": "Spanish title"
+    },
+    {
+      "name": "Patrulha Canina: Grand Prix",
+      "comment": "Portuguese title"
+    },
+    {
+      "name": "La Pat'Patrouille : Grand Prix",
+      "comment": "French title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Paw_Patrol:_Grand_Prix"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/paw-patrol-grand-prix-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003932"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1770490"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://outrightgames.com/news/paw-patrol-grand-prix-zooms-on-to-video-game-consoles-google-stadia-pc-this-september/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Outright_Games"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Paw%20Patrol:%20Grand%20Prix"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1ntz.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "59_KQD1iVdk",
+      "url": "https://www.youtube.com/watch?v=59_KQD1iVdk"
+    }
+  ]
+}

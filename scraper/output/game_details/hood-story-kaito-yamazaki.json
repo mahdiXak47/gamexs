@@ -1,0 +1,106 @@
+{
+  "slug": "hood-story-kaito-yamazaki",
+  "igdb_id": 216717,
+  "name": "Hood Story: Kaito Yamazaki",
+  "summary": "Play as \"Kaito Yamazaki\" a young Japanese delinquent from the underprivileged Kamagasaki district of Osaka. He will have to juggle love, friendship and violence to get his life back on track.",
+  "first_release_year": 2024,
+  "developers": [
+    "Kenzo Games"
+  ],
+  "publishers": [
+    "Kenzo Games"
+  ],
+  "genres": [
+    "Fighting",
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "anime",
+    "jrpg",
+    "gangs",
+    "multiple endings",
+    "free roam",
+    "japan",
+    "combat",
+    "yakuza",
+    "mini game"
+  ],
+  "alternative_names": [
+    {
+      "name": "HSKY",
+      "comment": "Acronym"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/hood-story-kaito-yamazaki-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009321"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1768200"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/hood-story-kaito-yamazaki"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/KenzoGames3"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@KenzoGamesOfficial/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 11, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-11"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 01, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 30, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-05-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1umx.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "91y17mMQZGI",
+      "url": "https://www.youtube.com/watch?v=91y17mMQZGI"
+    }
+  ]
+}

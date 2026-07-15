@@ -1,0 +1,110 @@
+{
+  "slug": "mafia-trilogy",
+  "igdb_id": 133900,
+  "name": "Mafia: Trilogy",
+  "summary": "Be immersed into the brutal world of organized crime spanning three eras of illicit activity in America. For the first time ever, play all three crime dramas in the Mafia franchise in glorious 4K and Ultra HD detail, including the built from the ground up, faithfully reimagined edition of the critically acclaimed original, Mafia.",
+  "first_release_year": 2020,
+  "developers": [
+    "Hangar 13"
+  ],
+  "publishers": [
+    "2K Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "마피아 트릴로지",
+      "comment": "Korean title"
+    },
+    {
+      "name": "マフィア トリロジーパック",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "『マフィア トリロジーパック』",
+      "comment": "Japanese title - original"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/mafia-trilogy/9NKG0X1MGQTX"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008649"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/mafia_trilogy"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/mafiagame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://mafiagame.com/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/bundles/mafia-trilogy"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/sub/465030"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 25, 2020",
+      "status": "Released",
+      "date_iso": "2020-09-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 25, 2020",
+      "status": "Released",
+      "date_iso": "2020-09-25"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 25, 2020",
+      "status": "Released",
+      "date_iso": "2020-09-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar105f.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar105e.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "IAIMnrryFs8",
+      "url": "https://www.youtube.com/watch?v=IAIMnrryFs8"
+    }
+  ]
+}

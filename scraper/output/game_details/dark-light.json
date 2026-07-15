@@ -1,0 +1,182 @@
+{
+  "slug": "dark-light",
+  "igdb_id": 126237,
+  "name": "Dark Light",
+  "summary": "Dark Light is a Sci-fi 2D action-platformer, metroidvania, souls-like inspired game. Explore apocalypse cyberpunk world full of supernatural beings. Encounter and defeat creatures of darkness which are invisible to the naked eye, detected only with the light source of your drone. Experience the horror and feel their presence as they surround you.\nAs a Dark-Hunter you were dropped into a wrecked world. To survive, you need to equip yourself, fight through your way, collecting ‘shards’ from killing super nature creatures to reinforce your energy. Through surviving, you will explore the mysterious dark zones of the apocalypse world.\n\nFEATURES\n\n- Cinematic quality graphic, detailed characters and environment design, vivid animation with lush visual effect.\n\n- Variety of range, melee, throwable weapons, and unique items, multiple ways to upgrade weapons, special equipment and player to shape your own character skills.\n\n- Non-linear map structure for you to choose your own path to explore the dark zones, encounter horrifying supernatural enemies, fearsome bosses, and friendly NPC, fight with invisible creatures that only can be seen in the special light source.\n\n-Detect invisible enemies and reveal hidden path with a special light source from your drone.",
+  "first_release_year": 2022,
+  "developers": [
+    "Mirari&Co"
+  ],
+  "publishers": [
+    "Mirari&Co",
+    "Maple Whispering Limited"
+  ],
+  "genres": [
+    "Platform",
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity 2019"
+  ],
+  "keywords": [
+    "post-apocalyptic",
+    "cyberpunk",
+    "metroidvania",
+    "soulslike"
+  ],
+  "alternative_names": [
+    {
+      "name": "Dark Light.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/mirari.tv"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007200"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/dark-light/9PJR97XQXMJK"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1134520"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCapOWLP84E1920a4FRvZmvg?view_as=subscriber"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/dark-light"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/dark_light"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.darklight-game.com/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/x2rAp3f"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Miraricogames"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/darklight_game?hl=en"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/dark-light-switch/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 26, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-26"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 08, 2020",
+      "status": "Beta",
+      "date_iso": "2020-05-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "May 08, 2020",
+      "status": "Beta",
+      "date_iso": "2020-05-08"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 30, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-01-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 30, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-01-30"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 23, 2026",
+      "status": "Released",
+      "date_iso": "2026-04-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arqk9.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "GJrCJFDd8Mo",
+      "url": "https://www.youtube.com/watch?v=GJrCJFDd8Mo"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "sgHiCRHfLAM",
+      "url": "https://www.youtube.com/watch?v=sgHiCRHfLAM"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "oBmzzBu9_k0",
+      "url": "https://www.youtube.com/watch?v=oBmzzBu9_k0"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "Mbd2wkJe6kQ",
+      "url": "https://www.youtube.com/watch?v=Mbd2wkJe6kQ"
+    }
+  ]
+}

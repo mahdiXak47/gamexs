@@ -1,0 +1,205 @@
+{
+  "slug": "کال-اف-دیوتی-بلک-اوپس-call-of-duty-black-ops-7",
+  "igdb_id": 348220,
+  "name": "Call of Duty: Black Ops 7",
+  "summary": "Call of Duty: Black Ops 7 is a first-person shooter set in 2035, co-developed by Treyarch and Raven Software. The game features three main modes: a cooperative campaign playable with up to four players or solo, multiplayer with 6v6 and 20v20 modes, and the round-based Zombies mode. Multiplayer features a perk system split into combat specialties, weapon prestige progression, and scorestreak rewards.",
+  "first_release_year": 2025,
+  "developers": [
+    "Treyarch",
+    "Raven Software"
+  ],
+  "publishers": [
+    "Activision"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Call of Duty: Black Ops",
+    "Call of Duty"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Call of Duty"
+  ],
+  "game_engines": [
+    "IW Engine"
+  ],
+  "keywords": [
+    "zombies",
+    "futuristic warfare",
+    "team deathmatch",
+    "ai-generated artwork"
+  ],
+  "alternative_names": [
+    {
+      "name": "Black Ops 7",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "CoD: BO7",
+      "comment": "Acronym"
+    },
+    {
+      "name": "CoD: Black Ops 7",
+      "comment": "Abbreviation"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://callofduty.fandom.com/wiki/Call_of_Duty:_Black_Ops_7"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/call-of-duty-black-ops-7"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Black_Ops_7"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/callofduty/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/CallofDuty"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/callofduty.com"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/CallofDuty"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@CallofDuty"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.callofduty.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3606480"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/CODBlackOps7/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/callofdutyofficial"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 14, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 14, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 14, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 05, 2025",
+      "status": "Alpha",
+      "date_iso": "2025-10-05"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 05, 2025",
+      "status": "Alpha",
+      "date_iso": "2025-10-05"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 05, 2025",
+      "status": "Alpha",
+      "date_iso": "2025-10-05"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 05, 2025",
+      "status": "Alpha",
+      "date_iso": "2025-10-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 05, 2025",
+      "status": "Alpha",
+      "date_iso": "2025-10-05"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 14, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-14"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 14, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar63aw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar63au.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar63av.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "dZdRDyYGoQg",
+      "url": "https://www.youtube.com/watch?v=dZdRDyYGoQg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "9txkGBj_trg",
+      "url": "https://www.youtube.com/watch?v=9txkGBj_trg"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "OzY-IhW45DY",
+      "url": "https://www.youtube.com/watch?v=OzY-IhW45DY"
+    }
+  ]
+}

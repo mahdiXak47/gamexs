@@ -1,0 +1,248 @@
+{
+  "slug": "resident-evil-revelations-2",
+  "igdb_id": 7725,
+  "name": "Resident Evil: Revelations 2",
+  "summary": "Resident Evil: Revelations 2 is the retail version of the episodic survival horror series that was originally released as four downloadable episodes. This physical version combines the entire story along with some extras, but not all the available DLC. The PC version did not receive a retail release, but the same content was bundled on Steam. The game comprises four episodes, each of which feature two separate stories. This sequel bears a stronger tone to the concept of survival horror than titles such as Resident Evil 5 and Resident Evil 6. Elements of ammunition management as well as stealth or sneaking come into play in the gameplay.",
+  "first_release_year": 2015,
+  "developers": [
+    "Capcom"
+  ],
+  "publishers": [
+    "Capcom",
+    "Sony Computer Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Resident Evil: Revelations",
+    "Resident Evil"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Resident Evil"
+  ],
+  "game_engines": [
+    "MT Framework"
+  ],
+  "keywords": [
+    "zombies",
+    "bloody",
+    "episodic",
+    "female protagonist",
+    "multiple protagonists",
+    "online",
+    "over the shoulder",
+    "sequel",
+    "hunter",
+    "no jumping",
+    "digital distribution",
+    "split-screen multiplayer",
+    "playstation trophies",
+    "alternate costumes",
+    "60 fps on consoles",
+    "leveling up",
+    "language selection",
+    "microtransaction",
+    "original soundtrack release",
+    "profanity",
+    "descendants of other characters",
+    "corpse",
+    "melee",
+    "real-time combat",
+    "instant kill",
+    "difficulty level",
+    "female antagonist",
+    "asymmetric co-op",
+    "mercenary",
+    "surveillance camera",
+    "stealth kill",
+    "banter during gameplay",
+    "tokyo game show 2014",
+    "kidnapping",
+    "cutscene menu",
+    "on-the-fly character switching",
+    "false death",
+    "fury",
+    "male protagonist"
+  ],
+  "alternative_names": [
+    {
+      "name": "BioHazard: Revelations 2",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "Resident Evil: Revelations 2 (Episode One)",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "rerev2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/232120"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/resident-evil-revelations-2-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.capcom.co.jp/rev2/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://residentevil.wikia.com/wiki/Resident_Evil:_Revelations_2"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Resident_Evil:_Revelations_2"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/287290"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Resident%20Evil:%20Revelations%202"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/RE_Games"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 18, 2015",
+      "status": "Released",
+      "date_iso": "2015-03-18"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Mar 20, 2015",
+      "status": "Released",
+      "date_iso": "2015-03-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 24, 2015",
+      "status": "Released",
+      "date_iso": "2015-02-24"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Mar 18, 2015",
+      "status": "Released",
+      "date_iso": "2015-03-18"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 20, 2015",
+      "status": "Released",
+      "date_iso": "2015-03-20"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Mar 20, 2015",
+      "status": "Released",
+      "date_iso": "2015-03-20"
+    },
+    {
+      "platform": "PlayStation Vita",
+      "region": null,
+      "date": "Aug 18, 2015",
+      "status": "Released",
+      "date_iso": "2015-08-18"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 20, 2015",
+      "status": "Released",
+      "date_iso": "2015-03-20"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 28, 2017",
+      "status": "Released",
+      "date_iso": "2017-11-28"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 20, 2015",
+      "status": "Released",
+      "date_iso": "2015-03-20"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Mar 20, 2015",
+      "status": "Released",
+      "date_iso": "2015-03-20"
+    },
+    {
+      "platform": "PlayStation Vita",
+      "region": null,
+      "date": "Aug 18, 2015",
+      "status": "Released",
+      "date_iso": "2015-08-18"
+    },
+    {
+      "platform": "PlayStation Vita",
+      "region": null,
+      "date": "Sep 17, 2015",
+      "status": "Released",
+      "date_iso": "2015-09-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/juafldjwydqmeqpftbez.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/rersdqthoq7eyzgb1eqz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/bxz2wtqdwyezmdy3qfrn.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ir3ktoqaj98e0aivwdsr.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/pcvb0mdcl0oy6l5jme6g.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ykn6jkxpk7bwffmqmux6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar57xt.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar57ty.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar580u.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "O7VpWghbDO8",
+      "url": "https://www.youtube.com/watch?v=O7VpWghbDO8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "dS1JebLYxnA",
+      "url": "https://www.youtube.com/watch?v=dS1JebLYxnA"
+    }
+  ]
+}

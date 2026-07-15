@@ -1,0 +1,98 @@
+{
+  "slug": "raccoon-city-edition-ps4-و",
+  "igdb_id": 132952,
+  "name": "Raccoon City Edition",
+  "summary": "Two classic survival horror games reimagined and brought together in one unbelievable package. Play as Jill Valentine as she attempts to escape Raccoon City in Resident Evil 3. Or take control of Leon and Claire in 2019's award-winning Resident Evil 2. This amazing bundle also comes with the 4v1online multiplayer game Resident Evil Resistance.",
+  "first_release_year": 2020,
+  "developers": [
+    "Capcom"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [
+    "Shooter",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Resident Evil"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/bundle/13994/RACCOON_CITY_EDITION/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/raccoon-city-edition/9NTX53L7BDCQ"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP0102-PPSA03952_00-BHB0000000000002"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 13, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-13"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-04-03"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-04-03"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-04-03"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar10c0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar10bz.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "u3wS-Q2KBpk",
+      "url": "https://www.youtube.com/watch?v=u3wS-Q2KBpk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "v_ht2suIL10",
+      "url": "https://www.youtube.com/watch?v=v_ht2suIL10"
+    }
+  ]
+}

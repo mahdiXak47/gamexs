@@ -1,0 +1,298 @@
+{
+  "slug": "dark-souls-remastered-نسخه-بلوری-ps4",
+  "igdb_id": 2155,
+  "name": "Dark Souls",
+  "summary": "Dark Souls is an action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment. Released in September 2011 as a spiritual sequel to Demon's Souls, it is set in a dark, medieval fantasy world. It is renowned for its challenging gameplay, intricate level design, and deep lore. Players control a customizable character known as the Chosen Undead, embarking on a perilous journey to uncover the secrets of the cursed land of Lordran.\n\nDark Souls is known for its punishing difficulty, requiring players to carefully manage combat, stamina, and resources while navigating hostile environments filled with dangerous enemies and formidable bosses. The game features a unique multiplayer component, allowing players to leave messages for others, summon allies for cooperative play, or invade other players' worlds for PvP combat.\n\nThe original release of Dark Souls received critical acclaim for its atmospheric world, innovative mechanics, and rewarding gameplay, solidifying its place as a seminal title in the action RPG genre.",
+  "first_release_year": 2011,
+  "developers": [
+    "FromSoftware"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Dark Souls"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Dark Souls"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "ghosts",
+    "exploration",
+    "monsters",
+    "knights",
+    "violence",
+    "wizards",
+    "medieval",
+    "brutal",
+    "magic",
+    "death",
+    "difficult",
+    "flight",
+    "insanity",
+    "action-adventure",
+    "achievements",
+    "apocalypse",
+    "undead",
+    "online",
+    "traps",
+    "sword & sorcery",
+    "boss fight",
+    "spiritual successor",
+    "digital distribution",
+    "anthropomorphism",
+    "playstation trophies",
+    "customizable characters",
+    "controller recommendation",
+    "human",
+    "polygonal 3d",
+    "bow and arrow",
+    "upgradeable weapons",
+    "wasd movement",
+    "non-player character",
+    "minotaurs",
+    "ragdoll physics",
+    "checkpoints",
+    "saving the world",
+    "moral decisions",
+    "side quests",
+    "branching storyline",
+    "player vs player",
+    "melee",
+    "auto-saving",
+    "real-time combat",
+    "parrying",
+    "games with gold",
+    "mercenary",
+    "british accent",
+    "xbox one backwards compatibility",
+    "gamersgate",
+    "games on demand",
+    "reptilian humanoid",
+    "multiple enemy boss fights",
+    "gamescom 2012",
+    "boss assistance",
+    "sliding down ladders",
+    "meme origin",
+    "new game plus",
+    "fire manipulation",
+    "blacksmith",
+    "context sensitive",
+    "secret achievements",
+    "tokyo game show 2012",
+    "swarming enemies",
+    "hidden room",
+    "entering world in a painting",
+    "dark second act",
+    "skull for a head",
+    "souls as currency",
+    "monsters that look suspiciously like genitalia",
+    "soul steal",
+    "old-fashioned english",
+    "pyromancer",
+    "gamescom 2011",
+    "tomb raiding",
+    "games for windows - live",
+    "tokyo game show 2010",
+    "soulslike",
+    "interconnected-world",
+    "action-rpg"
+  ],
+  "alternative_names": [
+    {
+      "name": "Project Dark",
+      "comment": "Working title"
+    },
+    {
+      "name": "黑暗之魂",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "다크 소울",
+      "comment": "Korean title - alternative"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/darksoulsgame"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/Dark-Souls/C010V77JZ9J7"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://en.bandainamcoent.eu/dark-souls/dark-souls"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/darksouls"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Dark%20Souls"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dark_Souls_(video_game)"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/DarkSoulsGame"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://darksouls.fandom.com/wiki/Dark_Souls"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/darksoulsEU"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 23, 2012",
+      "status": "Cancelled",
+      "date_iso": "2012-08-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 24, 2012",
+      "status": "Cancelled",
+      "date_iso": "2012-08-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 24, 2012",
+      "status": "Cancelled",
+      "date_iso": "2012-08-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 25, 2012",
+      "status": "Cancelled",
+      "date_iso": "2012-10-25"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Oct 07, 2011",
+      "status": "Cancelled",
+      "date_iso": "2011-10-07"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Sep 22, 2011",
+      "status": "Cancelled",
+      "date_iso": "2011-09-22"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Oct 06, 2011",
+      "status": "Cancelled",
+      "date_iso": "2011-10-06"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Oct 04, 2011",
+      "status": "Cancelled",
+      "date_iso": "2011-10-04"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Oct 04, 2011",
+      "status": "Cancelled",
+      "date_iso": "2011-10-04"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Oct 06, 2011",
+      "status": "Cancelled",
+      "date_iso": "2011-10-06"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Oct 07, 2011",
+      "status": "Cancelled",
+      "date_iso": "2011-10-07"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Oct 18, 2011",
+      "status": "Cancelled",
+      "date_iso": "2011-10-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/nmbqcapww5ijsvyzimhl.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ja1n0l0craizhno1rrmo.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/pyzzkkqcm7zk4e2ahlkc.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/rlhoqrw37uvelpclwjog.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/phcno0duxhsmkeodq2k7.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/pauceprmel5k0ztarwqw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5huy.jpg"
+  ],
+  "videos": [
+    {
+      "title": "E3 2011 Official Trailer",
+      "youtube_id": "9IbPrk-yuts",
+      "url": "https://www.youtube.com/watch?v=9IbPrk-yuts"
+    },
+    {
+      "title": "Prologue : Part 1",
+      "youtube_id": "isjdSi0eKoc",
+      "url": "https://www.youtube.com/watch?v=isjdSi0eKoc"
+    },
+    {
+      "title": "Prologue : Part 2",
+      "youtube_id": "3aKT_d8ytc8",
+      "url": "https://www.youtube.com/watch?v=3aKT_d8ytc8"
+    },
+    {
+      "title": "Prologue : Part 3",
+      "youtube_id": "ylI-sRXU2ZI",
+      "url": "https://www.youtube.com/watch?v=ylI-sRXU2ZI"
+    },
+    {
+      "title": "All Saints' Day Trailer",
+      "youtube_id": "QNpLhv21BS0",
+      "url": "https://www.youtube.com/watch?v=QNpLhv21BS0"
+    },
+    {
+      "title": "\"Prepare to die\" Trailer",
+      "youtube_id": "AGEPwOkE8AI",
+      "url": "https://www.youtube.com/watch?v=AGEPwOkE8AI"
+    }
+  ]
+}

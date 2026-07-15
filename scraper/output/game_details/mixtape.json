@@ -1,0 +1,178 @@
+{
+  "slug": "mixtape",
+  "igdb_id": 305157,
+  "name": "Mixtape",
+  "summary": "Mixtape is a narrative adventure game developed by Beethoven & Dinosaur and published by Annapurna Interactive. Set during the last night of high school, it follows three friends as they revisit memories connected to music, youth and leaving home. The game combines story scenes with playable vignettes, including skating, parties, and other moments, all framed by a licensed soundtrack.",
+  "first_release_year": 2026,
+  "developers": [
+    "Beethoven & Dinosaur"
+  ],
+  "publishers": [
+    "Annapurna Interactive"
+  ],
+  "genres": [
+    "Music",
+    "Adventure",
+    "Indie",
+    "Visual Novel"
+  ],
+  "themes": [
+    "Comedy",
+    "Drama"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "walking simulator",
+    "steam trading cards",
+    "1990's",
+    "steam achievements",
+    "xbox controller support for pc",
+    "steam cloud",
+    "punks",
+    "controller support",
+    "narrative",
+    "steam deck",
+    "steam families",
+    "winter visual novel jam"
+  ],
+  "alternative_names": [
+    {
+      "name": "Mixtape.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2582320/Mixtape/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://mixtape.game/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/mixtape-f18a26"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/mixtape-switch-2/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/bnd_studio"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/mixtapegame.bsky.social"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/mixtape.game/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/xCUTYQNy"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/mixtape/9nh0msg29x6l"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10014780"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/mixtape-1"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mixtape_(video_game)"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "May 07, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-07"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 07, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-07"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 07, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-07"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 07, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-07"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5w21.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5w1g.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5w1h.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5w22.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "cCTH8R6RD74",
+      "url": "https://www.youtube.com/watch?v=cCTH8R6RD74"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "VSELGhAhMms",
+      "url": "https://www.youtube.com/watch?v=VSELGhAhMms"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "GcXNOiAi79o",
+      "url": "https://www.youtube.com/watch?v=GcXNOiAi79o"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "NlAtjWvuVzY",
+      "url": "https://www.youtube.com/watch?v=NlAtjWvuVzY"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "aQoEd5rnxiQ",
+      "url": "https://www.youtube.com/watch?v=aQoEd5rnxiQ"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "iNkOgNAomio",
+      "url": "https://www.youtube.com/watch?v=iNkOgNAomio"
+    },
+    {
+      "title": "Developer Feature",
+      "youtube_id": "nrirPl26LSA",
+      "url": "https://www.youtube.com/watch?v=nrirPl26LSA"
+    }
+  ]
+}

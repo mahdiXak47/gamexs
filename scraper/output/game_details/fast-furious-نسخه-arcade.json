@@ -1,0 +1,42 @@
+{
+  "slug": "fast-furious-نسخه-arcade",
+  "igdb_id": 234789,
+  "name": "Fast & Furious Arcade",
+  "summary": "Fast & Furious is the 4th game in The Fast and The Furious arcade racing series. The last time the franchise graced the scene was with Fast & Furious Super Cars. In this game, players race a licensed, modded out supercar against the computer or a real rival, earning in-game cash and completing track-specific missions to further upgrade your vehicle. With 8 licensed supercars and 6 courses which span the world over, this is a guaranteed hit for any arcade.",
+  "first_release_year": 2022,
+  "developers": [
+    "Raw Thrills"
+  ],
+  "publishers": [
+    "Raw Thrills"
+  ],
+  "genres": [],
+  "themes": [],
+  "game_modes": [],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Fast & Furious"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://rawthrills.com/fast-furious-arcade"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Arcade",
+      "region": null,
+      "date": "Oct 07, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-07"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

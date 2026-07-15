@@ -1,0 +1,140 @@
+{
+  "slug": "rugby-25-نسخه-استاندارد",
+  "igdb_id": 241246,
+  "name": "Rugby 25",
+  "summary": "Welcome to the ultimate rugby gaming experience, Rugby 25! Whether you're a passionate fan or a newcomer to the world of rugby, Rugby 25 immerses you in the heart of the action and hard-hitting tackles like no rugby video game has before. From humble local club matches to the bright lights of the world's greatest international tournaments, every detail has been meticulously crafted to bring the excitement and intensity of the sport to your fingertips. Rugby 25: where legends are born, and history is made.",
+  "first_release_year": 2025,
+  "developers": [
+    "Big Ant Studios"
+  ],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [
+    "Non-fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Rugby"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "rugby",
+    "controller required"
+  ],
+  "alternative_names": [
+    {
+      "name": "rugby24.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/rugby-25/9NDWNCK07X0Z"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/rugbythegame/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC6CGQMMnnUwwjeK0ujkeF6Q"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008324"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/rugbythegame"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2340870/Rugby_25/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/rugbythegame/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 13, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-13"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 13, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 13, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-13"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 13, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-13"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 13, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-13"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 28, 2024",
+      "status": "Beta",
+      "date_iso": "2024-06-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3b7e.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3b7d.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3b7f.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "LvFA_CFfEdY",
+      "url": "https://www.youtube.com/watch?v=LvFA_CFfEdY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "v8zO97Mv7NU",
+      "url": "https://www.youtube.com/watch?v=v8zO97Mv7NU"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "-hRoTKJtoQo",
+      "url": "https://www.youtube.com/watch?v=-hRoTKJtoQo"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "slug": "bendy-lone-wolf",
+  "igdb_id": 325968,
+  "name": "Bendy: Lone Wolf",
+  "summary": "Bendy: Lone Wolf will tests your ability to survive against ever increasing odds. Monsters and obstacles emerge from every direction as you journey into the rubberhose halls of the world's most evil animation studio. Every day is a challenge.",
+  "first_release_year": 2020,
+  "developers": [
+    "Joey Drew Studios"
+  ],
+  "publishers": [
+    "Joey Drew Studios"
+  ],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Bendy"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Bendy - Lone Wolf.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.joeydrewstudios.com/blw"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10014263"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/bendy_lone_wolf"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/bendy-lone-wolf/9nc1pnsvwp55"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/bendy-lone-wolf-switch/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/bendy-lone-wolf"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/BendyandtheInkMachine/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/bendy"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@JoeyDrewStudios"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/batimgame/"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/us/app/bendy-lone-wolf/id1497319834"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.jds.batds"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3232610"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://bendy.wiki.gg/wiki/Bendy:_Lone_Wolf"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 15, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 15, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-15"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 15, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 15, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 15, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 15, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-15"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Feb 13, 2020",
+      "status": "Released",
+      "date_iso": "2020-02-13"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Feb 09, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-02-09"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar38c8.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "lJE1XQiCkF8",
+      "url": "https://www.youtube.com/watch?v=lJE1XQiCkF8"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "7yEtWuqp5c0",
+      "url": "https://www.youtube.com/watch?v=7yEtWuqp5c0"
+    }
+  ]
+}

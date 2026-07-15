@@ -1,0 +1,38 @@
+{
+  "slug": "operation-wolf-returns-first-mission-نسخه-rescue",
+  "igdb_id": 270583,
+  "name": "Operation Wolf Returns: First Mission - Rescue Edition",
+  "summary": "",
+  "first_release_year": 2023,
+  "developers": [],
+  "publishers": [],
+  "genres": [],
+  "themes": [],
+  "game_modes": [],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-31"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-31"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

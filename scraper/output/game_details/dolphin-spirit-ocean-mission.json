@@ -1,0 +1,119 @@
+{
+  "slug": "dolphin-spirit-ocean-mission",
+  "igdb_id": 246622,
+  "name": "Dolphin Spirit: Ocean Mission",
+  "summary": "Embark on an amazing adventure on the tropical island of Maupiroa! Take to the seas and discover the secrets that surround the island! Dive into the ocean's depths, teeming with life and color, with your dolphin friend Keanu.",
+  "first_release_year": 2023,
+  "developers": [
+    "Magic Pockets"
+  ],
+  "publishers": [
+    "Microids"
+  ],
+  "genres": [
+    "Simulator",
+    "Adventure"
+  ],
+  "themes": [
+    "Educational"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "underwater",
+    "available on - blacknut"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/dolphin-spirit-ocean-mission-switch/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/dolphin-spirit-ocean-mission-2d0f3b"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007311"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/microids/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/microids_off"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC9-1o8dj5vp5T1d1aVuHEWQ"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/microids"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.microids.com/dolphin-spirit-ocean-mission/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2149120"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-09-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-09-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-09-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-09-28"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-09-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-09-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2a2d.jpg"
+  ],
+  "videos": []
+}

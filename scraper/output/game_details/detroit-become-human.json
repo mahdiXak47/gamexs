@@ -1,0 +1,175 @@
+{
+  "slug": "detroit-become-human",
+  "igdb_id": 14362,
+  "name": "Detroit: Become Human",
+  "summary": "Detroit: Become Human is an interactive narrative adventure game developed by Quantic Dream and released in 2018. Set in a near-future Detroit where androids serve humans, the story follows three android protagonists—Kara, Connor, and Markus—who shape the city’s fate through their choices. Gameplay combines exploration, dialogue interactions, and quick-time events, with branching storylines and multiple endings. The narrative explores themes of artificial intelligence, freedom, and morality.",
+  "first_release_year": 2018,
+  "developers": [
+    "Quantic Dream"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Thriller",
+    "Drama",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Quantic Dream Engine"
+  ],
+  "keywords": [
+    "neo noir",
+    "investigation",
+    "androids",
+    "female protagonist",
+    "multiple protagonists",
+    "pax west 2017",
+    "david cage"
+  ],
+  "alternative_names": [
+    {
+      "name": "디트로이트: 비컴 휴먼",
+      "comment": "Korean title"
+    },
+    {
+      "name": "DetroitBecomeHuman.exe",
+      "comment": "windows executable"
+    },
+    {
+      "name": "DBH",
+      "comment": "Acronym"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/222727"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1222140"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Detroit:_Become_Human"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Detroit_PS4"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/DetroitBecomeHuman"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Detroit:%20Become%20Human"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCf1dGULY0opzBbE3XEXWvWg"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://detroit-become-human.fandom.com/wiki/Detroit:_Become_Human"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/quanticdreamgames/"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.quanticdream.com/en/detroit-become-human"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/BecomeHuman"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/product/detroit-become-human/home"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 25, 2018",
+      "status": "Released",
+      "date_iso": "2018-05-25"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 18, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-06-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 12, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-12-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4na7.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/plcseyqlfvsot1ezxym5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5gm.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5ge.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5gk.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5gl.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5gc.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6d9.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5gj.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4p86.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Demo Trailer",
+      "youtube_id": "VqFonFg0-cg",
+      "url": "https://www.youtube.com/watch?v=VqFonFg0-cg"
+    },
+    {
+      "title": "Paris Games Week 2015 Trailer",
+      "youtube_id": "Q_HiEpsM1Ic",
+      "url": "https://www.youtube.com/watch?v=Q_HiEpsM1Ic"
+    },
+    {
+      "title": "PGW17 Trailer",
+      "youtube_id": "homlPr_o7xE",
+      "url": "https://www.youtube.com/watch?v=homlPr_o7xE"
+    },
+    {
+      "title": "E3 2017 Trailer",
+      "youtube_id": "jh5JPax1fHw",
+      "url": "https://www.youtube.com/watch?v=jh5JPax1fHw"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "8a-EObAhYrg",
+      "url": "https://www.youtube.com/watch?v=8a-EObAhYrg"
+    },
+    {
+      "title": "E3 2016 Trailer",
+      "youtube_id": "QD1pbWCJcKQ",
+      "url": "https://www.youtube.com/watch?v=QD1pbWCJcKQ"
+    }
+  ]
+}

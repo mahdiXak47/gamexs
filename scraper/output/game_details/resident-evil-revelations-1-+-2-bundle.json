@@ -1,0 +1,53 @@
+{
+  "slug": "resident-evil-revelations-1-+-2-bundle",
+  "igdb_id": 164826,
+  "name": "Resident Evil Revelations 1 & 2 Bundle",
+  "summary": "Enter the world of survival horror with this value bundle featuring both Resident Evil Revelations and Resident Evil Revelations 2 Deluxe Edition.",
+  "first_release_year": 2017,
+  "developers": [
+    "Capcom"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [],
+  "themes": [],
+  "game_modes": [
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/resident-evil-revelations-1-&-2-bundle/BNLVSCJC2P0Q"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 29, 2017",
+      "status": "Released",
+      "date_iso": "2017-08-29"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 28, 2017",
+      "status": "Released",
+      "date_iso": "2017-08-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar10w6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar10w5.jpg"
+  ],
+  "videos": []
+}

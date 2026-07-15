@@ -1,0 +1,177 @@
+{
+  "slug": "demon-slayer-the-hinokami-chronicles",
+  "igdb_id": 153054,
+  "name": "Demon Slayer: Kimetsu no Yaiba - The Hinokami Chronicles",
+  "summary": "Become the blade that destroys demons!\n\nIn Solo Mode, follow Tanjiro through the story from the Demon Slayer: Kimetsu no Yaiba anime as he faces demons in order to turn his sister Nezuko, who has become a demon, back into a human.\n\nIn Versus Mode, characters from the anime, including Tanjiro and Nezuko, can be freely matched against each another in a one-versus-one setting with up to two players online or offline! Enjoy this simple but exhilarating battle system, and become the greatest demon slayer you can!",
+  "first_release_year": 2021,
+  "developers": [
+    "CyberConnect2"
+  ],
+  "publishers": [
+    "Aniplex",
+    "Sega"
+  ],
+  "genres": [
+    "Fighting",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Demon Slayer: Kimetsu no Yaiba - The Hinokami Chronicles"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Demon Slayer: Kimetsu no Yaiba"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "based on - anime"
+  ],
+  "alternative_names": [
+    {
+      "name": "Kimetsu no Yaiba: Hinokami Keppuutan",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "Demon Slayer: Kimetsu no Yaiba - Hinokami Keppuutan",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles -",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Guardianes de la Noche -Kimetsu No Yaiba- Las Crónicas de Hinokami",
+      "comment": "French title"
+    },
+    {
+      "name": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000991"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/demon-slayer--kimetsu-no-yaiba--the-hinokami-chronicles/9PHW7BZS9P7Z"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/demon-slayer-kimetsu-no-yaiba-the-hinokami-chronicles-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://demonslayer-hinokami.sega.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1490890/Demon_Slayer_Kimetsu_no_Yaiba_The_Hinokami_Chronicles"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/demonslayer_hc"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Demon%20Slayer%20-Kimetsu%20no%20Yaiba-%20The%20Hinokami%20Chronicles"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba_%E2%80%93_The_Hinokami_Chronicles"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-10"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 09, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-09"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-10"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 14, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 15, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 15, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-15"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 15, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 15, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 15, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar15br.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "ztql6fij9_g",
+      "url": "https://www.youtube.com/watch?v=ztql6fij9_g"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "MP0lp6YQV0g",
+      "url": "https://www.youtube.com/watch?v=MP0lp6YQV0g"
+    }
+  ]
+}

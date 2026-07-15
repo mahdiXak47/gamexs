@@ -1,0 +1,118 @@
+{
+  "slug": "ea-sports-ufc-6",
+  "igdb_id": 400095,
+  "name": "EA Sports UFC 6",
+  "summary": "EA Sports UFC 6 is powered by fighters. Evolved striking and motion systems bring UFC stars to life in the Octagon, while new game modes introduce immersive storytelling that makes every fight feel personal. Square up and fight your fight.",
+  "first_release_year": 2026,
+  "developers": [
+    "EA Vancouver"
+  ],
+  "publishers": [
+    "EA Sports"
+  ],
+  "genres": [
+    "Fighting",
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "UFC"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "UFC"
+  ],
+  "game_engines": [
+    "Frostbite"
+  ],
+  "keywords": [
+    "martial arts",
+    "licensed game",
+    "commentary"
+  ],
+  "alternative_names": [
+    {
+      "name": "UFC 6",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/EA_Sports_UFC_6"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10011247"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/ufc/ufc-6"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ufc-6/9NQB2BFDD88X/0010"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 19, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-06-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 12, 2026",
+      "status": "status_34",
+      "date_iso": "2026-06-12"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 12, 2026",
+      "status": "status_34",
+      "date_iso": "2026-06-12"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 19, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-06-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5uqi.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5uqj.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "T2MP_T2e-aU",
+      "url": "https://www.youtube.com/watch?v=T2MP_T2e-aU"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "bw9MKc-gV8c",
+      "url": "https://www.youtube.com/watch?v=bw9MKc-gV8c"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "L_gOhOK0xbo",
+      "url": "https://www.youtube.com/watch?v=L_gOhOK0xbo"
+    }
+  ]
+}

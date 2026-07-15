@@ -1,0 +1,182 @@
+{
+  "slug": "one-piece-odyssey",
+  "igdb_id": 194837,
+  "name": "One Piece Odyssey",
+  "summary": "One Piece Odyssey is an RPG that puts players in control of Luffy and the other Straw Hat Pirates in an open world. You can travel around an island embarking on quests, exploring dungeons, solving puzzles and battling creatures in turn-based combat. During fights, the crew is divided up between active members and reserve members. All characters receive EXP, regardless of whether they are part of the active party or not.",
+  "first_release_year": 2023,
+  "developers": [
+    "ILCA"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Comedy",
+    "Open world",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "One Piece"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "One Piece"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "anime",
+    "jrpg",
+    "party-based",
+    "based on - anime",
+    "turn-based rpg",
+    "pirate"
+  ],
+  "alternative_names": [
+    {
+      "name": "ONE PIECE ODYSSEY",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/235242"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/BandaiNamcoEU/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/bandainamcoeu/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/NamcoBandaiGamesEU"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/One_Piece_Odyssey"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/one-piece-odyssey/9pnd6xztczwt"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://onepiece.fandom.com/wiki/One_Piece_Odyssey"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/814000"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://opflag.bn-ent.net/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/opgame_official"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/One%20Piece:%20Odyssey"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 12, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-01-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 12, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-01-12"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 12, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-01-12"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 12, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-01-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar230b.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar46al.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar46ai.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "yogS2oJ2pZI",
+      "url": "https://www.youtube.com/watch?v=yogS2oJ2pZI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "dSrYhGEiikE",
+      "url": "https://www.youtube.com/watch?v=dSrYhGEiikE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "N4J8RR_XRFM",
+      "url": "https://www.youtube.com/watch?v=N4J8RR_XRFM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "2KYiJzKUw5U",
+      "url": "https://www.youtube.com/watch?v=2KYiJzKUw5U"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "0lze-CzSsKA",
+      "url": "https://www.youtube.com/watch?v=0lze-CzSsKA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "i42zSqdOl3s",
+      "url": "https://www.youtube.com/watch?v=i42zSqdOl3s"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "NcBzN-BymKg",
+      "url": "https://www.youtube.com/watch?v=NcBzN-BymKg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Ki8Efgdl8wc",
+      "url": "https://www.youtube.com/watch?v=Ki8Efgdl8wc"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "fYm4R6ABEIM",
+      "url": "https://www.youtube.com/watch?v=fYm4R6ABEIM"
+    }
+  ]
+}

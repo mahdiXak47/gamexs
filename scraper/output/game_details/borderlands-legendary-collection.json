@@ -1,0 +1,242 @@
+{
+  "slug": "borderlands-legendary-collection",
+  "igdb_id": 498,
+  "name": "Borderlands",
+  "summary": "Borderlands is an action role-playing first-person shooter set on the distant planet of Pandora. Players choose from four characters, each with distinct combat abilities, and explore an open world rendered in a distinctive cartoon-style visual approach. Gameplay revolves around completing missions, defeating enemies, and collecting procedurally generated weapons with varying statistics and elemental effects. The game supports cooperative play for up to four players, with enemy difficulty scaling based on the number of participants.",
+  "first_release_year": 2009,
+  "developers": [
+    "Gearbox Software",
+    "Feral Interactive"
+  ],
+  "publishers": [
+    "2K Games",
+    "CyberFront",
+    "Take-Two Interactive",
+    "Feral Interactive"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Borderlands"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Borderlands"
+  ],
+  "game_engines": [
+    "Unreal Engine 3"
+  ],
+  "keywords": [
+    "post-apocalyptic",
+    "military",
+    "playstation trophies",
+    "developer voice acting",
+    "humble bundle",
+    "playstation plus",
+    "side quests",
+    "downloadable content",
+    "black market",
+    "auto-saving",
+    "games with gold",
+    "rpg elements",
+    "canonical death",
+    "playstation now",
+    "xbox one backwards compatibility",
+    "previously on - utomik"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/borderlands.2k.com"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.borderlandsthegame.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@BorderlandsGame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/Borderlands"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/borderlands/C0NDKFJXW9SZ"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://borderlands.wikia.com/wiki/Borderlands_Wiki"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/8980"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/borderlands"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/borderlands"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/borderlandsgame/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/borderlands"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Borderlands_%28video_game%29"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Oct 23, 2009",
+      "status": "Released",
+      "date_iso": "2009-10-23"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 29, 2020",
+      "status": "Released",
+      "date_iso": "2020-05-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 30, 2009",
+      "status": "Released",
+      "date_iso": "2009-10-30"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Dec 03, 2010",
+      "status": "Released",
+      "date_iso": "2010-12-03"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 19, 2010",
+      "status": "Released",
+      "date_iso": "2010-10-19"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Oct 20, 2009",
+      "status": "Released",
+      "date_iso": "2009-10-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 30, 2009",
+      "status": "Released",
+      "date_iso": "2009-10-30"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Oct 23, 2009",
+      "status": "Released",
+      "date_iso": "2009-10-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 26, 2009",
+      "status": "Released",
+      "date_iso": "2009-10-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 25, 2009",
+      "status": "Released",
+      "date_iso": "2009-12-25"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Oct 23, 2009",
+      "status": "Released",
+      "date_iso": "2009-10-23"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Feb 25, 2010",
+      "status": "Released",
+      "date_iso": "2010-02-25"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Oct 20, 2009",
+      "status": "Released",
+      "date_iso": "2009-10-20"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Oct 23, 2009",
+      "status": "Released",
+      "date_iso": "2009-10-23"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Feb 25, 2010",
+      "status": "Released",
+      "date_iso": "2010-02-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m0p.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m0q.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "z1omVnfGVYw",
+      "url": "https://www.youtube.com/watch?v=z1omVnfGVYw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "gDSRdp6Ar3M",
+      "url": "https://www.youtube.com/watch?v=gDSRdp6Ar3M"
+    },
+    {
+      "title": "VGA 2007 Trailer",
+      "youtube_id": "WRWlsL1s__A",
+      "url": "https://www.youtube.com/watch?v=WRWlsL1s__A"
+    }
+  ]
+}

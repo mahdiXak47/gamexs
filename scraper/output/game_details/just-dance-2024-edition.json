@@ -1,0 +1,115 @@
+{
+  "slug": "just-dance-2024-edition",
+  "igdb_id": 252986,
+  "name": "Just Dance 2024 Edition",
+  "summary": "Dance and share exciting moments all year long with the #1 music video game platform of all time! Just Dance 2024 Edition features 40 new tracks and universes from all genres and eras, including “Flowers” by Miley Cyrus, “Tití Me Preguntó” by Bad Bunny, “How You Like That” by BLACKPINK and \"I Wanna Dance With Somebody\" by Whitney Houston!",
+  "first_release_year": 2023,
+  "developers": [
+    "Ubisoft Montpellier"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Music"
+  ],
+  "themes": [
+    "Party"
+  ],
+  "game_modes": [],
+  "player_perspectives": [],
+  "series": [
+    "Just Dance"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Just Dance"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "music and rhythm"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/just-dance-2024-edition-switch/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/justdancegame_us/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/justdancegame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UChIjW4BWKLqpojTrS_tX0mg"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/justdancegame"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://justdance.fandom.com/wiki/Just_Dance_2024_Edition?so=search"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ubisoft.com/en-gb/game/just-dance/2024"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/just-dance-2024-edition"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-24"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2egk.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "gkBFZrD0U_M",
+      "url": "https://www.youtube.com/watch?v=gkBFZrD0U_M"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "NBHFpyjm4-4",
+      "url": "https://www.youtube.com/watch?v=NBHFpyjm4-4"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "NniXc724TtU",
+      "url": "https://www.youtube.com/watch?v=NniXc724TtU"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "Rphxj3TKM5o",
+      "url": "https://www.youtube.com/watch?v=Rphxj3TKM5o"
+    }
+  ]
+}

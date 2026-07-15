@@ -1,0 +1,168 @@
+{
+  "slug": "kingdom-come-deliverance-نسخه-royal",
+  "igdb_id": 116794,
+  "name": "Kingdom Come: Deliverance - Royal Edition",
+  "summary": "Kingdom Come: Deliverance is a story-driven open-world RPG that immerses you in an epic adventure in the Holy Roman Empire. Avenge your parents' death as you battle invading forces, go on game-changing quests, and make influential choices. Explore majestic castles, deep forests, thriving villages and countless other realistic settings in medieval Bohemia!",
+  "first_release_year": 2019,
+  "developers": [
+    "Warhorse Studios"
+  ],
+  "publishers": [
+    "Warhorse Studios",
+    "Deep Silver"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Stealth",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "CryEngine"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "KCD",
+      "comment": "Acronym"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/warhorsestudios_official/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/kingdomcomerpg"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/kingdom-come-deliverance-royal-edition-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/kingdom-come-deliverance---royal-edition/BQJKD0DJ1Q8J"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kingdom_Come:_Deliverance"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/kingdomcome"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCIqUdfkbYmCGM-YRmk28zCg"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP2047-CUSA15610_00-KCDROYALEDITION0"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/kingdom_come_deliverance_royal_edition"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.kingdomcomerpg.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/sub/368776"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/warhorsestudios"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://kingdom-come-deliverance.fandom.com/wiki/Kingdom_Come:_Deliverance_Wiki"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/WarhorseStudios"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discordapp.com/channels/405413548827738143/484674928822714373"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/product/kingdom-come-deliverance/royal-edition"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 15, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 11, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-06-11"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 28, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-05-28"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 11, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-06-11"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 13, 2026",
+      "status": "status_36",
+      "date_iso": "2026-02-13"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 13, 2026",
+      "status": "status_36",
+      "date_iso": "2026-02-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arucn.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "nEX36NvLKwg",
+      "url": "https://www.youtube.com/watch?v=nEX36NvLKwg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "5CH40xHkung",
+      "url": "https://www.youtube.com/watch?v=5CH40xHkung"
+    }
+  ]
+}

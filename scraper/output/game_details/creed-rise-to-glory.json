@@ -1,0 +1,123 @@
+{
+  "slug": "creed-rise-to-glory",
+  "igdb_id": 102134,
+  "name": "Creed: Rise to Glory",
+  "summary": "Do you have what it takes to become a champion? Follow the ascent of boxer Adonis Creed as you go toe-to-toe with the world’s top opponents in this intense, cinematic boxing experience. Featuring new Phantom Melee Technology for impactful VR melee combat, you’ll train, fight, and win like a Creed.",
+  "first_release_year": 2018,
+  "developers": [
+    "Survios"
+  ],
+  "publishers": [
+    "Survios"
+  ],
+  "genres": [
+    "Fighting",
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Virtual Reality"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Rocky"
+  ],
+  "game_engines": [
+    "Nvidia PhysX",
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "boxing"
+  ],
+  "alternative_names": [
+    {
+      "name": "Creed.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/232473"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Creed:_Rise_to_Glory"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://survios.com/creed/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/804490"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Creed:%20Rise%20to%20Glory"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 25, 2018",
+      "status": "Released",
+      "date_iso": "2018-09-25"
+    },
+    {
+      "platform": "Meta Quest 2",
+      "region": null,
+      "date": "May 21, 2019",
+      "status": "Released",
+      "date_iso": "2019-05-21"
+    },
+    {
+      "platform": "PlayStation VR",
+      "region": null,
+      "date": "Sep 25, 2018",
+      "status": "Released",
+      "date_iso": "2018-09-25"
+    },
+    {
+      "platform": "Oculus Quest",
+      "region": null,
+      "date": "May 21, 2019",
+      "status": "Released",
+      "date_iso": "2019-05-21"
+    },
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "Sep 25, 2018",
+      "status": "Released",
+      "date_iso": "2018-09-25"
+    },
+    {
+      "platform": "Oculus Rift",
+      "region": null,
+      "date": "Sep 25, 2018",
+      "status": "Released",
+      "date_iso": "2018-09-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4kl.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4kk.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "8jX_cnQTKWg",
+      "url": "https://www.youtube.com/watch?v=8jX_cnQTKWg"
+    }
+  ]
+}

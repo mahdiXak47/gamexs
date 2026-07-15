@@ -1,0 +1,119 @@
+{
+  "slug": "quantum-error",
+  "igdb_id": 132226,
+  "name": "Quantum Error",
+  "summary": "Experience the mysticism of a cinematic story driven First Person/Third Person shooter game set in the coming of the Quantum Age. Explore and descend deep into the high tech yet esoteric Monad facility and beyond, to interstellar travel, encountering enemies and bosses from the familiar to the inexplicable. Ride a rollercoaster of cosmic horror as you fall deeper and deeper into the unknown.",
+  "first_release_year": 2023,
+  "developers": [
+    "TeamKill Media"
+  ],
+  "publishers": [
+    "TeamKill Media"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001343"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/quantum_error"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCcmAc6TjaqnAy0fm0TRluDQ"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.quantum-error.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Quantum%20Error"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 03, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-03"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "TBD",
+      "status": "Offline"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "TBD",
+      "status": "Offline"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "TBD",
+      "status": "Offline"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6ri.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "IznAUEXlRWg",
+      "url": "https://www.youtube.com/watch?v=IznAUEXlRWg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "OLqh1Cv4CcA",
+      "url": "https://www.youtube.com/watch?v=OLqh1Cv4CcA"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "2Vf9l4Jk2OQ",
+      "url": "https://www.youtube.com/watch?v=2Vf9l4Jk2OQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ciMRpi7rFiM",
+      "url": "https://www.youtube.com/watch?v=ciMRpi7rFiM"
+    },
+    {
+      "title": "Gamescom 2020 Trailer",
+      "youtube_id": "DdzvZjPJDzI",
+      "url": "https://www.youtube.com/watch?v=DdzvZjPJDzI"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "tBXNv_qwkcU",
+      "url": "https://www.youtube.com/watch?v=tBXNv_qwkcU"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "slug": "octopath-traveler-ii",
+  "igdb_id": 217554,
+  "name": "Octopath Traveler II",
+  "summary": "This game is a brand-new entry in the Octopath Traveler series. It takes the series’ HD-2D graphics, a fusion of retro pixel art and 3DCG, to even greater heights.\nIn the world of Solistia, eight new travelers venture forth into an exciting new era.\nWhere will you go? What will you do? Whose tale will you bring to life?\nEvery path is yours to take. Embark on an adventure all your own.",
+  "first_release_year": 2023,
+  "developers": [
+    "ACQUIRE Corp."
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Role-playing (RPG)"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Octopath Traveler"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "jrpg",
+    "class-based",
+    "turn-based combat",
+    "turn-based rpg"
+  ],
+  "alternative_names": [
+    {
+      "name": "OT2",
+      "comment": "Acronym"
+    },
+    {
+      "name": "OCTOPATH TRAVELER II",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Octopath_Traveler2-Win64-Shipping.exe",
+      "comment": "windows executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/octopath-traveler-ii-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005126"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/octopath-traveler-ii/9N2X3VZW8QNN"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@squareenixna/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SquareEnix"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Octopath%20Traveler%20II"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1971650"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Octopath_Traveler_II"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/OCTOPATH_PR"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://octopathtraveler2.square-enix-games.com/en-us/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Feb 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-24"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-05"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-05"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3na1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3na0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3na3.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3na2.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "-jXBsqSXD0U",
+      "url": "https://www.youtube.com/watch?v=-jXBsqSXD0U"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "xk-EU8BAW-w",
+      "url": "https://www.youtube.com/watch?v=xk-EU8BAW-w"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "XMpWElRyoxg",
+      "url": "https://www.youtube.com/watch?v=XMpWElRyoxg"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "noGAEclH-wE",
+      "url": "https://www.youtube.com/watch?v=noGAEclH-wE"
+    }
+  ]
+}

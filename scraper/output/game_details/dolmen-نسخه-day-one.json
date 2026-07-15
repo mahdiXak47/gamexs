@@ -1,0 +1,104 @@
+{
+  "slug": "dolmen-نسخه-day-one",
+  "igdb_id": 191499,
+  "name": "Dolmen: Day One Edition",
+  "summary": "",
+  "first_release_year": 2022,
+  "developers": [
+    "Massive Work Studio"
+  ],
+  "publishers": [
+    "Prime Matter"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/DolmenGame"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/831050/Dolmen"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/dolmengame"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/DolmenGame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/B3VxcUC"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://dolmenthegame.com/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/dolmengame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "May 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-20"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-20"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

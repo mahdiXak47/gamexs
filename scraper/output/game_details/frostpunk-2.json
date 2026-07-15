@@ -1,0 +1,227 @@
+{
+  "slug": "frostpunk-2",
+  "igdb_id": 164290,
+  "name": "Frostpunk 2",
+  "summary": "Frostpunk 2 is the sequel to the highly acclaimed, BAFTA-nominated society survival game. The age of steam has passed and now, oil leads the way as humanity’s newest salvation. However, with new threats on the horizon, the future of the city looks even grimmer than before.",
+  "first_release_year": 2024,
+  "developers": [
+    "11 bit studios"
+  ],
+  "publishers": [
+    "11 bit studios"
+  ],
+  "genres": [
+    "Simulator",
+    "Strategy",
+    "Indie"
+  ],
+  "themes": [
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Frostpunk"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "exploration",
+    "steampunk",
+    "city builder",
+    "the game awards - best strategy game - winner",
+    "available on - pc gamepass"
+  ],
+  "alternative_names": [
+    {
+      "name": "冰汽时代2",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Frostpunk2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Frostpunk_2"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://frostpunk.fandom.com/wiki/Frostpunk_2"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008442/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/frostpunk-2/9N0KN24FWP6B"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/frostpunkgame"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/frostpunk_2"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Frostpunk%202"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/11bitstudios"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.frostpunk2.com/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Frostpunk/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCq2-YS92kRURomhlw2fj7_g"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1601580/Frostpunk_2"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/frostpunkgame"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/frostpunk-2"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/11bitstudios"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 20, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-18"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Sep 20, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2xsc.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar12vy.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2cn5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2xsd.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "9kfHUN4gFiw",
+      "url": "https://www.youtube.com/watch?v=9kfHUN4gFiw"
+    },
+    {
+      "title": "The City Must Not Fall Trailer",
+      "youtube_id": "oPe_zsYBPgs",
+      "url": "https://www.youtube.com/watch?v=oPe_zsYBPgs"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "i88rlDT57OY",
+      "url": "https://www.youtube.com/watch?v=i88rlDT57OY"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "PWlLOpqIYjA",
+      "url": "https://www.youtube.com/watch?v=PWlLOpqIYjA"
+    },
+    {
+      "title": "Date Reveal Trailer",
+      "youtube_id": "OleG2itr_3o",
+      "url": "https://www.youtube.com/watch?v=OleG2itr_3o"
+    },
+    {
+      "title": "Gameplay Deep Dive",
+      "youtube_id": "SOTYqGktthA",
+      "url": "https://www.youtube.com/watch?v=SOTYqGktthA"
+    },
+    {
+      "title": "City Unbound Compilation",
+      "youtube_id": "ZR1Mx7KvPQs",
+      "url": "https://www.youtube.com/watch?v=ZR1Mx7KvPQs"
+    },
+    {
+      "title": "11 Facts Trailer",
+      "youtube_id": "gCwR9LYQf7I",
+      "url": "https://www.youtube.com/watch?v=gCwR9LYQf7I"
+    },
+    {
+      "title": "Game Intro Cinematic",
+      "youtube_id": "Ly2T14H8gdM",
+      "url": "https://www.youtube.com/watch?v=Ly2T14H8gdM"
+    },
+    {
+      "title": "Beginner's Guide",
+      "youtube_id": "IAqJIRw9RHE",
+      "url": "https://www.youtube.com/watch?v=IAqJIRw9RHE"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "jDvb9oVJNi8",
+      "url": "https://www.youtube.com/watch?v=jDvb9oVJNi8"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "BuvJAcptUd0",
+      "url": "https://www.youtube.com/watch?v=BuvJAcptUd0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "RWCm996FcX0",
+      "url": "https://www.youtube.com/watch?v=RWCm996FcX0"
+    },
+    {
+      "title": "Console Release Date Trailer",
+      "youtube_id": "9gZY8fm0p1o",
+      "url": "https://www.youtube.com/watch?v=9gZY8fm0p1o"
+    },
+    {
+      "title": "Console Gameplay Trailer",
+      "youtube_id": "YNIyRe-Buc8",
+      "url": "https://www.youtube.com/watch?v=YNIyRe-Buc8"
+    }
+  ]
+}

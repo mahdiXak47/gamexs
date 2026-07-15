@@ -1,0 +1,42 @@
+{
+  "slug": "human-fall-flat-dream-collection",
+  "igdb_id": 252173,
+  "name": "Human: Fall Flat - Dream Collection",
+  "summary": "",
+  "first_release_year": null,
+  "developers": [],
+  "publishers": [],
+  "genres": [],
+  "themes": [],
+  "game_modes": [],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "omegabot",
+  "igdb_id": 154001,
+  "name": "OmegaBot",
+  "summary": "A tight action side-scroller with challenging robotic bosses. Dodge metallic dangers, acquire powerful weapons and blast your way through a destroyed world full of deadly machines where running out of energy means defeat.",
+  "first_release_year": 2022,
+  "developers": [
+    "Simon Carny"
+  ],
+  "publishers": [
+    "Simon Carny",
+    "Red Art Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Platform",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "retro",
+    "colorful",
+    "controller support",
+    "soulslike"
+  ],
+  "alternative_names": [
+    {
+      "name": "shooter_project2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/omegabot-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005442"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1620850"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCAXBfsESYSueqQhULpeRtFA"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/OmegaBot"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/CarnySimon"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-16"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 24, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 24, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-24"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jan 20, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-20"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 20, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arumt.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "kyIkkvBB3rg",
+      "url": "https://www.youtube.com/watch?v=kyIkkvBB3rg"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "slug": "sonic-x-shadow-generations",
+  "igdb_id": 284716,
+  "name": "Sonic X Shadow Generations",
+  "summary": "Shadow the Hedgehog is back with Classic and Modern Sonic in Sonic X Shadow Generations, an all-new collection featuring two unique experiences! Play as Shadow in a brand-new story campaign featuring never-before-seen abilities that prove why he's known as the Ultimate Life Form! Speed through iconic stages from Shadow's history, discover hidden secrets in an expansive hub world, and unlock new powers to take on Black Doom and save the world. Sonic X Shadow Generations also includes a complete remaster of the highly acclaimed Sonic Generations, a time-traveling adventure featuring a greatest-hits collection of 3D and 2D Sonic stages, now with upgraded visuals and new bonus content.",
+  "first_release_year": 2024,
+  "developers": [
+    "Sonic Team"
+  ],
+  "publishers": [
+    "Sega"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Sonic The Hedgehog"
+  ],
+  "game_engines": [
+    "Hedgehog Engine",
+    "Hedgehog Engine 2"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "索尼克 × 夏特 世代重啟",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "索尼克 × 夏特 世代重启",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "SONIC_X_SHADOW_GENERATIONS.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008755"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/sonic-x-shadow-generations/9MVLZDH2FH05"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/sonic-x-shadow-generations-switch/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/sonic"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/sonic_hedgehog"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@SonictheHedgehog"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/sonicthehedgehog"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/sonic-x-shadow-generations"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2513280/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://sonicxshadowgenerations.com/?lang=en"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 22, 2024",
+      "status": "status_34",
+      "date_iso": "2024-10-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 22, 2024",
+      "status": "status_34",
+      "date_iso": "2024-10-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 22, 2024",
+      "status": "status_34",
+      "date_iso": "2024-10-22"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Jun 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-05"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 22, 2024",
+      "status": "status_34",
+      "date_iso": "2024-10-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 22, 2024",
+      "status": "status_34",
+      "date_iso": "2024-10-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 22, 2024",
+      "status": "status_34",
+      "date_iso": "2024-10-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2rhe.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "ihUiNzrcG4Q",
+      "url": "https://www.youtube.com/watch?v=ihUiNzrcG4Q"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "6E36fOpk-Yg",
+      "url": "https://www.youtube.com/watch?v=6E36fOpk-Yg"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "6lw7EAV-by4",
+      "url": "https://www.youtube.com/watch?v=6lw7EAV-by4"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "yzK7gQWDnRk",
+      "url": "https://www.youtube.com/watch?v=yzK7gQWDnRk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ykjEi2Dupgk",
+      "url": "https://www.youtube.com/watch?v=ykjEi2Dupgk"
+    }
+  ]
+}

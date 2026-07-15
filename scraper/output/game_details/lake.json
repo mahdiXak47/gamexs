@@ -1,0 +1,169 @@
+{
+  "slug": "lake",
+  "igdb_id": 127743,
+  "name": "Lake",
+  "summary": "It's 1986 - Meredith Weiss takes a break from her career in the big city to deliver mail in her hometown. How will she experience two weeks in beautiful Providence Oaks, with its iconic lake and quirky community? And what will she do next? It's up to you.",
+  "first_release_year": 2021,
+  "developers": [
+    "Gamious"
+  ],
+  "publishers": [
+    "Gamious",
+    "Whitethorn Games"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Simulator",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Comedy",
+    "Drama",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Lake"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "exploration",
+    "female protagonist",
+    "walking simulator",
+    "story rich",
+    "choices matter",
+    "cozy",
+    "previously on - stadia pro"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/GamiousGames"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003149"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/lake-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1118240"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.gamious.com/portfolio/lake"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/lake"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/lake_the_game"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/whitethorngames"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/whitethorngames"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Lake"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lake_(video_game)"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/whitethorngames"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-08"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-01"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-01"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-01"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Feb 15, 2024",
+      "status": "Released",
+      "date_iso": "2024-02-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/armd9.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "gew7qD1T4LU",
+      "url": "https://www.youtube.com/watch?v=gew7qD1T4LU"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "CovFiFT0rII",
+      "url": "https://www.youtube.com/watch?v=CovFiFT0rII"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "QU7qj6DpHfs",
+      "url": "https://www.youtube.com/watch?v=QU7qj6DpHfs"
+    }
+  ]
+}

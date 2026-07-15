@@ -1,0 +1,133 @@
+{
+  "slug": "just-dance-2020",
+  "igdb_id": 119256,
+  "name": "Just Dance 2020",
+  "summary": "Just Dance 2020 is the ultimate dance game with 40 hot tracks from chart-topping hits like “God Is a Woman” by Ariana Grande to “High Hopes” by Panic! At The Disco. Keep the party going for hours with songs for the whole family to enjoy!",
+  "first_release_year": 2019,
+  "developers": [
+    "Ubisoft Paris"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Music"
+  ],
+  "themes": [
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [],
+  "series": [
+    "Just Dance"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Just Dance"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "dancing"
+  ],
+  "alternative_names": [
+    {
+      "name": "ジャストダンス2020",
+      "comment": "Japanese title - original"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/just-dance-2020-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ubisoft.com/en-us/game/just-dance-2020"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/ubisoft"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Just%20Dance%202020"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Ubisoft"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/ubisoft"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/ubisoft"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Just_Dance_2020"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://justdance.fandom.com/wiki/Just_Dance_2020"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 05, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-05"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 05, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-05"
+    },
+    {
+      "platform": "Wii",
+      "region": null,
+      "date": "Nov 05, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-05"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 05, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-05"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Nov 19, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-19"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 05, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5sd.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "HC8W43c_ATY",
+      "url": "https://www.youtube.com/watch?v=HC8W43c_ATY"
+    }
+  ]
+}

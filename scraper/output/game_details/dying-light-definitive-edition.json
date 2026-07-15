@@ -1,0 +1,281 @@
+{
+  "slug": "dying-light-definitive-edition",
+  "igdb_id": 3042,
+  "name": "Dying Light",
+  "summary": "Dying Light is a first-person, action survival horror game set in a vast and dangerous open world. During the day, players traverse an expansive urban environment overrun by a vicious outbreak, scavenging the world for supplies and crafting weapons to defend against the growing infected population. At night, the hunter becomes the hunted, as the infected become aggressive and more dangerous. Most frightening are the predators which only appear after sundown. Players must use everything in their power to survive until the morning’s first light.",
+  "first_release_year": 2015,
+  "developers": [
+    "Techland"
+  ],
+  "publishers": [
+    "Techland",
+    "WB Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival",
+    "Stealth",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Dying Light"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Dying Light"
+  ],
+  "game_engines": [
+    "Chrome Engine"
+  ],
+  "keywords": [
+    "zombies",
+    "post-apocalyptic",
+    "bloody",
+    "parkour",
+    "crafting",
+    "steam",
+    "time limit",
+    "traps",
+    "survival horror",
+    "climbing",
+    "swimming",
+    "day/night cycle",
+    "airplane",
+    "explosion",
+    "steam achievements",
+    "digital distribution",
+    "steam leaderboards",
+    "throwing weapons",
+    "dualshock 4 support for pc",
+    "voice acting",
+    "bink video",
+    "pop culture reference",
+    "bat",
+    "original soundtrack release",
+    "motion blur",
+    "wasd movement",
+    "color separation",
+    "profanity",
+    "sprinting mechanics",
+    "side quests",
+    "melee",
+    "grapple",
+    "real-time combat",
+    "underwater gameplay",
+    "jump scare moment",
+    "movie reference",
+    "pax prime 2013",
+    "gamescom 2013",
+    "gamescom 2014",
+    "mercenary",
+    "head tracking",
+    "leaderboard",
+    "british accent",
+    "sadism",
+    "banter during gameplay",
+    "sliding down ladders",
+    "tower reveals map",
+    "ambient music",
+    "companion app",
+    "air strike",
+    "zombie protagonist",
+    "lock picking",
+    "first-person platforming",
+    "burning",
+    "x-ray damage",
+    "online multiplayer achievements",
+    "male protagonist"
+  ],
+  "alternative_names": [
+    {
+      "name": "DyingLightGame.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/DyingLightGame"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/dying-light/BXN9LB6R3ZPG"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/201129"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/dyinglight"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/DyingLightGame"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.dyinglightgame.com/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/dyinglight"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Dying%20Light"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://dyinglight.wiki.gg/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/239140"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dying_Light"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/TechlandGames"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/DyingLightGame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 08, 2022",
+      "status": "status_36",
+      "date_iso": "2022-03-08"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 21, 2022",
+      "status": "status_36",
+      "date_iso": "2022-03-21"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Jan 26, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-01-26"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jan 26, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-01-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 26, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-01-26"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 27, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-01-27"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 27, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-01-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5ln.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4h8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar67e2.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Humanity Trailer",
+      "youtube_id": "dY8RYRwZ4oM",
+      "url": "https://www.youtube.com/watch?v=dY8RYRwZ4oM"
+    },
+    {
+      "title": "Story Trailer",
+      "youtube_id": "CqU-m1TZHf8",
+      "url": "https://www.youtube.com/watch?v=CqU-m1TZHf8"
+    },
+    {
+      "title": "Gameplay video",
+      "youtube_id": "98CkrjY9Hxo",
+      "url": "https://www.youtube.com/watch?v=98CkrjY9Hxo"
+    },
+    {
+      "title": "Demo Gameplay Video",
+      "youtube_id": "g8-5EiCGFHo",
+      "url": "https://www.youtube.com/watch?v=g8-5EiCGFHo"
+    },
+    {
+      "title": "Be the Zombie Trailer",
+      "youtube_id": "czm3ChB0QBQ",
+      "url": "https://www.youtube.com/watch?v=czm3ChB0QBQ"
+    },
+    {
+      "title": "Gamescom Trailer",
+      "youtube_id": "l-dfZ044lr8",
+      "url": "https://www.youtube.com/watch?v=l-dfZ044lr8"
+    },
+    {
+      "title": "Parkour POV Live-Action Trailer",
+      "youtube_id": "4NUOjzbFj1g",
+      "url": "https://www.youtube.com/watch?v=4NUOjzbFj1g"
+    },
+    {
+      "title": "CGI Announcement 2013",
+      "youtube_id": "KWASA7eNiLc",
+      "url": "https://www.youtube.com/watch?v=KWASA7eNiLc"
+    },
+    {
+      "title": "The Outbreak Will Change Everything Trailer",
+      "youtube_id": "zq4IaGPVgEQ",
+      "url": "https://www.youtube.com/watch?v=zq4IaGPVgEQ"
+    },
+    {
+      "title": "E3 2014 Gameplay Trailer",
+      "youtube_id": "KalIE_Otylo",
+      "url": "https://www.youtube.com/watch?v=KalIE_Otylo"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "7VkS3beywvk",
+      "url": "https://www.youtube.com/watch?v=7VkS3beywvk"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "qpR4wuuhu44",
+      "url": "https://www.youtube.com/watch?v=qpR4wuuhu44"
+    }
+  ]
+}

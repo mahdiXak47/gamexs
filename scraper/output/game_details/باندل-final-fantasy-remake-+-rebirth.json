@@ -1,0 +1,123 @@
+{
+  "slug": "باندل-final-fantasy-remake-+-rebirth",
+  "igdb_id": 408303,
+  "name": "Final Fantasy",
+  "summary": "This release of Final Fantasy is built upon the Game Boy Advance version of the game. It retains the bonus dungeons, bestiary and unlockable BGM music player from said version, as well as the CG intro from the Playstation version. It also features improved graphics done in 16:9 format with larger fonts and higher quality of music and sound effects.\n\nThere is also an entirely new dungeon dubbed \"The Labyrinth of Time\" which enforces a time limit on the player, as well as an unlockable Yoshitaka Amano art gallery in this version.",
+  "first_release_year": 2007,
+  "developers": [
+    "Square Enix"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Role-playing (RPG)"
+  ],
+  "themes": [
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Final Fantasy"
+  ],
+  "spin_off_of": "Final Fantasy",
+  "franchises": [
+    "Final Fantasy"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Final Fantasy: 20th Anniversary Edition",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Final Fantasy: Anniversary Edition",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Final Fantasy 1",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "FF1",
+      "comment": "Acronym"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Final_Fantasy_(video_game)"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation Portable",
+      "region": null,
+      "date": "Apr 19, 2007",
+      "status": "Released",
+      "date_iso": "2007-04-19"
+    },
+    {
+      "platform": "PlayStation Portable",
+      "region": null,
+      "date": "Apr 19, 2007",
+      "status": "Released",
+      "date_iso": "2007-04-19"
+    },
+    {
+      "platform": "PlayStation Portable",
+      "region": null,
+      "date": "Jun 26, 2007",
+      "status": "Released",
+      "date_iso": "2007-06-26"
+    },
+    {
+      "platform": "PlayStation Portable",
+      "region": null,
+      "date": "Feb 08, 2008",
+      "status": "Released",
+      "date_iso": "2008-02-08"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Jul 27, 2012",
+      "status": "Released",
+      "date_iso": "2012-07-27"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Feb 25, 2010",
+      "status": "Released",
+      "date_iso": "2010-02-25"
+    },
+    {
+      "platform": "Windows Phone",
+      "region": null,
+      "date": "Jun 04, 2012",
+      "status": "Released",
+      "date_iso": "2012-06-04"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar664e.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar664f.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar664g.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar664h.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar664i.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "MJ-LfADJ3mQ",
+      "url": "https://www.youtube.com/watch?v=MJ-LfADJ3mQ"
+    }
+  ]
+}

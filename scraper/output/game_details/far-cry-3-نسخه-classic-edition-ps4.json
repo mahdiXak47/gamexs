@@ -1,0 +1,112 @@
+{
+  "slug": "far-cry-3-نسخه-classic-edition-ps4",
+  "igdb_id": 86389,
+  "name": "Far Cry 3: Classic Edition",
+  "summary": "Far Cry 3 Classic Edition has been updated to run smoothly on modern platforms and allow fans and newcomers to experience the single-player Far Cry 3 campaign in stunning detail.\n\nExplore an island playground as stunningly beautiful as it is diverse – from mountain ranges to swampy grasslands and white sandy beaches. Fight your way through the island’s towns, temples, river ports and more.\n\nEncounter a diverse and realistic cast of characters, including one of Far Cry’s most notorious villains: Vaas Montenegro. Dive into this deep and enriching story where morals are questionable and hope is all but abandoned.",
+  "first_release_year": 2018,
+  "developers": [
+    "Ubisoft Montreal"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Survival",
+    "Stealth",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Far Cry"
+  ],
+  "spin_off_of": "Far Cry 3",
+  "franchises": [
+    "Far Cry"
+  ],
+  "game_engines": [
+    "Dunia Engine"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "ファークライ3 クラシックエディション",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "파 크라이 3 클래식 에디션",
+      "comment": "Korean title"
+    },
+    {
+      "name": "Far Cry3 클래식 에디션",
+      "comment": "Korean title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/231486"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/far-cry-3-classic-edition/BV2ZVP7PJZWL"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ubisoft.com/en-us/game/far-cry/far-cry-3"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 26, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-06-26"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 26, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-06-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 21, 2026",
+      "status": "status_36",
+      "date_iso": "2026-01-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 21, 2026",
+      "status": "status_36",
+      "date_iso": "2026-01-21"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "SlgptLmEpqg",
+      "url": "https://www.youtube.com/watch?v=SlgptLmEpqg"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "QrMdLmPnU4c",
+      "url": "https://www.youtube.com/watch?v=QrMdLmPnU4c"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "slug": "dead-island-2",
+  "igdb_id": 7329,
+  "name": "Dead Island 2",
+  "summary": "Dead Island 2 is a survival horror first-person shooter set in a zombie apocalypse in Los Angeles. Players explore an open world, gathering resources, interacting with survivors, and battling swarms of zombies in fast-paced combat. Set fifteen years after the events of Dead Island: Riptide, the game features a new cast of characters and narrative, while maintaining the series’ signature blend of brutal melee action and immersive environments.",
+  "first_release_year": 2023,
+  "developers": [
+    "Dambuster Studios"
+  ],
+  "publishers": [
+    "Deep Silver"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival",
+    "Comedy",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Dead Island"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "zombies",
+    "post-apocalyptic",
+    "crafting",
+    "female protagonist",
+    "multiple protagonists",
+    "gore",
+    "undead",
+    "melee",
+    "pax prime 2014",
+    "gamescom 2014",
+    "developer cameo",
+    "development hell",
+    "motion capture animation",
+    "sequel by a different developer",
+    "male protagonist",
+    "multiple playable characters"
+  ],
+  "alternative_names": [
+    {
+      "name": "DeadIsland.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/dead-island-2/C3L4J3H7H12R"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/201061"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/deadislandgame"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://deadisland2.deepsilver.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dead_Island_2"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/deadislandgame/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/934700"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/deadisland/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/dead-island-2"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/deadislandgame"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/deadislandgame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/dead-island-2"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-04-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-04-21"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-04-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-04-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-04-21"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3s8i.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3s8j.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "6Dv1cqr1npA",
+      "url": "https://www.youtube.com/watch?v=6Dv1cqr1npA"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "hEkkrJpI6XA",
+      "url": "https://www.youtube.com/watch?v=hEkkrJpI6XA"
+    },
+    {
+      "title": "Old Gameplay Trailer",
+      "youtube_id": "0c8Yy_3C-RQ",
+      "url": "https://www.youtube.com/watch?v=0c8Yy_3C-RQ"
+    },
+    {
+      "title": "Old Cinematic Trailer",
+      "youtube_id": "DJOAunMCGkk",
+      "url": "https://www.youtube.com/watch?v=DJOAunMCGkk"
+    }
+  ]
+}

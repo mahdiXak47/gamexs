@@ -1,0 +1,138 @@
+{
+  "slug": "saros",
+  "igdb_id": 331215,
+  "name": "Saros",
+  "summary": "Saros is an action game developed by Housemarque and published by Sony Interactive Entertainment. Players control Arjun Devraj, a Soltari Enforcer investigating a lost off-world colony on Carcosa. The game features fast-paced third-person combat, boss encounters, and progression across repeated attempts.",
+  "first_release_year": 2026,
+  "developers": [
+    "Housemarque"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "memory loss",
+    "bullet hell",
+    "energy force shield",
+    "roguelite",
+    "action roguelite"
+  ],
+  "alternative_names": [
+    {
+      "name": "SAROS",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/housemarque?hl=en"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Housemarque"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Saros"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005069"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/saros"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://housemarque.com/games/saros"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Housemarque"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/housemarquegames"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Saros_(video_game)"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 30, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 28, 2026",
+      "status": "status_34",
+      "date_iso": "2026-04-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5pxb.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5pxc.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5rcv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5pxd.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "rK4W-hBrSZs",
+      "url": "https://www.youtube.com/watch?v=rK4W-hBrSZs"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "XtCS5tuvCKs",
+      "url": "https://www.youtube.com/watch?v=XtCS5tuvCKs"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3EiDG8ZS1Vw",
+      "url": "https://www.youtube.com/watch?v=3EiDG8ZS1Vw"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "OcLGdMG0L8Q",
+      "url": "https://www.youtube.com/watch?v=OcLGdMG0L8Q"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "rj_1CzKUR4w",
+      "url": "https://www.youtube.com/watch?v=rj_1CzKUR4w"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "BLlSRJpxOpE",
+      "url": "https://www.youtube.com/watch?v=BLlSRJpxOpE"
+    }
+  ]
+}

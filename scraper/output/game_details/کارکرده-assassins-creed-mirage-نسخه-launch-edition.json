@@ -1,0 +1,115 @@
+{
+  "slug": "کارکرده-assassins-creed-mirage-نسخه-launch-edition",
+  "igdb_id": 360516,
+  "name": "Assassin's Creed Mirage: Master Assassin Pack",
+  "summary": "The Master Assassin Pack is a downloadable content pack for Assassin's Creed Mirage. It contains four costumes for Basim Ibn Ishaq.",
+  "first_release_year": 2023,
+  "developers": [
+    "Ubisoft Bordeaux"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Stealth",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": "Assassin's Creed Mirage",
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "character customization",
+    "customization",
+    "character skin"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3230710"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.assassinscreed.com/mirage"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/assassinscreed"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/assassinscreed"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/ac"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/assassinscreed"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/assassins-creed-mirage--master-assassin-pack"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://assassinscreed.fandom.com/wiki/Master_Assassin_Pack_(Mirage)"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_Mirage"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 05, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-05"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 05, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-05"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 05, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 05, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-05"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 05, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-05"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

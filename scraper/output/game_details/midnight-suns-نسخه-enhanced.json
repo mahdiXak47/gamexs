@@ -1,0 +1,185 @@
+{
+  "slug": "midnight-suns-نسخه-enhanced",
+  "igdb_id": 165347,
+  "name": "Marvel's Midnight Suns",
+  "summary": "Marvel's Midnight Suns is a tactical role-playing game developed by Firaxis Games and published by 2K Games. The game is set in the Marvel Universe and features a blend of strategy, role-playing, and card-based combat mechanics.\n\nIn the game, players take on the role of \"The Hunter,\" a customisable original character, and lead a team of Marvel superheroes. The story revolves around battling the demonic forces of Lilith, the Mother of Demons, who has been resurrected by the nefarious group Hydra.\n\nThe gameplay involves strategic, turn-based combat, where players use a deck of ability cards to perform attacks, skills, and buffs. Between missions, players can explore the Abbey, the game's hub area, where they can interact with other heroes, upgrade abilities, and make decisions that affect the story and character relationships.",
+  "first_release_year": 2022,
+  "developers": [
+    "Firaxis Games"
+  ],
+  "publishers": [
+    "2K Games"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Strategy",
+    "Tactical"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Marvel"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "superhero",
+    "tactical turn-based combat",
+    "superpowers"
+  ],
+  "alternative_names": [
+    {
+      "name": "MARVEL Midnight Suns",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Midnight Suns",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "漫威暗夜之子",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "漫威午夜之子",
+      "comment": "Chinese title - traditional"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/MidnightSuns"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marvel's_Midnight_Suns"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002129"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/marvels-midnight-suns-switch/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/marvels-midnight-suns"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://midnightsuns.2k.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/midnightsuns"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/midnightsuns"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Marvel's%20Midnight%20Suns"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://marvels-midnight-suns.fandom.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/368260/Marvels_Midnight_Suns"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/midnightsuns"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/midnightsuns"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 02, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-02"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 11, 2023",
+      "status": "Released",
+      "date_iso": "2023-05-11"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "May 11, 2023",
+      "status": "Released",
+      "date_iso": "2023-05-11"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 02, 2023",
+      "status": "Offline",
+      "date_iso": "2023-05-02"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 02, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-02"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 02, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-02"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar60zz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6100.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6101.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6102.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar54eh.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "Wz8Vw5tOf5M",
+      "url": "https://www.youtube.com/watch?v=Wz8Vw5tOf5M"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "8eeGFDDU3Hg",
+      "url": "https://www.youtube.com/watch?v=8eeGFDDU3Hg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "kl-ZulCCh9k",
+      "url": "https://www.youtube.com/watch?v=kl-ZulCCh9k"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "9NiuqaiYpWE",
+      "url": "https://www.youtube.com/watch?v=9NiuqaiYpWE"
+    }
+  ]
+}

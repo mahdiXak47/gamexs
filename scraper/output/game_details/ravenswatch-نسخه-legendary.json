@@ -1,0 +1,213 @@
+{
+  "slug": "ravenswatch-نسخه-legendary",
+  "igdb_id": 208417,
+  "name": "Ravenswatch",
+  "summary": "Fallen heroes of old folk tales and legends: you are on the verge of a crucial battle against the Nightmare invading and corrupting your world. A roguelike action game from the creators of Curse of the Dead Gods, playable solo or in online co-op.",
+  "first_release_year": 2024,
+  "developers": [
+    "Passtech Games"
+  ],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "OEngine"
+  ],
+  "keywords": [
+    "roguelike",
+    "roguelite"
+  ],
+  "alternative_names": [
+    {
+      "name": "Ravenswatch.exe",
+      "comment": "windows executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005682"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/ravenswatch-switch/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/ravenswatch-b0115d"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2071280/Ravenswatch"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Ravenswatch"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://ravenswatch.com/en/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/Nacon"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/PlayRavenswatch"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/PlayRavenswatch"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/PlayRavenswatch"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/passtechgames"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/ravenswatch"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 28, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 28, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 28, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-28"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 28, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 06, 2023",
+      "status": "Beta",
+      "date_iso": "2023-04-06"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 26, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-26"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jan 23, 2025",
+      "status": "Released",
+      "date_iso": "2025-01-23"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Q4 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-12-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1r77.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "kubhq0IPOR0",
+      "url": "https://www.youtube.com/watch?v=kubhq0IPOR0"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "H0HQrcAIFXk",
+      "url": "https://www.youtube.com/watch?v=H0HQrcAIFXk"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ILIe1AbYzOo",
+      "url": "https://www.youtube.com/watch?v=ILIe1AbYzOo"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "oCIgqESq9Hw",
+      "url": "https://www.youtube.com/watch?v=oCIgqESq9Hw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ngX3NNa_Hv4",
+      "url": "https://www.youtube.com/watch?v=ngX3NNa_Hv4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "XdSZTvzbIuE",
+      "url": "https://www.youtube.com/watch?v=XdSZTvzbIuE"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "NJQdx12vUdg",
+      "url": "https://www.youtube.com/watch?v=NJQdx12vUdg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "naWtJ46g3AE",
+      "url": "https://www.youtube.com/watch?v=naWtJ46g3AE"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "uVrUGQ2rE3E",
+      "url": "https://www.youtube.com/watch?v=uVrUGQ2rE3E"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "XBTODd0s_8s",
+      "url": "https://www.youtube.com/watch?v=XBTODd0s_8s"
+    },
+    {
+      "title": "Romeo & Juliet Reveal Trailer",
+      "youtube_id": "SlMItG92hTw",
+      "url": "https://www.youtube.com/watch?v=SlMItG92hTw"
+    }
+  ]
+}

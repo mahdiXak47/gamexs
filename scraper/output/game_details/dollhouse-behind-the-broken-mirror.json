@@ -1,0 +1,133 @@
+{
+  "slug": "dollhouse-behind-the-broken-mirror",
+  "igdb_id": 293788,
+  "name": "Dollhouse: Behind the Broken Mirror",
+  "summary": "Enter the broken mind of Eliza de Moor, a once-celebrated singer, now trapped in the labyrinth of her own forgotten memories. The only hope for recovering her memories lies with Doctor Stern and his experimental medicine. As Eliza, you'll navigate the reality and the world behind the broken mirror, guided by the effects of the drug.\n\nWill you be able to piece together the mystery of your past, or will you get lost in this dark and twisted reality?",
+  "first_release_year": 2025,
+  "developers": [
+    "GrindHouse"
+  ],
+  "publishers": [
+    "SOEDESCO Publishing"
+  ],
+  "genres": [
+    "Shooter",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Stealth",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Dollhouse"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "cinematic",
+    "multiple endings",
+    "choices matter",
+    "alternate reality",
+    "meaningful choices",
+    "dolls"
+  ],
+  "alternative_names": [
+    {
+      "name": "Dollhouse - Behind the Broken Mirror.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1791660"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.soedesco.com/games/dollhouse-behind-the-broken-mirror"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/SOEDESCO"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Soedesco/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/SOEDESCO/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@SOEDESCO"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/soedesco"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/dollhouse-behind-the-broken-mirror/9N0ST16VZV1C"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010190"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 28, 2025",
+      "status": "Released",
+      "date_iso": "2025-03-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 28, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 28, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 28, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2uoj.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "Tt_aVP4TxVk",
+      "url": "https://www.youtube.com/watch?v=Tt_aVP4TxVk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Ep0-kZrJf9k",
+      "url": "https://www.youtube.com/watch?v=Ep0-kZrJf9k"
+    }
+  ]
+}

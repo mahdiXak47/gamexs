@@ -1,0 +1,141 @@
+{
+  "slug": "metal-slug-xx",
+  "igdb_id": 21760,
+  "name": "Metal Slug XX",
+  "summary": "Metal Slug XX is an entry in the long-running series of side-scrolling shooters. It is a revised version of Metal Slug 7. The Peregrine Falcons, Marco, Eri, Clark, Tarma, Fio and Ralf, are once again running-and-gunning in colorfully hand-drawn levels, throwing grenades, driving vehicles and slashing enemies.\n\nMetal Slug XX includes various single-player features in the form of a Combat School that lets players return to previously completed missions while executing various objectives; a POW List that shows how many POWs were rescued in each level; and single-player Rankings. Players can also cooperate in Ad-Hoc while gunning down hordes of humorous foes using familiar weapons in seven distinct levels that will see our heroes traverse deserts, mountains, caves and lava pits to finally put an end to their longtime enemy.\n\nThis revised version includes additional content including co-op multiplayer and downloadable content, as well as the character Leona Heidern.",
+  "first_release_year": 2009,
+  "developers": [
+    "SNK"
+  ],
+  "publishers": [
+    "SNK",
+    "Atlus"
+  ],
+  "genres": [
+    "Shooter",
+    "Platform"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Metal Slug"
+  ],
+  "spin_off_of": "Metal Slug 7",
+  "franchises": [
+    "Metal Slug"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "modern warfare",
+    "helicopter",
+    "anime",
+    "mech",
+    "death",
+    "multiple protagonists",
+    "hostages",
+    "high score",
+    "boss fight",
+    "digital distribution",
+    "modern military",
+    "deliberately retro",
+    "playstation plus",
+    "asymmetric co-op",
+    "playstation tv support",
+    "xbox one backwards compatibility",
+    "close quarters combat",
+    "carjacking",
+    "previously on - xbox gamepass"
+  ],
+  "alternative_names": [
+    {
+      "name": "メタルスラッグXX",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "Metal Slug XX.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/202878"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.snk-corp.co.jp/us/games/metalslugxx/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/975680"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Metal%20Slug%20XX"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 01, 2019",
+      "status": "Released",
+      "date_iso": "2019-02-01"
+    },
+    {
+      "platform": "PlayStation Vita",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 29, 2018",
+      "status": "Released",
+      "date_iso": "2018-05-29"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Jun 16, 2010",
+      "status": "Released",
+      "date_iso": "2010-06-16"
+    },
+    {
+      "platform": "PlayStation Portable",
+      "region": null,
+      "date": "Mar 23, 2010",
+      "status": "Released",
+      "date_iso": "2010-03-23"
+    },
+    {
+      "platform": "PlayStation Portable",
+      "region": null,
+      "date": "Dec 23, 2009",
+      "status": "Released",
+      "date_iso": "2009-12-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arkf3.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "ssqR-kZDhyY",
+      "url": "https://www.youtube.com/watch?v=ssqR-kZDhyY"
+    }
+  ]
+}

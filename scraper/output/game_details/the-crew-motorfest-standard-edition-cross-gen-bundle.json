@@ -1,0 +1,236 @@
+{
+  "slug": "the-crew-motorfest-standard-edition-cross-gen-bundle",
+  "igdb_id": 234256,
+  "name": "The Crew: Motorfest",
+  "summary": "The Crew Motorfest is an open-world racing game set on scaled-down versions of the Hawaiian islands of Oahu and Maui. The third entry in The Crew series, it is structured around a festival theme with \"Playlists\" consisting of staged races, side activities, and challenges built around topics like specific car brands or motorsport disciplines. Players can control cars, boats, and planes across the open world, and multiplayer modes include the Grand Race and Demolition Royale. The game originally started development as DLC for The Crew 2 before becoming a standalone title, and draws comparisons to the Forza Horizon series for its festival-based structure.",
+  "first_release_year": 2023,
+  "developers": [
+    "Ivory Tower"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Racing",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "The Crew"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "motorcycle",
+    "flying",
+    "relaxing",
+    "boat racing",
+    "colorful",
+    "always online",
+    "hawaii",
+    "car collecting",
+    "festival",
+    "vibrant"
+  ],
+  "alternative_names": [
+    {
+      "name": "TheCrewMotorfest.exe",
+      "comment": "windows executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Crew_Motorfest"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/The_Crew/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/the-crew-motorfest/9NNS41P5J1C7"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002313"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/TheCrew.de"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/TheCrewGame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ubisoft.com/en-gb/game/the-crew/motorfest"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/thecrewgame"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2698940"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/the-crew-motorfest"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/thecrew"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/the-crew-motorfest"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 21, 2023",
+      "status": "Alpha",
+      "date_iso": "2023-07-21"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 11, 2023",
+      "status": "status_34",
+      "date_iso": "2023-09-11"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 11, 2023",
+      "status": "status_34",
+      "date_iso": "2023-09-11"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-14"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 21, 2023",
+      "status": "Alpha",
+      "date_iso": "2023-07-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 11, 2023",
+      "status": "status_34",
+      "date_iso": "2023-09-11"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 21, 2023",
+      "status": "Alpha",
+      "date_iso": "2023-07-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 21, 2023",
+      "status": "Alpha",
+      "date_iso": "2023-07-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 11, 2023",
+      "status": "status_34",
+      "date_iso": "2023-09-11"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-14"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 11, 2023",
+      "status": "status_34",
+      "date_iso": "2023-09-11"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 21, 2023",
+      "status": "Alpha",
+      "date_iso": "2023-07-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar23rz.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "xF45nzjSq2E",
+      "url": "https://www.youtube.com/watch?v=xF45nzjSq2E"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "xGAukGxUDI8",
+      "url": "https://www.youtube.com/watch?v=xGAukGxUDI8"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "QuvaE7VhhjY",
+      "url": "https://www.youtube.com/watch?v=QuvaE7VhhjY"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "kpVfIqxsE24",
+      "url": "https://www.youtube.com/watch?v=kpVfIqxsE24"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "slug": "road-96",
+  "igdb_id": 141543,
+  "name": "Road 96",
+  "summary": "Road 96 is a crazy, beautiful road-trip. The discovery of exciting places, and unusual people on your own personal journey to freedom. An ever-evolving story-driven adventure inspired by Tarantino, The Coen Brothers, and Bong Joon-ho. Moments of action, exploration, contemplative melancholy, human encounters and wacky situations. Set against a backdrop of authoritarian rule and oppression. A stunning visual style, a soundtrack filled with 90s hits, and a thousand routes through the game combine so each player can create their own unique stories on Road 96.",
+  "first_release_year": 2021,
+  "developers": [
+    "DigixArt"
+  ],
+  "publishers": [
+    "Ravenscourt"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Comedy",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Road 96"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "mature",
+    "atmospheric",
+    "story rich",
+    "colorful"
+  ],
+  "alternative_names": [
+    {
+      "name": "Road 96.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/digixart"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/digixart"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/road_96"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/road-96-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003593"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/road-96/9NVBKDF85W8T"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1466640/Road_96"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/digixart"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/road-96"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/PckWFcTexV"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://ravenscourt.games/en-US/games/road96"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Road%2096"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Road_96"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Digixart"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://road96.fandom.com/wiki/Road_96_Wiki"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Road96/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-14"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-14"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 16, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-16"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 16, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-16"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar9ig.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "oJijMsezBHg",
+      "url": "https://www.youtube.com/watch?v=oJijMsezBHg"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "ZgVf3089d5g",
+      "url": "https://www.youtube.com/watch?v=ZgVf3089d5g"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "5GlGjN4OuWo",
+      "url": "https://www.youtube.com/watch?v=5GlGjN4OuWo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Q6QpMeDbVtI",
+      "url": "https://www.youtube.com/watch?v=Q6QpMeDbVtI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ZNUfdZyzB3Q",
+      "url": "https://www.youtube.com/watch?v=ZNUfdZyzB3Q"
+    }
+  ]
+}

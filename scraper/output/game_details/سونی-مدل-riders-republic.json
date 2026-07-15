@@ -1,0 +1,153 @@
+{
+  "slug": "سونی-مدل-riders-republic",
+  "igdb_id": 138766,
+  "name": "Riders Republic",
+  "summary": "Jump into the Riders Republic massive multiplayer playground! Bike, ski, snowboard, or wingsuit across an open world sports paradise. Join a massive multiplayer community and participate in an avalanche of diverse activities in real time with others!",
+  "first_release_year": 2021,
+  "developers": [
+    "Ubisoft Annecy"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [
+    "Action",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Ubisoft Anvil"
+  ],
+  "keywords": [
+    "snowboarding"
+  ],
+  "alternative_names": [
+    {
+      "name": "Riders Republic Standard Edition ",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "RidersRepublic.exe",
+      "comment": "windows executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/riders-republic/9P1RPXHWZ1C7"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000459"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ubisoft.com/en-us/game/riders-republic"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/product/riders-republic"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/RidersRepublicGame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/Ridersrepublicgame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Riders%20Republic"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2290180"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Riders_Republic"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/RidersRepublic"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/RidersRepublic"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/ridersrepublic"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-28"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-28"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Oct 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar794.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "7SU_DpuGF4k",
+      "url": "https://www.youtube.com/watch?v=7SU_DpuGF4k"
+    }
+  ]
+}

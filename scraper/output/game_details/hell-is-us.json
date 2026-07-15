@@ -1,0 +1,230 @@
+{
+  "slug": "hell-is-us",
+  "igdb_id": 196954,
+  "name": "Hell is Us",
+  "summary": "If war is the closest we get to hell on earth, it's because Earth harbours the worst of demons: humankind. In an isolated country ravaged by infighting, discover the secrets of your past and deal with the repercussions of a mysterious calamity.",
+  "first_release_year": 2025,
+  "developers": [
+    "Rogue Factor"
+  ],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction",
+    "Horror",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "civil war",
+    "drone",
+    "flashback",
+    "sociopathy",
+    "respawn justification",
+    "stamina"
+  ],
+  "alternative_names": [
+    {
+      "name": "HellIsUs.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/hell-is-us-b9c06d"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/hell-is-us/9n9097g0xzmb"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005051"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hell_Is_Us"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://hell-is-us.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1620730"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/Nacon"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/HELLisUSgame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/hell-is-us"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/HELLisUSgame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/HELLisUSgame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 01, 2025",
+      "status": "status_34",
+      "date_iso": "2025-09-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-04"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-04"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-04"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 01, 2025",
+      "status": "status_34",
+      "date_iso": "2025-09-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 01, 2025",
+      "status": "status_34",
+      "date_iso": "2025-09-01"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Sep 24, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-09-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3qmm.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3qmn.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3qmp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3qmo.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "jDbkWYYJ0FI",
+      "url": "https://www.youtube.com/watch?v=jDbkWYYJ0FI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "CM-mZuf2mA0",
+      "url": "https://www.youtube.com/watch?v=CM-mZuf2mA0"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ynk7LyKGNHM",
+      "url": "https://www.youtube.com/watch?v=ynk7LyKGNHM"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "Q69e1A3ovxI",
+      "url": "https://www.youtube.com/watch?v=Q69e1A3ovxI"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "8iZbNIAM8eQ",
+      "url": "https://www.youtube.com/watch?v=8iZbNIAM8eQ"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "dH0oJyvku68",
+      "url": "https://www.youtube.com/watch?v=dH0oJyvku68"
+    },
+    {
+      "title": "Demo Trailer",
+      "youtube_id": "JY3znGoDGok",
+      "url": "https://www.youtube.com/watch?v=JY3znGoDGok"
+    },
+    {
+      "title": "Deep Dive",
+      "youtube_id": "XYwiPfm6AyQ",
+      "url": "https://www.youtube.com/watch?v=XYwiPfm6AyQ"
+    },
+    {
+      "title": "Diving into the Dungeons",
+      "youtube_id": "d7cruG29bD8",
+      "url": "https://www.youtube.com/watch?v=d7cruG29bD8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "5RCGeicdIu8",
+      "url": "https://www.youtube.com/watch?v=5RCGeicdIu8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "X_8JCpFj2qM",
+      "url": "https://www.youtube.com/watch?v=X_8JCpFj2qM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "79FpQJcnqSA",
+      "url": "https://www.youtube.com/watch?v=79FpQJcnqSA"
+    },
+    {
+      "title": "This is Hell is Us",
+      "youtube_id": "YzXAgwUJlTI",
+      "url": "https://www.youtube.com/watch?v=YzXAgwUJlTI"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "83KAMfzWpCA",
+      "url": "https://www.youtube.com/watch?v=83KAMfzWpCA"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "xbO4MKaxAHE",
+      "url": "https://www.youtube.com/watch?v=xbO4MKaxAHE"
+    }
+  ]
+}

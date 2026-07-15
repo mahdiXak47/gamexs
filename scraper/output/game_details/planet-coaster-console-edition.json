@@ -1,0 +1,152 @@
+{
+  "slug": "planet-coaster-console-edition",
+  "igdb_id": 125627,
+  "name": "Planet Coaster: Console Edition",
+  "summary": "The celebrated coaster park simulation game comes to your living room. This is Planet Coaster: Console Edition. Unleash your vision using simple yet powerful creation tools, control every aspect of your park with fun management features, and share any design imaginable online.",
+  "first_release_year": 2020,
+  "developers": [
+    "Frontier Developments"
+  ],
+  "publishers": [
+    "Frontier Developments"
+  ],
+  "genres": [
+    "Simulator",
+    "Strategy"
+  ],
+  "themes": [
+    "Action",
+    "Sandbox"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Planet Coaster"
+  ],
+  "spin_off_of": "Planet Coaster",
+  "franchises": [],
+  "game_engines": [
+    "Cobra"
+  ],
+  "keywords": [
+    "tycoon",
+    "construction",
+    "amusement park",
+    "management",
+    "previously on - xbox gamepass"
+  ],
+  "alternative_names": [
+    {
+      "name": "プラネットコースター: コンソール版",
+      "comment": "Japanese title - original"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/235039"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://planetcoaster.com/console"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://planetcoaster.fandom.com/wiki/Planet_Coaster"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/planetcoaster"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://www.twitter.com/planetcoaster"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Planet_Coaster"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/planetcoaster"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/planetcoaster"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/planetcoaster"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/PlanetCoaster"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 24, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-11-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 24, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-11-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 19, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar8aa.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Dev Diary",
+      "youtube_id": "2DkJ0QjZJzE",
+      "url": "https://www.youtube.com/watch?v=2DkJ0QjZJzE"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "VOsKKOlox7k",
+      "url": "https://www.youtube.com/watch?v=VOsKKOlox7k"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Z0EBpgv_LIs",
+      "url": "https://www.youtube.com/watch?v=Z0EBpgv_LIs"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "G1mnyi2xZIA",
+      "url": "https://www.youtube.com/watch?v=G1mnyi2xZIA"
+    }
+  ]
+}

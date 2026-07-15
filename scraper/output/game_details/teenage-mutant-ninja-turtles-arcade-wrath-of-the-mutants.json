@@ -1,0 +1,129 @@
+{
+  "slug": "teenage-mutant-ninja-turtles-arcade-wrath-of-the-mutants",
+  "igdb_id": 288335,
+  "name": "Teenage Mutant Ninja Turtles Arcade: Wrath of the Mutants",
+  "summary": "A port of the arcade game Teenage Mutant Ninja Turtles released in 2017 which was based on the the 2012 Nickelodeon TV series. This port adds three new stages and six new boss battles to the gameplay of the original arcade game.",
+  "first_release_year": 2024,
+  "developers": [
+    "Raw Thrills"
+  ],
+  "publishers": [
+    "GameMill Entertainment"
+  ],
+  "genres": [
+    "Fighting",
+    "Hack and slash/Beat 'em up",
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Teenage Mutant Ninja Turtles",
+    "Teenage Mutant Ninja Turtles (2012)"
+  ],
+  "spin_off_of": "Teenage Mutant Ninja Turtles",
+  "franchises": [
+    "Teenage Mutant Ninja Turtles"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009199"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.gamemill.com"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/teenage-mutant-ninja-turtles-arcade-wrath-of-the-mutants-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2527580"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/trailmarkgames"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/trailmarkgames"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@TrailmarkGames"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 23, 2024",
+      "status": "Released",
+      "date_iso": "2024-04-23"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 23, 2024",
+      "status": "Released",
+      "date_iso": "2024-04-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 23, 2024",
+      "status": "Released",
+      "date_iso": "2024-04-23"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 23, 2024",
+      "status": "Released",
+      "date_iso": "2024-04-23"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 23, 2024",
+      "status": "Released",
+      "date_iso": "2024-04-23"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 23, 2024",
+      "status": "Released",
+      "date_iso": "2024-04-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2uw5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2uw6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2uw4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2uwf.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "iIomr5vOVAk",
+      "url": "https://www.youtube.com/watch?v=iIomr5vOVAk"
+    }
+  ]
+}

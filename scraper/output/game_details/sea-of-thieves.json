@@ -1,0 +1,261 @@
+{
+  "slug": "sea-of-thieves",
+  "igdb_id": 11137,
+  "name": "Sea of Thieves",
+  "summary": "Sea of Thieves is a first-person multiplayer action-adventure game in which players take on the role of pirates exploring an open world ocean. Crews of one to four players operate sloop, brigantine, or galleon ships cooperatively, completing voyages for various trading companies, hunting for treasure, battling skeleton forts, and encountering other player crews who may form alliances or attack. The game features a cosmetics-only progression system, meaning all players have equal gameplay capabilities regardless of experience level.",
+  "first_release_year": 2018,
+  "developers": [
+    "Rare"
+  ],
+  "publishers": [
+    "Xbox Game Studios"
+  ],
+  "genres": [
+    "Simulator",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Sea of Thieves"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "pirates",
+    "exploration",
+    "grinding",
+    "crafting",
+    "action-adventure",
+    "skeleton",
+    "treasure hunt",
+    "online",
+    "tropical",
+    "ships",
+    "digital distribution",
+    "pax west 2017",
+    "xbox play anywhere",
+    "xbox one x enhanced",
+    "skeletons",
+    "treasure chest",
+    "xbox live",
+    "gamescom 2016",
+    "the game awards 2017",
+    "4k ultra hd",
+    "xbox live cross-platform multiplayer",
+    "xbox live achievements",
+    "you can pet the dog",
+    "always online",
+    "the game awards - best multiplayer game - nominee"
+  ],
+  "alternative_names": [
+    {
+      "name": "盗贼之海",
+      "comment": "Chinese title"
+    },
+    {
+      "name": "Mar dos Ladrões",
+      "comment": "Portuguese title"
+    },
+    {
+      "name": "Meer der Diebe",
+      "comment": "German title"
+    },
+    {
+      "name": "SeaOfThieves.exe",
+      "comment": "windows executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008884"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/sea-of-thieves-2025-edition/9P2N57MC619K"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/seaofthieves/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.seaofthieves.com"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/SeaOfThieves"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/seaofthievesgame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discordapp.com/invite/seaofthieves"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sea_of_Thieves"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1172620"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Seaofthieves"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Sea%20of%20Thieves"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/seaofthievesgame?hl=en"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/seaofthieves.com"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://seaofthieves.wiki.gg/wiki/Sea_of_Thieves"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 30, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-04-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 20, 2018",
+      "status": "Released",
+      "date_iso": "2018-03-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 20, 2018",
+      "status": "Released",
+      "date_iso": "2018-03-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6pf.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6ph.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar74f.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5jj.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6pg.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar8cm.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "pxUImwLw2eU",
+      "url": "https://www.youtube.com/watch?v=pxUImwLw2eU"
+    },
+    {
+      "title": "E3 Announce Trailer",
+      "youtube_id": "DwDBmEVX9dw",
+      "url": "https://www.youtube.com/watch?v=DwDBmEVX9dw"
+    },
+    {
+      "title": "Gameplay video",
+      "youtube_id": "bQlsN6EO2oU",
+      "url": "https://www.youtube.com/watch?v=bQlsN6EO2oU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "lF36PEN8ABI",
+      "url": "https://www.youtube.com/watch?v=lF36PEN8ABI"
+    },
+    {
+      "title": "Gameplay video",
+      "youtube_id": "DUg3yO_Lh6g",
+      "url": "https://www.youtube.com/watch?v=DUg3yO_Lh6g"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "j9aUwwenheQ",
+      "url": "https://www.youtube.com/watch?v=j9aUwwenheQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "aE_sEdInwMk",
+      "url": "https://www.youtube.com/watch?v=aE_sEdInwMk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "OVYP0qhz030",
+      "url": "https://www.youtube.com/watch?v=OVYP0qhz030"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "xRbTaMStHIM",
+      "url": "https://www.youtube.com/watch?v=xRbTaMStHIM"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "rD974R24J-4",
+      "url": "https://www.youtube.com/watch?v=rD974R24J-4"
+    },
+    {
+      "title": "4K Gameplay Video",
+      "youtube_id": "rbE8BnO6oug",
+      "url": "https://www.youtube.com/watch?v=rbE8BnO6oug"
+    },
+    {
+      "title": "Gameplay video",
+      "youtube_id": "D551JqlNRn4",
+      "url": "https://www.youtube.com/watch?v=D551JqlNRn4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "r5JIBaasuE8",
+      "url": "https://www.youtube.com/watch?v=r5JIBaasuE8"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "gl3UiHp0sz0",
+      "url": "https://www.youtube.com/watch?v=gl3UiHp0sz0"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "cOhLUE-Vi3E",
+      "url": "https://www.youtube.com/watch?v=cOhLUE-Vi3E"
+    },
+    {
+      "title": "TGA 2017 Trailer",
+      "youtube_id": "BLRcFs5iyJ4",
+      "url": "https://www.youtube.com/watch?v=BLRcFs5iyJ4"
+    }
+  ]
+}

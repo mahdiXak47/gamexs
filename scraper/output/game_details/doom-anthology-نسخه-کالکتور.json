@@ -1,0 +1,101 @@
+{
+  "slug": "doom-anthology-نسخه-کالکتور",
+  "igdb_id": 332005,
+  "name": "Doom Anthology",
+  "summary": "The Doom Anthology takes players through more than three decades of demon slaying - from the classic games that popularized the first-person shooter genre to the fan favorite franchise reboot and its sequel.",
+  "first_release_year": 2025,
+  "developers": [
+    "id Software"
+  ],
+  "publishers": [
+    "Bethesda Softworks"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Doom"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/doom-anthology/9NV5WGKTJ0MF"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-gb/product/EP1003-PPSA01982_00-DOOMANTHOLOGY000"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/bundle/15366/DOOM_Anthology/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/doom-anthology-switch/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Feb 10, 2025",
+      "status": "Released",
+      "date_iso": "2025-02-10"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 22, 2025",
+      "status": "Released",
+      "date_iso": "2025-01-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 22, 2025",
+      "status": "Released",
+      "date_iso": "2025-01-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 22, 2025",
+      "status": "Released",
+      "date_iso": "2025-01-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 22, 2025",
+      "status": "Released",
+      "date_iso": "2025-01-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 22, 2025",
+      "status": "Released",
+      "date_iso": "2025-01-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3bhf.jpg"
+  ],
+  "videos": []
+}

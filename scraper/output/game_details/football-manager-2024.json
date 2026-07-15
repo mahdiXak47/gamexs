@@ -1,0 +1,127 @@
+{
+  "slug": "football-manager-2024",
+  "igdb_id": 266382,
+  "name": "Football Manager 2024",
+  "summary": "Progress never stops when you're pursuing footballing greatness. Gameplay upgrades empower you to develop a blueprint for success on and off the pitch. Pre-order for 10% off and Early Access*.",
+  "first_release_year": 2023,
+  "developers": [
+    "Sports Interactive"
+  ],
+  "publishers": [
+    "Sega"
+  ],
+  "genres": [
+    "Simulator",
+    "Sport",
+    "Strategy"
+  ],
+  "themes": [
+    "Non-fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Football Manager"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "soccer",
+    "football",
+    "football manager",
+    "soccer manager"
+  ],
+  "alternative_names": [
+    {
+      "name": "FM24",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Football Manager 2024 Resource archiver",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Football Manager 2024 Pre-game editor",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Football_Manager_2024"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/football-manager-2024"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008128"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/football-manager-2024-console/9N7GJJ2WTPBZ"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2252570"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.footballmanager.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-06"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-06"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-06"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Nov 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2itm.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "QvyMqBtiJDg",
+      "url": "https://www.youtube.com/watch?v=QvyMqBtiJDg"
+    }
+  ]
+}

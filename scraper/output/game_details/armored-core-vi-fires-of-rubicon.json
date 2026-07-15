@@ -1,0 +1,196 @@
+{
+  "slug": "armored-core-vi-fires-of-rubicon",
+  "igdb_id": 228542,
+  "name": "Armored Core VI: Fires of Rubicon",
+  "summary": "By combining FromSoftware’s longstanding expertise in mech games and their signature robust gameplay, Armored Core VI: Fires of Rubicon will be a new action experience.",
+  "first_release_year": 2023,
+  "developers": [
+    "FromSoftware"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment",
+    "FromSoftware"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Armored Core"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "character customization",
+    "mercenaries",
+    "pvp",
+    "futuristic",
+    "mission based",
+    "multiple endings",
+    "pve",
+    "mecha",
+    "steam trading cards",
+    "steam achievements",
+    "steam cloud",
+    "color customization",
+    "mission briefing",
+    "branching paths",
+    "steam families"
+  ],
+  "alternative_names": [
+    {
+      "name": "AC6",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "Armored Core 6",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Armoured Core 6",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Armoured Core VI",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "ARMORED CORE VI FIRES OF RUBICON",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Armored%20Core%20VI:%20Fires%20of%20Rubicon"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/armored-core-vi-fires-of-rubicon/9P4SV7R7N3HW"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001815"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1888160"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://armoredcore6.com"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/armoredcore"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Armored_Core_VI:_Fires_of_Rubicon"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@FromSoftwareInc"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/ArmoredCoreVI/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://armoredcore6.wikidot.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 25, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 25, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-25"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 25, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 25, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4ek8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4eka.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar67fj.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar21ry.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "_px40TUf6zQ",
+      "url": "https://www.youtube.com/watch?v=_px40TUf6zQ"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "SlSfr6Wa5sc",
+      "url": "https://www.youtube.com/watch?v=SlSfr6Wa5sc"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "6_9PYUXQ9Qw",
+      "url": "https://www.youtube.com/watch?v=6_9PYUXQ9Qw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Vs2piSWfofQ",
+      "url": "https://www.youtube.com/watch?v=Vs2piSWfofQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3Ud-XOwQsHE",
+      "url": "https://www.youtube.com/watch?v=3Ud-XOwQsHE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "aVDe1P3Z9Rk",
+      "url": "https://www.youtube.com/watch?v=aVDe1P3Z9Rk"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "9EQA_eF3E2U",
+      "url": "https://www.youtube.com/watch?v=9EQA_eF3E2U"
+    }
+  ]
+}

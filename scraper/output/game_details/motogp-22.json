@@ -1,0 +1,147 @@
+{
+  "slug": "motogp-22",
+  "igdb_id": 191857,
+  "name": "MotoGP 22",
+  "summary": "Start your engines! MotoGP 22 is the most immersive and realistic chapter of the racing simulator series MotoGP yet! Immediate fun from day one with the 2022 official season and the new split-screen mode to challenge your friends.",
+  "first_release_year": 2022,
+  "developers": [
+    "Milestone"
+  ],
+  "publishers": [
+    "Milestone"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "MotoGP"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/nFkhNRGh"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/motogpvideogame"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/motoGPVideogame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004098"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/motogp-22-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/motogp22/9P6N58X27150"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/MilestoneTeam"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://motogpvideogame.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1710580"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/MotoGP%2022"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 21, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-21"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 21, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 21, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 21, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-21"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 21, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-21"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 21, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1gr2.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1gr3.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Degr5nFRKGc",
+      "url": "https://www.youtube.com/watch?v=Degr5nFRKGc"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "umU9BHn46sE",
+      "url": "https://www.youtube.com/watch?v=umU9BHn46sE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Ma6jaUWaSwU",
+      "url": "https://www.youtube.com/watch?v=Ma6jaUWaSwU"
+    }
+  ]
+}

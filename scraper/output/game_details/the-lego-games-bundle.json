@@ -1,0 +1,77 @@
+{
+  "slug": "the-lego-games-bundle",
+  "igdb_id": 164574,
+  "name": "The LEGO Games Bundle",
+  "summary": "Build your library with The LEGO Game Bundle! This collection includes four fun games that can be enjoyed alone or via couch co-op. The bundle features LEGO DC Super-Villains, LEGO Batman 3: Beyond Gotham, The LEGO Movie Videogame and The LEGO Movie 2 Videogame.",
+  "first_release_year": 2020,
+  "developers": [
+    "TT Games",
+    "TT Fusion"
+  ],
+  "publishers": [
+    "Feral Interactive",
+    "WB Games"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "LEGO",
+    "LEGO Batman",
+    "The Lego Movie"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/the_lego_games_bundle"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/sub/466140/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jun 08, 2020",
+      "status": "Released",
+      "date_iso": "2020-06-08"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "May 18, 2020",
+      "status": "Released",
+      "date_iso": "2020-05-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 08, 2020",
+      "status": "Released",
+      "date_iso": "2020-06-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar10ja.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar10jb.jpg"
+  ],
+  "videos": []
+}

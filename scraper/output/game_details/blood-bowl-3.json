@@ -1,0 +1,172 @@
+{
+  "slug": "blood-bowl-3",
+  "igdb_id": 138137,
+  "name": "Blood Bowl III",
+  "summary": "Brutal, crazy, tactical… this is Blood Bowl! The iconic death sport returns with the new video game of fantasy football faithfully using the latest board game rules and new content. Create your team, then crush, mulch and cheat your way to the top... leaving your opponents in the graveyard.",
+  "first_release_year": 2023,
+  "developers": [
+    "Cyanide Studio"
+  ],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Sport",
+    "Strategy",
+    "Turn-based strategy (TBS)",
+    "Card & Board Game"
+  ],
+  "themes": [
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Blood Bowl"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Warhammer",
+    "Blood Bowl"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Blood Bowl 3",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "http://www.bloodbowl-thegame.com/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/blood-bowl-3"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/nacon/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000371"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1016950"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/bloodbowl_game"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/bloodbowlgame/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/bloodbowl3"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Blood%20Bowl%20III/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blood_Bowl_3"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/slitherine_games/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 23, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 23, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-23"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 23, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-23"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 23, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-23"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "TBD",
+      "status": "Cancelled"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 23, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3sq3.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Dev Diary",
+      "youtube_id": "lYNghLqg_T4",
+      "url": "https://www.youtube.com/watch?v=lYNghLqg_T4"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "gV02e8TVD58",
+      "url": "https://www.youtube.com/watch?v=gV02e8TVD58"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "6AHkbhsCIDg",
+      "url": "https://www.youtube.com/watch?v=6AHkbhsCIDg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "X009aLRgWvk",
+      "url": "https://www.youtube.com/watch?v=X009aLRgWvk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "t3bWhhsbeXA",
+      "url": "https://www.youtube.com/watch?v=t3bWhhsbeXA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "CFT53a-ke2M",
+      "url": "https://www.youtube.com/watch?v=CFT53a-ke2M"
+    }
+  ]
+}

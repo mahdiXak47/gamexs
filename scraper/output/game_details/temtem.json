@@ -1,0 +1,193 @@
+{
+  "slug": "temtem",
+  "igdb_id": 100357,
+  "name": "Temtem",
+  "summary": "Temtem is a massively multiplayer creature collection adventure inspired by Pokémon. Seek adventure at the lovely Airborne Archipelago along your Temtem squad. Catch every Temtem, battle other trainers, customize your house, join a friend's adventure or explore the online living-world.",
+  "first_release_year": 2022,
+  "developers": [
+    "CremaGames"
+  ],
+  "publishers": [
+    "Humble Bundle"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Turn-based strategy (TBS)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Massively Multiplayer Online (MMO)"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric",
+    "Side view"
+  ],
+  "series": [
+    "Temtem"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "training",
+    "visible encounters",
+    "roaming encounters",
+    "crowdfunding - kickstarter"
+  ],
+  "alternative_names": [
+    {
+      "name": "ティーイーエムティーイーエム",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "Temtem.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001170"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/temtem-switch/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/CremaGames/"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/temtem.gg"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/745920"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/PlayTemtem"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/PlayTemtem"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/PlayTemtem"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/PlayTemtem"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discordapp.com/invite/temtem"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Temtem"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://crema.gg/games/temtem"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Temtem"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://temtem.wiki.gg/wiki/Temtem"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 21, 2020",
+      "status": "Beta",
+      "date_iso": "2020-01-21"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 06, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-06"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 06, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-06"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 07, 2020",
+      "status": "Offline",
+      "date_iso": "2020-08-07"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 07, 2020",
+      "status": "Offline",
+      "date_iso": "2020-08-07"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 08, 2020",
+      "status": "Beta",
+      "date_iso": "2020-12-08"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 06, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-06"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 06, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arrhn.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "mNhLpaKg2zM",
+      "url": "https://www.youtube.com/watch?v=mNhLpaKg2zM"
+    },
+    {
+      "title": "Gameplay trailer",
+      "youtube_id": "yC4dwdq2wg0",
+      "url": "https://www.youtube.com/watch?v=yC4dwdq2wg0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "i-UqrbkzxPQ",
+      "url": "https://www.youtube.com/watch?v=i-UqrbkzxPQ"
+    }
+  ]
+}

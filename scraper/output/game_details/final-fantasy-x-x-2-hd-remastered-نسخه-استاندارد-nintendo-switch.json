@@ -1,0 +1,334 @@
+{
+  "slug": "final-fantasy-x-x-2-hd-remastered-نسخه-استاندارد-nintendo-switch",
+  "igdb_id": 14144,
+  "name": "Final Fantasy X/X-2 HD Remaster",
+  "summary": "Based on the international versions of the games that were previously only released in Japan and Europe, FINAL FANTASY X/X-2 HD Remaster brings these timeless classics forward to the current generation of fans, old and new alike.",
+  "first_release_year": 2013,
+  "developers": [
+    "Virtuos",
+    "Square Enix Business Division 3"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Role-playing (RPG)"
+  ],
+  "themes": [
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Final Fantasy"
+  ],
+  "game_engines": [
+    "PhyreEngine"
+  ],
+  "keywords": [
+    "summoning support",
+    "compilation",
+    "female protagonist",
+    "action-adventure",
+    "multiple protagonists",
+    "time limit",
+    "multiple endings",
+    "sequel",
+    "good vs evil",
+    "turn-based combat",
+    "sword & sorcery",
+    "boss fight",
+    "digital distribution",
+    "full motion video",
+    "betrayal",
+    "pax prime 2013",
+    "cross-save",
+    "active time battle",
+    "mercenary",
+    "playstation tv support",
+    "coming of age",
+    "depression",
+    "tokyo game show 2013",
+    "hallucination",
+    "particle system",
+    "pre-order exclusive",
+    "dimension travel",
+    "plot twist",
+    "quick time event",
+    "teenager",
+    "new protagonist in sequel",
+    "new game plus",
+    "dream sequence",
+    "innocent people die",
+    "context sensitive",
+    "petrification",
+    "turn-based rpg",
+    "science-fantasy",
+    "emotional story"
+  ],
+  "alternative_names": [
+    {
+      "name": "FINAL FANTASY X/X-2 HD Remaster",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "FFX HD Collection",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Final Fantasy X HD Collection",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "FFX/X-2",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "FFX/X-2 HD Remaster",
+      "comment": "Acronym"
+    },
+    {
+      "name": "FFX",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "FFX-2",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Final Fantasy X",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Final Fantasy 10",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Final Fantasy X-2",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Final Fantasy 10-2",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "FF10",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "FF10-2",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "FFX HD",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "FFX-2 HD",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "FFX&X-2_LAUNCHER.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/final-fantasy-xx-2-hd-remaster-switch/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/FinalFantasy"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/201588"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/finalfantasy/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/359870"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/FinalFantasyX"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.sqex.game.ff10"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Final_Fantasy_X/X-2_HD_Remaster"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.finalfantasyxhd.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Mar 18, 2014",
+      "status": "Released",
+      "date_iso": "2014-03-18"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Dec 26, 2013",
+      "status": "Released",
+      "date_iso": "2013-12-26"
+    },
+    {
+      "platform": "PlayStation Vita",
+      "region": null,
+      "date": "Mar 21, 2014",
+      "status": "Released",
+      "date_iso": "2014-03-21"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Dec 26, 2013",
+      "status": "Released",
+      "date_iso": "2013-12-26"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Mar 21, 2014",
+      "status": "Released",
+      "date_iso": "2014-03-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 12, 2015",
+      "status": "Released",
+      "date_iso": "2015-05-12"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 14, 2015",
+      "status": "Released",
+      "date_iso": "2015-05-14"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 14, 2015",
+      "status": "Released",
+      "date_iso": "2015-05-14"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 15, 2015",
+      "status": "Released",
+      "date_iso": "2015-05-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 12, 2016",
+      "status": "Released",
+      "date_iso": "2016-05-12"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 11, 2019",
+      "status": "Released",
+      "date_iso": "2019-04-11"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 16, 2019",
+      "status": "Released",
+      "date_iso": "2019-04-16"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 16, 2019",
+      "status": "Released",
+      "date_iso": "2019-04-16"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 11, 2019",
+      "status": "Released",
+      "date_iso": "2019-04-11"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 16, 2019",
+      "status": "Released",
+      "date_iso": "2019-04-16"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 16, 2019",
+      "status": "Released",
+      "date_iso": "2019-04-16"
+    },
+    {
+      "platform": "PlayStation Vita",
+      "region": null,
+      "date": "Mar 18, 2014",
+      "status": "Released",
+      "date_iso": "2014-03-18"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Jul 23, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-07-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ylidribhj2b7q7qebquw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/doqngxjembefxojzygkp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/veydms442vglgzoqgo0s.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/gqcwzs1mdq9eyl0wugm8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/pqtojcup2ywow1xy3i5d.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/dzsts1tx6if9uppr56ml.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar63jx.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5km.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "Dc1A8hzXOMQ",
+      "url": "https://www.youtube.com/watch?v=Dc1A8hzXOMQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3oMm4kldpFc",
+      "url": "https://www.youtube.com/watch?v=3oMm4kldpFc"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "jsdxLwqUH6g",
+      "url": "https://www.youtube.com/watch?v=jsdxLwqUH6g"
+    }
+  ]
+}

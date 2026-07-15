@@ -1,0 +1,206 @@
+{
+  "slug": "alan-wake-remastered-ps4-و",
+  "igdb_id": 1062,
+  "name": "Alan Wake",
+  "summary": "Alan Wake is a psychological horror action-adventure game developed by Remedy Entertainment. The narrative centres on Alan Wake, a bestselling thriller novelist experiencing writer's block. He travels to the small town of Bright Falls with his wife, Alice, seeking a change of environment. Shortly after their arrival, Alice vanishes under mysterious circumstances.\n\nAs Alan searches for her, he discovers pages of a thriller novel he does not recall writing. The events described in these pages begin to manifest in reality, and Alan encounters hostile supernatural entities known as the \"Taken,\" who are controlled by darkness. The gameplay involves navigating Bright Falls and using light to combat these dark forces. The storyline explores themes of reality and fiction, along with the influence of the written word.",
+  "first_release_year": 2010,
+  "developers": [
+    "Remedy Entertainment"
+  ],
+  "publishers": [
+    "E-Frontier",
+    "Legacy Interactive",
+    "Namco Bandai Partners",
+    "Microsoft Game Studios",
+    "Remedy Entertainment",
+    "Nordic Games Publishing"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Thriller",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Alan Wake"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "The Alan Wake Engine"
+  ],
+  "keywords": [
+    "bloody",
+    "murder",
+    "story driven",
+    "action-adventure",
+    "steam",
+    "lovecraftian",
+    "steam trading cards",
+    "camera",
+    "easter egg",
+    "dreams",
+    "good vs evil",
+    "easy",
+    "steam achievements",
+    "digital distribution",
+    "xbox controller support for pc",
+    "voice acting",
+    "protagonist's name in the title",
+    "mind control",
+    "pop culture reference",
+    "licensed soundtrack",
+    "collectibles",
+    "original soundtrack release",
+    "wasd movement",
+    "humble bundle",
+    "fake in-game advertising",
+    "save point",
+    "sprinting mechanics",
+    "checkpoints",
+    "falling damage",
+    "downloadable content",
+    "stat tracking",
+    "shielded enemies",
+    "difficulty level",
+    "movie reference",
+    "developer cameo",
+    "digital rights management",
+    "no hud",
+    "licensed cars",
+    "unlockable difficulty level",
+    "xbox one backwards compatibility",
+    "difficulty achievement",
+    "car accident",
+    "plot twist",
+    "camera control",
+    "banter during gameplay",
+    "agents",
+    "in-engine cinematic",
+    "ambient music",
+    "inverted controls",
+    "fake tv show",
+    "kidnapping",
+    "character models based on actual people",
+    "dream sequence",
+    "crow",
+    "falling object",
+    "swarming enemies",
+    "developer commentary",
+    "product placement",
+    "landmark button",
+    "male protagonist"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/alan-wake/C493V31WXV80"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/product/alan-wake/home"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/alan_wake"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/remedygames/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/remedygames"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://alanwake.wikia.com/wiki/Alan_Wake_Wiki"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.alanwake.com/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/remedygames"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alan_Wake"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/108710"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/alanwake/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@RemedyGames"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Alan%20Wake"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "May 14, 2010",
+      "status": "Released",
+      "date_iso": "2010-05-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 16, 2012",
+      "status": "Released",
+      "date_iso": "2012-02-16"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "May 18, 2010",
+      "status": "Released",
+      "date_iso": "2010-05-18"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "May 20, 2010",
+      "status": "Released",
+      "date_iso": "2010-05-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5gcc.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5gcd.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5gce.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "qSGPU3FnD8Q",
+      "url": "https://www.youtube.com/watch?v=qSGPU3FnD8Q"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "O63AMsLdGxU",
+      "url": "https://www.youtube.com/watch?v=O63AMsLdGxU"
+    }
+  ]
+}

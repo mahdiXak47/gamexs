@@ -1,0 +1,158 @@
+{
+  "slug": "slitterhead",
+  "igdb_id": 185248,
+  "name": "Slitterhead",
+  "summary": "Set in the densely cluttered streets of \"Kowlong,\" filled with obscurity and chaos, this battle action-adventure game casts players as the \"Hyoki,\" an entity devoid of memory and physical form. His only motive is to eradicate the monstrous beings known as \"Slitterheads\" crawling around the city, disguising themselves as humans.\n\nRoaming the vibrant neon-lit cityscape, players must seek out allies among humans known as \"Rarities,\" infiltrate and track dangerous organizations, and engage in battles harnessing the power of blood. As the suspenseful drama unfolds, delve into the mystery behind Hyoki's existence and the appearance of the Slitterheads.",
+  "first_release_year": 2024,
+  "developers": [
+    "Bokeh Game Studio"
+  ],
+  "publishers": [
+    "Bokeh Game Studio"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "野狗子: Slitterhead",
+      "comment": "Japanese title - original"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009203"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/slitterhead/9PN5WNGQ6DC5"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2631250"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/BokehGameStudio"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/BokehGameStudio"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://bokehgamestudio.co.jp/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/bokehgamestudio/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@BokehGameStudio"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/slitterhead"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Slitterhead"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-08"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-08"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 05, 2024",
+      "status": "status_34",
+      "date_iso": "2024-11-05"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 05, 2024",
+      "status": "status_34",
+      "date_iso": "2024-11-05"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-08"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 05, 2024",
+      "status": "status_34",
+      "date_iso": "2024-11-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2zht.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4mfg.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "EyUGYL9aSww",
+      "url": "https://www.youtube.com/watch?v=EyUGYL9aSww"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "MC0m-_mNcD0",
+      "url": "https://www.youtube.com/watch?v=MC0m-_mNcD0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "VfADFr0NQwg",
+      "url": "https://www.youtube.com/watch?v=VfADFr0NQwg"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "2nPWA-t0IE4",
+      "url": "https://www.youtube.com/watch?v=2nPWA-t0IE4"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "slug": "wrc-9",
+  "igdb_id": 133773,
+  "name": "WRC 9",
+  "summary": "WRC 9 is the leading off-road simulation franchise endorsed by the world's top drivers. It is the most in-depth rally game on the market: 3 new rallies (Kenya, Japan, New Zealand), over 15 classic cars and 100 special stages to tackle!\n\nWRC 9 has new game modes specially designed for the community, including a Clubs system where each player can create their own championship and compete in it online with the rest of the world!\n\nTake control of all official drivers and cars in 3 WRC categories with improved physics for even greater realism, redesigned environments and all-new pacenotes for total immersion.",
+  "first_release_year": 2020,
+  "developers": [
+    "KT Racing"
+  ],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "World Rally Championship"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "KT Engine"
+  ],
+  "keywords": [
+    "rally",
+    "available on - blacknut"
+  ],
+  "alternative_names": [
+    {
+      "name": "WRC 9: FIA World Rally Championship",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "WRC 9: The Official Game",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "WRC9.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1267540"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/WRC%209%20FIA%20World%20Rally%20Championship"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/wrc-9-the-official-game-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000579"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/wrcthegame"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/wrcofficialgame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://wrcthegame.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/WRC_9"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/wrcthegame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC6CGQMMnnUwwjeK0ujkeF6Q"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/product/wrc-9"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-09-03"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 16, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-16"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-12"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 08, 2020",
+      "status": "Released",
+      "date_iso": "2020-09-08"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 11, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-11"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-09-03"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 11, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-11"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-09-03"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 08, 2020",
+      "status": "Released",
+      "date_iso": "2020-09-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ara6i.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "-X2Ym-hhgQc",
+      "url": "https://www.youtube.com/watch?v=-X2Ym-hhgQc"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "HCDtn8ViQAk",
+      "url": "https://www.youtube.com/watch?v=HCDtn8ViQAk"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "4Mrlqpa8WRY",
+      "url": "https://www.youtube.com/watch?v=4Mrlqpa8WRY"
+    }
+  ]
+}

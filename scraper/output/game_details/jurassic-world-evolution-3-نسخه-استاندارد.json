@@ -1,0 +1,132 @@
+{
+  "slug": "jurassic-world-evolution-3-نسخه-استاندارد",
+  "igdb_id": 347650,
+  "name": "Jurassic World Evolution 3",
+  "summary": "Build your own Jurassic World. Nurture generations of dinosaurs with the series debut of juveniles, create and manage sprawling prehistoric parks around the globe, and let your imagination roar with powerful new creative options.",
+  "first_release_year": 2025,
+  "developers": [
+    "Frontier Developments"
+  ],
+  "publishers": [
+    "Frontier Developments"
+  ],
+  "genres": [
+    "Simulator",
+    "Strategy"
+  ],
+  "themes": [
+    "Sandbox"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Jurassic World Evolution"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Jurassic Park"
+  ],
+  "game_engines": [
+    "Cobra"
+  ],
+  "keywords": [
+    "dinosaurs",
+    "jurassic",
+    "jurassic park",
+    "park"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.jurassicworldevolution.com"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/jurassic-world-evolution-3"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://jurassicworld-evolution.fandom.com/wiki/Jurassic_World_Evolution_Wiki"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@JurassicWorldEvolution"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jurassic_World_Evolution_3"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2958130"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10012067"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/frontierunlocked"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/JW_Evolution"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/JurassicWorldEvolution/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/jurassicworldevolution/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/jurassic-world-evolution-3-5017ec"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3oei.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3oeh.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "NKbUtl8vMcA",
+      "url": "https://www.youtube.com/watch?v=NKbUtl8vMcA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "VGQBThiq7tM",
+      "url": "https://www.youtube.com/watch?v=VGQBThiq7tM"
+    }
+  ]
+}

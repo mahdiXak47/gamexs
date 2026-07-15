@@ -1,0 +1,215 @@
+{
+  "slug": "باب-اسفنجی---the-cosmic-shake",
+  "igdb_id": 171219,
+  "name": "SpongeBob SquarePants: The Cosmic Shake",
+  "summary": "Wish-granting Mermaid’s Tears in the hands of SpongeBob and Patrick… What could go wrong? Sure, the very fabric holding the universe together could come undone, opening portals into wild Wishworlds. But that’s nothing our favorite sponge can’t handle- with the right cosmic costume!",
+  "first_release_year": 2023,
+  "developers": [
+    "Purple Lamp Studios"
+  ],
+  "publishers": [
+    "THQ Nordic"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Comedy",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "SpongeBob SquarePants"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Spongebob Squarepants"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "pirates",
+    "medieval",
+    "3d",
+    "robots",
+    "caveman",
+    "amusement park",
+    "wild west",
+    "based on - tv show",
+    "halloween",
+    "stone age",
+    "squirrel",
+    "family friendly",
+    "colorful",
+    "voice acting",
+    "snail",
+    "crab",
+    "jellyfish",
+    "starfish"
+  ],
+  "alternative_names": [
+    {
+      "name": "スポンジ・ボブ：ザ コズミック シェイク",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "스폰지밥 네모바지 : The Cosmic Shake",
+      "comment": "Korean title"
+    },
+    {
+      "name": "CosmicShake.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/spongebob-squarepants-the-cosmic-shake/9NDVBN7QKLPC"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/spongebob-squarepants-the-cosmic-shake"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/SpongeBob%20SquarePants:%20The%20Cosmic%20Shake"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/us/app/spongebob-the-cosmic-shake/id6445992619"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/spongebob-squarepants-the-cosmic-shake-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003866"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/thqnordic"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1282150/SpongeBob_SquarePants_The_Cosmic_Shake"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/spongebob_squarepants_the_cosmic_shake"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://spongebob.fandom.com/wiki/The_Cosmic_Shake"
+    },
+    {
+      "label": "iPad",
+      "url": "https://apps.apple.com/us/app/spongebob-the-cosmic-shake/id6445992619?platform=ipad"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/SpongeBob_SquarePants:_The_Cosmic_Shake"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.hg.cosmicshake"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/SpongebobCosmicShake/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://cosmicshake.thqnordic.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-01-31"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Dec 12, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-12"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jan 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-01-31"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-01-31"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-01-31"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 23, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-23"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-01-31"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Dec 12, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-12"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Dec 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1rhy.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "OOwh9befbMg",
+      "url": "https://www.youtube.com/watch?v=OOwh9befbMg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "QWnaOmSTxUg",
+      "url": "https://www.youtube.com/watch?v=QWnaOmSTxUg"
+    }
+  ]
+}

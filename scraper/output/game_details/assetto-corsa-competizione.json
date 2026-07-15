@@ -1,0 +1,173 @@
+{
+  "slug": "assetto-corsa-competizione",
+  "igdb_id": 89444,
+  "name": "Assetto Corsa Competizione",
+  "summary": "Assetto Corsa Competizione, the official GT World Challenge videogame. Thanks to the extraordinary quality of simulation, you will experience the atmosphere of the GT3 championship. Compete against official drivers, teams, cars and official circuits reproduced to the highest quality ever seen.",
+  "first_release_year": 2019,
+  "developers": [
+    "Kunos Simulazioni"
+  ],
+  "publishers": [
+    "505 Games"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person",
+    "Virtual Reality"
+  ],
+  "series": [
+    "Assetto Corsa"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "ACC",
+      "comment": "Acronym"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/805550"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Assetto_Corsa_Competizione"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://community.fandom.com/wiki/c:assetto_corsa_competizione:"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.assettocorsacompetizione.net"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/AC_assettocorsa"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Assetto.Corsa"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/ACCompetizione"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCgrlBI6OzHgVA-iVupI4TuQ"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/assetto-corsa-competizione"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 29, 2019",
+      "status": "Released",
+      "date_iso": "2019-05-29"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 23, 2020",
+      "status": "Released",
+      "date_iso": "2020-06-23"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 23, 2020",
+      "status": "Released",
+      "date_iso": "2020-06-23"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 24, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 24, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arjj1.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay video",
+      "youtube_id": "bihN15nvYpY",
+      "url": "https://www.youtube.com/watch?v=bihN15nvYpY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "lI-Q-C0koSU",
+      "url": "https://www.youtube.com/watch?v=lI-Q-C0koSU"
+    },
+    {
+      "title": "Launch Video",
+      "youtube_id": "mLK_739URag",
+      "url": "https://www.youtube.com/watch?v=mLK_739URag"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "wpTkgOB_TEo",
+      "url": "https://www.youtube.com/watch?v=wpTkgOB_TEo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "gc2iifUKvNg",
+      "url": "https://www.youtube.com/watch?v=gc2iifUKvNg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "KPleZA--QuA",
+      "url": "https://www.youtube.com/watch?v=KPleZA--QuA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3XQrPTPhgbU",
+      "url": "https://www.youtube.com/watch?v=3XQrPTPhgbU"
+    },
+    {
+      "title": "Gameplay video",
+      "youtube_id": "CezuNmeKzWA",
+      "url": "https://www.youtube.com/watch?v=CezuNmeKzWA"
+    },
+    {
+      "title": "Gameplay video",
+      "youtube_id": "Wl-I8oUhrVQ",
+      "url": "https://www.youtube.com/watch?v=Wl-I8oUhrVQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "H04MRqkP2LU",
+      "url": "https://www.youtube.com/watch?v=H04MRqkP2LU"
+    }
+  ]
+}

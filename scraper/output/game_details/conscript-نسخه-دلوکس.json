@@ -1,0 +1,186 @@
+{
+  "slug": "conscript-نسخه-دلوکس",
+  "igdb_id": 137619,
+  "name": "Conscript",
+  "summary": "During the First World War, a lone French soldier must navigate twisted trenches, scavenge for limited supplies and solve complex puzzles - all whilst fighting for survival in the midst of mankind’s most brutal and horrifying conflict. CONSCRIPT is a new take on classic survival horror.",
+  "first_release_year": 2024,
+  "developers": [
+    "Catchweight Studio"
+  ],
+  "publishers": [
+    "Team17"
+  ],
+  "genres": [
+    "Puzzle",
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival",
+    "Historical",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Game Maker Studio"
+  ],
+  "keywords": [
+    "zombies",
+    "world war i - ww1",
+    "exploration",
+    "2d",
+    "soldier",
+    "war",
+    "multiple endings",
+    "pixel graphics",
+    "survival horror",
+    "inventory management",
+    "steam achievements",
+    "steam cloud",
+    "steam families"
+  ],
+  "alternative_names": [
+    {
+      "name": "CONSCRIPT",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "战壕惊魂",
+      "comment": "Chinese title - simplified"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1286990/CONSCRIPT"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/conscript/9N0H799Q8Q1V/0010"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010232"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/conscript-switch/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/hVcAgBP"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/gaming/ConscriptGame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/ConscriptGame"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/conscript"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.conscriptgame.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/conscript"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCtTiTS-yPL6Rk47Zx3ll1Pw?view_as=subscriber"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/conscript-528e09"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Conscript_(video_game)"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 23, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 23, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-23"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 23, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-23"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 23, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-23"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 23, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-23"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 23, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arll9.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "3JnNT1wX62w",
+      "url": "https://www.youtube.com/watch?v=3JnNT1wX62w"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "dy92hD1ByfI",
+      "url": "https://www.youtube.com/watch?v=dy92hD1ByfI"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "ZgBMFUF1cFA",
+      "url": "https://www.youtube.com/watch?v=ZgBMFUF1cFA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "OxGT014K0gk",
+      "url": "https://www.youtube.com/watch?v=OxGT014K0gk"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "last-days-of-lazarus",
+  "igdb_id": 172142,
+  "name": "Last Days of Lazarus",
+  "summary": "After their mother's suicide, Lazarus returns home to his sister Lyudmila. But unexplained events make the world and even reality collapse around him. Looming death, a spreading malediction and the supernatural threaten his sanity, yet Lazarus pushes forward to find the truth about his family.",
+  "first_release_year": 2022,
+  "developers": [
+    "GrimTalin",
+    "Darkania Works"
+  ],
+  "publishers": [
+    "GrimTalin"
+  ],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "SingurInCeasulMortii.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Last%20Days%20of%20Lazarus"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/FWDkNhm"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005733"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/GrimTalin"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/grimtalin"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1359920"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/GrimTalin"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://grimtalin.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@GrimTalin/featured"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 22, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 29, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar14e4.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "v4GKtqx8N7I",
+      "url": "https://www.youtube.com/watch?v=v4GKtqx8N7I"
+    }
+  ]
+}

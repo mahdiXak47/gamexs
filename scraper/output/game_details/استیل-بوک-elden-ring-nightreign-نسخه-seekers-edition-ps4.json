@@ -1,0 +1,53 @@
+{
+  "slug": "استیل-بوک-elden-ring-nightreign-نسخه-seekers-edition-ps4",
+  "igdb_id": 375852,
+  "name": "Elden Ring: Nightreign - Seeker's Edition",
+  "summary": "The Seeker's Edition Includes: • ELDEN RING NIGHTREIGN in a steelbook case • An upgrade code to the Digital Deluxe edition of the game",
+  "first_release_year": 2025,
+  "developers": [
+    "FromSoftware"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [],
+  "themes": [],
+  "game_modes": [],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2622380"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://eldenring.wiki.gg/wiki/Elden_Ring:_Nightreign"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4lfa.jpg"
+  ],
+  "videos": []
+}

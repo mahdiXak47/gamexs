@@ -1,0 +1,95 @@
+{
+  "slug": "chivalry-2-نسخه-day-one",
+  "igdb_id": 146126,
+  "name": "Chivalry 2: Day One Edition",
+  "summary": "Chivalry 2 is a multiplayer first-person slasher inspired by epic medieval movie battles. Players are thrust into the action of every iconic moment of the era - from clashing swords to storms of flaming arrows to sweeping sieges and much more.",
+  "first_release_year": 2021,
+  "developers": [
+    "Torn Banner Studios"
+  ],
+  "publishers": [
+    "Tripwire Interactive"
+  ],
+  "genres": [
+    "Fighting",
+    "Tactical",
+    "Hack and slash/Beat 'em up",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/chivalrygame"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://chivalry.wiki.gg/wiki/Chivalry_2"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/5cr2cMp"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Chivalrythegame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/TornBannerStudios"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.chivalry2.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 08, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-06-08"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 08, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-06-08"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 08, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-06-08"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 08, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-06-08"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

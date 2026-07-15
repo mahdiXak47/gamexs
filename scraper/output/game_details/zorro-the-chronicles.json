@@ -1,0 +1,142 @@
+{
+  "slug": "zorro-the-chronicles",
+  "igdb_id": 149763,
+  "name": "Zorro: The Chronicles",
+  "summary": "Zorro: The Chronicles is an exciting and humorous game featuring combat and exploration gameplay inspired by the best action games in class.",
+  "first_release_year": 2022,
+  "developers": [
+    "BKOM Studios"
+  ],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Fighting",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "ゾロ ザ クロニクルズ",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "전설의 가면 조로",
+      "comment": "Korean title"
+    },
+    {
+      "name": "Zorro_The_Chronicles.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/zorro-the-chronicles-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004407"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1571460"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.bkomstudios.com/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/zorro-the-chronicles"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Zorro:%20The%20Chronicles"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-16"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-16"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-16"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-16"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-16"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-16"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-16"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Jun 2022",
+      "status": "Released",
+      "date_iso": "2022-06-01"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arelh.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "3xqqX9dl8Po",
+      "url": "https://www.youtube.com/watch?v=3xqqX9dl8Po"
+    }
+  ]
+}

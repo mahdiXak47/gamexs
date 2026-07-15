@@ -1,0 +1,248 @@
+{
+  "slug": "عصر-مدل-sniper-elite-iii",
+  "igdb_id": 8366,
+  "name": "Sniper Elite III",
+  "summary": "Observe. Plan. Execute. Adapt. The latest chapter in the award-winning series, SNIPER ELITE 3 takes players to the unforgiving yet exotic terrain of North Africa in a savage conflict against Germany’s infamous Afrika Korps.\n\nStalk your targets through the twisting canyons, lush oases and ancient cities of the Western Desert in the deadly rush to sabotage a Nazi super-weapons programme that could end Allied resistance for good.\n\nUse stealth, planning and execution to hunt your targets – whether human or machine. From signature long distance kills, to melee takedowns, distractions and explosive traps, you are as deadly up close as you are from afar.\n\nIt must end here. You are the turning point. Because one bullet can change history...",
+  "first_release_year": 2014,
+  "developers": [
+    "Rebellion Developments"
+  ],
+  "publishers": [
+    "505 Games",
+    "Rebellion Developments"
+  ],
+  "genres": [
+    "Shooter",
+    "Simulator",
+    "Tactical",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Stealth",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Sniper Elite"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Asura"
+  ],
+  "keywords": [
+    "world war ii - ww2",
+    "1940s",
+    "war",
+    "steam",
+    "espionage",
+    "achievements",
+    "traps",
+    "steam trading cards",
+    "sequel",
+    "slow-motion",
+    "explosion",
+    "death match",
+    "steam achievements",
+    "digital distribution",
+    "xbox controller support for pc",
+    "steam cloud",
+    "steam leaderboards",
+    "collectibles",
+    "wasd movement",
+    "extreme violence",
+    "retail games with steam activation",
+    "sprinting mechanics",
+    "sniping",
+    "downloadable content",
+    "kill feed",
+    "asymmetric co-op",
+    "survival mode",
+    "pax east 2014",
+    "dolby digital",
+    "team deathmatch",
+    "stealth kill",
+    "day one patch",
+    "enemy tagging",
+    "x-ray damage",
+    "fascism",
+    "optional objective",
+    "moving bodies",
+    "male protagonist"
+  ],
+  "alternative_names": [
+    {
+      "name": "Sniper Elite 3",
+      "comment": "Other Alias"
+    },
+    {
+      "name": "Sniper Elite III Afrika",
+      "comment": "German Title"
+    },
+    {
+      "name": "Sniper Elite 3",
+      "comment": "Other"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sniper_Elite_III"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/sniperelitegame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/204339"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/sniperelite"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.rebellion.co.uk/games/sniper-elite-3"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/sniper-elite-3/C1RDD3SZKT6S"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Sniper%20Elite%20III"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/sniperelite/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/Rebellion2000ad"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/snipereliteofficial/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/238090"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/rebellion"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 01, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-10-01"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 24, 2014",
+      "status": "Released",
+      "date_iso": "2014-06-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 27, 2014",
+      "status": "Released",
+      "date_iso": "2014-06-27"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Jun 27, 2014",
+      "status": "Released",
+      "date_iso": "2014-06-27"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 26, 2014",
+      "status": "Released",
+      "date_iso": "2014-06-26"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 27, 2014",
+      "status": "Released",
+      "date_iso": "2014-06-27"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Jul 01, 2014",
+      "status": "Released",
+      "date_iso": "2014-07-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 27, 2014",
+      "status": "Released",
+      "date_iso": "2014-06-27"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Jun 27, 2014",
+      "status": "Released",
+      "date_iso": "2014-06-27"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 27, 2014",
+      "status": "Cancelled",
+      "date_iso": "2014-06-27"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 01, 2014",
+      "status": "Cancelled",
+      "date_iso": "2014-07-01"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Jun 24, 2014",
+      "status": "Released",
+      "date_iso": "2014-06-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arpff.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "PBb6fHhxtAc",
+      "url": "https://www.youtube.com/watch?v=PBb6fHhxtAc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "nsHcLZGQ81s",
+      "url": "https://www.youtube.com/watch?v=nsHcLZGQ81s"
+    }
+  ]
+}

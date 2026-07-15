@@ -1,0 +1,193 @@
+{
+  "slug": "سونی-مدل-hitman-world-of-assassination-نسخه-anniversary-edition",
+  "igdb_id": 233571,
+  "name": "Hitman World of Assassination",
+  "summary": "Become Agent 47 in the ultimate spy-thriller adventure across more than 20 locations.\n\nHitman World of Assassination brings together the best of Hitman, Hitman 2 and Hitman 3 including the main campaign, contracts mode, escalations, elusive target arcades and Hitman: Freelancer.",
+  "first_release_year": 2023,
+  "developers": [
+    "IO Interactive"
+  ],
+  "publishers": [
+    "IO Interactive"
+  ],
+  "genres": [
+    "Shooter",
+    "Tactical",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Thriller",
+    "Stealth",
+    "Sandbox"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Hitman"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Hitman"
+  ],
+  "game_engines": [
+    "Glacier 2"
+  ],
+  "keywords": [
+    "assassin",
+    "hitman",
+    "agent 47",
+    "assassination"
+  ],
+  "alternative_names": [
+    {
+      "name": "HITMAN World of Assassination",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000248"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://hitman.com/"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/us/app/hitman-world-of-assassination/id6742786366"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/hitman"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/hitman"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/hitman"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/HiTMAN"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/hitman_official"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1659040"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/hitman"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/hitman-world-of-assassination"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Aug 25, 2025",
+      "status": "Released",
+      "date_iso": "2025-08-25"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Aug 25, 2025",
+      "status": "Released",
+      "date_iso": "2025-08-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 26, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-26"
+    },
+    {
+      "platform": "PlayStation VR",
+      "region": null,
+      "date": "Jan 26, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 26, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 26, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-26"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 26, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-26"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 26, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-26"
+    },
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "Jan 26, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-26"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar307p.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "WB2BSbaRmgY",
+      "url": "https://www.youtube.com/watch?v=WB2BSbaRmgY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3EMiZ1eGPKE",
+      "url": "https://www.youtube.com/watch?v=3EMiZ1eGPKE"
+    },
+    {
+      "title": "25th Anniversary Box",
+      "youtube_id": "oNP2RQwJNxQ",
+      "url": "https://www.youtube.com/watch?v=oNP2RQwJNxQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "qk6wSOEqMHU",
+      "url": "https://www.youtube.com/watch?v=qk6wSOEqMHU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "CZG2QJNnkhE",
+      "url": "https://www.youtube.com/watch?v=CZG2QJNnkhE"
+    }
+  ]
+}

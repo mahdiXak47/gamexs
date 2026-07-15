@@ -1,0 +1,152 @@
+{
+  "slug": "kao-the-kangaroo",
+  "igdb_id": 134528,
+  "name": "Kao the Kangaroo",
+  "summary": "Kao the Kangaroo is back! This time with a brand new adventure. The bravest kangaroo is ready to pick up his boxing gloves and K.O. his way through this epic journey. Take on this 3D platforming challenge and help him succeed!",
+  "first_release_year": 2022,
+  "developers": [
+    "Tate Multimedia"
+  ],
+  "publishers": [
+    "Tate Multimedia"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Comedy",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Kao the Kangaroo"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "retro"
+  ],
+  "alternative_names": [
+    {
+      "name": "Kangurek Kao",
+      "comment": "Polish title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1370140"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/kao_the_kangaroo_2022"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/kao-the-kangaroo-62abe3"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/66JYJMS"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Kaothekangaroo"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Kao%20the%20Kangaroo"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/kao-the-kangaroo/9P2V402QXH62/0010"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003980"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/kao-the-kangaroo-switch/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/tatemultimediacom/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://kaokangaroo.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kao_the_Kangaroo_(2022_video_game)"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 27, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-27"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 27, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 27, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-27"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "May 27, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-27"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 27, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-27"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 27, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6zz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1np3.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "a1x7rJBZjoA",
+      "url": "https://www.youtube.com/watch?v=a1x7rJBZjoA"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "slug": "hi-fi-rush",
+  "igdb_id": 233585,
+  "name": "Hi-Fi Rush",
+  "summary": "As wannabe rockstar Chai, you’ll fight back against a sinister robotics enhancement conglomerate using rhythm-amplified combat where everything – from the motion in the environment to the blows of combat – is synced to the music.",
+  "first_release_year": 2023,
+  "developers": [
+    "Tango Gameworks"
+  ],
+  "publishers": [
+    "Bethesda Softworks",
+    "Krafton"
+  ],
+  "genres": [
+    "Music",
+    "Platform",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4",
+    "Wwise"
+  ],
+  "keywords": [
+    "music and rhythm"
+  ],
+  "alternative_names": [
+    {
+      "name": "Hi-Fi RUSH",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "完美音浪",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "HiFi Rush",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/hifiRush"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/hifirush/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/HiFiRush/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/hi-fi-rush/9NFTC552K3GJ"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://hifi-rush.fandom.com/wiki/Hi-Fi_Rush"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hi-Fi_Rush"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008685"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@Hi-FiRUSH_Official"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1817230/HiFi_RUSH"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Hi-Fi%20Rush"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/hi-fi-rush"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://HiFiRush.com"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 25, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-01-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 25, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-01-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 19, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar23bf.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "Y-2TR7_k8mE",
+      "url": "https://www.youtube.com/watch?v=Y-2TR7_k8mE"
+    }
+  ]
+}

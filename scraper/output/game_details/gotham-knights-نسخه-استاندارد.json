@@ -1,0 +1,179 @@
+{
+  "slug": "gotham-knights-نسخه-استاندارد",
+  "igdb_id": 136993,
+  "name": "Gotham Knights",
+  "summary": "Introducing an original story set in DC’s Batman Universe, Gotham Knights offers a dynamic, interactive Gotham City where a rising criminal element has swept through the streets. With the Belfry as their base of operations, this new era of heroes will solve mysteries that connect the darkest chapters in the city’s history and must defeat notorious villains in epic confrontations. Players must save Gotham from a descent into chaos and reinvent themselves into their own version of the Dark Knight.",
+  "first_release_year": 2022,
+  "developers": [
+    "WB Games Montréal"
+  ],
+  "publishers": [
+    "WB Games"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Open world",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Batman",
+    "DC Comics"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "multiple protagonists",
+    "superhero",
+    "batman",
+    "superpowers"
+  ],
+  "alternative_names": [
+    {
+      "name": "Batman: Gotham Knights",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/GothamKnights"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/gotham-knights/bt3611gr00cq"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://dc.fandom.com/wiki/Gotham_Knights_(Video_Game)"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/233383"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/GothamKnights"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/GothamKnights"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/gotham-knights"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1496790"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gotham_Knights_(video_game)"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.gothamknightsgame.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/gotham-knights"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/GothamKnights"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@GothamKnights"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/GothamKnights/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 21, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-21"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 21, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 21, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1mrg.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5ro6.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Np-QRdUTkSs",
+      "url": "https://www.youtube.com/watch?v=Np-QRdUTkSs"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "dCsptWe21uE",
+      "url": "https://www.youtube.com/watch?v=dCsptWe21uE"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "hWJB4RRwhqQ",
+      "url": "https://www.youtube.com/watch?v=hWJB4RRwhqQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "sFtYcS3DPfM",
+      "url": "https://www.youtube.com/watch?v=sFtYcS3DPfM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "G0I-TW-m9MM",
+      "url": "https://www.youtube.com/watch?v=G0I-TW-m9MM"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "fxAWEgLzbic",
+      "url": "https://www.youtube.com/watch?v=fxAWEgLzbic"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "CUHgz7_lpVA",
+      "url": "https://www.youtube.com/watch?v=CUHgz7_lpVA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "rIbcXGQDTGM",
+      "url": "https://www.youtube.com/watch?v=rIbcXGQDTGM"
+    }
+  ]
+}

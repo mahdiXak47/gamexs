@@ -1,0 +1,184 @@
+{
+  "slug": "fatal-fury-city-of-wolves",
+  "igdb_id": 260321,
+  "name": "Fatal Fury: City of the Wolves",
+  "summary": "26 years on, a brand-new entry in the Fatal Fury series is set to arrive on the scene! FATAL FURY: City of the Wolves features a unique art style that stimulates the senses and an innovative REV System that supercharges the excitement. Here, at long last, a new legend is about to unfold…",
+  "first_release_year": 2025,
+  "developers": [
+    "SNK"
+  ],
+  "publishers": [
+    "SNK"
+  ],
+  "genres": [
+    "Fighting"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Fatal Fury"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Fatal Fury"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "shared screen",
+    "2d fighter"
+  ],
+  "alternative_names": [
+    {
+      "name": "CotW",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Gauro 2: CotW",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Fatal Fury: CotW",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "饿狼传说：群狼之城",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "FATAL FURY City of the Wolves.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/mhM8z9gb"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/FATALFURY_PR"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009499"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://snk.fandom.com/wiki/Fatal_Fury:_City_of_the_Wolves"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/fatal-fury-city-of-the-wolves/9P9M35WVGCK9/0010"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2492040"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/garou-city-of-the-wolves-556c5a"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.snk-corp.co.jp/us/games/fatalfury-cotw/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/fatal-fury-city-of-the-wolves"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 21, 2025",
+      "status": "status_34",
+      "date_iso": "2025-04-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 21, 2025",
+      "status": "status_34",
+      "date_iso": "2025-04-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 21, 2025",
+      "status": "status_34",
+      "date_iso": "2025-04-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 21, 2025",
+      "status": "status_34",
+      "date_iso": "2025-04-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2zhl.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "JJg7MhV2znQ",
+      "url": "https://www.youtube.com/watch?v=JJg7MhV2znQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "lHjjlpCoBOQ",
+      "url": "https://www.youtube.com/watch?v=lHjjlpCoBOQ"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "cNes200gOAY",
+      "url": "https://www.youtube.com/watch?v=cNes200gOAY"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "53qyNPNrksE",
+      "url": "https://www.youtube.com/watch?v=53qyNPNrksE"
+    }
+  ]
+}

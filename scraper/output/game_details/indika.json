@@ -1,0 +1,163 @@
+{
+  "slug": "indika",
+  "igdb_id": 166824,
+  "name": "Indika",
+  "summary": "Play a third-person, story-driven game set in alternative Russia of the late XIX century where religious visions clash with harsh reality. INDIKA tells the story of a young nun who sets off on a journey of self-discovery with the most unusual companion by her side, the devil himself.",
+  "first_release_year": 2024,
+  "developers": [
+    "Odd Meter"
+  ],
+  "publishers": [
+    "11 bit studios",
+    "Merge Games"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "religion",
+    "19th century"
+  ],
+  "alternative_names": [
+    {
+      "name": "INDIKA",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Indika.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "印蒂卡",
+      "comment": "Chinese title - simplified"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/indika-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008296"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1373960"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Indika"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.indikathegame.com/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/indika"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Odd_Meter_Games"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/indika-296db0"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCY87XnUgIHWQsjTFraWsXvA/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/11bitstudios"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/OddMeterGames"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/indika/9N020KFQG301"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 02, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-05-02"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-05-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-05-17"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 17, 2025",
+      "status": "Released",
+      "date_iso": "2025-11-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4dox.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar11zk.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "Uo9jtVkIa9M",
+      "url": "https://www.youtube.com/watch?v=Uo9jtVkIa9M"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "CTI5UhNOq4Y",
+      "url": "https://www.youtube.com/watch?v=CTI5UhNOq4Y"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "D0EUUp46H54",
+      "url": "https://www.youtube.com/watch?v=D0EUUp46H54"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "5ANgJDHK4y4",
+      "url": "https://www.youtube.com/watch?v=5ANgJDHK4y4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "xlzACISZTMg",
+      "url": "https://www.youtube.com/watch?v=xlzACISZTMg"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "slug": "kitaria-fables",
+  "igdb_id": 144542,
+  "name": "Kitaria Fables",
+  "summary": "Action Adventure fused with RPG and Farming elements. Armed with sword, bow and spellbook, fight against a rising darkness threatening the world. Plunder dungeons in search of relics and resources, tend to your farm to make provisions and potions, and take on quests solo, or with a friend!",
+  "first_release_year": 2021,
+  "developers": [
+    "Twin Hearts"
+  ],
+  "publishers": [
+    "PQube"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Simulator",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Sandbox"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Kitaria Fables"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "crafting",
+    "farming",
+    "farming simulator",
+    "available on - crunchyroll game vault"
+  ],
+  "alternative_names": [
+    {
+      "name": "냥자의 모험",
+      "comment": "Korean title"
+    },
+    {
+      "name": "ニャンザの冒険",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "Kitaria Fables.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1356280"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/kitaria-fables"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/kitaria-fables-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001835"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/JM69WhvqYm"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://pqube.co.uk/kitaria-fables"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/KitariaFables"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/KitariaFables"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/kitaria_fables"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/kitariafables"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Kitaria%20Fables"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 02, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-02"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 02, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-02"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 02, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-02"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 02, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-02"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 02, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-02"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-01"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 02, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-02"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ark1h.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "SS5OQQD42k0",
+      "url": "https://www.youtube.com/watch?v=SS5OQQD42k0"
+    }
+  ]
+}

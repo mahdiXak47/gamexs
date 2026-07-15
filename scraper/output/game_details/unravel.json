@@ -1,0 +1,139 @@
+{
+  "slug": "unravel",
+  "igdb_id": 11170,
+  "name": "Unravel",
+  "summary": "Unravel is a game about Yarny, a tiny character born from a single thread. Yarny embarks on a big adventure into the nature, inspired by the beauty of Northern Scandinavia. Without any spoken words, the character will have to solve puzzles and use tools to overcome tough challenges. All this, in order to find memories of his lost family.\nOnly Yarny can be the bond that ties everything together in the end.",
+  "first_release_year": 2016,
+  "developers": [
+    "ColdWood Interactive"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Unravel"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "PhyreEngine"
+  ],
+  "keywords": [
+    "bird",
+    "cute",
+    "snow",
+    "emotional",
+    "ea app",
+    "puzzle platformer"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/205146"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/unravel/C11KKHB5H7QJ"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1225560"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/unravel-ce69bb"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.unravelgame.com"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Unravel_(video_game)"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Unravel"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/EA"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/unravel_game/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/coldwoodgame?lang=en"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Unravel/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://unravel.fandom.com/wiki/Unravel"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/unravel.game/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 09, 2016",
+      "status": "Cancelled",
+      "date_iso": "2016-02-09"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 09, 2016",
+      "status": "Cancelled",
+      "date_iso": "2016-02-09"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 09, 2016",
+      "status": "Cancelled",
+      "date_iso": "2016-02-09"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7tl.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4vd.jpg"
+  ],
+  "videos": [
+    {
+      "title": "E3 Trailer",
+      "youtube_id": "PCCMgzUVyFg",
+      "url": "https://www.youtube.com/watch?v=PCCMgzUVyFg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "VVLzQMqWER8",
+      "url": "https://www.youtube.com/watch?v=VVLzQMqWER8"
+    }
+  ]
+}

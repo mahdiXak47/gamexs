@@ -1,0 +1,110 @@
+{
+  "slug": "kong-survivor-instinct",
+  "igdb_id": 314136,
+  "name": "Kong: Survivor Instinct",
+  "summary": "When giant monsters fight, no one’s safe. Embark on a thrilling quest of survival in a city that’s become a battleground for Titans. Use the lethal strength of Kong and other monsters to your own advantage in this official Monsterverse game set shortly after the events of Godzilla vs. Kong.",
+  "first_release_year": 2024,
+  "developers": [
+    "7levels"
+  ],
+  "publishers": [
+    "7levels"
+  ],
+  "genres": [
+    "Fighting",
+    "Shooter",
+    "Platform",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "King Kong"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/7lvls"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/7lvls/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009861"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/kong_survivor_instinct"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2769080/Kong_Survivor_Instinct/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/7lvls"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.7lvls.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@7LEVELS/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/kong-survivor-instinct"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 22, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 22, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 22, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3400.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "UohxM3el0gk",
+      "url": "https://www.youtube.com/watch?v=UohxM3el0gk"
+    }
+  ]
+}

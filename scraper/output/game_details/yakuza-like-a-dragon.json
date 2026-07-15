@@ -1,0 +1,286 @@
+{
+  "slug": "yakuza-like-a-dragon",
+  "igdb_id": 36550,
+  "name": "Yakuza: Like a Dragon",
+  "summary": "Yakuza: Like a Dragon is a role-playing game developed and published by Sega. Released in 2020, it is the eighth main entry in the Yakuza series. The game introduces a new protagonist, Ichiban Kasuga, and departs from the traditional action combat system, instead featuring turn-based combat with a party of characters. Set in the city of Yokohama, the game follows Kasuga's quest for revenge and his journey through Japan's criminal underworld.",
+  "first_release_year": 2020,
+  "developers": [
+    "Ryu Ga Gotoku Studios"
+  ],
+  "publishers": [
+    "Sega",
+    "Sega Games"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Yakuza: Like a Dragon"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Yakuza: Like a Dragon"
+  ],
+  "game_engines": [
+    "Dragon Engine"
+  ],
+  "keywords": [
+    "japan",
+    "crime",
+    "party-based",
+    "turn-based combat",
+    "yakuza",
+    "playstation trophies",
+    "side quests",
+    "turn-based rpg",
+    "the game awards - best roleplaying game - nominee"
+  ],
+  "alternative_names": [
+    {
+      "name": "Yakuza 7",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Y7",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "startup.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "人中之龙 7 光与暗的去向",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "人中之龍 7 光與闇的去向",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Ryu ga Gotoku 7: Hikari to Yami no Yukue",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "Yakuza 7: Like A Dragon",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Like a Dragon 7: Whereabouts of Light and Darkness",
+      "comment": "Japanese title - translated"
+    },
+    {
+      "name": "龍が如く７　光と闇の行方",
+      "comment": "Japanese title - stylized"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://yakuza.fandom.com/wiki/Yakuza:_Like_a_Dragon"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/yakuza-like-a-dragon/9NXCSWCQTNFG"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/ryuofficial"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/235238"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yakuza:_Like_a_Dragon"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://likeadragon.sega.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Shin%20Ry%C5%AB%20ga%20Gotoku"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/RGGStudioWest"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/RGGStudioWest"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/yakuza_like_a_dragon"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1235140"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/yakuzagames"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/RGGStudio"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 16, 2020",
+      "status": "Released",
+      "date_iso": "2020-01-16"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 26, 2021",
+      "status": "Released",
+      "date_iso": "2021-02-26"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 26, 2021",
+      "status": "Released",
+      "date_iso": "2021-02-26"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 02, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-02"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar48ey.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5q7r.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5q7p.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5q7q.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5cd3.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay video",
+      "youtube_id": "79sDRvm8yk8",
+      "url": "https://www.youtube.com/watch?v=79sDRvm8yk8"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "eFyLdQpnDvI",
+      "url": "https://www.youtube.com/watch?v=eFyLdQpnDvI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "_uBK1MMC5KQ",
+      "url": "https://www.youtube.com/watch?v=_uBK1MMC5KQ"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "M9_L2TA0IEY",
+      "url": "https://www.youtube.com/watch?v=M9_L2TA0IEY"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "7s5C-BG9glU",
+      "url": "https://www.youtube.com/watch?v=7s5C-BG9glU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "FeZ_Z1diuig",
+      "url": "https://www.youtube.com/watch?v=FeZ_Z1diuig"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "LZ3U_gC8cI4",
+      "url": "https://www.youtube.com/watch?v=LZ3U_gC8cI4"
+    }
+  ]
+}

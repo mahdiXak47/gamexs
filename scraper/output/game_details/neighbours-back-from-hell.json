@@ -1,0 +1,177 @@
+{
+  "slug": "neighbours-back-from-hell",
+  "igdb_id": 139447,
+  "name": "Neighbours back From Hell",
+  "summary": "There goes the neighborhood! Play the star of a cheeky TV Show who taking revenge on his horrible neighbor by constantly pranking him at home and around the world in the most creative and ludicrous ways.",
+  "first_release_year": 2020,
+  "developers": [
+    "Farbworks"
+  ],
+  "publishers": [
+    "THQ Nordic",
+    "HandyGames"
+  ],
+  "genres": [
+    "Point-and-click",
+    "Puzzle",
+    "Strategy",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Stealth",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Neighbours from Hell"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "retro",
+    "colorful"
+  ],
+  "alternative_names": [
+    {
+      "name": "Neighbors back from hell",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Neighbours back From Hell.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/product/neighbours-back-from-hell"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP4389-CUSA18980_00-NFH2020US0000000"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/neighbours-back-from-hell-switch/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/HandyGames/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/handy_games"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@handygames/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/handygames"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.hg.NbFH"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/neighbours-back-from-hell/9NQBFK993V7C"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1283190"
+    },
+    {
+      "label": "iPhone",
+      "url": "http://itunes.apple.com/us/app/id1537362903#?platform=iphone"
+    },
+    {
+      "label": "iPad",
+      "url": "http://itunes.apple.com/us/app/id1537362903#?platform=ipad"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.handy-games.com/games/neighbours-back-from-hell/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/neighbours_back_from_hell"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 08, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-08"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Aug 03, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-03"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 08, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 08, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-08"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 08, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-08"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Aug 03, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-03"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Jul 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arc6n.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "2rAh4SkvOWM",
+      "url": "https://www.youtube.com/watch?v=2rAh4SkvOWM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3pOP77gmyj8",
+      "url": "https://www.youtube.com/watch?v=3pOP77gmyj8"
+    }
+  ]
+}

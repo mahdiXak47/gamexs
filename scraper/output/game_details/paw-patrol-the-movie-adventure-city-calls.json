@@ -1,0 +1,155 @@
+{
+  "slug": "paw-patrol-the-movie-adventure-city-calls",
+  "igdb_id": 152302,
+  "name": "Paw Patrol the Movie: Adventure City Calls",
+  "summary": "So long, Adventure Bay! PAW Patrol is on a roll…to Adventure CITY! When the pups learn that Humdinger has become mayor of a buzzing metropolis, they must race into action to save Adventure City from his selfish scheming. Play as your favorite pups on exciting rescue missions. Explore new locations, level up with vehicles and gadgets, play minigames, and save the day!",
+  "first_release_year": 2021,
+  "developers": [
+    "Drakhar Studio"
+  ],
+  "publishers": [
+    "Outright Games"
+  ],
+  "genres": [
+    "Platform"
+  ],
+  "themes": [
+    "Action",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "PAW Patrol"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "previously on - stadia pro"
+  ],
+  "alternative_names": [
+    {
+      "name": "PAW Patrol: Adventure City Calls",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "La Patrulla Canina: La película La llamada de Ciudad Aventura",
+      "comment": "Spanish title"
+    },
+    {
+      "name": "PAW Patrol The Movie: Adventure City Calls",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Paw Patrol, la Pat'Patrouille - le film À la rescousse d'Adventure City",
+      "comment": "French title"
+    },
+    {
+      "name": "PPTM.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "PAW Patrol – Der Kinofilm: Abenteuerstadt ruft",
+      "comment": "German title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://outrightgames.com/us/games/paw-patrol-the-movie-adventure-city-calls"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001866"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/paw-patrol-the-movie-adventure-city-calls-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1434310/PAW_Patrol_The_Movie_Adventure_City_Calls"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/PAW%20Patrol%20The%20Movie:%20Adventure%20City%20Calls"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 13, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-13"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 13, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-13"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 13, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 19, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-19"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Aug 13, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-13"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 12, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-12"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 13, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-13"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 13, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/aruzl.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "753tf5sDMHs",
+      "url": "https://www.youtube.com/watch?v=753tf5sDMHs"
+    }
+  ]
+}

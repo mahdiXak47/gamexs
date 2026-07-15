@@ -1,0 +1,179 @@
+{
+  "slug": "monster-hunter-stories-3-twisted-reflection",
+  "igdb_id": 358525,
+  "name": "Monster Hunter Stories 3: Twisted Reflection",
+  "summary": "Twin Rathalos, born in a twist of fate. Two centuries after a conflict that divided neighboring kingdoms, the drums of war are reignited as twin Rathalos—long thought extinct—hatch from a single egg: an omen of destruction. Is there hope beyond the northern border?",
+  "first_release_year": 2026,
+  "developers": [
+    "Capcom"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Monster Hunter Stories"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Monster Hunter"
+  ],
+  "game_engines": [
+    "RE Engine"
+  ],
+  "keywords": [
+    "nextfest february 2026"
+  ],
+  "alternative_names": [
+    {
+      "name": "MONSTER HUNTER STORIES 3: TWISTED REFLECTION",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "Monster Hunter Stories 3",
+      "comment": "Abbreviation"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.monsterhunter.com/stories3/en-us/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10013075"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2852190"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/monster-hunter-stories-3-twisted-reflection"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/monster-hunter-stories-3-twisted-reflection/9NT1VLG29DG8/0010"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/monster-hunter-stories-3-twisted-reflection-switch-2/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://monsterhunterwiki.org/wiki/Monster_Hunter_Stories_3:_Twisted_Reflection"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Monster_Hunter_Stories_3:_Twisted_Reflection"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Mar 13, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-13"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 13, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 13, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-13"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 13, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3yfp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3yfq.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "SxR3M-FwlWU",
+      "url": "https://www.youtube.com/watch?v=SxR3M-FwlWU"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "TIVgJyceMZI",
+      "url": "https://www.youtube.com/watch?v=TIVgJyceMZI"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "gkJ1qtTPRZE",
+      "url": "https://www.youtube.com/watch?v=gkJ1qtTPRZE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "KaFPYrLWAds",
+      "url": "https://www.youtube.com/watch?v=KaFPYrLWAds"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "764b4_5dZJg",
+      "url": "https://www.youtube.com/watch?v=764b4_5dZJg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "2paOXQxE3dc",
+      "url": "https://www.youtube.com/watch?v=2paOXQxE3dc"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "02Pf_OHXDHg",
+      "url": "https://www.youtube.com/watch?v=02Pf_OHXDHg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "uM6pjBnv5Ig",
+      "url": "https://www.youtube.com/watch?v=uM6pjBnv5Ig"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "FGrHVRCwXIM",
+      "url": "https://www.youtube.com/watch?v=FGrHVRCwXIM"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "d6MM7ns3ukY",
+      "url": "https://www.youtube.com/watch?v=d6MM7ns3ukY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "jIQJiE6DZXI",
+      "url": "https://www.youtube.com/watch?v=jIQJiE6DZXI"
+    }
+  ]
+}

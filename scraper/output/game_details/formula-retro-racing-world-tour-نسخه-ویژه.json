@@ -1,0 +1,139 @@
+{
+  "slug": "formula-retro-racing-world-tour-نسخه-ویژه",
+  "igdb_id": 219322,
+  "name": "Formula Retro Racing: World Tour",
+  "summary": "A retro racer updated for the modern age, rediscover nostalgic racing as you drive through iconic locations in Formula Retro Racing: World Tour. Fusing 90s-style arcade racing with realistic physics, split-screen multiplayer, and 60fps performance. With new tracks and car types!",
+  "first_release_year": 2023,
+  "developers": [
+    "Repixel8",
+    "CGA Studio"
+  ],
+  "publishers": [
+    "CGA Studio"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Formula Retro Racing - World Tour.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/formula-retro-racing-world-tour-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006414"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2141040"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/formula-retro-racing-world-tour/9mtnh4x359d7"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Formula%20Retro%20Racing:%20World%20Tour"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/CGAStudioGames"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/Js6ECpvTMU"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://repixel8.com/games/formula-retro-racing"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-03-31"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-03-31"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-03-31"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 23, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-23"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Mar 31, 2023",
+      "status": "Beta",
+      "date_iso": "2023-03-31"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Mar 31, 2023",
+      "status": "Beta",
+      "date_iso": "2023-03-31"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 31, 2023",
+      "status": "Beta",
+      "date_iso": "2023-03-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1w1z.jpg"
+  ],
+  "videos": []
+}

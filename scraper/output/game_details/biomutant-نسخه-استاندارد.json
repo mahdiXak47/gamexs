@@ -1,0 +1,204 @@
+{
+  "slug": "biomutant-نسخه-استاندارد",
+  "igdb_id": 54842,
+  "name": "Biomutant",
+  "summary": "Biomutant is an open-world, post-apocalyptic Kung-Fu fable RPG, with a unique martial arts styled combat system allowing you to mix melee, shooting and mutant ability action. A plague is ruining the land and the Tree-of-Life is bleeding death from its roots. The Tribes stand divided. Explore a world in turmoil and define its fate, will you be its savior or lead it to an even darker destiny?",
+  "first_release_year": 2021,
+  "developers": [
+    "Experiment 101"
+  ],
+  "publishers": [
+    "THQ Nordic"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "post-apocalyptic",
+    "steam trading cards",
+    "narration",
+    "choice and consequence",
+    "kung fu",
+    "steam achievements",
+    "steam cloud",
+    "pax west 2017",
+    "xbox one x enhanced",
+    "steam families"
+  ],
+  "alternative_names": [
+    {
+      "name": "BIOMUTANT",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Biomutant.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "Biomutant.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Biomutant"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://biomutant.fandom.com/wiki/BIOMUTANT_Wiki"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/thqnordic"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/thqnordic.com"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/biomutant/BSN8BS8F8BBJ"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/229899"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/biomutant-switch/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/biomutant"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Biomutant"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://biomutant.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/597820"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Biomutant"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/p/biomutant"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/thqnordic?hl=en"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/biomutantgame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/biomutant"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/biomutant"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 06, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-06"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 25, 2021",
+      "status": "Released",
+      "date_iso": "2021-05-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 06, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-06"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "May 25, 2021",
+      "status": "Released",
+      "date_iso": "2021-05-25"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 14, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-05-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 25, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-05-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/yr81zti6usqvly1oonpc.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/jid40mlj1jtgakrb1a6a.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Cinematic Announcement Trailer",
+      "youtube_id": "5GocKCzesFk",
+      "url": "https://www.youtube.com/watch?v=5GocKCzesFk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "lVfeSHbjslw",
+      "url": "https://www.youtube.com/watch?v=lVfeSHbjslw"
+    },
+    {
+      "title": "Gameplay video",
+      "youtube_id": "3oDgoL4eezE",
+      "url": "https://www.youtube.com/watch?v=3oDgoL4eezE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "32Tq2Hr8I3E",
+      "url": "https://www.youtube.com/watch?v=32Tq2Hr8I3E"
+    },
+    {
+      "title": "Gameplay Teaser",
+      "youtube_id": "LZFc0NOqBpY",
+      "url": "https://www.youtube.com/watch?v=LZFc0NOqBpY"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "slug": "sworn",
+  "igdb_id": 291948,
+  "name": "Sworn",
+  "summary": "Sworn is a 1-4 player co-op action rogue-like. Explore and reclaim a fallen Camelot from the reign of a corrupted Arthur and his Knights of the round table.",
+  "first_release_year": 2025,
+  "developers": [
+    "Windwalk Games"
+  ],
+  "publishers": [
+    "Team17 Digital"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Historical"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "king arthur",
+    "roguelike",
+    "mythology",
+    "4 player co-op",
+    "camelot",
+    "merlin",
+    "grail"
+  ],
+  "alternative_names": [
+    {
+      "name": "SWORN.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "SWORN",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "圣杯誓约",
+      "comment": "Chinese title - simplified"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.sworngame.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Sworn_EN"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/SWORN/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1763250/SWORN/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://epicgames.com/p/sworn-0781b0"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/sworn-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/EP4064-PPSA21617_00-SWORN00000000000"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/sworn/9MWDJRQ1BXTC/0010"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/sworn-1"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@WindwalkGames"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/windwalk"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-23"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 06, 2025",
+      "status": "Beta",
+      "date_iso": "2025-02-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2ux6.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "lLjePM5Zubg",
+      "url": "https://www.youtube.com/watch?v=lLjePM5Zubg"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "QbkItjyMtdQ",
+      "url": "https://www.youtube.com/watch?v=QbkItjyMtdQ"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "f5bVTm8nu7Y",
+      "url": "https://www.youtube.com/watch?v=f5bVTm8nu7Y"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "jEl7v_8KL-w",
+      "url": "https://www.youtube.com/watch?v=jEl7v_8KL-w"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "ErQ8nqY_0jU",
+      "url": "https://www.youtube.com/watch?v=ErQ8nqY_0jU"
+    }
+  ]
+}

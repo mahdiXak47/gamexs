@@ -1,0 +1,177 @@
+{
+  "slug": "tiny-tina’s-wonderlands",
+  "igdb_id": 152061,
+  "name": "Tiny Tina's Wonderlands",
+  "summary": "Embark on an epic adventure full of whimsy, wonder, and high-powered weaponry! Bullets, magic, and broadswords collide across this chaotic fantasy world brought to life by the unpredictable Tiny Tina.",
+  "first_release_year": 2022,
+  "developers": [
+    "Gearbox Software"
+  ],
+  "publishers": [
+    "2K Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Borderlands"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Borderlands"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "magic",
+    "3d",
+    "pve",
+    "class-based",
+    "colorful",
+    "available on - luna plus"
+  ],
+  "alternative_names": [
+    {
+      "name": "타이니 티나의 원더랜드",
+      "comment": "Korean title"
+    },
+    {
+      "name": "ワンダーランズ ～タイニー・ティナと魔法の世界",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "ワンダーランズ ～タイニー ティナと魔法の世界",
+      "comment": "Japanese title - original"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://borderlands.fandom.com/wiki/Tiny_Tina%27s_Wonderlands"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1286680"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/PlayWonderlands"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.Gear0Five.TinyTinasWonderlandsGame"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/PlayWonderlands"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/tiny-tinas-wonderlands/9nfrn3ndxr2d"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000818"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tiny_Tina's_Wonderlands"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://playwonderlands.2k.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/PlayWonderlands"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/TinyTinaWonderlands"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/tiny-tinas-wonderlands"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/PlayWonderlands"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Tiny%20Tina's%20Wonderlands"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/wonderlands"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 25, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 25, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 25, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 25, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 25, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar8z9.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "EeW929M1KT0",
+      "url": "https://www.youtube.com/watch?v=EeW929M1KT0"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "uJkaaTXmBEQ",
+      "url": "https://www.youtube.com/watch?v=uJkaaTXmBEQ"
+    }
+  ]
+}

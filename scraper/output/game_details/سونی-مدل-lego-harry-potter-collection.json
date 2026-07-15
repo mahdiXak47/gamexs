@@ -1,0 +1,106 @@
+{
+  "slug": "سونی-مدل-lego-harry-potter-collection",
+  "igdb_id": 315367,
+  "name": "LEGO Harry Potter Collection",
+  "summary": "The LEGO Harry Potter: Collection is an action-adventure compilation that combines LEGO Harry Potter: Years 1–4 and LEGO Harry Potter: Years 5–7 into a single experience.\nThis enhanced version improves upon earlier releases on PlayStation 4, Xbox One, and Nintendo Switch with upgraded visuals and performance, including native 4K resolution, smoother frame rates, and additional technical enhancements such as improved lighting and haptic feedback, while retaining the same core content.",
+  "first_release_year": 2024,
+  "developers": [
+    "TT Games"
+  ],
+  "publishers": [
+    "WB Games"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Lego Harry Potter"
+  ],
+  "spin_off_of": "LEGO Harry Potter Collection",
+  "franchises": [
+    "LEGO",
+    "Harry Potter"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "compilation"
+  ],
+  "alternative_names": [
+    {
+      "name": "LEGO Harry Potter Collection Remastered",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/223683"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/ttgames"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCFRMeBfQwbvyrh4whThbMVw"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.warnerbros.co.uk/games-and-apps/lego-harry-potter-remastered"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2950340"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-08"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3401.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "jn49ov_aEwQ",
+      "url": "https://www.youtube.com/watch?v=jn49ov_aEwQ"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "pkpVg71HPVo",
+      "url": "https://www.youtube.com/watch?v=pkpVg71HPVo"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "slug": "read-only-memories-neurodiver",
+  "igdb_id": 119401,
+  "name": "Read Only Memories: Neurodiver",
+  "summary": "Return to the vibrant cyberpunk world of Neo-San Francisco from 2064: Read Only Memories, filled with friendly and familiar faces. Neurodiver will introduce new characters, locations, and mechanics, including the ability to dive into and change other characters' memories, as well as overhauled art and an unsolved case to crack with multiple endings.",
+  "first_release_year": 2024,
+  "developers": [
+    "MidBoss"
+  ],
+  "publishers": [
+    "Chorus Worldwide"
+  ],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Text"
+  ],
+  "series": [
+    "Read Only Memories"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "anime",
+    "casual",
+    "retro"
+  ],
+  "alternative_names": [
+    {
+      "name": "Read Only Memories: NEURODIVER",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "NEURODIVER.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006172"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/read-only-memories-neurodiver-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://midboss.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/MidBoss"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1293910"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/read-only-memories-neurodiver"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Read%20Only%20Memories%3A%20Neurodiver"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/midbossllc/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/ROMAdventure"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "May 16, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-05-16"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 16, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-05-16"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 16, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-05-16"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 16, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-05-16"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 16, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-05-16"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "May 16, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-05-16"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar12vj.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "N5zmbVxW6pc",
+      "url": "https://www.youtube.com/watch?v=N5zmbVxW6pc"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "Q8e-XeA40KA",
+      "url": "https://www.youtube.com/watch?v=Q8e-XeA40KA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "eSzYVaRSGHk",
+      "url": "https://www.youtube.com/watch?v=eSzYVaRSGHk"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "QSbbSlh8Rcg",
+      "url": "https://www.youtube.com/watch?v=QSbbSlh8Rcg"
+    }
+  ]
+}

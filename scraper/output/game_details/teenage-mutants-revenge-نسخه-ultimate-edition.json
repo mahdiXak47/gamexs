@@ -1,0 +1,235 @@
+{
+  "slug": "teenage-mutants-revenge-نسخه-ultimate-edition",
+  "igdb_id": 144465,
+  "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+  "summary": "Teenage Mutant Ninja Turtles: Shredder's Revenge is a side-scrolling beat 'em up developed by Tribute Games and published by DotEmu. Inspired by the 1987 Teenage Mutant Ninja Turtles animated series, the game pays homage to classic TMNT titles like Turtles in Time, featuring retro-inspired pixel art and dynamic combat. Players control Leonardo, Michelangelo, Donatello, Raphael, or other allies, each with unique abilities, as they battle through various levels to thwart Shredder and Krang's plans to conquer New York City. The game supports solo play or co-op for up to six players, blending nostalgic design with modern gameplay mechanics.",
+  "first_release_year": 2022,
+  "developers": [
+    "Tribute Games"
+  ],
+  "publishers": [
+    "DotEmu",
+    "Netflix"
+  ],
+  "genres": [
+    "Hack and slash/Beat 'em up",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Teenage Mutant Ninja Turtles"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Teenage Mutant Ninja Turtles"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "retro",
+    "tmnt",
+    "side-scrolling",
+    "netflix games"
+  ],
+  "alternative_names": [
+    {
+      "name": "TMNT: Shredder's Revenge",
+      "comment": "Abbreviation"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/teenage-mutant-ninja-turtles-shredders-revenge"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/dotemu.bsky.social"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/teenage-mutant-ninja-turtles-shredders-revenge-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003986"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/teenage-mutant-ninja-turtles-shredder's-revenge/9NS3673HVH41"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles:_Shredder's_Revenge"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/TMNT"
+    },
+    {
+      "label": "iPad",
+      "url": "http://itunes.apple.com/us/app/id6443475072#?platform=ipad"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Teenage%20Mutant%20Ninja%20Turtles:%20Shredder's%20Revenge"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.netflix.NGP.TMNTShreddersRevenge"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1361510/Teenage_Mutant_Ninja_Turtles_Shredders_Revenge"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/DotEmu"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/GYr8YfNnck"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Dotemu"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.dotemu.com/game/teenage-mutant-ninja-turtles-shredders-revenge/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://turtlepedia.fandom.com/wiki/Teenage_Mutant_Ninja_Turtles:_Shredder%27s_Revenge"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/dotemu"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/ogjET1mlRW"
+    },
+    {
+      "label": "iPhone",
+      "url": "http://itunes.apple.com/us/app/id6443475072#?platform=iphone"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-16"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Jun 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-16"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-16"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-16"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-16"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-16"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 16, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-16"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Jan 10, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-10"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Jan 10, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7hp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7ho.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "gHMYwrC7oAo",
+      "url": "https://www.youtube.com/watch?v=gHMYwrC7oAo"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "GemOAwU-9fo",
+      "url": "https://www.youtube.com/watch?v=GemOAwU-9fo"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "4W6DV7sU9YI",
+      "url": "https://www.youtube.com/watch?v=4W6DV7sU9YI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "9R0yCBJ5Qas",
+      "url": "https://www.youtube.com/watch?v=9R0yCBJ5Qas"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "qyfKYsSDDb4",
+      "url": "https://www.youtube.com/watch?v=qyfKYsSDDb4"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "a-SN3lLIUEo",
+      "url": "https://www.youtube.com/watch?v=a-SN3lLIUEo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "5qcaEQVBcY0",
+      "url": "https://www.youtube.com/watch?v=5qcaEQVBcY0"
+    }
+  ]
+}

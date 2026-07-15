@@ -1,0 +1,132 @@
+{
+  "slug": "evil-genius-2-world-domination",
+  "igdb_id": 44074,
+  "name": "Evil Genius 2: World Domination",
+  "summary": "A satirical spy-fi lair builder where YOU are the criminal mastermind! Construct your base, train your minions, defend your operations from the Forces of Justice, and achieve global domination!",
+  "first_release_year": 2021,
+  "developers": [
+    "Rebellion Developments"
+  ],
+  "publishers": [
+    "Rebellion Developments"
+  ],
+  "genres": [
+    "Real Time Strategy (RTS)",
+    "Simulator",
+    "Strategy"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Evil Genius"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Asura"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003128"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/evilgenius"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/700600/Evil_Genius_2_World_Domination/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/EvilGeniusGame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://evilgeniusgame.com/en/magazine"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/Rebellion2000ad/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Evil%20Genius%202"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 30, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 30, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-30"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 30, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 30, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 30, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r7.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5vt.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5vu.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5vs.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5vv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r6.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "F3grN0-iHnk",
+      "url": "https://www.youtube.com/watch?v=F3grN0-iHnk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "6KTvZtCOEEI",
+      "url": "https://www.youtube.com/watch?v=6KTvZtCOEEI"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "nZwSZ_gfUMY",
+      "url": "https://www.youtube.com/watch?v=nZwSZ_gfUMY"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "KnsIFMqxQeY",
+      "url": "https://www.youtube.com/watch?v=KnsIFMqxQeY"
+    }
+  ]
+}

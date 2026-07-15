@@ -1,0 +1,157 @@
+{
+  "slug": "final-fantasy-xiv-dawntrail",
+  "igdb_id": 259338,
+  "name": "Final Fantasy XIV: Dawntrail",
+  "summary": "Final Fantasy XIV: Dawntrail is the fifth expansion pack to Final Fantasy XIV Online. The expansion will bring an abundance of fresh content, including an increased level cap, multiple new jobs, sprawling new areas, new allied tribes, new dungeons, and new core battle content such as FATEs, Hunts, Treasure Hunts, and sidequests, and much more.",
+  "first_release_year": 2024,
+  "developers": [
+    "Square Enix Creative Studio III"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Role-playing (RPG)"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Drama",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Massively Multiplayer Online (MMO)"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Final Fantasy"
+  ],
+  "spin_off_of": "Final Fantasy XIV Online",
+  "franchises": [
+    "Final Fantasy"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "FFXIV DT",
+      "comment": "Acronym"
+    },
+    {
+      "name": "FFXIV 7.0",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "FINAL FANTASY XIV: Golden Legacy",
+      "comment": "Japanese title - translated"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2649240"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@ffxiv"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/FF_XIV_EN"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/FinalFantasyXIV/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Final_Fantasy_XIV"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://na.finalfantasyxiv.com/dawntrail/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 02, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-02"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 02, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-02"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 02, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-02"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 02, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-02"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jul 02, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-02"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2p32.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2p33.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2lgo.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2lgm.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2lgn.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5cco.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "onGE1-I2T6Y",
+      "url": "https://www.youtube.com/watch?v=onGE1-I2T6Y"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "2ISoqghadkE",
+      "url": "https://www.youtube.com/watch?v=2ISoqghadkE"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "295BgKlNcqM",
+      "url": "https://www.youtube.com/watch?v=295BgKlNcqM"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "v5gEiLp9aeo",
+      "url": "https://www.youtube.com/watch?v=v5gEiLp9aeo"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "6fa-HWiElN4",
+      "url": "https://www.youtube.com/watch?v=6fa-HWiElN4"
+    },
+    {
+      "title": "Full Trailer",
+      "youtube_id": "kgiuQwzB6aU",
+      "url": "https://www.youtube.com/watch?v=kgiuQwzB6aU"
+    }
+  ]
+}

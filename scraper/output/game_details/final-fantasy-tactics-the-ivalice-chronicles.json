@@ -1,0 +1,223 @@
+{
+  "slug": "final-fantasy-tactics-the-ivalice-chronicles",
+  "igdb_id": 347121,
+  "name": "Final Fantasy Tactics: The Ivalice Chronicles",
+  "summary": "This dramatic tale of ambition, betrayal, and honor comes to life again with an updated and enriched script with fully voiced dialogue, alongside improved graphics that bring a new level of immersion and playability to the battlefield. Additionally, the enhanced version brings quality-of-life updates like new difficulties, a revamped UI, auto save, and more that make the game more accessible to newcomers.",
+  "first_release_year": 2025,
+  "developers": [
+    "Square Enix Creative Studio III",
+    "Algebra Factory"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Turn-based strategy (TBS)",
+    "Tactical"
+  ],
+  "themes": [
+    "Fantasy",
+    "Thriller",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Final Fantasy Tactics",
+    "Ivalice Alliance"
+  ],
+  "spin_off_of": "Final Fantasy Tactics",
+  "franchises": [
+    "Final Fantasy"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "anime",
+    "medieval",
+    "magic",
+    "grinding",
+    "turn-based",
+    "summoning support",
+    "jrpg",
+    "death",
+    "permadeath",
+    "war",
+    "overworld",
+    "party-based combat",
+    "undead",
+    "class-based",
+    "turn-based tactics",
+    "conspiracy",
+    "grid-based movement",
+    "boss fight",
+    "explosion",
+    "single-player only",
+    "steam cloud",
+    "tactical turn-based combat",
+    "rivaling factions",
+    "leveling up",
+    "controller recommendation",
+    "shopping",
+    "bow and arrow",
+    "loot gathering",
+    "party system",
+    "cameo appearance",
+    "active ability",
+    "non-player character",
+    "minotaurs",
+    "treasure chest",
+    "political thriller",
+    "combat dialogue",
+    "british accent",
+    "game with chapters",
+    "summoners",
+    "mana",
+    "not-so-bad guys",
+    "teenager",
+    "women in refrigerators syndrome",
+    "poisoning",
+    "victory music",
+    "random encounter",
+    "elementalist",
+    "hidden character",
+    "airship",
+    "counter system",
+    "status effects",
+    "black magic",
+    "tragic hero",
+    "class change",
+    "gender exclusive equipment",
+    "geomancer",
+    "damage over time",
+    "level scaling",
+    "controller support",
+    "job system",
+    "high fantasy",
+    "tactical rpg",
+    "medieval fantasy"
+  ],
+  "alternative_names": [
+    {
+      "name": "FFTIC",
+      "comment": "Acronym"
+    },
+    {
+      "name": "FINAL FANTASY TACTICS - The Ivalice Chronicles",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "FFT_enhanced.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1004640"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/FFT_TIC"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/JP0082-PPSA21783_00-FFTACTICS0000000"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/final-fantasy-tactics-the-ivalice-chronicles/9n77pjqw22bx"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/final-fantasy-tactics-the-ivalice-chronicles"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/final-fantasy-tactics-the-ivalice-chronicles-switch/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/finalfantasy"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://finalfantasytactics.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/finalfantasy"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-30"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Sep 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-30"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3nvz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4bor.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3nvy.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3nw0.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "UKRoOtl7weI",
+      "url": "https://www.youtube.com/watch?v=UKRoOtl7weI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "oMx8pAVmIcU",
+      "url": "https://www.youtube.com/watch?v=oMx8pAVmIcU"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "JYnDpKMRBWo",
+      "url": "https://www.youtube.com/watch?v=JYnDpKMRBWo"
+    }
+  ]
+}

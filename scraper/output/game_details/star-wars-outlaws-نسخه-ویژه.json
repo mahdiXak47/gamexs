@@ -1,0 +1,196 @@
+{
+  "slug": "star-wars-outlaws-نسخه-ویژه",
+  "igdb_id": 252827,
+  "name": "Star Wars Outlaws",
+  "summary": "Experience the first-ever open world Star Wars game, set between the events of The Empire Strikes Back and Return of the Jedi. Explore distinct planets across the galaxy, both iconic and new. Risk it all as Kay Vess, an emerging scoundrel seeking freedom and the means to start a new life, along with her companion Nix. Fight, steal, and outwit your way through the galaxy’s crime syndicates as you join the galaxy’s most wanted.",
+  "first_release_year": 2024,
+  "developers": [
+    "Massive Entertainment"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Star Wars"
+  ],
+  "game_engines": [
+    "Snowdrop"
+  ],
+  "keywords": [
+    "aliens",
+    "female protagonist",
+    "hacking",
+    "space combat",
+    "canon star wars",
+    "the game awards - best action-adventure game - nominee",
+    "the game awards - most anticipated game - nominee",
+    "the game awards - best performance - nominee"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/star-wars-outlaws"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/star-wars-outlaws/9P87S3NP6SR2"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005323"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2842040"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/StarWarsOutlaws"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/star-wars-outlaws"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/StarWarsOutlaws/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/starwarsoutlaws"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.starwarsoutlaws.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/starwarsoutlaws"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Star_Wars_Outlaws"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/StarWarsOutlaws"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://starwars.fandom.com/wiki/Star_Wars_Outlaws"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/star-wars-outlaws-gold-edition-switch-2/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 30, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 27, 2024",
+      "status": "status_34",
+      "date_iso": "2024-08-27"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Sep 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-04"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 27, 2024",
+      "status": "status_34",
+      "date_iso": "2024-08-27"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 30, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 27, 2024",
+      "status": "status_34",
+      "date_iso": "2024-08-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 30, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3von.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ymcpwq1ltQc",
+      "url": "https://www.youtube.com/watch?v=ymcpwq1ltQc"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "c7K2TA0bBpY",
+      "url": "https://www.youtube.com/watch?v=c7K2TA0bBpY"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "kP-qOFPg314",
+      "url": "https://www.youtube.com/watch?v=kP-qOFPg314"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "tcdKEy-aJ6o",
+      "url": "https://www.youtube.com/watch?v=tcdKEy-aJ6o"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "I6tA_o8uzUI",
+      "url": "https://www.youtube.com/watch?v=I6tA_o8uzUI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Kwo41nUwyeo",
+      "url": "https://www.youtube.com/watch?v=Kwo41nUwyeo"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "HlfuN4yj3yg",
+      "url": "https://www.youtube.com/watch?v=HlfuN4yj3yg"
+    }
+  ]
+}

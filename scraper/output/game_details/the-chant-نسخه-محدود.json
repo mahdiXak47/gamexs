@@ -1,0 +1,169 @@
+{
+  "slug": "the-chant-نسخه-محدود",
+  "igdb_id": 152076,
+  "name": "The Chant",
+  "summary": "The Chant is an action horror game set on the tormented grounds of a new age cult, that fulfills players' thrill of supernatural horrors dealing with the dark sides of spirituality and cultism, and untangles terrifying revelations about the universe.",
+  "first_release_year": 2022,
+  "developers": [
+    "Brass Token"
+  ],
+  "publishers": [
+    "Prime Matter"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "psychedelic",
+    "combat",
+    "cosmic horror",
+    "cult",
+    "steam achievements",
+    "steam cloud",
+    "steam families"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/the_chant"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/PrimeMatter"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002823"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/TheChantGame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/thechantgame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/TheChantGame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://brasstoken.com/the-chant"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20Chant"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1577250"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 03, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-03"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 03, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-11-03"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 03, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-03"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1rk1.jpg"
+  ],
+  "videos": [
+    {
+      "title": "The Gloom Below - Launch Trailer",
+      "youtube_id": "u9h8j_wSLnI",
+      "url": "https://www.youtube.com/watch?v=u9h8j_wSLnI"
+    },
+    {
+      "title": "Launch Accolades Trailer",
+      "youtube_id": "ivhdMi-DWBQ",
+      "url": "https://www.youtube.com/watch?v=ivhdMi-DWBQ"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "fDCv7Lk9tVo",
+      "url": "https://www.youtube.com/watch?v=fDCv7Lk9tVo"
+    },
+    {
+      "title": "Gameplay Overview",
+      "youtube_id": "VWszzzduOjc",
+      "url": "https://www.youtube.com/watch?v=VWszzzduOjc"
+    },
+    {
+      "title": "Preview Accolades Trailer",
+      "youtube_id": "07imaZ36xdQ",
+      "url": "https://www.youtube.com/watch?v=07imaZ36xdQ"
+    },
+    {
+      "title": "Reel 3 - Hannah’s Footsteps",
+      "youtube_id": "oyPkOf2eiUI",
+      "url": "https://www.youtube.com/watch?v=oyPkOf2eiUI"
+    },
+    {
+      "title": "Reel 2 - Search for Hannah",
+      "youtube_id": "KTyG2Ndzb8k",
+      "url": "https://www.youtube.com/watch?v=KTyG2Ndzb8k"
+    },
+    {
+      "title": "Reel 1 - Making Fear",
+      "youtube_id": "yVNFAqnpRuQ",
+      "url": "https://www.youtube.com/watch?v=yVNFAqnpRuQ"
+    },
+    {
+      "title": "New Age Cult Trailer",
+      "youtube_id": "fn953CkOzH0",
+      "url": "https://www.youtube.com/watch?v=fn953CkOzH0"
+    },
+    {
+      "title": "Meet The Cast",
+      "youtube_id": "eKN6ZDA__pk",
+      "url": "https://www.youtube.com/watch?v=eKN6ZDA__pk"
+    },
+    {
+      "title": "Story Trailer",
+      "youtube_id": "P8ZeR0G2a7U",
+      "url": "https://www.youtube.com/watch?v=P8ZeR0G2a7U"
+    },
+    {
+      "title": "Teaser Trailer",
+      "youtube_id": "Ob2G3fMeVsc",
+      "url": "https://www.youtube.com/watch?v=Ob2G3fMeVsc"
+    }
+  ]
+}

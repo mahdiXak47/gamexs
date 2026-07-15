@@ -1,0 +1,77 @@
+{
+  "slug": "metal-gear-solid-master-collection-vol-2",
+  "igdb_id": 392677,
+  "name": "Metal Gear Solid: Master Collection Vol. 2 Bonus Content",
+  "summary": "As purchase bonuses for the collection edition, it includes Metal Gear: Ghost Babel—the series first title for handheld consoles, released in 2000—and Metal Gear Solid: Digital Soundtrack Vol.2, featuring numerous iconic tracks that enhanced Snake's missions, ranging from BGM used in the games to vocal songs.",
+  "first_release_year": 2026,
+  "developers": [
+    "Konami"
+  ],
+  "publishers": [
+    "Konami"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/metal-gear-solid-master-collection-vol-2-bonus-content-switch-2/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4184420/METAL_GEAR_SOLID_MASTER_COLLECTION_Vol2_BONUS_CONTENT/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/metal-gear-solid-master-collection-vol2-bonus-content/9NWKHFJ88HJ2/0010"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Aug 27, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-08-27"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 27, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-08-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 27, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-08-27"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 27, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-08-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5geu.jpg"
+  ],
+  "videos": []
+}

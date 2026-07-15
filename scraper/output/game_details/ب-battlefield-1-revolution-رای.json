@@ -1,0 +1,105 @@
+{
+  "slug": "ب-battlefield-1-revolution-رای",
+  "igdb_id": 94085,
+  "name": "Battlefield 1: Revolution",
+  "summary": "Join the Battlefield community in the dawn of all-out war. Untold chapters of World War 1 are brought to life with unmatched intensity through an included Battlefield 1 Premium Pass and an unmatched Battlefield 1 experience.\n\nBattlefield 1 Revolution lets you jump into The Great War through massive team-based multiplayer battles. With unique combat roles on land, in the sky, and at sea, no battle is ever the same. Or discover a world at war through single player War Stories campaigns.\n\nProgress in deep and rewarding Service Assignments, then customize your solider to match your playstyle with Specializations. Take on fan-favorite modes like Conquest and Frontlines, volunteer for multi-battle challenges in Operations, or squad up with friends in Platoons.\n\nJoin the ranks of the revolution and experience war on an epic scale.",
+  "first_release_year": 2017,
+  "developers": [
+    "EA Digital Illusions CE"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Battlefield"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Battlefield"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "xbox one x enhanced",
+    "4k ultra hd"
+  ],
+  "alternative_names": [
+    {
+      "name": "배틀필드 1 레볼루션",
+      "comment": "Korean title"
+    },
+    {
+      "name": "Battlefield 1 레볼루션",
+      "comment": "Korean title"
+    },
+    {
+      "name": "バトルフィールド 1 Revolution",
+      "comment": "Japanese title - original"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/battlefield-1-124758"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/battlefield-1-revolution/BPL68T0XK96W"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.battlefield.com/games/battlefield-1"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1238840"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 21, 2017",
+      "status": "Released",
+      "date_iso": "2017-08-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 2017",
+      "status": "Released",
+      "date_iso": "2017-08-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 2017",
+      "status": "Released",
+      "date_iso": "2017-08-01"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar91b.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "e2jerZDvtG8",
+      "url": "https://www.youtube.com/watch?v=e2jerZDvtG8"
+    }
+  ]
+}

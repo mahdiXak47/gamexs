@@ -1,0 +1,100 @@
+{
+  "slug": "unravel-yarny-bundle",
+  "igdb_id": 115025,
+  "name": "Unravel: Yarny Bundle",
+  "summary": "Discover the delightful adventures of Unravel and Unravel Two, with the Unravel Yarny Bundle.",
+  "first_release_year": 2018,
+  "developers": [
+    "ColdWood Interactive"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Unravel"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Unravel ヤーニーバンドル",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "언래블 야니 번들",
+      "comment": "Korean title"
+    },
+    {
+      "name": "Unravel Yarny 번들",
+      "comment": "Korean title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/unravel-yarny-bundle/C00L6LTVQHSS"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Unravel_(video_game)"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.unravelgame.com"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 24, 2018",
+      "status": "Released",
+      "date_iso": "2018-07-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 07, 2019",
+      "status": "Released",
+      "date_iso": "2019-02-07"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 24, 2018",
+      "status": "Released",
+      "date_iso": "2018-07-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 24, 2018",
+      "status": "Released",
+      "date_iso": "2018-07-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1dpm.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "hlPb0PSyOAs",
+      "url": "https://www.youtube.com/watch?v=hlPb0PSyOAs"
+    }
+  ]
+}

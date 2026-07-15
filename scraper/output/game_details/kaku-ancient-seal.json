@@ -1,0 +1,175 @@
+{
+  "slug": "kaku-ancient-seal",
+  "igdb_id": 126643,
+  "name": "Kaku: Ancient Seal",
+  "summary": "\"An Open world Action adventure combining exploration with puzzles and dynamic combat. Go on a journey across a sprawling continent as Kaku, a young boy tasked to restore balance to the land. Brave the four elemental regions with the help of Piggy, his powerful companion and conquer their lords. \"",
+  "first_release_year": 2024,
+  "developers": [
+    "BINGOBELL"
+  ],
+  "publishers": [
+    "BINGOBELL",
+    "Microids"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "magic",
+    "demo",
+    "free demo"
+  ],
+  "alternative_names": [
+    {
+      "name": "KAKU: Ancient Seal",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "卡库远古封印",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "KakuAncientSeal_protected.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10015528"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/kaku-ancient-seal-f0bbc9"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/kaku-ancient-seal/9P84DDMZLZ5Z"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1179580"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/KakuAncientSeal"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://bingobell.cn/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/t2HNE6E"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCvvuyz_43kpy5ax5e1ACZ-w"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Kaku_Ancient_Seal/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://kaku.wiki.gg/wiki/KAKU:_Ancient_Seal_Wiki"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/kaku_ancient_seal/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/KakuAncientSealGameOfficial"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Kaku:%20Ancient%20Seal"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 12, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-12"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 27, 2020",
+      "status": "status_1",
+      "date_iso": "2020-11-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 03, 2023",
+      "status": "Beta",
+      "date_iso": "2023-05-03"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arnpv.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "OGRf8oXc55U",
+      "url": "https://www.youtube.com/watch?v=OGRf8oXc55U"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "fuAfcz6eeNA",
+      "url": "https://www.youtube.com/watch?v=fuAfcz6eeNA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Coj_jDiGxKQ",
+      "url": "https://www.youtube.com/watch?v=Coj_jDiGxKQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "E6Udtt9sE40",
+      "url": "https://www.youtube.com/watch?v=E6Udtt9sE40"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "M3tYmE9eFPI",
+      "url": "https://www.youtube.com/watch?v=M3tYmE9eFPI"
+    }
+  ]
+}

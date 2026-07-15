@@ -1,0 +1,162 @@
+{
+  "slug": "afterimage",
+  "igdb_id": 185642,
+  "name": "Afterimage",
+  "summary": "Reveal the hidden secrets of a fantasy land in Afterimage! Explore the magnificent landscapes and ruins of an ancient metropolis, meeting mysterious colossal beings and adorable roaming spirits along the way. The thrilling adventure of this marvelous 2D hand-drawn world awaits you!",
+  "first_release_year": 2023,
+  "developers": [
+    "Aurogon"
+  ],
+  "publishers": [
+    "Modus Games"
+  ],
+  "genres": [
+    "Platform",
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "metroidvania",
+    "female protagonist",
+    "side-scrolling"
+  ],
+  "alternative_names": [
+    {
+      "name": "Afterimage.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/afterimage/9N26VC8F7MZT"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007477"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/afterimage-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.playafterimage.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/PlayAfterimage"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/N6WBvZzPtS"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1701520"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/afterimage"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC_Juy3pWLLYFGlvjsbf1j6w"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/PlayAfterimage"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Afterimage"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 25, 2023",
+      "status": "Released",
+      "date_iso": "2023-04-25"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 25, 2023",
+      "status": "Released",
+      "date_iso": "2023-04-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 25, 2023",
+      "status": "Released",
+      "date_iso": "2023-04-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 25, 2023",
+      "status": "Released",
+      "date_iso": "2023-04-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 25, 2023",
+      "status": "Released",
+      "date_iso": "2023-04-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 25, 2023",
+      "status": "Released",
+      "date_iso": "2023-04-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1eyu.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "BMWS9_fQFkw",
+      "url": "https://www.youtube.com/watch?v=BMWS9_fQFkw"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "e1NvFXcVtJM",
+      "url": "https://www.youtube.com/watch?v=e1NvFXcVtJM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "UKa3BdeBiPM",
+      "url": "https://www.youtube.com/watch?v=UKa3BdeBiPM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "_OqN31olgg8",
+      "url": "https://www.youtube.com/watch?v=_OqN31olgg8"
+    }
+  ]
+}

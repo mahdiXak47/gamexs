@@ -1,0 +1,144 @@
+{
+  "slug": "painkiller",
+  "igdb_id": 152077,
+  "name": "Painkiller",
+  "summary": "The classic Painkiller series is back! Battle through Purgatory in fast-paced co-op action, wielding infernal weapons against relentless demonic hordes. Condemned for your sins, the Voice of the Creator offers you a chance at redemption. Will you seize it or be lost to darkness?",
+  "first_release_year": 2025,
+  "developers": [
+    "Saber Interactive",
+    "Anshar Studios"
+  ],
+  "publishers": [
+    "Prime Matter",
+    "3D Realms"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Painkiller"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "steam achievements",
+    "steam families"
+  ],
+  "alternative_names": [
+    {
+      "name": "Painkiller.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "Painkiller (2025)",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/painkillerthegame/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://saber.games/painkiller/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/painkiller-1"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10013491"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/painkiller/9NG65M3P0CNK/0017"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/painkillergame_/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/painkillergame_"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2300120"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@3drealmsgames/videos"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3czp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3s9u.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "WDqGyzeXg4I",
+      "url": "https://www.youtube.com/watch?v=WDqGyzeXg4I"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "Vy4OAxZN2hw",
+      "url": "https://www.youtube.com/watch?v=Vy4OAxZN2hw"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "airMe3up9Jg",
+      "url": "https://www.youtube.com/watch?v=airMe3up9Jg"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "9Dd0sjuggqw",
+      "url": "https://www.youtube.com/watch?v=9Dd0sjuggqw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "16mJESrKo6A",
+      "url": "https://www.youtube.com/watch?v=16mJESrKo6A"
+    }
+  ]
+}

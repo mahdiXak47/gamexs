@@ -1,0 +1,114 @@
+{
+  "slug": "ai-limit",
+  "igdb_id": 115846,
+  "name": "AI Limit",
+  "summary": "In the distant future when civilization is on the verge of extinction, people follow the legend of the Elysium in the last city, Havenswell. In this post-apocalyptic wasteland sci-fi ARPG, you will play as Arrisa, a Blader with immortality, and explore the city ruin to find the hope of a new life.",
+  "first_release_year": 2025,
+  "developers": [
+    "Sense Games"
+  ],
+  "publishers": [
+    "CE-Asia"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "playstation china hero project"
+  ],
+  "alternative_names": [
+    {
+      "name": "AI LIMIT",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2407270"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/ailimit"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/bTBPQPVz7D"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ailimit.com/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/ai-limit-01fa40"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006488"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@ce-asia4989"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/ai-limit"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 27, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 27, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2pln.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "1rKAe7QVfrY",
+      "url": "https://www.youtube.com/watch?v=1rKAe7QVfrY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "wJx4bN_Od7g",
+      "url": "https://www.youtube.com/watch?v=wJx4bN_Od7g"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "2K8_oUBDV78",
+      "url": "https://www.youtube.com/watch?v=2K8_oUBDV78"
+    }
+  ]
+}

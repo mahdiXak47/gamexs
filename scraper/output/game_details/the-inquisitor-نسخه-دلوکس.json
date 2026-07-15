@@ -1,0 +1,139 @@
+{
+  "slug": "the-inquisitor-نسخه-دلوکس",
+  "igdb_id": 202718,
+  "name": "The Inquisitor",
+  "summary": "The Inquisitor is a story-driven, dark renaissance, action-adventure mystery game set in an alternate history 1500’s. In this world, Jesus did not die on the cross. Instead, he broke free from his crucifixion and unleashed bloody vengeance on those who did not believe in him. Centuries pass and now an army of zealot Inquisitors brutally enforce the faith of this blood-hungry Church that has taken hold in Europe.\n\nYou play as one such Inquisitor in service this The Holy Office - Mordimer Madderdin. Dispatched to the despondent town of Konigstein, you will be tasked with dealing with the various crimes and transgressions of the common folk, all while dealing with an ancient evil that is trying to take root around you.",
+  "first_release_year": 2024,
+  "developers": [
+    "The Dust S.A."
+  ],
+  "publishers": [
+    "Kalypso Media"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Historical"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "based on - book",
+    "middle ages",
+    "middle ages europe",
+    "alternative history"
+  ],
+  "alternative_names": [
+    {
+      "name": "I, the Inquisitor",
+      "comment": "Working title"
+    },
+    {
+      "name": "InquisitorLauncher.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/the-inquisitor-73701c"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/kalypsomedia"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://www.twitter.com/kalypsomedia"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1880470/The_Inquisitor"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://theinquisitor.game/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/kalypso_media/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/KalypsoMediaGroup/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/kalypsomedia"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/the_inquisitor"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/KalypsoMedia/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 08, 2024",
+      "status": "Released",
+      "date_iso": "2024-02-08"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 08, 2024",
+      "status": "Released",
+      "date_iso": "2024-02-08"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 08, 2024",
+      "status": "Released",
+      "date_iso": "2024-02-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1rkt.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "1qqmsXU9F4o",
+      "url": "https://www.youtube.com/watch?v=1qqmsXU9F4o"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "CkW_0L37l68",
+      "url": "https://www.youtube.com/watch?v=CkW_0L37l68"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "HdnnGJX2x2w",
+      "url": "https://www.youtube.com/watch?v=HdnnGJX2x2w"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "7yX0zJXXNQc",
+      "url": "https://www.youtube.com/watch?v=7yX0zJXXNQc"
+    }
+  ]
+}

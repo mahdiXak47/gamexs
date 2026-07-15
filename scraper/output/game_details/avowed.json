@@ -1,0 +1,197 @@
+{
+  "slug": "avowed",
+  "igdb_id": 135994,
+  "name": "Avowed",
+  "summary": "Welcome to the Living Lands, a mysterious island filled with adventure and danger.\n\nSet in the fictional world of Eora that was first introduced to players in the Pillars of Eternity franchise, Avowed is a first-person fantasy action RPG from the award-winning team at Obsidian Entertainment.\n\nThe Living Lands is a place that feels foreign yet somewhat intrinsic to you as it feels the island itself is calling out to you for help. Explore an island home to many different environments and landscapes, each with their own unique ecosystem.\n\nMix and match swords, spells, guns, and shields to fight your way. Dig into your grimoire for spells to trap, freeze or burn enemies, bash them with your shield, or use range bows to attack from a distance.\n\nCompanions from a spread of species will fight alongside you, with their own unique set of abilities. From a former mercenary to an eccentric wizard, they will be part of your journey with your choices shaping them as you help them with their quests.",
+  "first_release_year": 2025,
+  "developers": [
+    "Obsidian Entertainment"
+  ],
+  "publishers": [
+    "Xbox Game Studios"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Pillars of Eternity"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "steam trading cards",
+    "steam achievements",
+    "xbox controller support for pc",
+    "steam cloud",
+    "controller support",
+    "steam deck",
+    "steam families"
+  ],
+  "alternative_names": [
+    {
+      "name": "Avowed.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/AvowedtheGame/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Obsidian"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/obsidian"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/ObsidianEnt/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/obsidian"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/avowed-standard-edition/9MSVPJCHHRPR"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://avowed.obsidian.net/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10012632/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Avowed"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2457220"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/avowed/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://pillarsofeternity.fandom.com/wiki/Avowed"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Avowed"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 17, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 13, 2025",
+      "status": "status_34",
+      "date_iso": "2025-02-13"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 13, 2025",
+      "status": "status_34",
+      "date_iso": "2025-02-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar36xc.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3uwz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ux0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ux1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ux2.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3uwy.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "YS8n-pZQWWc",
+      "url": "https://www.youtube.com/watch?v=YS8n-pZQWWc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ULsF7B6bFuU",
+      "url": "https://www.youtube.com/watch?v=ULsF7B6bFuU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "cv23HkHm3AQ",
+      "url": "https://www.youtube.com/watch?v=cv23HkHm3AQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "bb3as57njWg",
+      "url": "https://www.youtube.com/watch?v=bb3as57njWg"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "6mWW-zqXxRo",
+      "url": "https://www.youtube.com/watch?v=6mWW-zqXxRo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ykgkdU1NJUU",
+      "url": "https://www.youtube.com/watch?v=ykgkdU1NJUU"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "8yhr_UqvElk",
+      "url": "https://www.youtube.com/watch?v=8yhr_UqvElk"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "AYnpv9kW1kI",
+      "url": "https://www.youtube.com/watch?v=AYnpv9kW1kI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "_J209Qn6So0",
+      "url": "https://www.youtube.com/watch?v=_J209Qn6So0"
+    }
+  ]
+}

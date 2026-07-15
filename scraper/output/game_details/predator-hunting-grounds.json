@@ -1,0 +1,96 @@
+{
+  "slug": "predator-hunting-grounds",
+  "igdb_id": 387641,
+  "name": "Predator: Hunting Grounds - Jotun Predator",
+  "summary": "Viewed by his own clan as a bloodthirsty aberration, the Jotun Predator lives for the sheer thrill of the kill rather than the honor of the hunt. He is defined by his brutality and savagery.",
+  "first_release_year": 2026,
+  "developers": [],
+  "publishers": [],
+  "genres": [],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": "Predator: Hunting Grounds",
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "steam achievements"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4146790"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/predator-hunting-grounds-jouton-predator-23980a"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/predator-hunting-grounds-jotun-predator/9nx97jndgbvx"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP3095-PPSA24179_00-PHGDLCJOUTON0001"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/PHGTheGame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/phgthegame/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/PHGTheGame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 20, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-01-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 20, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-01-20"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 20, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-01-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 20, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-01-20"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "o-c2uzmujPw",
+      "url": "https://www.youtube.com/watch?v=o-c2uzmujPw"
+    }
+  ]
+}

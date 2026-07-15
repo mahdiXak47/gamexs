@@ -1,0 +1,94 @@
+{
+  "slug": "anno-1800™-console-edition-ps4-و",
+  "igdb_id": 231778,
+  "name": "Anno 1800: Console Edition",
+  "summary": "Welcome to the dawn of the Industrial Age. Experience one of the most exciting and fast-changing periods of all time in a rich city-building experience!\n\nDiscover new technologies, regions, societies, implement your own strategy and build a new world to your design!\n\nPlay solo or use the online mode to play PvP or co-op modes: How the world remembers your name is up to you.",
+  "first_release_year": 2023,
+  "developers": [
+    "Ubisoft Blue Byte"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Real Time Strategy (RTS)",
+    "Simulator",
+    "Strategy"
+  ],
+  "themes": [
+    "Historical",
+    "Business",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Anno"
+  ],
+  "spin_off_of": "Anno 1800",
+  "franchises": [],
+  "game_engines": [
+    "Anno Engine"
+  ],
+  "keywords": [
+    "economy",
+    "19th century",
+    "city builder",
+    "colony",
+    "cross-play"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003143"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ubisoft.com/en-us/game/anno/1800/console-edition"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 16, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-16"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 16, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-16"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar22rs.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar22rr.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Dev Diary",
+      "youtube_id": "jOiAGn--90Y",
+      "url": "https://www.youtube.com/watch?v=jOiAGn--90Y"
+    },
+    {
+      "title": "Reveal Trailer",
+      "youtube_id": "WBU_iCDxjIc",
+      "url": "https://www.youtube.com/watch?v=WBU_iCDxjIc"
+    },
+    {
+      "title": "Game Presentation Trailer",
+      "youtube_id": "uZiY1XlA0L0",
+      "url": "https://www.youtube.com/watch?v=uZiY1XlA0L0"
+    }
+  ]
+}

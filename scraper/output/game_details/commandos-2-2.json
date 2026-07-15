@@ -1,0 +1,64 @@
+{
+  "slug": "commandos-2-2",
+  "igdb_id": 85900,
+  "name": "Commando 2",
+  "summary": "After successfully defending the Allies in Europe our Hero continues the battle where the original smash hit game Commando left off, following the action to the Far East! More missions, more enemies, more explosions, bigger artillery.",
+  "first_release_year": 2008,
+  "developers": [
+    "Macrojoy"
+  ],
+  "publishers": [
+    "Miniclip.com"
+  ],
+  "genres": [
+    "Shooter",
+    "Platform"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Commando"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Adobe Flash Player"
+  ],
+  "keywords": [
+    "shoot 'em up"
+  ],
+  "alternative_names": [
+    {
+      "name": "Commando 2: Battle of Asia",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Commando%202"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://commando2.fandom.com/wiki/Commando_2"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Web browser",
+      "region": null,
+      "date": "Sep 24, 2008",
+      "status": "Released",
+      "date_iso": "2008-09-24"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

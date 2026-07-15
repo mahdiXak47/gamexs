@@ -1,0 +1,175 @@
+{
+  "slug": "noob-the-factionless",
+  "igdb_id": 130564,
+  "name": "Noob: The Factionless",
+  "summary": "Noob RPG is a transmedia license on the subject of Massive\nMultiplayer Online Role Playing Game (MMORPG). In this game, you will be able to go from the real world to the virtual world to try to reach level 100, then legendary.",
+  "first_release_year": 2023,
+  "developers": [
+    "Blackpixel Studio",
+    "Olydri"
+  ],
+  "publishers": [
+    "Olydri Games",
+    "Black Pixel Studios"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Indie"
+  ],
+  "themes": [
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "turn-based rpg"
+  ],
+  "alternative_names": [
+    {
+      "name": "Noob: Les Sans-Factions",
+      "comment": "French title"
+    },
+    {
+      "name": "Noob RPG",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "NoobRPG.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/noob-the-factionless-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007267"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Olydri_Noob"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/WebSerieNoob"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/olydri_noob"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/aS6pS4m"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/OLYDRI"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.noob-rpg.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1623880/Noob__Les_SansFactions"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Noob%20RPG"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/Noob_(web-s%C3%A9rie)"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 29, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-29"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 29, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-29"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 29, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-29"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 29, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-29"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 29, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-29"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jun 29, 2021",
+      "status": "Beta",
+      "date_iso": "2021-06-29"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jun 29, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 29, 2021",
+      "status": "Beta",
+      "date_iso": "2021-06-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 29, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2fvo.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2fvn.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2fvp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2fvm.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "CePNyZHAFCg",
+      "url": "https://www.youtube.com/watch?v=CePNyZHAFCg"
+    }
+  ]
+}

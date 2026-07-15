@@ -1,0 +1,101 @@
+{
+  "slug": "company-of-heroes-console-edition",
+  "igdb_id": 228537,
+  "name": "Company of Heroes 3: Console Edition",
+  "summary": "Company of Heroes 3 is the ultimate package of action, tactics and strategy. Take charge in the heat of real-time battle, then command as a General guiding the overall campaign where every decision matters. ​",
+  "first_release_year": 2023,
+  "developers": [
+    "Relic Entertainment"
+  ],
+  "publishers": [
+    "Sega"
+  ],
+  "genres": [
+    "Real Time Strategy (RTS)",
+    "Strategy",
+    "Turn-based strategy (TBS)",
+    "Tactical"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Company of Heroes"
+  ],
+  "spin_off_of": "Company of Heroes 3",
+  "franchises": [],
+  "game_engines": [
+    "Essence Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/CompanyOfHeroes"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/companyofheroes"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/companyofheroes"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/CoHOfficial"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.companyofheroes.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Company_of_Heroes_3"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 30, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-05-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 30, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-05-30"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "55BcDSA3-UY",
+      "url": "https://www.youtube.com/watch?v=55BcDSA3-UY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "45fE0la6qwk",
+      "url": "https://www.youtube.com/watch?v=45fE0la6qwk"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "guuFfz0biww",
+      "url": "https://www.youtube.com/watch?v=guuFfz0biww"
+    }
+  ]
+}

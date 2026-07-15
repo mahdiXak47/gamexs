@@ -1,0 +1,161 @@
+{
+  "slug": "spirit-hunter-death-mark-ii",
+  "igdb_id": 133814,
+  "name": "Spirit Hunter: Death Mark II",
+  "summary": "The third game in the Spirit Hunter series.\n\nThe story is set in a suburb of H City in Tokyo and revolves around Konoehara Academy, a school where gruesome events occur every ten years. The police are unable to explain the incidents, and classify them as accidents but they are rumored to be caused by spirits. Because of this, Konoehara's principal hires Kazuo Yashiki of the Kujo family to infiltrate the school as a teacher and investigate the incidents.",
+  "first_release_year": 2022,
+  "developers": [
+    "Experience Inc."
+  ],
+  "publishers": [
+    "Experience Inc.",
+    "Aksys Games"
+  ],
+  "genres": [
+    "Adventure",
+    "Visual Novel"
+  ],
+  "themes": [
+    "Horror",
+    "Thriller",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Side view"
+  ],
+  "series": [
+    "Spirit Hunter"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "detective",
+    "investigation",
+    "crowdfunding",
+    "rpg elements",
+    "crowdfunding - campfire",
+    "timed choices"
+  ],
+  "alternative_names": [
+    {
+      "name": "Shibito Magire",
+      "comment": "Development title"
+    },
+    {
+      "name": "シビトマギレ",
+      "comment": "Japanese development title"
+    },
+    {
+      "name": "Spirit Hunter: Shibito Magire",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "SpiritHunter3.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Spirit%20Hunter:%20Death%20Mark%20II"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2080800"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009546"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/spirit-hunter-death-mark-ii-switch/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Spirit_Hunter:_Death_Mark_II"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://horror-game.jp/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/user/EXPTeamMuramasa/featured"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/EXPTeamMuramasa/featured"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://death-mark.fandom.com/wiki/Shibito_Magire"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 01, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-12-01"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 24, 2023",
+      "status": "Offline",
+      "date_iso": "2023-08-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 15, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-15"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Feb 15, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 15, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 01, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-12-01"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar21v3.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "eZxRotGSSAw",
+      "url": "https://www.youtube.com/watch?v=eZxRotGSSAw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Mcc2sR4sb1U",
+      "url": "https://www.youtube.com/watch?v=Mcc2sR4sb1U"
+    }
+  ]
+}

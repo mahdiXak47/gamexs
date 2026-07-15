@@ -1,0 +1,248 @@
+{
+  "slug": "lego-batman-legacy-of-the-dark-knight-deluxe-edition",
+  "igdb_id": 361855,
+  "name": "LEGO Batman: Legacy of the Dark Knight",
+  "summary": "Rise as the Dark Knight and experience the essential Batman story in a bold, action-packed adventure with hard-hitting combat, an open-world Gotham City, and the signature LEGO charm that fans know and love.",
+  "first_release_year": 2026,
+  "developers": [
+    "Traveller's Tales"
+  ],
+  "publishers": [
+    "WB Games"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Lego Batman"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "LEGO Batman",
+    "Batman",
+    "LEGO"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "superhero",
+    "licensed game",
+    "based on - comics",
+    "based on - toy"
+  ],
+  "alternative_names": [
+    {
+      "name": "LEGO Batman: L'Héritage du Chevalier Noir",
+      "comment": "French title"
+    },
+    {
+      "name": "LEGO Batman: El Legado del Caballero Oscuro",
+      "comment": "Spanish title"
+    },
+    {
+      "name": "LEGO Batman: Dziedzictwo Mrocznego Rycerza",
+      "comment": "Polish title"
+    },
+    {
+      "name": "LEGO Бэтмен: Наследие Темного рыцаря",
+      "comment": "Russian title"
+    },
+    {
+      "name": "LEGO Batman: 레거시 오브 더 다크나이트",
+      "comment": "Korean title - translated"
+    },
+    {
+      "name": "LEGO 蝙蝠俠：黑暗騎士傳奇",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "LEGO Batman: O Legado do Cavaleiro das Trevas",
+      "comment": "Portuguese title"
+    },
+    {
+      "name": "LEGO Batman: L’eredità del Cavaliere oscuro",
+      "comment": "Italian title"
+    },
+    {
+      "name": "LEGO Batman: Das Vermächtnis des Dunklen Ritters",
+      "comment": "German title"
+    },
+    {
+      "name": "乐高蝙蝠侠：黑暗骑士之遗",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "LEGOBatmanLotDK.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008537"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lego_Batman:_Legacy_of_the_Dark_Knight"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@WBGAMES"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/LEGODCGame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/legodcgame/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/LEGOBatmanGame/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2215200"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://legobatmangame.com/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://epicgames.com/p/lego-batman-legacy-of-the-dark-knight-c82b6b"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/lego-batman-legacy-of-the-dark-knight-switch-2/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/lego-batman-legacy-of-the-dark-knight/9PFKP8Z66G1J/0010"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/lego-batman-legacy-of-the-dark-knight"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://brickipedia.fandom.com/wiki/LEGO_Batman:_Legacy_of_the_Dark_Knight"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 19, 2026",
+      "status": "status_34",
+      "date_iso": "2026-05-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 22, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 22, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 19, 2026",
+      "status": "status_34",
+      "date_iso": "2026-05-19"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 22, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 19, 2026",
+      "status": "status_34",
+      "date_iso": "2026-05-19"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Sep 18, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-09-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar41d3.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5u1p.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5xm3.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5u1q.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar41d2.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "1hQAoGj01Rc",
+      "url": "https://www.youtube.com/watch?v=1hQAoGj01Rc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "G4iE5A3R_rM",
+      "url": "https://www.youtube.com/watch?v=G4iE5A3R_rM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "n4LYtP_TPJg",
+      "url": "https://www.youtube.com/watch?v=n4LYtP_TPJg"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "7o_5mtrXyQ8",
+      "url": "https://www.youtube.com/watch?v=7o_5mtrXyQ8"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "wCGdYd_Uj44",
+      "url": "https://www.youtube.com/watch?v=wCGdYd_Uj44"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "DfJaUpW_P00",
+      "url": "https://www.youtube.com/watch?v=DfJaUpW_P00"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "8_6jXkUo2fQ",
+      "url": "https://www.youtube.com/watch?v=8_6jXkUo2fQ"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "tl612oZLaOc",
+      "url": "https://www.youtube.com/watch?v=tl612oZLaOc"
+    }
+  ]
+}

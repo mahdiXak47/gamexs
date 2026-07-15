@@ -1,0 +1,114 @@
+{
+  "slug": "until-dawn-remake",
+  "igdb_id": 284721,
+  "name": "Until Dawn",
+  "summary": "A remake of Until Dawn, an interactive drama survival horror video game originally released in 2015.\n\nThe remake features overhauled visuals, new camera controls, prologue rework, new collectables, new areas and interactions, and a new \"Stay Calm\" mechanic.",
+  "first_release_year": 2024,
+  "developers": [
+    "Ballistic Moon"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Horror",
+    "Survival",
+    "Drama",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Until Dawn"
+  ],
+  "spin_off_of": "Until Dawn",
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "exploration",
+    "interactive fiction",
+    "dark",
+    "cinematic",
+    "gore",
+    "emotional",
+    "story rich",
+    "choices matter"
+  ],
+  "alternative_names": [
+    {
+      "name": "Until Dawn Remake",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007897"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Until_Dawn"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/until-dawn-1"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2172010/Until_Dawn/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/until-dawn"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.playstation.com/en-us/games/until-dawn/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-04"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-04"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2rtr.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "pnbxcNmUcQo",
+      "url": "https://www.youtube.com/watch?v=pnbxcNmUcQo"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "8nApBGPy0ao",
+      "url": "https://www.youtube.com/watch?v=8nApBGPy0ao"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "bIkuM5y0Bjw",
+      "url": "https://www.youtube.com/watch?v=bIkuM5y0Bjw"
+    }
+  ]
+}

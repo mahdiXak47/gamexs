@@ -1,0 +1,75 @@
+{
+  "slug": "coastline-flight-simulator-نسخه-استاندارد",
+  "igdb_id": 154006,
+  "name": "Coastline Flight Simulator",
+  "summary": "Fly with your planes through the huge open world! Transport goods, trade and complete recon missions. Discover all settlements in the coastal landscape, the islands and the desert. Upgrade your planes and paint them in the colors of your choice!",
+  "first_release_year": 2021,
+  "developers": [
+    "Caipirinha Games"
+  ],
+  "publishers": [
+    "Caipirinha Games",
+    "Joindots"
+  ],
+  "genres": [
+    "Simulator",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Coastline Flight Simulator.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Coastline%20Flight%20Simulator"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003241"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1573350"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.joindots.de/de/title/coastline-flight-simulator"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 26, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 07, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-07"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arumy.jpg"
+  ],
+  "videos": []
+}

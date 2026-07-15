@@ -1,0 +1,142 @@
+{
+  "slug": "high-on-life-2",
+  "igdb_id": 348166,
+  "name": "High on Life 2",
+  "summary": "An intergalactic conspiracy threatens the fate of humanity! Team up with a wide cast of talking alien guns as you shoot, stab, and skate your way through the exotic locales to take down the bad guys and save your favorite species (humans)!",
+  "first_release_year": 2026,
+  "developers": [
+    "Squanch Games"
+  ],
+  "publishers": [
+    "Squanch Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "High on Life"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/high-on-life-2-fd5c96"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/squanchgames"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/high-on-life-2/9NF6XPSBTTGB"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10012995"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/squanchgames/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2069250"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/squanchgames"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://squanchgames.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@SquanchGames"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/high-on-life-2"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/high-on-life-2-switch-2/"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/squanchgames.bsky.social"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/squanchgames/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 13, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 13, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-13"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 13, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-13"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Apr 20, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3owz.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "GtTLjkB0vbo",
+      "url": "https://www.youtube.com/watch?v=GtTLjkB0vbo"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "JDSLqJC2VLs",
+      "url": "https://www.youtube.com/watch?v=JDSLqJC2VLs"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "PdMX5_snGGQ",
+      "url": "https://www.youtube.com/watch?v=PdMX5_snGGQ"
+    }
+  ]
+}

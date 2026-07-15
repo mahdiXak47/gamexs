@@ -1,0 +1,151 @@
+{
+  "slug": "metal-gear-solid-master-collection-vol-1",
+  "igdb_id": 250635,
+  "name": "Metal Gear Solid Master Collection: Volume 1",
+  "summary": "Metal Gear Solid Master Collection: Volume 1 compiles the early entries in the Metal Gear series into a single package, offering players the opportunity to experience the origins of stealth action gameplay. The collection includes the following titles: Metal Gear, Metal Gear 2: Solid Snake, Metal Gear Solid (with VR Missions/Special Missions), Metal Gear Solid 2: Sons of Liberty (HD Collection version), Metal Gear Solid 3: Snake Eater (HD Collection version), as well as the NES/Famicom version of Metal Gear and Snake’s Revenge. Regional versions of the titles are available as additional downloads.\n\nAdditional content includes the digital graphic novels Metal Gear Solid: Digital Graphic Novel and Metal Gear Solid 2: Digital Graphic Novel. A set of digital books is also provided, comprising screenplay and master books for Metal Gear, Metal Gear 2: Solid Snake, Metal Gear Solid, Metal Gear Solid 2: Sons of Liberty, and Metal Gear Solid 3: Snake Eater. These books can be accessed from the game’s main menu.\n\nThe collection also features the Metal Gear Solid: Digital Soundtrack.",
+  "first_release_year": 2023,
+  "developers": [
+    "Konami"
+  ],
+  "publishers": [
+    "Konami"
+  ],
+  "genres": [
+    "Shooter",
+    "Tactical",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Metal Gear Solid",
+    "Metal Gear"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "kojima",
+    "dystopian",
+    "compilation",
+    "boss fight",
+    "mission briefing",
+    "stealth kill",
+    "telekinesis",
+    "propaganda",
+    "stealth camouflage",
+    "male protagonist"
+  ],
+  "alternative_names": [
+    {
+      "name": "Metal Gear Solid: Master Collection Vol. 1",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "METAL GEAR SOLID: MASTER COLLECTION Vol.1",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2131630/METAL_GEAR_SOLID_MASTER_COLLECTION_Vol1_METAL_GEAR_SOLID/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/metal-gear-solid-master-collection-vol-1-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007607"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/metal-gear-solid-master-collection-vol1/9N16X47Z5PH5"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Metal_Gear_Solid:_Master_Collection"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Metalgear"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.konami.com/mg/mc/eu/en/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-24"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-24"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Feb 12, 2026",
+      "status": "status_36",
+      "date_iso": "2026-02-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2ddi.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2ddo.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2ddj.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2ddh.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "OxL0HnOQZ28",
+      "url": "https://www.youtube.com/watch?v=OxL0HnOQZ28"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "Ej-I-Qv8UkE",
+      "url": "https://www.youtube.com/watch?v=Ej-I-Qv8UkE"
+    }
+  ]
+}

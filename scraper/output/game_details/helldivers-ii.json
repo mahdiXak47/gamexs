@@ -1,0 +1,202 @@
+{
+  "slug": "helldivers-ii",
+  "igdb_id": 250616,
+  "name": "Helldivers 2",
+  "summary": "Helldivers 2 is a cooperative third-person shooter in which squads of up to four players are deployed from orbit onto hostile planets to complete strategic missions. Players select loadouts of weapons, armor, and stratagems that allow them to call in orbital strikes, supply drops, vehicles, and turrets during combat. Friendly fire is always active, requiring coordination between teammates. The game features a persistent galactic war where community-wide performance determines which planets are liberated or lost.",
+  "first_release_year": 2024,
+  "developers": [
+    "Arrowhead Game Studios"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Tactical"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Helldivers"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Autodesk Stingray"
+  ],
+  "keywords": [
+    "aliens",
+    "friendly fire",
+    "squad based shooter",
+    "the game awards - best action game - nominee",
+    "the game awards - best multiplayer game - winner",
+    "the game awards - best ongoing game - winner"
+  ],
+  "alternative_names": [
+    {
+      "name": "HELLDIVERS 2",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Helldivers™ 2",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Helldivers II",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "bin\\helldivers2.exe",
+      "comment": "windows executable"
+    },
+    {
+      "name": "絕地戰兵2",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "绝地潜兵2",
+      "comment": "Chinese title - simplified"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/helldivers-ii"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Helldivers_2"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/helldivers-2/9MX9WN9DFPGT/0017"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000657"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/helldivers2"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/553850/HELLDIVERS_2/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/helldivers"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.playstation.com/games/helldivers-2/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/ArrowheadGS"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://helldivers.wiki.gg/wiki/Helldivers_Wiki"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Helldivers/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/arrowheadgamestudios/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCfTs9_1yO2mlAdeK1884a4w"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 26, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4176.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4u72.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4ppl.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4ppk.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "rE7KTE28HrA",
+      "url": "https://www.youtube.com/watch?v=rE7KTE28HrA"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "00vttMQgFWA",
+      "url": "https://www.youtube.com/watch?v=00vttMQgFWA"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "sqCxyt5QRSg",
+      "url": "https://www.youtube.com/watch?v=sqCxyt5QRSg"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "lUaaT_k9Nv8",
+      "url": "https://www.youtube.com/watch?v=lUaaT_k9Nv8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "22rg3bHqSVc",
+      "url": "https://www.youtube.com/watch?v=22rg3bHqSVc"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "t8hK7r2Meys",
+      "url": "https://www.youtube.com/watch?v=t8hK7r2Meys"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "WsYK0Y6mjFE",
+      "url": "https://www.youtube.com/watch?v=WsYK0Y6mjFE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "fOaB_8-ziwE",
+      "url": "https://www.youtube.com/watch?v=fOaB_8-ziwE"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "BoUlJZ_H6Gk",
+      "url": "https://www.youtube.com/watch?v=BoUlJZ_H6Gk"
+    }
+  ]
+}

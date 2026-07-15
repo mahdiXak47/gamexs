@@ -1,0 +1,90 @@
+{
+  "slug": "summer-sports-games",
+  "igdb_id": 119477,
+  "name": "Summer Sports Games",
+  "summary": "Prove your athletic skills! Challenge your friends in twelve exciting disciplines and beat the AI in five thrilling tournaments! Depending on the discipline it is either played one after the other or simultaneously on a split screen. Who will finish on the podium?",
+  "first_release_year": 2019,
+  "developers": [],
+  "publishers": [
+    "Joindots"
+  ],
+  "genres": [
+    "Simulator",
+    "Sport",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/summer-sports-games-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/233561"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/991760"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Summer%20Sports%20Games"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 20, 2019",
+      "status": "Released",
+      "date_iso": "2019-06-20"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 06, 2019",
+      "status": "Released",
+      "date_iso": "2019-06-06"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 17, 2019",
+      "status": "Released",
+      "date_iso": "2019-06-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 04, 2019",
+      "status": "Released",
+      "date_iso": "2019-06-04"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 30, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ard3b.jpg"
+  ],
+  "videos": []
+}

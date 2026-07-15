@@ -1,0 +1,224 @@
+{
+  "slug": "goat-simulator-remastered",
+  "igdb_id": 5335,
+  "name": "Goat Simulator",
+  "summary": "Goat Simulator is a third-person perspective game in which the player controls a goat. There does not appear to be any kind of storyline or plot. The player is free to explore the game's world as a goat, destroying things in the environment, running, jumping, and licking. \"Goat Simulator is like an old school skating game, except instead of being a skater, you're a goat, and instead of doing tricks, you wreck stuff,\" explained the game's creators.",
+  "first_release_year": 2014,
+  "developers": [
+    "Coffee Stain Studios"
+  ],
+  "publishers": [
+    "Coffee Stain Studios",
+    "Double Eleven"
+  ],
+  "genres": [
+    "Simulator",
+    "Adventure",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Comedy",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Goat Simulator"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 3"
+  ],
+  "keywords": [
+    "exploration",
+    "casual",
+    "gravity",
+    "animals",
+    "destruction",
+    "level editor",
+    "demon",
+    "3d",
+    "physics",
+    "parody",
+    "dolphin",
+    "goat",
+    "demons",
+    "steam",
+    "achievements",
+    "steam trading cards",
+    "funny",
+    "dancing",
+    "dark humor",
+    "easter egg",
+    "over the shoulder",
+    "slow-motion",
+    "memes",
+    "explosion",
+    "steam achievements",
+    "digital distribution",
+    "xbox controller support for pc",
+    "steam cloud",
+    "steam leaderboards",
+    "animal protagonists",
+    "box art - real photos",
+    "playstation trophies",
+    "steam workshop",
+    "voice acting",
+    "human",
+    "polygonal 3d",
+    "pop culture reference",
+    "non-humanoid protagonist",
+    "google play game services",
+    "non-player character",
+    "profanity",
+    "ragdoll physics",
+    "downloadable content",
+    "games with gold",
+    "vending machine interaction",
+    "gamescom 2014",
+    "pax east 2014",
+    "conveyor belt",
+    "xbox one backwards compatibility",
+    "satanism",
+    "remote play",
+    "controller support",
+    "steam deck",
+    "steam families",
+    "cloud saves"
+  ],
+  "alternative_names": [
+    {
+      "name": "Goat Simulator: Mmore Goatz Edition",
+      "comment": "Other Alias"
+    },
+    {
+      "name": "GoatGame-Win32-Shipping.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/goat-simulator/BV0NM309K1TL"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/201723"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Coffee_Stain"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/265930"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://goat-simulator.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Goat%20Simulator"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Goat_Simulator"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://goatsimulator.fandom.com/wiki/Goat_Simulator"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Jun 27, 2014",
+      "status": "Cancelled",
+      "date_iso": "2014-06-27"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jun 27, 2014",
+      "status": "Cancelled",
+      "date_iso": "2014-06-27"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 01, 2014",
+      "status": "Cancelled",
+      "date_iso": "2014-04-01"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Aug 11, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-08-11"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Aug 12, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-08-12"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 12, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-08-12"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 11, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-08-11"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Apr 17, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-04-17"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 17, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-04-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar75a.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "dvWGLcdI8o8",
+      "url": "https://www.youtube.com/watch?v=dvWGLcdI8o8"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "WgTQglGvNUs",
+      "url": "https://www.youtube.com/watch?v=WgTQglGvNUs"
+    }
+  ]
+}

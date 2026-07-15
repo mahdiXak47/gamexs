@@ -1,0 +1,130 @@
+{
+  "slug": "a-plague-tale-bundle",
+  "igdb_id": 230801,
+  "name": "A Plague Tale Bundle",
+  "summary": "A Plague Tale Bundle includes the entirety of Amicia and Hugo’s heartrending journey through history's darkest hours with the two acclaimed games A Plague Tale: Innocence and its sequel A Plague Tale: Requiem.",
+  "first_release_year": 2022,
+  "developers": [
+    "Asobo Studio"
+  ],
+  "publishers": [
+    "Focus Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Historical",
+    "Stealth",
+    "Drama"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "exploration",
+    "rats",
+    "female protagonist"
+  ],
+  "alternative_names": [
+    {
+      "name": "A Plague Tale: Collection",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP4133-PPSA05366_00-APLAGUEINREQBDLE"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/a-plague-tale-bundle-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/a-plague-tale-bundle/9NHV310S6K1J"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/bundles/a-plague-tale-bundle"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/a_plague_tale_bundle"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/sub/802975/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 05, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-05"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 05, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-05"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jan 25, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 18, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 18, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-18"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 05, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar225c.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "lGy0Ef-hBNY",
+      "url": "https://www.youtube.com/watch?v=lGy0Ef-hBNY"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "n7vZqU9G9ZI",
+      "url": "https://www.youtube.com/watch?v=n7vZqU9G9ZI"
+    }
+  ]
+}

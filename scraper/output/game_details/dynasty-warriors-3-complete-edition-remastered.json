@@ -1,0 +1,152 @@
+{
+  "slug": "dynasty-warriors-3-complete-edition-remastered",
+  "igdb_id": 2984,
+  "name": "Dynasty Warriors 3",
+  "summary": "Dynasty Warriors 3 is the third installment of the Dynasty Warriors series in North America and the second within the Shin Sangoku Musou series in Japan. It is a spin-off from the video game Romance of the Three Kingdoms and based around a series of books by the same name, written by Luo Guanzhong.\n\nThe game contains a number of fictional and non-fictional elements from the same era in Chinese history that Romance of the Three Kingdoms is set. However, it follows the main events of part of the story which is to unify China under the single rule of a kingdom.",
+  "first_release_year": 2001,
+  "developers": [
+    "Omega Force"
+  ],
+  "publishers": [
+    "Koei"
+  ],
+  "genres": [
+    "Tactical",
+    "Hack and slash/Beat 'em up"
+  ],
+  "themes": [
+    "Action",
+    "Historical"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Dynasty Warriors"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Romance Of The Three Kingdoms (Koei)",
+    "Dynasty Warriors"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "martial arts",
+    "horse",
+    "war",
+    "multiple protagonists",
+    "artificial intelligence",
+    "sequel",
+    "horse riding",
+    "leveling up",
+    "character select screen",
+    "voice acting",
+    "polygonal 3d",
+    "bow and arrow",
+    "unlockables",
+    "melee",
+    "multiple gameplay perspectives",
+    "presidential protagonist",
+    "button mashing",
+    "in-game moves list",
+    "dual wielding",
+    "playable boss",
+    "crowd control",
+    "greatest hits",
+    "soft reset"
+  ],
+  "alternative_names": [
+    {
+      "name": "Shin Sangoku Musou 2",
+      "comment": "Japanese title - romanization"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://koeitecmo.wiki/wiki/Dynasty_Warriors_3"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.tecmokoeiamerica.com/launch/DW3/index.htm"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dynasty_Warriors_3"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Dynasty%20Warriors%203"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 2",
+      "region": null,
+      "date": "Sep 20, 2001",
+      "status": "Cancelled",
+      "date_iso": "2001-09-20"
+    },
+    {
+      "platform": "PlayStation 2",
+      "region": null,
+      "date": "Mar 22, 2002",
+      "status": "Cancelled",
+      "date_iso": "2002-03-22"
+    },
+    {
+      "platform": "Xbox",
+      "region": null,
+      "date": "Sep 26, 2002",
+      "status": "Released",
+      "date_iso": "2002-09-26"
+    },
+    {
+      "platform": "Xbox",
+      "region": null,
+      "date": "Sep 30, 2002",
+      "status": "Released",
+      "date_iso": "2002-09-30"
+    },
+    {
+      "platform": "PlayStation 2",
+      "region": null,
+      "date": "Feb 22, 2002",
+      "status": "Cancelled",
+      "date_iso": "2002-02-22"
+    },
+    {
+      "platform": "Xbox",
+      "region": null,
+      "date": "Dec 06, 2002",
+      "status": "Released",
+      "date_iso": "2002-12-06"
+    },
+    {
+      "platform": "PlayStation 2",
+      "region": null,
+      "date": "Nov 26, 2001",
+      "status": "Cancelled",
+      "date_iso": "2001-11-26"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Gameplay video",
+      "youtube_id": "SJwybak4eaY",
+      "url": "https://www.youtube.com/watch?v=SJwybak4eaY"
+    },
+    {
+      "title": "Game Intro",
+      "youtube_id": "rVVBuSjBlz0",
+      "url": "https://www.youtube.com/watch?v=rVVBuSjBlz0"
+    }
+  ]
+}

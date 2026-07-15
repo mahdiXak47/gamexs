@@ -1,0 +1,198 @@
+{
+  "slug": "gang-beasts",
+  "igdb_id": 11177,
+  "name": "Gang Beasts",
+  "summary": "Gang Beasts is a silly multiplayer party game with surly gelatinous characters, brutal slapstick fight sequences, and absurd hazardous environments, set in the mean streets of Beef City.",
+  "first_release_year": 2017,
+  "developers": [
+    "Boneloaf"
+  ],
+  "publishers": [
+    "Double Fine Productions"
+  ],
+  "genres": [
+    "Fighting",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Comedy",
+    "Kids",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric",
+    "Virtual Reality"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "physics",
+    "brawler",
+    "funny",
+    "steam greenlight",
+    "digital distribution",
+    "pax west 2017",
+    "pre-release public testing",
+    "customizable characters",
+    "polygonal 3d",
+    "playstation experience 2016",
+    "ragdoll physics",
+    "playstation experience 2015",
+    "pax east 2016",
+    "pax west 2016",
+    "melee",
+    "grapple",
+    "wilhelm scream",
+    "pax prime 2014",
+    "pax prime 2015",
+    "conveyor belt"
+  ],
+  "alternative_names": [
+    {
+      "name": "ギャングビースツ",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "갱비스트",
+      "comment": "Korean title"
+    },
+    {
+      "name": "Gang Beasts.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gang_Beasts"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/gang-beasts-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/216234"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/gang-beasts/BPQZT43FWD49"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://gangbeasts.game"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/gangbeasts"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Gang%20Beasts"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/285900"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Dec 12, 2017",
+      "status": "Released",
+      "date_iso": "2017-12-12"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 12, 2017",
+      "status": "Released",
+      "date_iso": "2017-12-12"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 07, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-07"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Dec 12, 2017",
+      "status": "Released",
+      "date_iso": "2017-12-12"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 07, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-07"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 11, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-11"
+    },
+    {
+      "platform": "PlayStation VR",
+      "region": null,
+      "date": "Dec 12, 2017",
+      "status": "Released",
+      "date_iso": "2017-12-12"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 27, 2019",
+      "status": "Released",
+      "date_iso": "2019-03-27"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 12, 2017",
+      "status": "Released",
+      "date_iso": "2017-12-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5k2.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay video",
+      "youtube_id": "Vz0BriND6pE",
+      "url": "https://www.youtube.com/watch?v=Vz0BriND6pE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "nRMNsPwT2jk",
+      "url": "https://www.youtube.com/watch?v=nRMNsPwT2jk"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "sz6RHA1kizU",
+      "url": "https://www.youtube.com/watch?v=sz6RHA1kizU"
+    },
+    {
+      "title": "PSX 2014 Trailer",
+      "youtube_id": "oNZdvkDRCD4",
+      "url": "https://www.youtube.com/watch?v=oNZdvkDRCD4"
+    }
+  ]
+}

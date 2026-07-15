@@ -1,0 +1,146 @@
+{
+  "slug": "minecraft-dungeons-ii",
+  "igdb_id": 395525,
+  "name": "Minecraft Dungeons II",
+  "summary": "Drop the pickaxe, grab a sword, and charge into a thrilling new adventure in Minecraft Dungeons II. Journey through unexplored lands and mysterious locations, in a quest to stop a new evil from causing chaos in not one, but two worlds! Clash with menacing foes in explosive encounters and fight your way through hordes of mobs that will do everything in their power to stop you from saving the day.",
+  "first_release_year": 2026,
+  "developers": [
+    "Mojang Studios"
+  ],
+  "publishers": [
+    "Mojang Studios",
+    "Xbox Game Studios"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Minecraft Dungeons",
+    "Minecraft"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Minecraft"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "dungeon crawler"
+  ],
+  "alternative_names": [
+    {
+      "name": "Minecraft Dungeons 2",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Spicewood",
+      "comment": "Working title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1912410/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008220/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.minecraft.net/en-us/about-dungeons-ii"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/-/9P5786PJB9RP"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/dungeonsgame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/minecraft-dungeons-ii"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/minecraft-dungeons-ii-switch/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://minecraft.wiki/w/Minecraft_Dungeons_II"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 29, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-09-29"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Sep 29, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-09-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 29, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-09-29"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 29, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-09-29"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 29, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-09-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar60u5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar610h.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6187.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6188.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5ks4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5ks5.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "fjI_Akk5z8Y",
+      "url": "https://www.youtube.com/watch?v=fjI_Akk5z8Y"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "vq5M47synfo",
+      "url": "https://www.youtube.com/watch?v=vq5M47synfo"
+    }
+  ]
+}

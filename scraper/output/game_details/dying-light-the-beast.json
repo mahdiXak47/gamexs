@@ -1,0 +1,183 @@
+{
+  "slug": "dying-light-the-beast",
+  "igdb_id": 314252,
+  "name": "Dying Light: The Beast",
+  "summary": "Dying Light: The Beast Restored Land is a new enhanced version of the game that includes the base game, all previously released updates and the premiere Restored Land content in one package. This includes Legend Levels, New Game+, Ray Tracing, Nightmare Mode, dozens of new brutal finishers, hundreds of parkour and gameplay improvements, and numerous visual and audio enhancements - delivering new ways to experience the apocalypse.",
+  "first_release_year": 2025,
+  "developers": [
+    "Techland"
+  ],
+  "publishers": [
+    "Techland"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Dying Light"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Dying Light"
+  ],
+  "game_engines": [
+    "C-Engine"
+  ],
+  "keywords": [
+    "zombies",
+    "post-apocalyptic",
+    "action-adventure",
+    "steam achievements",
+    "xbox controller support for pc",
+    "steam cloud",
+    "controller support",
+    "steam deck",
+    "action-rpg",
+    "steam families",
+    "steam remote play"
+  ],
+  "alternative_names": [
+    {
+      "name": "DyingLightGame_TheBeast_x64_rwdi.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "Dying Light: The Beast",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://x.com/DyingLightGame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/dyinglight"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10011468"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://dyinglight.wiki.gg/wiki/Dying_Light:_The_Beast"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/dyinglightgame/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/DyingLightGame/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/dyinglightgameofficial/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/dying-light-the-beast/9p7zg9mqkkln"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dying_Light:_The_Beast"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/dying-light-the-beast"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/dying-light-the-beast-60a36c"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3008130"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://dyinglightgame.com/the-beast"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-18"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-18"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-18"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar495d.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar495b.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar33dg.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar495c.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5qzb.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "c50gFkG91jc",
+      "url": "https://www.youtube.com/watch?v=c50gFkG91jc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "8Tkwem4M1uw",
+      "url": "https://www.youtube.com/watch?v=8Tkwem4M1uw"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "KY8YLAKnvAw",
+      "url": "https://www.youtube.com/watch?v=KY8YLAKnvAw"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "vNItfx-eILU",
+      "url": "https://www.youtube.com/watch?v=vNItfx-eILU"
+    }
+  ]
+}

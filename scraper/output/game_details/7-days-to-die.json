@@ -1,0 +1,239 @@
+{
+  "slug": "7-days-to-die",
+  "igdb_id": 5574,
+  "name": "7 Days to Die",
+  "summary": "Set in a brutally unforgiving post-apocalyptic world overrun by the undead, 7 Days to Die is an open-world game that is a unique combination of first person shooter, survival horror, tower defense, and role-playing games. It presents combat, crafting, looting, mining, exploration, and character growth, in a way that has seen a rapturous response from fans worldwide. Play the definitive zombie survival sandbox RPG that came first. Navezgane awaits!",
+  "first_release_year": 2024,
+  "developers": [
+    "The Fun Pimps"
+  ],
+  "publishers": [
+    "Telltale Games",
+    "The Fun Pimps"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Simulator",
+    "Strategy",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person",
+    "Virtual Reality"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "zombies",
+    "post-apocalyptic",
+    "exploration",
+    "construction",
+    "crafting",
+    "voxel",
+    "action-adventure",
+    "building",
+    "survival horror",
+    "crowdfunding - kickstarter",
+    "day/night cycle",
+    "crowdfunding",
+    "block-breaking",
+    "pig",
+    "online multiplayer achievements"
+  ],
+  "alternative_names": [
+    {
+      "name": "7 Jours Pour Mourir",
+      "comment": "French title"
+    },
+    {
+      "name": "7 Dias Para Morrer",
+      "comment": "Portuguese title"
+    },
+    {
+      "name": "7 Tage Zu Sterben",
+      "comment": "German title"
+    },
+    {
+      "name": "7d2d",
+      "comment": "Acronym"
+    },
+    {
+      "name": "7dtd",
+      "comment": "Acronym"
+    },
+    {
+      "name": "7dLauncher.exe",
+      "comment": "windows executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/251570"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/taYNEUS"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/thefunpimps/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/7-days-to-die"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/7-days-to-die-console-edition-game-preview/9P6DWL7R6NTL/0010"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/216130"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/7DaystoDie"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.7daystodie.com"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/7_Days_to_Die"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/7daystodie"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/7DaysToDie"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 13, 2013",
+      "status": "Beta",
+      "date_iso": "2013-12-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-25"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Dec 13, 2013",
+      "status": "Beta",
+      "date_iso": "2013-12-13"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "May 04, 2014",
+      "status": "Beta",
+      "date_iso": "2014-05-04"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Jul 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 01, 2016",
+      "status": "Beta",
+      "date_iso": "2016-07-01"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 28, 2016",
+      "status": "Beta",
+      "date_iso": "2016-06-28"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 28, 2016",
+      "status": "Beta",
+      "date_iso": "2016-06-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-25"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jul 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5l6.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "dBBoF_GRKOQ",
+      "url": "https://www.youtube.com/watch?v=dBBoF_GRKOQ"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "T7XmMwxk3rI",
+      "url": "https://www.youtube.com/watch?v=T7XmMwxk3rI"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "kikTJaVBank",
+      "url": "https://www.youtube.com/watch?v=kikTJaVBank"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "ozBN-pEUBvo",
+      "url": "https://www.youtube.com/watch?v=ozBN-pEUBvo"
+    }
+  ]
+}

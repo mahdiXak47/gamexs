@@ -1,0 +1,125 @@
+{
+  "slug": "unholy",
+  "igdb_id": 90213,
+  "name": "Unholy",
+  "summary": "Open the doors between your everyday reality and a dark unholy world to unveil the mystery of the disappearance of your child. Explore both worlds to find clues, solve puzzles, decide whether you infiltrate or fight brutal enemies and stand up to an aberrant establishment.",
+  "first_release_year": 2023,
+  "developers": [
+    "Duality Games"
+  ],
+  "publishers": [
+    "HOOK",
+    "Duality Games"
+  ],
+  "genres": [
+    "Puzzle",
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "female protagonist",
+    "demo",
+    "atmospheric",
+    "free demo"
+  ],
+  "alternative_names": [
+    {
+      "name": "UnHoly.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/unholy"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/PhAPEga4fA"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010042"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/817020"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Unholy"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCYs_13UwQpIMKvIsJC97p-g"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/DualityGames/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://dualitygames.eu/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 13, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-13"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 13, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1qji.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "_jPJOQhioTA",
+      "url": "https://www.youtube.com/watch?v=_jPJOQhioTA"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "Gnef0euM41U",
+      "url": "https://www.youtube.com/watch?v=Gnef0euM41U"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "XcTRpW3F2AI",
+      "url": "https://www.youtube.com/watch?v=XcTRpW3F2AI"
+    }
+  ]
+}

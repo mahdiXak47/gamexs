@@ -1,0 +1,68 @@
+{
+  "slug": "evil-dead-نسخه-استاندارد",
+  "igdb_id": 25832,
+  "name": "The Evil Dead",
+  "summary": "The game is set at the infamous cabin from the Evil Dead film. The player controls Ash, and must close cabin windows to prevent monsters from entering, while also killing monsters that are already in the cabin.\n\nAs the player defeats monsters with various weapons (shovels, shotguns, and axes), Ash's energy level decreases. Ash must continuously pick up new weapons in order to increase his energy. Once he has defeated all the monsters, Ash must obtain The Book of the Dead and destroy it in order to defeat the evil.",
+  "first_release_year": 1984,
+  "developers": [],
+  "publishers": [
+    "Palace Software"
+  ],
+  "genres": [
+    "Hack and slash/Beat 'em up",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Evil Dead"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Evil Dead"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "bloody",
+    "death",
+    "action-adventure",
+    "based on - movie"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20Evil%20Dead"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Evil_Dead_(video_game)"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "BBC Microcomputer System",
+      "region": null,
+      "date": "1984",
+      "status": "Cancelled",
+      "date_iso": "1984-12-31"
+    },
+    {
+      "platform": "Commodore C64/128/MAX",
+      "region": null,
+      "date": "1984",
+      "status": "Cancelled",
+      "date_iso": "1984-12-31"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

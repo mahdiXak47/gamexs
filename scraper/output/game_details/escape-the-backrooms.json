@@ -1,0 +1,74 @@
+{
+  "slug": "escape-the-backrooms",
+  "igdb_id": 313226,
+  "name": "Escape: Backrooms Horror",
+  "summary": "Find your way through a disorienting maze as reality distorts and fear grips your mind.",
+  "first_release_year": 2024,
+  "developers": [],
+  "publishers": [
+    "GameToTop"
+  ],
+  "genres": [
+    "Puzzle",
+    "Simulator",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "the backrooms"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/escape-backrooms-horror-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10011284"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 08, 2024",
+      "status": "Released",
+      "date_iso": "2024-08-08"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 08, 2024",
+      "status": "Released",
+      "date_iso": "2024-08-08"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 14, 2025",
+      "status": "Released",
+      "date_iso": "2025-11-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5y6b.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5y69.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5y6a.jpg"
+  ],
+  "videos": []
+}

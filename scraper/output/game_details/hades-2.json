@@ -1,0 +1,58 @@
+{
+  "slug": "hades-2",
+  "igdb_id": 134619,
+  "name": "Hades 2",
+  "summary": "Hades 2 is a first-person shooter developed by Espaço Informática, a Brazilian company. Espaço Informática placed Hades 2 in the public domain and offered a Freeware download of the game on 20 September 2009 to celebrate the project's 10th anniversary. On the game's opening screen, users can select to play the game in English or Portuguese. The distribution package includes a Portuguese-language manual in Firefox Document format.\n\nHades 2 was Espaço Informática's biggest hit, selling over 50,000 copies in Brazil with additional distribution in Europe.",
+  "first_release_year": 2001,
+  "developers": [
+    "Espaço Informática"
+  ],
+  "publishers": [],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "aliens",
+    "freeware"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Hades%202"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "2001",
+      "status": "Released",
+      "date_iso": "2001-12-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5ox1.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "s8u4cbJhRcU",
+      "url": "https://www.youtube.com/watch?v=s8u4cbJhRcU"
+    }
+  ]
+}

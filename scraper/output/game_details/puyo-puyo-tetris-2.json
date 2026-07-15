@@ -1,0 +1,171 @@
+{
+  "slug": "puyo-puyo-tetris-2",
+  "igdb_id": 137132,
+  "name": "Puyo Puyo Tetris 2",
+  "summary": "Stack, chain, and combo your way to victory in the ultimate matching of two puzzle game legends! Pre-order now and get ready to traverse dimensions and experience brand new worlds in time for the holidays, with the PC release fast-dropping onto Steam in early 2021.\n\nIn Puyo Puyo Tetris 2, players will experience a brand-new hilarious story filled with an eclectic cast of characters in Adventure mode and develop new strategies for play utilizing special item cards in Skill Battle. Read on for more!\n\nBoost your strategy and power your team in Puyo Puyo Tetris 2‘s brand-new Skill Battle mode with this pack of eight in-game rare Item Cards–including three special cards featuring items from the Sonic the Hedgehog series! This pack is exclusive to the Puyo Puyo Tetris 2 Launch Edition.\n\nMore Legendary Battles? YIP-YIP-YIP!\n\nPerfectly blending the complementary gameplay of Puyo Puyo, one of Japan’s most enduring and popular game brands, and Tetris, one of the most well-known video game franchises in the world, Puyo Puyo Tetris 2 provides a unique crossover experience with addictive puzzle challenges, loads of content, and overflowing charm for players of all ages. Expanding on the addictive gameplay of its predecessor, Puyo Puyo Tetris 2 is packed with fun, new modes where players can precisely pop Puyos and tactically rotate and clear Tetriminos solo or with friends, offline and online!",
+  "first_release_year": 2020,
+  "developers": [
+    "Sega"
+  ],
+  "publishers": [
+    "Sega of America",
+    "Sega",
+    "Sega Europe"
+  ],
+  "genres": [
+    "Puzzle",
+    "Strategy",
+    "Arcade"
+  ],
+  "themes": [
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Puyo Puyo Tetris"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Puyo Puyo",
+    "Tetris"
+  ],
+  "game_engines": [
+    "Hedgehog Engine 2"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "PPT2",
+      "comment": "Acronym"
+    },
+    {
+      "name": "魔法氣泡俄羅斯方塊2",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "魔法氣泡特趣思俄羅斯方塊2",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "Puyo Puyo Tetris 2",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "PuyoPuyoTetris2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Puyo%20Puyo%20Tetris%202%3A%20The%20Ultimate%20Puzzle%20Crossover/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000431"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/puyo-puyo-tetris-2-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://puyo.sega.com/tetris2/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Puyo_Puyo_Tetris_2"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://puyonexus.com/wiki/Puyo_Puyo_Tetris_2"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1259790"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 08, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-08"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 08, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-08"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 08, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-08"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 08, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-08"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 08, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 23, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-23"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 07, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-07"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar783.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "lH8-HfVc_KA",
+      "url": "https://www.youtube.com/watch?v=lH8-HfVc_KA"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "WxE_DE1pZ9M",
+      "url": "https://www.youtube.com/watch?v=WxE_DE1pZ9M"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "Dp01VF0ePL0",
+      "url": "https://www.youtube.com/watch?v=Dp01VF0ePL0"
+    },
+    {
+      "title": "Story Trailer",
+      "youtube_id": "vYySMBG1XJk",
+      "url": "https://www.youtube.com/watch?v=vYySMBG1XJk"
+    }
+  ]
+}

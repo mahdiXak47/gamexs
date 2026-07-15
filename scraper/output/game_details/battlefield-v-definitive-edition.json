@@ -1,0 +1,197 @@
+{
+  "slug": "battlefield-v-definitive-edition",
+  "igdb_id": 83728,
+  "name": "Battlefield V",
+  "summary": "Battlefield V is a first-person shooter set during World War II. Its multiplayer features large-scale battles with infantry, vehicles, and aircraft across various theaters of the war, with modes including Grand Operations (multi-stage campaigns simulating wartime offensives) and Firestorm (a battle royale mode). The single-player component consists of episodic \"War Stories\" that follow different characters across lesser-known fronts of the conflict. The game emphasizes squad-based teamwork, player customization through a Company system, and resource scarcity. It is the successor to the World War I-themed Battlefield 1.",
+  "first_release_year": 2018,
+  "developers": [
+    "EA Digital Illusions CE"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Battlefield"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Battlefield"
+  ],
+  "game_engines": [
+    "Frostbite 3"
+  ],
+  "keywords": [
+    "world war ii - ww2",
+    "controversy",
+    "nazis",
+    "ray tracing"
+  ],
+  "alternative_names": [
+    {
+      "name": "BF5",
+      "comment": "Acronym"
+    },
+    {
+      "name": "BFV",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Battlefield 5",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "http://battlefield.wikia.com/wiki/Battlefield_V"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Battlefield_V"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Battlefield%20V"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.battlefield.com/games/battlefield-5"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/battlefield"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/battlefield-v/BZ2N7TQ0XCF2"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/227326"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1238810/Battlefield_V/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/Battlefield"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/battlefield-v-definitive-edition"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Battlefield"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/battlefield"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 20, 2018",
+      "status": "Released",
+      "date_iso": "2018-11-20"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 20, 2018",
+      "status": "Released",
+      "date_iso": "2018-11-20"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 25, 2019",
+      "status": "Released",
+      "date_iso": "2019-09-25"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 20, 2018",
+      "status": "Released",
+      "date_iso": "2018-11-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar66wf.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/iddkiqyfckqwmpow4mjr.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/meerv4jrmm8orqlmk3dk.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/acgxgkco9k67c1zhdod7.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "9OTkhsJUK0U",
+      "url": "https://www.youtube.com/watch?v=9OTkhsJUK0U"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "-FEgeuGsmzQ",
+      "url": "https://www.youtube.com/watch?v=-FEgeuGsmzQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "fb1MR85XFOc",
+      "url": "https://www.youtube.com/watch?v=fb1MR85XFOc"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "_dxQKnzAvWY",
+      "url": "https://www.youtube.com/watch?v=_dxQKnzAvWY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "JUaUciRJy3Y",
+      "url": "https://www.youtube.com/watch?v=JUaUciRJy3Y"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "UZW4cPUIVf4",
+      "url": "https://www.youtube.com/watch?v=UZW4cPUIVf4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "SWVtV59mczk",
+      "url": "https://www.youtube.com/watch?v=SWVtV59mczk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "PUPimAwTo3E",
+      "url": "https://www.youtube.com/watch?v=PUPimAwTo3E"
+    },
+    {
+      "title": "War Stories Trailer",
+      "youtube_id": "QVoYNk10G-E",
+      "url": "https://www.youtube.com/watch?v=QVoYNk10G-E"
+    },
+    {
+      "title": "Conference Section",
+      "youtube_id": "c9W0RGXmFtc",
+      "url": "https://www.youtube.com/watch?v=c9W0RGXmFtc"
+    }
+  ]
+}

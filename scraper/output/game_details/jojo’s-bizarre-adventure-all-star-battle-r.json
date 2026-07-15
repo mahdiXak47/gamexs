@@ -1,0 +1,135 @@
+{
+  "slug": "jojo’s-bizarre-adventure-all-star-battle-r",
+  "igdb_id": 194208,
+  "name": "JoJo’s Bizarre Adventure: All-Star Battle R",
+  "summary": "A remaster of the fighting game \"JoJo's Bizarre Adventure: All-Star Battle\" with over 50 playable characters.",
+  "first_release_year": 2022,
+  "developers": [
+    "CyberConnect2"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Fighting",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "JoJo's Bizarre Adventure"
+  ],
+  "spin_off_of": "JoJo's Bizarre Adventure: All Star Battle",
+  "franchises": [
+    "JoJo's Bizarre Adventure"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "anime",
+    "based on - anime"
+  ],
+  "alternative_names": [
+    {
+      "name": "죠죠의 기묘한 모험 올 스타 배틀 R",
+      "comment": "Korean title"
+    },
+    {
+      "name": "ジョジョの奇妙な冒険 オールスターバトル R",
+      "comment": "Japanese title - original"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/JoJo%E2%80%99s%20Bizarre%20Adventure:%20All-Star%20Battle%20R"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001302"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.bandainamcoent.com/games/jojos-bizarre-adventure-all-star-battle-r"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1372110"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 02, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-02"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 02, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-02"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 01, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-01"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 02, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-02"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 02, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-02"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 02, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-02"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1iyv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1iyu.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1iyw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1oxj.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "pyko-VqvF8o",
+      "url": "https://www.youtube.com/watch?v=pyko-VqvF8o"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "uI-7WLrpeyo",
+      "url": "https://www.youtube.com/watch?v=uI-7WLrpeyo"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ejbTkRThQtg",
+      "url": "https://www.youtube.com/watch?v=ejbTkRThQtg"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "slug": "the-house-of-the-dead-remake",
+  "igdb_id": 2469,
+  "name": "The House of the Dead",
+  "summary": "The House of the Dead is a first-person, light gun arcade game. Players assume the role of agents Thomas Rogan and \"G\" in their efforts to repel the dangerous, inhumane experiments of Dr. Curien, a madman.",
+  "first_release_year": 1996,
+  "developers": [
+    "WOW Entertainment"
+  ],
+  "publishers": [
+    "Sega",
+    "Sega"
+  ],
+  "genres": [
+    "Shooter",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "The House of The Dead"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "zombies",
+    "rail shooter",
+    "bloody",
+    "mutation",
+    "death",
+    "bromance",
+    "multiple endings",
+    "undead",
+    "on-rails",
+    "mad scientist",
+    "high score",
+    "voice acting",
+    "game title announcer",
+    "non-player character",
+    "extreme violence",
+    "vision obstruction",
+    "auto-scrolling levels",
+    "optional censorship",
+    "adapted to - movie"
+  ],
+  "alternative_names": [
+    {
+      "name": "THotD",
+      "comment": "Acronym"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "http://www.segasaturn.co.uk/games/pal/T/thehouseofthedead/index.html"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_House_of_the_Dead_(video_game)"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20House%20of%20the%20Dead"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "1998",
+      "status": "Released",
+      "date_iso": "1998-12-31"
+    },
+    {
+      "platform": "Sega Saturn",
+      "region": null,
+      "date": "Mar 31, 1998",
+      "status": "Released",
+      "date_iso": "1998-03-31"
+    },
+    {
+      "platform": "Arcade",
+      "region": null,
+      "date": "Sep 13, 1996",
+      "status": "Released",
+      "date_iso": "1996-09-13"
+    },
+    {
+      "platform": "Sega Saturn",
+      "region": null,
+      "date": "1998",
+      "status": "Released",
+      "date_iso": "1998-12-31"
+    },
+    {
+      "platform": "Sega Saturn",
+      "region": null,
+      "date": "Mar 26, 1998",
+      "status": "Released",
+      "date_iso": "1998-03-26"
+    },
+    {
+      "platform": "Arcade",
+      "region": null,
+      "date": "Mar 04, 1997",
+      "status": "Released",
+      "date_iso": "1997-03-04"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

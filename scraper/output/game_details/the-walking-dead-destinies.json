@@ -1,0 +1,143 @@
+{
+  "slug": "the-walking-dead-destinies",
+  "igdb_id": 262261,
+  "name": "The Walking Dead: Destinies",
+  "summary": "Begin your journey as Rick Grimes, waking alone in a hospital surrounded by the dead. Assemble allies and fight your way through the walker apocalypse across iconic locations from The Walking Dead, including Atlanta, the Greene family farm, the prison, and Woodbury. In crucial choice-driven moments, you’ll forever shape the destiny of your team of characters from the series. Heroes and villains, living and dead – it’s up to you to decide whether to stay the course of history or forge your own path through the world of AMC’s The Walking Dead.",
+  "first_release_year": 2023,
+  "developers": [
+    "Flux Games"
+  ],
+  "publishers": [
+    "GameMill Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "The Walking Dead"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "The Walking Dead"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "zombies"
+  ],
+  "alternative_names": [
+    {
+      "name": "Walking Dead: Destinies",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "The Walking Dead Destinies.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/the-walking-dead-destinies-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008113"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/GameMillEntertainment"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.twddestinies.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/gamemillent/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2192790"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/gamemillent?lang=en"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 17, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 17, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 17, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 17, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-17"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 17, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 01, 2023",
+      "status": "Released",
+      "date_iso": "2023-12-01"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2lqe.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "OwmzWYiA9jE",
+      "url": "https://www.youtube.com/watch?v=OwmzWYiA9jE"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "Z9wFWWZrOhA",
+      "url": "https://www.youtube.com/watch?v=Z9wFWWZrOhA"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "Ak29xe4sApg",
+      "url": "https://www.youtube.com/watch?v=Ak29xe4sApg"
+    }
+  ]
+}

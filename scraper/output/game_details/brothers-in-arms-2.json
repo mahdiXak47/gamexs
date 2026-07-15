@@ -1,0 +1,52 @@
+{
+  "slug": "brothers-in-arms-2",
+  "igdb_id": 64301,
+  "name": "Brothers in Arms 2: Global Front",
+  "summary": "A World War II FPS for iPhone/iPod Touch, based off of the 'Brothers in Arms' series.",
+  "first_release_year": 2010,
+  "developers": [],
+  "publishers": [],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Brothers in Arms"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "world war ii - ww2",
+    "realism"
+  ],
+  "alternative_names": [
+    {
+      "name": "브라더즈 인 암즈 2: 연합전선",
+      "comment": "Korean title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Brothers%20in%20Arms%202%3A%20Global%20Front"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Feb 22, 2010",
+      "status": "Released",
+      "date_iso": "2010-02-22"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

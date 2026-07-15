@@ -1,0 +1,79 @@
+{
+  "slug": "super-mario-odyssey-نینتندو-سوئیچ",
+  "igdb_id": 132640,
+  "name": "Super Mario Odyssey 64",
+  "summary": "Super Mario Odyssey 64 is a hack for Super Mario 64 (Nintendo 64) which brings new stages, enemies and mechanics based on Super Mario Odyssey for Nintendo Switch. You can platform using new moves for Mario and use Mario's new cap, Cappy, to use your enemies' abilities to overcome the challenges.",
+  "first_release_year": 2020,
+  "developers": [
+    "Kaze Emanuar"
+  ],
+  "publishers": [
+    "Kaze Emanuar"
+  ],
+  "genres": [
+    "Platform"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": "Super Mario 64",
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "unofficial",
+    "mario",
+    "rom hack",
+    "character mod",
+    "retroachievements",
+    "super mario 64",
+    "complete overhaul mod"
+  ],
+  "alternative_names": [
+    {
+      "name": "Super Mario 64 Odyssey",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCuvSqzfO_LV_QzHdmEj84SQ"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/kazesm64"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/KazeEmanuar"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://mario64hacks.fandom.com/wiki/Super_Mario_Odyssey_64"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo 64",
+      "region": null,
+      "date": "Apr 18, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-04-18"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "pAFxi6nuD80",
+      "url": "https://www.youtube.com/watch?v=pAFxi6nuD80"
+    }
+  ]
+}

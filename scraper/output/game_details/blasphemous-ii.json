@@ -1,0 +1,193 @@
+{
+  "slug": "blasphemous-ii",
+  "igdb_id": 165390,
+  "name": "Blasphemous II",
+  "summary": "The Penitent One awakens as Blasphemous 2 joins him once again in an endless struggle against The Miracle. Dive into a perilous new world filled with mysteries and secrets to discover, and tear your way through monstrous foes that stand between you and your quest to end the cycle one and for all.",
+  "first_release_year": 2023,
+  "developers": [
+    "The Game Kitchen"
+  ],
+  "publishers": [
+    "Team17"
+  ],
+  "genres": [
+    "Platform",
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Blasphemous"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "2d",
+    "metroidvania",
+    "action-adventure",
+    "side-scrolling",
+    "gore",
+    "melee combat",
+    "single-player only",
+    "interconnected-world"
+  ],
+  "alternative_names": [
+    {
+      "name": "Blasphemous 2",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "神之亵渎2",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Blasphemous 2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Blasphemous"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@TheGameKitchenES"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/blasphemous-2-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/blasphemous-2/9NXBH70B3CVP"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007264"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.blasphemous2game.com/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/blasphemous_2"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/blasphemous"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/blasphemousgame/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/blasphemous-2"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/blasphemous-ii"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/BlasphemousGame"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blasphemous_2"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://blasphemous2.wiki.fextralife.com/Blasphemous+2+Wiki"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2114740"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 24, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-24"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 02, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-02"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 24, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 24, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 24, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 02, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-02"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2a2q.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "sXAajmfuUeo",
+      "url": "https://www.youtube.com/watch?v=sXAajmfuUeo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "CZ7V4RLC4Nw",
+      "url": "https://www.youtube.com/watch?v=CZ7V4RLC4Nw"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "mRII6NqYLh8",
+      "url": "https://www.youtube.com/watch?v=mRII6NqYLh8"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "1gDFdV_UnMk",
+      "url": "https://www.youtube.com/watch?v=1gDFdV_UnMk"
+    }
+  ]
+}

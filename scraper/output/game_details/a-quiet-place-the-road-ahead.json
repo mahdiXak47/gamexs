@@ -1,0 +1,129 @@
+{
+  "slug": "a-quiet-place-the-road-ahead",
+  "igdb_id": 294453,
+  "name": "A Quiet Place: The Road Ahead",
+  "summary": "A Quiet Place: The Road Ahead is a single-player horror adventure game inspired by the critically acclaimed blockbuster movie franchise that highlights a unique survivor story after an invasion of deadly creatures. In this exclusive spin-off, experience the journey of a young woman who must endure a treacherous apocalypse in the midst of interpersonal family conflicts, all while coming to terms with her own inner fears.",
+  "first_release_year": 2024,
+  "developers": [
+    "Stormind Games"
+  ],
+  "publishers": [
+    "Saber Interactive"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "A Quiet Place"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "AQuietPlace.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009366"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/a-quiet-place-the-road-ahead/9NZLPG7P5KSS"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/a-quiet-place"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://aquietplace.game/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/AQuietPlaceGame/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCAnXv_Zl0CSu8ktOgIXqTuw"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2233120/A_Quiet_Place_The_Road_Ahead"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/aquietplacegame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar330o.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "DC2rNzzmhXw",
+      "url": "https://www.youtube.com/watch?v=DC2rNzzmhXw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "91zi75E_SA8",
+      "url": "https://www.youtube.com/watch?v=91zi75E_SA8"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "4jFQJ8jXH_4",
+      "url": "https://www.youtube.com/watch?v=4jFQJ8jXH_4"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "riegOv5eRuY",
+      "url": "https://www.youtube.com/watch?v=riegOv5eRuY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "RHkttAvvLho",
+      "url": "https://www.youtube.com/watch?v=RHkttAvvLho"
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "slug": "five-nights-at-freddy's-security-breach-نسخه-استاندارد",
+  "igdb_id": 138933,
+  "name": "Five Nights at Freddy's: Security Breach",
+  "summary": "Five Nights at Freddy’s: Security Breach is the latest installment of the family-friendly horror games loved by millions of players from all over the globe. Play as Gregory, a young boy trapped overnight in Freddy Fazbear's Mega Pizzaplex. With the help of Freddy Fazbear himself, Gregory must survive the near-unstoppable hunt of reimagined Five Nights at Freddy’s characters, as well as new, horrific threats.",
+  "first_release_year": 2021,
+  "developers": [
+    "Steel Wool Studios"
+  ],
+  "publishers": [
+    "Steel Wool Studios",
+    "Scottgames"
+  ],
+  "genres": [
+    "Simulator",
+    "Strategy",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Five Nights at Freddy's"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Five Nights at Freddy's"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "anthropomorphism",
+    "ray tracing",
+    "animatronics",
+    "mascot horror",
+    "previously on - stadia pro"
+  ],
+  "alternative_names": [
+    {
+      "name": "Fünf Nächte bei Freddy: Sicherheitsverletzung",
+      "comment": "German title"
+    },
+    {
+      "name": "FNAF: Security Breach",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "FNaF: SB",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "FNaF 9",
+      "comment": "Alternative Abberviation"
+    },
+    {
+      "name": "Five Nights at Freddy's 9",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Five Nights at Freddy's: Pizzaplex",
+      "comment": "Working title"
+    },
+    {
+      "name": "Five Nights at Freddy's 9: Security Breach",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "fnaf9.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/fivenightsatfreddys"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SteelWoolStudios"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Five_Nights_at_Freddy%27s"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/steel_wool_studios?hl=en"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/SteelWoolStudio"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.steelwoolstudios.com/five-nights-at-freddys-security-breach"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Five%20Nights%20at%20Freddy's%3A%20Security%20Breach"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/five-nights-at-freddys-security-breach-8dee2a"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/five-nights-at-freddy's-security-breach/9NMP8KFRTNCD"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/five-nights-at-freddys-security-breach-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001137"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy%27s:_Security_Breach"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/747660"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/fnafreddys"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@SteelWoolStudios"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 19, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-04-19"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 16, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-12-16"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Jul 01, 2022",
+      "status": "Early Access",
+      "date_iso": "2022-07-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 16, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-12-16"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 17, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-12-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 17, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-12-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 16, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-12-16"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 17, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-12-17"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 22, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-11-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 22, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-11-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1bvd.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar21w5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar21w4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar21w3.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "k2vvr86scNs",
+      "url": "https://www.youtube.com/watch?v=k2vvr86scNs"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "dpokLoTIQa4",
+      "url": "https://www.youtube.com/watch?v=dpokLoTIQa4"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "ukoHI0cVP_4",
+      "url": "https://www.youtube.com/watch?v=ukoHI0cVP_4"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "nIj2ovBTCN4",
+      "url": "https://www.youtube.com/watch?v=nIj2ovBTCN4"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "Kdmm362PTo8",
+      "url": "https://www.youtube.com/watch?v=Kdmm362PTo8"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "17J15xTX_B8",
+      "url": "https://www.youtube.com/watch?v=17J15xTX_B8"
+    },
+    {
+      "title": "Oct 2021 Trailer",
+      "youtube_id": "mJeZJO45_e0",
+      "url": "https://www.youtube.com/watch?v=mJeZJO45_e0"
+    },
+    {
+      "title": "Physical Disk Release Trailer",
+      "youtube_id": "eEk1bCNA77s",
+      "url": "https://www.youtube.com/watch?v=eEk1bCNA77s"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "2cWaAxwB_pU",
+      "url": "https://www.youtube.com/watch?v=2cWaAxwB_pU"
+    },
+    {
+      "title": "Xbox Reveal Trailer",
+      "youtube_id": "GFgay9cgpaA",
+      "url": "https://www.youtube.com/watch?v=GFgay9cgpaA"
+    },
+    {
+      "title": "GeForce RTX Reveal Trailer",
+      "youtube_id": "y1Ycz6Yo5AY",
+      "url": "https://www.youtube.com/watch?v=y1Ycz6Yo5AY"
+    },
+    {
+      "title": "Japan Security Breach Teaser",
+      "youtube_id": "zUm0ZNn7LuM",
+      "url": "https://www.youtube.com/watch?v=zUm0ZNn7LuM"
+    },
+    {
+      "title": "Japan Security Breach Teaser 2",
+      "youtube_id": "Eez6KGxFsOE",
+      "url": "https://www.youtube.com/watch?v=Eez6KGxFsOE"
+    },
+    {
+      "title": "Japan Security Breach Trailer",
+      "youtube_id": "2M4Txy_Mekw",
+      "url": "https://www.youtube.com/watch?v=2M4Txy_Mekw"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "4cKB0r-NDO8",
+      "url": "https://www.youtube.com/watch?v=4cKB0r-NDO8"
+    },
+    {
+      "title": "Game Intro",
+      "youtube_id": "L1O1-HR7-Qs",
+      "url": "https://www.youtube.com/watch?v=L1O1-HR7-Qs"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "slug": "stray-souls",
+  "igdb_id": 183474,
+  "name": "Stray Souls",
+  "summary": "Enter a world of nightmares in this third person, action-horror, inspired by the classics of the genre. Fight terrifying creatures, solve mind-bending puzzles, and unravel a horrid family secret to expose the chilling truth behind your existence.\n\nUnlock the secrets hidden within the haunted town of Aspen Falls, featuring gruesome enemy encounters, epic bosses, cunning puzzles, and a deep story where not everyone is who they seem. Play as Daniel – an average teenager whose life is forever changed after inheriting the home of his estranged grandmother and meeting a mysterious woman with intimate knowledge about his family, the house, and its shocking connection to his past. The gameplay elements inspired by classic horror combat with souls-like precision, put a fresh spin on the modern action-horror genre.",
+  "first_release_year": 2023,
+  "developers": [
+    "Jukai Studio"
+  ],
+  "publishers": [
+    "Versus Evil"
+  ],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "resident evil"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/straysoulsgame/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/stray_souls"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/versusevil"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/straysouls"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/StraySoulsGame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://twitter.com/StraySoulsGame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004938"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1807210/Stray_Souls"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@versusevil"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Stray_Souls/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Stray%20Souls"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 25, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 25, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 25, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 25, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 25, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1rhd.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "J0WmRmBoRIE",
+      "url": "https://www.youtube.com/watch?v=J0WmRmBoRIE"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "aod3GnusRwg",
+      "url": "https://www.youtube.com/watch?v=aod3GnusRwg"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "n6VsVvSLFAI",
+      "url": "https://www.youtube.com/watch?v=n6VsVvSLFAI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "4cjgw1O3XPg",
+      "url": "https://www.youtube.com/watch?v=4cjgw1O3XPg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "noK8b3520cs",
+      "url": "https://www.youtube.com/watch?v=noK8b3520cs"
+    }
+  ]
+}

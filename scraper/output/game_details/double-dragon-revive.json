@@ -1,0 +1,184 @@
+{
+  "slug": "double-dragon-revive",
+  "igdb_id": 308051,
+  "name": "Double Dragon Revive",
+  "summary": "Double Dragon Revive faithfully reproduces the thrill of old school side-scrolling action games, with updated controls and difficulty settings for the modern era, and utilizing Arc System Works’ fighting game development experience. Jimmy Lee, Billy Lee, Roper, Abobo, and more will appear in stylish 3D.",
+  "first_release_year": 2025,
+  "developers": [
+    "Yuke's"
+  ],
+  "publishers": [
+    "Arc System Works"
+  ],
+  "genres": [
+    "Hack and slash/Beat 'em up"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Double Dragon"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Double Dragon"
+  ],
+  "game_engines": [
+    "Unreal"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "LaunchGame.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/double-dragon-revive-ea9565"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/DD1987_PR"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/double-dragon-revive-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010965"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/double-dragon-revive-pre-order/9nggtkmk3qk6"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.arcsystemworks.jp/ddrev/en/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@arcsystemworksjapan"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3012220/Double_Dragon_Revive/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-23"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-23"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-23"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 22, 2025",
+      "status": "status_34",
+      "date_iso": "2025-10-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 22, 2025",
+      "status": "status_34",
+      "date_iso": "2025-10-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 22, 2025",
+      "status": "status_34",
+      "date_iso": "2025-10-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 22, 2025",
+      "status": "status_34",
+      "date_iso": "2025-10-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 22, 2025",
+      "status": "status_34",
+      "date_iso": "2025-10-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar38a5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar38a3.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar38a4.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "iQiA3sCuqIs",
+      "url": "https://www.youtube.com/watch?v=iQiA3sCuqIs"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "I2VFeaB75vA",
+      "url": "https://www.youtube.com/watch?v=I2VFeaB75vA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "FQLNW8CjmAE",
+      "url": "https://www.youtube.com/watch?v=FQLNW8CjmAE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "-xM92HM4bf4",
+      "url": "https://www.youtube.com/watch?v=-xM92HM4bf4"
+    }
+  ]
+}

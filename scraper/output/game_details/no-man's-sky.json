@@ -1,0 +1,345 @@
+{
+  "slug": "no-man's-sky",
+  "igdb_id": 3225,
+  "name": "No Man's Sky",
+  "summary": "No Man's Sky is an action-adventure survival game set in a procedurally generated universe containing over 18 quintillion planets. Players explore star systems, gather resources, trade with alien species, and upgrade their equipment while following an overarching narrative involving a mysterious entity called the Atlas. The game is built around four pillars: exploration, survival, combat, and trading. Since its 2016 launch, it has received numerous free updates adding multiplayer, base building, fleet management, and virtual reality support.",
+  "first_release_year": 2016,
+  "developers": [
+    "Hello Games"
+  ],
+  "publishers": [
+    "505 Games",
+    "Sony Interactive Entertainment",
+    "Hello Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Simulator",
+    "Adventure",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Survival",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person",
+    "Virtual Reality"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Custom built engine"
+  ],
+  "keywords": [
+    "aliens",
+    "space simulation",
+    "space combat",
+    "exploration",
+    "crafting",
+    "upgradable weapons",
+    "procedural generation",
+    "voxel",
+    "spaceship",
+    "action-adventure",
+    "space travel",
+    "diplomacy",
+    "steam",
+    "space exploration",
+    "achievements",
+    "mining",
+    "day/night cycle",
+    "inventory management",
+    "upgradable equipment",
+    "steam achievements",
+    "digital distribution",
+    "famous quotes",
+    "licensed soundtrack",
+    "original soundtrack release",
+    "color separation",
+    "sprinting mechanics",
+    "falling damage",
+    "melee",
+    "useable vehicles",
+    "fuel management",
+    "game developers choice awards 2017",
+    "controversy",
+    "ancient advanced civilization technology",
+    "invented language",
+    "alien languages",
+    "the game awards 2014",
+    "vr experience",
+    "the game awards - world premiere"
+  ],
+  "alternative_names": [
+    {
+      "name": "노 맨즈 스카이",
+      "comment": "Korean title"
+    },
+    {
+      "name": "ノーマンズスカイ",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "NMS.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/NoMansSky"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/No%20Man's%20Sky"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/275850"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/nomansskygame/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@HelloGamesTube"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/no-man's-sky/BQVQTL3PCH05"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/216600"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/no-mans-sky-nintendo-switch-2-edition-upgrade-pack-switch-2/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/NoMansSky"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/No_Man%27s_Sky"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.no-mans-sky.com"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://nomanssky.gamepedia.com/No_Man%27s_Sky_Wiki"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/no_mans_sky"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/NoMansSkyTheGame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation VR",
+      "region": null,
+      "date": "Aug 14, 2019",
+      "status": "Released",
+      "date_iso": "2019-08-14"
+    },
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "Aug 14, 2019",
+      "status": "Released",
+      "date_iso": "2019-08-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 12, 2016",
+      "status": "Released",
+      "date_iso": "2016-08-12"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 10, 2016",
+      "status": "Released",
+      "date_iso": "2016-08-10"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 24, 2018",
+      "status": "Released",
+      "date_iso": "2018-07-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-12"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jun 01, 2023",
+      "status": "Released",
+      "date_iso": "2023-06-01"
+    },
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "Feb 22, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-22"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Jun 05, 2025",
+      "status": "Released",
+      "date_iso": "2025-06-05"
+    },
+    {
+      "platform": "Oculus Rift",
+      "region": null,
+      "date": "Aug 14, 2019",
+      "status": "Released",
+      "date_iso": "2019-08-14"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 09, 2016",
+      "status": "Released",
+      "date_iso": "2016-08-09"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/s81kuicumnoogbv7pmel.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/vg61reygvduwka9pv7by.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4kfz.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Paris Games Week 2015 Trailer",
+      "youtube_id": "D71cTM7hI_Y",
+      "url": "https://www.youtube.com/watch?v=D71cTM7hI_Y"
+    },
+    {
+      "title": "Guide to the Galaxy Trailer",
+      "youtube_id": "PNcZbV-eMqY",
+      "url": "https://www.youtube.com/watch?v=PNcZbV-eMqY"
+    },
+    {
+      "title": "Galaxy Gameplay Trailer",
+      "youtube_id": "b7zz3zM0x10",
+      "url": "https://www.youtube.com/watch?v=b7zz3zM0x10"
+    },
+    {
+      "title": "E3 Gamplay Trailer",
+      "youtube_id": "qwhbpQfhEGE",
+      "url": "https://www.youtube.com/watch?v=qwhbpQfhEGE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "IoBOFTi-zAk",
+      "url": "https://www.youtube.com/watch?v=IoBOFTi-zAk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "h3HphgSn0o4",
+      "url": "https://www.youtube.com/watch?v=h3HphgSn0o4"
+    },
+    {
+      "title": "No Man's Sky - Beyond Trailer",
+      "youtube_id": "Pj_cY1Aypm4",
+      "url": "https://www.youtube.com/watch?v=Pj_cY1Aypm4"
+    },
+    {
+      "title": "Infinite Worlds Montage Trailer",
+      "youtube_id": "6EOcUDVCk_M",
+      "url": "https://www.youtube.com/watch?v=6EOcUDVCk_M"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "5328iuzHw-w",
+      "url": "https://www.youtube.com/watch?v=5328iuzHw-w"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3RpKmuRX0CM",
+      "url": "https://www.youtube.com/watch?v=3RpKmuRX0CM"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "IA8tAWsqYWw",
+      "url": "https://www.youtube.com/watch?v=IA8tAWsqYWw"
+    },
+    {
+      "title": "Portal Gameplay Trailer",
+      "youtube_id": "1mt2RLEmcEc",
+      "url": "https://www.youtube.com/watch?v=1mt2RLEmcEc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "EOrzYu2AO7U",
+      "url": "https://www.youtube.com/watch?v=EOrzYu2AO7U"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "OD5Sxbeh0YE",
+      "url": "https://www.youtube.com/watch?v=OD5Sxbeh0YE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "E8FPhdSfvFs",
+      "url": "https://www.youtube.com/watch?v=E8FPhdSfvFs"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "YdjLewAzVZQ",
+      "url": "https://www.youtube.com/watch?v=YdjLewAzVZQ"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "v5sBbjckyzU",
+      "url": "https://www.youtube.com/watch?v=v5sBbjckyzU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "d689VjSmfWc",
+      "url": "https://www.youtube.com/watch?v=d689VjSmfWc"
+    },
+    {
+      "title": "VGX 2013 Announcement Trailer",
+      "youtube_id": "2-v6R_T1hEs",
+      "url": "https://www.youtube.com/watch?v=2-v6R_T1hEs"
+    }
+  ]
+}

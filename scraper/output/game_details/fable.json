@@ -1,0 +1,170 @@
+{
+  "slug": "fable",
+  "igdb_id": 92550,
+  "name": "Fable",
+  "summary": "Become the Hero you want to be in an immersive open-world action-RPG where each choice shapes your journey, reputation is everything, and fairytale endings are never guaranteed.",
+  "first_release_year": 2027,
+  "developers": [
+    "Playground Games"
+  ],
+  "publishers": [
+    "Xbox Game Studios"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Fable"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "ForzaTech"
+  ],
+  "keywords": [
+    "open world adventure"
+  ],
+  "alternative_names": [
+    {
+      "name": "Fable 4",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://playground-games.com/projects/fable/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Fable"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fable_(upcoming_video_game)"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/fable"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10015869"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2769570"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/fable/9pmn4dgrt1ln"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Fable"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 18, 2027",
+      "status": "status_34",
+      "date_iso": "2027-02-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 23, 2027",
+      "status": "Cancelled",
+      "date_iso": "2027-02-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 23, 2027",
+      "status": "Cancelled",
+      "date_iso": "2027-02-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 18, 2027",
+      "status": "status_34",
+      "date_iso": "2027-02-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 23, 2027",
+      "status": "Cancelled",
+      "date_iso": "2027-02-23"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 18, 2027",
+      "status": "status_34",
+      "date_iso": "2027-02-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2ziv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar558t.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar558s.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "oVkSZXPklQ4",
+      "url": "https://www.youtube.com/watch?v=oVkSZXPklQ4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "PEQRwpMYPaw",
+      "url": "https://www.youtube.com/watch?v=PEQRwpMYPaw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "2FiBmVBaY0g",
+      "url": "https://www.youtube.com/watch?v=2FiBmVBaY0g"
+    },
+    {
+      "title": "Pre-Alpha Gameplay",
+      "youtube_id": "1h77gcgE1b8",
+      "url": "https://www.youtube.com/watch?v=1h77gcgE1b8"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "C5qWGaqzk98",
+      "url": "https://www.youtube.com/watch?v=C5qWGaqzk98"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "3SYbP7PGmfg",
+      "url": "https://www.youtube.com/watch?v=3SYbP7PGmfg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3iW1i78zFvk",
+      "url": "https://www.youtube.com/watch?v=3iW1i78zFvk"
+    },
+    {
+      "title": "Gameplay Demo",
+      "youtube_id": "doV0yq4kAP0",
+      "url": "https://www.youtube.com/watch?v=doV0yq4kAP0"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "slug": "anno-117-pax-romana",
+  "igdb_id": 305246,
+  "name": "Anno 117: Pax Romana",
+  "summary": "In the latest instalment of the award-winning Anno strategy franchise, it’s your destiny to shape the Roman Empire in the year 117 AD. As governor, will you encourage economic growth or expand your rule through dominance? Lead with rebellion or unite a diverse culture?\nThe cost of peace is yours to decide.",
+  "first_release_year": 2025,
+  "developers": [
+    "Ubisoft Blue Byte",
+    "Ubisoft Mainz"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Real Time Strategy (RTS)",
+    "Simulator",
+    "Strategy"
+  ],
+  "themes": [
+    "Historical"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Anno"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Anno Engine"
+  ],
+  "keywords": [
+    "simulation",
+    "roman empire",
+    "city builder",
+    "rome"
+  ],
+  "alternative_names": [
+    {
+      "name": "Anno 117",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "Anno117.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3274580"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10011009"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/anno-117-pax-romana/9nrj3knt0jrk"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/anno-117-pax-romana"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Anno_117"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/anno117"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/annogame/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/V4xhZ8Z"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/ANNO_EN"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ubisoft.com/en-us/game/anno/117-pax-romana"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/anno-117-pax-romana"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 13, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-13"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 13, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 13, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar37ep.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4p6n.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4p6m.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "GBXNl88yeW4",
+      "url": "https://www.youtube.com/watch?v=GBXNl88yeW4"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "tJNzvo3UJb8",
+      "url": "https://www.youtube.com/watch?v=tJNzvo3UJb8"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "t6a37J87bew",
+      "url": "https://www.youtube.com/watch?v=t6a37J87bew"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "AvHouvjAL38",
+      "url": "https://www.youtube.com/watch?v=AvHouvjAL38"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "vFUngdZQOI0",
+      "url": "https://www.youtube.com/watch?v=vFUngdZQOI0"
+    },
+    {
+      "title": "PC Features Trailer",
+      "youtube_id": "AG3UHf4hzX4",
+      "url": "https://www.youtube.com/watch?v=AG3UHf4hzX4"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "4oVSysv9uH8",
+      "url": "https://www.youtube.com/watch?v=4oVSysv9uH8"
+    }
+  ]
+}

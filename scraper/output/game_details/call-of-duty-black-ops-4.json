@@ -1,0 +1,177 @@
+{
+  "slug": "call-of-duty-black-ops-4",
+  "igdb_id": 83727,
+  "name": "Call of Duty: Black Ops 4",
+  "summary": "Black Ops is back! Featuring gritty, grounded, fluid Multiplayer combat, the biggest Zombies offering ever with three full undead adventures at launch, and Blackout, where the universe of Black Ops comes to life in one massive battle royale experience featuring the largest map in Call of Duty history, signature Black Ops combat, characters, locations and weapons from the entire Black Ops series.",
+  "first_release_year": 2018,
+  "developers": [
+    "Treyarch"
+  ],
+  "publishers": [
+    "Activision"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Call of Duty: Black Ops",
+    "Call of Duty"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Call of Duty"
+  ],
+  "game_engines": [
+    "IW Engine 3.0"
+  ],
+  "keywords": [
+    "zombies"
+  ],
+  "alternative_names": [
+    {
+      "name": "使命召唤：黑色行动4",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Call of Duty: Black Ops IIII",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Black Ops 4",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "Call of Duty: Black Ops IV",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC9YydG57epLqxA9cTzZXSeQ"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Black_Ops_4"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Call%20of%20Duty:%20Black%20Ops%204"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/232300"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/callofduty"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Blackops4"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://callofduty.wikia.com/wiki/Call_of_Duty:_Black_Ops_4"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/callofduty"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.callofduty.com"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/CallofDuty"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/CallofDuty"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 12, 2018",
+      "status": "Released",
+      "date_iso": "2018-10-12"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 12, 2018",
+      "status": "Released",
+      "date_iso": "2018-10-12"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 12, 2018",
+      "status": "Released",
+      "date_iso": "2018-10-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4cv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4cw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4k6j.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "lNSL5IbA_4Y",
+      "url": "https://www.youtube.com/watch?v=lNSL5IbA_4Y"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "WQ-vta0oFDw",
+      "url": "https://www.youtube.com/watch?v=WQ-vta0oFDw"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "tJv-xtxKkQY",
+      "url": "https://www.youtube.com/watch?v=tJv-xtxKkQY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "FyBVOEqMk4c",
+      "url": "https://www.youtube.com/watch?v=FyBVOEqMk4c"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "wpC5qgHRmu0",
+      "url": "https://www.youtube.com/watch?v=wpC5qgHRmu0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3pyfKYwlGhQ",
+      "url": "https://www.youtube.com/watch?v=3pyfKYwlGhQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "BjiaMBk6rHk",
+      "url": "https://www.youtube.com/watch?v=BjiaMBk6rHk"
+    },
+    {
+      "title": "Power in Numbers Cinematic Trailer",
+      "youtube_id": "i3ghyAAZFGs",
+      "url": "https://www.youtube.com/watch?v=i3ghyAAZFGs"
+    }
+  ]
+}

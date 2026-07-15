@@ -1,0 +1,189 @@
+{
+  "slug": "the-dark-pictures-anthology-little-hope",
+  "igdb_id": 122120,
+  "name": "The Dark Pictures Anthology: Little Hope",
+  "summary": "Trapped and isolated in the abandoned town of Little Hope, 4 college students and their teacher must escape the nightmarish apparitions that relentlessly pursue them through an impenetrable fog.",
+  "first_release_year": 2020,
+  "developers": [
+    "Supermassive Games"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Horror",
+    "Survival",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "The Dark Pictures Anthology: Season One",
+    "The Dark Pictures Anthology"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Little Hope",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "LittleHope.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/the-dark-pictures-anthology-little-hope/9NJ5K5F4TLS6"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Dark_Pictures_Anthology:_Little_Hope"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/the-dark-pictures-anthology-little-hope-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/235232"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1194630/The_Dark_Pictures_Anthology_Little_Hope"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@SupermassiveGamesOfficial"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.thedarkpictures.com/little-hope"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20Dark%20Pictures%20Anthology%3A%20Little%20Hope"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/LittleHope/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/TheDarkPictures"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://thedarkpictures.fandom.com/wiki/Little_Hope"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/TheDarkPictures"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/The_Dark_Pictures"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 30, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 30, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-30"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 30, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 30, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-28"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 05, 2023",
+      "status": "Released",
+      "date_iso": "2023-10-05"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arxb8.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "QjKq16H2jc8",
+      "url": "https://www.youtube.com/watch?v=QjKq16H2jc8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "pci-oZEaEWg",
+      "url": "https://www.youtube.com/watch?v=pci-oZEaEWg"
+    },
+    {
+      "title": "Gamescom 2020 Gameplay Video",
+      "youtube_id": "TUBcBp35jFQ",
+      "url": "https://www.youtube.com/watch?v=TUBcBp35jFQ"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "xSytATmTF1U",
+      "url": "https://www.youtube.com/watch?v=xSytATmTF1U"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "8m4Q7U2v0fU",
+      "url": "https://www.youtube.com/watch?v=8m4Q7U2v0fU"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "tp6yLP6yKY4",
+      "url": "https://www.youtube.com/watch?v=tp6yLP6yKY4"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "slug": "eternights",
+  "igdb_id": 203367,
+  "name": "Eternights",
+  "summary": "Eternights is a dating action game where you try to make the most out of life during the apocalypse. Monday: Go on a date. Tuesday: Clear dungeon. Friday: Freak out! The clock is ticking!!",
+  "first_release_year": 2023,
+  "developers": [
+    "Studio Sai"
+  ],
+  "publishers": [
+    "Studio Sai",
+    "Kowloon Nights"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Romance"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "anime",
+    "available on - crunchyroll game vault"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/studiosaigames/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.studiosai.dev/eternights"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/eternights-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004814"
+    },
+    {
+      "label": "iPad",
+      "url": "https://apps.apple.com/app/crunchyroll-eternights/id6529523263"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.crunchyroll.gv.eternights.game"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/p/eternights-c2fbca"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1402110/Eternights"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/StudioSaiGames"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/StudioSaiGames"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/studiosaigames"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/StudioSaiGames"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/x44xJ4y"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Eternights"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eternights"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 12, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-12"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 12, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 12, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-12"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-17"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Nov 21, 2024",
+      "status": "Released",
+      "date_iso": "2024-11-21"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Nov 10, 2024",
+      "status": "Released",
+      "date_iso": "2024-11-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1pb8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4zcn.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "pl5l3nR1mhI",
+      "url": "https://www.youtube.com/watch?v=pl5l3nR1mhI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "uQx2qnsuOl4",
+      "url": "https://www.youtube.com/watch?v=uQx2qnsuOl4"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "NjMEQJp_eF4",
+      "url": "https://www.youtube.com/watch?v=NjMEQJp_eF4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "oldtclZHLLI",
+      "url": "https://www.youtube.com/watch?v=oldtclZHLLI"
+    }
+  ]
+}

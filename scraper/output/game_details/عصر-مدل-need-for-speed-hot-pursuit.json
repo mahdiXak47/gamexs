@@ -1,0 +1,83 @@
+{
+  "slug": "عصر-مدل-need-for-speed-hot-pursuit",
+  "igdb_id": 248208,
+  "name": "Need for Speed: Hot Pursuit",
+  "summary": "A port of Need for Speed Hot Pursuit released for mobile devices.",
+  "first_release_year": 2010,
+  "developers": [],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Racing"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Need for Speed"
+  ],
+  "spin_off_of": "Need for Speed: Hot Pursuit",
+  "franchises": [
+    "Need for Speed"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Need_for_Speed:_Hot_Pursuit_(2010_video_game)"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.needforspeed.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Jan 13, 2014",
+      "status": "Cancelled",
+      "date_iso": "2014-01-13"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Jun 21, 2012",
+      "status": "Cancelled",
+      "date_iso": "2012-06-21"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Nov 09, 2010",
+      "status": "Cancelled",
+      "date_iso": "2010-11-09"
+    },
+    {
+      "platform": "Windows Phone",
+      "region": null,
+      "date": "Nov 16, 2010",
+      "status": "Cancelled",
+      "date_iso": "2010-11-16"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar30ei.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "nQQmMAh8T-0",
+      "url": "https://www.youtube.com/watch?v=nQQmMAh8T-0"
+    }
+  ]
+}

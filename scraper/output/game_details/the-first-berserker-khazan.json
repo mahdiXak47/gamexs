@@ -1,0 +1,179 @@
+{
+  "slug": "the-first-berserker-khazan",
+  "igdb_id": 279643,
+  "name": "The First Berserker: Khazan",
+  "summary": "The First Berserker: Khazan is a hardcore action role-playing game. The player will become Khazan, the great general of the Pelos empire, whom overcame death, and sets out to reveal the incidents that led to his downfall and seek vengeance on his enemies.",
+  "first_release_year": 2025,
+  "developers": [
+    "Neople"
+  ],
+  "publishers": [
+    "Nexon"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Dungeon & Fighter"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Dungeon & Fighter"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "dark",
+    "difficult",
+    "gore",
+    "story rich",
+    "violent",
+    "soulslike"
+  ],
+  "alternative_names": [
+    {
+      "name": "Khazan",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "Arad Chronicle: Kazan",
+      "comment": "Working title"
+    },
+    {
+      "name": "Project AK",
+      "comment": "Working title"
+    },
+    {
+      "name": "KZ.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://khazan.nexon.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCZo8B6zoILl0K9jun9MvuOg"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2680010"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/PlayKhazan"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/playkhazan"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/PlayKhazan/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_First_Berserker:_Khazan"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009937"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/the-first-berserker-khazan/9PKJWMBBGK38"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 24, 2025",
+      "status": "status_34",
+      "date_iso": "2025-03-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 24, 2025",
+      "status": "status_34",
+      "date_iso": "2025-03-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 24, 2025",
+      "status": "status_34",
+      "date_iso": "2025-03-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 27, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-27"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 27, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 27, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2o8b.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "bOZSRAQdEEo",
+      "url": "https://www.youtube.com/watch?v=bOZSRAQdEEo"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "q9tSls_7DQM",
+      "url": "https://www.youtube.com/watch?v=q9tSls_7DQM"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "g0IE-_eDQdw",
+      "url": "https://www.youtube.com/watch?v=g0IE-_eDQdw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "lFBC-WiZN2k",
+      "url": "https://www.youtube.com/watch?v=lFBC-WiZN2k"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "Ddf0s9PaAnU",
+      "url": "https://www.youtube.com/watch?v=Ddf0s9PaAnU"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "-9uMGePq3zw",
+      "url": "https://www.youtube.com/watch?v=-9uMGePq3zw"
+    }
+  ]
+}

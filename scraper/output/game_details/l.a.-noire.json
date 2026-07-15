@@ -1,0 +1,270 @@
+{
+  "slug": "l.a.-noire",
+  "igdb_id": 109,
+  "name": "L.A. Noire",
+  "summary": "L.A. Noire is a neo-noir detective action-adventure video game developed by Team Bondi and published by Rockstar Games. It was initially released for the PlayStation 3 and Xbox 360 platforms on 17 May 2011; a Microsoft Windows port was later released on 8 November 2011.\n\nL.A. Noire is set in Los Angeles in 1947 and challenges the player, controlling a Los Angeles Police Department (LAPD) officer, to solve a range of cases across five divisions. Players must investigate crime scenes for clues, follow up leads, and interrogate suspects, and the player's success at these activities will impact how much of each case's story is revealed.\n\nThe game draws heavily from both the plot and aesthetic elements of film noir—stylistic films made popular in the 1940s and 1950s that share similar visual styles and themes, including crime and moral ambiguity—along with drawing inspiration from real-life crimes for its in-game cases, based upon what was reported by the Los Angeles media in 1947.\n\nThe game uses a distinctive colour palette, but in homage to film noir it includes the option to play the game in black and white. Various plot elements reference the major themes of detective and mobster stories such as The Naked City, Chinatown, The Untouchables, The Black Dahlia, and L.A. Confidential.",
+  "first_release_year": 2011,
+  "developers": [
+    "Team Bondi",
+    "Rockstar Leeds",
+    "Rockstar North"
+  ],
+  "publishers": [
+    "Take-Two Interactive",
+    "Rockstar Games"
+  ],
+  "genres": [
+    "Strategy",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Thriller",
+    "Historical",
+    "Sandbox",
+    "Open world",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "world war ii - ww2",
+    "baseball",
+    "world war i - ww1",
+    "exploration",
+    "bloody",
+    "serial killer",
+    "detective",
+    "murder",
+    "death",
+    "maze",
+    "cooking",
+    "doctor",
+    "gangs",
+    "hand-to-hand combat",
+    "action-adventure",
+    "war",
+    "noir",
+    "steam",
+    "multiple protagonists",
+    "bromance",
+    "achievements",
+    "civil war",
+    "hostages",
+    "building",
+    "artificial intelligence",
+    "crime",
+    "dancing",
+    "camera",
+    "nudity",
+    "singing",
+    "climbing",
+    "day/night cycle",
+    "explosion",
+    "digital distribution",
+    "single-player only",
+    "playstation trophies",
+    "alternate costumes",
+    "playing cards",
+    "world map",
+    "voice acting",
+    "boxer",
+    "bink video",
+    "xbox one x enhanced",
+    "bow and arrow",
+    "damsel in distress",
+    "game reference",
+    "licensed soundtrack",
+    "wasd movement",
+    "non-player character",
+    "profanity",
+    "descendants of other characters",
+    "sprinting mechanics",
+    "downloadable content",
+    "auto-saving",
+    "real-time combat",
+    "a.i. companion",
+    "male antagonist",
+    "in-game achievements",
+    "robbery",
+    "bread",
+    "digital rights management",
+    "cover system",
+    "in-game radio",
+    "no hud",
+    "interactive environments",
+    "british accent",
+    "film noir",
+    "development hell",
+    "gamersgate",
+    "trophies",
+    "realism",
+    "dynamic soundtrack",
+    "cutscene pause",
+    "sliding down ladders",
+    "ambient music",
+    "poisoning",
+    "aggressive door-opening",
+    "crime fighting",
+    "burning",
+    "surprising character switches",
+    "character models based on actual people",
+    "in-game advertising",
+    "censored version",
+    "interrogation",
+    "hidden room",
+    "tailing mission",
+    "bartender",
+    "car chase",
+    "forced slow walking",
+    "psychics",
+    "potential love interest",
+    "landmark button",
+    "pedophilia",
+    "acronym titles",
+    "male protagonist"
+  ],
+  "alternative_names": [
+    {
+      "name": "LA Noire",
+      "comment": "Other Alias"
+    },
+    {
+      "name": "LA Noir",
+      "comment": "Other Alias"
+    },
+    {
+      "name": "Los Angeles Noire",
+      "comment": "Other Alias"
+    },
+    {
+      "name": "L.A. Noir",
+      "comment": "Other Alias"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/rockstargames"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/rockstargames"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://lanoire.wikia.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/110800"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/L.A._Noire"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/rockstargames"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.rockstargames.com/games/lanoire"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/L.A.%20Noire"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/rockstargames"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/229788"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "May 20, 2011",
+      "status": "Released",
+      "date_iso": "2011-05-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 08, 2011",
+      "status": "Released",
+      "date_iso": "2011-11-08"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "May 17, 2011",
+      "status": "Released",
+      "date_iso": "2011-05-17"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Jul 07, 2011",
+      "status": "Released",
+      "date_iso": "2011-07-07"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "May 17, 2011",
+      "status": "Released",
+      "date_iso": "2011-05-17"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "May 17, 2011",
+      "status": "Released",
+      "date_iso": "2011-05-17"
+    },
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/nywkqdlqm0snu0ckcvfi.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "ZbPxNGh7dto",
+      "url": "https://www.youtube.com/watch?v=ZbPxNGh7dto"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "jeYym1U226M",
+      "url": "https://www.youtube.com/watch?v=jeYym1U226M"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "skAkfQr3e-4",
+      "url": "https://www.youtube.com/watch?v=skAkfQr3e-4"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "h1VyskSNq2o",
+      "url": "https://www.youtube.com/watch?v=h1VyskSNq2o"
+    }
+  ]
+}

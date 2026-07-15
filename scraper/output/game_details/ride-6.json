@@ -1,0 +1,121 @@
+{
+  "slug": "ride-6",
+  "igdb_id": 377690,
+  "name": "Ride 6",
+  "summary": "Live the thrill of asphalt and dirt with RIDE 6: affirm your biker identity by joining RIDE Fest, race with 250+ bikes from different categories and prove you're the best by challenging real motorcycling legends.",
+  "first_release_year": 2026,
+  "developers": [
+    "Milestone"
+  ],
+  "publishers": [
+    "Milestone"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Ride"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "racing sim",
+    "motorsports"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2815070/RIDE_6/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://milestone.it/games/ride-6/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/ride-6-e7fd56"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ride-6/9mwr54w4qfjk"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/EP4356-PPSA21725_00-RIDE6FULLGAME000"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/MilestoneTeam"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/RideVideogame/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/dTYYPvk2uF"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/ridevideogame/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/ride-6"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 12, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 12, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-12"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 12, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4out.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4ous.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "kuIfwnu1SeQ",
+      "url": "https://www.youtube.com/watch?v=kuIfwnu1SeQ"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "sqEVNUNA9Ng",
+      "url": "https://www.youtube.com/watch?v=sqEVNUNA9Ng"
+    }
+  ]
+}

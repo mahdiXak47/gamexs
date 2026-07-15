@@ -1,0 +1,112 @@
+{
+  "slug": "matchpoint-tennis-championship-نسخه-legends",
+  "igdb_id": 199628,
+  "name": "Matchpoint: Tennis Championships - Legends Edition",
+  "summary": "Matchpoint: Tennis Championships is a modern take on tennis, featuring a true-to-life on-court experience supported by a deep career mode and unique rivalry system.\n\nThe game places a strong focus on tactical realism, positioning and aiming, allowing the player to move their superstar in exactly the right way to get the most out of their shots.",
+  "first_release_year": 2022,
+  "developers": [],
+  "publishers": [],
+  "genres": [
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "マッチポイント：テニス チャンピオンシップ レジェンドエディション",
+      "comment": "Japanese title - original"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/matchpoint-tennis-championships-26d55a"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://matchpoint-game.com/en/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/kalypso_media/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/KalypsoMediaGroup/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/kalypsomedia"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://www.twitter.com/kalypsomedia"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/kalypsomedia"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/kalypso_live"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 07, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-07"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 07, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-07"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 07, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-07"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 07, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-07"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 07, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-07"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 07, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-07"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1m8e.jpg"
+  ],
+  "videos": []
+}

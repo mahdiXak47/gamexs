@@ -1,0 +1,145 @@
+{
+  "slug": "the-persistence-enhanced",
+  "igdb_id": 37282,
+  "name": "The Persistence",
+  "summary": "\"The Persistence is First Person Stealth Horror exclusively for PS4 & PSVR.\n\nThe Persistence is procedurally generated. Every time you die and a new character is awoken by IRIS, the layout of the ship has changed. Every life will play out differently, with different enemies to face, items to find and power-ups to collect.\n\nSurvival requires you to be stealthy and VR is the perfect match for this. Sneaking around and hiding behind cover; it's second nature in VR to just lean round or peek over cover to gain the advantage Your friends can also help out by connecting to the game with their phone or tablet and hacking into the ship's computer. Once in the ship's system, players get to control doors, freeze or distract enemies, disable traps and find hidden items to scavenge for the VR player. Be aware though, sometimes the tablet player gets rewarded if you die, do you trust your friends?\"",
+  "first_release_year": 2018,
+  "developers": [
+    "Firesprite Ltd"
+  ],
+  "publishers": [
+    "Firesprite Ltd"
+  ],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Virtual Reality"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "procedural generation",
+    "spaceship",
+    "roguelite"
+  ],
+  "alternative_names": [
+    {
+      "name": "The Persistence VR",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Persistence.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Persistence"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/the-persistence-switch/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20Persistence"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/FireSpriteGames"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://firesprite.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1140100"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 21, 2020",
+      "status": "Released",
+      "date_iso": "2020-05-21"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 30, 2020",
+      "status": "Released",
+      "date_iso": "2020-07-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 20, 2020",
+      "status": "Released",
+      "date_iso": "2020-05-20"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "May 21, 2020",
+      "status": "Released",
+      "date_iso": "2020-05-21"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 21, 2020",
+      "status": "Released",
+      "date_iso": "2020-05-21"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 20, 2020",
+      "status": "Released",
+      "date_iso": "2020-05-20"
+    },
+    {
+      "platform": "PlayStation VR",
+      "region": null,
+      "date": "Jun 24, 2018",
+      "status": "Released",
+      "date_iso": "2018-06-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arbur.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "efQ_a2fR8rU",
+      "url": "https://www.youtube.com/watch?v=efQ_a2fR8rU"
+    },
+    {
+      "title": "E3 2017 preview video",
+      "youtube_id": "x4eQzv4sQW0",
+      "url": "https://www.youtube.com/watch?v=x4eQzv4sQW0"
+    }
+  ]
+}

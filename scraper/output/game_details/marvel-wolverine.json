@@ -1,0 +1,117 @@
+{
+  "slug": "marvel-wolverine",
+  "igdb_id": 168667,
+  "name": "Marvel's Wolverine",
+  "summary": "Marvel's Wolverine is a single-player action-adventure game and a standalone entry in the Marvel's Spider-Man series, sharing continuity with those titles while telling its own self-contained story. Players control Logan/Wolverine in close-quarters combat, using his adamantium claws against enemies drawn from the X-Men comic book mythology. It is planned as the first installment in a trilogy of games focused on the X-Men.",
+  "first_release_year": 2026,
+  "developers": [
+    "Insomniac Games"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Stealth",
+    "Drama"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Marvel's Spider-Man"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Marvel",
+    "X-Men",
+    "Wolverine"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "bloody",
+    "gore",
+    "mutants",
+    "superhero",
+    "violent",
+    "licensed game",
+    "comic book character",
+    "anti-hero",
+    "superpowers"
+  ],
+  "alternative_names": [
+    {
+      "name": "Wolverine",
+      "comment": "Abbreviation"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/insomniacgames"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002861/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://marvel.fandom.com/wiki/Marvel's_Wolverine"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marvel%27s_Wolverine"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Marvel's%20Wolverine"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.playstation.com/en-us/games/marvels-wolverine/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 15, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-09-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar12pz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5z8e.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5z88.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4aha.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5z8d.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5gfp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5z89.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "s3pDMUWlA6I",
+      "url": "https://www.youtube.com/watch?v=s3pDMUWlA6I"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "oBib2xkYfE4",
+      "url": "https://www.youtube.com/watch?v=oBib2xkYfE4"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "OiBo_NgYI5Q",
+      "url": "https://www.youtube.com/watch?v=OiBo_NgYI5Q"
+    }
+  ]
+}

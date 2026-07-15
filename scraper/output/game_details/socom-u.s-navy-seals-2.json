@@ -1,0 +1,119 @@
+{
+  "slug": "socom-u.s-navy-seals-2",
+  "igdb_id": 8240,
+  "name": "SOCOM II: U.S. Navy SEALs",
+  "summary": "SOCOM II is a third-person tactical shooter. There are 12 different single-player missions: split equally between Albania, Algeria, Brazil and Russia. There are five different ranks that can be played in the game: Ensign, Lieutenant, Commander, Captain and Admiral. The player starts with the first three ranks unlocked, but must finish the single player game on Commander to unlock Captain, and on Captain to unlock Admiral. Players can unlock new models for multiplayer, as well as movies, music, concept art, and credits by completing certain objectives.",
+  "first_release_year": 2003,
+  "developers": [
+    "Zipper Interactive"
+  ],
+  "publishers": [
+    "Sony Computer Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Simulator",
+    "Strategy",
+    "Tactical"
+  ],
+  "themes": [
+    "Action",
+    "Stealth",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "SOCOM"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Kinetica"
+  ],
+  "keywords": [
+    "modern warfare",
+    "death",
+    "military",
+    "war",
+    "online",
+    "hostages",
+    "over the shoulder",
+    "modern military",
+    "corrupt government",
+    "polygonal 3d",
+    "sniping",
+    "kill feed",
+    "a.i. companion",
+    "squad",
+    "leaderboard",
+    "realism",
+    "stealth kill",
+    "guerilla warfare",
+    "griefing",
+    "camping",
+    "dedicated servers",
+    "camouflage",
+    "close quarters combat",
+    "greatest hits",
+    "navy seals",
+    "military jargon",
+    "team killing",
+    "acronym titles"
+  ],
+  "alternative_names": [
+    {
+      "name": "SOCOM II"
+    },
+    {
+      "name": "SOCOM II U.S. Navy SEALs"
+    },
+    {
+      "name": "S2",
+      "comment": "Other"
+    },
+    {
+      "name": "S2",
+      "comment": "Other Alias"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/SOCOM_II"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/SOCOM%20II:%20U.S.%20Navy%20SEALs"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 2",
+      "region": null,
+      "date": "Nov 04, 2003",
+      "status": "Released",
+      "date_iso": "2003-11-04"
+    },
+    {
+      "platform": "PlayStation 2",
+      "region": null,
+      "date": "Mar 05, 2004",
+      "status": "Released",
+      "date_iso": "2004-03-05"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "s78E4iZU3yU",
+      "url": "https://www.youtube.com/watch?v=s78E4iZU3yU"
+    }
+  ]
+}

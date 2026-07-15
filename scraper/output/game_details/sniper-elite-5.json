@@ -1,0 +1,194 @@
+{
+  "slug": "sniper-elite-5",
+  "igdb_id": 116238,
+  "name": "Sniper Elite 5",
+  "summary": "The latest instalment in the award-winning series, Sniper Elite 5 offers unparalleled sniping, tactical third-person combat and an enhanced kill cam. Fight your way across the most immersive maps yet, with many real-world locations captured in stunning detail, and an improved traversal system that lets you explore more of them than ever before.\n\nFrance, 1944 – As part of a covert US Rangers operation to weaken the Atlantikwall fortifications along the coast of Brittany, elite marksman Karl Fairburne makes contact with the French Resistance. Soon they uncover a secret Nazi project that threatens to end the war before the Allies can even invade Europe: Operation Kraken.",
+  "first_release_year": 2022,
+  "developers": [
+    "Rebellion Developments"
+  ],
+  "publishers": [
+    "Rebellion Developments"
+  ],
+  "genres": [
+    "Shooter",
+    "Simulator",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Stealth",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Sniper Elite"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Sniper Elite"
+  ],
+  "game_engines": [
+    "Asura"
+  ],
+  "keywords": [
+    "world war ii - ww2",
+    "sniping",
+    "male protagonist"
+  ],
+  "alternative_names": [
+    {
+      "name": "스나이퍼 엘리트 5",
+      "comment": "Korean title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/RebellionGamesStudio"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/234363"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/sniper-elite-5/9pp8q82h79lc"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1029690/Sniper_Elite_5"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://sniperelite.fandom.com/wiki/Sniper_Elite_5"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/snipereliteofficial"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/sniper-elite-5"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sniper_Elite_5"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Sniper%20Elite%205%20(working%20title)"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/sniperelite"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://sniperelitegames.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/sniperelitegame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/rebellion"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 26, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-26"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 26, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 25, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "May 26, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-05-26"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 26, 2022",
+      "status": "status_36",
+      "date_iso": "2022-05-26"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Q1 2026",
+      "status": "Released",
+      "date_iso": "2026-03-31"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Q1 2026",
+      "status": "Released",
+      "date_iso": "2026-03-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1j3y.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "s_AeRULyTnU",
+      "url": "https://www.youtube.com/watch?v=s_AeRULyTnU"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ZVPeSJSkopk",
+      "url": "https://www.youtube.com/watch?v=ZVPeSJSkopk"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "Kvl80YnxLgE",
+      "url": "https://www.youtube.com/watch?v=Kvl80YnxLgE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "yO2F0NnvLxs",
+      "url": "https://www.youtube.com/watch?v=yO2F0NnvLxs"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "lnzbxYR7CK4",
+      "url": "https://www.youtube.com/watch?v=lnzbxYR7CK4"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "-QpmtRbH33I",
+      "url": "https://www.youtube.com/watch?v=-QpmtRbH33I"
+    }
+  ]
+}

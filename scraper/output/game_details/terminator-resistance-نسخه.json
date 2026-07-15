@@ -1,0 +1,124 @@
+{
+  "slug": "terminator-resistance-نسخه",
+  "igdb_id": 122611,
+  "name": "Terminator: Resistance",
+  "summary": "Terminator: Resistance, is a first-person shooter set during the 'Future War' scenario that was only glimpsed at in the iconic films, 'THE TERMINATOR' and 'T2: JUDGMENT DAY'. The machines are destined to lose, but at what cost?",
+  "first_release_year": 2019,
+  "developers": [
+    "Teyon"
+  ],
+  "publishers": [
+    "Reef Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Terminator"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Terminator"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Terminator.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCvQPVUSVODaNS-QbwJR7vpw/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/terminator-resistance/9P9CXWVQP6M9"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Reef_Games"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.reef-entertainment.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Terminator:_Resistance"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Terminator%3A%20Resistance"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/terminator_resistance"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/954740/Terminator_Resistance/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://terminator.fandom.com/wiki/Terminator:_Resistance"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/terminatorresistance/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/groups/524215211658948/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 15, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 15, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 14, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6cf.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "vUFRr0pPYtY",
+      "url": "https://www.youtube.com/watch?v=vUFRr0pPYtY"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "road-maintenance-simulator",
+  "igdb_id": 193766,
+  "name": "Road Maintenance Simulator",
+  "summary": "Experience the everyday life in a German street maintenance service and complete a variety of realistic tasks in the area of road construction and maintenance! For your work you will have unique vehicles and various usable tools at your disposal.",
+  "first_release_year": 2022,
+  "developers": [
+    "Caipirinha Games"
+  ],
+  "publishers": [
+    "Aerosoft",
+    "Contact Sales"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Indie"
+  ],
+  "themes": [
+    "Business",
+    "Educational",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Straßenmeisterei Simulator",
+      "comment": "German title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/road-maintenance-simulator-e6d9ff"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004318"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1419040/Road_Maintenance_Simulator"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://strassenmeisterei.aerosoft.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Road%20Maintenance%20Simulator"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 07, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-07"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 07, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-07"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 07, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-07"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 07, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-07"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 07, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-07"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1iin.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1iil.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1iim.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "SROClmmzCbA",
+      "url": "https://www.youtube.com/watch?v=SROClmmzCbA"
+    }
+  ]
+}

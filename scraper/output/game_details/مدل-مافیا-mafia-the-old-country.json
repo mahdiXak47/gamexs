@@ -1,0 +1,176 @@
+{
+  "slug": "مدل-مافیا-mafia-the-old-country",
+  "igdb_id": 314276,
+  "name": "Mafia: The Old Country",
+  "summary": "Mafia: The Old Country is an action-adventure game part of the Mafia series. It is a prequel to the first Mafia game. The game lets players descend into Sicily's criminal underworld during the 1900s.",
+  "first_release_year": 2025,
+  "developers": [
+    "Hangar 13"
+  ],
+  "publishers": [
+    "2K"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Mafia"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "organized crime",
+    "italian mafia",
+    "italy",
+    "italian accent"
+  ],
+  "alternative_names": [
+    {
+      "name": "Mafia: Dawne strony",
+      "comment": "Polish title"
+    },
+    {
+      "name": "Mafia: El Viejo Continente",
+      "comment": "Spanish title"
+    },
+    {
+      "name": "Mafia: Terra Madre",
+      "comment": "Italian title"
+    },
+    {
+      "name": "Mafia 4",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Mafia: Domovina",
+      "comment": "Czech title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/mafia-the-old-country"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/mafiagame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/mafiagame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/mafiagame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/mafiagame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007134"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mafia:_The_Old_Country"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://mafiagame.fandom.com/wiki/Mafia:_The_Old_Country"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/mafia-the-old-country/9P834N9S4LL0"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1941540/Mafia_The_Old_Country/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://mafia.2k.com/old-country/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 08, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 07, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-07"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 08, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar377f.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3u7i.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4pe5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3mlg.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4pe6.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "lkdV6NxPOLc",
+      "url": "https://www.youtube.com/watch?v=lkdV6NxPOLc"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "crDUx5suLm4",
+      "url": "https://www.youtube.com/watch?v=crDUx5suLm4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "BgXBQdusXxc",
+      "url": "https://www.youtube.com/watch?v=BgXBQdusXxc"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "YhJ-YiwToZg",
+      "url": "https://www.youtube.com/watch?v=YhJ-YiwToZg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "UOIg2lFVsJE",
+      "url": "https://www.youtube.com/watch?v=UOIg2lFVsJE"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "dd93ZZLYrCU",
+      "url": "https://www.youtube.com/watch?v=dd93ZZLYrCU"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "w8FHGu9bvc0",
+      "url": "https://www.youtube.com/watch?v=w8FHGu9bvc0"
+    }
+  ]
+}

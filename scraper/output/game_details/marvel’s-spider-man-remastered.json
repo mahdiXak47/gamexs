@@ -1,0 +1,55 @@
+{
+  "slug": "marvel’s-spider-man-remastered",
+  "igdb_id": 198900,
+  "name": "Marvel Spider-Man",
+  "summary": "A handheld game based on Spider-Man.",
+  "first_release_year": 1991,
+  "developers": [
+    "Tiger Electronics"
+  ],
+  "publishers": [
+    "Tiger Electronics",
+    "Hasbro"
+  ],
+  "genres": [],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Spider-Man",
+    "Marvel"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "superhero",
+    "comic book character",
+    "handheld electronic game"
+  ],
+  "alternative_names": [
+    {
+      "name": "Spider-Man",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Marvel%20Spider-Man"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Handheld Electronic LCD",
+      "region": null,
+      "date": "1991",
+      "status": "Released",
+      "date_iso": "1991-12-31"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

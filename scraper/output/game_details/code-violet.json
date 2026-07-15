@@ -1,0 +1,98 @@
+{
+  "slug": "code-violet",
+  "igdb_id": 328275,
+  "name": "Code Violet",
+  "summary": "Developed by TeamKill Media, Code Violet is a third-person action horror game, where you take on the role of Violet Sinclair, a girl plucked from the past who must unravel the mysteries of the Aion Bioengineering Complex as she avoids, hides or fights against the creatures who have overrun it.\n\nWith the evacuation protocol in effect, Violet’s main goal is to escape the complex and save those she cares for, but with the creatures and a mysterious Director doing all in their power to stop you, will you get out alive?",
+  "first_release_year": 2026,
+  "developers": [
+    "TeamKill Media"
+  ],
+  "publishers": [
+    "TeamKill Media"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "survival horror"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/teamkillmedia"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/code-violet"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://www.twitter.com/teamkillmedia"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10012908"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@teamkillmedia"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.teamkillmedia.com/codeviolet"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Code_Violet"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 10, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-01-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar39lt.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3w8d.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3w8c.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "gDFBxMOcp4k",
+      "url": "https://www.youtube.com/watch?v=gDFBxMOcp4k"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "wfDxEltKCfg",
+      "url": "https://www.youtube.com/watch?v=wfDxEltKCfg"
+    },
+    {
+      "title": "Extended Gameplay Reveal",
+      "youtube_id": "7zA4MflCuzU",
+      "url": "https://www.youtube.com/watch?v=7zA4MflCuzU"
+    }
+  ]
+}

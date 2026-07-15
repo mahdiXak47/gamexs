@@ -1,0 +1,39 @@
+{
+  "slug": "conflict-2",
+  "igdb_id": 311241,
+  "name": "Conflict 2: Blitz",
+  "summary": "Traditional RTS real-time strategy, from the beginning of high school to now, Conflict 1, Conflict 2 Western Front, Conflict 2 Blitz. In general, a person development, overall simple, please forgive me.",
+  "first_release_year": null,
+  "developers": [],
+  "publishers": [],
+  "genres": [
+    "Role-playing (RPG)",
+    "Simulator",
+    "Strategy",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3010260"
+    }
+  ],
+  "release_dates": [],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3295.jpg"
+  ],
+  "videos": []
+}

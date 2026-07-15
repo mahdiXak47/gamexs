@@ -1,0 +1,159 @@
+{
+  "slug": "inspector-gadget-mad-time-party",
+  "igdb_id": 247190,
+  "name": "Inspector Gadget: Mad Time Party",
+  "summary": "Go Go Gadget! Become the famous Inspector Gadget and have fun with your friends in this brand-new adventure!",
+  "first_release_year": 2023,
+  "developers": [
+    "Smart Tale Games"
+  ],
+  "publishers": [
+    "Microids"
+  ],
+  "genres": [
+    "Simulator",
+    "Adventure",
+    "Arcade",
+    "Card & Board Game"
+  ],
+  "themes": [
+    "Action",
+    "Comedy",
+    "Kids",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "licensed game",
+    "game based on tv show",
+    "cartoon",
+    "available on - blacknut"
+  ],
+  "alternative_names": [
+    {
+      "name": "Inspecteur Gadget : Mad Time Party",
+      "comment": "French title"
+    },
+    {
+      "name": "Inspector_Gadget_MAD_Time_Party.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007946"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/inspector-gadget-mad-time-party-switch/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/inspector_gadget_mad_time_party"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/inspector-gadget-mad-time-party-1dc812"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2409500/Inspector_Gadget__Mad_Time_Party/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/microids/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/microids_off"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC9-1o8dj5vp5T1d1aVuHEWQ"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/microids"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.microids.com"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 14, 2023",
+      "status": "Released",
+      "date_iso": "2023-09-14"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-14"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-14"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-14"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2aqy.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "1wv_3RZ8O2o",
+      "url": "https://www.youtube.com/watch?v=1wv_3RZ8O2o"
+    }
+  ]
+}

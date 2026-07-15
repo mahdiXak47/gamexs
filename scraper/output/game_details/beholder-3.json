@@ -1,0 +1,146 @@
+{
+  "slug": "beholder-3",
+  "igdb_id": 186882,
+  "name": "Beholder 3",
+  "summary": "When a high-ranking security officer saves you from prison, you end up a pawn in her schemes. Now you must eliminate anyone standing in the way of her secret plans and try to get your life back while working two jobs. No tenant, employee or superior is safe from your spying.",
+  "first_release_year": 2022,
+  "developers": [
+    "Paintbucket Games"
+  ],
+  "publishers": [
+    "Alawar Premium"
+  ],
+  "genres": [
+    "Point-and-click",
+    "Simulator",
+    "Strategy",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Stealth",
+    "Drama"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [
+    "Beholder"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "previously on - utomik",
+    "previously on - prime gaming",
+    "available on - blacknut"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006017"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/beholder-3-switch/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/beholder_3"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1570070"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/beholder-3-d23253?lang=en-US"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://company.alawar.com/en/games/beholder-3/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Beholder%203"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/beholder/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Beholder_Game"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/DUaPr9YUYV"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/BeholderGame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCUZcGHOiUUPLXa7frMXyZLQ"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 03, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-03"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-15"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-15"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jan 26, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-26"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1c90.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "rqRzJTDabdA",
+      "url": "https://www.youtube.com/watch?v=rqRzJTDabdA"
+    }
+  ]
+}

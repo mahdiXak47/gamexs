@@ -1,0 +1,161 @@
+{
+  "slug": "daymare-1994-sandcastle",
+  "igdb_id": 152844,
+  "name": "Daymare: 1994 Sandcastle",
+  "summary": "Daymare: 1994 Sandcastle is a third-person story-driven survival horror game prequel to the critically acclaimed Daymare: 1998. Step into the shoes of agent Dalila Reyes, a former government spy now in the service of H.A.D.E.S. unit and prepare to face the true horror.",
+  "first_release_year": 2023,
+  "developers": [
+    "Invader Studios"
+  ],
+  "publishers": [
+    "Leonardo Interactive",
+    "GS2 Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "military",
+    "gore",
+    "demo",
+    "free demo"
+  ],
+  "alternative_names": [
+    {
+      "name": "Ogre.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/invaderdev"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005421"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/daymare-1994-sandcastle-xbox-series-x|s-version/9N5PWNBHR1Q4"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/InvaderDevs"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCYmdrgYCuSrXPzzj_EbEtfA"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.daymarethegame.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1530470/Daymare_1994_Sandcastle"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/InvaderStudios"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/daymare_1994_sandcastle"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/hFvcYzTUUe"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Daymare:%201994%20Sandcastle"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/daymare-1994-sandcastle-eb41d5"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 26, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 30, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-30"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 30, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 30, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 30, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 30, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1liy.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "YeHY9r6eUvA",
+      "url": "https://www.youtube.com/watch?v=YeHY9r6eUvA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "d0w96JpzGJk",
+      "url": "https://www.youtube.com/watch?v=d0w96JpzGJk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "bDsJa-4aE_M",
+      "url": "https://www.youtube.com/watch?v=bDsJa-4aE_M"
+    }
+  ]
+}

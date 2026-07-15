@@ -1,0 +1,239 @@
+{
+  "slug": "cronos-the-new-dawn-نسخه-standard",
+  "igdb_id": 320137,
+  "name": "Cronos: The New Dawn",
+  "summary": "Cronos: The New Dawn is a pulse-pounding, third-person survival horror game that throws you into the heart of a deadly struggle against overwhelming foes, all while uncovering the mysteries of a twisted time travel story.",
+  "first_release_year": 2025,
+  "developers": [
+    "Bloober Team"
+  ],
+  "publishers": [
+    "Bloober Team"
+  ],
+  "genres": [
+    "Shooter",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Cronos.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/cronos-the-new-dawn-85b409"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/cronos-the-new-dawn"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/cronos-the-new-dawn/9p7tflq7ctxn"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/cronos_the_new_dawn"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10011556/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/cronos-the-new-dawn-switch-2/"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://cronosnewdawn.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2101960"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-05"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Sep 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-05"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 03, 2025",
+      "status": "status_34",
+      "date_iso": "2025-09-03"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 03, 2025",
+      "status": "status_34",
+      "date_iso": "2025-09-03"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Sep 03, 2025",
+      "status": "status_34",
+      "date_iso": "2025-09-03"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Sep 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-05"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 03, 2025",
+      "status": "status_34",
+      "date_iso": "2025-09-03"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar35r1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar46aa.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar46a9.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar46aw.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ibQP4F8SyeA",
+      "url": "https://www.youtube.com/watch?v=ibQP4F8SyeA"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "r4GPH2nTdKE",
+      "url": "https://www.youtube.com/watch?v=r4GPH2nTdKE"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ZblwGH-C7eg",
+      "url": "https://www.youtube.com/watch?v=ZblwGH-C7eg"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "RuSJpd2c7UY",
+      "url": "https://www.youtube.com/watch?v=RuSJpd2c7UY"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "HzBmlQuxB8k",
+      "url": "https://www.youtube.com/watch?v=HzBmlQuxB8k"
+    },
+    {
+      "title": "Survive The Nest Trailer",
+      "youtube_id": "SpaO_ysRhS8",
+      "url": "https://www.youtube.com/watch?v=SpaO_ysRhS8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Pl0wmn0Ua4I",
+      "url": "https://www.youtube.com/watch?v=Pl0wmn0Ua4I"
+    },
+    {
+      "title": "Deep Dive into The Combat",
+      "youtube_id": "qWVTXo05K7s",
+      "url": "https://www.youtube.com/watch?v=qWVTXo05K7s"
+    },
+    {
+      "title": "Sector A-0 Gameplay Showcase",
+      "youtube_id": "iW4EcsG_Deg",
+      "url": "https://www.youtube.com/watch?v=iW4EcsG_Deg"
+    },
+    {
+      "title": "35-minute Gameplay",
+      "youtube_id": "UmgnABPqaoU",
+      "url": "https://www.youtube.com/watch?v=UmgnABPqaoU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "91BaLCOQa24",
+      "url": "https://www.youtube.com/watch?v=91BaLCOQa24"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "ui304uNd-d0",
+      "url": "https://www.youtube.com/watch?v=ui304uNd-d0"
+    },
+    {
+      "title": "Deep Dive Into The Story",
+      "youtube_id": "E4oTxOOpPpY",
+      "url": "https://www.youtube.com/watch?v=E4oTxOOpPpY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Tq8j8dhCE5A",
+      "url": "https://www.youtube.com/watch?v=Tq8j8dhCE5A"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "9dY2fTE07h0",
+      "url": "https://www.youtube.com/watch?v=9dY2fTE07h0"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "8pVMrhKZAww",
+      "url": "https://www.youtube.com/watch?v=8pVMrhKZAww"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "akdfiSQdGe0",
+      "url": "https://www.youtube.com/watch?v=akdfiSQdGe0"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "e5xqIwEAJKs",
+      "url": "https://www.youtube.com/watch?v=e5xqIwEAJKs"
+    }
+  ]
+}

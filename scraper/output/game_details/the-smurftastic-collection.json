@@ -1,0 +1,54 @@
+{
+  "slug": "the-smurftastic-collection",
+  "igdb_id": 301211,
+  "name": "Smurftastic Collection",
+  "summary": "",
+  "first_release_year": 2024,
+  "developers": [],
+  "publishers": [],
+  "genres": [],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/smurftastic-collection-switch/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 12, 2024",
+      "status": "Released",
+      "date_iso": "2024-06-12"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 12, 2024",
+      "status": "Released",
+      "date_iso": "2024-06-12"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 09, 2024",
+      "status": "Released",
+      "date_iso": "2024-05-09"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2xiu.jpg"
+  ],
+  "videos": []
+}

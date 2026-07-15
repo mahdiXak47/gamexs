@@ -1,0 +1,131 @@
+{
+  "slug": "nba-bounce",
+  "igdb_id": 358532,
+  "name": "NBA Bounce",
+  "summary": "Step onto the court with your favorite NBA team and mascots. Dribble, dunk, unlock gear, and play solo or with friends in fun game modes.",
+  "first_release_year": 2025,
+  "developers": [],
+  "publishers": [
+    "Outright Games"
+  ],
+  "genres": [
+    "Sport",
+    "Arcade"
+  ],
+  "themes": [
+    "Kids",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "NBA"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "NBA BOUNCE",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10012016"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/nba-bounce-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://outrightgames.com/games/nba-bounce/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/OutrightGames"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Outright_Games"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3115130"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/nba-bounce/9mvzth17v753"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 26, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 26, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-26"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 26, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 26, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-26"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 26, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-26"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 26, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-26"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ze6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ze5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ze7.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "WsbNdCTTDNA",
+      "url": "https://www.youtube.com/watch?v=WsbNdCTTDNA"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "PSt39CIsdIM",
+      "url": "https://www.youtube.com/watch?v=PSt39CIsdIM"
+    }
+  ]
+}

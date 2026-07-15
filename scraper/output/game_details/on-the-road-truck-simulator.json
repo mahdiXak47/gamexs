@@ -1,0 +1,163 @@
+{
+  "slug": "on-the-road-truck-simulator",
+  "igdb_id": 36367,
+  "name": "On the Road: Truck Simulator",
+  "summary": "From 18 tonners to the Gigaliner, ON THE ROAD – The Truck Simulator offers everything a trucker’s heart desires.",
+  "first_release_year": 2019,
+  "developers": [
+    "toxtronyx interactive"
+  ],
+  "publishers": [
+    "Aerosoft"
+  ],
+  "genres": [
+    "Simulator"
+  ],
+  "themes": [
+    "Business",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "truck simulator"
+  ],
+  "alternative_names": [
+    {
+      "name": "On The Road",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "On the Road - Truck Simulator",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "OnTheRoad.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/285380"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/aerosoftofficial/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/AerosoftGmbH"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001193"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/heavycargo_ontheroad/"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.aerosoft.com/en/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/rfaDngenVU"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/HeavyCargoOnTheRoad"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 11, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-11"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 11, 2021",
+      "status": "Released",
+      "date_iso": "2021-02-11"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 11, 2021",
+      "status": "Released",
+      "date_iso": "2021-02-11"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 11, 2021",
+      "status": "Released",
+      "date_iso": "2021-02-11"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Nov 14, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-11-14"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Mar 30, 2017",
+      "status": "Beta",
+      "date_iso": "2017-03-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 14, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-11-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 30, 2017",
+      "status": "Beta",
+      "date_iso": "2017-03-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4x5p.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4x2t.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "M3Z4SGJLbE8",
+      "url": "https://www.youtube.com/watch?v=M3Z4SGJLbE8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "gxmisaumZAg",
+      "url": "https://www.youtube.com/watch?v=gxmisaumZAg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Np0n-KCAv4E",
+      "url": "https://www.youtube.com/watch?v=Np0n-KCAv4E"
+    }
+  ]
+}

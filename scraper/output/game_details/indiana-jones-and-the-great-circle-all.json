@@ -1,0 +1,273 @@
+{
+  "slug": "indiana-jones-and-the-great-circle-all",
+  "igdb_id": 142415,
+  "name": "Indiana Jones and the Great Circle",
+  "summary": "Uncover one of history’s greatest mysteries in Indiana Jones and the Great Circle, a first-person, single-player adventure set between the events of Raiders of the Lost Ark and The Last Crusade. You’ll become the legendary archaeologist in this cinematic action-adventure game from MachineGames, the award-winning studio behind the recent Wolfenstein series, and executive produced by Hall of Fame game designer Todd Howard.",
+  "first_release_year": 2024,
+  "developers": [
+    "MachineGames"
+  ],
+  "publishers": [
+    "Bethesda Softworks"
+  ],
+  "genres": [
+    "Puzzle",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Indiana Jones"
+  ],
+  "game_engines": [
+    "id Tech 7"
+  ],
+  "keywords": [
+    "world war ii - ww2",
+    "investigation",
+    "3d",
+    "3d platformer",
+    "story rich",
+    "licensed game",
+    "available on - luna plus"
+  ],
+  "alternative_names": [
+    {
+      "name": "Indiana Jones y el Gran Círculo",
+      "comment": "Spanish title"
+    },
+    {
+      "name": "夺宝奇兵：古老之圈",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Indiana Jones i Wielki Krąg",
+      "comment": "Polish title"
+    },
+    {
+      "name": "Indiana Jones y el Gran Círculo",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Indiana Jones e l’antico Cerchio",
+      "comment": "Italian title"
+    },
+    {
+      "name": "Indiana Jones und der Große Kreis",
+      "comment": "German title"
+    },
+    {
+      "name": "Indiana Jones et le Cercle Ancien",
+      "comment": "French title"
+    },
+    {
+      "name": "Indiana Jones e o Grande Círculo",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "《印第安納瓊斯：古老之圈》",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "TheGreatCircle.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/bethesda/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2677660"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/indiana-jones-and-the-great-circle-switch-2/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/indiana_jones_and_the_great_circle"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10012238"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/indiana-jones-and-the-great-circle/9N8FQ28Z6QX3"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Great_Circle"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://indianajones.fandom.com/wiki/Indiana_Jones_and_the_Great_Circle"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.indianajonesandthegreatcircle.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/bethesda"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/BethesdaSoftworks"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/indiana-jones"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/Bethesda"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 15, 2025",
+      "status": "status_34",
+      "date_iso": "2025-04-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 05, 2024",
+      "status": "status_34",
+      "date_iso": "2024-12-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 09, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-09"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 05, 2024",
+      "status": "status_34",
+      "date_iso": "2024-12-05"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 09, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-09"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "May 12, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3qeq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3qer.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3qev.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3qet.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3qeu.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "1CCQg4JEidM",
+      "url": "https://www.youtube.com/watch?v=1CCQg4JEidM"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "htGnW6YNPjs",
+      "url": "https://www.youtube.com/watch?v=htGnW6YNPjs"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "Yp7_ImMV1Iw",
+      "url": "https://www.youtube.com/watch?v=Yp7_ImMV1Iw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "z2aqnWFpRAY",
+      "url": "https://www.youtube.com/watch?v=z2aqnWFpRAY"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "STrKl828Aeg",
+      "url": "https://www.youtube.com/watch?v=STrKl828Aeg"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "zLpuXJ2nQ7I",
+      "url": "https://www.youtube.com/watch?v=zLpuXJ2nQ7I"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "sq97d1RkdRM",
+      "url": "https://www.youtube.com/watch?v=sq97d1RkdRM"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "U0ZkoYuHxyo",
+      "url": "https://www.youtube.com/watch?v=U0ZkoYuHxyo"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "0VdnmreE1X0",
+      "url": "https://www.youtube.com/watch?v=0VdnmreE1X0"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "PxIzXnmNCKI",
+      "url": "https://www.youtube.com/watch?v=PxIzXnmNCKI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "zsYvrnXx2h4",
+      "url": "https://www.youtube.com/watch?v=zsYvrnXx2h4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "g9I66YoFrtk",
+      "url": "https://www.youtube.com/watch?v=g9I66YoFrtk"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "BV3H__rdMw4",
+      "url": "https://www.youtube.com/watch?v=BV3H__rdMw4"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "BazIf8B24oo",
+      "url": "https://www.youtube.com/watch?v=BazIf8B24oo"
+    }
+  ]
+}

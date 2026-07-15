@@ -1,0 +1,228 @@
+{
+  "slug": "atomfall",
+  "igdb_id": 305159,
+  "name": "Atomfall",
+  "summary": "A nuclear disaster has left an area of Britain in tatters. Atomfall, a new survival-action game, will see you explore, scavenge, craft, barter and fight your way through beautifully recreated scenery in search of answers.",
+  "first_release_year": 2025,
+  "developers": [
+    "Rebellion Developments"
+  ],
+  "publishers": [
+    "Rebellion Developments"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Survival",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Asura"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Atom Fall",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Atomfall.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/rebellion"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/AtomfallGame"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/atomfall/9NC4WDL5KZBL"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007896"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/AtomfallOfficial/hot/"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/atomfall.com"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/AtomfallGame/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/801800/Atomfall/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://atomfall.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@AtomfallGame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/atomfallgame/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/atomfall"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/atomfall"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 27, 2025",
+      "status": "Released",
+      "date_iso": "2025-03-27"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 27, 2025",
+      "status": "Released",
+      "date_iso": "2025-03-27"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 24, 2025",
+      "status": "status_34",
+      "date_iso": "2025-03-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 27, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-27"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 24, 2025",
+      "status": "status_34",
+      "date_iso": "2025-03-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 24, 2025",
+      "status": "status_34",
+      "date_iso": "2025-03-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 24, 2025",
+      "status": "status_34",
+      "date_iso": "2025-03-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 27, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 27, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-27"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 27, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-27"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 27, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-27"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 24, 2025",
+      "status": "status_34",
+      "date_iso": "2025-03-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar36u8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar36u9.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar36ua.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "KcGbyD8OnW8",
+      "url": "https://www.youtube.com/watch?v=KcGbyD8OnW8"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "YVodeYXYKt4",
+      "url": "https://www.youtube.com/watch?v=YVodeYXYKt4"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "1d18kxrIuFc",
+      "url": "https://www.youtube.com/watch?v=1d18kxrIuFc"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "fz-9EF0iZ8c",
+      "url": "https://www.youtube.com/watch?v=fz-9EF0iZ8c"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Nm-ERw349d4",
+      "url": "https://www.youtube.com/watch?v=Nm-ERw349d4"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "w-Wd340lxho",
+      "url": "https://www.youtube.com/watch?v=w-Wd340lxho"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "OCRyzkMdF-k",
+      "url": "https://www.youtube.com/watch?v=OCRyzkMdF-k"
+    }
+  ]
+}

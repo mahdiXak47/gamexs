@@ -1,0 +1,219 @@
+{
+  "slug": "ace-combat-7-skies-unknown",
+  "igdb_id": 14758,
+  "name": "Ace Combat 7: Skies Unknown",
+  "summary": "Leveraging the trueSKY technology and developed utilizing Unreal Engine 4, Ace Combat 7 will astound players with beautifully rendered skies and highly detailed cityscapes but also set the stage for the most engaging aerial battles in the franchise’s storied 20 year history accompanied with an immersive soundtrack. Ace Combat 7 will take the elements that the series is known for to a whole new level! Aces who have proven their combat prowess in Ace Combat 7’s campaign mode can take their dogfighting skills further with furious online multiplayer battles.\n\nPlayStation4 players will also be able to get immersed in ACE COMBAT 7’s realism through exclusive features developed specifically for PlayStationVR.",
+  "first_release_year": 2019,
+  "developers": [
+    "Project Aces"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Simulator",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Drama",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person",
+    "Virtual Reality"
+  ],
+  "series": [
+    "Ace Combat"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Ace Combat"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "modern warfare",
+    "combat flight simulator",
+    "flight simulator",
+    "anime",
+    "flight",
+    "airplane",
+    "modern military",
+    "playstation experience 2016",
+    "cloud gaming",
+    "clouds",
+    "previously on - xbox gamepass"
+  ],
+  "alternative_names": [
+    {
+      "name": "AC7",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Ace Combat 7",
+      "comment": "Working title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "http://acecombat.com/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ace-combat-7-skies-unknown/BRVM8RNWLXH1"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/221661"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ace_Combat_7:_Skies_Unknown"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/AceCombat"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/502500"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/PROJECT_ACES"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/ace-combat-7-skies-unknown"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://acecombat.wiki.gg/wiki/Ace_Combat_7:_Skies_Unknown"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@acecombat"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 31, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-01-31"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 11, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-11"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 18, 2019",
+      "status": "Released",
+      "date_iso": "2019-01-18"
+    },
+    {
+      "platform": "PlayStation VR",
+      "region": null,
+      "date": "Jan 18, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-01-18"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 18, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-01-18"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 18, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-01-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7tm.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3tar.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3tas.jpg"
+  ],
+  "videos": [
+    {
+      "title": "PSX 2016 Trailer",
+      "youtube_id": "YwS0wCvHsOM",
+      "url": "https://www.youtube.com/watch?v=YwS0wCvHsOM"
+    },
+    {
+      "title": "PSX16 Extended Trailer",
+      "youtube_id": "gXUCzEnxUa0",
+      "url": "https://www.youtube.com/watch?v=gXUCzEnxUa0"
+    },
+    {
+      "title": " Announcement Trailer",
+      "youtube_id": "GoZquRiPWu4",
+      "url": "https://www.youtube.com/watch?v=GoZquRiPWu4"
+    },
+    {
+      "title": "Gamescom 2017 Trailer",
+      "youtube_id": "CSM-kaDfZQ4",
+      "url": "https://www.youtube.com/watch?v=CSM-kaDfZQ4"
+    },
+    {
+      "title": "E3 2017: Cinematic Trailer",
+      "youtube_id": "oFqnr0WkojE",
+      "url": "https://www.youtube.com/watch?v=oFqnr0WkojE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "2b48HA4mgw0",
+      "url": "https://www.youtube.com/watch?v=2b48HA4mgw0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "kV8ESueyVMI",
+      "url": "https://www.youtube.com/watch?v=kV8ESueyVMI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "pCslnk2nu1w",
+      "url": "https://www.youtube.com/watch?v=pCslnk2nu1w"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "AKRkL8YbBvg",
+      "url": "https://www.youtube.com/watch?v=AKRkL8YbBvg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "oLChPjZnm54",
+      "url": "https://www.youtube.com/watch?v=oLChPjZnm54"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Zc2qUPHAlas",
+      "url": "https://www.youtube.com/watch?v=Zc2qUPHAlas"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "QtvB0Y4CzO8",
+      "url": "https://www.youtube.com/watch?v=QtvB0Y4CzO8"
+    }
+  ]
+}

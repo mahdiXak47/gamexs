@@ -1,0 +1,45 @@
+{
+  "slug": "tekken-8-advanced-edition",
+  "igdb_id": 338032,
+  "name": "Tekken 8: Advanced Edition",
+  "summary": "The Advanced Edition includes:\n• TEKKEN 8\n• 3 Additional playable characters\n- Eddy\n- Lidia\n- Heihachi\n\nTEKKEN 8 is the latest addition to the TEKKEN series, the pinnacle of 3D fighting games.",
+  "first_release_year": 2025,
+  "developers": [
+    "Bandai Namco Studios"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/tekken-8-advanced-edition/9PMZMQTTML5T"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 31, 2025",
+      "status": "Released",
+      "date_iso": "2025-03-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3etv.jpg"
+  ],
+  "videos": []
+}

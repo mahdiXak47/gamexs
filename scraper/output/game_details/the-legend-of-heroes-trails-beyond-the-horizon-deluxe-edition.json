@@ -1,0 +1,222 @@
+{
+  "slug": "the-legend-of-heroes-trails-beyond-the-horizon-deluxe-edition",
+  "igdb_id": 280573,
+  "name": "The Legend of Heroes: Trails Beyond the Horizon",
+  "summary": "The Legend of Heroes: Trails Beyond the Horizon is the thirteenth installment in the main Trails series, serving as a direct sequel to the events of The Legend of Heroes: Trails through Daybreak II. The game marks the turning point of the series and many of the mysteries of Zemuria.",
+  "first_release_year": 2024,
+  "developers": [
+    "Nihon Falcom"
+  ],
+  "publishers": [
+    "NIS America",
+    "Clouded Leopard Entertainment Inc.",
+    "Nihon Falcom"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Turn-based strategy (TBS)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "The Legend of Heroes: Trails"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "The Legend of Heroes"
+  ],
+  "game_engines": [
+    "Falcom Developer Kit"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Eiyuu Densetsu: Kai no Kiseki - Farewell, O Zemuria",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "The Legend of Heroes: Kai no Kiseki -Farewell, O Zemuria-",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "The Legend of Heroes: Kai no Kiseki - Farewell, O Zemuria",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "The Legend of Heroes: Trails Beyond the Horizon - Farewell, O Zemuria",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/the_legend_of_heroes_trails_beyond_the_horizon"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/the-legend-of-heroes-trails-beyond-the-horizon-9a0e43"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://thelegendofheroes.com/horizon/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3316940/The_Legend_of_Heroes_Trails_beyond_the_Horizon/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/the-legend-of-heroes-trails-beyond-the-horizon-switch/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/the-legend-of-heroes-kai-no-kiseki-farewell-o-zemuria"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10012789"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-01-23"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 26, 2024",
+      "status": "Released",
+      "date_iso": "2024-09-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 26, 2024",
+      "status": "Released",
+      "date_iso": "2024-09-26"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 26, 2024",
+      "status": "Released",
+      "date_iso": "2024-09-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 26, 2024",
+      "status": "Released",
+      "date_iso": "2024-09-26"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 15, 2026",
+      "status": "Released",
+      "date_iso": "2026-01-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 15, 2026",
+      "status": "Released",
+      "date_iso": "2026-01-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 15, 2026",
+      "status": "Released",
+      "date_iso": "2026-01-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 15, 2026",
+      "status": "Released",
+      "date_iso": "2026-01-15"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jan 15, 2026",
+      "status": "Released",
+      "date_iso": "2026-01-15"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jan 15, 2026",
+      "status": "Released",
+      "date_iso": "2026-01-15"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Jan 15, 2026",
+      "status": "Released",
+      "date_iso": "2026-01-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 15, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-01-15"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Jan 15, 2026",
+      "status": "Released",
+      "date_iso": "2026-01-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3a7p.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3n6d.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5k46.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "PnzBiTduoUc",
+      "url": "https://www.youtube.com/watch?v=PnzBiTduoUc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "6P8vitrIGAk",
+      "url": "https://www.youtube.com/watch?v=6P8vitrIGAk"
+    },
+    {
+      "title": "Game Intro",
+      "youtube_id": "Cy_V15EDsJE",
+      "url": "https://www.youtube.com/watch?v=Cy_V15EDsJE"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "N8wfZrV854Q",
+      "url": "https://www.youtube.com/watch?v=N8wfZrV854Q"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "jQELYrJXO-A",
+      "url": "https://www.youtube.com/watch?v=jQELYrJXO-A"
+    }
+  ]
+}

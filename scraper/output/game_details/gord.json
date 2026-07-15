@@ -1,0 +1,138 @@
+{
+  "slug": "gord",
+  "igdb_id": 146212,
+  "name": "Gord",
+  "summary": "Gord is a single-player, adventure-strategy game featuring developing societies, eerie forbidden lands, and remarkable mythical creatures. Complete quests and manage a populace whose personal stories and well-being impact the fate of the settlement.",
+  "first_release_year": 2023,
+  "developers": [
+    "Covenant.dev"
+  ],
+  "publishers": [
+    "Team17"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Simulator",
+    "Strategy",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Gord.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/GordTheGame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/gBR2AcaGZc"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCCHFR_RR62S6ceknTk47arg"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gord_(video_game)"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006626"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1351210/Gord"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://gord.game/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/gordthegame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/GordTheGame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Gord"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Gord_Game/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/gord"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arrs6.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "wHgBhenP6-k",
+      "url": "https://www.youtube.com/watch?v=wHgBhenP6-k"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "JeHSG1AAPXA",
+      "url": "https://www.youtube.com/watch?v=JeHSG1AAPXA"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "we0x3XFcddQ",
+      "url": "https://www.youtube.com/watch?v=we0x3XFcddQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "aC_UzO3Z6dU",
+      "url": "https://www.youtube.com/watch?v=aC_UzO3Z6dU"
+    }
+  ]
+}

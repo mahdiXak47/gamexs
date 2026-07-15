@@ -1,0 +1,165 @@
+{
+  "slug": "killing-floor-iii",
+  "igdb_id": 262530,
+  "name": "Killing Floor III",
+  "summary": "It's 2091. Megacorporation Horzine has produced the ultimate army: an obedient horde of bioengineered monstrosities called \"Zeds.\" Now, only the rebel group Nightfall stands between these infernal creations and the future of humanity.",
+  "first_release_year": 2025,
+  "developers": [
+    "Tripwire Interactive"
+  ],
+  "publishers": [
+    "Tripwire Interactive"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Killing Floor"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "zombies",
+    "gore",
+    "boss fight",
+    "difficulty level",
+    "gore system"
+  ],
+  "alternative_names": [
+    {
+      "name": "Killing Floor 3",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "start_protected_game.exe",
+      "comment": "windows executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/killing-floor-3/9pfzlckhc1vm"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/killing-floor-iii"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/killingfloor3.com"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@tripwireinteractive"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/KillingFloorGame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005321"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/killingfloor"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Killing_Floor_3"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/killing-floor-3"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://killingfloor3.com/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/tripwireinteractive/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1430190"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/tripwireinteractive/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/killingfloor/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2gx8.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "ftCMvazGb9Y",
+      "url": "https://www.youtube.com/watch?v=ftCMvazGb9Y"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "HGLLWE4BdZk",
+      "url": "https://www.youtube.com/watch?v=HGLLWE4BdZk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "O1xxHvzHdv0",
+      "url": "https://www.youtube.com/watch?v=O1xxHvzHdv0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "HZnUuNux5EM",
+      "url": "https://www.youtube.com/watch?v=HZnUuNux5EM"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "cNefpG5kNck",
+      "url": "https://www.youtube.com/watch?v=cNefpG5kNck"
+    }
+  ]
+}

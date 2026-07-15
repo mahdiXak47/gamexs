@@ -1,0 +1,202 @@
+{
+  "slug": "phasmophobia",
+  "igdb_id": 132516,
+  "name": "Phasmophobia",
+  "summary": "Phasmophobia is a cooperative horror investigation game played from a first-person perspective, supporting one to four players. Players take on the role of ghost hunters who must identify the type of ghost haunting a designated location by gathering evidence using various paranormal investigation equipment. The game features speech recognition, allowing ghosts and certain equipment to respond to words spoken by players. As investigators spend time at the site, their sanity decreases, eventually triggering hunts during which the ghost actively pursues and can kill players. The game includes multiple location types of varying size, twenty-nine ghost types each with unique behaviors and evidence, and a progression system where players earn money to unlock and upgrade equipment. Virtual reality is optionally supported.",
+  "first_release_year": 2020,
+  "developers": [
+    "Kinetic Games"
+  ],
+  "publishers": [
+    "Kinetic Games"
+  ],
+  "genres": [
+    "Puzzle",
+    "Tactical",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Thriller"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Auditory",
+    "Virtual Reality"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity 2022"
+  ],
+  "keywords": [
+    "detective",
+    "investigation",
+    "supernatural",
+    "survival horror",
+    "cross-platform multiplayer",
+    "the game awards - best debut indie game - winner",
+    "ghost"
+  ],
+  "alternative_names": [
+    {
+      "name": "恐鬼症",
+      "comment": "Chinese title - traditional"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCEyR7e-25KW9-oNv_CY8CSw"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/playphasmo/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.kineticgames.co.uk/phasmophobia"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/playphasmo"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005673"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/PhasmophobiaGame/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Phasmophobia"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/739630/Phasmophobia"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/QxvWuqX"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Phasmophobia_(video_game)"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/phasmophobia-game-preview/9N6D60SBZN05"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/playphasmo.bsky.social"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://phasmophobia.fandom.com/wiki/Main_Page"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "2026",
+      "status": "Released",
+      "date_iso": "2026-12-31"
+    },
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "Sep 18, 2020",
+      "status": "Beta",
+      "date_iso": "2020-09-18"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 29, 2024",
+      "status": "Beta",
+      "date_iso": "2024-10-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 18, 2020",
+      "status": "Beta",
+      "date_iso": "2020-09-18"
+    },
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "Oct 29, 2024",
+      "status": "Beta",
+      "date_iso": "2024-10-29"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 29, 2024",
+      "status": "Beta",
+      "date_iso": "2024-10-29"
+    },
+    {
+      "platform": "Windows Mixed Reality",
+      "region": null,
+      "date": "Sep 18, 2020",
+      "status": "Beta",
+      "date_iso": "2020-09-18"
+    },
+    {
+      "platform": "Oculus Rift",
+      "region": null,
+      "date": "Sep 18, 2020",
+      "status": "Beta",
+      "date_iso": "2020-09-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5wr6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ardfr.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "sRa9oeo5KiY",
+      "url": "https://www.youtube.com/watch?v=sRa9oeo5KiY"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "vlQXuZm9fWU",
+      "url": "https://www.youtube.com/watch?v=vlQXuZm9fWU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "6kPnrsxnS9w",
+      "url": "https://www.youtube.com/watch?v=6kPnrsxnS9w"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ohd6gqcYYuU",
+      "url": "https://www.youtube.com/watch?v=ohd6gqcYYuU"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "DHn4LZ3bAK0",
+      "url": "https://www.youtube.com/watch?v=DHn4LZ3bAK0"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "4025B6UAe78",
+      "url": "https://www.youtube.com/watch?v=4025B6UAe78"
+    }
+  ]
+}

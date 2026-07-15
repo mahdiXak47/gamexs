@@ -1,0 +1,278 @@
+{
+  "slug": "diablo-iv",
+  "igdb_id": 125165,
+  "name": "Diablo IV",
+  "summary": "Endless demons to slaughter. Deep customization through Talents, Skill Points, Runes, and Legendary loot. Randomized dungeons contained in a dynamic open world. Survive and conquer darkness—or succumb to the shadows.",
+  "first_release_year": 2023,
+  "developers": [
+    "Blizzard Entertainment"
+  ],
+  "publishers": [
+    "Blizzard Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Diablo"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Diablo"
+  ],
+  "game_engines": [
+    "Proprietary Engine"
+  ],
+  "keywords": [
+    "exploration",
+    "wizards",
+    "demon",
+    "character customization",
+    "magic",
+    "sword",
+    "dark fantasy",
+    "demons",
+    "gore",
+    "pve",
+    "dungeon crawling",
+    "dungeon crawler",
+    "story rich",
+    "violent",
+    "boss fight",
+    "battle",
+    "armor",
+    "character creation",
+    "dungeon fighter",
+    "bossfight",
+    "dungeon",
+    "bosses",
+    "the game awards - best multiplayer game - nominee",
+    "weapons",
+    "shield",
+    "monster"
+  ],
+  "alternative_names": [
+    {
+      "name": "D4",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Diablo 4",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "DIV",
+      "comment": "Acronym"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Diablo/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/231761"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/diablo-iv/9NQRCD3W41L3"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/diablo"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/diablo"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/diablo.blizzard.com"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/playdiablo/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Diablo_IV"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://diablo4.blizzard.com/en-us"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/diablo4"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://diablo.fandom.com/wiki/Diablo_IV"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Diablo%20IV"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2344520"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 02, 2023",
+      "status": "status_34",
+      "date_iso": "2023-06-02"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-06"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 02, 2023",
+      "status": "status_34",
+      "date_iso": "2023-06-02"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-06"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 02, 2023",
+      "status": "status_34",
+      "date_iso": "2023-06-02"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-06"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 02, 2023",
+      "status": "status_34",
+      "date_iso": "2023-06-02"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 02, 2023",
+      "status": "status_34",
+      "date_iso": "2023-06-02"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6ag.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6ae.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6ay.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6b0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6az.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6b1.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "PwxIR4Qx6Fo",
+      "url": "https://www.youtube.com/watch?v=PwxIR4Qx6Fo"
+    },
+    {
+      "title": "Traler Gameplay",
+      "youtube_id": "7RdDpqCmjb4",
+      "url": "https://www.youtube.com/watch?v=7RdDpqCmjb4"
+    },
+    {
+      "title": "Announcement Cinematic",
+      "youtube_id": "9bRWIdOMfro",
+      "url": "https://www.youtube.com/watch?v=9bRWIdOMfro"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "UnF_5xJfe5k",
+      "url": "https://www.youtube.com/watch?v=UnF_5xJfe5k"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "nqGKjAfMNYE",
+      "url": "https://www.youtube.com/watch?v=nqGKjAfMNYE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "wc6OhSaXERA",
+      "url": "https://www.youtube.com/watch?v=wc6OhSaXERA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "tDUHT2TxcWA",
+      "url": "https://www.youtube.com/watch?v=tDUHT2TxcWA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "bRdcONKo_vM",
+      "url": "https://www.youtube.com/watch?v=bRdcONKo_vM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "olFtCvxi3gk",
+      "url": "https://www.youtube.com/watch?v=olFtCvxi3gk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3QyVRsMA_3g",
+      "url": "https://www.youtube.com/watch?v=3QyVRsMA_3g"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ZcuibXrPRXc",
+      "url": "https://www.youtube.com/watch?v=ZcuibXrPRXc"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "RNUsgqRKQoI",
+      "url": "https://www.youtube.com/watch?v=RNUsgqRKQoI"
+    }
+  ]
+}

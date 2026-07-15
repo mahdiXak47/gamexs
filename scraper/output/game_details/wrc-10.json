@@ -1,0 +1,170 @@
+{
+  "slug": "wrc-10",
+  "igdb_id": 145735,
+  "name": "WRC 10",
+  "summary": "Hailed by reviewers and professional drivers, the standard-setting off-road racing simulation has been reinvented! Reach the 2021 season podium, and to celebrate the 50th anniversary of the competition, relive the highlights at the wheel of legendary cars. Never has the WRC experience been this intense! Rise to the challenge!",
+  "first_release_year": 2021,
+  "developers": [
+    "KT Racing"
+  ],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [],
+  "series": [
+    "World Rally Championship"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "KT Engine"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "WRC 10: FIA World Rally Championship",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "WRC10.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/WRCTheGame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://wrcthegame.com/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/wrc-10-the-official-game-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002812"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1462810"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/wrc-10"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/WRC%2010"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/nacon/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/WRC_10"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/wrcthegame"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/wrcofficialgame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/WRCTheGame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 02, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-02"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 02, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-02"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 02, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-02"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 02, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-02"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 17, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-17"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 29, 2022",
+      "status": "Released",
+      "date_iso": "2022-03-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 02, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-02"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar12ht.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar12hs.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "jZLyseyp9dQ",
+      "url": "https://www.youtube.com/watch?v=jZLyseyp9dQ"
+    }
+  ]
+}

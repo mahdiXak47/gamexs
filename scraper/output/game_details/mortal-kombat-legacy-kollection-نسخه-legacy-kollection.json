@@ -1,0 +1,107 @@
+{
+  "slug": "mortal-kombat-legacy-kollection-نسخه-legacy-kollection",
+  "igdb_id": 403916,
+  "name": "Mortal Kombat: Legacy Kollection - Kollector's Edition",
+  "summary": "Step into the arena and choose your fighter! Mortal Kombat: Legacy Kollection includes all the essential games from Mortal Kombat's early years. The Kollector's Edition includes the full game, an individually numbered premium Kollector's box, a hardcover lore and art book, a Goro controller holder, a Scorpion and Sub-Zero pin set, and a commemorative arcade token.",
+  "first_release_year": 2025,
+  "developers": [
+    "Digital Eclipse"
+  ],
+  "publishers": [
+    "Limited Run Games",
+    "Atari",
+    "Digital Eclipse"
+  ],
+  "genres": [
+    "Fighting",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Side view"
+  ],
+  "series": [
+    "Mortal Kombat"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Mortal Kombat"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "collector's edition",
+    "game collection",
+    "interactive documentary"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://limitedrungames.com/products/mortal-kombat-legacy-kollection-kollectors-edition-switch-switch-2-ps5-xbox-pc"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mortal_Kombat:_Legacy_Kollection"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-30"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Oct 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-30"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "aG8RGRRloh4",
+      "url": "https://www.youtube.com/watch?v=aG8RGRRloh4"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "slug": "chicken-run-eggstraction",
+  "igdb_id": 276332,
+  "name": "Chicken Run: Eggstraction",
+  "summary": "Stealth, silliness, and a whole lot of chaos! Scurry and scramble your way to freedom in this co-op adventure set in the Chicken Run universe.",
+  "first_release_year": 2025,
+  "developers": [
+    "Aardman Digital"
+  ],
+  "publishers": [
+    "Outright Games"
+  ],
+  "genres": [
+    "Puzzle",
+    "Simulator",
+    "Strategy",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Chicken Run"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "CR2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10014769"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/chicken-run-eggstraction-7d6ea3"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/chicken-run-eggstraction-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/chicken-run-eggstraction/9pfhlwsgdqns"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://outrightgames.com/games/chicken-run-eggstraction/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3419690/Chicken_Run_Eggstraction/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/OutrightGames"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Outright_Games"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-24"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar40hv.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "LoR937sGzUo",
+      "url": "https://www.youtube.com/watch?v=LoR937sGzUo"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "qnDdUVywZMY",
+      "url": "https://www.youtube.com/watch?v=qnDdUVywZMY"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "GOUTUOaPMs8",
+      "url": "https://www.youtube.com/watch?v=GOUTUOaPMs8"
+    }
+  ]
+}

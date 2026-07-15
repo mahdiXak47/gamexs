@@ -1,0 +1,186 @@
+{
+  "slug": "airoheart",
+  "igdb_id": 142513,
+  "name": "Airoheart",
+  "summary": "Airoheart is a top-down 16-bit ARPG inspired by classics from the SNES era.",
+  "first_release_year": 2022,
+  "developers": [
+    "Pixel Heart Studio"
+  ],
+  "publishers": [
+    "SOEDESCO Publishing"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "retro",
+    "16-bit",
+    "action-adventure",
+    "pixel art",
+    "crowdfunding - kickstarter",
+    "zelda-like"
+  ],
+  "alternative_names": [
+    {
+      "name": "エアーオーハートゥ",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "Airoheart.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004526"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/SOEDESCO"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/soedesco"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@SOEDESCO"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/SOEDESCO/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/airoheart-switch/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/pixelheartstudio.airoheart"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1493940"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.soedesco.com/games/airoheart"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/airoheart-247d10"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Airoheart"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.soedesco.airoheart"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/us/app/airoheart/id6499123269"
+    },
+    {
+      "label": "iPad",
+      "url": "https://apps.apple.com/us/app/airoheart/id6499123269"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-30"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Nov 28, 2024",
+      "status": "Released",
+      "date_iso": "2024-11-28"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Nov 22, 2024",
+      "status": "Released",
+      "date_iso": "2024-11-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1m87.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "TDsa3bCVAdU",
+      "url": "https://www.youtube.com/watch?v=TDsa3bCVAdU"
+    }
+  ]
+}

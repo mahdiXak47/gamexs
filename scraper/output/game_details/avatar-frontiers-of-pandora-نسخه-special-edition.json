@@ -1,0 +1,59 @@
+{
+  "slug": "avatar-frontiers-of-pandora-نسخه-special-edition",
+  "igdb_id": 281300,
+  "name": "Avatar: Frontiers of Pandora - Special Edition",
+  "summary": "Enhance your game experience with the Special Edition and get access to the Sarentu Heritage Cosmetic Pack including a premium Na'vi weapon skin, one character cosmetic set, and a banshee cosmetic set.",
+  "first_release_year": 2023,
+  "developers": [
+    "Ubisoft Düsseldorf",
+    "Massive Entertainment"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "James Cameron's Avatar"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Snowdrop"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-07"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-07"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

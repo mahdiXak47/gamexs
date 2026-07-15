@@ -1,0 +1,219 @@
+{
+  "slug": "quidditch-champions-نسخه-دلوکس",
+  "igdb_id": 246166,
+  "name": "Harry Potter: Quidditch Champions",
+  "summary": "Your next chapter takes flight! Immerse yourself in the enchanting world of Quidditch by playing solo or sharing the magic with friends and family.\n\nTake to the sky as one of the classic positions—Chaser, Seeker, Keeper, or Beater—each with their own unique play style. Soar into legendary Quidditch arenas, as well as maps that showcase never-before-seen areas of the wizarding world.",
+  "first_release_year": 2024,
+  "developers": [
+    "Unbroken Studios"
+  ],
+  "publishers": [
+    "Portkey Games",
+    "Warner Bros. Games"
+  ],
+  "genres": [
+    "Sport",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Harry Potter"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Harry Potter"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "character customization",
+    "magic",
+    "harry potter",
+    "pvp",
+    "flight",
+    "supernatural",
+    "flying",
+    "pve",
+    "team-based"
+  ],
+  "alternative_names": [
+    {
+      "name": "Quidditch Champions",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "Harry Potter: Campeones de quidditch",
+      "comment": "Spanish title"
+    },
+    {
+      "name": "哈利波特：魁地奇鬥士",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "哈利·波特：魁地奇锦标赛",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Harry Potter: Campeões do Quadribol",
+      "comment": "Portuguese title"
+    },
+    {
+      "name": "Harry Potter: Campioni di Quidditch",
+      "comment": "Italian title"
+    },
+    {
+      "name": "Harry Potter: Champions de Quidditch",
+      "comment": "French title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://quidditchchampions.wbgames.com/en"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/QuidditchChampions"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/quidditchgame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/harry-potter-quidditch-champions"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Harry_Potter:_Quidditch_Champions"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@QuidditchChampions"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/quidditchchampions/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/gaming/quidditchchampions"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/harry-potter-quidditch-champions/9P1GN7LSJZXQ/0010"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/harry-potter-quidditch-champions-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004151"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2878600"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/harry-potter-quidditch-champions"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 03, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-03"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 03, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-03"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 03, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-03"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 03, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-03"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 03, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-03"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 03, 2024",
+      "status": "Released",
+      "date_iso": "2024-09-03"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-08"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 03, 2024",
+      "status": "Released",
+      "date_iso": "2024-09-03"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2zhu.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4b2c.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "RDT_OU1DyC8",
+      "url": "https://www.youtube.com/watch?v=RDT_OU1DyC8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "2vUTDoKLp40",
+      "url": "https://www.youtube.com/watch?v=2vUTDoKLp40"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "XRS3MSKyKrc",
+      "url": "https://www.youtube.com/watch?v=XRS3MSKyKrc"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "U1LWcdB0kZg",
+      "url": "https://www.youtube.com/watch?v=U1LWcdB0kZg"
+    }
+  ]
+}

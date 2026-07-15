@@ -1,0 +1,223 @@
+{
+  "slug": "ea-sports-fc-26-نسخه-استاندارد",
+  "igdb_id": 353848,
+  "name": "EA Sports FC 26",
+  "summary": "EA Sports FC 26 is a football simulation game and the third entry in the EA Sports FC series, following the franchise's rebranding from FIFA. The game features various modes including career mode with narrative-driven Manager Live Challenges, and introduces Archetypes, a system that defines player playstyles based on real footballers. It is the successor to EA Sports FC 25.",
+  "first_release_year": 2025,
+  "developers": [
+    "EA Vancouver"
+  ],
+  "publishers": [
+    "EA Sports"
+  ],
+  "genres": [
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [
+    "Non-fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "EA Sports FC"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Frostbite"
+  ],
+  "keywords": [
+    "soccer",
+    "football"
+  ],
+  "alternative_names": [
+    {
+      "name": "FC 26",
+      "comment": "Abbreviation"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@easportsfc"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/EASPORTSFC"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/EA_Sports_FC_26"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-26"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3405690/EA_SPORTS_FC_26/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/ea-sports-fc-26"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ea-sports-fc-26-standard-edition-xbox-one-xbox-series-x-s/9pdpz54tp7bn"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP0006-PPSA27360_00-26STANDARDBUNDLE/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/ea-sports-fc-26-switch/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/easportsfc"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/easportsfc"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/easportsfc"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 26, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 19, 2025",
+      "status": "status_34",
+      "date_iso": "2025-09-19"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 26, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-26"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 19, 2025",
+      "status": "status_34",
+      "date_iso": "2025-09-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 26, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 19, 2025",
+      "status": "status_34",
+      "date_iso": "2025-09-19"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Sep 26, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-26"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Sep 19, 2025",
+      "status": "status_34",
+      "date_iso": "2025-09-19"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 26, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-26"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 26, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-26"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 19, 2025",
+      "status": "status_34",
+      "date_iso": "2025-09-19"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 26, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-26"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 19, 2025",
+      "status": "status_34",
+      "date_iso": "2025-09-19"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 19, 2025",
+      "status": "status_34",
+      "date_iso": "2025-09-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar671u.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar671v.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "TSi0iJYSQ24",
+      "url": "https://www.youtube.com/watch?v=TSi0iJYSQ24"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "0GE8YCIQF2M",
+      "url": "https://www.youtube.com/watch?v=0GE8YCIQF2M"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "8hWLWuJwAr8",
+      "url": "https://www.youtube.com/watch?v=8hWLWuJwAr8"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "F2Q4xrASt94",
+      "url": "https://www.youtube.com/watch?v=F2Q4xrASt94"
+    }
+  ]
+}

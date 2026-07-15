@@ -1,0 +1,327 @@
+{
+  "slug": "undertale",
+  "igdb_id": 12517,
+  "name": "Undertale",
+  "summary": "A small child falls into the Underground, where monsters have long been banished by humans and are hunting every human that they find. The player controls the child as they try to make it back to the Surface through hostile environments, all the while engaging with a turn-based combat system with puzzle-solving and bullet hell elements, as well as other unconventional game mechanics.",
+  "first_release_year": 2015,
+  "developers": [
+    "tobyfox"
+  ],
+  "publishers": [
+    "8-4",
+    "tobyfox"
+  ],
+  "genres": [
+    "Puzzle",
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Fantasy",
+    "Horror",
+    "Comedy",
+    "Drama"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric",
+    "Side view"
+  ],
+  "series": [
+    "Undertale"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "GameMaker: Studio"
+  ],
+  "keywords": [
+    "retro",
+    "psychological horror",
+    "dark",
+    "2d",
+    "parody",
+    "turn-based",
+    "shmup",
+    "bullet hell",
+    "village",
+    "backtracking",
+    "child protagonist",
+    "multiple endings",
+    "cute",
+    "funny",
+    "satire",
+    "pixel art",
+    "pixel graphics",
+    "unique battle system",
+    "crowdfunding - kickstarter",
+    "story rich",
+    "manic shooter",
+    "great soundtrack",
+    "boss fight",
+    "choices matter",
+    "battle",
+    "anthropomorphism",
+    "leveling up",
+    "breaking the fourth wall",
+    "skeletons",
+    "original soundtrack release",
+    "moral decisions",
+    "using dialogue to avoid combat",
+    "optional boss",
+    "pacifist playthrough",
+    "plot twist",
+    "fast traveling",
+    "genocide",
+    "defense",
+    "conversation",
+    "you can pet the dog",
+    "postmodernism",
+    "replayability",
+    "surreal comedy"
+  ],
+  "alternative_names": [
+    {
+      "name": "UT",
+      "comment": "Acronym"
+    },
+    {
+      "name": "UNDERTALE",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "UNDERTALE.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/undertale-switch/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/undertale"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/undertale/9PJGGX9XJXPB"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP3893-CUSA08801_00-TFSHVCUTPS400084"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Undertale/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://undertale.com/"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/undertale.com"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://undertale.wiki/w/Undertale"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/391540"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/undertale"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Undertale"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/UNDERTALEOfficial"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Undertale"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 15, 2017",
+      "status": "Released",
+      "date_iso": "2017-08-15"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Jul 17, 2016",
+      "status": "Released",
+      "date_iso": "2016-07-17"
+    },
+    {
+      "platform": "PlayStation Vita",
+      "region": null,
+      "date": "Aug 15, 2017",
+      "status": "Released",
+      "date_iso": "2017-08-15"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 18, 2018",
+      "status": "Released",
+      "date_iso": "2018-09-18"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 16, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-16"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 15, 2018",
+      "status": "Released",
+      "date_iso": "2018-09-15"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Sep 15, 2015",
+      "status": "Released",
+      "date_iso": "2015-09-15"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 18, 2018",
+      "status": "Released",
+      "date_iso": "2018-09-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 15, 2015",
+      "status": "Released",
+      "date_iso": "2015-09-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar61ar.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar61as.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4vc.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar580g.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "1Hojv0m3TqA",
+      "url": "https://www.youtube.com/watch?v=1Hojv0m3TqA"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "55IA_ng9L2c",
+      "url": "https://www.youtube.com/watch?v=55IA_ng9L2c"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "whsh2VUeO8A",
+      "url": "https://www.youtube.com/watch?v=whsh2VUeO8A"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "fsKLv0YbAU4",
+      "url": "https://www.youtube.com/watch?v=fsKLv0YbAU4"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "AIg2hc2eYGU",
+      "url": "https://www.youtube.com/watch?v=AIg2hc2eYGU"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ep678gvMAnw",
+      "url": "https://www.youtube.com/watch?v=ep678gvMAnw"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "YN49Rm7j4G4",
+      "url": "https://www.youtube.com/watch?v=YN49Rm7j4G4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "83XM8LQu-Js",
+      "url": "https://www.youtube.com/watch?v=83XM8LQu-Js"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "1yxade0aVqM",
+      "url": "https://www.youtube.com/watch?v=1yxade0aVqM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "50UApkPtdNo",
+      "url": "https://www.youtube.com/watch?v=50UApkPtdNo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "srZdDAJbHfc",
+      "url": "https://www.youtube.com/watch?v=srZdDAJbHfc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "308I91ljCWg",
+      "url": "https://www.youtube.com/watch?v=308I91ljCWg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "c8Tg3my3BEw",
+      "url": "https://www.youtube.com/watch?v=c8Tg3my3BEw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "nzx599-sFLU",
+      "url": "https://www.youtube.com/watch?v=nzx599-sFLU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "UMJzUIUq4ao",
+      "url": "https://www.youtube.com/watch?v=UMJzUIUq4ao"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "0hpOaayqYko",
+      "url": "https://www.youtube.com/watch?v=0hpOaayqYko"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "cph6XMXRKzY",
+      "url": "https://www.youtube.com/watch?v=cph6XMXRKzY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "9OQO4wAKZCE",
+      "url": "https://www.youtube.com/watch?v=9OQO4wAKZCE"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ITp1Egf_jq4",
+      "url": "https://www.youtube.com/watch?v=ITp1Egf_jq4"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "h5Zh2LEwFCo",
+      "url": "https://www.youtube.com/watch?v=h5Zh2LEwFCo"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "slug": "cuphead",
+  "igdb_id": 9061,
+  "name": "Cuphead",
+  "summary": "Cuphead is a run-and-gun action game focused primarily on boss battles. Its visual style is modeled after 1930s cartoons, using traditional hand-drawn cel animation, watercolor backgrounds, and original jazz recordings. Players control Cuphead or Mugman in single-player or local co-op, traversing themed worlds, acquiring new weapons, and unlocking super moves. The game includes both boss encounters and side-scrolling platforming stages.",
+  "first_release_year": 2017,
+  "developers": [
+    "Studio MDHR"
+  ],
+  "publishers": [
+    "Studio MDHR"
+  ],
+  "genres": [
+    "Shooter",
+    "Platform",
+    "Adventure",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric",
+    "Side view"
+  ],
+  "series": [
+    "Cuphead"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "pirates",
+    "ghosts",
+    "retro",
+    "shoot 'em up",
+    "magic",
+    "2d",
+    "shark",
+    "1930s",
+    "robots",
+    "run and gun",
+    "side-scrolling",
+    "skeleton",
+    "steam",
+    "bird",
+    "achievements",
+    "multiple endings",
+    "local co-op",
+    "dancing",
+    "snake",
+    "dice",
+    "singing",
+    "hand-drawn",
+    "boss fight",
+    "explosion",
+    "digital distribution",
+    "pax west 2017",
+    "anthropomorphism",
+    "platform exclusive",
+    "train level",
+    "playing cards",
+    "dualshock 4 support for pc",
+    "voice acting",
+    "protagonist's name in the title",
+    "cat",
+    "windows store",
+    "xbox play anywhere",
+    "xbox one x enhanced",
+    "shopping",
+    "bow and arrow",
+    "transforming boss",
+    "original soundtrack release",
+    "unlockables",
+    "color separation",
+    "moral decisions",
+    "pax east 2016",
+    "xbox live",
+    "octopus",
+    "vision obstruction",
+    "parrying",
+    "multi-phase boss",
+    "violent plants",
+    "conveyor belt",
+    "starfish",
+    "unlockable difficulty level",
+    "auto-scrolling levels",
+    "temporary invincibility",
+    "multiple enemy boss fights",
+    "cartoon violence",
+    "boss assistance",
+    "food-themed stage",
+    "x-ray damage",
+    "the game awards - best score or music - nominee",
+    "the game awards 2017",
+    "best debut indie game: nominee - 2017 (the game awards)",
+    "the game awards - nominee",
+    "the game awards - best action game - nominee",
+    "the game awards - best art direction - nominee",
+    "the game awards - best art direction - winner",
+    "the game awards - best debut indie game - nominee",
+    "the game awards - best debut indie game - winner",
+    "the game awards - best independent game - nominee",
+    "the game awards - best independent game - winner"
+  ],
+  "alternative_names": [
+    {
+      "name": "茶杯头",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Cuphead.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/StudioMDHR/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/cuphead"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cuphead"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.cupheadgame.com"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001369"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://cuphead.fandom.com/wiki/Cuphead_Wiki"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/cuphead/9NJRX71M5X9P"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/studiomdhr/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/StudioMDHR"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/cuphead-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/268910"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/cuphead"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Cuphead"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Oct 18, 2018",
+      "status": "Released",
+      "date_iso": "2018-10-18"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 28, 2020",
+      "status": "Released",
+      "date_iso": "2020-07-28"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 18, 2019",
+      "status": "Released",
+      "date_iso": "2019-04-18"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 29, 2017",
+      "status": "Released",
+      "date_iso": "2017-09-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 29, 2017",
+      "status": "Released",
+      "date_iso": "2017-09-29"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 29, 2017",
+      "status": "Released",
+      "date_iso": "2017-09-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4kfw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar60f7.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar60f8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar60f9.jpg"
+  ],
+  "videos": [
+    {
+      "title": "E3 2015 Trailer",
+      "youtube_id": "4TjUPXAn2Rg",
+      "url": "https://www.youtube.com/watch?v=4TjUPXAn2Rg"
+    },
+    {
+      "title": "Gameplay video",
+      "youtube_id": "2KaXZcjQiWc",
+      "url": "https://www.youtube.com/watch?v=2KaXZcjQiWc"
+    },
+    {
+      "title": "Gameplay video",
+      "youtube_id": "cMt27Jk36K8",
+      "url": "https://www.youtube.com/watch?v=cMt27Jk36K8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "7jvRoNPBHjk",
+      "url": "https://www.youtube.com/watch?v=7jvRoNPBHjk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "e5iGwE0XJ1s",
+      "url": "https://www.youtube.com/watch?v=e5iGwE0XJ1s"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "HEMyc7qpxjQ",
+      "url": "https://www.youtube.com/watch?v=HEMyc7qpxjQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "N5B-GlawugI",
+      "url": "https://www.youtube.com/watch?v=N5B-GlawugI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3jDZfREYppk",
+      "url": "https://www.youtube.com/watch?v=3jDZfREYppk"
+    },
+    {
+      "title": "Switch Announcement Trailer",
+      "youtube_id": "JvwkS900oZE",
+      "url": "https://www.youtube.com/watch?v=JvwkS900oZE"
+    },
+    {
+      "title": "Cuphead on Xbox One",
+      "youtube_id": "AhBIf279s80",
+      "url": "https://www.youtube.com/watch?v=AhBIf279s80"
+    },
+    {
+      "title": "E3 2017 Trailer",
+      "youtube_id": "D-1n15aIgsE",
+      "url": "https://www.youtube.com/watch?v=D-1n15aIgsE"
+    }
+  ]
+}

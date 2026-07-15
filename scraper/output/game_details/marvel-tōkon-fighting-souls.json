@@ -1,0 +1,160 @@
+{
+  "slug": "marvel-tōkon-fighting-souls",
+  "igdb_id": 347132,
+  "name": "Marvel Tokon: Fighting Souls",
+  "summary": "Assemble your team of legendary Marvel characters in the ultimate 4v4 tag team fighter from PlayStation Studios, Arc System Works and Marvel Games.\nImmerse yourself in the Marvel universe like never before with an iconic roster of heroes and villains, authentic stages, and intuitive gameplay mechanics. Experience the thrill of fast-paced over the top action with stunning anime-inspired visuals, where every battle is a unique and exciting team VS battle experience.",
+  "first_release_year": 2026,
+  "developers": [
+    "Arc System Works"
+  ],
+  "publishers": [
+    "PlayStation Studios",
+    "Sony Interactive Entertainment",
+    "Marvel Games"
+  ],
+  "genres": [
+    "Fighting"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Marvel"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "marvel",
+    "team-based",
+    "superhero",
+    "shared screen",
+    "tag",
+    "based on - comics",
+    "comic book character"
+  ],
+  "alternative_names": [
+    {
+      "name": "MARVEL TŌKON: Fighting Souls",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "MARVEL 闘魂",
+      "comment": "Japanese title - stylized"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marvel_Tokon:_Fighting_Souls"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.marvel.com/games/marvel-tokon-fighting-souls"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3787240"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008019"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/marvel-tokon-fighting-souls"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/marvel-tokon-fighting-souls-a3ecbd"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 06, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-08-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 06, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-08-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar60di.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar60dl.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar69jt.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar69ju.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar69jv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar69jw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar69jx.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar69jy.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar69jz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5q2u.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3nw1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3nw7.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5q2v.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "6fbfrV5qqnU",
+      "url": "https://www.youtube.com/watch?v=6fbfrV5qqnU"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "nZxxPHqFFnY",
+      "url": "https://www.youtube.com/watch?v=nZxxPHqFFnY"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ftKJCWCqiEQ",
+      "url": "https://www.youtube.com/watch?v=ftKJCWCqiEQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "CHHTVR47-8k",
+      "url": "https://www.youtube.com/watch?v=CHHTVR47-8k"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "X4C_0Yf43fM",
+      "url": "https://www.youtube.com/watch?v=X4C_0Yf43fM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "krh98HsMk5c",
+      "url": "https://www.youtube.com/watch?v=krh98HsMk5c"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "AFdxKvplq9M",
+      "url": "https://www.youtube.com/watch?v=AFdxKvplq9M"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "cen2Lbmmo_Q",
+      "url": "https://www.youtube.com/watch?v=cen2Lbmmo_Q"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "JjpJ2xwUagM",
+      "url": "https://www.youtube.com/watch?v=JjpJ2xwUagM"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "slug": "rematch",
+  "igdb_id": 325588,
+  "name": "Rematch",
+  "summary": "Control one player on your team and compete in fast-paced 5v5 matches from an immersive third-person perspective. Team up with your friends and join the action.",
+  "first_release_year": 2025,
+  "developers": [
+    "Sloclap"
+  ],
+  "publishers": [
+    "Sloclap",
+    "Kepler Interactive"
+  ],
+  "genres": [
+    "Sport",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "soccer"
+  ],
+  "alternative_names": [
+    {
+      "name": "REMATCH",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "start_protected_game.exe",
+      "comment": "windows executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Subreddit",
+      "url": "https://reddit.com/r/Rematch"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.playrematch.com/beta-environment"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/rematch/9n5k7hwxl4q6"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rematch_(video_game)"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@Sloclap"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/runtime-7a61b6"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/playrematch.com"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10011349"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/rematch-1"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/PlayRematch"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/jCFZAxMP88"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/PlayRematch/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/playrematch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2138720/REMATCH/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 19, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 19, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 16, 2025",
+      "status": "status_34",
+      "date_iso": "2025-06-16"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 16, 2025",
+      "status": "status_34",
+      "date_iso": "2025-06-16"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 16, 2025",
+      "status": "status_34",
+      "date_iso": "2025-06-16"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 19, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3871.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3tnq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3tnp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3tnt.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3tnr.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3tns.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "mo_RL_K891U",
+      "url": "https://www.youtube.com/watch?v=mo_RL_K891U"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "RsItvQSNjLI",
+      "url": "https://www.youtube.com/watch?v=RsItvQSNjLI"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "FxpFiokmI2c",
+      "url": "https://www.youtube.com/watch?v=FxpFiokmI2c"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "RZ7UxYqzg0s",
+      "url": "https://www.youtube.com/watch?v=RZ7UxYqzg0s"
+    }
+  ]
+}

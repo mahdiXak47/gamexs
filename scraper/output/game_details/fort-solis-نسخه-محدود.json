@@ -1,0 +1,143 @@
+{
+  "slug": "fort-solis-نسخه-محدود",
+  "igdb_id": 204356,
+  "name": "Fort Solis",
+  "summary": "Fort Solis is a single player third person thriller set on the far side of Mars. Engineer Jack Leary responds to a routine alarm. Upon arriving at a dormant Fort Solis he becomes unnerved by the lack of any staff at the base. As the night grows longer events begin to unravel and spiral out of control. The mystery of what Fort Solis was created for starts to appear along with its crew. Can Jack escape with what he has discovered and more importantly, his life?",
+  "first_release_year": 2023,
+  "developers": [
+    "Fallen Leaf"
+  ],
+  "publishers": [
+    "Plug In Digital",
+    "Dear Villagers"
+  ],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "3d",
+    "cinematic",
+    "space"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://dearvillagers.com/project/fort-solis/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/FallenLeafSA"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/FallenLeafGames"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007627"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@fallenleafsa/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/fallenleafgames/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1931730/Fort_Solis"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Fort%20Solis"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/fort-solis-9164ca"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/fort_solis"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/wgeGMj26pg"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 19, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-22"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Oct 26, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-26"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1ukl.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "A6AeXG1x5bU",
+      "url": "https://www.youtube.com/watch?v=A6AeXG1x5bU"
+    },
+    {
+      "title": "Dark side of the Red Planet Trailer",
+      "youtube_id": "1Tk3n9SrCYg",
+      "url": "https://www.youtube.com/watch?v=1Tk3n9SrCYg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "rv5QOFaKtOo",
+      "url": "https://www.youtube.com/watch?v=rv5QOFaKtOo"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "DVnd3wtpf1k",
+      "url": "https://www.youtube.com/watch?v=DVnd3wtpf1k"
+    }
+  ]
+}

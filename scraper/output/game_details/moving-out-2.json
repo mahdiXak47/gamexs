@@ -1,0 +1,164 @@
+{
+  "slug": "moving-out-2",
+  "igdb_id": 214397,
+  "name": "Moving Out 2",
+  "summary": "Moving Out 2 is a video game in which payers attempt to move objects across various levels without hitting objections. It combines elements of strategy, puzzles, and party video games.\n\nIt is a sequel to Moving Out.",
+  "first_release_year": 2023,
+  "developers": [
+    "DEVM Games",
+    "SMG Studio"
+  ],
+  "publishers": [
+    "Team17"
+  ],
+  "genres": [
+    "Simulator",
+    "Strategy",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Comedy",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Moving Out"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "1980s",
+    "physics",
+    "colorful",
+    "cartoony"
+  ],
+  "alternative_names": [
+    {
+      "name": "mo2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/moving-out-2-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/moving-out-2/9P88K6NQW12H"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005309"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Team17/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/team17ltd/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC-pYdpQSasQvmocEDWZUotQ"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1641700/Moving_Out_2"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/team17"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Moving%20Out%202"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.movingout2.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Moving_Out_2"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/MovingOutGame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-15"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1ul8.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "Z5lbsKcgxlY",
+      "url": "https://www.youtube.com/watch?v=Z5lbsKcgxlY"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "-r3Zju6XReo",
+      "url": "https://www.youtube.com/watch?v=-r3Zju6XReo"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "BfaDFovJ_2M",
+      "url": "https://www.youtube.com/watch?v=BfaDFovJ_2M"
+    }
+  ]
+}

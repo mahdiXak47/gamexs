@@ -1,0 +1,188 @@
+{
+  "slug": "star-wars-dark-forces-remastered",
+  "igdb_id": 157,
+  "name": "Star Wars: Dark Forces",
+  "summary": "The Empire stretches its evil clutches across the galaxy, consuming planets with devastating results. Through many struggles, the Rebel Alliance has learned of a new Imperial battle station, the Death Star, with enough power to destroy an entire planet.\n\nThe evil Empire is secretly building a massive army to complete their arsenal of domination and render their reign of terror unstoppable. Kyle Katarn, a formal Imperial Stormtrooper must join the Rebel Alliance's covert operations division, and re-take the Empire from the inside, one battle at a time.\n\nUnlike many other Doom-based games, Star Wars: Dark Forces attempted a realistic approach: the missions followed a specific storyline, sometimes cut up by scenes to progress the narrative. Each mission had its own briefing and objective. The levels were designed to represent actual bases, mines, facilities, and other known places from the Star Wars universe, like Star Destroyer interiors, Jabba's ship, Coruscant, etc.",
+  "first_release_year": 1995,
+  "developers": [
+    "LucasArts"
+  ],
+  "publishers": [
+    "Bullet-Proof Software",
+    "Sony Computer Entertainment",
+    "LucasArts"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Star Wars: Jedi Knight"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Star Wars"
+  ],
+  "game_engines": [
+    "Jedi"
+  ],
+  "keywords": [
+    "star wars",
+    "futuristic",
+    "psone classics",
+    "humble bundle",
+    "stormtrooper",
+    "controller support",
+    "vga graphics",
+    "general-midi audio",
+    "adlib sound",
+    "soundblaster support",
+    "mt-32 support",
+    "gog preservation program",
+    "ensoniq soundscape support",
+    "gravis ultrasound support"
+  ],
+  "alternative_names": [
+    {
+      "name": "Dark Forces 1",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Star Wars: Dark Forces (Classic)",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Dark Forces",
+      "comment": "Abbreviation"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/32400"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.lucasarts.com"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Star_Wars:_Dark_Forces"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/star_wars_dark_forces"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Star%20Wars:%20Dark%20Forces"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://starwars.wikia.com/wiki/Star_Wars%3A_Dark_Forces"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "DOS",
+      "region": null,
+      "date": "Jun 1995",
+      "status": "Cancelled",
+      "date_iso": "1995-06-01"
+    },
+    {
+      "platform": "DOS",
+      "region": null,
+      "date": "Feb 28, 1995",
+      "status": "Cancelled",
+      "date_iso": "1995-02-28"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jun 1995",
+      "status": "Cancelled",
+      "date_iso": "1995-06-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 16, 2009",
+      "status": "Cancelled",
+      "date_iso": "2009-09-16"
+    },
+    {
+      "platform": "PlayStation",
+      "region": null,
+      "date": "Jan 31, 1997",
+      "status": "Cancelled",
+      "date_iso": "1997-01-31"
+    },
+    {
+      "platform": "PlayStation",
+      "region": null,
+      "date": "Mar 04, 1998",
+      "status": "Cancelled",
+      "date_iso": "1998-03-04"
+    },
+    {
+      "platform": "DOS",
+      "region": null,
+      "date": "1995",
+      "status": "Cancelled",
+      "date_iso": "1995-12-31"
+    },
+    {
+      "platform": "PlayStation",
+      "region": null,
+      "date": "Nov 30, 1996",
+      "status": "Cancelled",
+      "date_iso": "1996-11-30"
+    },
+    {
+      "platform": "DOS",
+      "region": null,
+      "date": "1996",
+      "status": "Cancelled",
+      "date_iso": "1996-12-31"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Apr 29, 2010",
+      "status": "status_35",
+      "date_iso": "2010-04-29"
+    },
+    {
+      "platform": "PlayStation Portable",
+      "region": null,
+      "date": "Apr 29, 2010",
+      "status": "status_35",
+      "date_iso": "2010-04-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar30cb.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay video",
+      "youtube_id": "UzAwjza4cUE",
+      "url": "https://www.youtube.com/watch?v=UzAwjza4cUE"
+    },
+    {
+      "title": "Game intro",
+      "youtube_id": "icM8NkNC3T8",
+      "url": "https://www.youtube.com/watch?v=icM8NkNC3T8"
+    }
+  ]
+}

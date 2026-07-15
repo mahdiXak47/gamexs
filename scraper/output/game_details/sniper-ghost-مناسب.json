@@ -1,0 +1,97 @@
+{
+  "slug": "sniper-ghost-مناسب",
+  "igdb_id": 214824,
+  "name": "Sniper: Ghost Warrior",
+  "summary": "Take your shot! The #1 sniper series finally goes mobile, with plenty of firepower, classified combat, and deadly special forces action.",
+  "first_release_year": 2017,
+  "developers": [],
+  "publishers": [
+    "CI Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Strategy"
+  ],
+  "themes": [
+    "Action",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Sniper: Ghost Warrior"
+  ],
+  "spin_off_of": "Sniper: Ghost Warrior",
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "3d",
+    "military",
+    "upgradable weapons",
+    "mission based",
+    "special forces",
+    "atmospheric",
+    "combat",
+    "story rich",
+    "boss fight",
+    "modern military",
+    "upgradeable weapons",
+    "sniping",
+    "escort mission",
+    "weapon modification",
+    "rifle",
+    "suppressive fire",
+    "rescue mission",
+    "mobile port",
+    "bosses",
+    "weapons",
+    "story-driven campaign"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/us/app/sniper-ghost-warrior/id1186200166"
+    },
+    {
+      "label": "iPad",
+      "url": "https://web.archive.org/web/20230127015150/https://apps.apple.com/us/app/sniper-ghost-warrior/id1186200166"
+    },
+    {
+      "label": "Android",
+      "url": "https://web.archive.org/web/20191013111211/https://play.google.com/store/apps/details?id=com.cigames.sgwm"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Aug 29, 2017",
+      "status": "Released",
+      "date_iso": "2017-08-29"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Aug 29, 2017",
+      "status": "Released",
+      "date_iso": "2017-08-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1z20.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "BzFefSwjfRY",
+      "url": "https://www.youtube.com/watch?v=BzFefSwjfRY"
+    }
+  ]
+}

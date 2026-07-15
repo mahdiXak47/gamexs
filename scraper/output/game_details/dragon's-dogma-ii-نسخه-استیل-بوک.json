@@ -1,0 +1,161 @@
+{
+  "slug": "dragon's-dogma-ii-نسخه-استیل-بوک",
+  "igdb_id": 115060,
+  "name": "Dragon's Dogma II",
+  "summary": "Dragon's Dogma is a single player, narrative driven action-RPG that challenges players to choose their own experience – from the appearance of their Arisen, their vocation, their party, how to approach different situations and more.\n\nOn your journey, you’ll be joined by Pawns, mysterious otherworldly beings, in an adventure so unique you will feel as if accompanied by other players while on your own adventure.\n\nAll of these elements are elevated further by the latest in graphics, artificial intelligence (AI) and physics technology to create a truly immersive fantasy world in Dragon's Dogma 2.",
+  "first_release_year": 2024,
+  "developers": [
+    "Capcom Development Division 1"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Dragon's Dogma"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Dragon's Dogma"
+  ],
+  "game_engines": [
+    "RE Engine"
+  ],
+  "keywords": [
+    "day/night cycle",
+    "party customization"
+  ],
+  "alternative_names": [
+    {
+      "name": "Dragon's Dogma 2",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/dragonsdogma"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/dragon's-dogma-2/9PJQMBMJ3154"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005844"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/dragonsdogma"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.dragonsdogma.com/2/en-uk/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2054970"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/dragonsdogma"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Dragon%E2%80%99s%20Dogma%20II"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dragon%27s_Dogma_2"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 22, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 22, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 22, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-22"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Oct 09, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-10-09"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2fc4.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Dev Diary",
+      "youtube_id": "ndLqGPqeQqM",
+      "url": "https://www.youtube.com/watch?v=ndLqGPqeQqM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "HbZPF5Nfmzs",
+      "url": "https://www.youtube.com/watch?v=HbZPF5Nfmzs"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "SaBZt61JXTI",
+      "url": "https://www.youtube.com/watch?v=SaBZt61JXTI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "wgrnghg6OkM",
+      "url": "https://www.youtube.com/watch?v=wgrnghg6OkM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "FSjOtp3QbiQ",
+      "url": "https://www.youtube.com/watch?v=FSjOtp3QbiQ"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "o6qPXWNv_e8",
+      "url": "https://www.youtube.com/watch?v=o6qPXWNv_e8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "NCbt7qSweHM",
+      "url": "https://www.youtube.com/watch?v=NCbt7qSweHM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "-z1udnlXp8k",
+      "url": "https://www.youtube.com/watch?v=-z1udnlXp8k"
+    }
+  ]
+}

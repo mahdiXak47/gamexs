@@ -1,0 +1,178 @@
+{
+  "slug": "vampire-the-masquerade-swansong",
+  "igdb_id": 124992,
+  "name": "Vampire: The Masquerade - Swansong",
+  "summary": "Based on the cult role-playing world and developed by specialists in the genre, Vampire: The Masquerade – Swansong is a narrative RPG in which your every choice determines the fate of the three main characters and of the Boston Camarilla.",
+  "first_release_year": 2022,
+  "developers": [
+    "Big Bad Wolf"
+  ],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Simulator",
+    "Adventure"
+  ],
+  "themes": [
+    "Thriller",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [
+    "Vampire: The Masquerade"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "World of Darkness",
+    "Vampire the Masquerade"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "vampire",
+    "dark fantasy",
+    "multiple protagonists",
+    "vampires",
+    "branching paths",
+    "dialogue choice",
+    "multiple playable characters",
+    "branching narrative"
+  ],
+  "alternative_names": [
+    {
+      "name": "뱀파이어: 마스커레이드 - 스완송",
+      "comment": "Korean title"
+    },
+    {
+      "name": "ヴァンパイア：ザ・マスカレード スワンソング",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "ヴァンパイア: ザ マスカレード スワンソング",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "Swansong.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/vampireswansong"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001409"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/vampire-the-masquerade-swansong"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/vampire-the-masquerade-swansong-switch/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/VampireSwansong"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/VampireSwansong/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/vampire-the-masquerade-swansong/9P1VVS25TH6Z/0010"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://vtm.paradoxwikis.com/Vampire:_The_Masquerade_Swansong"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vampire:_The_Masquerade_%E2%80%93_Swansong"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://vampire-swansong.com/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/VampireSwansong"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Vampire%3A%20The%20Masquerade%20-%20Swansong"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1299510"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 19, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-05-19"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "May 19, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-05-19"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 28, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 19, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-05-19"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 19, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-05-19"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 19, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-05-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1ki3.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "E7L7M0R8fzA",
+      "url": "https://www.youtube.com/watch?v=E7L7M0R8fzA"
+    },
+    {
+      "title": "Leysha Character Trailer",
+      "youtube_id": "r4TcMS4VbeU",
+      "url": "https://www.youtube.com/watch?v=r4TcMS4VbeU"
+    }
+  ]
+}

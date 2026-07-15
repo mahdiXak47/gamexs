@@ -1,0 +1,168 @@
+{
+  "slug": "weird-west-نسخه-definitive-deluxe",
+  "igdb_id": 127350,
+  "name": "Weird West",
+  "summary": "Discover a dark fantasy reimagining of the Wild West where lawmen and gunslingers share the frontier with fantastical creatures. Journey through the origin stories of a group of atypical heroes, written into legend by the decisions you make in an unforgiving land. Each journey is unique and tailored to the actions taken - a series of high stakes stories where everything counts and the world reacts to the choices you make. Form a posse or venture forth alone into an otherworldly confines of the Weird West and make each legend your own.",
+  "first_release_year": 2022,
+  "developers": [
+    "Wolfeye Studios"
+  ],
+  "publishers": [
+    "Devolver Digital"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Simulator",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "western"
+  ],
+  "alternative_names": [
+    {
+      "name": "詭野西部",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "WeirdWest.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/weird-west-906661"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/234916"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/weird-west-definitive-edition/9P0B86JN5X28"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1097350/Weird_West/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/weird_west"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/wolfeyestudios"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/wolfeyegames"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.weirdwest.com/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/weirdwest"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Weird%20West"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/WeirdWest/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://weirdwest.fandom.com/wiki/Weird_West_Wiki"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Weird_West_(video_game)"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/WolfEyeGames"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/DevolverDigital"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 31, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-03-31"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 31, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-03-31"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 08, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-05-08"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 08, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-05-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 31, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-03-31"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 31, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-03-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar11dd.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1j64.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1j63.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1j62.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1j65.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "-rQzjVlQUYQ",
+      "url": "https://www.youtube.com/watch?v=-rQzjVlQUYQ"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "among-ashes",
+  "igdb_id": 258510,
+  "name": "Among Ashes",
+  "summary": "Among Ashes is a terrifying first-person survival horror game. Your friend has sent you a link to a game that someone posted online, but as you play you quickly realize that something is terribly wrong. Whatever you do… KEEP PLAYING",
+  "first_release_year": 2024,
+  "developers": [
+    "Rat Cliff Games"
+  ],
+  "publishers": [
+    "Rat Cliff Games"
+  ],
+  "genres": [
+    "Puzzle",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "retro",
+    "dark",
+    "gore",
+    "violent"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10012763"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/among-ashes/9mtgnb7vnkcm"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/OneTrueGamedev"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/ratcliffgames.bsky.social"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/ratcliffgames/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ratcliffgames.com/among-ashes"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2430900"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 09, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-09"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 09, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-09"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 06, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2f42.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "haiQHUAA6NE",
+      "url": "https://www.youtube.com/watch?v=haiQHUAA6NE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "4rJsovQKcbU",
+      "url": "https://www.youtube.com/watch?v=4rJsovQKcbU"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "xI96QnOuz_E",
+      "url": "https://www.youtube.com/watch?v=xI96QnOuz_E"
+    }
+  ]
+}

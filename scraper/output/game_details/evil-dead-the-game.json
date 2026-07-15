@@ -1,0 +1,153 @@
+{
+  "slug": "evil-dead-the-game",
+  "igdb_id": 141544,
+  "name": "Evil Dead: The Game",
+  "summary": "Evil Dead: The Game is a 4 vs 1 asymmetrical horror/survival game based on the Evil Dead franchise and characters created by Sam Raimi, Robert Tapert, and Bruce Campbell. Defend the world against evil or bring wrath as the Kandarian Demon.",
+  "first_release_year": 2022,
+  "developers": [
+    "Saber Interactive"
+  ],
+  "publishers": [
+    "Boss Team Games"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Evil Dead"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "based on - movie",
+    "survival horror",
+    "asymmetrical survival horror",
+    "asymmetrical"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCDXjYpx0tdMNlx_zYepe8Fw"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002761"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/EvilDeadTheGame"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/evil-dead-the-game"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.evildeadthegame.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1493750"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/evildeadthegame"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Evil_Dead:_The_Game"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/evildeadthegame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 13, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-13"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 13, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-13"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 13, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 13, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-13"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "May 13, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-13"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 13, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar8zb.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "ibyuGSKep10",
+      "url": "https://www.youtube.com/watch?v=ibyuGSKep10"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "6JI9u5_srsM",
+      "url": "https://www.youtube.com/watch?v=6JI9u5_srsM"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ofnsXJHeOYo",
+      "url": "https://www.youtube.com/watch?v=ofnsXJHeOYo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "mbWPOSxMA5o",
+      "url": "https://www.youtube.com/watch?v=mbWPOSxMA5o"
+    }
+  ]
+}

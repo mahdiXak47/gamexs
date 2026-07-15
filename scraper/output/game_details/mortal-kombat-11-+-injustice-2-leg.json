@@ -1,0 +1,93 @@
+{
+  "slug": "mortal-kombat-11-+-injustice-2-leg",
+  "igdb_id": 164774,
+  "name": "Mortal Kombat 11: Ultimate + Injustice 2 Legendary Edition Bundle",
+  "summary": "The Ultimate Fighter Bundle delivers the ultimate 1-2 punch, combining both of NetherRealm Studios' blockbuster fighting franchises in one knockout package. Includes Mortal Kombat 11: Ultimate and Injustice 2: Legendary Edition.",
+  "first_release_year": 2021,
+  "developers": [
+    "NetherRealm Studios"
+  ],
+  "publishers": [
+    "Warner Bros. Entertainment Inc."
+  ],
+  "genres": [
+    "Fighting"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Mortal Kombat 11 Ultimate + Injustice 2 Leg. Edition Bundle",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/mortal-kombat-11-ultimate-+-injustice-2-leg.-edition-bundle/9NPKFN7M233T"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/sub/557569/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP1018-CUSA11395_00-MK11UEINJ2LE0000"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 25, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 25, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 16, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-16"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 16, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-16"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 16, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-16"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar10t6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar10t7.jpg"
+  ],
+  "videos": []
+}

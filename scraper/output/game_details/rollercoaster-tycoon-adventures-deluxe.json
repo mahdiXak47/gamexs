@@ -1,0 +1,103 @@
+{
+  "slug": "rollercoaster-tycoon-adventures-deluxe",
+  "igdb_id": 86497,
+  "name": "RollerCoaster Tycoon Adventures",
+  "summary": "RollerCoaster Tycoon Adventures brings the RollerCoaster series into the next generation - combining classic RTC gameplay with the modernized user experience from the mobile game RollerCoaster Tycoon Touch. The game also has unique features that fits on Nintendo Switch!",
+  "first_release_year": 2018,
+  "developers": [
+    "Nvizzio Creations"
+  ],
+  "publishers": [
+    "Bigben Interactive",
+    "Atari, Inc."
+  ],
+  "genres": [
+    "Simulator",
+    "Strategy"
+  ],
+  "themes": [
+    "Sandbox"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "RollerCoaster Tycoon"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "amusement park",
+    "management",
+    "building"
+  ],
+  "alternative_names": [
+    {
+      "name": "RollerCoaster Tycoon Adventure",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/RollerCoasterTycoon"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/rollercoaster-tycoon-adventures-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.rollercoastertycoon.com/adventures/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/product/rollercoaster-tycoon-adventures/home"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/RollerCoaster%20Tycoon%20Adventures"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/rollercoastertycoon/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 13, 2018",
+      "status": "Released",
+      "date_iso": "2018-12-13"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 19, 2019",
+      "status": "Released",
+      "date_iso": "2019-03-19"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 29, 2018",
+      "status": "Released",
+      "date_iso": "2018-11-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar9w8.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "nDT1k3lDbyY",
+      "url": "https://www.youtube.com/watch?v=nDT1k3lDbyY"
+    }
+  ]
+}

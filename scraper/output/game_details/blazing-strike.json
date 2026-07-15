@@ -1,0 +1,119 @@
+{
+  "slug": "blazing-strike",
+  "igdb_id": 193531,
+  "name": "Blazing Strike",
+  "summary": "Inspired by classic arcade fighting game series from industry greats such as Capcom and SNK, the upcoming 2D fighting game from developer RareBreed Makes Games is Blazing Strike evokes the excitement and nostalgia of 2D pixel art genre pioneers while incorporating a unique games system with modern mechanics.",
+  "first_release_year": 2024,
+  "developers": [
+    "Aksys Games"
+  ],
+  "publishers": [],
+  "genres": [
+    "Fighting",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "controller required"
+  ],
+  "alternative_names": [
+    {
+      "name": "Blazing Strike.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/blazing-strike-594eee"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/blazing-strike"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/blazing-strike-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005382"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/RareBreedMG"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.aksysgames.com/blazingstrike/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1999500"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2qch.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2qcg.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2qcf.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2qci.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "6ldsWPI_48A",
+      "url": "https://www.youtube.com/watch?v=6ldsWPI_48A"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "-CbjsVV31NY",
+      "url": "https://www.youtube.com/watch?v=-CbjsVV31NY"
+    }
+  ]
+}

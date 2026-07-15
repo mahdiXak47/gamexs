@@ -1,0 +1,73 @@
+{
+  "slug": "until-dawn-2",
+  "igdb_id": 404058,
+  "name": "Until Dawn 2",
+  "summary": "Ready to die for likes? Join a team of ambitious ghost hunters as they chase their next viral hit on a remote island haunted by a woman’s chilling story of demons and ghostly phenomena.\n\nWhen the tale begins to manifest in terrifying ways, the group will have to fight their own fear—and anything else that gets in their way – to get off the island alive. Their lives are in your hands. Make every choice count.",
+  "first_release_year": 2027,
+  "developers": [
+    "Firesprite Ltd"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Horror",
+    "Survival",
+    "Drama",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [
+    "Until Dawn"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004067"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.playstation.com/en-us/games/until-dawn-2/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/FirespriteGames"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/firespritegames/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "2027",
+      "status": "Cancelled",
+      "date_iso": "2027-12-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5z8b.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "QpVZ9OvRLZI",
+      "url": "https://www.youtube.com/watch?v=QpVZ9OvRLZI"
+    }
+  ]
+}

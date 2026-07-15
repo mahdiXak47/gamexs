@@ -1,0 +1,105 @@
+{
+  "slug": "little-nightmares-vr-altered-echoes",
+  "igdb_id": 350904,
+  "name": "Little Nightmares VR: Altered Echoes",
+  "summary": "Little Nightmares VR: Altered Echoes is a dark atmospheric adventurepuzzle game where you embody Dark Six, a mysterious figure with the shape of a little girl. Navigate in a disturbing world, solve intricate puzzles, and escape terrifying giant foes in a desperate search to become whole again.",
+  "first_release_year": 2026,
+  "developers": [
+    "Iconik"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Virtual Reality"
+  ],
+  "series": [
+    "Little Nightmares"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "steam achievements",
+    "adjustable text size",
+    "color alternatives",
+    "stereo sound"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Little_Nightmares_VR:_Altered_Echoes"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2482940"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10013518/"
+    },
+    {
+      "label": "Website (25)",
+      "url": "https://www.meta.com/en-us/experiences/little-nightmares-vr-altered-echoes/29336472685998992/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://littlenightmaresvr.com"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "Apr 24, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-24"
+    },
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "Apr 24, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-24"
+    },
+    {
+      "platform": "Meta Quest 2",
+      "region": null,
+      "date": "Apr 24, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5ji8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5ji9.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5jia.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "9CvZB0nFaoE",
+      "url": "https://www.youtube.com/watch?v=9CvZB0nFaoE"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "EFZy_mVsPqo",
+      "url": "https://www.youtube.com/watch?v=EFZy_mVsPqo"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "street-fighter-6-نسخه-years-1-2-fighters",
+  "igdb_id": 338112,
+  "name": "Street Fighter 6: Years 1-2 - Fighters Edition",
+  "summary": "It’s time to hit the streets! With tons of single player and multiplayer content, Street Fighter 6 Years 1-2 Fighters Edition is the ideal way to play the next evolution of the series.\n\nContent\n\n・Full Game\n\n・Year 1 Character Pass\n4 additional characters (Rashid, A.K.I., Ed, Akuma)\n4 additional characters' colors: Outfit 1 Colors 3-10\nBonus: 4,200 Drive Tickets\n\n・Year 2 Character Pass\n4 additional characters (M. Bison, Terry, Mai, Elena)\n4 additional characters' colors: Outfit 1 Colors 3-10\nBonus: 4,200 Drive Tickets\n\n・Years 1-2 Fighters Edition Stages & Colors\n4 additional stages (Ruined Lab, Enma's Hollow, Pao Pao Cafe 6, Reniala Remains)\n18 launch characters' colors: Outfit 1 Colors 3-10",
+  "first_release_year": 2025,
+  "developers": [
+    "Capcom"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [
+    "Fighting",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/street-fighter-6-years-1-2-fighters-edition/9P84MTS0NNJT"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP0102-PPSA02632_00-SF60000YEARS12FE"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-05"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-05"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4pqk.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4pqj.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "49klqmHJar0",
+      "url": "https://www.youtube.com/watch?v=49klqmHJar0"
+    }
+  ]
+}

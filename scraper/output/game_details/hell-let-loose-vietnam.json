@@ -1,0 +1,139 @@
+{
+  "slug": "hell-let-loose-vietnam",
+  "igdb_id": 362063,
+  "name": "Hell Let Loose: Vietnam",
+  "summary": "Step into the explosive fury of war with Hell Let Loose: Vietnam. Play a decisive role in one of the most iconic conflicts in history with expansive 50v50 player battles, where teamwork, tactics and an arsenal of destructive weapons combine to shape the battlefield in your favour.",
+  "first_release_year": 2026,
+  "developers": [
+    "Expression Games"
+  ],
+  "publishers": [
+    "Team17"
+  ],
+  "genres": [
+    "Shooter",
+    "Simulator",
+    "Strategy"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Hell Let Loose"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "vietnam war"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3079210"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://hellletloose.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/HellLetLoose"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/hellletlooseofficial"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/hell_let_loose"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@HellLetLoose"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://reddit.com/r/HellLetLoose"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/hellletloose"
+    },
+    {
+      "label": "Epic",
+      "url": "https://epicgames.com/p/hell-let-loose-vietnam-9540c7"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/hell-let-loose-vietnam/9PKS8XZC74X5/0010"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10014425/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 13, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-08-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 13, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-08-13"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 13, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-08-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar41m5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar41m4.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "JzYzYNVWZ_A",
+      "url": "https://www.youtube.com/watch?v=JzYzYNVWZ_A"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "7VCXh5mi6Fc",
+      "url": "https://www.youtube.com/watch?v=7VCXh5mi6Fc"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "5bwfPLwLwQk",
+      "url": "https://www.youtube.com/watch?v=5bwfPLwLwQk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ihF85cSMnYs",
+      "url": "https://www.youtube.com/watch?v=ihF85cSMnYs"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "bjJxmPIj9Zg",
+      "url": "https://www.youtube.com/watch?v=bjJxmPIj9Zg"
+    }
+  ]
+}

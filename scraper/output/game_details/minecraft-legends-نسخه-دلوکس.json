@@ -1,0 +1,189 @@
+{
+  "slug": "minecraft-legends-نسخه-دلوکس",
+  "igdb_id": 204621,
+  "name": "Minecraft: Legends",
+  "summary": "Discover the mysteries of Minecraft Legends, a new action strategy game. Explore a gentle land of rich resources and lush biomes on the brink of destruction. The ravaging piglins have arrived, and it’s up to you to inspire your allies and lead them in strategic battles to save the Overworld!",
+  "first_release_year": 2023,
+  "developers": [
+    "Blackbird Interactive",
+    "Mojang Studios"
+  ],
+  "publishers": [
+    "Xbox Game Studios"
+  ],
+  "genres": [
+    "Strategy",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Sandbox"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Minecraft"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Minecraft"
+  ],
+  "game_engines": [
+    "Bedrock Engine"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Minecraft Legends",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "MinecraftLegends.Windows.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "MINECRAFT: Legends",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/minecraftlegends"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/legends_game"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/minecraft"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/minecraft/videos"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/minecraft"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.minecraft.net/en-us/about-legends"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://minecraft.wiki/w/Minecraft_Legends"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/minecraft-legends/9NF0D13RPX5L"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000771"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/minecraft-legends-switch/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/MinecraftLegends"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Minecraft_Legends"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1928870/Minecraft_Legends"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Minecraft:%20Legends"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-04-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-04-18"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-04-18"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-04-18"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-04-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-04-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1opr.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar57nn.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "1JSjZqV-YK8",
+      "url": "https://www.youtube.com/watch?v=1JSjZqV-YK8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "mmhnQdWP9aA",
+      "url": "https://www.youtube.com/watch?v=mmhnQdWP9aA"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "RMCaM4dq_PE",
+      "url": "https://www.youtube.com/watch?v=RMCaM4dq_PE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "5FTKoLS_u9M",
+      "url": "https://www.youtube.com/watch?v=5FTKoLS_u9M"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "lw6f-tJKoao",
+      "url": "https://www.youtube.com/watch?v=lw6f-tJKoao"
+    }
+  ]
+}

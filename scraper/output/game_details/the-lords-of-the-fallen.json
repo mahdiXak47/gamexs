@@ -1,0 +1,193 @@
+{
+  "slug": "the-lords-of-the-fallen",
+  "igdb_id": 21593,
+  "name": "Lords of the Fallen",
+  "summary": "A vast world awaits in all-new, medieval dark fantasy action-RPG, Lords of the Fallen. As one of the fabled Dark Crusaders, embark on an epic quest to overthrow Adyr, the demon God.",
+  "first_release_year": 2023,
+  "developers": [
+    "HEXWORKS"
+  ],
+  "publishers": [
+    "CI Games"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Lords of the Fallen"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "action-adventure",
+    "sequel",
+    "real-time combat",
+    "soulslike"
+  ],
+  "alternative_names": [
+    {
+      "name": "Lords of the Fallen 2023",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "堕落之主",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "ロード　オブ ザ　フォールン",
+      "comment": "Japanese title - stylized"
+    },
+    {
+      "name": "LOTF2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/lords-of-the-fallen/9N3CJZ3HFHTF"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002848"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/lotf"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/TheLordsOfTheFallen/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/lords-of-the-fallen"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1501750/The_Lords_of_the_Fallen"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/lotfgame"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/lotfgame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://lordsofthefallen.com/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/lotfgame"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lords_of_the_Fallen_(2023_video_game)"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@cigames"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/lords-of-the-fallen"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 13, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 13, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-13"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 13, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1uc5.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "nPGuYZ59NV8",
+      "url": "https://www.youtube.com/watch?v=nPGuYZ59NV8"
+    },
+    {
+      "title": "Technical Showcase",
+      "youtube_id": "SbsIo-5mY0g",
+      "url": "https://www.youtube.com/watch?v=SbsIo-5mY0g"
+    },
+    {
+      "title": "Dual Worlds - Gameplay Showcase",
+      "youtube_id": "21W5JW6Qyss",
+      "url": "https://www.youtube.com/watch?v=21W5JW6Qyss"
+    },
+    {
+      "title": "Story Trailer",
+      "youtube_id": "_P8u8MvkYMY",
+      "url": "https://www.youtube.com/watch?v=_P8u8MvkYMY"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "98qZILLTeQY",
+      "url": "https://www.youtube.com/watch?v=98qZILLTeQY"
+    },
+    {
+      "title": "Overview Trailer",
+      "youtube_id": "r_dyfP6Aizo",
+      "url": "https://www.youtube.com/watch?v=r_dyfP6Aizo"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "Gkfip4T13bQ",
+      "url": "https://www.youtube.com/watch?v=Gkfip4T13bQ"
+    },
+    {
+      "title": "Version 1.5 Master of Fate",
+      "youtube_id": "4Dlbw_NBDFM",
+      "url": "https://www.youtube.com/watch?v=4Dlbw_NBDFM"
+    },
+    {
+      "title": "Clash of Champions Trailer",
+      "youtube_id": "vOH16kFFjT0",
+      "url": "https://www.youtube.com/watch?v=vOH16kFFjT0"
+    },
+    {
+      "title": "Version 2.0",
+      "youtube_id": "2jQ3S2JzA9s",
+      "url": "https://www.youtube.com/watch?v=2jQ3S2JzA9s"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "slug": "the-precinct-نسخه-محدود",
+  "igdb_id": 249013,
+  "name": "The Precinct",
+  "summary": "Averno City, 1983. Gangs rule the streets and your father lies restless in his grave. Clean up the city, uncover the truth, and embark on thrilling vehicle chases through destructible environments in this neon-noir action sandbox police game.",
+  "first_release_year": 2025,
+  "developers": [
+    "Fallen Tree Games"
+  ],
+  "publishers": [
+    "Kwalee"
+  ],
+  "genres": [
+    "Simulator",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "helicopter",
+    "1980s",
+    "police",
+    "crime",
+    "day/night cycle",
+    "destructible environment",
+    "nextfest october 2024"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/ThePrecinctGame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCmKdHESXQR0Dokmydz9r4uw"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/490110"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/ThePrecinct/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/theprecinctgame/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.theprecinctgame.com/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/the-precinct/9mvjtc8jz348"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/the-precinct-e86840"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008902"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/theprecinctgame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/BZm2kTCFXP"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/the-precinct"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 13, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 13, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-13"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 13, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2b04.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "zU55H9E2YbM",
+      "url": "https://www.youtube.com/watch?v=zU55H9E2YbM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3qF1lLTbi5k",
+      "url": "https://www.youtube.com/watch?v=3qF1lLTbi5k"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "3Iz9qLHQRB4",
+      "url": "https://www.youtube.com/watch?v=3Iz9qLHQRB4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "-amuHU_W07k",
+      "url": "https://www.youtube.com/watch?v=-amuHU_W07k"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "t7gULP9ZEpE",
+      "url": "https://www.youtube.com/watch?v=t7gULP9ZEpE"
+    }
+  ]
+}

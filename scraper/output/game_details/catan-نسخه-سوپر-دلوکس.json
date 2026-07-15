@@ -1,0 +1,112 @@
+{
+  "slug": "catan-نسخه-سوپر-دلوکس",
+  "igdb_id": 19435,
+  "name": "Catan",
+  "summary": "Catan is an adaptation of the multiplayer board game Settlers of Catan, with special features exclusively for the console version. Players take on the roles of settlers, each attempting to build and develop holdings while trading and acquiring resources. The game has illustrations in three variations - including the traditional Kosmos and Mayfair editions and the 3D edition. It's game rules are flexible, including official and alternative \"homemade rules.\" Another feature is support for text chat and audio chat - communicate with your opponents! Play online with players from all over the world.",
+  "first_release_year": 2008,
+  "developers": [
+    "Game Republic Inc."
+  ],
+  "publishers": [
+    "Game Republic Inc."
+  ],
+  "genres": [
+    "Strategy",
+    "Quiz/Trivia",
+    "Card & Board Game"
+  ],
+  "themes": [
+    "Fantasy",
+    "Historical"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "PhyreEngine"
+  ],
+  "keywords": [
+    "turn-based",
+    "tabletop",
+    "base building",
+    "card collection",
+    "resource gathering",
+    "historical figures in fictional settings",
+    "commerce",
+    "theft"
+  ],
+  "alternative_names": [
+    {
+      "name": "Catan PS3",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCX6UdL_rHGunjKD7Jfa2mww"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/CatanCommunity"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/settlersofcatan"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/settlersofcatan"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.catan.com/game/catan-for-sony-ps3"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Catan_(2008_video_game)"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Catan's"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "May 12, 2016",
+      "status": "Released",
+      "date_iso": "2016-05-12"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Dec 18, 2008",
+      "status": "Released",
+      "date_iso": "2008-12-18"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Jun 15, 2010",
+      "status": "Released",
+      "date_iso": "2010-06-15"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "n_0TGniiqTk",
+      "url": "https://www.youtube.com/watch?v=n_0TGniiqTk"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "slug": "hell-let-loose-نسخه-دلوکس",
+  "igdb_id": 32365,
+  "name": "Hell Let Loose",
+  "summary": "Fight in the most iconic battles of the Second World War, including El Alamein, Stalingrad, Omaha Beach, and Foy! This is combat at a whole new scale.. with lumbering tanks dominating the battlefield, and crucial supply chains fuelling the frontlines, you are a cog in the machine of colossal combined arms warfare. Hell Let Loose puts you in the chaos of war, complete with deep player-controlled vehicles, a dynamically evolving front line, and crucial unit-focused gameplay that commands the tide of battle.",
+  "first_release_year": 2019,
+  "developers": [
+    "Expression Games"
+  ],
+  "publishers": [
+    "Team17"
+  ],
+  "genres": [
+    "Shooter",
+    "Simulator",
+    "Strategy",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Hell Let Loose"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "world war ii - ww2",
+    "vehicular combat",
+    "vehicle combat"
+  ],
+  "alternative_names": [
+    {
+      "name": "人间地狱",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Launch_HLL.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/hell-let-loose-03f036"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/hell-let-loose/9N44WK3WV2HJ"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001996"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/hellletlooseofficial/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCqbQTnT8Wj3uzIc8TL9iKNg"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/HellLetLoose"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/hell_let_loose"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hell_Let_Loose"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/hellletloose"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/686810"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/hell-let-loose"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/HellLetLoose"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.hellletloose.com"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 05, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-05"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 06, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-06-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 05, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-10-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 05, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-10-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arm91.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar13k7.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "Jjz64W08HrA",
+      "url": "https://www.youtube.com/watch?v=Jjz64W08HrA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "SORGy9QRMJI",
+      "url": "https://www.youtube.com/watch?v=SORGy9QRMJI"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "FHqdNqMYZIc",
+      "url": "https://www.youtube.com/watch?v=FHqdNqMYZIc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "wzkVGyG8TCI",
+      "url": "https://www.youtube.com/watch?v=wzkVGyG8TCI"
+    }
+  ]
+}

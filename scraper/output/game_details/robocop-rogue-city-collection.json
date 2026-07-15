@@ -1,0 +1,113 @@
+{
+  "slug": "robocop-rogue-city-collection",
+  "igdb_id": 383166,
+  "name": "RoboCop: Rogue City - Collection",
+  "summary": "The Rogue City Collection brings together RoboCop: Rogue City and RoboCop: Rogue City - Unfinished Business, with all the bonus content from both titles: Vanguard Pack and Alex Murphy Pack for the base game and Prime Directives Pack for the expansion.\n\nThe physical edition comes with updated discs that contain the add-ons and a metal case.",
+  "first_release_year": 2025,
+  "developers": [
+    "Teyon"
+  ],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "RoboCop: Rogue City"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "RoboCop"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/bundle/61116/Robocop_Rogue_City__Collection/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/robocop_rogue_city_collection"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/RoboCopRC"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/RoboCopRogueCity/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/robocoproguecity/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCxsEv2ndN5GTROIZf8HlN1A"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/robocop-rogue-city-collection/9P8Q0C0QZJNR/0010"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP6665-PPSA05060_00-ROBOCOL000000001"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5016.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5017.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5018.jpg"
+  ],
+  "videos": [
+    {
+      "title": "",
+      "youtube_id": "LZZvkj9ffYo",
+      "url": "https://www.youtube.com/watch?v=LZZvkj9ffYo"
+    },
+    {
+      "title": "",
+      "youtube_id": "xj1JDLwyCfQ",
+      "url": "https://www.youtube.com/watch?v=xj1JDLwyCfQ"
+    }
+  ]
+}

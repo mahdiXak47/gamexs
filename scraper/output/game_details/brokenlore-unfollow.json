@@ -1,0 +1,175 @@
+{
+  "slug": "brokenlore-unfollow",
+  "igdb_id": 235085,
+  "name": "BrokenLore: Unfollow",
+  "summary": "BrokenLore: Unfollow is a surreal horror game where you play as a victim of bullying, fighting terrifying monsters as you uncover a dark mystery in a thrilling journey of terror. It pushes you to the edge of your seat as you explore the dark impact of social media on mental health.",
+  "first_release_year": 2026,
+  "developers": [
+    "Serafini Productions"
+  ],
+  "publishers": [
+    "Serafini Productions",
+    "Shochiku"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Thriller"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "BrokenLore"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "UNFOLLOW",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "BrokenLore: UNFOLLOW",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Unfollow.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008188"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/brokenlore-unfollow-2025"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@SerafiniProductions"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/db56mT4sFg"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2133830/UNFOLLOW"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://serafiniproductions.com/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/brokenlore-unfollow-5ebfc0"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/brokenlore-unfollow/9ns630hx5ztx"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/UNFOLLOW_GAME"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SerafiniProductionsGK"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/serafiniproductions"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 16, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-01-16"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 16, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-01-16"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 16, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-01-16"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar23wr.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "jHjZtRAuPEU",
+      "url": "https://www.youtube.com/watch?v=jHjZtRAuPEU"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "H1h-xc4dIvg",
+      "url": "https://www.youtube.com/watch?v=H1h-xc4dIvg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ArYckvnkmKQ",
+      "url": "https://www.youtube.com/watch?v=ArYckvnkmKQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "NtIYS5VkaTM",
+      "url": "https://www.youtube.com/watch?v=NtIYS5VkaTM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "pedXkr9Rnb4",
+      "url": "https://www.youtube.com/watch?v=pedXkr9Rnb4"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "pu84KA_LDWo",
+      "url": "https://www.youtube.com/watch?v=pu84KA_LDWo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "4XvOH1oTzEA",
+      "url": "https://www.youtube.com/watch?v=4XvOH1oTzEA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ekhHAttO_vU",
+      "url": "https://www.youtube.com/watch?v=ekhHAttO_vU"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "Tpf1l3RKCpM",
+      "url": "https://www.youtube.com/watch?v=Tpf1l3RKCpM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "0mWW1YMm2xc",
+      "url": "https://www.youtube.com/watch?v=0mWW1YMm2xc"
+    }
+  ]
+}

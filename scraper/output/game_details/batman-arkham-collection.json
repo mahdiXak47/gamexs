@@ -1,0 +1,139 @@
+{
+  "slug": "batman-arkham-collection",
+  "igdb_id": 112659,
+  "name": "Batman: Arkham Collection",
+  "summary": "Batman: Arkham Collection includes the definitive versions of Rocksteady's Arkham Trilogy games, including all post-launch content, in one complete collection.\n\nBatman: Arkham Asylum and Batman: Arkham City have been remastered with updated visuals. The collection is completed by Batman: Arkham Knight.",
+  "first_release_year": 2018,
+  "developers": [
+    "Rocksteady Studios"
+  ],
+  "publishers": [
+    "Warner Bros. Interactive Entertainment"
+  ],
+  "genres": [
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Thriller",
+    "Stealth",
+    "Drama",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Batman",
+    "DC Comics"
+  ],
+  "game_engines": [
+    "Unreal Engine 3"
+  ],
+  "keywords": [
+    "enhanced version",
+    "batman",
+    "licensed game",
+    "based on - comics"
+  ],
+  "alternative_names": [
+    {
+      "name": "배트맨 : 아캄 나이트 컬렉션",
+      "comment": "Korean title"
+    },
+    {
+      "name": "Batman: Arkham 컬렉션",
+      "comment": "Korean title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/batman-arkham-collection/C4H36B87SVL1"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://arkhamcity.fandom.com/wiki/Batman:_Return_To_Arkham"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCzi3f1gdbL-rDLUHFxq1GpA"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/BatmanArkham"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/BatmanArkham"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/batmanarkham"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/BatmanArkham"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Batman:_Arkham"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/sub/320795/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://rocksteadyltd.com/#arkham-knight"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 06, 2019",
+      "status": "Released",
+      "date_iso": "2019-09-06"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 27, 2018",
+      "status": "Released",
+      "date_iso": "2018-11-27"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 27, 2018",
+      "status": "Released",
+      "date_iso": "2018-11-27"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 06, 2019",
+      "status": "Released",
+      "date_iso": "2019-09-06"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 28, 2018",
+      "status": "Released",
+      "date_iso": "2018-11-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1085.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1084.jpg"
+  ],
+  "videos": []
+}

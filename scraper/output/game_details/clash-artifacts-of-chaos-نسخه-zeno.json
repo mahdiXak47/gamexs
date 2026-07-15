@@ -1,0 +1,66 @@
+{
+  "slug": "clash-artifacts-of-chaos-نسخه-zeno",
+  "igdb_id": 230125,
+  "name": "Clash: Artifacts of Chaos - Zeno Edition",
+  "summary": "Zeno Edition Includes: Base game; Supporter Pack: 2 Zeno Clash Armors, 3 Headwears for the Boy, Humiliation Artifact; Digital Artbook; Original Soundtrack",
+  "first_release_year": 2023,
+  "developers": [],
+  "publishers": [],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/clash_artifacts_of_chaos_zeno_edition"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 09, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-09"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 09, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-09"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 09, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-09"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 09, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-09"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2804.jpg"
+  ],
+  "videos": []
+}

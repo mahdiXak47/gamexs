@@ -1,0 +1,152 @@
+{
+  "slug": "octopath-traveler-0",
+  "igdb_id": 358535,
+  "name": "Octopath Traveler 0",
+  "summary": "All the definitive elements of the Octopath Traveler series return in this exciting prequel set in the realm of Orsterra. Embark on a brand new adventure of your own creation in this stunning HD-2D RPG, Octopath Traveler 0!\n\nBrand-new features to the series include a character creation system where you get to become the hero, and town building mechanics as you seek to restore your devastated home.",
+  "first_release_year": 2025,
+  "developers": [
+    "Dokidoki Grooveworks",
+    "Square Enix Creative Studio 5"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Role-playing (RPG)"
+  ],
+  "themes": [
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Octopath Traveler"
+  ],
+  "spin_off_of": "Octopath Traveler: Champions of the Continent",
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "turn-based combat",
+    "turn-based rpg"
+  ],
+  "alternative_names": [
+    {
+      "name": "OT0",
+      "comment": "Acronym"
+    },
+    {
+      "name": "OCTOPATH TRAVELER 0",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Octopath_Traveler0.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/JP0082-PPSA28492_00-OCTOPATH000PS5JP?utm_source=etailers&utm_medium=internal_sqex"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/OCTOPATH_PR"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.jp.square-enix.com/octopathtraveler0/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://octopathtraveler.fandom.com/wiki/Octopath_Traveler_0"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/octopath-traveler-0"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Octopath_Traveler_0"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/octopath-traveler-0-switch-2/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/octopath-traveler-0/9n5pjhz88g5v"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3014320"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-04"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Dec 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-04"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-04"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-04"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-04"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-04"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3xls.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4xp2.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3xlt.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3xlu.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ENHXHzvMx-g",
+      "url": "https://www.youtube.com/watch?v=ENHXHzvMx-g"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "FBzEhPDvYlY",
+      "url": "https://www.youtube.com/watch?v=FBzEhPDvYlY"
+    }
+  ]
+}

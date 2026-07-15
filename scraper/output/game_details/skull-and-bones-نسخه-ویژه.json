@@ -1,0 +1,206 @@
+{
+  "slug": "skull-and-bones-نسخه-ویژه",
+  "igdb_id": 37062,
+  "name": "Skull and Bones",
+  "summary": "Set sail into the vibrant open world of Skull and Bones, a naval online action RPG where you rise to become the most fearsome pirate kingpin.\n\nCustomize your fleet, craft unique ships, and forge formidable weapons to dominate in exhilarating sea battles against your foes, all while expanding your pirate empire. Join a dynamic and ever-evolving world that brings fresh challenges, features, and stories with each season, immersing you in a continuously unfolding pirate saga.",
+  "first_release_year": 2024,
+  "developers": [
+    "Ubisoft Singapore"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Open world",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "AnvilNext"
+  ],
+  "keywords": [
+    "naval",
+    "action-adventure",
+    "ships",
+    "naval warfare",
+    "action-rpg",
+    "pirate"
+  ],
+  "alternative_names": [
+    {
+      "name": "Skull & Bones",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "SAB",
+      "comment": "Acronym"
+    },
+    {
+      "name": "S&B",
+      "comment": "Acronym"
+    },
+    {
+      "name": "skullandbones.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/skull-and-bones"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/225700"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/skull-and-bones/BXF9VWKCD6QW"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/skullnbonesgame"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Skull_%26_Bones_(video_game)"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/skull-and-bones"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Skull%20and%20Bones"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ubisoft.com/en-us/game/skull-and-bones"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SkullandBonesGameUS"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@Ubisoft"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/skullandbonesgame/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2853730/Skull_and_Bones/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/skullandbonesgame/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 16, 2024",
+      "status": "Released",
+      "date_iso": "2024-02-16"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 16, 2024",
+      "status": "Released",
+      "date_iso": "2024-02-16"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 16, 2024",
+      "status": "Released",
+      "date_iso": "2024-02-16"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6r2.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/za7egjp7nczbv6wpqrmq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/egzm2fk5okjsjxoea1cx.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/oclxbe1tyhg3ritc83yf.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6r1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6qz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6r0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/rhrmfywvs1twsdueget4.jpg"
+  ],
+  "videos": [
+    {
+      "title": "E3 2017: Cinematic Trailer",
+      "youtube_id": "3BUJdlvdVbw",
+      "url": "https://www.youtube.com/watch?v=3BUJdlvdVbw"
+    },
+    {
+      "title": "E3 2017 Gameplay Trailer",
+      "youtube_id": "GXHP61CtPN0",
+      "url": "https://www.youtube.com/watch?v=GXHP61CtPN0"
+    },
+    {
+      "title": "E3 2018 Gameplay Trailer",
+      "youtube_id": "WavXNnbUruo",
+      "url": "https://www.youtube.com/watch?v=WavXNnbUruo"
+    },
+    {
+      "title": "E3 2018 Cinematic Trailer",
+      "youtube_id": "9AHJY2JmLho",
+      "url": "https://www.youtube.com/watch?v=9AHJY2JmLho"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "8i2eHxj5NMU",
+      "url": "https://www.youtube.com/watch?v=8i2eHxj5NMU"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "fgy4WZ9ta7E",
+      "url": "https://www.youtube.com/watch?v=fgy4WZ9ta7E"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "Qz71FEVDUFU",
+      "url": "https://www.youtube.com/watch?v=Qz71FEVDUFU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "M3sXctSIM_A",
+      "url": "https://www.youtube.com/watch?v=M3sXctSIM_A"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "OYO9d3bjaLc",
+      "url": "https://www.youtube.com/watch?v=OYO9d3bjaLc"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "teZaV3bOMxY",
+      "url": "https://www.youtube.com/watch?v=teZaV3bOMxY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "cRaHe9PyFgE",
+      "url": "https://www.youtube.com/watch?v=cRaHe9PyFgE"
+    }
+  ]
+}

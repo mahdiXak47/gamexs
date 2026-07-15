@@ -1,0 +1,68 @@
+{
+  "slug": "saints-row-نسخه-criminal-customs",
+  "igdb_id": 186923,
+  "name": "Saints Row: Criminal Customs Edition",
+  "summary": "Welcome to Santo Also, a vibrant fictional city in the heart of the American Southwest. In a world rife with crime, where lawless factions fight for power, a group of young friends embark on their own criminal venture, as they rise to the top in their bid to become Self Made.",
+  "first_release_year": 2022,
+  "developers": [],
+  "publishers": [],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://saintsrow.com/gb"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 23, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-23"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 23, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-23"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 23, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 23, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 23, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-23"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

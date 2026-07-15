@@ -1,0 +1,147 @@
+{
+  "slug": "contra-operation-galuga",
+  "igdb_id": 266684,
+  "name": "Contra: Operation Galuga",
+  "summary": "The legendary Contra series is back! Contra: Operation Galuga is a modern reimagining of the classic run-‘n’-gun action game from the ’80s, featuring modern graphics and sound. Encounter new stages, new play mechanics, an updated weapons system and explosive co-op combat for up to two players in Story Mode or four players in Arcade Mode.",
+  "first_release_year": 2024,
+  "developers": [
+    "WayForward"
+  ],
+  "publishers": [
+    "Konami"
+  ],
+  "genres": [
+    "Shooter",
+    "Platform",
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Contra"
+  ],
+  "spin_off_of": "Contra",
+  "franchises": [
+    "Contra"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "steam trading cards",
+    "steam achievements",
+    "xbox controller support for pc",
+    "steam cloud",
+    "controller support",
+    "steam deck",
+    "steam families",
+    "steam remote play"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2235020"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007962"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/contra-operation-galuga-switch/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/ContraGlobal/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.konami.com/games/contra/og/us/en/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/ContraSoldier"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/contra-operation-galuga"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/contra_operation_galuga"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 12, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-12"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 20, 2024",
+      "status": "Released",
+      "date_iso": "2024-06-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 20, 2024",
+      "status": "Released",
+      "date_iso": "2024-06-20"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 12, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 12, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-12"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 12, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4qwk.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4myy.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4myz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4mz0.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "kV-8Of14gD0",
+      "url": "https://www.youtube.com/watch?v=kV-8Of14gD0"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "CV5WaaJSpBk",
+      "url": "https://www.youtube.com/watch?v=CV5WaaJSpBk"
+    }
+  ]
+}

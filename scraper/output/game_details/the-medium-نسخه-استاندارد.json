@@ -1,0 +1,203 @@
+{
+  "slug": "the-medium-نسخه-استاندارد",
+  "igdb_id": 133308,
+  "name": "The Medium",
+  "summary": "Discover a dark mystery only a medium can solve. Explore the real world and the spirit world at the same time. Use your psychic abilities to solve puzzles spanning both worlds, uncover deeply disturbing secrets, and survive encounters with The Maw - a monster born from an unspeakable tragedy. The Medium is a third-person psychological horror game that features patented dual-reality gameplay and an original soundtrack.",
+  "first_release_year": 2021,
+  "developers": [
+    "Bloober Team"
+  ],
+  "publishers": [
+    "Bloober Team"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Thriller",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "psychological horror",
+    "murder mystery",
+    "atmospheric"
+  ],
+  "alternative_names": [
+    {
+      "name": "더 미디움",
+      "comment": "Korean title"
+    },
+    {
+      "name": "The Medium -霊-",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "Medium.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/the_medium"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/themedium"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/blooberteam"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Medium_(video_game)"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/product/the-medium"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/MediumGame"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/the-medium/9NFSR96G6K4N"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002899"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/TheMediumGame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20Medium"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://themediumgame.com/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/the_medium_game"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1293160/The_Medium/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 28, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-01-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 28, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-01-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 03, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-09-03"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Aug 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar8gz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar8h0.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "tTAz758Vt88",
+      "url": "https://www.youtube.com/watch?v=tTAz758Vt88"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "_zQe9pPSkM8",
+      "url": "https://www.youtube.com/watch?v=_zQe9pPSkM8"
+    },
+    {
+      "title": "Behind The Scenes",
+      "youtube_id": "1_NloIWwAkA",
+      "url": "https://www.youtube.com/watch?v=1_NloIWwAkA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Bi8nECXlo6Y",
+      "url": "https://www.youtube.com/watch?v=Bi8nECXlo6Y"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "9VKG6FoGK-w",
+      "url": "https://www.youtube.com/watch?v=9VKG6FoGK-w"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "5dNZpKhpvGg",
+      "url": "https://www.youtube.com/watch?v=5dNZpKhpvGg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "hBg-Jr2UfbY",
+      "url": "https://www.youtube.com/watch?v=hBg-Jr2UfbY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "bAh_IJYmLiw",
+      "url": "https://www.youtube.com/watch?v=bAh_IJYmLiw"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "iJCE9umarQ0",
+      "url": "https://www.youtube.com/watch?v=iJCE9umarQ0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "r4awetYokyQ",
+      "url": "https://www.youtube.com/watch?v=r4awetYokyQ"
+    },
+    {
+      "title": "PlayStation 5 Reveal Trailer",
+      "youtube_id": "I40lX-pyCJ0",
+      "url": "https://www.youtube.com/watch?v=I40lX-pyCJ0"
+    },
+    {
+      "title": "It Came From the Rage - Story Trailer",
+      "youtube_id": "tzOBdVFSbQE",
+      "url": "https://www.youtube.com/watch?v=tzOBdVFSbQE"
+    }
+  ]
+}

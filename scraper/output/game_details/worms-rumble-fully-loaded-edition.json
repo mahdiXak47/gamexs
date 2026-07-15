@@ -1,0 +1,57 @@
+{
+  "slug": "worms-rumble-fully-loaded-edition",
+  "igdb_id": 146164,
+  "name": "Worms Rumble: Fully Loaded Edition",
+  "summary": "Welcome to Worms Rumble, the first-ever Worms game to feature real-time combat! Dive into epic 32-player Battle Royale and Deathmatch modes with full multi-platform cross-play as you fight to be the last worm standing!",
+  "first_release_year": 2021,
+  "developers": [],
+  "publishers": [],
+  "genres": [],
+  "themes": [],
+  "game_modes": [],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.team17.com/games/worms-rumble/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 13, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-13"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 13, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-13"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 13, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 13, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-13"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

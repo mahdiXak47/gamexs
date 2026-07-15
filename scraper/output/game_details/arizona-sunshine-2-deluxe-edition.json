@@ -1,0 +1,148 @@
+{
+  "slug": "arizona-sunshine-2-deluxe-edition",
+  "igdb_id": 250628,
+  "name": "Arizona Sunshine II",
+  "summary": "Dust off your shotgun and sharpen your machete. Accompanied by an all-new friend, Arizona Sunshine 2 takes you back to the limb-strewn deserts of post-apocalyptic Arizona in this gory, next-gen sequel to one of VR's most-played games.",
+  "first_release_year": 2023,
+  "developers": [
+    "Vertigo Games"
+  ],
+  "publishers": [
+    "Vertigo Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Virtual Reality"
+  ],
+  "series": [
+    "Arizona Sunshine"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "zombies",
+    "post-apocalyptic",
+    "vr only"
+  ],
+  "alternative_names": [
+    {
+      "name": "Arizona Sunshine 2",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Arizona Sunshine 2 VR",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "ArizonaSunshine2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/arizona-sunshine-ii"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008622"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/ZvdE9Bf"
+    },
+    {
+      "label": "Website (25)",
+      "url": "https://www.meta.com/en-us/experiences/arizona-sunshine-2/5245041552210029/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/vertigogames"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/vertigogames/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/VertigoGames/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.arizona-sunshine.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1540210/Arizona_Sunshine_2/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@vertigogames"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "Dec 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-07"
+    },
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "Dec 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-07"
+    },
+    {
+      "platform": "Meta Quest 3",
+      "region": null,
+      "date": "Dec 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-07"
+    },
+    {
+      "platform": "Meta Quest 2",
+      "region": null,
+      "date": "Dec 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-07"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2bze.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar42bj.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "ab1wbeTKGNM",
+      "url": "https://www.youtube.com/watch?v=ab1wbeTKGNM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "YQJP_8VOla0",
+      "url": "https://www.youtube.com/watch?v=YQJP_8VOla0"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "-QM1jf_BOzo",
+      "url": "https://www.youtube.com/watch?v=-QM1jf_BOzo"
+    }
+  ]
+}

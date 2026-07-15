@@ -1,0 +1,145 @@
+{
+  "slug": "pneumata",
+  "igdb_id": 223183,
+  "name": "Pneumata",
+  "summary": "The tenants are going missing, the screams are getting louder, and the building itself keeps changing. There's a serial killer loose in the city of Milton. Investigate the mysterious rumors surrounding Clover Hill Apartments and discover the terrible secrets that lay beneath the surface.",
+  "first_release_year": 2024,
+  "developers": [
+    "Deadbolt Interactive"
+  ],
+  "publishers": [
+    "Deadbolt Interactive",
+    "Perp Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "psychological horror",
+    "lovecraftian"
+  ],
+  "alternative_names": [
+    {
+      "name": "PneumataPCMaster.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/PneumataGame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008674"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/pneumata-b5de46"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1183850"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Pneumata"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.deadboltinteractive.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@pneumatagame"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/pneumata"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "TBD",
+      "status": "Cancelled"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "TBD",
+      "status": "Cancelled"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 20, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 20, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 20, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1xku.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "LewApYQ207Q",
+      "url": "https://www.youtube.com/watch?v=LewApYQ207Q"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ivU9z8TZWjw",
+      "url": "https://www.youtube.com/watch?v=ivU9z8TZWjw"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "knom0SarqAQ",
+      "url": "https://www.youtube.com/watch?v=knom0SarqAQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "u1ZRPX-emEc",
+      "url": "https://www.youtube.com/watch?v=u1ZRPX-emEc"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "2v3YwKdyhIE",
+      "url": "https://www.youtube.com/watch?v=2v3YwKdyhIE"
+    }
+  ]
+}

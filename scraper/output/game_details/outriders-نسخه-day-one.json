@@ -1,0 +1,106 @@
+{
+  "slug": "outriders-نسخه-day-one",
+  "igdb_id": 139917,
+  "name": "Outriders: Day One Edition",
+  "summary": "The DAY ONE EDITION includes: \n- OUTRIDERS Game \n- The Hell’s Rangers Male and Female Gear Sets. \n- The Hell’s Rangers Arsenal of 11 unique Guns. \n- The Hell’s Rangers Truck Mods and Decals.",
+  "first_release_year": 2021,
+  "developers": [
+    "People Can Fly"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/outriders"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/outriders"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/outridersgame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/outriders"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Outriders_(video_game)"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://outriders.square-enix-games.com/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/outridersgame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-04-01"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-04-01"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-04-01"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "lVB98xP6gds",
+      "url": "https://www.youtube.com/watch?v=lVB98xP6gds"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "TiwOS45F_v8",
+      "url": "https://www.youtube.com/watch?v=TiwOS45F_v8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "gzRocxoettU",
+      "url": "https://www.youtube.com/watch?v=gzRocxoettU"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "slug": "ys-x-nordics-نسخه-دلوکس",
+  "igdb_id": 229176,
+  "name": "Ys X: Nordics",
+  "summary": "Ys X: Nordics is a brand-new adventure set in the northern sea Obelia Bay, featuring young adventurer Adol Christin as the protagonist. Please look forward to this latest title in the Ys series, from the development team that brought you Ys VIII: Lacrimosa of Dana and Ys IX: Monstrum Nox.",
+  "first_release_year": 2023,
+  "developers": [
+    "Nihon Falcom"
+  ],
+  "publishers": [
+    "NIS America",
+    "Nihon Falcom",
+    "Clouded Leopard Entertainment Inc."
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Ys"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Ys"
+  ],
+  "game_engines": [
+    "Falcom Developer Kit"
+  ],
+  "keywords": [
+    "anime",
+    "jrpg"
+  ],
+  "alternative_names": [
+    {
+      "name": "Ys X",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "伊蘇X -北境歷險-",
+      "comment": "Chinese title - traditional"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/ys-x-nordics-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007199"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/ys-x-nordics-0ed760"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.falcom.co.jp/ysx"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://isu.fandom.com/wiki/Ys_X:_Nordics"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2731870/Ys_X_Nordics/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/ys_x_nordics"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 28, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 14, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-14"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 28, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 28, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 28, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-28"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 28, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-28"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 28, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 28, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 28, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 28, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2hte.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2j85.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2htf.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2htc.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2htd.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4qgd.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4qge.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "XMw-1nS8Qh4",
+      "url": "https://www.youtube.com/watch?v=XMw-1nS8Qh4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "qAha8KJ20Z0",
+      "url": "https://www.youtube.com/watch?v=qAha8KJ20Z0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "i7ov_9-ONps",
+      "url": "https://www.youtube.com/watch?v=i7ov_9-ONps"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "RJfJjODZZok",
+      "url": "https://www.youtube.com/watch?v=RJfJjODZZok"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "Cr5_4eGWQio",
+      "url": "https://www.youtube.com/watch?v=Cr5_4eGWQio"
+    }
+  ]
+}

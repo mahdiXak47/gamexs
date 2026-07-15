@@ -1,0 +1,214 @@
+{
+  "slug": "marvel-cosmic-invasion",
+  "igdb_id": 337035,
+  "name": "Marvel Cosmic Invasion",
+  "summary": "Marvel Cosmic Invasion is a side-scrolling beat 'em up featuring 15 playable Marvel heroes. Designed in the style of classic 1990s arcade brawlers, the game allows players to switch between two characters mid-battle using the Cosmic Swap mechanic. Each hero brings unique abilities and team-up attacks, with additional upgrades and rewards becoming available as players progress.",
+  "first_release_year": 2025,
+  "developers": [
+    "Tribute Games"
+  ],
+  "publishers": [
+    "DotEmu"
+  ],
+  "genres": [
+    "Fighting",
+    "Hack and slash/Beat 'em up",
+    "Adventure",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Marvel",
+    "Black Panther",
+    "Spider-Man",
+    "Venom",
+    "Wolverine",
+    "Hulk",
+    "Captain America",
+    "Guardians of the Galaxy",
+    "Fantastic Four",
+    "X-Men"
+  ],
+  "game_engines": [
+    "FNA"
+  ],
+  "keywords": [
+    "marvel",
+    "pixel graphics",
+    "superhero",
+    "steam achievements",
+    "xbox controller support for pc",
+    "steam cloud",
+    "comic book character",
+    "superpowers",
+    "controller support",
+    "steam deck",
+    "steam families",
+    "available on - pc gamepass",
+    "available on - xbox gamepass",
+    "steam remote play"
+  ],
+  "alternative_names": [
+    {
+      "name": "MARVEL Cosmic Invasion",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Game.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2753970"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/marvel-cosmic-invasion/9n79tqtztqq4"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10012545"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/KSq4P8NeAE"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/marvel-cosmic-invasion-switch-2/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/tribute_games/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/MARVELCosmicInvasion"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@Dotemuofficial"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/marvel-cosmic-invasion"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.dotemu.com/games/marvel-cosmic-invasion/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/MARVELCosmicInv"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/tributegames.com"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marvel_Cosmic_Invasion"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 01, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-01"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Dec 01, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 01, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-01"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 01, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-01"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 01, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-01"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 01, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-01"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 01, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-01"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Dec 01, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-01"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar458h.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar458i.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar458j.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "19_uUhZsjsg",
+      "url": "https://www.youtube.com/watch?v=19_uUhZsjsg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "O2IN6vcgda0",
+      "url": "https://www.youtube.com/watch?v=O2IN6vcgda0"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "itVLfmX3Ts8",
+      "url": "https://www.youtube.com/watch?v=itVLfmX3Ts8"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "g5v-99VHcWw",
+      "url": "https://www.youtube.com/watch?v=g5v-99VHcWw"
+    }
+  ]
+}

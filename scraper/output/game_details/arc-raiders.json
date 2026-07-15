@@ -1,0 +1,178 @@
+{
+  "slug": "arc-raiders",
+  "igdb_id": 185258,
+  "name": "ARC Raiders",
+  "summary": "ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC. Enlist as a Raider and scavenge the surface to thrive in a desolate world. But beware of the machines. Beware of Raiders preying on others.\n\nARC Raiders blends the tension from extraction shooters with atmospheric settings from the adventure genre. Lurking threats—from deadly machines to other Raiders—create a constant ebb and flow of intensity, where every moment is charged with the thrill of high stakes. Extract valuable loot and explore the unfolding mysteries of a vibrant, lethal world.\n\nARC Raiders supports seamless social play across PlayStation, Xbox, and PC. Play with your squad and thrive as a team, or rise in the ranks as a lone ranger.",
+  "first_release_year": 2025,
+  "developers": [
+    "Embark Studios"
+  ],
+  "publishers": [
+    "Embark Studios"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "post-apocalyptic",
+    "physics",
+    "crafting",
+    "robots",
+    "italy",
+    "loot gathering",
+    "resource gathering",
+    "realism",
+    "skill tree",
+    "pvpve",
+    "underground",
+    "extraction",
+    "ai-generated voices",
+    "extraction shooter",
+    "proximity voice chat",
+    "dystopian future"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/arcraiders"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/arc-raiders"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/ArcRaiders/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1808500/ARC_Raiders"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/arc-raiders/9ndf1f263rz4"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003610"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ARC_Raiders"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://arc-raiders.fandom.com/wiki/Arc_Raiders_Wiki"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/arc_raiders/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://arcraiders.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/ARCRaidersGame"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/arc-raiders"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/@ARCRaidersGame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5ex0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar47zh.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar47zg.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar57bz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5ewz.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "61adghS9aps",
+      "url": "https://www.youtube.com/watch?v=61adghS9aps"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "z8NN00Wtj5c",
+      "url": "https://www.youtube.com/watch?v=z8NN00Wtj5c"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "OpCooWm-PDs",
+      "url": "https://www.youtube.com/watch?v=OpCooWm-PDs"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "xuftkDxjGT4",
+      "url": "https://www.youtube.com/watch?v=xuftkDxjGT4"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "uiXxn33RMOU",
+      "url": "https://www.youtube.com/watch?v=uiXxn33RMOU"
+    },
+    {
+      "title": "Tech Test 2 Trailer",
+      "youtube_id": "dTRRb7ODhjA",
+      "url": "https://www.youtube.com/watch?v=dTRRb7ODhjA"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "IpeJjQDXNAE",
+      "url": "https://www.youtube.com/watch?v=IpeJjQDXNAE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "XE0y_K8-iSQ",
+      "url": "https://www.youtube.com/watch?v=XE0y_K8-iSQ"
+    }
+  ]
+}

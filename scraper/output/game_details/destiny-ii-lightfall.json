@@ -1,0 +1,168 @@
+{
+  "slug": "destiny-ii-lightfall",
+  "igdb_id": 134832,
+  "name": "Destiny 2: Lightfall",
+  "summary": "Shattered glass glints in the starlight. Soldiers of the Shadow Legion battle with Guardians under the unmistakable shadows of the fleet overhead—the Witness and its newest disciple are here. Find strength in the Light, arm yourself with Darkness, and peer beyond the veil as you raise the stakes on an already unforgettable campaign. Travel to a destination unlike any you've explored in Destiny 2. Cross paths with bone-chilling Tormentors and valiant Cloud Striders, join the fight against the Shadow Legion, and prevent devastation in the technologically advanced secret city of Neomuna.",
+  "first_release_year": 2023,
+  "developers": [
+    "Bungie"
+  ],
+  "publishers": [
+    "Bungie"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Destiny"
+  ],
+  "spin_off_of": "Destiny 2",
+  "franchises": [
+    "Destiny"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Destiny 2 光の終焉",
+      "comment": "Japanese title - translated"
+    },
+    {
+      "name": "Destiny 2: L'Eclissi",
+      "comment": "Italian title"
+    },
+    {
+      "name": "Destiny 2: Éclipse",
+      "comment": "French title"
+    },
+    {
+      "name": "Destiny 2: A Queda da Luz",
+      "comment": "Portuguese title"
+    },
+    {
+      "name": "Destiny 2: Zwielicht",
+      "comment": "German title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.bungie.net/7/en/Destiny/Lightfall"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/destinygame"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/DestinyTheGame"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/destinythegame.bungie.net"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/destiny-2--lightfall"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/DestinyTheGame"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Destiny_2"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1945340"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/destinythegame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/destinythegame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/games/destiny-2"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://destiny.wikia.com/wiki/Destiny_2"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-28"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1z4j.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "xadGTLaxMZY",
+      "url": "https://www.youtube.com/watch?v=xadGTLaxMZY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "lfoeZLp5A7k",
+      "url": "https://www.youtube.com/watch?v=lfoeZLp5A7k"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "pnkQP9GYB4o",
+      "url": "https://www.youtube.com/watch?v=pnkQP9GYB4o"
+    }
+  ]
+}

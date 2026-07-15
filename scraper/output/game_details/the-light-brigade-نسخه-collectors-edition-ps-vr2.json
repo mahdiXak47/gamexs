@@ -1,0 +1,139 @@
+{
+  "slug": "the-light-brigade-نسخه-collectors-edition-ps-vr2",
+  "igdb_id": 224505,
+  "name": "The Light Brigade",
+  "summary": "A roguelike VR shooter with realistic gunplay and immersive light magic. Ascend the ranks of The Light Brigade to unlock new weapons, upgrades, classes, and abilities as you fight to restore light to the darkness.",
+  "first_release_year": 2023,
+  "developers": [
+    "Funktronic Labs"
+  ],
+  "publishers": [
+    "Funktronic Labs"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Strategy",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Virtual Reality"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "roguelike",
+    "procedurally generated",
+    "previously on - horizon plus"
+  ],
+  "alternative_names": [
+    {
+      "name": "LightBrigade.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005085"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/funklabs/"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://lightbrigadevr.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1579880/The_Light_Brigade"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/funktroniclabs"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/funktroniclabs"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/funktroniclabs"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20Light%20Brigade"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "Feb 22, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-22"
+    },
+    {
+      "platform": "Oculus Rift",
+      "region": null,
+      "date": "Feb 22, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-22"
+    },
+    {
+      "platform": "Meta Quest 2",
+      "region": null,
+      "date": "Feb 22, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-22"
+    },
+    {
+      "platform": "Windows Mixed Reality",
+      "region": null,
+      "date": "Feb 22, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-22"
+    },
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "Feb 22, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-22"
+    },
+    {
+      "platform": "PlayStation VR",
+      "region": null,
+      "date": "Feb 22, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1zmu.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "hpPUpqfBar8",
+      "url": "https://www.youtube.com/watch?v=hpPUpqfBar8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "cYOlWZApqHA",
+      "url": "https://www.youtube.com/watch?v=cYOlWZApqHA"
+    }
+  ]
+}

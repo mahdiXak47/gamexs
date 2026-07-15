@@ -1,0 +1,173 @@
+{
+  "slug": "the-thaumaturge",
+  "igdb_id": 239942,
+  "name": "The Thaumaturge",
+  "summary": "The Thaumaturge is a story-driven RPG with morally ambiguous choices, taking place in the culturally diverse world of early 20th century Warsaw. In this world, Salutors exist: esoteric beings that only Thaumaturges can truly perceive and use for their needs.",
+  "first_release_year": 2024,
+  "developers": [
+    "Fool's Theory"
+  ],
+  "publishers": [
+    "11 bit studios"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Turn-based strategy (TBS)",
+    "Adventure"
+  ],
+  "themes": [
+    "Fantasy",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "detective",
+    "magic",
+    "dark fantasy",
+    "story rich",
+    "choices matter"
+  ],
+  "alternative_names": [
+    {
+      "name": "TheThaumaturge.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://thaumaturgethegame.com/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/11bitstudios"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/the_thaumaturge"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/the-thaumaturge-3d7b2c"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1684350/The_Thaumaturge"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/the-thaumaturge"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/the-thaumaturge/9MZZZCHZ26NK"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007126"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/11bitstudiospl"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/11bitstudios/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/thaumaturgegame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-04"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-04"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 04, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-04"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4zjg.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4zje.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4zjf.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "i1TUMplZ_wc",
+      "url": "https://www.youtube.com/watch?v=i1TUMplZ_wc"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "_YGbdInXWA4",
+      "url": "https://www.youtube.com/watch?v=_YGbdInXWA4"
+    },
+    {
+      "title": "Dear Wiktor - Story Trailer",
+      "youtube_id": "z8oDfgkpo24",
+      "url": "https://www.youtube.com/watch?v=z8oDfgkpo24"
+    },
+    {
+      "title": "Gameplay Trailer | PC Date Reveal",
+      "youtube_id": "I60mEgReO5M",
+      "url": "https://www.youtube.com/watch?v=I60mEgReO5M"
+    },
+    {
+      "title": "Quest Trailer",
+      "youtube_id": "V0B8jDcvd0s",
+      "url": "https://www.youtube.com/watch?v=V0B8jDcvd0s"
+    },
+    {
+      "title": "11 Facts Trailer",
+      "youtube_id": "NLgtLoNBBP4",
+      "url": "https://www.youtube.com/watch?v=NLgtLoNBBP4"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "lL57ftcwSSM",
+      "url": "https://www.youtube.com/watch?v=lL57ftcwSSM"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "XULUugFv2cc",
+      "url": "https://www.youtube.com/watch?v=XULUugFv2cc"
+    },
+    {
+      "title": "Features Trailer",
+      "youtube_id": "2bCou-FARy4",
+      "url": "https://www.youtube.com/watch?v=2bCou-FARy4"
+    },
+    {
+      "title": "Console Date Reveal Trailer",
+      "youtube_id": "3ZNhV-4nR8Y",
+      "url": "https://www.youtube.com/watch?v=3ZNhV-4nR8Y"
+    }
+  ]
+}

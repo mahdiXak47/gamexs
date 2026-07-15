@@ -1,0 +1,99 @@
+{
+  "slug": "welcome-to-paradize",
+  "igdb_id": 276792,
+  "name": "Welcome to Paradize",
+  "summary": "Paradise isn't exactly what you hoped for: it's infested with zombies! Thankfully, you can control them. Capture them and teach them to farm or fight. They will help you defend your camp while you explore the world looking for… a new paradise.",
+  "first_release_year": 2024,
+  "developers": [
+    "EKO Software"
+  ],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Survival",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "zombies",
+    "post-apocalyptic"
+  ],
+  "alternative_names": [
+    {
+      "name": "Welcome to ParadiZe",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Project ParadiZe",
+      "comment": "Working title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1519090/Welcome_to_ParadiZe/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005724"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 29, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-29"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 29, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-29"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 29, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2pq4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2pq2.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2pq3.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "bC90ZAea-_I",
+      "url": "https://www.youtube.com/watch?v=bC90ZAea-_I"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "zXcwkgBUQWQ",
+      "url": "https://www.youtube.com/watch?v=zXcwkgBUQWQ"
+    }
+  ]
+}

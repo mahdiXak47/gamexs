@@ -1,0 +1,123 @@
+{
+  "slug": "nioh-3-نسخه-استیل-بوک",
+  "igdb_id": 347123,
+  "name": "Nioh 3",
+  "summary": "In the latest game in the dark samurai action RPG series \"Nioh,\" you will need to use both Samurai and Ninja combat styles in your battles against formidable yokai as you explore a thrilling open world.",
+  "first_release_year": 2026,
+  "developers": [
+    "Team NINJA"
+  ],
+  "publishers": [
+    "Koei Tecmo Games"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Nioh"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Katana Engine"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Nioh3.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3681010/Nioh_3"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/nioh_game"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://teamninja-studio.com/nioh3/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/KOEITECMOofficial"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/nioh-3"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10014010"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nioh_3"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 06, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-06"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 06, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3o1a.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar574l.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar574m.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar57r1.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "KXGm-JaxY54",
+      "url": "https://www.youtube.com/watch?v=KXGm-JaxY54"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "MyenuEg-z1w",
+      "url": "https://www.youtube.com/watch?v=MyenuEg-z1w"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "q-1M7pQVu6M",
+      "url": "https://www.youtube.com/watch?v=q-1M7pQVu6M"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "IPM1NaVqGDw",
+      "url": "https://www.youtube.com/watch?v=IPM1NaVqGDw"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "rDyuGUlmTcY",
+      "url": "https://www.youtube.com/watch?v=rDyuGUlmTcY"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "slug": "poppy-playtime-chapter-1",
+  "igdb_id": 176057,
+  "name": "Poppy Playtime",
+  "summary": "You must stay alive in this horror/puzzle adventure. Try to survive the vengeful toys waiting for you in the abandoned toy factory. Use your GrabPack to hack electrical circuits or nab anything from afar. Explore the mysterious facility... and don't get caught.",
+  "first_release_year": 2021,
+  "developers": [
+    "Mob Entertainment"
+  ],
+  "publishers": [
+    "Mob Entertainment"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Thriller",
+    "Survival",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Poppy Playtime"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Poppy Playtime"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "dark",
+    "story rich",
+    "cartoony",
+    "mascot horror"
+  ],
+  "alternative_names": [
+    {
+      "name": "Poppy Playtime: Chapter 1 – A Tight Squeeze",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "ポピープレイタイムチャプターワン",
+      "comment": "Japanese title - translated"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009028"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/poppy-playtime-chapter-1-88240e"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/poppy-playtime-chapter-1/9NQGGN01771Z"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/poppy-playtime-chapter-1-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1721470/Poppy_Playtime"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCXqV4yoyC_mmZye6VbKFPeQ"
+    },
+    {
+      "label": "iPhone",
+      "url": "http://itunes.apple.com/us/app/id1610947489#?platform=iphone"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Poppy%20Playtime"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://poppyplaytime.com/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/FmsXQDK7Zp"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/poppyplaytimeco"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Poppy_Playtime"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/mobgamesstudios"
+    },
+    {
+      "label": "iPad",
+      "url": "http://itunes.apple.com/us/app/id1610947489#?platform=ipad"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://poppy-playtime.fandom.com/wiki/Chapter_1:_%22A_Tight_Squeeze%22"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/people/Poppy-Playtime/100078833445998?utm_medium=linktree&utm_source=linktree&utm_campaign=facebook"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.MOBGames.PoppyMobileChap1&hl=en_US&gl=US"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/mobentertainment.com"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 15, 2024",
+      "status": "Released",
+      "date_iso": "2024-01-15"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Feb 25, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-02-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-20"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Mar 08, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-03-08"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 12, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-10-12"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 15, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-01-15"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jan 15, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-01-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 12, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 15, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-01-15"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 12, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5b30.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5b2z.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5ipf.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5ipg.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5a9w.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "-F0-FIEt-yQ",
+      "url": "https://www.youtube.com/watch?v=-F0-FIEt-yQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "6VXcganpmeI",
+      "url": "https://www.youtube.com/watch?v=6VXcganpmeI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "_Tb5Gkj5Qow",
+      "url": "https://www.youtube.com/watch?v=_Tb5Gkj5Qow"
+    },
+    {
+      "title": "Update Trailer",
+      "youtube_id": "oNsyGYSQVKY",
+      "url": "https://www.youtube.com/watch?v=oNsyGYSQVKY"
+    },
+    {
+      "title": "Console Trailer",
+      "youtube_id": "mHqK05HCBtY",
+      "url": "https://www.youtube.com/watch?v=mHqK05HCBtY"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "slug": "ereban-shadow-legacy",
+  "igdb_id": 204624,
+  "name": "Ereban: Shadow Legacy",
+  "summary": "Ereban: Shadow Legacy is a fast-paced stealth platformer game where you become Ayana, the last descendant of a forgotten race. Harness mystical shadow powers, high-tech gadgets and avoid or kill to uncover the truth about your past and the key to saving a dying, morally grey universe.",
+  "first_release_year": 2024,
+  "developers": [
+    "Baby Robot Games"
+  ],
+  "publishers": [
+    "Baby Robot Games"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "story rich",
+    "shadow stealth"
+  ],
+  "alternative_names": [
+    {
+      "name": "ErebanShadowLegacy.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10016907/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/ErebanGame/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/babyrobotgames"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1671360"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/babyrobotgames"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/BabyRobotGames"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ereban.com/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/t4qqSC8FCy"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/ereban-shadow-legacy"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ereban-shadow-legacy/9nt4phz54qzv"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 10, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-04-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 16, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-16"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 16, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-16"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1v03.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "yAruk3_QwBE",
+      "url": "https://www.youtube.com/watch?v=yAruk3_QwBE"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "8ixofrNplRY",
+      "url": "https://www.youtube.com/watch?v=8ixofrNplRY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "T1rkpas5_7c",
+      "url": "https://www.youtube.com/watch?v=T1rkpas5_7c"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "euSYQjDyMWQ",
+      "url": "https://www.youtube.com/watch?v=euSYQjDyMWQ"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "shame-legacy-نسخه-the-cult",
+  "igdb_id": 246297,
+  "name": "Shame Legacy: The Cult Edition",
+  "summary": "Shame Legacy is a first-person survival-horror, set in a forsaken cultist village. You attempt to survive using stealth and escape. By solving puzzles, you unravel the mystery that's h(a)unting you.\n\nThe Cult Edition includes special case and metallic-effect post card",
+  "first_release_year": 2023,
+  "developers": [
+    "Fairyship Games"
+  ],
+  "publishers": [
+    "Destructive Creations",
+    "Meridiem Games"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 30, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2bxt.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "rX-FyDVOBeE",
+      "url": "https://www.youtube.com/watch?v=rX-FyDVOBeE"
+    }
+  ]
+}

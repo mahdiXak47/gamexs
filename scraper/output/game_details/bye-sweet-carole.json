@@ -1,0 +1,167 @@
+{
+  "slug": "bye-sweet-carole",
+  "igdb_id": 252358,
+  "name": "Bye Sweet Carole",
+  "summary": "Bye Sweet Carole is a horrific thriller game inspired by the greatest animation movies and created by Chris Darril. (Remothered series) Be ready to jump into the world of Corolla and meet the rabbits that has infested it.",
+  "first_release_year": 2025,
+  "developers": [
+    "Meangrip Studios",
+    "Little Sewing Machine"
+  ],
+  "publishers": [
+    "Maximum Entertainment"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Bye Sweet Carole.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/bye-sweet-carole"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/bye-sweet-carole-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/bye-sweet-carole/9nzzfj9ztmrj"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/byesweetcarole"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/byesweetcarole"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008528"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@MaximumEntmt"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/f3U5kv9N9Y"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.justforgames.com/bye-sweet-carole/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2428980"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bye_Sweet_Carole"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/bye_sweet_carole"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 09, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-09"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 09, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-09"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 09, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-09"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 09, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-09"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2ceb.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5k69.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5k6a.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "7-sXX661lSk",
+      "url": "https://www.youtube.com/watch?v=7-sXX661lSk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "jDyy66i4iJo",
+      "url": "https://www.youtube.com/watch?v=jDyy66i4iJo"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "YuM4LqSR_5A",
+      "url": "https://www.youtube.com/watch?v=YuM4LqSR_5A"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "IbyR389243o",
+      "url": "https://www.youtube.com/watch?v=IbyR389243o"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "oHc8QyxRtZI",
+      "url": "https://www.youtube.com/watch?v=oHc8QyxRtZI"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "4CsIxYSRkfM",
+      "url": "https://www.youtube.com/watch?v=4CsIxYSRkfM"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "xakn5BBK77U",
+      "url": "https://www.youtube.com/watch?v=xakn5BBK77U"
+    }
+  ]
+}

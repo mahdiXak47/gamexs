@@ -1,0 +1,172 @@
+{
+  "slug": "crash-bandicoot-n.-sane-trilogy",
+  "igdb_id": 26196,
+  "name": "Crash Bandicoot N. Sane Trilogy",
+  "summary": "Crash Bandicoot N. Sane Trilogy is a platform game compilation that remasters the first three entries in the Crash Bandicoot series: Crash Bandicoot (1996), Cortex Strikes Back (1997), and Warped (1998). Players control Crash or his sister Coco through linear 3D levels, spinning to defeat enemies, jumping across platforms, and breaking crates to collect Wumpa Fruit. The compilation features completely rebuilt visuals with enhanced lighting and textures, a re-orchestrated soundtrack, time trials with online leaderboards, and a unified save system across all three games. Originally developed without access to the original source code, the games were reconstructed nearly from scratch using polygon meshes and cross-referencing video footage of the originals.",
+  "first_release_year": 2017,
+  "developers": [
+    "Vicarious Visions"
+  ],
+  "publishers": [
+    "Activision"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction",
+    "Historical"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Crash Bandicoot"
+  ],
+  "game_engines": [
+    "Vicarious Visions Alchemy"
+  ],
+  "keywords": [
+    "compilation",
+    "action-adventure",
+    "egypt",
+    "protagonist's name in the title",
+    "bandicoot",
+    "playstation experience 2016",
+    "game collection"
+  ],
+  "alternative_names": [
+    {
+      "name": "Crash Bandicoot: N. Sane Trilogy",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/crash-bandicoot-n.-sane-trilogy/C27XPR5XDMFT"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/crash-bandicoot-n-sane-trilogy-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.crashbandicoot.com/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/227649"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/crashbandicoot"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://crashbandicoot.wikia.com/wiki/Crash_Bandicoot_N._Sane_Trilogy"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/CrashBandicoot"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/crashbandicoot"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/731490/Crash_Bandicoot_N_Sane_Trilogy"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Crash_Bandicoot_N._Sane_Trilogy"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 30, 2017",
+      "status": "Released",
+      "date_iso": "2017-06-30"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 03, 2017",
+      "status": "Released",
+      "date_iso": "2017-08-03"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 30, 2017",
+      "status": "Released",
+      "date_iso": "2017-06-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 29, 2018",
+      "status": "Released",
+      "date_iso": "2018-06-29"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 29, 2018",
+      "status": "Released",
+      "date_iso": "2018-06-29"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 29, 2018",
+      "status": "Released",
+      "date_iso": "2018-06-29"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 18, 2018",
+      "status": "Released",
+      "date_iso": "2018-10-18"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 29, 2018",
+      "status": "Released",
+      "date_iso": "2018-06-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/armsp.jpg"
+  ],
+  "videos": [
+    {
+      "title": "E3 2017 Launch Trailer",
+      "youtube_id": "AvK197_CP0Q",
+      "url": "https://www.youtube.com/watch?v=AvK197_CP0Q"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "F7G91RjVmvk",
+      "url": "https://www.youtube.com/watch?v=F7G91RjVmvk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "53L6P1XB_GU",
+      "url": "https://www.youtube.com/watch?v=53L6P1XB_GU"
+    }
+  ]
+}

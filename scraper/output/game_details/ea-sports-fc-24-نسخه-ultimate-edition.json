@@ -1,0 +1,205 @@
+{
+  "slug": "ea-sports-fc-24-نسخه-ultimate-edition",
+  "igdb_id": 256092,
+  "name": "EA Sports FC 24",
+  "summary": "EA Sports FC 24 is a football simulation game and the first entry in the series following the rebranding from the FIFA name. It features licensed leagues and competitions including the Premier League, UEFA Champions League, La Liga, Bundesliga, Serie A, and several women's football leagues. Game modes include Ultimate Team, Career Mode, and online multiplayer. The game uses the Frostbite engine with updated motion capture and ball physics for realistic on-pitch action.",
+  "first_release_year": 2023,
+  "developers": [
+    "EA Romania",
+    "EA Vancouver"
+  ],
+  "publishers": [
+    "EA Sports"
+  ],
+  "genres": [
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [
+    "Non-fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "EA Sports FC"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Frostbite"
+  ],
+  "keywords": [
+    "soccer",
+    "football"
+  ],
+  "alternative_names": [
+    {
+      "name": "EA FC 2024",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "FC 24",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "EAFC '24",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/ea-sports-fc-24"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ea-sports-fc-24-xbox-series-x|s/9NN6QW1NPCKN"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007176"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/ea-sports-fc-24-switch/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/easportsfc"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/easportsfc"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-24"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2195250"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/EASPORTSFC"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/easportsfc"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@easportsfc"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/EA_FC_24"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 29, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 29, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-29"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 29, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-29"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 29, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-29"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 22, 2023",
+      "status": "status_34",
+      "date_iso": "2023-09-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 29, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-29"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 29, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-29"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 22, 2023",
+      "status": "status_34",
+      "date_iso": "2023-09-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 22, 2023",
+      "status": "status_34",
+      "date_iso": "2023-09-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 22, 2023",
+      "status": "status_34",
+      "date_iso": "2023-09-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 22, 2023",
+      "status": "status_34",
+      "date_iso": "2023-09-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2e4t.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "-vL01jbgENE",
+      "url": "https://www.youtube.com/watch?v=-vL01jbgENE"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "XhP3Xh4LMA8",
+      "url": "https://www.youtube.com/watch?v=XhP3Xh4LMA8"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "N91EB85mq4E",
+      "url": "https://www.youtube.com/watch?v=N91EB85mq4E"
+    }
+  ]
+}

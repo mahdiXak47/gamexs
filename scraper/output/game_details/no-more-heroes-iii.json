@@ -1,0 +1,194 @@
+{
+  "slug": "no-more-heroes-iii",
+  "igdb_id": 119387,
+  "name": "No More Heroes III",
+  "summary": "The latest numbered entry in the No More Heroes series.\n\nFight your way to the top of the Galactic Superhero Rankings!\nThe legendary assassin Travis Touchdown makes his glorious return to the Madness in the No More Heroes 3 game, exclusively on the Nintendo Switch system!",
+  "first_release_year": 2021,
+  "developers": [
+    "Grasshopper Manufacture"
+  ],
+  "publishers": [
+    "Grasshopper Manufacture",
+    "Marvelous Inc.",
+    "Marvelous USA, Inc.",
+    "XSEED Games"
+  ],
+  "genres": [
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Comedy",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "No More Heroes"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "aliens"
+  ],
+  "alternative_names": [
+    {
+      "name": "No More Heroes 3",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "nmh3.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/marveloususainc"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/no-more-heroes-3-xbox/9nslhctrdwgc"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/xseedgames"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/marveloususa"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004267"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/no-more-heroes-3-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://nmh3.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCdFWi9TS_dV_mSW25RFc6Kg"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/No%20More%20Heroes%20III"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1744330"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Grasshopper_EN"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/No_More_Heroes_III"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://nomoreheroes.fandom.com/wiki/No_More_Heroes_III"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/no_more_heroes_3"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 27, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-08-27"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 11, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-11"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 14, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-14"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 14, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-14"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 14, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-14"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 11, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-11"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 14, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 11, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-11"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar9gd.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "1pMb1pRCutM",
+      "url": "https://www.youtube.com/watch?v=1pMb1pRCutM"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "g2nPg42xsXg",
+      "url": "https://www.youtube.com/watch?v=g2nPg42xsXg"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "itdHpJ3TVio",
+      "url": "https://www.youtube.com/watch?v=itdHpJ3TVio"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "91HU_mc9cts",
+      "url": "https://www.youtube.com/watch?v=91HU_mc9cts"
+    }
+  ]
+}

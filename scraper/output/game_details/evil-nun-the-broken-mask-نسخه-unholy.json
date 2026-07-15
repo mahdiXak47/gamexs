@@ -1,0 +1,91 @@
+{
+  "slug": "evil-nun-the-broken-mask-نسخه-unholy",
+  "igdb_id": 324596,
+  "name": "Evil Nun: The Broken Mask - Unholy Edition",
+  "summary": "Evil Nun: The Broken Mask – Unholy Edition is a first-person horror game where players try to escape a haunted school while avoiding Sister Madeline, an AI-driven enemy who reacts to the player’s actions. The gameplay involves solving puzzles, crafting items, and exploring different escape paths. It’s based on the original mobile game series and includes updated graphics, new areas, and an expanded story. The Unholy Edition includes a slipcover, digital soundtrack, camp admission letter, art book, and the game disc.",
+  "first_release_year": 2024,
+  "developers": [
+    "Carlos Coronado",
+    "Keplerians"
+  ],
+  "publishers": [
+    "Feardemic",
+    "Keplerians"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Evil Nun"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/share/1DH5LPU39G/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/@kepleriansteamgames"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/KepleriansTeam?t=Pgi3sJ2zgGbEEQo-s_AzRw&s=09"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://ice-scream.fandom.com/wiki/Keplerians_Team"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://a.co/d/eh39TZ3"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/kepleriansteamofficial?igsh=MWxqOGE4dGJnaHB2Nw=="
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 19, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-19"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 19, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3vzz.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Dev Diary",
+      "youtube_id": "q6lyU7rydPY",
+      "url": "https://www.youtube.com/watch?v=q6lyU7rydPY"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "fc-26",
+  "igdb_id": 396596,
+  "name": "FC 26 Quiz",
+  "summary": "FC 26 Quiz is a browser based interactive live-stream trivia game designed for Twitch streamers. Players compete in real-time by guessing blurred football player cards\nthrough the live chat. Each round presents a blurred football player card,\nand viewers race to identify the player using visual clues like rating, position, and\ncard design. Faster correct guesses earn higher scores, with a live leaderboard\ntracking all participants. The game features customizable round timers, hint systems\n(letter reveals, league/nation/club info), promo card categories, multi-language\nsupport and full streamer branding customization.\n\nLive Play: Real-time viewer interaction via streaming platforms.",
+  "first_release_year": 2026,
+  "developers": [],
+  "publishers": [],
+  "genres": [
+    "Quiz/Trivia"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Multiplayer"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "unofficial",
+    "fangame",
+    "streamer game",
+    "twitch integration",
+    "kick integration"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "http://fc26quiz.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/fc26quiz"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/fc26quiz"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/fc26quiz/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Web browser",
+      "region": null,
+      "date": "Apr 08, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-08"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "ldmKfo8P_I8",
+      "url": "https://www.youtube.com/watch?v=ldmKfo8P_I8"
+    }
+  ]
+}

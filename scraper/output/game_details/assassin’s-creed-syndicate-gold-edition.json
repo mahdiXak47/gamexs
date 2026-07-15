@@ -1,0 +1,237 @@
+{
+  "slug": "assassin’s-creed-syndicate-gold-edition",
+  "igdb_id": 8263,
+  "name": "Assassin's Creed Syndicate",
+  "summary": "Assassin's Creed Syndicate is a third-person action-adventure stealth game set in London during the Industrial Revolution of 1868. Players control twin Assassins Jacob and Evie Frye, each with distinct abilities: Jacob specializes in brawling and close combat while Evie excels at stealth. Gameplay features open-world exploration of Victorian London using parkour, carriages, a rope launcher, and gang warfare mechanics. The city is divided into boroughs that players liberate from enemy control by completing missions and building their own street gang, the Rooks. Weapons include brass knuckles, revolvers, cane-swords, and kukri knives, all of which can be upgraded.",
+  "first_release_year": 2015,
+  "developers": [
+    "Ubisoft Québec"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction",
+    "Historical",
+    "Stealth",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Assassin's Creed"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Assassin's Creed"
+  ],
+  "game_engines": [
+    "AnvilNext"
+  ],
+  "keywords": [
+    "assassin",
+    "murder",
+    "london",
+    "female protagonist",
+    "action-adventure",
+    "multiple protagonists",
+    "achievements",
+    "building",
+    "victorian london",
+    "conspiracy",
+    "slavery",
+    "good vs evil",
+    "digital distribution",
+    "train level",
+    "playstation trophies",
+    "ea app",
+    "original soundtrack release",
+    "playstation experience 2015",
+    "grapple",
+    "rpg elements",
+    "mercenary",
+    "pax prime 2015",
+    "communism",
+    "scientist",
+    "british accent",
+    "pre-order exclusive",
+    "tower reveals map",
+    "male protagonist"
+  ],
+  "alternative_names": [
+    {
+      "name": "Assassin's Creed: Victory",
+      "comment": "Working title"
+    },
+    {
+      "name": "ACS",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Assassin's Creed Victory",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "ACS.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/assassinscreed"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/212339"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/assassinscreed"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/assassinscreed"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/ac"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/assassins-creed-syndicate/BXVQ8M4J9HNM"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/368500"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://assassinscreed.ubi.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_Syndicate"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Assassin%27s%20Creed%20Syndicate"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://assassinscreed.wikia.com/wiki/Assassin%27s_Creed:_Syndicate"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/assassins-creed-syndicate"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 12, 2015",
+      "status": "Released",
+      "date_iso": "2015-11-12"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 23, 2015",
+      "status": "Released",
+      "date_iso": "2015-10-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 18, 2015",
+      "status": "Released",
+      "date_iso": "2015-11-18"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 12, 2015",
+      "status": "Released",
+      "date_iso": "2015-11-12"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Dec 15, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 23, 2015",
+      "status": "Released",
+      "date_iso": "2015-10-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 18, 2024",
+      "status": "status_36",
+      "date_iso": "2024-11-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 18, 2024",
+      "status": "status_36",
+      "date_iso": "2024-11-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/boxxgrvxkb7gycnh0pwf.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/vndkawdzqesa6fz9n6mr.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/rru5larhbk1rfsyfurlk.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/axkvaha3d5pguyxraalz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/m3hnnjj13wjaa0q7z9ri.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/pttkjmomqxs4dv3uwbrr.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/kubclwlcytunw9vni3fb.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ffupeljynw0vhyu7sd85.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/mnuij1y7qeqixzuhszob.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/iuxaoggdtcy5iy1rzjcq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/biejj0ofj9awcmmbhxvq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/czd3yazmbatmqeor2osf.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Story Trailer",
+      "youtube_id": "IoUOS1DDTI4",
+      "url": "https://www.youtube.com/watch?v=IoUOS1DDTI4"
+    },
+    {
+      "title": "PC Launch Trailer",
+      "youtube_id": "pkg0pNagFKU",
+      "url": "https://www.youtube.com/watch?v=pkg0pNagFKU"
+    },
+    {
+      "title": "Cinematic E3 Trailer",
+      "youtube_id": "osvsg-xYOOw",
+      "url": "https://www.youtube.com/watch?v=osvsg-xYOOw"
+    },
+    {
+      "title": "E3 Gameplay Walkthrough",
+      "youtube_id": "7Cg_FrcivVM",
+      "url": "https://www.youtube.com/watch?v=7Cg_FrcivVM"
+    },
+    {
+      "title": "Evie Frye Trailer",
+      "youtube_id": "rT4nEDNmrkk",
+      "url": "https://www.youtube.com/watch?v=rT4nEDNmrkk"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "slug": "deliver-us-mars",
+  "igdb_id": 194740,
+  "name": "Deliver Us Mars",
+  "summary": "Deliver Us Mars is a sci-fi adventure game developed by KeokeN Interactive and released in 2023. It is a sequel to Deliver Us the Moon and follows the story of astronaut Kathy Johanson as she embarks on a mission to Mars to recover powerful colony ships known as the ARKs, which were stolen by a group called the Outward. The game combines exploration, puzzle-solving, and platforming elements as players navigate the harsh Martian environment and uncover the mysteries surrounding the disappearance of the ARKs.",
+  "first_release_year": 2023,
+  "developers": [
+    "KeokeN Interactive"
+  ],
+  "publishers": [
+    "Frontier Foundry"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Survival",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Deliver us"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "space",
+    "astronaut",
+    "mars"
+  ],
+  "alternative_names": [
+    {
+      "name": "デリバー アス マーズ",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "딜리버 어스 마스",
+      "comment": "Korean title"
+    },
+    {
+      "name": "DeliverUsMars.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/deliverusmars"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003378"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Deliver_Us_Mars"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1345890/Deliver_Us_Mars"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.deliverusmars.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/deliver-us-mars"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/deliver-us-mars"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/DeliverUsMars"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/DeliverUsMars"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 02, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-02"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 02, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-02"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 02, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-02"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 02, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-02"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 02, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-02"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1j7d.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "oDPBaGNwp9M",
+      "url": "https://www.youtube.com/watch?v=oDPBaGNwp9M"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "dliGzfzQmCs",
+      "url": "https://www.youtube.com/watch?v=dliGzfzQmCs"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "2F-k7L22M5E",
+      "url": "https://www.youtube.com/watch?v=2F-k7L22M5E"
+    }
+  ]
+}

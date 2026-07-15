@@ -1,0 +1,202 @@
+{
+  "slug": "کارکرده-alan-wake-2-نسخه-deluxe-edition",
+  "igdb_id": 185246,
+  "name": "Alan Wake II",
+  "summary": "Alan Wake 2 marks Remedy Entertainment’s first foray into the survival horror genre. Ritualistic murders in a small town. A writer trapped in a nightmare. An FBI agent looking for answers. Two realities. Two hero characters. One horror story that wants them dead.",
+  "first_release_year": 2023,
+  "developers": [
+    "Remedy Entertainment"
+  ],
+  "publishers": [
+    "Epic Games Publishing"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Thriller",
+    "Survival",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Alan Wake"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Northlight Engine"
+  ],
+  "keywords": [
+    "exploration",
+    "psychological horror",
+    "detective",
+    "dark",
+    "investigation",
+    "cinematic",
+    "supernatural",
+    "multiple protagonists",
+    "lovecraftian",
+    "narrative-driven",
+    "dark humor",
+    "emotional",
+    "story rich",
+    "censored version",
+    "the game awards - best score or music - nominee",
+    "immersive",
+    "narrative",
+    "the game awards - best action-adventure game - nominee",
+    "the game awards - best art direction - winner",
+    "the game awards - best audio design - nominee",
+    "the game awards - best game direction - winner",
+    "the game awards - best narrative - winner",
+    "the game awards - best performance - nominee",
+    "the game awards - game of the year - nominee"
+  ],
+  "alternative_names": [
+    {
+      "name": "AW2",
+      "comment": "Acronym"
+    },
+    {
+      "name": "AWII",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Alan Wake 2",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alan_Wake_II"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/AlanWake"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/alan-wake-2/9PNZH065X7PV"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002065"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://alanwake.fandom.com/wiki/Alan_Wake_2"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@RemedyGames"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.alanwake.com/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/alan-wake-2"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/alanwake"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Alan%20Wake%20II"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/alanwake"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/remedygames"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/alanwakeofficial"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 27, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 27, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-27"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 27, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3nuh.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3nui.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3nug.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "zyJvCq4HvQ4",
+      "url": "https://www.youtube.com/watch?v=zyJvCq4HvQ4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "HwdrTLAGhpU",
+      "url": "https://www.youtube.com/watch?v=HwdrTLAGhpU"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "jChxlzSdVGI",
+      "url": "https://www.youtube.com/watch?v=jChxlzSdVGI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "49g0AL0AJks",
+      "url": "https://www.youtube.com/watch?v=49g0AL0AJks"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "4Y60eY0C6RI",
+      "url": "https://www.youtube.com/watch?v=4Y60eY0C6RI"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "nCcG3mnH4Uk",
+      "url": "https://www.youtube.com/watch?v=nCcG3mnH4Uk"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "dlQ3FeNu5Yw",
+      "url": "https://www.youtube.com/watch?v=dlQ3FeNu5Yw"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "YXUk2Zy57gc",
+      "url": "https://www.youtube.com/watch?v=YXUk2Zy57gc"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "slug": "lego-marvel-super-heroes-2",
+  "igdb_id": 28815,
+  "name": "LEGO Marvel Super Heroes 2",
+  "summary": "Lego Marvel Super Heroes 2 is a Lego-themed action-adventure video game developed by Traveller's Tales. It is the sequel to 2013's Lego Marvel Super Heroes and the third instalment of the Lego Marvel franchise.\n\nWith the core gameplay following the same style of past Lego titles, the game features the ability to manipulate time and a four-player competitive Super Hero battle mode. Lego Marvel Super Heroes 2's storyline centers around superheroes from different eras and realities of the Marvel Universe as they fight against the time-travelling villain Kang the Conqueror in a battle across space and time.",
+  "first_release_year": 2017,
+  "developers": [
+    "Traveller's Tales"
+  ],
+  "publishers": [
+    "WB Games",
+    "Feral Interactive"
+  ],
+  "genres": [
+    "Puzzle",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction",
+    "Comedy",
+    "Kids",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Lego Marvel Super Heroes"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Marvel",
+    "LEGO",
+    "Spider-Man",
+    "Guardians of the Galaxy",
+    "Iron Man",
+    "Black Panther",
+    "Hulk",
+    "Thor",
+    "Ant-Man",
+    "Black Widow",
+    "Blade",
+    "Captain America",
+    "Ms. Marvel",
+    "Venom",
+    "Daredevil",
+    "Ghost Rider",
+    "Moon Knight"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "mummy",
+    "dog",
+    "sequel",
+    "superhero",
+    "comic book",
+    "licensed game",
+    "pax west 2017",
+    "based on - comics",
+    "xbox one x enhanced",
+    "based on - brand",
+    "lego bricks",
+    "alternate reality",
+    "based on - toy"
+  ],
+  "alternative_names": [
+    {
+      "name": "레고 마블 슈퍼히어로즈 2",
+      "comment": "Korean title"
+    },
+    {
+      "name": "レゴ マーベル スーパー ヒーローズ 2 ザ ゲーム",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "LEGOMARVEL2_DX11.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "LEGOMARVEL2_DX11.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Lego%20Marvel%20Super%20Heroes%202"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.lego.com/en-ca/themes/marvel/games/marvel-super-heroes-2"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://brickipedia.fandom.com/wiki/LEGO_Marvel_Super_Heroes_2"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/lego-marvel-super-heroes-2/C0G91V37489H"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/228783"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/lego-marvel-super-heroes-2-switch/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lego_Marvel_Super_Heroes_2"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/647830"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 14, 2017",
+      "status": "Released",
+      "date_iso": "2017-11-14"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Aug 02, 2018",
+      "status": "Released",
+      "date_iso": "2018-08-02"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 14, 2017",
+      "status": "Released",
+      "date_iso": "2017-11-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 14, 2017",
+      "status": "Released",
+      "date_iso": "2017-11-14"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 14, 2017",
+      "status": "Released",
+      "date_iso": "2017-11-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4js.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4jr.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Inhumans Trailer",
+      "youtube_id": "kvCYYFTVzto",
+      "url": "https://www.youtube.com/watch?v=kvCYYFTVzto"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "8Zt43Cj1_ao",
+      "url": "https://www.youtube.com/watch?v=8Zt43Cj1_ao"
+    },
+    {
+      "title": "E3 2017 Game Demo",
+      "youtube_id": "BvYFUn-52fM",
+      "url": "https://www.youtube.com/watch?v=BvYFUn-52fM"
+    },
+    {
+      "title": "Kang Trailer",
+      "youtube_id": "iwfiMEZT0ng",
+      "url": "https://www.youtube.com/watch?v=iwfiMEZT0ng"
+    },
+    {
+      "title": "Story Trailer",
+      "youtube_id": "aljLzNJcjYk",
+      "url": "https://www.youtube.com/watch?v=aljLzNJcjYk"
+    }
+  ]
+}

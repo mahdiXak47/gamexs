@@ -1,0 +1,167 @@
+{
+  "slug": "rennsport",
+  "igdb_id": 230191,
+  "name": "Rennsport",
+  "summary": "A racing simulation developed in Unreal Engine 5, making use of feedback from professional real world drivers to simulate car physics and behavior in a realistic way.",
+  "first_release_year": 2025,
+  "developers": [],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [
+    "Non-fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person",
+    "Bird view / Isometric",
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "RENNSPORT",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Rennsport.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/rennsport"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/rennsport/9p56v4t8gcdr"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10013999"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2077750/RENNSPORT/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/rennsport-3776b8"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Rennsport_gg"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/rennsport_gg"
+    },
+    {
+      "label": "Discord",
+      "url": "https://www.discord.gg/Qrxhja5Tqs"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@Rennsport_gg"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.rennsport.gg/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Rennsportsim/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/rennsport.gg"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 16, 2024",
+      "status": "Beta",
+      "date_iso": "2024-12-16"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 13, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-13"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 13, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-13"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 10, 2025",
+      "status": "status_34",
+      "date_iso": "2025-11-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 10, 2025",
+      "status": "status_34",
+      "date_iso": "2025-11-10"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 10, 2025",
+      "status": "status_34",
+      "date_iso": "2025-11-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 13, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2ch5.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Console Trailer Announcement",
+      "youtube_id": "z9qYXhXPLZc",
+      "url": "https://www.youtube.com/watch?v=z9qYXhXPLZc"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "3UduvMQLSKs",
+      "url": "https://www.youtube.com/watch?v=3UduvMQLSKs"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "27SmCL0qjyk",
+      "url": "https://www.youtube.com/watch?v=27SmCL0qjyk"
+    }
+  ]
+}

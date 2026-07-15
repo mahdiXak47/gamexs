@@ -1,0 +1,246 @@
+{
+  "slug": "crimson-desert",
+  "igdb_id": 125633,
+  "name": "Crimson Desert",
+  "summary": "Crimson Desert is an open-world action-adventure game set in the beautiful yet brutal continent of Pywel. Embark on a journey as the Greymane Kliff and restore what has been lost. Explore uncharted lands, fight against threats that stand in your way, and discover the wonders the world has in store.",
+  "first_release_year": 2026,
+  "developers": [
+    "Pearl Abyss"
+  ],
+  "publishers": [
+    "Pearl Abyss"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Blackspace Engine"
+  ],
+  "keywords": [
+    "hunting",
+    "fishing",
+    "crafting",
+    "cooking",
+    "horse racing",
+    "climbing",
+    "alchemy",
+    "horse riding",
+    "resource gathering",
+    "parrying",
+    "destructible environment",
+    "gliding",
+    "pickpocketing",
+    "lock picking"
+  ],
+  "alternative_names": [
+    {
+      "name": "紅の砂漠",
+      "comment": "Japanese title - translated"
+    },
+    {
+      "name": "赤血沙漠",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "붉은사막",
+      "comment": "Korean title - translated"
+    },
+    {
+      "name": "红色沙漠",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Crimson Desert",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "CrimsonDesert.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Crimson_Desert"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/CrimsonDesert"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/crimsondesert"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/crimson-desert/9ng592g0w474"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002363"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://crimsondesert.fandom.com/wiki/Crimson_Desert_Wiki"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/CrimsonDesert_"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/crimsondesert_"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/CrimsonDesert"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/crimson-desert-6d6135"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://crimsondesert.pearlabyss.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCtwZImFOBRy7iNj1EQC4YXA"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/crimson-desert"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3321460"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 19, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-19"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Mar 19, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 19, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-19"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 19, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar387j.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4it4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4jgj.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5562.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4jgn.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5563.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4jgl.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4jgm.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4jgk.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar57oj.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar57ok.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar57ol.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar57om.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5vhm.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "RqA5Du0v5lM",
+      "url": "https://www.youtube.com/watch?v=RqA5Du0v5lM"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "tYQRBqqpV3M",
+      "url": "https://www.youtube.com/watch?v=tYQRBqqpV3M"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "GxiHTuzZ6_w",
+      "url": "https://www.youtube.com/watch?v=GxiHTuzZ6_w"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "6KW8x-8sitU",
+      "url": "https://www.youtube.com/watch?v=6KW8x-8sitU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Tn1igh_q0Wc",
+      "url": "https://www.youtube.com/watch?v=Tn1igh_q0Wc"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "0V8mt28YVwE",
+      "url": "https://www.youtube.com/watch?v=0V8mt28YVwE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "7flv0oFWfCc",
+      "url": "https://www.youtube.com/watch?v=7flv0oFWfCc"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "MA7AZs4Gn_o",
+      "url": "https://www.youtube.com/watch?v=MA7AZs4Gn_o"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "1ItNYP9U1M0",
+      "url": "https://www.youtube.com/watch?v=1ItNYP9U1M0"
+    },
+    {
+      "title": "Features Overview #1",
+      "youtube_id": "MfZCV8EySac",
+      "url": "https://www.youtube.com/watch?v=MfZCV8EySac"
+    },
+    {
+      "title": "Features Overview #3",
+      "youtube_id": "qdEv0cLlyIA",
+      "url": "https://www.youtube.com/watch?v=qdEv0cLlyIA"
+    },
+    {
+      "title": "Features Overview #2",
+      "youtube_id": "srQ-NtGNBpY",
+      "url": "https://www.youtube.com/watch?v=srQ-NtGNBpY"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "VWIw_f8e9Pg",
+      "url": "https://www.youtube.com/watch?v=VWIw_f8e9Pg"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "slug": "hollow-knight-نسخه-standard-ps4",
+  "igdb_id": 14593,
+  "name": "Hollow Knight",
+  "summary": "A 2D metroidvania with an emphasis on close combat and exploration in which the player enters the once-prosperous now-bleak insect kingdom of Hallownest, travels through its various districts, meets friendly inhabitants, fights hostile ones and uncovers the kingdom's history while improving their combat abilities and movement arsenal by fighting bosses and accessing out-of-the-way areas.",
+  "first_release_year": 2017,
+  "developers": [
+    "Team Cherry"
+  ],
+  "publishers": [
+    "Team Cherry"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Hollow Knight"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "dark",
+    "sword",
+    "skill-based",
+    "2d",
+    "metroidvania",
+    "insects",
+    "action-adventure",
+    "steam",
+    "achievements",
+    "steam trading cards",
+    "explorable world",
+    "atmospheric",
+    "giant insects",
+    "silent protagonist",
+    "crowdfunding - kickstarter",
+    "hand-drawn",
+    "crowdfunding",
+    "2d platformer",
+    "boss fight",
+    "steam achievements",
+    "xbox controller support for pc",
+    "controller recommendation",
+    "crowd funded",
+    "shielded enemies",
+    "parrying",
+    "merchants",
+    "fast traveling",
+    "creature compendium",
+    "the game awards 2017",
+    "best debut indie game: nominee - 2017 (the game awards)",
+    "the game awards - nominee",
+    "controller support",
+    "the game awards - best debut indie game - nominee",
+    "interconnected-world",
+    "armed bugs",
+    "money",
+    "shop keeper",
+    "sidescroller",
+    "available on - luna plus",
+    "available on - luna gog"
+  ],
+  "alternative_names": [
+    {
+      "name": "Hollow Knight: Voidheart Edition",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "hollow_knight.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Hollow%20Knight"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/hollow_knight"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/232654"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/hollow-knight-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/367520"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hollow_Knight"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://hollowknight.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/teamcherrygames"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/HollowKnight"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/HollowKnightGame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/hollowknight"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@TeamCherry"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://hollowknight.wiki/w/Hollow_Knight_(game)"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 12, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-06-12"
+    },
+    {
+      "platform": "Wii U",
+      "region": null,
+      "date": "2017",
+      "status": "Offline",
+      "date_iso": "2017-12-31"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Feb 24, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-02-24"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 25, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-09-25"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Apr 11, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-04-11"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 25, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-09-25"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 24, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-02-24"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Feb 05, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-05"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 05, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 05, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar584b.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar584c.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ptm.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar667m.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ylrp6zuf9e7tcu1nvuir.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/eygmqwtcvjwc8xpjc8jq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/yfx8udozg2xathxuzroi.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/tvfbpcmuonwiugjcbc45.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/rdlcclxpscvrpkiq5kkv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/m18xmrbbbzlmh8bru5lm.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ptn.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "Y2amTl5lBYM",
+      "url": "https://www.youtube.com/watch?v=Y2amTl5lBYM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "UAO2urG23S4",
+      "url": "https://www.youtube.com/watch?v=UAO2urG23S4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "kWo5g-tsBNk",
+      "url": "https://www.youtube.com/watch?v=kWo5g-tsBNk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "0GXyV9EvB_g",
+      "url": "https://www.youtube.com/watch?v=0GXyV9EvB_g"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "U8lbFP8i730",
+      "url": "https://www.youtube.com/watch?v=U8lbFP8i730"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "-qVVO69Cgcs",
+      "url": "https://www.youtube.com/watch?v=-qVVO69Cgcs"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "0lp2IG35Yho",
+      "url": "https://www.youtube.com/watch?v=0lp2IG35Yho"
+    }
+  ]
+}

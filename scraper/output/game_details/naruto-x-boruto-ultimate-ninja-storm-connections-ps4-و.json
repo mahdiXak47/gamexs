@@ -1,0 +1,109 @@
+{
+  "slug": "naruto-x-boruto-ultimate-ninja-storm-connections-ps4-و",
+  "igdb_id": 106295,
+  "name": "Naruto x Boruto: Ninja Tribes",
+  "summary": "Naruto x Boruto: Ninja Tribes is based on the popular Naruto and Boruto anime series and brings together fan-favorite characters spanning multiple generations of both franchises for one-tap team-based battles.\n\nA turn-based RPG being developed by Bandai Namco, now planned for release on the Enza platform in Japan which includes PC and Mobile web browsers as well as standalone apps for iOS and Android.\n\nOriginal planned for release in 2018 as Naruto x Boruto: Borutical Generations, the game was delayed and eventually re-announced under a new title, Project: Tri, on May 15th 2019.",
+  "first_release_year": 2020,
+  "developers": [
+    "Bandai Namco Online"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)"
+  ],
+  "themes": [
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Naruto"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "ninja",
+    "free-to-play",
+    "turn-based combat",
+    "based on - manga",
+    "based on - anime",
+    "in-app purchases"
+  ],
+  "alternative_names": [
+    {
+      "name": "NARUTO×BORUTO ボルティカル ジェネレーションズ",
+      "comment": "Formerly known as"
+    },
+    {
+      "name": "Naruto x Boruto: Borutical Generations",
+      "comment": "Formerly known as"
+    },
+    {
+      "name": "Naruto x Boruto Project: Tri",
+      "comment": "Development title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/ninjatribes"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://en-narutoxboruto-tri.bn-ent.net/"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://itunes.apple.com/us/app/id1488279080#?platform=iphone"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Naruto%20x%20Boruto%3A%20Ninja%20Tribes"
+    },
+    {
+      "label": "iPad",
+      "url": "https://itunes.apple.com/us/app/id1488279080#?platform=ipad"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.bandainamcoent.nxb_nt_en"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Web browser",
+      "region": null,
+      "date": "Mar 09, 2020",
+      "status": "Released",
+      "date_iso": "2020-03-09"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Mar 09, 2020",
+      "status": "Released",
+      "date_iso": "2020-03-09"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Mar 09, 2020",
+      "status": "Released",
+      "date_iso": "2020-03-09"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar64t.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5np.jpg"
+  ],
+  "videos": []
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "استیل-بوک-gotham-knights-نسخه-special-edition",
+  "igdb_id": 324765,
+  "name": "Gotham Knights: Special Edition",
+  "summary": "",
+  "first_release_year": 2022,
+  "developers": [
+    "WB Games Montréal"
+  ],
+  "publishers": [
+    "WB Games"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Open world",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 21, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 21, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 21, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 21, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-21"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

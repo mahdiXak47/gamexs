@@ -1,0 +1,310 @@
+{
+  "slug": "life-is-strange-remastered-collection",
+  "igdb_id": 7599,
+  "name": "Life Is Strange",
+  "summary": "Life Is Strange is a five part episodic game that sets out to revolutionize story based choice and consequence games by allowing the player to rewind time and affect the past, present and future.",
+  "first_release_year": 2015,
+  "developers": [
+    "DON'T NOD"
+  ],
+  "publishers": [
+    "Feral Interactive",
+    "Square Enix"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction",
+    "Drama",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Life is Strange"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Life is Strange"
+  ],
+  "game_engines": [
+    "Unreal Engine 3"
+  ],
+  "keywords": [
+    "soccer",
+    "football",
+    "exploration",
+    "time travel",
+    "photography",
+    "death",
+    "time manipulation",
+    "cinematic",
+    "episodic",
+    "female protagonist",
+    "action-adventure",
+    "graphic adventure",
+    "bird",
+    "achievements",
+    "camera",
+    "squirrel",
+    "drone",
+    "digital distribution",
+    "time rewind",
+    "students",
+    "playstation trophies",
+    "voice acting",
+    "controller recommendation",
+    "bink video",
+    "human",
+    "polygonal 3d",
+    "color separation",
+    "young protagonist",
+    "playstation experience 2015",
+    "branching storyline",
+    "downloadable content",
+    "gamescom 2014",
+    "coming of age",
+    "pax prime 2015",
+    "declarative title",
+    "game developers choice awards 2016",
+    "trophies",
+    "dolby digital",
+    "quick time event",
+    "alternate reality",
+    "teenager",
+    "blender",
+    "flash drive",
+    "lgbtq+",
+    "previously on - xbox gamepass"
+  ],
+  "alternative_names": [
+    {
+      "name": "Животът е Странен",
+      "comment": "Bulgarian title"
+    },
+    {
+      "name": "LifeIsStrange.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/life-is-strange-complete-season-episodes-1-5/C205FBSPZ3W8"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://life-is-strange.fandom.com/wiki/Life_is_Strange"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/319630"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/life_is_strange_complete_season"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/lifeisstrangegame"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/LifeIsStrangeGame"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/lifeisstrange"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Life_Is_Strange_(video_game)"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.lifeisstrange.com/"
+    },
+    {
+      "label": "iPad",
+      "url": "https://apps.apple.com/us/app/life-is-strange/id1180101534"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/us/app/life-is-strange/id1180101534"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/life-is-strange"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/LifeIsStrange"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@lifeisstrange"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/202416/"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.squareenix.lis"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Jan 30, 2015",
+      "status": "Released",
+      "date_iso": "2015-01-30"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jun 15, 2016",
+      "status": "Released",
+      "date_iso": "2016-06-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 29, 2015",
+      "status": "Released",
+      "date_iso": "2015-01-29"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 30, 2015",
+      "status": "Released",
+      "date_iso": "2015-01-30"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jun 16, 2016",
+      "status": "Released",
+      "date_iso": "2016-06-16"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Jul 18, 2018",
+      "status": "Released",
+      "date_iso": "2018-07-18"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 30, 2015",
+      "status": "Released",
+      "date_iso": "2015-01-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 30, 2015",
+      "status": "Released",
+      "date_iso": "2015-01-30"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 30, 2015",
+      "status": "Released",
+      "date_iso": "2015-01-30"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Jan 30, 2015",
+      "status": "Released",
+      "date_iso": "2015-01-30"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Dec 14, 2017",
+      "status": "Released",
+      "date_iso": "2017-12-14"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Jul 21, 2016",
+      "status": "Released",
+      "date_iso": "2016-07-21"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 30, 2015",
+      "status": "Released",
+      "date_iso": "2015-01-30"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Jan 29, 2015",
+      "status": "Released",
+      "date_iso": "2015-01-29"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jan 29, 2015",
+      "status": "Released",
+      "date_iso": "2015-01-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/pn2wkho1un4rxpsczqxz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ci2xzlfvm3knc4ibefxe.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4p6o.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar69ks.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/bt8k0rwmxbluyyshy23b.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/crxojvaubwpamep5x2qo.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/jgcvwof0dzaeefepced0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/tekof3yee9vi5zusvgbu.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/inouolrwoxadibhpzuwf.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/j6emrrkk52lebu55il1l.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/r0ipmsgeacflkc54tsbe.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/vxfyp1yrxnqrfgde0xrp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/rpkccuav9vxjvqeq7fna.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/gqhcognbsyjsis2gtjd0.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Episode 3 Launch Trailer",
+      "youtube_id": "49-GtSdhm1g",
+      "url": "https://www.youtube.com/watch?v=49-GtSdhm1g"
+    },
+    {
+      "title": "Episode 1 Launch Trailer",
+      "youtube_id": "YznXuKwJtMg",
+      "url": "https://www.youtube.com/watch?v=YznXuKwJtMg"
+    },
+    {
+      "title": "Limited Edition Trailer",
+      "youtube_id": "EfEdb26_k-A",
+      "url": "https://www.youtube.com/watch?v=EfEdb26_k-A"
+    },
+    {
+      "title": "Episode 2 Launch Trailer",
+      "youtube_id": "gnVJjRVLYnk",
+      "url": "https://www.youtube.com/watch?v=gnVJjRVLYnk"
+    }
+  ]
+}

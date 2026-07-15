@@ -1,0 +1,141 @@
+{
+  "slug": "atlas-fallen",
+  "igdb_id": 214409,
+  "name": "Atlas Fallen",
+  "summary": "Rise from the dust and glide the sands of a timeless land, filled with ancient dangers, mysteries and fragments of the past. Hunt legendary monsters with powerful sand-infused weapons and abilities in spectacular, super-powered combat.",
+  "first_release_year": 2023,
+  "developers": [
+    "Deck13 Interactive"
+  ],
+  "publishers": [
+    "Focus Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "FLEDGE Engine",
+    "Simplygon",
+    "SDL",
+    "FMOD"
+  ],
+  "keywords": [
+    "exploration",
+    "monsters",
+    "magic",
+    "3d",
+    "female protagonist",
+    "giant monsters",
+    "demons",
+    "atmospheric",
+    "beautiful",
+    "monster hunter"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/atlas_fallen"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/FocusEntertainmentOfficial"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002689"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/focusentmt"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCaLdl0827np4QVPESo794og"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Focus_Entmt"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.focus-entmt.com/en/games/atlas-fallen"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Atlas%20Fallen"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1230530/Atlas_Fallen"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Atlas_Fallen"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/atlas-fallen/9pcq7jrjvbvd"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 10, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 10, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-10"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 10, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1th9.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "_hFePdmcci0",
+      "url": "https://www.youtube.com/watch?v=_hFePdmcci0"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "AGQfhGubWns",
+      "url": "https://www.youtube.com/watch?v=AGQfhGubWns"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "JJbVvjviXOc",
+      "url": "https://www.youtube.com/watch?v=JJbVvjviXOc"
+    }
+  ]
+}

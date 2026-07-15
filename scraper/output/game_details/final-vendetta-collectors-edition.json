@@ -1,0 +1,158 @@
+{
+  "slug": "final-vendetta-collectors-edition",
+  "igdb_id": 191756,
+  "name": "Final Vendetta",
+  "summary": "Final Vendetta is a hard-hitting action packed beat ‘em up for 1 or 2 players in the vein of classic arcade titles. Featuring stunning pixel art and a thumping soundtrack with exclusive tracks from Utah Saints! Brawl with bad dudes and tough girls as you fight through dangerous environments.",
+  "first_release_year": 2022,
+  "developers": [
+    "Bitmap Bureau"
+  ],
+  "publishers": [
+    "Numskull Games"
+  ],
+  "genres": [
+    "Fighting",
+    "Hack and slash/Beat 'em up",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Final Vendetta.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/final_vendetta"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/numskullgames"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/NumskullGames/videos"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/numskullgames"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://numskullgames.com/game/final-vendetta"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/numskullgames"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004778"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/final-vendetta-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1891090/Final_Vendetta"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Final%20Vendetta"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 17, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-17"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Jun 17, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-17"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 17, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-17"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jun 17, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 17, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-17"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 17, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 17, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 17, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1n6t.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "zOESWjabov4",
+      "url": "https://www.youtube.com/watch?v=zOESWjabov4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Sz7avU8Y4Xk",
+      "url": "https://www.youtube.com/watch?v=Sz7avU8Y4Xk"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "slug": "cat-quest-iii",
+  "igdb_id": 250622,
+  "name": "Cat Quest III",
+  "summary": "In Cat Quest III you play as a purrivateer in a freely explorable 2.5D open-world swarming with Pi-rats. You can sail the seas in your ship for treasures galore! But prepare for peril, as the Pirate King aims to hunt you down...",
+  "first_release_year": 2024,
+  "developers": [
+    "The Gentlebros"
+  ],
+  "publishers": [
+    "Kepler Interactive"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Kids",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Cat Quest"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "character customization",
+    "cats",
+    "sailing"
+  ],
+  "alternative_names": [
+    {
+      "name": "Cat Quest: Pirates of the Purribean",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Cat Quest 3",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Cat Quest III.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/TheGentlebros"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/catquestgame/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007859"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/cat-quest-iii-switch/"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/app/cat-quest-iii/id1551304183"
+    },
+    {
+      "label": "iPad",
+      "url": "https://apps.apple.com/app/cat-quest-iii/id1551304183"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2305840/Cat_Quest_Pirates_of_the_Purribean/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/thegentlebros"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.catquestgame.com/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/catquest"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/gentlebrosgames/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/cat-quest-pirates-of-the-purribean"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.thegentlebros.catquestiii"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/cat_quest_iii"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-08"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-08"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-08"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-08"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-08"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Aug 08, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-08"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Aug 08, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-08"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Mar 02, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-02"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2c25.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "mutaN47LDV0",
+      "url": "https://www.youtube.com/watch?v=mutaN47LDV0"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "2Ngu-Bds9JY",
+      "url": "https://www.youtube.com/watch?v=2Ngu-Bds9JY"
+    },
+    {
+      "title": "Game Intro",
+      "youtube_id": "Anbhc2hw9Ik",
+      "url": "https://www.youtube.com/watch?v=Anbhc2hw9Ik"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "K5TQm1N8vuM",
+      "url": "https://www.youtube.com/watch?v=K5TQm1N8vuM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "yzmyIwznh4I",
+      "url": "https://www.youtube.com/watch?v=yzmyIwznh4I"
+    }
+  ]
+}

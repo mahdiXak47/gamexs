@@ -1,0 +1,176 @@
+{
+  "slug": "garfield-lasagna-party",
+  "igdb_id": 218212,
+  "name": "Garfield: Lasagna Party",
+  "summary": "Garfield Lasagna Party is a party game offering more than 30 mini-games. The challenges are varied and test both the player's cleverness and dexterity. All of these can be played solo or in multiplayer mode for up to four people.",
+  "first_release_year": 2022,
+  "developers": [
+    "Balio Studio"
+  ],
+  "publishers": [
+    "Microids"
+  ],
+  "genres": [
+    "Puzzle",
+    "Quiz/Trivia",
+    "Adventure",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Comedy",
+    "Kids",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Garfield"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "minigames",
+    "available on - blacknut",
+    "available on - luna plus"
+  ],
+  "alternative_names": [
+    {
+      "name": "GarfieldLasagnaParty.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Garfield:%20Lasagna%20Party"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005429"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/garfield-lasagna-party-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.microids.com/game-garfield-lasagna-party"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2008410/Garfield_Lasagna_Party"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-10"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-10"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-10"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-10"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-10"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-10"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Nov 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-15"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-15"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 10, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-10"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1xiz.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "NrSuZo62ZO0",
+      "url": "https://www.youtube.com/watch?v=NrSuZo62ZO0"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "slug": "ea-sports-wrc-نسخه-استاندارد",
+  "igdb_id": 264412,
+  "name": "EA Sports WRC",
+  "summary": "EA Sports WRC boasts 10 current WRC, WRC2, and Junior WRC vehicles and 68 of the most iconic rally cars spanning 60 years of the sport.\n\nWorking together with official WRC teams and manufacturers, such as Ford, Toyota, and Hyundai, each vehicle is built to tackle every challenge they'll face throughout the season. The hybrid-powered 4WD Rally1 cars are some of the fastest in the sport's history, capable of incredible speeds while tackling gravity-defying jumps, deteriorating surfaces, and adverse weather.",
+  "first_release_year": 2023,
+  "developers": [
+    "Codemasters"
+  ],
+  "publishers": [
+    "EA Sports"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "World Rally Championship"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "rally"
+  ],
+  "alternative_names": [
+    {
+      "name": "EAAntiCheat.GameServiceLauncher.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ea-sports-wrc/9N9PDJ7Z8S2R"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004258"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/EASPORTSWRC"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@EASPORTSWRC"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/wrc-23"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/easportswrc/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/ea-sports-wrc/wrc"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1849250"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 31, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-31"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 03, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-03"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 03, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-03"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2i64.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2i5u.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2i63.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2i65.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "_qNJ7B39S2k",
+      "url": "https://www.youtube.com/watch?v=_qNJ7B39S2k"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "fCVMJXONSpU",
+      "url": "https://www.youtube.com/watch?v=fCVMJXONSpU"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "uZfLyIC9vuQ",
+      "url": "https://www.youtube.com/watch?v=uZfLyIC9vuQ"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "nICW6VlLPvk",
+      "url": "https://www.youtube.com/watch?v=nICW6VlLPvk"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "JFy_cWefBtQ",
+      "url": "https://www.youtube.com/watch?v=JFy_cWefBtQ"
+    }
+  ]
+}

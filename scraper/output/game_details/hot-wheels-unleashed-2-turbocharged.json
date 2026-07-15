@@ -1,0 +1,160 @@
+{
+  "slug": "hot-wheels-unleashed-2-turbocharged",
+  "igdb_id": 251471,
+  "name": "Hot Wheels Unleashed 2: Turbocharged",
+  "summary": "The world’s raddest cars are back and taking the fun to the next level! Race over 130 vehicles with crazy new mechanics and even more vehicle types. Plus, build your tracks with stunning new environments and different game modes to have fun off and online!",
+  "first_release_year": 2023,
+  "developers": [
+    "Milestone"
+  ],
+  "publishers": [
+    "Milestone"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Hot Wheels"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Hot Wheels"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "museum",
+    "time trials",
+    "car collecting",
+    "loops",
+    "elimination mode"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCy9_4oCluE1Cih3QjQWLjdg"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/MilestoneItaly"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/hot-wheels-unleashed-2-turbocharged-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/hot-wheels-unleashed-2---turbocharged/9MWDKL3SD6D9"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005765"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2051120/HOT_WHEELS_UNLEASHED_2__Turbocharged/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hot_Wheels_Unleashed_2:_Turbocharged"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/hot-wheels-unleashed-2?lang=en-US"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/HotWheelsUnleashed/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/hotwheelsunleashed/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://hotwheelsunleashed.com/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/XpMdnVsS3K"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 19, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-19"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-15"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-15"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2bz6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2bz5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2bz4.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "46dYAG-mqXg",
+      "url": "https://www.youtube.com/watch?v=46dYAG-mqXg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "09F3yQkLYh4",
+      "url": "https://www.youtube.com/watch?v=09F3yQkLYh4"
+    }
+  ]
+}

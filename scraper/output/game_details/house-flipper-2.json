@@ -1,0 +1,130 @@
+{
+  "slug": "house-flipper-2",
+  "igdb_id": 191797,
+  "name": "House Flipper 2",
+  "summary": "It's time to dust off your hammer - House Flipper is back in a brand-new fashion! Buy and renovate run-down houses! Or maybe you want to build new ones? Now you can! Start as a rookie Flipper and make a fortune by helping out the community of the charming town of Pinnacove.",
+  "first_release_year": 2023,
+  "developers": [
+    "Empyrean",
+    "Frozen District"
+  ],
+  "publishers": [
+    "Frozen District",
+    "PlayWay S.A.",
+    "Merge Games"
+  ],
+  "genres": [
+    "Simulator",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Sandbox"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "House Flipper"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "HouseFlipper2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/HouseFlipperGame"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/house-flipper-2-f3bb66"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006545"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/house-flipper-2/9N67Z2D5PHW2"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/houseflippersim"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1190970"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/House%20Flipper%202"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCL3vgi5OWc8nsSn-Keai5qw"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/wqUFkZnEqZ"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://houseflipper2.com/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://house-flipper.fandom.com/wiki/House_Flipper_2"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/House_Flipper_2"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 14, 2023",
+      "status": "Released",
+      "date_iso": "2023-12-14"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 10, 2024",
+      "status": "Released",
+      "date_iso": "2024-04-10"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 10, 2024",
+      "status": "Released",
+      "date_iso": "2024-04-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1wqw.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "q1dCOrAPLiY",
+      "url": "https://www.youtube.com/watch?v=q1dCOrAPLiY"
+    }
+  ]
+}

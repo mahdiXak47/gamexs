@@ -1,0 +1,110 @@
+{
+  "slug": "highway-police-simulator-نسخه-بلوری",
+  "igdb_id": 292349,
+  "name": "Highway Police Simulator",
+  "summary": "Welcome to Caminora! Immerse yourself in the authentic police work of the American Highway Patrol. Solve cases, chase criminals and explore the open-world. Choose your officer and tackle the everyday life on the highways. Will you be able to maintain law and order?",
+  "first_release_year": 2024,
+  "developers": [
+    "Z-Software"
+  ],
+  "publishers": [
+    "Aerosoft"
+  ],
+  "genres": [
+    "Simulator",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "police",
+    "police simulator",
+    "highways"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2789130"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010265"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/highway-police-simulator-b0b4a6"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.highwaypolicegame.com/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/pcK36ugu85"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/highwaypolicesimulator/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-05"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2ty1.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "Km0Y4atLGg8",
+      "url": "https://www.youtube.com/watch?v=Km0Y4atLGg8"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "7iwNPUeiS3Q",
+      "url": "https://www.youtube.com/watch?v=7iwNPUeiS3Q"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "aHWkyUTQPm8",
+      "url": "https://www.youtube.com/watch?v=aHWkyUTQPm8"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "aa4E3j3vVGs",
+      "url": "https://www.youtube.com/watch?v=aa4E3j3vVGs"
+    }
+  ]
+}

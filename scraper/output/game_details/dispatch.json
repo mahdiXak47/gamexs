@@ -1,0 +1,166 @@
+{
+  "slug": "dispatch",
+  "igdb_id": 325609,
+  "name": "Dispatch",
+  "summary": "Dispatch is a superhero workplace comedy where choices matter. Manage a dysfunctional team of misfit heroes and strategize who to send to emergencies around the city, all while balancing office politics, personal relationships, and your own quest to become a hero.",
+  "first_release_year": 2025,
+  "developers": [
+    "AdHoc Studio"
+  ],
+  "publishers": [
+    "AdHoc Studio"
+  ],
+  "genres": [
+    "Point-and-click",
+    "Strategy",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric",
+    "Text"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "superhero",
+    "the game awards - best debut indie game - nominee",
+    "fmv",
+    "nextfest june 2025"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/dispatch-2"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dispatch_(video_game)"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10013259"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/adhocstudio.com"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/adhocla"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/DispatchAdHoc/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/theAdHocStudio"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@AdHoc-Studio"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/theadhocstudio/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.adhocla.com/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://dispatch.wiki.gg/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/dispatch-nintendo-switch-2-edition-switch-2/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/YXZ7UgSmfz"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2592160"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/dispatch/9ndjsv855t3p"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jan 28, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-01-28"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Jan 28, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-01-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 22, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 22, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Q2 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-06-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar387a.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "4R_b9ptnT2w",
+      "url": "https://www.youtube.com/watch?v=4R_b9ptnT2w"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "kI2pw_5_X6o",
+      "url": "https://www.youtube.com/watch?v=kI2pw_5_X6o"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "rrWos4NShT8",
+      "url": "https://www.youtube.com/watch?v=rrWos4NShT8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "K5y8fK2VFWA",
+      "url": "https://www.youtube.com/watch?v=K5y8fK2VFWA"
+    }
+  ]
+}

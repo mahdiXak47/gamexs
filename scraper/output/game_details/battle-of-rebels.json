@@ -1,0 +1,115 @@
+{
+  "slug": "battle-of-rebels",
+  "igdb_id": 266972,
+  "name": "Battle of Rebels",
+  "summary": "Fight off waves of zombies in this a single-player or multiplayer cross platform first- and third-person shooter game. Battle of Rebels Winner of the Unreal Florida Game Competition",
+  "first_release_year": 2025,
+  "developers": [],
+  "publishers": [
+    "Funbox Media Ltd"
+  ],
+  "genres": [
+    "Shooter",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "BattleRebelV.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://x.com/FunboxMediaLtd"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/battle-of-rebels-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://funboxmedia.co.uk/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/vhNQ8aJE"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@funboxmedialtd/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008389"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2593810"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 26, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-26"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 28, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 28, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 28, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2j1p.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3zd1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3zcz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3zd0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3zcy.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3zd2.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "_RUzOlL93y4",
+      "url": "https://www.youtube.com/watch?v=_RUzOlL93y4"
+    }
+  ]
+}

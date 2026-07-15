@@ -1,0 +1,225 @@
+{
+  "slug": "myst",
+  "igdb_id": 141568,
+  "name": "Myst",
+  "summary": "A reimaged version developed by Cyan, this version builds the original from the ground up to enable play in VR and flatscreen PC, with new art, sound, interactions, and optional puzzle randomisation.",
+  "first_release_year": 2020,
+  "developers": [
+    "Cyan Worlds"
+  ],
+  "publishers": [
+    "Cyan Worlds"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Fantasy",
+    "Science fiction",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Virtual Reality"
+  ],
+  "series": [
+    "Myst"
+  ],
+  "spin_off_of": "Myst",
+  "franchises": [
+    "Myst"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "multiple endings",
+    "story rich",
+    "reimagined",
+    "previously on - horizon plus"
+  ],
+  "alternative_names": [
+    {
+      "name": "Myst VR",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Myst Remake",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Myst.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "Myst Mobile",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Myst Преиздание",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Мист Преиздание",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1255560/Myst"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://cyan.com/games/myst/"
+    },
+    {
+      "label": "Website (25)",
+      "url": "https://www.meta.com/en-gb/experiences/myst/2719294624823942/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/CyanGames"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/cyan_inc"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Myst"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/myst"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCgGqy6Rl9_Q5umGk-8DFQxg"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discordapp.com/invite/cyanchat"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/myst"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/myst"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/cyanworlds"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/cyanworlds"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000550"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Aug 26, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-26"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 26, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-26"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 26, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-26"
+    },
+    {
+      "platform": "Oculus Quest",
+      "region": null,
+      "date": "Dec 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-10"
+    },
+    {
+      "platform": "Meta Quest 2",
+      "region": null,
+      "date": "Dec 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-10"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 26, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-26"
+    },
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "Aug 26, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-26"
+    },
+    {
+      "platform": "Oculus VR",
+      "region": null,
+      "date": "Dec 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-10"
+    },
+    {
+      "platform": "Oculus Rift",
+      "region": null,
+      "date": "Aug 26, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 19, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-19"
+    },
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "May 19, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/aruuq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4b20.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "mtkJkQ3JztY",
+      "url": "https://www.youtube.com/watch?v=mtkJkQ3JztY"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "lSjitylRmLI",
+      "url": "https://www.youtube.com/watch?v=lSjitylRmLI"
+    }
+  ]
+}

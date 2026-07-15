@@ -1,0 +1,90 @@
+{
+  "slug": "هرکول-پوآرو-the-london-cases",
+  "igdb_id": 392811,
+  "name": "Case Solved: The London Files",
+  "summary": "A cozy noir puzzle game where you must investigate the dark underbelly of London. Murders have taken place, witness statements conflict and alibis aren’t adding up. Everyone has a motive, only logic reveals the truth.",
+  "first_release_year": 2026,
+  "developers": [
+    "Minimol Games"
+  ],
+  "publishers": [],
+  "genres": [
+    "Simulator"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4127360"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/playcasesolved"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 29, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-07-29"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Jul 29, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-07-29"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 29, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-07-29"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 29, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-07-29"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 29, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-07-29"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Jul 29, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-07-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5glx.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5gly.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "Sva6vOM74jk",
+      "url": "https://www.youtube.com/watch?v=Sva6vOM74jk"
+    }
+  ]
+}

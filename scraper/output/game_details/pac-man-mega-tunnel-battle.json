@@ -1,0 +1,73 @@
+{
+  "slug": "pac-man-mega-tunnel-battle",
+  "igdb_id": 140269,
+  "name": "Pac-Man Mega Tunnel Battle",
+  "summary": "Prove your mettle in the world’s biggest simultaneous multiplayer PAC-MAN experience! Jump into 64-player games and show everyone who's the leader of the PAC! Invade other players' mazes, eat their dots and power ups - even other players! - and dominate the mazes! But watch out: viewers can vote on power-ups that can cause you - or your opponents! - to stumble on the field and be eliminated from battle! Invade, defend, and rack up high scores across a field of 64 interconnected mazes. Take advantage of brand-new power-ups, spy on neighboring boards, and much more! Spectator interactivity means even viewers are part of all the thrilling action! And customize your PAC-MAN and your home maze with fun skins to show off unique looks!",
+  "first_release_year": 2020,
+  "developers": [
+    "Heavy Iron Studios"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment America"
+  ],
+  "genres": [
+    "Arcade"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Pac-Man"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Pac-Man"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "previously on - stadia pro"
+  ],
+  "alternative_names": [
+    {
+      "name": "PAC-MAN: Mega Tunnel Battle",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "PAC-MAN™ Mega Tunnel Battle",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "PAC-MAN Mega Tunnel Battle",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://pacman.fandom.com/wiki/Pac-Man_Mega_Tunnel_Battle"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Pac-Man%20Mega%20Tunnel%20Battle"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pac-Man_Mega_Tunnel_Battle"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Nov 17, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-17"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

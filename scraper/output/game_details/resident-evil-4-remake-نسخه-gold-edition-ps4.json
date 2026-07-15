@@ -1,0 +1,215 @@
+{
+  "slug": "resident-evil-4-remake-نسخه-gold-edition-ps4",
+  "igdb_id": 132181,
+  "name": "Resident Evil 4",
+  "summary": "Resident Evil 4 is a remake of the 2005 original Resident Evil 4 reimagined for 2023 to bring state-of-the-art survival horror. Resident Evil 4 preserves the essence of the original game, while introducing modernized gameplay, a reimagined storyline,\nand vividly detailed graphics to make this the latest survival horror game where life and death, terror and catharsis intersect.",
+  "first_release_year": 2023,
+  "developers": [
+    "Capcom Development Division 1"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [
+    "Shooter",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Resident Evil"
+  ],
+  "spin_off_of": "Resident Evil 4",
+  "franchises": [
+    "Resident Evil"
+  ],
+  "game_engines": [
+    "RE Engine"
+  ],
+  "keywords": [
+    "zombies",
+    "exploration",
+    "psychological horror",
+    "dark",
+    "story driven",
+    "resource management",
+    "cinematic",
+    "gore",
+    "atmospheric",
+    "survival horror",
+    "over the shoulder",
+    "inventory management",
+    "creepy",
+    "violent",
+    "upgradeable weapons",
+    "extreme violence",
+    "weapon modification",
+    "zombie shooter",
+    "the game awards - best action-adventure game - nominee",
+    "the game awards - best audio design - nominee",
+    "the game awards - most anticipated game - nominee",
+    "the game awards - game of the year - nominee",
+    "survival shooter",
+    "regional censorship"
+  ],
+  "alternative_names": [
+    {
+      "name": "RE4",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "Resident Evil 4 Remake",
+      "comment": "Working title"
+    },
+    {
+      "name": "re4.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "RE4 Remake",
+      "comment": "Working title"
+    },
+    {
+      "name": "Biohazard 4 Remake",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "BIOHAZARD RE:4",
+      "comment": "Japanese title - stylized"
+    }
+  ],
+  "websites": [
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/app/resident-evil-4/id6462360082?platform=iphone"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004473"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/resident-evil-4/9N7JCPPCPN37"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/ResidentEvil"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/residentevil"
+    },
+    {
+      "label": "iPad",
+      "url": "https://apps.apple.com/app/resident-evil-4/id6462360082?platform=ipad"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.residentevil.com/re4/en-us"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Resident%20Evil%204"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2050650"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://www.twitter.com/RE_Games"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/residentevil.capcomusa.com"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/residentevil"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-03-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-03-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-03-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-03-24"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Dec 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-20"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Dec 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1xhu.jpg"
+  ],
+  "videos": [
+    {
+      "title": "2nd Trailer",
+      "youtube_id": "cMzJv0LOJYo",
+      "url": "https://www.youtube.com/watch?v=cMzJv0LOJYo"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "9p0YVZy2hXI",
+      "url": "https://www.youtube.com/watch?v=9p0YVZy2hXI"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "rcFarJACzx0",
+      "url": "https://www.youtube.com/watch?v=rcFarJACzx0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "17lHF8U_du8",
+      "url": "https://www.youtube.com/watch?v=17lHF8U_du8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "bwxMrAy4z-s",
+      "url": "https://www.youtube.com/watch?v=bwxMrAy4z-s"
+    }
+  ]
+}

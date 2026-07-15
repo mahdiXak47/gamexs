@@ -1,0 +1,175 @@
+{
+  "slug": "white-day-a-labyrinth-named-school",
+  "igdb_id": 26914,
+  "name": "White Day: A Labyrinth Named School",
+  "summary": "Steel your nerves for a Korean horror without equal! Step into the shoes of student Hee-Min Lee and brave the terrors of Yeondu High School in a terrifying survival horror game filled with puzzles, secrets and - of course - deadly ghosts.",
+  "first_release_year": 2017,
+  "developers": [
+    "Sonnori"
+  ],
+  "publishers": [
+    "PQube",
+    "Sonnori",
+    "Arc System Works",
+    "Justdan International"
+  ],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Virtual Reality"
+  ],
+  "series": [
+    "White Day"
+  ],
+  "spin_off_of": "The School: White Day",
+  "franchises": [],
+  "game_engines": [
+    "Unity 5"
+  ],
+  "keywords": [
+    "ghosts",
+    "psychological horror",
+    "survival horror",
+    "jump scare moment",
+    "fan translation - english",
+    "available on - crunchyroll game vault"
+  ],
+  "alternative_names": [
+    {
+      "name": "White Day",
+      "comment": "Other"
+    },
+    {
+      "name": "White Day: In Your Hands",
+      "comment": "Other"
+    },
+    {
+      "name": "White Day: A labyrinth named school Remake",
+      "comment": "Japanese title - translated"
+    },
+    {
+      "name": "White Day: ~Gakkou to iu Na no Meikyuu~",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "WhiteDay.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/White_Day:_A_Labyrinth_Named_School_(2015_video_game)"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://pqube.co.uk/whiteday/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/228885"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/white-day-a-labyrinth-named-school-switch/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://whiteday.fandom.com/wiki/White_Day:_A_Labyrinth_Named_School_(2015)"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/466130"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/White%20Day:%20A%20Labyrinth%20Named%20School"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 24, 2017",
+      "status": "Released",
+      "date_iso": "2017-08-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-08"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-08"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 22, 2017",
+      "status": "Released",
+      "date_iso": "2017-08-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 25, 2017",
+      "status": "Released",
+      "date_iso": "2017-08-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-08"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 22, 2017",
+      "status": "Released",
+      "date_iso": "2017-08-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arfkw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1ro9.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "VRiYZbAmun4",
+      "url": "https://www.youtube.com/watch?v=VRiYZbAmun4"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "hWnsYSqwTEI",
+      "url": "https://www.youtube.com/watch?v=hWnsYSqwTEI"
+    }
+  ]
+}

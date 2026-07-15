@@ -1,0 +1,154 @@
+{
+  "slug": "truck-logistics-simulator",
+  "igdb_id": 129757,
+  "name": "Truck & Logistics Simulator",
+  "summary": "Load, drive, and deliver through a huge open world with up to 24 players in cross-platform multiplayer. Join your friends in exciting heavy transport convoys. Jump into the driver's seat of more than 30 unique vehicles and carry out complex loading tasks to deliver a variety of cargo.",
+  "first_release_year": 2020,
+  "developers": [
+    "Simula Games"
+  ],
+  "publishers": [
+    "Aerosoft"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Strategy"
+  ],
+  "themes": [
+    "Educational",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "truck simulator",
+    "cross-platform multiplayer"
+  ],
+  "alternative_names": [
+    {
+      "name": "Truck & Logistics Simulator.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/truck-and-logistics-simulator/9N14221KDDV1"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/truck-and-logistics-simulator-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006870"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/873840"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/truck-logistics-simulator-669995447728996353"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://simulagames.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/TruckAndLogisticsSimulator"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/truck-and-logistics-simulator"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/simula_games/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/TruckAndLogiSim"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/aerosoftofficial/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 23, 2020",
+      "status": "Beta",
+      "date_iso": "2020-06-23"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 25, 2020",
+      "status": "Released",
+      "date_iso": "2020-06-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 30, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 30, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 30, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 30, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 30, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/areek.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "dbTyyth3gYU",
+      "url": "https://www.youtube.com/watch?v=dbTyyth3gYU"
+    }
+  ]
+}

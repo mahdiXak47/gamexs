@@ -1,0 +1,126 @@
+{
+  "slug": "the-casting-of-frank-stone",
+  "igdb_id": 279635,
+  "name": "The Casting of Frank Stone",
+  "summary": "The shadow of Frank Stone looms over Cedar Hills, a town forever altered by his violent past. As a group of young friends are about to discover, Stone’s blood-soaked legacy cuts deep, leaving scars across families, generations, and the very fabric of reality itself.",
+  "first_release_year": 2024,
+  "developers": [
+    "Supermassive Games"
+  ],
+  "publishers": [
+    "Behaviour Interactive"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Horror",
+    "Thriller",
+    "Drama",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Dead by Daylight"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "dark",
+    "investigation",
+    "supernatural",
+    "crime",
+    "atmospheric",
+    "choices matter"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008245"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/the-casting-of-frank-stone-09928b"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/castingfrankstone"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/TCoFrankStone"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2223840"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.thecastingoffrankstone.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/the-casting-of-frank-stone"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 03, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-03"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 03, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-03"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 03, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-03"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar31ky.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar31kz.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "N6FODK6lwtM",
+      "url": "https://www.youtube.com/watch?v=N6FODK6lwtM"
+    },
+    {
+      "title": "Crafting a Cinematic Nightmare",
+      "youtube_id": "K6majktiuyQ",
+      "url": "https://www.youtube.com/watch?v=K6majktiuyQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "qP8o0YjIxm0",
+      "url": "https://www.youtube.com/watch?v=qP8o0YjIxm0"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "QU07npdc43g",
+      "url": "https://www.youtube.com/watch?v=QU07npdc43g"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "slug": "dune-awakening",
+  "igdb_id": 214394,
+  "name": "Dune: Awakening",
+  "summary": "Dune: Awakening is an open-world survival MMO set on the desert planet Arrakis. Players create a custom character and must manage thirst, maintain stillsuits, and contend with environmental hazards like sandstorms, extreme heat, and roaming sandworms. The game involves scavenging resources, crafting equipment, building shelters, and competing with other players to harvest and transport spice. As players progress, they advance through phases from basic survival to leading a guild, eventually participating in faction warfare between House Atreides and House Harkonnen. The game features both PvE and PvP zones, with a Deep Desert area that reshapes weekly through Coriolis storms.",
+  "first_release_year": 2025,
+  "developers": [
+    "Funcom"
+  ],
+  "publishers": [
+    "Funcom"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Massively Multiplayer Online (MMO)"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Dune"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Frank Herbert's Dune"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "open world survival craft"
+  ],
+  "alternative_names": [
+    {
+      "name": "Dune Awakening",
+      "comment": "Chinese title - traditional"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/duneawakening.com"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://duneawakening.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/dune-awakening"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/duneawakening/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/dune-awakening/9pj6fv3130qz"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001899"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dune:_Awakening"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1172710"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/duneawakening"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/DuneAwakening"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@funcom/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/DuneAwakening"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://duneawakening.telepedia.net/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/duneawakening/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 05, 2025",
+      "status": "status_34",
+      "date_iso": "2025-06-05"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 10, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 22, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-09-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 22, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-09-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3n2m.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3nkv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3nku.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3n2n.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "anZtoPo2Fpw",
+      "url": "https://www.youtube.com/watch?v=anZtoPo2Fpw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Ixq-y_r-lkE",
+      "url": "https://www.youtube.com/watch?v=Ixq-y_r-lkE"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "LW6ou6mugAA",
+      "url": "https://www.youtube.com/watch?v=LW6ou6mugAA"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "cR9qiRGxaN4",
+      "url": "https://www.youtube.com/watch?v=cR9qiRGxaN4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "1S-l7NySFsI",
+      "url": "https://www.youtube.com/watch?v=1S-l7NySFsI"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "smLziWRO9GU",
+      "url": "https://www.youtube.com/watch?v=smLziWRO9GU"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Ud3EW5aAUZ8",
+      "url": "https://www.youtube.com/watch?v=Ud3EW5aAUZ8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "TBPclbtQb7o",
+      "url": "https://www.youtube.com/watch?v=TBPclbtQb7o"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "flzahpG6U0k",
+      "url": "https://www.youtube.com/watch?v=flzahpG6U0k"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ute0AIFm5ig",
+      "url": "https://www.youtube.com/watch?v=ute0AIFm5ig"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "gl6Wi20fSp0",
+      "url": "https://www.youtube.com/watch?v=gl6Wi20fSp0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "pMdITw2sSwo",
+      "url": "https://www.youtube.com/watch?v=pMdITw2sSwo"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "Gy8DGQaMNww",
+      "url": "https://www.youtube.com/watch?v=Gy8DGQaMNww"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "O7Y7bpurPDk",
+      "url": "https://www.youtube.com/watch?v=O7Y7bpurPDk"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "vDiVNCwK9kM",
+      "url": "https://www.youtube.com/watch?v=vDiVNCwK9kM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "-URE4Vs2j60",
+      "url": "https://www.youtube.com/watch?v=-URE4Vs2j60"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "iCKflvFn4p4",
+      "url": "https://www.youtube.com/watch?v=iCKflvFn4p4"
+    }
+  ]
+}

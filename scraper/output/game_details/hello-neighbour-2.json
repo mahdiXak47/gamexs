@@ -1,0 +1,178 @@
+{
+  "slug": "hello-neighbour-2",
+  "igdb_id": 135991,
+  "name": "Hello Neighbor 2",
+  "summary": "Hello Neighbor 2 is a stealth horror game where you're being stalked by a mysterious creature as you try to track down Mr. Peterson (The Neighbor) who has disappeared after the events of the first game. Play against an advanced, self-learning AI that tracks and adapts to your every move.",
+  "first_release_year": 2022,
+  "developers": [
+    "Eerie Guest Studios"
+  ],
+  "publishers": [
+    "tinyBuild"
+  ],
+  "genres": [
+    "Puzzle",
+    "Strategy",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Hello Neighbor"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Hello Neighbour 2",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "HelloNeighbor2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.helloneighbor2.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/tinyBuildGames"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/hello-neighbor-2"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/tinyBuild"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1321680"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/hello_neighbor_2"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://hello-neighbor.fandom.com/wiki/Hello_Neighbor_2"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCHLuN_JL66bD8fdJWmQ-gNw"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Hello%20Neighbor%202"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/Qbz5EEE"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/hello-neighbor-2-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003558"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 06, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-06"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 06, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 06, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-06"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 06, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-06"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 06, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-06"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 06, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arrmm.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "UI0-TISn5-g",
+      "url": "https://www.youtube.com/watch?v=UI0-TISn5-g"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "V2SzmpVChZs",
+      "url": "https://www.youtube.com/watch?v=V2SzmpVChZs"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "H7piFau3Bzs",
+      "url": "https://www.youtube.com/watch?v=H7piFau3Bzs"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "_ouO6zcnUa8",
+      "url": "https://www.youtube.com/watch?v=_ouO6zcnUa8"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "QNCE18MQm04",
+      "url": "https://www.youtube.com/watch?v=QNCE18MQm04"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "G7jExB-3ULE",
+      "url": "https://www.youtube.com/watch?v=G7jExB-3ULE"
+    }
+  ]
+}

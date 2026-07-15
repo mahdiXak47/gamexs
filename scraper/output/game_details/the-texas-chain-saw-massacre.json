@@ -1,0 +1,162 @@
+{
+  "slug": "the-texas-chain-saw-massacre",
+  "igdb_id": 185238,
+  "name": "The Texas Chain Saw Massacre",
+  "summary": "Take on the role of one of the notorious Slaughter family, or their victims, in The Texas Chain Saw Massacre, a third-person asymmetrical horror experience based on the groundbreaking and iconic 1974 horror film.",
+  "first_release_year": 2023,
+  "developers": [
+    "Sumo Nottingham"
+  ],
+  "publishers": [
+    "Gun Interactive"
+  ],
+  "genres": [
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "based on - movie",
+    "asymmetrical survival horror",
+    "asymmetrical"
+  ],
+  "alternative_names": [
+    {
+      "name": "The Texas Chainsaw Massacre",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "BBQClient.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/txchainsawgame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/UjQRKPt"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@GunInteractive"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/the-texas-chain-saw-massacre/9P9F54WDBGH6"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002719"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://txchainsawgame.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1433140"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20Texas%20Chain%20Saw%20Massacre"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/TXChainSawGame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/txchainsawgame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/txchainsawgame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-18"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-18"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1rl6.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "9v1tQ9Zb3nc",
+      "url": "https://www.youtube.com/watch?v=9v1tQ9Zb3nc"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "wAyQw3GT5GI",
+      "url": "https://www.youtube.com/watch?v=wAyQw3GT5GI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ISCbJ9RlDgU",
+      "url": "https://www.youtube.com/watch?v=ISCbJ9RlDgU"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "3k-j-uOcPbo",
+      "url": "https://www.youtube.com/watch?v=3k-j-uOcPbo"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "1C6ht3M7Q28",
+      "url": "https://www.youtube.com/watch?v=1C6ht3M7Q28"
+    }
+  ]
+}

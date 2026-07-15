@@ -1,0 +1,75 @@
+{
+  "slug": "the-sinking-forest",
+  "igdb_id": 328338,
+  "name": "The Sinking Forest",
+  "summary": "A Japanese survival horror game full of tension, drama, and violence. If you like psychological horror games with exploration, puzzles, and limited resources, you'll enjoy an intense experience where every decision can mean the difference between finding Sayuri or getting lost in the forest forever.",
+  "first_release_year": 2024,
+  "developers": [
+    "TonyDevGame"
+  ],
+  "publishers": [
+    "indie.io"
+  ],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival",
+    "Drama"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://x.com/TonyDevGame"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.tonydevgame.com"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10013232"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3206410"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 22, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 28, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar39l8.jpg"
+  ],
+  "videos": []
+}

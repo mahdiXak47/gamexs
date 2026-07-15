@@ -1,0 +1,119 @@
+{
+  "slug": "spider-man-remastered",
+  "igdb_id": 19114,
+  "name": "Spider-Man",
+  "summary": "Developed by Treyarch and published by Activision, the game has you playing as Spider-Man in the events of the movie while also adding new enemies like the Shocker and Vulture. The gameplay consists of successive levels where you need to defeat thugs with your fists and web and save someone/something from multiple sources of danger until you reach the boss of the section. You either fight in enclosed environments or swing around New-York City in \"aerial\" sequences.",
+  "first_release_year": 2002,
+  "developers": [
+    "Treyarch"
+  ],
+  "publishers": [
+    "Activision"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Spider-Man"
+  ],
+  "game_engines": [
+    "Treyarch NGL"
+  ],
+  "keywords": [
+    "movie games",
+    "superhero",
+    "comic book",
+    "spider-man"
+  ],
+  "alternative_names": [
+    {
+      "name": "Spider-Man: The Movie",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Spider-Man - 2002 release",
+      "comment": "Other Alias"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Spider-Man_(2002_video_game)"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo GameCube",
+      "region": null,
+      "date": "Jun 13, 2003",
+      "status": "Cancelled",
+      "date_iso": "2003-06-13"
+    },
+    {
+      "platform": "Nintendo GameCube",
+      "region": null,
+      "date": "Apr 15, 2002",
+      "status": "Cancelled",
+      "date_iso": "2002-04-15"
+    },
+    {
+      "platform": "Nintendo GameCube",
+      "region": null,
+      "date": "Feb 13, 2003",
+      "status": "Cancelled",
+      "date_iso": "2003-02-13"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 15, 2002",
+      "status": "Cancelled",
+      "date_iso": "2002-04-15"
+    },
+    {
+      "platform": "PlayStation 2",
+      "region": null,
+      "date": "Jun 07, 2002",
+      "status": "Cancelled",
+      "date_iso": "2002-06-07"
+    },
+    {
+      "platform": "PlayStation 2",
+      "region": null,
+      "date": "Apr 15, 2002",
+      "status": "Cancelled",
+      "date_iso": "2002-04-15"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "nPl1Cvbs2t8",
+      "url": "https://www.youtube.com/watch?v=nPl1Cvbs2t8"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "7U_rNCTmR0g",
+      "url": "https://www.youtube.com/watch?v=7U_rNCTmR0g"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "6u7QHxdjqMs",
+      "url": "https://www.youtube.com/watch?v=6u7QHxdjqMs"
+    }
+  ]
+}

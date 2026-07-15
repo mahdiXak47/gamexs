@@ -1,0 +1,117 @@
+{
+  "slug": "street-fighter-6-steelbook",
+  "igdb_id": 242928,
+  "name": "Street Fighter 6: Steelbook Edition",
+  "summary": "Get a nice steelbook cover with your Street Fighter 6 in this exclusive edition.",
+  "first_release_year": 2023,
+  "developers": [
+    "Capcom"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [
+    "Fighting",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Street Fighter"
+  ],
+  "game_engines": [
+    "RE Engine"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.streetfighter.com/6/en-us"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Street%20Fighter%206"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://streetfighter.fandom.com/wiki/Street_Fighter_6"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/StreetFighter"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/StreetFighter/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/streetfighter"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/streetfighter"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/streetfightergame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/streetfighter"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Street_Fighter_6"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/streetfighter.capcomusa.com"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 02, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-02"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 02, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-02"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 02, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-02"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 02, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-02"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "winter-sports-games",
+  "igdb_id": 125029,
+  "name": "Winter Sports Games",
+  "summary": "Whether you enjoy skiing, the thrill of barrelling down an ice track in a bobsleigh or sled, or calmly sliding the stones across the ice in curling - you can have it all here.\n\nWin tournaments and master challenges in six tense disciplines. Play by yourself or with up to four players at your home - no runny nose after every competition!",
+  "first_release_year": 2019,
+  "developers": [],
+  "publishers": [
+    "Joindots"
+  ],
+  "genres": [
+    "Simulator",
+    "Sport",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "wintersportsgames.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Winter%20Sports%20Games"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002098"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/winter-sports-games-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/998530"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.nintendo.com/games/detail/winter-sports-games-switch"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 23, 2019",
+      "status": "Released",
+      "date_iso": "2019-10-23"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 24, 2019",
+      "status": "Released",
+      "date_iso": "2019-10-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 26, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-26"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 05, 2019",
+      "status": "Released",
+      "date_iso": "2019-12-05"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 24, 2019",
+      "status": "Released",
+      "date_iso": "2019-12-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arc5y.jpg"
+  ],
+  "videos": []
+}

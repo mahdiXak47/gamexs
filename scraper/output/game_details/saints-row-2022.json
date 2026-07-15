@@ -1,0 +1,163 @@
+{
+  "slug": "saints-row-2022",
+  "igdb_id": 165346,
+  "name": "Saints Row",
+  "summary": "Welcome to Santo Ileso, a vibrant fictional city in the American Southwest. In a world rife with crime, a group of young friends embark on their own criminal venture, as they rise to the top in their bid to become Self Made.",
+  "first_release_year": 2022,
+  "developers": [
+    "Volition"
+  ],
+  "publishers": [
+    "Deep Silver"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Saints Row"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "cars",
+    "character customization"
+  ],
+  "alternative_names": [
+    {
+      "name": "Saints Row 2022",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://saintsrow.fandom.com/wiki/Saints_Row_(reboot)"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/saintsrow"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/saintsrowofficial"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Saints_Row_(2022_video_game)"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002042"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/saints-row/BTVQTRMQVLJP"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/SaintsRow"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://saintsrow.com/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/saints-row"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/saintsrow"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCnozt2_C8K4wBXvRhhdhAAA"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/742420"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/saints-row-2022"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 23, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-23"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 23, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-23"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Aug 23, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 23, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-23"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 23, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-23"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 23, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar12wr.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "YgjzDJA1o1E",
+      "url": "https://www.youtube.com/watch?v=YgjzDJA1o1E"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "f3J0bJ-YpQg",
+      "url": "https://www.youtube.com/watch?v=f3J0bJ-YpQg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "JR1w18sv4Rw",
+      "url": "https://www.youtube.com/watch?v=JR1w18sv4Rw"
+    }
+  ]
+}

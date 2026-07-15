@@ -1,0 +1,109 @@
+{
+  "slug": "rogue-flight",
+  "igdb_id": 318086,
+  "name": "Rogue Flight",
+  "summary": "Rogue Flight is a breathtaking arcade space combat game inspired by the landmark style of 80's and 90's prestige anime. Traverse the Sol system and join a flight force voiced by a veteran cast, featuring Japanese talent from Sailor Moon, Neon Genesis Evangelion, Gundam, Naruto & One Piece, and English voice talent featured in Overwatch and Fallout 76, League of Legends and Marvel's Avengers. Jump into true stylish arcade action with a huge host of spacecraft upgrades, game modes and multiple narrative paths.",
+  "first_release_year": 2024,
+  "developers": [
+    "Truant Pixel"
+  ],
+  "publishers": [
+    "Perp Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "flight",
+    "roguelite"
+  ],
+  "alternative_names": [
+    {
+      "name": "RogueFlight.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2784620/ROGUE_FLIGHT/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://perpgames.com/game/rogue-flight/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/rogue-flight-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10012771"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar35rr.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar35rs.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar35rq.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "QzQweqGfDGU",
+      "url": "https://www.youtube.com/watch?v=QzQweqGfDGU"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "3e-OVY7qBKg",
+      "url": "https://www.youtube.com/watch?v=3e-OVY7qBKg"
+    }
+  ]
+}

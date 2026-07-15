@@ -1,0 +1,46 @@
+{
+  "slug": "job-simulator",
+  "igdb_id": 120688,
+  "name": "Dirty Jobs Simulator",
+  "summary": "Be ready to get your hands really dirty. In this game you will have to do things that others find too disgusting. Sewage, excrements and blood are just a few examples of what awaits you. You need to be careful or else you will catch an infection. Staying in the hospital means the end of work.",
+  "first_release_year": null,
+  "developers": [],
+  "publishers": [],
+  "genres": [
+    "Simulator",
+    "Indie"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1090750"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Dirty%20Jobs%20Simulator"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4ior.jpg"
+  ],
+  "videos": []
+}

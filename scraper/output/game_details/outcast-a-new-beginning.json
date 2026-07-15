@@ -1,0 +1,140 @@
+{
+  "slug": "outcast-a-new-beginning",
+  "igdb_id": 171215,
+  "name": "Outcast: A New Beginning",
+  "summary": "Explore the breathtaking alien world of Adelpha, support the local Talans in their struggles and fight your way through fast-paced battles against invading robot forces in this 3rd-person, open world, action adventure sequel to the 1999 cult classic.",
+  "first_release_year": 2024,
+  "developers": [
+    "Appeal Studios"
+  ],
+  "publishers": [
+    "THQ Nordic"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Outcast"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "3d",
+    "1990s",
+    "atmospheric",
+    "1990's",
+    "dynamic narrative"
+  ],
+  "alternative_names": [
+    {
+      "name": "Outcast - A New Beginning",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Outcast 2: A New Beginning",
+      "comment": "Working title"
+    },
+    {
+      "name": "O2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/outcast_2_a_new_beginning"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/outcastgame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003564"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1013140/Outcast_2__A_New_Beginning"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.outcast2.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Outcast%202:%20A%20New%20Beginning"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/outcastgame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/outcastgame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 15, 2024",
+      "status": "Released",
+      "date_iso": "2024-03-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 15, 2024",
+      "status": "Released",
+      "date_iso": "2024-03-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 15, 2024",
+      "status": "Released",
+      "date_iso": "2024-03-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1bt8.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "6qZvge0agNE",
+      "url": "https://www.youtube.com/watch?v=6qZvge0agNE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "R5R-1x7t23U",
+      "url": "https://www.youtube.com/watch?v=R5R-1x7t23U"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "dkHNIVgnJJI",
+      "url": "https://www.youtube.com/watch?v=dkHNIVgnJJI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "jX8uTzA-USg",
+      "url": "https://www.youtube.com/watch?v=jX8uTzA-USg"
+    }
+  ]
+}

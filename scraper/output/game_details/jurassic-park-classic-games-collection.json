@@ -1,0 +1,135 @@
+{
+  "slug": "jurassic-park-classic-games-collection",
+  "igdb_id": 256466,
+  "name": "Jurassic Park: Classic Games Collection",
+  "summary": "The 8-and 16-bit era of Jurassic Park games returns!\n\nThis Carbon Engine release not only includes a lineup of classic titles but also adds new features, including save states for each game, new in-game maps, and various quality-of-life fixes that bring these games into the modern era of gaming.\n\nThe Jurassic Park Classic Games Collection includes Jurassic Park (NES, Game Boy, and SNES) and Jurassic Park Part 2: The Chaos Continues (Game Boy and SNES).",
+  "first_release_year": 2023,
+  "developers": [],
+  "publishers": [
+    "Limited Run Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Bird view / Isometric",
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Carbon Engine"
+  ],
+  "keywords": [
+    "dinosaurs"
+  ],
+  "alternative_names": [
+    {
+      "name": "Jurassic Park Classic Games Collection",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/LimitedRunGames"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://jurassicparkclassicgamescollection.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/LimitedRunGames"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/LimitedRunGames"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008710"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/jurassic-park-classic-games-collection-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2673080"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/jurassic-park-classic-games-collection/9NWPK5KCH6KF"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar66rk.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar66rl.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar66ro.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar66rm.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar66rn.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "5hiJCE-Zx4k",
+      "url": "https://www.youtube.com/watch?v=5hiJCE-Zx4k"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "Z2cfJsEbf5U",
+      "url": "https://www.youtube.com/watch?v=Z2cfJsEbf5U"
+    }
+  ]
+}

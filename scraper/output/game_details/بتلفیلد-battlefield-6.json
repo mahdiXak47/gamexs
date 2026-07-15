@@ -1,0 +1,152 @@
+{
+  "slug": "بتلفیلد-battlefield-6",
+  "igdb_id": 317407,
+  "name": "Battlefield 6",
+  "summary": "The ultimate all-out warfare experience. In a war of tanks, fighter jets, and massive combat arsenals, your squad is the deadliest weapon.",
+  "first_release_year": 2025,
+  "developers": [
+    "EA Digital Illusions CE"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Battlefield"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Battlefield"
+  ],
+  "game_engines": [
+    "Frostbite"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "BF6",
+      "comment": "Acronym"
+    },
+    {
+      "name": "BF 6",
+      "comment": "Acronym"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Battlefield"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP0006-PPSA19534_00-SANTIAGOSTANDARD"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/battlefield-6"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/battlefield-6-standard-edition/9pjxv87jtsvq"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Battlefield_6"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Battlefield6/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://battlefield.fandom.com/wiki/Battlefield_6"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/battlefield"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2807960/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/battlefield-6"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 10, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 10, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-10"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 10, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3vs1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3vs2.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3vs0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5jzg.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Hype Trailer",
+      "youtube_id": "LqWVp3p-FPk",
+      "url": "https://www.youtube.com/watch?v=LqWVp3p-FPk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "pgNCgJG0vnY",
+      "url": "https://www.youtube.com/watch?v=pgNCgJG0vnY"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "wFGEMfyAQtI",
+      "url": "https://www.youtube.com/watch?v=wFGEMfyAQtI"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "1wB1xpT6gyY",
+      "url": "https://www.youtube.com/watch?v=1wB1xpT6gyY"
+    },
+    {
+      "title": "Campaign Trailer",
+      "youtube_id": "WZb3lPmxuSc",
+      "url": "https://www.youtube.com/watch?v=WZb3lPmxuSc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "EunkRPRzECg",
+      "url": "https://www.youtube.com/watch?v=EunkRPRzECg"
+    }
+  ]
+}

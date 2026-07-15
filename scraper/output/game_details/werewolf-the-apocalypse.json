@@ -1,0 +1,81 @@
+{
+  "slug": "werewolf-the-apocalypse",
+  "igdb_id": 400797,
+  "name": "Werewolf: The Apocalypse - Rageborn",
+  "summary": "Set in the World of Darkness, Rageborn sees Taylor rise as a pack leader to become Gaia’s fiercest warrior. Master three forms of the Garou, explore the wilds of Alaska, and confront the Wyrm in this visceral action-adventure metroidvania.",
+  "first_release_year": 2027,
+  "developers": [
+    "Crea-ture Studios"
+  ],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "steam achievements"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/werewolf-the-apocalypse-rageborn/9nv0dv3xwx0b"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10018534"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3746290"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "2027",
+      "status": "Cancelled",
+      "date_iso": "2027-12-31"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "2027",
+      "status": "Cancelled",
+      "date_iso": "2027-12-31"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "2027",
+      "status": "Cancelled",
+      "date_iso": "2027-12-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5u0i.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5u0h.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "YyxU4RqD0G0",
+      "url": "https://www.youtube.com/watch?v=YyxU4RqD0G0"
+    }
+  ]
+}

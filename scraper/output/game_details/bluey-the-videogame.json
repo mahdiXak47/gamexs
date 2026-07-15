@@ -1,0 +1,181 @@
+{
+  "slug": "bluey-the-videogame",
+  "igdb_id": 257332,
+  "name": "Bluey: The Videogame",
+  "summary": "Join the fun with Bluey and her family in Bluey: The Videogame! Play a brand-new story set across 4 interactive adventures. For the first time ever, explore iconic locations such as the Heeler House, Playgrounds, Creek and a bonus beach location. Play your favourite games from the TV show, including Keepy Uppy, Chattermax Chase, and more!\n\nThe fun doesn't stop there! This game won't be trifficult, just a lot of fun. Experience the joy and wonder of Bluey's world, with local multiplayer you can play with friends and family in story mode and free play! Explore and collect items for your sticker book, unlock outfits and uncover the many secrets and hidden references throughout each location. Recreate iconic scenes or create your very own Bluey inspired adventures and games in Bluey: The Videogame.",
+  "first_release_year": 2023,
+  "developers": [
+    "Artax Games"
+  ],
+  "publishers": [
+    "Outright Games"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Bluey"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Bluey"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "based on - tv show",
+    "licensed game",
+    "cartoon"
+  ],
+  "alternative_names": [
+    {
+      "name": "Project biscuits.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "Bluey: El Videojuego",
+      "comment": "Spanish title"
+    },
+    {
+      "name": "Bluey: Le Jeu Vidéo",
+      "comment": "French title"
+    },
+    {
+      "name": "Bluey: Il Videogioco",
+      "comment": "Italian title"
+    },
+    {
+      "name": "Bluey:لعبة الفيديو",
+      "comment": "Arabic title"
+    },
+    {
+      "name": "Bluey: Gra wideo",
+      "comment": "Polish title"
+    },
+    {
+      "name": "Bluey: De Videogame",
+      "comment": "Portuguese title"
+    },
+    {
+      "name": "Bluey: Das Videospiel",
+      "comment": "German title"
+    },
+    {
+      "name": "Bluey: Bideogēmu",
+      "comment": "Japanese title - romanization"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2078350/Bluey_The_Videogame/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/bluey-the-videogame-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006070"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/bluey-the-videogame/9N2J0FGV30DX"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://blueypedia.fandom.com/wiki/Bluey:_The_Videogame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://outrightgames.com/games/bluey-the-videogame/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/FcF6vJqFsU"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/outright_games/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCiLTIbCYFkXhxldNzew_LMA/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://www.twitter.com/Outright_Games/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/OutrightGames/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-17"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-17"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2jau.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "YkMpyeLEcUs",
+      "url": "https://www.youtube.com/watch?v=YkMpyeLEcUs"
+    }
+  ]
+}

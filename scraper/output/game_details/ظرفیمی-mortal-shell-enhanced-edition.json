@@ -1,0 +1,167 @@
+{
+  "slug": "ظرفیمی-mortal-shell-enhanced-edition",
+  "igdb_id": 132050,
+  "name": "Mortal Shell",
+  "summary": "Mortal Shell is a ruthless and deep action-RPG that tests your sanity and resilience in a shattered world. Your adversaries spare no mercy, with survival demanding superior awareness, precision and instincts. Possess lost warriors, track down hidden sanctums of the devout, and face formidable foes.\n\n\"Awakening as an empty vessel, you will enter into a shattered and twisted world where the remains of humanity wither and rot. Implored to do the bidding of the mysterious “Dark Father”, you must traverse this tattered landscape and track down hidden sanctums of devout followers. There, in Mortal Shell’s most hallowed grounds, you must overcome formidable foes and harvest the sacred glands. You won’t be truly alone when the dead litter your path: Scattered across this land are the remnant anima of lost warriors who can be inhabited to gain their unique abilities and knowledge of weapons. The Dark Father is desperate for you to complete your task — but to what end?\n\nDiscover “Shells” to Suit Your Playstyle - The lost remains of defeated warriors are yours to unearth. Awaken these Mortal Shells, occupy their bodies and significantly widen your understanding of different forms of combat. Inhabit a Shell that best fits your style and utilizes their own unique mastery of skills and weapon\nupgrades.\n\nIron Sharpens Iron - Combat is strategic and deliberate. Survival demands superior awareness, precision and instincts. You must commit your sword only when an opportunity opens. Calculate your parries to unleash devastating counterblows.\n\nNon-linear Campaign - Draw your own path across marsh-infested lowlands, through a gargantuan cathedral of obsidian rock, and into an ancient crypt frozen into the crest of a mountain.\n\nDeep Upgrade Paths - The stronger your connection to each Mortal Shell grows, the better you can harness their innate talents. Craft unique upgrades, sharpen your blade with acid, and study dark arcane abilities that imbue your attacks with supernatural devastation.\n\nFace Haunting Foes - Your path is guarded by desperate adversaries, devoted to inscrutable gods. Behold creatures both pitiable and grotesque, but do not let fear halt your journey. Muster your courage and face them down.\n\nDeveloped by AAA Veterans - Mortal Shell has been developed by a coalition of seasoned veterans with an unbridled passion for the soulslike genre.\"",
+  "first_release_year": 2020,
+  "developers": [
+    "Cold Symmetry"
+  ],
+  "publishers": [
+    "Playstack"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "dark fantasy",
+    "non-linear",
+    "soulslike"
+  ],
+  "alternative_names": [
+    {
+      "name": "Dungeonhaven",
+      "comment": "Formerly known as"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/product/mortal-shell"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/MortalShell"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/mortalshellgame"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://mortalshell.wiki.fextralife.com/Mortal+Shell+Wiki"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/mortal_shell"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.mortalshell.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/MortalShellGame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Mortal%20Shell"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/234489"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1110910"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/MortalShellGame"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mortal_Shell"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/mortalshell"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 18, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-18"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 18, 2020",
+      "status": "Released",
+      "date_iso": "2020-08-18"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 18, 2020",
+      "status": "Released",
+      "date_iso": "2020-08-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 04, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-04"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 18, 2020",
+      "status": "Released",
+      "date_iso": "2020-08-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6qx.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7di.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Old Announcement trailer",
+      "youtube_id": "OJ34HDnZbj8",
+      "url": "https://www.youtube.com/watch?v=OJ34HDnZbj8"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "snpXO73u5sw",
+      "url": "https://www.youtube.com/watch?v=snpXO73u5sw"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "i1AESBecyTc",
+      "url": "https://www.youtube.com/watch?v=i1AESBecyTc"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "xu3eb5nSLbQ",
+      "url": "https://www.youtube.com/watch?v=xu3eb5nSLbQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "nxc0wa8FhkY",
+      "url": "https://www.youtube.com/watch?v=nxc0wa8FhkY"
+    }
+  ]
+}

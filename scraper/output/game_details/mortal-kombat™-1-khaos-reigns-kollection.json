@@ -1,0 +1,71 @@
+{
+  "slug": "mortal-kombat™-1-khaos-reigns-kollection",
+  "igdb_id": 314153,
+  "name": "Mortal Kombat 1: Khaos Reigns Kollection",
+  "summary": "New to Mortal Kombat 1? Get started with the Kollection Edition! Includes instant access to Base Game, Kombat Pack, and Dragon Krystals. Gain access to the upcoming Story Expansion and Kombat Pack 2!",
+  "first_release_year": 2024,
+  "developers": [
+    "NetherRealm Studios"
+  ],
+  "publishers": [
+    "Warner Bros. Games"
+  ],
+  "genres": [
+    "Fighting"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Mortal Kombat"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/mortal-kombat-1-khaos-reigns-kollection/9P1BNQ337P21"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/mortal-kombat-1-khaos-reigns-kollection-switch/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 15, 2024",
+      "status": "Released",
+      "date_iso": "2024-08-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 15, 2024",
+      "status": "Released",
+      "date_iso": "2024-08-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 15, 2024",
+      "status": "Released",
+      "date_iso": "2024-08-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar33ce.jpg"
+  ],
+  "videos": []
+}

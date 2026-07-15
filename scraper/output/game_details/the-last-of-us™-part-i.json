@@ -1,0 +1,127 @@
+{
+  "slug": "the-last-of-us™-part-i",
+  "igdb_id": 204350,
+  "name": "The Last of Us Part I",
+  "summary": "Experience the emotional storytelling and unforgettable characters of Joel and Ellie in The Last of Us, winner of over 200 Game of the Year awards and now rebuilt for PlayStation 5.\n\nEnjoy a total overhaul of the original experience, faithfully reproduced but incorporating modernized gameplay, improved controls and expanded accessibility options. Plus, feel immersed with improved effects and enhanced exploration and combat.\n\nIt also includes the Left Behind story DLC.",
+  "first_release_year": 2022,
+  "developers": [
+    "Naughty Dog"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "The Last of Us"
+  ],
+  "spin_off_of": "The Last of Us",
+  "franchises": [
+    "The Last of Us"
+  ],
+  "game_engines": [
+    "Naughty Dog Engine"
+  ],
+  "keywords": [
+    "zombies",
+    "post-apocalyptic",
+    "hand-to-hand combat",
+    "4k"
+  ],
+  "alternative_names": [
+    {
+      "name": "The Last of Us Remake",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "TLOU Part I",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "The Last of Us Part 1",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Последние из нас: Часть 1",
+      "comment": "Russian title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/the-last-of-us-part-1"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.playstation.com/en-us/the-last-of-us/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002694"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Last_of_Us"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20Last%20of%20Us%20Part%20I"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1888930"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://thelastofus.fandom.com/wiki/The_Last_of_Us_Part_I"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 02, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-02"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1oi8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5jdw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5jdv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4n9q.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "JNrqyml09yA",
+      "url": "https://www.youtube.com/watch?v=JNrqyml09yA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "LW5NwaUXgIA",
+      "url": "https://www.youtube.com/watch?v=LW5NwaUXgIA"
+    }
+  ]
+}

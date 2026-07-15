@@ -1,0 +1,206 @@
+{
+  "slug": "marathon",
+  "igdb_id": 250630,
+  "name": "Marathon",
+  "summary": "A PvP-focused extraction shooter set on the mysterious planet of Tau Ceti IV, Marathon will see players inhabit the bodies of Runners, cybernetic mercenaries who have been designed to survive the planet’s harsh environments and explore the lost colony that once inhabited Tau Ceti’s surface. Players will engage solo or in crews of three, searching for mysterious alien artifacts, as well as for valuable loot and new weapons and gear that they can add to their collection.",
+  "first_release_year": 2026,
+  "developers": [
+    "Bungie"
+  ],
+  "publishers": [
+    "Bungie"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Multiplayer",
+    "Battle Royale"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Marathon",
+    "Classic Marathon"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Tiger"
+  ],
+  "keywords": [
+    "cybernetics",
+    "character customization",
+    "pvp",
+    "futuristic",
+    "team-based",
+    "cross-platform multiplayer",
+    "controller support",
+    "extraction shooter",
+    "nextfest february 2026"
+  ],
+  "alternative_names": [
+    {
+      "name": "MarathonLauncher.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "失落星船：馬拉松",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "失落星船：马拉松",
+      "comment": "Chinese title - simplified"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/marathonthegame.bungie.net"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@MarathonTheGame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/marathon"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3065800/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/marathonthegame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/marathonthegame"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Marathon/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/MarathonTheGame/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.marathonthegame.com/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008864"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/marathon/9pb32dkqkzdq"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://marathonthegame.fandom.com/wiki/Marathon_Wiki"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/marathonthegame"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marathon_(2026_video_game)"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 05, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-05"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 05, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 05, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3f2q.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5zpv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5zpw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5zgl.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5jzh.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "wwH2aNBrq7c",
+      "url": "https://www.youtube.com/watch?v=wwH2aNBrq7c"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "ckI_m8bbXfw",
+      "url": "https://www.youtube.com/watch?v=ckI_m8bbXfw"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "uZRGDZCl9pg",
+      "url": "https://www.youtube.com/watch?v=uZRGDZCl9pg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ZvJIQoWIQP8",
+      "url": "https://www.youtube.com/watch?v=ZvJIQoWIQP8"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "BlC31D_Rr-Y",
+      "url": "https://www.youtube.com/watch?v=BlC31D_Rr-Y"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "fvbEnWLRo1s",
+      "url": "https://www.youtube.com/watch?v=fvbEnWLRo1s"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "fjzmhROTv28",
+      "url": "https://www.youtube.com/watch?v=fjzmhROTv28"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "viRUy09SHrg",
+      "url": "https://www.youtube.com/watch?v=viRUy09SHrg"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "UbNhSVj6WZM",
+      "url": "https://www.youtube.com/watch?v=UbNhSVj6WZM"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "lygqlbSi9TE",
+      "url": "https://www.youtube.com/watch?v=lygqlbSi9TE"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "QzG0w-krZLs",
+      "url": "https://www.youtube.com/watch?v=QzG0w-krZLs"
+    }
+  ]
+}

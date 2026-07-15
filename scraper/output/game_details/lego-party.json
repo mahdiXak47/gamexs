@@ -1,0 +1,178 @@
+{
+  "slug": "lego-party",
+  "igdb_id": 347661,
+  "name": "LEGO Party!",
+  "summary": "LEGO(R) Party! is a 4-player party game that's built different! Compete against your friends in wacky Challenge Zones and 60 hilarious minigames from across your favorite LEGO sets like Pirates, Space, NINJAGO and more. Play your way! Join your friends no matter their platform locally or online!",
+  "first_release_year": 2025,
+  "developers": [
+    "SMG Studio"
+  ],
+  "publishers": [
+    "Fictions"
+  ],
+  "genres": [
+    "Arcade",
+    "Card & Board Game"
+  ],
+  "themes": [
+    "Action",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "LEGO"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "casual",
+    "steam trading cards",
+    "funny",
+    "cartoony",
+    "steam achievements",
+    "xbox controller support for pc",
+    "steam cloud",
+    "controller support",
+    "steam deck",
+    "steam families",
+    "steam remote play"
+  ],
+  "alternative_names": [
+    {
+      "name": "LEGO Party.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/lego-party/9phh78zgbf96"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10014603"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/lego-party-switch/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://brickipedia.fandom.com/wiki/LEGO_Party!"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/fictions.com"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@fictionsinc"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lego_Party"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/smgstudio"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/fictionsinc"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/fictionsinc"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1969370"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/lego-party"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://legoparty.com"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-30"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3oev.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4d2s.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3oew.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "1Sw1AYmz6CA",
+      "url": "https://www.youtube.com/watch?v=1Sw1AYmz6CA"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "A2PgTclraWk",
+      "url": "https://www.youtube.com/watch?v=A2PgTclraWk"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "d_aGbpLEdmA",
+      "url": "https://www.youtube.com/watch?v=d_aGbpLEdmA"
+    }
+  ]
+}

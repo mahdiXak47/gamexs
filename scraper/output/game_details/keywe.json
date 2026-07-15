@@ -1,0 +1,172 @@
+{
+  "slug": "keywe",
+  "igdb_id": 117422,
+  "name": "KeyWe",
+  "summary": "KeyWe is a cute, co-operative postal puzzler starring Jeff and Debra, two small kiwi birds working in a whimsical post office. They must jump, flap, peck and butt-slam their way across an interactive landscape of levers, bells and buttons to get those messages delivered on time!\n\nEncounter perilous postal environments and navigate seasonal hazards while waddling through the Telepost’s various mail rooms, and partner up with a pal to help these adorable kiwis complete their tasks, whatever the weather. Unlock new accessories to customise your kiwi and become the best-dressed mail bird in Bungalow Basin.",
+  "first_release_year": 2021,
+  "developers": [
+    "Stonewheat & Sons"
+  ],
+  "publishers": [
+    "Sold Out",
+    "Fireshine Games"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Indie"
+  ],
+  "themes": [
+    "Kids",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "casual",
+    "wholesome"
+  ],
+  "alternative_names": [
+    {
+      "name": "Key We",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "http://keywegame.com/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/keywe-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001774"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/KeyWeGame"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/stonewheat"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/keywegame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/3ozSFa0"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/KeyWe"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/keywe-c3a70e"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/tNAJTgcT2k"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1242980"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 31, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-31"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 31, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-31"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 31, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-31"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 31, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-31"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 31, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-31"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 31, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-31"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 14, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-14"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 30, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar9gz.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "H1e4yb1rwz4",
+      "url": "https://www.youtube.com/watch?v=H1e4yb1rwz4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "WrxkjuVYW_g",
+      "url": "https://www.youtube.com/watch?v=WrxkjuVYW_g"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "BMFSXrcmzo4",
+      "url": "https://www.youtube.com/watch?v=BMFSXrcmzo4"
+    }
+  ]
+}

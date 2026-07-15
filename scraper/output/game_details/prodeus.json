@@ -1,0 +1,192 @@
+{
+  "slug": "prodeus",
+  "igdb_id": 112613,
+  "name": "Prodeus",
+  "summary": "\"Prodeus is the first person shooter of old, re-imagined using modern rendering techniques. It reaches the quality you expect from a AAA experience while adhering to some of the aesthetic technical limits of older hardware.\"\n\nIn Prodeus, the players slip into the role of a corrupted agent of Prodeus who is determined on his way to destroy his creator and every opponent.",
+  "first_release_year": 2022,
+  "developers": [
+    "Bounding Box Software"
+  ],
+  "publishers": [
+    "Humble Bundle"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "level editor",
+    "fast paced",
+    "boomer shooter"
+  ],
+  "alternative_names": [
+    {
+      "name": "Prodeus.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/prodeus/9MZRSLLWKWDV"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004134"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/prodeus-switch/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/ProdeusGame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/prodeus_game"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCHP-eADcWMk158RIqLWHUiA"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/964800"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/prodeus"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Prodeus"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://prodeus.fandom.com/wiki/Prodeus"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Prodeus"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.prodeusgame.com/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/prodeus"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Sep 23, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-23"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Nov 09, 2020",
+      "status": "Beta",
+      "date_iso": "2020-11-09"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 28, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 09, 2020",
+      "status": "Beta",
+      "date_iso": "2020-11-09"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 23, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 23, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-23"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 23, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-23"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 23, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-23"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 23, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ardi8.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "UwHRPVrZVgM",
+      "url": "https://www.youtube.com/watch?v=UwHRPVrZVgM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "N2STOYQtHkM",
+      "url": "https://www.youtube.com/watch?v=N2STOYQtHkM"
+    },
+    {
+      "title": "Gamescom 2020 Gameplay Trailer",
+      "youtube_id": "MytNn0cYEsM",
+      "url": "https://www.youtube.com/watch?v=MytNn0cYEsM"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "Vxh7yibUpHk",
+      "url": "https://www.youtube.com/watch?v=Vxh7yibUpHk"
+    }
+  ]
+}

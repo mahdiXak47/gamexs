@@ -1,0 +1,159 @@
+{
+  "slug": "eriksholm-the-stolen-dream",
+  "igdb_id": 305107,
+  "name": "Eriksholm: The Stolen Dream",
+  "summary": "Experience an isometric, narrative-driven stealth game set in the stunning city of Eriksholm. When Hanna’s brother, Herman, disappears and the police begin to pursue him, her search sets off a chain of catastrophic events that will not only alter their lives but also the destiny of the entire city. Join your allies, outsmart relentless enemies, and use your cunning to uncover the truth behind Herman’s disappearance — where greater powers are at play than you ever imagined.\n\nFollow Hanna’s adventure through the vibrant streets of Eriksholm, a sprawling Nordic city inspired by the elegance and grit of early 1900s Scandinavia. In this world, every shadow offers a hiding place, and every corner hides a new challenge. Allies and quick reflexes are your greatest tools as you unravel the city's secrets and outsmart your pursuers.",
+  "first_release_year": 2025,
+  "developers": [
+    "River End Games"
+  ],
+  "publishers": [
+    "Nordcurrent Labs"
+  ],
+  "genres": [
+    "Strategy",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "action-adventure",
+    "nextfest june 2025"
+  ],
+  "alternative_names": [
+    {
+      "name": "埃里克斯霍姆：被偷走的梦",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Eriksholm.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://eriksholmgame.com/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009571/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/eriksholm-the-stolen-dream/9n3c43z99zb3"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@NordcurrentLabs"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/NordcurrentLabs"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/nordcurrentlabs.bsky.social"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eriksholm%3A_The_Stolen_Dream"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/eriksholm-the-stolen-dream"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/NordcurrentLabs"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/3hUzpDm8cm"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2377280/Eriksholm_The_Stolen_Dream/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/eriksholm-the-stolen-dream-c90ad9"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/eriksholm_the_stolen_dream"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 15, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 15, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 15, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2zk2.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Reveal Trailer",
+      "youtube_id": "w5sWLWF20uc",
+      "url": "https://www.youtube.com/watch?v=w5sWLWF20uc"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "8VN8AWZfSfU",
+      "url": "https://www.youtube.com/watch?v=8VN8AWZfSfU"
+    },
+    {
+      "title": "Extended Gameplay Trailer",
+      "youtube_id": "WvoOGK7Z-Mo",
+      "url": "https://www.youtube.com/watch?v=WvoOGK7Z-Mo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "9VYQzCd6-Ss",
+      "url": "https://www.youtube.com/watch?v=9VYQzCd6-Ss"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "wFQHUcrJLys",
+      "url": "https://www.youtube.com/watch?v=wFQHUcrJLys"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "ivQJwQRQQqw",
+      "url": "https://www.youtube.com/watch?v=ivQJwQRQQqw"
+    }
+  ]
+}

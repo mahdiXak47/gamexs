@@ -1,0 +1,142 @@
+{
+  "slug": "lost-records-bloom-rage",
+  "igdb_id": 279642,
+  "name": "Lost Records: Bloom & Rage",
+  "summary": "Lost Records: Bloom & Rage is a brand-new story-driven journey through time from the creative minds behind Life is Strange. The magical summer of 1995 is one of self-discovery and forging unbreakable bonds for high school friends Swann, Nora, Autumn, and Kat. 27 years of no contact later, fate reunites them to confront the long-buried secret that made them promise to never speak again.",
+  "first_release_year": 2025,
+  "developers": [
+    "DON'T NOD"
+  ],
+  "publishers": [
+    "DON'T NOD"
+  ],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Mystery",
+    "Romance"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "1990s",
+    "cinematic",
+    "female protagonist",
+    "narration",
+    "story rich",
+    "choices matter",
+    "conversation"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/DONTNOD.Entertainment"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/lost-records-bloom-&-rage/9N3F1LW9HC6C"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009639"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/lost-records-bloom-and-rage"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1902960"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://dont-nod.com/en/games/lost-records-bloom-and-rage/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/playlostrecords/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lost_Records:_Bloom_%26_Rage"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/playlostrecords/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@PlayLostRecords"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://lostrecords.fandom.com/wiki/Lost_Records_Wiki"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/LostRecordsGame/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/lost_records_bloom_rage"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-18"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3r3y.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3r3x.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5lgd.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "mpT9NwXxAtg",
+      "url": "https://www.youtube.com/watch?v=mpT9NwXxAtg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "tVgZamG22MQ",
+      "url": "https://www.youtube.com/watch?v=tVgZamG22MQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "HrFkozNNqi4",
+      "url": "https://www.youtube.com/watch?v=HrFkozNNqi4"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "twisted-metal-4",
+  "igdb_id": 347127,
+  "name": "Twisted Metal 4",
+  "summary": "A digital re-edition of Twisted Metal 4, enhanced with up-rendering, rewind, quick save, and custom video filters.",
+  "first_release_year": 2025,
+  "developers": [
+    "989 Studios"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Fighting",
+    "Racing",
+    "Simulator"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Thriller",
+    "Survival",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Twisted Metal"
+  ],
+  "spin_off_of": "Twisted Metal 4",
+  "franchises": [
+    "Twisted Metal"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "multiple endings",
+    "vehicle combat",
+    "clowns",
+    "combat racing",
+    "destructible environment",
+    "arcade driving physics"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP9000-PPSA27839_00-0000000000000000"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Twisted_Metal_4"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 15, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 15, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5qvd.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5qvf.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5qve.jpg"
+  ],
+  "videos": []
+}

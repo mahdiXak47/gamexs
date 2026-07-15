@@ -1,0 +1,118 @@
+{
+  "slug": "football-manager-26",
+  "igdb_id": 365487,
+  "name": "Football Manager 26",
+  "summary": "Step into the dugout and experience the future of football management.",
+  "first_release_year": 2025,
+  "developers": [
+    "Sports Interactive"
+  ],
+  "publishers": [
+    "Sega"
+  ],
+  "genres": [
+    "Simulator",
+    "Sport",
+    "Strategy"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [],
+  "series": [
+    "Football Manager"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity 6"
+  ],
+  "keywords": [
+    "accessibility options",
+    "save anytime",
+    "adjustable text size",
+    "playable without timed input"
+  ],
+  "alternative_names": [
+    {
+      "name": "FM26",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Football Manager 2026",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "fm.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/footballmanager"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/footballmanager"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3551340"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/footballmanager"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/footballmanager"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/football-manager-26-080e85"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/productid/9pd0z90216rj"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Football_Manager"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.footballmanager.com/fm26"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Nov 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-04"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-04"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4540.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar482f.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar482e.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "_cDQi5kwuHQ",
+      "url": "https://www.youtube.com/watch?v=_cDQi5kwuHQ"
+    }
+  ]
+}

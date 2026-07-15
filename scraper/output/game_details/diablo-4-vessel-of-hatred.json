@@ -1,0 +1,131 @@
+{
+  "slug": "diablo-4-vessel-of-hatred",
+  "igdb_id": 275171,
+  "name": "Diablo IV: Vessel of Hatred",
+  "summary": "The battle against Hatred has only just begun.\nJourney into the new region of Nahantu in search of Neyrelle, who is both suffering the fate of her choice to imprison the Prime Evil Mephisto, and seeking a means to destroy him.\nBecome the apex predator of the jungle as the all-new Spiritborn class. Recruit Mercenaries to aid you in combat, fight together in a new PvE co-op activity, & more.",
+  "first_release_year": 2024,
+  "developers": [
+    "Blizzard Entertainment"
+  ],
+  "publishers": [
+    "Blizzard Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Diablo"
+  ],
+  "spin_off_of": "Diablo IV",
+  "franchises": [
+    "Diablo"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://x.com/diablo"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/playdiablo/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Diablo/"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/diablo.blizzard.com"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3043530"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://diablo4.blizzard.com/en-us/vessel-of-hatred"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-08"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-08"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-08"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-08"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-08"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "gHuaCwmx-Rg",
+      "url": "https://www.youtube.com/watch?v=gHuaCwmx-Rg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "RINJ5xCWkF0",
+      "url": "https://www.youtube.com/watch?v=RINJ5xCWkF0"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "mtM0WpHEjWU",
+      "url": "https://www.youtube.com/watch?v=mtM0WpHEjWU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "h_RHvTVnBiI",
+      "url": "https://www.youtube.com/watch?v=h_RHvTVnBiI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "qAD0Py0I-PM",
+      "url": "https://www.youtube.com/watch?v=qAD0Py0I-PM"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "slug": "payday-3",
+  "igdb_id": 27270,
+  "name": "Payday 3",
+  "summary": "Payday 3 is the much anticipated sequel to one of the most popular co-op shooters ever. Since its release, Payday-players have been reveling in the thrill of a perfectly planned and executed heist. That’s what makes Payday a high-octane, co-op FPS experience without equal. Step out of retirement back into the life of crime in the shoes of the Payday Gang, the envy of their peers and the nightmare of law-enforcement wherever they go. Several years after the crew’s reign of terror over Washington DC has ended, they assemble once again to deal with the threat that roused them out of early retirement.",
+  "first_release_year": 2023,
+  "developers": [
+    "Starbreeze Studios"
+  ],
+  "publishers": [
+    "Starbreeze Publishing",
+    "Prime Matter",
+    "PLAION"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Payday"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "heist",
+    "crime",
+    "robbery"
+  ],
+  "alternative_names": [
+    {
+      "name": "PAYDAY 3",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007263"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/payday-3/9NPZVDCH73SX"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/PaydayGameOfficial"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/paydaygame/"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/paydaythegame.com"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://payday.fandom.com/wiki/PAYDAY_3"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1272080/PAYDAY_3"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/payday-3"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/paydaytheheist/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@PAYDAYGame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.paydaythegame.com/payday3/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/paydaygame/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/payday-3"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/paydaygame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-21"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 18, 2023",
+      "status": "status_34",
+      "date_iso": "2023-09-18"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 18, 2023",
+      "status": "status_34",
+      "date_iso": "2023-09-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 18, 2023",
+      "status": "status_34",
+      "date_iso": "2023-09-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar16uu.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3s8h.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3s8g.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3s8f.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "15PGyhJIvB4",
+      "url": "https://www.youtube.com/watch?v=15PGyhJIvB4"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "_p5mip1Msbk",
+      "url": "https://www.youtube.com/watch?v=_p5mip1Msbk"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "UIZGW3mty8I",
+      "url": "https://www.youtube.com/watch?v=UIZGW3mty8I"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "NA_tSDsKe-k",
+      "url": "https://www.youtube.com/watch?v=NA_tSDsKe-k"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "bXsY4gTNkQc",
+      "url": "https://www.youtube.com/watch?v=bXsY4gTNkQc"
+    }
+  ]
+}

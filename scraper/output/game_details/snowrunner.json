@@ -1,0 +1,222 @@
+{
+  "slug": "snowrunner",
+  "igdb_id": 107215,
+  "name": "SnowRunner",
+  "summary": "SnowRunner is an off-road driving simulation game that focuses on navigating challenging terrain using a variety of heavy vehicles. Players complete contracts and objectives across open environments, transporting cargo while overcoming mud, snow, rivers, and other natural obstacles.\nThe game emphasizes realistic physics, vehicle customization, and route planning, with progression tied to upgrading equipment and expanding a fleet suited for different conditions.",
+  "first_release_year": 2020,
+  "developers": [
+    "Saber Interactive"
+  ],
+  "publishers": [
+    "Focus Entertainment"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Adventure",
+    "Arcade"
+  ],
+  "themes": [
+    "Business",
+    "Non-fiction",
+    "Sandbox"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Spintires"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Havok"
+  ],
+  "keywords": [
+    "exploration",
+    "3d",
+    "physics",
+    "vehicle simulation",
+    "driving",
+    "nature",
+    "simulation",
+    "truck simulator",
+    "pve",
+    "atmospheric",
+    "snow",
+    "team-based",
+    "realistic",
+    "off-roading",
+    "immersive sim"
+  ],
+  "alternative_names": [
+    {
+      "name": "MudRunner 2",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "SnowRunner: A MudRunner Game",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Spintires: MudRunner 2",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "SnowRunner.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/snowrunner"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/snowrunner-switch/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCaLdl0827np4QVPESo794og"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/234959"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/snowrunner/9PNRSC0J6DT8"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/p/snowrunner"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://spintires.fandom.com/wiki/SnowRunner"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/MudRunnerVideoGame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/SnowRunner"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1465360"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://snowrunner-thegame.com/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/snowrunner"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/SnowRunner"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/PlaySnowRunner"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Nov 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 28, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-04-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 31, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-05-31"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 18, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-05-18"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 18, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-05-18"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 17, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-05-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 28, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-04-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 31, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-05-31"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Jun 09, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-06-09"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar67gl.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar641b.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5s94.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5s93.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "8ZnL6NV6rMM",
+      "url": "https://www.youtube.com/watch?v=8ZnL6NV6rMM"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "P1_ty7esAnI",
+      "url": "https://www.youtube.com/watch?v=P1_ty7esAnI"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "ZMsX93470C8",
+      "url": "https://www.youtube.com/watch?v=ZMsX93470C8"
+    }
+  ]
+}

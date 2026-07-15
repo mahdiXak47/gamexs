@@ -1,0 +1,122 @@
+{
+  "slug": "madden-nfl-22",
+  "igdb_id": 152480,
+  "name": "Madden NFL 22",
+  "summary": "Madden NFL 22 is where gameday happens. All-new features in Franchise include staff management, an enhanced scenario engine, and weekly strategy. Share avatar progress and player class between Face of The Franchise and The Yard with unified progression.",
+  "first_release_year": 2021,
+  "developers": [
+    "EA Orlando"
+  ],
+  "publishers": [
+    "EA Sports"
+  ],
+  "genres": [
+    "Simulator",
+    "Sport",
+    "Strategy"
+  ],
+  "themes": [
+    "Action",
+    "Non-fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Madden NFL"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "NFL",
+    "Madden"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "american football"
+  ],
+  "alternative_names": [
+    {
+      "name": "Madden 22",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "EA Sports Madden NFL 22",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/eamaddennfl"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1519350/Madden_NFL_22"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Madden_NFL_22"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/madden-nfl/madden-nfl-22"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/EASPORTSMADDENNFL"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCPpddbTbOr_uWWQT9Pw1rbA"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/EAMaddenNFL"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 20, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-20"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Aug 20, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 20, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 20, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arupj.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "htZxwfGARGk",
+      "url": "https://www.youtube.com/watch?v=htZxwfGARGk"
+    }
+  ]
+}

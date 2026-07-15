@@ -1,0 +1,168 @@
+{
+  "slug": "evil-west",
+  "igdb_id": 141547,
+  "name": "Evil West",
+  "summary": "A dark menace consumes the Old West. In solo or coop, fight with style in visceral, explosive combat against bloodthirsty monstrosities. Eradicate the vampiric hordes with your lightning-fueled gauntlet and become a Wild West Superhero.\n\nIn visceral, explosive combat, unleash hell with your firearms, lightning-fueled gauntlet and gadgets. Kill bloodthirsty monstrosities in style as a lone hunter or in co-op with a friend. Explore and fight in a narrative-driven campaign while upgrading your weapons and hunting tools. Unlock new perks to evolve your monster-slaying mastery, crafting your own playstyle to defeat the supernatural hordes.",
+  "first_release_year": 2022,
+  "developers": [
+    "Flying Wild Hog"
+  ],
+  "publishers": [
+    "Focus Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "western",
+    "vampire",
+    "dark fantasy",
+    "wild west",
+    "demons",
+    "gore",
+    "vampires",
+    "vampire hunter"
+  ],
+  "alternative_names": [
+    {
+      "name": "이블 웨스트",
+      "comment": "Korean title"
+    },
+    {
+      "name": "EvilWest.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://evil-west.fandom.com/wiki/Evil_West"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001902"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/evil-west/9MW581HCJPM6"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1065310/Evil_West"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCaLdl0827np4QVPESo794og"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/focusentmt"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/playevilwest"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/PlayEvilWest"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Evil_West"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Evil%20West"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.focus-home.com/en-us/games/evil-west"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/EvilWestGame"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/evil_west"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 22, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 22, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 22, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 22, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 22, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arlh8.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "Su2BrsFx0xQ",
+      "url": "https://www.youtube.com/watch?v=Su2BrsFx0xQ"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ou_rV8AIYwc",
+      "url": "https://www.youtube.com/watch?v=ou_rV8AIYwc"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "2O35NOsTIoE",
+      "url": "https://www.youtube.com/watch?v=2O35NOsTIoE"
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "slug": "wreckfest",
+  "igdb_id": 3772,
+  "name": "Wreckfest",
+  "summary": "Wreckfest is a racing video game developed by Bugbear Entertainment and published by THQ Nordic. It features demolition derbies and traditional races with a strong emphasis on vehicular damage and realistic physics. The game includes various modes such as career, multiplayer, and custom events. Released in 2018, Wreckfest is notable for its detailed destruction modelling and the strategic depth required in vehicle customisation and handling.",
+  "first_release_year": 2018,
+  "developers": [
+    "Bugbear Entertainment"
+  ],
+  "publishers": [
+    "THQ Nordic"
+  ],
+  "genres": [
+    "Racing",
+    "Sport",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person",
+    "Bird view / Isometric",
+    "Side view"
+  ],
+  "series": [
+    "Wreckfest"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "ROMU"
+  ],
+  "keywords": [
+    "vehicular combat",
+    "rally",
+    "cars",
+    "destruction",
+    "madness",
+    "driving",
+    "vehicle combat",
+    "pax west 2017",
+    "motorsports",
+    "combat racing",
+    "destructible environment",
+    "demolition derby",
+    "previously on - stadia pro"
+  ],
+  "alternative_names": [
+    {
+      "name": "Next Car Game: Wreckfest",
+      "comment": "Working title"
+    },
+    {
+      "name": "Next Car Game",
+      "comment": "Working title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/thqnordic"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/wreckfest/BRJNRZ9N734V"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/227252"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Wreckfest/"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/thqnordic.com"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.hg.wreckfest"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wreckfest"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://wreckfest.fandom.com/wiki/Wreckfest_Wiki"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://itunes.apple.com/us/app/id1592505377"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/wreckfestofficial"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/wreckfest"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/228380"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/wreckfest"
+    },
+    {
+      "label": "iPad",
+      "url": "https://itunes.apple.com/us/app/id1592505377"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/wreckfest-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://wreckfest.thqnordic.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/wreckfest"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/wreckfestgame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discordapp.com/invite/wreckfest"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/wreckfestgame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Dec 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-12-01"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 21, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-21"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Nov 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-15"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Nov 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 23, 2014",
+      "status": "Beta",
+      "date_iso": "2014-01-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 14, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-06-14"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 04, 2021",
+      "status": "Released",
+      "date_iso": "2021-05-04"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 27, 2019",
+      "status": "Released",
+      "date_iso": "2019-08-27"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 27, 2019",
+      "status": "Released",
+      "date_iso": "2019-08-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar751.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar8k5.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "o3g4S7S5l9c",
+      "url": "https://www.youtube.com/watch?v=o3g4S7S5l9c"
+    },
+    {
+      "title": "E3 2017 Trailer",
+      "youtube_id": "fkbqdMy9fng",
+      "url": "https://www.youtube.com/watch?v=fkbqdMy9fng"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "TBdu8LwY5m8",
+      "url": "https://www.youtube.com/watch?v=TBdu8LwY5m8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Ei1T9KSlQRM",
+      "url": "https://www.youtube.com/watch?v=Ei1T9KSlQRM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "qJdk-hMsruA",
+      "url": "https://www.youtube.com/watch?v=qJdk-hMsruA"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "hNhEHUfu3iY",
+      "url": "https://www.youtube.com/watch?v=hNhEHUfu3iY"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "slug": "tomb-raider-legacy-of-atlantis",
+  "igdb_id": 381235,
+  "name": "Tomb Raider: Legacy of Atlantis",
+  "summary": "Tomb Raider: Legacy of Atlantis is a reimagining of Lara Croft’s 1996 genre-defining game with visuals powered by Unreal Engine 5, modern gameplay, and new surprises that honor the spirit of the original.",
+  "first_release_year": 2027,
+  "developers": [
+    "Crystal Dynamics",
+    "Flying Wild Hog"
+  ],
+  "publishers": [
+    "Amazon Games"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Tomb Raider"
+  ],
+  "spin_off_of": "Tomb Raider",
+  "franchises": [
+    "Tomb Raider"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "dinosaurs",
+    "female protagonist",
+    "atmospheric",
+    "ai-generated artwork",
+    "epic adventure",
+    "ai-generated concepts"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10014491/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3558670/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.playtombraider.com/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/tomb-raider-legacy-of-atlantis/9p82c3n2tlsv"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/tomb-raider-legacy-of-atlantis"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 12, 2027",
+      "status": "Cancelled",
+      "date_iso": "2027-02-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 12, 2027",
+      "status": "Cancelled",
+      "date_iso": "2027-02-12"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 12, 2027",
+      "status": "Cancelled",
+      "date_iso": "2027-02-12"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Feb 12, 2027",
+      "status": "Cancelled",
+      "date_iso": "2027-02-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4vaq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4v1l.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4vap.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4vao.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar604f.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "KKykeE6BOYc",
+      "url": "https://www.youtube.com/watch?v=KKykeE6BOYc"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "fn1EREGsdFg",
+      "url": "https://www.youtube.com/watch?v=fn1EREGsdFg"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "Ko8uhpwxRYs",
+      "url": "https://www.youtube.com/watch?v=Ko8uhpwxRYs"
+    }
+  ]
+}

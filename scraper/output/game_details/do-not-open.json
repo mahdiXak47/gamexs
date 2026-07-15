@@ -1,0 +1,127 @@
+{
+  "slug": "do-not-open",
+  "igdb_id": 183869,
+  "name": "Do Not Open",
+  "summary": "Survival horror game Do Not Open is a mix of escape room elements, plus it's said to be based entirely on true events. You're playing for Michael J. Goreng, \"a well-known zoologist and epidemiologist imprisoned in his own home, where his wife and daughter are held against their will\".",
+  "first_release_year": 2022,
+  "developers": [
+    "NOX NOCTIS"
+  ],
+  "publishers": [
+    "Gammera Nest",
+    "Perp Games",
+    "Unreality",
+    "Perpetual Games"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "survival horror",
+    "escape room",
+    "interactive",
+    "steam families"
+  ],
+  "alternative_names": [
+    {
+      "name": "DoNotOpen.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001819"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://noxnoctisgames.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Do%20Not%20Open"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/NoxNoctisStudio"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2061710"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/noxnoctisgames/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 25, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 23, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-23"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 23, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1q4s.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "0L52np7hEhc",
+      "url": "https://www.youtube.com/watch?v=0L52np7hEhc"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "s1D16cRsyYY",
+      "url": "https://www.youtube.com/watch?v=s1D16cRsyYY"
+    }
+  ]
+}

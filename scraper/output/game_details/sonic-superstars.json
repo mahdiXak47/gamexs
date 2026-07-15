@@ -1,0 +1,186 @@
+{
+  "slug": "sonic-superstars",
+  "igdb_id": 252478,
+  "name": "Sonic Superstars",
+  "summary": "Adventure through the mystical Northstar Islands in this all-new take on classic 2D Sonic high-speed action platforming. Play as Sonic, Tails, Knuckles, and Amy Rose and harness all-new Emerald powers to move and attack in dynamic new ways. Navigate gorgeous, never-before-seen environments solo or with up to 3 other players and stop Dr. Eggman, Fang, and a mysterious new adversary from converting the islands' giant animals into Badniks before it's too late!",
+  "first_release_year": 2023,
+  "developers": [
+    "Sonic Team",
+    "Arzest"
+  ],
+  "publishers": [
+    "Sega"
+  ],
+  "genres": [
+    "Platform"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Kids",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Sonic the Hedgehog"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Sonic The Hedgehog"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "2d platformer",
+    "animal protagonists",
+    "multiple playable characters",
+    "the game awards - best family game - nominee",
+    "robot"
+  ],
+  "alternative_names": [
+    {
+      "name": "Sonic Orion",
+      "comment": "Working title"
+    },
+    {
+      "name": "SonicSuperstars_boot.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://sonic.fandom.com/wiki/Sonic_Superstars"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004658"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/sonic-superstars/9nl9h587wgmj"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/sonic-superstars-switch/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/sonic-superstars"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/sonic-superstars"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://sonicsuperstars.com/?lang=en"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/Sonic"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/sonic_hedgehog"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/sonicthehedgehog/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2022670"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/SonicTheHedgehog/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sonic_Superstars"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Sonic"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-17"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2dfa.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "j3g-62NNoUs",
+      "url": "https://www.youtube.com/watch?v=j3g-62NNoUs"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "0il5KpfzvCU",
+      "url": "https://www.youtube.com/watch?v=0il5KpfzvCU"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "tmIZm8wrqqo",
+      "url": "https://www.youtube.com/watch?v=tmIZm8wrqqo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ZsjOv-_6Fkg",
+      "url": "https://www.youtube.com/watch?v=ZsjOv-_6Fkg"
+    }
+  ]
+}

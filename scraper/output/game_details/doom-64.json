@@ -1,0 +1,149 @@
+{
+  "slug": "doom-64",
+  "igdb_id": 224522,
+  "name": "Doom 64",
+  "summary": "Fight against demons in your crusade to hunt down the Mother of Demons and stop Hell's invasion. As the player battle through more than 30 action-packed levels, they have to be on the lookout for enhanced weapons and secrets to help them put an end to the demonic threat.",
+  "first_release_year": 2020,
+  "developers": [
+    "Midway Studios San Diego"
+  ],
+  "publishers": [
+    "Bethesda Softworks"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Doom"
+  ],
+  "spin_off_of": "Doom 64",
+  "franchises": [
+    "Doom"
+  ],
+  "game_engines": [
+    "KEX"
+  ],
+  "keywords": [
+    "demons",
+    "gore",
+    "silent protagonist",
+    "bonus stage",
+    "secret area",
+    "plasma gun",
+    "male protagonist"
+  ],
+  "alternative_names": [
+    {
+      "name": "DOOM 64",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Doom 64 Remake",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Doom 64 Classic",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "DOOM64_x64.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/doom-64-switch/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/DOOM%2064"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1148590"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://doomwiki.org/wiki/Doom_64_(2020_version)"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/doom-64"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Doom_64"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/doom_64"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/doom-64/9MXND4PQLK3W"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/234454"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 20, 2020",
+      "status": "Released",
+      "date_iso": "2020-03-20"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 20, 2020",
+      "status": "Released",
+      "date_iso": "2020-03-20"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 20, 2020",
+      "status": "Released",
+      "date_iso": "2020-03-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 20, 2020",
+      "status": "Released",
+      "date_iso": "2020-03-20"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "May 12, 2020",
+      "status": "Released",
+      "date_iso": "2020-05-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1z2q.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "mtvHGrPyJw8",
+      "url": "https://www.youtube.com/watch?v=mtvHGrPyJw8"
+    }
+  ]
+}

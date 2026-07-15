@@ -1,0 +1,319 @@
+{
+  "slug": "cyberpunk-2077-ultimate-edition",
+  "igdb_id": 1877,
+  "name": "Cyberpunk 2077",
+  "summary": "Cyberpunk 2077 is an open-world action-adventure game set in Night City, a sprawling metropolis driven by power, glamour, and body modification. Players assume the role of V, a mercenary outlaw in pursuit of a unique implant that holds the key to immortality. The game allows extensive customization of cyberware, skills, and playstyle. Choices made throughout the journey influence both the narrative and the world.",
+  "first_release_year": 2020,
+  "developers": [
+    "CD Projekt RED"
+  ],
+  "publishers": [
+    "CD Projekt"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Cyberpunk"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Cyberpunk"
+  ],
+  "game_engines": [
+    "REDengine"
+  ],
+  "keywords": [
+    "cyberpunk",
+    "cybernetics",
+    "dystopian",
+    "futuristic",
+    "multiple endings",
+    "atmospheric",
+    "nudity",
+    "story rich",
+    "choices matter",
+    "licensed game",
+    "year in the title",
+    "based on - tabletop rpg",
+    "censored version",
+    "immersive sim",
+    "dystopian future"
+  ],
+  "alternative_names": [
+    {
+      "name": "赛博朋克2077",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "電馭叛客2077",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "Киберпанк 2077",
+      "comment": "Russian unofficial title"
+    },
+    {
+      "name": "사펑",
+      "comment": "Korean Acroynm"
+    },
+    {
+      "name": "サイバーパンク2077",
+      "comment": "Japanese title - stylized"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/cyberpunkgame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/234567"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/cyberpunk-2077/BX3M8L83BBRW"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/CyberpunkGame"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1091500"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/CyberpunkGame/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.cyberpunk.net"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/cyberpunkgame/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cyberpunk_2077"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/cyberpunkgame"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/product/cyberpunk-2077/home"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/cyberpunk_2077"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://cyberpunk.fandom.com/wiki/Cyberpunk_2077"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/cyberpunkgame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Cyberpunk%202077"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-10"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-10"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Dec 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-10"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jul 17, 2025",
+      "status": "Released",
+      "date_iso": "2025-07-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-15"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Jun 05, 2025",
+      "status": "Released",
+      "date_iso": "2025-06-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m0o.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ig0frvvkkz4jx7cyqt3f.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/j3edunidfkbuivcingaw.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/pgrmxtckblxm3pfdu5hu.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/c6gonpyuhueh0eq38n8l.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/whzi8cruaewea9k2tbgn.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar682.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6qv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m0i.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m0k.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m0j.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m0m.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m0l.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3nl8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m0n.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "vjF9GgrY9c0",
+      "url": "https://www.youtube.com/watch?v=vjF9GgrY9c0"
+    },
+    {
+      "title": "Deep Dive Video",
+      "youtube_id": "FknHjl7eQ6o",
+      "url": "https://www.youtube.com/watch?v=FknHjl7eQ6o"
+    },
+    {
+      "title": "E3 2019 Cinematic Trailer",
+      "youtube_id": "qIcTM8WXFjk",
+      "url": "https://www.youtube.com/watch?v=qIcTM8WXFjk"
+    },
+    {
+      "title": "E3 2018 Trailer",
+      "youtube_id": "8X2kIfS6fb8",
+      "url": "https://www.youtube.com/watch?v=8X2kIfS6fb8"
+    },
+    {
+      "title": "Teaser Trailer",
+      "youtube_id": "P99qJGrPNLs",
+      "url": "https://www.youtube.com/watch?v=P99qJGrPNLs"
+    },
+    {
+      "title": "The Gig",
+      "youtube_id": "ixl31324UxE",
+      "url": "https://www.youtube.com/watch?v=ixl31324UxE"
+    },
+    {
+      "title": "Lifepaths",
+      "youtube_id": "JV8BTZ6_PWQ",
+      "url": "https://www.youtube.com/watch?v=JV8BTZ6_PWQ"
+    },
+    {
+      "title": "Tools of Destruction",
+      "youtube_id": "Q4ON7H7RnBE",
+      "url": "https://www.youtube.com/watch?v=Q4ON7H7RnBE"
+    },
+    {
+      "title": "2077 In Style",
+      "youtube_id": "YlyDJVYqfpA",
+      "url": "https://www.youtube.com/watch?v=YlyDJVYqfpA"
+    },
+    {
+      "title": "Postcards from Night City",
+      "youtube_id": "jNC6MEA4rQk",
+      "url": "https://www.youtube.com/watch?v=jNC6MEA4rQk"
+    },
+    {
+      "title": "Gangs of Night City",
+      "youtube_id": "a7_D1qlwOp0",
+      "url": "https://www.youtube.com/watch?v=a7_D1qlwOp0"
+    },
+    {
+      "title": "Rides of the Dark Future",
+      "youtube_id": "6IMO0PaX7Yc",
+      "url": "https://www.youtube.com/watch?v=6IMO0PaX7Yc"
+    },
+    {
+      "title": "Johnny Silverhand",
+      "youtube_id": "rPppjjvjQlk",
+      "url": "https://www.youtube.com/watch?v=rPppjjvjQlk"
+    },
+    {
+      "title": "The Diner",
+      "youtube_id": "6a8f1TbYb2w",
+      "url": "https://www.youtube.com/watch?v=6a8f1TbYb2w"
+    },
+    {
+      "title": "Launch Trailer - V",
+      "youtube_id": "UnA7tepsc7s",
+      "url": "https://www.youtube.com/watch?v=UnA7tepsc7s"
+    },
+    {
+      "title": "Next-Gen Update Launch Trailer",
+      "youtube_id": "Sbc9QWvuNIo",
+      "url": "https://www.youtube.com/watch?v=Sbc9QWvuNIo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Tk7Zbzd-6fs",
+      "url": "https://www.youtube.com/watch?v=Tk7Zbzd-6fs"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "sJbexcm4Trk",
+      "url": "https://www.youtube.com/watch?v=sJbexcm4Trk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "zBrkG3aeWCc",
+      "url": "https://www.youtube.com/watch?v=zBrkG3aeWCc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "o0cB-odvO5U",
+      "url": "https://www.youtube.com/watch?v=o0cB-odvO5U"
+    }
+  ]
+}

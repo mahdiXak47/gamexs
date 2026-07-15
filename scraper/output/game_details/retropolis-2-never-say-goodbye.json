@@ -1,0 +1,93 @@
+{
+  "slug": "retropolis-2-never-say-goodbye",
+  "igdb_id": 238772,
+  "name": "Retropolis 2: Never Say Goodbye",
+  "summary": "The critically acclaimed VR adventure series is back! Get lost in a sci-fi mystery spanning over four all-new episodes. Engage a battle of the minds with a sick new villain and use only your wit, your hovering inventory, and a pair of extendo-arms to uncover the truth.",
+  "first_release_year": 2024,
+  "developers": [
+    "Peanut Button"
+  ],
+  "publishers": [
+    "Peanut Button"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Virtual Reality"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "available on - horizon indie catalog"
+  ],
+  "alternative_names": [
+    {
+      "name": "Retropolis2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010667"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2293440"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://peanutbutton.net/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Meta Quest 2",
+      "region": null,
+      "date": "Jan 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-01-18"
+    },
+    {
+      "platform": "Meta Quest 3",
+      "region": null,
+      "date": "Jan 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-01-18"
+    },
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "Jun 14, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-14"
+    },
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "Jan 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-01-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2735.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "TPC7DjVCgHk",
+      "url": "https://www.youtube.com/watch?v=TPC7DjVCgHk"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "slug": "back-4-blood",
+  "igdb_id": 116200,
+  "name": "Back 4 Blood",
+  "summary": "Back 4 Blood is a thrilling cooperative first-person shooter from the creators of the critically acclaimed Left 4 Dead franchise. You are at the center of a war against the Ridden. These once-human hosts of a deadly parasite have turned into terrifying creatures bent on devouring what remains of civilization. With humanity’s extinction on the line, it’s up to you and your friends to take the fight to the enemy, eradicate the Ridden, and reclaim the world.",
+  "first_release_year": 2021,
+  "developers": [
+    "Turtle Rock Studios"
+  ],
+  "publishers": [
+    "Warner Bros. Interactive Entertainment"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "zombies",
+    "pvp",
+    "survival horror",
+    "violent",
+    "rougelite",
+    "replayability"
+  ],
+  "alternative_names": [
+    {
+      "name": "Back for Blood",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Back4Blood",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "B4B",
+      "comment": "Acronym"
+    },
+    {
+      "name": "喋血復仇",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "Gobi-Win64-Test.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Back4Blood"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/back4blood"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/233064"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://back4blood.com/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/turtlerockstudios"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Back_4_Blood"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/924970"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/back-4-blood"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/back-4-blood"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/back4blood"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@back4blood"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/back-4-blood/BXLL06QN8HVP/0001"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://back4blood.fandom.com/wiki/Back_4_Blood"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Back4Blood/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 12, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 12, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-12"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 12, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-12"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 12, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-12"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 12, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ary49.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5xzr.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "rok9-g8E0PE",
+      "url": "https://www.youtube.com/watch?v=rok9-g8E0PE"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "7RCgT-XOPr4",
+      "url": "https://www.youtube.com/watch?v=7RCgT-XOPr4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Oqesvrf87DA",
+      "url": "https://www.youtube.com/watch?v=Oqesvrf87DA"
+    }
+  ]
+}

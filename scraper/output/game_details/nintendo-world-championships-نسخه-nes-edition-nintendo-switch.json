@@ -1,0 +1,74 @@
+{
+  "slug": "nintendo-world-championships-نسخه-nes-edition-nintendo-switch",
+  "igdb_id": 299862,
+  "name": "Nintendo World Championships: NES Edition",
+  "summary": "Test your speedrunning skills across more than 150 challenging moments from 13 classic NES games! Compete against players around the world online, challenge your friends on the couch, or try to see how far you can push your personal bests.\n\nDo you have what it takes to be a champion? The tougher challenges may truly test your limits!",
+  "first_release_year": 2024,
+  "developers": [
+    "Nintendo",
+    "indieszero Co., Ltd."
+  ],
+  "publishers": [
+    "Nintendo"
+  ],
+  "genres": [
+    "Platform",
+    "Racing"
+  ],
+  "themes": [
+    "Action",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Nintendo World Championships"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Mario",
+    "The Legend of Zelda",
+    "Excite",
+    "Kirby",
+    "Donkey Kong",
+    "Kid Icarus",
+    "Metroid"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/nintendo-world-championships-nes-edition-switch/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 18, 2024",
+      "status": "Released",
+      "date_iso": "2024-07-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2x8k.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ELmBYBga5SY",
+      "url": "https://www.youtube.com/watch?v=ELmBYBga5SY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "GBhA0XdNb94",
+      "url": "https://www.youtube.com/watch?v=GBhA0XdNb94"
+    }
+  ]
+}

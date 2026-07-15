@@ -1,0 +1,131 @@
+{
+  "slug": "beast-of-reincarnation",
+  "igdb_id": 348180,
+  "name": "Beast of Reincarnation",
+  "summary": "In post-apocalyptic Japan, humanity’s last hope may rest with Emma and her loyal canine companion, Koo. Explore what it means to be human in Beast of Reincarnation, an expansive one-person, one-dog action RPG built around demanding, technical combat. What awaits at journey’s end?",
+  "first_release_year": 2026,
+  "developers": [
+    "Game Freak"
+  ],
+  "publishers": [
+    "Fictions"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2001760"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/beast-of-reincarnation/9nxwswbm4h6t"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10014719"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://fictions.com/games/beast-of-reincarnation"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/fictionsinc"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/fictionsinc"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@fictionsinc"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/fictionsinc"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/fictions.com"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Beast_of_Reincarnation"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 04, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-08-04"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 04, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-08-04"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 04, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-08-04"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ouz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar558j.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar558i.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar68tf.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar68te.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar68th.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar68tg.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar558h.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ysyYwLbDByU",
+      "url": "https://www.youtube.com/watch?v=ysyYwLbDByU"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "ilAwYJaLSKQ",
+      "url": "https://www.youtube.com/watch?v=ilAwYJaLSKQ"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "zqxdVtJ24ms",
+      "url": "https://www.youtube.com/watch?v=zqxdVtJ24ms"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "j8alvtOCRk0",
+      "url": "https://www.youtube.com/watch?v=j8alvtOCRk0"
+    }
+  ]
+}

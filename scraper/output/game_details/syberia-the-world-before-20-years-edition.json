@@ -1,0 +1,44 @@
+{
+  "slug": "syberia-the-world-before-20-years-edition",
+  "igdb_id": 204908,
+  "name": "Syberia: The World Before - 20 Years Edition",
+  "summary": "Syberia: The World Before - 20 Years Edition will include;\n- Full Game\n- A Media Book celebrating 20 years of Syberia",
+  "first_release_year": 2022,
+  "developers": [],
+  "publishers": [],
+  "genres": [],
+  "themes": [],
+  "game_modes": [],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 15, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

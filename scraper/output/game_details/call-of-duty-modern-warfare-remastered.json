@@ -1,0 +1,193 @@
+{
+  "slug": "call-of-duty-modern-warfare-remastered",
+  "igdb_id": 119177,
+  "name": "Call of Duty: Modern Warfare",
+  "summary": "Call of Duty: Modern Warfare is a first-person shooter that serves as a reboot of the Modern Warfare sub-series. The game features a single-player campaign, cooperative Special Ops missions, and a multiplayer suite with cross-platform play. The campaign emphasizes tactical realism, with morally complex scenarios, civilian threat assessments, and night-vision operations. Multiplayer introduces a revised gunplay system with extensive weapon customization, a Realism mode that removes the HUD, a Ground War mode supporting over 100 players, and a 2v2 Gunfight mode. Post-launch, the game received the free-to-play battle royale mode Warzone. The traditional season pass was replaced with free content updates delivered through seasonal battle passes.",
+  "first_release_year": 2019,
+  "developers": [
+    "Infinity Ward"
+  ],
+  "publishers": [
+    "Activision"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Call of Duty: Modern Warfare",
+    "Call of Duty"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Call of Duty"
+  ],
+  "game_engines": [
+    "IW Engine"
+  ],
+  "keywords": [
+    "reboot"
+  ],
+  "alternative_names": [
+    {
+      "name": "CoD MW",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Call of Duty: Warzone",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "使命召唤：现代战争",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Call Of Duty 2019",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Call Of Duty: Modern Warfare Reboot",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Call of Duty: Modern Warfare 2019",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "MW 2019",
+      "comment": "Acronym"
+    },
+    {
+      "name": "bootstrapper.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Call%20of%20Duty%3A%20Modern%20Warfare"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/callofduty"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC9YydG57epLqxA9cTzZXSeQ"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/call-of-duty-modern-warfare---digital-standard-edition/9NVQBQ3F6W9W"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/229182"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.callofduty.com/modernwarfare"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Modern_Warfare_(2019_video_game)"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/CallofDuty"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://callofduty.fandom.com/wiki/Call_of_Duty:_Modern_Warfare_(2019)"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/callofduty"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/modernwarfare"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2000950"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/CallofDuty"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/callofduty.com"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 17, 2021",
+      "status": "status_36",
+      "date_iso": "2021-06-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 14, 2020",
+      "status": "status_36",
+      "date_iso": "2020-11-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 25, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-10-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 25, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-10-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 25, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-10-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5vow.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5vox.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "X8Do_zXNc_E",
+      "url": "https://www.youtube.com/watch?v=X8Do_zXNc_E"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "V5MoJ0GEuGs",
+      "url": "https://www.youtube.com/watch?v=V5MoJ0GEuGs"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "bH1lHCirCGI",
+      "url": "https://www.youtube.com/watch?v=bH1lHCirCGI"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "forklift-simulator",
+  "igdb_id": 293134,
+  "name": "Forklift Simulator",
+  "summary": "Start your career in logistics today in Forklift Simulator! Take on a variety of different missions, a selection of vehicles and an extensive career mode in which you can put your skills to the test. Are you ready for the challenges ahead?",
+  "first_release_year": 2024,
+  "developers": [
+    "Aerosoft"
+  ],
+  "publishers": [],
+  "genres": [
+    "Simulator"
+  ],
+  "themes": [
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "fls.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010507"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2717850"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 29, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-29"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 29, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-29"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 29, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2uf7.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "BS4DmIx-ejY",
+      "url": "https://www.youtube.com/watch?v=BS4DmIx-ejY"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "Yd4so9HEWbU",
+      "url": "https://www.youtube.com/watch?v=Yd4so9HEWbU"
+    }
+  ]
+}

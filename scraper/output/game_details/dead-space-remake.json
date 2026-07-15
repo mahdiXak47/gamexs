@@ -1,0 +1,156 @@
+{
+  "slug": "dead-space-remake",
+  "igdb_id": 159119,
+  "name": "Dead Space",
+  "summary": "The sci-fi survival-horror classic Dead Space returns, completely rebuilt from the ground up to offer a deeper, more immersive experience. This remake brings jaw-dropping visual fidelity, suspenseful atmospheric audio, and improvements to gameplay while staying faithful to the original game’s thrilling vision.",
+  "first_release_year": 2023,
+  "developers": [
+    "Motive Studios"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Dead Space"
+  ],
+  "spin_off_of": "Dead Space",
+  "franchises": [
+    "Dead Space"
+  ],
+  "game_engines": [
+    "Frostbite 3"
+  ],
+  "keywords": [
+    "previously on - playstation plus essential",
+    "available on - luna plus"
+  ],
+  "alternative_names": [
+    {
+      "name": "Dead Space (2023)",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Dead Space Remake",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002958"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/dead-space/dead-space"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/deadspace"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@deadspace/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/dead-space/9NLB6V0GNC9P"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1693980"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/motivestudio"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://deadspace.fandom.com/wiki/Dead_Space_(2023)"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dead_Space_(2023_video_game)"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/DeadSpace/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/deadspace"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/ea"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/dead-space"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 27, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 27, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-27"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 27, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arxuo.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "l5WeBNfX-og",
+      "url": "https://www.youtube.com/watch?v=l5WeBNfX-og"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "cTDJNZ9cK1w",
+      "url": "https://www.youtube.com/watch?v=cTDJNZ9cK1w"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "96yUNw2zfW4",
+      "url": "https://www.youtube.com/watch?v=96yUNw2zfW4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ctQl9wa3ydE",
+      "url": "https://www.youtube.com/watch?v=ctQl9wa3ydE"
+    }
+  ]
+}

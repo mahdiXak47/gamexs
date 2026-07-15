@@ -1,0 +1,123 @@
+{
+  "slug": "resonance-a-plague-tale-legacy",
+  "igdb_id": 348168,
+  "name": "Resonance: A Plague Tale Legacy",
+  "summary": "Resonance: A Plague Tale Legacy is an upcoming action-adventure game developed by Asobo Studio and published by Focus Entertainment. Set 15 years before A Plague Tale: Requiem, it follows Sophia, a young plunderer, as she travels to Minotaur’s Island and searches for answers about her past. The game is described as an original story set in the A Plague Tale universe, featuring combat, puzzles, and mythological elements tied to the series’ wider history.",
+  "first_release_year": 2026,
+  "developers": [
+    "Asobo Studio"
+  ],
+  "publishers": [
+    "Focus Entertainment"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Drama"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "A Plague Tale"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Zouna"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/resonance-a-plague-tale-legacy-d3f169"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/resonance-a-plague-tale-legacy/9ppbncxp0096"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2713000"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10015413"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.focus-entmt.com/en/games/resonance-a-plague-tale-legacy"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/resonance-a-plague-tale-legacy"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://aplaguetale.fandom.com/wiki/Resonance:_A_Plague_Tale_Legacy"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Resonance:_A_Plague_Tale_Legacy"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 27, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-08-27"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 27, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-08-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 27, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-08-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar60w0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar60w1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar60w2.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar60w3.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar60w4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar63pe.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ots.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3oue.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3otr.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3otw.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "lfssswW0qf4",
+      "url": "https://www.youtube.com/watch?v=lfssswW0qf4"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "jtuXbs8Wue8",
+      "url": "https://www.youtube.com/watch?v=jtuXbs8Wue8"
+    },
+    {
+      "title": "Long Gameplay Trailer",
+      "youtube_id": "ZPQFsx9XXoM",
+      "url": "https://www.youtube.com/watch?v=ZPQFsx9XXoM"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "paw-patrol-rescue-wheels-championship",
+  "igdb_id": 351133,
+  "name": "Paw Patrol: Rescue Wheels - Championship",
+  "summary": "Va-room! The Rescue Wheels crew is revved up and ready to race! Join Chase, Skye, Marshall, Rubble, Zuma, Rocky, and Roxi, in epic races across Adventure Bay and beyond. You can even cause mischief with Boomer & Frank or Mayor Humdinger. Pick your Pup Racer, each with unique skills like launching tennis balls or spinning out rivals. Master drifting, turbo boosts, and epic signature stunts to rule the dirt roads. Play solo or challenge friends in multiplayer—every racer can be a champion! Grab your best Pup Pals and let’s Rox and roll!",
+  "first_release_year": 2025,
+  "developers": [
+    "3D Clouds"
+  ],
+  "publishers": [
+    "Outright Games",
+    "Bandai Namco Entertainment Europe"
+  ],
+  "genres": [
+    "Racing",
+    "Sport",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "PPR.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/OutrightGames"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Outright_Games"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3291010"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/paw-patrol-rescue-wheels-championship"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10013289"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/paw-patrol-rescue-wheels-championship-switch/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/paw-patrol-rescue-wheels-championship-f68045"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://outrightgames.com/games/paw-patrol-rescue-wheels-championship/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 31, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-31"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 31, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-31"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 31, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-31"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 31, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-31"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 31, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-31"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 31, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar45ad.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "AASgGJS4AmY",
+      "url": "https://www.youtube.com/watch?v=AASgGJS4AmY"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "41-hours",
+  "igdb_id": 139679,
+  "name": "41 Hours",
+  "summary": "41 Hours is a first-person shooter dramatic game that follows the narrative of Ethan, a workaholic scientist in search of his long-lost wife. The story is intriguing and it takes several surprising turns as it develops over 11 Chapters and 20 hours of gameplay.",
+  "first_release_year": 2021,
+  "developers": [
+    "Texelworks"
+  ],
+  "publishers": [
+    "Valkyrie Initiative",
+    "Eastasiasoft"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "violent"
+  ],
+  "alternative_names": [
+    {
+      "name": "41h.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003410"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1358020/41_Hours"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.texelworks.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/41%20Hours"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/EHpmDauaAv"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 21, 2021",
+      "status": "Released",
+      "date_iso": "2021-05-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 19, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-19"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 19, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 19, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-19"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 19, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arlc8.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "68V5pRvB9F0",
+      "url": "https://www.youtube.com/watch?v=68V5pRvB9F0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "6ARLbhOXMpA",
+      "url": "https://www.youtube.com/watch?v=6ARLbhOXMpA"
+    }
+  ]
+}

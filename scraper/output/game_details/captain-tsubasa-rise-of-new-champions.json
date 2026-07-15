@@ -1,0 +1,147 @@
+{
+  "slug": "captain-tsubasa-rise-of-new-champions",
+  "igdb_id": 128769,
+  "name": "Captain Tsubasa: Rise of New Champions",
+  "summary": "A new Captain Tsubasa game is here, 10 years after the release of the previous console game!\n\nThe worlds of Soccer and Anime converge in Captain Tsubasa: Rise of New Champions, based on the renowned Captain Tsubasa series. The game chronicles the athletic exploits of Tsubasa Ozora as he plays out his love for the game and advances through the ranks of multiple Soccer leagues. Captain Tsubasa: Rise of New Champions immerses players in an action packed soccer game that features exhilarating gameplay, over the top signature shots and accessible gameplay.",
+  "first_release_year": 2020,
+  "developers": [
+    "Tamsoft"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment",
+    "Bandai Namco Entertainment America",
+    "Bandai Namco Entertainment Europe"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Sport",
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Side view"
+  ],
+  "series": [
+    "Captain Tsubasa"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Captain Tsubasa"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "soccer",
+    "football",
+    "anime"
+  ],
+  "alternative_names": [
+    {
+      "name": "キャプテン翼 Rise of New Champions",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "rename.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/cpttsubasaronc"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.bandainamcoent.com/games/captain-tsubasa-rise-of-new-champions"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Captain_Tsubasa:_Rise_of_New_Champions"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/233219"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/captain-tsubasa-rise-of-new-champions-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1163550"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Captain%20Tsubasa%3A%20Rise%20of%20New%20Champions"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 27, 2020",
+      "status": "Released",
+      "date_iso": "2020-08-27"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 28, 2020",
+      "status": "Released",
+      "date_iso": "2020-09-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 28, 2020",
+      "status": "Released",
+      "date_iso": "2020-08-28"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 28, 2020",
+      "status": "Released",
+      "date_iso": "2020-08-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arctx.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar48x9.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar48xa.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "hnpl64F1oTw",
+      "url": "https://www.youtube.com/watch?v=hnpl64F1oTw"
+    },
+    {
+      "title": "Creator message",
+      "youtube_id": "qaN1IsSaoCA",
+      "url": "https://www.youtube.com/watch?v=qaN1IsSaoCA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "futiptE6BtY",
+      "url": "https://www.youtube.com/watch?v=futiptE6BtY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "0hvEQXg1uDg",
+      "url": "https://www.youtube.com/watch?v=0hvEQXg1uDg"
+    },
+    {
+      "title": "Gamescom 2020 Launch Trailer",
+      "youtube_id": "Aba9yJ8RHYg",
+      "url": "https://www.youtube.com/watch?v=Aba9yJ8RHYg"
+    }
+  ]
+}

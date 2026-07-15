@@ -1,0 +1,195 @@
+{
+  "slug": "stellar-blade-complete-edition",
+  "igdb_id": 117170,
+  "name": "Stellar Blade",
+  "summary": "Stellar Blade is a third-person action-adventure game set on a post-apocalyptic Earth. Players control Eve, an elite soldier deployed from an orbital colony to reclaim the planet from hostile creatures called Naytibas. The combat system emphasizes timing-based parrying and evasion, with skill gauges that unlock powerful attacks and buffs. The game features exploration across ruined environments, side quests from NPC survivors in the last human city of Xion, and a narrative with multiple endings based on player choices.",
+  "first_release_year": 2024,
+  "developers": [
+    "SHIFT UP"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Stellar Blade"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "post-apocalyptic",
+    "cybernetics",
+    "multiple endings",
+    "rpg elements",
+    "british accent",
+    "guns and bullets",
+    "suggestive themes",
+    "boss rush",
+    "character action"
+  ],
+  "alternative_names": [
+    {
+      "name": "Project Eve",
+      "comment": "Working title"
+    },
+    {
+      "name": "프로젝트 이브",
+      "comment": "Korean title - working"
+    },
+    {
+      "name": "劍星",
+      "comment": "Chinese title - traditional"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/stellar-blade"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006891"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/stellar-blade-fa21c3"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.stellar-blade.com/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/stellarblade/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stellar_Blade"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3489700/Stellar_Blade/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/stellarblade"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 26, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-04-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 11, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-11"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "TBD",
+      "status": "Cancelled"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3t1d.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar61e0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3l2j.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3l2k.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "vLsSuuSAIys",
+      "url": "https://www.youtube.com/watch?v=vLsSuuSAIys"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3X3JR3pG0I8",
+      "url": "https://www.youtube.com/watch?v=3X3JR3pG0I8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ayek3ZzWb1E",
+      "url": "https://www.youtube.com/watch?v=ayek3ZzWb1E"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "WQpFj2rfkKQ",
+      "url": "https://www.youtube.com/watch?v=WQpFj2rfkKQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "U8V--DUxheg",
+      "url": "https://www.youtube.com/watch?v=U8V--DUxheg"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "DSznLWimMlU",
+      "url": "https://www.youtube.com/watch?v=DSznLWimMlU"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "p3YKZJhbctY",
+      "url": "https://www.youtube.com/watch?v=p3YKZJhbctY"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "HZ9B0lKgTCs",
+      "url": "https://www.youtube.com/watch?v=HZ9B0lKgTCs"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "Jp6IyW0mZ9g",
+      "url": "https://www.youtube.com/watch?v=Jp6IyW0mZ9g"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "lURBM0Mgtes",
+      "url": "https://www.youtube.com/watch?v=lURBM0Mgtes"
+    },
+    {
+      "title": "Photo Mode Trailer",
+      "youtube_id": "CF7bEkfNays",
+      "url": "https://www.youtube.com/watch?v=CF7bEkfNays"
+    },
+    {
+      "title": "PC Launch Trailer",
+      "youtube_id": "_VyeH5uteVk",
+      "url": "https://www.youtube.com/watch?v=_VyeH5uteVk"
+    },
+    {
+      "title": "PC Features Trailer",
+      "youtube_id": "Pex7jW3Tqwo",
+      "url": "https://www.youtube.com/watch?v=Pex7jW3Tqwo"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "mksoTJiejl4",
+      "url": "https://www.youtube.com/watch?v=mksoTJiejl4"
+    }
+  ]
+}

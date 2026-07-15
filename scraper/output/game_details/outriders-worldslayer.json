@@ -1,0 +1,125 @@
+{
+  "slug": "outriders-worldslayer",
+  "igdb_id": 198294,
+  "name": "Outriders: Worldslayer",
+  "summary": "With new horrors to challenge you and new weapons, mods and gear to discover, you’ll be further developing your build through the new PAX hybrid branch class trees.\n\nSurvive the campaign and you’ll face even greater horrors in the Trials of Tarya Grata, the brand new endgame. Which partnered with Ascension Points offers a new long term progression system for the most committed players.\n\nFinally, push hard through the new Apocalypse difficulty tiers, with each step up to level 40 increasing the chances of obtaining incredible Apocalypse gear and its game changing third mod slot.",
+  "first_release_year": 2022,
+  "developers": [
+    "People Can Fly"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": "Outriders",
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "gore",
+    "violent"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/bundle/25322/OUTRIDERS_WORLDSLAYER"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://outriders.square-enix-games.com/en-us/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/outriders"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Outriders"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/squareenix"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/outriders--worldslayer-edition"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/outriders"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/outridersgame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-30"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1lvg.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Cku6a75m5-A",
+      "url": "https://www.youtube.com/watch?v=Cku6a75m5-A"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "geOj2r-bC3Y",
+      "url": "https://www.youtube.com/watch?v=geOj2r-bC3Y"
+    }
+  ]
+}

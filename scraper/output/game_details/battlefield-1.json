@@ -1,0 +1,191 @@
+{
+  "slug": "battlefield-1",
+  "igdb_id": 18320,
+  "name": "Battlefield 1",
+  "summary": "Discover classic Battlefield gameplay with epic multiplayer and an adventure-filled campaign. Experience the dawn of all-out war, only in Battlefield 1. Fight your way through epic battles going from tight urban combat in a besieged French city to big open spaces in the Italian Alps or frantic combats in the Arabic sand dunes. Experience large-scale battles as infantry or piloting vehicles on land, air and sea, from the tanks and bikes on the ground, to bi-planes and gigantic battleships.",
+  "first_release_year": 2016,
+  "developers": [
+    "EA Digital Illusions CE"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Battlefield"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Battlefield"
+  ],
+  "game_engines": [
+    "Frostbite"
+  ],
+  "keywords": [
+    "world war i - ww1",
+    "australian",
+    "europe",
+    "1920s",
+    "military",
+    "horse",
+    "1910s",
+    "war",
+    "digital distribution",
+    "game critics awards",
+    "playstation trophies",
+    "xbox one x enhanced",
+    "loot boxes",
+    "ea app",
+    "sprinting mechanics",
+    "pax west 2016",
+    "game developers choice awards 2017",
+    "d.i.c.e. awards 2017",
+    "companion app",
+    "online multiplayer achievements",
+    "the game awards - nominee",
+    "the game awards 2016",
+    "the game awards - best studio or game direction - nominee",
+    "the game awards - best music or sound design - nominee",
+    "multiple playable characters",
+    "the game awards - best action game - nominee",
+    "the game awards - best multiplayer game - nominee"
+  ],
+  "alternative_names": [
+    {
+      "name": "BF1",
+      "comment": "Acronym"
+    },
+    {
+      "name": "BF 1",
+      "comment": "Acronym"
+    },
+    {
+      "name": "배필1",
+      "comment": "Korean Acronym"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1238840/Battlefield_1/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/battlefield_one"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/battlefield-1/BWTTW53M5B98"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/221824"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://battlefield.wikia.com/wiki/Battlefield_1"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.battlefield.com/games/battlefield-1"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Battlefield%201"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/battlefield"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/Battlefield"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Battlefield_1"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Battlefield"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/battlefield"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 21, 2016",
+      "status": "Released",
+      "date_iso": "2016-10-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 21, 2016",
+      "status": "Released",
+      "date_iso": "2016-10-21"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 21, 2016",
+      "status": "Released",
+      "date_iso": "2016-10-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar66we.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar47u.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar47x.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar47v.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar47t.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar481.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar482.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar47z.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar47y.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar480.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar47w.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4q0i.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Reveal Trailer",
+      "youtube_id": "QP1fJDVhYDY",
+      "url": "https://www.youtube.com/watch?v=QP1fJDVhYDY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "YwSFUNMrWvk",
+      "url": "https://www.youtube.com/watch?v=YwSFUNMrWvk"
+    },
+    {
+      "title": "Gameplay video",
+      "youtube_id": "3qqkfMXYtKI",
+      "url": "https://www.youtube.com/watch?v=3qqkfMXYtKI"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "-1xAcnpKvcI",
+      "url": "https://www.youtube.com/watch?v=-1xAcnpKvcI"
+    }
+  ]
+}

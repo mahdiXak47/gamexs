@@ -1,0 +1,182 @@
+{
+  "slug": "death-stranding-نسخه-director's-cut",
+  "igdb_id": 19564,
+  "name": "Death Stranding",
+  "summary": "Death Stranding is an action game set in a post-apocalyptic United States.\n\nPlayers control Sam Porter Bridges, a courier tasked with reconnecting isolated cities via a communication network while delivering essential cargo. The gameplay blends traversal, resource management, and narrative elements, with a focus on social connectivity through asynchronous multiplayer. It is known for its unique mechanics, atmospheric world, and philosophical themes.",
+  "first_release_year": 2019,
+  "developers": [
+    "Kojima Productions"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment",
+    "505 Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Survival",
+    "Stealth",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Death Stranding"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Death Stranding"
+  ],
+  "game_engines": [
+    "Decima",
+    "Wwise"
+  ],
+  "keywords": [
+    "post-apocalyptic",
+    "exploration",
+    "kojima",
+    "explorable world",
+    "the game awards 2017",
+    "the game awards - best score or music - winner",
+    "the game awards 2016",
+    "the game awards - best action-adventure game - nominee",
+    "the game awards - best art direction - nominee",
+    "the game awards - best audio design - nominee",
+    "the game awards - best game direction - winner",
+    "the game awards - best narrative - nominee",
+    "the game awards - best performance - nominee",
+    "the game awards - best performance - winner",
+    "the game awards - game of the year - nominee",
+    "the game awards - world premiere",
+    "delivery"
+  ],
+  "alternative_names": [
+    {
+      "name": "死亡搁浅",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "死亡擱淺",
+      "comment": "Chinese title - traditional"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/DeathStranding"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://deathstranding.fandom.com/wiki/Death_Stranding_Wiki"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP9000-CUSA11260_00-DEATHSTRAND00001"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.kojimaproductions.jp/en/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC6lUqvh42Oc3XL19Edgd9QA"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1190460/Death_Stranding/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Death_Stranding"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Death%20Stranding"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/product/death-stranding/home"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 08, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-11-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 14, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-07-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/fq9mae2ruszujzbybiif.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/porotx4upzdqpesaywl1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/cepvgymrtpjledmcljbd.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/lcledoactdqw9jdugn5i.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3s0u.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3pte.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ptf.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay video",
+      "youtube_id": "wyAnYp4GbWM",
+      "url": "https://www.youtube.com/watch?v=wyAnYp4GbWM"
+    },
+    {
+      "title": "E3 2018 Trailer",
+      "youtube_id": "VFsC_lg1hl4",
+      "url": "https://www.youtube.com/watch?v=VFsC_lg1hl4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "6goa1pI_az8",
+      "url": "https://www.youtube.com/watch?v=6goa1pI_az8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "UcaMw4aCz4c",
+      "url": "https://www.youtube.com/watch?v=UcaMw4aCz4c"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "XcuFJXgU6cA",
+      "url": "https://www.youtube.com/watch?v=XcuFJXgU6cA"
+    },
+    {
+      "title": "Tokyo Game Show 2018 Trailer",
+      "youtube_id": "8Ssn2rxFtOI",
+      "url": "https://www.youtube.com/watch?v=8Ssn2rxFtOI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "piIgkJWDuQg",
+      "url": "https://www.youtube.com/watch?v=piIgkJWDuQg"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "tCI396HyhbQ",
+      "url": "https://www.youtube.com/watch?v=tCI396HyhbQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "uAolpHOsZc8",
+      "url": "https://www.youtube.com/watch?v=uAolpHOsZc8"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "slug": "achilles-legends-untold",
+  "igdb_id": 160293,
+  "name": "Achilles: Legends Untold",
+  "summary": "Achilles: Legends Untold is an isometric action RPG that draws inspiration from soulslike and hack & slash genres. However, compared to them, the title by Polish studio Dark Point Games has a much lower level of entry. The creators wanted to make a game that would be more accessible to beginners, who are just starting their adventure with this type of gameplay. It doesn’t mean, however, that Achilles: Legends Untold is a title aimed only at newcomers, because it is filled with optional challenging missions, which will certainly also satisfy experienced players.",
+  "first_release_year": 2023,
+  "developers": [
+    "Dark Point Games"
+  ],
+  "publishers": [
+    "Dark Point Games"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "ancient greece",
+    "soulslike",
+    "available on - blacknut"
+  ],
+  "alternative_names": [
+    {
+      "name": "Achilles.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/DarkPointGames"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/achilles-legends-untold-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004880"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://darkpointgames.com/games/achilles"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Achilles.Legends.Untold"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1314000/Achilles_Legends_Untold"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC6i5GY_pbqq0ZY4xQBHzilw"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/achilleslegendsuntold/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/achilles-legends-untold-bb77ad"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/achilles_legends_untold"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/Nsd2phEB"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Achilles:%20Legends%20Untold"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-18"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 12, 2022",
+      "status": "Beta",
+      "date_iso": "2022-05-12"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 02, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-02"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 02, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-02"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 02, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-02"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jan 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-01-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1mjt.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "qFwxNc4BEVI",
+      "url": "https://www.youtube.com/watch?v=qFwxNc4BEVI"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "GRbK2h4XDMs",
+      "url": "https://www.youtube.com/watch?v=GRbK2h4XDMs"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "Y0eLJQYnWpc",
+      "url": "https://www.youtube.com/watch?v=Y0eLJQYnWpc"
+    }
+  ]
+}

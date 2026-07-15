@@ -1,0 +1,136 @@
+{
+  "slug": "sonic-colors-ultimate-نسخه-بلوری-ps4",
+  "igdb_id": 45986,
+  "name": "Sonic Colors",
+  "summary": "An extraordinary amusement park has been seen orbiting around the home planet of Sonic the Hedgehog, and rumors are spreading that an alien race of Wisps, who have a unique colorful energy, are being held captive there by the evil Dr. Eggman. Soon after arriving at the amusement park, Sonic discovers he is able to use these mysterious alien forces to help the Wisps escape!",
+  "first_release_year": 2010,
+  "developers": [
+    "Dimps"
+  ],
+  "publishers": [
+    "Sega"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Sonic the Hedgehog"
+  ],
+  "spin_off_of": "Sonic Colors",
+  "franchises": [
+    "Sonic The Hedgehog"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "aliens",
+    "2d",
+    "robots",
+    "amusement park",
+    "space",
+    "planet",
+    "sonic",
+    "shadow the hedgehog",
+    "cream the rabbit",
+    "silver the hedgehog"
+  ],
+  "alternative_names": [
+    {
+      "name": "Sonic Colors DS",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://wikipedia.org/wiki/Sonic_Colors"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.sega.com/games/sonic-colors/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Sonic%20Colors"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/sonic_hedgehog"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/SonictheHedgehog"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Sonic"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/sonicthehedgehog"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://sonic.fandom.com/wiki/Sonic_Colors"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo DS",
+      "region": null,
+      "date": "Dec 18, 2010",
+      "status": "Released",
+      "date_iso": "2010-12-18"
+    },
+    {
+      "platform": "Nintendo DS",
+      "region": null,
+      "date": "Dec 12, 2010",
+      "status": "Released",
+      "date_iso": "2010-12-12"
+    },
+    {
+      "platform": "Nintendo DS",
+      "region": null,
+      "date": "Dec 16, 2010",
+      "status": "Released",
+      "date_iso": "2010-12-16"
+    },
+    {
+      "platform": "Nintendo DS",
+      "region": null,
+      "date": "Dec 11, 2010",
+      "status": "Released",
+      "date_iso": "2010-12-11"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4l0z.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4l10.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4l0y.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4l11.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4l12.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4l13.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4l0x.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4l14.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "IauLncV1048",
+      "url": "https://www.youtube.com/watch?v=IauLncV1048"
+    }
+  ]
+}

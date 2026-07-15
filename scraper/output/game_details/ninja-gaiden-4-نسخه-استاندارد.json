@@ -1,0 +1,170 @@
+{
+  "slug": "ninja-gaiden-4-نسخه-استاندارد",
+  "igdb_id": 329130,
+  "name": "Ninja Gaiden 4",
+  "summary": "The definitive ninja action-adventure franchise returns with Ninja Gaiden 4! Embark on a cutting-edge adventure where legacy meets innovation in a high-octane blend of style and no-holds-barred combat.",
+  "first_release_year": 2025,
+  "developers": [
+    "Team NINJA",
+    "PlatinumGames"
+  ],
+  "publishers": [
+    "Xbox Game Studios"
+  ],
+  "genres": [
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Ninja Gaiden"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Ninja Gaiden"
+  ],
+  "game_engines": [
+    "Platinum Engine"
+  ],
+  "keywords": [
+    "ninja"
+  ],
+  "alternative_names": [
+    {
+      "name": "NINJAGAIDEN4-Steam.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "NG4",
+      "comment": "Acronym"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ninja-gaiden-4/9p0sq1s72g4j"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/ninja-gaiden-4"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://teamninja-studio.com/ng/us/ng4/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://ninjagaiden.fandom.com/wiki/Ninja_Gaiden_4"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ninja_Gaiden_4"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/teamninjastudio/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://reddit.com/r/ninjagaiden"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@TeamNINJAStudio"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/TeamNINJAStudio"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/teamninjastudio"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10012110"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2627260"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar39z4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4k2w.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4k2x.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4k2y.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4k2z.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4k30.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4k3x.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4k3y.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "08vbgX9lpWY",
+      "url": "https://www.youtube.com/watch?v=08vbgX9lpWY"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "GA70JV2dCMM",
+      "url": "https://www.youtube.com/watch?v=GA70JV2dCMM"
+    },
+    {
+      "title": "Story Trailer",
+      "youtube_id": "dkwEAtiUXkA",
+      "url": "https://www.youtube.com/watch?v=dkwEAtiUXkA"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "I3K3InSDiDs",
+      "url": "https://www.youtube.com/watch?v=I3K3InSDiDs"
+    },
+    {
+      "title": "Advanced Yakumo Gameplay",
+      "youtube_id": "kndwJhbXd_I",
+      "url": "https://www.youtube.com/watch?v=kndwJhbXd_I"
+    },
+    {
+      "title": "Difficulty Design",
+      "youtube_id": "v6lZy_lQQH0",
+      "url": "https://www.youtube.com/watch?v=v6lZy_lQQH0"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "xvbQr84SW88",
+      "url": "https://www.youtube.com/watch?v=xvbQr84SW88"
+    }
+  ]
+}

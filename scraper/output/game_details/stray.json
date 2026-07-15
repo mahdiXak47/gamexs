@@ -1,0 +1,64 @@
+{
+  "slug": "stray",
+  "igdb_id": 220508,
+  "name": "Stray Cat",
+  "summary": "Is a game about a homeless cat who decided to save money for a new home. 2D platformer with a side view, where you will play as a brave cat who decided to collect all the coins on his way and destroy evil opponents.",
+  "first_release_year": 2022,
+  "developers": [
+    "Laush Dmitriy Sergeevich"
+  ],
+  "publishers": [
+    "Laush Studio"
+  ],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "STRAY CAT",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "STRAY CAT.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2151410"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Stray%20Cat"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 01, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-01"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1wua.jpg"
+  ],
+  "videos": []
+}

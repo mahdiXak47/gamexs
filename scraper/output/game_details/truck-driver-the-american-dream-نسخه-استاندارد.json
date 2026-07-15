@@ -1,0 +1,126 @@
+{
+  "slug": "truck-driver-the-american-dream-نسخه-استاندارد",
+  "igdb_id": 254243,
+  "name": "Truck Driver: The American Dream",
+  "summary": "Truck Driver: The American Dream is a truck-driving simulation game that is setting out to mix storytelling.\n\nStart from the bottom and work your way to the top in the name of getting your life together and chasing the American Dream.",
+  "first_release_year": 2023,
+  "developers": [
+    "Kyodai"
+  ],
+  "publishers": [
+    "SOEDESCO Publishing"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Simulator",
+    "Indie"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "ProjectAnt.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007558"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1925460"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@SOEDESCO"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/truckdriver.game/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/SOEDESCO"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Soedesco/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/3SDgsc7Zw5"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.soedesco.com/games/truck-driver-the-american-dream"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 26, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-26"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 26, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 29, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2jrv.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "QwAJsdI2l84",
+      "url": "https://www.youtube.com/watch?v=QwAJsdI2l84"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "_FW-iKIkaqE",
+      "url": "https://www.youtube.com/watch?v=_FW-iKIkaqE"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "Ov0-IHI02DI",
+      "url": "https://www.youtube.com/watch?v=Ov0-IHI02DI"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "X09wH3enMso",
+      "url": "https://www.youtube.com/watch?v=X09wH3enMso"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "TgRFTfkyU5g",
+      "url": "https://www.youtube.com/watch?v=TgRFTfkyU5g"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "slug": "okami-hd",
+  "igdb_id": 20744,
+  "name": "Ōkami HD",
+  "summary": "Experience the critically acclaimed masterpiece with its renowned Sumi-e ink art style in breathtaking high resolution. Take on the role of Amaterasu, the Japanese sun goddess who inhabits the form of a legendary white wolf, on a quest to defeat Orochi, an eight-headed demon and tyrannical monster responsible for turning the world of Nippon into a ruined wasteland.",
+  "first_release_year": 2012,
+  "developers": [
+    "Clover Studio",
+    "Capcom"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Historical",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Ōkami"
+  ],
+  "spin_off_of": "Ōkami",
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "playstation move",
+    "xbox one x enhanced",
+    "4k ultra hd",
+    "historical japan"
+  ],
+  "alternative_names": [
+    {
+      "name": "okami.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "ŌKAMI HD",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "OKAMI HD",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Okami HD",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/okami-hd-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ōkami-hd/C0W6P6N2Q4QF"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/216640"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.okami-game.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/587620"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/%C5%8Ckami%20HD"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Okami"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/%C5%8Ckami#High-definition_remaster"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 09, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-08-09"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 13, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-12-13"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 12, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-12-12"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Oct 31, 2012",
+      "status": "Cancelled",
+      "date_iso": "2012-10-31"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Nov 01, 2012",
+      "status": "Cancelled",
+      "date_iso": "2012-11-01"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Oct 30, 2012",
+      "status": "Cancelled",
+      "date_iso": "2012-10-30"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 12, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-12-12"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 21, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-12-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 12, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-12-12"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 12, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-12-12"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 21, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-12-21"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 12, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-12-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4nv.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "vekiiMbA-Zw",
+      "url": "https://www.youtube.com/watch?v=vekiiMbA-Zw"
+    }
+  ]
+}

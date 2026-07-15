@@ -1,0 +1,112 @@
+{
+  "slug": "cobra-kai-2-dojos-rising",
+  "igdb_id": 208711,
+  "name": "Cobra Kai 2: Dojos Rising",
+  "summary": "Immersing fans with what they love about the series, Cobra Kai 2 offers players a unique perspective from all 3 competing dojos-featuring an engaging \"pick your story\" narrative campaign that will shape the entire story, ending, and even who the player controls.​",
+  "first_release_year": 2022,
+  "developers": [
+    "Flux Games"
+  ],
+  "publishers": [
+    "GameMill Entertainment"
+  ],
+  "genres": [
+    "Fighting",
+    "Hack and slash/Beat 'em up",
+    "Adventure",
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "The Karate Kid"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "available on - blacknut"
+  ],
+  "alternative_names": [
+    {
+      "name": "Cobra Kai 2 - Dojos Rising.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003445"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/cobra-kai-2-dojos-rising-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://playcobrakai.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1681870"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Cobra%20Kai%202:%20Dojos%20Rising"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-08"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-08"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-08"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-08"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 08, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1xej.jpg"
+  ],
+  "videos": []
+}

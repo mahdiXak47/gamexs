@@ -1,0 +1,133 @@
+{
+  "slug": "the-bridge-curse-2-the-extrication",
+  "igdb_id": 244573,
+  "name": "The Bridge Curse 2: The Extrication",
+  "summary": "The Bridge Curse 2: The Extrication is part two of The Bridge Curse series. It's a first-person survival horror game where the player controls four characters during Wen Hua University's \"Carnival of Horror.\" What lurks around the corner is foreboding dread, a few laughs, and of course... pure fear.",
+  "first_release_year": 2024,
+  "developers": [
+    "SOFTSTAR Entertainment"
+  ],
+  "publishers": [
+    "Gamirror Games",
+    "SOFTSTAR Entertainment",
+    "PQube"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "The Bridge Curse"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "TBC2-Win64-Shipping.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009896"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/the-bridge-curse-2-the-extrication-switch/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/TbcRts"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/the-bridge-curse-2-the-extrication-c9469b"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2331330"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://pqube.co.uk/games/the-bridge-curse-2-the-extrication/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/the_bridge_curse_2_the_extrication"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/the-bridge-curse-2-the-extrication"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 09, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-05-09"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 24, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 24, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-24"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 24, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 24, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-24"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 24, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar29cz.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "Lqm303aOMW8",
+      "url": "https://www.youtube.com/watch?v=Lqm303aOMW8"
+    }
+  ]
+}

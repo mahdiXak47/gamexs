@@ -1,0 +1,147 @@
+{
+  "slug": "blackwind",
+  "igdb_id": 159751,
+  "name": "Blackwind",
+  "summary": "Blackwind is a top-down sci-fi action game that puts you in the shoes of a teenager trapped inside a prototype battle armor suit during an alien invasion. Face off against enemies, cut through their ranks, and fight back to stop a planetary invasion.",
+  "first_release_year": 2022,
+  "developers": [
+    "Drakkar Dev"
+  ],
+  "publishers": [
+    "Gamirror Games",
+    "Blowfish Studios"
+  ],
+  "genres": [
+    "Shooter",
+    "Platform",
+    "Hack and slash/Beat 'em up",
+    "Adventure",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "available on - blacknut"
+  ],
+  "alternative_names": [
+    {
+      "name": "ブラックウィンド",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "Blackwind.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "http://www.drakkardev.com/projects/blackwind/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1567520"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000455"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/blackwind-switch/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/blackwind"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Blackwind"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-01-20"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jan 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-01-20"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-01-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-01-20"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jan 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-01-20"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-01-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-01-20"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jan 19, 2022",
+      "status": "Released",
+      "date_iso": "2022-01-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arye9.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "StQV8-5i6GM",
+      "url": "https://www.youtube.com/watch?v=StQV8-5i6GM"
+    }
+  ]
+}

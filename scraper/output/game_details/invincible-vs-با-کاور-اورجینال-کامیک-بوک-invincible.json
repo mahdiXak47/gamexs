@@ -1,0 +1,142 @@
+{
+  "slug": "invincible-vs-با-کاور-اورجینال-کامیک-بوک-invincible",
+  "igdb_id": 348216,
+  "name": "Invincible Vs.",
+  "summary": "Invincible VS is a brutal superhero 3v3 tag fighting game set in the Invincible universe, where you can battle to the death as a team of fan-favorite characters in iconic locations.",
+  "first_release_year": 2026,
+  "developers": [
+    "Quarter Up"
+  ],
+  "publishers": [
+    "Skybound Games"
+  ],
+  "genres": [
+    "Fighting"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Invincible"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "street fighting",
+    "superhero",
+    "tag"
+  ],
+  "alternative_names": [
+    {
+      "name": "Invincible VS",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/invincible-vs/9nf8skdhflmg"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://invinciblevs.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2353060"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@InvincibleVS"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10015370"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/InvincibleVS"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Invincible_VS"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 30, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 30, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 30, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r83.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r89.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r8a.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r84.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r87.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r8b.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r88.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5smt.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r85.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r86.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r8c.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r8d.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r8e.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "X3CCw--KMAM",
+      "url": "https://www.youtube.com/watch?v=X3CCw--KMAM"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "7oFK8Fwp3pE",
+      "url": "https://www.youtube.com/watch?v=7oFK8Fwp3pE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "uexXEF1diRs",
+      "url": "https://www.youtube.com/watch?v=uexXEF1diRs"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "rzPTZAj014U",
+      "url": "https://www.youtube.com/watch?v=rzPTZAj014U"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "IHIYUSijexA",
+      "url": "https://www.youtube.com/watch?v=IHIYUSijexA"
+    }
+  ]
+}

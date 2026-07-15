@@ -1,0 +1,301 @@
+{
+  "slug": "rocket-league-collectors-edition-ps4",
+  "igdb_id": 11198,
+  "name": "Rocket League",
+  "summary": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and basketball-inspired Extra Modes, and more than 500 trillion possible cosmetic customization combinations.",
+  "first_release_year": 2015,
+  "developers": [
+    "Psyonix"
+  ],
+  "publishers": [
+    "Psyonix"
+  ],
+  "genres": [
+    "Racing",
+    "Sport",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Supersonic Acrobatic Rocket-Powered Battle-Cars",
+    "Rocket League"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 3"
+  ],
+  "keywords": [
+    "vehicular combat",
+    "soccer",
+    "football",
+    "basketball",
+    "cyberpunk",
+    "crossover",
+    "online",
+    "esports",
+    "sequel",
+    "cross-platform multiplayer",
+    "instant replay",
+    "vehicle combat",
+    "steam achievements",
+    "xbox controller support for pc",
+    "motorsports",
+    "split-screen multiplayer",
+    "dualshock 4 support for pc",
+    "xbox one x enhanced",
+    "microtransaction",
+    "original soundtrack release",
+    "vehicle customization",
+    "playstation plus",
+    "downloadable content",
+    "xbox live",
+    "d.i.c.e. awards 2016",
+    "konami code",
+    "game developers choice awards 2016",
+    "local and online players together",
+    "bots",
+    "future sport",
+    "sudden death",
+    "ranked match",
+    "professional gaming",
+    "the game awards 2017",
+    "the game awards - nominee",
+    "the game awards 2016",
+    "the game awards 2015",
+    "rc vehicle",
+    "collaboration",
+    "the game awards - best esports game - nominee",
+    "the game awards - world premiere",
+    "previously on - xbox gamepass"
+  ],
+  "alternative_names": [
+    {
+      "name": "火箭联盟",
+      "comment": "Chinese title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/203715"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/rocketleague"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/rocket-league"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/RocketLeague"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@RocketLeague"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/rocketleague"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/RocketLeague"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.rocketleague.com/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://rocketleague.fandom.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rocket_League"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/RocketLeague"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/252950"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/rocket-league"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/rocket-league-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/rocket-league/C125W9BG2K0V"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Sep 08, 2016",
+      "status": "Released",
+      "date_iso": "2016-09-08"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 17, 2016",
+      "status": "Released",
+      "date_iso": "2016-02-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 06, 2015",
+      "status": "Released",
+      "date_iso": "2015-07-06"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 05, 2016",
+      "status": "Released",
+      "date_iso": "2016-07-05"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Sep 08, 2016",
+      "status": "Released",
+      "date_iso": "2016-09-08"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 07, 2015",
+      "status": "Released",
+      "date_iso": "2015-07-07"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 17, 2016",
+      "status": "Released",
+      "date_iso": "2016-02-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 24, 2016",
+      "status": "Released",
+      "date_iso": "2016-06-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 04, 2015",
+      "status": "Released",
+      "date_iso": "2015-11-04"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 14, 2017",
+      "status": "Released",
+      "date_iso": "2017-11-14"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 24, 2021",
+      "status": "status_36",
+      "date_iso": "2021-08-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 08, 2020",
+      "status": "status_36",
+      "date_iso": "2020-12-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar68hf.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4us.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4ur.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4lm5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4p8d.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4p8c.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5u6d.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5u6e.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5u6f.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "r4iT0yZEwk8",
+      "url": "https://www.youtube.com/watch?v=r4iT0yZEwk8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "XUETSnO-JL4",
+      "url": "https://www.youtube.com/watch?v=XUETSnO-JL4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "SgSX3gOrj60",
+      "url": "https://www.youtube.com/watch?v=SgSX3gOrj60"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "7921v2ytL7M",
+      "url": "https://www.youtube.com/watch?v=7921v2ytL7M"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "o5YyUA525tI",
+      "url": "https://www.youtube.com/watch?v=o5YyUA525tI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "GcT706B4eZI",
+      "url": "https://www.youtube.com/watch?v=GcT706B4eZI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "MdBvId4DyIg",
+      "url": "https://www.youtube.com/watch?v=MdBvId4DyIg"
+    },
+    {
+      "title": "The Game Awards 2015 Trailer",
+      "youtube_id": "YpQCKFOTp_g",
+      "url": "https://www.youtube.com/watch?v=YpQCKFOTp_g"
+    },
+    {
+      "title": "Starbase ARC Trailer",
+      "youtube_id": "cF9Y6FgkEZs",
+      "url": "https://www.youtube.com/watch?v=cF9Y6FgkEZs"
+    },
+    {
+      "title": "TGA 2017 Trailer",
+      "youtube_id": "BG5VfEybA8I",
+      "url": "https://www.youtube.com/watch?v=BG5VfEybA8I"
+    }
+  ]
+}

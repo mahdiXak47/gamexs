@@ -1,0 +1,156 @@
+{
+  "slug": "sniper-ghost-warrior-contracts-2",
+  "igdb_id": 138980,
+  "name": "Sniper Ghost Warrior Contracts 2",
+  "summary": "SGW Contracts 2 is a modern warfare shooter with the story set in the Middle East. You play as a Raven, contract sniper assassin in a dramatic single-player campaign featuring extreme long-range shots.",
+  "first_release_year": 2021,
+  "developers": [
+    "CI Games"
+  ],
+  "publishers": [
+    "CI Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Tactical"
+  ],
+  "themes": [
+    "Action",
+    "Stealth",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Sniper: Ghost Warrior"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "CryEngine"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "スナイパーゴーストウォリアーコントラクト２",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "SNIPER GHOST WARRIOR CONTRACTS 2 (スナイパーゴーストウォリアーコントラクト２)",
+      "comment": "Japanese title - original"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000888"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/groups/597944190945022/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1338770"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://cigames.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/cigamesofficial"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Sniper%20Ghost%20Warrior%20Contracts%202"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/sniper-ghost-warrior-contracts-2-ae83b6"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sniper_Ghost_Warrior_Contracts_2"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC4C-_4qPYLxl4FhhXEh6pLQ"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://sniperghostwarrior.fandom.com/wiki/Sniper_Ghost_Warrior:_Contracts_2"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 04, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-04"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 04, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-04"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 04, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-04"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 04, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-04"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 04, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-04"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arktj.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "qlozPd7cNwE",
+      "url": "https://www.youtube.com/watch?v=qlozPd7cNwE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "36mfp4GYLX4",
+      "url": "https://www.youtube.com/watch?v=36mfp4GYLX4"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "NYysxaq6mas",
+      "url": "https://www.youtube.com/watch?v=NYysxaq6mas"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "0o2YHnr-jmI",
+      "url": "https://www.youtube.com/watch?v=0o2YHnr-jmI"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ZzbR3w8JL1I",
+      "url": "https://www.youtube.com/watch?v=ZzbR3w8JL1I"
+    }
+  ]
+}

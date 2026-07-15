@@ -1,0 +1,257 @@
+{
+  "slug": "brok-the-investigator",
+  "igdb_id": 141057,
+  "name": "Brok the Investigator",
+  "summary": "Brok is an innovative adventure mixed with beat 'em up and RPG elements. In a grim world where animals have replaced mankind, what kind of detective will you be?",
+  "first_release_year": 2022,
+  "developers": [
+    "COWCAT"
+  ],
+  "publishers": [
+    "COWCAT"
+  ],
+  "genres": [
+    "Point-and-click",
+    "Fighting",
+    "Puzzle",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Game Maker Studio 2"
+  ],
+  "keywords": [
+    "detective",
+    "brawler"
+  ],
+  "alternative_names": [
+    {
+      "name": "Brock",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Broke",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Broc",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Brocke",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Brok",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "BROK the InvestiGator",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "鱷魚偵探布羅格",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "Brokgame.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006418"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/cowcatgames.bsky.social"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/us/app/brok-the-investigator/id6465624119"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/brok-the-investigator-switch/"
+    },
+    {
+      "label": "iPad",
+      "url": "https://apps.apple.com/us/app/brok-the-investigator/id6465624119"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/brok/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://brokgame.com/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/brok_the_investigator"
+    },
+    {
+      "label": "Itch",
+      "url": "https://cowcat.itch.io/brok"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/949480/BROK_the_InvestiGator"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/BROK_the_InvestiGator"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Brok%20the%20Investigator"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/brok-the-investigator-fb0513"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/cowcatgames"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/BrokGator"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.cowcat.brok"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/Cowcatgames"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/COWCATGames"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/WRaJAk5"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 01, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 26, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-26"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Feb 21, 2024",
+      "status": "Released",
+      "date_iso": "2024-02-21"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Oct 04, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-04"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Oct 04, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-04"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 01, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-01"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 01, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-01"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 01, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-01"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 01, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-01"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Feb 21, 2024",
+      "status": "Released",
+      "date_iso": "2024-02-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 01, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-01"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arwo1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3cwc.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "0rRPnG8YSjE",
+      "url": "https://www.youtube.com/watch?v=0rRPnG8YSjE"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "6JKf3uNTl4A",
+      "url": "https://www.youtube.com/watch?v=6JKf3uNTl4A"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "-Z7iJaX1r6M",
+      "url": "https://www.youtube.com/watch?v=-Z7iJaX1r6M"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "the-mobius-machine",
+  "igdb_id": 258373,
+  "name": "The Mobius Machine",
+  "summary": "Discover a vast alien world. Fight the ferocious local fauna and killer machines. Reveal its secrets and find a way to escape. The Mobius Machine is a side-scroller action platformer with dynamic combat and heavy emphasis on exploration.",
+  "first_release_year": 2024,
+  "developers": [
+    "Madruga Works"
+  ],
+  "publishers": [
+    "Madruga Works"
+  ],
+  "genres": [
+    "Shooter",
+    "Platform",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "metroidvania"
+  ],
+  "alternative_names": [
+    {
+      "name": "TheMobiusMachine.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006425"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/madrugaworks.bsky.social"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://madrugaworks.com/mobius/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/madrugaworks"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@madrugaworks"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2281940"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 01, 2024",
+      "status": "Released",
+      "date_iso": "2024-03-01"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 03, 2024",
+      "status": "Released",
+      "date_iso": "2024-03-03"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 03, 2024",
+      "status": "Released",
+      "date_iso": "2024-03-03"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2f06.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "dY-Z55qpDY0",
+      "url": "https://www.youtube.com/watch?v=dY-Z55qpDY0"
+    }
+  ]
+}

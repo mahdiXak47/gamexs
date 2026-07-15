@@ -1,0 +1,156 @@
+{
+  "slug": "balan-wonderworld",
+  "igdb_id": 135992,
+  "name": "Balan Wonderworld",
+  "summary": "Balan Wonderworld is a wondrous action-platformer game themed around a mysterious musical theatre.\n\nThe stars of the show will use special abilities from a multitude of characterful costumes as they adventure in the bizarre and imaginary land of Wonderworld. Here memories and vistas from the real world mix with the things that people hold dear.\n\nTwelve different tales await our stars in Wonderworld, each with their own unique quirks. They will explore all corners of these labyrinthine stages, using all the tricks and gimmicks hidden along the way, to get to the heart of each touching story.",
+  "first_release_year": 2021,
+  "developers": [
+    "Arzest"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Platform"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "3d platformer"
+  ],
+  "alternative_names": [
+    {
+      "name": "バランワンダーワールド",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "BALAN WONDERWORLD.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000633"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/balan-wonderworld-switch/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCA5SLTAVA6unn1M-6lbo1NA"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1341050"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.balanwonderworld.com/index.html"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/BALANWWORLD"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Balan_Wonderworld"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/balanwonderworld"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Balan%20Wonderland"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 26, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-26"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 26, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-26"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 26, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 26, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-26"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 26, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-26"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 26, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-26"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 25, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar9eh.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "pow07l5bWiE",
+      "url": "https://www.youtube.com/watch?v=pow07l5bWiE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "yVNsnrPkCI8",
+      "url": "https://www.youtube.com/watch?v=yVNsnrPkCI8"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "kldZVxarIkc",
+      "url": "https://www.youtube.com/watch?v=kldZVxarIkc"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "slug": "sleeping-dogs",
+  "igdb_id": 1267,
+  "name": "Sleeping Dogs",
+  "summary": "Sleeping Dogs is a third-person open-world action-adventure game set in contemporary Hong Kong. Players control Wei Shen, an undercover police officer who infiltrates a Triad organization called the Sun On Yee. Gameplay emphasizes melee combat using martial arts moves, grapples, and environmental attacks over gunplay, alongside driving, parkour, and open-world exploration. The game features a triple experience system split between Triad, Police, and Face progression paths, each unlocking different abilities and rewards.",
+  "first_release_year": 2012,
+  "developers": [
+    "United Front Games",
+    "Square Enix London Studios"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment",
+    "Square Enix"
+  ],
+  "genres": [
+    "Shooter",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Sleeping Dogs"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Havok Physics"
+  ],
+  "keywords": [
+    "assassin",
+    "martial arts",
+    "drugs",
+    "organized crime",
+    "street racing",
+    "action-adventure",
+    "steam trading cards",
+    "crime",
+    "revenge",
+    "sexual content",
+    "bink video",
+    "polygonal 3d",
+    "wasd movement",
+    "playstation plus",
+    "real-time combat",
+    "useable vehicles",
+    "games with gold",
+    "vending machine interaction",
+    "rpg elements",
+    "mercenary",
+    "mid-development ip split",
+    "banned",
+    "in-game radio",
+    "sleeping",
+    "onlive",
+    "gamescom 2012",
+    "banter during gameplay",
+    "bpjm indexed",
+    "crime fighting",
+    "counter system",
+    "freeform combat",
+    "tokyo game show 2012",
+    "sex work",
+    "persistent world"
+  ],
+  "alternative_names": [
+    {
+      "name": "Black Lotus",
+      "comment": "Working title"
+    },
+    {
+      "name": "True Crime: Hong Kong",
+      "comment": "Working title"
+    },
+    {
+      "name": "Sleeping Dogs: Hong Kong Himitsu Keisatsu",
+      "comment": "Working title"
+    },
+    {
+      "name": "HKShip.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/204275"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sleeping_Dogs_(video_game)"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://sleepingdogs.wikia.com/wiki/Sleeping_Dogs"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://sleepingdogs.net"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Sleeping%20Dogs"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/202170"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/sleepingdogs"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Sep 27, 2012",
+      "status": "Released",
+      "date_iso": "2012-09-27"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Aug 17, 2012",
+      "status": "Released",
+      "date_iso": "2012-08-17"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Aug 13, 2012",
+      "status": "Released",
+      "date_iso": "2012-08-13"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 13, 2012",
+      "status": "Released",
+      "date_iso": "2012-08-13"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Aug 14, 2012",
+      "status": "Released",
+      "date_iso": "2012-08-14"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Aug 13, 2012",
+      "status": "Released",
+      "date_iso": "2012-08-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/q65bsw4ruvojxqeibdze.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/dvadc19rxflike8hqa1t.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/whun8bmzrg5pffwxd4jn.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/grfalsgxtvvr6xcdj6kq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/kessnmwo7pz5hsx5ykz8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/j2jmxtfbqdatqqyw26ua.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "IYZYsuqLJsY",
+      "url": "https://www.youtube.com/watch?v=IYZYsuqLJsY"
+    },
+    {
+      "title": "VGA 2009 Trailer",
+      "youtube_id": "9v0GE9LDB4g",
+      "url": "https://www.youtube.com/watch?v=9v0GE9LDB4g"
+    }
+  ]
+}

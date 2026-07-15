@@ -1,0 +1,232 @@
+{
+  "slug": "resident-evil-0",
+  "igdb_id": 15108,
+  "name": "Resident Evil 0",
+  "summary": "Be prepared to relive the first nightmare in Resident Evil 0, a remastered version of the popular prequel to the original Resident Evil game. This remastered version takes the fear-inducing atmosphere from the original 2002 release and transforms it with stunning new HD visuals, improved sound, widescreen support and an optional modernized control system and more. It's the best way to experience the story of what really happened before the iconic mansion incident that was the catalyst for the entire Resident Evil saga.",
+  "first_release_year": 2016,
+  "developers": [
+    "Capcom Production Studio 3"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Resident Evil"
+  ],
+  "spin_off_of": "Resident Evil Zero",
+  "franchises": [
+    "Resident Evil"
+  ],
+  "game_engines": [
+    "MT Framework"
+  ],
+  "keywords": [
+    "zombies",
+    "compilation",
+    "action-adventure",
+    "survival horror",
+    "scary",
+    "gog preservation program"
+  ],
+  "alternative_names": [
+    {
+      "name": "Resident Evil 0 HD Remaster"
+    },
+    {
+      "name": "Resident Evil Zero HD Remaster"
+    },
+    {
+      "name": "Biohazard Origins Collection",
+      "comment": "Other"
+    },
+    {
+      "name": "RE Origins Collection",
+      "comment": "Other"
+    },
+    {
+      "name": "re0hd.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Resident_Evil_Zero#Remaster"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/resident_evil_0"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/232113"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/resident-evil-0-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/resident-evil-0/BXHG2GX28L23"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/339340"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.residentevil.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/ResidentEvil"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/re_games"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/residentevil"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://residentevil.wikia.com/wiki/Resident_Evil_Zero"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Resident%20Evil%20Zero%20HD"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/RE_Games"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/residentevil"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 21, 2016",
+      "status": "Released",
+      "date_iso": "2016-01-21"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 19, 2016",
+      "status": "Released",
+      "date_iso": "2016-01-19"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 21, 2016",
+      "status": "Released",
+      "date_iso": "2016-01-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 22, 2016",
+      "status": "Released",
+      "date_iso": "2016-01-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 19, 2016",
+      "status": "Released",
+      "date_iso": "2016-01-19"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 21, 2019",
+      "status": "Released",
+      "date_iso": "2019-05-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 19, 2016",
+      "status": "Released",
+      "date_iso": "2016-01-19"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Jan 19, 2016",
+      "status": "Released",
+      "date_iso": "2016-01-19"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 19, 2016",
+      "status": "Released",
+      "date_iso": "2016-01-19"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Jan 21, 2016",
+      "status": "Released",
+      "date_iso": "2016-01-21"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Jan 19, 2016",
+      "status": "Released",
+      "date_iso": "2016-01-19"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Jan 21, 2016",
+      "status": "Released",
+      "date_iso": "2016-01-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/r1cg2q9g2xkfo7kk4qzu.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/mvkwtkjfm2rvkknewlvz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/cqs3wx0l3mwsxlwx1al8.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "Sq_H2-DcbCQ",
+      "url": "https://www.youtube.com/watch?v=Sq_H2-DcbCQ"
+    },
+    {
+      "title": "1st Trailer",
+      "youtube_id": "3v6IN4vd3Xw",
+      "url": "https://www.youtube.com/watch?v=3v6IN4vd3Xw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Aughokm62ys",
+      "url": "https://www.youtube.com/watch?v=Aughokm62ys"
+    }
+  ]
+}

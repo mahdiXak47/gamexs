@@ -1,0 +1,155 @@
+{
+  "slug": "wizard-with-gun",
+  "igdb_id": 152204,
+  "name": "Wizard With a Gun",
+  "summary": "Wizard with a Gun is an online cooperative sandbox survival game set in a magical wilderness wrought with dangerous creatures and arcane mysteries. Embark on a journey alone or with friends to collect, craft, and outfit your wizard however you see fit as you explore the unknown.",
+  "first_release_year": 2023,
+  "developers": [
+    "Galvanic Games"
+  ],
+  "publishers": [
+    "Devolver Digital"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Survival",
+    "Sandbox"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "wizards",
+    "magic",
+    "crafting",
+    "cartoon graphics",
+    "guns and bullets"
+  ],
+  "alternative_names": [
+    {
+      "name": "wizardwithagun.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Wizard%20with%20a%20Gun"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004448"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.wizardwithagun.com/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/wizard_with_a_gun"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/galvanicgames"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/galvanicgames"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1150530/Wizard_with_a_Gun"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/6Ts3y6N"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/aruim.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "ldtX4d5qanA",
+      "url": "https://www.youtube.com/watch?v=ldtX4d5qanA"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Iv59qzObjSA",
+      "url": "https://www.youtube.com/watch?v=Iv59qzObjSA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "O5p8n1fCr8c",
+      "url": "https://www.youtube.com/watch?v=O5p8n1fCr8c"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "W8lsp8oA5lo",
+      "url": "https://www.youtube.com/watch?v=W8lsp8oA5lo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "xNUn4fn4br8",
+      "url": "https://www.youtube.com/watch?v=xNUn4fn4br8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3nIAR1g8RAU",
+      "url": "https://www.youtube.com/watch?v=3nIAR1g8RAU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "aqi9690iBK4",
+      "url": "https://www.youtube.com/watch?v=aqi9690iBK4"
+    }
+  ]
+}

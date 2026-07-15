@@ -1,0 +1,122 @@
+{
+  "slug": "star-wars-battlefront-classic-collection",
+  "igdb_id": 287851,
+  "name": "Star Wars: Battlefront Classic Collection",
+  "summary": "Fight in iconic battles from across the STAR WARS galaxy!\n\nPlay the classic STAR WARS Battlefront games on modern consoles, online and offline in this complete classic collection.\n\nThis Classic Collection includes:\nSTAR WARS Battlefront (Classic)\n-Includes Bonus Map: Jabba's Palace\nSTAR WARS Battlefront II\n-Includes Bonus Maps: Bespin: Cloud City, Rhen Var: Harbor, Rhen Var: Citadel, and Yavin 4: Arena\n-Includes Bonus Heroes: Asajj Ventress & Kit Fisto\n\nKey Features\nTraverse the Galaxy in Campaign Mode & Galactic Conquest\nGalactic Conquest: Devise your strategy, recruit your troops, and execute your tactical vision for conquering the galaxy.\nSTAR WARS Battlefront Campaign: Experience iconic battles from STAR WARS Episodes I-VI\nSTAR WARS Battlefront II Campaign: Join the rise of Darth Vader’s elite 501st Legion of Stormtroopers\n\nMassive Locations with up to 64-player Online Support\n-Fight on the ground: Wookiee Warriors, Jet Troopers, Droidekas and more in massive multiplayer action\n-Drive iconic vehicles: Speeder Bikes, AT-STs, AT-RTs, and more in offensive and defensive battles\n-Pilot legendary starships: TIE fighters, X-wings, and more in space and air dogfights\n\nExpanded Hero Assault\nHero Assault is playable on all ground maps including: Death Star, Kashyyyk, Kamino, and Naboo for the first time ever\n-Fight with heroes: Mace Windu, Yoda, Luke Skywalker, and many others!\n-Battle with villains: Darth Maul, General Grievous, Darth Vader, and many others!",
+  "first_release_year": 2024,
+  "developers": [
+    "Pandemic Studios"
+  ],
+  "publishers": [
+    "Aspyr Media"
+  ],
+  "genres": [
+    "Shooter",
+    "Strategy"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Star Wars"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "aliens",
+    "vehicular combat",
+    "military",
+    "war",
+    "capture the flag",
+    "online multiplayer",
+    "real-time combat",
+    "alien world"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2446550/STAR_WARS_Battlefront_Classic_Collection/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/star-wars-battlefront-classic-collection/9PDKZCQ8J879"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008554"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/star-wars-battlefront-classic-collection-switch/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 14, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-14"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 14, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-14"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 14, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 14, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 14, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-14"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 14, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2rmg.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2rmh.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2rmv.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "r93xbVSlflI",
+      "url": "https://www.youtube.com/watch?v=r93xbVSlflI"
+    }
+  ]
+}

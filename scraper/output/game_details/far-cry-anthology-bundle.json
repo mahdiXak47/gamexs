@@ -1,0 +1,58 @@
+{
+  "slug": "far-cry-anthology-bundle",
+  "igdb_id": 188049,
+  "name": "Far Cry Anthology Bundle",
+  "summary": "Experience the thrill of the award-winning Far Cry franchise through the Anthology Bundle. Take on four iconic, twisted villains, including Vaas, Pagan Min, Joseph Seed, and Antón Castillo (starring Giancarlo Esposito) in this limited edition bundle.",
+  "first_release_year": 2021,
+  "developers": [],
+  "publishers": [],
+  "genres": [],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 23, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-23"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 23, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-23"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 21, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 21, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1dyv.jpg"
+  ],
+  "videos": []
+}

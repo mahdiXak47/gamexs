@@ -1,0 +1,116 @@
+{
+  "slug": "project-tower",
+  "igdb_id": 235578,
+  "name": "Project Tower",
+  "summary": "Dive in Project Tower, a third-person shooter mixing intense bullet hell combat with a unique morphing ability. Imprisoned by the \"Hiks\", fight to the top of their deadly tower for freedom. Will you outsmart them and make your way out ?",
+  "first_release_year": 2025,
+  "developers": [
+    "Yummy Games"
+  ],
+  "publishers": [
+    "Yummy Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "steam achievements"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010539"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/Qy876KB9hy"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://yummy-games.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCRzBeLDAqomOqFnHegiHWqg"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/YummyGames_"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/user/yummygames__/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/projecttower_yummygames/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/project-tower"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/project-tower-010f57"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2242970"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 06, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-01-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 06, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-01-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar24nd.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar36qv.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "PwO-0a0pc3E",
+      "url": "https://www.youtube.com/watch?v=PwO-0a0pc3E"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "SCP22gW5pm4",
+      "url": "https://www.youtube.com/watch?v=SCP22gW5pm4"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ryzPkiuoGW0",
+      "url": "https://www.youtube.com/watch?v=ryzPkiuoGW0"
+    }
+  ]
+}

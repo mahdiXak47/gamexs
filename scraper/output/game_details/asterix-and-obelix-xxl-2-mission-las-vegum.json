@@ -1,0 +1,91 @@
+{
+  "slug": "asterix-and-obelix-xxl-2-mission-las-vegum",
+  "igdb_id": 81480,
+  "name": "Astérix & Obélix XXL 2: Mission: Las Vegum",
+  "summary": "Astérix & Obélix XXL 2: Mission: Las Vegum is the sequel of Astérix & Obélix XXL, it was released exclusively in Europe due to the lower popularity of the franchise in the United States and Japan. The game stars the French comic book characters Asterix & Obelix and features spoofs to many classic games, in the same fashion that the comics spoof historical characters and make many cultural references.",
+  "first_release_year": 2006,
+  "developers": [
+    "Étranges Libellules"
+  ],
+  "publishers": [
+    "Atari"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Historical",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Asterix & Obelix XXL"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Asterix"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "3d platformer",
+    "based on - comics",
+    "retroachievements",
+    "media type - dvd-rom"
+  ],
+  "alternative_names": [
+    {
+      "name": "Asterix & Obelix XXL 2: Mission: Las Vegum",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Asterix and Obelix XXL 2: Mission: Las Vegum",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Astérix & Obélix XXL 2 : Mission : Las Vegum",
+      "comment": "French title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/205912"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://asterix.wikia.com/wiki/Asterix_and_Obelix_XXL_2_:_Mission_Las_Vegum"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Asterix%20&%20Obelix%20XXL%202:%20Mission%20Las%20Vegum"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 30, 2006",
+      "status": "Cancelled",
+      "date_iso": "2006-06-30"
+    },
+    {
+      "platform": "PlayStation 2",
+      "region": null,
+      "date": "Jun 30, 2006",
+      "status": "Cancelled",
+      "date_iso": "2006-06-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1dg5.jpg"
+  ],
+  "videos": []
+}

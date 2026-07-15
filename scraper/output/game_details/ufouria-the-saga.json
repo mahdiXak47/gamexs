@@ -1,0 +1,120 @@
+{
+  "slug": "ufouria-the-saga",
+  "igdb_id": 274086,
+  "name": "Ufouria: The Saga 2",
+  "summary": "The remake/sequel to the 1991 SUNSOFT action game Ufouria: The Saga is here!\nIn this exploration-based side-scrolling action game, the levels' terrain changes every time you enter the area, with even more secrets to find.\nThe unique and wacky world of Ufouria has been lovingly and faithfully recreated, this time with a handmade feltwork twist.\nJoin the now fluffy Hebe, O-Chan, Sukezaemon, and Jennifer to protect the earth from the Utsujin invasion!",
+  "first_release_year": 2024,
+  "developers": [
+    "SUNSOFT"
+  ],
+  "publishers": [
+    "SUNSOFT"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Ufouria: The Saga",
+    "Hebereke"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Hebereke"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "2d platformer"
+  ],
+  "alternative_names": [
+    {
+      "name": "Ufouria THE SAGA 2",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Hebereke 2",
+      "comment": "Japanese title - romanization"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/ufouria-2-the-saga-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010091"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2685090/Ufouria_The_Saga_2/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.sun-denshi.co.jp/soft/hebereke2/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 01, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-01"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 01, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-01"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 29, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-29"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 01, 2024",
+      "status": "Released",
+      "date_iso": "2024-03-01"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 01, 2024",
+      "status": "Released",
+      "date_iso": "2024-03-01"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2mmc.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "duilENjToqs",
+      "url": "https://www.youtube.com/watch?v=duilENjToqs"
+    }
+  ]
+}

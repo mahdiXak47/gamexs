@@ -1,0 +1,188 @@
+{
+  "slug": "days-gone-remastered",
+  "igdb_id": 19561,
+  "name": "Days Gone",
+  "summary": "Days Gone is an open-world action-adventure game developed by Bend Studio and published by Sony Interactive Entertainment. Released in April 2019 for PlayStation 4 and later for PC in May 2021, the game is set in a post-apocalyptic world where players control Deacon St. John, a drifter and bounty hunter navigating a landscape overrun by \"Freakers,\" zombie-like creatures created by a global pandemic.\n\nThe gameplay focuses on exploration, combat, and survival elements, with players able to use various weapons, craft supplies, and upgrade Deacon’s motorcycle, essential for travelling across the vast and hostile environment. Days Gone combines narrative-driven missions with an open world filled with dynamic events, enemy camps, and environmental challenges.",
+  "first_release_year": 2019,
+  "developers": [
+    "Bend Studio"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Days Gone"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "zombies",
+    "motorcycle",
+    "post-apocalyptic",
+    "bloody",
+    "action-adventure",
+    "day/night cycle"
+  ],
+  "alternative_names": [
+    {
+      "name": "Dead Don't Ride",
+      "comment": "Other"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "http://daysgone.wikia.com/wiki/Days_Gone"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/bendstudio"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/229018"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/sonybendstudio"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/DaysGone"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://bendstudio.com/game/days-gone"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Days%20Gone"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/p/days-gone"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1259420"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/bendstudio"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Days_Gone"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SonyBendStudio"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/days_gone"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 17, 2021",
+      "status": "Released",
+      "date_iso": "2021-05-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 26, 2019",
+      "status": "Released",
+      "date_iso": "2019-04-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 18, 2021",
+      "status": "Released",
+      "date_iso": "2021-05-18"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "status_36",
+      "date_iso": "2020-11-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4ppo.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arjdx.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4ppn.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Tokyo Gameshow 2018 Gameplay",
+      "youtube_id": "lUizh9drzmI",
+      "url": "https://www.youtube.com/watch?v=lUizh9drzmI"
+    },
+    {
+      "title": "E3 2017: Alternate Playthrough Gameplay",
+      "youtube_id": "6oqR-m0i91U",
+      "url": "https://www.youtube.com/watch?v=6oqR-m0i91U"
+    },
+    {
+      "title": "E3 2017 Gameplay Trailer",
+      "youtube_id": "B4_IHnrIfTk",
+      "url": "https://www.youtube.com/watch?v=B4_IHnrIfTk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "FKtaOY9lMvM",
+      "url": "https://www.youtube.com/watch?v=FKtaOY9lMvM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "n95IaELdWDU",
+      "url": "https://www.youtube.com/watch?v=n95IaELdWDU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "UEtR88gqOVY",
+      "url": "https://www.youtube.com/watch?v=UEtR88gqOVY"
+    },
+    {
+      "title": "The Farewell Wilderness Trailer",
+      "youtube_id": "s_7yRpVu5n8",
+      "url": "https://www.youtube.com/watch?v=s_7yRpVu5n8"
+    },
+    {
+      "title": "The World Comes for You Trailer",
+      "youtube_id": "L1bI-LiRcUo",
+      "url": "https://www.youtube.com/watch?v=L1bI-LiRcUo"
+    },
+    {
+      "title": "E3 2016 Gameplay Demo",
+      "youtube_id": "bGej8K1r8KI",
+      "url": "https://www.youtube.com/watch?v=bGej8K1r8KI"
+    }
+  ]
+}

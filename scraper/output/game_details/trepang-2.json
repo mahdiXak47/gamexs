@@ -1,0 +1,151 @@
+{
+  "slug": "trepang-2",
+  "igdb_id": 126212,
+  "name": "Trepang2",
+  "summary": "Become the ultimate badass in Trepang2: A gory, action-packed FPS set in the near future. Unleash all hell on your enemies, dodge bullets and leave a trail of destruction in this hardcore and frenetic shooter.",
+  "first_release_year": 2023,
+  "developers": [
+    "Trepang Studios"
+  ],
+  "publishers": [
+    "Team17 Digital"
+  ],
+  "genres": [
+    "Shooter",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "gore"
+  ],
+  "alternative_names": [
+    {
+      "name": "Trepang^2",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "TREPANG²",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Trepang 2",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "海参2",
+      "comment": "Chinese title - simplified"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1164940"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007968"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/trepang2/9NCDMPCPDTQF"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/TrepangStudios"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.trepang2.com"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Trepang2"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/trepang2"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/3KUwkEX"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCb3QQl9tReJ23RtwngqzTNA"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/trepang2-5c229f"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 02, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-02"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 02, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-02"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 02, 2019",
+      "status": "Beta",
+      "date_iso": "2019-10-02"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arilo.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4fl8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4fl9.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4fla.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4fs9.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Demo trailer",
+      "youtube_id": "UHK2L5B3h0w",
+      "url": "https://www.youtube.com/watch?v=UHK2L5B3h0w"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "iU1hbxDnmjk",
+      "url": "https://www.youtube.com/watch?v=iU1hbxDnmjk"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "jdbzhKBoN_U",
+      "url": "https://www.youtube.com/watch?v=jdbzhKBoN_U"
+    }
+  ]
+}

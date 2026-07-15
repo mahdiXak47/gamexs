@@ -1,0 +1,154 @@
+{
+  "slug": "elden-ring-nightreign-نسخه-کالکتور",
+  "igdb_id": 325591,
+  "name": "Elden Ring Nightreign",
+  "summary": "Elden Ring: Nightreign is a standalone adventure within the ELDEN RING universe, crafted to offer players a new gaming experience by reimagining the game’s core design.",
+  "first_release_year": 2025,
+  "developers": [
+    "FromSoftware"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Survival",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Elden Ring"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "roguelike",
+    "prequel",
+    "procedurally generated",
+    "controller support",
+    "online coop"
+  ],
+  "alternative_names": [
+    {
+      "name": "ELDEN RING NIGHTREIGN",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Elden Ring: Nightreign",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "엘든 링 밤의 통치자",
+      "comment": "Korean title - translated"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.bandainamcoent.com/games/nightreign"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Elden_Ring_Nightreign"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010877"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Nightreign/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/elden-ring-nightreign/9PJ22QNVCZ3G"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2622380"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://eldenring.wiki.gg/wiki/Elden_Ring:_Nightreign"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/elden-ring-nightreign"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-30"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "May 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3njx.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3njy.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "Z_fmEDsQPh4",
+      "url": "https://www.youtube.com/watch?v=Z_fmEDsQPh4"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Djtsw5k_DNc",
+      "url": "https://www.youtube.com/watch?v=Djtsw5k_DNc"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "AWrXpJQBJF0",
+      "url": "https://www.youtube.com/watch?v=AWrXpJQBJF0"
+    },
+    {
+      "title": "Overview Trailer",
+      "youtube_id": "p2uYT8BQefA",
+      "url": "https://www.youtube.com/watch?v=p2uYT8BQefA"
+    }
+  ]
+}

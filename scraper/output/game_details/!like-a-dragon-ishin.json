@@ -1,0 +1,222 @@
+{
+  "slug": "!like-a-dragon-ishin",
+  "igdb_id": 217597,
+  "name": "Like a Dragon: Ishin!",
+  "summary": "Like a Dragon: Ishin! is an action-adventure game developed by Ryu Ga Gotoku Studio and published by Sega. Released in February 2023, it is a remake of the 2014 Japan-exclusive Ryu Ga Gotoku Ishin! and reimagines the Like a Dragon series in a historical setting. Set in the Bakumatsu period of Japan (mid-1800s), the game follows Sakamoto Ryoma, modelled after Kazuma Kiryu, as he navigates political intrigue, conspiracies, and samurai combat while seeking revenge for his mentor's murder.\n\nThe gameplay combines swordplay, gunfighting, and hand-to-hand combat, with a mix of main story missions and side activities, including minigames and historical recreations of series staples.",
+  "first_release_year": 2023,
+  "developers": [
+    "Ryu Ga Gotoku Studios"
+  ],
+  "publishers": [
+    "Sega"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Historical"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Yakuza: Like a Dragon"
+  ],
+  "spin_off_of": "Ryuu ga Gotoku Ishin!",
+  "franchises": [
+    "Yakuza: Like a Dragon"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "martial arts",
+    "samurai",
+    "minigames",
+    "swordplay",
+    "karaoke",
+    "hand-to-hand combat",
+    "japan",
+    "side quests",
+    "male protagonist",
+    "historical japan"
+  ],
+  "alternative_names": [
+    {
+      "name": "Like a Dragon Ishin! Kiwami",
+      "comment": "Japanese title - translated"
+    },
+    {
+      "name": "Ryuu ga Gotoku Ishin! Kiwami",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "Yakuza Ishin",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Like a Dragon Ishin Remake",
+      "comment": "Japanese title - translated"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/like-a-dragon-ishin!/9N4BH9FLLMWD"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004480"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/RGGStudioWest"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/ryuofficial"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/RGGStudioWest"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/yakuzagames"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://yakuza.wikia.com/wiki/Like_A_Dragon:_Ishin!"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/RGGStudio"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1805480"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Like_a_Dragon:_Ishin!"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://ishin.sega.com/home.html"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Like%20a%20Dragon:%20Ishin%21"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 17, 2023",
+      "status": "status_34",
+      "date_iso": "2023-02-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-21"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 17, 2023",
+      "status": "status_34",
+      "date_iso": "2023-02-17"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-21"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 17, 2023",
+      "status": "status_34",
+      "date_iso": "2023-02-17"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 17, 2023",
+      "status": "status_34",
+      "date_iso": "2023-02-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 17, 2023",
+      "status": "status_34",
+      "date_iso": "2023-02-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1ve2.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar48et.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar48eu.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "jE8eEa6eY-s",
+      "url": "https://www.youtube.com/watch?v=jE8eEa6eY-s"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "4wVSyxsUQHU",
+      "url": "https://www.youtube.com/watch?v=4wVSyxsUQHU"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "uLUabduLOqg",
+      "url": "https://www.youtube.com/watch?v=uLUabduLOqg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Ut1WgOZNVw8",
+      "url": "https://www.youtube.com/watch?v=Ut1WgOZNVw8"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "kyIbxAUH9VU",
+      "url": "https://www.youtube.com/watch?v=kyIbxAUH9VU"
+    }
+  ]
+}

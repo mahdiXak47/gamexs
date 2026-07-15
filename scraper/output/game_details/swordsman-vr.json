@@ -1,0 +1,118 @@
+{
+  "slug": "swordsman-vr",
+  "igdb_id": 149881,
+  "name": "Swordsman VR",
+  "summary": "Swordsman is a story-driven, physics-based medieval combat game designed for virtual reality.",
+  "first_release_year": 2020,
+  "developers": [
+    "SinnStudio"
+  ],
+  "publishers": [
+    "SinnStudio"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up"
+  ],
+  "themes": [
+    "Action",
+    "Historical"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Virtual Reality"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "physics",
+    "gore",
+    "sword fighting",
+    "sword fight",
+    "vr only"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001020"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://sinnstudio.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1206480"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Swordsman%20VR"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation VR",
+      "region": null,
+      "date": "Sep 25, 2020",
+      "status": "Released",
+      "date_iso": "2020-09-25"
+    },
+    {
+      "platform": "PlayStation VR",
+      "region": null,
+      "date": "Sep 26, 2020",
+      "status": "Released",
+      "date_iso": "2020-09-26"
+    },
+    {
+      "platform": "Oculus Quest",
+      "region": null,
+      "date": "Jun 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-14"
+    },
+    {
+      "platform": "Meta Quest 2",
+      "region": null,
+      "date": "Jun 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-14"
+    },
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "Feb 22, 2023",
+      "status": "Released",
+      "date_iso": "2023-02-22"
+    },
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "Sep 25, 2020",
+      "status": "Released",
+      "date_iso": "2020-09-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arsh5.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "DCgXDj2LLzY",
+      "url": "https://www.youtube.com/watch?v=DCgXDj2LLzY"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "CiAwMr7BQBo",
+      "url": "https://www.youtube.com/watch?v=CiAwMr7BQBo"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "slug": "the-lies-of-p",
+  "igdb_id": 148241,
+  "name": "Lies of P",
+  "summary": "Lies of P is an action role-playing game set in a dark, Belle Époque-inspired city overrun by deadly puppets. Players control Pinocchio, reimagined as a mechanical warrior, navigating a decaying world while making choices that affect the unfolding narrative. The game features challenging melee combat, weapon customization, and a mechanical arm with various abilities.",
+  "first_release_year": 2023,
+  "developers": [
+    "Round8 Studio"
+  ],
+  "publishers": [
+    "Neowiz"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "steampunk",
+    "atmospheric",
+    "story rich",
+    "soulslike",
+    "male protagonist"
+  ],
+  "alternative_names": [
+    {
+      "name": "LOP.exe",
+      "comment": "windows executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/lies-of-p/9PCM4CMTPPGC"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006052"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/TfKV3ReZjr"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1627720/Lies_Of_P"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://liesofp.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCd66TUuXLdiOKAt2zpcSzPw"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Lies%20of%20P"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Liesofp"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lies_of_P"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/lies-of-p-91f2d8"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-18"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Sep 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-18"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-18"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 19, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-19"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 19, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar243v.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5iqy.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5io5.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "qKceAv6N8iE",
+      "url": "https://www.youtube.com/watch?v=qKceAv6N8iE"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "s3PfHlrh0GE",
+      "url": "https://www.youtube.com/watch?v=s3PfHlrh0GE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "BID72hSKasc",
+      "url": "https://www.youtube.com/watch?v=BID72hSKasc"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "PKP18vFW83A",
+      "url": "https://www.youtube.com/watch?v=PKP18vFW83A"
+    },
+    {
+      "title": "Presentation",
+      "youtube_id": "7mru_M370uU",
+      "url": "https://www.youtube.com/watch?v=7mru_M370uU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3JQKNZ0e9vg",
+      "url": "https://www.youtube.com/watch?v=3JQKNZ0e9vg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "6yDx7Px6yMU",
+      "url": "https://www.youtube.com/watch?v=6yDx7Px6yMU"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "cK1zg_yGlOA",
+      "url": "https://www.youtube.com/watch?v=cK1zg_yGlOA"
+    }
+  ]
+}

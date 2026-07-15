@@ -1,0 +1,177 @@
+{
+  "slug": "cyberpunk-2077-phantom-liberty-نسخه-ultimate-edition",
+  "igdb_id": 215769,
+  "name": "Cyberpunk 2077: Phantom Liberty",
+  "summary": "Phantom Liberty is a spy-thriller expansion for the open-world action RPG Cyberpunk 2077. The narrative centers on the aftermath of the President of the New United States of America's orbital shuttle being shot down over Dogtown, one of Night City’s most dangerous districts. Players control V, a mercenary tasked with navigating a complex web of espionage and political intrigue.\n\nThe expansion introduces Dogtown, a heavily militarized, autonomous zone ruled by a strict and authoritarian leader. With support from NUSA sleeper agent Solomon Reed (voiced by Idris Elba) and returning character Johnny Silverhand (voiced by Keanu Reeves), players engage in a story involving shifting alliances and covert operations. Designed for next-generation hardware, Phantom Liberty features new gameplay mechanics, side activities, and a main storyline centered on themes of power, trust, and survival.",
+  "first_release_year": 2023,
+  "developers": [
+    "CD Projekt RED"
+  ],
+  "publishers": [
+    "CD Projekt RED"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": "Cyberpunk 2077",
+  "franchises": [
+    "Cyberpunk"
+  ],
+  "game_engines": [
+    "REDengine"
+  ],
+  "keywords": [
+    "cyberpunk",
+    "cybernetics",
+    "story dlc"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/cyberpunk-2077--phantom-liberty"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/CyberpunkGame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.cyberpunk.net/us/en/phantom-liberty"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/cyberpunkgame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/cyberpunkgame/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/CyberpunkGame/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/cyberpunkgame"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://wikipedia.org/wiki/Cyberpunk_2077"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Cyberpunk%202077"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/cyberpunkgame"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2138330"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/cyberpunk_2077_phantom_liberty"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://cyberpunk.fandom.com/wiki/Cyberpunk_2077"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 26, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 26, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-26"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jul 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 26, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-26"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Jun 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2cnt.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "zrHb2p4YPT0",
+      "url": "https://www.youtube.com/watch?v=zrHb2p4YPT0"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "PbVKBoDuhZ0",
+      "url": "https://www.youtube.com/watch?v=PbVKBoDuhZ0"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "FSCJ0xqH8L4",
+      "url": "https://www.youtube.com/watch?v=FSCJ0xqH8L4"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "kfX9n_G0N2Y",
+      "url": "https://www.youtube.com/watch?v=kfX9n_G0N2Y"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "sJbexcm4Trk",
+      "url": "https://www.youtube.com/watch?v=sJbexcm4Trk"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "zBrkG3aeWCc",
+      "url": "https://www.youtube.com/watch?v=zBrkG3aeWCc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "reABCMNGM3w",
+      "url": "https://www.youtube.com/watch?v=reABCMNGM3w"
+    }
+  ]
+}

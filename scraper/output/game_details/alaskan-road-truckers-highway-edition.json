@@ -1,0 +1,68 @@
+{
+  "slug": "alaskan-road-truckers-highway-edition",
+  "igdb_id": 302737,
+  "name": "Alaskan Road Truckers: Highway Edition",
+  "summary": "Live the thrill of a new kind of driving simulator and risk it all in the challenge to become an Alaskan trucking legend. Balance the risk vs reward of taking perilous routes to save time, perform roadside repairs on your rig and brave the dangerous conditions on foot in challenging survival-based gameplay.",
+  "first_release_year": 2024,
+  "developers": [
+    "Road Studio S.A."
+  ],
+  "publishers": [
+    "Movie Games S.A.",
+    "Green Man Gaming Publishing"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/alaskan-road-truckers-highway-edition/9NHPD9M12L4G"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008444"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 11, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-11"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 11, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-11"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 11, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-11"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2y8b.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2y8c.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2y8a.jpg"
+  ],
+  "videos": []
+}

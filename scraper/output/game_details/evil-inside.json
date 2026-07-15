@@ -1,0 +1,143 @@
+{
+  "slug": "evil-inside",
+  "igdb_id": 144419,
+  "name": "Evil Inside",
+  "summary": "Evil Inside is a first-person psychological horror game. After the death of his mother and the arrest of his father for it, Mark decides to contact her using the Spiritual board. But it fades away, and here is when all begins... Mark will face his greatest fears to discover the truth.",
+  "first_release_year": 2021,
+  "developers": [
+    "JanduSoft"
+  ],
+  "publishers": [
+    "JanduSoft"
+  ],
+  "genres": [
+    "Shooter",
+    "Puzzle",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "narration",
+    "atmospheric"
+  ],
+  "alternative_names": [
+    {
+      "name": "イービル・インサイド",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "Evil_Inside.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.evilinsidegame.com"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/evil-inside-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002054"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1243880/Evil_Inside"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Evil%20Inside"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/JanduSoft"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/JanduSoft"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/jandusoftgames/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/3xUNNKK"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/Jandusoft"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 25, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 25, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-25"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 25, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-03-25"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 25, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 25, 2021",
+      "status": "Released",
+      "date_iso": "2021-03-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arbcf.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "lAk5uoatFWg",
+      "url": "https://www.youtube.com/watch?v=lAk5uoatFWg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "SizGtf0AvX8",
+      "url": "https://www.youtube.com/watch?v=SizGtf0AvX8"
+    }
+  ]
+}

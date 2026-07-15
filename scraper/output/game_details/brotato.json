@@ -1,0 +1,209 @@
+{
+  "slug": "brotato",
+  "igdb_id": 199116,
+  "name": "Brotato",
+  "summary": "Brotato is a top-down arena shooter roguelite where you play a potato wielding up to 6 weapons at a time to fight off hordes of aliens.",
+  "first_release_year": 2023,
+  "developers": [
+    "Blobfish",
+    "Erabit Studios"
+  ],
+  "publishers": [
+    "Seaven Studio",
+    "Blobfish",
+    "Erabit Studios"
+  ],
+  "genres": [
+    "Fighting",
+    "Shooter",
+    "Role-playing (RPG)",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Godot"
+  ],
+  "keywords": [
+    "arena shooter",
+    "roguelite"
+  ],
+  "alternative_names": [
+    {
+      "name": "Brotato.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://x.com/blobfgames"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/brotato/9P9VNSQK1W3K"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007282"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/j39jE6k"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.blobfish.dev/"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.brotato.shooting.survivors.action.roguelike"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/brotato-ed4097"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brotato"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/brotato"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1942280"
+    },
+    {
+      "label": "iPad",
+      "url": "https://apps.apple.com/us/app/brotato-premium/id1668755109"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/us/app/brotato-premium/id1668755109"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/brotato-switch/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/brotato"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@blobfish_games"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://brotato.wiki.spellsandguns.com/Brotato_Wiki"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/brotato/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 27, 2022",
+      "status": "Beta",
+      "date_iso": "2022-09-27"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 30, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-01-30"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 30, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-01-30"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 30, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-01-30"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 03, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-03"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "May 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-05-21"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Mar 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-28"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Mar 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 23, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 30, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-01-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1m88.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "L2S2TAffIl4",
+      "url": "https://www.youtube.com/watch?v=L2S2TAffIl4"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "bXEhKX41WRk",
+      "url": "https://www.youtube.com/watch?v=bXEhKX41WRk"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "slug": "عصر-مدل-frontlines-fuel-of-war",
+  "igdb_id": 6997,
+  "name": "Frontlines: Fuel of War",
+  "summary": "When the oil fields go dry, the war begins. In this first person shooter, you must use every gun, drone, and vehicle at your disposal to hold the line.",
+  "first_release_year": 2008,
+  "developers": [
+    "Kaos Studios"
+  ],
+  "publishers": [
+    "THQ"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 3"
+  ],
+  "keywords": [
+    "modern warfare",
+    "murder",
+    "military",
+    "futuristic",
+    "war",
+    "steam",
+    "achievements",
+    "online",
+    "building",
+    "tank",
+    "drone",
+    "digital distribution",
+    "xbox controller support for pc",
+    "modern military",
+    "pre-release public testing",
+    "bink video",
+    "original soundtrack release",
+    "wasd movement",
+    "sniping",
+    "ragdoll physics",
+    "xbox live",
+    "friendly fire",
+    "difficulty level",
+    "nuclear bomb",
+    "xbox one backwards compatibility",
+    "difficulty achievement",
+    "games on demand",
+    "onlive",
+    "high definition graphics",
+    "voice chat",
+    "zero point achievements",
+    "regenerating health",
+    "griefing",
+    "secret achievements",
+    "world war iii",
+    "ranked match",
+    "dead multiplayer",
+    "anti-cheat system",
+    "cumulative team respawn limit",
+    "securom"
+  ],
+  "alternative_names": [
+    {
+      "name": "프론트라인: 최후의자원전쟁",
+      "comment": "Korean title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Frontlines:%20Fuel%20of%20War"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://frontlines.wikia.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Frontlines:_Fuel_of_War"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/9460"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.frontlines.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 29, 2008",
+      "status": "Released",
+      "date_iso": "2008-02-29"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Feb 25, 2008",
+      "status": "Released",
+      "date_iso": "2008-02-25"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Mar 06, 2008",
+      "status": "Released",
+      "date_iso": "2008-03-06"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Apr 24, 2008",
+      "status": "Released",
+      "date_iso": "2008-04-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 01, 2009",
+      "status": "Released",
+      "date_iso": "2009-08-01"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Mar 07, 2008",
+      "status": "Released",
+      "date_iso": "2008-03-07"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 06, 2008",
+      "status": "Released",
+      "date_iso": "2008-03-06"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 25, 2008",
+      "status": "Released",
+      "date_iso": "2008-02-25"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Feb 29, 2008",
+      "status": "Released",
+      "date_iso": "2008-02-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/are4a.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "7B1TtqR7BbU",
+      "url": "https://www.youtube.com/watch?v=7B1TtqR7BbU"
+    }
+  ]
+}

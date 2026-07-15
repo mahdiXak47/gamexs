@@ -1,0 +1,143 @@
+{
+  "slug": "unknown-9-awakening",
+  "igdb_id": 137290,
+  "name": "Unknown 9: Awakening",
+  "summary": "You are Haroona, a Quaestor born with the ability to venture into a mysterious dimension: the Fold. On her quest for powerful hidden knowledge, she must learn to master the powers of the Fold to fight a secret society with a hostile agenda.",
+  "first_release_year": 2024,
+  "developers": [
+    "Reflector Entertainment"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "UNKNOWN 9: AWAKENING",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1477940"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/unknown9"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001989"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/unknown-9-awakening/9p486zcvt126"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://unknown9.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SeekTheU9"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCcbU4VGesxdpvp4PXu8qm8g"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/unknown9"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Unknown9%3A%20Awakening/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-17"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2sgi.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "DUbFeNDI_FI",
+      "url": "https://www.youtube.com/watch?v=DUbFeNDI_FI"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "qKP4w-mlRXQ",
+      "url": "https://www.youtube.com/watch?v=qKP4w-mlRXQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "FUIt-uJKOzA",
+      "url": "https://www.youtube.com/watch?v=FUIt-uJKOzA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "0QgaV3cZwVI",
+      "url": "https://www.youtube.com/watch?v=0QgaV3cZwVI"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "knO2TKSJl34",
+      "url": "https://www.youtube.com/watch?v=knO2TKSJl34"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "slug": "metal-slug-tactics",
+  "igdb_id": 152062,
+  "name": "Metal Slug Tactics",
+  "summary": "METAL SLUG makes an explosive return! Dive into this dynamic tactical RPG with a roguelite thrill and experience the iconic run'n'gun action of the original series, redefined. Grab your weapons, assemble your squad and conquer the battlefield to defeat the infamous Rebel Army.",
+  "first_release_year": 2024,
+  "developers": [
+    "Leikir Studio"
+  ],
+  "publishers": [
+    "DotEmu",
+    "Gamirror Games"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Strategy",
+    "Tactical",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Metal Slug"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Metal Slug"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "retro",
+    "military",
+    "difficult",
+    "management",
+    "available on - crunchyroll game vault"
+  ],
+  "alternative_names": [
+    {
+      "name": "合金弹头：战略版",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "合金彈頭：戰略版",
+      "comment": "Chinese title - traditional"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/metal-slug-tactics"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/metal-slug-tactics-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009982"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/metal-slug-tactics/9NGNZP1J1JN7"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/dotemu.bsky.social"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/dotemugames/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.metalslugtactics.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/dotemu"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/Dotemuofficial"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/MetalSlugTactics"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/btw2sn5jr2"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1590760/Metal_Slug_Tactics"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Metal_Slug_Tactics/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/metal_slug_tactics"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 05, 2024",
+      "status": "Beta",
+      "date_iso": "2024-11-05"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-05"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-05"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-05"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4596.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4597.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4598.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4599.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "kjQ5hyo-Jkk",
+      "url": "https://www.youtube.com/watch?v=kjQ5hyo-Jkk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "DqF0KLsaf6U",
+      "url": "https://www.youtube.com/watch?v=DqF0KLsaf6U"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "OhIAIEH-dL4",
+      "url": "https://www.youtube.com/watch?v=OhIAIEH-dL4"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "DYLtBnTjdvk",
+      "url": "https://www.youtube.com/watch?v=DYLtBnTjdvk"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "7vSx9FdWeZ8",
+      "url": "https://www.youtube.com/watch?v=7vSx9FdWeZ8"
+    }
+  ]
+}

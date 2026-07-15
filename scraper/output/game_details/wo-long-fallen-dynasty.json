@@ -1,0 +1,163 @@
+{
+  "slug": "wo-long-fallen-dynasty",
+  "igdb_id": 204628,
+  "name": "Wo Long: Fallen Dynasty",
+  "summary": "Wo Long: Fallen Dynasty is a historical fantasy action role-playing video game developed by Team Ninja and published by Koei Tecmo.\n\nSet during a fictionalised version of the fall of the Han Dynasty, the plot follows an unnamed protagonist who battles historical characters and Chinese mythological creatures corrupted by demonic qi.",
+  "first_release_year": 2023,
+  "developers": [
+    "Team NINJA"
+  ],
+  "publishers": [
+    "Koei Tecmo Games"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Wo Long"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Katana Engine"
+  ],
+  "keywords": [
+    "dark fantasy",
+    "ancient china",
+    "upgradeable weapons",
+    "soulslike",
+    "dark fantasy adventure"
+  ],
+  "alternative_names": [
+    {
+      "name": "卧龙: 苍天陨落",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "臥龍：蒼天隕落",
+      "comment": "Chinese title - traditional"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/wolongfallendynasty"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wo_Long:_Fallen_Dynasty"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCM0d5CqnNiJu4zsPTnwmjAQ/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004116"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/WoLongOfficial"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://teamninja-studio.com/wolong"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Wo%20Long:%20Fallen%20Dynasty"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/WoLongOfficial"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1448440/Wo_Long_Fallen_Dynasty"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://wolong.wiki.fextralife.com/Wo+Long+Wiki"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 03, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-03-03"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 03, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-03-03"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 03, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-03-03"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 03, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-03-03"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 03, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-03-03"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1owy.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Dev Diary",
+      "youtube_id": "hZaa_Uyjztc",
+      "url": "https://www.youtube.com/watch?v=hZaa_Uyjztc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "A7FqH_jrYFg",
+      "url": "https://www.youtube.com/watch?v=A7FqH_jrYFg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "zsJ3U9PgH1I",
+      "url": "https://www.youtube.com/watch?v=zsJ3U9PgH1I"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "79tDXWwAbPY",
+      "url": "https://www.youtube.com/watch?v=79tDXWwAbPY"
+    },
+    {
+      "title": "Story Trailer",
+      "youtube_id": "am36au360Vo",
+      "url": "https://www.youtube.com/watch?v=am36au360Vo"
+    }
+  ]
+}

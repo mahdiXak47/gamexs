@@ -1,0 +1,110 @@
+{
+  "slug": "1917-the-alien-invasion-dx-remastered",
+  "igdb_id": 32692,
+  "name": "1917: The Alien Invasion DX",
+  "summary": "1917 - The Alien Invasions is a bullet hell memorization shooter. Dr. Brunhild Stahlmüller upgrades an WW1 Triplane with superior alien technology to attack the invaders. She will avenge mankind and take the battle into the darkness of space until she reach an ancient alien world.",
+  "first_release_year": 2016,
+  "developers": [
+    "Andrade Games"
+  ],
+  "publishers": [
+    "OtakuMaker.com Studio",
+    "Korion Interactive"
+  ],
+  "genres": [
+    "Shooter",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": "1917: The Alien Invasion",
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "bloody",
+    "shoot 'em up",
+    "2d",
+    "female protagonist",
+    "gore",
+    "pixel art",
+    "alien invasion",
+    "vertical scrolling"
+  ],
+  "alternative_names": [
+    {
+      "name": "1917 - The Alien Invasion"
+    },
+    {
+      "name": "1917 - The Alien Invasion DX.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/1917-the-alien-invasion-dx-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://studio.otakumaker.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/470060"
+    },
+    {
+      "label": "Itch",
+      "url": "https://andrade-games.itch.io/1917-the-alien-invasion"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/1917%20-%20The%20Alien%20Invasion%20DX"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 14, 2018",
+      "status": "Released",
+      "date_iso": "2018-06-14"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 22, 2018",
+      "status": "Released",
+      "date_iso": "2018-06-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 10, 2016",
+      "status": "Released",
+      "date_iso": "2016-06-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar948.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay video",
+      "youtube_id": "iokLlx7J-yU",
+      "url": "https://www.youtube.com/watch?v=iokLlx7J-yU"
+    }
+  ]
+}

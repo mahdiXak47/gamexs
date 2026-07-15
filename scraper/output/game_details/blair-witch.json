@@ -1,0 +1,199 @@
+{
+  "slug": "blair-witch",
+  "igdb_id": 119298,
+  "name": "Blair Witch",
+  "summary": "Inspired by the cinematic lore of Blair Witch, experience a new story-driven psychological horror game that studies your reactions to fear and stress.\n\nA STORY OF THE HUMAN DESCENT INTO DARKNESS\nExperience an original story based on the legend of Blair Witch from the makers of Layers of Fear.\n\nFIND THE WAY THROUGH THE HAUNTED WOODS\nNavigate your way through a cursed forest that warps and distorts both time and space.\n\nYOUR SANITY AGAINST HER CURSE\nStand against the horrors of the Blair Witch and the decaying sanity of a man burdened by his past.\n\nHOW WILL YOU FACE YOUR FEARS?\nHow you react to danger and behave under pressure will ultimately teach you more about yourself.",
+  "first_release_year": 2019,
+  "developers": [
+    "Bloober Team"
+  ],
+  "publishers": [
+    "Bloober Team"
+  ],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Thriller",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "The Blair Witch Project"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "exploration",
+    "violence",
+    "psychological horror",
+    "dark",
+    "investigation",
+    "3d",
+    "1990s",
+    "cinematic",
+    "running",
+    "supernatural",
+    "forest",
+    "based on - movie",
+    "achievements",
+    "walking simulator",
+    "steam trading cards",
+    "united states",
+    "investigations",
+    "atmospheric",
+    "camera",
+    "survival horror",
+    "psychological",
+    "dog",
+    "story rich",
+    "creepy",
+    "violent",
+    "1990's",
+    "steam achievements",
+    "xbox controller support for pc",
+    "steam cloud",
+    "xbox play anywhere",
+    "collectibles",
+    "4k",
+    "remote play",
+    "4k ultra hd",
+    "controller support",
+    "male protagonist",
+    "adult protagonist",
+    "animated cutscenes",
+    "xbox achievements",
+    "steam families",
+    "ghost",
+    "xbox cloud saves",
+    "collection log",
+    "maryland"
+  ],
+  "alternative_names": [
+    {
+      "name": "Blairwitch.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blair_Witch_(video_game)"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/blair-witch/9ng7lg421v0q"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/235083"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/blair-witch-switch/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://blairwitch.fandom.com/wiki/Blair_Witch_(Game)"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/blair_witch"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1092660"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/blair-witch"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/blairwitchgame"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/BlairWitchGame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.blairwitchgame.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/blooberteam"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Blair%20Witch"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/blair_witch_game"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 25, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-06-25"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 30, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-08-30"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 03, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-12-03"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 30, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-08-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar7uq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5vl.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5l4j.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay video",
+      "youtube_id": "b_lfE2IeR2A",
+      "url": "https://www.youtube.com/watch?v=b_lfE2IeR2A"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ek0Y0Pff9WI",
+      "url": "https://www.youtube.com/watch?v=ek0Y0Pff9WI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "RhaDPDf-xsM",
+      "url": "https://www.youtube.com/watch?v=RhaDPDf-xsM"
+    }
+  ]
+}

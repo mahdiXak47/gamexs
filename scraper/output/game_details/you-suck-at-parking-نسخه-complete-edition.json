@@ -1,0 +1,176 @@
+{
+  "slug": "you-suck-at-parking-نسخه-complete-edition",
+  "igdb_id": 138884,
+  "name": "You Suck at Parking",
+  "summary": "Drive, drift, and park in You Suck at Parking, the simple and accessible yet challenging game where parking is more important than your driving skills. Collect cars, learn new mechanics, challenge the world, and customize your ride in this ever-evolving parking simulator.",
+  "first_release_year": 2022,
+  "developers": [
+    "Happy Volcano"
+  ],
+  "publishers": [
+    "Happy Volcano",
+    "Curve Digital"
+  ],
+  "genres": [
+    "Puzzle",
+    "Racing",
+    "Sport",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "level editor",
+    "character customization",
+    "3d",
+    "physics",
+    "parkour",
+    "driving",
+    "stylized",
+    "cute",
+    "funny",
+    "demo",
+    "drifting",
+    "high score",
+    "score attack",
+    "racing sim",
+    "family friendly",
+    "colorful",
+    "cartoony",
+    "controller recommendation",
+    "free demo",
+    "stylish action",
+    "cartoon"
+  ],
+  "alternative_names": [
+    {
+      "name": "駐められるもんなら駐めてみな",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "You Suck at Parking® - Complete Edition",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "YSAP.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/you-suck-at-parking-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/837880/You_Suck_at_Parking"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/happyvolcanogames"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCfNp5ev9w3QusXGxh1qyLLg"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/CurveGames/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001817"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.yousuckatparking.cc/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/happyvolcanogames"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/hvgames"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/YouSuckatParking"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/you-suck-at-parking"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 14, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 14, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-14"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 19, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 11, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-11"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 11, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-11"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 14, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1r1i.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1vee.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "QDK8670GULQ",
+      "url": "https://www.youtube.com/watch?v=QDK8670GULQ"
+    }
+  ]
+}

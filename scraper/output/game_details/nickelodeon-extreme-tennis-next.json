@@ -1,0 +1,119 @@
+{
+  "slug": "nickelodeon-extreme-tennis-next",
+  "igdb_id": 397633,
+  "name": "Nickelodeon Extreme Tennis: Next!",
+  "summary": "Challenge a friend to a tennis match where you can play as SpongeBob, Aang, and all your Nickelodeon favorites in fast-paced, local split-screen action!",
+  "first_release_year": 2026,
+  "developers": [
+    "Old Skull Games"
+  ],
+  "publishers": [
+    "Gameloft"
+  ],
+  "genres": [
+    "Sport",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Kids",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": "Nickelodeon Extreme Tennis",
+  "franchises": [
+    "Nickelodeon",
+    "Spongebob Squarepants",
+    "The Fairly OddParents",
+    "Teenage Mutant Ninja Turtles",
+    "Avatar: The Last Airbender",
+    "Garfield"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Nickelodeon Extreme Tennis.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4111390/Nickelodeon_Extreme_Tennis_Next/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/nickelodeon-extreme-tennis-next/9pppj8fc21vq"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10017544/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/nickelodeon-extreme-tennis-next-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.gameloft.com/game/nickelodeon-extreme-tennis-next/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://nickelodeon.fandom.com/wiki/Nickelodeon_Extreme_Tennis"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 28, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-28"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 28, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 28, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 28, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5o9j.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5o9k.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ehludqkh_jk",
+      "url": "https://www.youtube.com/watch?v=ehludqkh_jk"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "WmUCsRDtqbA",
+      "url": "https://www.youtube.com/watch?v=WmUCsRDtqbA"
+    }
+  ]
+}

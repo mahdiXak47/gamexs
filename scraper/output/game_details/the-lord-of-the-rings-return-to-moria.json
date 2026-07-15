@@ -1,0 +1,162 @@
+{
+  "slug": "the-lord-of-the-rings-return-to-moria",
+  "igdb_id": 204460,
+  "name": "The Lord of the Rings: Return to Moria",
+  "summary": "The only survival crafting game set in the Fourth Age of Middle-earth, the iconic fantasy world created by J.R.R. Tolkien.",
+  "first_release_year": 2023,
+  "developers": [
+    "Free Range Games"
+  ],
+  "publishers": [
+    "North Beach Games"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "The Lord of the Rings"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "tolkien",
+    "crafting",
+    "licensed game"
+  ],
+  "alternative_names": [
+    {
+      "name": "Return to Moria",
+      "comment": "Abbreviation"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCA4VOJQMSAqT90dF59ZSBRQ"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/the-lord-of-the-rings-return-to-moria/9N96T1S3L9SB"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://returntomoria.wiki.gg/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/returntomoria"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/returntomoria/"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/returntomoria.com"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008445"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/LotRReturnToMoria/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2933130"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/6TNP7as9md"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20Lord%20of%20the%20Rings:%20Return%20to%20Moria"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/ReturnToMoria"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://returntomoria.com/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/the-lord-of-the-rings-return-to-moria-f01344"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 24, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-27"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 05, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1z3c.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "veYNaJd5PzE",
+      "url": "https://www.youtube.com/watch?v=veYNaJd5PzE"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "sGSjYYAvLWs",
+      "url": "https://www.youtube.com/watch?v=sGSjYYAvLWs"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "nC-J2Ny6ssw",
+      "url": "https://www.youtube.com/watch?v=nC-J2Ny6ssw"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "h9Pa9kN65X0",
+      "url": "https://www.youtube.com/watch?v=h9Pa9kN65X0"
+    }
+  ]
+}

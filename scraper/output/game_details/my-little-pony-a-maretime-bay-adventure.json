@@ -1,0 +1,177 @@
+{
+  "slug": "my-little-pony-a-maretime-bay-adventure",
+  "igdb_id": 191956,
+  "name": "My Little Pony: A Maretime Bay Adventure",
+  "summary": "Only you can help Sunny throw the most magical celebration Equestria has ever seen in the adventure game My Little Pony: A Maretime Bay Adventure. Use your magic to put on fashion shows, find the cutest animals, fly with the Pegasi and more. Customize your ponies by unlocking new skills and accessories, including new hats and jewelry, rollerblades, and fashion magic. Your friends Hitch, Izzy, Zipp and Pipp are here to lend a helping hoof every step of the way. And you can invite another player for multiplayer minigames!",
+  "first_release_year": 2022,
+  "developers": [
+    "Melbot Studios"
+  ],
+  "publishers": [
+    "Outright Games"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "My Little Pony"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "3d"
+  ],
+  "alternative_names": [
+    {
+      "name": "My Little Pony: Aventura en Bahía Yeguamar",
+      "comment": "Spanish title"
+    },
+    {
+      "name": "My Little Pony: Avventura a Maretime Bay",
+      "comment": "Italian title"
+    },
+    {
+      "name": "MY LITTLE PONY: Aventura en Bahía Yeguamar"
+    },
+    {
+      "name": "MY LITTLE PONY: Avventura a Maretime Bay"
+    },
+    {
+      "name": "MY LITTLE PONY: Przygoda w Zatoce Grzyw",
+      "comment": "Polish title"
+    },
+    {
+      "name": "MLP.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/my-little-pony-a-maretime-bay-adventure-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004079"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Outright_Games"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/my-little-pony-a-maretime-bay-adventure-6a2cce"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/mylittlepony"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/My_Little_Pony:_A_New_Generation"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://outrightgames.com/games/my-little-pony-a-maretime-bay-adventure"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1600780"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://mlp.fandom.com/wiki/My_Little_Pony:_A_Maretime_Bay_Adventure"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/mylittlepony"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/My%20Little%20Pony:%20A%20Maretime%20Bay%20Adventure"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/mylittlepony"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/mylittlepony"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 27, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-27"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "May 27, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-27"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 27, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-27"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 27, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-27"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 27, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-27"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 27, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1ls4.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "YBe-mekwbxE",
+      "url": "https://www.youtube.com/watch?v=YBe-mekwbxE"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "0clmFyXY4qo",
+      "url": "https://www.youtube.com/watch?v=0clmFyXY4qo"
+    }
+  ]
+}

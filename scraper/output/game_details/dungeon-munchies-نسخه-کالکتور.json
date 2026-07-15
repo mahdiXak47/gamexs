@@ -1,0 +1,176 @@
+{
+  "slug": "dungeon-munchies-نسخه-کالکتور",
+  "igdb_id": 114484,
+  "name": "Dungeon Munchies",
+  "summary": "Dungeon Munchies is a side-scrolling action RPG with a focus on hunting down creatures, cooking them, and eating dishes to gain certain abilities. The combination of dishes you choose to eat will impact your entire play style.",
+  "first_release_year": 2019,
+  "developers": [
+    "maJAJa"
+  ],
+  "publishers": [
+    "maJAJa",
+    "Chorus Worldwide"
+  ],
+  "genres": [
+    "Shooter",
+    "Platform",
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "post-apocalyptic",
+    "exploration",
+    "anime",
+    "funny",
+    "pixel graphics"
+  ],
+  "alternative_names": [
+    {
+      "name": "ダンジョンマンチーズ",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "Dungeon Munchies.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004188"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/dungeon-munchies-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.dungeonmunchies.com"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/DungeonMunchies"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/799640"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/TmNnNTV2nj"
+    },
+    {
+      "label": "iPhone",
+      "url": "http://itunes.apple.com/us/app/id1635500973#?platform=iphone"
+    },
+    {
+      "label": "iPad",
+      "url": "http://itunes.apple.com/us/app/id1635500973#?platform=ipad"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Dungeon%20Munchies"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.maJAJaLtd.DungeonMunchies"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCfDwV1gjNYN93IIPjGzDY1A/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/dungeonmunchies/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 15, 2021",
+      "status": "Released",
+      "date_iso": "2021-12-15"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jun 06, 2019",
+      "status": "Released",
+      "date_iso": "2019-06-06"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Jul 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-28"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Jul 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-07-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 13, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 13, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-13"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 06, 2019",
+      "status": "Released",
+      "date_iso": "2019-06-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arrmw.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "Xp2WTKUQf1g",
+      "url": "https://www.youtube.com/watch?v=Xp2WTKUQf1g"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "jUJGRNUV8mc",
+      "url": "https://www.youtube.com/watch?v=jUJGRNUV8mc"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "AninM48f69A",
+      "url": "https://www.youtube.com/watch?v=AninM48f69A"
+    }
+  ]
+}

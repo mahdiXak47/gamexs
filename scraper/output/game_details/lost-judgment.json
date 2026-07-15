@@ -1,0 +1,191 @@
+{
+  "slug": "lost-judgment",
+  "igdb_id": 146851,
+  "name": "Lost Judgment",
+  "summary": "Lost Judgment is an action-adventure game that blends detective work, narrative-driven exploration, and dynamic combat. Players take on the role of a private detective investigating cases across urban environments, gathering evidence, tailing suspects, and uncovering hidden connections while engaging in fast-paced fighting encounters.\n\nThe game expands on its predecessor with new investigative mechanics, varied side activities, and multiple combat styles that emphasize fluid movement and adaptability. Its structure combines story-focused progression with open-ended exploration, offering a mix of mystery-solving and action.",
+  "first_release_year": 2021,
+  "developers": [
+    "Ryu Ga Gotoku Studios"
+  ],
+  "publishers": [
+    "Sega"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Drama",
+    "Open world",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Judgment"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Yakuza: Like a Dragon"
+  ],
+  "game_engines": [
+    "Dragon Engine"
+  ],
+  "keywords": [
+    "martial arts",
+    "investigation",
+    "action-adventure",
+    "murder mystery",
+    "narrative-driven",
+    "japan",
+    "investigations",
+    "crime",
+    "private detective",
+    "yakuza",
+    "side quests",
+    "urban",
+    "likeness used"
+  ],
+  "alternative_names": [
+    {
+      "name": "Lost Judgement",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "LOST JUDGMENT：裁かれざる記憶",
+      "comment": "Japanese title - stylized"
+    },
+    {
+      "name": "startup.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "Lost Judgment: Unjudged Memories",
+      "comment": "Japanese title - translated"
+    },
+    {
+      "name": "审判之逝：湮灭的记忆",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "審判之逝：湮滅的記憶",
+      "comment": "Chinese title - traditional"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2058190"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://yakuza.fandom.com/wiki/Lost_Judgment"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002616"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/lost-judgment/9NDJJQDF411C"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/RGGStudioWest"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lost_Judgment"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://games.sega.com/lostjudgment/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/lost-judgment"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/RGGStudio"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/RGGStudioWest/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@Ryugagotoku_official"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/yakuzagames/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-14"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 24, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 24, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 24, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 24, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar150k.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar150l.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5qk8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5qk9.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "VDgaA9RcGLE",
+      "url": "https://www.youtube.com/watch?v=VDgaA9RcGLE"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "3wZZmmITJsk",
+      "url": "https://www.youtube.com/watch?v=3wZZmmITJsk"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "TmoPKbtEviM",
+      "url": "https://www.youtube.com/watch?v=TmoPKbtEviM"
+    }
+  ]
+}

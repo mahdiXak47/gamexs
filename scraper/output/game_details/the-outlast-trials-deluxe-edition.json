@@ -1,0 +1,203 @@
+{
+  "slug": "the-outlast-trials-deluxe-edition",
+  "igdb_id": 127165,
+  "name": "The Outlast Trials",
+  "summary": "The Outlast Trials is a survival horror game you can play by yourself or with other players online. You'll have to survive the twisted, sadistic and bizarre experiments of the Murkoff Corporation, alone or in a group up to 4 players.",
+  "first_release_year": 2024,
+  "developers": [
+    "Red Barrels"
+  ],
+  "publishers": [
+    "Red Barrels"
+  ],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Outlast"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "psychological horror",
+    "character customization",
+    "dark",
+    "survival horror"
+  ],
+  "alternative_names": [
+    {
+      "name": "Outlast Trials",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Outlast_Trials"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/the-outlast-trials/9NR13RF1V2WV"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001988"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/the.redbarrels/"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/redbarrels.bsky.social"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/TheRedBarrels"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://redbarrelsgames.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/RedBarrels"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/redbarrelsgames"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1304930/The_Outlast_Trials"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/outlastofficial"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20Outlast%20Trials"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/product/the-outlast-trials/home"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-05"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-05"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 18, 2023",
+      "status": "Beta",
+      "date_iso": "2023-05-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-05"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 05, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar12vv.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "n27Mc6ebjR4",
+      "url": "https://www.youtube.com/watch?v=n27Mc6ebjR4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "QaT_-myRmzY",
+      "url": "https://www.youtube.com/watch?v=QaT_-myRmzY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "JmcT2gF3bs4",
+      "url": "https://www.youtube.com/watch?v=JmcT2gF3bs4"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "5eV2lwhMbNs",
+      "url": "https://www.youtube.com/watch?v=5eV2lwhMbNs"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "K5C1HlrMtnQ",
+      "url": "https://www.youtube.com/watch?v=K5C1HlrMtnQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "-4XudkeTlWo",
+      "url": "https://www.youtube.com/watch?v=-4XudkeTlWo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "_ukYbwtMdwo",
+      "url": "https://www.youtube.com/watch?v=_ukYbwtMdwo"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "htVWmfYd_Gk",
+      "url": "https://www.youtube.com/watch?v=htVWmfYd_Gk"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "tNldgDoPPX4",
+      "url": "https://www.youtube.com/watch?v=tNldgDoPPX4"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "W3lwJnw4nxk",
+      "url": "https://www.youtube.com/watch?v=W3lwJnw4nxk"
+    }
+  ]
+}

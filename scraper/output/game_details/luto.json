@@ -1,0 +1,132 @@
+{
+  "slug": "luto",
+  "igdb_id": 150241,
+  "name": "Luto",
+  "summary": "This is a story about death.\n\nLuto is a psychological horror experience where you take on the role of someone unable to leave their home. Every attempt to escape will lead you deeper into the unknown, where nothing is as it seems and everything will test your senses.",
+  "first_release_year": 2025,
+  "developers": [
+    "Broken Bird Games"
+  ],
+  "publishers": [
+    "Broken Bird Games",
+    "Selecta Play"
+  ],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Horror",
+    "Thriller",
+    "Drama"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "psychological horror",
+    "psychological thriller",
+    "story rich",
+    "mental health",
+    "narrator",
+    "free demo"
+  ],
+  "alternative_names": [
+    {
+      "name": "Luto.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/luto-0a4ab3"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008690"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/brokenbird.bsky.social"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/BrokenBirdGames"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC2HaSPpgqVT5-akksTug5yQ"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1729740"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://brokenbirdgames.com/es/index.html"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Luto"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 22, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 22, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 22, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3t76.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3t78.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3t7a.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3t79.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3t75.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3t77.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3t7b.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "aOIvPM1GngU",
+      "url": "https://www.youtube.com/watch?v=aOIvPM1GngU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "lwri84ZPWYk",
+      "url": "https://www.youtube.com/watch?v=lwri84ZPWYk"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "YngjhNbLmS8",
+      "url": "https://www.youtube.com/watch?v=YngjhNbLmS8"
+    }
+  ]
+}

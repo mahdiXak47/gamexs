@@ -1,0 +1,196 @@
+{
+  "slug": "rainbow-six-extraction-نسخه-استاندارد",
+  "igdb_id": 119262,
+  "name": "Tom Clancy's Rainbow Six Extraction",
+  "summary": "Assemble your elite team of Rainbow Six Operators to launch incursions in the unpredictable containment zones and face off against an evolving Alien threat. Band together and put everything on the line as you take on this unknown enemy.",
+  "first_release_year": 2022,
+  "developers": [
+    "Ubisoft Montreal"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Strategy"
+  ],
+  "themes": [
+    "Action",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Rainbow Six"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Tom Clancy’s"
+  ],
+  "game_engines": [
+    "Ubisoft Anvil"
+  ],
+  "keywords": [
+    "squad"
+  ],
+  "alternative_names": [
+    {
+      "name": "Tom Clancy's Rainbow Six Quarantine",
+      "comment": "Working title"
+    },
+    {
+      "name": "톰 클랜시의 레인보우 식스 익스트랙션",
+      "comment": "Korean title - translated"
+    },
+    {
+      "name": "R6-Extraction.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/233592"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Rainbow6"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/r6extraction"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ubisoft.com/en-us/game/rainbow-six/extraction"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://rainbowsix.fandom.com/wiki/Tom_Clancy%27s_Rainbow_Six_Extraction"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tom_Clancy%27s_Rainbow_Six_Extraction"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/R6Extraction"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/rainbow-six-extraction"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/R6Extraction"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/R6Extraction"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Tom%20Clancy's%20Rainbow%20Six%20Quarantine"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2379390"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Jan 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-01-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-01-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-01-20"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jan 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-01-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-01-20"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 20, 2022",
+      "status": "Released",
+      "date_iso": "2022-01-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5sc.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar8tu.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "wZFdBeSNzxw",
+      "url": "https://www.youtube.com/watch?v=wZFdBeSNzxw"
+    },
+    {
+      "title": "Gameplay Deep Dive Reveal",
+      "youtube_id": "xDzLRXO8rb0",
+      "url": "https://www.youtube.com/watch?v=xDzLRXO8rb0"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "jqsDcCQKJRg",
+      "url": "https://www.youtube.com/watch?v=jqsDcCQKJRg"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "oFzsANuSbdw",
+      "url": "https://www.youtube.com/watch?v=oFzsANuSbdw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Mre0lbMINpM",
+      "url": "https://www.youtube.com/watch?v=Mre0lbMINpM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "OaHJfJ44SNY",
+      "url": "https://www.youtube.com/watch?v=OaHJfJ44SNY"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "Ir3Imfo5C_I",
+      "url": "https://www.youtube.com/watch?v=Ir3Imfo5C_I"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "vCnavLvA34E",
+      "url": "https://www.youtube.com/watch?v=vCnavLvA34E"
+    }
+  ]
+}

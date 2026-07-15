@@ -1,0 +1,217 @@
+{
+  "slug": "spongebob-squarepants-titans-of-the-tide-نسخه-استاندارد",
+  "igdb_id": 358751,
+  "name": "SpongeBob SquarePants: Titans of the Tide",
+  "summary": "Prepare to be scared! A clash between the Flying Dutchman and King Neptune has unleashed ghostly mayhem all over Bikini Bottom. Switch seamlessly between SpongeBob and Patrick, combine their unique skills and save Bikini Bottom from total ghostification!",
+  "first_release_year": 2025,
+  "developers": [
+    "Purple Lamp Studios"
+  ],
+  "publishers": [
+    "THQ Nordic"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "SpongeBob SquarePants"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Spongebob Squarepants"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "underwater",
+    "based on - tv show",
+    "multiple protagonists",
+    "licensed game",
+    "protagonist's name in the title",
+    "starfish",
+    "multiple playable characters"
+  ],
+  "alternative_names": [
+    {
+      "name": "Губка Боб Квадратные Штаны: Гиганты глубин",
+      "comment": "Russian title"
+    },
+    {
+      "name": "SpongeBob Kanciastoporty: Tytani toni",
+      "comment": "Polish title"
+    },
+    {
+      "name": "Bob Esponja: Titãs da Maré",
+      "comment": "Portuguese title"
+    },
+    {
+      "name": "Bob Esponja: Titanes de la Marea",
+      "comment": "Spanish title"
+    },
+    {
+      "name": "SpongeBob Schwammkopf: Giganten der Gezeiten",
+      "comment": "German title"
+    },
+    {
+      "name": "Bob l'éponge: les Titans des marées",
+      "comment": "French title"
+    },
+    {
+      "name": "SpongeBob SquarePants: Titani della marea",
+      "comment": "Italian title"
+    },
+    {
+      "name": "海绵宝宝：潮汐巨神",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "海綿寶寶：海洋巨頭之亂",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "Titans of the Tide",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "SpongeBob: Titans of the Tide",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "Ghost.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2479650"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/SpongeBob_SquarePants:_Titans_of_the_Tide"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/spongebob-squarepants-titans-of-the-tide"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/THQNordic"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/THQNordic"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/spongebob-squarepants-titans-of-the-tide-switch-2/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/thqnordic"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/thqnordic.com"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/THQNordic"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/thqnordic"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/spongebob-squarepants-titans-of-the-tide/9NS8WJHD5MTW/0017"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/EP4389-PPSA26893_00-SPONGEBOBGOO00WW"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://spongebobtitans.thqnordic.com/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://spongebob.fandom.com/wiki/Titans_of_the_Tide"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/spongebob_squarepants_titans_of_the_tide"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-18"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-18"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Nov 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-18"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 13, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-10-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3xug.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3xuh.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "B_DRlBipcHY",
+      "url": "https://www.youtube.com/watch?v=B_DRlBipcHY"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "Rc6xGmYzTaA",
+      "url": "https://www.youtube.com/watch?v=Rc6xGmYzTaA"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "MlUJyndva0k",
+      "url": "https://www.youtube.com/watch?v=MlUJyndva0k"
+    }
+  ]
+}

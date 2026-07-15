@@ -1,0 +1,235 @@
+{
+  "slug": "cars-3-driven-to-win",
+  "igdb_id": 28075,
+  "name": "Cars 3: Driven to Win",
+  "summary": "Cars 3: Driven to Win is a game that empowers players to master their driving skills for the ultimate competitive racing experience. With six thrilling modes for gamers to learn and advance their abilities, players can progress their character through training and tests of racing proficiency that unlock new modes, tracks, characters and more. Players can hone a wide variety of skills and abilities including Drifting, Turbo, Two-wheel Driving, Driving Backwards and Side-Bash. Each unique mode and ability allows players to explore the deeper gameplay mechanics and earn rewards for their expertise. Cars 3: Driven to Win provides an exhilarating, action-packed experience where training and skill give players an edge in a racing experience that anyone can win.\n\nAdditionally, players will be able to experience Cars 3: Driven to Win with their friends or on their own to perfect the various racing styles and modes available to them. Available for pre-order now, the game will include local split-screen cooperative play, allowing players to compete or team up and play at home together, making it easy for friends and family members to join the race - and the fun - at any time.",
+  "first_release_year": 2017,
+  "developers": [
+    "Avalanche Software",
+    "TT Games"
+  ],
+  "publishers": [
+    "WB Games"
+  ],
+  "genres": [
+    "Racing"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Cars"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "based on - movie",
+    "licensed game",
+    "bink video"
+  ],
+  "alternative_names": [
+    {
+      "name": "Cars 3 Course Vers la Victoire",
+      "comment": "French title"
+    },
+    {
+      "name": "Cars 3: In Gara per la Vittoria",
+      "comment": "Italian title"
+    },
+    {
+      "name": "Тачки 3: Навстречу Победе",
+      "comment": "Russian title"
+    },
+    {
+      "name": "Тачки 3: Навстречу Победе"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Cars%203"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/cars-3-driven-to-win-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/228418"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://lol.disney.com/cars-3-game"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cars_3:_Driven_to_Win"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Wii U",
+      "region": null,
+      "date": "Jun 14, 2017",
+      "status": "Released",
+      "date_iso": "2017-06-14"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 14, 2017",
+      "status": "Released",
+      "date_iso": "2017-07-14"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Jun 14, 2017",
+      "status": "Released",
+      "date_iso": "2017-06-14"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 14, 2017",
+      "status": "Released",
+      "date_iso": "2017-07-14"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 13, 2017",
+      "status": "Released",
+      "date_iso": "2017-06-13"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 14, 2017",
+      "status": "Released",
+      "date_iso": "2017-07-14"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Jun 14, 2017",
+      "status": "Released",
+      "date_iso": "2017-06-14"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 14, 2017",
+      "status": "Released",
+      "date_iso": "2017-06-14"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 14, 2017",
+      "status": "Released",
+      "date_iso": "2017-06-14"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 14, 2017",
+      "status": "Released",
+      "date_iso": "2017-07-14"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Jun 13, 2017",
+      "status": "Released",
+      "date_iso": "2017-06-13"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 20, 2017",
+      "status": "Released",
+      "date_iso": "2017-07-20"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 14, 2017",
+      "status": "Released",
+      "date_iso": "2017-06-14"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Jun 13, 2017",
+      "status": "Released",
+      "date_iso": "2017-06-13"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 13, 2017",
+      "status": "Released",
+      "date_iso": "2017-06-13"
+    },
+    {
+      "platform": "Wii U",
+      "region": null,
+      "date": "Jun 13, 2017",
+      "status": "Released",
+      "date_iso": "2017-06-13"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Jul 14, 2017",
+      "status": "Released",
+      "date_iso": "2017-07-14"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Jul 14, 2017",
+      "status": "Released",
+      "date_iso": "2017-07-14"
+    },
+    {
+      "platform": "Wii U",
+      "region": null,
+      "date": "Jul 14, 2017",
+      "status": "Released",
+      "date_iso": "2017-07-14"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 13, 2017",
+      "status": "Released",
+      "date_iso": "2017-06-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar9oq.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "FTGbTKGPYB4",
+      "url": "https://www.youtube.com/watch?v=FTGbTKGPYB4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "oSmEYtaORaA",
+      "url": "https://www.youtube.com/watch?v=oSmEYtaORaA"
+    }
+  ]
+}

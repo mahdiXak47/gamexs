@@ -1,0 +1,199 @@
+{
+  "slug": "کارکرده-call-of-duty-black-ops-6",
+  "igdb_id": 302156,
+  "name": "Call of Duty: Black Ops 6",
+  "summary": "Call of Duty: Black Ops 6 is a first-person shooter co-developed by Treyarch and Raven Software, published by Activision in October 2024. It is the seventh entry in the Black Ops sub-series, set during the early 1990s Gulf War era. The game features a single-player campaign, competitive multiplayer with an omnidirectional movement system allowing players to sprint, dive, and slide in any direction, and a cooperative round-based Zombies mode. It had the longest development cycle in Call of Duty history at four years, during which the team rebuilt core Black Ops systems in a new shared engine.",
+  "first_release_year": 2024,
+  "developers": [
+    "Treyarch",
+    "Raven Software"
+  ],
+  "publishers": [
+    "Activision"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Call of Duty: Black Ops",
+    "Call of Duty"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Call of Duty"
+  ],
+  "game_engines": [
+    "IW Engine"
+  ],
+  "keywords": [
+    "ai-generated artwork"
+  ],
+  "alternative_names": [
+    {
+      "name": "Black Ops 6",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "決勝時刻®：黑色行動6",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "決勝時刻：黑色行動6",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "使命召唤黑色行动6",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "bootstrapper.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/CallofDuty"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/CallofDuty"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/call-of-duty-black-ops-6"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/call-of-duty-black-ops-6---cross-gen-bundle/9PF528M6CRHQ"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.callofduty.com/blackops6"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/CallofDuty/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/CallofDuty"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Black_Ops_6"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4384550"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/callofdutyofficial"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/callofduty.com"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 06, 2024",
+      "status": "Alpha",
+      "date_iso": "2024-09-06"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 06, 2024",
+      "status": "Alpha",
+      "date_iso": "2024-09-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 06, 2024",
+      "status": "Alpha",
+      "date_iso": "2024-09-06"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 06, 2024",
+      "status": "Alpha",
+      "date_iso": "2024-09-06"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 06, 2024",
+      "status": "Alpha",
+      "date_iso": "2024-09-06"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4wve.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4wvf.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "V08UPqchVgQ",
+      "url": "https://www.youtube.com/watch?v=V08UPqchVgQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "dqEvH7TBSnA",
+      "url": "https://www.youtube.com/watch?v=dqEvH7TBSnA"
+    }
+  ]
+}

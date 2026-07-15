@@ -1,0 +1,160 @@
+{
+  "slug": "hollowbody",
+  "igdb_id": 215682,
+  "name": "Hollowbody",
+  "summary": "A tech-noir survival horror short story, set in the urban decay of a long abandoned British city.\n\nIt's a Shipper's biggest fear. You're grounded in the exclusion zone, twenty miles of death and decay sealed off by the towering, suffocating walls erected after the collapse.\n\nPlay as Mica, an unlicensed black market shipper who will stop at nothing to find her missing partner.\n\nAlone, stranded, and with limited resources at your disposal you'll have to push your way through the zone, solve environmental puzzles, manage resources and fight for your life as you try to find a way to escape beyond the wall.",
+  "first_release_year": 2024,
+  "developers": [
+    "Headware Games"
+  ],
+  "publishers": [
+    "Headware Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Puzzle",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "post-apocalyptic",
+    "exploration",
+    "cyberpunk",
+    "dystopian",
+    "resource management",
+    "female protagonist",
+    "backtracking",
+    "atmospheric",
+    "survival horror",
+    "combat",
+    "fixed camera",
+    "tech-noir"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/headwaregames.bsky.social"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/hollowbody"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/MVJHXkhrpz"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.headwaregames.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2123640"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://www.twitter.com/headwaregames"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/headwaregames"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Hollowbody"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/headwaregames"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@HeadwareGames/videos"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10015028"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 12, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 04, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-06-04"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 04, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-06-04"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1tti.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5zam.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "E61eAeYgp6w",
+      "url": "https://www.youtube.com/watch?v=E61eAeYgp6w"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "d-v8Ro08dks",
+      "url": "https://www.youtube.com/watch?v=d-v8Ro08dks"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "tc7NWsqCrVk",
+      "url": "https://www.youtube.com/watch?v=tc7NWsqCrVk"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "07JOtd-ErP8",
+      "url": "https://www.youtube.com/watch?v=07JOtd-ErP8"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "M9vRLnwYO14",
+      "url": "https://www.youtube.com/watch?v=M9vRLnwYO14"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "tFAld1NiYkY",
+      "url": "https://www.youtube.com/watch?v=tFAld1NiYkY"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "GEir00GBvMw",
+      "url": "https://www.youtube.com/watch?v=GEir00GBvMw"
+    }
+  ]
+}

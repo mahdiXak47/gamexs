@@ -1,0 +1,55 @@
+{
+  "slug": "bunny-rampage-history-of-revenge",
+  "igdb_id": 345461,
+  "name": "Bunny Rampage: History of Revenge",
+  "summary": "Embark on a captivating adventure with Max, a plush rabbit brought to life!\n\nUnfold the secrets hidden within captivating portals, venturing from the bustling streets of New York City to the enigmatic depths of an alien bunker. Face hordes of enemies in exhilarating battles, unravel mind-bending puzzles, and navigate challenging platforming sections.",
+  "first_release_year": 2026,
+  "developers": [],
+  "publishers": [
+    "404 Games"
+  ],
+  "genres": [
+    "Simulator",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010762"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "2026",
+      "status": "Released",
+      "date_iso": "2026-12-31"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "2026",
+      "status": "Released",
+      "date_iso": "2026-12-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3z1l.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3z1m.jpg"
+  ],
+  "videos": []
+}

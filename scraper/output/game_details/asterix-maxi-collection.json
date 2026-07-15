@@ -1,0 +1,107 @@
+{
+  "slug": "asterix-maxi-collection",
+  "igdb_id": 331410,
+  "name": "Asterix Maxi Collection",
+  "summary": "Find your favourite heroes in Asterix Maxi Collection with 6 games included!\n- Asterix & Obelix XXL Romastered\n- Asterix & Obelix XXL 2\n- Asterix & Obelix XXL 3\n- Asterix & Obelix XXXL\n- Asterix & Obelix Slap Them All!\n- Asterix & Obelix Slap Them All! 2",
+  "first_release_year": 2024,
+  "developers": [
+    "OSome Studio",
+    "Mr Nutz Studio"
+  ],
+  "publishers": [
+    "Microids"
+  ],
+  "genres": [
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Asterix"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "ancient rome",
+    "based on - comics"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/bundle/48499/Asterix_Maxi_Collection/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/asterix-maxi-collection/9PC6TBKTHL33"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP1475-PPSA16747_00-0765072834105576"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/asterix-maxi-collection-switch/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 01, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-01"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 19, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-19"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 19, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 19, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 19, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-19"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 19, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4jhg.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4jhf.jpg"
+  ],
+  "videos": []
+}

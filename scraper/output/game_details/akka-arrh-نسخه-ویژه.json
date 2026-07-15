@@ -1,0 +1,111 @@
+{
+  "slug": "akka-arrh-نسخه-ویژه",
+  "igdb_id": 237527,
+  "name": "Akka Arrh",
+  "summary": "A cascade of words, colors, shapes, and sounds flows around your turret as you desperately fight off swarms of incoming attackers. If enemies penetrate your perimeter, you must approach the combat at close range and defeat them, adjusting to a completely different perspective in the blink of an eye. Welcome to Akka Arrh by Jeff Minter.\n\nThis modern take from the excellent developers at Llamasoft combines the intrigue of an incredibly rare Atari arcade prototype with a unique creative vision that delivers incredibly addictive shooter gameplay. Akka Arrh is dripping with Minter's sense of humor, love of psychedelic color, and the ability to create games that are a joy to play.",
+  "first_release_year": 2023,
+  "developers": [
+    "Llamasoft LTD"
+  ],
+  "publishers": [
+    "Atari, Inc."
+  ],
+  "genres": [
+    "Shooter",
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": "Akka Arrh",
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "steam achievements",
+    "steam cloud",
+    "steam families",
+    "previously on - prime gaming"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006101"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2005680/Akka_Arrh"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://atari.com/products/akka-arrh"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/atariclub"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Feb 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-21"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-21"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2780.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar277y.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar277z.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "RouTQpN3Z9Y",
+      "url": "https://www.youtube.com/watch?v=RouTQpN3Z9Y"
+    }
+  ]
+}

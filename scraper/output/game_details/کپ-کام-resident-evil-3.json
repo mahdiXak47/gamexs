@@ -1,0 +1,223 @@
+{
+  "slug": "کپ-کام-resident-evil-3",
+  "igdb_id": 115115,
+  "name": "Resident Evil 3",
+  "summary": "Resident Evil 3 is a remake of the original Resident Evil 3: Nemesis released in 1999. It updates the story and gameplay for a modern audience. Like the Resident Evil 2 remake, the game uses over-the-shoulder third person point of view similar to Resident Evil 4 and later installments. Players will spend most of their time playing as Jill Valentine, although on some occasions they will assume the role of Carlos Oliveira, giving him more screen time as a deuteragonist.",
+  "first_release_year": 2020,
+  "developers": [
+    "Capcom Development Division 1"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Resident Evil"
+  ],
+  "spin_off_of": "Resident Evil 3: Nemesis",
+  "franchises": [
+    "Resident Evil"
+  ],
+  "game_engines": [
+    "RE Engine"
+  ],
+  "keywords": [
+    "zombies",
+    "monsters",
+    "female protagonist",
+    "hospital",
+    "mutants",
+    "survival horror",
+    "alternate costumes",
+    "ranking system",
+    "unlockables",
+    "recurring boss",
+    "medical herb",
+    "zombie virus",
+    "stalker",
+    "sewer",
+    "puzzles",
+    "art gallery",
+    "1990s origin",
+    "chase sequence",
+    "police station",
+    "shotgun"
+  ],
+  "alternative_names": [
+    {
+      "name": "RE3 remake",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Resident Evil 3 Remake",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Resident Evil 3: Nemesis",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Resident Evil 3: Nemesis Remake",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "BIOHAZARD RE:3",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "惡靈古堡3",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "re3.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/RE_Games"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Resident_Evil_3_(2020_video_game)"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/resident-evil-3-for-xbox/BW3T6SNS15BH"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/233069"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.residentevil.com/re3"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/re_games"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/residentevil"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/ResidentEvil"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/952060"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Resident%20Evil%203"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://residentevil.fandom.com/wiki/Resident_Evil_3_(remake)"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/residentevil"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Mar 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-18"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Mar 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 03, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-04-03"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 03, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-04-03"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 13, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-06-13"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 03, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-04-03"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 13, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-06-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6e9.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5t0w.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "HJWWu8h7xZU",
+      "url": "https://www.youtube.com/watch?v=HJWWu8h7xZU"
+    },
+    {
+      "title": "Nemesis Trailer",
+      "youtube_id": "0TN3l5BQ5E4",
+      "url": "https://www.youtube.com/watch?v=0TN3l5BQ5E4"
+    },
+    {
+      "title": "Raccoon City Incident Report",
+      "youtube_id": "QqnHW3Wsa5g",
+      "url": "https://www.youtube.com/watch?v=QqnHW3Wsa5g"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "32LSdT0dqxc",
+      "url": "https://www.youtube.com/watch?v=32LSdT0dqxc"
+    },
+    {
+      "title": "Jill Valentine Trailer",
+      "youtube_id": "Wghn3tYYVNw",
+      "url": "https://www.youtube.com/watch?v=Wghn3tYYVNw"
+    }
+  ]
+}

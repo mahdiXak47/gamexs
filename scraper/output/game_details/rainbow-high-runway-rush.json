@@ -1,0 +1,124 @@
+{
+  "slug": "rainbow-high-runway-rush",
+  "igdb_id": 249255,
+  "name": "Rainbow High: Runway Rush",
+  "summary": "Play as the Rainbow High girls, explore the school and use their unique talents to complete your first art assignment. #LetYourTrueColorsShine",
+  "first_release_year": 2023,
+  "developers": [
+    "Xaloc Studios"
+  ],
+  "publishers": [
+    "Outright Games"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Rainbow High: Panique sur le Podium",
+      "comment": "French title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005424"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/rainbow-high-runway-rush-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://outrightgames.com/games/rainbow-high-runway-rush/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Outright_Games"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2007520"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 21, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2bfz.jpg"
+  ],
+  "videos": []
+}

@@ -1,0 +1,185 @@
+{
+  "slug": "mandragora-whispers-of-the-witch-tree",
+  "igdb_id": 191427,
+  "name": "Mandragora: Whispers of the Witch Tree",
+  "summary": "Mankind has surrendered the world to the monsters. People hide away behind walls of brick and palisades of ignorance, constructed by their leaders. Joy and delight are coveted jewels, out of reach of the masses. This is not the world you were promised. Travel by night and take it back. Journey through a world in decline, slowly falling prey to the damaging effects of Entropy. Fight against vicious enemies, challenge unique, deadly bosses, meet new allies, enemies, and every shade in-between, and make harsh moral choices. There are many paths worth taking. Choose yours.",
+  "first_release_year": 2025,
+  "developers": [
+    "Primal Game Studio"
+  ],
+  "publishers": [
+    "Knights Peak",
+    "MY.GAMES"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "metroidvania",
+    "dark fantasy",
+    "soulslike"
+  ],
+  "alternative_names": [
+    {
+      "name": "man.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "Mandragora",
+      "comment": "Working title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/mandragora-whispers-of-the-witch-tree-switch/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/MandragoraGame"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/mandragora_whispers_of_the_witch_tree"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://mandragora.wiki.gg/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/mandragora-whispers-of-the-witch-tree/9PDK46P3PTQM"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004736"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://mobile.twitter.com/mandragoragame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/mandragoragame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/mandragoragame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://mandragoragame.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1721060"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/mandragora"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/mandragora-36280a"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@MandragoraGame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-17"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-17"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 04, 2025",
+      "status": "Released",
+      "date_iso": "2025-09-04"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1rkh.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "sF8Fs1R2ygM",
+      "url": "https://www.youtube.com/watch?v=sF8Fs1R2ygM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "djMENBpPN7k",
+      "url": "https://www.youtube.com/watch?v=djMENBpPN7k"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "mpb3BvQazzI",
+      "url": "https://www.youtube.com/watch?v=mpb3BvQazzI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "hoLLDAl3pjo",
+      "url": "https://www.youtube.com/watch?v=hoLLDAl3pjo"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "Y2_O2jIIbNM",
+      "url": "https://www.youtube.com/watch?v=Y2_O2jIIbNM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "zLqqi_wJ2dw",
+      "url": "https://www.youtube.com/watch?v=zLqqi_wJ2dw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "BSz2kYCWuMk",
+      "url": "https://www.youtube.com/watch?v=BSz2kYCWuMk"
+    }
+  ]
+}

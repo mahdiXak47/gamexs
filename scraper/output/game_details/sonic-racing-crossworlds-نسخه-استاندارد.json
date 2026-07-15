@@ -1,0 +1,269 @@
+{
+  "slug": "sonic-racing-crossworlds-نسخه-استاندارد",
+  "igdb_id": 325608,
+  "name": "Sonic Racing: CrossWorlds",
+  "summary": "Race across land, sea, air, space, and time in Sonic Racing: CrossWorlds! Warp through Travel Rings into new dimensions where something new awaits around every twist and turn.",
+  "first_release_year": 2025,
+  "developers": [
+    "Sonic Team"
+  ],
+  "publishers": [
+    "Sega"
+  ],
+  "genres": [
+    "Racing",
+    "Sport",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Sonic Racing"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Sonic The Hedgehog",
+    "Hatsune Miku",
+    "Persona",
+    "Yakuza: Like a Dragon"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "crossover",
+    "multiple playable characters",
+    "kart racing"
+  ],
+  "alternative_names": [
+    {
+      "name": "Sonic Racing: Cross Worlds",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "โซนิคเรซซิง ซิ่งทะยานข้ามโลก",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "索尼克賽車 交叉世界",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "索尼克赛车 交叉世界",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Sonic CrossWorlds",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "Sonic Racing Cross Worlds",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "SRCW",
+      "comment": "Abbreviation"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.RaceCrossWorlds.com"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://sonic.fandom.com/wiki/Sonic_Racing:_CrossWorlds"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005570"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/sonic-racing-crossworlds/9njzsfp2znvk"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/sonic-racing-crossworlds-switch/?srsltid=AfmBOopaYCoq0N5AGCQNFPpuxASwBRumXQRmnWWP24o5VnpF0duBRKso"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Sonic/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2486820"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/sonic-racing-cross-worlds"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sonic_Racing:_CrossWorlds"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/sonicthehedgehog"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/sonic_hedgehog"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/sonic-racing-crossworlds"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@SonictheHedgehog"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 25, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 22, 2025",
+      "status": "status_34",
+      "date_iso": "2025-09-22"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Dec 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-12-04"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 25, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 25, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 22, 2025",
+      "status": "status_34",
+      "date_iso": "2025-09-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 22, 2025",
+      "status": "status_34",
+      "date_iso": "2025-09-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 25, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-25"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 22, 2025",
+      "status": "status_34",
+      "date_iso": "2025-09-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 22, 2025",
+      "status": "status_34",
+      "date_iso": "2025-09-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 22, 2025",
+      "status": "status_34",
+      "date_iso": "2025-09-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 25, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 25, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4l77.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4l7b.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4l74.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar456b.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4l79.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar456c.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4l75.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4l76.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4l78.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4l7a.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4l7c.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar456a.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar43ut.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "Ks_Uxuhz6nc",
+      "url": "https://www.youtube.com/watch?v=Ks_Uxuhz6nc"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "wV5wnYM11pQ",
+      "url": "https://www.youtube.com/watch?v=wV5wnYM11pQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "JIS6rIf2HVU",
+      "url": "https://www.youtube.com/watch?v=JIS6rIf2HVU"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "L0zbZhoDU20",
+      "url": "https://www.youtube.com/watch?v=L0zbZhoDU20"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "C6BSu_x0gcE",
+      "url": "https://www.youtube.com/watch?v=C6BSu_x0gcE"
+    }
+  ]
+}

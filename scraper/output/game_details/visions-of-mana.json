@@ -1,0 +1,180 @@
+{
+  "slug": "visions-of-mana",
+  "igdb_id": 279636,
+  "name": "Visions of Mana",
+  "summary": "For the first time in over 15 years, a brand-new entry in the mainline Mana series arrives! Embark on a new adventure with Val, the newly appointed soul guard, as he sets off on a journey across the world to accompany his friend on her pilgrimage to the Tree of Mana. Experience action-packed gameplay and explore a vibrant semi-open 3D field, encountering fearsome foes and unlikely allies along the way.",
+  "first_release_year": 2024,
+  "developers": [
+    "Ouka Studio"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Mana"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "The Legend of the Sacred Sword: Visions of Mana",
+      "comment": "Japanese title - translated"
+    },
+    {
+      "name": "Seiken Desetsu: Visions of Mana",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "聖劍傳說 Visions of Mana",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "圣剑传说 Visions of Mana",
+      "comment": "Chinese title - simplified"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008215"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/visions-of-mana/9NJ5WV40PD08"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://mana.square-enix-games.com/en-us"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Visions_of_Mana"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2490990/Visions_of_Mana/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/managame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/managame"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/managame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/visions-of-mana"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@squareenixna/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 29, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-29"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 28, 2024",
+      "status": "status_34",
+      "date_iso": "2024-08-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 29, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-29"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 28, 2024",
+      "status": "status_34",
+      "date_iso": "2024-08-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 29, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-29"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 28, 2024",
+      "status": "status_34",
+      "date_iso": "2024-08-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 29, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-29"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 28, 2024",
+      "status": "status_34",
+      "date_iso": "2024-08-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2qq4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar58gr.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "9biJipMQ-9Y",
+      "url": "https://www.youtube.com/watch?v=9biJipMQ-9Y"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "4nvRHj8YWEo",
+      "url": "https://www.youtube.com/watch?v=4nvRHj8YWEo"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "Io4_CfCLlW4",
+      "url": "https://www.youtube.com/watch?v=Io4_CfCLlW4"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "Egbnx0vbIOY",
+      "url": "https://www.youtube.com/watch?v=Egbnx0vbIOY"
+    }
+  ]
+}

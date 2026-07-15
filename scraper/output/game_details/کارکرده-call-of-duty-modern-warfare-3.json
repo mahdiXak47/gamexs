@@ -1,0 +1,192 @@
+{
+  "slug": "کارکرده-call-of-duty-modern-warfare-3",
+  "igdb_id": 260780,
+  "name": "Call of Duty: Modern Warfare III",
+  "summary": "The game brings \"open combat, \" offering players more choices in approaching the single-player missions. Makarov returns as the chief villain of the new campaign.\n\nThe newly introduced Carry Forward system will let players keep their progression and inventory from Modern Warfare II. Multiplayer fans can expect 16 maps at the launch and at least 12 coming later. Zombies mode will also return and should offer the largest zombie map to date.",
+  "first_release_year": 2023,
+  "developers": [
+    "Sledgehammer Games"
+  ],
+  "publishers": [
+    "Activision"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Call of Duty: Modern Warfare",
+    "Call of Duty"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Call of Duty"
+  ],
+  "game_engines": [
+    "IW Engine"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Call of Duty Modern Warfare 3",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "bootstrapper.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Modern_Warfare_III_(2023_video_game)"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://callofduty.fandom.com/wiki/Call_of_Duty:_Modern_Warfare_III"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/call-of-duty-modern-warfare-iii"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3595270"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/ModernWarfareIII/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.callofduty.com/modernwarfare3"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10011645"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/CallofDuty"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/callofduty/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/CallofDuty"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/callofduty.com"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@CallofDuty"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/callofdutyofficial?proof=6ef93afec9b0ebb7"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 10, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-10"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 10, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 10, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-10"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 14, 2023",
+      "status": "Alpha",
+      "date_iso": "2023-10-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 10, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-10"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 10, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-10"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 08, 2023",
+      "status": "Alpha",
+      "date_iso": "2023-10-08"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 08, 2023",
+      "status": "Alpha",
+      "date_iso": "2023-10-08"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 14, 2023",
+      "status": "Alpha",
+      "date_iso": "2023-10-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 14, 2023",
+      "status": "Alpha",
+      "date_iso": "2023-10-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2gcz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2gcy.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ITIcmA4Zwa8",
+      "url": "https://www.youtube.com/watch?v=ITIcmA4Zwa8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "UdvfkYt-8k4",
+      "url": "https://www.youtube.com/watch?v=UdvfkYt-8k4"
+    }
+  ]
+}

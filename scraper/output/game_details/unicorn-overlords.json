@@ -1,0 +1,141 @@
+{
+  "slug": "unicorn-overlords",
+  "igdb_id": 68353,
+  "name": "Unicorn Overlord",
+  "summary": "From the masterminds that brought 13 Sentinels: Aegis Rim and Odin Sphere, ATLUS x Vanillaware presents the rebirth of tactical fantasy RPG. Fight against fate and embark on a royal adventure to regain your reign alongside trustworthy allies.\n\nUnicorn Overlord combines the timeless tactical RPG genre with overworld exploration and innovative battle system for a unique epic fantasy experience in the iconic Vanillaware style.\n\nTraverse a vibrant world, assemble units and direct them into exquisitely animated battles. Perform heroic deeds and grow renown throughout the five nations. Cultivate a grand army with over 60 unique characters, from humans and elves to massive beasts and heavenly angels",
+  "first_release_year": 2024,
+  "developers": [
+    "Vanillaware"
+  ],
+  "publishers": [
+    "Atlus",
+    "Sega"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Strategy",
+    "Turn-based strategy (TBS)",
+    "Tactical"
+  ],
+  "themes": [
+    "Fantasy",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric",
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "tactical rpg ( trpg )"
+  ],
+  "alternative_names": [
+    {
+      "name": "聖獸之王",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "圣兽之王",
+      "comment": "Chinese title - simplified"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/atlustube"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/unicorn-overlord/9PL8S8WJZ1LF"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/unicorn-overlord-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002780"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://unicorn-overlord.com/en/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/vanillaware-unannounced-project"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/UnicornOverlord/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Atlus_jp"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://unicornoverlord.fandom.com/wiki/Unicorn_overlord_Wiki"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Unicorn_Overlord"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-08"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-08"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-08"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-03-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2iyr.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2iyq.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "I-enIFmoDrc",
+      "url": "https://www.youtube.com/watch?v=I-enIFmoDrc"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "Wr7_RTHy16c",
+      "url": "https://www.youtube.com/watch?v=Wr7_RTHy16c"
+    },
+    {
+      "title": "Demo Trailer",
+      "youtube_id": "1u4z9tDwohg",
+      "url": "https://www.youtube.com/watch?v=1u4z9tDwohg"
+    }
+  ]
+}

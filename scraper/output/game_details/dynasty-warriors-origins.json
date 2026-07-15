@@ -1,0 +1,180 @@
+{
+  "slug": "dynasty-warriors-origins",
+  "igdb_id": 303808,
+  "name": "Dynasty Warriors: Origins",
+  "summary": "Experience an unrivaled sense of realism on the battlefield, fueled by exhilarating 1 vs. 1,000 action and the rush of massive armies! A nameless hero conquers the turbulent and chaotic Three Kingdoms in this latest DYNASTY WARRIORS series entry.",
+  "first_release_year": 2025,
+  "developers": [
+    "Omega Force"
+  ],
+  "publishers": [
+    "Koei Tecmo"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Strategy",
+    "Hack and slash/Beat 'em up"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Dynasty Warriors"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Dynasty Warriors"
+  ],
+  "game_engines": [
+    "Katana Engine"
+  ],
+  "keywords": [
+    "steam trading cards",
+    "steam achievements",
+    "steam cloud",
+    "steam families"
+  ],
+  "alternative_names": [
+    {
+      "name": "真・三國無双 ORIGINS",
+      "comment": "Japanese title - stylized"
+    },
+    {
+      "name": "真・三国无双 起源",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "真・三國無雙 起源",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "DYNASTY WARRIORS: ORIGINS",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "DWORIGINS.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/KOEITECMOofficial"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/dynasty-warriors-origins/9P5HJQNX53XJ"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008191"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/dynasty-warriors-origins-switch-2/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2384580"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://koeitecmo.wiki/wiki/Dynasty_Warriors:_Origins"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dynasty_Warriors:_Origins"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/s_sangokumusou"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/koeitecmous/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/dynasty-warriors-origins"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.koeitecmoamerica.com/dw_origins/us/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-01-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 14, 2025",
+      "status": "status_34",
+      "date_iso": "2025-01-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 14, 2025",
+      "status": "status_34",
+      "date_iso": "2025-01-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jan 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-01-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-01-17"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Jan 22, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-01-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar33mf.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "QU48saHVmh4",
+      "url": "https://www.youtube.com/watch?v=QU48saHVmh4"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "wEJj6ahC38s",
+      "url": "https://www.youtube.com/watch?v=wEJj6ahC38s"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "AyRjVdaabqs",
+      "url": "https://www.youtube.com/watch?v=AyRjVdaabqs"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "yL69vFOt_lM",
+      "url": "https://www.youtube.com/watch?v=yL69vFOt_lM"
+    }
+  ]
+}

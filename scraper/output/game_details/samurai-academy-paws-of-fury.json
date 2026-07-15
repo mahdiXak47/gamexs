@@ -1,0 +1,127 @@
+{
+  "slug": "samurai-academy-paws-of-fury",
+  "igdb_id": 366773,
+  "name": "Samurai Academy: Paws of Fury",
+  "summary": "The village of Kakamucho is under attack by the Shogun’s cat armies! Join Hank, a dog samurai in a world of cats, and his friends as they reveal a sinister plot and save the day, samurai-style. Slash, dash, and laugh through this wacky third-person action adventure.",
+  "first_release_year": 2025,
+  "developers": [
+    "ZEROlife Games Ltd.",
+    "Fishing Cactus"
+  ],
+  "publishers": [
+    "Maximum Entertainment"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Kids",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "samurai",
+    "based on - movie",
+    "licensed game",
+    "anthropomorphism",
+    "animal protagonists"
+  ],
+  "alternative_names": [
+    {
+      "name": "SamuraiAcademy-PawsOfFury.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3735230"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/samurai-academy-paws-of-fury-switch/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/samurai-academy-paws-of-fury"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@MaximumEntmt"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/SamouraiAcademy"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/PawsOfFury"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/samuraiacademy.bsky.social"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SamuraiAcademyGame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/samuraiacademygame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10015397"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://pawsoffury.fandom.com/wiki/Samurai_Academy:_Paws_of_Fury"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 20, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 20, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 20, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar47kb.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar47ka.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar47kc.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "Rpp3fkgzj1I",
+      "url": "https://www.youtube.com/watch?v=Rpp3fkgzj1I"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "toxic-commando",
+  "igdb_id": 252485,
+  "name": "John Carpenter's Toxic Commando",
+  "summary": "Take control of one of the commandos, team up with your friends and send the Sludge God and its horde of things-that-should-never-be back to the underworld. Choose the class that matches your playstyle, pile into your favorite ride, and unload an array of gunfire, grenades, special abilities, and freaking katanas as you save the planet.",
+  "first_release_year": 2026,
+  "developers": [
+    "Saber Interactive"
+  ],
+  "publishers": [
+    "Focus Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Swarm Engine"
+  ],
+  "keywords": [
+    "online multiplayer",
+    "nextfest february 2026"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/focus-entmt.com"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.focus-entmt.com/en/games/john-carpenters-toxic-commando"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Focus_entmt"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/focusentmt"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2157830"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/focus_entmt/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/FocusEntertainmentOfficial/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/FocusEntertainmentOfficial"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/john-carpenters-toxic-commando/9mtgcz84m503"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004956"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/john-carpenters-toxic-commando"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/john-carpenters-toxic-commando"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 12, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 12, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-12"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 12, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2cgc.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ahDfS-wDsmM",
+      "url": "https://www.youtube.com/watch?v=ahDfS-wDsmM"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "svWU-rezMu0",
+      "url": "https://www.youtube.com/watch?v=svWU-rezMu0"
+    }
+  ]
+}

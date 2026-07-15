@@ -1,0 +1,186 @@
+{
+  "slug": "hello-kitty-island-adventure",
+  "igdb_id": 254871,
+  "name": "Hello Kitty Island Adventure",
+  "summary": "A cozy life sim/adventure hybrid featuring Hello Kitty and Friends. Create a unique, Sanrio-style original avatar and befriend iconic Sanrio characters like Kuromi, Badtz-Maru, Cinnamoroll, Chococat, and Aggretsuko. Share gifts, complete quests, and take part in island activities to deepen your bonds. Spruce up cabins to attract new visitors from among Hello Kitty’s many friends. Create a stylish wardrobe all your own, solve mysterious puzzles, cook delectable recipes, collect friendly critters, and fish, and explore the island solo or with a friend to unearth the many secrets of a massive in-game world.",
+  "first_release_year": 2023,
+  "developers": [
+    "Sunblink"
+  ],
+  "publishers": [
+    "Sunblink"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Simulator",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Hello Kitty"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "life simulation",
+    "character customization",
+    "fishing",
+    "crafting",
+    "cooking",
+    "underwater gameplay",
+    "mine cart sequence",
+    "friendship",
+    "cozy",
+    "gifting",
+    "decoration",
+    "available on - apple arcade"
+  ],
+  "alternative_names": [
+    {
+      "name": "Hello Kitty.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/hello-kitty-island-adventure-switch/"
+    },
+    {
+      "label": "iPad",
+      "url": "https://apps.apple.com/us/app/hello-kitty-island-adventure/id1553505132"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008904"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/hellokittyislandadventure"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://hellokittyislandadventure.com/"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/us/app/hello-kitty-island-adventure/id1553505132"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/hello-kitty-island-adventure"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/SunblinkGameDev"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@SunblinkGameDev"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2495100"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hello_Kitty_Island_Adventure"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "TBD",
+      "status": "Cancelled"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-01-30"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Jul 28, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-28"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jan 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-01-30"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jul 28, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-05"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Nov 13, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4p65.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4p64.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "IUTCrbGkmZg",
+      "url": "https://www.youtube.com/watch?v=IUTCrbGkmZg"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "VcOeBW92ioU",
+      "url": "https://www.youtube.com/watch?v=VcOeBW92ioU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "7WQoa5GL1nM",
+      "url": "https://www.youtube.com/watch?v=7WQoa5GL1nM"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "1WtDlmTD6w0",
+      "url": "https://www.youtube.com/watch?v=1WtDlmTD6w0"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "T9NMv6jrviY",
+      "url": "https://www.youtube.com/watch?v=T9NMv6jrviY"
+    }
+  ]
+}

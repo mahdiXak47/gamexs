@@ -1,0 +1,154 @@
+{
+  "slug": "moonscars",
+  "igdb_id": 194507,
+  "name": "Moonscars",
+  "summary": "Push the limits of your combat skills, and master new abilities to progress through an unforgiving nonlinear 2D world. Face off against the relentless darkness that seeks to destroy you. In Moonscars, every death is a lesson learnt—and as you overcome each challenge, new truths will be revealed.",
+  "first_release_year": 2022,
+  "developers": [
+    "Black Mermaid"
+  ],
+  "publishers": [
+    "Humble Games"
+  ],
+  "genres": [
+    "Platform",
+    "Hack and slash/Beat 'em up",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "metroidvania",
+    "female protagonist",
+    "stylized",
+    "pixel graphics",
+    "soulslike",
+    "previously on - prime gaming"
+  ],
+  "alternative_names": [
+    {
+      "name": "ムーンスカーエス",
+      "comment": "Japanese title - original"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/moonscarsgame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/hgMa7vPtqy"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005567"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/moonscars-switch/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/moonscars"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1374970/Moonscars"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.humblegames.com/games/moonscars"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/MoonscarsGame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://mobile.twitter.com/moonscarsgame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Moonscars"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 27, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-27"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 27, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-27"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 27, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 27, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-27"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 27, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-27"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 27, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1l0v.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "JTDm48PskDA",
+      "url": "https://www.youtube.com/watch?v=JTDm48PskDA"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "KBRrRj7S1HI",
+      "url": "https://www.youtube.com/watch?v=KBRrRj7S1HI"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "RlAbCbeEt60",
+      "url": "https://www.youtube.com/watch?v=RlAbCbeEt60"
+    }
+  ]
+}

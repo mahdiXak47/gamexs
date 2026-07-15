@@ -1,0 +1,126 @@
+{
+  "slug": "spellforce-conquest-of-eo",
+  "igdb_id": 204631,
+  "name": "SpellForce: Conquest of Eo",
+  "summary": "In a journey from humble start with a small wizard’s tower, explore the lands of Eo in a quest for magical might in this ever-changing strategy role playing game. Defeat armies and heroes in tactical combat, find mighty artefacts, raise knowledge and magic to become the most powerful mage of all.\n\nBecome the greatest of mages in this turn-based fantasy epic set in the world of SpellForce! From the humble beginnings of your small wizard’s tower, send forth your minions and heroes to explore the realms of Eo. Grow your influence and power and fill your grimoire with arcane knowledge. Face off against magical competitors in your hunt for ancient artefacts and hidden secrets as you build up your tower and area of influence to unleash the greatest spell the world has ever known.",
+  "first_release_year": 2023,
+  "developers": [
+    "Owned by Gravity"
+  ],
+  "publishers": [
+    "THQ Nordic"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Strategy",
+    "Turn-based strategy (TBS)"
+  ],
+  "themes": [
+    "Fantasy",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Spellforce"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "medieval",
+    "3d"
+  ],
+  "alternative_names": [
+    {
+      "name": "SFCoE.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/THQNordic/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/thqnordic"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/spellforce"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1581770/SpellForce_Conquest_of_Eo"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/THQNordic"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/thqnordic/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Spellforce:%20Conquest%20of%20EO"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008526"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/spellforce-conquest-of-eo"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/spellforce_conquest_of_eo"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://conquest.spellforce.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 03, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-02-03"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-07"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-07"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1pzv.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "LZ3BtjNLCe0",
+      "url": "https://www.youtube.com/watch?v=LZ3BtjNLCe0"
+    }
+  ]
+}

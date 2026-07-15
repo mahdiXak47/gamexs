@@ -1,0 +1,133 @@
+{
+  "slug": "ninja-gaiden-master-collection-نسخه-standard-edition-ps4",
+  "igdb_id": 143619,
+  "name": "Ninja Gaiden: Master Collection",
+  "summary": "The “Ninja Gaiden” series is respected and beloved across the entire gaming world, and has sold 6.8 million units in total.\nIn this collection, the three titles from the series which are included are: NINJA GAIDEN Sigma (released in 2007), NINJA GAIDEN Sigma 2 (released in 2009), and NINJA GAIDEN 3: Razor’s Edge (released in 2012).\nBecome the ultimate ninja and defeat deadly enemies!",
+  "first_release_year": 2021,
+  "developers": [
+    "Team NINJA"
+  ],
+  "publishers": [
+    "Koei Tecmo"
+  ],
+  "genres": [
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Ninja Gaiden"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "ninja",
+    "compilation"
+  ],
+  "alternative_names": [
+    {
+      "name": "Ninja Gaiden マスターコレクション",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "NINJA GAIDEN SIGMA.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ninja-gaiden-master-collection/9NCG3X89KRLD"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001248"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/ninja-gaiden-master-collection-switch/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/TeamNINJAStudio"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCM0d5CqnNiJu4zsPTnwmjAQ/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/sub/575623"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://teamninja-studio.com/ngmc"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 09, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-09"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 09, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-09"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 10, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-10"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 10, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-10"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 10, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arax2.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar46lo.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar46lk.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar46lq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar46lm.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar46lj.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "y8ByV0Z5oBk",
+      "url": "https://www.youtube.com/watch?v=y8ByV0Z5oBk"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "r0F7KLWX-ao",
+      "url": "https://www.youtube.com/watch?v=r0F7KLWX-ao"
+    }
+  ]
+}

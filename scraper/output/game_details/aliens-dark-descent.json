@@ -1,0 +1,144 @@
+{
+  "slug": "aliens-dark-descent",
+  "igdb_id": 204354,
+  "name": "Aliens: Dark Descent",
+  "summary": "Drop into the gripping journey of Aliens: Dark Descent, a squad-based, single-player action game in the iconic Alien franchise. Lead your soldiers in real-time to stop a new and terrifying kind of Xenomorph outbreak on Planet Lethe.",
+  "first_release_year": 2023,
+  "developers": [
+    "Tindalos Interactive"
+  ],
+  "publishers": [
+    "Focus Entertainment"
+  ],
+  "genres": [
+    "Strategy",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Alien"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "combat",
+    "realtime 3d"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/FocusEntertainmentOfficial"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/aliens-dark-descent/9MX7DMHK13SC"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005351"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCaLdl0827np4QVPESo794og"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/focusentmt"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Focus_Entmt"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/aliens-dark-descent"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1150440/Aliens_Dark_Descent"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Aliens:%20Dark%20Descent"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.focus-entmt.com/games/aliens-dark-descent"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 20, 2023",
+      "status": "Released",
+      "date_iso": "2023-06-20"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 20, 2023",
+      "status": "Released",
+      "date_iso": "2023-06-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 20, 2023",
+      "status": "Released",
+      "date_iso": "2023-06-20"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 20, 2023",
+      "status": "Released",
+      "date_iso": "2023-06-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 20, 2023",
+      "status": "Released",
+      "date_iso": "2023-06-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1pbn.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "-ptf9MSLQgU",
+      "url": "https://www.youtube.com/watch?v=-ptf9MSLQgU"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "YilVs3-B42k",
+      "url": "https://www.youtube.com/watch?v=YilVs3-B42k"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ipnZnvzzE1g",
+      "url": "https://www.youtube.com/watch?v=ipnZnvzzE1g"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "1RBHmsKl624",
+      "url": "https://www.youtube.com/watch?v=1RBHmsKl624"
+    }
+  ]
+}

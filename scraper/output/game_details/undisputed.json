@@ -1,0 +1,153 @@
+{
+  "slug": "undisputed",
+  "igdb_id": 146957,
+  "name": "Undisputed",
+  "summary": "Become Undisputed in the most authentic boxing game to date! Featuring true-to-life visuals, bone-jarring action, and more licensed boxers than ever before, Undisputed gives you unprecedented control to master every inch of the ring.",
+  "first_release_year": 2024,
+  "developers": [
+    "Steel City Interactive"
+  ],
+  "publishers": [
+    "Deep Silver",
+    "PLAION"
+  ],
+  "genres": [
+    "Fighting",
+    "Simulator",
+    "Sport",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Non-fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "violence",
+    "bloody",
+    "training",
+    "boxing",
+    "esports",
+    "championship",
+    "boxer"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@PlayUndisputed"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://playundisputed.com/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/3enHywe8Er"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009297"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/undisputed/9NQ6Z171XZX8"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/undisputed"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/PlayUndisputed/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1451190/Undisputed/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/playundisputed/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/PlayUndisputed"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 08, 2024",
+      "status": "status_34",
+      "date_iso": "2024-10-08"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 08, 2024",
+      "status": "status_34",
+      "date_iso": "2024-10-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 31, 2023",
+      "status": "Beta",
+      "date_iso": "2023-01-31"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-08"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 11, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-11"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 11, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-11"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar13bg.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "Lhh8NPrrXow",
+      "url": "https://www.youtube.com/watch?v=Lhh8NPrrXow"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "kikglPr3I4I",
+      "url": "https://www.youtube.com/watch?v=kikglPr3I4I"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "uxWfICfgzXM",
+      "url": "https://www.youtube.com/watch?v=uxWfICfgzXM"
+    }
+  ]
+}

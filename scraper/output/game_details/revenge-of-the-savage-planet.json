@@ -1,0 +1,186 @@
+{
+  "slug": "revenge-of-the-savage-planet",
+  "igdb_id": 314243,
+  "name": "Revenge of the Savage Planet",
+  "summary": "Revenge of the Savage Planet is an upbeat, satirical action adventure Sci-Fi. Jump, shoot and collect your way across vibrant alien worlds, uncovering new gear and upgrades, while discovering various hidden secrets.",
+  "first_release_year": 2025,
+  "developers": [
+    "Raccoon Logic"
+  ],
+  "publishers": [
+    "Raccoon Logic"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Savage Planet"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Towers.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SavagePlanetHub/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://revengeofthesavageplanet.wiki.gg/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009791"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/savageplanethub/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@SavagePlanetHub"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/SavagePlanetHub"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/7hCdVxrQWK"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/revenge-of-the-savage-planet"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.savageplanet.games"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2787320"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/revenge-of-the-savage-planet-9dc14c"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/revenge_of_the_savage_planet"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 05, 2025",
+      "status": "status_34",
+      "date_iso": "2025-05-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 08, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 08, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-08"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 08, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 05, 2025",
+      "status": "status_34",
+      "date_iso": "2025-05-05"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 05, 2025",
+      "status": "status_34",
+      "date_iso": "2025-05-05"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 29, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-29"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar33db.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "OUwQLsC5ku8",
+      "url": "https://www.youtube.com/watch?v=OUwQLsC5ku8"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "M02-r_vH580",
+      "url": "https://www.youtube.com/watch?v=M02-r_vH580"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "G7GBf0AuSes",
+      "url": "https://www.youtube.com/watch?v=G7GBf0AuSes"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "VzIwBczEdO8",
+      "url": "https://www.youtube.com/watch?v=VzIwBczEdO8"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "YLgTkasVIGI",
+      "url": "https://www.youtube.com/watch?v=YLgTkasVIGI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Zz2NrUqR8m4",
+      "url": "https://www.youtube.com/watch?v=Zz2NrUqR8m4"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "Du5rEZzn138",
+      "url": "https://www.youtube.com/watch?v=Du5rEZzn138"
+    }
+  ]
+}

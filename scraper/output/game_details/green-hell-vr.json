@@ -1,0 +1,119 @@
+{
+  "slug": "green-hell-vr",
+  "igdb_id": 152223,
+  "name": "Green Hell VR",
+  "summary": "Green Hell VR is the most complex and authentic survival game for VR. The game faithfully recreates the dangerous conditions of the Amazon jungle. Alone and stranded, you will never feel safe. To survive, you have to face your weaknesses. Maintaining hunger, thirst, fatigue and mental health is going to be an integral part of your journey. Wild animal attacks and tropical diseases could strike you down at any time and out of nowhere if you are not prepared. Since you won’t get any help from the outside world, you need to craft your tools and weapons, learn how to build shelters, and heal nasty wounds.",
+  "first_release_year": 2022,
+  "developers": [
+    "Incuvo SA"
+  ],
+  "publishers": [
+    "Incuvo SA"
+  ],
+  "genres": [
+    "Simulator",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Survival",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Virtual Reality"
+  ],
+  "series": [],
+  "spin_off_of": "Green Hell",
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "previously on - horizon catalog"
+  ],
+  "alternative_names": [
+    {
+      "name": "GHVR.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Green%20Hell%20VR"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004102"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://greenhellvr.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1782330"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/GreenHellVR"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/incuvogames/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/cn7DTwuKGp"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "Jun 09, 2022",
+      "status": "Released",
+      "date_iso": "2022-06-09"
+    },
+    {
+      "platform": "Meta Quest 2",
+      "region": null,
+      "date": "Apr 07, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-07"
+    },
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "Aug 15, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1fl5.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "vyAR5ohYW74",
+      "url": "https://www.youtube.com/watch?v=vyAR5ohYW74"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "fhUvkbEd0cM",
+      "url": "https://www.youtube.com/watch?v=fhUvkbEd0cM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Ub2G8f1-NCw",
+      "url": "https://www.youtube.com/watch?v=Ub2G8f1-NCw"
+    }
+  ]
+}

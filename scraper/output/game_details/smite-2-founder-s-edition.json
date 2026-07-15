@@ -1,0 +1,40 @@
+{
+  "slug": "smite-2-founder-s-edition",
+  "igdb_id": 331848,
+  "name": "Smite 2: Founder's Edition",
+  "summary": "",
+  "first_release_year": 2024,
+  "developers": [],
+  "publishers": [],
+  "genres": [],
+  "themes": [],
+  "game_modes": [
+    "Multiplayer"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/smite-2-founder's-edition/9P1J1N46CJRG"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 27, 2024",
+      "status": "Released",
+      "date_iso": "2024-08-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3bfj.jpg"
+  ],
+  "videos": []
+}

@@ -1,0 +1,181 @@
+{
+  "slug": "greak-memories-of-azur",
+  "igdb_id": 122126,
+  "name": "Greak: Memories of Azur",
+  "summary": "Greak: Memories of Azur is a beautiful single-player puzzle platformer adventure. You will take the role of three siblings: Greak, Adara and Raydel to guide them through the lands of Azur. Alternate control between them and use their unique abilities to escape from the Urlag invasion.",
+  "first_release_year": 2021,
+  "developers": [
+    "Navegante Entertainment"
+  ],
+  "publishers": [
+    "Team17"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "hand-drawn"
+  ],
+  "alternative_names": [
+    {
+      "name": "グリーク: アズールの記憶",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "Greak Memories of Azur.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCp2VhKTp7l4xxUeJzQ4zNaA"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1311070"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/team17"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/playgreak"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/playgreak"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/greak_memories_of_azur"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/greak-memories-of-azur-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002329"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://playgreak.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/playgreak"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/greak-memories-of-azur-e05a8d"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Greak%3A%20Memories%20of%20Azur"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 17, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-17"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 17, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 17, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 14, 2021",
+      "status": "Released",
+      "date_iso": "2021-12-14"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 14, 2021",
+      "status": "Released",
+      "date_iso": "2021-12-14"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 16, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-16"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 17, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-08-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar64x.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar64y.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "CX3GzWbokG4",
+      "url": "https://www.youtube.com/watch?v=CX3GzWbokG4"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "OLOgy6jBOPw",
+      "url": "https://www.youtube.com/watch?v=OLOgy6jBOPw"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "Qz6mXKrki6k",
+      "url": "https://www.youtube.com/watch?v=Qz6mXKrki6k"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "9mjNk-o5F6Y",
+      "url": "https://www.youtube.com/watch?v=9mjNk-o5F6Y"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "uFYIGR45OGM",
+      "url": "https://www.youtube.com/watch?v=uFYIGR45OGM"
+    }
+  ]
+}

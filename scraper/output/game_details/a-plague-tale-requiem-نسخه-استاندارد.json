@@ -1,0 +1,179 @@
+{
+  "slug": "a-plague-tale-requiem-نسخه-استاندارد",
+  "igdb_id": 152242,
+  "name": "A Plague Tale: Requiem",
+  "summary": "A Plague Tale: Requiem is an action-adventure game similar to its predecessor. The player assumes control of Amicia and must face against both soldiers from the French Inquisition and hordes of rats that are spreading the black plague. The gameplay is largely similar to the first game, though the combat system is significantly expanded. The game features a progression system in which the player will be awarded additional skills and abilities. Stealth players will unlock skills that allow them to sneak around more efficiently, while those who prefer a more lethal approach will unlock additional combat skills. Locations are also larger, giving players additional options to progress.",
+  "first_release_year": 2022,
+  "developers": [
+    "Asobo Studio"
+  ],
+  "publishers": [
+    "Focus Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Stealth",
+    "Drama",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "A Plague Tale"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Zouna"
+  ],
+  "keywords": [
+    "exploration",
+    "medieval",
+    "interactive fiction",
+    "dark",
+    "story driven",
+    "crafting",
+    "rats",
+    "resource management",
+    "cinematic",
+    "narration",
+    "atmospheric",
+    "emotional",
+    "historical fiction"
+  ],
+  "alternative_names": [
+    {
+      "name": "플래그 테일: 레퀴엠",
+      "comment": "Korean title"
+    },
+    {
+      "name": "APlagueTaleRequiem_x64.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/APlagueTale"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002255"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/a-plague-tale-requiem/9ND0JVB184XL"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1182900"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/APlagueTale"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://aplaguetale.fandom.com/wiki/A_Plague_Tale:_Requiem"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/a_plague_tale_requiem"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/aplaguetale"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.focus-home.com/en-us/games/a-plague-tale-requiem"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/focushome"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/A_Plague_Tale:_Requiem"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/focushomeinteractive"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/focusinteractive"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/a-plague-tale-requiem"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 18, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-18"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 18, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 18, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/aruiy.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "K6trXEz1YvM",
+      "url": "https://www.youtube.com/watch?v=K6trXEz1YvM"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "Y-Q5wHtguZI",
+      "url": "https://www.youtube.com/watch?v=Y-Q5wHtguZI"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "jN1VgU__NpU",
+      "url": "https://www.youtube.com/watch?v=jN1VgU__NpU"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "qIbzwb8vzNI",
+      "url": "https://www.youtube.com/watch?v=qIbzwb8vzNI"
+    },
+    {
+      "title": "Presentation",
+      "youtube_id": "l6MyYK6fVdg",
+      "url": "https://www.youtube.com/watch?v=l6MyYK6fVdg"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "zoEwC2TxiMA",
+      "url": "https://www.youtube.com/watch?v=zoEwC2TxiMA"
+    }
+  ]
+}

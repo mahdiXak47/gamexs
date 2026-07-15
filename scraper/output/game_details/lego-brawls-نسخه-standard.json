@@ -1,0 +1,208 @@
+{
+  "slug": "lego-brawls-نسخه-standard",
+  "igdb_id": 117006,
+  "name": "LEGO Brawls",
+  "summary": "Build your way to the top in this lighthearted, team action brawler where anything can happen.",
+  "first_release_year": 2019,
+  "developers": [
+    "Red Games"
+  ],
+  "publishers": [
+    "LEGO"
+  ],
+  "genres": [
+    "Fighting",
+    "Platform",
+    "Hack and slash/Beat 'em up",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Comedy",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "LEGO",
+    "LEGO Ninjago",
+    "Jurassic Park"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "side-scrolling",
+    "character creation",
+    "platform fighting",
+    "apple arcade",
+    "available on - apple arcade",
+    "available on - geforce now"
+  ],
+  "alternative_names": [
+    {
+      "name": "레고 브롤즈",
+      "comment": "Korean title"
+    },
+    {
+      "name": "レゴ ブロウルズ",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "Brawls.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lego_Brawls"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/app/lego-brawls/id1466964862"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/lego-brawls-switch/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/RedGamesCompany"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/lego-brawls"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/zg8JTysDUZ"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004343"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.legobrawlsgame.com/"
+    },
+    {
+      "label": "iPad",
+      "url": "https://apps.apple.com/app/lego-brawls/id1466964862"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/lego-brawls/9pdbzt6bh848"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCLLnfC6xidK6YjR8vnyTqPQ"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/LEGOBrawlsGame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/legobrawlsgame"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1731460/LEGO_Brawls"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/LEGO%20Brawls"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Sep 19, 2019",
+      "status": "Released",
+      "date_iso": "2019-09-19"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 02, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-02"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 02, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-02"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 02, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-02"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 02, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-02"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 02, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-02"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 02, 2022",
+      "status": "Released",
+      "date_iso": "2022-09-02"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Oct 25, 2019",
+      "status": "Released",
+      "date_iso": "2019-10-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1gw3.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar440e.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Update Trailer",
+      "youtube_id": "trGk7owiA7A",
+      "url": "https://www.youtube.com/watch?v=trGk7owiA7A"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "lmli7NH4RFY",
+      "url": "https://www.youtube.com/watch?v=lmli7NH4RFY"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "O7xku53201w",
+      "url": "https://www.youtube.com/watch?v=O7xku53201w"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "FzyblStfV8Q",
+      "url": "https://www.youtube.com/watch?v=FzyblStfV8Q"
+    }
+  ]
+}

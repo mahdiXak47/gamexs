@@ -1,0 +1,172 @@
+{
+  "slug": "nicktoons-and-the-dice-of-destiny",
+  "igdb_id": 347647,
+  "name": "Nicktoons & The Dice of Destiny",
+  "summary": "Bring iconic Nickelodeon heroes into a world of fantasy and real-time RPG action. Throw the dice and dive into a wild, action-packed adventure with a selection of Nickelodeon characters. Featuring epic battles, dynamic environments, it's an engaging gameplay experience for players of all ages.",
+  "first_release_year": 2025,
+  "developers": [
+    "PetitFabrik",
+    "GameMill Entertainment"
+  ],
+  "publishers": [
+    "GameMill Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Nicktoons"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Nickelodeon",
+    "Spongebob Squarepants",
+    "Teenage Mutant Ninja Turtles",
+    "The Fairly OddParents",
+    "Jimmy Neutron",
+    "Danny Phantom",
+    "Avatar: The Last Airbender",
+    "My Life as a Teenage Robot",
+    "Rugrats"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "based on - tv show",
+    "crossover",
+    "steam achievements",
+    "xbox controller support for pc",
+    "licensed game",
+    "controller support",
+    "cartoon",
+    "steam families",
+    "steam remote play"
+  ],
+  "alternative_names": [
+    {
+      "name": "Nicktoons and The Dice of Destiny",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/nicktoons-and-the-dice-of-destiny"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://gamemill.com/games/nicktoonsdiceofdestiny/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://nickelodeon.fandom.com/wiki/Nicktoons_%26_The_Dice_of_Destiny"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/nicktoons-and-the-dice-of-destiny-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/nicktoons-the-dice-of-destiny/9PB1N3ZX83T2"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10014501/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@nickrpggame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/nickrpggame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/BAB8CzEzEG"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/nickrpggame"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/nicktoons-and-the-dice-of-destiny-ebc745"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3051490"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Dec 05, 2025",
+      "status": "Released",
+      "date_iso": "2025-12-05"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4ehp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4eho.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3zfs.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4ehq.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "yypJK3wKscc",
+      "url": "https://www.youtube.com/watch?v=yypJK3wKscc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "1LZL5aJ0LJk",
+      "url": "https://www.youtube.com/watch?v=1LZL5aJ0LJk"
+    }
+  ]
+}

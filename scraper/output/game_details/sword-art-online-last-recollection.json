@@ -1,0 +1,108 @@
+{
+  "slug": "sword-art-online-last-recollection",
+  "igdb_id": 225351,
+  "name": "Sword Art Online: Last Recollection",
+  "summary": "Based on Sword Art Online’s War of Underworld anime arc, a new story unfolds with tough challenges that await our beloved hero, Kirito, and his new friends. Players will unmask the Dark Knight and find out if Kirito and the crew will survive the relentless battling against the forces of the Dark Territory!\n\nIt’s the perfect game to introduce during SAO’s 10th Anniversary, when everyone can reminisce about their favorite SAO memories while meeting their favorite character again.\n\nThe newest installment of the SWORD ART ONLINE video game series comes to next-gen consoles with a cast featuring characters from previous SAO anime.\n\nSWORD ART ONLINE Last Recollection boasts a brand new, original storyline that explores what would have happened if Kirito, Eugeo, and their allies didn’t meet their tragic end in The War of the Underworld.\n\nExperience an exciting and elevated battle system with your friends against familiar foes from the Sword Art Online series!",
+  "first_release_year": 2023,
+  "developers": [
+    "Aquria"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [],
+  "series": [
+    "Sword Art Online"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Sword Art Online"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "sao_lr.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Sword%20Art%20Online:%20Last%20Recollection"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://lr.sao-game.jp/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004721"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1566880"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 05, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-05"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-06"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-06"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 06, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar24m9.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "zy5t-wFW3Fk",
+      "url": "https://www.youtube.com/watch?v=zy5t-wFW3Fk"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "star-wars-tales-from-the-galaxy's-edge-نسخه-enhanced-ps-vr2",
+  "igdb_id": 134957,
+  "name": "Star Wars: Tales from the Galaxy's Edge",
+  "summary": "Star Wars: Tales from the Galaxy's Edge gives you the chance to explore the planet of Batuu as you live out your own unforgettable story. You’ll fight alongside classic characters and battle intimidating new villains as you explore parts of the galaxy that have never been seen before.",
+  "first_release_year": 2020,
+  "developers": [
+    "ILMxLAB"
+  ],
+  "publishers": [
+    "Disney Electronic Content, Inc."
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Virtual Reality"
+  ],
+  "series": [
+    "Star Wars: Tales from the Galaxy's Edge"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Star Wars"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "star wars",
+    "virtual reality experience",
+    "canon star wars"
+  ],
+  "alternative_names": [
+    {
+      "name": "Star Wars VR: Tales from the Galaxy’s Edge",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Tales from the Galaxy’s Edge",
+      "comment": "Abbreviation"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://starwars.fandom.com/wiki/Star_Wars:_Tales_from_the_Galaxy%27s_Edge"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ilmxlab.com/sw-tales"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Star_Wars:_Tales_from_the_Galaxy's_Edge"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Star%20Wars%3A%20Tales%20from%20the%20Galaxy%E2%80%99s%20Edge"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Meta Quest 2",
+      "region": null,
+      "date": "Nov 19, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-19"
+    },
+    {
+      "platform": "Oculus VR",
+      "region": null,
+      "date": "Nov 19, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-19"
+    },
+    {
+      "platform": "Oculus Quest",
+      "region": null,
+      "date": "Nov 19, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-19"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

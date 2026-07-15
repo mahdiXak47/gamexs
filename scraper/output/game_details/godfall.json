@@ -1,0 +1,144 @@
+{
+  "slug": "godfall",
+  "igdb_id": 127343,
+  "name": "Godfall",
+  "summary": "Godfall is a looter-slasher set in a bright fantasy universe filled with heroic knights and arcane magic. Embark on adventure in a fantasy action RPG that utilizes high-impact third-person melee combat to engage players as they hunt for loot, don legendary armor sets and defeat vicious enemies. Face challenging missions that reward you with head-turning loot as you vanquish the armies that stand against you.",
+  "first_release_year": 2020,
+  "developers": [
+    "Counterplay Games"
+  ],
+  "publishers": [
+    "Gearbox Publishing"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "갓폴",
+      "comment": "Korean title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/PlayGodfall"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/PlayGodfall"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.godfall.com/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/product/godfall/home"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Godfall"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Godfall"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/PlayGodfall"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/playgodfall"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 07, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-07"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 07, 2022",
+      "status": "Released",
+      "date_iso": "2022-04-07"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 10, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-10"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 19, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar12wh.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "7HhUpLqHyv4",
+      "url": "https://www.youtube.com/watch?v=7HhUpLqHyv4"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "XQq64tLTQSg",
+      "url": "https://www.youtube.com/watch?v=XQq64tLTQSg"
+    },
+    {
+      "title": "Gamescom 2020 Gameplay Interview",
+      "youtube_id": "cs7R6K-Spvg",
+      "url": "https://www.youtube.com/watch?v=cs7R6K-Spvg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "TlHZ6FS2AOc",
+      "url": "https://www.youtube.com/watch?v=TlHZ6FS2AOc"
+    }
+  ]
+}

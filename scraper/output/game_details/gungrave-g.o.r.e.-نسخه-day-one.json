@@ -1,0 +1,78 @@
+{
+  "slug": "gungrave-g.o.r.e.-نسخه-day-one",
+  "igdb_id": 214133,
+  "name": "Gungrave G.O.R.E: Day One Edition",
+  "summary": "Gungrave G.O.R.E is a stylish third-person action shooter by South Korean studio IGGYMOB, starring Grave, a resurrected former mafia hitman turned one-man army. Set in a near-future world threatened by the alien drug Seed, the game follows Grave’s gory, bullet-filled quest for vengeance across Southeast Asia while protecting his adopted daughter, Mika.\n\nDay One Edition content:\n- Death Ronin Grave\n- O.D. Grave",
+  "first_release_year": 2022,
+  "developers": [
+    "Iggymob"
+  ],
+  "publishers": [
+    "Prime Matter"
+  ],
+  "genres": [
+    "Fighting",
+    "Shooter",
+    "Simulator",
+    "Strategy",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 22, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-11-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 22, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-11-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 22, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-11-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 22, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-11-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 22, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-11-22"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "hot-wheels-monster-trucks-stunt-mayhem-نسخه-استاندارد",
+  "igdb_id": 313494,
+  "name": "Hot Wheels Monster Trucks: Stunt Mayhem",
+  "summary": "Packed with epic stunts and your fan-favorite monster trucks in action! You can smash, crash, and perform mind-blowing tricks across fantastical arenas in this adrenaline-fueled arcade adventure!",
+  "first_release_year": 2024,
+  "developers": [
+    "3DClouds"
+  ],
+  "publishers": [
+    "GameMill Entertainment"
+  ],
+  "genres": [
+    "Racing"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Hot Wheels"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "licensed game",
+    "licensed cars"
+  ],
+  "alternative_names": [
+    {
+      "name": "HTW.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/hot-wheels-monster-trucks-stunt-mayhem-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009076"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/hot-wheels-monster-trucks-stunt-mayhem-f209c0"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@GameMillEntertainment"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/GameMillEnt"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://gamemill.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2468400"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-18"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-18"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-18"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 18, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar33wd.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar33wb.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar33wc.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "AfbG-FAE0mw",
+      "url": "https://www.youtube.com/watch?v=AfbG-FAE0mw"
+    }
+  ]
+}

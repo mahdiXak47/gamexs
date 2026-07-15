@@ -1,0 +1,115 @@
+{
+  "slug": "life-is-strange-reunion",
+  "igdb_id": 386431,
+  "name": "Life is Strange: Reunion",
+  "summary": "Life is Strange: Reunion is the thrilling finale to the Max and Chloe saga, a chapter that brings their book to a close. This is a full circle moment for both developers and fans—one that builds on everything that has come before. And even as the game delivers a reunion long-thought impossible, it also caps off our time at Caledon University in a literal blaze of glory.",
+  "first_release_year": 2026,
+  "developers": [
+    "Deck Nine"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Life is Strange"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Life is Strange"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Life is Strange 5",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://lifeisstrange.square-enix-games.com/en-us"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2624870/Life_is_Strange_Reunion/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/LifeIsStrange"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/LifeIsStrangeGame/?utm_source=Press%2520Release&utm_medium=email&utm_campaign=Press%2520Release%2520-%2520Pre%2520Order&utm_content=Facebook"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/lifeisstrangegame/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/lifeisstrange"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/life-is-strange-reunion/9P5KJSG9S66N"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP0082-PPSA28099_00-0080378134598239"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 26, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-26"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 26, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 26, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-26"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar54s1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar54yg.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar54s0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar54rz.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "IGesY6qKQys",
+      "url": "https://www.youtube.com/watch?v=IGesY6qKQys"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "ilDm1_jlWbM",
+      "url": "https://www.youtube.com/watch?v=ilDm1_jlWbM"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "battlefield-6-نسخه-phantom",
+  "igdb_id": 359864,
+  "name": "Battlefield 6: Phantom Edition",
+  "summary": "The Phantom Edition is an upgraded version of Battlefield 6.\n\nIt includes:\nBF Pro Token: grants the first Battle Pass, 25 tier skips, and exclusive unlocks.\nPhantom Pack: a collection of cosmetic items such as 4 soldier skins, two weapon skins, a melee knife skin, a vehicle skin, a weapon sticker, a weapon charm, and a dog tag.\nPhantom XP Boost Set: temporary boosts for weapon and career XP rates.\nPre-order Bonus (Tombstone Pack): includes cosmetic items and XP boosts regardless of edition",
+  "first_release_year": 2025,
+  "developers": [
+    "EA Digital Illusions CE"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/battlefield-6--phantom-edition"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2807960"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP0006-PPSA19534_00-SANTIAGODELUXE00"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/battlefield-6-phantom-edition/9ngcn2r5qb79"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 10, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 10, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-10"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 10, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-10-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar40ft.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar40fs.jpg"
+  ],
+  "videos": []
+}

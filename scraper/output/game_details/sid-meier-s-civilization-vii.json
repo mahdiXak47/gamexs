@@ -1,0 +1,278 @@
+{
+  "slug": "sid-meier-s-civilization-vii",
+  "igdb_id": 305006,
+  "name": "Sid Meier's Civilization VII",
+  "summary": "Rule as one of many legendary leaders from throughout history. Establish your civilization, construct cities and architectural wonders to expand your territory, conquer or cooperate with rival civilizations in pursuit of prosperity, and explore the far reaches of the unknown world. Will you build an empire that stands the test of time?",
+  "first_release_year": 2025,
+  "developers": [
+    "Firaxis Games"
+  ],
+  "publishers": [
+    "2K"
+  ],
+  "genres": [
+    "Simulator",
+    "Strategy",
+    "Turn-based strategy (TBS)",
+    "Tactical"
+  ],
+  "themes": [
+    "Historical"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Civilization"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Sid Meier"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Civ7",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Sid Meier's Civilization 7",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Civ 7",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/sid-meiers-civilization-vii"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/civilization/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/civgame/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/CivGame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://civilization.2k.com/civ-vii/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/civilizationofficial"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003168"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/sid-meiers-civilization-vii-nintendo-switch-2-edition-upgrade-pack-switch-2/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/sid-meier's-civilization-vii/9NG6VZHN5GQL"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1295660/Sid_Meiers_Civilization_VII/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/civ/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/sid-meiers-civilization-vii"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Jun 05, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-05"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Feb 11, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-11"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 11, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-11"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 06, 2025",
+      "status": "status_34",
+      "date_iso": "2025-02-06"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Feb 11, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-11"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Feb 06, 2025",
+      "status": "status_34",
+      "date_iso": "2025-02-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 11, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-11"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 11, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-11"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 11, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-11"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 11, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-11"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Feb 11, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-11"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 06, 2025",
+      "status": "status_34",
+      "date_iso": "2025-02-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 06, 2025",
+      "status": "status_34",
+      "date_iso": "2025-02-06"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Feb 06, 2025",
+      "status": "status_34",
+      "date_iso": "2025-02-06"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Feb 06, 2025",
+      "status": "status_34",
+      "date_iso": "2025-02-06"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 06, 2025",
+      "status": "status_34",
+      "date_iso": "2025-02-06"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 06, 2025",
+      "status": "status_34",
+      "date_iso": "2025-02-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar33gh.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "pygcgE3a_uY",
+      "url": "https://www.youtube.com/watch?v=pygcgE3a_uY"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "kK_JrrP9m2U",
+      "url": "https://www.youtube.com/watch?v=kK_JrrP9m2U"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Qw6H7r8S_Wk",
+      "url": "https://www.youtube.com/watch?v=Qw6H7r8S_Wk"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "6TUU6JL7OTU",
+      "url": "https://www.youtube.com/watch?v=6TUU6JL7OTU"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "-gfWzz1WEjw",
+      "url": "https://www.youtube.com/watch?v=-gfWzz1WEjw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "46yANM1as0s",
+      "url": "https://www.youtube.com/watch?v=46yANM1as0s"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "MGOdJMNN2b0",
+      "url": "https://www.youtube.com/watch?v=MGOdJMNN2b0"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "I5IFbAmsGGQ",
+      "url": "https://www.youtube.com/watch?v=I5IFbAmsGGQ"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "gV0waX2uPLg",
+      "url": "https://www.youtube.com/watch?v=gV0waX2uPLg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "EnLuyGdt940",
+      "url": "https://www.youtube.com/watch?v=EnLuyGdt940"
+    }
+  ]
+}

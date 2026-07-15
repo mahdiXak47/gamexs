@@ -1,0 +1,119 @@
+{
+  "slug": "tourist-bus-simulator",
+  "igdb_id": 109074,
+  "name": "Tourist Bus Simulator",
+  "summary": "Create your own bus empire on Fuerteventura now! Thanks to the economy system in the new Tourist Bus Simulator, you will be able to found your own bus company on the popular holiday island Fuerteventura.",
+  "first_release_year": 2018,
+  "developers": [
+    "TML-Studios"
+  ],
+  "publishers": [
+    "Aerosoft",
+    "Contact Sales"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator"
+  ],
+  "themes": [
+    "Business",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/953580"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/gaming/TMLStudiosDE"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Tourist%20Bus%20Simulator"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://de.wikipedia.org/wiki/TML-Studios"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/tYgKN5cJf6"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003309"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.tml-studios.de/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/tmlstudios"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/tmlstudiosde"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/TMLTV"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 12, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 12, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-12"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 12, 2022",
+      "status": "Released",
+      "date_iso": "2022-05-12"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 06, 2018",
+      "status": "Released",
+      "date_iso": "2018-12-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arqme.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "R-dqSeAz24w",
+      "url": "https://www.youtube.com/watch?v=R-dqSeAz24w"
+    }
+  ]
+}

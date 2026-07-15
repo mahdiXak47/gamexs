@@ -1,0 +1,169 @@
+{
+  "slug": "ghost-of-tsushima-نسخه-director's-cut-ps4",
+  "igdb_id": 75235,
+  "name": "Ghost of Tsushima",
+  "summary": "Uncover the hidden wonders of Tsushima in this open-world action adventure. Forge a new path and wage an unconventional war for the freedom of Tsushima. Challenge opponents with your katana, master the bow to eliminate distant threats, develop stealth tactics to ambush enemies in order to win over the mongols.",
+  "first_release_year": 2020,
+  "developers": [
+    "Sucker Punch Productions"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Stealth",
+    "Drama",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Ghost"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "assassin",
+    "samurai",
+    "action-adventure",
+    "japan",
+    "feudal japan",
+    "horse riding",
+    "poisoning",
+    "the game awards - best action-adventure game - nominee",
+    "the game awards - best art direction - winner",
+    "the game awards - best audio design - nominee",
+    "the game awards - best game direction - nominee",
+    "the game awards - best narrative - nominee",
+    "the game awards - best performance - nominee",
+    "the game awards - game of the year - nominee"
+  ],
+  "alternative_names": [
+    {
+      "name": "고오쓰",
+      "comment": "Korean Acronym"
+    },
+    {
+      "name": "Призрак Цусимы",
+      "comment": "Russian title"
+    },
+    {
+      "name": "对马岛之鬼",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "對馬戰鬼",
+      "comment": "Chinese title - traditional"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/GacDJN9"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ghost_of_Tsushima"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.suckerpunch.com/category/games/ghost-of-tsushima/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/ghostoftsushima"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://ghostoftsushima.wikia.com/wiki/Ghost_of_Tsushima"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Ghost%20of%20Tsushima"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/SuckerPunchProd"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/ghostoftushima?hl=en"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Ghostoftsushimabr"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP9000-CUSA11456_00-GHOSTDIRECTORPS4"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "status_36",
+      "date_iso": "2020-11-12"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 17, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-07-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4u6z.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/jvycylrsfekd8ltpoedi.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/j7dbzjr8ddshnaewmb4d.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4u70.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4x37.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4x36.jpg"
+  ],
+  "videos": [
+    {
+      "title": "PGW17 Trailer",
+      "youtube_id": "k3CqzUCNDjU",
+      "url": "https://www.youtube.com/watch?v=k3CqzUCNDjU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Zbq7BnsQhrw",
+      "url": "https://www.youtube.com/watch?v=Zbq7BnsQhrw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "rTNfgIAi3pY",
+      "url": "https://www.youtube.com/watch?v=rTNfgIAi3pY"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Ur0pQblaZcE",
+      "url": "https://www.youtube.com/watch?v=Ur0pQblaZcE"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "MamonBeCaAQ",
+      "url": "https://www.youtube.com/watch?v=MamonBeCaAQ"
+    },
+    {
+      "title": "E3 2018 Trailer",
+      "youtube_id": "f_e-yPeD1sM",
+      "url": "https://www.youtube.com/watch?v=f_e-yPeD1sM"
+    }
+  ]
+}

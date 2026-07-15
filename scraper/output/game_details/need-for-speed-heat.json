@@ -1,0 +1,154 @@
+{
+  "slug": "need-for-speed-heat",
+  "igdb_id": 119161,
+  "name": "Need for Speed: Heat",
+  "summary": "Hustle by day and risk it all at night in Need for Speed Heat, a white-knuckle street racer, where the lines of the law fade as the sun starts to set. By day, Palm City hosts the Speedhunter Showdown, a sanctioned competition where you earn Bank to customize and upgrade your high-performance cars. At night, ramp up the intensity in illicit street races that build your reputation, getting you access to bigger races and better parts. But stay ready – cops are waiting and not all of them play fair.",
+  "first_release_year": 2019,
+  "developers": [
+    "Ghost Games"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Racing",
+    "Sport",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Need for Speed"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Need for Speed"
+  ],
+  "game_engines": [
+    "Frostbite 3"
+  ],
+  "keywords": [
+    "cars",
+    "3d",
+    "vehicle simulation",
+    "vehicles"
+  ],
+  "alternative_names": [
+    {
+      "name": "极品飞车系列: Heat",
+      "comment": "Chinese title"
+    },
+    {
+      "name": "極速快感：熱焰",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "NFS: Heat",
+      "comment": "Abbreviation"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/NFSHeat"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://nfs.fandom.com/wiki/Need_for_Speed:_Heat"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Need_for_Speed_Heat"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/234659"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/need-for-speed-heat/BRZZLBF5T245"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1222680"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/need-for-speed-heat-ccbf8d"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/needforspeed"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Need%20for%20Speed%20Heat"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/needforspeed"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/needforspeed"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/en-gb/games/need-for-speed/need-for-speed-heat"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 08, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-11-08"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 08, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-11-08"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 08, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-11-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar67l.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "p4Q3uh2RaZo",
+      "url": "https://www.youtube.com/watch?v=p4Q3uh2RaZo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "9ewiJJe_nYI",
+      "url": "https://www.youtube.com/watch?v=9ewiJJe_nYI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "04KPiGmC7Lc",
+      "url": "https://www.youtube.com/watch?v=04KPiGmC7Lc"
+    }
+  ]
+}

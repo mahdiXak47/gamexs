@@ -1,0 +1,115 @@
+{
+  "slug": "tokyo-xtreme-racer",
+  "igdb_id": 314475,
+  "name": "Tokyo Xtreme Racer",
+  "summary": "Countless souls wander the ring road at night.\nThe title of “fastest” never fades, no matter how times change.\n\nThe stage of battle is a sealed future Tokyo.\nRace through the night highways weaving through the city in your customized machine.\nDefeat the countless rivals and aim to become the fastest on the Shuto Expressway.",
+  "first_release_year": 2025,
+  "developers": [
+    "Genki Co. Ltd."
+  ],
+  "publishers": [
+    "Genki Co. Ltd."
+  ],
+  "genres": [
+    "Racing",
+    "Role-playing (RPG)"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Tokyo Xtreme Racer"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Tokyo Xtreme Racer"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "street racing",
+    "japan",
+    "upgradeable vehicles",
+    "sports cars",
+    "tokyo",
+    "highways",
+    "car racing"
+  ],
+  "alternative_names": [
+    {
+      "name": "TokyoXtremeRacer.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2634950/Tokyo_Xtreme_Racer/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10016323"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/tokyo-xtreme-racer-2025"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Tokyo_Xtreme"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/tokyo_xtreme_racer/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@GenkiCoLtdOfficial"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://shutoko-battle-jp.genki.co.jp/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jan 23, 2025",
+      "status": "Beta",
+      "date_iso": "2025-01-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 26, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 25, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar39cu.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5gn2.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "umlztIQ7HeE",
+      "url": "https://www.youtube.com/watch?v=umlztIQ7HeE"
+    }
+  ]
+}

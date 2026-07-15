@@ -1,0 +1,156 @@
+{
+  "slug": "resident-evil-code-veronica-x",
+  "igdb_id": 24369,
+  "name": "Resident Evil Code: Veronica X",
+  "summary": "Resident Evil Code: Veronica X is a port of the original game with additional content comprised of improved graphics along with an extra nine minutes of cutscenes. The character Steve had his hairstyle changed to have a noticeable fringe, and no longer proudly shows his forehead. This change was made to all cutscenes that feature him, as well as to the family photograph he carries with him. Apart from these changes, the game is almost the same as the original one.",
+  "first_release_year": 2001,
+  "developers": [
+    "Nextech"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [
+    "Shooter",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Resident Evil"
+  ],
+  "spin_off_of": "Resident Evil Code: Veronica",
+  "franchises": [
+    "Resident Evil"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Resident Evil CODE: Veronica X HD",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "RECVX",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Biohazard CODE: Veronica Complete",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "Biohazard CODE: Veronica X",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Biohazard - Code Veronica - Kanzenban",
+      "comment": "Japanese title - romanization"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/RE_Games"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/232117"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Resident_Evil_%E2%80%93_Code:_Veronica"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Dreamcast",
+      "region": null,
+      "date": "Mar 22, 2001",
+      "status": "Released",
+      "date_iso": "2001-03-22"
+    },
+    {
+      "platform": "PlayStation 2",
+      "region": null,
+      "date": "Aug 21, 2001",
+      "status": "Released",
+      "date_iso": "2001-08-21"
+    },
+    {
+      "platform": "PlayStation 2",
+      "region": null,
+      "date": "Sep 14, 2001",
+      "status": "Released",
+      "date_iso": "2001-09-14"
+    },
+    {
+      "platform": "PlayStation 2",
+      "region": null,
+      "date": "Mar 22, 2001",
+      "status": "Released",
+      "date_iso": "2001-03-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 09, 2017",
+      "status": "Released",
+      "date_iso": "2017-05-09"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 10, 2017",
+      "status": "Released",
+      "date_iso": "2017-05-10"
+    },
+    {
+      "platform": "Nintendo GameCube",
+      "region": null,
+      "date": "Mar 12, 2004",
+      "status": "Released",
+      "date_iso": "2004-03-12"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Mar 13, 2012",
+      "status": "Released",
+      "date_iso": "2012-03-13"
+    },
+    {
+      "platform": "Nintendo GameCube",
+      "region": null,
+      "date": "Aug 07, 2003",
+      "status": "Released",
+      "date_iso": "2003-08-07"
+    },
+    {
+      "platform": "Nintendo GameCube",
+      "region": null,
+      "date": "Dec 03, 2003",
+      "status": "Released",
+      "date_iso": "2003-12-03"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1cio.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "xQkpj0b_Hg8",
+      "url": "https://www.youtube.com/watch?v=xQkpj0b_Hg8"
+    }
+  ]
+}

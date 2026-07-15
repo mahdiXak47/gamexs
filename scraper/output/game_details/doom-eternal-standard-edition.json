@@ -1,0 +1,257 @@
+{
+  "slug": "doom-eternal-standard-edition",
+  "igdb_id": 103298,
+  "name": "Doom Eternal",
+  "summary": "Doom Eternal is a first-person shooter developed by id Software and the sequel to Doom (2016). Players control the Doom Slayer as he fights to end a demonic invasion of Earth. Combat is built around aggressive resource management, where health, armor, and ammo are gained by executing, igniting, or chainsawing enemies. The game introduces platforming segments, destructible enemy weak points, an expanded weapon arsenal, and a multiplayer mode called Battlemode, where one player-controlled Slayer fights two player-controlled demons.",
+  "first_release_year": 2020,
+  "developers": [
+    "id Software"
+  ],
+  "publishers": [
+    "Bethesda Softworks"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction",
+    "Horror",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Doom"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Doom"
+  ],
+  "game_engines": [
+    "id Tech 7"
+  ],
+  "keywords": [
+    "exploration",
+    "violence",
+    "bloody",
+    "difficult",
+    "demons",
+    "gore",
+    "apocalypse",
+    "silent protagonist",
+    "collectibles",
+    "the game awards - best score or music - nominee",
+    "the game awards - best action game - nominee",
+    "the game awards - best audio design - nominee",
+    "the game awards - game of the year - nominee",
+    "chainsaw"
+  ],
+  "alternative_names": [
+    {
+      "name": "DOOM Eternal",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "idTechLauncher.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/doom"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://doom.fandom.com/wiki/Doom_Eternal"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@bethesda"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/doom.com"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/doom-eternal-standard-edition/9P5S26314HWQ"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/232624"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/doom-eternal-switch/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Doom"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/DOOM"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discordapp.com/invite/DOOM"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/doom"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Doom%20Eternal"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://bethesda.net/en/game/doom"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/782330"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Doom_Eternal"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/doom-eternal--deluxe-edition"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/doom_eternal"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 20, 2020",
+      "status": "Released",
+      "date_iso": "2020-03-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 19, 2020",
+      "status": "Released",
+      "date_iso": "2020-03-19"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 15, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-15"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 08, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-08"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 20, 2020",
+      "status": "Released",
+      "date_iso": "2020-03-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 29, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-29"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 29, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-29"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Mar 20, 2020",
+      "status": "Released",
+      "date_iso": "2020-03-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4do.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar56o.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5qz.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6dy.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "BbIBsrnkOf0",
+      "url": "https://www.youtube.com/watch?v=BbIBsrnkOf0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "2HOClc6Svg4",
+      "url": "https://www.youtube.com/watch?v=2HOClc6Svg4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "_J2YcaVqjCQ",
+      "url": "https://www.youtube.com/watch?v=_J2YcaVqjCQ"
+    },
+    {
+      "title": "E3 2018 Trailer",
+      "youtube_id": "aM0p566-KW4",
+      "url": "https://www.youtube.com/watch?v=aM0p566-KW4"
+    },
+    {
+      "title": "Japanese Story Trailer",
+      "youtube_id": "YIZwppQgJ9Y",
+      "url": "https://www.youtube.com/watch?v=YIZwppQgJ9Y"
+    },
+    {
+      "title": "Japanese Launch Trailer",
+      "youtube_id": "kKrvQuhMydw",
+      "url": "https://www.youtube.com/watch?v=kKrvQuhMydw"
+    },
+    {
+      "title": "Gameplay Demo",
+      "youtube_id": "vrXkFJhi5jc",
+      "url": "https://www.youtube.com/watch?v=vrXkFJhi5jc"
+    },
+    {
+      "title": "Multiplayer Battlemode Trailer",
+      "youtube_id": "NzeyzqyIAZI",
+      "url": "https://www.youtube.com/watch?v=NzeyzqyIAZI"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "fmipJsGsuP4",
+      "url": "https://www.youtube.com/watch?v=fmipJsGsuP4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "DqnUi2Mqv3g",
+      "url": "https://www.youtube.com/watch?v=DqnUi2Mqv3g"
+    },
+    {
+      "title": "TGA 2019 Trailer",
+      "youtube_id": "EYGQ0ELLCH4",
+      "url": "https://www.youtube.com/watch?v=EYGQ0ELLCH4"
+    }
+  ]
+}

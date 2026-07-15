@@ -1,0 +1,132 @@
+{
+  "slug": "onimusha-2-samurai-s-destiny",
+  "igdb_id": 330283,
+  "name": "Onimusha 2: Samurai's Destiny",
+  "summary": "Reclaim your destiny. Onimusha 2: Samurai's Destiny returns with higher resolution graphics and modernised controls to perform issen critical counter attacks and intense swordplay. Experience this dramatic revenge story set in Feudal Japan.",
+  "first_release_year": 2025,
+  "developers": [
+    "Capcom"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [
+    "Onimusha"
+  ],
+  "spin_off_of": "Onimusha 2: Samurai's Destiny",
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Onimusha2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10011533"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/onimusha-2-samurais-destiny-switch/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/onimushagame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/onimushagame"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/onimusha-2-samurais-destiny/9P1QWP9HV8BD/0010"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/onimusha-2-samurais-destiny"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.capcom-games.com/onimusha/2/en-us/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/onimushagame"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3046600"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/CapcomUSA"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-23"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-23"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-23"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "May 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3b3m.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "fghczDubu7A",
+      "url": "https://www.youtube.com/watch?v=fghczDubu7A"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "vOPigTlN_rw",
+      "url": "https://www.youtube.com/watch?v=vOPigTlN_rw"
+    }
+  ]
+}

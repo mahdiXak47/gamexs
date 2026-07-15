@@ -1,0 +1,161 @@
+{
+  "slug": "oxide-room-208-نسخه-کالکتور",
+  "igdb_id": 240258,
+  "name": "Oxide Room 208",
+  "summary": "Eight people trapped in an old laboratory will try to survive their last moments of life in this frenetic body-horror full of action, blood and guts. Oxide Room 208 challenges you to face your fears in a dark and twisted environment where flesh and madness merge.",
+  "first_release_year": 2025,
+  "developers": [
+    "WildSphere",
+    "WildSphere"
+  ],
+  "publishers": [
+    "WildSphere",
+    "Tesura Games",
+    "WildSphere"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "OXIDE"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "monsters",
+    "bloody",
+    "mature",
+    "gore",
+    "survival horror",
+    "nudity",
+    "heavy metal",
+    "actor",
+    "centipede",
+    "instant kill",
+    "rock music",
+    "slasher",
+    "body horror"
+  ],
+  "alternative_names": [
+    {
+      "name": "OxideRoom208.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/es-es/games/store/oxide-room-208/9n8pxhr6nlpf"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/es-es/concept/10010378"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/oxide_room_208"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/wildsphere.bsky.social"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/WildSphereGames"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://wildsphere.es/oxide-room-208/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2217720/Oxide_Room_208/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@WildSphereGames"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/oxide-room-208"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/wildsphere"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/wildsphere/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 25, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 25, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-25"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 25, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2oxp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar27ll.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2oxq.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "Al03LnQUjIw",
+      "url": "https://www.youtube.com/watch?v=Al03LnQUjIw"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "w2k-qLUsMqY",
+      "url": "https://www.youtube.com/watch?v=w2k-qLUsMqY"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "fjFr4SDPNrU",
+      "url": "https://www.youtube.com/watch?v=fjFr4SDPNrU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "gC92c35FoD0",
+      "url": "https://www.youtube.com/watch?v=gC92c35FoD0"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "DLmLrcoyl48",
+      "url": "https://www.youtube.com/watch?v=DLmLrcoyl48"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "slug": "alien-rogue-incursion",
+  "igdb_id": 299582,
+  "name": "Alien: Rogue Incursion",
+  "summary": "This brand-new single-player, action-horror VR game features an original story that fully surrounds players within the terrors of the Alien universe.",
+  "first_release_year": 2024,
+  "developers": [
+    "Survios"
+  ],
+  "publishers": [
+    "Survios"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Virtual Reality"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Alien"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "based on - movie",
+    "licensed game",
+    "vr only",
+    "alien"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://alienrogueincursion.com/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004478"
+    },
+    {
+      "label": "Website (25)",
+      "url": "https://www.meta.com/en-us/experiences/alien-rogue-incursion/24882487241367228/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/survios"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/survios"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1850050"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/survios"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/survios"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alien:_Rogue_Incursion"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "Dec 19, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-19"
+    },
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "Dec 19, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-19"
+    },
+    {
+      "platform": "Meta Quest 3",
+      "region": null,
+      "date": "Feb 13, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2yy2.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "uaYbugGRV3c",
+      "url": "https://www.youtube.com/watch?v=uaYbugGRV3c"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "e3HzRXcQg1A",
+      "url": "https://www.youtube.com/watch?v=e3HzRXcQg1A"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "bSTJ9RnDGfc",
+      "url": "https://www.youtube.com/watch?v=bSTJ9RnDGfc"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "PY2YqgDUvFk",
+      "url": "https://www.youtube.com/watch?v=PY2YqgDUvFk"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "5CMzNIPxG3o",
+      "url": "https://www.youtube.com/watch?v=5CMzNIPxG3o"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "e69rk-zwZvw",
+      "url": "https://www.youtube.com/watch?v=e69rk-zwZvw"
+    }
+  ]
+}

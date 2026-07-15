@@ -1,0 +1,156 @@
+{
+  "slug": "paw-patrol-mighty-pups-save-adventure-bay!",
+  "igdb_id": 137276,
+  "name": "PAW Patrol Mighty Pups: Save Adventure Bay!",
+  "summary": "Embark on a super-heroic mission with the Mighty Pups and Chase’s Super Speed, Marshall’s Mighty Heat, Skye’s Whirlwind Power and the whole mighty PAW Patrol team. Explore the town and journey to Jake’s resort, Tracker’s jungle and beyond. With a whole town to help out and 2-player co-op fun, Adventure Bay has never been so interactive!",
+  "first_release_year": 2020,
+  "developers": [
+    "Drakhar Studio"
+  ],
+  "publishers": [
+    "Outright Games"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "PAW Patrol"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "family friendly",
+    "previously on - stadia pro"
+  ],
+  "alternative_names": [
+    {
+      "name": "Pat’ Patrouille : La Super Patrouille sauve la Grande Vallée",
+      "comment": "French title"
+    },
+    {
+      "name": "Paw Patrol: Mighty Pups Die Rettung Der Abenteuerbucht"
+    },
+    {
+      "name": "Paw Patrol: Mighty Pups Save Adventure Bay!"
+    },
+    {
+      "name": "pp2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/PAW%20Patrol%20Mighty%20Pups%3A%20Save%20Adventure%20Bay!"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10000811"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/paw-patrol-mighty-pups-save-adventure-bay/9N3TF03KNTBD"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/paw-patrol-mighty-pups-save-adventure-bay-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1374990"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://outrightgames.com/games/paw-patrol-mighty-pups/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Outright_Games"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/outright_games/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/paw-patrol-mighty-pups-save-adventure-bay-aaad37"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 19, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-19"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 06, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-06"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Aug 13, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-13"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 06, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-06"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 06, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-06"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 05, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-05"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 06, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ard0k.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "GCM7EPZasYU",
+      "url": "https://www.youtube.com/watch?v=GCM7EPZasYU"
+    }
+  ]
+}

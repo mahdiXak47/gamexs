@@ -1,0 +1,139 @@
+{
+  "slug": "disney-illusion-island-نسخه-استاندارد",
+  "igdb_id": 216278,
+  "name": "Disney Illusion Island",
+  "summary": "Join Mickey & Friends on a quest to explore the mysterious island of Monoth and recover three mystical books to save the world from disaster! Choose your favorite character and unlock special abilities as you perform high-flying platforming feats, solve fun puzzles, and take on epic boss battles. Run, swim, swing, and jump your way through a beautiful yet mysterious island and discover rich biomes, intriguing characters, and hidden secrets!",
+  "first_release_year": 2023,
+  "developers": [
+    "Dlala Studios"
+  ],
+  "publishers": [
+    "Disney Games"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Disney",
+    "Mickey Mouse",
+    "Donald Duck",
+    "Goofy"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "2d",
+    "metroidvania"
+  ],
+  "alternative_names": [
+    {
+      "name": "Disney Illusion Island Starring Mickey & Friends",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Disney Illusion Island.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2054660/Disney_Illusion_Island_Starring_Mickey__Friends/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/disney_illusion_island_starring_mickey_and_friends"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://games.disney.com/disney-illusion-island"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Disney%20Illusion%20Island"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008711"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/disney-illusion-island-switch/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/dlalastudios"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-30"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 28, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 30, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1v7q.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "24DOIa37aTA",
+      "url": "https://www.youtube.com/watch?v=24DOIa37aTA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "pM_PCKwC484",
+      "url": "https://www.youtube.com/watch?v=pM_PCKwC484"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "0IjNx_TRG5Q",
+      "url": "https://www.youtube.com/watch?v=0IjNx_TRG5Q"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "CFym7uxJaXc",
+      "url": "https://www.youtube.com/watch?v=CFym7uxJaXc"
+    }
+  ]
+}

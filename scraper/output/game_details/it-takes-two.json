@@ -1,0 +1,175 @@
+{
+  "slug": "it-takes-two",
+  "igdb_id": 135243,
+  "name": "It Takes Two",
+  "summary": "It Takes Two is a cooperative action-adventure game designed exclusively for two players, playable in local split-screen or online. Players control Cody and May, a married couple transformed into dolls, as they travel through fantastical environments based on their home and relationship. Gameplay combines platforming, puzzle-solving, and action sequences, with each level introducing new mechanics and giving the two characters different abilities that must be used together to progress. The game frequently changes its core mechanics from chapter to chapter, incorporating sections involving shooting, racing, flight, and other genres.",
+  "first_release_year": 2021,
+  "developers": [
+    "Hazelight Studios"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "exploration",
+    "collecting",
+    "story driven",
+    "skill-based",
+    "cinematic",
+    "cute",
+    "funny",
+    "emotional",
+    "3d platformer",
+    "family friendly",
+    "split-screen multiplayer",
+    "puzzle platformer",
+    "narrative",
+    "the game awards - best family game - winner",
+    "the game awards - best game direction - nominee",
+    "the game awards - best game direction - winner",
+    "the game awards - best multiplayer game - winner",
+    "the game awards - best narrative - nominee",
+    "the game awards - game of the year - winner",
+    "bees"
+  ],
+  "alternative_names": [
+    {
+      "name": "雙人成行",
+      "comment": "Chinese title - traditional"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/it-takes-two-switch/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/Hazelight"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/HazelightGames"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/ItTakesTwo/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/it-takes-two---digital-version/9NXVC0482QS5"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/234689"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://ittakestwo.fandom.com/wiki/It_Takes_Two_Wiki"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://hazelight.se/games/it-takes-two/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/it-takes-two"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/It%20Takes%20Two"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/It_Takes_Two_(video_game)"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1426210/It_Takes_Two"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 25, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-03-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 26, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-03-26"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 26, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-03-26"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 04, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-11-04"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 26, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-03-26"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 26, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-03-26"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4mc7.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4mc8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4mbg.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar586u.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "ohClxMmNLQQ",
+      "url": "https://www.youtube.com/watch?v=ohClxMmNLQQ"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "blwlcwlAXwA",
+      "url": "https://www.youtube.com/watch?v=blwlcwlAXwA"
+    }
+  ]
+}

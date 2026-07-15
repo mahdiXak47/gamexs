@@ -1,0 +1,92 @@
+{
+  "slug": "34-sports-games-نسخه-world",
+  "igdb_id": 297041,
+  "name": "34 Sports Games: World Edition",
+  "summary": "34 Sports Games – World Edition is the ultimate game that brings together 34 different sports in one game!",
+  "first_release_year": 2024,
+  "developers": [],
+  "publishers": [
+    "Maximum Entertainment"
+  ],
+  "genres": [
+    "Sport"
+  ],
+  "themes": [
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010460"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/34-sports-games-world-edition-switch/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 28, 2024",
+      "status": "Released",
+      "date_iso": "2024-06-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 28, 2024",
+      "status": "Released",
+      "date_iso": "2024-06-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 28, 2024",
+      "status": "Released",
+      "date_iso": "2024-06-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 28, 2024",
+      "status": "Released",
+      "date_iso": "2024-06-28"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 28, 2024",
+      "status": "Released",
+      "date_iso": "2024-06-28"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 26, 2024",
+      "status": "Released",
+      "date_iso": "2024-07-26"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar305y.jpg"
+  ],
+  "videos": []
+}

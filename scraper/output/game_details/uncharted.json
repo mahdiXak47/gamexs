@@ -1,0 +1,61 @@
+{
+  "slug": "uncharted",
+  "igdb_id": 126126,
+  "name": "Uncharted Ocean",
+  "summary": "This is a world of oceans, islands and ships. Players will start their own journey from Faro, facing an impermanent ocean and awkward opponents, and gradually build a strong fleet with wisdom and luck.",
+  "first_release_year": 2019,
+  "developers": [
+    "HiRabbit"
+  ],
+  "publishers": [
+    "Locojoy"
+  ],
+  "genres": [],
+  "themes": [],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "航海日记: 起航",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "hanghai.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Uncharted%20Ocean"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1158690"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.hirabbitgame.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 20, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-11-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2234.jpg"
+  ],
+  "videos": []
+}

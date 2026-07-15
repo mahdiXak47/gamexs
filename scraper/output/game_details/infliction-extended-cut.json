@@ -1,0 +1,121 @@
+{
+  "slug": "infliction-extended-cut",
+  "igdb_id": 132969,
+  "name": "Infliction: Extended Cut",
+  "summary": "Wander through an interactive nightmare set within the confines of a once-happy household. Uncover the heartbreaking mystery hidden within messages, artwork, household objects, and other vestiges of domestic life all while struggling to survive encounters with an entity that relentlessly stands in the way of finding absolution. Hide under tables or beneath beds and harness light sources like camera flashes to stun the spirit and momentarily elude its pursuit.",
+  "first_release_year": 2020,
+  "developers": [
+    "Caustic Reality"
+  ],
+  "publishers": [
+    "Blowfish Studios"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Drama",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/infliction-extended-cut-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/infliction-extended-cut/9N3N873Q79C7"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/234058"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/infliction_extended_cut"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.blowfishstudios.com/game/infliction"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/692100/Infliction"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Infliction%3A%20Extended%20Cut"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 02, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-07-02"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 25, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-02-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 01, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-04-01"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 22, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-12-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 22, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-12-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 25, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-02-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arc7o.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "NuGIsbTZ_hE",
+      "url": "https://www.youtube.com/watch?v=NuGIsbTZ_hE"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "slug": "desolatium",
+  "igdb_id": 150643,
+  "name": "Desolatium",
+  "summary": "Dive into the well-known Myths of Lovecraft in a whole new way with this immersive, first-person, Point & Click, Graphic Adventure, with a taste of Survival Horror.\n\nYou will have to investigate mysterious events in order to find who is hiding behind all of the madness. But you may find something you were not looking for, since discovering what is happening will take you into a world of darkness, terror, and insanity, this is, a desolated world.\n\nExplore a new lovecraftian adventure. Be part, like never before, of an exciting mystery based on Lovecraft’s Mythos, full of puzzles, sects, and primordial deities.",
+  "first_release_year": 2023,
+  "developers": [
+    "SUPERLUMEN"
+  ],
+  "publishers": [
+    "SUPERLUMEN",
+    "SOEDESCO Publishing"
+  ],
+  "genres": [
+    "Point-and-click",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Virtual Reality"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "exploration",
+    "dark",
+    "investigation",
+    "lovecraftian",
+    "story rich"
+  ],
+  "alternative_names": [
+    {
+      "name": "DESOLATIUM.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "http://desolatium.com/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/desolatium"
+    },
+    {
+      "label": "Discord",
+      "url": "https://www.discord.gg/soedesco"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC5BHGkkSPZ12DiacWzDfGAQ"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/desolatium-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008382"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1474900/Desolatium"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Desolatium"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/desolatium"
+    },
+    {
+      "label": "Itch",
+      "url": "https://superlumen.itch.io/desolatium"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/desolatium"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/desolatium-58c568"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 05, 2024",
+      "status": "Released",
+      "date_iso": "2024-04-05"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 27, 2023",
+      "status": "Released",
+      "date_iso": "2023-10-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 27, 2023",
+      "status": "Released",
+      "date_iso": "2023-10-27"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 27, 2023",
+      "status": "Released",
+      "date_iso": "2023-10-27"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 27, 2023",
+      "status": "Released",
+      "date_iso": "2023-10-27"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 27, 2023",
+      "status": "Released",
+      "date_iso": "2023-10-27"
+    },
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Apr 05, 2024",
+      "status": "Released",
+      "date_iso": "2024-04-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2kv2.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2kv1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2kv0.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "AtVoug3v0gg",
+      "url": "https://www.youtube.com/watch?v=AtVoug3v0gg"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "yx0464ZPqdo",
+      "url": "https://www.youtube.com/watch?v=yx0464ZPqdo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "3q9q_mesN2M",
+      "url": "https://www.youtube.com/watch?v=3q9q_mesN2M"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "h35hsCwaR90",
+      "url": "https://www.youtube.com/watch?v=h35hsCwaR90"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "lYbfwgz0NOY",
+      "url": "https://www.youtube.com/watch?v=lYbfwgz0NOY"
+    }
+  ]
+}

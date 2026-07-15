@@ -1,0 +1,112 @@
+{
+  "slug": "touhou-spell-carnival",
+  "igdb_id": 280479,
+  "name": "Touhou Spell Carnival",
+  "summary": "Touhou Spell Carnival is a strategy role-playing video game developed by Sting and published by Compile Heart.",
+  "first_release_year": 2024,
+  "developers": [
+    "Sting"
+  ],
+  "publishers": [
+    "Compile Heart"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Strategy",
+    "Turn-based strategy (TBS)"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "jrpg"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.compileheart.com/touhouspellcarnival/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3469190"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/touhou-spell-carnival-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009134"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/CompileHeartWeb"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 06, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-06"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 06, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-06"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 07, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-07"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 19, 2024",
+      "status": "Released",
+      "date_iso": "2024-11-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 06, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2olu.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2olv.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "bNKV7TrTLDY",
+      "url": "https://www.youtube.com/watch?v=bNKV7TrTLDY"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "UzetEfme6hg",
+      "url": "https://www.youtube.com/watch?v=UzetEfme6hg"
+    }
+  ]
+}

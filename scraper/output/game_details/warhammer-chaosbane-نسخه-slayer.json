@@ -1,0 +1,83 @@
+{
+  "slug": "warhammer-chaosbane-نسخه-slayer",
+  "igdb_id": 139948,
+  "name": "Warhammer: Chaosbane - Slayer Edition",
+  "summary": "- The first action RPG set in the Warhammer fantasy battles world\n- 6 character classes each with unique gameplay, skills, and equipment\n- An XXL bestiary with over 70 monsters aligned with the chaos gods and epic boss battles.\n- Optimized for co-op: solo or with up to 4 players, local or online, purge chaos from the world.\n- The ultimate version of the game: unlock all DLC with this Edition to enjoy an enhanced game experience and unlimited Replay ability.",
+  "first_release_year": 2020,
+  "developers": [
+    "EKO Software"
+  ],
+  "publishers": [
+    "Games Workshop"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/warhammer_chaosbane_slayer_edition"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/WHChaosbane"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://warhammer-chaosbane.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 12, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-12"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/aru61.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "6OTUtYWgpws",
+      "url": "https://www.youtube.com/watch?v=6OTUtYWgpws"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "hogwarts-legacy-+-harry-potter-quidditch-champions-deluxe-editions-bundle",
+  "igdb_id": 324208,
+  "name": "Hogwarts Legacy + Harry Potter: Quidditch Champions Deluxe Editions Bundle",
+  "summary": "The Ultimate Wizarding Bundle delivers the best gaming experience the wizarding world has to offer.",
+  "first_release_year": 2024,
+  "developers": [],
+  "publishers": [],
+  "genres": [
+    "Role-playing (RPG)",
+    "Sport"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/hogwarts-legacy-plus-harry-potter-quidditch-champions-deluxe-editions-bundle-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/hogwarts-legacy-+-harry-potter-quidditch-champions-deluxe-editions-bundle/9NDSL4HT2VS8"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 15, 2024",
+      "status": "Released",
+      "date_iso": "2024-10-15"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 15, 2024",
+      "status": "Released",
+      "date_iso": "2024-10-15"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 08, 2024",
+      "status": "Released",
+      "date_iso": "2024-11-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar37lf.jpg"
+  ],
+  "videos": []
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "crime-boss-rockay-city",
+  "igdb_id": 228541,
+  "name": "Crime Boss: Rockay City",
+  "summary": "Crime Boss: Rockay City is an organized crime game combining first-person shooter action and turf wars, playable solo or with friends. Take on the role of Travis Baker – a man with his sights set on becoming the new King of Rockay City, one crime at a time…",
+  "first_release_year": 2023,
+  "developers": [
+    "INGAME STUDIOS"
+  ],
+  "publishers": [
+    "505 Games"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "1980s",
+    "roguelike"
+  ],
+  "alternative_names": [
+    {
+      "name": "法外枭雄：滚石城",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "法外梟雄：滾石城",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "CrimeBoss.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/CrimeBossGame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004424"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/crime-boss-rockay-city/9P4KF63WK5P9"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/crimebossgameofficial/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@CrimeBossGame"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2933080"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/crime-boss"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Crime%20Boss:%20Rockay%20City"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://visitrockaycity.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 28, 2023",
+      "status": "Released",
+      "date_iso": "2023-03-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 15, 2023",
+      "status": "Released",
+      "date_iso": "2023-06-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 15, 2023",
+      "status": "Released",
+      "date_iso": "2023-06-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2273.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "_al1swpwwvg",
+      "url": "https://www.youtube.com/watch?v=_al1swpwwvg"
+    }
+  ]
+}

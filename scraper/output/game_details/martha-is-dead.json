@@ -1,0 +1,170 @@
+{
+  "slug": "martha-is-dead",
+  "igdb_id": 90714,
+  "name": "Martha Is Dead",
+  "summary": "Martha Is Dead is a dark first-person psychological thriller, set in 1944 Italy, that blurs the lines between reality, superstition and the tragedy of war.",
+  "first_release_year": 2022,
+  "developers": [
+    "LKA"
+  ],
+  "publishers": [
+    "Wired Productions"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Horror",
+    "Thriller",
+    "Drama",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "psychological thriller",
+    "dark",
+    "cinematic",
+    "story rich"
+  ],
+  "alternative_names": [
+    {
+      "name": "MID.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001528"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/martha-is-dead"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.marthaisdead.com"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/515960/Martha_is_Dead/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/martha_is_dead"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/wiredp"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/wiredp"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/MarthaisDead"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Martha_Is_Dead"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/marthaisdead"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Marthaisdead"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Martha%20Is%20Dead"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 24, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 24, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 24, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 24, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 24, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arybu.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "hpQD3OeGdAY",
+      "url": "https://www.youtube.com/watch?v=hpQD3OeGdAY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ZJ1TsVGwsYk",
+      "url": "https://www.youtube.com/watch?v=ZJ1TsVGwsYk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "5VFJ_-0uLG8",
+      "url": "https://www.youtube.com/watch?v=5VFJ_-0uLG8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "vFsjJWX3TRo",
+      "url": "https://www.youtube.com/watch?v=vFsjJWX3TRo"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "KWRYUz29mK0",
+      "url": "https://www.youtube.com/watch?v=KWRYUz29mK0"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "2KN1qelGiTk",
+      "url": "https://www.youtube.com/watch?v=2KN1qelGiTk"
+    }
+  ]
+}

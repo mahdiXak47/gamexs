@@ -1,0 +1,182 @@
+{
+  "slug": "ninja-gaiden-ragebound",
+  "igdb_id": 325580,
+  "name": "Ninja Gaiden: Ragebound",
+  "summary": "A brand-new side-scrolling entry to the NINJA GAIDEN series from the team behind Blasphemous, NINJA GAIDEN: Ragebound redefines the classic platformer saga in a spectacular, thrilling and challenging ninja adventure.",
+  "first_release_year": 2025,
+  "developers": [
+    "The Game Kitchen"
+  ],
+  "publishers": [
+    "DotEmu"
+  ],
+  "genres": [
+    "Platform",
+    "Hack and slash/Beat 'em up",
+    "Adventure",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Ninja Gaiden"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Ninja Gaiden"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "retro",
+    "ninja",
+    "2d",
+    "pixel graphics",
+    "steam achievements",
+    "xbox controller support for pc",
+    "steam cloud",
+    "controller support",
+    "steam families"
+  ],
+  "alternative_names": [
+    {
+      "name": "NINJA GAIDEN: Ragebound",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "NINJA GAIDEN Ragebound.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/dotemu.bsky.social"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/dotemugames/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/RPxFsWMTdA"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/ninja_gaiden_ragebound"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/ninja-gaiden-ragebound/9pgfslp8gwqk"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10013857"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/ninja-gaiden-ragebound-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.dotemu.com/games/ninja-gaiden-ragebound/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/thegamekitchen"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@Dotemuofficial"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/gaming/dotemu"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2542120"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 31, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-31"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 31, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-31"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 31, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-31"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 31, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-31"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 31, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-31"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 31, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar458e.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar458d.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3xtn.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3orl.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "DVZXr1jVoLo",
+      "url": "https://www.youtube.com/watch?v=DVZXr1jVoLo"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "X7sIONOU1TI",
+      "url": "https://www.youtube.com/watch?v=X7sIONOU1TI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "808c49jzniM",
+      "url": "https://www.youtube.com/watch?v=808c49jzniM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "d8DK6Dl3RvA",
+      "url": "https://www.youtube.com/watch?v=d8DK6Dl3RvA"
+    }
+  ]
+}

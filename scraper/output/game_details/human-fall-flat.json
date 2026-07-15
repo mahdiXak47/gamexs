@@ -1,0 +1,255 @@
+{
+  "slug": "human-fall-flat",
+  "igdb_id": 16992,
+  "name": "Human: Fall Flat",
+  "summary": "Human: Fall Flat is a physics-based puzzle platformer where players control a customizable wobbly human character named Bob. Using intentionally clumsy arm controls for grabbing, climbing, and interacting with objects, players navigate open-ended levels that each contain multiple solutions to their puzzles. The game supports up to eight players in online or LAN multiplayer. Originally created by a solo Lithuanian developer as a prototype for a motion-sensing camera before transitioning to traditional controls, the game became a major commercial success partly through streaming popularity.",
+  "first_release_year": 2016,
+  "developers": [
+    "No Brakes Games"
+  ],
+  "publishers": [
+    "Curve Digital",
+    "505 Games"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Simulator",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Comedy",
+    "Sandbox"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Human Fall Flat"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "physics",
+    "steam",
+    "achievements",
+    "user generated content",
+    "steam achievements",
+    "digital distribution",
+    "steam cloud",
+    "customizable characters",
+    "voice acting",
+    "playstation experience 2016",
+    "pax east 2016",
+    "auto-saving",
+    "breaking through windows",
+    "apple arcade",
+    "available on - apple arcade",
+    "previously on - stadia pro"
+  ],
+  "alternative_names": [
+    {
+      "name": "휴먼: 폴 플랫",
+      "comment": "Korean title"
+    },
+    {
+      "name": "ヒューマン フォール フラット",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "Human.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "HFF",
+      "comment": "Acronym"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/477160"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/NoBrakesGames"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/human-fall-flat/BSMZH25V6V46"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/227139"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/human-fall-flat-switch/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/hff"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/humanfallflat"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/HumanFallFlat"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Human:_Fall_Flat"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.nobrakesgames.com/human/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/human_fall_flat"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/humanfallflat"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Human:%20Fall%20Flat"
+    },
+    {
+      "label": "iPad",
+      "url": "http://itunes.apple.com/us/app/id1632286352#?platform=ipad"
+    },
+    {
+      "label": "iPhone",
+      "url": "http://itunes.apple.com/us/app/id1632286352#?platform=iphone"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "May 12, 2017",
+      "status": "Released",
+      "date_iso": "2017-05-12"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 09, 2017",
+      "status": "Released",
+      "date_iso": "2017-05-09"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Oct 01, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-01"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Jun 26, 2019",
+      "status": "Released",
+      "date_iso": "2019-06-26"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Jun 26, 2019",
+      "status": "Released",
+      "date_iso": "2019-06-26"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-05-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 22, 2016",
+      "status": "Released",
+      "date_iso": "2016-07-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 24, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-24"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jul 22, 2016",
+      "status": "Released",
+      "date_iso": "2016-07-22"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 07, 2017",
+      "status": "Released",
+      "date_iso": "2017-12-07"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Jul 22, 2016",
+      "status": "Released",
+      "date_iso": "2016-07-22"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Mar 19, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar53e.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar85k.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar67er.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4a8h.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "T_uA48H1-g4",
+      "url": "https://www.youtube.com/watch?v=T_uA48H1-g4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "-Edk59BqSEU",
+      "url": "https://www.youtube.com/watch?v=-Edk59BqSEU"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "p7WmRe7XIrs",
+      "url": "https://www.youtube.com/watch?v=p7WmRe7XIrs"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "1ofhmeGam48",
+      "url": "https://www.youtube.com/watch?v=1ofhmeGam48"
+    }
+  ]
+}

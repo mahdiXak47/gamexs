@@ -1,0 +1,206 @@
+{
+  "slug": "control-ultimate-edition",
+  "igdb_id": 225582,
+  "name": "Control Resonant",
+  "summary": "Explore a warped Manhattan on the brink of paranatural annihilation in this thrilling action-adventure RPG. Unleash the extraordinary powers of Dylan Faden as he fights for his humanity and survival against a reality-bending cosmic threat.",
+  "first_release_year": 2026,
+  "developers": [
+    "Remedy Entertainment"
+  ],
+  "publishers": [
+    "Remedy Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Control"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Northlight Engine"
+  ],
+  "keywords": [
+    "paranormal",
+    "supernatural",
+    "new york",
+    "atmospheric",
+    "surreal",
+    "male protagonist",
+    "liminal space"
+  ],
+  "alternative_names": [
+    {
+      "name": "CONTROL Resonant",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Control 2",
+      "comment": "Working title"
+    },
+    {
+      "name": "CONTROL RESONANT",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3669870/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/control-resonant-3568d3"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10017682"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://controlgame.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/RemedyGames"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/RemedyGames"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/RemedyGames"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/control"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@RemedyGames"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/remedygames.com"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/control-2"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/control-resonant/9p092299fsgw"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://control.fandom.com/wiki/Control_Resonant"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Control_Resonant"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Sep 24, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-09-24"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 24, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-09-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 24, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-09-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 24, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-09-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 22, 2026",
+      "status": "status_34",
+      "date_iso": "2026-09-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5z75.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5z78.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5z84.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5z86.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4v1h.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5z87.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5z7a.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5z85.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "e1_eZyFM5-4",
+      "url": "https://www.youtube.com/watch?v=e1_eZyFM5-4"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "WhQm-ExRz60",
+      "url": "https://www.youtube.com/watch?v=WhQm-ExRz60"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "IA71hdzim0M",
+      "url": "https://www.youtube.com/watch?v=IA71hdzim0M"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "TAzxTMaA6j4",
+      "url": "https://www.youtube.com/watch?v=TAzxTMaA6j4"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "h1nVG1gf0xY",
+      "url": "https://www.youtube.com/watch?v=h1nVG1gf0xY"
+    },
+    {
+      "title": "Paranatural Manhattan Trailer",
+      "youtube_id": "NvncU_SQO5Y",
+      "url": "https://www.youtube.com/watch?v=NvncU_SQO5Y"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "abHROlrtuG4",
+      "url": "https://www.youtube.com/watch?v=abHROlrtuG4"
+    },
+    {
+      "title": "Take CONTROL Trailer",
+      "youtube_id": "lTHTfqPTQ1k",
+      "url": "https://www.youtube.com/watch?v=lTHTfqPTQ1k"
+    }
+  ]
+}

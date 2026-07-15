@@ -1,0 +1,178 @@
+{
+  "slug": "demon-slayer-sweep-the-board",
+  "igdb_id": 266193,
+  "name": "Demon Slayer: Kimetsu no Yaiba - Sweep the Board!",
+  "summary": "Embark on an adventure through iconic settings from the anime Demon Slayer: Kimetsu no Yaiba in this action-packed board game. Compete with friends as you brave the elements on your quest to become the strongest demon slayer!",
+  "first_release_year": 2024,
+  "developers": [
+    "CyberConnect2"
+  ],
+  "publishers": [
+    "Sega"
+  ],
+  "genres": [
+    "Simulator",
+    "Card & Board Game"
+  ],
+  "themes": [
+    "Action",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Demon Slayer: Kimetsu no Yaiba"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "anime"
+  ],
+  "alternative_names": [
+    {
+      "name": "Kimetsu no Yaiba: Mezase! Saikyou Taishi!",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "Demon Slayer -Kimetsu no Yaiba- Sweep the Board!",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SEGA/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008801"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba_%E2%80%93_Sweep_the_Board"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/demon-slayer-kimetsu-no-yaiba-sweep-the-board-switch/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/sega/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2424110"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@SEGA_West/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/sega"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://demonslayer-sweeptheboard.sega.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/SEGA"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 26, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-04-26"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 26, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-04-26"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-04-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-17"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-17"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 16, 2024",
+      "status": "Released",
+      "date_iso": "2024-07-16"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 16, 2024",
+      "status": "Released",
+      "date_iso": "2024-07-16"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2ir5.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "Q5Y8-Qccxo4",
+      "url": "https://www.youtube.com/watch?v=Q5Y8-Qccxo4"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "DLkrd-0vJmY",
+      "url": "https://www.youtube.com/watch?v=DLkrd-0vJmY"
+    }
+  ]
+}

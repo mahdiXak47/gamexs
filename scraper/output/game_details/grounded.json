@@ -1,0 +1,202 @@
+{
+  "slug": "grounded",
+  "igdb_id": 125624,
+  "name": "Grounded",
+  "summary": "The world is a vast, beautiful and dangerous place – especially when you have been shrunk to the size of an ant. Explore, build and survive together in this first person, multiplayer, survival-adventure. Can you thrive alongside the hordes of giant insects, fighting to survive the perils of the backyard?",
+  "first_release_year": 2022,
+  "developers": [
+    "Obsidian Entertainment"
+  ],
+  "publishers": [
+    "Xbox Game Studios"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Grounded"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "bugs",
+    "spider",
+    "tiny protagonist"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/grounded/9PJTHRNVH62H"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/GroundedGame/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://grounded.fandom.com/wiki/Grounded"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/grounded-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://grounded.obsidian.net"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/GroundedTheGame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC4xyf_Z-pEQOTaRVyjXfA1g/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008048"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/962130"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/GroundedTheGame"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/GroundedTheGame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Grounded"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Grounded_(video_game)"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/obsidian"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Apr 16, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-04-16"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 27, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-27"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 27, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-27"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 10, 2020",
+      "status": "Beta",
+      "date_iso": "2020-11-10"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 28, 2020",
+      "status": "Beta",
+      "date_iso": "2020-07-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 16, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-04-16"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 28, 2020",
+      "status": "Beta",
+      "date_iso": "2020-07-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 27, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-27"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 16, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-04-16"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar84r.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Dev Diary",
+      "youtube_id": "u87xKx7-tZA",
+      "url": "https://www.youtube.com/watch?v=u87xKx7-tZA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "DKYG-Lj0lpQ",
+      "url": "https://www.youtube.com/watch?v=DKYG-Lj0lpQ"
+    },
+    {
+      "title": "Story Trailer",
+      "youtube_id": "Zs5KbxUrnvc",
+      "url": "https://www.youtube.com/watch?v=Zs5KbxUrnvc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "S7XDCvpIqoo",
+      "url": "https://www.youtube.com/watch?v=S7XDCvpIqoo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "X4B5iOh1mB8",
+      "url": "https://www.youtube.com/watch?v=X4B5iOh1mB8"
+    },
+    {
+      "title": "Switch Reveal Trailer",
+      "youtube_id": "lv2yTCUZPWg",
+      "url": "https://www.youtube.com/watch?v=lv2yTCUZPWg"
+    }
+  ]
+}

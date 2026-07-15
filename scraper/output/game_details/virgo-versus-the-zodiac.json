@@ -1,0 +1,148 @@
+{
+  "slug": "virgo-versus-the-zodiac",
+  "igdb_id": 28772,
+  "name": "Virgo Versus the Zodiac",
+  "summary": "Dethrone the Zodiacs, revive the Golden Age and purge the Heretics that swarm the galaxy as Virgo, the queen of Purity, in this unforgiving timed actions turn-based JRPG.",
+  "first_release_year": 2019,
+  "developers": [
+    "Moonana"
+  ],
+  "publishers": [
+    "Moonana",
+    "Serenity Forge"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Turn-based strategy (TBS)",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "GameMaker"
+  ],
+  "keywords": [
+    "anime",
+    "2d",
+    "jrpg",
+    "female protagonist",
+    "cute",
+    "party-based",
+    "vampires",
+    "lgbtq+"
+  ],
+  "alternative_names": [
+    {
+      "name": "Virgo Vs the Zodiac",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "VvtZ.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008576"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/virgo-versus-the-zodiac-switch/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/virgovsthezodiac"
+    },
+    {
+      "label": "Itch",
+      "url": "https://moonana.itch.io/virgovsthezodiac"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/virgo_versus_the_zodiac"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/920320/Virgo_Versus_The_Zodiac/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/virgo-versus-the-zodiac"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/virgovszodiac"
+    },
+    {
+      "label": "Website (26)",
+      "url": "https://gamejolt.com/games/virgovsthezodiac/266056"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 23, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-23"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 23, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-23"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 23, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-23"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 23, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 23, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 12, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-12-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arfzc.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "JJwoqzvGOgM",
+      "url": "https://www.youtube.com/watch?v=JJwoqzvGOgM"
+    }
+  ]
+}

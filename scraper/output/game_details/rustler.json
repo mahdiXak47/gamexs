@@ -1,0 +1,197 @@
+{
+  "slug": "rustler",
+  "igdb_id": 99302,
+  "name": "Rustler",
+  "summary": "Become a medieval thug in a crazy open-world action game, full of pop-culture references. Complete insane quests, kill heroes, steal horses, fight guards, rob peasants and more! All packed in old-school gameplay style!",
+  "first_release_year": 2021,
+  "developers": [
+    "Jutsu Games"
+  ],
+  "publishers": [
+    "Games Operators",
+    "Modus Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Racing",
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Historical",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "medieval",
+    "parody",
+    "crowdfunding - kickstarter"
+  ],
+  "alternative_names": [
+    {
+      "name": "Rustler (Grand Theft Horse)",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "ラスラー ～中世のならず者～",
+      "comment": "Japanese title - stylized"
+    },
+    {
+      "name": "Launcher.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "Rustler - Grand Theft Horse",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002592"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/844260"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/RustlerGame"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/rustler_grand_theft_horse"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/rustler-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://jutsugames.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/rustler"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@jutsugames7657"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/rustler-grand-theft-horse-21a7ca"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/rustler/9P52H84FW7RV"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://rustler.fandom.com/wiki/Rustler_Wiki"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rustler_(video_game)"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Rustler/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 31, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-31"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 31, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-31"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 18, 2021",
+      "status": "Released",
+      "date_iso": "2021-02-18"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 31, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-31"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 31, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-31"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 31, 2021",
+      "status": "Released",
+      "date_iso": "2021-08-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arkwv.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "v3Xcz-o13o4",
+      "url": "https://www.youtube.com/watch?v=v3Xcz-o13o4"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "m3j58raDUPQ",
+      "url": "https://www.youtube.com/watch?v=m3j58raDUPQ"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "l0AcNwTR29c",
+      "url": "https://www.youtube.com/watch?v=l0AcNwTR29c"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "-zIUKKgnOA4",
+      "url": "https://www.youtube.com/watch?v=-zIUKKgnOA4"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "ysxiUJF4_i8",
+      "url": "https://www.youtube.com/watch?v=ysxiUJF4_i8"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "iVACHaeqt4g",
+      "url": "https://www.youtube.com/watch?v=iVACHaeqt4g"
+    }
+  ]
+}

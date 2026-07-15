@@ -1,0 +1,140 @@
+{
+  "slug": "disgaea-7-vows-of-the-virtueless",
+  "igdb_id": 214530,
+  "name": "Disgaea 7: Vows of the Virtueless",
+  "summary": "The next chapter in the Disgaea saga. In Disgaea 7, the story is set in a world called \"Hinomoto Netherworld Cluster,\" which is inspired by Japanese culture.",
+  "first_release_year": 2023,
+  "developers": [
+    "Nippon Ichi Software"
+  ],
+  "publishers": [
+    "Nippon Ichi Software"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Strategy",
+    "Turn-based strategy (TBS)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Disgaea"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Disgaea"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "anime"
+  ],
+  "alternative_names": [
+    {
+      "name": "魔界戦記ディスガイア７",
+      "comment": "Japanese title - original"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/nippon1software"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/disgaea-7-vows-of-the-virtueless-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004787"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://disgaea.fandom.com/wiki/Disgaea_7:_Vows_of_the_Virtueless"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Disgaea_7:_Vows_of_the_Virtueless"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/nis_prinny/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://disgaea.jp/7"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Disgaea%207"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2250600"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/nis_prinny"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/nippon1software"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 26, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-26"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jan 26, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jan 26, 2023",
+      "status": "Released",
+      "date_iso": "2023-01-26"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 03, 2023",
+      "status": "Released",
+      "date_iso": "2023-10-03"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 03, 2023",
+      "status": "Released",
+      "date_iso": "2023-10-03"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1vfp.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "HpH-xFGvKtU",
+      "url": "https://www.youtube.com/watch?v=HpH-xFGvKtU"
+    }
+  ]
+}

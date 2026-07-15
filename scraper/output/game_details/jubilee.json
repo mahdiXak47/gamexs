@@ -1,0 +1,123 @@
+{
+  "slug": "jubilee",
+  "igdb_id": 179231,
+  "name": "Jubilee",
+  "summary": "Challenging precision platformer based on tight, fluid movement. Open map layout with multiple routes. Collect gems and save animals.",
+  "first_release_year": 2021,
+  "developers": [
+    "finalbossblues"
+  ],
+  "publishers": [
+    "finalbossblues"
+  ],
+  "genres": [
+    "Platform",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "GameMaker"
+  ],
+  "keywords": [
+    "exploration",
+    "2d",
+    "metroidvania",
+    "female protagonist",
+    "pixel graphics",
+    "2d platformer",
+    "precision platforming"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/jubilee-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009059"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/finalbossblues"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1774220"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Jubilee"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 18, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 09, 2024",
+      "status": "Released",
+      "date_iso": "2024-02-09"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 09, 2024",
+      "status": "Released",
+      "date_iso": "2024-02-09"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 09, 2024",
+      "status": "Released",
+      "date_iso": "2024-02-09"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Feb 09, 2024",
+      "status": "Released",
+      "date_iso": "2024-02-09"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 09, 2024",
+      "status": "Released",
+      "date_iso": "2024-02-09"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1fnw.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "Hg5_209eViA",
+      "url": "https://www.youtube.com/watch?v=Hg5_209eViA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "0RoT0MqTVAA",
+      "url": "https://www.youtube.com/watch?v=0RoT0MqTVAA"
+    }
+  ]
+}

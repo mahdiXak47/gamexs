@@ -1,0 +1,132 @@
+{
+  "slug": "nobody-wants-to-die",
+  "igdb_id": 290911,
+  "name": "Nobody Wants to Die",
+  "summary": "Lose yourself in the dystopian world of New York, 2329; immortality comes at a price that someone has to pay. In this interactive noir story, lead the investigation using advanced technology, as Detective James Karra who risks it all in pursuit of a serial killer targeting the city’s elite.",
+  "first_release_year": 2024,
+  "developers": [
+    "Critical Hit Games"
+  ],
+  "publishers": [
+    "PLAION"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Science fiction",
+    "Thriller",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "neo noir",
+    "detective",
+    "story driven"
+  ],
+  "alternative_names": [
+    {
+      "name": "detnoir.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1939970"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/NWtDgame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/nwtdgame"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/nobody-wants-to-die/9PJXGVSH37F4"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003635"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/@NWTDGame"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/nobody_wants_to_die"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://nobodywantstodie.games/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/nobody-wants-to-die"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/nobody-wants-to-die-fe21cd"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-07-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5lr8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5ubo.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4n8x.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "hZwWQMzOuws",
+      "url": "https://www.youtube.com/watch?v=hZwWQMzOuws"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "H-mW-v16bkI",
+      "url": "https://www.youtube.com/watch?v=H-mW-v16bkI"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "m7qjR1S5njU",
+      "url": "https://www.youtube.com/watch?v=m7qjR1S5njU"
+    }
+  ]
+}

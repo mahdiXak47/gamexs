@@ -1,0 +1,114 @@
+{
+  "slug": "bibi-tina-at-the-horse-farm",
+  "igdb_id": 122789,
+  "name": "Bibi & Tina at the Horse Farm",
+  "summary": "Ride Amadeus, Sabrina and eight other horses as Bibi or Tina. Explore the expansive grounds around Martinshof and Falkenstein Castle on horseback. Whether you’re walking, trotting, galloping or jumping, show what you’ve got in varied horse races of different lengths and difficulties! Wild adventures await you!",
+  "first_release_year": 2019,
+  "developers": [
+    "Independent Arts Software"
+  ],
+  "publishers": [
+    "Markt+Technik Verlag",
+    "TREVA Entertainment"
+  ],
+  "genres": [
+    "Simulator",
+    "Sport",
+    "Adventure"
+  ],
+  "themes": [
+    "Educational",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "3d",
+    "horse",
+    "female protagonist",
+    "child protagonist",
+    "horse riding"
+  ],
+  "alternative_names": [
+    {
+      "name": "Bibi & Tina at the horse farm"
+    },
+    {
+      "name": "Bibi and Tina auf dem Martinshof",
+      "comment": "German title"
+    },
+    {
+      "name": "Bibi and Tina en la granja de caballos",
+      "comment": "Spanish title"
+    },
+    {
+      "name": "Bibi and Tina à la ferme équestre",
+      "comment": "French title"
+    },
+    {
+      "name": "Bibi & Tina en la granja de caballos"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/bibi-and-tina-at-the-horse-farm-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/234690"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Bibi%20%26%20Tina%20at%20the%20Horse%20Farm/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 10, 2019",
+      "status": "Released",
+      "date_iso": "2019-10-10"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 10, 2019",
+      "status": "Released",
+      "date_iso": "2019-10-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 19, 2021",
+      "status": "Released",
+      "date_iso": "2021-05-19"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 10, 2019",
+      "status": "Released",
+      "date_iso": "2019-10-10"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar9i0.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "5S1NJUUUlh0",
+      "url": "https://www.youtube.com/watch?v=5S1NJUUUlh0"
+    }
+  ]
+}

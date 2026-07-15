@@ -1,0 +1,206 @@
+{
+  "slug": "silent-hill-2-نسخه-استاندارد",
+  "igdb_id": 222341,
+  "name": "Silent Hill 2",
+  "summary": "Silent Hill 2 Remake is a ground-up reimagining of the 2001 psychological horror game. It follows James Sunderland as he searches for his deceased wife in the fog-shrouded town of Silent Hill. The remake features entirely rebuilt visuals in Unreal Engine 5, over-the-shoulder gameplay, reworked combat, and new voice acting.",
+  "first_release_year": 2024,
+  "developers": [
+    "Bloober Team"
+  ],
+  "publishers": [
+    "Konami"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival",
+    "Drama",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Silent Hill"
+  ],
+  "spin_off_of": "Silent Hill 2",
+  "franchises": [
+    "Silent Hill"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "violence",
+    "psychological horror",
+    "gore",
+    "survival horror",
+    "psychological"
+  ],
+  "alternative_names": [
+    {
+      "name": "SHProto.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "Silent Hill 2 Remake",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Сайлънт Хил 2 Преиздание",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "SILENT HILL 2",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005529"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/silenthill"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/silent_hill_2"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/silent-hill-2-4542c7"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/SilentHill"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@silenthillofficial"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Silent_Hill_2_(2024_video_game)"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/silent-hill-2-1"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://silenthill.fandom.com/wiki/Silent_Hill_2_(2024)"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2124490"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.konami.com/games/silenthill/2r/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/silenthill/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/silent-hill-2/9PNVDQKPJRQV"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-08"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 06, 2024",
+      "status": "status_34",
+      "date_iso": "2024-10-06"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 06, 2024",
+      "status": "status_34",
+      "date_iso": "2024-10-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-08"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 20, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 20, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-11-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1ys1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4q0f.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "8qPdInnvMzg",
+      "url": "https://www.youtube.com/watch?v=8qPdInnvMzg"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "VDO39mY2gq4",
+      "url": "https://www.youtube.com/watch?v=VDO39mY2gq4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ayKICAIUHkA",
+      "url": "https://www.youtube.com/watch?v=ayKICAIUHkA"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "GiLbQVne110",
+      "url": "https://www.youtube.com/watch?v=GiLbQVne110"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "CMvrMTmuJuA",
+      "url": "https://www.youtube.com/watch?v=CMvrMTmuJuA"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "tSYNa7l1Bz4",
+      "url": "https://www.youtube.com/watch?v=tSYNa7l1Bz4"
+    }
+  ]
+}

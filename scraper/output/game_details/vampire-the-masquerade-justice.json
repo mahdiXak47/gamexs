@@ -1,0 +1,114 @@
+{
+  "slug": "vampire-the-masquerade-justice",
+  "igdb_id": 251559,
+  "name": "Vampire: The Masquerade - Justice",
+  "summary": "You are a vampire. You strike from the shadows and drink the blood of both mortal and vampire prey. In a gritty main narrative that includes several side missions and dialogue options, explore a dark and mysterious Venice to improve your abilities and become the ultimate arbiter of justice.",
+  "first_release_year": 2023,
+  "developers": [
+    "Fast Travel Games"
+  ],
+  "publishers": [
+    "Fast Travel Games"
+  ],
+  "genres": [
+    "Fighting",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Thriller",
+    "Stealth",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Virtual Reality"
+  ],
+  "series": [
+    "Vampire: The Masquerade"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "World of Darkness",
+    "Vampire the Masquerade"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "vampire",
+    "italy"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008364"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/VtMJustice"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/fasttravelgames"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/VtMJustice"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/VtMJustice"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.vtmjustice.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2431700"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "Nov 02, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-02"
+    },
+    {
+      "platform": "Meta Quest 2",
+      "region": null,
+      "date": "Nov 02, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-02"
+    },
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "Feb 06, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-02-06"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2bzh.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "EOkoStz19yo",
+      "url": "https://www.youtube.com/watch?v=EOkoStz19yo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "jnFsnubIDZQ",
+      "url": "https://www.youtube.com/watch?v=jnFsnubIDZQ"
+    }
+  ]
+}

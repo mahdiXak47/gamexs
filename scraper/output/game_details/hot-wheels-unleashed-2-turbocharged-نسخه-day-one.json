@@ -1,0 +1,110 @@
+{
+  "slug": "hot-wheels-unleashed-2-turbocharged-نسخه-day-one",
+  "igdb_id": 252166,
+  "name": "Hot Wheels Unleashed 2: Turbocharged - Day One Edition",
+  "summary": "The ultimate racing game is back — and more charged up than ever!\n\nOver 130 vehicles, including new types like motorbikes and ATVs, five new environments with racing surfaces impacting vehicle performance and creating more dynamic gameplay, new driving unique strategies as like lateral dashes and jumps to ensure more wild races, a story-driven campaign, and a variety of exciting new game modes.\n\nThe multiplayer experience is enriched thanks to the Cross-play feature, online ranking and PC anti-cheat system. And a lot of ways to show off your creativity are available with the renewed track editor and brand-new stickers for unique vehicle liveries.",
+  "first_release_year": 2023,
+  "developers": [
+    "Milestone"
+  ],
+  "publishers": [
+    "Milestone"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Hot Wheels"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hot_Wheels_Unleashed_2:_Turbocharged"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/XpMdnVsS3K"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/hotwheelsunleashed/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://hotwheelsunleashed.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/HotWheelsUnleashed/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 19, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-19"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 19, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 19, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-19"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 19, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-19"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 19, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2rl8.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "09F3yQkLYh4",
+      "url": "https://www.youtube.com/watch?v=09F3yQkLYh4"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "slug": "the-witcher-iv",
+  "igdb_id": 194662,
+  "name": "The Witcher IV",
+  "summary": "The Witcher IV is a single-player, open-world RPG from CD PROJEKT RED. At the start of a new saga, players take on the role of Ciri, a professional monster slayer, and embark on a journey through a brutal dark-fantasy world.",
+  "first_release_year": null,
+  "developers": [
+    "CD Projekt RED"
+  ],
+  "publishers": [
+    "CD Projekt RED"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Drama",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "The Witcher"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "The Witcher"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "female protagonist"
+  ],
+  "alternative_names": [
+    {
+      "name": "The Witcher 4",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Project Polaris",
+      "comment": "Working title"
+    },
+    {
+      "name": "Untitled New Witcher Game ",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "The Witcher",
+      "comment": "Working title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/thewitcher"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/thewitcher"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.thewitcher.com/ca/en/witcher4"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/witchergame"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/witcher"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/thewitcher"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/the-witcher-1"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/thewitcher"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "TBD",
+      "status": "Released"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3nks.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3nkq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3nkr.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3nkp.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "54dabgZJ5YA",
+      "url": "https://www.youtube.com/watch?v=54dabgZJ5YA"
+    },
+    {
+      "title": "Unreal Engine 5 Tech Demo",
+      "youtube_id": "Nthv4xF_zHU",
+      "url": "https://www.youtube.com/watch?v=Nthv4xF_zHU"
+    }
+  ]
+}

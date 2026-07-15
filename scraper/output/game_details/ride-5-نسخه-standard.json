@@ -1,0 +1,123 @@
+{
+  "slug": "ride-5-نسخه-standard",
+  "igdb_id": 245715,
+  "name": "Ride 5",
+  "summary": "Rev up your engine and get ready to hit the track with RIDE 5. An adrenaline-filled gaming experience that is so authentic it will make you feel like you're truly racing at break-neck speed. Find your favorite bikes and check out new ones in the ultimate motorcycle game! Race on over 35 tracks and collect more than 200 motorcycles from world-renowned manufacturers, each element is designed to feel like you're riding a real bike.",
+  "first_release_year": 2023,
+  "developers": [
+    "Milestone"
+  ],
+  "publishers": [
+    "Milestone"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Ride"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "RIDE 5",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/ridevideogame/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ride-5/9NRDG9Q1V2XM"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/RideVideogame/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/MilestoneItaly"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/milestoneteam"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/YZcmQT3mNk"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003247"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1650010"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/ride-5"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://ridevideogame.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 24, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-24"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 24, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 24, 2023",
+      "status": "Released",
+      "date_iso": "2023-08-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar29qr.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar29qs.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "0kuZ93yzyO0",
+      "url": "https://www.youtube.com/watch?v=0kuZ93yzyO0"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "-yqY6jTmw0g",
+      "url": "https://www.youtube.com/watch?v=-yqY6jTmw0g"
+    }
+  ]
+}

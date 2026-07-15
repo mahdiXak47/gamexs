@@ -1,0 +1,132 @@
+{
+  "slug": "miraculous-paris-under-siege",
+  "igdb_id": 314019,
+  "name": "Miraculous: Paris Under Siege",
+  "summary": "Embark on a thrilling adventure where heroism, acrobatic combat, and stunning parkour collide as Shadow Moth unleashes a wave of villains across the city. It’s up to Ladybug and Cat Noir to save the day!",
+  "first_release_year": 2024,
+  "developers": [
+    "Petit Fabrik"
+  ],
+  "publishers": [
+    "GameMill Entertainment"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Miraculous"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "licensed game",
+    "based on - cartoons"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/miraculous-paris-under-siege-2af48c"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/gamemillent/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://gamemill.com/games/miraculous-paris-under-siege/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/miraculous-paris-under-siege-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010300"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2676410"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@GameMillEntertainment"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/GameMillEnt"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Released",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Released",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Released",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Released",
+      "date_iso": "2024-10-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 25, 2024",
+      "status": "Released",
+      "date_iso": "2024-10-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar352t.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar352u.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar352v.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "qNra_MBkd-s",
+      "url": "https://www.youtube.com/watch?v=qNra_MBkd-s"
+    }
+  ]
+}

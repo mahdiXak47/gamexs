@@ -1,0 +1,199 @@
+{
+  "slug": "medieval-dynasty",
+  "igdb_id": 121998,
+  "name": "Medieval Dynasty",
+  "summary": "Hunt, survive, build and lead in the harsh Middle Ages: Create your own Medieval Dynasty and ensure its long-lasting prosperity or die trying! Play alone or team up with friends to enjoy the ultimate medieval experience.",
+  "first_release_year": 2021,
+  "developers": [
+    "Render Cube"
+  ],
+  "publishers": [
+    "Toplitz Productions"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Simulator",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "life simulation",
+    "medieval",
+    "management",
+    "simulation",
+    "micromanagement",
+    "building",
+    "steam trading cards",
+    "steam achievements",
+    "xbox controller support for pc",
+    "steam cloud",
+    "controller support",
+    "survival management",
+    "cross-platform",
+    "steam families"
+  ],
+  "alternative_names": [
+    {
+      "name": "中世纪王朝",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Medieval_Dynasty.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Medieval%20Dynasty/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/medievaldynastyofficial/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/medieval-dynasty-xbox-one/9N2PS831S84N"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005204"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Medieval_Dynasty"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/medieval_dynasty"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/medievaldynasty"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/MedievalDynasty"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://medieval-dynasty.fandom.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1129580"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/medieval-dynasty"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@rendercubeofficial"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/MedievalDynastyOfficial"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/render_cube"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://rendercube.pl/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-04-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 23, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-09-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 22, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-04-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 06, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-06"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 17, 2020",
+      "status": "Beta",
+      "date_iso": "2020-09-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arcp4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5dnm.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5dnl.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5dnn.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5r6f.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gamescom 2020 Trailer",
+      "youtube_id": "ST14nkbbY4c",
+      "url": "https://www.youtube.com/watch?v=ST14nkbbY4c"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "5m0_Ezoqdp8",
+      "url": "https://www.youtube.com/watch?v=5m0_Ezoqdp8"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "2B-q-nw3Ssw",
+      "url": "https://www.youtube.com/watch?v=2B-q-nw3Ssw"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "BkhwydCJMw4",
+      "url": "https://www.youtube.com/watch?v=BkhwydCJMw4"
+    }
+  ]
+}

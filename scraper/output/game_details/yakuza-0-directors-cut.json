@@ -1,0 +1,275 @@
+{
+  "slug": "yakuza-0-directors-cut",
+  "igdb_id": 11397,
+  "name": "Yakuza 0",
+  "summary": "Yakuza 0 is an action-adventure beat 'em up and a prequel to the Yakuza series, set in 1988 Japan during the country's economic bubble era. The game follows two protagonists: Kazuma Kiryu in Tokyo's Kamurocho district and Goro Majima in Osaka's Sotenbori district. Players alternate between their stories as they navigate the criminal underworld, engaging in street fights using multiple switchable combat styles, managing businesses, and participating in a wide variety of side activities and minigames. The game is largely credited with bringing the long-running franchise to mainstream Western attention.",
+  "first_release_year": 2015,
+  "developers": [
+    "Ryu Ga Gotoku Studios",
+    "Sega Games"
+  ],
+  "publishers": [
+    "Sega Corporation",
+    "Sega Games",
+    "Sega"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Simulator",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Drama",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Yakuza: Like a Dragon"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Yakuza: Like a Dragon"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "pool",
+    "martial arts",
+    "1980s",
+    "murder",
+    "minigames",
+    "organized crime",
+    "prequel",
+    "gambling",
+    "karaoke",
+    "gangs",
+    "brawler",
+    "mahjong",
+    "action-adventure",
+    "multiple protagonists",
+    "japan",
+    "crime",
+    "yakuza",
+    "digital distribution",
+    "playstation trophies",
+    "60 fps on consoles",
+    "card collection",
+    "playstation experience 2016",
+    "side quests",
+    "melee",
+    "betrayal",
+    "arcade cabinet",
+    "interactive environments",
+    "dart",
+    "skill tree",
+    "motion capture animation",
+    "fast traveling",
+    "the 1980s",
+    "sex work",
+    "product placement",
+    "metagame",
+    "framing",
+    "male protagonist",
+    "collectathon",
+    "food",
+    "asian protagonist"
+  ],
+  "alternative_names": [
+    {
+      "name": "Y0",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "Yakuza Zero",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Yakuza0.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "Ryu ga Gotoku 0: Chikai no Basho",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "Like a Dragon 0: The Place of Oath",
+      "comment": "Japanese title - translated"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Yakuza%200"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "http://yakuza.wikia.com/wiki/Yakuza_0"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://ryu-ga-gotoku.com/zero/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/yakuzagames"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/yakuza-0/9NPP17LHJ3MK"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/203727"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/RGGStudio"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/RGGStudioWest"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/RGGStudioWest"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/ryuofficial"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/638970/Yakuza_0"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/yakuza_0"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yakuza_0"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 14, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-05-14"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 26, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-02-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 01, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-08-01"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 24, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-01-24"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Mar 12, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-03-12"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "May 14, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-05-14"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 12, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-03-12"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jan 24, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-01-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar8k7.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar48en.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar48eq.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "7ztJcv0evp0",
+      "url": "https://www.youtube.com/watch?v=7ztJcv0evp0"
+    },
+    {
+      "title": "Battle Systems Trailer",
+      "youtube_id": "oUP0rf13X7M",
+      "url": "https://www.youtube.com/watch?v=oUP0rf13X7M"
+    },
+    {
+      "title": "Kiryu Trailer",
+      "youtube_id": "ciEyrv0ojrc",
+      "url": "https://www.youtube.com/watch?v=ciEyrv0ojrc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "QirwHAliyJU",
+      "url": "https://www.youtube.com/watch?v=QirwHAliyJU"
+    },
+    {
+      "title": "PlayStation Experience 2015 Trailer",
+      "youtube_id": "XuglHdoCOjU",
+      "url": "https://www.youtube.com/watch?v=XuglHdoCOjU"
+    },
+    {
+      "title": "Legends Trailer",
+      "youtube_id": "NkTDuww8ryg",
+      "url": "https://www.youtube.com/watch?v=NkTDuww8ryg"
+    },
+    {
+      "title": "E3 2016 Trailer",
+      "youtube_id": "EhL5xjWjmE8",
+      "url": "https://www.youtube.com/watch?v=EhL5xjWjmE8"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "QTM1PP5d6ss",
+      "url": "https://www.youtube.com/watch?v=QTM1PP5d6ss"
+    },
+    {
+      "title": "Producer Scott Strichart Interview",
+      "youtube_id": "yTq_ul7WxyA",
+      "url": "https://www.youtube.com/watch?v=yTq_ul7WxyA"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "QXqCa_IFnW8",
+      "url": "https://www.youtube.com/watch?v=QXqCa_IFnW8"
+    }
+  ]
+}

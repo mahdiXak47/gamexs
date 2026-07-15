@@ -1,0 +1,259 @@
+{
+  "slug": "hades-ii",
+  "igdb_id": 228525,
+  "name": "Hades II",
+  "summary": "Battle beyond the Underworld using dark sorcery to take on the Titan of Time in this bewitching sequel to the award-winning rogue-like dungeon crawler.",
+  "first_release_year": 2025,
+  "developers": [
+    "Supergiant Games"
+  ],
+  "publishers": [
+    "Supergiant Games"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Hades"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Proprietary Engine"
+  ],
+  "keywords": [
+    "greek mythology",
+    "roguelike",
+    "fast paced",
+    "dark fantasy",
+    "procedural generation",
+    "difficult",
+    "hand-to-hand combat",
+    "supernatural",
+    "stylized",
+    "multiple endings",
+    "combat",
+    "dungeon crawler",
+    "story rich",
+    "boss fight",
+    "loot gathering",
+    "skill tree",
+    "the game awards - best score or music - nominee",
+    "narrative",
+    "roguelite",
+    "the game awards - best action game - winner",
+    "the game awards - best art direction - nominee",
+    "the game awards - best game direction - nominee",
+    "the game awards - best independent game - nominee",
+    "the game awards - game of the year - nominee",
+    "weapons",
+    "action roguelike"
+  ],
+  "alternative_names": [
+    {
+      "name": "Hades 2",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Hades2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1145350"
+    },
+    {
+      "label": "Discord",
+      "url": "http://www.discord.gg/Supergiant"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/SupergiantGames"
+    },
+    {
+      "label": "Facebook",
+      "url": "http://www.facebook.com/SupergiantGames"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://hades.fandom.com/wiki/Hades_II"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/hades-ii-nintendo-switch-2-edition-switch-2/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Hades_II"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/hades-ii"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Hades%20II"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@supergiantgames"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/SupergiantGames"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.supergiantgames.com/games/hades-ii/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hades_II"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/hades-ii/9PCR3Z2MSM4T/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10018449"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Oct 16, 2024",
+      "status": "Beta",
+      "date_iso": "2024-10-16"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 06, 2024",
+      "status": "Beta",
+      "date_iso": "2024-05-06"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Sep 25, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-25"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 25, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-25"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Sep 25, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-25"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 25, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-09-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 14, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-14"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 14, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar44rv.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar48mp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ml1.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar47ko.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5lrf.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5m4s.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5m4t.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5m4u.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ml0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3mkz.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "WH3jT53hIYM",
+      "url": "https://www.youtube.com/watch?v=WH3jT53hIYM"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "l-iHDj3EwdI",
+      "url": "https://www.youtube.com/watch?v=l-iHDj3EwdI"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Miu_akSity4",
+      "url": "https://www.youtube.com/watch?v=Miu_akSity4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "zz2OyVgnSxg",
+      "url": "https://www.youtube.com/watch?v=zz2OyVgnSxg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "2Gv0eQjJ-gY",
+      "url": "https://www.youtube.com/watch?v=2Gv0eQjJ-gY"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "U8lJRcUeEMs",
+      "url": "https://www.youtube.com/watch?v=U8lJRcUeEMs"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "-SnaCUsUF3E",
+      "url": "https://www.youtube.com/watch?v=-SnaCUsUF3E"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "w-1n05w4-cE",
+      "url": "https://www.youtube.com/watch?v=w-1n05w4-cE"
+    },
+    {
+      "title": "Console Trailer",
+      "youtube_id": "ppEKFy83w-o",
+      "url": "https://www.youtube.com/watch?v=ppEKFy83w-o"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "Of159ToTMJI",
+      "url": "https://www.youtube.com/watch?v=Of159ToTMJI"
+    }
+  ]
+}

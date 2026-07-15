@@ -1,0 +1,83 @@
+{
+  "slug": "among-us-نسخه-crewmate-edition",
+  "igdb_id": 155093,
+  "name": "Among Us: Crewmate Edition",
+  "summary": "Play online with 4-15 players as you attempt to hold your spaceship together and return back to civilization. But beware... as there may be an alien impostor aboard!\n\nThe Crewmate Edition includes:\n- Base Game\n- DLC items: Airship, Polus and MIRA HQ Skins, and Hamster Pet, Bedcrab Pet, Brainslug Pet, Stickmin Pet, and Mini Crewmate bundles\n- 3D Lenticular Case\n- Impostor Syndrome Sticker Sheet\n- 1 of 12 Special Mira HQ Holographic Access Cards\n- Folded Skeld Map Poster designed\n- Redeemable Code for 6 PC/Phone Wallpapers",
+  "first_release_year": 2021,
+  "developers": [],
+  "publishers": [
+    "Innersloth",
+    "Maximum Games"
+  ],
+  "genres": [
+    "Strategy",
+    "Indie"
+  ],
+  "themes": [
+    "Survival",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Battle Royale"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "investigation",
+    "team-based"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.innersloth.com/games/among-us"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 21, 2021",
+      "status": "Released",
+      "date_iso": "2021-12-21"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 14, 2021",
+      "status": "Released",
+      "date_iso": "2021-12-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 14, 2021",
+      "status": "Released",
+      "date_iso": "2021-12-14"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 14, 2021",
+      "status": "Released",
+      "date_iso": "2021-12-14"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 14, 2021",
+      "status": "Released",
+      "date_iso": "2021-12-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar14r4.jpg"
+  ],
+  "videos": []
+}

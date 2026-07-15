@@ -1,0 +1,251 @@
+{
+  "slug": "persona-5-royal-deluxe-edition",
+  "igdb_id": 114283,
+  "name": "Persona 5 Royal",
+  "summary": "Persona 5 Royal is an enhanced version of the turn-based role-playing game Persona 5, set in modern-day Tokyo. Players control a high school student who leads a group of secret vigilantes called the Phantom Thieves of Hearts, exploring supernatural dungeons called Palaces to change the hearts of corrupt adults. The game combines dungeon crawling and turn-based combat with social simulation elements, where players manage daily activities, build relationships, and develop character statistics across a school year. Royal adds new characters, a third semester, an additional Palace, new music, and expanded story content to the original game.",
+  "first_release_year": 2019,
+  "developers": [
+    "P Studio"
+  ],
+  "publishers": [
+    "Sega",
+    "Atlus"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Fantasy",
+    "Comedy",
+    "Drama",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Persona",
+    "Persona 5"
+  ],
+  "spin_off_of": "Persona 5",
+  "franchises": [
+    "Megami Tensei",
+    "Shin Megami Tensei",
+    "Persona"
+  ],
+  "game_engines": [
+    "Gamebryo"
+  ],
+  "keywords": [
+    "jrpg",
+    "party-based combat",
+    "multiple endings",
+    "enhanced version",
+    "party-based",
+    "turn-based combat",
+    "censored version",
+    "male protagonist",
+    "turn-based rpg",
+    "party-based rpg"
+  ],
+  "alternative_names": [
+    {
+      "name": "P5R",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Persona 5 The Royal",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "女神异闻录5 皇家版",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "女神異聞錄5 皇家版",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "P5R.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/persona-5-royal/9NZDHXL9SJJ8"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002771"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/persona-5-royal-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://atlus.com/p5r/home.html"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Persona_5"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Persona5/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/atlus_west"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/AtlusWest"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/atlus"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1687950"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://megatenwiki.com/wiki/Persona_5_Royal"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/persona-5-royal"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 31, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-03-31"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 31, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-03-31"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 31, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-10-31"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 31, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-03-31"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 21, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-21"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 21, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 21, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-21"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 21, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 21, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar616.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar615.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3u1t.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3u1u.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4pdg.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "IR_7H_zzU7Y",
+      "url": "https://www.youtube.com/watch?v=IR_7H_zzU7Y"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "8U8OLRnde70",
+      "url": "https://www.youtube.com/watch?v=8U8OLRnde70"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "xHVbI9wjM4U",
+      "url": "https://www.youtube.com/watch?v=xHVbI9wjM4U"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "LFzh6T7bQ_M",
+      "url": "https://www.youtube.com/watch?v=LFzh6T7bQ_M"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "o9QjlLdYK5I",
+      "url": "https://www.youtube.com/watch?v=o9QjlLdYK5I"
+    },
+    {
+      "title": "Japanese trailer",
+      "youtube_id": "GJzcSKyCzZs",
+      "url": "https://www.youtube.com/watch?v=GJzcSKyCzZs"
+    },
+    {
+      "title": "Japanese Microsoft Trailer",
+      "youtube_id": "91tGkPg1txE",
+      "url": "https://www.youtube.com/watch?v=91tGkPg1txE"
+    },
+    {
+      "title": "Game Intro",
+      "youtube_id": "O3dX4tCb_5w",
+      "url": "https://www.youtube.com/watch?v=O3dX4tCb_5w"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "-b2SV5fkQrk",
+      "url": "https://www.youtube.com/watch?v=-b2SV5fkQrk"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "IYsNAxGsaow",
+      "url": "https://www.youtube.com/watch?v=IYsNAxGsaow"
+    }
+  ]
+}

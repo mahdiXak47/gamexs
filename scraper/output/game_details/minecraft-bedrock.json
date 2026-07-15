@@ -1,0 +1,347 @@
+{
+  "slug": "minecraft-bedrock",
+  "igdb_id": 135400,
+  "name": "Minecraft",
+  "summary": "Minecraft focuses on allowing the player to explore, interact with, and modify a dynamically-generated map made of one-cubic-meter-sized blocks. In addition to blocks, the environment features plants, mobs, and items. Some activities in the game include mining for ore, fighting hostile mobs, and crafting new blocks and tools by gathering various resources found in the game. The game's open-ended model allows players to create structures, creations, and artwork on various multiplayer servers or their single-player maps. Other features include redstone circuits for logic computations and remote actions, minecarts and tracks, and a mysterious underworld called the Nether. A designated but completely optional goal of the game is to travel to a dimension called the End, and defeat the ender dragon.",
+  "first_release_year": 2016,
+  "developers": [
+    "Mojang Studios"
+  ],
+  "publishers": [
+    "Mojang Studios"
+  ],
+  "genres": [
+    "Simulator",
+    "Adventure",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Survival",
+    "Sandbox",
+    "Kids",
+    "Open world",
+    "4X (explore, expand, exploit, and exterminate)"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen",
+    "Massively Multiplayer Online (MMO)"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person",
+    "Virtual Reality"
+  ],
+  "series": [
+    "Minecraft"
+  ],
+  "spin_off_of": "Minecraft: Java Edition",
+  "franchises": [
+    "Minecraft"
+  ],
+  "game_engines": [
+    "RenderDragon",
+    "Bedrock Engine"
+  ],
+  "keywords": [
+    "zombies",
+    "monsters",
+    "wizards",
+    "dragons",
+    "crafting",
+    "chicken",
+    "skeleton",
+    "building",
+    "dungeon crawling",
+    "minecraft",
+    "wolf",
+    "pixel graphics",
+    "potions",
+    "sheep",
+    "pig",
+    "60 fps on consoles",
+    "cow",
+    "explosives",
+    "skeletons",
+    "resource gathering",
+    "pc to console port",
+    "open world survival craft",
+    "cross-platform",
+    "rabbits",
+    "bees"
+  ],
+  "alternative_names": [
+    {
+      "name": "Minecraft: Bedrock Edition",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "我的世界",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Minecraft: Windows 10 Edition",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Minecraft: Pocket Edition",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Minecraft: Amazon Fire TV Edition",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "MC",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "Minecraft for Windows",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://minecraft.wiki/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@minecraft"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Minecraft"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/minecraft-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP4433-PPSA17221_00-MINECRAFTPS50000"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/minecraft/9MVXMVT8ZKWC"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/app/id479516143"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/minecraft"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Minecraft"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/minecraft"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Minecraft"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/minecraft"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.mojang.minecraftpe"
+    },
+    {
+      "label": "iPad",
+      "url": "https://apps.apple.com/app/id479516143"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/minecraft"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.minecraft.net/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 20, 2024",
+      "status": "Beta",
+      "date_iso": "2024-06-20"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Dec 19, 2016",
+      "status": "Cancelled",
+      "date_iso": "2016-12-19"
+    },
+    {
+      "platform": "Amazon Fire TV",
+      "region": null,
+      "date": "Sep 20, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-09-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 20, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-09-20"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jun 21, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-06-21"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Dec 19, 2016",
+      "status": "Cancelled",
+      "date_iso": "2016-12-19"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Nov 17, 2011",
+      "status": "Beta",
+      "date_iso": "2011-11-17"
+    },
+    {
+      "platform": "Windows Phone",
+      "region": null,
+      "date": "Dec 19, 2016",
+      "status": "Cancelled",
+      "date_iso": "2016-12-19"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Aug 16, 2011",
+      "status": "Beta",
+      "date_iso": "2011-08-16"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 25, 2015",
+      "status": "Beta",
+      "date_iso": "2015-07-25"
+    },
+    {
+      "platform": "Windows Phone",
+      "region": null,
+      "date": "Sep 05, 2014",
+      "status": "Beta",
+      "date_iso": "2014-09-05"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 20, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-09-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 22, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-22"
+    },
+    {
+      "platform": "Amazon Fire TV",
+      "region": null,
+      "date": "Sep 13, 2012",
+      "status": "Beta",
+      "date_iso": "2012-09-13"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 09, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-12-09"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-17"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "2026",
+      "status": "Cancelled",
+      "date_iso": "2026-12-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4nm5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4qpp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4nm6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4nm4.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "5nWMr2njHiA",
+      "url": "https://www.youtube.com/watch?v=5nWMr2njHiA"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "MmB9b5njVbA",
+      "url": "https://www.youtube.com/watch?v=MmB9b5njVbA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "vyr3XZrZssk",
+      "url": "https://www.youtube.com/watch?v=vyr3XZrZssk"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "1DhWXAiNgfQ",
+      "url": "https://www.youtube.com/watch?v=1DhWXAiNgfQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "D2Z9oKTzzrM",
+      "url": "https://www.youtube.com/watch?v=D2Z9oKTzzrM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "X-fMtNOS_gU",
+      "url": "https://www.youtube.com/watch?v=X-fMtNOS_gU"
+    },
+    {
+      "title": "Gameplay Demo",
+      "youtube_id": "fHS5uRQonDc",
+      "url": "https://www.youtube.com/watch?v=fHS5uRQonDc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Byy0En3tCQU",
+      "url": "https://www.youtube.com/watch?v=Byy0En3tCQU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "pBL7nJLH8ro",
+      "url": "https://www.youtube.com/watch?v=pBL7nJLH8ro"
+    }
+  ]
+}

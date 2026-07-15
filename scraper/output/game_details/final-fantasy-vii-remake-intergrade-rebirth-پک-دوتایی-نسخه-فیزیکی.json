@@ -1,0 +1,180 @@
+{
+  "slug": "final-fantasy-vii-remake-intergrade-rebirth-پک-دوتایی-نسخه-فیزیکی",
+  "igdb_id": 207026,
+  "name": "Final Fantasy VII",
+  "summary": "The 2012 release of Final Fantasy VII made its way to consoles with new Speed-Up, Battle Enhancement, and No Encounter features. It was later brought to PC.",
+  "first_release_year": 2015,
+  "developers": [
+    "Square Enix Business Division 3",
+    "DotEmu"
+  ],
+  "publishers": [
+    "Square Enix"
+  ],
+  "genres": [
+    "Role-playing (RPG)"
+  ],
+  "themes": [
+    "Fantasy",
+    "Science fiction",
+    "Drama"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Final Fantasy",
+    "Compilation of Final Fantasy VII",
+    "Final Fantasy VII"
+  ],
+  "spin_off_of": "Final Fantasy VII",
+  "franchises": [
+    "Final Fantasy"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "jrpg",
+    "boss fight",
+    "random encounter"
+  ],
+  "alternative_names": [
+    {
+      "name": "FINAL FANTASY VII",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "FF7",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Final Fantasy 7 International",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Final Fantasy VII International",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Final Fantasy 7",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "最終幻想VII",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "FFVII",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Финальная Фантазия 7",
+      "comment": "Russian title"
+    },
+    {
+      "name": "FF7_Launcher.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/221537"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/final-fantasy-vii-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/final-fantasy-vii/BWKXQC5BL5R1"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/FinalFantasyvii"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/finalfantasy/"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.finalfantasyviipc.com"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/FinalFantasyvii/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Final_Fantasy_VII"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3837340/FINAL_FANTASY_VII/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/final_fantasy_vii"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 26, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-03-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 24, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 05, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-12-05"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 26, 2019",
+      "status": "Cancelled",
+      "date_iso": "2019-03-26"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar609d.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1qho.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1qhp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1qhq.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1qhr.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5gfs.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5bp4.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "fNJ1y9YUiLY",
+      "url": "https://www.youtube.com/watch?v=fNJ1y9YUiLY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "G39f-_X0CI0",
+      "url": "https://www.youtube.com/watch?v=G39f-_X0CI0"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "fzjSpVRa3rQ",
+      "url": "https://www.youtube.com/watch?v=fzjSpVRa3rQ"
+    }
+  ]
+}

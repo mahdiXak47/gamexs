@@ -1,0 +1,155 @@
+{
+  "slug": "starsand",
+  "igdb_id": 152754,
+  "name": "Starsand",
+  "summary": "Starsand is a mystic survival game set among the dunes of an arcane desert. An open-world full of danger, vast environments and mysterious happenings await you! Explore, hunt, craft, build – and SURVIVE.",
+  "first_release_year": 2022,
+  "developers": [
+    "Tunnel Vision Games"
+  ],
+  "publishers": [
+    "Toplitz Productions"
+  ],
+  "genres": [
+    "Simulator",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "crafting",
+    "base building"
+  ],
+  "alternative_names": [
+    {
+      "name": "Starsand.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.toplitz-productions.com/starsand.html"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/starsand"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/starsand-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005614"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/toplitzgames/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCyD5E2GLBzgOhNqTzZ6c"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/toplitzprod/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Toplitz_Prod"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/jFcaCJ97wE"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1380220"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/starsand"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 17, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 17, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-17"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 17, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 17, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 04, 2021",
+      "status": "Beta",
+      "date_iso": "2021-11-04"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 17, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-11-17"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 17, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arylb.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "UTceP6m-NjM",
+      "url": "https://www.youtube.com/watch?v=UTceP6m-NjM"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "dl0WO6QSgBY",
+      "url": "https://www.youtube.com/watch?v=dl0WO6QSgBY"
+    }
+  ]
+}

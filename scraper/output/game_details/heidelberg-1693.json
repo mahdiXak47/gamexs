@@ -1,0 +1,118 @@
+{
+  "slug": "heidelberg-1693",
+  "igdb_id": 135841,
+  "name": "Heidelberg 1693",
+  "summary": "Black magic in the age of pike and shot! Reload your musket after every blast in “Heidelberg 1693”, a challenging 2D action adventure set in a dark and twisted vision of Germany in the late 17th century.",
+  "first_release_year": 2020,
+  "developers": [
+    "Andrade Games"
+  ],
+  "publishers": [
+    "Andrade Games",
+    "Red Art Games"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Historical"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "germany",
+    "gore",
+    "nudity",
+    "17th century"
+  ],
+  "alternative_names": [
+    {
+      "name": "Heidelberg1693.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.andrade-games.com/"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/heidelberg-1693-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004773"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1253520/Heidelberg_1693/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Heidelberg%201693"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 18, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-18"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 18, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-18"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 18, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 18, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-18"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 18, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 27, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arpca.jpg"
+  ],
+  "videos": []
+}

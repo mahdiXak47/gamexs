@@ -1,0 +1,186 @@
+{
+  "slug": "tainted-grail-the-fall-of-avalon",
+  "igdb_id": 127697,
+  "name": "Tainted Grail: The Fall of Avalon",
+  "summary": "Tainted Grail: The Fall of Avalon is an open-world RPG full of complex quests in which your decisions matter and your choices are respected. A vast world full of monsters, fallen heroes, and exciting places to discover.",
+  "first_release_year": 2025,
+  "developers": [
+    "Awaken Realms"
+  ],
+  "publishers": [
+    "Awaken Realms"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Tainted Grail"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity 2020"
+  ],
+  "keywords": [
+    "dark fantasy",
+    "story rich",
+    "controller support",
+    "steam deck"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/tainted-grail-the-fall-of-avalon/9nnmh5zrpqjz"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009530"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/tainted_grail_the_fall_of_avalon"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1466060/Tainted_Grail_The_Fall_of_Avalon"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://awakenrealms.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/awakenrealms"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/taintedgrail_ar"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/awakenrealms"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/taintedgrail"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://discord.gg/R2nexGNj"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/tainted-grail-conquest"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/Hn5zJYV"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tainted_Grail:_The_Fall_of_Avalon"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 30, 2023",
+      "status": "Beta",
+      "date_iso": "2023-03-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 23, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-05-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m03.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m3d.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m3c.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m04.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Game Intro",
+      "youtube_id": "ZRlih4mcAtw",
+      "url": "https://www.youtube.com/watch?v=ZRlih4mcAtw"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "ThVxt4iM5zM",
+      "url": "https://www.youtube.com/watch?v=ThVxt4iM5zM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Fo4ylIsHI1o",
+      "url": "https://www.youtube.com/watch?v=Fo4ylIsHI1o"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "VBi0EgmeO_E",
+      "url": "https://www.youtube.com/watch?v=VBi0EgmeO_E"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "71yylhaMCzA",
+      "url": "https://www.youtube.com/watch?v=71yylhaMCzA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "JeYy_eGfvas",
+      "url": "https://www.youtube.com/watch?v=JeYy_eGfvas"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "UQ9AB-Ab1Zs",
+      "url": "https://www.youtube.com/watch?v=UQ9AB-Ab1Zs"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "uEJZsxyKU1Y",
+      "url": "https://www.youtube.com/watch?v=uEJZsxyKU1Y"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "3hDQNtPceEQ",
+      "url": "https://www.youtube.com/watch?v=3hDQNtPceEQ"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "utDgF27366E",
+      "url": "https://www.youtube.com/watch?v=utDgF27366E"
+    }
+  ]
+}

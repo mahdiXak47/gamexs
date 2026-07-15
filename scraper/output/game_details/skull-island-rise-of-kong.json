@@ -1,0 +1,118 @@
+{
+  "slug": "skull-island-rise-of-kong",
+  "igdb_id": 257674,
+  "name": "Skull Island: Rise of Kong",
+  "summary": "Embark on a 3rd person action-adventure quest to avenge the death of your parents at the hands of the ultimate alpha predator: Gaw. Conquer waves of primal beasts and defeat the minions of your arch-nemesis on your way to becoming the rightful King of Skull Island. Traverse the mysterious island and uncover lore and all the secrets the island has to offer as you encounter swamps, waterfalls, jungle, and skullite-filled caves that give the island’s flora and fauna its power.",
+  "first_release_year": 2023,
+  "developers": [
+    "IguanaBee"
+  ],
+  "publishers": [
+    "GameMill Entertainment"
+  ],
+  "genres": [
+    "Platform",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "King Kong"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "kong.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/skull-island-rise-of-kong-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008043"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Skull_Island:_Rise_of_Kong"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.gamemill.com"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2097890"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-17"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-17"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-17"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 17, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2js7.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "qc0nyNnZGLE",
+      "url": "https://www.youtube.com/watch?v=qc0nyNnZGLE"
+    }
+  ]
+}

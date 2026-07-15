@@ -1,0 +1,154 @@
+{
+  "slug": "arma-reforger",
+  "igdb_id": 201789,
+  "name": "Arma Reforger",
+  "summary": "Powered by the new Enfusion engine, Arma Reforger lets you fight for supremacy over 51 km2 of incredible island terrain in an authentic Cold War setting, or create unique scenarios in real-time with the Game Master curation mode. Return to Everon, the war-driven microstate from the hit game that started it all, Arma: Cold War Assault.",
+  "first_release_year": 2023,
+  "developers": [
+    "Bohemia Interactive"
+  ],
+  "publishers": [
+    "Bohemia Interactive"
+  ],
+  "genres": [
+    "Shooter",
+    "Simulator",
+    "Strategy",
+    "Tactical"
+  ],
+  "themes": [
+    "Action",
+    "Sandbox",
+    "Open world",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "ArmA"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Enfusion"
+  ],
+  "keywords": [
+    "cold war",
+    "1980s",
+    "pvp",
+    "military",
+    "pve"
+  ],
+  "alternative_names": [
+    {
+      "name": "ArmaReforger_BE.exe",
+      "comment": "windows executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010198"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://reforger.armaplatform.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1874880"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/armaplatform"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://reddit.com/r/d"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/arma"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/armaplatform"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/armaplatform"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/armaplatform"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Arma%20Reforger"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arma_Reforger"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 17, 2022",
+      "status": "Beta",
+      "date_iso": "2022-05-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 16, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-16"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 12, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-12"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 16, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-16"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 17, 2022",
+      "status": "Beta",
+      "date_iso": "2022-05-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3zk9.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3zka.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "AIervYhiEZ8",
+      "url": "https://www.youtube.com/watch?v=AIervYhiEZ8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "vAY9i2RG5Fc",
+      "url": "https://www.youtube.com/watch?v=vAY9i2RG5Fc"
+    }
+  ]
+}

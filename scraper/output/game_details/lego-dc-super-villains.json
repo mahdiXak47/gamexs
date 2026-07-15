@@ -1,0 +1,161 @@
+{
+  "slug": "lego-dc-super-villains",
+  "igdb_id": 102321,
+  "name": "LEGO DC Super-Villains",
+  "summary": "Lego DC Super-Villains is a Lego-themed action-adventure platform video game developed by Traveller's Tales. The fourth installment in the Lego Batman series of games, it is a spin-off that focuses entirely on villains of the DC Universe; it is the first in the series to do so since the villain levels from Lego Batman: The Videogame.\n\nWhile the core gameplay follows the same style as past Lego titles, including the addition of a two-player cooperative multiplayer mode, DC Super-Villains is the first title to incorporate a customized character into the story.",
+  "first_release_year": 2018,
+  "developers": [
+    "Traveller's Tales"
+  ],
+  "publishers": [
+    "WB Games"
+  ],
+  "genres": [
+    "Puzzle",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Comedy",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "LEGO",
+    "DC Comics",
+    "Batman",
+    "LEGO Batman",
+    "Superman",
+    "The Flash"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "superhero",
+    "based on - comics",
+    "superpowers",
+    "available on - luna plus"
+  ],
+  "alternative_names": [
+    {
+      "name": "レゴ DC スーパーヴィランズ",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "LEGO DC Super-빌런",
+      "comment": "Korean title"
+    },
+    {
+      "name": "LEGO DC Super-villains_DX11.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lego_DC_Super-Villains"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/lego-dc-super-villains/BQXVSGCX6K8W"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/231944"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/lego-dc-super-villains-switch/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/LEGODCGame"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://chaos-is-coming.wbgames.com/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/LEGODCGame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/LEGODCGame"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/829110/LEGO_DC_SuperVillains"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/lego_dc_supervillains"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/LEGO%20DC%20Super-Villains"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 16, 2018",
+      "status": "Released",
+      "date_iso": "2018-10-16"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 16, 2018",
+      "status": "Released",
+      "date_iso": "2018-10-16"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jul 30, 2019",
+      "status": "Released",
+      "date_iso": "2019-07-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 16, 2018",
+      "status": "Released",
+      "date_iso": "2018-10-16"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 16, 2018",
+      "status": "Released",
+      "date_iso": "2018-10-16"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ardb7.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "HLkCPE2Nqro",
+      "url": "https://www.youtube.com/watch?v=HLkCPE2Nqro"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "lkpg1ESW3aU",
+      "url": "https://www.youtube.com/watch?v=lkpg1ESW3aU"
+    }
+  ]
+}

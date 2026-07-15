@@ -1,0 +1,218 @@
+{
+  "slug": "five-nights-at-freddy’s-help-wanted-vr",
+  "igdb_id": 250627,
+  "name": "Five Nights at Freddy's: Help Wanted 2",
+  "summary": "Find out if you have what it takes to be a Fazbear Entertainment Superstar!\n\nFive Nights at Freddy’s: Help Wanted 2 is the sequel to the terrifying VR experience that brought new life to the iconic horror franchise. As a brand new Fazbear employee you’ll have to prove you have what it takes to excel in all aspects of Pizzeria management and maintenance.",
+  "first_release_year": 2023,
+  "developers": [
+    "Steel Wool Studios"
+  ],
+  "publishers": [
+    "Steel Wool Studios",
+    "PlayStation Studios",
+    "META Publishing",
+    "HTC",
+    "Scottgames"
+  ],
+  "genres": [
+    "Puzzle",
+    "Simulator",
+    "Indie"
+  ],
+  "themes": [
+    "Horror",
+    "Thriller",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Virtual Reality"
+  ],
+  "series": [
+    "Five Nights at Freddy's",
+    "Five Nights at Freddy's: Help Wanted"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Five Nights at Freddy's"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "mascot horror"
+  ],
+  "alternative_names": [
+    {
+      "name": "Five Nights at Freddy's VR: Help Wanted 2",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "FNaF: HW2",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Help Wanted 2",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "FNaF VR: HW2",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Five Nights at Freddy's VR 2",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Thumper",
+      "comment": "Working title"
+    },
+    {
+      "name": "FNaF 10",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Five Nights at Freddy's 10",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/five-nights-at-freddys-help-wanted-2-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009325"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@SteelWoolStudios"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/fivenightsatfreddys"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/steel_wool_studios"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Five%20Nights%20at%20Freddy's%3A%20Help%20Wanted%202"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SteelWoolStudios"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/fnafreddys"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.steelwoolstudios.com/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy%27s:_Help_Wanted_2"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2287520/Five_Nights_at_Freddys_Help_Wanted_2/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/SteelWoolStudio"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "Dec 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-14"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 20, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 20, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-06-20"
+    },
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "Dec 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-14"
+    },
+    {
+      "platform": "Meta Quest 2",
+      "region": null,
+      "date": "May 09, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-05-09"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 14, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 03, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-12-03"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2o8o.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "lGr_644m77o",
+      "url": "https://www.youtube.com/watch?v=lGr_644m77o"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "jJ-1vXp7_0Q",
+      "url": "https://www.youtube.com/watch?v=jJ-1vXp7_0Q"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "OK52K2uTAsk",
+      "url": "https://www.youtube.com/watch?v=OK52K2uTAsk"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "zYPXr38M2wk",
+      "url": "https://www.youtube.com/watch?v=zYPXr38M2wk"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "othnlVpDnlc",
+      "url": "https://www.youtube.com/watch?v=othnlVpDnlc"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "LI8JLaYZWrU",
+      "url": "https://www.youtube.com/watch?v=LI8JLaYZWrU"
+    }
+  ]
+}

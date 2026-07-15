@@ -1,0 +1,172 @@
+{
+  "slug": "nickelodeon-kart-racers-3-slime-speedway",
+  "igdb_id": 208727,
+  "name": "Nickelodeon Kart Racers 3: Slime Speedway",
+  "summary": "Rebuilt and re-imagined from the ground up, Nickelodeon Kart Racers returns - bigger and better than ever! Featuring a fully voice-acted cast of over 40 iconic characters, drift, slide, and boost your way to the finish line on tracks inspired by legendary Nickelodeon shows like SpongeBob SquarePants, Teenage Mutant Ninja Turtles, Avatar: The Last Airbender, and more!",
+  "first_release_year": 2022,
+  "developers": [
+    "Bamtang Games"
+  ],
+  "publishers": [
+    "GameMill Entertainment"
+  ],
+  "genres": [
+    "Racing",
+    "Sport",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Comedy",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Nickelodeon",
+    "Spongebob Squarepants",
+    "Garfield",
+    "My Life as a Teenage Robot",
+    "Teenage Mutant Ninja Turtles",
+    "Rugrats",
+    "Avatar: The Last Airbender",
+    "Danny Phantom",
+    "CatDog",
+    "Hey Arnold!",
+    "Jimmy Neutron",
+    "The Loud House",
+    "Invader Zim",
+    "Aaahh!!! Real Monsters",
+    "Ren & Stimpy",
+    "Rocko's Modern Life"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "licensed game",
+    "multiple playable characters"
+  ],
+  "alternative_names": [
+    {
+      "name": "Nickelodeon Kart Racers 3",
+      "comment": "Abbreviation"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/nickelodeon-kart-racers-3-slime-speedway/9nxbq742jxdt"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://nickracing.fandom.com/wiki/Nickelodeon_Kart_Racers_3:_Slime_Speedway"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003263"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/nickelodeon-kart-racers-3-slime-speedway-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1620040"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://nickkartracers.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/NickKartRacers"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Nickelodeon%20Kart%20Racers%203:%20Slime%20Speedway"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nickelodeon_Kart_Racers_3:_Slime_Speedway"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 13, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-13"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 13, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-13"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 13, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-13"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 13, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-13"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 13, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-13"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 14, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1vrd.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1vrj.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1vrc.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "Ksg7jKFw24s",
+      "url": "https://www.youtube.com/watch?v=Ksg7jKFw24s"
+    }
+  ]
+}

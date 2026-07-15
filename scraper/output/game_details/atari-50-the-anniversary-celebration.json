@@ -1,0 +1,112 @@
+{
+  "slug": "atari-50-the-anniversary-celebration",
+  "igdb_id": 317961,
+  "name": "Atari 50: The First Console War",
+  "summary": "Well before the current day console wars dominated social media and message boards, Atari's VCS and Intellivision collided in the first major video game rivalry in 1979. The battle only intensified when Intellivision started making games for the VCS, its fiercest rival's machine! In a series of exclusive interviews, the game makers who lived through the first console war explain how and why this unique chapter of video-game history unfolded.",
+  "first_release_year": 2024,
+  "developers": [
+    "Digital Eclipse"
+  ],
+  "publishers": [
+    "Atari"
+  ],
+  "genres": [
+    "Shooter",
+    "Platform",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Historical"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": "Atari 50: The Anniversary Celebration",
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/atari-50-the-first-console-war-70050000051289-switch/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3101170"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://atari.com/products/atari-50th-the-anniversary-celebration"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/atariclub"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/atari_50_the_first_console_war"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-08"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-08"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-08"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-08"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-08"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar352i.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "CpmSb268WOg",
+      "url": "https://www.youtube.com/watch?v=CpmSb268WOg"
+    }
+  ]
+}

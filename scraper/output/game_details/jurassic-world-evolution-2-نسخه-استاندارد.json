@@ -1,0 +1,169 @@
+{
+  "slug": "jurassic-world-evolution-2-نسخه-استاندارد",
+  "igdb_id": 152064,
+  "name": "Jurassic World Evolution 2",
+  "summary": "Jurassic World Evolution 2 is the much-anticipated sequel to Frontier’s ground-breaking 2018 management simulation, Jurassic World Evolution, offering an all new narrative campaign voiced by cast members from across the Jurassic World film franchise, exciting new features, four engaging game modes, and an expanded roster of awe-inspiring dinosaurs.",
+  "first_release_year": 2021,
+  "developers": [
+    "Frontier Developments"
+  ],
+  "publishers": [
+    "Frontier Developments"
+  ],
+  "genres": [
+    "Simulator",
+    "Strategy"
+  ],
+  "themes": [
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Jurassic World Evolution"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Jurassic Park"
+  ],
+  "game_engines": [
+    "Cobra"
+  ],
+  "keywords": [
+    "dinosaurs"
+  ],
+  "alternative_names": [
+    {
+      "name": "侏罗纪世界：进化 2",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "侏羅紀世界：進化 2",
+      "comment": "Chinese title - traditional"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://jurassicworld-evolution.fandom.com/wiki/Jurassic_World_Evolution_2"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Jurassic%20World%20Evolution%202"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002577"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/jurassic-world-evolution-2/9MWHMJ0SRBXV"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.jurassicworldevolution2.com/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/en-US/p/jurassic-world-evolution-2"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1244460/Jurassic_World_Evolution_2"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/JW_Evolution"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jurassic_World_Evolution_2"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/jurassicworldevo/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/jurassicworldevolution/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCdWlCkT4xrFyPian4gJpVZg"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/JurassicWorldEvolution/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/jwevolution"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 09, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-09"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 09, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-09"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 09, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-09"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 09, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-09"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 09, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-09"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arujd.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "s__FCmTBkgM",
+      "url": "https://www.youtube.com/watch?v=s__FCmTBkgM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "X11QrxGYKkU",
+      "url": "https://www.youtube.com/watch?v=X11QrxGYKkU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ybR59mvHSt0",
+      "url": "https://www.youtube.com/watch?v=ybR59mvHSt0"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "v9OOrD5k56k",
+      "url": "https://www.youtube.com/watch?v=v9OOrD5k56k"
+    }
+  ]
+}

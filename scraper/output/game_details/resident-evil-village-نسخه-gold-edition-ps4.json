@@ -1,0 +1,269 @@
+{
+  "slug": "resident-evil-village-نسخه-gold-edition-ps4",
+  "igdb_id": 55163,
+  "name": "Resident Evil Village",
+  "summary": "Resident Evil Village is a first-person survival horror game and the sequel to Resident Evil 7: Biohazard. The game maintains elements from previous Resident Evil games, with players having to scavenge environments for items and manage their resources. However, it adds more action-oriented gameplay, with higher enemy counts and a greater emphasis on combat.",
+  "first_release_year": 2021,
+  "developers": [
+    "Capcom Development Division 1"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Survival",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Virtual Reality"
+  ],
+  "series": [
+    "Resident Evil"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Resident Evil"
+  ],
+  "game_engines": [
+    "RE Engine"
+  ],
+  "keywords": [
+    "zombies",
+    "exploration",
+    "gothic",
+    "crafting",
+    "dark fantasy",
+    "resource management",
+    "shooting",
+    "occult",
+    "supernatural",
+    "village",
+    "trading",
+    "backtracking",
+    "atmospheric",
+    "survival horror",
+    "castle",
+    "inventory management",
+    "creepy",
+    "folklore",
+    "vampires",
+    "violent",
+    "boss fight",
+    "upgradeable weapons",
+    "jump scare moment",
+    "merchants",
+    "lycanthropy",
+    "isolation",
+    "suspense",
+    "gothic horror",
+    "the game awards - best action-adventure game - nominee",
+    "the game awards - best audio design - nominee",
+    "the game awards - best performance - winner",
+    "the game awards - game of the year - nominee",
+    "factory",
+    "survival shooter"
+  ],
+  "alternative_names": [
+    {
+      "name": "Resident Evil 8",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "BIOHAZARD VILLAGE",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "re8.exe",
+      "comment": "Windows Executable"
+    },
+    {
+      "name": "RE8 ",
+      "comment": "Acronym"
+    },
+    {
+      "name": "RE Village",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "Resident Evil 8: Village",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/235235"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/resident-evil-village/9N2S04LGXXH4"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/ResidentEvil"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.residentevil.com/village"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/re_games/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/RE_Games"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1196590"
+    },
+    {
+      "label": "iPad",
+      "url": "https://apps.apple.com/us/app/resident-evil-village/id6450980545?platform=ipad"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/us/app/resident-evil-village/id6450980545?platform=iphone"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://residentevil.fandom.com/wiki/Resident_Evil:_Village"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Resident%20Evil%20Village"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/residentevil"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Resident_Evil_Village"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "May 07, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-05-07"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "May 07, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-05-07"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Oct 28, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-10-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 07, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-05-07"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "May 07, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-05-07"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 07, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-05-07"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Oct 30, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 06, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-05-06"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Feb 27, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-02-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar82j.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar82k.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4l0v.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar814.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "26tay8lMZW4",
+      "url": "https://www.youtube.com/watch?v=26tay8lMZW4"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "JC4cJmBEWu4",
+      "url": "https://www.youtube.com/watch?v=JC4cJmBEWu4"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "Ffox_C_DWpU",
+      "url": "https://www.youtube.com/watch?v=Ffox_C_DWpU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "fDhrD4u_F3U",
+      "url": "https://www.youtube.com/watch?v=fDhrD4u_F3U"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "btFclZUXpzA",
+      "url": "https://www.youtube.com/watch?v=btFclZUXpzA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "y211YBxqfxQ",
+      "url": "https://www.youtube.com/watch?v=y211YBxqfxQ"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "sp2EZ4XtkVA",
+      "url": "https://www.youtube.com/watch?v=sp2EZ4XtkVA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "LG-u73YG9xw",
+      "url": "https://www.youtube.com/watch?v=LG-u73YG9xw"
+    }
+  ]
+}

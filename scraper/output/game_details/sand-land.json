@@ -1,0 +1,127 @@
+{
+  "slug": "sand-land",
+  "igdb_id": 252480,
+  "name": "Sand Land",
+  "summary": "Sand Land is an action RPG where you become the main character as Beelzebub, a Fiend Prince. Lead your company of heroic misfits and explore the legendary world of Sand Land developed by the creator of Dragon Ball & Dr. Slump, Akira Toriyama.",
+  "first_release_year": 2024,
+  "developers": [
+    "ILCA"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Role-playing (RPG)"
+  ],
+  "themes": [
+    "Action",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Sand Land"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "vehicular combat",
+    "based on - manga",
+    "action-rpg"
+  ],
+  "alternative_names": [
+    {
+      "name": "SAND LAND",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/sand-land/9PGCVR1C0MZH"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005459"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://sandland.jp/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/sandland_pj"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1979440"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 26, 2024",
+      "status": "Released",
+      "date_iso": "2024-04-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 26, 2024",
+      "status": "Released",
+      "date_iso": "2024-04-26"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 26, 2024",
+      "status": "Released",
+      "date_iso": "2024-04-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 26, 2024",
+      "status": "Released",
+      "date_iso": "2024-04-26"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2cfp.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "--plyeEv4Ag",
+      "url": "https://www.youtube.com/watch?v=--plyeEv4Ag"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "JbKjqVtthPk",
+      "url": "https://www.youtube.com/watch?v=JbKjqVtthPk"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "mooIZn7pCCM",
+      "url": "https://www.youtube.com/watch?v=mooIZn7pCCM"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "SatQjDO6K24",
+      "url": "https://www.youtube.com/watch?v=SatQjDO6K24"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "WJ0kCiNj5tA",
+      "url": "https://www.youtube.com/watch?v=WJ0kCiNj5tA"
+    }
+  ]
+}

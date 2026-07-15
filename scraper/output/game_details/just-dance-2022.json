@@ -1,0 +1,170 @@
+{
+  "slug": "just-dance-2022",
+  "igdb_id": 152199,
+  "name": "Just Dance 2022",
+  "summary": "Just Dance 2022, the ultimate dance game, is back with new universes and 40 hot new tracks from chart-topping hits like \"Believer\" by Imagine Dragons, \"Level Up\" by Ciara, and more!\n\nLooking to share some fun with friends and family? Just Dance 2022 is for you!",
+  "first_release_year": 2021,
+  "developers": [
+    "Ubisoft Paris"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Music"
+  ],
+  "themes": [
+    "Kids",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Just Dance"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Just Dance"
+  ],
+  "game_engines": [
+    "UbiArt Framework"
+  ],
+  "keywords": [
+    "dancing",
+    "music and rhythm"
+  ],
+  "alternative_names": [
+    {
+      "name": "ジャストダンス2022",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "저스트 댄스 2022",
+      "comment": "Korean title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002813"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ubisoft.com/en-us/game/just-dance/2022"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UChIjW4BWKLqpojTrS_tX0mg"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Just%20Dance%202022"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/justdancegame_us"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/justdance.usa"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/JustDance"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/justdancegame"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/just-dance-2022-switch/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Just_Dance_2022"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://justdance.fandom.com/wiki/Just_Dance_2022"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 03, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-03"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 04, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-04"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 04, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-04"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 04, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-04"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 04, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-04"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 04, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-04"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Nov 04, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-04"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 04, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-04"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arcoi.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "z1pd-Tc2-wA",
+      "url": "https://www.youtube.com/watch?v=z1pd-Tc2-wA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Vnab1gHwJeY",
+      "url": "https://www.youtube.com/watch?v=Vnab1gHwJeY"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "a-way-out",
+  "igdb_id": 84080,
+  "name": "Way Out",
+  "summary": "Way out is a VR game for sports. Get fit as you shoot through sqaure blocks to find your way out. Push yourself to get high scores!\nLet's enjoy moving and shooting in the open sky, snow and laboratory environments.",
+  "first_release_year": 2018,
+  "developers": [],
+  "publishers": [],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Strategy",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "way out.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/791380"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.ppgun.com/index.html?chlang=cn"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Way%20Out"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 08, 2018",
+      "status": "Released",
+      "date_iso": "2018-02-08"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

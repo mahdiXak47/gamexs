@@ -1,0 +1,215 @@
+{
+  "slug": "outbound",
+  "igdb_id": 286869,
+  "name": "Outbound",
+  "summary": "Explore a colorful world and build your own cozy home on wheels. Craft workstations, and source energy from the sun, wind, or water. Upgrade and customize your vehicle, grow crops, and live sustainably off-grid with up to 4 players.",
+  "first_release_year": 2026,
+  "developers": [
+    "Square Glade Games"
+  ],
+  "publishers": [
+    "Square Glade Games",
+    "Silver Lining Interactive"
+  ],
+  "genres": [
+    "Simulator",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "exploration",
+    "crafting",
+    "building",
+    "base building",
+    "camping",
+    "automation",
+    "camper van",
+    "utopian future",
+    "grow"
+  ],
+  "alternative_names": [
+    {
+      "name": "Outbound.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/squareglade"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2681030/Outbound/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/outbound"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Outbound_(video_game)"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://outbound.wiki.gg/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/HwBgTMr4WU"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/outbound-c1b307"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10016008"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/outbound/9pfwzmt737gg"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/abovesnakesgame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/SquareGlade"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@squareglade"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/outbound-switch-2/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.squareglade.games/outbound"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 10, 2025",
+      "status": "status_1",
+      "date_iso": "2025-04-10"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 14, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-14"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "May 14, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-14"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "May 14, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 11, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-11"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "May 11, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-05-11"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2sg7.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "_SZZosjkD5A",
+      "url": "https://www.youtube.com/watch?v=_SZZosjkD5A"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "7pFcV-7cD3w",
+      "url": "https://www.youtube.com/watch?v=7pFcV-7cD3w"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "tvTyMmd7ouM",
+      "url": "https://www.youtube.com/watch?v=tvTyMmd7ouM"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "-Wx6wSEABkQ",
+      "url": "https://www.youtube.com/watch?v=-Wx6wSEABkQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "H-LMUVmVszU",
+      "url": "https://www.youtube.com/watch?v=H-LMUVmVszU"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "zdyX_0412cc",
+      "url": "https://www.youtube.com/watch?v=zdyX_0412cc"
+    },
+    {
+      "title": "Sizzle Reel",
+      "youtube_id": "JgJkMEZ4dCk",
+      "url": "https://www.youtube.com/watch?v=JgJkMEZ4dCk"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "b_AOqtuPj_M",
+      "url": "https://www.youtube.com/watch?v=b_AOqtuPj_M"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "nqTPTuMvmJ8",
+      "url": "https://www.youtube.com/watch?v=nqTPTuMvmJ8"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "0KeSmi9NAUg",
+      "url": "https://www.youtube.com/watch?v=0KeSmi9NAUg"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "yRK0ISaaBQQ",
+      "url": "https://www.youtube.com/watch?v=yRK0ISaaBQQ"
+    }
+  ]
+}

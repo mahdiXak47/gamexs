@@ -1,0 +1,219 @@
+{
+  "slug": "ready-or-not",
+  "igdb_id": 28489,
+  "name": "Ready or Not",
+  "summary": "Ready or Not is a tactical first person shooter which places you in the boots of an elite SWAT team, tasked with diffusing hostile situations in intense, claustrophobic environments. It's set in a nondescript modern America, where an income disparity between the classes have become unsustainable and the country has been plunged into havoc. Bring order to chaos with up to 8 players in cooperative play, battle enemy squads in a close player-vs-player environment, or command AI in a striking single-player mode.",
+  "first_release_year": 2023,
+  "developers": [
+    "VOID Interactive"
+  ],
+  "publishers": [
+    "VOID Interactive"
+  ],
+  "genres": [
+    "Shooter",
+    "Simulator",
+    "Tactical",
+    "Indie"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "police",
+    "swat"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://voidinteractive.net/ready-or-not/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Ready%20or%20Not"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/ready-or-not-d82a11"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/ready-or-not/9NBR63PT4FZC"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009213"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://readyornot.wiki.gg/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/voidinteractive"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/ReadyOrNotGame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/void_interactive"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ready_or_Not_(video_game)"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1144200"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/VOIDInteractive"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/VOIDInteractive"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/readyornot"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 17, 2021",
+      "status": "Beta",
+      "date_iso": "2021-12-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 13, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 15, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 15, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1bv1.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "hdJI3_8zG7A",
+      "url": "https://www.youtube.com/watch?v=hdJI3_8zG7A"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "9CQOe_V6Au4",
+      "url": "https://www.youtube.com/watch?v=9CQOe_V6Au4"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "yagLpENXSqw",
+      "url": "https://www.youtube.com/watch?v=yagLpENXSqw"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "KdrQcV31sG8",
+      "url": "https://www.youtube.com/watch?v=KdrQcV31sG8"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "REHgA09n7CY",
+      "url": "https://www.youtube.com/watch?v=REHgA09n7CY"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "gSnGNV27jdg",
+      "url": "https://www.youtube.com/watch?v=gSnGNV27jdg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ivRqYQCMs90",
+      "url": "https://www.youtube.com/watch?v=ivRqYQCMs90"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "JcA7Nwa1L9I",
+      "url": "https://www.youtube.com/watch?v=JcA7Nwa1L9I"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "kTSa-o-gZf4",
+      "url": "https://www.youtube.com/watch?v=kTSa-o-gZf4"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "LpnmFGn96_Y",
+      "url": "https://www.youtube.com/watch?v=LpnmFGn96_Y"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "9dvX_tRa6Uk",
+      "url": "https://www.youtube.com/watch?v=9dvX_tRa6Uk"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "8lgjHauE3J8",
+      "url": "https://www.youtube.com/watch?v=8lgjHauE3J8"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "j5k5TEopw68",
+      "url": "https://www.youtube.com/watch?v=j5k5TEopw68"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "TtEosGhOpZg",
+      "url": "https://www.youtube.com/watch?v=TtEosGhOpZg"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "Gd139Nin33M",
+      "url": "https://www.youtube.com/watch?v=Gd139Nin33M"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "dmTNCTJf3Ik",
+      "url": "https://www.youtube.com/watch?v=dmTNCTJf3Ik"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "4xiAtFT6u0M",
+      "url": "https://www.youtube.com/watch?v=4xiAtFT6u0M"
+    }
+  ]
+}

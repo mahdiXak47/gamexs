@@ -1,0 +1,151 @@
+{
+  "slug": "bleak-faith-forsaken",
+  "igdb_id": 122200,
+  "name": "Bleak Faith: Forsaken",
+  "summary": "A third-person open world survival horror action RPG set in a universe you've never experienced before. Play as one of the Forsaken, the last frontier of humanity against the growing horrors of the Omnistructure. As you find yourself stranded in a faraway outpost, you must adapt in order to survive. The world won't wait for you though, you must venture into the unknown - your faith will decide your fate.\n\nFeel the burden of surviving in one of the last remaining outposts of the Forsaken, a legion of hunters condemned to protect the last vestige of humanity. The nature of your purpose however is shrouded in mystery, and as you delve deeper into the manifold halls of the Omnistructure, you will come to find the true meaning of alienation, isolation, and dread. A cross between cyberpunk, and dark fantasy - Bleak Faith will offer a story and experience that will be a breath of fresh air for all gamers looking for a something new. The world is full of lore, and every aspect of it is crafted with utmost passion and a dedication to art. As a baseline there is an estimated 30+ hours of content, a deep class system, and a procedural AI system that ensures that no playthrough is ever the same.\n\nThe architecture of the world, the Omnistructure, is a huge aspect of the game. Meticulously designed and crafted, Bleak Faith aims to provide an emergent narrative method coupled with more structured traditional moments. The world of Bleak Faith is labyrinthine, tapping into an innate curious instinct we all have when faced with many defined branching choices - we focus on creating a strong sense of curiosity about the path not taken, by offering unique and compelling content in every area of the world - having said that the world employs both vast open areas, and more linear openness in Metroidvania fashion. The aim is to evoke that same feeling of wonder and excitement that you felt the first time you played a game, the first time you experienced 3D graphics, the first time you experienced something that felt formative and not habitual. Open world in Bleak Faith is a crucial aspect to showing you the reality of the Forsaken. In this world there are few havens for the Forsaken, and these are generally outposts which serve as bases (of various complexities and utility) to recover from journeys and prepare for more - however, nowhere is truly safe!\n\nExpect tight and meticulously crafted and expanded combat that brings tempo and action to this world in amazing quality and detail. We're not shying away from a challenge, and so we're going all in. Despite being a small team, we couldn't accept a simple mundane combat system; we are making it fleshed out, and very robust. The combat communicates the danger in adrenaline-pumping fashion. Fast, responsive, and unforgiving - you will earn and feel every victory, nothing comes easy. Approach combat in your own way however - choose stealth over face-to-face combat, choose ranged over melee, choose Technomancy over more traditional combat styles. The system allows you to express yourself through combat, or through avoiding it - and that's further supported through a class system as well.\n\nHow better to experience the unyielding uncertainty of the Omnistructure than through a simulated ecosystem of factions and AI groups. Inhabitants of the Omnistructure will compete among themselves, grow and expand, change and adapt - the food chain in the ecosystem will, as a result, mold to every playthrough (e.g. an apex predator from your last playthrough might have already died out in this playthrough and you never fight it again). It's a constant race against time as enemies will try and outgrow and outsmart not only you, but other competition. Hunt, scavenge, and grow to stay on top of the food chain. Never experience an area the same way as the procedural nature of the ecosystem will ensure that you can never let your guard down. Having said that, there are still linear areas of the game, especially those that cover main plot points - to ensure a direction and purpose for the player. The ecosystem makes every moment of gameplay interesting and engaging - even on multiple playthroughs.\n\nFight against the odds, and stay alive despite the Omnistructure's evergrowing threat. Craft, scavenge, hunt, and find ways to excel. Pick a class, upgrade stats, augment your character, create equipment and stay healthy. Resist the Puppet Plague, and the many afflictions present in the world which can change the outcome of your journey entirely. Use stealth and your environment to your advantage - fighting is not always the best course of action, and when it is, preparing the field to shift the odds in your favor is a necessary tactic.",
+  "first_release_year": 2023,
+  "developers": [
+    "Archangel Studios"
+  ],
+  "publishers": [
+    "Archangel Studios"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Horror",
+    "Survival",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Forsaken.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/bleak_faith"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/bleak_faith_forsaken"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://bleakfaith.wiki.gg/"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Bleak_Faith/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/x7UCRbHAAq"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010698"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/bleakfaith"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1173220"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Bleak%20Faith%3A%20Forsaken"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCmXqWlyuVHvoru4WBdz88Eg"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.bleakfaith.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 10, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-03-10"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 06, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-06"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 06, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-06"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "TBD",
+      "status": "Cancelled"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "TBD",
+      "status": "Cancelled"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arpzr.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "TT1_vbvGxoc",
+      "url": "https://www.youtube.com/watch?v=TT1_vbvGxoc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "m5PDvck23hY",
+      "url": "https://www.youtube.com/watch?v=m5PDvck23hY"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "ml9gocYK1KA",
+      "url": "https://www.youtube.com/watch?v=ml9gocYK1KA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "6VA6iHqUr14",
+      "url": "https://www.youtube.com/watch?v=6VA6iHqUr14"
+    }
+  ]
+}

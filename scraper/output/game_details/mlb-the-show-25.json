@@ -1,0 +1,92 @@
+{
+  "slug": "mlb-the-show-25",
+  "igdb_id": 329844,
+  "name": "MLB The Show 25",
+  "summary": "Forge your baseball journey in The Show",
+  "first_release_year": 2025,
+  "developers": [
+    "SIE San Diego Studio"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "MLB: The Show"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "MLB"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/mlb-the-show-25-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/mlb-the-show-25-standard-edition/9PJ6W7RC6H71"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10011213"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/mlb-the-show-25"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-18"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ajj.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "AEtQPYBhLqE",
+      "url": "https://www.youtube.com/watch?v=AEtQPYBhLqE"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "0G33itOzDkM",
+      "url": "https://www.youtube.com/watch?v=0G33itOzDkM"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "soldier-2",
+  "igdb_id": 40827,
+  "name": "Iron Soldier 2",
+  "summary": "Iron Soldier 2 is a first-person 3D giant mech game. Players must pilot their building-sized robots in a variety of missions ranging from search-and-destroy to surgical attacks to defending objectives. Starting with a limited set of weapons, players can collect more armaments throughout the game. Each weapon can be mounted on a certain part of the robot's body, but once mounted, no other weapons can be placed there. So, while there is a wide range of weapon configurations, not every weapon can be combined with others. Players can destroy buildings in levels to find crates containing new weapons and extra ammunition for current weapons.",
+  "first_release_year": 1997,
+  "developers": [],
+  "publishers": [],
+  "genres": [
+    "Shooter",
+    "Simulator"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [],
+  "player_perspectives": [],
+  "series": [
+    "Iron Soldier"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Iron%20Soldier%202"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Atari Jaguar",
+      "region": null,
+      "date": "Dec 30, 1997",
+      "status": "Released",
+      "date_iso": "1997-12-30"
+    },
+    {
+      "platform": "Atari Jaguar CD",
+      "region": null,
+      "date": "Dec 30, 1997",
+      "status": "Released",
+      "date_iso": "1997-12-30"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "nF-htAcD1l4",
+      "url": "https://www.youtube.com/watch?v=nF-htAcD1l4"
+    }
+  ]
+}

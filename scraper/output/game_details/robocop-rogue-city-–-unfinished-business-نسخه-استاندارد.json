@@ -1,0 +1,155 @@
+{
+  "slug": "robocop-rogue-city-–-unfinished-business-نسخه-استاندارد",
+  "igdb_id": 334672,
+  "name": "RoboCop: Rogue City - Unfinished Business",
+  "summary": "RoboCop: Rogue City – Unfinished Business is a new standalone adventure of RoboCop: Rogue City. OmniTower is their fortress, violence their language. Face elite mercenaries all the way to the top of the tower and enforce the law amidst the chaos!",
+  "first_release_year": 2025,
+  "developers": [
+    "Teyon"
+  ],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "RoboCop: Rogue City"
+  ],
+  "spin_off_of": "RoboCop: Rogue City",
+  "franchises": [
+    "RoboCop"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "dark",
+    "futuristic",
+    "gore",
+    "crime",
+    "story rich",
+    "steam achievements",
+    "xbox controller support for pc",
+    "steam cloud",
+    "controller support",
+    "steam families"
+  ],
+  "alternative_names": [
+    {
+      "name": "RoboCopUnfinishedBusiness.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/EP6665-PPSA28329_00-RRCUB00000000000"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/robocop_rogue_city_unfinished_business"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/robocoproguecity/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCxsEv2ndN5GTROIZf8HlN1A"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/RoboCopRogueCity/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/RoboCopRC"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/robocop-rogue-city-unfinished-business/9ntm1cfw72cr"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://teyon.com/games/robocop-unfinishedbusiness/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3527760"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/robocop-rogue-city-unfinished-business"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-17"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-17"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-17"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jul 17, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3cje.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3v88.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3v89.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3v87.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "HZxqWFQI7GY",
+      "url": "https://www.youtube.com/watch?v=HZxqWFQI7GY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "l7wOy4b7C9U",
+      "url": "https://www.youtube.com/watch?v=l7wOy4b7C9U"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "_bep-j3cEmQ",
+      "url": "https://www.youtube.com/watch?v=_bep-j3cEmQ"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "NsZxnR-EM6c",
+      "url": "https://www.youtube.com/watch?v=NsZxnR-EM6c"
+    }
+  ]
+}

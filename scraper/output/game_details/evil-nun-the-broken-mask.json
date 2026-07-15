@@ -1,0 +1,158 @@
+{
+  "slug": "evil-nun-the-broken-mask",
+  "igdb_id": 148577,
+  "name": "Evil Nun: The Broken Mask",
+  "summary": "Enter Evil Nun's nightmare. Trapped in a cursed school, escape from Sister Madeline. She's cunning, searching every corner, luring and talking to you depending on your actions. Solve puzzles, craft items, and uncover the mystery in this horror game with different escape routes.",
+  "first_release_year": 2023,
+  "developers": [
+    "Keplerians",
+    "Carlos Coronado"
+  ],
+  "publishers": [
+    "Keplerians"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror",
+    "Stealth"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Evil Nun"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "mascot horror"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008702"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/evil-nun-the-broken-mask-switch/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@kepleriansteamgames/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Evil%20Nun:%20The%20Broken%20Mask"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/evil-nun-the-broken-mask-372461"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1460220"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/evil-nun-the-broken-mask/9nd9rbgj8vx2"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://keplerians.com/evil-nun-the-broken-mask/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/kepleriansteam"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/kepleriansteamofficial"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/keplerians"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-07"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-07"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 31, 2022",
+      "status": "Beta",
+      "date_iso": "2022-10-31"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-07"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jan 25, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-01-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-07"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-07"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5jzx.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5klh.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5klf.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5kle.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5klg.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "QeXu4N7puLw",
+      "url": "https://www.youtube.com/watch?v=QeXu4N7puLw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "oGt2QwjFrPQ",
+      "url": "https://www.youtube.com/watch?v=oGt2QwjFrPQ"
+    }
+  ]
+}

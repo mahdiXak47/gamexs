@@ -1,0 +1,109 @@
+{
+  "slug": "the-devil-in-me",
+  "igdb_id": 113225,
+  "name": "The Devil Haunts Me",
+  "summary": "Cut down trees, hunt deer, gather water, and explore the strange woods.\n\nGet the resources you need to survive, one day at a time... but be careful, there's something else in these woods...",
+  "first_release_year": 2018,
+  "developers": [
+    "lum"
+  ],
+  "publishers": [
+    "lum"
+  ],
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "permadeath",
+    "forest",
+    "pixel art",
+    "surreal",
+    "spooky"
+  ],
+  "alternative_names": [
+    {
+      "name": "THE DEVIL HAUNTS ME",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "THE DEVIL HAUNTS ME (windows).exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/993170"
+    },
+    {
+      "label": "Itch",
+      "url": "https://lum-scum.itch.io/the-devil-haunts-me"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://linktr.ee/gamesbylum"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/uberprawn"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/gamesbylum"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/THE%20DEVIL%20HAUNTS%20ME"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@lum_scum/featured"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Sep 14, 2018",
+      "status": "Released",
+      "date_iso": "2018-09-14"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 14, 2018",
+      "status": "Released",
+      "date_iso": "2018-09-14"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Sep 14, 2018",
+      "status": "Released",
+      "date_iso": "2018-09-14"
+    }
+  ],
+  "artworks": [],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "QQIyurHUpHg",
+      "url": "https://www.youtube.com/watch?v=QQIyurHUpHg"
+    }
+  ]
+}

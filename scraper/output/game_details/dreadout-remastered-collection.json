@@ -1,0 +1,144 @@
+{
+  "slug": "dreadout-remastered-collection",
+  "igdb_id": 11712,
+  "name": "DreadOut",
+  "summary": "When twilight fades. Where darkness reigns.\n\nDreadOut is a third person supernatural horror game where you play as Linda, a high school student trapped in an old abandoned town. Equipped with her trusty smart-phone, she will battle against terrifying encounters and solve mysterious puzzles which will ultimately determine her fate.\nHelp her overcome the challenges that will stand before her. Survive the Dread!",
+  "first_release_year": 2014,
+  "developers": [
+    "Digital Happiness"
+  ],
+  "publishers": [
+    "Digital Happiness"
+  ],
+  "genres": [
+    "Puzzle",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "DreadOut"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "ghosts",
+    "female protagonist",
+    "religion",
+    "supernatural",
+    "camera",
+    "survival horror",
+    "steam greenlight",
+    "islam",
+    "students",
+    "voice acting",
+    "language selection",
+    "polygonal 3d",
+    "color separation",
+    "humble bundle",
+    "environmental puzzles",
+    "jump scare moment",
+    "previously on - prime gaming"
+  ],
+  "alternative_names": [
+    {
+      "name": "dreadout.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/dreadout"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/DreadOut"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/269790"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/dreadoutgame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/dreadoutgame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/DreadOut"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/digitalhappiness"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://dreadout.digitalhappiness.net/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@digital-happiness"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "May 15, 2014",
+      "status": "Released",
+      "date_iso": "2014-05-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 15, 2014",
+      "status": "Released",
+      "date_iso": "2014-05-15"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "May 15, 2014",
+      "status": "Released",
+      "date_iso": "2014-05-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 15, 2014",
+      "status": "Released",
+      "date_iso": "2014-05-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ark07.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "SWQAHcwcCE8",
+      "url": "https://www.youtube.com/watch?v=SWQAHcwcCE8"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "EKMqm9xIxfE",
+      "url": "https://www.youtube.com/watch?v=EKMqm9xIxfE"
+    }
+  ]
+}

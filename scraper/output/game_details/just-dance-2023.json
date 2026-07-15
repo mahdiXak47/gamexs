@@ -1,0 +1,137 @@
+{
+  "slug": "just-dance-2023",
+  "igdb_id": 216318,
+  "name": "Just Dance 2023 Edition",
+  "summary": "Welcome to a new era of dance with Just Dance 2023 edition! Now with online multiplayer, personalization, 3D immersive worlds and new songs and modes year-round, you can experience a never- ending dance party all year long!",
+  "first_release_year": 2022,
+  "developers": [
+    "Ubisoft Paris",
+    "Ubisoft Pune",
+    "Ubisoft Shanghai",
+    "Ubisoft Mumbai"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Music"
+  ],
+  "themes": [
+    "Kids",
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Just Dance"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Just Dance"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "music and rhythm"
+  ],
+  "alternative_names": [
+    {
+      "name": "Just Dance 2023",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "Just Dance Next",
+      "comment": "Working title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/just-dance-2023-edition-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004701"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/justdancegame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ubisoft.com/en-us/game/just-dance/2023"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UChIjW4BWKLqpojTrS_tX0mg"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/justdancegame_us"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://justdance.fandom.com/wiki/Just_Dance_2023_Edition"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Just%20Dance%202023%20Edition"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Just_Dance_2023_Edition"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/justdancegame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 22, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 22, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-22"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 22, 2022",
+      "status": "Released",
+      "date_iso": "2022-11-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1u6s.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1u6t.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1u6u.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1u6v.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "rVrRR7pMHTk",
+      "url": "https://www.youtube.com/watch?v=rVrRR7pMHTk"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "qwyW_TfQFgM",
+      "url": "https://www.youtube.com/watch?v=qwyW_TfQFgM"
+    }
+  ]
+}

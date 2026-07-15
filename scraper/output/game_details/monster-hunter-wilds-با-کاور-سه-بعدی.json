@@ -1,0 +1,196 @@
+{
+  "slug": "monster-hunter-wilds-با-کاور-سه-بعدی",
+  "igdb_id": 279661,
+  "name": "Monster Hunter Wilds",
+  "summary": "The unbridled force of nature runs wild and relentless, with environments transforming drastically from one moment to the next. This is a story of monsters and humans and their struggles to live in harmony in a world of duality.",
+  "first_release_year": 2025,
+  "developers": [
+    "Capcom"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Monster Hunter"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Monster Hunter"
+  ],
+  "game_engines": [
+    "RE Engine"
+  ],
+  "keywords": [
+    "hunting",
+    "dinosaurs",
+    "bossfight",
+    "monster"
+  ],
+  "alternative_names": [
+    {
+      "name": "魔物獵人 荒野",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "モンスターハンターワイルズ",
+      "comment": "Japanese title - stylized"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2246340"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005176"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/monster-hunter-wilds/9NMT6XFN0LVD"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.monsterhunter.com/wilds/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/monsterhunter"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/monster-hunter-wilds"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/monsterhunter.capcomusa.com"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Monster_Hunter_Wilds"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 31, 2024",
+      "status": "Alpha",
+      "date_iso": "2024-10-31"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 31, 2024",
+      "status": "Alpha",
+      "date_iso": "2024-10-31"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 31, 2024",
+      "status": "Alpha",
+      "date_iso": "2024-10-31"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 28, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 28, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 28, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-28"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "TBD",
+      "status": "Cancelled"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2q59.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "O3syM4tV8Xw",
+      "url": "https://www.youtube.com/watch?v=O3syM4tV8Xw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "URG75CDX_rg",
+      "url": "https://www.youtube.com/watch?v=URG75CDX_rg"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "qsw5lB5n7Qw",
+      "url": "https://www.youtube.com/watch?v=qsw5lB5n7Qw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "qp4gR1QEvVA",
+      "url": "https://www.youtube.com/watch?v=qp4gR1QEvVA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "H7BBgOKA4O0",
+      "url": "https://www.youtube.com/watch?v=H7BBgOKA4O0"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "0dJpKRWYNkE",
+      "url": "https://www.youtube.com/watch?v=0dJpKRWYNkE"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "jxSlVspp1cI",
+      "url": "https://www.youtube.com/watch?v=jxSlVspp1cI"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "XPdu9Q9Kxbk",
+      "url": "https://www.youtube.com/watch?v=XPdu9Q9Kxbk"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "v6EzFIWkiEI",
+      "url": "https://www.youtube.com/watch?v=v6EzFIWkiEI"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "HEtlYynnj5Y",
+      "url": "https://www.youtube.com/watch?v=HEtlYynnj5Y"
+    }
+  ]
+}

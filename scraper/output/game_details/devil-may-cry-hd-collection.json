@@ -1,0 +1,214 @@
+{
+  "slug": "devil-may-cry-hd-collection",
+  "igdb_id": 20734,
+  "name": "Devil May Cry HD Collection",
+  "summary": "Devil May Cry HD Collection is a collection of high-definition remasters of the PS2 games of the first three games in the Devil May Cry franchise. In addition to the reworked graphics, it also contains trophies/achievements.",
+  "first_release_year": 2012,
+  "developers": [
+    "Capcom Production Studio 4"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Devil May Cry"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Devil May Cry"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "martial arts",
+    "chess",
+    "guitar playing",
+    "death",
+    "action-adventure",
+    "achievements",
+    "easter egg",
+    "teleportation",
+    "wall jump",
+    "rituals",
+    "boss fight",
+    "explosion",
+    "playstation trophies",
+    "60 fps on consoles",
+    "voice acting",
+    "demon invasion",
+    "upgradeable weapons",
+    "unlockables",
+    "save point",
+    "ragdoll physics",
+    "male antagonist",
+    "difficulty level",
+    "multi-phase boss",
+    "mercenary",
+    "no hud",
+    "unlockable difficulty level",
+    "difficulty achievement",
+    "game with chapters",
+    "games on demand",
+    "kill streak",
+    "not-so-bad guys",
+    "new protagonist in sequel",
+    "heterochromia",
+    "button mashing",
+    "in-game moves list",
+    "new game plus",
+    "dual wielding",
+    "working for the enemy",
+    "superpowers",
+    "cutscene menu",
+    "sibling rivalry",
+    "satanism",
+    "acrobatics",
+    "counter system",
+    "anti-villain",
+    "playable boss",
+    "pax east 2012",
+    "behind the waterfall",
+    "verticality",
+    "product placement",
+    "souls as currency",
+    "super mode",
+    "male protagonist",
+    "gog preservation program"
+  ],
+  "alternative_names": [
+    {
+      "name": "DMC HD",
+      "comment": "Acronym"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/232009"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/devil-may-cry-hd-collection/BVNRFF9XJ6KM"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/devil_may_cry_hd_collection"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/631510"
+    },
+    {
+      "label": "Official Website",
+      "url": "http://www.capcom.co.jp/devilhd/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 13, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-03-13"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Apr 05, 2012",
+      "status": "Cancelled",
+      "date_iso": "2012-04-05"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Apr 03, 2012",
+      "status": "Cancelled",
+      "date_iso": "2012-04-03"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Mar 22, 2012",
+      "status": "Cancelled",
+      "date_iso": "2012-03-22"
+    },
+    {
+      "platform": "PlayStation 3",
+      "region": null,
+      "date": "Mar 29, 2012",
+      "status": "Cancelled",
+      "date_iso": "2012-03-29"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 13, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-03-13"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Mar 22, 2012",
+      "status": "Cancelled",
+      "date_iso": "2012-03-22"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Apr 05, 2012",
+      "status": "Cancelled",
+      "date_iso": "2012-04-05"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Apr 03, 2012",
+      "status": "Cancelled",
+      "date_iso": "2012-04-03"
+    },
+    {
+      "platform": "Xbox 360",
+      "region": null,
+      "date": "Mar 29, 2012",
+      "status": "Cancelled",
+      "date_iso": "2012-03-29"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Mar 13, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-03-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6v0.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "sXL70O_Sbpg",
+      "url": "https://www.youtube.com/watch?v=sXL70O_Sbpg"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "AC4EY2Oe4nI",
+      "url": "https://www.youtube.com/watch?v=AC4EY2Oe4nI"
+    }
+  ]
+}

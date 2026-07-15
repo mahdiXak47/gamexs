@@ -1,0 +1,163 @@
+{
+  "slug": "metro-awakening",
+  "igdb_id": 284720,
+  "name": "Metro Awakening VR",
+  "summary": "Metro Awakening is a story-driven first-person adventure built for VR that blends atmospheric exploration, stealth and combat in the most immersive Metro experience yet.",
+  "first_release_year": 2024,
+  "developers": [
+    "Vertigo Games"
+  ],
+  "publishers": [
+    "Deep Silver",
+    "Vertigo Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Virtual Reality"
+  ],
+  "series": [
+    "Metro"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Metro"
+  ],
+  "game_engines": [
+    "Unreal"
+  ],
+  "keywords": [
+    "post-apocalyptic",
+    "vr only"
+  ],
+  "alternative_names": [
+    {
+      "name": "Metro Awakening",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Impact.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (25)",
+      "url": "https://www.meta.com/en-us/experiences/metro-awakening/5096918017089406/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/metrovideogamede/?brand_redir=212634978764975"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/metrovideogame/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/metrovideogame"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/metrovideogame"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009509"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2669410/Metro_Awakening/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/metro-awakening-vr"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/metrovideogame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://metroawakening.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Meta Quest 2",
+      "region": null,
+      "date": "Nov 07, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-07"
+    },
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "Nov 07, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-07"
+    },
+    {
+      "platform": "Meta Quest 3",
+      "region": null,
+      "date": "Nov 07, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-07"
+    },
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "Nov 07, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-07"
+    },
+    {
+      "platform": "PlayStation VR2",
+      "region": null,
+      "date": "Nov 05, 2024",
+      "status": "status_34",
+      "date_iso": "2024-11-05"
+    },
+    {
+      "platform": "SteamVR",
+      "region": null,
+      "date": "Nov 05, 2024",
+      "status": "status_34",
+      "date_iso": "2024-11-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2srk.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2srj.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2srl.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "984iLrRYHtQ",
+      "url": "https://www.youtube.com/watch?v=984iLrRYHtQ"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "4dvFiSwPFkU",
+      "url": "https://www.youtube.com/watch?v=4dvFiSwPFkU"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "v9j3xpmd4ag",
+      "url": "https://www.youtube.com/watch?v=v9j3xpmd4ag"
+    }
+  ]
+}

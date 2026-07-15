@@ -1,0 +1,84 @@
+{
+  "slug": "let-s-sing-2024-with-international-hits",
+  "igdb_id": 268592,
+  "name": "Let's Sing 2024 with International Hits",
+  "summary": "Step into the spotlight. | It's your time to shine!",
+  "first_release_year": 2023,
+  "developers": [
+    "Voxler"
+  ],
+  "publishers": [
+    "Deep Silver",
+    "PLAION"
+  ],
+  "genres": [
+    "Music"
+  ],
+  "themes": [
+    "Party"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": "Let's Sing 2024",
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/lets-sing-2024-with-international-hits-switch/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-07"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-07"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-07"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-07"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 07, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-07"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2jr8.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "kE47Q21agrM",
+      "url": "https://www.youtube.com/watch?v=kE47Q21agrM"
+    }
+  ]
+}

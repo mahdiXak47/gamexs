@@ -1,0 +1,184 @@
+{
+  "slug": "grid-legends",
+  "igdb_id": 159116,
+  "name": "Grid Legends",
+  "summary": "What does it take to become a racing legend? Welcome to Grid Legends: a high-stakes driving experience that combines thrilling unpredictable motorsport, incredible race variety, and an immersive driving story that puts you at the heart of the action.",
+  "first_release_year": 2022,
+  "developers": [
+    "Codemasters"
+  ],
+  "publishers": [
+    "Electronic Arts"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [
+    "Action",
+    "Non-fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person",
+    "Virtual Reality"
+  ],
+  "series": [
+    "Grid"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Ego Engine"
+  ],
+  "keywords": [
+    "cinematic",
+    "cross-platform multiplayer",
+    "story rich",
+    "licensed cars",
+    "realism",
+    "elimination mode"
+  ],
+  "alternative_names": [
+    {
+      "name": "RP19",
+      "comment": "Working title"
+    },
+    {
+      "name": "GRID Legends",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "GridLegends.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/grid-legends/9NCT9L7NFHX7"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003002"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1307710"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/grid-legends-d7b0b7"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/grid/grid-legends"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/gridgame"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/GRID%20Legends"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/gridgame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/gridgame"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/gridgame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Meta Quest 2",
+      "region": null,
+      "date": "Jan 12, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-01-12"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 24, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-02-24"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 25, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-02-25"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 25, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-02-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Feb 25, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-02-25"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 25, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-02-25"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Dec 12, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-12"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Dec 17, 2024",
+      "status": "Released",
+      "date_iso": "2024-12-17"
+    },
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Dec 17, 2024",
+      "status": "Released",
+      "date_iso": "2024-12-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arxuq.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Dev Diary",
+      "youtube_id": "v11K5_fWE-w",
+      "url": "https://www.youtube.com/watch?v=v11K5_fWE-w"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "R7Qd5BPDTts",
+      "url": "https://www.youtube.com/watch?v=R7Qd5BPDTts"
+    }
+  ]
+}

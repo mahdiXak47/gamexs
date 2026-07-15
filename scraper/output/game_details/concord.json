@@ -1,0 +1,153 @@
+{
+  "slug": "concord",
+  "igdb_id": 250632,
+  "name": "Concord",
+  "summary": "In Concord, you play as the crew of the Northstar—a group of guns-for-hire known in our galaxy as Freegunners. The Freegunners roam the stars taking high-stakes jobs on worlds across Wild space, where they face other fiercely competitive Freegunner crews. From match-to-match, you’ll form your team of Freegunners with other players and battle it out with rival crews to take home the reward across a variety of maps and modes.",
+  "first_release_year": 2024,
+  "developers": [
+    "Firewalk Studios"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/concord"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2443720"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002695"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/concord-2024"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.playstation.com/en-us/games/concord/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Concord_(video_game)"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/PlayConcord/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 23, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 23, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 20, 2024",
+      "status": "status_34",
+      "date_iso": "2024-08-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 20, 2024",
+      "status": "status_34",
+      "date_iso": "2024-08-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 12, 2024",
+      "status": "Alpha",
+      "date_iso": "2024-07-12"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 06, 2024",
+      "status": "Early Access",
+      "date_iso": "2024-09-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 06, 2024",
+      "status": "Early Access",
+      "date_iso": "2024-09-06"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 12, 2024",
+      "status": "Alpha",
+      "date_iso": "2024-07-12"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2yy3.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "Zb-xvCPecps",
+      "url": "https://www.youtube.com/watch?v=Zb-xvCPecps"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "qNW71AQlzK8",
+      "url": "https://www.youtube.com/watch?v=qNW71AQlzK8"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "mBnStS9d2xg",
+      "url": "https://www.youtube.com/watch?v=mBnStS9d2xg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "7jqQJhjf_3o",
+      "url": "https://www.youtube.com/watch?v=7jqQJhjf_3o"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "xQB_2FF2G1o",
+      "url": "https://www.youtube.com/watch?v=xQB_2FF2G1o"
+    }
+  ]
+}

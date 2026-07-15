@@ -1,0 +1,136 @@
+{
+  "slug": "screamer",
+  "igdb_id": 325607,
+  "name": "Screamer",
+  "summary": "High-octane action and anime aesthetics collide in this arcade racing game, featuring fighting mechanics and a storyline that hits hard. In this world, some race for glory while others seek power or revenge. Every race is a fight and every battle is personal.",
+  "first_release_year": 2026,
+  "developers": [
+    "Milestone"
+  ],
+  "publishers": [
+    "Milestone"
+  ],
+  "genres": [
+    "Racing",
+    "Arcade"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Split screen"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "anime",
+    "arcade racers",
+    "pvp",
+    "driving",
+    "combat racing"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/MilestoneTeam"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/screamer-c51829"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.screamervideogame.com"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2814990"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/screamervideogame"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Screamervideogame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/MilestoneItaly"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/screamer/9nkqg4z00xbg"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10012598"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/screamer-1"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/9ymWPxNcHE"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Screamer_(2026_video_game)"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 26, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 26, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-26"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 26, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-03-26"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5os7.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "8ohDOlboyZg",
+      "url": "https://www.youtube.com/watch?v=8ohDOlboyZg"
+    },
+    {
+      "title": "Dev Diary",
+      "youtube_id": "Vu5CV06UNwI",
+      "url": "https://www.youtube.com/watch?v=Vu5CV06UNwI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Lh5ElfqaS74",
+      "url": "https://www.youtube.com/watch?v=Lh5ElfqaS74"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "vSIxAuvt4RY",
+      "url": "https://www.youtube.com/watch?v=vSIxAuvt4RY"
+    }
+  ]
+}

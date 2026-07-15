@@ -1,0 +1,144 @@
+{
+  "slug": "aphelion",
+  "igdb_id": 348192,
+  "name": "Aphelion",
+  "summary": "Stranded on a frozen planet, astronaut Ariane must brave rugged landscapes and shifting realities to rescue her wounded partner, Thomas. This action-packed sci-fi adventure blends exploration, traversal, and tense stealth gameplay.",
+  "first_release_year": 2026,
+  "developers": [
+    "DON'T NOD"
+  ],
+  "publishers": [
+    "DON'T NOD"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Stealth",
+    "Drama"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "parkour",
+    "cinematic",
+    "atmospheric",
+    "story rich",
+    "linear"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1966410"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/aphelion/9nk8947z28xl"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://dont-nod.com/en/games/aphelion/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10007223"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/dontnod_ent/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/DONTNOD.Entertainment"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/DONTNOD_Ent"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/dontnod/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/aphelion"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aphelion_%28video_game%29"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 28, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 28, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 28, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-04-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ou6.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5jo0.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ou5.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Reveal Trailer",
+      "youtube_id": "RZs_IthEb2s",
+      "url": "https://www.youtube.com/watch?v=RZs_IthEb2s"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "XT0G2DrLavo",
+      "url": "https://www.youtube.com/watch?v=XT0G2DrLavo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "9VdZUuC-kfc",
+      "url": "https://www.youtube.com/watch?v=9VdZUuC-kfc"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "7KLhyT27Atg",
+      "url": "https://www.youtube.com/watch?v=7KLhyT27Atg"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "QeGmdsyHXE8",
+      "url": "https://www.youtube.com/watch?v=QeGmdsyHXE8"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "RAs02HDepc4",
+      "url": "https://www.youtube.com/watch?v=RAs02HDepc4"
+    }
+  ]
+}

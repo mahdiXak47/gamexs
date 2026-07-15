@@ -1,0 +1,159 @@
+{
+  "slug": "shadow-labyrinth",
+  "igdb_id": 325583,
+  "name": "Shadow Labyrinth",
+  "summary": "Shadow Labyrinth is a 2D action platformer and a genre-twisting alternate take on the iconic PAC-MAN. As The Swordsman, you wake on a mysterious planet amidst relics of wars past. To survive you will discover secrets, consume your enemies, and grow from prey to apex predator.",
+  "first_release_year": 2025,
+  "developers": [
+    "Bandai Namco Studios"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment Inc."
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Side view"
+  ],
+  "series": [
+    "Pac-Man"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Pac-Man"
+  ],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "metroidvania"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Discord",
+      "url": "https://discord.com/invite/pacman"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009867"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/shadow-labyrinth-switch/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/bandainamcoeu/"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/BandaiNamcoEU/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/bandainamcoeu/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/NamcoBandaiGamesEU"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.bandainamcoent.com/games/shadow-labyrinth"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/shadow-labyrinth/9nxxng1062m1"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://pacman.fandom.com/wiki/Shadow_Labyrinth"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shadow_Labyrinth"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/shadow-labyrinth-2025"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1859430"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-18"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-18"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Jul 18, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-07-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar386z.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar48w7.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar48w8.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "U5pb3vapXxo",
+      "url": "https://www.youtube.com/watch?v=U5pb3vapXxo"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "ROs-PqODrtQ",
+      "url": "https://www.youtube.com/watch?v=ROs-PqODrtQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "L5inY5ySdd0",
+      "url": "https://www.youtube.com/watch?v=L5inY5ySdd0"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "lOkvS-OgJzw",
+      "url": "https://www.youtube.com/watch?v=lOkvS-OgJzw"
+    }
+  ]
+}

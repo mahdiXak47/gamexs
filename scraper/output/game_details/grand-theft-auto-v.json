@@ -1,0 +1,171 @@
+{
+  "slug": "grand-theft-auto-v",
+  "igdb_id": 239064,
+  "name": "Grand Theft Auto V",
+  "summary": "This bundle contains the original version of Grand Theft Auto V, the standalone game Grand Theft Auto Online and the story mode add-on of Grand Theft Auto V.",
+  "first_release_year": 2015,
+  "developers": [
+    "Rockstar North"
+  ],
+  "publishers": [
+    "Rockstar Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Racing",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Comedy",
+    "Sandbox",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Grand Theft Auto"
+  ],
+  "game_engines": [
+    "RAGE"
+  ],
+  "keywords": [
+    "cars",
+    "action-adventure",
+    "building",
+    "crime",
+    "challenges",
+    "multiple storylines",
+    "submarine",
+    "sex work",
+    "police chase"
+  ],
+  "alternative_names": [
+    {
+      "name": "GTA 5",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Grand Theft Auto V: Xbox One & Xbox Series Bundle",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Grand Theft Auto V: PS4 & PS5 Bundle",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Grand Theft Auto V Bundle",
+      "comment": "Alternative spelling"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3240220/Grand_Theft_Auto_V_Enhanced/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/grand-theft-auto-v"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-gb/games/store/grand-theft-auto-v-xbox-one-xbox-series-x-s/9p8rqh67ttt1"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-gb/product/EP1004-PPSA01721_00-GTAVCROSSGENBUND"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.rockstargames.com/gta-v"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/grand-theft-auto-v"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_V"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/RockstarGames"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/grandtheftautoV"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/rockstargames"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@RockstarGames"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/GTAV/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://gta.wiki/w/Grand_Theft_Auto_V"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 14, 2015",
+      "status": "Cancelled",
+      "date_iso": "2015-04-14"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 15, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-07-15"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 15, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-07-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 15, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-07-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 15, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-07-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m55.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "hvoD7ehZPcM",
+      "url": "https://www.youtube.com/watch?v=hvoD7ehZPcM"
+    }
+  ]
+}

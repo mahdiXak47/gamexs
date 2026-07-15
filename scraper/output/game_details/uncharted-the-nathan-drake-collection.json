@@ -1,0 +1,157 @@
+{
+  "slug": "uncharted-the-nathan-drake-collection",
+  "igdb_id": 10962,
+  "name": "Uncharted: The Nathan Drake Collection",
+  "summary": "Uncharted: The Nathan Drake Collection is a remastered compilation of the action-adventure shooter platform video games Drake's Fortune, Among Thieves, and Drake's Deception. Ported by Bluepoint Games, the collection was released exclusively for the PlayStation 4 on October 7, 2015 in Europe and October 9th, 2015 in North America.\n\nThe Nathan Drake Collection features the original three games in the Uncharted series with 1080p resolution, 60 frames per second, better lighting, textures and models. The collection also implements a \"Photo Mode\", a mode where the player can freeze the game at any moment to take personalized screenshots, derived from Naughty Dog's other remastered entry, The Last of Us Remastered, as well as new trophies. The ported games only include their respective single-player modes.\n\nThe pre-ordered version of The Nathan Drake Collection includes the \"Nathan Drake Pack\", which consists of single-player skins of iconic Nathan Drake outfits, as well as two weapons: the Golden AK-47 and Golden 92FS - 9mm. Pre-ordering the collection as a digital download through the PlayStation Store would also give an exclusive Uncharted: The Nathan Drake Collection PlayStation 4 dynamic theme.\n\nPurchasing The Nathan Drake Collection, and owning a valid subscription to PlayStation Plus, before the expiry date of December 13, 2015 would grant the player exclusive access to the multiplayer beta of A Thief's End.",
+  "first_release_year": 2015,
+  "developers": [
+    "Naughty Dog"
+  ],
+  "publishers": [
+    "Sony Computer Entertainment"
+  ],
+  "genres": [
+    "Shooter",
+    "Platform",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Comedy",
+    "Drama"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Uncharted"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Uncharted"
+  ],
+  "game_engines": [
+    "Naughty Dog Engine"
+  ],
+  "keywords": [
+    "compilation",
+    "action-adventure",
+    "60 fps on consoles",
+    "protagonist's name in the title",
+    "photo mode",
+    "original soundtrack release",
+    "playstation experience 2015",
+    "male antagonist",
+    "female antagonist",
+    "pax prime 2015",
+    "day one patch",
+    "male protagonist"
+  ],
+  "alternative_names": [
+    {
+      "name": "Uncharted Trilogy HD",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Uncharted HD Collection",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Uncharted Collection",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Uncharted: Kolekcja Nathana Drake’a",
+      "comment": "Polish title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Uncharted"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/naughty_dog"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/naughtydog"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/naughty_dog_inc"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/205353"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.unchartedthegame.com/en-us/games/uncharted-collection/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://uncharted.fandom.com/wiki/Uncharted:_The_Nathan_Drake_Collection"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 07, 2015",
+      "status": "Released",
+      "date_iso": "2015-10-07"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 08, 2015",
+      "status": "Released",
+      "date_iso": "2015-10-08"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 09, 2015",
+      "status": "Released",
+      "date_iso": "2015-10-09"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1cld.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1clc.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "-mH2SVyBMAQ",
+      "url": "https://www.youtube.com/watch?v=-mH2SVyBMAQ"
+    },
+    {
+      "title": "Uncharted 3: Drake's Deception Remastered Trailer",
+      "youtube_id": "Z6wbRqm6SPY",
+      "url": "https://www.youtube.com/watch?v=Z6wbRqm6SPY"
+    },
+    {
+      "title": "Uncharted 2: Among Thieves Remastered Trailer",
+      "youtube_id": "_IlSa8pwQdk",
+      "url": "https://www.youtube.com/watch?v=_IlSa8pwQdk"
+    },
+    {
+      "title": "Teaser",
+      "youtube_id": "uplsUMTJlhI",
+      "url": "https://www.youtube.com/watch?v=uplsUMTJlhI"
+    },
+    {
+      "title": "Uncharted: Drake's Fortune Remastered Trailer",
+      "youtube_id": "gWOOcdn7pqU",
+      "url": "https://www.youtube.com/watch?v=gWOOcdn7pqU"
+    }
+  ]
+}

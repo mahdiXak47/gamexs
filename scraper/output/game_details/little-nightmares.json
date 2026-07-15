@@ -1,0 +1,243 @@
+{
+  "slug": "little-nightmares",
+  "igdb_id": 9174,
+  "name": "Little Nightmares",
+  "summary": "Little Nightmares is a puzzle-platform horror adventure game developed by Tarsier Studios and published by Bandai Namco Entertainment. Set in a mysterious world, Little Nightmares follows the journey of Six, a hungry little girl who must escape the Maw, an iron vessel inhabited by monstrous, twisted beings.",
+  "first_release_year": 2017,
+  "developers": [
+    "Tarsier Studios"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Horror",
+    "Thriller",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Side view"
+  ],
+  "series": [
+    "Little Nightmares"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "psychological horror",
+    "psychological thriller",
+    "dark",
+    "3d",
+    "2.5d",
+    "female protagonist",
+    "steam",
+    "achievements",
+    "short",
+    "steam trading cards",
+    "abstract",
+    "atmospheric",
+    "survival horror",
+    "story rich",
+    "steam achievements",
+    "xbox controller support for pc",
+    "single-player only",
+    "steam cloud",
+    "puzzle platformer",
+    "humble bundle",
+    "previously on - stadia pro"
+  ],
+  "alternative_names": [
+    {
+      "name": "Hunger",
+      "comment": "Formerly known as"
+    },
+    {
+      "name": "Little Nightmares -リトルナイトメア-",
+      "comment": "Japanese title - stylized"
+    },
+    {
+      "name": "LittleNightmares.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/TarsierStudios"
+    },
+    {
+      "label": "Android",
+      "url": "https://play.google.com/store/apps/details?id=com.playdigious.littlenightmare"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/little-nightmares/BWD88K55MK5W"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/223059"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/LittleNights"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/424840"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/little_nightmares"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Little%20Nightmares"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.bandainamcoent.com/games/little-nightmares"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Little_Nightmares"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/bandainamcous"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/TarsierStudios"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://apps.apple.com/us/app/little-nightmares/id1620883955"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://littlenightmares.fandom.com/wiki/Little_Nightmares_Wiki"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/LittleNightmares/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Android",
+      "region": null,
+      "date": "Dec 12, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-12"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 28, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-04-28"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Apr 28, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-04-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 28, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-04-28"
+    },
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Jun 01, 2020",
+      "status": "Cancelled",
+      "date_iso": "2020-06-01"
+    },
+    {
+      "platform": "iOS",
+      "region": null,
+      "date": "Dec 12, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-12-12"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "May 18, 2018",
+      "status": "Cancelled",
+      "date_iso": "2018-05-18"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 28, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-04-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 28, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-04-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 28, 2017",
+      "status": "Cancelled",
+      "date_iso": "2017-04-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar759.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar67ej.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "6lRAFHSachc",
+      "url": "https://www.youtube.com/watch?v=6lRAFHSachc"
+    },
+    {
+      "title": "Deep Below The Waves Trailer",
+      "youtube_id": "mNa3HMQ9rt8",
+      "url": "https://www.youtube.com/watch?v=mNa3HMQ9rt8"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "-b9IuHlvNLk",
+      "url": "https://www.youtube.com/watch?v=-b9IuHlvNLk"
+    },
+    {
+      "title": "Nine Deaths of Six Trailer",
+      "youtube_id": "4iCCrxebsyY",
+      "url": "https://www.youtube.com/watch?v=4iCCrxebsyY"
+    },
+    {
+      "title": "Reveal Trailer",
+      "youtube_id": "21RG3wXkR8U",
+      "url": "https://www.youtube.com/watch?v=21RG3wXkR8U"
+    }
+  ]
+}

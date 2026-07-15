@@ -1,0 +1,157 @@
+{
+  "slug": "fatal-fury-city-of-the-wolves-special-edition",
+  "igdb_id": 327461,
+  "name": "Fatal Fury: City of the Wolves - Special Edition",
+  "summary": "After 26 years, FATAL FURY is back!\n\nContents:\n- Base game\n- Season Pass 1\n- DLC Character 1 \"ANDY BOGARD\"(Scheduled for: Summer 2025)\n- DLC Character 2 \"KEN\" (Scheduled for: Summer 2025)\n- DLC Character 3 \"JOE HIGASHI\" (Scheduled for: Fall 2025)\n- DLC Character 4 \"CHUN-LI\" (Scheduled for: Winter 2025)\n- DLC Character 5 \"Mr. BIG\"(Scheduled for: Early 2026)\n\n[Special Bonus]\n- Pre-order Bonus\nEarly Access: 3 Days (Playable from April 21, 2025)\n\n- DLC Costume: “FATAL FURY 2: TERRY”\n* Digital Version: Bonus included if you purchase the game by April 23, 2025.\n* Preorder costume bonus may be released as paid DLC in the future.",
+  "first_release_year": 2025,
+  "developers": [
+    "SNK"
+  ],
+  "publishers": [
+    "SNK"
+  ],
+  "genres": [
+    "Fighting"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person",
+    "Side view"
+  ],
+  "series": [
+    "Fatal Fury"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Fatal Fury"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "shared screen"
+  ],
+  "alternative_names": [
+    {
+      "name": "Fatal Fury: City of the Wolves - Edição Especial",
+      "comment": "Portuguese title"
+    },
+    {
+      "name": "Fatal Fury: City of the Wolves - edycja specjalna",
+      "comment": "Polish title"
+    },
+    {
+      "name": "Fatal Fury: City of the Wolves - édition spéciale",
+      "comment": "French title"
+    },
+    {
+      "name": "Fatal Fury: City of the Wolves - спеціальне видання",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Fatal Fury: City of the Wolves - إصدار خاص ",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "饿狼传说 City of the Wolves Special Edition",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "餓狼傳説 City of the Wolves Special Edition",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "餓狼伝説 City of the Wolves Special Edition",
+      "comment": "Japanese title - stylized"
+    },
+    {
+      "name": "がろうでんせつ シティ オブ ザ ウルブズ",
+      "comment": "Japanese title - stylized"
+    },
+    {
+      "name": "Garou: City of the Wolves - Special Edition",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Legend of the Hungry Wolf: City of the Wolves",
+      "comment": "Japanese title - romanization"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/garou-city-of-the-wolves-556c5a"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.snk-corp.co.jp/us/games/fatalfury-cotw/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2492040/FATAL_FURY_City_of_the_Wolves/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://snk.fandom.com/wiki/Fatal_Fury:_City_of_the_Wolves"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009499"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/fatal-fury-city-of-the-wolves---special-edition/9N7CP09C03WR"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Apr 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-21"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Apr 24, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-04-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3kdu.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3qw0.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "lHjjlpCoBOQ",
+      "url": "https://www.youtube.com/watch?v=lHjjlpCoBOQ"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "53qyNPNrksE",
+      "url": "https://www.youtube.com/watch?v=53qyNPNrksE"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "slug": "core-keeper",
+  "igdb_id": 152127,
+  "name": "Core Keeper",
+  "summary": "Explore an endless cavern of creatures, relics and resources in a mining sandbox adventure for 1-8 players. Mine, build, fight, craft and farm to unravel the mystery of the ancient Core.",
+  "first_release_year": 2024,
+  "developers": [
+    "Pugstorm"
+  ],
+  "publishers": [
+    "Fireshine Games"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Survival",
+    "Sandbox",
+    "Kids",
+    "Open world",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "exploration",
+    "casual",
+    "2d",
+    "crafting",
+    "procedural generation",
+    "cooking",
+    "building",
+    "atmospheric",
+    "pixel graphics",
+    "base building",
+    "relaxing",
+    "mining",
+    "dungeon crawler",
+    "farming simulator"
+  ],
+  "alternative_names": [
+    {
+      "name": "核心守護者",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "コアキーパー",
+      "comment": "Japanese title - translated"
+    },
+    {
+      "name": "护核纪元",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "CoreKeeper.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCfnfwO-3cN97ZCZYLOWxjTg"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/core_keeper"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009534"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/FireshineGames"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/core-keeper-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/core-keeper/9PKW4GMX4J8K"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/CoreKeeper"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/CoreKeeperGame/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/CoreKeeperGame"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1621690"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/core-keeper"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://fireshinegames.co.uk/games/core-keeper/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/core-keeper-868404"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Core_Keeper"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Aug 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-27"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-27"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-27"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 27, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-08-27"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 08, 2022",
+      "status": "Beta",
+      "date_iso": "2022-03-08"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-17"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Mar 08, 2022",
+      "status": "Beta",
+      "date_iso": "2022-03-08"
+    },
+    {
+      "platform": "Nintendo Switch 2",
+      "region": null,
+      "date": "Jan 28, 2026",
+      "status": "Cancelled",
+      "date_iso": "2026-01-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-17"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 17, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-17"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arupp.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "5Mj3g880qbE",
+      "url": "https://www.youtube.com/watch?v=5Mj3g880qbE"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "eqrtsgoU8J8",
+      "url": "https://www.youtube.com/watch?v=eqrtsgoU8J8"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "BIYcsYVxzPg",
+      "url": "https://www.youtube.com/watch?v=BIYcsYVxzPg"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "F2JGcGx7YgA",
+      "url": "https://www.youtube.com/watch?v=F2JGcGx7YgA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "RlXVp7DS_RY",
+      "url": "https://www.youtube.com/watch?v=RlXVp7DS_RY"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "BDeKh18TLSI",
+      "url": "https://www.youtube.com/watch?v=BDeKh18TLSI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "GjxH5hsbQoA",
+      "url": "https://www.youtube.com/watch?v=GjxH5hsbQoA"
+    }
+  ]
+}

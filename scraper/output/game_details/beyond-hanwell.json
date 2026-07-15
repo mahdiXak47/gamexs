@@ -1,0 +1,142 @@
+{
+  "slug": "beyond-hanwell",
+  "igdb_id": 265409,
+  "name": "Beyond Hanwell",
+  "summary": "Step into Hanwell and discover a world beyond it. Set in the deeper parts of London, explore Westminster and uncover the truth about the enigmatic stranger known as The Director. Fight with whatever you can find or use the environment to take out Anomolies.",
+  "first_release_year": 2024,
+  "developers": [
+    "Steel Arts Software"
+  ],
+  "publishers": [
+    "Steel Arts Software"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Action",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "steam achievements",
+    "steam cloud",
+    "steam families"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10012767"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/beyond-hanwell/9NPMJL7DS3D6"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/beyond-hanwell-nintendo-switch-edition-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.steelartssoftware.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/SteelArtsSoft"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@NathanSeedhouse"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SteelArtsSoftware/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2565550"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/beyond-hanwell"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Mar 20, 2025",
+      "status": "Released",
+      "date_iso": "2025-03-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 25, 2024",
+      "status": "Beta",
+      "date_iso": "2024-08-25"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 26, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 28, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 28, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 28, 2024",
+      "status": "Released",
+      "date_iso": "2024-11-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2idd.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "4YAA4VlJbkA",
+      "url": "https://www.youtube.com/watch?v=4YAA4VlJbkA"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "jtqfndQ_nxg",
+      "url": "https://www.youtube.com/watch?v=jtqfndQ_nxg"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "B_f2MEcxFzA",
+      "url": "https://www.youtube.com/watch?v=B_f2MEcxFzA"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "slug": "the-smurfs-mission-vileaf",
+  "igdb_id": 149960,
+  "name": "The Smurfs: Mission Vileaf",
+  "summary": "Go on an adventure to save your forest! Gargamel, the evil sorcerer just created the vileaf, a plant that has the ability to attract and capture the Smurfs... but it's also toxic! Embody 4 iconic Smurfs and heal the plants on your way to Gargamel's hovel: the whole forest depends on you!",
+  "first_release_year": 2021,
+  "developers": [
+    "OSome Studio"
+  ],
+  "publishers": [
+    "Microids"
+  ],
+  "genres": [
+    "Platform",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "The Smurfs"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "3d",
+    "colorful",
+    "based on - cartoons",
+    "available on - blacknut"
+  ],
+  "alternative_names": [
+    {
+      "name": "Les Schtroumpfs: Mission Malfeuille",
+      "comment": "French title"
+    },
+    {
+      "name": "Die Schlümpfe: Mission Blattpest",
+      "comment": "German title"
+    },
+    {
+      "name": "Os Smurfs: Missão Florrorosa",
+      "comment": "Portuguese title"
+    },
+    {
+      "name": "Смурфики: Операция «Злолист»",
+      "comment": "Russian title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/The%20Smurfs:%20Mission%20Vileaf"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/the-smurfs-mission-vileaf-b1b351"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1502560"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Smurfs:_Mission_Vileaf"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/the-smurfs-mission-vileaf-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002353"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://smurfs.fandom.com/wiki/The_Smurfs:_Mission_Vileaf"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.microids.com/us/game-the-smurfs-mission-vileaf-us"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/the_smurfs_mission_vileaf"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/microids"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/microids_official/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Microids_off"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 16, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-16"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 16, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-16"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 26, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 14, 2021",
+      "status": "Released",
+      "date_iso": "2021-12-14"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 05, 2021",
+      "status": "Released",
+      "date_iso": "2021-11-05"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 26, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-26"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 25, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-25"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 25, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-25"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 25, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-25"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar11vn.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Teaser",
+      "youtube_id": "tW22HiWnxA8",
+      "url": "https://www.youtube.com/watch?v=tW22HiWnxA8"
+    }
+  ]
+}

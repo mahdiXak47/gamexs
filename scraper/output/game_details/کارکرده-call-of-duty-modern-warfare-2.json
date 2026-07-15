@@ -1,0 +1,165 @@
+{
+  "slug": "کارکرده-call-of-duty-modern-warfare-2",
+  "igdb_id": 200165,
+  "name": "Call of Duty: Modern Warfare II",
+  "summary": "Call of Duty: Modern Warfare II drops players into an unprecedented global conflict that features the return of the iconic Operators of Task Force 141.",
+  "first_release_year": 2022,
+  "developers": [
+    "Infinity Ward"
+  ],
+  "publishers": [
+    "Activision"
+  ],
+  "genres": [
+    "Shooter"
+  ],
+  "themes": [
+    "Action",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Call of Duty: Modern Warfare",
+    "Call of Duty"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Call of Duty"
+  ],
+  "game_engines": [
+    "IW Engine"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "콜 오브 듀티®: 모던 워페어 II",
+      "comment": "Korean stylized title"
+    },
+    {
+      "name": "COD: MWII",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "MWII",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "bootstrapper.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10010971"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3595230"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/callofduty"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Call%20of%20Duty:%20Modern%20Warfare%20II"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.callofduty.com/modernwarfare2"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/callofduty"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/CallofDuty"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Modern_Warfare_II_(2022_video_game)"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://callofduty.fandom.com/wiki/Call_of_Duty_Wikihttps://callofduty.fandom.com/wiki/Call_of_Duty_Wiki"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/CallofDuty"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/CallofDuty"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/ModernWarfareII"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/callofduty.com"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-28"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 28, 2022",
+      "status": "Released",
+      "date_iso": "2022-10-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1nka.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1nk8.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1nkc.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1nkb.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1nk9.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "ISc1orDBziY",
+      "url": "https://www.youtube.com/watch?v=ISc1orDBziY"
+    }
+  ]
+}

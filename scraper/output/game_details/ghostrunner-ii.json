@@ -1,0 +1,156 @@
+{
+  "slug": "ghostrunner-ii",
+  "igdb_id": 250617,
+  "name": "Ghostrunner II",
+  "summary": "Ghostrunner II is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action.",
+  "first_release_year": 2023,
+  "developers": [
+    "One More Level"
+  ],
+  "publishers": [
+    "505 Games"
+  ],
+  "genres": [
+    "Platform",
+    "Strategy",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Ghostrunner"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Ghostrunner 2",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Ghostrunner2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/ghostrunner-2"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ghostrunner_2"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/GhostRunner/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ghostrunner-2/9pkf79jq1kr6"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/ghostrunner-ii"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005977"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@505games"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/ghostrunner_game/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/ghostrunner"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://ghostrunnergame.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/GhostrunnerGame"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/ghostrunnerthegame/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2144740/Ghostrunner_2/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/ghostrunner_2"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 26, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-26"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Oct 26, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-26"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 26, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-10-26"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar38wx.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5k7j.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5k7k.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "5ykvBTEoMvg",
+      "url": "https://www.youtube.com/watch?v=5ykvBTEoMvg"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "pok7gQ713So",
+      "url": "https://www.youtube.com/watch?v=pok7gQ713So"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "le5hJ28EmLQ",
+      "url": "https://www.youtube.com/watch?v=le5hJ28EmLQ"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "FqviMFon1Qc",
+      "url": "https://www.youtube.com/watch?v=FqviMFon1Qc"
+    }
+  ]
+}

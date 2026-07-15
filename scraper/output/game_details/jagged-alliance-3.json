@@ -1,0 +1,146 @@
+{
+  "slug": "jagged-alliance-3",
+  "igdb_id": 72767,
+  "name": "Jagged Alliance 3",
+  "summary": "The country of Grand Chien is thrown into chaos when the elected president goes missing and the paramilitary force known as \"the Legion\" seizes control. Hire mercenaries, meet interesting characters, and fight in tactically deep turn-based combat in this true successor to a beloved franchise.",
+  "first_release_year": 2023,
+  "developers": [
+    "Haemimont Games"
+  ],
+  "publishers": [
+    "THQ Nordic"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Strategy",
+    "Turn-based strategy (TBS)",
+    "Tactical"
+  ],
+  "themes": [
+    "Action",
+    "Warfare"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [
+    "Jagged Alliance"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "HaemimontSol"
+  ],
+  "keywords": [
+    "modern warfare",
+    "3d",
+    "modern military",
+    "mercenary"
+  ],
+  "alternative_names": [
+    {
+      "name": "JA3.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005890"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/jaggedalliancegame"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.jaggedalliance.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1084160/Jagged_Alliance_3"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Jagged%20Alliance%203"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/jagged_alliance_3"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/jaggedalliance"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-14"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 16, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-16"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-14"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 14, 2023",
+      "status": "Released",
+      "date_iso": "2023-11-14"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 14, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-14"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1qu5.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2cp7.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "48b3BIU7vVY",
+      "url": "https://www.youtube.com/watch?v=48b3BIU7vVY"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "Ah9O1LQXIvE",
+      "url": "https://www.youtube.com/watch?v=Ah9O1LQXIvE"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "3f8k1iuoUAw",
+      "url": "https://www.youtube.com/watch?v=3f8k1iuoUAw"
+    }
+  ]
+}

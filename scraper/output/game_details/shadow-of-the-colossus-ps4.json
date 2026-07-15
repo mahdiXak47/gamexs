@@ -1,0 +1,176 @@
+{
+  "slug": "shadow-of-the-colossus-ps4",
+  "igdb_id": 37094,
+  "name": "Shadow of the Colossus",
+  "summary": "Tales speak of an ancient land where creatures the size of mountains, roam the majestic landscape. Bound to the land, these creatures hold a key to a mystical power of revival - a power you must obtain to waken a loved one.\n\nShadow of the Colossus is a majestic journey through ancient lands to seek out and destroy gigantic mythical beasts. With your trusty horse at your side, explore the spacious lands and unearth each Colossi. Armed with your wits, a sword and a bow, use cunning and strategy to topple each behemoth.\n\nA remake of the critically-claimed game of the same title. Also from the minds that brought you The Last Guardian & ICO",
+  "first_release_year": 2018,
+  "developers": [
+    "Bluepoint Games"
+  ],
+  "publishers": [
+    "Sony Interactive Entertainment"
+  ],
+  "genres": [
+    "Platform",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Drama",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Ico"
+  ],
+  "spin_off_of": "Shadow of the Colossus",
+  "franchises": [
+    "Ico"
+  ],
+  "game_engines": [
+    "Bluepoint Engine"
+  ],
+  "keywords": [
+    "kaiju",
+    "horse riding",
+    "melancholy"
+  ],
+  "alternative_names": [
+    {
+      "name": "Wanda to Kyozou",
+      "comment": "Japanese title - romanization"
+    },
+    {
+      "name": "Wander and the Colossus",
+      "comment": "Japanese title - translated"
+    },
+    {
+      "name": "汪达与巨像",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "Wangda yu Juxiang",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "SotC PS4",
+      "comment": "Acronym"
+    },
+    {
+      "name": "NICO",
+      "comment": "Working title"
+    },
+    {
+      "name": "Shadow of the Colossus Remake",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/225857"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCNQBbGnXiwbDropHXXEazLA"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/SonyJapanStudio"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://teamico.fandom.com/wiki/Shadow_of_the_Colossus_(PS4)"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.playstation.com/en-us/games/shadow-of-the-colossus-ps4/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Shadow%20of%20the%20Colossus"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SonyJapanStudio"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shadow_of_the_Colossus_(2018_video_game)"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 06, 2018",
+      "status": "Released",
+      "date_iso": "2018-02-06"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 06, 2018",
+      "status": "Released",
+      "date_iso": "2018-02-06"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 07, 2018",
+      "status": "Released",
+      "date_iso": "2018-02-07"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Feb 08, 2018",
+      "status": "Released",
+      "date_iso": "2018-02-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/wcc35fjysigv4zl29ayi.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/c5elhqdpqv4yvsgbjpxr.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/avazxhcmycawrpubyoxw.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "8qNxyP6u2Kg",
+      "url": "https://www.youtube.com/watch?v=8qNxyP6u2Kg"
+    },
+    {
+      "title": "Story Trailer",
+      "youtube_id": "RFgusTYInas",
+      "url": "https://www.youtube.com/watch?v=RFgusTYInas"
+    },
+    {
+      "title": "TGS 2017 Trailer",
+      "youtube_id": "V89AUq1fttw",
+      "url": "https://www.youtube.com/watch?v=V89AUq1fttw"
+    },
+    {
+      "title": "PSX 2017: Comparison Trailer",
+      "youtube_id": "klKOm1hPGIg",
+      "url": "https://www.youtube.com/watch?v=klKOm1hPGIg"
+    },
+    {
+      "title": "Paris Games Week 2017 Trailer",
+      "youtube_id": "PH54Vv8eVpg",
+      "url": "https://www.youtube.com/watch?v=PH54Vv8eVpg"
+    },
+    {
+      "title": "E3 2017 Trailer",
+      "youtube_id": "cZUACNN5l00",
+      "url": "https://www.youtube.com/watch?v=cZUACNN5l00"
+    }
+  ]
+}

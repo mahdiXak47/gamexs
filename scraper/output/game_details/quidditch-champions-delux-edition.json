@@ -1,0 +1,98 @@
+{
+  "slug": "quidditch-champions-delux-edition",
+  "igdb_id": 318003,
+  "name": "Harry Potter: Quidditch Champions - Deluxe Edition",
+  "summary": "Your next chapter takes flight! Immerse yourself in the enchanting world of Quidditch by playing solo or sharing the magic with friends and family.",
+  "first_release_year": 2024,
+  "developers": [
+    "Unbroken Studios"
+  ],
+  "publishers": [
+    "Portkey Games",
+    "Warner Bros. Games"
+  ],
+  "genres": [
+    "Sport",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/harry-potter-quidditch-champions-deluxe-edition/9N62QDRLNQVV"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/harry-potter-quidditch-champions-deluxe-edition-switch/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/harry-potter-quidditch-champions--deluxe-edition"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 08, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-11-08"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 03, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-03"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 03, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-03"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 03, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-03"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 03, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-03"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 03, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-03"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar376z.jpg"
+  ],
+  "videos": []
+}

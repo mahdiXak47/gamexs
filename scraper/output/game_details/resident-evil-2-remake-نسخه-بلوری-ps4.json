@@ -1,0 +1,82 @@
+{
+  "slug": "resident-evil-2-remake-نسخه-بلوری-ps4",
+  "igdb_id": 347128,
+  "name": "Resident Evil 2",
+  "summary": "A port of Resident Evil 2, enhanced with up-rendering, rewind, quick save, and custom video filters.\n\nResident Evil 2 is a sequel to the first Resident Evil title. Like the previous game in the series, Resident Evil 2 is a 3D action-adventure using three-dimensional polygon characters over two-dimensional pre-rendered backgrounds, with the action viewed through a variety of cinematic fixed camera angles in each room. Players can choose to play as one of two possible characters; each goes through the same initial scenario but with differences in the type of weaponry they find and the people they meet along the way.",
+  "first_release_year": 2025,
+  "developers": [
+    "Capcom"
+  ],
+  "publishers": [
+    "Capcom"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Horror",
+    "Survival"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Resident Evil"
+  ],
+  "spin_off_of": "Resident Evil 2",
+  "franchises": [
+    "Resident Evil"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "sequel",
+    "inventory management",
+    "fixed camera",
+    "auto-aim",
+    "male antagonist",
+    "pre-rendered backgrounds",
+    "isolation",
+    "plants vs zombies"
+  ],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005150"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://capcom.wikia.com/wiki/Resident_Evil_2"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Resident_Evil_2"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 19, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-19"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 19, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4216.jpg"
+  ],
+  "videos": []
+}

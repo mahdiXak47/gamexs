@@ -1,0 +1,53 @@
+{
+  "slug": "star-wars-outlaws-نسخه-special-edition",
+  "igdb_id": 299474,
+  "name": "Star Wars Outlaws: Special Edition",
+  "summary": "Experience the first-ever open world Star Wars game, set between the events of The Empire Strikes Back and Return of the Jedi. Explore distinct planets across the galaxy, both iconic and new. Risk it all as Kay Vess, an emerging scoundrel seeking freedom and the means to start a new life, along with her companion Nix. Fight, steal, and outwit your way through the galaxy’s crime syndicates as you join the galaxy’s most wanted.\n\nThe Special Edition includes the base game and the Sabacc Shark Character Pack.",
+  "first_release_year": 2024,
+  "developers": [
+    "Massive Entertainment"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Star Wars"
+  ],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 30, 2024",
+      "status": "Released",
+      "date_iso": "2024-08-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 30, 2024",
+      "status": "Released",
+      "date_iso": "2024-08-30"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

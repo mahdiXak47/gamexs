@@ -1,0 +1,163 @@
+{
+  "slug": "layers-of-fear",
+  "igdb_id": 204363,
+  "name": "Layers of Fear",
+  "summary": "Layers of Fear is a first-person psychedelic horror chronicle focused on tense exploration and immersive storytelling - a new game built upon the foundations of Layers of Fear, LOF: Inheritance, and Layers of Fear 2 with a surprising new story and gameplay direction\n\nAll stories must come to an end, even twisted and eerie ones. The canvas. The stage. The novel. This narrative-focused psychological horror experience is ready for its final brushstrokes, its curtain call, its final chapter. Are you ready to return and face your fears one last time?",
+  "first_release_year": 2023,
+  "developers": [
+    "Anshar Studios",
+    "Bloober Team"
+  ],
+  "publishers": [
+    "Bloober Team"
+  ],
+  "genres": [
+    "Puzzle"
+  ],
+  "themes": [
+    "Action",
+    "Horror"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "exploration",
+    "mature",
+    "narration",
+    "story rich"
+  ],
+  "alternative_names": [
+    {
+      "name": "LayersOfFear.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Layers_of_Fear_(2023_video_game)"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10004877"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@BlooberTeamSA"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Layers_Of_Fears"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/layers-of-fear"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/LayersOfFear2023"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://layersoffears.com/"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1946700"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/layers_of_fear_2023"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/layers-of-fears-85a02b"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jun 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 15, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-06-15"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5qkt.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar5ql0.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "PEhgXjPMyyM",
+      "url": "https://www.youtube.com/watch?v=PEhgXjPMyyM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "AwEXJ3T1EJM",
+      "url": "https://www.youtube.com/watch?v=AwEXJ3T1EJM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "ZCPbtZHkrzc",
+      "url": "https://www.youtube.com/watch?v=ZCPbtZHkrzc"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "82NMQnZp7xs",
+      "url": "https://www.youtube.com/watch?v=82NMQnZp7xs"
+    },
+    {
+      "title": "Game Intro",
+      "youtube_id": "eCRg2qVuvlo",
+      "url": "https://www.youtube.com/watch?v=eCRg2qVuvlo"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "JJMeiW0Gz_Y",
+      "url": "https://www.youtube.com/watch?v=JJMeiW0Gz_Y"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "iMkN8whZQmQ",
+      "url": "https://www.youtube.com/watch?v=iMkN8whZQmQ"
+    },
+    {
+      "title": "Accolades Trailer",
+      "youtube_id": "mhTDMyP3AKo",
+      "url": "https://www.youtube.com/watch?v=mhTDMyP3AKo"
+    }
+  ]
+}

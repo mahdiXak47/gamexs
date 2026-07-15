@@ -1,0 +1,152 @@
+{
+  "slug": "judgment",
+  "igdb_id": 281562,
+  "name": "Judgment",
+  "summary": "A remastered version of Judgment, featuring faster loading times, 60 FPS, as well as all of the downloadable content from the original release.",
+  "first_release_year": 2021,
+  "developers": [
+    "Ryu Ga Gotoku Studios"
+  ],
+  "publishers": [
+    "Sega Games",
+    "Sega"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Thriller",
+    "Drama",
+    "Mystery"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person",
+    "Third person"
+  ],
+  "series": [
+    "Judgment",
+    "Yakuza: Like a Dragon"
+  ],
+  "spin_off_of": "Judgment",
+  "franchises": [
+    "Yakuza: Like a Dragon"
+  ],
+  "game_engines": [
+    "Dragon Engine"
+  ],
+  "keywords": [
+    "martial arts",
+    "detective",
+    "dating",
+    "mahjong",
+    "murder mystery",
+    "japan",
+    "side quests",
+    "detective mode"
+  ],
+  "alternative_names": [
+    {
+      "name": "审判之眼：死神的遗言 Remastered",
+      "comment": "Chinese title - simplified"
+    },
+    {
+      "name": "審判之眼：死神的遺言 Remastered",
+      "comment": "Chinese title - traditional"
+    },
+    {
+      "name": "Judgment Remastered",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "JUDGE EYES：死神の遺言 Remastered",
+      "comment": "Japanese title - stylized"
+    },
+    {
+      "name": "Judge Eyes: Wills of Death Remastered",
+      "comment": "Japanese title - translated"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2058180"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/judgment/9N1R83CKGZJP"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/232859"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://yakuza.fandom.com/wiki/Judgment"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://games.sega.com/judgment/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Judgment_(video_game)"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/rggstudio"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/SEGA"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/ryuofficial"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Apr 23, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-04-23"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 14, 2022",
+      "status": "Cancelled",
+      "date_iso": "2022-09-14"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Apr 23, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-04-23"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Apr 23, 2021",
+      "status": "Cancelled",
+      "date_iso": "2021-04-23"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2osu.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "Oo96SMJxSVc",
+      "url": "https://www.youtube.com/watch?v=Oo96SMJxSVc"
+    }
+  ]
+}

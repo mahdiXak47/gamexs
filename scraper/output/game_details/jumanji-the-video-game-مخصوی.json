@@ -1,0 +1,172 @@
+{
+  "slug": "jumanji-the-video-game-مخصوی",
+  "igdb_id": 119226,
+  "name": "Jumanji: The Video Game",
+  "summary": "Unite in adventure and laughter in the action-packed game of Jumanji, as you try to survive the ultimate challenge for those seeking to leave their world behind!\n\nOnly you and three teammates can recover the JEWELS and save Jumanji. So get online, gather friends for split-screen play, or go alone with AI companions. There’s an army of evil marauders to take on, deadly beasts and traps to dodge, and cool customizations to unlock. And with heroes Dr. Bravestone, Ruby, Mouse, and Prof. Oberon as your avatars, you know you’ve got the unique abilities – and hilarious failings – to save the day!",
+  "first_release_year": 2019,
+  "developers": [
+    "Funsolve"
+  ],
+  "publishers": [
+    "Outright Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Kids"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Jumanji"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "based on - movie"
+  ],
+  "alternative_names": [
+    {
+      "name": "JUMANJI: El videojuego",
+      "comment": "Spanish title"
+    },
+    {
+      "name": "JUMANJI: The Video Game",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "Jumanji : Le Jeu Vidéo",
+      "comment": "French title"
+    },
+    {
+      "name": "Echo.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Jumanji%3A%20The%20Video%20Game"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/896950"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/233283"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/jumanji-the-video-game-switch/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/Outright_Games"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/OutrightGames"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/outright_games"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.outrightgames.com/jumanji"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/jumanji-the-video-game/bvg8n7m5nzhd"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 07, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-07"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 08, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-08"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 15, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-15"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 08, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-08"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 15, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-15"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 15, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-15"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 22, 2021",
+      "status": "Released",
+      "date_iso": "2021-10-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Nov 08, 2019",
+      "status": "Released",
+      "date_iso": "2019-11-08"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6ci.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "iflxVQBGZIk",
+      "url": "https://www.youtube.com/watch?v=iflxVQBGZIk"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "pscynaSdV9w",
+      "url": "https://www.youtube.com/watch?v=pscynaSdV9w"
+    }
+  ]
+}

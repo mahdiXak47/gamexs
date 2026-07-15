@@ -1,0 +1,135 @@
+{
+  "slug": "gangs-of-sherwood",
+  "igdb_id": 208399,
+  "name": "Gangs of Sherwood",
+  "summary": "Fight the armies of the Sheriff of Nottingham and lead the rebellion, solo or in co-op with up to 4 players. Play as one of the Merry Men, combine your attacks, and free the people in this futuristic dystopia inspired by the legend of Robin Hood.",
+  "first_release_year": 2023,
+  "developers": [
+    "Appeal Studios"
+  ],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Shooter",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "Hood.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10005683"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/GangsofSherwood"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1351000"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com/GangsofSherwood"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/Nacon"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.nacongaming.com/"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/p/gangs-of-sherwood"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Gangs%20of%20Sherwood"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 30, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 30, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 30, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-11-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2lzp.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1q0o.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2lzk.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2lzl.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2lzn.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2lzm.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2lzo.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "rqE-C48Yrss",
+      "url": "https://www.youtube.com/watch?v=rqE-C48Yrss"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "8a5xd3zuaqQ",
+      "url": "https://www.youtube.com/watch?v=8a5xd3zuaqQ"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "JOaZrYVcs8A",
+      "url": "https://www.youtube.com/watch?v=JOaZrYVcs8A"
+    },
+    {
+      "title": "Gameplay Video",
+      "youtube_id": "3t3cRS-ZaKM",
+      "url": "https://www.youtube.com/watch?v=3t3cRS-ZaKM"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "dtWsrBf0iM0",
+      "url": "https://www.youtube.com/watch?v=dtWsrBf0iM0"
+    }
+  ]
+}

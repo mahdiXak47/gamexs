@@ -1,0 +1,94 @@
+{
+  "slug": "rpg-maker-with",
+  "igdb_id": 291538,
+  "name": "RPG Maker With",
+  "summary": "RPG MAKER WITH lets you make games for and with everyone! No programming knowledge is required to make your perfect game when using RPG MAKER WITH’s robust yet easy-to-learn tools and intuitive controls. Get inspiration and motivation by playing other creators’ games for free and sharing your projects and assets online at any stage of the creation process.",
+  "first_release_year": 2024,
+  "developers": [
+    "Gotcha Gotcha Games"
+  ],
+  "publishers": [
+    "NIS America"
+  ],
+  "genres": [
+    "Role-playing (RPG)"
+  ],
+  "themes": [
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "RPG Maker WITH",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10009745"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/rpg-maker-with-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.nisamerica.com/rpg-maker-with/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 31, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-31"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 11, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-11"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 31, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-31"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar30l4.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar359a.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "IdzQoPqvVIc",
+      "url": "https://www.youtube.com/watch?v=IdzQoPqvVIc"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "59rrj-CJXV8",
+      "url": "https://www.youtube.com/watch?v=59rrj-CJXV8"
+    },
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "i0rolKQzjwA",
+      "url": "https://www.youtube.com/watch?v=i0rolKQzjwA"
+    }
+  ]
+}

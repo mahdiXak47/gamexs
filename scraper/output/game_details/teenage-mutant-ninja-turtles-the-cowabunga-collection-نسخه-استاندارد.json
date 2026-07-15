@@ -1,0 +1,163 @@
+{
+  "slug": "teenage-mutant-ninja-turtles-the-cowabunga-collection-نسخه-استاندارد",
+  "igdb_id": 194206,
+  "name": "Teenage Mutant Ninja Turtles: The Cowabunga Collection",
+  "summary": "Teenage Mutant Ninja Turtles: The Cowabunga Collection is a 2022 compilation developed by Digital Eclipse and published by Konami. It brings together 13 titles from the original TMNT video game series, including their Japanese versions, spanning arcade systems, home consoles, and handheld platforms.\n\nThe compilation includes optional gameplay adjustments such as difficulty modifiers, additional lives, and other configurable settings. A “Watch Mode” feature allows players to view automated gameplay and start playing from any chosen point in the recording.\n\nThe package also contains an archival section called the Turtles’ Lair. This archive includes design documents from Konami’s development materials, as well as box art, manuals, promotional artifacts, soundtrack samples, comic book covers, and images related to the associated animated series.\n\nA built-in strategy guide provides game information, maps, move lists, and instructional videos for each title in the collection.",
+  "first_release_year": 2022,
+  "developers": [
+    "Digital Eclipse"
+  ],
+  "publishers": [
+    "Konami"
+  ],
+  "genres": [
+    "Fighting",
+    "Platform",
+    "Hack and slash/Beat 'em up",
+    "Adventure",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric",
+    "Side view"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Teenage Mutant Ninja Turtles"
+  ],
+  "game_engines": [],
+  "keywords": [
+    "retro",
+    "compilation",
+    "2d fighter"
+  ],
+  "alternative_names": [
+    {
+      "name": "ティーンエイジミュータントニンジャタートルズザカウエーバンエーコレクション",
+      "comment": "Japanese title - original"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://turtlepedia.fandom.com/wiki/Teenage_Mutant_Ninja_Turtles:_The_Cowabunga_Collection"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/DigitalEclipseStudios"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/digitaleclipsestudios/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/digitaleclipse"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/TMNT"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/GYr8YfNnck"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003357"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/teenage-mutant-ninja-turtles-the-cowabunga-collection/9P7K3S4RT762"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1659600"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.konami.com/en"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/teenage-mutant-ninja-turtles-the-cowabunga-collection-switch/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/teenage-mutant-ninja-turtles-the-cowabunga-collection"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/Konami"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles:_The_Cowabunga_Collection"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-30"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-30"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Aug 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-30"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-30"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-30"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 30, 2022",
+      "status": "Released",
+      "date_iso": "2022-08-30"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1mzt.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4cuc.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "nlaZF5bxc50",
+      "url": "https://www.youtube.com/watch?v=nlaZF5bxc50"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "assetto-corsa-competizione-نسخه-day-one",
+  "igdb_id": 171275,
+  "name": "Assetto Corsa Competizione: Day One Edition",
+  "summary": "Assetto Corsa Competizione, the official GT World Challenge videogame. Thanks to the extraordinary quality of simulation, you will experience the atmosphere of the GT3 championship. Compete against official drivers, teams, cars and official circuits reproduced to the highest quality ever seen.\n\nThe Day One Edition includes the 2020 GT World Challenge Pack DLC.",
+  "first_release_year": 2022,
+  "developers": [
+    "Kunos Simulazioni"
+  ],
+  "publishers": [
+    "505 Games",
+    "Kunos Simulazioni"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator"
+  ],
+  "themes": [
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.assettocorsa.net/competizione"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 24, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-24"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 24, 2022",
+      "status": "Released",
+      "date_iso": "2022-02-24"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1c9x.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "F8Ws3WnooJo",
+      "url": "https://www.youtube.com/watch?v=F8Ws3WnooJo"
+    }
+  ]
+}

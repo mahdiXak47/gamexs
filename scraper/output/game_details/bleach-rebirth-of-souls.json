@@ -1,0 +1,129 @@
+{
+  "slug": "bleach-rebirth-of-souls",
+  "igdb_id": 307765,
+  "name": "Bleach: Rebirth of Souls",
+  "summary": "Awaken the blade within you and reverse your fate in BLEACH Rebirth of Souls! Engage in thrilling battles with powerful sword abilities and characters from this legendary anime franchise.",
+  "first_release_year": 2025,
+  "developers": [
+    "Tamsoft"
+  ],
+  "publishers": [
+    "Bandai Namco Entertainment"
+  ],
+  "genres": [
+    "Fighting"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [
+    "Bleach"
+  ],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "anime",
+    "based on - anime",
+    "soul reaper",
+    "lost soul",
+    "sword fighting",
+    "anime-based playable characters"
+  ],
+  "alternative_names": [
+    {
+      "name": "BLEACH Rebirth of Souls",
+      "comment": "Stylized title"
+    },
+    {
+      "name": "BLEACH_Rebirth_of_Souls.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "https://bleach.fandom.com/wiki/BLEACH_Rebirth_of_Souls"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://en.bandainamcoent.eu/bleach/bleach-rebirth-of-souls"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/bleach_game_en"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/bleach-rebirth-of-souls/9PJK7WPHWM8L"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001710"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1689620/BLEACH_Rebirth_of_Souls/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Mar 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-21"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Mar 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-21"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Mar 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-21"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Mar 21, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-03-21"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar37wa.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar37wb.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "DD2RbaukDKU",
+      "url": "https://www.youtube.com/watch?v=DD2RbaukDKU"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "k9wIfZf9lLs",
+      "url": "https://www.youtube.com/watch?v=k9wIfZf9lLs"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "duPLssNW04I",
+      "url": "https://www.youtube.com/watch?v=duPLssNW04I"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "slug": "darksiders-ii-نسخه-deathinitive",
+  "igdb_id": 20048,
+  "name": "Darksiders II: Deathinitive Edition",
+  "summary": "A remastered version of the 2012 release, Darksiders II.\n\nAwakened by the End of Days, Death, the most feared of the legendary Four Horsemen, embarks upon a quest to restore mankind, and redeem his brother's name. Along the way, the Horseman discovers that there are far worse things than an earthly Apocalypse, and that an ancient grudge may threaten all of Creation.\n\nDarksiders II follows the exploits of Death, one of the four horsemen of the Apocalypse, in an action-packed tale that runs parallel to the events in the original Darksiders game. This epic journey propels Death across an expansive gameworld as he tries to redeem his brother, War, the horseman blamed for prematurely starting the Apocalypse in Darksiders.\n\nLike the original Darksiders game before it, the second iteration of the series is primarily a hack 'n slash adventure. The game takes place across netherworld environments, including 'The White city', an outpost where angels live, and 'The Eternal Throne', a floating fortress where the Lords of the Dead stand guard over souls that need to be cleansed. Although Death is the most feared of the Four Horsemen, his physical abilities are very different than his brother, War. Death is far more nimble, and relies on a combination of melee and ranged attacks. In combat Death's primary weapon is his huge iconic scythe, with a wide range of other weapons and usable items that must be gathered as the game progresses. Weapons can be dual-wielded, upgradable armor can be acquired for protection and Death has access to his terrifying and powerful mount, Despair.",
+  "first_release_year": 2015,
+  "developers": [
+    "Vigil Games",
+    "THQ Nordic",
+    "Gunfire Games"
+  ],
+  "publishers": [
+    "THQ Nordic"
+  ],
+  "genres": [
+    "Fighting",
+    "Puzzle",
+    "Role-playing (RPG)",
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Darksiders"
+  ],
+  "spin_off_of": "Darksiders II",
+  "franchises": [],
+  "game_engines": [
+    "Phoenix Engine (Relic)"
+  ],
+  "keywords": [
+    "metroidvania",
+    "dark fantasy",
+    "gore",
+    "story rich",
+    "previously on - xbox gamepass",
+    "previously on - stadia pro"
+  ],
+  "alternative_names": [
+    {
+      "name": "Darksiders 2: Deathinitive Edition",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "Darksiders2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Community Wiki",
+      "url": "http://darksiders.wikia.com/wiki/Darksiders_II"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Darksiders_II"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Darksiders"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/darksiders_ii_deathinitive_edition"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.thqnordic.com/games/darksiders-2"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/darksiders"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/darksiders-ii-deathinitive-edition-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/231670"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/thqnordic.com"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/darksiders"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/388410"
+    },
+    {
+      "label": "Epic",
+      "url": "https://www.epicgames.com/store/product/darksiders2/home"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/thqnordic/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Darksiders%20II:%20Deathinitive%20Edition"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/user/DarksidersCommunity"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/Darksiders"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Google Stadia",
+      "region": null,
+      "date": "Sep 01, 2021",
+      "status": "Released",
+      "date_iso": "2021-09-01"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 25, 2019",
+      "status": "Released",
+      "date_iso": "2019-09-25"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 27, 2015",
+      "status": "Released",
+      "date_iso": "2015-10-27"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Nov 05, 2015",
+      "status": "Released",
+      "date_iso": "2015-11-05"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Oct 15, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-15"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Oct 15, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-10-15"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 26, 2019",
+      "status": "Released",
+      "date_iso": "2019-09-26"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Oct 30, 2015",
+      "status": "Released",
+      "date_iso": "2015-10-30"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 27, 2015",
+      "status": "Released",
+      "date_iso": "2015-10-27"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 27, 2015",
+      "status": "Released",
+      "date_iso": "2015-10-27"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Oct 27, 2015",
+      "status": "Released",
+      "date_iso": "2015-10-27"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar6xf.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "65s8MNPb--s",
+      "url": "https://www.youtube.com/watch?v=65s8MNPb--s"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "uXqem-g5ABs",
+      "url": "https://www.youtube.com/watch?v=uXqem-g5ABs"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "NtD8jDMnVIM",
+      "url": "https://www.youtube.com/watch?v=NtD8jDMnVIM"
+    }
+  ]
+}

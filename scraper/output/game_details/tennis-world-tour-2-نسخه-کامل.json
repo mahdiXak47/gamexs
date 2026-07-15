@@ -1,0 +1,130 @@
+{
+  "slug": "tennis-world-tour-2-نسخه-کامل",
+  "igdb_id": 135576,
+  "name": "Tennis World Tour 2",
+  "summary": "Play as the world's top players, master each surface, perfect your game and strive to dominate the world circuit. Choose from multiple game modes, with singles and doubles, local and online games.",
+  "first_release_year": 2020,
+  "developers": [
+    "Big Ant Studios"
+  ],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Simulator",
+    "Sport"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Tennis World Tour"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [
+    "tennis",
+    "available on - blacknut"
+  ],
+  "alternative_names": [
+    {
+      "name": "테니스 월드 투어 2",
+      "comment": "Korean title"
+    },
+    {
+      "name": "テニス ワールドツアー 2",
+      "comment": "Japanese title - original"
+    },
+    {
+      "name": "twt2.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/tennis-world-tour-2-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10001023"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1223910"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://tennisworldtourgame.com/"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Tennis%20World%20Tour%202"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tennis_World_Tour_2"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-11-03"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Oct 15, 2020",
+      "status": "Released",
+      "date_iso": "2020-10-15"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 22, 2020",
+      "status": "Released",
+      "date_iso": "2020-09-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 22, 2020",
+      "status": "Released",
+      "date_iso": "2020-09-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 24, 2020",
+      "status": "Released",
+      "date_iso": "2020-09-24"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 22, 2020",
+      "status": "Released",
+      "date_iso": "2020-09-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ara15.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "UToV8wQoPS8",
+      "url": "https://www.youtube.com/watch?v=UToV8wQoPS8"
+    }
+  ]
+}

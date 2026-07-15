@@ -1,0 +1,112 @@
+{
+  "slug": "bee-simulator-the-hive",
+  "igdb_id": 335301,
+  "name": "Bee Simulator: The Hive",
+  "summary": "Live the epic adventure of a tiny bee in a vast world! Collect pollen, race through jet streams, and protect your hive from wasps. Now even bigger with The Hive expansion - gather resources, build and customize your very own beehive!",
+  "first_release_year": 2025,
+  "developers": [
+    "Varsav Game Studios"
+  ],
+  "publishers": [
+    "Untold Tales"
+  ],
+  "genres": [
+    "Simulator",
+    "Adventure",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Educational"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "BeeSimulatorTheHive.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3348910"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/us/store/products/bee-simulator-the-hive-switch/"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10013420"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/bee_simulator_the_hive"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-08-04"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Nov 28, 2025",
+      "status": "Released",
+      "date_iso": "2025-11-28"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Nov 28, 2025",
+      "status": "Released",
+      "date_iso": "2025-11-28"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Nov 28, 2025",
+      "status": "Released",
+      "date_iso": "2025-11-28"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Nov 28, 2025",
+      "status": "Released",
+      "date_iso": "2025-11-28"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3crm.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "S4nnZ_AQ8Nc",
+      "url": "https://www.youtube.com/watch?v=S4nnZ_AQ8Nc"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "6hqkLMV5mEo",
+      "url": "https://www.youtube.com/watch?v=6hqkLMV5mEo"
+    }
+  ]
+}

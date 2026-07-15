@@ -1,0 +1,150 @@
+{
+  "slug": "madden-nfl-24",
+  "igdb_id": 252167,
+  "name": "Madden NFL 24",
+  "summary": "Experience the newest iteration of FieldSENSE in Madden NFL 24. More realistic character movement and smarter AI gives you control to play out your gameplay strategy with the confidence to dominate any opponent.",
+  "first_release_year": 2023,
+  "developers": [
+    "EA Orlando"
+  ],
+  "publishers": [
+    "EA Sports"
+  ],
+  "genres": [
+    "Simulator",
+    "Sport",
+    "Strategy"
+  ],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [],
+  "series": [
+    "Madden NFL"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Madden",
+    "NFL"
+  ],
+  "game_engines": [
+    "Frostbite 3"
+  ],
+  "keywords": [
+    "american football"
+  ],
+  "alternative_names": [
+    {
+      "name": "Madden 24",
+      "comment": "Abbreviation"
+    },
+    {
+      "name": "EA Sports Madden NFL 24",
+      "comment": "Alternative title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2140330"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://madden.fandom.com/wiki/Madden_NFL_24"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/madden-nfl-24"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/madden-nfl-24-xbox-one/9P74C0WC1KW8"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/product/UP0006-PPSA10508_00-MADDENNFL24GAME1"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/madden-nfl-24"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Madden_NFL_24"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.ea.com/games/madden-nfl/madden-nfl-24"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Aug 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-18"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Aug 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-18"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Aug 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-18"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Aug 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-18"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Aug 18, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-08-18"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2ce3.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "4o6xDjg2B54",
+      "url": "https://www.youtube.com/watch?v=4o6xDjg2B54"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "oCwfUE-dUrI",
+      "url": "https://www.youtube.com/watch?v=oCwfUE-dUrI"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "71HsdJTQIsw",
+      "url": "https://www.youtube.com/watch?v=71HsdJTQIsw"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "UVZ0IIeW2mw",
+      "url": "https://www.youtube.com/watch?v=UVZ0IIeW2mw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "sVa0dMCGD7k",
+      "url": "https://www.youtube.com/watch?v=sVa0dMCGD7k"
+    }
+  ]
+}

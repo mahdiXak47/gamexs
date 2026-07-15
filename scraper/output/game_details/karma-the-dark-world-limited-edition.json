@@ -1,0 +1,70 @@
+{
+  "slug": "karma-the-dark-world-limited-edition",
+  "igdb_id": 351141,
+  "name": "Karma: The Dark World - Limited Edition",
+  "summary": "KARMA: The Dark World Physical Limited Edition include:\n- An Exclusive Slipcover case\n️- Three Art Cards,\n- Leviathan ID Badge\n- Digital Soundtrack\n- Digital Art Book!",
+  "first_release_year": 2025,
+  "developers": [
+    "POLLARD STUDIO LLC"
+  ],
+  "publishers": [
+    "Wired Productions",
+    "Meridiem Games",
+    "Gamirror Games"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Adventure",
+    "Indie"
+  ],
+  "themes": [
+    "Science fiction",
+    "Horror",
+    "Thriller"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 5"
+  ],
+  "keywords": [
+    "psychological horror",
+    "detective",
+    "dystopian",
+    "memory loss",
+    "cinematic",
+    "atmospheric",
+    "emotional",
+    "realistic",
+    "story rich",
+    "philosophical"
+  ],
+  "alternative_names": [],
+  "websites": [],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 19, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-06-19"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4qml.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "93IwfEOgWcE",
+      "url": "https://www.youtube.com/watch?v=93IwfEOgWcE"
+    }
+  ]
+}

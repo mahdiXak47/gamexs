@@ -1,0 +1,183 @@
+{
+  "slug": "kingdom-come-deliverance-ii",
+  "igdb_id": 298526,
+  "name": "Kingdom Come: Deliverance II",
+  "summary": "A thrilling story-driven action RPG, with a rich open world, set in 15th century Medieval Europe. Experience the ultimate medieval adventure - through the eyes of young Henry - as you embark on a journey of epic proportions.",
+  "first_release_year": 2025,
+  "developers": [
+    "Warhorse Studios"
+  ],
+  "publishers": [
+    "Deep Silver"
+  ],
+  "genres": [
+    "Role-playing (RPG)",
+    "Simulator",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Historical",
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "Kingdom Come: Deliverance"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "CryEngine 5"
+  ],
+  "keywords": [
+    "medieval",
+    "kingdom",
+    "steam trading cards",
+    "alchemy",
+    "steam achievements",
+    "steam cloud",
+    "using dialogue to avoid combat",
+    "pickpocketing",
+    "lock picking",
+    "character models based on actual people",
+    "steam families",
+    "available on - luna plus",
+    "available on - luna gog"
+  ],
+  "alternative_names": [
+    {
+      "name": "KCD II",
+      "comment": "Acronym"
+    },
+    {
+      "name": "Kingdom Come: Deliverance 2",
+      "comment": "Alternative title"
+    },
+    {
+      "name": "Bin\\Win64MasterMasterSteamPGO\\KingdomCome.exe",
+      "comment": "windows executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1771300"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kingdom_Come:_Deliverance_II"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/category/kingdom-come-deliverance-ii"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/kingdomcome/"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/invite/kingdomcomedeliverance"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10006210"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/kingdom-come-deliverance-ii/9N4W31HSMVVD"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@kingdomcomeRPG"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/p/kingdom-come-deliverance-2-664783"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.kingdomcomerpg.com/"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/KingdomComeRPG"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/kingdomcomerpg/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/kingdomcomerpg/"
+    },
+    {
+      "label": "Community Wiki",
+      "url": "https://kingdomcomedeliverance.wiki.gg/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/kingdom_come_deliverance_ii"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Feb 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-04"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Feb 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-04"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Feb 04, 2025",
+      "status": "Cancelled",
+      "date_iso": "2025-02-04"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar4wsl.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3s9k.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar3s9l.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "q_WvHhlDRJ0",
+      "url": "https://www.youtube.com/watch?v=q_WvHhlDRJ0"
+    },
+    {
+      "title": "Saints and Sinners Trailer",
+      "youtube_id": "utArRqtkd0Y",
+      "url": "https://www.youtube.com/watch?v=utArRqtkd0Y"
+    },
+    {
+      "title": "Gameplay Trailer",
+      "youtube_id": "j0p-DTyQ0Jw",
+      "url": "https://www.youtube.com/watch?v=j0p-DTyQ0Jw"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "vPS-pgg3scE",
+      "url": "https://www.youtube.com/watch?v=vPS-pgg3scE"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "vmBTuYLUsrw",
+      "url": "https://www.youtube.com/watch?v=vmBTuYLUsrw"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "star-wars-triple-bundle",
+  "igdb_id": 164777,
+  "name": "EA Star Wars Triple Bundle",
+  "summary": "Get three critically acclaimed games with the EA STAR WARS Triple Bundle, which includes STAR WARS: Squadrons, STAR WARS Jedi: Fallen Order Deluxe Edition, and STAR WARS Battlefront II: Celebration Edition.",
+  "first_release_year": 2020,
+  "developers": [],
+  "publishers": [],
+  "genres": [],
+  "themes": [],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "EA STAR WARS TRIPLE BUNDLE",
+      "comment": "Stylized title"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-us/games/store/ea-star-wars-triple-bundle/9N5J2DWL5T3P"
+    },
+    {
+      "label": "Epic",
+      "url": "https://store.epicgames.com/en-US/p/ea-star-wars-triple-bundle"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-03"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-03"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-03"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-03"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar10tf.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar10td.jpg"
+  ],
+  "videos": []
+}

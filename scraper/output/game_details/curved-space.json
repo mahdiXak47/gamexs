@@ -1,0 +1,139 @@
+{
+  "slug": "curved-space",
+  "igdb_id": 137680,
+  "name": "Curved Space",
+  "summary": "Curved Space is an intense arcade shooter about battling cosmic energy spiders across warped, physics-defying battlefields. Space stations and asteroids curve and loop around themselves. Up? Down? Who needs those when you’ve got a spaceship, guns and swarms of bugs to blast?",
+  "first_release_year": 2021,
+  "developers": [
+    "Only By Midnight"
+  ],
+  "publishers": [
+    "Only By Midnight"
+  ],
+  "genres": [
+    "Shooter",
+    "Music",
+    "Indie",
+    "Arcade"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [],
+  "alternative_names": [
+    {
+      "name": "커브드 스페이스",
+      "comment": "Korean title"
+    },
+    {
+      "name": "Curved Space.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10002274"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/games/detail/curved-space-switch/"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://curvedspacegame.com/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC7-ohQ5wKRMsYicuRCTtFuQ"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Curved%20Space"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/et5Vack"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1320230/Curved_Space"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/curved_space"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jun 28, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-28"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jun 29, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-29"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jun 29, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-29"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jun 29, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-29"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 13, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jun 29, 2021",
+      "status": "Released",
+      "date_iso": "2021-06-29"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 13, 2021",
+      "status": "Released",
+      "date_iso": "2021-07-13"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arhe0.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "IaDi9wqeZtM",
+      "url": "https://www.youtube.com/watch?v=IaDi9wqeZtM"
+    }
+  ]
+}

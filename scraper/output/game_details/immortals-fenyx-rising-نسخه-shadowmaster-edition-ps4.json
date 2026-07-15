@@ -1,0 +1,86 @@
+{
+  "slug": "immortals-fenyx-rising-نسخه-shadowmaster-edition-ps4",
+  "igdb_id": 166312,
+  "name": "Immortals: Fenyx Rising - Shadowmaster Edition",
+  "summary": "Includes copy of the Immortals Fenyx Rising game and the Hades the Shadowmaster Character Pack.",
+  "first_release_year": 2020,
+  "developers": [
+    "Ubisoft Québec"
+  ],
+  "publishers": [
+    "Ubisoft Entertainment"
+  ],
+  "genres": [
+    "Puzzle",
+    "Role-playing (RPG)",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.ubisoft.com/en-gb/game/immortals-fenyx-rising"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Dec 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-03"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Dec 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-03"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Dec 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-03"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Dec 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-03"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-03"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Dec 03, 2020",
+      "status": "Released",
+      "date_iso": "2020-12-03"
+    }
+  ],
+  "artworks": [],
+  "videos": []
+}

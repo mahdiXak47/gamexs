@@ -1,0 +1,193 @@
+{
+  "slug": "test-drive-unlimited-solar-crown",
+  "igdb_id": 135671,
+  "name": "Test Drive Unlimited Solar Crown",
+  "summary": "Test Drive Unlimited Solar Crown is an open world driving and lifestyle experience. Grab your keys and live your life of luxury. Remember, social status is everything In the world of Test Drive Unlimited.",
+  "first_release_year": 2024,
+  "developers": [
+    "KT Racing"
+  ],
+  "publishers": [
+    "Nacon"
+  ],
+  "genres": [
+    "Racing",
+    "Simulator"
+  ],
+  "themes": [
+    "Open world"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Massively Multiplayer Online (MMO)"
+  ],
+  "player_perspectives": [
+    "Third person"
+  ],
+  "series": [
+    "Test Drive"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "KT Engine"
+  ],
+  "keywords": [
+    "exploration",
+    "cars",
+    "driving",
+    "modern"
+  ],
+  "alternative_names": [
+    {
+      "name": "Test Drive: Unlimited – Solar Crown",
+      "comment": "Alternative spelling"
+    },
+    {
+      "name": "TDUSC.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003910"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1249970"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/tdusc"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/testdrive"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://www.testdriveunlimited.gg/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Test_Drive_Unlimited_Solar_Crown"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Test%20Drive%20Unlimited%20Solar%20Crown"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/testdrive"
+    },
+    {
+      "label": "Subreddit",
+      "url": "https://www.reddit.com/r/tdu3/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/testdrivesc/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@NaconRacing"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 05, 2024",
+      "status": "status_34",
+      "date_iso": "2024-09-05"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 12, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 12, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-12"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 05, 2024",
+      "status": "status_34",
+      "date_iso": "2024-09-05"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 12, 2024",
+      "status": "Cancelled",
+      "date_iso": "2024-09-12"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 05, 2024",
+      "status": "status_34",
+      "date_iso": "2024-09-05"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/arpyd.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "SyzEkJKx3zY",
+      "url": "https://www.youtube.com/watch?v=SyzEkJKx3zY"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "zPy_B0fOGQ8",
+      "url": "https://www.youtube.com/watch?v=zPy_B0fOGQ8"
+    },
+    {
+      "title": "Cinematic Trailer",
+      "youtube_id": "tIQ_m4Gjvqo",
+      "url": "https://www.youtube.com/watch?v=tIQ_m4Gjvqo"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "PuhXQF090Ck",
+      "url": "https://www.youtube.com/watch?v=PuhXQF090Ck"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "Z6FcuPQ1Dn0",
+      "url": "https://www.youtube.com/watch?v=Z6FcuPQ1Dn0"
+    },
+    {
+      "title": "Release Date Trailer",
+      "youtube_id": "whwba2H7nNc",
+      "url": "https://www.youtube.com/watch?v=whwba2H7nNc"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "XJJw3trqDLQ",
+      "url": "https://www.youtube.com/watch?v=XJJw3trqDLQ"
+    },
+    {
+      "title": "Launch Trailer",
+      "youtube_id": "j9zL-tKG2Io",
+      "url": "https://www.youtube.com/watch?v=j9zL-tKG2Io"
+    },
+    {
+      "title": "Season 3 Preview Trailer",
+      "youtube_id": "yIk1Re7iDK4",
+      "url": "https://www.youtube.com/watch?v=yIk1Re7iDK4"
+    }
+  ]
+}

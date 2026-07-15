@@ -1,0 +1,138 @@
+{
+  "slug": "avatar-the-last-airbender-quest-for-balance",
+  "igdb_id": 255085,
+  "name": "Avatar: The Last Airbender - Quest for Balance",
+  "summary": "In Avatar: The Last Airbender - Quest for Balance you'll be playing as one of nine characters - Aang, Toph, Sokka, and Katara are all confirmed - utilizing the four elements (earth, wind, fire, and water) to solve puzzles.",
+  "first_release_year": 2023,
+  "developers": [
+    "Bamtang Games"
+  ],
+  "publishers": [
+    "GameMill Entertainment"
+  ],
+  "genres": [
+    "Fighting",
+    "Platform",
+    "Puzzle",
+    "Adventure"
+  ],
+  "themes": [
+    "Action"
+  ],
+  "game_modes": [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen"
+  ],
+  "player_perspectives": [],
+  "series": [
+    "Avatar: The Last Airbender"
+  ],
+  "spin_off_of": null,
+  "franchises": [
+    "Avatar: The Last Airbender"
+  ],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [
+    "available on - blacknut"
+  ],
+  "alternative_names": [
+    {
+      "name": "Ala-Win64-ShippingDRM.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10003264"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/avatar-the-last-airbender-quest-for-balance-switch/"
+    },
+    {
+      "label": "Xbox Store",
+      "url": "https://www.xbox.com/en-US/games/store/avatar-the-last-airbender-quest-for-balance/9N2QS4Z635WT/0010"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/gamemillent?lang=en"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/gamemillent/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCfuHLNojyt-1tgYe7HH9s7w"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1620030"
+    },
+    {
+      "label": "Official Website",
+      "url": "https://avatarquestforbalance.com/"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Sep 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-22"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Sep 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-22"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Sep 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-22"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Sep 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Sep 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-22"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Sep 22, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-09-22"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar2gga.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar455g.jpg",
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar455h.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "1WsMzwqnqgc",
+      "url": "https://www.youtube.com/watch?v=1WsMzwqnqgc"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "slug": "oaken",
+  "igdb_id": 165396,
+  "name": "Oaken",
+  "summary": "Oaken is a tactical turn-based roguelike with deck management and 3D figurines. Explore the world of the Great Oak, gather allies and enhancements, learn to use the positioning and rotation for your advantage, choose how to upgrade your cards - all in order to restore the Oak's Song.",
+  "first_release_year": 2023,
+  "developers": [
+    "Laki Studios"
+  ],
+  "publishers": [
+    "Goblinz Publishing"
+  ],
+  "genres": [
+    "Puzzle",
+    "Strategy",
+    "Turn-based strategy (TBS)",
+    "Adventure",
+    "Indie",
+    "Card & Board Game"
+  ],
+  "themes": [
+    "Fantasy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "Bird view / Isometric"
+  ],
+  "series": [],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unity"
+  ],
+  "keywords": [
+    "atmospheric",
+    "deck-building"
+  ],
+  "alternative_names": [
+    {
+      "name": "Oaken.exe",
+      "comment": "Windows Executable"
+    }
+  ],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://www.lakistudios.com/oaken"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/oaken_game"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://www.twitch.tv/directory/game/Oaken"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10008158"
+    },
+    {
+      "label": "Website (24)",
+      "url": "https://www.nintendo.com/store/products/oaken-switch/"
+    },
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/game/oaken"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/edTWrG4BTj"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1348690/Oaken"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/oakengame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/oaken_game"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 20, 2023",
+      "status": "Released",
+      "date_iso": "2023-07-20"
+    },
+    {
+      "platform": "Nintendo Switch",
+      "region": null,
+      "date": "Jul 20, 2023",
+      "status": "Released",
+      "date_iso": "2023-07-20"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-20"
+    },
+    {
+      "platform": "Xbox Series X|S",
+      "region": null,
+      "date": "Jul 20, 2023",
+      "status": "Released",
+      "date_iso": "2023-07-20"
+    },
+    {
+      "platform": "Xbox One",
+      "region": null,
+      "date": "Jul 20, 2023",
+      "status": "Released",
+      "date_iso": "2023-07-20"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "May 03, 2022",
+      "status": "Beta",
+      "date_iso": "2022-05-03"
+    },
+    {
+      "platform": "Linux",
+      "region": null,
+      "date": "Jul 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-20"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "May 03, 2022",
+      "status": "Beta",
+      "date_iso": "2022-05-03"
+    },
+    {
+      "platform": "Mac",
+      "region": null,
+      "date": "Jul 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-20"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "May 03, 2022",
+      "status": "Beta",
+      "date_iso": "2022-05-03"
+    },
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Jul 20, 2023",
+      "status": "Cancelled",
+      "date_iso": "2023-07-20"
+    }
+  ],
+  "artworks": [
+    "https://images.igdb.com/igdb/image/upload/t_1080p/ar1247.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Announcement Trailer",
+      "youtube_id": "E3eEEibsO4I",
+      "url": "https://www.youtube.com/watch?v=E3eEEibsO4I"
+    }
+  ]
+}
