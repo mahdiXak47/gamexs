@@ -8,21 +8,6 @@ function mod(n: number, m: number) {
   return ((n % m) + m) % m;
 }
 
-function cardStyle(relPos: number): {
-  translateX: string;
-  scale: number;
-  opacity: number;
-  zIndex: number;
-} | null {
-  if (Math.abs(relPos) > 2) return null;
-  const abs = Math.abs(relPos);
-  return {
-    translateX: `${relPos * 62}%`,
-    scale: abs === 0 ? 1 : abs === 1 ? 0.8 : 0.65,
-    opacity: abs === 0 ? 1 : abs === 1 ? 0.75 : 0.45,
-    zIndex: 10 - abs * 3,
-  };
-}
 
 function ChevronLeft({ size = 18 }: { size?: number }) {
   return (
@@ -74,9 +59,8 @@ function Lightbox({
   const total = screenshots.length;
   const closeButtonRef = useRef<HTMLButtonElement>(null);
   const touchStartRef = useRef<{ x: number; y: number } | null>(null);
-  const prefersReduced = useRef(
-    typeof window !== "undefined" &&
-    window.matchMedia("(prefers-reduced-motion: reduce)").matches
+  const [reduced] = useState(
+    () => typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches
   );
 
   const go = useCallback((dir: number) => setIndex((i) => mod(i + dir, total)), [total]);
@@ -101,10 +85,10 @@ function Lightbox({
 
   const triggerClose = useCallback(() => {
     if (closing) return;
-    if (prefersReduced.current) { onClose(); return; }
+    if (reduced) { onClose(); return; }
     setClosing(true);
     setTimeout(onClose, 180);
-  }, [closing, onClose]);
+  }, [closing, onClose, reduced]);
 
   // Keyboard: arrows + Esc
   useEffect(() => {
@@ -116,8 +100,6 @@ function Lightbox({
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, [go, triggerClose]);
-
-  const reduced = prefersReduced.current;
 
   const backdropStyle: React.CSSProperties = {
     opacity: closing ? 0 : visible ? 1 : 0,
@@ -247,7 +229,7 @@ function Lightbox({
 }
 
 // ---------------------------------------------------------------------------
-// Carousel
+// Carousel — full-viewport-width 3-panel grid
 // ---------------------------------------------------------------------------
 export default function ScreenshotGallery({ screenshots }: { screenshots: string[] }) {
   const [current, setCurrent] = useState(0);
@@ -260,7 +242,6 @@ export default function ScreenshotGallery({ screenshots }: { screenshots: string
     [total]
   );
 
-  // Carousel keyboard nav (disabled while lightbox is open)
   useEffect(() => {
     if (lightboxOpen) return;
     const onKey = (e: KeyboardEvent) => {
@@ -273,115 +254,103 @@ export default function ScreenshotGallery({ screenshots }: { screenshots: string
 
   if (total === 0) return null;
 
+  const prev = mod(current - 1, total);
+  const next = mod(current + 1, total);
+
   return (
     <>
-      <section aria-label="تصاویر بازی" className="mt-10">
-        <h2 className="text-lg font-bold text-gray-900 mb-6" dir="rtl">
-          تصاویر بازی
-        </h2>
-
-        <div
-          dir="ltr"
-          className="relative overflow-hidden rounded-2xl bg-gray-950"
-          style={{ aspectRatio: "3 / 1" }}
-          onTouchStart={(e) => { touchX.current = e.touches[0].clientX; }}
-          onTouchEnd={(e) => {
-            if (touchX.current === null) return;
-            const diff = touchX.current - e.changedTouches[0].clientX;
-            if (Math.abs(diff) > 50) go(diff > 0 ? 1 : -1);
-            touchX.current = null;
-          }}
-          aria-roledescription="carousel"
-        >
-          {screenshots.map((url, i) => {
-            const half = Math.floor(total / 2);
-            const relPos = mod(i - current + half, total) - half;
-            const style = cardStyle(relPos);
-            if (!style) return null;
-
-            const isCenter = relPos === 0;
-
-            return (
-              <div
-                key={i}
-                className="absolute top-0 h-full"
-                style={{
-                  left: "20%",
-                  width: "60%",
-                  transform: `translateX(${style.translateX}) scale(${style.scale})`,
-                  opacity: style.opacity,
-                  zIndex: style.zIndex,
-                  transition: "transform 300ms ease-out, opacity 300ms ease-out",
-                  cursor: "pointer",
-                }}
-                onClick={() => {
-                  if (isCenter) {
-                    setLightboxOpen(true);
-                  } else {
-                    setCurrent(i);
-                  }
-                }}
-                role="button"
-                tabIndex={0}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter" || e.key === " ") {
-                    if (isCenter) setLightboxOpen(true);
-                    else setCurrent(i);
-                  }
-                }}
-                aria-label={isCenter ? `تصویر ${i + 1} — برای نمایش تمام‌صفحه کلیک کنید` : `تصویر ${i + 1} را انتخاب کنید`}
-              >
-                <div className="relative w-full h-full rounded-xl overflow-hidden group">
-                  <Image
-                    src={url}
-                    alt={isCenter ? `تصویر ${i + 1} (انتخاب شده)` : `تصویر ${i + 1}`}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 768px) 80vw, 60vw"
-                    priority={isCenter}
-                  />
-
-                  {!isCenter && (
-                    <div className="absolute inset-0 bg-black/35 group-hover:bg-black/10 transition-colors duration-200" />
-                  )}
-
-                  {isCenter && (
-                    <>
-                      {/* Blue focus ring */}
-                      <div className="absolute inset-0 rounded-xl ring-2 ring-inset ring-ps-blue/60 pointer-events-none" />
-                      {/* Expand hint — appears on hover */}
-                      <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
-                        <div className="bg-black/50 rounded-full p-3 text-white backdrop-blur-sm">
-                          <ExpandIcon />
-                        </div>
-                      </div>
-                    </>
-                  )}
-                </div>
-              </div>
-            );
-          })}
-
-          {total > 1 && (
-            <>
-              <button
-                className="absolute left-3 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-white/90 backdrop-blur-sm shadow-lg flex items-center justify-center hover:bg-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue"
-                onClick={() => go(-1)}
-                aria-label="تصویر قبلی"
-              >
-                <ChevronLeft />
-              </button>
-              <button
-                className="absolute right-3 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-white/90 backdrop-blur-sm shadow-lg flex items-center justify-center hover:bg-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue"
-                onClick={() => go(1)}
-                aria-label="تصویر بعدی"
-              >
-                <ChevronRight />
-              </button>
-            </>
-          )}
+      <section
+        aria-label="تصاویر بازی"
+        className="mt-10"
+        dir="ltr"
+        onTouchStart={(e) => { touchX.current = e.touches[0].clientX; }}
+        onTouchEnd={(e) => {
+          if (touchX.current === null) return;
+          const diff = touchX.current - e.changedTouches[0].clientX;
+          if (Math.abs(diff) > 50) go(diff > 0 ? 1 : -1);
+          touchX.current = null;
+        }}
+      >
+        {/* Heading — kept at page content width */}
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 mb-6" dir="rtl">
+          <h2 className="text-lg font-bold text-gray-900">تصاویر بازی</h2>
         </div>
 
+        {/*
+          3-panel grid: side cards get 1fr each (≈20%), center gets 3fr (≈60%).
+          All cards use aspect-video so every panel is properly landscape 16:9.
+          items-center vertically centers the shorter side cards alongside center.
+        */}
+        <div
+          className="grid items-center"
+          style={{ gridTemplateColumns: "1.5fr 2.5fr 1.5fr", gap: "10px", padding: "0 10px" }}
+          aria-roledescription="carousel"
+        >
+          {/* Left — previous screenshot */}
+          <button
+            className="relative aspect-video overflow-hidden rounded-xl group opacity-80 hover:opacity-100 transition-opacity duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue"
+            onClick={() => go(-1)}
+            aria-label="تصویر قبلی"
+          >
+            <Image
+              src={screenshots[prev]}
+              alt={`تصویر ${prev + 1}`}
+              fill
+              className="object-cover"
+              sizes="20vw"
+            />
+            <div className="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors duration-200" />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-full bg-white/85 backdrop-blur-sm shadow-md flex items-center justify-center text-gray-700">
+                <ChevronLeft size={20} />
+              </div>
+            </div>
+          </button>
+
+          {/* Center — current screenshot */}
+          <button
+            className="relative aspect-video overflow-hidden rounded-xl group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue"
+            onClick={() => setLightboxOpen(true)}
+            aria-label={`تصویر ${current + 1} — برای نمایش تمام‌صفحه کلیک کنید`}
+          >
+            <Image
+              src={screenshots[current]}
+              alt={`تصویر ${current + 1} (انتخاب شده)`}
+              fill
+              className="object-cover"
+              sizes="60vw"
+              priority
+            />
+            <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
+              <div className="bg-black/50 rounded-full p-3 text-white backdrop-blur-sm">
+                <ExpandIcon />
+              </div>
+            </div>
+          </button>
+
+          {/* Right — next screenshot */}
+          <button
+            className="relative aspect-video overflow-hidden rounded-xl group opacity-80 hover:opacity-100 transition-opacity duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue"
+            onClick={() => go(1)}
+            aria-label="تصویر بعدی"
+          >
+            <Image
+              src={screenshots[next]}
+              alt={`تصویر ${next + 1}`}
+              fill
+              className="object-cover"
+              sizes="20vw"
+            />
+            <div className="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors duration-200" />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-full bg-white/85 backdrop-blur-sm shadow-md flex items-center justify-center text-gray-700">
+                <ChevronRight size={20} />
+              </div>
+            </div>
+          </button>
+        </div>
+
+        {/* Dot indicators */}
         {total > 1 && (
           <div className="flex justify-center gap-1 mt-4" role="tablist" aria-label="انتخاب تصویر">
             {screenshots.map((_, i) => (
