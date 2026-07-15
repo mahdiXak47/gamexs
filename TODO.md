@@ -103,3 +103,19 @@ note about production object-storage URLs.
   and DB schema support them, but the frontend currently shows no indicator.
   Needs: pre-order badge on GameCard, release date prominence on detail page,
   and filtering/sorting that accounts for unreleased titles.
+
+## Future features
+
+- **Mail server + پشتیبانی section**: set up a mail server (e.g. Postfix/SES/Resend)
+  and wire it into the site's پشتیبانی (support) section so users can submit
+  support requests or contact the team via email.
+- **PS Plus & subscriptions section**: dedicated section for PS Plus tiers (Essential,
+  Extra, Premium) and other subscriptions (EA Play, etc.). Requires scraper adapters
+  for subscription sellers, new product-type handling in the DB/frontend, and a
+  separate UI section distinct from the game catalog.
+- **Customer login & sign-up**: user authentication for site visitors — account
+  creation, login, session management. Foundation for favorites, price-drop alerts,
+  and personalized features.
+- **Seller admin panel**: a web panel for sellers to submit and manage their own
+  prices directly into GameXS, as an alternative to scraping. Requires seller
+  authentication, a price-submission UI, and an approval/moderation workflow.

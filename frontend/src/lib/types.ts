@@ -26,6 +26,19 @@ export interface PurchaseOption {
   offers: SellerOffer[];
 }
 
+export interface GameDetails {
+  developers: string[];
+  genres: string[];
+  themes: string[];
+  gameModes: string[];
+  playerPerspectives: string[];
+  series: string[];
+  franchises: string[];
+  gameEngines: string[];
+  summary: string;
+  keywords: string[];
+}
+
 export interface Game {
   slug: string;
   title: string;
@@ -36,6 +49,7 @@ export interface Game {
   coverUrl: string | null;
   screenshots: string[];
   purchaseOptions: PurchaseOption[];
+  details: GameDetails | null;
 }
 
 // Lighter shape for the grid — stats are precomputed in SQL rather than

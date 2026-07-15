@@ -1,5 +1,6 @@
 import { query } from "./db";
 import { coverUrl as localCoverUrl, igdbCoverUrl, localIgdbCoverUrl, localScreenshotUrls } from "./covers";
+import { getGameDetails } from "./game-details";
 import { emptyPurchaseOptions, findOption } from "./purchase-options";
 import type { AccessTier, Game, GameSummary, ProductType } from "./types";
 
@@ -159,6 +160,7 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     coverUrl: toCoverUrl(game.cover_url, game.slug, game.title),
     screenshots,
     purchaseOptions,
+    details: getGameDetails(game.slug),
   };
 }
 

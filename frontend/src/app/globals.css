@@ -52,6 +52,12 @@ body {
   font-variant-numeric: tabular-nums;
 }
 
+/* HeroUI table.css hardcodes text-left on .table__column (<th>).
+   Override for the RTL page so header text aligns with data cells. */
+[dir="rtl"] .table__column {
+  text-align: right;
+}
+
 /* PS blue header */
 .ps-header {
   background: linear-gradient(135deg, #003087 0%, #0050b3 100%);

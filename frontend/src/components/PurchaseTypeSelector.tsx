@@ -77,7 +77,7 @@ function SellerTable({ option }: { option: PurchaseOption }) {
     <div>
       <p className="mb-4 text-sm text-muted">{option.description}</p>
       <Table>
-        <Table.ScrollContainer>
+        <Table.ScrollContainer dir="rtl">
           <Table.Content aria-label="مقایسه قیمت فروشگاه‌ها" selectionMode="none">
             <Table.Header>
               <Table.Column isRowHeader className="w-10">
