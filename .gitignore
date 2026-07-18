@@ -22,3 +22,7 @@ node_modules/
 
 # k8s Secrets (contain real credentials — never commit)
 k8s/*-secret.yaml
+
+# Claude Code internal state
+.claude/worktrees/
+.claude/settings.json
