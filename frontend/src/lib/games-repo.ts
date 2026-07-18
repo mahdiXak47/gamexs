@@ -142,12 +142,18 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     });
   }
 
-  // screenshot_ids stores filenames set by download_igdb_images.py.
-  // Fall back to a disk scan by slug so games show their gallery even
-  // before update_local_paths.py has been run.
+  // screenshot_ids has two shapes:
+  // - Local filenames (contain '.') → served via /api/screenshots/
+  // - IGDB image IDs (no extension)  → proxied via /api/cover-proxy
   const screenshots =
     game.screenshot_ids?.length
-      ? game.screenshot_ids.map((f) => `/api/screenshots/${encodeURIComponent(f)}`)
+      ? game.screenshot_ids.map((id) => {
+          if (id.startsWith("/") || id.includes(".")) {
+            return `/api/screenshots/${encodeURIComponent(id)}`;
+          }
+          const igdbUrl = `https://images.igdb.com/igdb/image/upload/t_720p/${id}.webp`;
+          return `/api/cover-proxy?url=${encodeURIComponent(igdbUrl)}`;
+        })
       : localScreenshotUrls(game.slug);
 
   return {
