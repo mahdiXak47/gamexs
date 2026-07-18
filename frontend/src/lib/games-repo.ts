@@ -142,12 +142,14 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     });
   }
 
-  // screenshot_ids has two shapes:
-  // - Local filenames (contain '.') → served via /api/screenshots/
+  // screenshot_ids has three shapes:
+  // - Full URL (starts with 'http') → object storage or external CDN, use as-is
+  // - Local filenames (contain '.')  → served via /api/screenshots/
   // - IGDB image IDs (no extension)  → proxied via /api/cover-proxy
   const screenshots =
     game.screenshot_ids?.length
       ? game.screenshot_ids.map((id) => {
+          if (id.startsWith("http")) return id;
           if (id.startsWith("/") || id.includes(".")) {
             return `/api/screenshots/${encodeURIComponent(id)}`;
           }

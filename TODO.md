@@ -83,10 +83,16 @@ Known data quality issues:
   - `next: { revalidate: 604800 }` — Next.js data cache stores each image for 7 days
   - `Cache-Control: public, max-age=604800, immutable` — browser caches indefinitely
 
-**Long-term (optional)**: Download covers at scrape time → push to object storage
-(e.g. S3-compatible on Hamravesh) → store object-storage URL in `games.cover_url`.
-Eliminates the proxy entirely and serves images from a CDN. Aligns with the CLAUDE.md
-note about production object-storage URLs.
+**TODO — object storage migration**: Move covers + screenshots off IGDB CDN into
+self-hosted object storage so images are served from our own infrastructure with no
+external dependency or redirect overhead. Steps:
+1. Provision an S3-compatible bucket (Hamravesh object storage or ArvanCloud).
+2. Upload `scraper/output/images/covers/` and `/screenshots/` (~1.2 GB) to the bucket.
+3. Update `download_igdb_images.py` to push new images to the bucket on each scrape run.
+4. Run a one-off migration script to set `games.cover_url` and `games.screenshot_ids`
+   to object-storage URLs for all existing rows.
+5. Remove the `/api/cover-proxy` redirect route — it becomes a dead code path.
+6. Update `toCoverUrl()` in `games-repo.ts` to pass object-storage URLs straight through.
 
 ## Explicitly deferred by product decision (not urgent)
 
