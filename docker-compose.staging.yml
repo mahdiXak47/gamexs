@@ -26,7 +26,8 @@ services:
     ports:
       - "${FRONTEND_PORT:-3000}:3000"
     environment:
-      DATABASE_URL: ${DATABASE_URL}
+      DATABASE_URL:        ${DATABASE_URL}
+      OPENROUTER_API_KEY:  ${OPENROUTER_API_KEY}
     depends_on:
       db:
         condition: service_healthy
