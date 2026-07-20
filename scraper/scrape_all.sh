@@ -98,7 +98,18 @@ run_pair technolife               || failed_sellers+=" technolife"
 # Runs after all sellers are loaded so new slugs from this run are included.
 # ---------------------------------------------------------------------------
 log "=== IGDB enrichment ==="
-python -m gamexs_scraper.enrich_metadata 2>&1 | sed 's/^/[igdb] /'
+python -m gamexs_scraper.enrich_metadata 2>&1 | sed 's/^/[igdb] /' || \
+    log "WARN  IGDB enrichment failed — new games will lack metadata but prices are unaffected"
+
+# ---------------------------------------------------------------------------
+# Upload newly downloaded IGDB covers/screenshots to object storage and
+# write the S3 URLs back into games.cover_url / games.screenshot_ids.
+# The script is idempotent — files already in the bucket are skipped.
+# Requires: S3_ENDPOINT_URL, S3_ACCESS_KEY, S3_SECRET_KEY, S3_BUCKET env vars.
+# ---------------------------------------------------------------------------
+log "=== S3 cover upload ==="
+python upload_to_s3.py --db-url "$DATABASE_URL" 2>&1 | sed 's/^/[s3] /' || \
+    log "WARN  S3 upload failed — covers will fall back to IGDB CDN"
 
 # ---------------------------------------------------------------------------
 # Post-run cleanup: mark listings not seen in 3+ days as inactive,
