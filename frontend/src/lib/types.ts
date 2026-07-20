@@ -47,6 +47,7 @@ export interface Game {
   releaseYear: number | null;
   coverInitial: string;
   coverUrl: string | null;
+  keyArtUrl: string | null;
   screenshots: string[];
   purchaseOptions: PurchaseOption[];
   details: GameDetails | null;

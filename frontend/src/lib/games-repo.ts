@@ -102,8 +102,9 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     publisher: string | null;
     release_year: number | null;
     cover_url: string | null;
+    key_art_url: string | null;
     screenshot_ids: string[] | null;
-  }>(`SELECT id, slug, title, genre_label, publisher, release_year, cover_url, screenshot_ids FROM games WHERE slug = $1`, [slug]);
+  }>(`SELECT id, slug, title, genre_label, publisher, release_year, cover_url, key_art_url, screenshot_ids FROM games WHERE slug = $1`, [slug]);
 
   const game = gameRows[0];
   if (!game) return null;
@@ -166,6 +167,7 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     releaseYear: game.release_year,
     coverInitial: deriveInitial(game.title),
     coverUrl: toCoverUrl(game.cover_url, game.slug, game.title),
+    keyArtUrl: game.key_art_url ?? null,
     screenshots,
     purchaseOptions,
     details: getGameDetails(game.slug),
