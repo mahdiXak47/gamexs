@@ -24,20 +24,39 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
   const heroBg = game.keyArtUrl ?? game.coverUrl;
   const hasArt = !!heroBg;
 
+  const persianReleaseDate = game.releaseDate
+    ? new Intl.DateTimeFormat("fa-IR", { year: "numeric", month: "long", day: "numeric" }).format(
+        new Date(game.releaseDate)
+      )
+    : null;
+
+  // Genre: prefer IGDB list, fallback to scraper genreLabel
+  const genreValue =
+    d?.genres?.length
+      ? d.genres.join("، ")
+      : game.genreLabel ?? null;
+
   const facts: { label: string; value: string }[] = [
-    { label: "ناشر",       value: game.publisher ?? "—" },
-    { label: "سال انتشار", value: game.releaseYear ? toPersianDigits(game.releaseYear) : "—" },
+    { label: "ناشر",         value: game.publisher ?? "—" },
     ...(d?.developers?.length
       ? [{ label: "سازنده",   value: d.developers.join("، ") }] : []),
-    ...(d?.genres?.length
-      ? [{ label: "ژانر",     value: d.genres.join("، ") }] : []),
+    ...(persianReleaseDate
+      ? [{ label: "تاریخ انتشار", value: persianReleaseDate }]
+      : [{ label: "سال انتشار", value: game.releaseYear ? toPersianDigits(game.releaseYear) : "—" }]),
+    ...(genreValue
+      ? [{ label: "ژانر",       value: genreValue }] : []),
     ...(d?.themes?.length
-      ? [{ label: "تم",       value: d.themes.join("، ") }] : []),
+      ? [{ label: "تم",         value: d.themes.join("، ") }] : []),
     ...((d?.gameModes?.length || d?.playerPerspectives?.length)
-      ? [{ label: "سبک بازی", value: [...(d?.gameModes ?? []), ...(d?.playerPerspectives ?? [])].join("، ") }]
+      ? [{ label: "سبک بازی",  value: [...(d?.gameModes ?? []), ...(d?.playerPerspectives ?? [])].join("، ") }]
       : []),
-    ...(d?.franchises?.length
-      ? [{ label: "فرانچایز", value: d.franchises.join("، ") }] : []),
+    ...((d?.franchises?.length || d?.series?.length)
+      ? [{ label: "فرانچایز",  value: [...(d?.franchises ?? []), ...(d?.series ?? [])].filter((v, i, a) => a.indexOf(v) === i).join("، ") }]
+      : []),
+    ...(d?.gameEngines?.length
+      ? [{ label: "موتور بازی", value: d.gameEngines.join("، ") }] : []),
+    ...(stores > 0
+      ? [{ label: "فروشندگان", value: `${toPersianDigits(stores)} فروشگاه` }] : []),
   ];
 
   return (
@@ -132,14 +151,32 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
                   )}
                 </div>
 
-                {/* Quick facts */}
-                <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-5 sm:grid-cols-3">
+                {/* Summary */}
+                {d?.summary && (
+                  <p className={`mt-4 text-sm leading-relaxed line-clamp-3 ${
+                    hasArt ? "text-white/70" : "text-gray-500"
+                  }`}>
+                    {d.summary}
+                  </p>
+                )}
+
+                {/* Divider */}
+                <div className={`mt-6 h-px ${hasArt ? "bg-white/15" : "bg-gray-200"}`} />
+
+                {/* Metadata grid */}
+                <div className="mt-5 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-3">
                   {facts.map(({ label, value }) => (
-                    <div key={label}>
-                      <p className={`text-xs ${hasArt ? "text-white/55" : "text-muted"}`}>{label}</p>
-                      <p className={`mt-0.5 text-sm font-semibold leading-snug ${
-                        hasArt ? "text-white" : ""
-                      }`}>{value}</p>
+                    <div key={label} className="min-w-0">
+                      <p className={`text-[10px] font-semibold uppercase tracking-widest mb-1 ${
+                        hasArt ? "text-white/40" : "text-gray-400"
+                      }`}>
+                        {label}
+                      </p>
+                      <p className={`text-sm font-semibold leading-snug break-words ${
+                        hasArt ? "text-white" : "text-gray-800"
+                      }`}>
+                        {value}
+                      </p>
                     </div>
                   ))}
                 </div>
