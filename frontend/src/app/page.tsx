@@ -6,7 +6,14 @@ import Header from "@/components/Header";
 import HeroBanner from "@/components/HeroBanner";
 import TopGames from "@/components/TopGames";
 import UpcomingGames from "@/components/UpcomingGames";
-import { getLastScrapedAt, listGames, listUpcomingGames } from "@/lib/games-repo";
+import { getLastScrapedAt, getFeaturedUpcomingGames, listGames } from "@/lib/games-repo";
+
+const HOMEPAGE_UPCOMING_SLUGS = [
+  "call-of-duty-modern-warfare-4",
+  "grand-theft-auto-vi",
+  "control-resonant",
+  "marvel's-wolverine",
+];
 
 export const dynamic = "force-dynamic";
 
@@ -14,7 +21,7 @@ export default async function Home() {
   const [games, lastScrapedAt, upcomingGames] = await Promise.all([
     listGames(),
     getLastScrapedAt(),
-    listUpcomingGames(4),
+    getFeaturedUpcomingGames(HOMEPAGE_UPCOMING_SLUGS),
   ]);
 
   // Sort by popularity (storeCount) for featured/trending sections
