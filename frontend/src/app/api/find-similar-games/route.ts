@@ -3,9 +3,29 @@ import { query } from "@/lib/db";
 
 export const dynamic = "force-dynamic";
 
+// ── Config ────────────────────────────────────────────────────────────────────
+//
+// Free OpenRouter models are capped at 20 req/min and 50 req/day *per
+// OpenRouter account*, not per user (rising to 1000/day only after a one-time
+// $10 credit purchase, which we're deliberately not doing). That budget is
+// nowhere near enough to serve this feature live on every click for a real
+// site, so the design here is: cache the AI's *game picks* in Postgres and
+// only ever call the AI on a genuine cache miss. Live price/stock/cover data
+// is still fetched fresh every request from `games`/`price_history` — only
+// the (expensive, rate-limited, slow) "which 5 games are similar" judgment
+// gets cached.
+//
+// PROMPT_VERSION is part of the cache key: bump it whenever MODEL or
+// buildPrompt() changes so old cached picks stop being served automatically,
+// without needing a manual cache-clear migration.
+const MODEL = "openrouter/free";
+const PROMPT_VERSION = 2;
+const CACHE_TTL_DAYS = 90;
+const MAX_CANDIDATES = 1200; // bounds prompt size/token cost regardless of catalog growth
+
 // ── Types ─────────────────────────────────────────────────────────────────────
 
-interface AiGame { name: string; description: string }
+interface AiPick { title: string; similarity: number; reason: string }
 
 interface CatalogRow {
   slug: string;
@@ -16,78 +36,71 @@ interface CatalogRow {
   store_count: string;
 }
 
+interface SeedGame { id: number; title: string; genre_label: string | null }
+
 // ── Prompt ────────────────────────────────────────────────────────────────────
 
-function buildPrompt(gameTitle: string): string {
-  return `Here is a PS5 game that I like very much: "${gameTitle}"
-This game is so fantastic based on my personal preferences and experiences and I want to experience similar games according to this game. I need top 5 PS5 games that have been released and are very similar to this game based on user experience and type of game. Give me a list of 5 PS5 games that have these features.
+function buildPrompt(gameTitle: string, candidateTitles: string[]): string {
+  return `You are an expert game-recommendation engine for GameXS, a PS5 price-comparison catalog.
 
-Give me the output in exactly this format with no introduction or conclusion:
+INPUT GAME: "${gameTitle}"
 
-1. [Game Name]
-description: [a simple 2 line description of that game in Persian language]
+CANDIDATE GAMES — this is the complete GameXS PS5 catalog. You may ONLY
+recommend titles from this list, copied character-for-character:
+${candidateTitles.join("\n")}
 
-2. [Game Name]
-description: [a simple 2 line description of that game in Persian language]
+Judge similarity primarily on gameplay feel: core gameplay loop, combat
+style, exploration and level design, pacing, difficulty, and tone — weigh
+these far more heavily than a shared genre label or franchise name alone.
 
-3. [Game Name]
-description: [a simple 2 line description of that game in Persian language]
+From the CANDIDATE GAMES list only, select the 5 titles that would give a
+player the closest overall experience to "${gameTitle}".
 
-4. [Game Name]
-description: [a simple 2 line description of that game in Persian language]
+Rules:
+- Only select titles that appear verbatim in the candidate list above.
+- Never include "${gameTitle}" itself.
+- Never repeat a title.
+- Rank from most to least similar.
 
-5. [Game Name]
-description: [a simple 2 line description of that game in Persian language]`;
+Output ONLY valid JSON — no markdown fences, no commentary before or after —
+in exactly this shape, with exactly 5 objects:
+[
+  {"title": "<exact candidate title>", "similarity": <integer 0-100>, "reason": "<one Persian sentence, max 25 words>"}
+]`;
 }
 
-// ── Parsers ───────────────────────────────────────────────────────────────────
+// ── Parsing ───────────────────────────────────────────────────────────────────
+//
+// Non-streaming on purpose: the response is a short JSON array (5 objects),
+// so there's nothing meaningful to gain from token-by-token streaming, and a
+// partial JSON literal isn't parseable anyway. This also removes the fragile
+// incremental markdown parser the old free-text version needed.
 
-function parseGameEntry(text: string): AiGame | null {
-  const nameMatch = text.match(/^\*{0,2}\d+\.\s*\*{0,2}(.+?)\*{0,2}\s*$/m);
-  const descMatch = text.match(/descri[bp]ti?on[:\s]+([\s\S]+)/i);
-  if (!nameMatch) return null;
-  const name = nameMatch[1].trim().replace(/\*/g, "");
-  const description = descMatch
-    ? descMatch[1].trim().replace(/\n+/g, " ").replace(/\*/g, "")
-    : "";
-  return name ? { name, description } : null;
-}
-
-// Try to extract newly complete game entries from accumulated text.
-// Returns { games, remaining } where remaining is unprocessed tail.
-function extractCompleteGames(
-  accumulated: string,
-  alreadyExtracted: number
-): { games: AiGame[]; remaining: string } {
-  const games: AiGame[] = [];
-  let text = accumulated;
-
-  for (let n = alreadyExtracted + 1; n <= 5; n++) {
-    const nextN = n + 1;
-    // Current entry must start here (after trimming)
-    if (!/^\s*\*{0,2}\d+\./.test(text)) break;
-
-    if (n < 5) {
-      // Complete when the NEXT game number appears
-      const nextPattern = new RegExp(`\n\\s*\\*{0,2}${nextN}\\.`);
-      const nextMatch = nextPattern.exec(text);
-      if (!nextMatch) break; // still streaming this entry
-
-      const game = parseGameEntry(text.slice(0, nextMatch.index).trim());
-      if (!game) break;
-      games.push(game);
-      text = text.slice(nextMatch.index).trim();
-    } else {
-      // Last game — complete only at end of stream (caller passes full text)
-      const game = parseGameEntry(text.trim());
-      if (game) { games.push(game); text = ""; }
-    }
+function parseAiResponse(raw: string): AiPick[] {
+  const start = raw.indexOf("[");
+  const end = raw.lastIndexOf("]");
+  if (start === -1 || end === -1 || end < start) {
+    throw new Error("AI response did not contain a JSON array");
   }
+  const parsed = JSON.parse(raw.slice(start, end + 1));
+  if (!Array.isArray(parsed)) throw new Error("AI response JSON was not an array");
 
-  return { games, remaining: text };
+  return parsed
+    .filter(
+      (item): item is AiPick =>
+        item && typeof item.title === "string" && item.title.trim().length > 0
+    )
+    .map((item) => ({
+      title: item.title.trim(),
+      similarity: Number.isFinite(item.similarity) ? Math.max(0, Math.min(100, Math.round(item.similarity))) : 0,
+      reason: typeof item.reason === "string" ? item.reason.trim() : "",
+    }))
+    .slice(0, 5);
 }
 
-// ── Fuzzy matching ────────────────────────────────────────────────────────────
+// ── Fuzzy matching (safety net — candidates are catalog titles, so this
+//    should almost always be an exact hit; guards against the model slightly
+//    altering punctuation/casing) ────────────────────────────────────────────
 
 function normalize(s: string): string {
   return s.toLowerCase().replace(/[^a-z0-9\s]/g, " ").replace(/\s+/g, " ").trim();
@@ -104,23 +117,24 @@ function matchScore(aiTitle: string, dbTitle: string): number {
   return wa.filter((w) => wb.has(w)).length / Math.max(wa.length, wb.size);
 }
 
-function findBestMatch(aiName: string, catalog: CatalogRow[]): CatalogRow | null {
+function findBestMatch(aiTitle: string, catalog: CatalogRow[]): CatalogRow | null {
   let best: CatalogRow | null = null;
   let bestScore = 0;
   for (const row of catalog) {
-    const s = matchScore(aiName, row.title);
+    const s = matchScore(aiTitle, row.title);
     if (s > bestScore) { bestScore = s; best = row; }
   }
   return bestScore >= 0.4 ? best : null;
 }
 
-function enrichResult(game: AiGame, catalog: CatalogRow[]) {
-  const row = findBestMatch(game.name, catalog);
+function enrichPick(pick: AiPick, catalog: CatalogRow[]) {
+  const row = findBestMatch(pick.title, catalog);
   return {
-    aiName: game.name,
-    aiDescription: game.description,
+    aiName: pick.title,
+    aiDescription: pick.reason,
+    similarity: pick.similarity,
     slug: row?.slug ?? null,
-    title: row?.title ?? game.name,
+    title: row?.title ?? pick.title,
     genreLabel: row?.genre_label ?? null,
     coverUrl: row?.cover_url ?? null,
     lowestPriceToman: row?.lowest_price != null ? Number(row.lowest_price) : null,
@@ -129,11 +143,66 @@ function enrichResult(game: AiGame, catalog: CatalogRow[]) {
   };
 }
 
+// ── Cache ─────────────────────────────────────────────────────────────────────
+
+async function getCachedPicks(gameId: number): Promise<AiPick[] | null> {
+  const { rows } = await query<{ recommendations: AiPick[]; created_at: Date }>(
+    `SELECT recommendations, created_at FROM ai_recommendation_cache
+     WHERE game_id = $1 AND prompt_version = $2`,
+    [gameId, PROMPT_VERSION]
+  );
+  const row = rows[0];
+  if (!row) return null;
+  const ageDays = (Date.now() - row.created_at.getTime()) / 86_400_000;
+  if (ageDays > CACHE_TTL_DAYS) return null;
+  return row.recommendations;
+}
+
+async function setCachedPicks(gameId: number, picks: AiPick[]): Promise<void> {
+  await query(
+    `INSERT INTO ai_recommendation_cache (game_id, prompt_version, recommendations, model)
+     VALUES ($1, $2, $3, $4)
+     ON CONFLICT (game_id, prompt_version)
+     DO UPDATE SET recommendations = EXCLUDED.recommendations, model = EXCLUDED.model, created_at = now()`,
+    [gameId, PROMPT_VERSION, JSON.stringify(picks), MODEL]
+  );
+}
+
+// ── Non-AI fallback ───────────────────────────────────────────────────────────
+//
+// If the AI call fails (rate-limited, provider down, malformed response) and
+// there's no cache to fall back on, the feature degrades to a cheap DB-only
+// "same genre, most popular" query instead of showing an error. This is what
+// actually guarantees the feature stays "up" regardless of AI availability —
+// no prompt can guarantee that, but a fallback path can.
+async function fallbackPicks(seed: SeedGame): Promise<CatalogRow[]> {
+  if (!seed.genre_label) return [];
+  const { rows } = await query<CatalogRow>(
+    `WITH latest AS (
+       SELECT DISTINCT ON (listing_id) listing_id, price_toman
+       FROM price_history ORDER BY listing_id, scraped_at DESC
+     )
+     SELECT g.slug, g.title, g.cover_url, g.genre_label,
+            MIN(latest.price_toman) AS lowest_price,
+            COUNT(DISTINCT l.seller_id)::text AS store_count
+     FROM games g
+     LEFT JOIN listings l ON l.game_id = g.id AND l.is_active
+     LEFT JOIN latest ON latest.listing_id = l.id
+     WHERE g.platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')
+       AND g.genre_label = $1 AND g.id <> $2
+     GROUP BY g.id
+     ORDER BY store_count DESC
+     LIMIT 5`,
+    [seed.genre_label, seed.id]
+  );
+  return rows;
+}
+
 // ── Route handler ─────────────────────────────────────────────────────────────
 
 export async function GET(request: NextRequest) {
   const searchParam = request.nextUrl.searchParams.get("search");
-  const gameParam   = request.nextUrl.searchParams.get("game");
+  const gameParam = request.nextUrl.searchParams.get("game");
 
   // ── Autocomplete ───────────────────────────────────────────────────────────
   if (searchParam !== null) {
@@ -156,22 +225,19 @@ export async function GET(request: NextRequest) {
     })));
   }
 
-  // ── AI recommendations (SSE streaming) ────────────────────────────────────
+  // ── AI recommendations (SSE) ─────────────────────────────────────────────
   if (gameParam !== null) {
     const slug = gameParam.trim();
     if (!slug) return NextResponse.json([]);
 
-    const apiKey = process.env.OPENROUTER_API_KEY;
-    if (!apiKey) return NextResponse.json({ error: "OPENROUTER_API_KEY not set" }, { status: 500 });
-
-    // Fetch seed title
-    const { rows: seedRows } = await query<{ title: string }>(
-      `SELECT title FROM games WHERE slug = $1`, [slug]
+    const { rows: seedRows } = await query<SeedGame>(
+      `SELECT id, title, genre_label FROM games WHERE slug = $1`, [slug]
     );
-    const gameTitle = seedRows[0]?.title;
-    if (!gameTitle) return NextResponse.json([]);
+    const seed = seedRows[0];
+    if (!seed) return NextResponse.json([]);
 
-    // Pre-fetch full enriched catalog (18ms — done once, matched in-memory per game)
+    // Full catalog snapshot — used both as candidate list for the prompt and
+    // to enrich AI picks (or the cached ones) with live price/cover/stock.
     const { rows: catalog } = await query<CatalogRow>(
       `WITH latest AS (
          SELECT DISTINCT ON (listing_id) listing_id, price_toman
@@ -184,12 +250,12 @@ export async function GET(request: NextRequest) {
        LEFT JOIN listings l ON l.game_id = g.id AND l.is_active
        LEFT JOIN latest ON latest.listing_id = l.id
        WHERE g.platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')
-       GROUP BY g.id`
+       GROUP BY g.id
+       ORDER BY store_count DESC`
     );
 
-    // Build SSE ReadableStream
     const encoder = new TextEncoder();
-    let openRouterAbort: AbortController | null = null;
+    const wait = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
     const stream = new ReadableStream({
       async start(controller) {
@@ -199,86 +265,40 @@ export async function GET(request: NextRequest) {
         };
 
         try {
-          openRouterAbort = new AbortController();
-          const timeoutId = setTimeout(() => openRouterAbort?.abort(), 45_000);
+          let picks = await getCachedPicks(seed.id);
 
-          let orRes: Response;
-          try {
-            orRes = await fetch("https://openrouter.ai/api/v1/chat/completions", {
-              method: "POST",
-              headers: {
-                Authorization: `Bearer ${apiKey}`,
-                "Content-Type": "application/json",
-                "HTTP-Referer": "https://gamexs.ir",
-                "X-Title": "GameXS",
-              },
-              body: JSON.stringify({
-                model: "openrouter/free",
-                messages: [{ role: "user", content: buildPrompt(gameTitle) }],
-                stream: true,
-              }),
-              cache: "no-store",
-              signal: openRouterAbort.signal,
-            });
-          } finally {
-            clearTimeout(timeoutId);
-          }
-
-          if (!orRes.ok) {
-            const err = await orRes.text();
-            throw new Error(`OpenRouter ${orRes.status}: ${err}`);
-          }
-
-          // Consume OpenRouter SSE stream
-          const reader = orRes.body!.getReader();
-          const dec = new TextDecoder();
-          let lineBuf = "";
-          let accumulated = "";
-          let extracted = 0;
-
-          outer: while (true) {
-            const { done, value } = await reader.read();
-            if (done) break;
-
-            lineBuf += dec.decode(value, { stream: true });
-            const lines = lineBuf.split("\n");
-            lineBuf = lines.pop() ?? "";
-
-            for (const line of lines) {
-              const trimmed = line.trim();
-              if (!trimmed.startsWith("data:")) continue;
-              const chunk = trimmed.slice(5).trim();
-              if (chunk === "[DONE]") break outer;
-
-              try {
-                const parsed = JSON.parse(chunk);
-                const delta: string = parsed.choices?.[0]?.delta?.content ?? "";
-                if (!delta) continue;
-
-                accumulated += delta;
-
-                // Try to emit newly complete games (all except the last)
-                const { games, remaining } = extractCompleteGames(accumulated, extracted);
-                for (const game of games) {
-                  const result = enrichResult(game, catalog);
-                  if (result.matched) send(result);
-                  extracted++;
-                }
-                accumulated = remaining;
-              } catch { continue; }
+          if (!picks) {
+            try {
+              picks = await fetchAiPicks(seed.title, catalog);
+              await setCachedPicks(seed.id, picks);
+            } catch (err) {
+              console.error("AI recommendation failed, using fallback:", err instanceof Error ? err.message : err);
+              const fb = await fallbackPicks(seed);
+              for (const row of fb) {
+                send({
+                  aiName: row.title,
+                  aiDescription: "",
+                  similarity: null,
+                  slug: row.slug,
+                  title: row.title,
+                  genreLabel: row.genre_label,
+                  coverUrl: row.cover_url,
+                  lowestPriceToman: row.lowest_price != null ? Number(row.lowest_price) : null,
+                  storeCount: Number(row.store_count),
+                  matched: true,
+                });
+                await wait(150);
+              }
+              send("[DONE]");
+              return;
             }
           }
 
-          // Process the final game from whatever text remains
-          if (extracted < 5 && accumulated.trim()) {
-            const { games } = extractCompleteGames(accumulated + "\n6. x", extracted);
-            for (const game of games) {
-              const result = enrichResult(game, catalog);
-              if (result.matched) send(result);
-              extracted++;
-            }
+          for (const pick of picks) {
+            const result = enrichPick(pick, catalog);
+            if (result.matched) send(result);
+            await wait(150); // small stagger — keeps the "cards arrive one by one" UX even on a cache hit
           }
-
           send("[DONE]");
         } catch (err) {
           console.error("Recommendation stream error:", err instanceof Error ? err.message : err);
@@ -286,9 +306,6 @@ export async function GET(request: NextRequest) {
         } finally {
           controller.close();
         }
-      },
-      cancel() {
-        openRouterAbort?.abort();
       },
     });
 
@@ -303,4 +320,52 @@ export async function GET(request: NextRequest) {
   }
 
   return NextResponse.json({ error: "Missing search or game param" }, { status: 400 });
+}
+
+// ── AI call ───────────────────────────────────────────────────────────────────
+
+async function fetchAiPicks(gameTitle: string, catalog: CatalogRow[]): Promise<AiPick[]> {
+  const apiKey = process.env.OPENROUTER_API_KEY;
+  if (!apiKey) throw new Error("OPENROUTER_API_KEY not set");
+
+  const candidateTitles = catalog
+    .map((c) => c.title)
+    .filter((t) => t !== gameTitle)
+    .slice(0, MAX_CANDIDATES);
+
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), 45_000);
+
+  let res: Response;
+  try {
+    res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+        "HTTP-Referer": "https://gamexs.ir",
+        "X-Title": "GameXS",
+      },
+      body: JSON.stringify({
+        model: MODEL,
+        messages: [{ role: "user", content: buildPrompt(gameTitle, candidateTitles) }],
+        stream: false,
+      }),
+      cache: "no-store",
+      signal: controller.signal,
+    });
+  } finally {
+    clearTimeout(timeoutId);
+  }
+
+  if (!res.ok) {
+    const err = await res.text();
+    throw new Error(`OpenRouter ${res.status}: ${err}`);
+  }
+
+  const data = await res.json();
+  const content: string = data.choices?.[0]?.message?.content ?? "";
+  if (!content) throw new Error("Empty AI response");
+
+  return parseAiResponse(content);
 }
