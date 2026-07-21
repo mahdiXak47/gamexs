@@ -24,7 +24,7 @@ import os
 import re
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from difflib import SequenceMatcher
 
 import psycopg
@@ -169,9 +169,9 @@ def _genre(result: dict) -> str | None:
     return genres[0]["name"] if genres else None
 
 
-def _year(result: dict) -> int | None:
+def _release_date(result: dict) -> date | None:
     ts = result.get("first_release_date")
-    return datetime.fromtimestamp(ts, tz=timezone.utc).year if ts else None
+    return datetime.fromtimestamp(ts, tz=timezone.utc).date() if ts else None
 
 
 # ---------------------------------------------------------------------------
@@ -202,9 +202,10 @@ def _write_game(
     igdb_id: int,
     genre: str | None,
     publisher: str | None,
-    year: int | None,
+    release_dt: date | None,
     cover: str | None,
 ) -> None:
+    year = release_dt.year if release_dt else None
     while True:
         try:
             with _db_connect(database_url) as conn:
@@ -216,10 +217,11 @@ def _write_game(
                             genre_label  = COALESCE(%s, genre_label),
                             publisher    = COALESCE(%s, publisher),
                             release_year = COALESCE(%s::smallint, release_year),
+                            release_date = COALESCE(%s, release_date),
                             cover_url    = COALESCE(%s, cover_url)
                         WHERE id = %s
                         """,
-                        (igdb_id, genre, publisher, year, cover, game_id),
+                        (igdb_id, genre, publisher, year, release_dt, cover, game_id),
                     )
                 conn.commit()
             return
@@ -308,18 +310,18 @@ def main() -> None:
         cover = _cover_url(best)
         genre = _genre(best)
         publisher = _publisher(best)
-        year = _year(best)
+        release_dt = _release_date(best)
 
         if args.dry_run:
             print(
                 f"\n  → igdb:{igdb_id} {best['name']!r}  "
-                f"genre={genre} pub={publisher} year={year} cover={'yes' if cover else 'no'}",
+                f"genre={genre} pub={publisher} date={release_dt} cover={'yes' if cover else 'no'}",
                 file=sys.stderr,
             )
             matched += 1
             continue
 
-        _write_game(database_url, game_id, igdb_id, genre, publisher, year, cover)
+        _write_game(database_url, game_id, igdb_id, genre, publisher, release_dt, cover)
         matched += 1
 
     print(file=sys.stderr)
