@@ -25,9 +25,7 @@ interface Recommendation {
 
 function resolveCoverUrl(url: string | null): string | null {
   if (!url) return null;
-  if (url.startsWith("https://images.igdb.com")) {
-    return `/api/cover-proxy?url=${encodeURIComponent(url)}`;
-  }
+  if (!url.includes("gs3.gamexs.ir")) return null; // non-S3 URLs not served
   return url;
 }
 

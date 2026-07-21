@@ -144,7 +144,7 @@ function MonthGroup({ label, games }: { label: string; games: UpcomingGame[] }) 
 
 const FEATURED_SLUGS = [
   "grand-theft-auto-vi",
-  "marvel's-wolverine",
+  "marvel’s-wolverine",
   "halo-campaign-evolved",
   "control-resonant",
   "call-of-duty-modern-warfare-4",

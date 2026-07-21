@@ -12,7 +12,7 @@ const HOMEPAGE_UPCOMING_SLUGS = [
   "call-of-duty-modern-warfare-4",
   "grand-theft-auto-vi",
   "control-resonant",
-  "marvel's-wolverine",
+  "marvel’s-wolverine",
 ];
 
 export const dynamic = "force-dynamic";

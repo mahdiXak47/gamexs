@@ -4,17 +4,12 @@ import { getGameDetails } from "./game-details";
 import { emptyPurchaseOptions, findOption } from "./purchase-options";
 import type { AccessTier, Game, GameSummary, ProductType, UpcomingGame } from "./types";
 
-// Resolve cover URL — priority order:
+// Resolve cover URL — S3 only.
 // 1. DB stores an S3 URL (gs3.gamexs.ir) → use directly.
-// 2. DB stores an IGDB CDN URL → redirect the browser via cover-proxy (avoids
-//    the server needing outbound HTTPS to images.igdb.com).
-// 3. Anything else (seller CDN, old /api/ path, null) → construct the S3 URL
-//    from the slug. May 404 if the image hasn't been uploaded yet.
+// 2. Anything else (IGDB CDN, seller CDN, old /api/ path, null) → construct
+//    the S3 URL from the slug. Returns null if not yet uploaded to S3.
 function toCoverUrl(dbUrl: string | null, slug: string): string | null {
   if (dbUrl?.includes("gs3.gamexs.ir")) return dbUrl;
-  if (dbUrl?.includes("images.igdb.com")) {
-    return `/api/cover-proxy?url=${encodeURIComponent(dbUrl)}`;
-  }
   return s3CoverUrl(slug);
 }
 
@@ -137,18 +132,16 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
 
   // screenshot_ids has three shapes:
   // - Full URL (starts with 'http') → S3 or external CDN, use as-is
-  // - Filename with extension        → stored as bare filename in older rows;
-  //   construct the S3 URL directly (same bucket, screenshots/ prefix)
-  // - IGDB image_id (no extension)   → redirect browser to IGDB CDN via cover-proxy
-  const screenshots =
-    game.screenshot_ids?.length
-      ? game.screenshot_ids.map((id) => {
-          if (id.startsWith("http")) return id;
-          if (id.includes(".")) return s3ScreenshotUrl(id);
-          const igdbUrl = `https://images.igdb.com/igdb/image/upload/t_720p/${id}.webp`;
-          return `/api/cover-proxy?url=${encodeURIComponent(igdbUrl)}`;
-        })
-      : [];
+  // Screenshots — S3 only. Three shapes in the DB:
+  // - Full S3 URL (starts with "http") → use directly.
+  // - Bare filename with extension     → construct S3 URL.
+  // - IGDB image_id (no extension)     → skip; not on S3 yet.
+  const screenshots = (game.screenshot_ids ?? [])
+    .flatMap((id) => {
+      if (id.startsWith("http")) return [id];
+      if (id.includes(".")) return [s3ScreenshotUrl(id)];
+      return []; // IGDB-only ID — no S3 copy, omit
+    });
 
   return {
     slug: game.slug,
