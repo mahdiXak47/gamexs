@@ -45,12 +45,23 @@ export interface Game {
   genreLabel: string | null;
   publisher: string | null;
   releaseYear: number | null;
+  releaseDate: string | null; // ISO date string "YYYY-MM-DD"
   coverInitial: string;
   coverUrl: string | null;
   keyArtUrl: string | null;
   screenshots: string[];
   purchaseOptions: PurchaseOption[];
   details: GameDetails | null;
+}
+
+export interface UpcomingGame {
+  slug: string;
+  title: string;
+  coverUrl: string | null;
+  keyArtUrl: string | null;
+  releaseDate: string; // ISO date string "YYYY-MM-DD", always present
+  lowestPriceToman: number | null;
+  sellerCount: number;
 }
 
 // Lighter shape for the grid — stats are precomputed in SQL rather than

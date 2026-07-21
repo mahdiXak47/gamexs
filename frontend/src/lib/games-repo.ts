@@ -2,7 +2,7 @@ import { query } from "./db";
 import { s3CoverUrl, s3ScreenshotUrl } from "./covers";
 import { getGameDetails } from "./game-details";
 import { emptyPurchaseOptions, findOption } from "./purchase-options";
-import type { AccessTier, Game, GameSummary, ProductType } from "./types";
+import type { AccessTier, Game, GameSummary, ProductType, UpcomingGame } from "./types";
 
 // Resolve cover URL — priority order:
 // 1. DB stores an S3 URL (gs3.gamexs.ir) → use directly.
@@ -92,10 +92,11 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     genre_label: string | null;
     publisher: string | null;
     release_year: number | null;
+    release_date: Date | null;
     cover_url: string | null;
     key_art_url: string | null;
     screenshot_ids: string[] | null;
-  }>(`SELECT id, slug, title, genre_label, publisher, release_year, cover_url, key_art_url, screenshot_ids FROM games WHERE slug = $1`, [slug]);
+  }>(`SELECT id, slug, title, genre_label, publisher, release_year, release_date, cover_url, key_art_url, screenshot_ids FROM games WHERE slug = $1`, [slug]);
 
   const game = gameRows[0];
   if (!game) return null;
@@ -158,10 +159,88 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     coverInitial: deriveInitial(game.title),
     coverUrl: toCoverUrl(game.cover_url, game.slug),
     keyArtUrl: game.key_art_url ?? null,
+    releaseDate: game.release_date ? game.release_date.toISOString().slice(0, 10) : null,
     screenshots,
     purchaseOptions,
     details: getGameDetails(game.slug),
   };
+}
+
+const UPCOMING_QUERY = `
+  WITH latest AS (
+    SELECT DISTINCT ON (listing_id) listing_id, price_toman, in_stock
+    FROM price_history
+    ORDER BY listing_id, scraped_at DESC
+  )
+  SELECT
+    g.slug,
+    g.title,
+    g.cover_url,
+    g.key_art_url,
+    g.release_date,
+    MIN(latest.price_toman) AS lowest_price,
+    COUNT(DISTINCT l.seller_id) AS seller_count
+  FROM games g
+  JOIN listings l ON l.game_id = g.id AND l.is_active
+  JOIN latest ON latest.listing_id = l.id
+  WHERE g.release_date > CURRENT_DATE
+    AND g.platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')
+  GROUP BY g.id
+  ORDER BY g.release_date ASC
+`;
+
+function rowToUpcoming(row: { slug: string; title: string; cover_url: string | null; key_art_url: string | null; release_date: Date; lowest_price: string | null; seller_count: string }): UpcomingGame {
+  return {
+    slug: row.slug,
+    title: row.title,
+    coverUrl: toCoverUrl(row.cover_url, row.slug),
+    keyArtUrl: row.key_art_url ?? null,
+    releaseDate: row.release_date.toISOString().slice(0, 10),
+    lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
+    sellerCount: Number(row.seller_count),
+  };
+}
+
+export async function listUpcomingGames(limit = 8): Promise<UpcomingGame[]> {
+  const { rows } = await query<Parameters<typeof rowToUpcoming>[0]>(
+    UPCOMING_QUERY + `LIMIT $1`,
+    [limit]
+  );
+  return rows.map(rowToUpcoming);
+}
+
+export async function listAllUpcomingGames(): Promise<UpcomingGame[]> {
+  const { rows } = await query<Parameters<typeof rowToUpcoming>[0]>(UPCOMING_QUERY);
+  return rows.map(rowToUpcoming);
+}
+
+export async function getFeaturedUpcomingGames(slugs: string[]): Promise<UpcomingGame[]> {
+  if (!slugs.length) return [];
+  const { rows } = await query<Parameters<typeof rowToUpcoming>[0] & { slug_order: number }>(
+    `
+    WITH latest AS (
+      SELECT DISTINCT ON (listing_id) listing_id, price_toman, in_stock
+      FROM price_history ORDER BY listing_id, scraped_at DESC
+    ),
+    wanted AS (
+      SELECT unnest($1::text[]) AS slug, generate_subscripts($1::text[], 1) AS ord
+    )
+    SELECT
+      g.slug, g.title, g.cover_url, g.key_art_url, g.release_date,
+      MIN(latest.price_toman) AS lowest_price,
+      COUNT(DISTINCT l.seller_id) AS seller_count,
+      w.ord AS slug_order
+    FROM games g
+    JOIN wanted w ON w.slug = g.slug
+    LEFT JOIN listings l ON l.game_id = g.id AND l.is_active
+    LEFT JOIN latest ON latest.listing_id = l.id
+    WHERE g.release_date IS NOT NULL
+    GROUP BY g.id, w.ord
+    ORDER BY w.ord
+    `,
+    [slugs]
+  );
+  return rows.map(rowToUpcoming);
 }
 
 export async function getLastScrapedAt(): Promise<Date | null> {

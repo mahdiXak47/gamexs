@@ -27,6 +27,7 @@ CREATE TABLE games (
     genre_label TEXT,
     publisher TEXT,
     release_year SMALLINT,
+    release_date DATE,
     cover_url TEXT,
     igdb_id INTEGER,
     screenshot_ids TEXT[],

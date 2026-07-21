@@ -5,12 +5,17 @@ import GameRecommendations from "@/components/GameRecommendations";
 import Header from "@/components/Header";
 import HeroBanner from "@/components/HeroBanner";
 import TopGames from "@/components/TopGames";
-import { getLastScrapedAt, listGames } from "@/lib/games-repo";
+import UpcomingGames from "@/components/UpcomingGames";
+import { getLastScrapedAt, listGames, listUpcomingGames } from "@/lib/games-repo";
 
 export const dynamic = "force-dynamic";
 
 export default async function Home() {
-  const [games, lastScrapedAt] = await Promise.all([listGames(), getLastScrapedAt()]);
+  const [games, lastScrapedAt, upcomingGames] = await Promise.all([
+    listGames(),
+    getLastScrapedAt(),
+    listUpcomingGames(4),
+  ]);
 
   // Sort by popularity (storeCount) for featured/trending sections
   const byPopularity = [...games].sort((a, b) => b.storeCount - a.storeCount);
@@ -34,6 +39,9 @@ export default async function Home() {
 
       {/* Top 10 Trending */}
       <TopGames games={topGames} />
+
+      {/* Upcoming / Pre-order */}
+      <UpcomingGames games={upcomingGames} />
 
       {/* Divider */}
       <div className="mx-auto max-w-7xl px-4 sm:px-6">

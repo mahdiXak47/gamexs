@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Chip } from "@heroui/react";
 import CoverArt from "@/components/CoverArt";
 import Disclaimer from "@/components/Disclaimer";
+import GamePreorderBanner from "@/components/GamePreorderBanner";
 import Header from "@/components/Header";
 import PurchaseTypeSelector from "@/components/PurchaseTypeSelector";
 import ScreenshotGallery from "@/components/ScreenshotGallery";
@@ -20,7 +21,8 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
   const price  = lowestPrice(game);
   const stores = storeCount(game);
   const d      = game.details;
-  const hasArt = !!game.keyArtUrl;
+  const heroBg = game.keyArtUrl ?? game.coverUrl;
+  const hasArt = !!heroBg;
 
   const facts: { label: string; value: string }[] = [
     { label: "ناشر",       value: game.publisher ?? "—" },
@@ -46,14 +48,14 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
         {/* ── Hero section — key art background when available ── */}
         <div className="relative overflow-hidden">
 
-          {/* Background image */}
+          {/* Background image — key art preferred, cover as fallback */}
           {hasArt && (
             /* eslint-disable-next-line @next/next/no-img-element */
             <img
-              src={game.keyArtUrl!}
+              src={heroBg!}
               alt=""
               aria-hidden="true"
-              className="absolute inset-0 h-full w-full object-cover object-center"
+              className="absolute inset-0 h-full w-full object-cover object-center scale-105 blur-[2px]"
             />
           )}
 
@@ -154,6 +156,15 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
             </div>
           </div>
         </div>
+
+        {/* Pre-order countdown — only renders when release date is in the future */}
+        {game.releaseDate && (
+          <GamePreorderBanner
+            releaseDate={game.releaseDate}
+            keyArtUrl={game.keyArtUrl}
+            title={game.title}
+          />
+        )}
 
         {/* Screenshot gallery */}
         <ScreenshotGallery screenshots={game.screenshots} />
