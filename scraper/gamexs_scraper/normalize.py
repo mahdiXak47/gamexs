@@ -15,6 +15,17 @@ _NOISE_PATTERNS = [
     r"اکانت\s+ظرفیتی",
     r"اکانت\s+بازی",
     r"ظرفیتی",
+    # "کارکرده" = "used/second-hand" — condition prefix, never part of game identity
+    # e.g. "کارکرده Alan Wake 2 نسخه Deluxe Edition" → "Alan Wake 2 Deluxe Edition"
+    r"کارکرده",
+    # "نسخه" = "version/edition" — redundant when English "Edition" is also present
+    # e.g. "Alan Wake 2 نسخه Deluxe Edition" → "Alan Wake 2 Deluxe Edition"
+    r"نسخه",
+    # "دلوکس" = Persian transliteration of "Deluxe" — redundant with English "Deluxe"
+    # e.g. "Alan Wake II نسخه دلوکس" → "Alan Wake II" (same slug as "Alan Wake 2 Deluxe" after Deluxe normalization)
+    r"دلوکس",
+    # "قیمت" = "price" — standalone variant; compound "و قیمت" is matched above
+    r"قیمت",
     # "ویدیویی" = "video [game]" — Digikala product-type prefix
     r"ویدیویی",
     r"digital\s+code",

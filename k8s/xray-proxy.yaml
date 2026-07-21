@@ -1,0 +1,160 @@
+# Apply the secret once manually before deploying:
+#
+#   kubectl create secret generic xray-proxy-secret \
+#     --from-literal=SUBSCRIPTION_URL="https://panel.zynalo.ir/sub/..." \
+#     -n mahdixak-gamexs
+#
+# ─────────────────────────────────────────────────────────────────────────────
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: xray-proxy
+  namespace: mahdixak-gamexs
+  labels:
+    app: xray-proxy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: xray-proxy
+  template:
+    metadata:
+      labels:
+        app: xray-proxy
+    spec:
+      restartPolicy: Always
+
+      containers:
+        - name: xray
+          image: registry.hamdocker.ir/mahdixak/xray-proxy:latest
+          imagePullPolicy: Always
+
+          ports:
+            - containerPort: 10809
+              name: http-proxy
+
+          env:
+            - name: SUBSCRIPTION_URL
+              valueFrom:
+                secretKeyRef:
+                  name: xray-proxy-secret
+                  key: SUBSCRIPTION_URL
+
+          # Liveness: restart the pod if Xray stops accepting connections.
+          livenessProbe:
+            tcpSocket:
+              port: 10809
+            initialDelaySeconds: 90
+            periodSeconds: 30
+            failureThreshold: 3
+
+          # Readiness: hold traffic until initial speed test + Xray start.
+          readinessProbe:
+            tcpSocket:
+              port: 10809
+            initialDelaySeconds: 30
+            periodSeconds: 10
+
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "500m"
+              memory: "256Mi"
+
+---
+# Internal ClusterIP — only reachable from within the namespace.
+apiVersion: v1
+kind: Service
+metadata:
+  name: xray-proxy
+  namespace: mahdixak-gamexs
+spec:
+  selector:
+    app: xray-proxy
+  ports:
+    - name: http-proxy
+      port: 10809
+      targetPort: 10809
+  type: ClusterIP
+
+---
+# RBAC — CronJob needs to list pods and exec into them.
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: xray-refresher
+  namespace: mahdixak-gamexs
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: xray-refresher
+  namespace: mahdixak-gamexs
+rules:
+  - apiGroups: [""]
+    resources: ["pods"]
+    verbs: ["get", "list"]
+  - apiGroups: [""]
+    resources: ["pods/exec"]
+    verbs: ["create"]
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: xray-refresher
+  namespace: mahdixak-gamexs
+subjects:
+  - kind: ServiceAccount
+    name: xray-refresher
+roleRef:
+  kind: Role
+  name: xray-refresher
+  apiGroup: rbac.authorization.k8s.io
+
+---
+# Every 3 hours: exec into the running xray pod, run the speed test,
+# swap the config, kill Xray — supervisor loop restarts it in ~2s.
+# Xray serves the old config during the speed test; downtime is ~2s.
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: xray-proxy-refresh
+  namespace: mahdixak-gamexs
+spec:
+  schedule: "0 */3 * * *"
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 1
+  failedJobsHistoryLimit: 2
+  jobTemplate:
+    spec:
+      backoffLimit: 1
+      template:
+        spec:
+          serviceAccountName: xray-refresher
+          restartPolicy: Never
+          containers:
+            - name: refresher
+              image: bitnami/kubectl:latest
+              command:
+                - /bin/bash
+                - -c
+                - |
+                  POD=$(kubectl get pod \
+                    -n mahdixak-gamexs \
+                    -l app=xray-proxy \
+                    --field-selector=status.phase=Running \
+                    -o jsonpath='{.items[0].metadata.name}')
+
+                  if [ -z "$POD" ]; then
+                    echo "ERROR: no running xray-proxy pod found"
+                    exit 1
+                  fi
+
+                  echo "Refreshing config in pod: $POD"
+                  kubectl exec -n mahdixak-gamexs "$POD" -- /app/refresh.sh

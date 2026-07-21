@@ -69,6 +69,10 @@ spec:
                     secretKeyRef:
                       name: gamexs-secret-envs
                       key: S3_BUCKET
+                - name: HTTPS_PROXY
+                  value: "http://custom-xray.mahdixak-gamexs.svc:10809"
+                - name: NO_PROXY
+                  value: "gamexs-db.mahdixak-gamexs.svc,localhost,127.0.0.1,10.0.0.0/8"
 
               resources:
                 requests:

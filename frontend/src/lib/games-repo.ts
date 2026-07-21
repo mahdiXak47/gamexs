@@ -1,30 +1,21 @@
 import { query } from "./db";
-import { coverUrl as localCoverUrl, igdbCoverUrl, localIgdbCoverUrl, localScreenshotUrls } from "./covers";
+import { s3CoverUrl, s3ScreenshotUrl } from "./covers";
 import { getGameDetails } from "./game-details";
 import { emptyPurchaseOptions, findOption } from "./purchase-options";
 import type { AccessTier, Game, GameSummary, ProductType } from "./types";
 
 // Resolve cover URL — priority order:
-// 1. DB stores a local /api/… path (set by download_igdb_images.py) → use directly.
-// 2. Locally downloaded IGDB cover in scraper/output/images/igdb/ (old image_id scheme).
-// 3. IGDB-downloaded cover on disk by slug ({slug}-main-cover.webp) — catches games
-//    whose DB row wasn't yet updated by update_local_paths.py.
-// 4. Locally scraped pspro image → last resort fallback.
-// 5. Server-side IGDB proxy → production only (k8s can reach images.igdb.com).
-function toCoverUrl(dbUrl: string | null, slug: string, title: string): string | null {
-  if (dbUrl?.startsWith("/api/")) return dbUrl;
-  const igdb = igdbCoverUrl(dbUrl);
-  if (igdb) return igdb;
-  const igdbLocal = localIgdbCoverUrl(slug);
-  if (igdbLocal) return igdbLocal;
-  const pspro = localCoverUrl(title);
-  if (pspro) return pspro;
-  if (!dbUrl) return null;
-  if (dbUrl.includes("images.igdb.com")) {
-    if (process.env.NODE_ENV !== "production") return null;
+// 1. DB stores an S3 URL (gs3.gamexs.ir) → use directly.
+// 2. DB stores an IGDB CDN URL → redirect the browser via cover-proxy (avoids
+//    the server needing outbound HTTPS to images.igdb.com).
+// 3. Anything else (seller CDN, old /api/ path, null) → construct the S3 URL
+//    from the slug. May 404 if the image hasn't been uploaded yet.
+function toCoverUrl(dbUrl: string | null, slug: string): string | null {
+  if (dbUrl?.includes("gs3.gamexs.ir")) return dbUrl;
+  if (dbUrl?.includes("images.igdb.com")) {
     return `/api/cover-proxy?url=${encodeURIComponent(dbUrl)}`;
   }
-  return dbUrl;
+  return s3CoverUrl(slug);
 }
 
 // "Current" price/stock per listing is the most recent price_history row —
@@ -85,7 +76,7 @@ export async function listGames(): Promise<GameSummary[]> {
     genreLabel: row.genre_label,
     publisher: row.publisher,
     coverInitial: deriveInitial(row.title),
-    coverUrl: toCoverUrl(row.cover_url, row.slug, row.title),
+    coverUrl: toCoverUrl(row.cover_url, row.slug),
     lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
     storeCount: Number(row.store_count),
     purchaseTypeCount: Number(row.purchase_type_count),
@@ -144,20 +135,19 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
   }
 
   // screenshot_ids has three shapes:
-  // - Full URL (starts with 'http') → object storage or external CDN, use as-is
-  // - Local filenames (contain '.')  → served via /api/screenshots/
-  // - IGDB image IDs (no extension)  → proxied via /api/cover-proxy
+  // - Full URL (starts with 'http') → S3 or external CDN, use as-is
+  // - Filename with extension        → stored as bare filename in older rows;
+  //   construct the S3 URL directly (same bucket, screenshots/ prefix)
+  // - IGDB image_id (no extension)   → redirect browser to IGDB CDN via cover-proxy
   const screenshots =
     game.screenshot_ids?.length
       ? game.screenshot_ids.map((id) => {
           if (id.startsWith("http")) return id;
-          if (id.startsWith("/") || id.includes(".")) {
-            return `/api/screenshots/${encodeURIComponent(id)}`;
-          }
+          if (id.includes(".")) return s3ScreenshotUrl(id);
           const igdbUrl = `https://images.igdb.com/igdb/image/upload/t_720p/${id}.webp`;
           return `/api/cover-proxy?url=${encodeURIComponent(igdbUrl)}`;
         })
-      : localScreenshotUrls(game.slug);
+      : [];
 
   return {
     slug: game.slug,
@@ -166,7 +156,7 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     publisher: game.publisher,
     releaseYear: game.release_year,
     coverInitial: deriveInitial(game.title),
-    coverUrl: toCoverUrl(game.cover_url, game.slug, game.title),
+    coverUrl: toCoverUrl(game.cover_url, game.slug),
     keyArtUrl: game.key_art_url ?? null,
     screenshots,
     purchaseOptions,
