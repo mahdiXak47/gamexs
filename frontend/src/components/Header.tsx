@@ -1,8 +1,9 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import MegaMenu from "./MegaMenu";
 
 const SearchOverlay = dynamic(() => import("./SearchOverlay"), { ssr: false });
 
@@ -33,17 +34,34 @@ function PSIcon() {
   );
 }
 
-const navItems = [
-  { label: "بازی‌ها", href: "/", active: true },
-  { label: "PS Plus", href: "#", active: false },
-  { label: "اخبار", href: "#", active: false },
-  { label: "پشتیبانی", href: "#", active: false },
+function ChevronDownIcon() {
+  return (
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+      <path d="m6 9 6 6 6-6" />
+    </svg>
+  );
+}
+
+const otherNavItems = [
+  { label: "PS Plus", href: "#" },
+  { label: "اخبار", href: "#" },
+  { label: "پشتیبانی", href: "#" },
+];
+
+const mobileNavItems = [
+  { label: "بازی‌ها", href: "/" },
+  { label: "PS Plus", href: "#" },
+  { label: "اخبار", href: "#" },
+  { label: "پشتیبانی", href: "#" },
 ];
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+  const [megaOpen, setMegaOpen] = useState(false);
+  const closeTimer = useRef<ReturnType<typeof setTimeout>>();
 
+  // Cmd/Ctrl+K shortcut
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
       if ((e.metaKey || e.ctrlKey) && e.key === "k") {
@@ -55,10 +73,20 @@ export default function Header() {
     return () => window.removeEventListener("keydown", handler);
   }, []);
 
+  const openMega = () => {
+    if (closeTimer.current) clearTimeout(closeTimer.current);
+    setMegaOpen(true);
+  };
+
+  const scheduledCloseMega = () => {
+    closeTimer.current = setTimeout(() => setMegaOpen(false), 200);
+  };
+
   return (
     <header className="sticky top-0 z-50 shadow-md">
       <div className="ps-header">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
+
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 shrink-0" aria-label="GameXS - صفحه اصلی">
             <PSIcon />
@@ -69,16 +97,29 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-1" aria-label="ناوبری اصلی">
-            {navItems.map((item) => (
+            {/* بازی‌ها — mega menu trigger */}
+            <Link
+              href="/"
+              onMouseEnter={openMega}
+              onMouseLeave={scheduledCloseMega}
+              className={`flex items-center gap-1 px-4 py-2 rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white ${
+                megaOpen ? "bg-white/25 text-white" : "bg-white/20 text-white"
+              }`}
+              aria-current="page"
+              aria-haspopup="true"
+              aria-expanded={megaOpen}
+            >
+              بازی‌ها
+              <span className={`transition-transform duration-200 ${megaOpen ? "rotate-180" : ""}`}>
+                <ChevronDownIcon />
+              </span>
+            </Link>
+
+            {otherNavItems.map((item) => (
               <Link
                 key={item.label}
                 href={item.href}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white ${
-                  item.active
-                    ? "bg-white/20 text-white"
-                    : "text-blue-100 hover:bg-white/10 hover:text-white"
-                }`}
-                aria-current={item.active ? "page" : undefined}
+                className="px-4 py-2 rounded-full text-sm font-medium text-blue-100 hover:bg-white/10 hover:text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
               >
                 {item.label}
               </Link>
@@ -110,19 +151,18 @@ export default function Header() {
           </div>
         </div>
 
+        {/* Search overlay */}
         {searchOpen && <SearchOverlay onClose={() => setSearchOpen(false)} />}
 
         {/* Mobile menu */}
         {mobileOpen && (
           <div className="md:hidden border-t border-white/20 px-4 py-3 flex flex-col gap-1">
-            {navItems.map((item) => (
+            {mobileNavItems.map((item) => (
               <Link
                 key={item.label}
                 href={item.href}
                 onClick={() => setMobileOpen(false)}
-                className={`px-4 py-2.5 rounded-xl text-sm font-medium transition-colors ${
-                  item.active ? "bg-white/20 text-white" : "text-blue-100 hover:bg-white/10 hover:text-white"
-                }`}
+                className="px-4 py-2.5 rounded-xl text-sm font-medium text-blue-100 hover:bg-white/10 hover:text-white transition-colors"
               >
                 {item.label}
               </Link>
@@ -136,6 +176,15 @@ export default function Header() {
           </div>
         )}
       </div>
+
+      {/* Mega menu — fixed below header, outside ps-header so it escapes the blue bg */}
+      {megaOpen && (
+        <MegaMenu
+          onMouseEnter={openMega}
+          onMouseLeave={scheduledCloseMega}
+          onClose={() => setMegaOpen(false)}
+        />
+      )}
     </header>
   );
 }
