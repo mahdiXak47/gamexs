@@ -43,14 +43,14 @@ function ChevronDownIcon() {
 }
 
 const otherNavItems = [
-  { label: "PS Plus", href: "#" },
+  { label: "PS Plus", href: "/ps-plus" },
   { label: "اخبار", href: "#" },
   { label: "پشتیبانی", href: "#" },
 ];
 
 const mobileNavItems = [
   { label: "بازی‌ها", href: "/" },
-  { label: "PS Plus", href: "#" },
+  { label: "PS Plus", href: "/ps-plus" },
   { label: "اخبار", href: "#" },
   { label: "پشتیبانی", href: "#" },
 ];
