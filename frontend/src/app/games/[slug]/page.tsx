@@ -21,7 +21,11 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
   const price  = lowestPrice(game);
   const stores = storeCount(game);
   const d      = game.details;
-  const heroBg = game.keyArtUrl ?? game.coverUrl;
+  // Screenshots are landscape S3 images — much better quality for a wide hero
+  // than the portrait cover. For IGDB cover fallbacks swap the tiny size token
+  // with t_1080p (1920×1080) so the blowup is at least at native resolution.
+  const highResCover = game.coverUrl?.replace("t_cover_big", "t_1080p") ?? game.coverUrl ?? null;
+  const heroBg = game.keyArtUrl ?? game.screenshots[0] ?? highResCover;
   const hasArt = !!heroBg;
 
   const persianReleaseDate = game.releaseDate
