@@ -79,6 +79,52 @@ export async function listGames(): Promise<GameSummary[]> {
   }));
 }
 
+export async function getGamesByGenre(genre: string): Promise<GameSummary[]> {
+  const { rows } = await query<{
+    slug: string;
+    title: string;
+    genre_label: string | null;
+    publisher: string | null;
+    cover_url: string | null;
+    lowest_price: string | null;
+    store_count: string;
+    purchase_type_count: string;
+    created_at: Date;
+  }>(`
+    ${LATEST_PRICE_CTE}
+    SELECT
+      g.slug,
+      g.title,
+      g.genre_label,
+      g.publisher,
+      g.cover_url,
+      g.created_at,
+      MIN(latest.price_toman) AS lowest_price,
+      COUNT(DISTINCT l.seller_id) AS store_count,
+      COUNT(DISTINCT (l.product_type, l.tier)) AS purchase_type_count
+    FROM games g
+    LEFT JOIN listings l ON l.game_id = g.id AND l.is_active
+    LEFT JOIN latest ON latest.listing_id = l.id
+    WHERE g.genre_label ILIKE $1
+      AND g.platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')
+    GROUP BY g.id
+    ORDER BY store_count DESC, g.title
+  `, [`%${genre}%`]);
+
+  return rows.map((row) => ({
+    slug: row.slug,
+    title: row.title,
+    genreLabel: row.genre_label,
+    publisher: row.publisher,
+    coverInitial: deriveInitial(row.title),
+    coverUrl: toCoverUrl(row.cover_url, row.slug),
+    lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
+    storeCount: Number(row.store_count),
+    purchaseTypeCount: Number(row.purchase_type_count),
+    createdAt: row.created_at.getTime(),
+  }));
+}
+
 export async function searchGames(q: string): Promise<GameSummary[]> {
   const { rows } = await query<{
     slug: string;

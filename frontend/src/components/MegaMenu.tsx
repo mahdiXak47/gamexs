@@ -3,19 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-
-const CATEGORIES = [
-  { label: "بازی شوتر", genre: "Shooter" },
-  { label: "بازی نقش‌آفرینی", genre: "Role-playing" },
-  { label: "بازی ماجراجویی", genre: "Adventure" },
-  { label: "بازی پلتفرمر", genre: "Platform" },
-  { label: "بازی شبیه‌سازی", genre: "Simulator" },
-  { label: "بازی مسابقه‌ای", genre: "Racing" },
-  { label: "بازی مبارزه‌ای", genre: "Fighting" },
-  { label: "بازی پازل", genre: "Puzzle" },
-  { label: "هک و اسلش", genre: "Hack" },
-  { label: "بازی استراتژی", genre: "Strategy" },
-];
+import { GENRES } from "@/lib/genres";
 
 interface GamePreview {
   slug: string;
@@ -37,7 +25,7 @@ export default function MegaMenu({
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    const genre = CATEGORIES[activeIdx].genre;
+    const genre = GENRES[activeIdx].genre;
     let cancelled = false;
     setLoading(true);
     fetch(`/api/genre-games?genre=${encodeURIComponent(genre)}`)
@@ -62,10 +50,10 @@ export default function MegaMenu({
 
         {/* RIGHT: Category list */}
         <nav className="shrink-0 w-48 flex flex-col gap-0.5" aria-label="دسته‌بندی بازی‌ها">
-          {CATEGORIES.map((cat, i) => (
+          {GENRES.map((cat, i) => (
             <Link
-              key={cat.genre}
-              href={`/search?q=${encodeURIComponent(cat.genre)}`}
+              key={cat.slug}
+              href={`/genres/${cat.slug}`}
               onMouseEnter={() => setActiveIdx(i)}
               onClick={onClose}
               className={`block w-full text-right px-4 py-2.5 rounded-lg text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/40 ${

@@ -96,16 +96,13 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-1" aria-label="ناوبری اصلی">
+          <nav className="hidden md:flex items-center gap-2" aria-label="ناوبری اصلی">
             {/* بازی‌ها — mega menu trigger */}
             <Link
               href="/"
               onMouseEnter={openMega}
               onMouseLeave={scheduledCloseMega}
-              className={`flex items-center gap-1 px-4 py-2 rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white ${
-                megaOpen ? "bg-white/25 text-white" : "bg-white/20 text-white"
-              }`}
-              aria-current="page"
+              className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-white/85 hover:text-white border-b-2 border-transparent hover:border-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
               aria-haspopup="true"
               aria-expanded={megaOpen}
             >
@@ -119,7 +116,7 @@ export default function Header() {
               <Link
                 key={item.label}
                 href={item.href}
-                className="px-4 py-2 rounded-full text-sm font-medium text-blue-100 hover:bg-white/10 hover:text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                className="px-3 py-2 text-sm font-medium text-white/85 hover:text-white border-b-2 border-transparent hover:border-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
               >
                 {item.label}
               </Link>
