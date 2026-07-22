@@ -83,16 +83,6 @@ function HeroCountdown({ releaseDate }: { releaseDate: string }) {
   );
 }
 
-// ── Chevron icon ──────────────────────────────────────────────────────────────
-
-function ChevronIcon({ dir }: { dir: "right" | "left" }) {
-  return (
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-      {dir === "right" ? <path d="m9 18 6-6-6-6" /> : <path d="m15 18-6-6 6-6" />}
-    </svg>
-  );
-}
-
 // ── Banner ────────────────────────────────────────────────────────────────────
 
 export default function UpcomingHeroBanner({ games }: { games: UpcomingGame[] }) {
@@ -119,6 +109,7 @@ export default function UpcomingHeroBanner({ games }: { games: UpcomingGame[] })
   const bg = game.keyArtUrl ?? game.coverUrl;
 
   return (
+    <>
     <section
       className="relative overflow-hidden"
       style={{ minHeight: "72vh" }}
@@ -218,44 +209,39 @@ export default function UpcomingHeroBanner({ games }: { games: UpcomingGame[] })
         </div>
       </div>
 
-      {/* Carousel controls */}
-      <div className="absolute bottom-5 left-1/2 -translate-x-1/2 z-20 flex items-center gap-1" role="group" aria-label="کنترل کاروسل">
-        <button
-          onClick={() => { prev(); pause6s(); }}
-          aria-label="بازی قبلی"
-          className="cursor-pointer flex items-center justify-center w-11 h-11 rounded-full bg-white/20 hover:bg-white/40 text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
-        >
-          <ChevronIcon dir="right" />
-        </button>
+      {/* Click zones for prev/next on left/right edges */}
+      <button
+        onClick={() => { prev(); pause6s(); }}
+        aria-label="بازی قبلی"
+        className="cursor-pointer absolute right-0 top-0 bottom-0 w-16 z-20 focus-visible:outline-none"
+      />
+      <button
+        onClick={() => { next(); pause6s(); }}
+        aria-label="بازی بعدی"
+        className="cursor-pointer absolute left-0 top-0 bottom-0 w-16 z-20 focus-visible:outline-none"
+      />
 
-        <div className="flex items-center" role="tablist" aria-label="انتخاب بازی ویژه">
-          {games.map((g, i) => (
-            <button
-              key={g.slug}
-              role="tab"
-              aria-selected={i === current}
-              aria-label={g.title}
-              onClick={() => { setCurrent(i); pause6s(); }}
-              className="cursor-pointer flex items-center justify-center w-11 h-11 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-full"
-            >
-              <span className={`block rounded-full transition-all duration-200 ${i === current ? "w-5 h-2 bg-white" : "w-2 h-2 bg-white/40 hover:bg-white/65"}`} />
-            </button>
-          ))}
-        </div>
-
-        <button
-          onClick={() => { next(); pause6s(); }}
-          aria-label="بازی بعدی"
-          className="cursor-pointer flex items-center justify-center w-11 h-11 rounded-full bg-white/20 hover:bg-white/40 text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
-        >
-          <ChevronIcon dir="left" />
-        </button>
-      </div>
-
-      {/* Slide counter */}
-      <div className="absolute top-4 right-4 z-20 text-white/40 text-xs tabular-nums" dir="ltr" aria-hidden>
-        {toPersianDigits(current + 1)} / {toPersianDigits(games.length)}
-      </div>
     </section>
+
+    {/* Segmented bar indicator — sits on the light page background below the banner */}
+    <div className="flex gap-2 mt-1 mb-2" role="tablist" aria-label="انتخاب بازی ویژه">
+      {games.map((g, i) => (
+        <button
+          key={g.slug}
+          role="tab"
+          aria-selected={i === current}
+          aria-label={g.title}
+          onClick={() => { setCurrent(i); pause6s(); }}
+          className="cursor-pointer flex-1 h-[8px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-ps-blue)]"
+        >
+          <span
+            className={`block w-full h-full transition-colors duration-300 ${
+              i === current ? "bg-[var(--color-ps-blue)]" : "bg-gray-300 hover:bg-gray-400"
+            }`}
+          />
+        </button>
+      ))}
+    </div>
+    </>
   );
 }

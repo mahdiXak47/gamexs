@@ -1,7 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import dynamic from "next/dynamic";
 import Link from "next/link";
+
+const SearchOverlay = dynamic(() => import("./SearchOverlay"), { ssr: false });
 
 function SearchIcon() {
   return (
@@ -39,6 +42,18 @@ const navItems = [
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
+
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === "k") {
+        e.preventDefault();
+        setSearchOpen((o) => !o);
+      }
+    };
+    window.addEventListener("keydown", handler);
+    return () => window.removeEventListener("keydown", handler);
+  }, []);
 
   return (
     <header className="sticky top-0 z-50 shadow-md">
@@ -74,6 +89,7 @@ export default function Header() {
           <div className="flex items-center gap-2">
             <button
               aria-label="جستجو"
+              onClick={() => setSearchOpen(true)}
               className="cursor-pointer p-2 rounded-full text-white hover:bg-white/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
             >
               <SearchIcon />
@@ -93,6 +109,8 @@ export default function Header() {
             </button>
           </div>
         </div>
+
+        {searchOpen && <SearchOverlay onClose={() => setSearchOpen(false)} />}
 
         {/* Mobile menu */}
         {mobileOpen && (

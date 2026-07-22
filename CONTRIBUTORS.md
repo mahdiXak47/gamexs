@@ -133,7 +133,49 @@ npm run lint       # eslint
 
 ---
 
-## 5 — Scraper
+## 5 — Migrate cover images to S3 (one-time, after restoring DB)
+
+The database stores IGDB CDN URLs for ~1,500 game cover images.
+Because `images.igdb.com` is blocked in Iran, all covers must be migrated to the project's own S3 bucket (`gs3.gamexs.ir`) before images will load.
+
+**What `scraper/migrate_covers_to_s3.py` does:**
+
+1. Reads every row in `games` where `cover_url` still points to `images.igdb.com`.
+2. Downloads each image directly from the stored IGDB URL (no IGDB API key needed).
+3. Uploads the image to S3 under `covers/<slug>-main-cover.webp`.
+4. Updates `cover_url` in the DB to the new S3 URL.
+
+It is **resumable** — it lists existing S3 keys first and skips anything already uploaded.
+It runs **6 workers in parallel** so all ~1,500 images finish in a few minutes.
+
+```bash
+cd scraper
+python3 -m venv .venv && .venv/bin/pip install -r requirements.txt   # first-time only
+
+# Local DB + S3 (IGDB is usually accessible on non-Iranian networks without a proxy)
+DATABASE_URL=postgresql://gamexs:gamexs@localhost:5434/gamexs \
+  S3_ENDPOINT_URL=http://gs3.gamexs.ir \
+  S3_ACCESS_KEY=<key> \
+  S3_SECRET_KEY=<secret> \
+  S3_BUCKET=gamexs \
+  .venv/bin/python migrate_covers_to_s3.py
+
+# If IGDB CDN is blocked on your network, route through the project proxy
+HTTPS_PROXY=http://127.0.0.1:10809 \
+  DATABASE_URL=postgresql://gamexs:gamexs@localhost:5434/gamexs \
+  ... (same env vars) \
+  .venv/bin/python migrate_covers_to_s3.py
+
+# Against prod DB (requires kubectl port-forward 5436 to be active)
+.venv/bin/python migrate_covers_to_s3.py \
+  --db-url postgresql://gamexs:gamexs@localhost:5436/gamexs
+```
+
+> You only need to run this once after first restoring the DB dump. Once all covers are on S3, the script finds nothing to do and exits immediately.
+
+---
+
+## 6 — Scraper
 
 ```bash
 cd scraper
