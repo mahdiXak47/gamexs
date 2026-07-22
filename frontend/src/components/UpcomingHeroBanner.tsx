@@ -141,16 +141,17 @@ export default function UpcomingHeroBanner({ games }: { games: UpcomingGame[] })
       {/* Two-column layout */}
       <div className="relative z-10 flex min-h-[72vh]" dir="ltr">
 
-        {/* LEFT: Cover art */}
-        <div className="hidden md:block relative w-[40%] shrink-0" aria-hidden>
-          {bg ? (
+        {/* LEFT: Main cover image (portrait box art, not key art / screenshot) */}
+        <div className="hidden md:block relative w-[42%] shrink-0" aria-hidden>
+          {game.coverUrl ? (
             <Image
-              src={bg}
+              src={game.coverUrl}
               alt=""
               fill
               className="object-contain object-bottom drop-shadow-2xl"
-              style={{ paddingTop: "48px", paddingLeft: "64px", paddingRight: "16px" }}
+              style={{ paddingTop: "28px", paddingLeft: "40px", paddingRight: "24px", paddingBottom: "20px" }}
               priority
+              unoptimized
             />
           ) : (
             <div className="absolute bottom-0 left-16 right-4 top-12 flex items-end justify-center">

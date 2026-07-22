@@ -64,8 +64,8 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
       <Header />
       <main className="flex-1">
 
-        {/* ── Hero section — key art background when available ── */}
-        <div className="relative overflow-hidden">
+        {/* ── Hero section — exactly one viewport tall ── */}
+        <div className="relative overflow-hidden h-[calc(100dvh-60px)]">
 
           {/* Background image — key art preferred, cover as fallback */}
           {hasArt && (
@@ -74,7 +74,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
               src={heroBg!}
               alt=""
               aria-hidden="true"
-              className="absolute inset-0 h-full w-full object-cover object-center scale-105 blur-[2px]"
+              className="absolute inset-0 h-full w-full object-cover object-center"
             />
           )}
 
@@ -83,11 +83,11 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
             <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/65 to-black/80" />
           )}
 
-          {/* Content */}
-          <div className="relative z-10 mx-auto max-w-6xl px-4 py-10 sm:px-6">
+          {/* Content — fills full hero height, centers grid vertically */}
+          <div className="relative z-10 mx-auto max-w-6xl px-4 sm:px-6 h-full flex flex-col py-6">
             <Link
               href="/"
-              className={`inline-flex items-center gap-2 text-sm transition-colors ${
+              className={`inline-flex items-center gap-2 text-sm transition-colors shrink-0 ${
                 hasArt
                   ? "text-white/65 hover:text-white"
                   : "text-muted hover:text-foreground"
@@ -96,10 +96,10 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
               ← بازگشت به فهرست بازی‌ها
             </Link>
 
-            {/* Hero grid: content | cover */}
-            <div className="mt-6 grid grid-cols-1 gap-8 md:grid-cols-[1fr_260px]">
+            {/* Hero grid — cover LEFT (RTL), info RIGHT — vertically centered */}
+            <div className="flex-1 mt-4 grid grid-cols-1 gap-8 md:grid-cols-[1fr_minmax(0,32%)] items-center content-center">
 
-              {/* ── Content column ── */}
+              {/* ── Info column (RIGHT in RTL) ── */}
               <div className="flex flex-col gap-0">
 
                 {/* Chips */}
@@ -117,7 +117,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
                   )}
                 </div>
 
-                {/* Title + price card */}
+                {/* Title + price card — same row, top-aligned */}
                 <div className="mt-3 flex items-start gap-4">
                   <h1 className={`flex-1 text-3xl font-extrabold leading-tight sm:text-4xl ${
                     hasArt ? "text-white" : ""
@@ -182,12 +182,12 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
                 </div>
               </div>
 
-              {/* ── Cover art ── */}
+              {/* ── Cover art (LEFT in RTL) — 32% column, max 420px tall ── */}
               <CoverArt
                 coverUrl={game.coverUrl}
                 title={game.title}
                 initial={game.coverInitial}
-                className="aspect-[3/4] rounded-2xl shadow-2xl"
+                className="w-full aspect-[3/4] max-h-[420px] rounded-2xl shadow-2xl"
                 priority
               />
             </div>

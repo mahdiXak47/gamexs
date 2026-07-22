@@ -30,11 +30,35 @@ export default function PurchaseTypeSelector({ options }: { options: PurchaseOpt
               tabIndex={0}
               onClick={() => setSelected(i)}
               onKeyDown={(e: React.KeyboardEvent) => e.key === "Enter" && setSelected(i)}
-              className={`cursor-pointer p-4 text-right transition-colors ${
+              className={`cursor-pointer p-4 text-right transition-colors overflow-visible ${
                 active ? "border-2 border-warning" : "hover:border-accent"
               }`}
             >
-              <div className="font-bold">{opt.label}</div>
+              {/* Label row: in RTL, label is rightmost, ? sits immediately to its left */}
+              <div className="flex items-start gap-1.5">
+                <div className="font-bold leading-snug">{opt.label}</div>
+                {/* Tooltip trigger — placed after label so it's to its left in RTL */}
+                <div className="group relative shrink-0 mt-0.5">
+                  <button
+                    type="button"
+                    onClick={(e) => e.stopPropagation()}
+                    className="flex h-[18px] w-[18px] cursor-help items-center justify-center rounded-full bg-gray-200 text-[10px] font-bold text-gray-500 transition-colors hover:bg-gray-300 focus-visible:outline-none"
+                    aria-label={`توضیح: ${opt.label}`}
+                  >
+                    ؟
+</button>
+                  {/* Tooltip panel */}
+                  <div
+                    className="pointer-events-none absolute bottom-full left-1/2 z-50 mb-2 w-56 -translate-x-1/2 rounded-xl bg-gray-900/95 p-3 text-right text-xs leading-relaxed text-white opacity-0 shadow-xl backdrop-blur-sm transition-opacity duration-150 group-hover:opacity-100"
+                    dir="rtl"
+                  >
+                    {opt.description}
+                    {/* Arrow */}
+                    <span className="absolute left-1/2 top-full -translate-x-1/2 border-[5px] border-transparent border-t-gray-900/95" />
+                  </div>
+                </div>
+              </div>
+
               <div className="mt-1 text-xs text-muted">{opt.subtitle}</div>
               <div className="mt-3 flex items-baseline gap-1">
                 <span className="text-xs text-muted">از</span>
