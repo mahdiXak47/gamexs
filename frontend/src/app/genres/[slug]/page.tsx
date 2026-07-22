@@ -40,7 +40,7 @@ export default async function GenrePage({
               <Chip
                 variant="soft"
                 size="sm"
-                classNames={{ base: "bg-white/20 text-white" }}
+                className="bg-white/20 text-white"
               >
                 {toPersianDigits(games.length)} بازی
               </Chip>
