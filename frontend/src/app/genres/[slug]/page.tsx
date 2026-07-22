@@ -38,7 +38,7 @@ export default async function GenrePage({
             </h1>
             {games.length > 0 && (
               <Chip
-                variant="solid"
+                variant="soft"
                 size="sm"
                 classNames={{ base: "bg-white/20 text-white" }}
               >

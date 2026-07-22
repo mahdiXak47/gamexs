@@ -29,7 +29,7 @@ export default async function SearchPage({
               {trimmed ? `نتایج «${trimmed}»` : "جستجو"}
             </h1>
             {games.length > 0 && (
-              <Chip variant="solid" color="default" size="sm" classNames={{ base: "bg-white/20 text-white" }}>
+              <Chip variant="soft" size="sm" classNames={{ base: "bg-white/20 text-white" }}>
                 {toPersianDigits(games.length)} بازی
               </Chip>
             )}
