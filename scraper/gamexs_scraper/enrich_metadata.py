@@ -2,10 +2,16 @@
 
 Searches IGDB for each game that has no igdb_id yet, picks the best match
 using name similarity + PS5 platform preference, and writes:
-  cover_url, genre_label, publisher, release_year, igdb_id
+  igdb_id, igdb_name, title, slug, cover_url, genre_label, publisher,
+  release_year, release_date
 
-IGDB covers overwrite any previously-scraped seller image (canonical quality).
-If IGDB has no cover for a matched game the seller image is kept as fallback.
+After a confident IGDB match the game's title and slug are replaced with the
+IGDB canonical name (processed through clean_title / url_slugify) so all
+display titles come from the authoritative source rather than seller-page H1s.
+
+If the canonical slug already belongs to another game row (a duplicate scraped
+under a different seller title), the current game's listings are reassigned to
+that canonical row and the duplicate is deleted.
 
 Safe to re-run: only games with igdb_id IS NULL are processed by default.
 Use --all to re-enrich games that already have an igdb_id.
@@ -30,6 +36,9 @@ from difflib import SequenceMatcher
 import psycopg
 import requests
 from dotenv import load_dotenv
+
+from .load_to_postgres import url_slugify
+from .normalize import clean_title, normalize_game_name
 
 # ---------------------------------------------------------------------------
 # Constants
@@ -56,11 +65,16 @@ _RATE_DELAY = 0.28
 
 # IGDB fields returned per game result.
 _FIELDS = (
-    "name,category,cover.image_id,"
+    "name,slug,category,cover.image_id,"
+    "storyline,summary,url,"
     "genres.name,"
-    "first_release_date,"
-    "involved_companies.company.name,involved_companies.publisher,"
-    "platforms.id"
+    "themes.name,"
+    "game_modes.name,"
+    "franchises.name,"
+    "collections.name,"
+    "platforms.id,platforms.name,"
+    "involved_companies.company.name,involved_companies.publisher,involved_companies.developer,"
+    "first_release_date"
 )
 
 # Strip Persian/Arabic Unicode block so only English remains for IGDB search.
@@ -156,7 +170,6 @@ def _publisher(result: dict) -> str | None:
     for ic in companies:
         if ic.get("publisher"):
             return (ic.get("company") or {}).get("name")
-    # Fall back to first listed company if no explicit publisher role
     for ic in companies:
         name = (ic.get("company") or {}).get("name")
         if name:
@@ -164,9 +177,21 @@ def _publisher(result: dict) -> str | None:
     return None
 
 
+def _developers(result: dict) -> list[str]:
+    return [
+        ic["company"]["name"]
+        for ic in (result.get("involved_companies") or [])
+        if ic.get("developer") and ic.get("company", {}).get("name")
+    ]
+
+
 def _genre(result: dict) -> str | None:
     genres = result.get("genres") or []
     return genres[0]["name"] if genres else None
+
+
+def _names(result: dict, key: str) -> list[str]:
+    return [item["name"] for item in (result.get(key) or []) if item.get("name")]
 
 
 def _release_date(result: dict) -> date | None:
@@ -199,44 +224,143 @@ def _db_connect(database_url: str) -> psycopg.Connection:
 def _write_game(
     database_url: str,
     game_id: int,
+    platform_id: int,
     igdb_id: int,
+    igdb_name: str,
+    new_title: str,
+    new_slug: str,
     genre: str | None,
     publisher: str | None,
     release_dt: date | None,
     cover: str | None,
-) -> None:
+    storyline: str | None,
+    summary: str | None,
+    igdb_url: str | None,
+    genres: list[str],
+    game_modes: list[str],
+    platforms: list[str],
+    franchises: list[str],
+    collections: list[str],
+    developers: list[str],
+) -> str:
+    """Write IGDB metadata to the game row and return a status string.
+
+    Status values:
+      "updated"  — game row updated in place
+      "merged"   — current game was a duplicate; its listings were reassigned
+                   to the canonical row and it was deleted
+    """
     year = release_dt.year if release_dt else None
     while True:
         try:
             with _db_connect(database_url) as conn:
                 with conn.cursor() as cur:
+                    # Check whether another game already owns the canonical slug.
+                    cur.execute(
+                        "SELECT id FROM games WHERE platform_id = %s AND slug = %s AND id != %s",
+                        (platform_id, new_slug, game_id),
+                    )
+                    conflict = cur.fetchone()
+
+                    _detail_params = (
+                        storyline or None,
+                        summary or None,
+                        igdb_url or None,
+                        genres or None,
+                        game_modes or None,
+                        platforms or None,
+                        franchises or None,
+                        collections or None,
+                        developers or None,
+                    )
+
+                    if conflict:
+                        primary_id = conflict[0]
+                        cur.execute(
+                            "UPDATE listings SET game_id = %s WHERE game_id = %s",
+                            (primary_id, game_id),
+                        )
+                        cur.execute("DELETE FROM games WHERE id = %s", (game_id,))
+                        cur.execute(
+                            """
+                            UPDATE games SET
+                                igdb_id      = %s,
+                                igdb_name    = %s,
+                                title        = %s,
+                                genre_label  = COALESCE(%s, genre_label),
+                                publisher    = COALESCE(%s, publisher),
+                                release_year = COALESCE(%s::smallint, release_year),
+                                release_date = COALESCE(%s, release_date),
+                                cover_url    = COALESCE(%s, cover_url),
+                                storyline    = COALESCE(%s, storyline),
+                                summary      = COALESCE(%s, summary),
+                                igdb_url     = COALESCE(%s, igdb_url),
+                                genres       = COALESCE(%s, genres),
+                                game_modes   = COALESCE(%s, game_modes),
+                                platforms    = COALESCE(%s, platforms),
+                                franchises   = COALESCE(%s, franchises),
+                                collections  = COALESCE(%s, collections),
+                                developers   = COALESCE(%s, developers)
+                            WHERE id = %s
+                            """,
+                            (igdb_id, igdb_name, new_title, genre, publisher, year, release_dt, cover,
+                             *_detail_params, primary_id),
+                        )
+                        conn.commit()
+                        return "merged"
+
+                    # No conflict — update this game row with IGDB data.
                     cur.execute(
                         """
                         UPDATE games SET
                             igdb_id      = %s,
+                            igdb_name    = %s,
+                            title        = %s,
+                            slug         = %s,
                             genre_label  = COALESCE(%s, genre_label),
                             publisher    = COALESCE(%s, publisher),
                             release_year = COALESCE(%s::smallint, release_year),
                             release_date = COALESCE(%s, release_date),
-                            cover_url    = COALESCE(%s, cover_url)
+                            cover_url    = COALESCE(%s, cover_url),
+                            storyline    = %s,
+                            summary      = %s,
+                            igdb_url     = %s,
+                            genres       = %s,
+                            game_modes   = %s,
+                            platforms    = %s,
+                            franchises   = %s,
+                            collections  = %s,
+                            developers   = %s
                         WHERE id = %s
                         """,
-                        (igdb_id, genre, publisher, year, release_dt, cover, game_id),
+                        (igdb_id, igdb_name, new_title, new_slug, genre, publisher, year, release_dt, cover,
+                         *_detail_params, game_id),
                     )
                 conn.commit()
-            return
+            return "updated"
         except psycopg.OperationalError as exc:
             print(f"\n  Write failed mid-connection: {exc}; retrying …", file=sys.stderr)
             time.sleep(_RECONNECT_DELAY)
 
 
-def _fetch_games(database_url: str, all_games: bool) -> list[tuple[int, str]]:
+def _fetch_games(database_url: str, all_games: bool) -> list[tuple[int, int, str]]:
     with _db_connect(database_url) as conn:
         with conn.cursor() as cur:
+            # Exclude games whose title mentions PS4 but not PS5 — these are
+            # PS4-only listings that the scraper stored under the PS5 platform
+            # because load_to_postgres always uses --platform ps5.
+            ps5_only = (
+                "(g.title NOT ILIKE '%ps4%' OR g.title ILIKE '%ps5%')"
+            )
+            base = (
+                "SELECT g.id, g.platform_id, g.title FROM games g "
+                f"JOIN platforms p ON p.id = g.platform_id AND p.slug = 'ps5' "
+                f"WHERE {ps5_only}"
+            )
             if all_games:
-                cur.execute("SELECT id, title FROM games ORDER BY title")
+                cur.execute(base + " ORDER BY g.title")
             else:
-                cur.execute("SELECT id, title FROM games WHERE igdb_id IS NULL ORDER BY title")
+                cur.execute(base + " AND g.igdb_id IS NULL ORDER BY g.title")
             return cur.fetchall()
 
 
@@ -283,9 +407,9 @@ def main() -> None:
     total = len(games)
     print(f"{total} games to enrich", file=sys.stderr)
 
-    matched = skipped = errors = 0
+    matched = merged = skipped = errors = 0
 
-    for i, (game_id, title) in enumerate(games, start=1):
+    for i, (game_id, platform_id, title) in enumerate(games, start=1):
         print(f"\r[{i:>4}/{total}] {title[:55]:<55}", end="", file=sys.stderr)
 
         search_term = _search_title(title)
@@ -306,27 +430,68 @@ def main() -> None:
             skipped += 1
             continue
 
-        igdb_id = best["id"]
-        cover = _cover_url(best)
-        genre = _genre(best)
-        publisher = _publisher(best)
-        release_dt = _release_date(best)
+        igdb_id   = best["id"]
+        igdb_name = best["name"]
+
+        # Decide whether to adopt IGDB's canonical name as the display title.
+        # _search_title strips edition words before querying IGDB, so IGDB
+        # may return the BASE game even when our DB row is for a specific
+        # edition (e.g. "Collector"). In that case, keep our normalized title
+        # so edition variants stay as separate rows with correct pricing.
+        our_clean_title  = clean_title(title)
+        our_has_edition  = bool(_EDITION_RE.search(our_clean_title))
+        igdb_has_edition = bool(_EDITION_RE.search(igdb_name))
+
+        if not our_has_edition or igdb_has_edition:
+            new_title = clean_title(igdb_name)
+            # Prefer IGDB's own slug (already canonical); fall back to computed.
+            new_slug  = best.get("slug") or url_slugify(normalize_game_name(igdb_name))
+        else:
+            new_title = our_clean_title
+            new_slug  = url_slugify(normalize_game_name(title))
+
+        cover       = _cover_url(best)
+        genre       = _genre(best)
+        publisher   = _publisher(best)
+        release_dt  = _release_date(best)
+        storyline   = best.get("storyline") or None
+        summary     = best.get("summary") or None
+        igdb_url    = best.get("url") or None
+        genres      = _names(best, "genres")
+        game_modes  = _names(best, "game_modes")
+        platforms   = _names(best, "platforms")
+        franchises  = _names(best, "franchises")
+        collections = _names(best, "collections")
+        developers  = _developers(best)
 
         if args.dry_run:
+            edition_note = " [edition kept]" if (our_has_edition and not igdb_has_edition) else ""
             print(
-                f"\n  → igdb:{igdb_id} {best['name']!r}  "
-                f"genre={genre} pub={publisher} date={release_dt} cover={'yes' if cover else 'no'}",
+                f"\n  → igdb:{igdb_id} {igdb_name!r} -> title={new_title!r} slug={new_slug!r}{edition_note}\n"
+                f"     genre={genre} pub={publisher} date={release_dt} cover={'yes' if cover else 'no'}\n"
+                f"     genres={genres} modes={game_modes} platforms={platforms[:3]}\n"
+                f"     franchises={franchises} collections={collections} devs={developers}",
                 file=sys.stderr,
             )
             matched += 1
             continue
 
-        _write_game(database_url, game_id, igdb_id, genre, publisher, release_dt, cover)
-        matched += 1
+        status = _write_game(
+            database_url, game_id, platform_id,
+            igdb_id, igdb_name, new_title, new_slug,
+            genre, publisher, release_dt, cover,
+            storyline, summary, igdb_url,
+            genres, game_modes, platforms, franchises, collections, developers,
+        )
+        if status == "merged":
+            merged += 1
+        else:
+            matched += 1
 
     print(file=sys.stderr)
     print(
-        f"done — {matched} matched and updated, {skipped} no confident match, {errors} request errors",
+        f"done — {matched} updated, {merged} merged into canonical row, "
+        f"{skipped} no confident match, {errors} request errors",
         file=sys.stderr,
     )
 
