@@ -3,7 +3,7 @@
 -- All columns are nullable — existing rows keep NULL until enrich_metadata.py
 -- re-runs and fills them in.  ADD COLUMN IF NOT EXISTS is safe on a live DB.
 
-ALTER TABLE games
+ALTER TABLE ps5_games
   ADD COLUMN IF NOT EXISTS storyline   TEXT,
   ADD COLUMN IF NOT EXISTS summary     TEXT,
   ADD COLUMN IF NOT EXISTS igdb_url    TEXT,

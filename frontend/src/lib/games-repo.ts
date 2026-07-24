@@ -57,7 +57,7 @@ export async function listGames(): Promise<GameSummary[]> {
       MIN(latest.price_toman) AS lowest_price,
       COUNT(DISTINCT l.seller_id) AS store_count,
       COUNT(DISTINCT (l.product_type, l.tier)) AS purchase_type_count
-    FROM games g
+    FROM ps5_games g
     JOIN listings l ON l.game_id = g.id AND l.is_active
     JOIN latest ON latest.listing_id = l.id
     WHERE g.platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')
@@ -102,7 +102,7 @@ export async function getGamesByGenre(genre: string): Promise<GameSummary[]> {
       MIN(latest.price_toman) AS lowest_price,
       COUNT(DISTINCT l.seller_id) AS store_count,
       COUNT(DISTINCT (l.product_type, l.tier)) AS purchase_type_count
-    FROM games g
+    FROM ps5_games g
     LEFT JOIN listings l ON l.game_id = g.id AND l.is_active
     LEFT JOIN latest ON latest.listing_id = l.id
     WHERE g.genre_label ILIKE $1
@@ -148,7 +148,7 @@ export async function searchGames(q: string): Promise<GameSummary[]> {
       MIN(latest.price_toman) AS lowest_price,
       COUNT(DISTINCT l.seller_id) AS store_count,
       COUNT(DISTINCT (l.product_type, l.tier)) AS purchase_type_count
-    FROM games g
+    FROM ps5_games g
     LEFT JOIN listings l ON l.game_id = g.id AND l.is_active
     LEFT JOIN latest ON latest.listing_id = l.id
     WHERE g.title ILIKE $1
@@ -184,7 +184,7 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     cover_url: string | null;
     key_art_url: string | null;
     screenshot_ids: string[] | null;
-  }>(`SELECT id, slug, title, genre_label, publisher, release_year, release_date, cover_url, key_art_url, screenshot_ids FROM games WHERE slug = $1`, [slug]);
+  }>(`SELECT id, slug, title, genre_label, publisher, release_year, release_date, cover_url, key_art_url, screenshot_ids FROM ps5_games WHERE slug = $1`, [slug]);
 
   const game = gameRows[0];
   if (!game) return null;
@@ -266,7 +266,7 @@ const UPCOMING_QUERY = `
     g.release_date,
     MIN(latest.price_toman) AS lowest_price,
     COUNT(DISTINCT l.seller_id) AS seller_count
-  FROM games g
+  FROM ps5_games g
   JOIN listings l ON l.game_id = g.id AND l.is_active
   JOIN latest ON latest.listing_id = l.id
   WHERE g.release_date > CURRENT_DATE
@@ -316,7 +316,7 @@ export async function getFeaturedUpcomingGames(slugs: string[]): Promise<Upcomin
       MIN(latest.price_toman) AS lowest_price,
       COUNT(DISTINCT l.seller_id) AS seller_count,
       w.ord AS slug_order
-    FROM games g
+    FROM ps5_games g
     JOIN wanted w ON w.slug = g.slug
     LEFT JOIN listings l ON l.game_id = g.id AND l.is_active
     LEFT JOIN latest ON latest.listing_id = l.id

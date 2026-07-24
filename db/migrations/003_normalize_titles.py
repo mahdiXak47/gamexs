@@ -76,7 +76,7 @@ def run(dry_run: bool = False) -> None:
 
     with psycopg.connect(database_url) as conn:
         with conn.cursor() as cur:
-            cur.execute("SELECT id, platform_id, slug, title FROM games ORDER BY id")
+            cur.execute("SELECT id, platform_id, slug, title FROM ps5_games ORDER BY id")
             games = cur.fetchall()
 
         print(f"Loaded {len(games)} games from database.")
@@ -141,13 +141,13 @@ def run(dry_run: bool = False) -> None:
                 )
                 merge_count += cur.rowcount
 
-                cur.execute("DELETE FROM games WHERE id = %s", (dup_id,))
+                cur.execute("DELETE FROM ps5_games WHERE id = %s", (dup_id,))
                 delete_count += cur.rowcount
 
             # Phase 2: update slug + title on primaries
             for gid, new_slug, new_title in updates:
                 cur.execute(
-                    "UPDATE games SET slug = %s, title = %s WHERE id = %s",
+                    "UPDATE ps5_games SET slug = %s, title = %s WHERE id = %s",
                     (new_slug, new_title, gid),
                 )
                 update_count += cur.rowcount

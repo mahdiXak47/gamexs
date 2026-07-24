@@ -60,7 +60,7 @@ WITH source AS (
         l.first_seen_at,
         l.last_seen_at,
         l.id                    AS old_listing_id
-    FROM games g
+    FROM ps5_games g
     JOIN listings l ON l.game_id = g.id
     WHERE g.title ILIKE '%playstation plus%'
        OR g.title ILIKE '%پلی استیشن پلاس%'
@@ -93,7 +93,7 @@ ON CONFLICT (ps_plus_id, scraped_at) DO NOTHING;
 
 -- ── 5. Remove from games (cascades to listings + price_history) ───────────────
 
-DELETE FROM games
+DELETE FROM ps5_games
 WHERE title ILIKE '%playstation plus%'
    OR title ILIKE '%پلی استیشن پلاس%'
    OR title ILIKE '%پلاس اسنشیال%';

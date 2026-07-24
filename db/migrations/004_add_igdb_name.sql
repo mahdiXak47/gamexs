@@ -7,4 +7,4 @@
 -- Safe to run against a live database (ADD COLUMN IF NOT EXISTS is non-blocking
 -- on Postgres 16 when the column has no default and allows NULL).
 
-ALTER TABLE games ADD COLUMN IF NOT EXISTS igdb_name TEXT;
+ALTER TABLE ps5_games ADD COLUMN IF NOT EXISTS igdb_name TEXT;

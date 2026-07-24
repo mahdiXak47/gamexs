@@ -144,7 +144,7 @@ export async function GET(request: NextRequest) {
       slug: string; title: string; genre_label: string | null; cover_url: string | null;
     }>(
       `SELECT g.slug, g.title, g.genre_label, g.cover_url
-       FROM games g
+       FROM ps5_games g
        WHERE g.platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')
          AND g.title ILIKE $1
        ORDER BY g.title LIMIT 8`,
@@ -166,7 +166,7 @@ export async function GET(request: NextRequest) {
 
     // Fetch seed title
     const { rows: seedRows } = await query<{ title: string }>(
-      `SELECT title FROM games WHERE slug = $1`, [slug]
+      `SELECT title FROM ps5_games WHERE slug = $1`, [slug]
     );
     const gameTitle = seedRows[0]?.title;
     if (!gameTitle) return NextResponse.json([]);
@@ -180,7 +180,7 @@ export async function GET(request: NextRequest) {
        SELECT g.slug, g.title, g.cover_url, g.genre_label,
               MIN(latest.price_toman) AS lowest_price,
               COUNT(DISTINCT l.seller_id)::text AS store_count
-       FROM games g
+       FROM ps5_games g
        LEFT JOIN listings l ON l.game_id = g.id AND l.is_active
        LEFT JOIN latest ON latest.listing_id = l.id
        WHERE g.platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')

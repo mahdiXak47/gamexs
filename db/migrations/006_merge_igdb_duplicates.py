@@ -144,7 +144,7 @@ def run(dry_run: bool = False) -> None:
         with conn.cursor() as cur:
             cur.execute("""
                 SELECT id, platform_id, igdb_id, igdb_name, title, slug
-                FROM games
+                FROM ps5_games
                 WHERE igdb_id IS NOT NULL
                 ORDER BY id
             """)
@@ -206,13 +206,13 @@ def run(dry_run: bool = False) -> None:
                         (primary[0], dup_gid),
                     )
                     total_merged += cur.rowcount
-                    cur.execute("DELETE FROM games WHERE id = %s", (dup_gid,))
+                    cur.execute("DELETE FROM ps5_games WHERE id = %s", (dup_gid,))
                     total_deleted += cur.rowcount
 
                 # Update primary to canonical title/slug, handling the case
                 # where another row already owns the new slug.
                 cur.execute(
-                    "SELECT id FROM games WHERE platform_id = %s AND slug = %s AND id != %s",
+                    "SELECT id FROM ps5_games WHERE platform_id = %s AND slug = %s AND id != %s",
                     (pid, new_slug, primary[0]),
                 )
                 slug_conflict = cur.fetchone()
@@ -224,12 +224,12 @@ def run(dry_run: bool = False) -> None:
                         "UPDATE listings SET game_id = %s WHERE game_id = %s",
                         (conflict_id, primary[0]),
                     )
-                    cur.execute("DELETE FROM games WHERE id = %s", (primary[0],))
+                    cur.execute("DELETE FROM ps5_games WHERE id = %s", (primary[0],))
                     total_deleted += 1
                     print(f"  NOTE: canonical slug already owned by game#{conflict_id}; merged primary into it")
                 else:
                     cur.execute(
-                        "UPDATE games SET title = %s, slug = %s WHERE id = %s",
+                        "UPDATE ps5_games SET title = %s, slug = %s WHERE id = %s",
                         (new_title, new_slug, primary[0]),
                     )
             conn.commit()

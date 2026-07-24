@@ -110,6 +110,54 @@ external dependency or redirect overhead. Steps:
   Needs: pre-order badge on GameCard, release date prominence on detail page,
   and filtering/sorting that accounts for unreleased titles.
 
+## Active: Game editions cleanup
+
+- **In progress**: identifying and merging duplicate game rows that represent the
+  same edition (e.g. "Collector 007 First Light" and "007 First Light Collector Edition"
+  should be one row). Migration 006 handles IGDB-matched duplicates automatically;
+  unmatched rows require manual review and SQL merges.
+- **Pending**: audit remaining special edition rows that have no `igdb_id` and
+  verify their edition labels are correct (Legacy Edition, Collector Edition, etc.).
+
+## Pending: Legal and trust
+
+- **Enamad sign**: apply for and integrate the Enamad (اینماد) e-trust certificate
+  into the website. Required for credibility with Iranian users and sellers.
+
+## Pending: Branding
+
+- **Logo in application**: integrate the GameXS logo into the application UI
+  (header, favicon, OG image, loading screen). Logo assets need to be finalised
+  and placed in `frontend/public/`.
+
+## Pending: Authentication
+
+- **SMS login and signup for customers and sellers**: implement OTP-based
+  authentication via SMS for both customer-facing login/signup and seller
+  onboarding. Requires an SMS gateway integration (e.g. Kavenegar or Melipayamak),
+  OTP generation and verification flow, and session management.
+
+## Pending: Game detail page
+
+- **Complete game header**: finish the hero section on each game detail page
+  (cover art, title, release date, genre, developer, IGDB rating, platform badges).
+- **Similar games section**: on each game detail page show a list of related
+  games (same genre, franchise, or developer) pulled from the DB using IGDB
+  metadata already stored in `games.genres`, `games.franchises`, `games.developers`.
+
+## Pending: User features
+
+- **Bucket list / wishlist**: allow logged-in users to save games to a personal
+  bucket list and optionally get notified when the price drops.
+
+## Pending: Database finalisation
+
+- **Lock the database schema**: once the data model is stable, freeze the schema,
+  write a final migration that documents the locked state, and restrict write access
+  so that only the IGDB enrichment pipeline (`enrich_metadata.py`) and the daily
+  scraper can write into the database. All other writes should go through the
+  application layer with strict validation.
+
 ## Future features
 
 - **Mail server + پشتیبانی section**: set up a mail server (e.g. Postfix/SES/Resend)

@@ -17,7 +17,7 @@ export async function GET(request: NextRequest) {
       FROM price_history ORDER BY listing_id, scraped_at DESC
     )
     SELECT g.slug, g.title, g.cover_url, COUNT(DISTINCT l.seller_id) AS store_count
-    FROM games g
+    FROM ps5_games g
     JOIN listings l ON l.game_id = g.id AND l.is_active
     JOIN latest ON latest.listing_id = l.id
     WHERE g.genre_label ILIKE $1

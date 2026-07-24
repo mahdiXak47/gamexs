@@ -19,7 +19,7 @@ CREATE TABLE sellers (
     is_active BOOLEAN NOT NULL DEFAULT true
 );
 
-CREATE TABLE games (
+CREATE TABLE ps5_games (
     id SERIAL PRIMARY KEY,
     platform_id SMALLINT NOT NULL REFERENCES platforms (id),
     slug TEXT NOT NULL,
@@ -40,7 +40,7 @@ CREATE TABLE games (
 -- "does this offer exist" and "is it still listed by the seller".
 CREATE TABLE listings (
     id SERIAL PRIMARY KEY,
-    game_id INT NOT NULL REFERENCES games (id) ON DELETE CASCADE,
+    game_id INT NOT NULL REFERENCES ps5_games (id) ON DELETE CASCADE,
     seller_id INT NOT NULL REFERENCES sellers (id) ON DELETE CASCADE,
     product_type product_type NOT NULL,
     tier access_tier,

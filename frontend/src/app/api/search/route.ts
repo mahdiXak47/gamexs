@@ -24,7 +24,7 @@ export async function GET(request: NextRequest) {
       g.cover_url,
       g.genre_label,
       MIN(latest.price_toman) AS lowest_price
-    FROM games g
+    FROM ps5_games g
     LEFT JOIN listings l ON l.game_id = g.id AND l.is_active
     LEFT JOIN latest ON latest.listing_id = l.id
     WHERE g.title ILIKE $1
