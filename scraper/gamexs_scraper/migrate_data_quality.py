@@ -41,7 +41,7 @@ _VA_QIMAT_TITLE_RE = re.compile(r"^و\s+قیمت\s+", re.IGNORECASE)
 # ---------------------------------------------------------------------------
 
 def _fix_ampersand(cur: psycopg.Cursor, dry_run: bool) -> int:
-    cur.execute("SELECT id, slug FROM games WHERE slug LIKE '%&%' ORDER BY id")
+    cur.execute("SELECT id, slug FROM ps5_games WHERE slug LIKE '%&%' ORDER BY id")
     rows = cur.fetchall()
     if not rows:
         print("  [1] ✓  No & in slugs — already clean")
@@ -57,7 +57,7 @@ def _fix_ampersand(cur: psycopg.Cursor, dry_run: bool) -> int:
         return len(rows)
 
     cur.execute("""
-        UPDATE games
+        UPDATE ps5_games
         SET slug = trim('-' from regexp_replace(replace(slug, '&', ''), '-{2,}', '-', 'g'))
         WHERE slug LIKE '%&%'
     """)
@@ -73,7 +73,7 @@ def _merge_rdr_bundle(cur: psycopg.Cursor, dry_run: bool) -> int:
     cur.execute("""
         SELECT g.id, g.slug, g.title,
                COUNT(l.id) AS listing_count
-        FROM games g
+        FROM ps5_games g
         LEFT JOIN listings l ON l.game_id = g.id
         WHERE g.slug LIKE '%red-dead-redemption%bundle%'
         GROUP BY g.id, g.slug, g.title
@@ -99,13 +99,13 @@ def _merge_rdr_bundle(cur: psycopg.Cursor, dry_run: bool) -> int:
 
     for dup_id, *_ in duplicates:
         cur.execute("UPDATE listings SET game_id = %s WHERE game_id = %s", (canonical_id, dup_id))
-        cur.execute("DELETE FROM games WHERE id = %s", (dup_id,))
+        cur.execute("DELETE FROM ps5_games WHERE id = %s", (dup_id,))
 
     # Ensure canonical has a clean slug and title
     clean_slug  = "red-dead-redemption-red-dead-redemption-2-bundle"
     clean_title = "Red Dead Redemption & Red Dead Redemption 2 Bundle"
     cur.execute(
-        "UPDATE games SET slug = %s, title = %s WHERE id = %s",
+        "UPDATE ps5_games SET slug = %s, title = %s WHERE id = %s",
         (clean_slug, clean_title, canonical_id),
     )
     print(f"  [2] ✓  merged {len(duplicates)} duplicate(s); canonical slug → {clean_slug!r}")
@@ -118,7 +118,7 @@ def _merge_rdr_bundle(cur: psycopg.Cursor, dry_run: bool) -> int:
 
 def _fix_va_qimat(cur: psycopg.Cursor, dry_run: bool) -> int:
     cur.execute(
-        "SELECT id, slug, title FROM games WHERE slug LIKE %s ORDER BY id",
+        "SELECT id, slug, title FROM ps5_games WHERE slug LIKE %s ORDER BY id",
         (f"{_VA_QIMAT_PREFIX}%",),
     )
     rows = cur.fetchall()
@@ -135,7 +135,7 @@ def _fix_va_qimat(cur: psycopg.Cursor, dry_run: bool) -> int:
 
         # Does a canonical row already exist with the clean slug?
         cur.execute(
-            "SELECT id FROM games WHERE slug = %s AND id != %s",
+            "SELECT id FROM ps5_games WHERE slug = %s AND id != %s",
             (clean_slug, game_id),
         )
         canonical = cur.fetchone()
@@ -150,7 +150,7 @@ def _fix_va_qimat(cur: psycopg.Cursor, dry_run: bool) -> int:
                 "UPDATE listings SET game_id = %s WHERE game_id = %s",
                 (canonical_id, game_id),
             )
-            cur.execute("DELETE FROM games WHERE id = %s", (game_id,))
+            cur.execute("DELETE FROM ps5_games WHERE id = %s", (game_id,))
             merged += 1
         else:
             if dry_run:
@@ -158,7 +158,7 @@ def _fix_va_qimat(cur: psycopg.Cursor, dry_run: bool) -> int:
                 renamed += 1
                 continue
             cur.execute(
-                "UPDATE games SET slug = %s, title = %s WHERE id = %s",
+                "UPDATE ps5_games SET slug = %s, title = %s WHERE id = %s",
                 (clean_slug, clean_title, game_id),
             )
             renamed += 1

@@ -50,13 +50,13 @@ def get_or_create_game(
     # Trusted sellers always update cover_url (so Digikala's clean images win).
     # Untrusted sellers only set it when it is still NULL.
     cover_update = (
-        "cover_url = COALESCE(EXCLUDED.cover_url, games.cover_url)"
+        "cover_url = COALESCE(EXCLUDED.cover_url, ps5_games.cover_url)"
         if trusted_cover
-        else "cover_url = COALESCE(games.cover_url, EXCLUDED.cover_url)"
+        else "cover_url = COALESCE(ps5_games.cover_url, EXCLUDED.cover_url)"
     )
     cur.execute(
         f"""
-        INSERT INTO games (platform_id, slug, title, cover_url)
+        INSERT INTO ps5_games (platform_id, slug, title, cover_url)
         VALUES (%s, %s, %s, %s)
         ON CONFLICT (platform_id, slug) DO UPDATE SET
             {cover_update}
@@ -67,7 +67,7 @@ def get_or_create_game(
     row = cur.fetchone()
     if row:
         return row[0]
-    cur.execute("SELECT id FROM games WHERE platform_id = %s AND slug = %s", (platform_id, slug))
+    cur.execute("SELECT id FROM ps5_games WHERE platform_id = %s AND slug = %s", (platform_id, slug))
     return cur.fetchone()[0]
 
 

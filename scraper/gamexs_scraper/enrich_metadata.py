@@ -257,7 +257,7 @@ def _write_game(
                 with conn.cursor() as cur:
                     # Check whether another game already owns the canonical slug.
                     cur.execute(
-                        "SELECT id FROM games WHERE platform_id = %s AND slug = %s AND id != %s",
+                        "SELECT id FROM ps5_games WHERE platform_id = %s AND slug = %s AND id != %s",
                         (platform_id, new_slug, game_id),
                     )
                     conflict = cur.fetchone()
@@ -280,10 +280,10 @@ def _write_game(
                             "UPDATE listings SET game_id = %s WHERE game_id = %s",
                             (primary_id, game_id),
                         )
-                        cur.execute("DELETE FROM games WHERE id = %s", (game_id,))
+                        cur.execute("DELETE FROM ps5_games WHERE id = %s", (game_id,))
                         cur.execute(
                             """
-                            UPDATE games SET
+                            UPDATE ps5_games SET
                                 igdb_id      = %s,
                                 igdb_name    = %s,
                                 title        = %s,
@@ -312,7 +312,7 @@ def _write_game(
                     # No conflict — update this game row with IGDB data.
                     cur.execute(
                         """
-                        UPDATE games SET
+                        UPDATE ps5_games SET
                             igdb_id      = %s,
                             igdb_name    = %s,
                             title        = %s,
@@ -353,7 +353,7 @@ def _fetch_games(database_url: str, all_games: bool) -> list[tuple[int, int, str
                 "(g.title NOT ILIKE '%ps4%' OR g.title ILIKE '%ps5%')"
             )
             base = (
-                "SELECT g.id, g.platform_id, g.title FROM games g "
+                "SELECT g.id, g.platform_id, g.title FROM ps5_games g "
                 f"JOIN platforms p ON p.id = g.platform_id AND p.slug = 'ps5' "
                 f"WHERE {ps5_only}"
             )

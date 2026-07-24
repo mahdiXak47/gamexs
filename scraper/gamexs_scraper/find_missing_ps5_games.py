@@ -112,14 +112,14 @@ def _fetch_igdb_ps5_games(session: requests.Session) -> list[dict]:
 def _fetch_our_igdb_ids(database_url: str) -> set[int]:
     with psycopg.connect(database_url, connect_timeout=10) as conn:
         with conn.cursor() as cur:
-            cur.execute("SELECT igdb_id FROM games WHERE igdb_id IS NOT NULL")
+            cur.execute("SELECT igdb_id FROM ps5_games WHERE igdb_id IS NOT NULL")
             return {row[0] for row in cur.fetchall()}
 
 
 def _count_our_games(database_url: str) -> tuple[int, int]:
     with psycopg.connect(database_url, connect_timeout=10) as conn:
         with conn.cursor() as cur:
-            cur.execute("SELECT COUNT(*), COUNT(igdb_id) FROM games")
+            cur.execute("SELECT COUNT(*), COUNT(igdb_id) FROM ps5_games")
             return cur.fetchone()
 
 

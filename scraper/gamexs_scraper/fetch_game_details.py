@@ -139,7 +139,7 @@ def _fetch_db_games(database_url: str) -> list[dict]:
     with psycopg.connect(database_url, connect_timeout=10) as conn:
         with conn.cursor() as cur:
             cur.execute(
-                "SELECT id, slug, title, igdb_id FROM games "
+                "SELECT id, slug, title, igdb_id FROM ps5_games "
                 "WHERE igdb_id IS NOT NULL ORDER BY title"
             )
             return [

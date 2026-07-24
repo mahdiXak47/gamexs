@@ -77,7 +77,7 @@ def main() -> None:
 
                 cur.execute(
                     """
-                    UPDATE games
+                    UPDATE ps5_games
                     SET
                         cover_url      = COALESCE(%s, cover_url),
                         screenshot_ids = COALESCE(%s, screenshot_ids)

@@ -170,7 +170,7 @@ def fetch_games(database_url: str) -> list[tuple[int, int, str, str]]:
     with _db_connect(database_url) as conn:
         with conn.cursor() as cur:
             cur.execute(
-                "SELECT id, igdb_id, slug, title FROM games "
+                "SELECT id, igdb_id, slug, title FROM ps5_games "
                 "WHERE igdb_id IS NOT NULL ORDER BY title"
             )
             return cur.fetchall()
@@ -181,7 +181,7 @@ def fetch_games_missing_local(database_url: str) -> list[tuple[int, int, str, st
     with _db_connect(database_url) as conn:
         with conn.cursor() as cur:
             cur.execute(
-                "SELECT id, igdb_id, slug, title FROM games "
+                "SELECT id, igdb_id, slug, title FROM ps5_games "
                 "WHERE igdb_id IS NOT NULL "
                 "AND (cover_url IS NULL OR cover_url NOT LIKE '/api/%') "
                 "ORDER BY title"
@@ -202,7 +202,7 @@ def update_game_media(
                 with conn.cursor() as cur:
                     cur.execute(
                         """
-                        UPDATE games SET
+                        UPDATE ps5_games SET
                             cover_url      = COALESCE(%s, cover_url),
                             screenshot_ids = %s
                         WHERE id = %s
