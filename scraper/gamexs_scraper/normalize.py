@@ -3,6 +3,19 @@ import re
 # Persian/Arabic-Indic digits → ASCII digits
 _PERSIAN_DIGIT_TABLE = str.maketrans("۰۱۲۳۴۵۶۷۸۹", "0123456789")
 
+# Persian transliterations of edition words → canonical English equivalents.
+# Applied BEFORE noise stripping so the English word survives into the title.
+# Order matters: longer/more-specific patterns first.
+_EDITION_TRANSLATIONS: list[tuple[re.Pattern, str]] = [
+    (re.compile(r"\bکالکتور\b", re.IGNORECASE), "Collector"),
+    (re.compile(r"\bلگسی\b|\bلجسی\b|\bلگاسی\b|\bلگیسی\b", re.IGNORECASE), "Legacy"),
+    (re.compile(r"\bدلوکس\b", re.IGNORECASE), "Deluxe"),
+    (re.compile(r"\bاولتیمیت\b|\bالتیمیت\b", re.IGNORECASE), "Ultimate"),
+    (re.compile(r"\bپریمیوم\b", re.IGNORECASE), "Premium"),
+    (re.compile(r"\bاستاندارد\b", re.IGNORECASE), "Standard"),
+    (re.compile(r"\bگلد\b", re.IGNORECASE), "Gold"),
+]
+
 # Ordered longest-phrase-first so e.g. "خرید اکانت بازی" is stripped whole
 # instead of leaving stray "اکانت" behind. This is a heuristic good enough to
 # group one seller's own listings; cross-seller/catalog matching should go
@@ -21,9 +34,6 @@ _NOISE_PATTERNS = [
     # "نسخه" = "version/edition" — redundant when English "Edition" is also present
     # e.g. "Alan Wake 2 نسخه Deluxe Edition" → "Alan Wake 2 Deluxe Edition"
     r"نسخه",
-    # "دلوکس" = Persian transliteration of "Deluxe" — redundant with English "Deluxe"
-    # e.g. "Alan Wake II نسخه دلوکس" → "Alan Wake II" (same slug as "Alan Wake 2 Deluxe" after Deluxe normalization)
-    r"دلوکس",
     # "قیمت" = "price" — standalone variant; compound "و قیمت" is matched above
     r"قیمت",
     # "ویدیویی" = "video [game]" — Digikala product-type prefix
@@ -61,25 +71,65 @@ _NOISE_PATTERNS = [
 _COMPILED_NOISE = [re.compile(p, re.IGNORECASE) for p in _NOISE_PATTERNS]
 _DASH_STRIP_RE = re.compile(r"^[\s\-–—]+|[\s\-–—]+$")
 _WHITESPACE_RE = re.compile(r"\s+")
+# Fix capitalize() apostrophe artifact: "Assassin'S" → "Assassin's"
+_APOSTROPHE_FIX_RE = re.compile(r"([A-Z])'([A-Z])")
+
+# Valid Roman numerals I–XXX (enough to cover any game series)
+_ROMAN_NUMERAL_RE = re.compile(
+    r"^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$", re.IGNORECASE
+)
+
+
+def _apply_title_case(text: str) -> str:
+    """Title-case each whitespace-separated token.
+
+    Preserved as-is (all-caps kept):
+    - Tokens ≤ 3 ASCII letters: acronyms like "II", "RPG", "GTA", "IV", "DLC"
+    - Valid Roman numerals: "VIII", "XII", etc.
+
+    Everything else is word-capitalised, fixing seller noise like
+    "FIRST LIGHT" → "First Light" and "first light" → "First Light".
+    """
+    result_words: list[str] = []
+    for word in text.split():
+        ascii_only = re.sub(r"[^A-Za-z]", "", word)
+        is_uppercase = ascii_only and ascii_only == ascii_only.upper()
+        is_short_acronym = is_uppercase and len(ascii_only) <= 3
+        is_roman = is_uppercase and bool(_ROMAN_NUMERAL_RE.match(ascii_only))
+        if is_short_acronym or is_roman:
+            result_words.append(word)  # keep acronym / Roman numeral casing
+        else:
+            result_words.append(word.capitalize())
+    joined = " ".join(result_words)
+    # Fix capitalize() apostrophe artifact: "Assassin'S" → "Assassin's"
+    joined = _APOSTROPHE_FIX_RE.sub(lambda m: m.group(1) + "'" + m.group(2).lower(), joined)
+    return joined
 
 
 def clean_title(raw_title: str) -> str:
-    """Same boilerplate-stripping as normalize_game_name, but keeps original
-    casing — for a display title rather than a grouping/matching key."""
-    # Normalise Persian/Arabic-Indic digits before any other processing so
-    # titles like "۰۰۷ First Light" slug-match "007 First Light".
+    """Strip seller boilerplate, translate Persian edition words to English,
+    and return a consistently Title-Cased display title."""
+    # 1. Normalise Persian/Arabic-Indic digits so "۰۰۷ First Light" and
+    #    "007 First Light" share the same slug.
     text = raw_title.translate(_PERSIAN_DIGIT_TABLE)
-    # Strip anything in parentheses (e.g. "( ارسال رایگان )" = free shipping notes)
+    # 2. Strip anything in parentheses (e.g. "( ارسال رایگان )" = free shipping)
     text = re.sub(r"\([^)]*\)", " ", text)
+    # 3. Translate Persian edition words → English BEFORE noise stripping so
+    #    "نسخه کالکتور" → "نسخه Collector" → (strip نسخه) → "Collector".
+    for pattern, replacement in _EDITION_TRANSLATIONS:
+        text = pattern.sub(replacement, text)
+    # 4. Strip seller boilerplate noise.
     for pattern in _COMPILED_NOISE:
         text = pattern.sub(" ", text)
+    # 5. Tidy whitespace and leading/trailing dashes.
     text = _WHITESPACE_RE.sub(" ", text).strip()
     text = _DASH_STRIP_RE.sub("", text)
-    # Insert a space between a digit and an immediately adjacent letter so
-    # "007First Light" → "007 First Light" and all sellers share one slug.
+    # 6. Insert a space between a digit and an immediately adjacent letter so
+    #    "007First Light" → "007 First Light".
     text = re.sub(r"(\d)([A-Za-z])", r"\1 \2", text)
     text = _WHITESPACE_RE.sub(" ", text).strip()
-    return text
+    # 7. Apply consistent Title Case across all seller variants.
+    return _apply_title_case(text)
 
 
 def normalize_game_name(raw_title: str) -> str:
