@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Vazirmatn } from "next/font/google";
 import "./globals.css";
+import { AuthProvider } from "@/context/AuthContext";
+import AuthModal from "@/components/AuthModal";
 
 const vazirmatn = Vazirmatn({
   variable: "--font-vazirmatn",
@@ -33,7 +35,10 @@ export default function RootLayout({
     <html lang="fa" dir="rtl" className={`${vazirmatn.variable} h-full antialiased`}>
       <body suppressHydrationWarning>
         <a href="#main-content" className="skip-link">رفتن به محتوای اصلی</a>
-        {children}
+        <AuthProvider>
+          <AuthModal />
+          {children}
+        </AuthProvider>
       </body>
     </html>
   );

@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import MegaMenu from "./MegaMenu";
+import { useAuth } from "@/context/AuthContext";
 
 const SearchOverlay = dynamic(() => import("./SearchOverlay"), { ssr: false });
 
@@ -60,6 +61,7 @@ export default function Header() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [megaOpen, setMegaOpen] = useState(false);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
+  const { user, openAuthModal, logout } = useAuth();
 
   // Cmd/Ctrl+K shortcut
   useEffect(() => {
@@ -132,12 +134,26 @@ export default function Header() {
             >
               <SearchIcon />
             </button>
-            <Link
-              href="#"
-              className="hidden sm:inline-flex items-center gap-1.5 border border-white/40 text-white text-sm font-medium px-4 py-1.5 rounded-full hover:bg-white/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
-            >
-              ورود
-            </Link>
+            {user ? (
+              <div className="hidden sm:flex items-center gap-2">
+                <span className="text-white/80 text-sm font-medium">
+                  {user.first_name || user.phone_number}
+                </span>
+                <button
+                  onClick={() => logout()}
+                  className="cursor-pointer border border-white/40 text-white text-sm font-medium px-3 py-1.5 rounded-full hover:bg-white/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                >
+                  خروج
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={openAuthModal}
+                className="hidden sm:inline-flex cursor-pointer items-center gap-1.5 border border-white/40 text-white text-sm font-medium px-4 py-1.5 rounded-full hover:bg-white/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              >
+                ورود
+              </button>
+            )}
             <button
               aria-label="منو"
               className="cursor-pointer md:hidden p-2 rounded-full text-white hover:bg-white/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
@@ -164,12 +180,21 @@ export default function Header() {
                 {item.label}
               </Link>
             ))}
-            <Link
-              href="#"
-              className="mt-2 text-center border border-white/40 text-white text-sm font-medium px-4 py-2 rounded-xl hover:bg-white/10 transition-colors"
-            >
-              ورود
-            </Link>
+            {user ? (
+              <button
+                onClick={() => { logout(); setMobileOpen(false); }}
+                className="mt-2 w-full cursor-pointer text-center border border-white/40 text-white text-sm font-medium px-4 py-2 rounded-xl hover:bg-white/10 transition-colors"
+              >
+                خروج ({user.first_name || user.phone_number})
+              </button>
+            ) : (
+              <button
+                onClick={() => { openAuthModal(); setMobileOpen(false); }}
+                className="mt-2 w-full cursor-pointer text-center border border-white/40 text-white text-sm font-medium px-4 py-2 rounded-xl hover:bg-white/10 transition-colors"
+              >
+                ورود
+              </button>
+            )}
           </div>
         )}
       </div>
