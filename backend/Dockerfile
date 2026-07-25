@@ -4,7 +4,7 @@ WORKDIR /app
 
 RUN pip install --no-cache-dir --upgrade pip
 
-COPY requirements.txt .
+COPY backend/requirements.txt .
 RUN pip install --no-cache-dir --user -r requirements.txt
 
 
@@ -13,7 +13,7 @@ FROM python:3.12-slim
 WORKDIR /app
 
 COPY --from=builder /root/.local /root/.local
-COPY . .
+COPY backend/ .
 
 ENV PATH=/root/.local/bin:$PATH
 ENV PYTHONUNBUFFERED=1
