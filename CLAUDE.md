@@ -11,13 +11,14 @@ model, seller list, and UI requirements: **`docs/PROJECT_CONTEXT.md`** (written
 to be handed to a separate design conversation — read it before making
 product-shape decisions). Current build status and known gaps: **`TODO.md`**.
 
-Monorepo with three independent pieces that are **not yet wired together**:
+Monorepo with four packages:
 
-- `scraper/` — Python, scrapes seller sites, writes CSV/JSONL to `scraper/output/` (gitignored, regenerable).
-- `db/` — Postgres 16 schema, currently empty (no ingestion script loads scraper output into it yet).
-- `frontend/` — Next.js UI, currently reads **hardcoded mock data** from `frontend/src/lib/games.ts`, not the scraper or the database.
+- `scraper/` — Python, scrapes 13 seller sites, loads into Postgres, enriches via IGDB.
+- `db/` — Postgres 16 schema (`ps5_games`, `sellers`, `listings`, `price_history`, `ps_plus`).
+- `frontend/` — Next.js 16 UI, reads directly from the Postgres DB (no mock data).
+- `backend/` — Django 5.1 REST API, user accounts, auth, cart, orders, tickets.
 
-Connecting these (scraper → Postgres → frontend) is the main outstanding work; see `TODO.md`.
+The scraper writes to the DB, the frontend reads from it, and the backend shares the same DB while managing its own user-facing tables. Pending work is in `TODO.md`.
 
 ## The product taxonomy (needed to understand any of the three pieces)
 
@@ -38,6 +39,7 @@ conventions** — a real gotcha for anyone writing the scraper→DB ingestion pa
 | `scraper/gamexs_scraper/models.py` | `ProductType` / `AccessTier` (Python `str` enums) | lowercase snake_case | `"account_game"`, `"capacity_1"` |
 | `db/init/01_schema.sql` | `product_type` / `access_tier` (Postgres enums) | UPPER_SNAKE | `'ACCOUNT_GAME'`, `'CAPACITY_1'` |
 | `frontend/src/lib/types.ts` | `ProductType` / `AccessTier` (TS union types) | UPPER_SNAKE | `"ACCOUNT_GAME"`, `"CAPACITY_1"` |
+| `backend/apps/orders/models.py` | `product_type` / `tier` (CharField) | UPPER_SNAKE | same as DB — values are passed through, not re-validated |
 
 The DB additionally enforces via a `CHECK` constraint that `tier` is set if
 and only if `product_type = 'ACCOUNT_GAME'`.
@@ -106,10 +108,10 @@ docker exec -it gamexs-postgres psql -U gamexs -d gamexs
   `price_history` is **append-only**, one row per scrape per listing, and is
   what price-over-time charts will query via a range scan on `scraped_at` —
   never update a price in place.
-- `sellers`/`platforms` seed data in `db/init/02_seed.sql` mirrors
-  `frontend/src/lib/sellers.ts` — keep them in sync until the frontend reads
-  from this DB instead of its mock data (at which point delete the frontend
-  copy).
+- The main game catalog table is **`ps5_games`** (was renamed from `games` in migration 006).
+  All SQL in scraper, frontend API routes, and backend catalog models use `ps5_games`.
+- `sellers`/`platforms` seed data in `db/init/02_seed.sql`. The frontend no longer uses a
+  hardcoded `sellers.ts` map — it joins from the DB.
 
 ## `frontend/` (Next.js 16, App Router, Turbopack)
 
@@ -149,3 +151,60 @@ APIs/conventions (e.g. dynamic route `params` is a `Promise` that must be
   mirror the scraper's `ProductType`/`AccessTier` taxonomy and the DB's
   `sellers` table so swapping in real data later is a data-source change, not
   a UI rewrite — keep that shape if you extend it.
+
+## `backend/` (Django 5.1, Django REST Framework)
+
+```bash
+cd backend
+cp .env.example .env            # first time — set POSTGRES_* to match the repo .env
+python3 -m venv .venv && .venv/bin/pip install -r requirements.txt   # first-time setup
+DJANGO_SETTINGS_MODULE=gamexs.settings.local .venv/bin/python manage.py migrate
+DJANGO_SETTINGS_MODULE=gamexs.settings.local .venv/bin/python manage.py runserver
+```
+
+The backend runs on `http://localhost:8000` by default and shares the same Postgres DB as the
+scraper and frontend (configured via `POSTGRES_*` env vars in `backend/.env`).
+
+**Settings split**: `gamexs/settings/base.py` (shared) + `local.py` (dev) + `production.py`.
+Always set `DJANGO_SETTINGS_MODULE` explicitly — the default in `manage.py` points at `local`.
+
+**App layout** (`backend/apps/`):
+
+| App | Tables managed | Purpose |
+|---|---|---|
+| `accounts` | `accounts_user`, `accounts_otpcode`, `accounts_emailverificationtoken` | Custom User model, OTP signup, email verification |
+| `catalog` | none (`managed=False`) | Read-only Django models wrapping `ps5_games`, `sellers`, `listings` |
+| `orders` | `orders_cartitem`, `orders_order` | Shopping cart + order history |
+| `wishlist` | `wishlist_wishlistitem` | Per-user wishlist with optional price-drop threshold |
+| `game_accounts` | `game_accounts_psnaccount` | PSN account storage per user |
+| `tickets` | `tickets_ticket`, `tickets_ticketmessage` | Support ticket system |
+
+**Auth flow** (4 steps):
+1. `POST /api/auth/signup/` — phone + password → sends OTP SMS, returns signed `otp_token` (5 min JWT)
+2. `POST /api/auth/verify-otp/` — `otp_token` + 6-digit code → activates account, returns `access` + `refresh` JWT
+3. `POST /api/auth/complete-profile/` — first/last name + email → sends verification email
+4. `GET /api/auth/verify-email/?token=<uuid>` — activates `is_email_verified`, redirects to frontend
+
+Login (`POST /api/auth/login/`) uses phone + password only — no OTP. Returns JWT even if email is not yet verified (check `email_verified` flag in response to prompt verification).
+
+**JWT**: access token 1 h, refresh 30 d, rotate + blacklist on logout.
+`Authorization: Bearer <access>` header on all authenticated endpoints.
+
+**OTP**: 6 digits, 2-min expiry (`OTP_EXPIRY_SECONDS`), 5-attempt lockout (`OTP_MAX_ATTEMPTS`).
+OTP codes are printed to console in dev mode (`SMS_BACKEND=console`). To use a real provider set
+`SMS_BACKEND=kavenegar` and `SMS_API_KEY` in `.env`.
+
+**`catalog` app is `managed=False`** — Django will never create or drop `ps5_games`, `sellers`,
+or `listings`. Those tables belong to the scraper's schema in `db/init/01_schema.sql`. Do not add
+migrations for `catalog` models.
+
+**API base paths**:
+```
+/api/auth/          signup, verify-otp, complete-profile, verify-email, login, logout, token/refresh
+/api/profile/       GET / PATCH own profile
+/api/wishlist/      GET, POST, DELETE {id}
+/api/game-accounts/ psn/, psn/{id}/
+/api/cart/          GET, POST items/, DELETE items/{id}/, DELETE clear/
+/api/orders/        GET, POST, GET {id}/
+/api/tickets/       GET, POST, GET {id}/, POST {id}/messages/
+```
