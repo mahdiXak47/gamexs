@@ -130,12 +130,56 @@ external dependency or redirect overhead. Steps:
   (header, favicon, OG image, loading screen). Logo assets need to be finalised
   and placed in `frontend/public/`.
 
+## Active: Django REST backend
+
+The backend scaffold is complete and running (`backend/`). Remaining tasks:
+
+### Missing endpoints
+
+- **Forgot password flow**: `OTPCode.PURPOSE_PASSWORD_RESET` is modeled but has
+  no views. Needs:
+  - `POST /api/auth/forgot-password/` — accepts phone number, sends OTP, returns `otp_token`
+  - `POST /api/auth/reset-password/` — accepts `otp_token` + code + new password
+
+- **Resend OTP**: if the 2-minute OTP expires during signup there is no resend path.
+  Needs `POST /api/auth/resend-otp/` that accepts an `otp_token` and fires a new code.
+
+- **Email re-verification on email change**: `PATCH /api/profile/` allows changing
+  `email` without resetting `is_email_verified`. When email changes, set
+  `is_email_verified=False` and send a new verification email.
+
+### Admin panel
+
+- **Register all models in admin.py** — all six `admin.py` files are empty.
+  The support team needs Django admin to manage tickets, view orders, and
+  manage users. Register: `User`, `OTPCode`, `Order`, `Ticket`, `TicketMessage`,
+  `WishlistItem`, `PSNAccount`.
+
+### Infrastructure
+
+- **`.gitignore` for `backend/`** — `.venv/`, `__pycache__/`, `.env`, `*.pyc`,
+  `staticfiles/` are not gitignored and will be committed accidentally.
+
+- **OTP console output buffering** — when `SMS_BACKEND=console`, the OTP `print()`
+  in `apps/accounts/services/sms.py` is buffered and may not appear in server logs.
+  Add `PYTHONUNBUFFERED=1` to `backend/.env` or replace `print()` with `logging`.
+
+- **`wsgi.py` settings path** — `gamexs/wsgi.py` still defaults to `gamexs.settings`
+  (Django scaffold). Change to `gamexs.settings.production` before deploying.
+
+### SMS provider
+
+- **Wire SMS.ir** as the production SMS backend. Provider: `https://api.sms.ir`
+  Auth: `x-api-key` header. OTP send endpoint: `POST /v1/send/verify`.
+  Update `apps/accounts/services/sms.py` with an `smsir` backend branch.
+  Required env vars: `SMS_BACKEND=smsir`, `SMS_API_KEY=<key>`, `SMS_TEMPLATE_ID=<id>`.
+
 ## Pending: Authentication
 
-- **SMS login and signup for customers and sellers**: implement OTP-based
-  authentication via SMS for both customer-facing login/signup and seller
-  onboarding. Requires an SMS gateway integration (e.g. Kavenegar or Melipayamak),
-  OTP generation and verification flow, and session management.
+- **SMS.ir integration**: SMS provider chosen is SMS.ir (https://app.sms.ir).
+  Sandbox docs: https://app.sms.ir/developer/help/sandbox.
+  OTP template must be created in the SMS.ir panel before going live.
+  See `backend/apps/accounts/services/sms.py` for the integration point.
 
 ## Pending: Game detail page
 
@@ -147,8 +191,8 @@ external dependency or redirect overhead. Steps:
 
 ## Pending: User features
 
-- **Bucket list / wishlist**: allow logged-in users to save games to a personal
-  bucket list and optionally get notified when the price drops.
+- **Bucket list / wishlist**: implemented in backend (`/api/wishlist/`). Frontend
+  integration pending — needs a wishlist UI page and a heart/save button on GameCard.
 
 ## Pending: Database finalisation
 
