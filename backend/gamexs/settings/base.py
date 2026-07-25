@@ -135,6 +135,7 @@ EMAIL_VERIFICATION_EXPIRY_HOURS = 24
 FRONTEND_URL = config("FRONTEND_URL", default="http://localhost:3000")
 
 # SMS
-SMS_BACKEND = config("SMS_BACKEND", default="console")  # 'console' | 'kavenegar'
+SMS_BACKEND = config("SMS_BACKEND", default="console")  # 'console' | 'smsir'
 SMS_API_KEY = config("SMS_API_KEY", default="")
 SMS_SENDER = config("SMS_SENDER", default="")
+SMS_TEMPLATE_ID = config("SMS_TEMPLATE_ID", default="")

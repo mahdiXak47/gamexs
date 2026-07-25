@@ -24,8 +24,9 @@ class SMSService:
         return False
 
     def _send_smsir(self, phone_number: str, code: str) -> bool:
-        api_key = getattr(settings, "SMS_API_KEY", "")
-        template_id = getattr(settings, "SMS_TEMPLATE_ID", None)
+        # Strip inline .env comments (e.g. "key123 #production" → "key123")
+        api_key = str(getattr(settings, "SMS_API_KEY", "")).split("#")[0].strip()
+        template_id = str(getattr(settings, "SMS_TEMPLATE_ID", "")).split("#")[0].strip()
 
         if not api_key or not template_id:
             logger.error("SMS_API_KEY or SMS_TEMPLATE_ID not configured")
