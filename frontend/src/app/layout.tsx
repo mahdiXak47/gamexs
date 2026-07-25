@@ -3,6 +3,7 @@ import { Vazirmatn } from "next/font/google";
 import "./globals.css";
 import { AuthProvider } from "@/context/AuthContext";
 import AuthModal from "@/components/AuthModal";
+import Footer from "@/components/Footer";
 
 const vazirmatn = Vazirmatn({
   variable: "--font-vazirmatn",
@@ -38,6 +39,7 @@ export default function RootLayout({
         <AuthProvider>
           <AuthModal />
           {children}
+          <Footer />
         </AuthProvider>
       </body>
     </html>
