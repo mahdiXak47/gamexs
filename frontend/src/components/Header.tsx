@@ -147,17 +147,17 @@ export default function Header() {
             {user ? (
               <div className="hidden sm:flex items-center gap-2">
                 <Link
+                  href="/account"
+                  className="cursor-pointer border border-white/40 text-white text-sm font-medium px-3 py-1.5 rounded-full hover:bg-white/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                >
+                  حساب کاربری
+                </Link>
+                <Link
                   href="/cart"
                   aria-label="سبد خرید"
                   className="cursor-pointer p-2 rounded-full text-white hover:bg-white/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
                 >
                   <CartIcon />
-                </Link>
-                <Link
-                  href="/account"
-                  className="cursor-pointer border border-white/40 text-white text-sm font-medium px-3 py-1.5 rounded-full hover:bg-white/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
-                >
-                  حساب کاربری
                 </Link>
               </div>
             ) : (
