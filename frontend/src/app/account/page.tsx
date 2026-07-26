@@ -157,7 +157,7 @@ const Icons = {
 
 const NAV_MAIN: { id: Section; label: string; Icon: () => React.ReactElement }[] = [
   { id: 'orders',   label: 'سفارشات من',    Icon: Icons.orders },
-  { id: 'wishlist', label: 'لیست آرزو',    Icon: Icons.wishlist },
+  { id: 'wishlist', label: 'علاقه‌مندی‌ها',    Icon: Icons.wishlist },
   { id: 'psn',      label: 'اکانت PSN',    Icon: Icons.psn },
   { id: 'tickets',  label: 'تیکت‌های پشتیبانی', Icon: Icons.tickets },
   { id: 'security', label: 'امنیت و ورود', Icon: Icons.security },
@@ -305,7 +305,7 @@ function WishlistSection() {
   if (items.length === 0) return (
     <div className="bg-white border border-gray-200 rounded-2xl flex flex-col items-center justify-center gap-4 flex-1 min-h-64 text-center">
       <Icons.empty />
-      <p className="text-sm text-gray-500">لیست آرزو خالی است</p>
+      <p className="text-sm text-gray-500">علاقه‌مندی‌ها خالی است</p>
       <Link href="/" className="text-sm text-[#003087] font-semibold hover:underline cursor-pointer">افزودن بازی</Link>
     </div>
   )
@@ -446,7 +446,7 @@ function SecuritySection() {
 
 const SECTION_LABELS: Record<Section, string> = {
   orders:   'سفارشات من',
-  wishlist: 'لیست آرزو',
+  wishlist: 'علاقه‌مندی‌ها',
   psn:      'اکانت PSN',
   tickets:  'تیکت‌های پشتیبانی',
   security: 'امنیت و ورود',
@@ -500,7 +500,7 @@ export default function AccountPage() {
         <div className="flex flex-col md:flex-row gap-5 flex-1">
 
           {/* ── Sidebar (RIGHT in RTL) ────────────────────────────────── */}
-          <aside className="w-full md:w-64 shrink-0 md:self-start md:sticky md:top-4">
+          <aside className="w-full md:w-64 shrink-0 md:sticky md:top-[4.5rem] md:flex md:flex-col">
 
             {/* Mobile: horizontal scroll tabs */}
             <div className="md:hidden flex overflow-x-auto gap-2 pb-2 mb-4 scrollbar-none">
@@ -527,7 +527,7 @@ export default function AccountPage() {
             </div>
 
             {/* Desktop sidebar card */}
-            <div className="hidden md:flex flex-col bg-white border border-gray-200 rounded-2xl overflow-hidden">
+            <div className="hidden md:flex flex-col flex-1 bg-white border border-gray-200 rounded-2xl overflow-hidden">
 
               {/* User info at top of sidebar */}
               <div
