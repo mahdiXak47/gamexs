@@ -7,6 +7,7 @@ import GamePreorderBanner from "@/components/GamePreorderBanner";
 import Header from "@/components/Header";
 import PurchaseTypeSelector from "@/components/PurchaseTypeSelector";
 import ScreenshotGallery from "@/components/ScreenshotGallery";
+import WishlistButton from "@/components/WishlistButton";
 import { formatToman, toPersianDigits } from "@/lib/format";
 import { getGameBySlug } from "@/lib/games-repo";
 import { lowestPrice, storeCount } from "@/lib/purchase-options";
@@ -106,7 +107,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
               {/* ── Info column (RIGHT in RTL) ── */}
               <div className="flex flex-col gap-0">
 
-                {/* Chips */}
+                {/* Chips + wishlist */}
                 <div className="flex flex-wrap items-center gap-2">
                   <Chip size="sm" className="bg-ps-blue text-white border-0 font-bold">PS5</Chip>
                   {game.genreLabel && (
@@ -119,6 +120,9 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
                       {game.genreLabel}
                     </Chip>
                   )}
+                  <div className="mr-auto">
+                    <WishlistButton gameId={game.dbId} />
+                  </div>
                 </div>
 
                 {/* Title + price card — same row, top-aligned */}

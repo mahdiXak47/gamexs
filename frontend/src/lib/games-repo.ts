@@ -237,6 +237,7 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     });
 
   return {
+    dbId: game.id,
     slug: game.slug,
     title: game.title,
     genreLabel: game.genre_label,

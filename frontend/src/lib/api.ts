@@ -1,18 +1,53 @@
 const BASE = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:8000'
 
-function getAccessToken(): string | null {
+function getToken(key: string): string | null {
   if (typeof window === 'undefined') return null
-  return localStorage.getItem('gx_access')
+  return localStorage.getItem(key)
+}
+
+async function refreshAccessToken(): Promise<string | null> {
+  const refresh = getToken('gx_refresh')
+  if (!refresh) return null
+  try {
+    const res = await fetch(`${BASE}/api/auth/token/refresh/`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ refresh }),
+    })
+    if (!res.ok) {
+      localStorage.removeItem('gx_access')
+      localStorage.removeItem('gx_refresh')
+      return null
+    }
+    const data = await res.json()
+    localStorage.setItem('gx_access', data.access)
+    if (data.refresh) localStorage.setItem('gx_refresh', data.refresh)
+    return data.access
+  } catch {
+    return null
+  }
 }
 
 async function request(path: string, options: RequestInit = {}): Promise<Response> {
-  const token = getAccessToken()
+  const token = getToken('gx_access')
   const headers: Record<string, string> = {
     'Content-Type': 'application/json',
     ...((options.headers as Record<string, string>) ?? {}),
   }
   if (token) headers['Authorization'] = `Bearer ${token}`
-  return fetch(`${BASE}${path}`, { ...options, headers })
+
+  const response = await fetch(`${BASE}${path}`, { ...options, headers })
+
+  // On 401, attempt one silent token refresh then retry (skip for auth endpoints)
+  if (response.status === 401 && !path.startsWith('/api/auth/')) {
+    const newToken = await refreshAccessToken()
+    if (newToken) {
+      headers['Authorization'] = `Bearer ${newToken}`
+      return fetch(`${BASE}${path}`, { ...options, headers })
+    }
+  }
+
+  return response
 }
 
 export const api = {

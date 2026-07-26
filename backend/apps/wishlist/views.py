@@ -1,3 +1,4 @@
+from django.db import connection
 from rest_framework import status
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
@@ -10,10 +11,27 @@ class WishlistView(APIView):
     permission_classes = [IsAuthenticated]
 
     def get(self, request):
-        items = WishlistItem.objects.filter(user=request.user).values(
-            "id", "game_id", "target_price_toman", "added_at"
-        )
-        return Response(list(items))
+        with connection.cursor() as cursor:
+            cursor.execute("""
+                SELECT w.id, w.game_id, w.target_price_toman, w.added_at,
+                       g.title AS game_title, g.slug AS game_slug, g.cover_url
+                FROM wishlist_wishlistitem w
+                LEFT JOIN ps5_games g ON g.id = w.game_id
+                WHERE w.user_id = %s
+                ORDER BY w.added_at DESC
+            """, [request.user.id])
+            columns = [col[0] for col in cursor.description]
+            rows = [dict(zip(columns, row)) for row in cursor.fetchall()]
+
+        for row in rows:
+            added_at = row.get("added_at")
+            if added_at and hasattr(added_at, "isoformat"):
+                row["added_at"] = added_at.isoformat()
+            target = row.get("target_price_toman")
+            if target is not None:
+                row["target_price_toman"] = float(target)
+
+        return Response(rows)
 
     def post(self, request):
         game_id = request.data.get("game_id")

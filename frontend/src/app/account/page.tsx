@@ -26,7 +26,9 @@ interface Order {
 interface WishlistItem {
   id: number
   game_id: number
-  game_title?: string
+  game_title: string
+  game_slug: string
+  cover_url: string | null
   target_price_toman?: number | null
   added_at: string
 }
@@ -300,7 +302,18 @@ function WishlistSection() {
     }).finally(() => setLoading(false))
   }, [])
 
-  if (loading) return <div className="flex flex-col gap-3">{[1,2,3].map(i => <Skeleton key={i} className="h-16" />)}</div>
+  async function removeItem(id: number) {
+    await api.delete(`/api/wishlist/${id}/`)
+    setItems(prev => prev.filter(i => i.id !== id))
+  }
+
+  if (loading) return (
+    <div className="bg-white border border-gray-200 rounded-2xl p-5">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+        {[1,2,3,4].map(i => <Skeleton key={i} className="aspect-[3/4] rounded-2xl" />)}
+      </div>
+    </div>
+  )
 
   if (items.length === 0) return (
     <div className="bg-white border border-gray-200 rounded-2xl flex flex-col items-center justify-center gap-4 flex-1 min-h-64 text-center">
@@ -311,29 +324,51 @@ function WishlistSection() {
   )
 
   return (
-    <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden">
-      <ul className="divide-y divide-gray-50">
-        {items.map(item => (
-          <li key={item.id} className="flex items-center justify-between gap-4 px-5 py-4">
-            <div className="flex items-center gap-3 min-w-0">
-              <div className="w-10 h-10 rounded-xl bg-[#003087]/8 flex items-center justify-center text-[#003087] shrink-0">
-                <Icons.game />
+    <div className="bg-white border border-gray-200 rounded-2xl p-5">
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+      {items.map(item => {
+        const s3Base = 'http://gs3.gamexs.ir/gamexs'
+        const cover = item.cover_url?.includes('gs3.gamexs.ir')
+          ? item.cover_url
+          : item.game_slug
+            ? `${s3Base}/covers/${item.game_slug}-main-cover.webp`
+            : null
+        const initial = item.game_title?.trim().split(/\s+/)[0]?.[0]?.toUpperCase() ?? '?'
+        return (
+          <div key={item.id} className="relative group">
+            <Link href={item.game_slug ? `/games/${item.game_slug}` : '#'} className="block">
+              <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-gray-100 shadow-sm">
+                {cover ? (
+                  /* eslint-disable-next-line @next/next/no-img-element */
+                  <img
+                    src={cover}
+                    alt={item.game_title}
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center text-3xl font-bold text-gray-300 bg-gradient-to-br from-gray-100 to-gray-200">
+                    {initial}
+                  </div>
+                )}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
               </div>
-              <div className="min-w-0">
-                <p className="text-sm font-semibold text-gray-800 truncate">
-                  {item.game_title ?? `بازی شناسه ${toPersianDigits(item.game_id)}`}
-                </p>
-                <p className="text-xs text-gray-400 mt-0.5">{formatDate(item.added_at)}</p>
-              </div>
-            </div>
-            {item.target_price_toman && (
-              <p className="text-xs text-[#003087] font-medium shrink-0 price-figure">
-                هدف: {formatToman(item.target_price_toman)} ت
+              <p className="mt-2 text-xs font-semibold text-gray-800 text-center line-clamp-2 leading-snug px-1">
+                {item.game_title}
               </p>
-            )}
-          </li>
-        ))}
-      </ul>
+            </Link>
+            <button
+              onClick={() => removeItem(item.id)}
+              className="absolute top-2 right-2 w-7 h-7 flex items-center justify-center rounded-full bg-black/40 text-white hover:bg-red-500 transition-colors duration-150 opacity-0 group-hover:opacity-100 cursor-pointer"
+              aria-label="حذف از علاقه‌مندی‌ها"
+            >
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" aria-hidden>
+                <path d="M18 6L6 18M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+        )
+      })}
+    </div>
     </div>
   )
 }

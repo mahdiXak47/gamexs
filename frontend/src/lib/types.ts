@@ -40,6 +40,7 @@ export interface GameDetails {
 }
 
 export interface Game {
+  dbId: number;
   slug: string;
   title: string;
   genreLabel: string | null;
