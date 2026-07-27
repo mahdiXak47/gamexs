@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Vazirmatn } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { AuthProvider } from "@/context/AuthContext";
 import AuthModal from "@/components/AuthModal";
@@ -41,6 +42,13 @@ export default function RootLayout({
           {children}
           <Footer />
         </AuthProvider>
+        <Script
+          id="goftino-widget"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `!function(){var i="LAkQac",a=window,d=document;function g(){var g=d.createElement("script"),s="https://www.goftino.com/widget/"+i,l=localStorage.getItem("goftino_"+i);g.async=!0,g.src=l?s+"?o="+l:s;d.getElementsByTagName("head")[0].appendChild(g);}"complete"===d.readyState?g():a.attachEvent?a.attachEvent("onload",g):a.addEventListener("load",g,!1);}();`,
+          }}
+        />
       </body>
     </html>
   );
