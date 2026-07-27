@@ -217,3 +217,8 @@ The backend scaffold is complete and running (`backend/`). Remaining tasks:
 - **Seller admin panel**: a web panel for sellers to submit and manage their own
   prices directly into GameXS, as an alternative to scraping. Requires seller
   authentication, a price-submission UI, and an approval/moderation workflow.
+
+
+
+- seller how most send its data: 150 game 5 types of pricing
+- 

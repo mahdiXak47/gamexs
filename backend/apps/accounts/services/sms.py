@@ -52,11 +52,14 @@ class SMSService:
             data = response.json()
             if data.get("status") == 1:
                 logger.info("SMS.ir OTP sent to %s", phone_number)
+                print(f"[SMS.ir] OTP sent to {phone_number}", flush=True)
                 return True
             logger.error("SMS.ir error for %s: status=%s message=%s", phone_number, data.get("status"), data.get("message"))
+            print(f"[SMS.ir] ERROR for {phone_number}: HTTP {response.status_code} | {data}", flush=True)
             return False
         except Exception as exc:
             logger.error("SMS.ir request failed for %s: %s", phone_number, exc)
+            print(f"[SMS.ir] EXCEPTION for {phone_number}: {exc}", flush=True)
             return False
 
 

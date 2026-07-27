@@ -4,7 +4,7 @@ import React, { useCallback, useEffect, useState } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { useAuth } from '@/context/AuthContext'
-import { api } from '@/lib/api'
+import { api, extractApiError } from '@/lib/api'
 import { formatToman, toPersianDigits } from '@/lib/format'
 import Header from '@/components/Header'
 
@@ -162,7 +162,7 @@ const NAV_MAIN: { id: Section; label: string; Icon: () => React.ReactElement }[]
   { id: 'wishlist', label: 'علاقه‌مندی‌ها',    Icon: Icons.wishlist },
   { id: 'psn',      label: 'اکانت PSN',    Icon: Icons.psn },
   { id: 'tickets',  label: 'تیکت‌های پشتیبانی', Icon: Icons.tickets },
-  { id: 'security', label: 'امنیت و ورود', Icon: Icons.security },
+  { id: 'security', label: 'تنظیمات حساب کاربری', Icon: Icons.security },
 ]
 
 // ─── Skeleton loader ─────────────────────────────────────────────────────────
@@ -308,7 +308,7 @@ function WishlistSection() {
   }
 
   if (loading) return (
-    <div className="bg-white border border-gray-200 rounded-2xl p-5">
+    <div className="bg-white border border-gray-200 rounded-2xl p-5 flex-1">
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
         {[1,2,3,4].map(i => <Skeleton key={i} className="aspect-[3/4] rounded-2xl" />)}
       </div>
@@ -324,7 +324,7 @@ function WishlistSection() {
   )
 
   return (
-    <div className="bg-white border border-gray-200 rounded-2xl p-5">
+    <div className="bg-white border border-gray-200 rounded-2xl p-5 flex-1">
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
       {items.map(item => {
         const s3Base = 'http://gs3.gamexs.ir/gamexs'
@@ -461,18 +461,351 @@ function TicketsSection() {
   )
 }
 
-// ─── Section: Security ───────────────────────────────────────────────────────
+// ─── Section: Account Settings ───────────────────────────────────────────────
+
+const INPUT_CLS = 'w-full px-3.5 py-2.5 text-sm rounded-xl border border-gray-200 bg-white text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#003087]/20 focus:border-[#003087] transition-colors duration-150'
+const INPUT_RO_CLS = 'w-full px-3.5 py-2.5 text-sm rounded-xl border border-gray-100 bg-gray-50 text-gray-400 cursor-default select-all'
+
+function FeedbackMsg({ msg }: { msg: { type: 'ok' | 'err'; text: string } }) {
+  return (
+    <p className={`text-xs font-medium px-3 py-2 rounded-xl ${msg.type === 'ok' ? 'bg-green-50 text-green-700 border border-green-200' : 'bg-red-50 text-red-600 border border-red-200'}`}>
+      {msg.text}
+    </p>
+  )
+}
 
 function SecuritySection() {
+  const { user, refreshUser } = useAuth()
+
+  const [firstName, setFirstName] = useState(user?.first_name ?? '')
+  const [lastName,  setLastName]  = useState(user?.last_name  ?? '')
+  const [email,     setEmail]     = useState(user?.email      ?? '')
+  const [profileSaving, setProfileSaving] = useState(false)
+  const [profileMsg, setProfileMsg] = useState<{ type: 'ok' | 'err'; text: string } | null>(null)
+
+  const [oldPass,     setOldPass]     = useState('')
+  const [newPass,     setNewPass]     = useState('')
+  const [confirmPass, setConfirmPass] = useState('')
+  const [passSaving,  setPassSaving]  = useState(false)
+  const [passMsg,     setPassMsg]     = useState<{ type: 'ok' | 'err'; text: string } | null>(null)
+
+  // Forgot-password sub-flow: 'idle' | 'sent' (OTP sent, awaiting code)
+  const [forgotMode,   setForgotMode]   = useState<'idle' | 'sent'>('idle')
+  const [forgotOtp,    setForgotOtp]    = useState('')
+  const [forgotNew,    setForgotNew]    = useState('')
+  const [forgotConfirm,setForgotConfirm]= useState('')
+  const [forgotSaving, setForgotSaving] = useState(false)
+  const [forgotMsg,    setForgotMsg]    = useState<{ type: 'ok' | 'err'; text: string } | null>(null)
+
+  async function saveProfile(e: React.FormEvent) {
+    e.preventDefault()
+    setProfileSaving(true)
+    setProfileMsg(null)
+    try {
+      const res = await api.patch('/api/profile/', { first_name: firstName, last_name: lastName, email })
+      if (res.ok) {
+        await refreshUser()
+        setProfileMsg({ type: 'ok', text: 'اطلاعات با موفقیت ذخیره شد.' })
+      } else {
+        const d = await res.json()
+        setProfileMsg({ type: 'err', text: extractApiError(d) })
+      }
+    } finally {
+      setProfileSaving(false)
+    }
+  }
+
+  async function changePassword(e: React.FormEvent) {
+    e.preventDefault()
+    if (newPass !== confirmPass) {
+      setPassMsg({ type: 'err', text: 'رمز جدید و تکرار آن یکسان نیستند.' })
+      return
+    }
+    setPassSaving(true)
+    setPassMsg(null)
+    try {
+      const res = await api.post('/api/auth/change-password/', { old_password: oldPass, new_password: newPass })
+      if (res.ok) {
+        setOldPass(''); setNewPass(''); setConfirmPass('')
+        setPassMsg({ type: 'ok', text: 'رمز عبور با موفقیت تغییر یافت.' })
+      } else {
+        const d = await res.json()
+        setPassMsg({ type: 'err', text: extractApiError(d) })
+      }
+    } finally {
+      setPassSaving(false)
+    }
+  }
+
+  async function sendForgotOtp() {
+    setForgotSaving(true)
+    setForgotMsg(null)
+    try {
+      const res = await api.post('/api/auth/forgot-password/', {})
+      if (res.ok) {
+        setForgotMode('sent')
+        setForgotMsg({ type: 'ok', text: `کد تایید به شماره ${user?.phone_number} ارسال شد.` })
+      } else {
+        const d = await res.json()
+        setForgotMsg({ type: 'err', text: extractApiError(d) })
+      }
+    } finally {
+      setForgotSaving(false)
+    }
+  }
+
+  async function resetWithOtp(e: React.FormEvent) {
+    e.preventDefault()
+    if (forgotNew !== forgotConfirm) {
+      setForgotMsg({ type: 'err', text: 'رمز جدید و تکرار آن یکسان نیستند.' })
+      return
+    }
+    setForgotSaving(true)
+    setForgotMsg(null)
+    try {
+      const res = await api.post('/api/auth/forgot-password/verify/', { code: forgotOtp, new_password: forgotNew })
+      if (res.ok) {
+        setForgotOtp(''); setForgotNew(''); setForgotConfirm('')
+        setForgotMode('idle')
+        setPassMsg({ type: 'ok', text: 'رمز عبور با موفقیت بازیابی و تغییر یافت.' })
+      } else {
+        const d = await res.json()
+        setForgotMsg({ type: 'err', text: extractApiError(d) })
+      }
+    } finally {
+      setForgotSaving(false)
+    }
+  }
+
   return (
-    <div className="bg-white border border-gray-200 rounded-2xl flex flex-col items-center justify-center gap-4 flex-1 min-h-64 text-center">
-      <div className="w-14 h-14 rounded-2xl bg-[#003087]/8 flex items-center justify-center text-[#003087]">
-        <Icons.security />
+    <div className="flex flex-col gap-4 flex-1">
+
+      {/* ── Personal info ── */}
+      <div className="bg-white border border-gray-200 rounded-2xl p-6">
+        <h3 className="text-sm font-bold text-gray-900 mb-5 flex items-center gap-2">
+          <span className="w-7 h-7 rounded-lg bg-[#003087]/8 flex items-center justify-center text-[#003087]"><Icons.security /></span>
+          اطلاعات شخصی
+        </h3>
+        <form onSubmit={saveProfile} className="flex flex-col gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="flex flex-col gap-1.5">
+              <label className="text-xs font-medium text-gray-500">نام</label>
+              <input
+                type="text"
+                value={firstName}
+                onChange={e => setFirstName(e.target.value)}
+                placeholder="نام"
+                className={INPUT_CLS}
+              />
+            </div>
+            <div className="flex flex-col gap-1.5">
+              <label className="text-xs font-medium text-gray-500">نام خانوادگی</label>
+              <input
+                type="text"
+                value={lastName}
+                onChange={e => setLastName(e.target.value)}
+                placeholder="نام خانوادگی"
+                className={INPUT_CLS}
+              />
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-1.5">
+            <label className="text-xs font-medium text-gray-500">ایمیل</label>
+            <div className="relative">
+              <input
+                type="email"
+                value={email}
+                onChange={e => setEmail(e.target.value)}
+                placeholder="example@email.com"
+                className={INPUT_CLS}
+                dir="ltr"
+              />
+              {user?.is_email_verified && (
+                <span className="absolute top-1/2 -translate-y-1/2 left-3 text-[10px] font-semibold text-green-600 bg-green-50 border border-green-200 px-2 py-0.5 rounded-full">
+                  تایید شده
+                </span>
+              )}
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="flex flex-col gap-1.5">
+              <label className="text-xs font-medium text-gray-500">شماره موبایل</label>
+              <div className={INPUT_RO_CLS} dir="ltr">{user?.phone_number}</div>
+            </div>
+            <div className="flex flex-col gap-1.5">
+              <label className="text-xs font-medium text-gray-500">وضعیت تایید شماره</label>
+              <div className={INPUT_RO_CLS}>
+                <span className={`text-xs font-semibold ${user?.is_phone_verified ? 'text-green-600' : 'text-amber-600'}`}>
+                  {user?.is_phone_verified ? 'تایید شده' : 'تایید نشده'}
+                </span>
+              </div>
+            </div>
+          </div>
+
+          {profileMsg && <FeedbackMsg msg={profileMsg} />}
+
+          <div className="flex justify-start">
+            <button
+              type="submit"
+              disabled={profileSaving}
+              className="px-5 py-2.5 rounded-xl text-sm font-semibold text-white disabled:opacity-60 cursor-pointer transition-opacity"
+              style={{ background: 'linear-gradient(135deg, #003087 0%, #0050b3 100%)' }}
+            >
+              {profileSaving ? 'در حال ذخیره...' : 'ذخیره تغییرات'}
+            </button>
+          </div>
+        </form>
       </div>
-      <div>
-        <p className="text-sm font-semibold text-gray-800">امنیت و ورود</p>
-        <p className="text-xs text-gray-400 mt-1">تغییر رمز عبور و تنظیمات امنیتی به زودی اضافه می‌شود.</p>
+
+      {/* ── Change password ── */}
+      <div className="bg-white border border-gray-200 rounded-2xl p-6">
+        <h3 className="text-sm font-bold text-gray-900 mb-5 flex items-center gap-2">
+          <span className="w-7 h-7 rounded-lg bg-[#003087]/8 flex items-center justify-center text-[#003087]">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden>
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+              <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+            </svg>
+          </span>
+          تغییر رمز عبور
+        </h3>
+
+        {forgotMode === 'idle' ? (
+          <form onSubmit={changePassword} className="flex flex-col gap-4">
+            <div className="flex flex-col gap-1.5">
+              <div className="flex items-center justify-between">
+                <label className="text-xs font-medium text-gray-500">رمز عبور فعلی</label>
+                <button
+                  type="button"
+                  onClick={sendForgotOtp}
+                  disabled={forgotSaving}
+                  className="text-xs text-[#003087] hover:underline cursor-pointer disabled:opacity-50"
+                >
+                  {forgotSaving ? 'در حال ارسال...' : 'رمز عبور خود را فراموش کردم'}
+                </button>
+              </div>
+              <input
+                type="password"
+                value={oldPass}
+                onChange={e => setOldPass(e.target.value)}
+                placeholder="رمز عبور فعلی را وارد کنید"
+                className={INPUT_CLS}
+                dir="ltr"
+                autoComplete="current-password"
+              />
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="flex flex-col gap-1.5">
+                <label className="text-xs font-medium text-gray-500">رمز عبور جدید</label>
+                <input
+                  type="password"
+                  value={newPass}
+                  onChange={e => setNewPass(e.target.value)}
+                  placeholder="حداقل ۸ کاراکتر"
+                  className={INPUT_CLS}
+                  dir="ltr"
+                  autoComplete="new-password"
+                />
+              </div>
+              <div className="flex flex-col gap-1.5">
+                <label className="text-xs font-medium text-gray-500">تکرار رمز جدید</label>
+                <input
+                  type="password"
+                  value={confirmPass}
+                  onChange={e => setConfirmPass(e.target.value)}
+                  placeholder="رمز جدید را تکرار کنید"
+                  className={INPUT_CLS}
+                  dir="ltr"
+                  autoComplete="new-password"
+                />
+              </div>
+            </div>
+
+            {passMsg && <FeedbackMsg msg={passMsg} />}
+            {forgotMsg && <FeedbackMsg msg={forgotMsg} />}
+
+            <div className="flex justify-start">
+              <button
+                type="submit"
+                disabled={passSaving}
+                className="px-5 py-2.5 rounded-xl text-sm font-semibold text-white disabled:opacity-60 cursor-pointer transition-opacity"
+                style={{ background: 'linear-gradient(135deg, #003087 0%, #0050b3 100%)' }}
+              >
+                {passSaving ? 'در حال تغییر...' : 'تغییر رمز عبور'}
+              </button>
+            </div>
+          </form>
+        ) : (
+          <form onSubmit={resetWithOtp} className="flex flex-col gap-4">
+            <p className="text-xs text-gray-500 bg-blue-50 border border-blue-100 rounded-xl px-4 py-3">
+              کد تایید به شماره <span className="font-semibold text-[#003087]" dir="ltr">{user?.phone_number}</span> ارسال شد. کد را وارد کرده و رمز جدید تعیین کنید.
+            </p>
+
+            <div className="flex flex-col gap-1.5">
+              <label className="text-xs font-medium text-gray-500">کد تایید</label>
+              <input
+                type="text"
+                inputMode="numeric"
+                maxLength={6}
+                value={forgotOtp}
+                onChange={e => setForgotOtp(e.target.value.replace(/\D/g, ''))}
+                placeholder="کد ۶ رقمی"
+                className={INPUT_CLS}
+                dir="ltr"
+                autoComplete="one-time-code"
+              />
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="flex flex-col gap-1.5">
+                <label className="text-xs font-medium text-gray-500">رمز عبور جدید</label>
+                <input
+                  type="password"
+                  value={forgotNew}
+                  onChange={e => setForgotNew(e.target.value)}
+                  placeholder="حداقل ۸ کاراکتر"
+                  className={INPUT_CLS}
+                  dir="ltr"
+                  autoComplete="new-password"
+                />
+              </div>
+              <div className="flex flex-col gap-1.5">
+                <label className="text-xs font-medium text-gray-500">تکرار رمز جدید</label>
+                <input
+                  type="password"
+                  value={forgotConfirm}
+                  onChange={e => setForgotConfirm(e.target.value)}
+                  placeholder="رمز جدید را تکرار کنید"
+                  className={INPUT_CLS}
+                  dir="ltr"
+                  autoComplete="new-password"
+                />
+              </div>
+            </div>
+
+            {forgotMsg && <FeedbackMsg msg={forgotMsg} />}
+
+            <div className="flex items-center gap-3">
+              <button
+                type="submit"
+                disabled={forgotSaving}
+                className="px-5 py-2.5 rounded-xl text-sm font-semibold text-white disabled:opacity-60 cursor-pointer transition-opacity"
+                style={{ background: 'linear-gradient(135deg, #003087 0%, #0050b3 100%)' }}
+              >
+                {forgotSaving ? 'در حال بازیابی...' : 'تایید و تغییر رمز'}
+              </button>
+              <button
+                type="button"
+                onClick={() => { setForgotMode('idle'); setForgotMsg(null); setForgotOtp(''); setForgotNew(''); setForgotConfirm('') }}
+                className="px-4 py-2.5 rounded-xl text-sm font-medium text-gray-500 hover:text-gray-700 hover:bg-gray-50 cursor-pointer transition-colors"
+              >
+                بازگشت
+              </button>
+            </div>
+          </form>
+        )}
       </div>
+
     </div>
   )
 }
@@ -484,7 +817,7 @@ const SECTION_LABELS: Record<Section, string> = {
   wishlist: 'علاقه‌مندی‌ها',
   psn:      'اکانت PSN',
   tickets:  'تیکت‌های پشتیبانی',
-  security: 'امنیت و ورود',
+  security: 'تنظیمات حساب کاربری',
 }
 
 export default function AccountPage() {

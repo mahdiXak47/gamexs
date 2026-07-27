@@ -237,3 +237,98 @@ class ProfileView(APIView):
         serializer.is_valid(raise_exception=True)
         serializer.save()
         return Response(serializer.data)
+
+
+class ForgotPasswordRequestView(APIView):
+    """Authenticated user forgot current password — send OTP to their registered phone."""
+    permission_classes = [IsAuthenticated]
+
+    def post(self, request):
+        phone = request.user.phone_number
+        expiry = getattr(settings, "OTP_EXPIRY_SECONDS", 120)
+        otp = OTPCode.create_for_phone(phone, OTPCode.PURPOSE_PASSWORD_RESET, expiry)
+        sms_service.send_otp(phone, otp.code)
+        return Response({"detail": "کد تایید ارسال شد."}, status=status.HTTP_200_OK)
+
+
+class ForgotPasswordVerifyView(APIView):
+    """Verify the OTP and set a new password without requiring the old one."""
+    permission_classes = [IsAuthenticated]
+
+    def post(self, request):
+        code = request.data.get("code", "")
+        new_password = request.data.get("new_password", "")
+
+        if not code or not new_password:
+            return Response(
+                {"detail": "کد تایید و رمز جدید الزامی هستند."},
+                status=status.HTTP_400_BAD_REQUEST,
+            )
+
+        phone = request.user.phone_number
+        otp = OTPCode.objects.filter(
+            phone_number=phone, purpose=OTPCode.PURPOSE_PASSWORD_RESET, is_used=False
+        ).order_by("-created_at").first()
+
+        if not otp:
+            return Response({"detail": "کد تایید یافت نشد."}, status=status.HTTP_400_BAD_REQUEST)
+
+        max_attempts = getattr(settings, "OTP_MAX_ATTEMPTS", 5)
+        if otp.attempts >= max_attempts:
+            return Response({"detail": "تعداد تلاش بیش از حد مجاز."}, status=status.HTTP_429_TOO_MANY_REQUESTS)
+
+        if otp.is_expired:
+            return Response({"detail": "کد تایید منقضی شده است."}, status=status.HTTP_400_BAD_REQUEST)
+
+        otp.attempts += 1
+        if otp.code != code:
+            otp.save(update_fields=["attempts"])
+            return Response({"detail": "کد تایید اشتباه است."}, status=status.HTTP_400_BAD_REQUEST)
+
+        if len(new_password) < 8:
+            return Response({"detail": "رمز جدید باید حداقل ۸ کاراکتر باشد."}, status=status.HTTP_400_BAD_REQUEST)
+        if new_password.isdigit():
+            return Response({"detail": "رمز عبور نمی‌تواند فقط عدد باشد."}, status=status.HTTP_400_BAD_REQUEST)
+
+        otp.is_used = True
+        otp.save(update_fields=["attempts", "is_used"])
+
+        request.user.set_password(new_password)
+        request.user.save(update_fields=["password"])
+        return Response({"detail": "رمز عبور با موفقیت تغییر یافت."}, status=status.HTTP_200_OK)
+
+
+class ChangePasswordView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def post(self, request):
+        old_password = request.data.get("old_password", "")
+        new_password = request.data.get("new_password", "")
+
+        if not old_password or not new_password:
+            return Response(
+                {"detail": "رمز فعلی و رمز جدید الزامی هستند."},
+                status=status.HTTP_400_BAD_REQUEST,
+            )
+
+        if not request.user.check_password(old_password):
+            return Response(
+                {"detail": "رمز فعلی اشتباه است."},
+                status=status.HTTP_400_BAD_REQUEST,
+            )
+
+        if len(new_password) < 8:
+            return Response(
+                {"detail": "رمز جدید باید حداقل ۸ کاراکتر باشد."},
+                status=status.HTTP_400_BAD_REQUEST,
+            )
+
+        if new_password.isdigit():
+            return Response(
+                {"detail": "رمز عبور نمی‌تواند فقط عدد باشد."},
+                status=status.HTTP_400_BAD_REQUEST,
+            )
+
+        request.user.set_password(new_password)
+        request.user.save(update_fields=["password"])
+        return Response({"detail": "رمز عبور با موفقیت تغییر یافت."}, status=status.HTTP_200_OK)
