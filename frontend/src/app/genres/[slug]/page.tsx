@@ -1,17 +1,40 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Chip } from "@heroui/react";
 import Header from "@/components/Header";
 import GameGrid from "@/components/GameGrid";
 import Disclaimer from "@/components/Disclaimer";
+import JsonLd from "@/components/JsonLd";
 import { getGamesByGenre } from "@/lib/games-repo";
 import { genreBySlug, GENRES } from "@/lib/genres";
 import { toPersianDigits } from "@/lib/format";
+import { SITE_URL } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
 
 export async function generateStaticParams() {
   return GENRES.map((g) => ({ slug: g.slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const genre = genreBySlug(slug);
+  if (!genre) return {};
+
+  const title = `${genre.label} برای PS5 — قیمت و مقایسه`;
+  const description = `مقایسه قیمت ${genre.label} برای PS5 بین فروشندگان معتبر ایرانی — اکانت، دیسک و اشتراک`;
+
+  return {
+    title,
+    description,
+    alternates: { canonical: `/genres/${slug}` },
+    openGraph: { title, description, url: `${SITE_URL}/genres/${slug}` },
+  };
 }
 
 export default async function GenrePage({
@@ -25,8 +48,25 @@ export default async function GenrePage({
 
   const games = await getGamesByGenre(genre.genre);
 
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `بازی‌های ${genre.label}`,
+    url: `${SITE_URL}/genres/${slug}`,
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: games.map((game, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        url: `${SITE_URL}/games/${game.slug}`,
+        name: game.title,
+      })),
+    },
+  };
+
   return (
     <>
+      {games.length > 0 && <JsonLd data={itemListJsonLd} />}
       <Header />
 
       {/* Blue header band */}

@@ -1,3 +1,4 @@
+import { cache } from "react";
 import { query } from "./db";
 
 export type PsPlusTier = "ESSENTIAL" | "EXTRA" | "PREMIUM";
@@ -56,8 +57,10 @@ export const TIER_COLOR: Record<PsPlusTier, string> = {
   PREMIUM:   "#1a1a2e",
 };
 
-// Returns all tiers with their latest price per capacity option.
-export async function getAllPsPlusPlans(): Promise<PsPlusPlan[]> {
+// Returns all tiers with their latest price per capacity option. Cached
+// per-request since generateMetadata and the page component both call
+// getPsPlusPlan for the same tier.
+export const getAllPsPlusPlans = cache(async function getAllPsPlusPlans(): Promise<PsPlusPlan[]> {
   const { rows } = await query<{
     tier: PsPlusTier;
     cover_url: string | null;
@@ -125,7 +128,7 @@ export async function getAllPsPlusPlans(): Promise<PsPlusPlan[]> {
   }
 
   return Array.from(planMap.values());
-}
+});
 
 export async function getPsPlusPlan(tier: PsPlusTier): Promise<PsPlusPlan | null> {
   const all = await getAllPsPlusPlans();

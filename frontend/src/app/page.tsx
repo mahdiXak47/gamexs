@@ -4,9 +4,11 @@ import GameGrid from "@/components/GameGrid";
 import GameRecommendations from "@/components/GameRecommendations";
 import Header from "@/components/Header";
 import HeroBanner from "@/components/HeroBanner";
+import JsonLd from "@/components/JsonLd";
 import TopGames from "@/components/TopGames";
 import UpcomingGames from "@/components/UpcomingGames";
 import { getLastScrapedAt, getFeaturedUpcomingGames, listGames } from "@/lib/games-repo";
+import { SITE_URL } from "@/lib/seo";
 
 const HOMEPAGE_UPCOMING_SLUGS = [
   "call-of-duty-modern-warfare-4",
@@ -34,8 +36,20 @@ export default async function Home() {
     ? new Intl.DateTimeFormat("fa-IR", { dateStyle: "short", timeStyle: "short" }).format(lastScrapedAt)
     : null;
 
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: topGames.map((game, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: `${SITE_URL}/games/${game.slug}`,
+      name: game.title,
+    })),
+  };
+
   return (
     <>
+      {topGames.length > 0 && <JsonLd data={itemListJsonLd} />}
       <Header />
 
       {/* Hero Banner */}

@@ -8,6 +8,12 @@ import { toPersianDigits } from "@/lib/format";
 
 export const dynamic = "force-dynamic";
 
+// Query-driven results — noindex avoids thin/duplicate pages competing with
+// the canonical /games/[slug] pages for the same content.
+export const metadata = {
+  robots: { index: false, follow: true },
+};
+
 export default async function SearchPage({
   searchParams,
 }: {

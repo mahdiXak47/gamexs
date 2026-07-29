@@ -76,6 +76,21 @@ export function lowestPrice(game: Game): number | null {
   return min;
 }
 
+// Same as lowestPrice, but excludes priceToman === 0 — a scraper artifact
+// seen on ~4.5% of out-of-stock listings, not a real price. Used wherever a
+// price is surfaced as text (meta descriptions, JSON-LD) so it never reads
+// "from 0 Toman"; not applied to lowestPrice()/the visible price card, since
+// that's a separate pre-existing data issue outside this task's scope.
+export function lowestValidPrice(game: Game): number | null {
+  let min: number | null = null;
+  for (const option of game.purchaseOptions) {
+    for (const offer of option.offers) {
+      if (offer.priceToman > 0 && (min === null || offer.priceToman < min)) min = offer.priceToman;
+    }
+  }
+  return min;
+}
+
 export function storeCount(game: Game): number {
   const ids = new Set<string>();
   for (const option of game.purchaseOptions) {

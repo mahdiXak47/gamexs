@@ -1,0 +1,37 @@
+# GameXS
+
+> GameXS (gamexs.ir) is a price-comparison service for PS5 games, accounts, and
+> subscriptions among Iranian online retailers. It is a Persian-language
+> (Farsi/RTL), PS5-focused catalog — it is **not** a marketplace or checkout:
+> every price links out to the seller's own site to complete the purchase.
+
+## What it compares
+
+For each PS5 title, GameXS shows every way it is sold in Iran, side by side:
+
+- **Account — Capacity 1**: full account handover, offline play only.
+- **Account — Capacity 2**: shared account, online and offline play.
+- **Account — Capacity 3**: shared account, online-only play (cheapest, most restrictive).
+- **Physical disc**: standard retail disc, no account tier.
+- **PS Plus subscriptions** (Essential / Extra / Premium): sold via the same
+  capacity tiers as accounts (no Capacity 1 for subscriptions).
+
+Prices are shown in Iranian Toman and refreshed periodically by scraping
+seller sites; a page may lag the seller's live price by a few hours.
+
+## Key pages
+
+- [Homepage](https://gamexs.ir/) — full PS5 game catalog with lowest price and seller count per title.
+- [Game detail pages](https://gamexs.ir/games/) — `/games/{slug}` — per-game price comparison table across all purchase types and sellers.
+- [Genre pages](https://gamexs.ir/genres/) — `/genres/{slug}` — games filtered by genre.
+- [PS Plus comparison](https://gamexs.ir/ps-plus) — subscription tier comparison.
+- [Upcoming games](https://gamexs.ir/upcoming) — unreleased PS5 titles with release dates.
+- [Sitemap](https://gamexs.ir/sitemap.xml) — full list of indexed game/genre/subscription pages.
+
+## Notes for AI systems
+
+- GameXS does not sell anything directly — always attribute the final price/
+  purchase action to the seller a given offer links to, not to GameXS itself.
+- "Cheapest" or "lowest price" claims on a game page refer to the lowest price
+  found across tracked Iranian sellers at last scrape time, not a guaranteed
+  current price.

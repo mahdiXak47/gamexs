@@ -3,16 +3,19 @@ import Image from "next/image";
 import { Chip } from "@heroui/react";
 import Header from "@/components/Header";
 import CountdownTimer from "@/components/CountdownTimer";
+import JsonLd from "@/components/JsonLd";
 import UpcomingHeroBanner from "@/components/UpcomingHeroBanner";
 import { listAllUpcomingGames, getFeaturedUpcomingGames } from "@/lib/games-repo";
 import { formatToman, toPersianDigits } from "@/lib/format";
+import { SITE_URL } from "@/lib/seo";
 import type { UpcomingGame } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
 
 export const metadata = {
-  title: "بازی‌های پیش‌خرید | GameXS",
+  title: "بازی‌های پیش‌خرید",
   description: "لیست بازی‌های PS5 که هنوز منتشر نشده‌اند با تاریخ انتشار و شمارش معکوس",
+  alternates: { canonical: "/upcoming" },
 };
 
 // ── Helpers ─────────────────────────────────────────────────────────────────
@@ -157,8 +160,20 @@ export default async function UpcomingPage() {
   ]);
   const groups = groupByMonth(games);
 
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: games.map((game, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: `${SITE_URL}/games/${game.slug}`,
+      name: game.title,
+    })),
+  };
+
   return (
     <>
+      {games.length > 0 && <JsonLd data={itemListJsonLd} />}
       <Header />
 
       {/* Hero carousel — featured upcoming games */}

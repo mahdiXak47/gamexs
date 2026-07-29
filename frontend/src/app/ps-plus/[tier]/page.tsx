@@ -1,8 +1,10 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Disclaimer from "@/components/Disclaimer";
+import JsonLd from "@/components/JsonLd";
 import {
   getPsPlusPlan,
   SLUG_TIER,
@@ -15,11 +17,40 @@ import {
   type PsPlusOption,
 } from "@/lib/ps-plus-repo";
 import { formatToman } from "@/lib/format";
+import { SITE_URL, tomanToRial } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
 
 export async function generateStaticParams() {
   return Object.keys(SLUG_TIER).map((slug) => ({ tier: slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ tier: string }>;
+}): Promise<Metadata> {
+  const { tier: slug } = await params;
+  const tierKey = SLUG_TIER[slug];
+  if (!tierKey) return {};
+
+  const plan = await getPsPlusPlan(tierKey);
+  if (!plan) return {};
+
+  const label = TIER_LABEL[plan.tier];
+  const prices = plan.options.map((o) => o.latestPrice).filter((p): p is number => p != null);
+  const lowest = prices.length ? Math.min(...prices) : null;
+  const title = `${label} — قیمت و مقایسه فروشندگان`;
+  const description = lowest !== null
+    ? `مقایسه قیمت اشتراک ${label} برای PS5 — از ${formatToman(lowest)} تومان بین فروشندگان ایرانی`
+    : `مقایسه قیمت اشتراک ${label} برای PS5 بین فروشندگان ایرانی`;
+
+  return {
+    title,
+    description,
+    alternates: { canonical: `/ps-plus/${slug}` },
+    openGraph: { title, description, url: `${SITE_URL}/ps-plus/${slug}` },
+  };
 }
 
 function CheckIcon({ className = "" }: { className?: string }) {
@@ -123,8 +154,40 @@ export default async function PsPlusTierPage({
   // Other tiers for cross-links
   const otherTiers = (["ESSENTIAL", "EXTRA", "PREMIUM"] as const).filter((t) => t !== plan.tier);
 
+  // See the games/[slug] page for why 0-priced listings are excluded — same
+  // scraper artifact on out-of-stock offers.
+  const offers = plan.options
+    .filter((o) => o.latestPrice != null && o.latestPrice > 0)
+    .map((o) => ({
+      "@type": "Offer",
+      name: CAPACITY_LABEL[o.capacity],
+      url: o.sourceUrl,
+      priceCurrency: "IRR",
+      price: tomanToRial(o.latestPrice!),
+      availability: o.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
+      seller: { "@type": "Organization", name: o.sellerName },
+    }));
+
+  const productJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: TIER_LABEL[plan.tier],
+    description: `اشتراک ${TIER_LABEL[plan.tier]} برای PS5`,
+    image: plan.coverUrl ?? undefined,
+    ...(offers.length > 0 && {
+      offers: {
+        "@type": "AggregateOffer",
+        priceCurrency: "IRR",
+        lowPrice: Math.min(...offers.map((o) => o.price)),
+        offerCount: offers.length,
+        offers,
+      },
+    }),
+  };
+
   return (
     <>
+      <JsonLd data={productJsonLd} />
       <Header />
 
       {/* Hero */}

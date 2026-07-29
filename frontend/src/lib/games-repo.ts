@@ -1,3 +1,4 @@
+import { cache } from "react";
 import { query } from "./db";
 import { s3CoverUrl, s3ScreenshotUrl } from "./covers";
 import { getGameDetails } from "./game-details";
@@ -172,7 +173,9 @@ export async function searchGames(q: string): Promise<GameSummary[]> {
   }));
 }
 
-export async function getGameBySlug(slug: string): Promise<Game | null> {
+// Wrapped in React's per-request cache so generateMetadata and the page
+// component (both calling this for the same slug) share one DB round-trip.
+export const getGameBySlug = cache(async function getGameBySlug(slug: string): Promise<Game | null> {
   const { rows: gameRows } = await query<{
     id: number;
     slug: string;
@@ -251,7 +254,7 @@ export async function getGameBySlug(slug: string): Promise<Game | null> {
     purchaseOptions,
     details: getGameDetails(game.slug),
   };
-}
+});
 
 const UPCOMING_QUERY = `
   WITH latest AS (

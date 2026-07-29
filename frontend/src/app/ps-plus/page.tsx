@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Disclaimer from "@/components/Disclaimer";
+import JsonLd from "@/components/JsonLd";
 import {
   getAllPsPlusPlans,
   TIER_LABEL,
@@ -12,12 +13,14 @@ import {
   type PsPlusPlan,
 } from "@/lib/ps-plus-repo";
 import { formatToman } from "@/lib/format";
+import { SITE_URL } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
 
 export const metadata = {
-  title: "PS Plus | GameXS",
+  title: "PS Plus",
   description: "مقایسه قیمت اشتراک PS Plus در فروشندگان ایرانی: Essential، Extra و Premium",
+  alternates: { canonical: "/ps-plus" },
 };
 
 function TierBadge({ label, badge }: { label: string; badge: string | null }) {
@@ -111,8 +114,20 @@ function PlanCard({ plan }: { plan: PsPlusPlan }) {
 export default async function PsPlusPage() {
   const plans = await getAllPsPlusPlans();
 
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: plans.map((plan, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: `${SITE_URL}/ps-plus/${TIER_SLUG[plan.tier]}`,
+      name: TIER_LABEL[plan.tier],
+    })),
+  };
+
   return (
     <>
+      {plans.length > 0 && <JsonLd data={itemListJsonLd} />}
       <Header />
 
       <div className="ps-header">

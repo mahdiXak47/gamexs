@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Chip } from "@heroui/react";
@@ -5,14 +6,56 @@ import CoverArt from "@/components/CoverArt";
 import Disclaimer from "@/components/Disclaimer";
 import GamePreorderBanner from "@/components/GamePreorderBanner";
 import Header from "@/components/Header";
+import JsonLd from "@/components/JsonLd";
 import PurchaseTypeSelector from "@/components/PurchaseTypeSelector";
 import ScreenshotGallery from "@/components/ScreenshotGallery";
 import WishlistButton from "@/components/WishlistButton";
 import { formatToman, toPersianDigits } from "@/lib/format";
 import { getGameBySlug } from "@/lib/games-repo";
-import { lowestPrice, storeCount } from "@/lib/purchase-options";
+import { lowestPrice, lowestValidPrice, storeCount } from "@/lib/purchase-options";
+import { SITE_URL, tomanToRial } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const game = await getGameBySlug(slug);
+  if (!game) return {};
+
+  const price = lowestValidPrice(game);
+  const stores = storeCount(game);
+  const priceText = price !== null ? `از ${formatToman(price)} تومان در ${stores} فروشگاه` : "";
+  const title = `خرید ${game.title} برای PS5 — قیمت و مقایسه فروشندگان`;
+  const description = [priceText, game.details?.summary]
+    .filter(Boolean)
+    .join(" — ")
+    .slice(0, 300) || `مقایسه قیمت اکانت، دیسک و اشتراک ${game.title} برای PS5 بین فروشندگان ایرانی`;
+  const image = game.keyArtUrl ?? game.coverUrl ?? undefined;
+
+  return {
+    title,
+    description,
+    keywords: game.details?.keywords,
+    alternates: { canonical: `/games/${slug}` },
+    openGraph: {
+      title,
+      description,
+      url: `${SITE_URL}/games/${slug}`,
+      type: "website",
+      images: image ? [{ url: image }] : undefined,
+    },
+    twitter: {
+      card: image ? "summary_large_image" : "summary",
+      title,
+      description,
+      images: image ? [image] : undefined,
+    },
+  };
+}
 
 export default async function GamePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -34,6 +77,43 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
         new Date(game.releaseDate)
       )
     : null;
+
+  // priceToman = 0 shows up on some out-of-stock scraped listings (a scraper
+  // artifact, not a real price) — excluded here so structured data never
+  // claims a zero price, which fails Google's Merchant/Rich Results validation.
+  const allOffers = game.purchaseOptions.flatMap((option) =>
+    option.offers
+      .filter((offer) => offer.priceToman > 0)
+      .map((offer) => ({
+        "@type": "Offer",
+        name: option.label,
+        url: offer.listingUrl,
+        priceCurrency: "IRR",
+        price: tomanToRial(offer.priceToman),
+        availability: offer.inStock
+          ? "https://schema.org/InStock"
+          : "https://schema.org/OutOfStock",
+        seller: { "@type": "Organization", name: offer.sellerName },
+      }))
+  );
+
+  const productJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: game.title,
+    description: d?.summary ?? undefined,
+    image: game.coverUrl ?? game.keyArtUrl ?? undefined,
+    brand: game.publisher ? { "@type": "Organization", name: game.publisher } : undefined,
+    ...(allOffers.length > 0 && {
+      offers: {
+        "@type": "AggregateOffer",
+        priceCurrency: "IRR",
+        lowPrice: Math.min(...allOffers.map((o) => o.price)),
+        offerCount: allOffers.length,
+        offers: allOffers,
+      },
+    }),
+  };
 
   // Genre: prefer IGDB list, fallback to scraper genreLabel
   const genreValue =
@@ -66,6 +146,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
 
   return (
     <>
+      <JsonLd data={productJsonLd} />
       <Header />
       <main className="flex-1">
 
