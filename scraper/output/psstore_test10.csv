@@ -1,0 +1,11 @@
+game_name,concept_id,us_price,us_original_price,us_discount_pct,tr_price,tr_original_price,tr_discount_pct,extra_plus_included,deluxe_plus_included,essential_plus_included
+Star Wars: Republic Commando,10000469,$14.99,,,"525,00 TL",,,False,False,False
+Final Fantasy XIV Online,201579,$19.99,,,"649,00 TL",,,False,False,False
+Call of Duty: Black Ops,10017657,$39.99,,,"1.600,00 TL",,,False,False,False
+DC Universe Online,200995,Free,,,,,,False,False,False
+Grand Theft Auto V,201930,$19.99,$39.99,Save 50%,"699,50 TL","1.399,00 TL",%50 indirimden yararlanın,True,False,False
+The Elder Scrolls Online,204861,$4.99,$19.99,Save 75%,"112,49 TL","449,99 TL",%75 indirimden yararlanın,False,False,False
+Call of Duty: Black Ops II,10017658,$39.99,,,"1.600,00 TL",,,False,False,False
+Hotline Miami,202006,,,,,,,False,False,False
+Cyberpunk 2077,234567,$49.99,,,"2.799,00 TL",,,True,False,False
+Fortnite,228748,Free,,,Ücretsiz,,,False,False,False

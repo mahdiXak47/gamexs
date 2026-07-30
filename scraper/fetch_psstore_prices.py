@@ -1,12 +1,16 @@
 """Fetch official PS Store prices for US and Turkey regions.
 
-Discovers PS5 games via IGDB (external_games with store.playstation.com URLs),
-then fetches each game's product page for both locales and extracts pricing
-from the SSR __NEXT_DATA__ payload.
+Discovers games by reading igdb_id values from the production ps5_games table,
+then resolves each igdb_id to a PS Store concept URL via a single batched IGDB
+query, and finally fetches each concept page for en-us and tr-tr pricing.
 
 Usage:
     python fetch_psstore_prices.py -o psstore_prices.csv
-    python fetch_psstore_prices.py -o psstore_prices.csv --limit 50  # first 50 games only
+    python fetch_psstore_prices.py -o psstore_prices.csv --limit 50
+    python fetch_psstore_prices.py -o psstore_prices.csv --workers 8
+    python fetch_psstore_prices.py -o psstore_prices.csv --db-url postgresql://...
+
+DATABASE_URL env var is used when --db-url is not passed.
 
 Output CSV columns:
     game_name, concept_id,
@@ -17,14 +21,21 @@ Output CSV columns:
 
 import argparse
 import csv
+import gzip as gzip_module
 import json
+import logging
+import os
 import re
 import sys
 import time
 import urllib.error
-import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, Future
 from dataclasses import dataclass, fields
+
+import psycopg
+
+log = logging.getLogger("psstore")
 
 
 # ---------------------------------------------------------------------------
@@ -39,8 +50,7 @@ IGDB_GAMES_URL = "https://api.igdb.com/v4/games"
 PS_STORE_BASE = "https://store.playstation.com"
 LOCALES = {"us": "en-us", "tr": "tr-tr"}
 
-IGDB_DELAY = 0.3   # seconds between IGDB requests
-PS_DELAY = 0.6     # seconds between each PS Store fetch
+IGDB_DELAY = 0.3  # seconds between IGDB batch requests
 
 HEADERS = {
     "User-Agent": (
@@ -48,12 +58,14 @@ HEADERS = {
         "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     ),
     "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate, br",  # 8x smaller responses
 }
 
 # CTA sub-type constants
 _CTA_BUY = "add_to_cart"
 _CTA_EXTRA = "upsell_ps_plus_game_catalog"
 _CTA_DELUXE = "upsell_ps_plus_classics_catalog"
+
 
 # ---------------------------------------------------------------------------
 # Data
@@ -64,8 +76,8 @@ class PriceInfo:
     price: str = ""
     original_price: str = ""
     discount_pct: str = ""
-    extra_plus: bool = False   # in PS Plus Extra catalog
-    deluxe_plus: bool = False  # in PS Plus Deluxe/Classics catalog
+    extra_plus: bool = False
+    deluxe_plus: bool = False
 
 
 @dataclass
@@ -81,6 +93,20 @@ class GameRow:
     extra_plus_included: bool = False
     deluxe_plus_included: bool = False
     essential_plus_included: bool = False  # no reliable per-page signal; always False
+
+
+# ---------------------------------------------------------------------------
+# HTTP helper
+# ---------------------------------------------------------------------------
+
+def _http_get(url: str, timeout: int = 15) -> bytes:
+    """GET with automatic gzip decompression."""
+    req = urllib.request.Request(url, headers=HEADERS)
+    resp = urllib.request.urlopen(req, timeout=timeout)
+    raw = resp.read()
+    if resp.headers.get("Content-Encoding") == "gzip":
+        return gzip_module.decompress(raw)
+    return raw
 
 
 # ---------------------------------------------------------------------------
@@ -104,7 +130,6 @@ _IGDB_TIMEOUT = 30
 
 
 def _igdb_request(headers: dict, query: bytes) -> list:
-    """POST to IGDB with retries on timeout."""
     for attempt in range(_IGDB_RETRIES):
         try:
             req = urllib.request.Request(IGDB_GAMES_URL, data=query, headers=headers)
@@ -113,66 +138,77 @@ def _igdb_request(headers: dict, query: bytes) -> list:
         except (TimeoutError, urllib.error.URLError) as exc:
             if attempt < _IGDB_RETRIES - 1:
                 wait = 2 ** attempt * 2
-                print(f"  IGDB timeout, retrying in {wait}s... ({exc})", file=sys.stderr)
+                log.warning("IGDB timeout, retrying in %ds... (%s)", wait, exc)
                 time.sleep(wait)
             else:
                 raise
     return []
 
 
-def igdb_ps5_concept_ids(token: str, limit: int | None = None) -> list[tuple[str, str]]:
-    """Return list of (game_name, concept_id) for PS5 games with PS Store entries."""
+def load_db_igdb_ids(database_url: str) -> list[tuple[str, int]]:
+    """Return (title, igdb_id) for every ps5_games row that has an igdb_id."""
+    with psycopg.connect(database_url, connect_timeout=10) as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                "SELECT title, igdb_id FROM ps5_games WHERE igdb_id IS NOT NULL ORDER BY title"
+            )
+            return [(row[0], row[1]) for row in cur.fetchall()]
+
+
+def igdb_concept_ids_for_ids(
+    token: str, db_games: list[tuple[str, int]]
+) -> list[tuple[str, str]]:
+    """Resolve (title, igdb_id) pairs to (title, ps_store_concept_id).
+
+    Batches up to 500 IGDB IDs per request. Games with no PS Store URL are dropped.
+    """
     igdb_headers = {
         "Client-ID": IGDB_CLIENT_ID,
         "Authorization": f"Bearer {token}",
         "Content-Type": "text/plain",
     }
 
+    id_to_title = {igdb_id: title for title, igdb_id in db_games}
+    all_ids = list(id_to_title.keys())
+
     results: list[tuple[str, str]] = []
-    offset = 0
     batch = 500
 
-    while True:
+    for i in range(0, len(all_ids), batch):
+        chunk = all_ids[i : i + batch]
+        id_list = ",".join(str(x) for x in chunk)
         query = (
             f"fields id, name, external_games.uid, external_games.url; "
-            f'where platforms = (167) & external_games.url = *"store.playstation.com/en-us/concept"*; '
-            f"limit {batch}; offset {offset};"
+            f"where id = ({id_list}); "
+            f"limit {batch};"
         ).encode()
 
         games = _igdb_request(igdb_headers, query)
-
-        if not games:
-            break
+        matched = 0
 
         for g in games:
-            name = g["name"]
+            igdb_id = g["id"]
+            title = id_to_title.get(igdb_id, g["name"])
             for ext in g.get("external_games", []):
-                url = ext.get("url", "")
-                uid = ext.get("uid", "")
-                if "store.playstation.com/en-us/concept" in url and uid:
-                    results.append((name, uid))
+                if "store.playstation.com/en-us/concept" in ext.get("url", "") and ext.get("uid"):
+                    results.append((title, ext["uid"]))
+                    matched += 1
                     break
 
-        print(f"  IGDB offset {offset}: fetched {len(games)} games, total so far: {len(results)}", file=sys.stderr)
+        log.info(
+            "IGDB batch %d-%d: %d/%d games had a PS Store concept URL",
+            i, i + len(chunk), matched, len(chunk),
+        )
 
-        if len(games) < batch:
-            break
-        offset += batch
-        time.sleep(IGDB_DELAY)
+        if i + batch < len(all_ids):
+            time.sleep(IGDB_DELAY)
 
-        if limit and len(results) >= limit:
-            break
-
-    if limit:
-        results = results[:limit]
-
-    # Deduplicate by concept_id (keep first occurrence)
     seen: set[str] = set()
     deduped = []
-    for name, cid in results:
+    for title, cid in results:
         if cid not in seen:
             seen.add(cid)
-            deduped.append((name, cid))
+            deduped.append((title, cid))
     return deduped
 
 
@@ -180,16 +216,11 @@ def igdb_ps5_concept_ids(token: str, limit: int | None = None) -> list[tuple[str
 # PS Store price extraction
 # ---------------------------------------------------------------------------
 
-_NEXT_DATA_RE = re.compile(
-    r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', re.S
-)
-_ENV_JSON_RE = re.compile(
-    r'<script[^>]+type="application/json">(.*?)</script>', re.S
-)
+_NEXT_DATA_RE = re.compile(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', re.S)
+_ENV_JSON_RE = re.compile(r'<script[^>]+type="application/json">(.*?)</script>', re.S)
 
 
 def _extract_cache(html: str) -> dict:
-    """Pull the Apollo cache dict out of the CTA batarang."""
     nd_match = _NEXT_DATA_RE.search(html)
     if not nd_match:
         return {}
@@ -218,13 +249,11 @@ def _extract_cache(html: str) -> dict:
 
 
 def fetch_ps_price(concept_id: str, locale: str) -> PriceInfo:
-    """Fetch a single concept page and extract price + PS Plus tier flags."""
+    """Fetch one concept page and extract price + PS Plus tier flags."""
     url = f"{PS_STORE_BASE}/{locale}/concept/{concept_id}"
-    req = urllib.request.Request(url, headers=HEADERS)
-
     try:
-        resp = urllib.request.urlopen(req, timeout=15)
-        html = resp.read().decode(errors="replace")
+        raw = _http_get(url)
+        html = raw.decode(errors="replace")
     except urllib.error.HTTPError as e:
         if e.code in (404, 400):
             return PriceInfo()
@@ -245,19 +274,15 @@ def fetch_ps_price(concept_id: str, locale: str) -> PriceInfo:
         subtype = local.get("telemetryMeta", {}).get("ctaSubType", "")
 
         if subtype == _CTA_BUY:
-            # Real purchase price - may include discount
             info.price = local.get("priceOrText", "")
             info.original_price = local.get("originalPrice", "")
             info.discount_pct = local.get("discountBadgeText", "")
-
         elif subtype == _CTA_EXTRA:
             info.extra_plus = True
-
         elif subtype == _CTA_DELUXE:
             info.deluxe_plus = True
 
-    # Fallback: if no ADD_TO_CART found, use first non-empty priceOrText that
-    # isn't an UPSELL entry (handles free-to-play games with "Free" CTA)
+    # Fallback for free-to-play: no ADD_TO_CART, take first non-UPSELL price
     if not info.price:
         for key, val in cache.items():
             if not key.startswith("GameCTA:") or not isinstance(val, dict):
@@ -283,59 +308,117 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Fetch PS Store prices for US and Turkey.")
     parser.add_argument("-o", "--output", default="psstore_prices.csv", help="Output CSV path")
     parser.add_argument("--limit", type=int, default=None, help="Max number of games to fetch")
+    parser.add_argument("--workers", type=int, default=4, help="Concurrent PS Store fetches (default: 4)")
+    parser.add_argument("--log-file", default=None, help="Also write logs to this file")
+    parser.add_argument("--db-url", default=None, help="Postgres connection string (fallback: DATABASE_URL env var)")
     args = parser.parse_args()
 
-    print("Getting IGDB OAuth token...", file=sys.stderr)
+    handlers: list[logging.Handler] = [logging.StreamHandler(sys.stderr)]
+    if args.log_file:
+        handlers.append(logging.FileHandler(args.log_file, encoding="utf-8"))
+
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S",
+        handlers=handlers,
+    )
+
+    database_url = args.db_url or os.environ.get("DATABASE_URL")
+    if not database_url:
+        sys.exit("ERROR: provide --db-url or set DATABASE_URL env var")
+
+    log.info("Loading igdb_ids from ps5_games table...")
+    db_games = load_db_igdb_ids(database_url)
+    log.info("Found %d games with igdb_id in the database.", len(db_games))
+
+    if not db_games:
+        sys.exit("No games with igdb_id found. Run enrich_metadata.py first.")
+
+    log.info("Getting IGDB OAuth token...")
     token = get_igdb_token()
 
-    print("Fetching PS5 game list from IGDB...", file=sys.stderr)
-    games = igdb_ps5_concept_ids(token, limit=args.limit)
-    print(f"Found {len(games)} games with PS Store concept IDs.", file=sys.stderr)
+    log.info("Resolving PS Store concept IDs via IGDB...")
+    games = igdb_concept_ids_for_ids(token, db_games)
+    log.info("%d of %d DB games resolved to a PS Store concept URL.", len(games), len(db_games))
+
+    if args.limit:
+        games = games[: args.limit]
+        log.info("Limiting to %d games.", len(games))
 
     csv_fields = [f.name for f in fields(GameRow)]
 
-    with open(args.output, "w", newline="", encoding="utf-8") as f:
+    # Resume: skip concept_ids already present in the output file
+    already_done: set[str] = set()
+    if os.path.exists(args.output):
+        with open(args.output, newline="", encoding="utf-8") as existing:
+            for row in csv.DictReader(existing):
+                if row.get("concept_id"):
+                    already_done.add(row["concept_id"])
+        if already_done:
+            log.info("Resuming — skipping %d already-fetched games.", len(already_done))
+            games = [(name, cid) for name, cid in games if cid not in already_done]
+
+    total = len(games)
+    if total == 0:
+        log.info("All games already fetched. Nothing to do.")
+        return
+
+    log.info("Starting price fetch: %d games remaining, %d workers...", total, args.workers)
+
+    # Append to existing file; write header only when creating fresh
+    file_mode = "a" if already_done else "w"
+    with open(args.output, file_mode, newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=csv_fields)
-        writer.writeheader()
+        if not already_done:
+            writer.writeheader()
 
-        for idx, (game_name, concept_id) in enumerate(games, 1):
-            row = GameRow(game_name=game_name, concept_id=concept_id)
+        with ThreadPoolExecutor(max_workers=args.workers) as pool:
+            # Submit US and TR fetches for all games upfront.
+            # The pool executes at most --workers fetches concurrently.
+            # Results are collected in original game order below.
+            game_futures: list[tuple[str, str, Future, Future]] = [
+                (name, cid,
+                 pool.submit(fetch_ps_price, cid, LOCALES["us"]),
+                 pool.submit(fetch_ps_price, cid, LOCALES["tr"]))
+                for name, cid in games
+            ]
 
-            # US fetch — also supplies PS Plus tier booleans (global catalog)
-            us = fetch_ps_price(concept_id, LOCALES["us"])
-            time.sleep(PS_DELAY)
-            tr = fetch_ps_price(concept_id, LOCALES["tr"])
-            time.sleep(PS_DELAY)
+            done_offset = len(already_done)
+            grand_total = done_offset + total
 
-            row.us_price = us.price
-            row.us_original_price = us.original_price
-            row.us_discount_pct = us.discount_pct
-            row.tr_price = tr.price
-            row.tr_original_price = tr.original_price
-            row.tr_discount_pct = tr.discount_pct
-            row.extra_plus_included = us.extra_plus
-            row.deluxe_plus_included = us.deluxe_plus
-            # essential_plus_included: no per-page signal detected; always False
-            row.essential_plus_included = False
+            for idx, (game_name, concept_id, f_us, f_tr) in enumerate(game_futures, 1):
+                try:
+                    us: PriceInfo = f_us.result()
+                    tr: PriceInfo = f_tr.result()
+                except Exception as exc:
+                    log.warning("[%d/%d] %s: fetch failed: %s", done_offset + idx, grand_total, game_name, exc)
+                    us = tr = PriceInfo()
 
-            writer.writerow(
-                {f.name: getattr(row, f.name) for f in fields(row)}
-            )
-            f.flush()
+                row = GameRow(
+                    game_name=game_name,
+                    concept_id=concept_id,
+                    us_price=us.price,
+                    us_original_price=us.original_price,
+                    us_discount_pct=us.discount_pct,
+                    tr_price=tr.price,
+                    tr_original_price=tr.original_price,
+                    tr_discount_pct=tr.discount_pct,
+                    extra_plus_included=us.extra_plus,
+                    deluxe_plus_included=us.deluxe_plus,
+                    essential_plus_included=False,
+                )
 
-            plus_tag = ""
-            if us.extra_plus:
-                plus_tag = " [Extra]"
-            elif us.deluxe_plus:
-                plus_tag = " [Deluxe]"
+                # Written and flushed immediately — safe to interrupt at any point
+                writer.writerow({f.name: getattr(row, f.name) for f in fields(row)})
+                f.flush()
 
-            us_status = us.price if us.price else "N/A"
-            tr_status = tr.price if tr.price else "N/A"
-            print(
-                f"[{idx}/{len(games)}] {game_name} (concept {concept_id})"
-                f" | US: {us_status} | TR: {tr_status}{plus_tag}",
-                file=sys.stderr,
-            )
+                plus_tag = " [Extra]" if us.extra_plus else (" [Deluxe]" if us.deluxe_plus else "")
+                log.info(
+                    "[%d/%d] %s (concept %s) | US: %s | TR: %s%s",
+                    done_offset + idx, grand_total, game_name, concept_id,
+                    us.price or "N/A", tr.price or "N/A", plus_tag,
+                )
 
 
 if __name__ == "__main__":
