@@ -3,6 +3,7 @@ from .digikala import DigikalaAdapter
 from .dragonshop import DragonShopAdapter
 from .doctorgame import DoctorGameAdapter
 from .hajigame import HajiGameAdapter
+from .gameaccess import GameAccessAdapter
 from .gamario import GamarioAdapter
 from .gamecenter import GameCenterAdapter
 from .gameonestore import GameoneStoreAdapter
@@ -32,4 +33,5 @@ ADAPTERS = {
     DragonShopAdapter.seller: DragonShopAdapter,
     DoctorGameAdapter.seller: DoctorGameAdapter,
     HajiGameAdapter.seller: HajiGameAdapter,
+    GameAccessAdapter.seller: GameAccessAdapter,
 }
