@@ -145,20 +145,20 @@ def _igdb_request(headers: dict, query: bytes) -> list:
     return []
 
 
-def load_db_igdb_ids(database_url: str) -> list[tuple[str, int]]:
-    """Return (title, igdb_id) for every ps5_games row that has an igdb_id."""
+def load_db_igdb_ids(database_url: str) -> list[tuple[str, int, int]]:
+    """Return (title, igdb_id, game_id) for every ps5_games row that has an igdb_id."""
     with psycopg.connect(database_url, connect_timeout=10) as conn:
         with conn.cursor() as cur:
             cur.execute(
-                "SELECT title, igdb_id FROM ps5_games WHERE igdb_id IS NOT NULL ORDER BY title"
+                "SELECT title, igdb_id, id FROM ps5_games WHERE igdb_id IS NOT NULL ORDER BY title"
             )
-            return [(row[0], row[1]) for row in cur.fetchall()]
+            return [(row[0], row[1], row[2]) for row in cur.fetchall()]
 
 
 def igdb_concept_ids_for_ids(
-    token: str, db_games: list[tuple[str, int]]
-) -> list[tuple[str, str]]:
-    """Resolve (title, igdb_id) pairs to (title, ps_store_concept_id).
+    token: str, db_games: list[tuple[str, int, int]]
+) -> list[tuple[str, str, int]]:
+    """Resolve (title, igdb_id, game_id) to (title, ps_store_concept_id, game_id).
 
     Batches up to 500 IGDB IDs per request. Games with no PS Store URL are dropped.
     """
@@ -168,8 +168,8 @@ def igdb_concept_ids_for_ids(
         "Content-Type": "text/plain",
     }
 
-    id_to_title = {igdb_id: title for title, igdb_id in db_games}
-    all_ids = list(id_to_title.keys())
+    id_to_meta = {igdb_id: (title, game_id) for title, igdb_id, game_id in db_games}
+    all_ids = list(id_to_meta.keys())
 
     results: list[tuple[str, str]] = []
     batch = 500
@@ -188,10 +188,10 @@ def igdb_concept_ids_for_ids(
 
         for g in games:
             igdb_id = g["id"]
-            title = id_to_title.get(igdb_id, g["name"])
+            title, game_id = id_to_meta.get(igdb_id, (g["name"], None))
             for ext in g.get("external_games", []):
                 if "store.playstation.com/en-us/concept" in ext.get("url", "") and ext.get("uid"):
-                    results.append((title, ext["uid"]))
+                    results.append((title, ext["uid"], game_id))
                     matched += 1
                     break
 
@@ -205,11 +205,49 @@ def igdb_concept_ids_for_ids(
 
     seen: set[str] = set()
     deduped = []
-    for title, cid in results:
+    for title, cid, game_id in results:
         if cid not in seen:
             seen.add(cid)
-            deduped.append((title, cid))
+            deduped.append((title, cid, game_id))
     return deduped
+
+
+# ---------------------------------------------------------------------------
+# DB write
+# ---------------------------------------------------------------------------
+
+def db_upsert_row(conn: psycopg.Connection, row: "GameRow", game_id: int | None) -> None:
+    """Upsert one row into ps5_store_info. Commits immediately."""
+    conn.execute(
+        """
+        INSERT INTO ps5_store_info (
+            concept_id, game_id,
+            us_price, us_original_price, us_discount_pct,
+            tr_price, tr_original_price, tr_discount_pct,
+            essential_plus_included, extra_plus_included, deluxe_plus_included,
+            fetched_at
+        ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())
+        ON CONFLICT (concept_id) DO UPDATE SET
+            game_id                 = EXCLUDED.game_id,
+            us_price                = EXCLUDED.us_price,
+            us_original_price       = EXCLUDED.us_original_price,
+            us_discount_pct         = EXCLUDED.us_discount_pct,
+            tr_price                = EXCLUDED.tr_price,
+            tr_original_price       = EXCLUDED.tr_original_price,
+            tr_discount_pct         = EXCLUDED.tr_discount_pct,
+            essential_plus_included = EXCLUDED.essential_plus_included,
+            extra_plus_included     = EXCLUDED.extra_plus_included,
+            deluxe_plus_included    = EXCLUDED.deluxe_plus_included,
+            fetched_at              = NOW()
+        """,
+        (
+            row.concept_id, game_id,
+            row.us_price or None, row.us_original_price or None, row.us_discount_pct or None,
+            row.tr_price or None, row.tr_original_price or None, row.tr_discount_pct or None,
+            row.essential_plus_included, row.extra_plus_included, row.deluxe_plus_included,
+        ),
+    )
+    conn.commit()
 
 
 # ---------------------------------------------------------------------------
@@ -306,7 +344,7 @@ def fetch_ps_price(concept_id: str, locale: str) -> PriceInfo:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Fetch PS Store prices for US and Turkey.")
-    parser.add_argument("-o", "--output", default="psstore_prices.csv", help="Output CSV path")
+    parser.add_argument("-o", "--output", default=None, help="Optional CSV output path")
     parser.add_argument("--limit", type=int, default=None, help="Max number of games to fetch")
     parser.add_argument("--workers", type=int, default=4, help="Concurrent PS Store fetches (default: 4)")
     parser.add_argument("--log-file", default=None, help="Also write logs to this file")
@@ -348,46 +386,60 @@ def main() -> None:
 
     csv_fields = [f.name for f in fields(GameRow)]
 
-    # Resume: skip concept_ids already present in the output file
+    # Resume: skip concept_ids already in the CSV (local runs) or in the DB (production)
     already_done: set[str] = set()
-    if os.path.exists(args.output):
+    if args.output and os.path.exists(args.output):
         with open(args.output, newline="", encoding="utf-8") as existing:
-            for row in csv.DictReader(existing):
-                if row.get("concept_id"):
-                    already_done.add(row["concept_id"])
+            for csv_row in csv.DictReader(existing):
+                if csv_row.get("concept_id"):
+                    already_done.add(csv_row["concept_id"])
         if already_done:
-            log.info("Resuming — skipping %d already-fetched games.", len(already_done))
-            games = [(name, cid) for name, cid in games if cid not in already_done]
+            log.info("Resuming from CSV — skipping %d already-fetched games.", len(already_done))
+    else:
+        # In production (no CSV), resume by checking what's already in the DB from today
+        with psycopg.connect(database_url, connect_timeout=10) as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "SELECT concept_id FROM ps5_store_info WHERE fetched_at >= NOW() - INTERVAL '12 hours'"
+                )
+                already_done = {row[0] for row in cur.fetchall()}
+        if already_done:
+            log.info("Resuming from DB — skipping %d games fetched in the last 12 hours.", len(already_done))
 
-    total = len(games)
+    remaining = [(name, cid, gid) for name, cid, gid in games if cid not in already_done]
+    total = len(remaining)
+
     if total == 0:
         log.info("All games already fetched. Nothing to do.")
         return
 
     log.info("Starting price fetch: %d games remaining, %d workers...", total, args.workers)
 
-    # Append to existing file; write header only when creating fresh
-    file_mode = "a" if already_done else "w"
-    with open(args.output, file_mode, newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=csv_fields)
-        if not already_done:
-            writer.writeheader()
+    done_offset = len(already_done)
+    grand_total = done_offset + total
 
+    # Open DB connection for writes; open CSV in append mode if requested
+    db_conn = psycopg.connect(database_url, connect_timeout=10, autocommit=False)
+
+    csv_file = None
+    csv_writer = None
+    if args.output:
+        file_mode = "a" if already_done else "w"
+        csv_file = open(args.output, file_mode, newline="", encoding="utf-8")
+        csv_writer = csv.DictWriter(csv_file, fieldnames=csv_fields)
+        if not already_done:
+            csv_writer.writeheader()
+
+    try:
         with ThreadPoolExecutor(max_workers=args.workers) as pool:
-            # Submit US and TR fetches for all games upfront.
-            # The pool executes at most --workers fetches concurrently.
-            # Results are collected in original game order below.
-            game_futures: list[tuple[str, str, Future, Future]] = [
-                (name, cid,
+            game_futures: list[tuple[str, str, int | None, Future, Future]] = [
+                (name, cid, gid,
                  pool.submit(fetch_ps_price, cid, LOCALES["us"]),
                  pool.submit(fetch_ps_price, cid, LOCALES["tr"]))
-                for name, cid in games
+                for name, cid, gid in remaining
             ]
 
-            done_offset = len(already_done)
-            grand_total = done_offset + total
-
-            for idx, (game_name, concept_id, f_us, f_tr) in enumerate(game_futures, 1):
+            for idx, (game_name, concept_id, game_id, f_us, f_tr) in enumerate(game_futures, 1):
                 try:
                     us: PriceInfo = f_us.result()
                     tr: PriceInfo = f_tr.result()
@@ -409,9 +461,11 @@ def main() -> None:
                     essential_plus_included=False,
                 )
 
-                # Written and flushed immediately — safe to interrupt at any point
-                writer.writerow({f.name: getattr(row, f.name) for f in fields(row)})
-                f.flush()
+                db_upsert_row(db_conn, row, game_id)
+
+                if csv_writer and csv_file:
+                    csv_writer.writerow({f.name: getattr(row, f.name) for f in fields(row)})
+                    csv_file.flush()
 
                 plus_tag = " [Extra]" if us.extra_plus else (" [Deluxe]" if us.deluxe_plus else "")
                 log.info(
@@ -419,6 +473,10 @@ def main() -> None:
                     done_offset + idx, grand_total, game_name, concept_id,
                     us.price or "N/A", tr.price or "N/A", plus_tag,
                 )
+    finally:
+        db_conn.close()
+        if csv_file:
+            csv_file.close()
 
 
 if __name__ == "__main__":

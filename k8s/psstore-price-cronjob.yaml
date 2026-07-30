@@ -1,0 +1,66 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: gamexs-psstore-prices
+  namespace: mahdixak-gamexs
+spec:
+  # 3:00 AM Tehran time = 23:30 UTC (Iran is UTC+3:30).
+  schedule: "30 23 * * *"
+
+  # Never run two price-fetch jobs at the same time.
+  concurrencyPolicy: Forbid
+
+  # Keep logs from the last 1 successful and 3 failed jobs.
+  successfulJobsHistoryLimit: 1
+  failedJobsHistoryLimit: 3
+
+  jobTemplate:
+    spec:
+      # Kill if not finished in 2 hours (820 games at ~1.2s each = ~16 min; generous headroom).
+      activeDeadlineSeconds: 7200
+
+      # Don't retry automatically — a failed run should be investigated.
+      backoffLimit: 0
+
+      template:
+        metadata:
+          labels:
+            app: gamexs-psstore-prices
+        spec:
+          restartPolicy: Never
+
+          containers:
+            - name: psstore-prices
+              image: registry.hamdocker.ir/mahdixak/gamexs-scraper:0.2
+
+              command:
+                - python
+                - fetch_psstore_prices.py
+                - --workers
+                - "4"
+
+              env:
+                - name: DATABASE_URL
+                  value: "postgresql://gamexs:gamexs@gamexs-db.mahdixak-gamexs.svc:5432/gamexs"
+                - name: IGDB_CLIENT_ID
+                  valueFrom:
+                    secretKeyRef:
+                      name: gamexs-secret-envs
+                      key: IGDB_CLIENT_ID
+                - name: IGDB_CLIENT_SECRET
+                  valueFrom:
+                    secretKeyRef:
+                      name: gamexs-secret-envs
+                      key: IGDB_CLIENT_SECRET
+                - name: HTTPS_PROXY
+                  value: "http://custom-xray.mahdixak-gamexs.svc:10809"
+                - name: NO_PROXY
+                  value: "gamexs-db.mahdixak-gamexs.svc,localhost,127.0.0.1,10.0.0.0/8"
+
+              resources:
+                requests:
+                  cpu: "250m"
+                  memory: "256Mi"
+                limits:
+                  cpu: "500m"
+                  memory: "512Mi"
