@@ -7,11 +7,12 @@ import Disclaimer from "@/components/Disclaimer";
 import GamePreorderBanner from "@/components/GamePreorderBanner";
 import Header from "@/components/Header";
 import JsonLd from "@/components/JsonLd";
+import PsStorePriceBadges from "@/components/PsStorePriceBadges";
 import PurchaseTypeSelector from "@/components/PurchaseTypeSelector";
 import ScreenshotGallery from "@/components/ScreenshotGallery";
 import WishlistButton from "@/components/WishlistButton";
 import { formatToman, toPersianDigits } from "@/lib/format";
-import { getGameBySlug } from "@/lib/games-repo";
+import { getGameBySlug, getGameStoreInfo } from "@/lib/games-repo";
 import { lowestPrice, lowestValidPrice, storeCount } from "@/lib/purchase-options";
 import { SITE_URL, tomanToRial } from "@/lib/seo";
 
@@ -61,6 +62,8 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const game = await getGameBySlug(slug);
   if (!game) notFound();
+
+  const storeInfo = await getGameStoreInfo(game.dbId);
 
   const price  = lowestPrice(game);
   const stores = storeCount(game);
@@ -271,14 +274,17 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
                 </div>
               </div>
 
-              {/* ── Cover art (LEFT in RTL) — 32% column, max 420px tall ── */}
-              <CoverArt
-                coverUrl={game.coverUrl}
-                title={game.title}
-                initial={game.coverInitial}
-                className="w-full aspect-[3/4] max-h-[420px] rounded-2xl shadow-2xl"
-                priority
-              />
+              {/* ── Cover art + PS Store badges (LEFT in RTL) ── */}
+              <div className="flex flex-col gap-3">
+                <CoverArt
+                  coverUrl={game.coverUrl}
+                  title={game.title}
+                  initial={game.coverInitial}
+                  className="w-full aspect-[3/4] max-h-[420px] rounded-2xl shadow-2xl"
+                  priority
+                />
+                {storeInfo && <PsStorePriceBadges info={storeInfo} hero />}
+              </div>
             </div>
           </div>
         </div>

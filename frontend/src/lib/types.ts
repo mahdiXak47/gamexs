@@ -1,5 +1,6 @@
 export type ProductType = "ACCOUNT_GAME" | "OWN_ACCOUNT_GAME" | "DISC";
 export type AccessTier = "CAPACITY_1" | "CAPACITY_2" | "CAPACITY_3";
+export type SortOption = "popular" | "newest" | "price_asc" | "price_desc" | "alpha_asc" | "alpha_desc";
 
 export interface Seller {
   id: string;

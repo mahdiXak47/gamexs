@@ -3,7 +3,7 @@ import { query } from "./db";
 import { s3CoverUrl, s3ScreenshotUrl } from "./covers";
 import { getGameDetails } from "./game-details";
 import { emptyPurchaseOptions, findOption } from "./purchase-options";
-import type { AccessTier, Game, GameSummary, ProductType, UpcomingGame } from "./types";
+import type { AccessTier, Game, GameSummary, ProductType, SortOption, UpcomingGame } from "./types";
 
 // Resolve cover URL — S3 only.
 // 1. DB stores an S3 URL (gs3.gamexs.ir) → use directly.
@@ -80,53 +80,49 @@ export async function listGames(): Promise<GameSummary[]> {
   }));
 }
 
-export async function getGamesByGenre(genre: string): Promise<GameSummary[]> {
-  const { rows } = await query<{
-    slug: string;
-    title: string;
-    genre_label: string | null;
-    publisher: string | null;
-    cover_url: string | null;
-    lowest_price: string | null;
-    store_count: string;
-    purchase_type_count: string;
-    created_at: Date;
-  }>(`
-    ${LATEST_PRICE_CTE}
-    SELECT
-      g.slug,
-      g.title,
-      g.genre_label,
-      g.publisher,
-      g.cover_url,
-      g.created_at,
-      MIN(latest.price_toman) AS lowest_price,
-      COUNT(DISTINCT l.seller_id) AS store_count,
-      COUNT(DISTINCT (l.product_type, l.tier)) AS purchase_type_count
-    FROM ps5_games g
-    LEFT JOIN listings l ON l.game_id = g.id AND l.is_active
-    LEFT JOIN latest ON latest.listing_id = l.id
-    WHERE g.genre_label ILIKE $1
-      AND g.platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')
-    GROUP BY g.id
-    ORDER BY store_count DESC, g.title
-  `, [`%${genre}%`]);
+const SORT_CLAUSE: Record<SortOption, string> = {
+  popular: "store_count DESC, title ASC",
+  newest: "created_at DESC",
+  price_asc: "lowest_price ASC NULLS LAST",
+  price_desc: "lowest_price DESC NULLS LAST",
+  alpha_asc: "title ASC",
+  alpha_desc: "title DESC",
+};
 
-  return rows.map((row) => ({
-    slug: row.slug,
-    title: row.title,
-    genreLabel: row.genre_label,
-    publisher: row.publisher,
-    coverInitial: deriveInitial(row.title),
-    coverUrl: toCoverUrl(row.cover_url, row.slug),
-    lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
-    storeCount: Number(row.store_count),
-    purchaseTypeCount: Number(row.purchase_type_count),
-    createdAt: row.created_at.getTime(),
-  }));
+export interface ListGamesOptions {
+  genre?: string;
+  query?: string;
+  publishers?: string[];
+  sort?: SortOption;
+  page?: number;
+  pageSize?: number;
+  // Homepage only shows games with at least one active listing (matches the
+  // previous INNER JOIN behavior); genre/search pages show every match
+  // regardless of listing count (previous LEFT JOIN behavior). Preserved as
+  // a flag rather than unified, to avoid changing either page's visible results.
+  onlyWithListings?: boolean;
 }
 
-export async function searchGames(q: string): Promise<GameSummary[]> {
+export interface PagedGames {
+  games: GameSummary[];
+  total: number;
+}
+
+// Single paginated/filtered/sorted query backing the homepage, genre pages,
+// and search — replaces three separate "fetch every matching row, filter/sort/
+// paginate in the browser" functions. That older approach sent all ~2,000
+// PS5 games to the client on every homepage load (an ~850KB payload and a
+// slow query), regardless of the 20 actually shown per page.
+export async function listGamesPage(options: ListGamesOptions = {}): Promise<PagedGames> {
+  const {
+    genre = null,
+    query: search = null,
+    publishers = null,
+    sort = "popular",
+    page = 1,
+    pageSize = 20,
+  } = options;
+
   const { rows } = await query<{
     slug: string;
     title: string;
@@ -137,29 +133,47 @@ export async function searchGames(q: string): Promise<GameSummary[]> {
     store_count: string;
     purchase_type_count: string;
     created_at: Date;
-  }>(`
+    total_count: string;
+  }>(
+    `
     ${LATEST_PRICE_CTE}
-    SELECT
-      g.slug,
-      g.title,
-      g.genre_label,
-      g.publisher,
-      g.cover_url,
-      g.created_at,
-      MIN(latest.price_toman) AS lowest_price,
-      COUNT(DISTINCT l.seller_id) AS store_count,
-      COUNT(DISTINCT (l.product_type, l.tier)) AS purchase_type_count
-    FROM ps5_games g
-    LEFT JOIN listings l ON l.game_id = g.id AND l.is_active
-    LEFT JOIN latest ON latest.listing_id = l.id
-    WHERE g.title ILIKE $1
-      AND g.platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')
-    GROUP BY g.id
-    ORDER BY g.title
-    LIMIT 200
-  `, [`%${q}%`]);
+    , filtered AS (
+      SELECT
+        g.slug,
+        g.title,
+        g.genre_label,
+        g.publisher,
+        g.cover_url,
+        g.created_at,
+        MIN(latest.price_toman) AS lowest_price,
+        COUNT(DISTINCT l.seller_id) AS store_count,
+        COUNT(DISTINCT (l.product_type, l.tier)) AS purchase_type_count
+      FROM ps5_games g
+      LEFT JOIN listings l ON l.game_id = g.id AND l.is_active
+      LEFT JOIN latest ON latest.listing_id = l.id
+      WHERE g.platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')
+        AND ($1::text IS NULL OR g.genre_label ILIKE $1)
+        AND ($2::text IS NULL OR g.title ILIKE $2 OR g.genre_label ILIKE $2)
+        AND ($3::text[] IS NULL OR g.publisher = ANY($3))
+      GROUP BY g.id
+      HAVING NOT $6 OR COUNT(DISTINCT l.id) > 0
+    )
+    SELECT *, COUNT(*) OVER() AS total_count
+    FROM filtered
+    ORDER BY ${SORT_CLAUSE[sort]}
+    LIMIT $4 OFFSET $5
+    `,
+    [
+      genre ? `%${genre}%` : null,
+      search ? `%${search}%` : null,
+      publishers && publishers.length > 0 ? publishers : null,
+      pageSize,
+      (page - 1) * pageSize,
+      options.onlyWithListings ?? false,
+    ]
+  );
 
-  return rows.map((row) => ({
+  const games = rows.map((row) => ({
     slug: row.slug,
     title: row.title,
     genreLabel: row.genre_label,
@@ -171,6 +185,28 @@ export async function searchGames(q: string): Promise<GameSummary[]> {
     purchaseTypeCount: Number(row.purchase_type_count),
     createdAt: row.created_at.getTime(),
   }));
+
+  return { games, total: rows.length > 0 ? Number(rows[0].total_count) : 0 };
+}
+
+// Publishers with ≥ 2 games, sorted alphabetically — single-game publishers
+// are excluded as they add noise without useful filtering value. Optionally
+// scoped to a genre so the genre pages' filter only lists relevant publishers.
+export async function listPublishers(genre?: string): Promise<string[]> {
+  const { rows } = await query<{ publisher: string }>(
+    `
+    SELECT publisher
+    FROM ps5_games
+    WHERE platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')
+      AND publisher IS NOT NULL
+      AND ($1::text IS NULL OR genre_label ILIKE $1)
+    GROUP BY publisher
+    HAVING count(*) >= 2
+    ORDER BY publisher
+    `,
+    [genre ? `%${genre}%` : null]
+  );
+  return rows.map((r) => r.publisher);
 }
 
 // Wrapped in React's per-request cache so generateMetadata and the page
@@ -331,6 +367,51 @@ export async function getFeaturedUpcomingGames(slugs: string[]): Promise<Upcomin
     [slugs]
   );
   return rows.map(rowToUpcoming);
+}
+
+export interface PsStoreInfo {
+  usCurrent: string | null;
+  usOriginal: string | null;
+  usDiscount: string | null;
+  trCurrent: string | null;
+  trOriginal: string | null;
+  trDiscount: string | null;
+  essentialPlus: boolean;
+  extraPlus: boolean;
+  deluxePlus: boolean;
+}
+
+export async function getGameStoreInfo(gameId: number): Promise<PsStoreInfo | null> {
+  const { rows } = await query<{
+    us_price: string | null;
+    us_original_price: string | null;
+    us_discount_pct: string | null;
+    tr_price: string | null;
+    tr_original_price: string | null;
+    tr_discount_pct: string | null;
+    essential_plus_included: boolean;
+    extra_plus_included: boolean;
+    deluxe_plus_included: boolean;
+  }>(
+    `SELECT us_price, us_original_price, us_discount_pct,
+            tr_price, tr_original_price, tr_discount_pct,
+            essential_plus_included, extra_plus_included, deluxe_plus_included
+     FROM ps5_store_info WHERE game_id = $1`,
+    [gameId]
+  );
+  const row = rows[0];
+  if (!row) return null;
+  return {
+    usCurrent:  row.us_price,
+    usOriginal: row.us_original_price,
+    usDiscount: row.us_discount_pct,
+    trCurrent:  row.tr_price,
+    trOriginal: row.tr_original_price,
+    trDiscount: row.tr_discount_pct,
+    essentialPlus: row.essential_plus_included,
+    extraPlus:     row.extra_plus_included,
+    deluxePlus:    row.deluxe_plus_included,
+  };
 }
 
 export async function getLastScrapedAt(): Promise<Date | null> {

@@ -7,7 +7,8 @@ import HeroBanner from "@/components/HeroBanner";
 import JsonLd from "@/components/JsonLd";
 import TopGames from "@/components/TopGames";
 import UpcomingGames from "@/components/UpcomingGames";
-import { getLastScrapedAt, getFeaturedUpcomingGames, listGames } from "@/lib/games-repo";
+import { getLastScrapedAt, getFeaturedUpcomingGames, listGamesPage, listPublishers } from "@/lib/games-repo";
+import { parseGameListSearchParams } from "@/lib/search-params";
 import { SITE_URL } from "@/lib/seo";
 
 const HOMEPAGE_UPCOMING_SLUGS = [
@@ -17,19 +18,26 @@ const HOMEPAGE_UPCOMING_SLUGS = [
   "marvel’s-wolverine",
 ];
 
+const PAGE_SIZE = 20;
+
 export const dynamic = "force-dynamic";
 
-export default async function Home() {
-  const [games, lastScrapedAt, upcomingGames] = await Promise.all([
-    listGames(),
+export default async function Home({
+  searchParams,
+}: {
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
+}) {
+  const { query, sort, publishers, page } = parseGameListSearchParams(await searchParams);
+
+  const [{ games: topGames }, { games, total }, publishersList, lastScrapedAt, upcomingGames] = await Promise.all([
+    listGamesPage({ sort: "popular", pageSize: 10, onlyWithListings: true }),
+    listGamesPage({ query, sort, publishers, page, pageSize: PAGE_SIZE, onlyWithListings: true }),
+    listPublishers(),
     getLastScrapedAt(),
     getFeaturedUpcomingGames(HOMEPAGE_UPCOMING_SLUGS),
   ]);
 
-  // Sort by popularity (storeCount) for featured/trending sections
-  const byPopularity = [...games].sort((a, b) => b.storeCount - a.storeCount);
-  const featuredGames = byPopularity.slice(0, 5); // hero carousel
-  const topGames = byPopularity.slice(0, 10);     // top 10 section
+  const featuredGames = topGames.slice(0, 5); // hero carousel
 
   // Format last updated for display
   const lastUpdated = lastScrapedAt
@@ -85,7 +93,17 @@ export default async function Home() {
             آخرین به‌روزرسانی: {lastUpdated}
           </p>
         )}
-        <GameGrid games={games} />
+        <GameGrid
+          games={games}
+          total={total}
+          page={page}
+          pageSize={PAGE_SIZE}
+          sort={sort}
+          query={query}
+          selectedPublishers={publishers}
+          publishersList={publishersList}
+          basePath="/"
+        />
       </main>
 
       <Disclaimer />

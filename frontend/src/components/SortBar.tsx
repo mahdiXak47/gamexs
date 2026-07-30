@@ -1,8 +1,9 @@
 "use client";
 
 import { Button } from "@heroui/react";
+import type { SortOption } from "@/lib/types";
 
-export type SortOption = "popular" | "newest" | "price_asc" | "price_desc" | "alpha_asc" | "alpha_desc";
+export type { SortOption };
 
 const OPTIONS: { value: SortOption; label: string }[] = [
   { value: "popular", label: "پرطرفدار‌ترین‌ها" },

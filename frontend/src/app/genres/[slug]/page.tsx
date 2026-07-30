@@ -6,10 +6,13 @@ import Header from "@/components/Header";
 import GameGrid from "@/components/GameGrid";
 import Disclaimer from "@/components/Disclaimer";
 import JsonLd from "@/components/JsonLd";
-import { getGamesByGenre } from "@/lib/games-repo";
+import { listGamesPage, listPublishers } from "@/lib/games-repo";
 import { genreBySlug, GENRES } from "@/lib/genres";
 import { toPersianDigits } from "@/lib/format";
+import { parseGameListSearchParams } from "@/lib/search-params";
 import { SITE_URL } from "@/lib/seo";
+
+const PAGE_SIZE = 20;
 
 export const dynamic = "force-dynamic";
 
@@ -39,14 +42,21 @@ export async function generateMetadata({
 
 export default async function GenrePage({
   params,
+  searchParams,
 }: {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
 }) {
   const { slug } = await params;
   const genre = genreBySlug(slug);
   if (!genre) notFound();
 
-  const games = await getGamesByGenre(genre.genre);
+  const { query, sort, publishers, page } = parseGameListSearchParams(await searchParams);
+
+  const [{ games, total }, publishersList] = await Promise.all([
+    listGamesPage({ genre: genre.genre, query, sort, publishers, page, pageSize: PAGE_SIZE }),
+    listPublishers(genre.genre),
+  ]);
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
@@ -76,13 +86,13 @@ export default async function GenrePage({
             <h1 className="text-2xl font-extrabold text-white sm:text-3xl">
               {genre.label}
             </h1>
-            {games.length > 0 && (
+            {total > 0 && (
               <Chip
                 variant="soft"
                 size="sm"
                 className="bg-white/20 text-white"
               >
-                {toPersianDigits(games.length)} بازی
+                {toPersianDigits(total)} بازی
               </Chip>
             )}
           </div>
@@ -100,7 +110,7 @@ export default async function GenrePage({
       </div>
 
       <main className="mx-auto max-w-7xl flex-1 px-4 py-8 sm:px-6">
-        {games.length === 0 ? (
+        {total === 0 ? (
           <div className="mt-16 flex flex-col items-center gap-3 text-center">
             <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-gray-300" aria-hidden>
               <circle cx="11" cy="11" r="8" /><path d="m21 21-4.35-4.35" />
@@ -108,7 +118,17 @@ export default async function GenrePage({
             <p className="text-gray-500 font-medium">بازی‌ای در این دسته یافت نشد</p>
           </div>
         ) : (
-          <GameGrid games={games} />
+          <GameGrid
+            games={games}
+            total={total}
+            page={page}
+            pageSize={PAGE_SIZE}
+            sort={sort}
+            query={query}
+            selectedPublishers={publishers}
+            publishersList={publishersList}
+            basePath={`/genres/${slug}`}
+          />
         )}
       </main>
 

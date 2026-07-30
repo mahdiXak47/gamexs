@@ -3,8 +3,11 @@ import { Chip } from "@heroui/react";
 import Header from "@/components/Header";
 import GameGrid from "@/components/GameGrid";
 import Disclaimer from "@/components/Disclaimer";
-import { searchGames } from "@/lib/games-repo";
+import { listGamesPage, listPublishers } from "@/lib/games-repo";
 import { toPersianDigits } from "@/lib/format";
+import { parseGameListSearchParams } from "@/lib/search-params";
+
+const PAGE_SIZE = 20;
 
 export const dynamic = "force-dynamic";
 
@@ -17,11 +20,18 @@ export const metadata = {
 export default async function SearchPage({
   searchParams,
 }: {
-  searchParams: Promise<{ q?: string }>;
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
 }) {
-  const { q = "" } = await searchParams;
-  const trimmed = q.trim();
-  const games = trimmed.length >= 2 ? await searchGames(trimmed) : [];
+  const { query, sort, publishers, page } = parseGameListSearchParams(await searchParams);
+  const trimmed = query.trim();
+  const hasQuery = trimmed.length >= 2;
+
+  const [{ games, total }, publishersList] = hasQuery
+    ? await Promise.all([
+        listGamesPage({ query: trimmed, sort, publishers, page, pageSize: PAGE_SIZE }),
+        listPublishers(),
+      ])
+    : [{ games: [], total: 0 }, []];
 
   return (
     <>
@@ -34,9 +44,9 @@ export default async function SearchPage({
             <h1 className="text-2xl font-extrabold text-white sm:text-3xl">
               {trimmed ? `نتایج «${trimmed}»` : "جستجو"}
             </h1>
-            {games.length > 0 && (
+            {total > 0 && (
               <Chip variant="soft" size="sm" className="bg-white/20 text-white">
-                {toPersianDigits(games.length)} بازی
+                {toPersianDigits(total)} بازی
               </Chip>
             )}
           </div>
@@ -55,11 +65,11 @@ export default async function SearchPage({
 
       <main className="mx-auto max-w-7xl flex-1 px-4 py-8 sm:px-6">
 
-        {trimmed.length < 2 ? (
+        {!hasQuery ? (
           <p className="text-gray-400 mt-8 text-center text-sm">
             حداقل ۲ کاراکتر برای جستجو وارد کنید
           </p>
-        ) : games.length === 0 ? (
+        ) : total === 0 ? (
           <div className="mt-16 flex flex-col items-center gap-3 text-center">
             <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-gray-300" aria-hidden>
               <circle cx="11" cy="11" r="8" />
@@ -69,7 +79,17 @@ export default async function SearchPage({
             <p className="text-sm text-gray-400">عنوان بازی را به انگلیسی امتحان کنید</p>
           </div>
         ) : (
-          <GameGrid games={games} />
+          <GameGrid
+            games={games}
+            total={total}
+            page={page}
+            pageSize={PAGE_SIZE}
+            sort={sort}
+            query={query}
+            selectedPublishers={publishers}
+            publishersList={publishersList}
+            basePath="/search"
+          />
         )}
       </main>
 
