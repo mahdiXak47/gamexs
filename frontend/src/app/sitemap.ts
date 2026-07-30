@@ -4,10 +4,12 @@ import { GENRES } from "@/lib/genres";
 import { TIER_SLUG } from "@/lib/ps-plus-repo";
 import { SITE_URL } from "@/lib/seo";
 
-// Regenerate hourly rather than per-request — matches the scraper's refresh
-// cadence (data is a few hours stale anyway, see CLAUDE.md), so there's no
-// value in recomputing this on every crawl hit.
-export const revalidate = 3600;
+// force-dynamic (not revalidate/ISR) — every DB-backed route in this app is
+// force-dynamic because the Docker build only sets a placeholder
+// DATABASE_URL, expecting no route to touch the DB at build time. revalidate
+// would make Next.js prerender this route during `next build`, which fails
+// there (see frontend/Dockerfile).
+export const dynamic = "force-dynamic";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [games, lastScrapedAt] = await Promise.all([listGames(), getLastScrapedAt()]);
