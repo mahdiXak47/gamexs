@@ -18,4 +18,5 @@ INSERT INTO sellers (slug, name, domain) VALUES
     ('xgamesstore', 'XGames', 'xgamesstore.org'),
     ('gamecenter', 'گیم سنتر', 'game-center.ir'),
     ('gamario', 'Gamario', 'gamario.com'),
-    ('cdkeyshare', 'سی‌دی‌کی‌شر', 'cdkeyshare.ir');
+    ('cdkeyshare', 'سی‌دی‌کی‌شر', 'cdkeyshare.ir'),
+    ('dragonshop', 'دراگون شاپ', 'dragon-shop.ir');
