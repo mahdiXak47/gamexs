@@ -119,6 +119,65 @@ external dependency or redirect overhead. Steps:
 - **Pending**: audit remaining special edition rows that have no `igdb_id` and
   verify their edition labels are correct (Legacy Edition, Collector Edition, etc.).
 
+## SEO
+
+- ✅ `frontend/src/app/robots.ts` — allows all crawlers plus explicitly named
+  AI bots (GPTBot, ChatGPT-User, PerplexityBot, ClaudeBot, anthropic-ai,
+  Google-Extended, Bingbot); disallows `/api/`, `/account/`, `/cart/`.
+- ✅ `frontend/src/app/sitemap.ts` — dynamic sitemap covering every game,
+  genre, and PS Plus tier page, hourly revalidation.
+- ✅ Per-page `generateMetadata` (title/description/canonical/OG/Twitter) on
+  `games/[slug]`, `genres/[slug]`, `ps-plus/[tier]`; static metadata + canonical
+  added to `ps-plus`/`upcoming`; `search` marked `noindex` (thin/duplicate
+  query pages).
+- ✅ Root layout (`app/layout.tsx`): `metadataBase`, sitewide title template,
+  default robots directives, `Organization` + `WebSite` (with `SearchAction`)
+  JSON-LD.
+- ✅ `Product` + `AggregateOffer` JSON-LD on game pages and PS Plus tier pages,
+  built from live seller price data (`lib/seo.ts::tomanToRial` converts to the
+  ISO `IRR` currency code Toman isn't). Listings with `price_toman = 0` (a
+  scraper artifact on ~4.5% of out-of-stock offers) are excluded from
+  structured data so it never claims a zero price.
+- ✅ `ItemList`/`CollectionPage` JSON-LD on the homepage, genre pages, PS Plus
+  index, and upcoming-games page.
+- ✅ `public/llms.txt` — AI-context file describing the taxonomy and
+  comparison-only nature of the site.
+- ✅ Scraper slug generation (`load_to_postgres.py`): new games get
+  underscore-separated slugs (product decision to avoid `-`); games already in
+  the DB keep matching their existing hyphenated slug on re-scrape so no
+  duplicate rows/URLs get created.
+
+**Pending — verification & measurement (do first, no code):**
+- Verify `gamexs.ir` in Google Search Console (DNS TXT record preferred over
+  HTML-tag verification) and submit `sitemap.xml`.
+- Verify in Bing Webmaster Tools (feeds Copilot's index too).
+- Add basic analytics (GA4 or a privacy-respecting alternative) — currently
+  there is no pageview tracking at all, so none of the above is measurable.
+
+**Pending — content additions:**
+- FAQ / taxonomy explainer page (e.g. `/راهنما`) covering "ظرفیت ۱ چیست؟",
+  disc vs. account vs. subscription, marked up with `FAQPage` schema. This
+  content currently only exists as tooltips in `lib/purchase-options.ts`, not
+  as a real page — it's exactly the "definitive guide" content type AI systems
+  cite most.
+- `BreadcrumbList` JSON-LD on game/genre pages.
+- `dateModified` in the `Product` JSON-LD, sourced from `price_history.scraped_at`
+  per listing (freshness signal) — not wired in yet.
+- Dynamic OG images (`opengraph-image.tsx` file convention) showing cover +
+  lowest price, instead of reusing the raw cover art with no price context.
+
+**Pending — bigger bet:**
+- Google Merchant Center product feed built from the same DB query as the
+  sitemap, so game price comparisons can surface in Google Shopping/AI
+  Overviews shopping panels. Needs its own scoping conversation (feed format,
+  policy compliance for a comparison-not-checkout site) before implementation.
+
+**Pending — ongoing / no-code:**
+- Persian gaming community/directory presence (forums, Telegram channels) —
+  third-party mentions get cited by AI more than the site's own pages.
+- Monthly manual check: `site:gamexs.ir` on Google, and a few "قیمت [بازی]
+  برای PS5" queries on ChatGPT/Perplexity, to track citation over time.
+
 ## Pending: Legal and trust
 
 - **Enamad sign**: apply for and integrate the Enamad (اینماد) e-trust certificate

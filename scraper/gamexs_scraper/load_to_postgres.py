@@ -36,7 +36,19 @@ _TRUSTED_COVER_SELLERS = {"digikala", "pspro", "technolife", "nakhlmarket"}
 
 
 def url_slugify(name: str) -> str:
+    """Legacy hyphen-separated slug — every game loaded so far uses this
+    format. Kept unchanged, and still used to look up already-loaded games in
+    load_offers(), so existing /games/<slug> URLs, the sitemap, and IGDB
+    cross-references never silently break on a re-scrape.
+    """
     return _EDGE_DASH_RE.sub("", _URL_UNSAFE_RE.sub("", slugify(name)))
+
+
+def new_game_slug(name: str) -> str:
+    """Slug format for games not yet in the DB — no "-" character (product
+    decision), underscore-separated instead.
+    """
+    return url_slugify(name).replace("-", "_")
 
 
 def get_or_create_game(
@@ -108,10 +120,20 @@ def load_offers(
     listings_seen: set[int] = set()
 
     for i, offer in enumerate(offers, start=1):
-        slug = url_slugify(normalize_game_name(offer.raw_title))
-        if not slug:
+        normalized = normalize_game_name(offer.raw_title)
+        legacy_slug = url_slugify(normalized)
+        if not legacy_slug:
             print(f"\nskipping offer with empty slug: {offer.raw_title!r}", file=sys.stderr)
             continue
+
+        # Reuse the existing hyphenated slug for games already in the DB —
+        # only a genuinely new title gets the new no-hyphen slug format, so
+        # re-scraping a known game never creates a duplicate row/URL.
+        cur.execute(
+            "SELECT 1 FROM ps5_games WHERE platform_id = %s AND slug = %s",
+            (platform_id, legacy_slug),
+        )
+        slug = legacy_slug if cur.fetchone() else new_game_slug(normalized)
 
         game_id = get_or_create_game(cur, platform_id, slug, clean_title(offer.raw_title), offer.image_url, trusted_cover)
         games_seen.add(game_id)

@@ -100,7 +100,7 @@ export default function Header() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
 
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 shrink-0" aria-label="GameXS - صفحه اصلی">
+          <Link href="/" className="flex items-center gap-3 shrink-0" aria-label="GameXS — صفحه اصلی">
             <PSIcon />
             <span className="text-white text-xl font-extrabold tracking-wide">
               Game<span className="text-yellow-300">XS</span>

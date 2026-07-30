@@ -8,8 +8,8 @@ class Ticket(models.Model):
     CATEGORY_ACCOUNT = "account"
     CATEGORY_GENERAL = "general"
     CATEGORY_CHOICES = [
-        (CATEGORY_PRE_PURCHASE, "Pre-purchase"),
-        (CATEGORY_POST_PURCHASE, "Post-purchase"),
+        (CATEGORY_PRE_PURCHASE, "Before Purchase"),
+        (CATEGORY_POST_PURCHASE, "After Purchase"),
         (CATEGORY_ACCOUNT, "Account"),
         (CATEGORY_GENERAL, "General"),
     ]
