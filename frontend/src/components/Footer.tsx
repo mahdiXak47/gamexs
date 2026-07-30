@@ -65,7 +65,7 @@ export default function Footer() {
 
           {/* Branding */}
           <div className="flex flex-col gap-4">
-            <Image src="/logos/logo7.png" alt="GameXS" width={971} height={347} className="h-8 w-auto" />
+            <Image src="/logos/logo7.png" alt="GameXS" width={971} height={347} className="h-9 w-auto self-start shrink-0" />
             <p className="text-blue-200 text-sm leading-relaxed max-w-xs">
               مقایسه قیمت بازی، اکانت و اشتراک PS5 بین فروشندگان معتبر ایران.
               خرید نهایی مستقیم از سایت فروشنده انجام می‌شود.

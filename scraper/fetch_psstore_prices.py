@@ -11,7 +11,8 @@ Usage:
 Output CSV columns:
     game_name, concept_id,
     us_price, us_original_price, us_discount_pct,
-    tr_price, tr_original_price, tr_discount_pct
+    tr_price, tr_original_price, tr_discount_pct,
+    extra_plus_included, deluxe_plus_included, essential_plus_included
 """
 
 import argparse
@@ -49,6 +50,11 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
+# CTA sub-type constants
+_CTA_BUY = "add_to_cart"
+_CTA_EXTRA = "upsell_ps_plus_game_catalog"
+_CTA_DELUXE = "upsell_ps_plus_classics_catalog"
+
 # ---------------------------------------------------------------------------
 # Data
 # ---------------------------------------------------------------------------
@@ -58,6 +64,9 @@ class PriceInfo:
     price: str = ""
     original_price: str = ""
     discount_pct: str = ""
+    extra_plus: bool = False   # in PS Plus Extra catalog
+    deluxe_plus: bool = False  # in PS Plus Deluxe/Classics catalog
+
 
 @dataclass
 class GameRow:
@@ -69,6 +78,9 @@ class GameRow:
     tr_price: str = ""
     tr_original_price: str = ""
     tr_discount_pct: str = ""
+    extra_plus_included: bool = False
+    deluxe_plus_included: bool = False
+    essential_plus_included: bool = False  # no reliable per-page signal; always False
 
 
 # ---------------------------------------------------------------------------
@@ -176,8 +188,37 @@ _ENV_JSON_RE = re.compile(
 )
 
 
+def _extract_cache(html: str) -> dict:
+    """Pull the Apollo cache dict out of the CTA batarang."""
+    nd_match = _NEXT_DATA_RE.search(html)
+    if not nd_match:
+        return {}
+    try:
+        page_data = json.loads(nd_match.group(1))
+    except json.JSONDecodeError:
+        return {}
+
+    cta_text = (
+        page_data.get("props", {})
+        .get("pageProps", {})
+        .get("batarangs", {})
+        .get("cta", {})
+        .get("text", "")
+    )
+    if not cta_text:
+        return {}
+
+    env_match = _ENV_JSON_RE.search(cta_text)
+    if not env_match:
+        return {}
+    try:
+        return json.loads(env_match.group(1)).get("cache", {})
+    except json.JSONDecodeError:
+        return {}
+
+
 def fetch_ps_price(concept_id: str, locale: str) -> PriceInfo:
-    """Fetch a single concept page and extract current + original price."""
+    """Fetch a single concept page and extract price + PS Plus tier flags."""
     url = f"{PS_STORE_BASE}/{locale}/concept/{concept_id}"
     req = urllib.request.Request(url, headers=HEADERS)
 
@@ -191,53 +232,47 @@ def fetch_ps_price(concept_id: str, locale: str) -> PriceInfo:
     except urllib.error.URLError:
         return PriceInfo()
 
-    nd_match = _NEXT_DATA_RE.search(html)
-    if not nd_match:
+    cache = _extract_cache(html)
+    if not cache:
         return PriceInfo()
 
-    try:
-        page_data = json.loads(nd_match.group(1))
-    except json.JSONDecodeError:
-        return PriceInfo()
+    info = PriceInfo()
 
-    cta_text = (
-        page_data.get("props", {})
-        .get("pageProps", {})
-        .get("batarangs", {})
-        .get("cta", {})
-        .get("text", "")
-    )
-    if not cta_text:
-        return PriceInfo()
+    for key, val in cache.items():
+        if not key.startswith("GameCTA:") or not isinstance(val, dict):
+            continue
+        local = val.get("local", {})
+        subtype = local.get("telemetryMeta", {}).get("ctaSubType", "")
 
-    # The CTA batarang embeds its Apollo cache as a JSON script tag
-    env_match = _ENV_JSON_RE.search(cta_text)
-    if env_match:
-        try:
-            env = json.loads(env_match.group(1))
-            cache = env.get("cache", {})
-            for key, val in cache.items():
-                if key.startswith("GameCTA:") and isinstance(val, dict):
-                    local = val.get("local", {})
-                    if local.get("priceOrText"):
-                        return PriceInfo(
-                            price=local.get("priceOrText", ""),
-                            original_price=local.get("originalPrice", ""),
-                            discount_pct=local.get("discountBadgeText", ""),
-                        )
-        except (json.JSONDecodeError, KeyError):
-            pass
+        if subtype == _CTA_BUY:
+            # Real purchase price - may include discount
+            info.price = local.get("priceOrText", "")
+            info.original_price = local.get("originalPrice", "")
+            info.discount_pct = local.get("discountBadgeText", "")
 
-    # Fallback: regex directly on the CTA text
-    price_m = re.search(r'"priceOrText":"([^"]*)"', cta_text)
-    orig_m = re.search(r'"originalPrice":"([^"]*)"', cta_text)
-    disc_m = re.search(r'"discountBadgeText":"([^"]*)"', cta_text)
+        elif subtype == _CTA_EXTRA:
+            info.extra_plus = True
 
-    return PriceInfo(
-        price=price_m.group(1) if price_m else "",
-        original_price=orig_m.group(1) if orig_m else "",
-        discount_pct=disc_m.group(1) if disc_m else "",
-    )
+        elif subtype == _CTA_DELUXE:
+            info.deluxe_plus = True
+
+    # Fallback: if no ADD_TO_CART found, use first non-empty priceOrText that
+    # isn't an UPSELL entry (handles free-to-play games with "Free" CTA)
+    if not info.price:
+        for key, val in cache.items():
+            if not key.startswith("GameCTA:") or not isinstance(val, dict):
+                continue
+            if "UPSELL" in key:
+                continue
+            local = val.get("local", {})
+            pot = local.get("priceOrText", "")
+            if pot:
+                info.price = pot
+                info.original_price = local.get("originalPrice", "")
+                info.discount_pct = local.get("discountBadgeText", "")
+                break
+
+    return info
 
 
 # ---------------------------------------------------------------------------
@@ -266,6 +301,7 @@ def main() -> None:
         for idx, (game_name, concept_id) in enumerate(games, 1):
             row = GameRow(game_name=game_name, concept_id=concept_id)
 
+            # US fetch — also supplies PS Plus tier booleans (global catalog)
             us = fetch_ps_price(concept_id, LOCALES["us"])
             time.sleep(PS_DELAY)
             tr = fetch_ps_price(concept_id, LOCALES["tr"])
@@ -277,17 +313,27 @@ def main() -> None:
             row.tr_price = tr.price
             row.tr_original_price = tr.original_price
             row.tr_discount_pct = tr.discount_pct
+            row.extra_plus_included = us.extra_plus
+            row.deluxe_plus_included = us.deluxe_plus
+            # essential_plus_included: no per-page signal detected; always False
+            row.essential_plus_included = False
 
             writer.writerow(
                 {f.name: getattr(row, f.name) for f in fields(row)}
             )
             f.flush()
 
-            status = us.price if us.price else "N/A"
+            plus_tag = ""
+            if us.extra_plus:
+                plus_tag = " [Extra]"
+            elif us.deluxe_plus:
+                plus_tag = " [Deluxe]"
+
+            us_status = us.price if us.price else "N/A"
             tr_status = tr.price if tr.price else "N/A"
             print(
                 f"[{idx}/{len(games)}] {game_name} (concept {concept_id})"
-                f" | US: {status} | TR: {tr_status}",
+                f" | US: {us_status} | TR: {tr_status}{plus_tag}",
                 file=sys.stderr,
             )
 
