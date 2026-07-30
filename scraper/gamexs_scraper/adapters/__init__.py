@@ -1,4 +1,5 @@
 from .cdkeyshare import CdkeyShareAdapter
+from .clockstore1 import ClockStore1Adapter
 from .digikala import DigikalaAdapter
 from .dragonshop import DragonShopAdapter
 from .doctorgame import DoctorGameAdapter
@@ -34,4 +35,5 @@ ADAPTERS = {
     DoctorGameAdapter.seller: DoctorGameAdapter,
     HajiGameAdapter.seller: HajiGameAdapter,
     GameAccessAdapter.seller: GameAccessAdapter,
+    ClockStore1Adapter.seller: ClockStore1Adapter,
 }
