@@ -2,13 +2,15 @@
 
 import { Button } from "@heroui/react";
 
-export type SortOption = "popular" | "newest" | "price_asc" | "price_desc";
+export type SortOption = "popular" | "newest" | "price_asc" | "price_desc" | "alpha_asc" | "alpha_desc";
 
 const OPTIONS: { value: SortOption; label: string }[] = [
   { value: "popular", label: "پرطرفدار‌ترین‌ها" },
   { value: "newest", label: "جدید‌ترین‌ها" },
   { value: "price_asc", label: "کمترین قیمت" },
   { value: "price_desc", label: "بیشترین قیمت" },
+  { value: "alpha_asc", label: "نام: A تا Z" },
+  { value: "alpha_desc", label: "نام: Z تا A" },
 ];
 
 export default function SortBar({ value, onChange }: { value: SortOption; onChange: (v: SortOption) => void }) {

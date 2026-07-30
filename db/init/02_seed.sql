@@ -20,4 +20,5 @@ INSERT INTO sellers (slug, name, domain) VALUES
     ('gamario', 'Gamario', 'gamario.com'),
     ('cdkeyshare', 'سی‌دی‌کی‌شر', 'cdkeyshare.ir'),
     ('dragonshop', 'دراگون شاپ', 'dragon-shop.ir'),
-    ('doctorgame', 'دکتر گیم', 'doctor-game.ir');
+    ('doctorgame', 'دکتر گیم', 'doctor-game.ir'),
+    ('hajigame', 'حاجی گیم', 'hajigame.ir');

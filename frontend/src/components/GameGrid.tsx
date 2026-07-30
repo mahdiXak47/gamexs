@@ -74,6 +74,8 @@ export default function GameGrid({ games }: { games: GameSummary[] }) {
       return b.lowestPriceToman - a.lowestPriceToman;
     });
     if (sort === "popular") return copy.sort((a, b) => b.storeCount - a.storeCount);
+    if (sort === "alpha_asc") return copy.sort((a, b) => a.title.localeCompare(b.title));
+    if (sort === "alpha_desc") return copy.sort((a, b) => b.title.localeCompare(a.title));
     return filtered;
   }, [filtered, sort]);
 
