@@ -156,7 +156,7 @@ def update_db(db_url: str, endpoint: str, bucket: str, uploaded_keys: set[str]) 
     print("Querying DB for all games …", file=sys.stderr)
     with psycopg.connect(db_url, connect_timeout=10) as conn:
         with conn.cursor() as cur:
-            cur.execute("SELECT id, slug FROM games ORDER BY slug")
+            cur.execute("SELECT id, slug FROM ps5_games ORDER BY slug")
             games = cur.fetchall()
 
         print(f"{len(games)} games found — computing updates …", file=sys.stderr)
@@ -181,7 +181,7 @@ def update_db(db_url: str, endpoint: str, bucket: str, uploaded_keys: set[str]) 
                 if cover_url or shot_urls:
                     cur.execute(
                         """
-                        UPDATE games
+                        UPDATE ps5_games
                         SET cover_url      = COALESCE(%s, cover_url),
                             screenshot_ids = COALESCE(%s, screenshot_ids)
                         WHERE id = %s
