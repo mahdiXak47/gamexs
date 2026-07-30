@@ -1,6 +1,7 @@
 from .cdkeyshare import CdkeyShareAdapter
 from .digikala import DigikalaAdapter
 from .dragonshop import DragonShopAdapter
+from .doctorgame import DoctorGameAdapter
 from .gamario import GamarioAdapter
 from .gamecenter import GameCenterAdapter
 from .gameonestore import GameoneStoreAdapter
@@ -28,4 +29,5 @@ ADAPTERS = {
     CdkeyShareAdapter.seller: CdkeyShareAdapter,
     DigikalaAdapter.seller: DigikalaAdapter,
     DragonShopAdapter.seller: DragonShopAdapter,
+    DoctorGameAdapter.seller: DoctorGameAdapter,
 }
