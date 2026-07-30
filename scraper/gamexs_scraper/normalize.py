@@ -79,6 +79,15 @@ _ROMAN_NUMERAL_RE = re.compile(
     r"^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$", re.IGNORECASE
 )
 
+# Official titles the generic title-case heuristic gets wrong — e.g. a
+# leading symbol before an all-caps word defeats the "uppercase word ≤3
+# letters" acronym check in _apply_title_case, so "#DRIVE Rally" → "#drive
+# Rally". Matched case-insensitively against the fully-cleaned title, so this
+# survives both scraper re-runs and IGDB enrichment (both call clean_title()).
+_TITLE_CASE_OVERRIDES = {
+    "#drive rally": "#DRIVE Rally",
+}
+
 
 def _apply_title_case(text: str) -> str:
     """Title-case each whitespace-separated token.
@@ -129,7 +138,8 @@ def clean_title(raw_title: str) -> str:
     text = re.sub(r"(\d)([A-Za-z])", r"\1 \2", text)
     text = _WHITESPACE_RE.sub(" ", text).strip()
     # 7. Apply consistent Title Case across all seller variants.
-    return _apply_title_case(text)
+    cased = _apply_title_case(text)
+    return _TITLE_CASE_OVERRIDES.get(cased.lower(), cased)
 
 
 def normalize_game_name(raw_title: str) -> str:

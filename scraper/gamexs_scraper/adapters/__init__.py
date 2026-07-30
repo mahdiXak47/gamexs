@@ -5,6 +5,7 @@ from .dragonshop import DragonShopAdapter
 from .doctorgame import DoctorGameAdapter
 from .hajigame import HajiGameAdapter
 from .gameaccess import GameAccessAdapter
+from .gamepulse import GamePulseAdapter
 from .gamario import GamarioAdapter
 from .gamecenter import GameCenterAdapter
 from .gameonestore import GameoneStoreAdapter
@@ -36,4 +37,5 @@ ADAPTERS = {
     HajiGameAdapter.seller: HajiGameAdapter,
     GameAccessAdapter.seller: GameAccessAdapter,
     ClockStore1Adapter.seller: ClockStore1Adapter,
+    GamePulseAdapter.seller: GamePulseAdapter,
 }
