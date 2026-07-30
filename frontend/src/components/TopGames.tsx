@@ -68,7 +68,7 @@ export default function TopGames({ games }: { games: GameSummary[] }) {
 
                 {/* Info */}
                 <div className="p-2.5">
-                  <p className="text-xs font-bold text-gray-900 line-clamp-2 leading-snug mb-1">{game.title}</p>
+                  <p dir="auto" className="text-right text-xs font-bold text-gray-900 line-clamp-2 leading-snug mb-1">{game.title}</p>
                   {game.lowestPriceToman !== null ? (
                     <p className="price-figure text-xs font-extrabold text-ps-blue">
                       {formatToman(game.lowestPriceToman)}

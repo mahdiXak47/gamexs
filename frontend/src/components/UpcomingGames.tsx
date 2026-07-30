@@ -40,7 +40,7 @@ function UpcomingCard({ game }: { game: UpcomingGame }) {
 
       {/* Top: title + date (RTL — text sticks to right) */}
       <div className="relative z-10 p-4 sm:p-5">
-        <h3 className="text-lg sm:text-xl font-bold text-white leading-snug drop-shadow line-clamp-2">
+        <h3 dir="auto" className="text-right text-lg sm:text-xl font-bold text-white leading-snug drop-shadow line-clamp-2">
           {game.title}
         </h3>
         <p className="text-sm text-white/80 mt-1 underline underline-offset-2 decoration-white/40">

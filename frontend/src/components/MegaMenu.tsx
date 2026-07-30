@@ -109,7 +109,7 @@ export default function MegaMenu({
                       </div>
                     )}
                   </div>
-                  <p className="text-white/65 text-[11px] font-medium truncate group-hover:text-white transition-colors text-center">
+                  <p dir="auto" className="text-white/65 text-[11px] font-medium truncate group-hover:text-white transition-colors text-center">
                     {game.title}
                   </p>
                 </Link>

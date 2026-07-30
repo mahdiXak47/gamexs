@@ -29,7 +29,7 @@ export default function GameCard({ game, isBestPrice = false }: { game: GameSumm
 
         {/* Info */}
         <div className="flex flex-col gap-1.5 p-3 flex-1">
-          <p className="line-clamp-2 text-sm font-bold text-gray-900 leading-snug">{game.title}</p>
+          <p dir="auto" className="line-clamp-2 text-right text-sm font-bold text-gray-900 leading-snug">{game.title}</p>
           {game.genreLabel && (
             <span className="self-start text-[10px] font-medium text-ps-blue bg-blue-50 px-2 py-0.5 rounded-full">
               {game.genreLabel}

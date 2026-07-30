@@ -126,7 +126,7 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
                 <Chip size="sm" className="bg-white/25 text-white border-0 text-xs">{game.genreLabel}</Chip>
               )}
             </div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-3 drop-shadow-lg">
+            <h2 dir="auto" className="text-right text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-3 drop-shadow-lg">
               {game.title}
             </h2>
             {game.publisher && (

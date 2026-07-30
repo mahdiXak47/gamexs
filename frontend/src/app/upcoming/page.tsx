@@ -91,7 +91,7 @@ function UpcomingCard({ game }: { game: UpcomingGame }) {
 
       {/* Top: title + date */}
       <div className="relative z-10 p-4">
-        <h3 className="text-base font-bold text-white leading-snug drop-shadow line-clamp-2">
+        <h3 dir="auto" className="text-right text-base font-bold text-white leading-snug drop-shadow line-clamp-2">
           {game.title}
         </h3>
         <p className="text-xs text-white/75 mt-1 underline underline-offset-2 decoration-white/35">

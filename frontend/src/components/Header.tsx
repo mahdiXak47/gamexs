@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import dynamic from "next/dynamic";
+import Image from "next/image";
 import Link from "next/link";
 import MegaMenu from "./MegaMenu";
 import { useAuth } from "@/context/AuthContext";
@@ -33,14 +34,6 @@ function MenuIcon() {
       <line x1="3" y1="6" x2="21" y2="6" />
       <line x1="3" y1="12" x2="21" y2="12" />
       <line x1="3" y1="18" x2="21" y2="18" />
-    </svg>
-  );
-}
-
-function PSIcon() {
-  return (
-    <svg width="32" height="22" viewBox="0 0 32 22" fill="white" aria-hidden>
-      <path d="M11.6 0v16.8l4 1.3V4.1c0-.7.3-1.2.8-1 .6.2.9.8.9 1.5v11.6l4 1.3V4.4C21.3 1.4 19.4 0 17 0c-1.6 0-3.5.7-5.4 0zM20.8 13.8v3.3l6.4-2.1c.7-.2.8-.5.3-.7l-2.7-.9c-.5-.2-1.3-.1-2 .1l-2 .3zM0 17.3l5.8 2c2 .7 4.2.5 5.8-.5V15l-4.2 1.4c-.6.2-1.2.2-1.6 0L4 15.7c-.5-.2-.4-.5.1-.7l1.7-.6V11l-5.8 2v4.3z" />
     </svg>
   );
 }
@@ -100,11 +93,8 @@ export default function Header() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
 
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 shrink-0" aria-label="GameXS — صفحه اصلی">
-            <PSIcon />
-            <span className="text-white text-xl font-extrabold tracking-wide">
-              Game<span className="text-yellow-300">XS</span>
-            </span>
+          <Link href="/" className="flex items-center shrink-0" aria-label="GameXS — صفحه اصلی">
+            <Image src="/logos/logo7.png" alt="GameXS" width={971} height={347} className="h-9 w-auto" priority />
           </Link>
 
           {/* Desktop Navigation */}

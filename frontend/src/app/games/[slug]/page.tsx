@@ -208,7 +208,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
 
                 {/* Title + price card — same row, top-aligned */}
                 <div className="mt-3 flex items-start gap-4">
-                  <h1 className={`flex-1 text-3xl font-extrabold leading-tight sm:text-4xl ${
+                  <h1 dir="auto" className={`flex-1 text-right text-3xl font-extrabold leading-tight sm:text-4xl ${
                     hasArt ? "text-white" : ""
                   }`}>
                     {game.title}

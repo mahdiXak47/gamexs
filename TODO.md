@@ -187,7 +187,7 @@ external dependency or redirect overhead. Steps:
 
 - **Logo in application**: integrate the GameXS logo into the application UI
   (header, favicon, OG image, loading screen). Logo assets need to be finalised
-  and placed in `frontend/public/`.
+  and placed in `frontend/public/logos/` (see the README there for expected filenames).
 - **Wire up real social media URLs**: `frontend/src/components/Footer.tsx`
   has YouTube/Instagram/Twitter/Telegram icons in the footer, but none of
   those accounts exist yet — every `href` is a `"#"` placeholder (see the

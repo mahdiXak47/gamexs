@@ -68,7 +68,7 @@ function RecCard({ game }: { game: Recommendation }) {
         )}
       </div>
       <div className="p-3 flex flex-col gap-1.5 flex-1">
-        <p className="text-xs font-bold text-gray-900 leading-snug line-clamp-2 group-hover:text-ps-blue transition-colors">
+        <p dir="auto" className="text-right text-xs font-bold text-gray-900 leading-snug line-clamp-2 group-hover:text-ps-blue transition-colors">
           {game.title}
         </p>
         {game.genreLabel && (

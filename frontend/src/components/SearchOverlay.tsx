@@ -179,7 +179,7 @@ export default function SearchOverlay({ onClose }: { onClose: () => void }) {
 
                     {/* Info */}
                     <div className="flex-1 min-w-0">
-                      <p className="text-sm font-semibold text-gray-900 truncate">{item.title}</p>
+                      <p dir="auto" className="text-right text-sm font-semibold text-gray-900 truncate">{item.title}</p>
                       {item.genreLabel && (
                         <p className="text-xs text-gray-400 mt-0.5">{item.genreLabel}</p>
                       )}
