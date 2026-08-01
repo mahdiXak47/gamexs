@@ -161,6 +161,18 @@ def igdb_concept_ids_for_ids(
     """Resolve (title, igdb_id, game_id) to (title, ps_store_concept_id, game_id).
 
     Batches up to 500 IGDB IDs per request. Games with no PS Store URL are dropped.
+
+    Multiple ps5_games rows can share one igdb_id — IGDB tracks "the game" as a
+    single creative work, not each retail edition (Standard/Ultimate/Deluxe...)
+    separately, and its external_games list normally links only ONE PS Store
+    "concept" page (which itself usually only sells the Standard/base product;
+    verified against the live Cyberpunk 2077 concept page, which lists no
+    Ultimate Edition SKU at all). Writing that one resolved price against every
+    edition sharing the igdb_id would silently show the wrong price on all but
+    one of them — instead, only the row judged most likely to be the actual
+    base/default edition is used; the others are logged and left unpriced
+    rather than guessed at. ps5_store_info.concept_id is also UNIQUE, so the
+    DB could not represent more than one game_id per concept anyway.
     """
     igdb_headers = {
         "Client-ID": IGDB_CLIENT_ID,
@@ -168,10 +180,12 @@ def igdb_concept_ids_for_ids(
         "Content-Type": "text/plain",
     }
 
-    id_to_meta = {igdb_id: (title, game_id) for title, igdb_id, game_id in db_games}
-    all_ids = list(id_to_meta.keys())
+    id_to_rows: dict[int, list[tuple[str, int]]] = {}
+    for title, igdb_id, game_id in db_games:
+        id_to_rows.setdefault(igdb_id, []).append((title, game_id))
+    all_ids = list(id_to_rows.keys())
 
-    results: list[tuple[str, str]] = []
+    results: list[tuple[str, str, int]] = []
     batch = 500
 
     for i in range(0, len(all_ids), batch):
@@ -188,11 +202,23 @@ def igdb_concept_ids_for_ids(
 
         for g in games:
             igdb_id = g["id"]
-            title, game_id = id_to_meta.get(igdb_id, (g["name"], None))
+            rows = id_to_rows.get(igdb_id) or [(g["name"], None)]
             for ext in g.get("external_games", []):
                 if "store.playstation.com/en-us/concept" in ext.get("url", "") and ext.get("uid"):
+                    # Shortest title = most likely the plain/base edition — editions
+                    # almost always ADD words ("... Ultimate Edition") rather than
+                    # omit them, so this is a decent proxy with no language-specific
+                    # edition-keyword list to maintain.
+                    title, game_id = min(rows, key=lambda r: len(r[0]))
                     results.append((title, ext["uid"], game_id))
                     matched += 1
+                    if len(rows) > 1:
+                        skipped = [t for t, gid in rows if gid != game_id]
+                        log.info(
+                            "igdb_id %d: %d editions share this game, only %r priced — "
+                            "skipped (no distinct PS Store concept known): %s",
+                            igdb_id, len(rows), title, ", ".join(skipped),
+                        )
                     break
 
         log.info(
