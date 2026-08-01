@@ -84,7 +84,7 @@ export default function PsStorePriceBadges({ info, hero }: Props) {
 
   if (!hasAnyData) return null;
 
-  const trHref = `${PS_STORE_BASE}/en-tr/product/${info.conceptId}`;
+  const trHref = `${PS_STORE_BASE}/tr-tr/product/${info.conceptId}`;
   const usHref = `${PS_STORE_BASE}/en-us/product/${info.conceptId}`;
 
   const usTooltip = info.usCurrent
