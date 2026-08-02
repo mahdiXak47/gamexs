@@ -35,6 +35,61 @@ function deriveInitial(title: string): string {
   return letters.join("") || "?";
 }
 
+// Words that mark a title as "an edition of" some base game rather than a
+// distinct title — mirrors scraper/gamexs_scraper/enrich_metadata.py's
+// _EDITION_RE keyword list. Used to detect other purchasable editions of the
+// same game (e.g. "Battlefield 6" / "Battlefield 6 Phantom Edition") for the
+// game detail page's "versions" row. IGDB inconsistently assigns editions
+// either the same igdb_id (Resident Evil 4 Remake's 4 editions) or a
+// completely different one (Battlefield 6 vs. Phantom Edition; Death
+// Stranding vs. Director's Cut — confirmed against the live DB), so igdb_id
+// alone isn't reliable — this title heuristic is the primary signal.
+// Deliberately excludes "remake"/"remastered" (unlike enrich_metadata.py's
+// list this is derived from) — a remake is a different product from the
+// original (different dev team, content, often price), not a cosmetic SKU
+// variant. Confirmed against real data: stripping "remake" here would wrongly
+// group "Resident Evil 4 Remake" editions with the unrelated 2005 original's
+// "Resident Evil 4"/"Resident Evil 4 Gold Edition" rows.
+const _EDITION_WORDS = new Set([
+  "edition", "standard", "deluxe", "gold", "platinum", "ultimate", "complete",
+  "goty", "premium", "digital", "bundle", "definitive",
+  "legendary", "collectors", "directors", "enhanced", "anniversary", "launch",
+  "cut", "ps4", "ps5",
+]);
+
+function _normalizeEditionWord(word: string): string {
+  return word
+    .toLowerCase()
+    .replace(/[’]/g, "'")
+    .replace(/[.,]+$/, "")
+    .replace(/'s$/, "s");
+}
+
+// Strips a trailing edition qualifier so "Battlefield 6 Phantom Edition" and
+// "Cyberpunk 2077 Ultimate Edition" reduce to their base title ("Battlefield
+// 6", "Cyberpunk 2077") for same-game comparison. Pops recognized keyword
+// words off the end one at a time; if exactly one word was popped and it was
+// bare "edition"/"cut", pops one more (the thematic qualifier immediately
+// before it, e.g. "Phantom", "Director's"). Never returns an empty string.
+function stripEditionSuffix(title: string): string {
+  const words = title.trim().split(/\s+/);
+  if (words.length <= 1) return title;
+
+  let end = words.length;
+  let poppedCount = 0;
+  while (end > 1 && _EDITION_WORDS.has(_normalizeEditionWord(words[end - 1]))) {
+    end--;
+    poppedCount++;
+  }
+  if (poppedCount === 1) {
+    const sole = _normalizeEditionWord(words[end]);
+    if ((sole === "edition" || sole === "cut") && end > 1) end--;
+  }
+
+  const result = words.slice(0, end).join(" ").trim();
+  return result.length > 0 ? result : title;
+}
+
 export async function listGames(): Promise<GameSummary[]> {
   const { rows } = await query<{
     slug: string;
@@ -209,6 +264,206 @@ export async function listPublishers(genre?: string): Promise<string[]> {
   return rows.map((r) => r.publisher);
 }
 
+// Other PS5 games sharing at least one genre — powers the "similar games" row
+// on the game detail page. Matches against the full IGDB genres array (e.g.
+// {Shooter, Adventure}), not just genre_label, which only stores one primary
+// genre and can make a genuinely multi-genre game (e.g. Death Stranding 2 —
+// Shooter *and* Adventure) look narrower than it is. Ranked by how many
+// genres overlap first, so a game sharing 2 of 2 genres beats one sharing 1.
+// Returns [] when the game has no genres at all rather than falling back to
+// some other signal, since an unrelated game list would be worse than none.
+export async function getSimilarGames(
+  gameId: number,
+  genres: string[],
+  limit = 16
+): Promise<GameSummary[]> {
+  if (genres.length === 0) return [];
+
+  const { rows } = await query<{
+    slug: string;
+    title: string;
+    genre_label: string | null;
+    publisher: string | null;
+    cover_url: string | null;
+    lowest_price: string | null;
+    store_count: string;
+    purchase_type_count: string;
+    created_at: Date;
+  }>(
+    `
+    ${LATEST_PRICE_CTE}
+    SELECT
+      g.slug,
+      g.title,
+      g.genre_label,
+      g.publisher,
+      g.cover_url,
+      g.created_at,
+      MIN(latest.price_toman) AS lowest_price,
+      COUNT(DISTINCT l.seller_id) AS store_count,
+      COUNT(DISTINCT (l.product_type, l.tier)) AS purchase_type_count,
+      cardinality(ARRAY(SELECT unnest(g.genres) INTERSECT SELECT unnest($1::text[]))) AS overlap
+    FROM ps5_games g
+    JOIN listings l ON l.game_id = g.id AND l.is_active
+    JOIN latest ON latest.listing_id = l.id
+    WHERE g.platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')
+      AND g.genres && $1::text[]
+      AND g.id != $2
+    GROUP BY g.id
+    ORDER BY overlap DESC, store_count DESC, g.title
+    LIMIT $3
+    `,
+    [genres, gameId, limit]
+  );
+
+  return rows.map((row) => ({
+    slug: row.slug,
+    title: row.title,
+    genreLabel: row.genre_label,
+    publisher: row.publisher,
+    coverInitial: deriveInitial(row.title),
+    coverUrl: toCoverUrl(row.cover_url, row.slug),
+    lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
+    storeCount: Number(row.store_count),
+    purchaseTypeCount: Number(row.purchase_type_count),
+    createdAt: row.created_at.getTime(),
+  }));
+}
+
+// Other PS5 games sharing at least one developer studio — powers the "same
+// developer" row on the game detail page (e.g. Kojima Productions games for
+// Death Stranding 2). Same array-overlap + overlap-count ranking as
+// getSimilarGames, just matched against ps5_games.developers instead of
+// genres. Returns [] when the game has no developer data.
+export async function getSimilarGamesByDeveloper(
+  gameId: number,
+  developers: string[],
+  limit = 16
+): Promise<GameSummary[]> {
+  if (developers.length === 0) return [];
+
+  const { rows } = await query<{
+    slug: string;
+    title: string;
+    genre_label: string | null;
+    publisher: string | null;
+    cover_url: string | null;
+    lowest_price: string | null;
+    store_count: string;
+    purchase_type_count: string;
+    created_at: Date;
+  }>(
+    `
+    ${LATEST_PRICE_CTE}
+    SELECT
+      g.slug,
+      g.title,
+      g.genre_label,
+      g.publisher,
+      g.cover_url,
+      g.created_at,
+      MIN(latest.price_toman) AS lowest_price,
+      COUNT(DISTINCT l.seller_id) AS store_count,
+      COUNT(DISTINCT (l.product_type, l.tier)) AS purchase_type_count,
+      cardinality(ARRAY(SELECT unnest(g.developers) INTERSECT SELECT unnest($1::text[]))) AS overlap
+    FROM ps5_games g
+    JOIN listings l ON l.game_id = g.id AND l.is_active
+    JOIN latest ON latest.listing_id = l.id
+    WHERE g.platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')
+      AND g.developers && $1::text[]
+      AND g.id != $2
+    GROUP BY g.id
+    ORDER BY overlap DESC, store_count DESC, g.title
+    LIMIT $3
+    `,
+    [developers, gameId, limit]
+  );
+
+  return rows.map((row) => ({
+    slug: row.slug,
+    title: row.title,
+    genreLabel: row.genre_label,
+    publisher: row.publisher,
+    coverInitial: deriveInitial(row.title),
+    coverUrl: toCoverUrl(row.cover_url, row.slug),
+    lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
+    storeCount: Number(row.store_count),
+    purchaseTypeCount: Number(row.purchase_type_count),
+    createdAt: row.created_at.getTime(),
+  }));
+}
+
+// Other purchasable editions of the SAME game (e.g. "Battlefield 6 Phantom
+// Edition" for "Battlefield 6") — powers the "versions" row on the game
+// detail page, above the genre/developer similar-games rows. Broad ILIKE
+// prefetch on the base title's first two words (cheap, cast a wide net),
+// then precise filtering in JS via stripEditionSuffix() equality.
+//
+// Deliberately does NOT also match on igdb_id equality — verified against
+// real data that our own IGDB enrichment sometimes merges a remake and its
+// unrelated original under one igdb_id (confirmed: "Resident Evil 4" (2005)
+// and "Resident Evil 4 Remake" share an igdb_id in this DB), which would
+// wrongly surface the original as a "version" of the remake. Title matching
+// alone already correctly finds every real edition group tested.
+export async function getGameVersions(
+  gameId: number,
+  title: string,
+  limit = 10
+): Promise<GameSummary[]> {
+  const baseTitle = stripEditionSuffix(title).toLowerCase();
+  const prefix = baseTitle.split(/\s+/).slice(0, 2).join(" ");
+
+  const { rows } = await query<{
+    slug: string;
+    title: string;
+    genre_label: string | null;
+    publisher: string | null;
+    cover_url: string | null;
+    lowest_price: string | null;
+    store_count: string;
+    purchase_type_count: string;
+    created_at: Date;
+  }>(
+    `
+    ${LATEST_PRICE_CTE}
+    SELECT
+      g.slug,
+      g.title,
+      g.genre_label,
+      g.publisher,
+      g.cover_url,
+      g.created_at,
+      MIN(latest.price_toman) AS lowest_price,
+      COUNT(DISTINCT l.seller_id) AS store_count,
+      COUNT(DISTINCT (l.product_type, l.tier)) AS purchase_type_count
+    FROM ps5_games g
+    JOIN listings l ON l.game_id = g.id AND l.is_active
+    JOIN latest ON latest.listing_id = l.id
+    WHERE g.platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')
+      AND g.id != $1
+      AND g.title ILIKE $2
+    GROUP BY g.id
+    ORDER BY store_count DESC, g.title
+    `,
+    [gameId, `${prefix}%`]
+  );
+
+  const matched = rows.filter((row) => stripEditionSuffix(row.title).toLowerCase() === baseTitle);
+
+  return matched.slice(0, limit).map((row) => ({
+    slug: row.slug,
+    title: row.title,
+    genreLabel: row.genre_label,
+    publisher: row.publisher,
+    coverInitial: deriveInitial(row.title),
+    coverUrl: toCoverUrl(row.cover_url, row.slug),
+    lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
+    storeCount: Number(row.store_count),
+    purchaseTypeCount: Number(row.purchase_type_count),
+    createdAt: row.created_at.getTime(),
+  }));
+}
+
 // Wrapped in React's per-request cache so generateMetadata and the page
 // component (both calling this for the same slug) share one DB round-trip.
 export const getGameBySlug = cache(async function getGameBySlug(slug: string): Promise<Game | null> {
@@ -217,13 +472,15 @@ export const getGameBySlug = cache(async function getGameBySlug(slug: string): P
     slug: string;
     title: string;
     genre_label: string | null;
+    genres: string[] | null;
+    developers: string[] | null;
     publisher: string | null;
     release_year: number | null;
     release_date: Date | null;
     cover_url: string | null;
     key_art_url: string | null;
     screenshot_ids: string[] | null;
-  }>(`SELECT id, slug, title, genre_label, publisher, release_year, release_date, cover_url, key_art_url, screenshot_ids FROM ps5_games WHERE slug = $1`, [slug]);
+  }>(`SELECT id, slug, title, genre_label, genres, developers, publisher, release_year, release_date, cover_url, key_art_url, screenshot_ids FROM ps5_games WHERE slug = $1`, [slug]);
 
   const game = gameRows[0];
   if (!game) return null;
@@ -280,6 +537,10 @@ export const getGameBySlug = cache(async function getGameBySlug(slug: string): P
     slug: game.slug,
     title: game.title,
     genreLabel: game.genre_label,
+    // Fall back to [genre_label] for the ~3% of games with a primary genre
+    // but no full genres array yet, so they still get a similar-games list.
+    genres: game.genres?.length ? game.genres : game.genre_label ? [game.genre_label] : [],
+    developers: game.developers ?? [],
     publisher: game.publisher,
     releaseYear: game.release_year,
     coverInitial: deriveInitial(game.title),

@@ -1,18 +1,21 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Chip } from "@heroui/react";
+import Breadcrumb from "@/components/Breadcrumb";
 import CoverArt from "@/components/CoverArt";
 import Disclaimer from "@/components/Disclaimer";
 import GamePreorderBanner from "@/components/GamePreorderBanner";
+import GameVersions from "@/components/GameVersions";
 import Header from "@/components/Header";
 import JsonLd from "@/components/JsonLd";
 import PsStorePriceBadges from "@/components/PsStorePriceBadges";
 import PurchaseTypeSelector from "@/components/PurchaseTypeSelector";
 import ScreenshotGallery from "@/components/ScreenshotGallery";
+import SimilarGames from "@/components/SimilarGames";
 import WishlistButton from "@/components/WishlistButton";
 import { formatToman, toPersianDigits } from "@/lib/format";
-import { getGameBySlug, getGameStoreInfo } from "@/lib/games-repo";
+import { genreForGame } from "@/lib/genres";
+import { getGameBySlug, getGameStoreInfo, getSimilarGames, getSimilarGamesByDeveloper, getGameVersions } from "@/lib/games-repo";
 import { lowestPrice, lowestValidPrice, storeCount } from "@/lib/purchase-options";
 import { SITE_URL, tomanToRial } from "@/lib/seo";
 
@@ -63,7 +66,12 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
   const game = await getGameBySlug(slug);
   if (!game) notFound();
 
-  const storeInfo = await getGameStoreInfo(game.dbId);
+  const [storeInfo, gameVersions, similarGames, similarGamesByDeveloper] = await Promise.all([
+    getGameStoreInfo(game.dbId),
+    getGameVersions(game.dbId, game.title),
+    getSimilarGames(game.dbId, game.genres),
+    getSimilarGamesByDeveloper(game.dbId, game.developers),
+  ]);
 
   const price  = lowestPrice(game);
   const stores = storeCount(game);
@@ -118,11 +126,23 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
     }),
   };
 
-  // Genre: prefer IGDB list, fallback to scraper genreLabel
-  const genreValue =
-    d?.genres?.length
-      ? d.genres.join("، ")
-      : game.genreLabel ?? null;
+  // Breadcrumb: home / genre category (if one of the curated genres matches) / game title
+  const category = genreForGame(game.genres);
+  const breadcrumbItems = [
+    { label: "بازی‌های PS5", href: "/" },
+    ...(category ? [{ label: category.label, href: `/genres/${category.slug}` }] : []),
+    { label: game.title },
+  ];
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: breadcrumbItems.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.label,
+      item: item.href ? `${SITE_URL}${item.href}` : `${SITE_URL}/games/${slug}`,
+    })),
+  };
 
   const facts: { label: string; value: string }[] = [
     { label: "ناشر",         value: game.publisher ?? "—" },
@@ -131,8 +151,6 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
     ...(persianReleaseDate
       ? [{ label: "تاریخ انتشار", value: persianReleaseDate }]
       : [{ label: "سال انتشار", value: game.releaseYear ? toPersianDigits(game.releaseYear) : "—" }]),
-    ...(genreValue
-      ? [{ label: "ژانر",       value: genreValue }] : []),
     ...(d?.themes?.length
       ? [{ label: "تم",         value: d.themes.join("، ") }] : []),
     ...((d?.gameModes?.length || d?.playerPerspectives?.length)
@@ -150,6 +168,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
   return (
     <>
       <JsonLd data={productJsonLd} />
+      <JsonLd data={breadcrumbJsonLd} />
       <Header />
       <main className="flex-1">
 
@@ -169,24 +188,17 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
 
           {/* Dark gradient overlay — ensures ≥4.5:1 contrast for white text */}
           {hasArt && (
-            <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/65 to-black/80" />
+            <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-black/45 to-black/70" />
           )}
 
           {/* Content — fills full hero height, centers grid vertically */}
           <div className="relative z-10 mx-auto max-w-6xl px-4 sm:px-6 h-full flex flex-col py-6">
-            <Link
-              href="/"
-              className={`inline-flex items-center gap-2 text-sm transition-colors shrink-0 ${
-                hasArt
-                  ? "text-white/65 hover:text-white"
-                  : "text-muted hover:text-foreground"
-              }`}
-            >
-              ← بازگشت به فهرست بازی‌ها
-            </Link>
+            <div className="shrink-0">
+              <Breadcrumb items={breadcrumbItems} light={hasArt} />
+            </div>
 
-            {/* Hero grid — cover LEFT (RTL), info RIGHT — vertically centered */}
-            <div className="flex-1 mt-4 grid grid-cols-1 gap-8 md:grid-cols-[1fr_minmax(0,32%)] items-center content-center">
+            {/* Hero grid — cover LEFT (RTL), info RIGHT — both top-aligned */}
+            <div className="flex-1 mt-4 grid grid-cols-1 gap-8 md:grid-cols-[1fr_minmax(0,32%)] items-start">
 
               {/* ── Info column (RIGHT in RTL) ── */}
               <div className="flex flex-col gap-0">
@@ -194,16 +206,17 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
                 {/* Chips + wishlist */}
                 <div className="flex flex-wrap items-center gap-2">
                   <Chip size="sm" className="bg-ps-blue text-white border-0 font-bold">PS5</Chip>
-                  {game.genreLabel && (
+                  {game.genres.map((genre) => (
                     <Chip
+                      key={genre}
                       variant="soft"
                       color="default"
                       size="sm"
                       className={hasArt ? "bg-white/15 text-white border-white/20" : ""}
                     >
-                      {game.genreLabel}
+                      {genre}
                     </Chip>
-                  )}
+                  ))}
                   <div className="mr-auto">
                     <WishlistButton gameId={game.dbId} />
                   </div>
@@ -304,6 +317,10 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
         <div className="mx-auto max-w-6xl px-4 pb-10 sm:px-6">
           <PurchaseTypeSelector options={game.purchaseOptions} />
         </div>
+
+        <GameVersions games={gameVersions} />
+        <SimilarGames games={similarGames} heading="بازی‌های مشابه" tags={game.genres} />
+        <SimilarGames games={similarGamesByDeveloper} heading="بازی‌های همین سازنده" tags={game.developers} />
       </main>
       <Disclaimer />
     </>

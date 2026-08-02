@@ -45,6 +45,8 @@ export interface Game {
   slug: string;
   title: string;
   genreLabel: string | null;
+  genres: string[]; // full IGDB genre list — genreLabel is only the primary one
+  developers: string[];
   publisher: string | null;
   releaseYear: number | null;
   releaseDate: string | null; // ISO date string "YYYY-MM-DD"

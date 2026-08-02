@@ -15,12 +15,14 @@ function computeRemaining(targetIso: string): { days: number; hours: number; min
 }
 
 function DigitBlock({ value, label }: { value: number; label: string }) {
-  const padded = String(value).padStart(2, "0");
-  const [tens, ones] = [padded[0], padded[1]];
+  // padStart only guarantees a *minimum* width of 2 — it never truncates, so
+  // 3+ digit values (days can easily exceed 99 for releases months away)
+  // must render every digit, not just the first two.
+  const digits = String(value).padStart(2, "0").split("");
   return (
     <div className="flex flex-col items-center gap-1">
       <div className="flex gap-1">
-        {[tens, ones].map((d, i) => (
+        {digits.map((d, i) => (
           <span
             key={i}
             className="w-8 h-10 sm:w-10 sm:h-12 flex items-center justify-center rounded-md text-xl sm:text-2xl font-bold tabular-nums"

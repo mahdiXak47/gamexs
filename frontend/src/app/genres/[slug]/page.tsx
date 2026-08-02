@@ -79,8 +79,11 @@ export default async function GenrePage({
       {games.length > 0 && <JsonLd data={itemListJsonLd} />}
       <Header />
 
-      {/* Blue header band */}
-      <div className="ps-header">
+      {/* Header band — flat genre-specific color when defined, blue by default */}
+      <div
+        className={genre.headerColor ? undefined : "ps-header"}
+        style={genre.headerColor ? { background: genre.headerColor } : undefined}
+      >
         <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6">
           <div className="flex flex-wrap items-center gap-3 mb-1">
             <h1 className="text-2xl font-extrabold text-white sm:text-3xl">
