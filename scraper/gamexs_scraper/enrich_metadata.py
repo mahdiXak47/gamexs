@@ -67,6 +67,7 @@ _RATE_DELAY = 0.28
 _FIELDS = (
     "name,slug,category,cover.image_id,"
     "storyline,summary,url,"
+    "version_parent,version_title,"
     "genres.name,"
     "themes.name,"
     "game_modes.name,"
@@ -77,10 +78,15 @@ _FIELDS = (
     "first_release_date"
 )
 
+# Fields fetched when searching for edition versions of a base game.
+_VERSION_FIELDS = "id,name,version_parent,version_title"
+
 # Strip Persian/Arabic Unicode block so only English remains for IGDB search.
 _PERSIAN_RE = re.compile(r"[؀-ۿ‌‍]+")
 
 # Strip common edition/variant suffixes that confuse IGDB search ranking.
+# Includes Remake/Remastered/Director's Cut so the base-game name is found first;
+# a second direct-search pass then locates the correct remake/remaster entry.
 _EDITION_RE = re.compile(
     r"\s*[-–—]?\s*\b("
     r"edition|standard|deluxe|gold|platinum|ultimate|complete|"
@@ -91,6 +97,23 @@ _EDITION_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Strips only content-neutral words for the direct-search pass.
+# Remake/Remastered/Director's Cut are deliberately kept so IGDB returns
+# the correct independent game entry (category=remake/remaster) rather than
+# the base game.
+_NEUTRAL_STRIP_RE = re.compile(
+    r"\s*[-–—]?\s*\b("
+    r"standard|digital|bundle|cross.gen|launch|edition|"
+    r"نسخه|ویژه|دیجیتال|کامل|اسپشیال"
+    r")\b.*$",
+    re.IGNORECASE,
+)
+
+# Edition keywords that exist as IGDB-independent game entries (category=remake/
+# remaster), NOT as version_parent children.  Titles with these keywords need a
+# direct full-title IGDB search rather than a version_parent lookup.
+_DIRECT_SEARCH_KEYWORDS = {"director", "directors", "remastered", "remake"}
+
 _WS_RE = re.compile(r"\s+")
 
 
@@ -100,6 +123,14 @@ def _search_title(raw: str) -> str:
     text = _EDITION_RE.sub("", text)
     text = _WS_RE.sub(" ", text).strip()
     # Escape double-quotes so the IGDB query string doesn't break.
+    return text.replace('"', '\\"')
+
+
+def _search_title_direct(raw: str) -> str:
+    """Search term that keeps Remake/Remastered/Director's Cut for direct IGDB lookup."""
+    text = _PERSIAN_RE.sub(" ", raw)
+    text = _NEUTRAL_STRIP_RE.sub("", text)
+    text = _WS_RE.sub(" ", text).strip()
     return text.replace('"', '\\"')
 
 
@@ -131,6 +162,73 @@ def _igdb_search(session: requests.Session, title: str) -> list[dict]:
     resp = session.post(IGDB_GAMES_URL, data=query, timeout=15)
     resp.raise_for_status()
     return resp.json()
+
+
+# Edition keywords that represent a distinct purchasable variant.
+# "standard" is intentionally absent — it IS the base game and should keep
+# the base igdb_id rather than mapping to an unrelated IGDB version entry.
+_DISTINCT_EDITION_KEYWORDS = {
+    "ultimate", "deluxe", "gold", "platinum", "complete", "goty",
+    "premium", "collector", "collectors", "director", "directors",
+    "enhanced", "anniversary", "legendary", "definitive",
+}
+
+
+def _edition_keywords(title: str) -> set[str]:
+    """Return lowercase edition keywords present in *title* (e.g. {'ultimate'})."""
+    match = _EDITION_RE.search(title)
+    if not match:
+        return set()
+    edition_text = match.group(0).lower()
+    return {kw for kw in _DISTINCT_EDITION_KEYWORDS if kw in edition_text}
+
+
+def _igdb_find_version(
+    session: requests.Session, parent_id: int, our_title: str
+) -> dict | None:
+    """Return the IGDB version entry (child of *parent_id*) whose edition
+    keywords match *our_title*, or None if no confident match exists.
+
+    IGDB stores edition variants (Ultimate, Deluxe, etc.) as separate game
+    entries linked to their base game via version_parent.  The base game's
+    IGDB search result never surfaces these children, so we query explicitly.
+
+    "Standard" editions are NOT looked up here — standard == the base game,
+    so they correctly keep the parent's igdb_id.
+    """
+    our_keywords = _edition_keywords(our_title)
+    # No distinct edition keyword → this is a base/standard game; skip lookup.
+    if not our_keywords:
+        return None
+
+    query = (
+        f"fields {_VERSION_FIELDS};"
+        f" where version_parent = {parent_id};"
+        " limit 20;"
+    )
+    try:
+        resp = session.post(IGDB_GAMES_URL, data=query, timeout=15)
+        resp.raise_for_status()
+        versions = resp.json()
+    except requests.RequestException:
+        return None
+
+    if not versions:
+        return None
+
+    # Only consider versions whose name or version_title contains at least one
+    # of our edition keywords — prevents "Deluxe" from matching "Standard".
+    candidates = []
+    for v in versions:
+        v_text = (v.get("name", "") + " " + v.get("version_title", "")).lower()
+        if our_keywords & {kw for kw in _DISTINCT_EDITION_KEYWORDS if kw in v_text}:
+            candidates.append(v)
+
+    if not candidates:
+        return None
+
+    # Among keyword-matched candidates, pick the one with highest name similarity.
+    return max(candidates, key=lambda v: _similarity(v.get("name", ""), our_title))
 
 
 # ---------------------------------------------------------------------------
@@ -442,10 +540,65 @@ def main() -> None:
         our_has_edition  = bool(_EDITION_RE.search(our_clean_title))
         igdb_has_edition = bool(_EDITION_RE.search(igdb_name))
 
-        if not our_has_edition or igdb_has_edition:
+        # When our title is an edition variant but IGDB returned the base game,
+        # try to find the correct edition-specific IGDB entry.
+        our_distinct_edition = bool(_edition_keywords(our_clean_title))
+        if our_has_edition and not igdb_has_edition and our_distinct_edition:
+            our_kw = _edition_keywords(our_clean_title)
+
+            # Step 1 — version_parent child lookup (works for Ultimate/Deluxe/Gold/etc.)
+            version = None
+            if our_kw - _DIRECT_SEARCH_KEYWORDS:
+                try:
+                    version = _igdb_find_version(session, igdb_id, our_clean_title)
+                    time.sleep(_RATE_DELAY)
+                except requests.RequestException as exc:
+                    print(f"\n  version lookup error for {title!r}: {exc}", file=sys.stderr)
+
+            if version:
+                igdb_id   = version["id"]
+                igdb_name = version.get("name", igdb_name)
+                print(
+                    f"\n  edition match: {title!r} → igdb:{igdb_id} {igdb_name!r}",
+                    file=sys.stderr,
+                )
+            elif our_kw & _DIRECT_SEARCH_KEYWORDS:
+                # Step 2 — direct full-title search for Remake/Remastered/Director's Cut.
+                # IGDB stores these as independent game entries (category=remake/remaster),
+                # not as version_parent children, so a separate search is required.
+                direct_term = _search_title_direct(our_clean_title)
+                try:
+                    direct_results = _igdb_search(session, direct_term)
+                    time.sleep(_RATE_DELAY)
+                    direct_best = _pick_best(direct_results, our_clean_title)
+                    if direct_best and direct_best["id"] != igdb_id:
+                        igdb_id   = direct_best["id"]
+                        igdb_name = direct_best["name"]
+                        best = direct_best  # use remake's metadata (cover, genres, etc.)
+                        print(
+                            f"\n  direct match: {title!r} → igdb:{igdb_id} {igdb_name!r}",
+                            file=sys.stderr,
+                        )
+                except requests.RequestException as exc:
+                    print(f"\n  direct lookup error for {title!r}: {exc}", file=sys.stderr)
+
+            # Re-check after igdb_name may have been updated by version/direct lookup.
+            igdb_has_edition = bool(_EDITION_RE.search(igdb_name))
+
+        # Title/slug: use IGDB canonical unless this is a distinct edition variant
+        # (Ultimate, Deluxe, Director's Cut, etc.) that needs its own separate row.
+        # Standard/Launch/generic editions resolve to the base game's canonical name,
+        # which triggers a slug conflict → merge with the base game row.
+        if not our_has_edition or igdb_has_edition or not our_distinct_edition:
             new_title = clean_title(igdb_name)
-            # Prefer IGDB's own slug (already canonical); fall back to computed.
-            new_slug  = best.get("slug") or url_slugify(normalize_game_name(igdb_name))
+            if igdb_has_edition:
+                # igdb_name was updated to an edition-specific name, but best still
+                # points to the base game — best.get("slug") would return the base
+                # game's slug and merge the edition into it. Compute from igdb_name.
+                new_slug = url_slugify(normalize_game_name(igdb_name))
+            else:
+                # No edition: best.get("slug") is the correct canonical base slug.
+                new_slug = best.get("slug") or url_slugify(normalize_game_name(igdb_name))
         else:
             new_title = our_clean_title
             new_slug  = url_slugify(normalize_game_name(title))
@@ -465,7 +618,7 @@ def main() -> None:
         developers  = _developers(best)
 
         if args.dry_run:
-            edition_note = " [edition kept]" if (our_has_edition and not igdb_has_edition) else ""
+            edition_note = " [edition kept]" if (our_has_edition and not igdb_has_edition and our_distinct_edition) else ""
             print(
                 f"\n  → igdb:{igdb_id} {igdb_name!r} -> title={new_title!r} slug={new_slug!r}{edition_note}\n"
                 f"     genre={genre} pub={publisher} date={release_dt} cover={'yes' if cover else 'no'}\n"
