@@ -88,7 +88,7 @@ export default function WishlistButton({ gameId }: { gameId: number }) {
       {/* Hover tooltip */}
       {hovered && !added && !loading && (
         <div
-          className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 whitespace-nowrap bg-black/80 text-white text-xs px-2.5 py-1.5 rounded-lg pointer-events-none shadow-lg"
+          className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 whitespace-nowrap bg-black/80 text-white text-xs px-2.5 py-1.5 rounded-lg pointer-events-none shadow-lg z-50"
           dir="rtl"
         >
           افزودن به علاقه‌مندی‌ها
@@ -98,7 +98,7 @@ export default function WishlistButton({ gameId }: { gameId: number }) {
       {/* Success toast */}
       {toast && (
         <div
-          className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 whitespace-nowrap bg-green-600 text-white text-xs px-3 py-1.5 rounded-lg pointer-events-none shadow-lg"
+          className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 whitespace-nowrap bg-green-600 text-white text-xs px-3 py-1.5 rounded-lg pointer-events-none shadow-lg z-50"
           dir="rtl"
         >
           به علاقه‌مندی‌ها اضافه شد

@@ -102,6 +102,16 @@ python -m gamexs_scraper.enrich_metadata 2>&1 | sed 's/^/[igdb] /' || \
     log "WARN  IGDB enrichment failed — new games will lack metadata but prices are unaffected"
 
 # ---------------------------------------------------------------------------
+# Refresh official PS Store pricing (US/TR) for every ps5_games row with an
+# igdb_id. Runs after enrichment so newly-matched games from this run are
+# included. Soft-fails like enrichment — a PS Store hiccup shouldn't fail the
+# whole nightly scrape.
+# ---------------------------------------------------------------------------
+log "=== PS Store price fetch ==="
+python fetch_psstore_prices.py --db-url "$DATABASE_URL" 2>&1 | sed 's/^/[psstore] /' || \
+    log "WARN  PS Store price fetch failed — ps5_store_info will be stale but prices are unaffected"
+
+# ---------------------------------------------------------------------------
 # Upload newly downloaded IGDB covers/screenshots to object storage and
 # write the S3 URLs back into games.cover_url / games.screenshot_ids.
 # The script is idempotent — files already in the bucket are skipped.
@@ -127,7 +137,7 @@ with psycopg.connect(url) as conn, conn.cursor() as cur:
     """)
     stale = cur.rowcount
     cur.execute("""
-        DELETE FROM games
+        DELETE FROM ps5_games
         WHERE id NOT IN (SELECT DISTINCT game_id FROM listings WHERE is_active)
     """)
     orphans = cur.rowcount

@@ -280,10 +280,10 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
                   coverUrl={game.coverUrl}
                   title={game.title}
                   initial={game.coverInitial}
-                  className="w-full aspect-[3/4] max-h-[420px] rounded-2xl shadow-2xl"
+                  className="w-full aspect-[3/4] max-h-[525px] rounded-2xl shadow-2xl"
                   priority
                 />
-                {storeInfo && <PsStorePriceBadges info={storeInfo} hero />}
+                {storeInfo && <PsStorePriceBadges info={storeInfo} />}
               </div>
             </div>
           </div>
