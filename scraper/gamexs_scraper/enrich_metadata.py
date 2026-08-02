@@ -171,6 +171,7 @@ _DISTINCT_EDITION_KEYWORDS = {
     "ultimate", "deluxe", "gold", "platinum", "complete", "goty",
     "premium", "collector", "collectors", "director", "directors",
     "enhanced", "anniversary", "legendary", "definitive",
+    "remastered", "remake",
 }
 
 
@@ -595,7 +596,9 @@ def main() -> None:
                 # igdb_name was updated to an edition-specific name, but best still
                 # points to the base game — best.get("slug") would return the base
                 # game's slug and merge the edition into it. Compute from igdb_name.
-                new_slug = url_slugify(normalize_game_name(igdb_name))
+                # Strip apostrophes first: url_slugify doesn't strip them and IGDB
+                # names like "Assassin's Creed" would produce slugs with apostrophes.
+                new_slug = url_slugify(normalize_game_name(igdb_name.replace("'", "")))
             else:
                 # No edition: best.get("slug") is the correct canonical base slug.
                 new_slug = best.get("slug") or url_slugify(normalize_game_name(igdb_name))

@@ -71,6 +71,20 @@ _NOISE_PATTERNS = [
 _COMPILED_NOISE = [re.compile(p, re.IGNORECASE) for p in _NOISE_PATTERNS]
 _DASH_STRIP_RE = re.compile(r"^[\s\-–—]+|[\s\-–—]+$")
 _WHITESPACE_RE = re.compile(r"\s+")
+# "NBA 2 K21" / "WWE 2 K25" → "NBA 2K21" / "WWE 2K25"
+# The scraper splits the brand suffix with a space; IGDB has no space.
+_TWO_K_RE = re.compile(r"\b2\s+K(\d)", re.IGNORECASE)
+
+# Neutral product suffixes that never distinguish one purchasable variant from
+# another — they just mean "this is the base/default version".  Stripped from
+# the END of the title so "Street Fighter 6 Standard" → "Street Fighter 6"
+# and the row merges with the base game on the next load or enrich pass.
+# Anchored to end-of-string (after trimming) and requires a word boundary so
+# "Standard Protocol" (hypothetical mid-title use) is never affected.
+_NEUTRAL_SUFFIX_RE = re.compile(
+    r"\s+\b(standard(\s+edition)?|launch(\s+edition)?|day\s+one(\s+edition)?|day\s+1(\s+edition)?)\s*$",
+    re.IGNORECASE,
+)
 # Fix capitalize() apostrophe artifact: "Assassin'S" → "Assassin's"
 _APOSTROPHE_FIX_RE = re.compile(r"([A-Z])'([A-Z])")
 
@@ -130,12 +144,19 @@ def clean_title(raw_title: str) -> str:
     # 4. Strip seller boilerplate noise.
     for pattern in _COMPILED_NOISE:
         text = pattern.sub(" ", text)
+    # 4b. Strip neutral product suffixes (Standard, Launch Edition, Day One) so
+    #     "Street Fighter 6 Standard" normalises to "Street Fighter 6" and merges
+    #     with the base game row rather than creating a phantom duplicate.
+    text = _NEUTRAL_SUFFIX_RE.sub("", text)
     # 5. Tidy whitespace and leading/trailing dashes.
     text = _WHITESPACE_RE.sub(" ", text).strip()
     text = _DASH_STRIP_RE.sub("", text)
     # 6. Insert a space between a digit and an immediately adjacent letter so
     #    "007First Light" → "007 First Light".
     text = re.sub(r"(\d)([A-Za-z])", r"\1 \2", text)
+    # 6b. Re-join "2 K\d" → "2K\d" (NBA/WWE 2K series).  Step 6 splits "2K21"
+    #     into "2 K21"; this re-joins it so IGDB search finds the right game.
+    text = _TWO_K_RE.sub(r"2K\1", text)
     text = _WHITESPACE_RE.sub(" ", text).strip()
     # 7. Apply consistent Title Case across all seller variants.
     cased = _apply_title_case(text)
