@@ -116,11 +116,53 @@ _DIRECT_SEARCH_KEYWORDS = {"director", "directors", "remastered", "remake"}
 
 _WS_RE = re.compile(r"\s+")
 
+# Title corrections applied before every IGDB search to fix known abbreviations
+# and typos that break string-similarity matching.  Each entry is a compiled
+# regex → replacement string.  Add a new entry whenever a game title fails to
+# match IGDB and a simple text substitution would fix it.  Replacements are
+# applied in order; backreference syntax (\1) works for capturing-group subs.
+_SEARCH_CORRECTIONS: list[tuple[re.Pattern, str]] = [
+    # GTA → Grand Theft Auto  (GTA 6, GTA VI, GTA V, GTA IV, …)
+    (re.compile(r"\bGTA\b", re.IGNORECASE), "Grand Theft Auto"),
+    # "Farcry" → "Far Cry"  (written as one word by some sellers)
+    (re.compile(r"\bFarcry\b", re.IGNORECASE), "Far Cry"),
+    # "Ghost Runner" → "Ghostrunner"
+    (re.compile(r"\bGhost\s+Runner\b", re.IGNORECASE), "Ghostrunner"),
+    # "Pay Day" → "PayDay"
+    (re.compile(r"\bPay\s+Day\b", re.IGNORECASE), "PayDay"),
+    # "Formula 1" / "Formula1" → "F1"  (IGDB uses "F1 24" etc.)
+    (re.compile(r"\bFormula\s*1\b", re.IGNORECASE), "F1"),
+    # HTML-entity artifact "& Amp " → "&"  (e.g. "Ratchet & Amp Clank")
+    (re.compile(r"&\s*Amp\b\s*", re.IGNORECASE), "& "),
+    # Common letter-level typos found in seller catalogue data
+    (re.compile(r"\bResidnet\b", re.IGNORECASE), "Resident"),
+    (re.compile(r"\bEnhaced\b",  re.IGNORECASE), "Enhanced"),
+    (re.compile(r"\bEdtion\b",   re.IGNORECASE), "Edition"),
+    (re.compile(r"\bEditon\b",   re.IGNORECASE), "Edition"),
+    (re.compile(r"\bAtelier\s+Yumis\b", re.IGNORECASE), "Atelier Yumia"),
+    (re.compile(r"\bHunt\s+Show\s*Down\b", re.IGNORECASE), "Hunt Showdown"),
+    # FC24 / FC26 / FC27 → EA Sports FC 24 / 26 / 27
+    # Matches "FC" followed by exactly 2 digits — negative lookbehind avoids
+    # double-expanding "EA Sports FC 24" (already correct).
+    (re.compile(r"(?<!sports )\bFC\s*(\d{2})\b", re.IGNORECASE), r"EA Sports FC \1"),
+    # "NBA 2 K21" / "WWE 2 K 25" → "NBA 2K21" / "WWE 2K25"
+    # Sellers insert a space between "2" and "K"; IGDB has no space.
+    (re.compile(r"\b2\s+K\s*(\d)", re.IGNORECASE), r"2K\1"),
+]
+
+
+def _apply_corrections(text: str) -> str:
+    """Apply _SEARCH_CORRECTIONS in sequence to *text*."""
+    for pattern, replacement in _SEARCH_CORRECTIONS:
+        text = pattern.sub(replacement, text)
+    return text
+
 
 def _search_title(raw: str) -> str:
     """Derive a clean English search term from a potentially mixed-language title."""
     text = _PERSIAN_RE.sub(" ", raw)
     text = _EDITION_RE.sub("", text)
+    text = _apply_corrections(text)
     text = _WS_RE.sub(" ", text).strip()
     # Escape double-quotes so the IGDB query string doesn't break.
     return text.replace('"', '\\"')
@@ -130,6 +172,7 @@ def _search_title_direct(raw: str) -> str:
     """Search term that keeps Remake/Remastered/Director's Cut for direct IGDB lookup."""
     text = _PERSIAN_RE.sub(" ", raw)
     text = _NEUTRAL_STRIP_RE.sub("", text)
+    text = _apply_corrections(text)
     text = _WS_RE.sub(" ", text).strip()
     return text.replace('"', '\\"')
 
