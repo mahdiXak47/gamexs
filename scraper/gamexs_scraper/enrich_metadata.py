@@ -92,6 +92,8 @@ _EDITION_RE = re.compile(
     r"edition|standard|deluxe|gold|platinum|ultimate|complete|"
     r"goty|premium|digital|bundle|remastered|remake|definitive|legendary|"
     r"collector[s']?|director[s']?|enhanced|anniversary|launch|cross.gen|"
+    r"steel[\s-]*book|steelbook|"   # physical packaging, not a content edition
+    r"day[\s-]*(?:one|1)|"          # "Day One" / "Day 1" / "Day-One" release qualifiers
     r"نسخه|ویژه|دیجیتال|کامل|اسپشیال"
     r")\b.*$",
     re.IGNORECASE,
@@ -104,6 +106,8 @@ _EDITION_RE = re.compile(
 _NEUTRAL_STRIP_RE = re.compile(
     r"\s*[-–—]?\s*\b("
     r"standard|digital|bundle|cross.gen|launch|edition|"
+    r"steel[\s-]*book|steelbook|"
+    r"day[\s-]*(?:one|1)|"          # same Day One stripping for direct-search pass
     r"نسخه|ویژه|دیجیتال|کامل|اسپشیال"
     r")\b.*$",
     re.IGNORECASE,
@@ -122,6 +126,20 @@ _WS_RE = re.compile(r"\s+")
 # match IGDB and a simple text substitution would fix it.  Replacements are
 # applied in order; backreference syntax (\1) works for capturing-group subs.
 _SEARCH_CORRECTIONS: list[tuple[re.Pattern, str]] = [
+    # Strip trademark symbols first so later corrections see clean text
+    # (e.g. "UFC® 6" → "UFC 6" before the "UFC → EA Sports UFC" rule fires).
+    (re.compile(r"[®™©ǝ]"), ""),
+    # Strip platform-mode suffixes appended by Iranian sellers (not part of the IGDB title).
+    # Must run early so subsequent corrections don't see "PS VR2" tokens.
+    (re.compile(r"[_\s]*(PS\s*VR\s*2?|PSVR\s*2?|VR\s*2)[\s]*$", re.IGNORECASE), ""),
+    # Strip "Capcom" or "Square Enix" publisher prefixes sellers mistakenly prepend.
+    (re.compile(r"^(?:Capcom|Square\s+Enix)\s+", re.IGNORECASE), ""),
+    # "Collector <game>" → "<game>"  (sellers label their bundle as "Collector" version)
+    (re.compile(r"^Collector\s+", re.IGNORECASE), ""),
+    # "Destiny Epic Mickey" → "Disney Epic Mickey"  (Destiny ≠ Disney, common seller OCR error)
+    (re.compile(r"\bDestiny\s+Epic\s+Mickey\b", re.IGNORECASE), "Disney Epic Mickey"),
+    # "Disney Illusion Island Starring Mickey And/& Friends" → "Disney Illusion Island"
+    (re.compile(r"\bStarring\s+Mickey\b.*$", re.IGNORECASE), ""),
     # GTA → Grand Theft Auto  (GTA 6, GTA VI, GTA V, GTA IV, …)
     (re.compile(r"\bGTA\b", re.IGNORECASE), "Grand Theft Auto"),
     # "Farcry" → "Far Cry"  (written as one word by some sellers)
@@ -141,13 +159,66 @@ _SEARCH_CORRECTIONS: list[tuple[re.Pattern, str]] = [
     (re.compile(r"\bEditon\b",   re.IGNORECASE), "Edition"),
     (re.compile(r"\bAtelier\s+Yumis\b", re.IGNORECASE), "Atelier Yumia"),
     (re.compile(r"\bHunt\s+Show\s*Down\b", re.IGNORECASE), "Hunt Showdown"),
+    # "Metal Gear Solid Delta 3 Snake Eater" → "Metal Gear Solid Delta Snake Eater"
+    # Sellers add "3" (as in "MGS3") but IGDB uses the Greek letter name "Delta".
+    (re.compile(r"\bMetal\s+Gear\s+Solid\s+(?:Delta|Δ)\s+3\b", re.IGNORECASE),
+     "Metal Gear Solid Delta"),
+    # "Mortal Kombat Elder God Bundle/Edition" → "Mortal Kombat 1"
+    # "Bundle"/"Edition" may be stripped by _EDITION_RE before corrections run, so
+    # also match the bare "Elder God" form.
+    (re.compile(r"\bMortal\s+Kombat\s+Elder\s+God\b", re.IGNORECASE), "Mortal Kombat 1"),
+    # "The Crew Motorsport" → "The Crew Motorfest"  (seller confuses with Forza Motorsport)
+    (re.compile(r"\bThe\s+Crew\s+Motorsport\b", re.IGNORECASE), "The Crew Motorfest"),
+    # "Tomb Raider 1 2 3 Remastered" → "Tomb Raider I-III Remastered"
+    (re.compile(r"\bTomb\s+Raider\s+1\s+2\s+3\b", re.IGNORECASE), "Tomb Raider I-III"),
+    # "W2 K24" / "W2 K26" → "WWE 2K24" / "WWE 2K26"
+    # "W" is a shorthand for "WWE" used by some sellers (W is the old WWE logo letter).
+    (re.compile(r"\bW2\s+K(\d{2})\b", re.IGNORECASE), r"WWE 2K\1"),
     # FC24 / FC26 / FC27 → EA Sports FC 24 / 26 / 27
     # Matches "FC" followed by exactly 2 digits — negative lookbehind avoids
     # double-expanding "EA Sports FC 24" (already correct).
     (re.compile(r"(?<!sports )\bFC\s*(\d{2})\b", re.IGNORECASE), r"EA Sports FC \1"),
     # "NBA 2 K21" / "WWE 2 K 25" → "NBA 2K21" / "WWE 2K25"
     # Sellers insert a space between "2" and "K"; IGDB has no space.
+    # Also handles "NBA2 K26" / "WWE2 K25" where the brand has no space before 2.
+    (re.compile(r"\b(NBA|WWE)2\s+K(\d)", re.IGNORECASE), r"\1 2K\2"),
     (re.compile(r"\b2\s+K\s*(\d)", re.IGNORECASE), r"2K\1"),
+    # "UFC 5" → "EA Sports UFC 5"  (IGDB canonical title includes the EA Sports prefix)
+    (re.compile(r"(?<!sports )\bUFC\s+(\d)", re.IGNORECASE), r"EA Sports UFC \1"),
+    # "Lego 2 K Drive" → "Lego 2K Drive"  (IGDB: "LEGO 2K Drive")
+    (re.compile(r"\bLego\s+(\d+)\s+K\b", re.IGNORECASE), r"Lego \1K"),
+    # "Moto GP" → "MotoGP"  (IGDB uses no space)
+    (re.compile(r"\bMoto\s+GP\b", re.IGNORECASE), "MotoGP"),
+    # "F1 2022" / "F1 2025" → "F1 22" / "F1 25"
+    # IGDB switched from 4-digit to 2-digit years starting with F1 22.
+    (re.compile(r"\bF1\s+20(2[2-9])\b", re.IGNORECASE), r"F1 \1"),
+    # "2 D" → "2D"  (Dragon Quest III HD-2D Remake, etc.)
+    (re.compile(r"\b2\s+D\b", re.IGNORECASE), "2D"),
+    # "1 St" → "1st"  (Front Mission 1st: Remake)
+    (re.compile(r"\b1\s+St\b", re.IGNORECASE), "1st"),
+    # Typos
+    (re.compile(r"\bMutent\b", re.IGNORECASE), "Mutant"),
+    (re.compile(r"\bRemasterd\b", re.IGNORECASE), "Remastered"),
+    (re.compile(r"\bSupper\b", re.IGNORECASE), "Super"),
+    (re.compile(r"\bPatrik\b", re.IGNORECASE), "Patrick"),
+    # "Dark Souls Ll" → "Dark Souls II"  (L/I confusion in OCR/seller data)
+    (re.compile(r"\bDark\s+Souls\s+Ll\b", re.IGNORECASE), "Dark Souls II"),
+    # "Witcher 3" → "The Witcher 3"  (sellers drop the leading article)
+    (re.compile(r"(?<![Tt]he )\bWitcher\s+3\b", re.IGNORECASE), "The Witcher 3"),
+    # "Cricket22" / "Fifa21" / "Devil May Cry5" / "Dead Island2" / "Hunting Simulator2"
+    # / "Layers Of Fear2023" — sellers omit the space between title word and number.
+    # Only fires when a lowercase letter is immediately followed by digits (uppercase
+    # acronyms like "PS5", "UFC6", "2K21" are unaffected).
+    (re.compile(r"([a-z])(\d+)\b"), r"\1 \2"),
+    # "Football Manager 2024 Console" / "Football Manager Console 2024"
+    # → "Football Manager 2024"  (IGDB title omits the console qualifier)
+    (re.compile(r"\bFootball\s+Manager\s+(\d{4})\s+Console\b", re.IGNORECASE), r"Football Manager \1"),
+    (re.compile(r"\bFootball\s+Manager\s+Console\s+(\d{4})\b", re.IGNORECASE), r"Football Manager \1"),
+    # Strip trailing ordinal number left over after _EDITION_RE removes "Anniversary".
+    # e.g. "Hitman World Of Assassination 25 Th Anniversary"
+    #   → _EDITION_RE strips " Anniversary" → "... 25 Th"
+    #   → this correction strips " 25 Th" → "Hitman World Of Assassination"
+    (re.compile(r"\s+\d+\s*(?:st|nd|rd|th)\s*$", re.IGNORECASE), ""),
 ]
 
 
@@ -198,13 +269,30 @@ def get_access_token(client_id: str, client_secret: str) -> str:
 # IGDB query
 # ---------------------------------------------------------------------------
 def _igdb_search(session: requests.Session, title: str) -> list[dict]:
-    """Return up to 5 IGDB results for *title*. Returns [] on no match."""
+    """Return up to 10 IGDB results for *title*.
+
+    No category filter — IGDB stores many base games with category=null, so
+    filtering by category = (0,4,8,9,10) incorrectly drops them.  DLC results
+    are naturally rejected by _pick_best because their longer ": subtitle" names
+    score below the 0.65 similarity threshold.
+    """
     if not title:
         return []
-    query = f'search "{title}"; fields {_FIELDS}; limit 5;'
+    query = f'search "{title}"; fields {_FIELDS}; limit 10;'
     resp = session.post(IGDB_GAMES_URL, data=query, timeout=15)
     resp.raise_for_status()
     return resp.json()
+
+
+def _igdb_by_slug(session: requests.Session, slug: str) -> dict | None:
+    """Direct slug lookup — single authoritative match, no ranking ambiguity."""
+    if not slug:
+        return None
+    query = f'fields {_FIELDS}; where slug = "{slug}"; limit 1;'
+    resp = session.post(IGDB_GAMES_URL, data=query, timeout=15)
+    resp.raise_for_status()
+    results = resp.json()
+    return results[0] if results else None
 
 
 # Edition keywords that represent a distinct purchasable variant.
@@ -290,13 +378,64 @@ def _score(result: dict, query: str) -> float:
     return name_sim + ps5_bonus + cat_bonus
 
 
+def _colon_subtitle_matches_query(name: str, query: str) -> bool:
+    """True when a "Game: Subtitle" IGDB entry is a relevant match for *query*.
+
+    Two ways to pass:
+    1. The subtitle shares a NEW word with the query (one not already in the main title):
+       "FIFA 21: NXT LVL Edition" vs "Fifa 21 LVL" → "lvl" is in query & subtitle → True
+    2. The main title (before ":") alone is very similar to the query:
+       "Uncharted 4: A Thief's End" vs "Uncharted 4" → main sim = 1.0 → True
+
+    Drops pure DLC/mod entries whose subtitle has zero unique overlap with the query:
+       "Persona 3 Reload: FeMC Mod" vs "Persona 3 Reload" → "femc/mod" not in query → False
+    """
+    if ": " not in name:
+        return True
+    main_title, subtitle = name.split(": ", 1)
+    # Check 1: main title similarity (covers "Uncharted 4: A Thief's End" case)
+    if _similarity(main_title, query) >= 0.90:
+        return True
+    # Check 2: subtitle has a word that's (a) in the query AND (b) not in the main title
+    main_words = set(re.findall(r'\b\w{3,}\b', main_title.lower()))
+    q_words = set(re.findall(r'\b\w{3,}\b', query.lower()))
+    sub_words = set(re.findall(r'\b\w{3,}\b', subtitle.lower()))
+    unique_sub = sub_words - main_words  # words that add new info vs the main title
+    return bool(q_words & unique_sub)
+
+
 def _pick_best(results: list[dict], query: str) -> dict | None:
     if not results:
         return None
-    best = max(results, key=lambda r: _score(r, query))
-    if _score(best, query) < _MIN_SCORE:
-        return None
-    return best
+    # When the query has no colon, keep only results that either (a) have no ": "
+    # in their name (base-game entries) or (b) have a subtitle that shares at least
+    # one word with the query (relevant edition, e.g. "FIFA 21: NXT LVL Edition").
+    # This drops pure DLC/mod entries ("Persona 3 Reload: FeMC Mod") that IGDB
+    # surfaces above the base game, while keeping legit variant titles.
+    if ":" not in query:
+        candidates = [
+            r for r in results
+            if _colon_subtitle_matches_query(r.get("name", ""), query)
+        ]
+    else:
+        candidates = results
+    if not candidates:
+        return None  # let slug fallback handle all-DLC result pages
+    best = max(candidates, key=lambda r: _score(r, query))
+    best_score = _score(best, query)
+    if best_score >= _MIN_SCORE:
+        return best
+    # Main-title shortcut: if this is a "Game: Subtitle" entry whose title before ":"
+    # very closely matches the query, accept it regardless of subtitle length penalty.
+    # e.g. "Uncharted 4: A Thief's End" (full score 0.59) for query "Uncharted 4".
+    # e.g. "MXGP 2020: The Official Motocross Videogame" (score 0.31) for "Mxgp 2020".
+    # The slug fallback still runs after and will override with a cleaner entry if one
+    # exists (e.g. base game slug when search returned only DLC variations).
+    if ": " in best.get("name", "") and ":" not in query:
+        main = best["name"].split(": ")[0]
+        if _similarity(main, query) >= 0.90:
+            return best
+    return None
 
 
 # ---------------------------------------------------------------------------
@@ -568,6 +707,38 @@ def main() -> None:
             continue
 
         best = _pick_best(results, search_term)
+
+        # Slug fallback: try a direct slug lookup and prefer the slug result when
+        # (a) search returned nothing / below threshold, OR (b) search returned a
+        # colon-named DLC/mod entry and the slug points to a clean base game.
+        # This handles "Persona 3 Reload" where all 10 search results are "P3R: <DLC>"
+        # while slug "persona-3-reload" returns the base game directly.
+        search_has_colon = best is not None and ": " in best.get("name", "") and ":" not in search_term
+        if not best or search_has_colon:
+            try:
+                slug_candidate = url_slugify(normalize_game_name(search_term.replace("'", "")))
+                fallback = _igdb_by_slug(session, slug_candidate)
+                time.sleep(_RATE_DELAY)
+                if fallback and _score(fallback, search_term) >= _MIN_SCORE:
+                    # Prefer slug when it provides a cleaner (non-colon) result
+                    if not best or (": " in best.get("name", "") and ": " not in fallback.get("name", "")):
+                        best = fallback
+            except requests.RequestException:
+                pass
+
+        # Truncation fallback: search returned zero results (seller appended a word
+        # IGDB doesn't know, e.g. "Dead Island 2 Hella", "Layers of Fear 2023").
+        # Drop the last word and retry once.
+        if not best and not results:
+            shorter = " ".join(search_term.split()[:-1])
+            if shorter:
+                try:
+                    shorter_results = _igdb_search(session, shorter)
+                    time.sleep(_RATE_DELAY)
+                    best = _pick_best(shorter_results, shorter)
+                except requests.RequestException:
+                    pass
+
         if not best:
             skipped += 1
             continue
