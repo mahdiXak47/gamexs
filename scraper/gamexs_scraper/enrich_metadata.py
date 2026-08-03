@@ -372,7 +372,20 @@ def _similarity(a: str, b: str) -> float:
 
 def _score(result: dict, query: str) -> float:
     """Score 0..~1.2. Higher = better match for *query*."""
-    name_sim = _similarity(result.get("name", ""), query)
+    name = result.get("name", "")
+    name_sim = _similarity(name, query)
+
+    # Word-coverage penalty: when the IGDB name's significant words (3+ chars) are a
+    # *strict subset* of the query's words, the query refers to a more specific title
+    # than this IGDB entry covers.  Penalise proportionally to the uncovered query words.
+    # e.g. "Tomb Raider" (2 words) matching "Tomb Raider I-ii-iii Remastered" (4 words)
+    # scores 0.79 via common prefix but should be rejected for the specific collection.
+    name_words  = set(re.findall(r'\b\w{3,}\b', name.lower()))
+    query_words = set(re.findall(r'\b\w{3,}\b', query.lower()))
+    if name_words and query_words and name_words < query_words:  # strict subset
+        extra = query_words - name_words
+        name_sim -= 0.5 * len(extra) / len(query_words)
+
     ps5_bonus = 0.08 if PS5_PLATFORM_ID in [p["id"] for p in result.get("platforms", [])] else 0.0
     cat_bonus = 0.05 if result.get("category", -1) in _MAIN_CATEGORIES else 0.0
     return name_sim + ps5_bonus + cat_bonus
@@ -542,6 +555,17 @@ def _write_game(
                         (platform_id, new_slug, game_id),
                     )
                     conflict = cur.fetchone()
+
+                    # Also merge rows that resolved to the same igdb_id without a slug
+                    # collision — this handles the same game sold under different seller
+                    # names (e.g. "Resident Evil 4" and "Resident Evil 4 Remake" both
+                    # resolving to the 2023 remake's IGDB entry).
+                    if not conflict:
+                        cur.execute(
+                            "SELECT id FROM ps5_games WHERE platform_id = %s AND igdb_id = %s AND id != %s",
+                            (platform_id, igdb_id, game_id),
+                        )
+                        conflict = cur.fetchone()
 
                     _detail_params = (
                         storyline or None,
