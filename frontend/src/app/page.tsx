@@ -14,8 +14,8 @@ import { SITE_URL } from "@/lib/seo";
 const HOMEPAGE_UPCOMING_SLUGS = [
   "call-of-duty-modern-warfare-4",
   "grand-theft-auto-vi",
-  "control-resonant",
-  "marvel’s-wolverine",
+  "control-resonant--1",
+  "marvels-wolverine",
 ];
 
 const PAGE_SIZE = 20;
