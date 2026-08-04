@@ -154,6 +154,135 @@ def fetch_playstation_store_prices(input: dict) -> dict:
     return _run_command(args, timeout_seconds=int(input.get("timeout_seconds", 7200)))
 
 
+def _configure_psstore_module():
+    import fetch_psstore_prices as psstore
+
+    client_id = os.environ.get("IGDB_CLIENT_ID", "").strip()
+    client_secret = os.environ.get("IGDB_CLIENT_SECRET", "").strip()
+    if client_id:
+        psstore.IGDB_CLIENT_ID = client_id
+    if client_secret:
+        psstore.IGDB_CLIENT_SECRET = client_secret
+    return psstore
+
+
+@activity.defn(name="resolve_playstation_store_games")
+def resolve_playstation_store_games(input: dict) -> dict:
+    psstore = _configure_psstore_module()
+    database_url = _required_env("DATABASE_URL")
+    limit = input.get("limit")
+    skip_recent_hours = int(input.get("skip_recent_hours", 12))
+
+    db_games = psstore.load_db_igdb_ids(database_url)
+    if not db_games:
+        return {"games": [], "db_games_count": 0, "resolved_count": 0, "skipped_recent_count": 0}
+
+    token = psstore.get_igdb_token()
+    resolved = psstore.igdb_concept_ids_for_ids(token, db_games)
+
+    already_done: set[str] = set()
+    if skip_recent_hours > 0:
+        with psycopg.connect(database_url, connect_timeout=10) as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    """
+                    SELECT concept_id FROM ps5_store_info
+                    WHERE fetched_at >= NOW() - (%s::text || ' hours')::interval
+                    """,
+                    (skip_recent_hours,),
+                )
+                already_done = {row[0] for row in cur.fetchall()}
+
+    games = [
+        {"game_name": title, "concept_id": concept_id, "game_id": game_id}
+        for title, concept_id, game_id in resolved
+        if concept_id not in already_done
+    ]
+    if limit:
+        games = games[: int(limit)]
+
+    return {
+        "games": games,
+        "db_games_count": len(db_games),
+        "resolved_count": len(resolved),
+        "skipped_recent_count": len(already_done),
+        "selected_count": len(games),
+    }
+
+
+def _fetch_playstation_store_region_price(input: dict) -> dict:
+    psstore = _configure_psstore_module()
+    region = input["region"]
+    concept_id = input["concept_id"]
+    locale = psstore.LOCALES[region]
+
+    price = psstore.fetch_ps_price(concept_id, locale)
+    return {
+        "game_name": input["game_name"],
+        "concept_id": concept_id,
+        "game_id": input.get("game_id"),
+        "region": region,
+        "locale": locale,
+        "price": price.price,
+        "original_price": price.original_price,
+        "discount_pct": price.discount_pct,
+        "extra_plus": price.extra_plus,
+        "deluxe_plus": price.deluxe_plus,
+    }
+
+
+@activity.defn(name="fetch_playstation_store_region_price")
+def fetch_playstation_store_region_price(input: dict) -> dict:
+    return _fetch_playstation_store_region_price(input)
+
+
+@activity.defn(name="fetch_playstation_store_us_price")
+def fetch_playstation_store_us_price(input: dict) -> dict:
+    return _fetch_playstation_store_region_price({**input, "region": "us"})
+
+
+@activity.defn(name="fetch_playstation_store_tr_price")
+def fetch_playstation_store_tr_price(input: dict) -> dict:
+    return _fetch_playstation_store_region_price({**input, "region": "tr"})
+
+
+@activity.defn(name="upsert_playstation_store_game_price")
+def upsert_playstation_store_game_price(input: dict) -> dict:
+    psstore = _configure_psstore_module()
+    database_url = _required_env("DATABASE_URL")
+    game = input["game"]
+    prices = {price["region"]: price for price in input["prices"]}
+    us = prices.get("us", {})
+    tr = prices.get("tr", {})
+
+    row = psstore.GameRow(
+        game_name=game["game_name"],
+        concept_id=game["concept_id"],
+        us_price=us.get("price", ""),
+        us_original_price=us.get("original_price", ""),
+        us_discount_pct=us.get("discount_pct", ""),
+        tr_price=tr.get("price", ""),
+        tr_original_price=tr.get("original_price", ""),
+        tr_discount_pct=tr.get("discount_pct", ""),
+        extra_plus_included=bool(us.get("extra_plus")),
+        deluxe_plus_included=bool(us.get("deluxe_plus")),
+        essential_plus_included=False,
+    )
+
+    with psycopg.connect(database_url, connect_timeout=10, autocommit=False) as conn:
+        psstore.db_upsert_row(conn, row, game.get("game_id"))
+
+    return {
+        "game_name": game["game_name"],
+        "concept_id": game["concept_id"],
+        "game_id": game.get("game_id"),
+        "us_price": row.us_price,
+        "tr_price": row.tr_price,
+        "extra_plus_included": row.extra_plus_included,
+        "deluxe_plus_included": row.deluxe_plus_included,
+    }
+
+
 @activity.defn(name="upload_igdb_images_to_s3")
 def upload_igdb_images_to_s3(input: dict) -> dict:
     database_url = _required_env("DATABASE_URL")

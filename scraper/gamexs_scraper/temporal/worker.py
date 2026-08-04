@@ -11,8 +11,13 @@ from gamexs_scraper.temporal.activities import (
     cleanup_stale_listings,
     enrich_igdb_metadata,
     fetch_playstation_store_prices,
+    fetch_playstation_store_region_price,
+    fetch_playstation_store_tr_price,
+    fetch_playstation_store_us_price,
     load_seller_from_s3,
+    resolve_playstation_store_games,
     scrape_seller_to_s3,
+    upsert_playstation_store_game_price,
     upload_igdb_images_to_s3,
 )
 from gamexs_scraper.temporal.config import settings_from_env
@@ -41,6 +46,11 @@ async def main() -> None:
             activities=[
                 enrich_igdb_metadata,
                 fetch_playstation_store_prices,
+                resolve_playstation_store_games,
+                fetch_playstation_store_region_price,
+                fetch_playstation_store_us_price,
+                fetch_playstation_store_tr_price,
+                upsert_playstation_store_game_price,
                 upload_igdb_images_to_s3,
                 cleanup_stale_listings,
             ],

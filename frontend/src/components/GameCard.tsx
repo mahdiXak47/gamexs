@@ -17,10 +17,15 @@ export default function GameCard({ game, isBestPrice = false }: { game: GameSumm
           >
             PS5
           </Chip>
+          {game.genreLabel && (
+            <span className="absolute left-2 top-2 rounded-full bg-blue-50/95 px-2 py-0.5 text-[10px] font-medium text-ps-blue shadow-sm backdrop-blur-sm">
+              {game.genreLabel}
+            </span>
+          )}
           {isBestPrice && (
             <Chip
               size="sm"
-              className="absolute left-2 top-2 bg-green-500 text-white border-0 text-[10px] font-bold"
+              className="absolute left-2 top-8 bg-green-500 text-white border-0 text-[10px] font-bold"
             >
               بهترین قیمت
             </Chip>
@@ -28,14 +33,9 @@ export default function GameCard({ game, isBestPrice = false }: { game: GameSumm
         </div>
 
         {/* Info */}
-        <div className="flex flex-col gap-1.5 p-3 flex-1">
+        <div className="flex flex-col gap-1 p-2.5 flex-1">
           <p dir="auto" className="line-clamp-2 text-center text-sm font-bold text-gray-900 leading-snug">{game.title}</p>
-          {game.genreLabel && (
-            <span className="self-start text-[10px] font-medium text-ps-blue bg-blue-50 px-2 py-0.5 rounded-full">
-              {game.genreLabel}
-            </span>
-          )}
-          <div className="mt-auto pt-2">
+          <div className="mt-auto pt-1.5">
             <div className="flex items-baseline gap-1">
               <span className="text-[10px] text-gray-400">از</span>
               <span className="price-figure text-base font-extrabold text-gray-900">

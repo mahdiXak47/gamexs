@@ -6,7 +6,7 @@ import { AuthProvider } from "@/context/AuthContext";
 import AuthModal from "@/components/AuthModal";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
-import { SITE_LOGO_URL, SITE_NAME, SITE_URL } from "@/lib/seo";
+import { SITE_LOGO_URL, SITE_NAME, SITE_PREVIEW_IMAGE, SITE_URL } from "@/lib/seo";
 
 const vazirmatn = Vazirmatn({
   variable: "--font-vazirmatn",
@@ -43,11 +43,13 @@ export const metadata: Metadata = {
     type: "website",
     locale: "fa_IR",
     siteName: SITE_NAME,
+    images: [SITE_PREVIEW_IMAGE],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
+    images: [SITE_PREVIEW_IMAGE.url],
   },
 };
 
