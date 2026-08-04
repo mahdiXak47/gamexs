@@ -15,7 +15,7 @@ import { shouldNoIndexCatalogParams, SITE_NAME, SITE_URL } from "@/lib/seo";
 const HOMEPAGE_UPCOMING_SLUGS = [
   "call-of-duty-modern-warfare-4",
   "grand-theft-auto-vi",
-  "control-resonant--1",
+  "control-resonant",
   "marvels-wolverine",
 ];
 

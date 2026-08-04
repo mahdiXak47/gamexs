@@ -1,9 +1,9 @@
 {
-  "slug": "control-ultimate-edition",
-  "igdb_id": 136604,
-  "name": "Control: Ultimate Edition",
-  "summary": "Control Ultimate Edition contains the main game and the previously released expansions, The Foundation and AWE. Jesse Faden enters the Federal Bureau of Control, a shifting government building invaded by a supernatural force called the Hiss, and uses telekinetic powers and a transforming service weapon to uncover the Oldest House's secrets.",
-  "first_release_year": 2020,
+  "slug": "control",
+  "igdb_id": 103329,
+  "name": "Control",
+  "summary": "Control is a third-person action-adventure game set inside the Federal Bureau of Control, a secretive agency that studies paranormal phenomena. Jesse Faden enters the Oldest House after it is invaded by the Hiss and uses supernatural abilities and a transforming service weapon to uncover the building's secrets.",
+  "first_release_year": 2019,
   "developers": [
     "Remedy Entertainment"
   ],
@@ -40,12 +40,7 @@
     "secret agency",
     "oldest house"
   ],
-  "alternative_names": [
-    {
-      "name": "Control Ultimate Edition",
-      "comment": "Common title"
-    }
-  ],
+  "alternative_names": [],
   "websites": [],
   "release_dates": [
     {

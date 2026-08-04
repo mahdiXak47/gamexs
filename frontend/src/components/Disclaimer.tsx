@@ -1,11 +1,14 @@
 const badges = [
   {
-    title: "ارسال سریع",
-    subtitle: "",
+    title: "پشتیبانی",
+    subtitle: "۲۴ ساعته",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-        <path d="m22 2-7 20-4-9-9-4Z" />
-        <path d="M22 2 11 13" />
+        <path d="M4 12a8 8 0 0 1 16 0" />
+        <path d="M4 12v3a2 2 0 0 0 2 2h1v-7H6a2 2 0 0 0-2 2Z" />
+        <path d="M20 12v3a2 2 0 0 1-2 2h-1v-7h1a2 2 0 0 1 2 2Z" />
+        <path d="M8 20c1.1.7 2.4 1 4 1s2.9-.3 4-1" />
+        <path d="M9 9a3 3 0 0 1 6 0" />
       </svg>
     ),
   },
