@@ -10,7 +10,7 @@ import { listGamesPage, listPublishers } from "@/lib/games-repo";
 import { genreBySlug, GENRES } from "@/lib/genres";
 import { toPersianDigits } from "@/lib/format";
 import { parseGameListSearchParams } from "@/lib/search-params";
-import { SITE_URL } from "@/lib/seo";
+import { shouldNoIndexCatalogParams, SITE_URL } from "@/lib/seo";
 
 const PAGE_SIZE = 20;
 
@@ -22,12 +22,16 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({
   params,
+  searchParams,
 }: {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
 }): Promise<Metadata> {
   const { slug } = await params;
   const genre = genreBySlug(slug);
   if (!genre) return {};
+  const parsed = parseGameListSearchParams(await searchParams);
+  const shouldNoIndex = shouldNoIndexCatalogParams(parsed);
 
   const title = `${genre.label} برای PS5 — قیمت و مقایسه`;
   const description = `مقایسه قیمت ${genre.label} برای PS5 بین فروشندگان معتبر ایرانی — اکانت، دیسک و اشتراک`;
@@ -37,6 +41,12 @@ export async function generateMetadata({
     description,
     alternates: { canonical: `/genres/${slug}` },
     openGraph: { title, description, url: `${SITE_URL}/genres/${slug}` },
+    ...(shouldNoIndex && {
+      robots: {
+        index: false,
+        follow: true,
+      },
+    }),
   };
 }
 

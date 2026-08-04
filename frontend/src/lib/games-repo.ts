@@ -148,6 +148,8 @@ export interface ListGamesOptions {
   genre?: string;
   query?: string;
   publishers?: string[];
+  productType?: ProductType;
+  tier?: AccessTier;
   sort?: SortOption;
   page?: number;
   pageSize?: number;
@@ -173,6 +175,8 @@ export async function listGamesPage(options: ListGamesOptions = {}): Promise<Pag
     genre = null,
     query: search = null,
     publishers = null,
+    productType = null,
+    tier = null,
     sort = "popular",
     page = 1,
     pageSize = 20,
@@ -210,6 +214,8 @@ export async function listGamesPage(options: ListGamesOptions = {}): Promise<Pag
         AND ($1::text IS NULL OR g.genre_label ILIKE $1)
         AND ($2::text IS NULL OR g.title ILIKE $2 OR g.genre_label ILIKE $2)
         AND ($3::text[] IS NULL OR g.publisher = ANY($3))
+        AND ($7::product_type IS NULL OR l.product_type = $7::product_type)
+        AND ($8::access_tier IS NULL OR l.tier = $8::access_tier)
       GROUP BY g.id
       HAVING NOT $6 OR COUNT(DISTINCT l.id) > 0
     )
@@ -225,6 +231,8 @@ export async function listGamesPage(options: ListGamesOptions = {}): Promise<Pag
       pageSize,
       (page - 1) * pageSize,
       options.onlyWithListings ?? false,
+      productType,
+      tier,
     ]
   );
 
@@ -262,6 +270,27 @@ export async function listPublishers(genre?: string): Promise<string[]> {
     [genre ? `%${genre}%` : null]
   );
   return rows.map((r) => r.publisher);
+}
+
+export function publisherToSlug(publisher: string): string {
+  return publisher
+    .trim()
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+export async function listPublisherRoutes(): Promise<{ slug: string; name: string }[]> {
+  const publishers = await listPublishers();
+  return publishers
+    .map((name) => ({ name, slug: publisherToSlug(name) }))
+    .filter((publisher) => publisher.slug.length > 0);
+}
+
+export async function getPublisherBySlug(slug: string): Promise<string | null> {
+  const publishers = await listPublisherRoutes();
+  return publishers.find((publisher) => publisher.slug === slug)?.name ?? null;
 }
 
 // Other PS5 games sharing at least one genre — powers the "similar games" row

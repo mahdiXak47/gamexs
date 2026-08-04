@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Disclaimer from "@/components/Disclaimer";
+import FaqSection from "@/components/FaqSection";
 import JsonLd from "@/components/JsonLd";
 import {
   getPsPlusPlan,
@@ -13,11 +14,10 @@ import {
   TIER_SLUG,
   CAPACITY_LABEL,
   CAPACITY_DESC,
-  type PsPlusPlan,
   type PsPlusOption,
 } from "@/lib/ps-plus-repo";
 import { formatToman } from "@/lib/format";
-import { SITE_URL, tomanToRial } from "@/lib/seo";
+import { faqPageJsonLd, psPlusFaqs, SITE_URL, tomanToRial } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
 
@@ -150,6 +150,7 @@ export default async function PsPlusTierPage({
   const color    = TIER_COLOR[plan.tier];
   const features = TIER_FEATURES[plan.tier] ?? [];
   const lowestPrice = Math.min(...plan.options.map((o) => o.latestPrice ?? Infinity));
+  const faqs = psPlusFaqs(TIER_LABEL[plan.tier]);
 
   // Other tiers for cross-links
   const otherTiers = (["ESSENTIAL", "EXTRA", "PREMIUM"] as const).filter((t) => t !== plan.tier);
@@ -188,6 +189,7 @@ export default async function PsPlusTierPage({
   return (
     <>
       <JsonLd data={productJsonLd} />
+      <JsonLd data={faqPageJsonLd(faqs)} />
       <Header />
 
       {/* Hero */}
@@ -270,6 +272,8 @@ export default async function PsPlusTierPage({
             </div>
           </aside>
         </div>
+
+        <FaqSection title={`سؤال‌های متداول ${TIER_LABEL[plan.tier]}`} faqs={faqs} />
 
       </main>
 

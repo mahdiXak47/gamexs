@@ -48,15 +48,17 @@ function ChevronDownIcon() {
 
 const otherNavItems = [
   { label: "PS Plus", href: "/ps-plus" },
-  { label: "اخبار", href: "#" },
-  { label: "پشتیبانی", href: "#" },
+  { label: "اکانت PS5", href: "/account-games" },
+  { label: "دیسک PS5", href: "/disc-games" },
+  { label: "پیش‌خرید", href: "/upcoming" },
 ];
 
 const mobileNavItems = [
   { label: "بازی‌ها", href: "/" },
   { label: "PS Plus", href: "/ps-plus" },
-  { label: "اخبار", href: "#" },
-  { label: "پشتیبانی", href: "#" },
+  { label: "اکانت PS5", href: "/account-games" },
+  { label: "دیسک PS5", href: "/disc-games" },
+  { label: "پیش‌خرید", href: "/upcoming" },
 ];
 
 export default function Header() {

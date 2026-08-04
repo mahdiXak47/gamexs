@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Chip } from "@heroui/react";
 import Disclaimer from "@/components/Disclaimer";
 import GameGrid from "@/components/GameGrid";
@@ -9,7 +10,7 @@ import TopGames from "@/components/TopGames";
 import UpcomingGames from "@/components/UpcomingGames";
 import { getLastScrapedAt, getFeaturedUpcomingGames, listGamesPage, listPublishers } from "@/lib/games-repo";
 import { parseGameListSearchParams } from "@/lib/search-params";
-import { SITE_URL } from "@/lib/seo";
+import { shouldNoIndexCatalogParams, SITE_NAME, SITE_URL } from "@/lib/seo";
 
 const HOMEPAGE_UPCOMING_SLUGS = [
   "call-of-duty-modern-warfare-4",
@@ -21,6 +22,25 @@ const HOMEPAGE_UPCOMING_SLUGS = [
 const PAGE_SIZE = 20;
 
 export const dynamic = "force-dynamic";
+
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
+}): Promise<Metadata> {
+  const parsed = parseGameListSearchParams(await searchParams);
+  const shouldNoIndex = shouldNoIndexCatalogParams(parsed);
+
+  return {
+    alternates: { canonical: "/" },
+    ...(shouldNoIndex && {
+      robots: {
+        index: false,
+        follow: true,
+      },
+    }),
+  };
+}
 
 export default async function Home({
   searchParams,
@@ -54,9 +74,22 @@ export default async function Home({
       name: game.title,
     })),
   };
+  const homepageJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "مقایسه قیمت بازی‌های PS5",
+    url: SITE_URL,
+    isPartOf: {
+      "@type": "WebSite",
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+    mainEntity: itemListJsonLd,
+  };
 
   return (
     <>
+      <JsonLd data={homepageJsonLd} />
       {topGames.length > 0 && <JsonLd data={itemListJsonLd} />}
       <Header />
 

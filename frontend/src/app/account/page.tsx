@@ -941,13 +941,14 @@ export default function AccountPage() {
 
               {/* Utility items */}
               <div className="px-2 pb-3">
-                <Link
-                  href="#"
+                <button
+                  type="button"
+                  onClick={() => setSection('tickets')}
                   className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-gray-900 transition-colors duration-150 cursor-pointer"
                 >
                   <Icons.support />
                   پشتیبانی
-                </Link>
+                </button>
                 <button
                   type="button"
                   onClick={handleLogout}

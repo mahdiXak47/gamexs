@@ -23,7 +23,7 @@ export const metadata = {
   alternates: { canonical: "/ps-plus" },
 };
 
-function TierBadge({ label, badge }: { label: string; badge: string | null }) {
+function TierBadge({ badge }: { badge: string | null }) {
   if (!badge) return <div className="h-[22px] mb-2" />;
   return (
     <div className="h-[22px] mb-2 flex items-center">
@@ -49,7 +49,7 @@ function PlanCard({ plan }: { plan: PsPlusPlan }) {
     <div className="relative rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden flex flex-col">
       {/* Colored header */}
       <div className="px-6 py-5 text-white" style={{ background: `linear-gradient(135deg, ${color} 0%, ${color}cc 100%)` }}>
-        <TierBadge label={TIER_LABEL[plan.tier]} badge={TIER_BADGE[plan.tier]} />
+        <TierBadge badge={TIER_BADGE[plan.tier]} />
 
         {/* Cover + title side by side */}
         <div className="flex items-center gap-4">

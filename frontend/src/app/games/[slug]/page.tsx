@@ -4,6 +4,7 @@ import { Chip } from "@heroui/react";
 import Breadcrumb from "@/components/Breadcrumb";
 import CoverArt from "@/components/CoverArt";
 import Disclaimer from "@/components/Disclaimer";
+import FaqSection from "@/components/FaqSection";
 import GamePreorderBanner from "@/components/GamePreorderBanner";
 import GameVersions from "@/components/GameVersions";
 import Header from "@/components/Header";
@@ -17,7 +18,7 @@ import { formatToman, toPersianDigits } from "@/lib/format";
 import { genreForGame } from "@/lib/genres";
 import { getGameBySlug, getGameStoreInfo, getSimilarGames, getSimilarGamesByDeveloper, getGameVersions } from "@/lib/games-repo";
 import { lowestPrice, lowestValidPrice, storeCount } from "@/lib/purchase-options";
-import { SITE_URL, tomanToRial } from "@/lib/seo";
+import { faqPageJsonLd, gamePurchaseFaqs, SITE_URL, tomanToRial } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
 
@@ -128,6 +129,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
 
   // Breadcrumb: home / genre category (if one of the curated genres matches) / game title
   const category = genreForGame(game.genres);
+  const faqs = gamePurchaseFaqs(game.title);
   const breadcrumbItems = [
     { label: "بازی‌های PS5", href: "/" },
     ...(category ? [{ label: category.label, href: `/genres/${category.slug}` }] : []),
@@ -169,6 +171,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
     <>
       <JsonLd data={productJsonLd} />
       <JsonLd data={breadcrumbJsonLd} />
+      <JsonLd data={faqPageJsonLd(faqs)} />
       <Header />
       <main className="flex-1">
 
@@ -317,6 +320,8 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
         <div className="mx-auto max-w-6xl px-4 pb-10 sm:px-6">
           <PurchaseTypeSelector options={game.purchaseOptions} />
         </div>
+
+        <FaqSection faqs={faqs} />
 
         <GameVersions games={gameVersions} />
         <SimilarGames games={similarGames} heading="بازی‌های مشابه" tags={game.genres} />

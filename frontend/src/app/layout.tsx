@@ -6,7 +6,7 @@ import { AuthProvider } from "@/context/AuthContext";
 import AuthModal from "@/components/AuthModal";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
-import { SITE_NAME, SITE_URL } from "@/lib/seo";
+import { SITE_LOGO_URL, SITE_NAME, SITE_URL } from "@/lib/seo";
 
 const vazirmatn = Vazirmatn({
   variable: "--font-vazirmatn",
@@ -56,7 +56,14 @@ const organizationJsonLd = {
   "@type": "Organization",
   name: SITE_NAME,
   url: SITE_URL,
+  logo: SITE_LOGO_URL,
   description: SITE_DESCRIPTION,
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "customer support",
+    availableLanguage: ["fa-IR"],
+    url: SITE_URL,
+  },
 };
 
 const websiteJsonLd = {

@@ -108,11 +108,13 @@ export default function GameGrid({
       <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
         <div className="flex flex-wrap items-center gap-2">
           <SortBar value={sort} onChange={setSort} />
-          <PublisherFilter
-            publishers={publishersList}
-            selected={selectedSet}
-            onChange={setSelectedPublishers}
-          />
+          {publishersList.length > 0 && (
+            <PublisherFilter
+              publishers={publishersList}
+              selected={selectedSet}
+              onChange={setSelectedPublishers}
+            />
+          )}
         </div>
         {total > 0 && (
           <p className="text-xs text-gray-500">
