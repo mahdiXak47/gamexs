@@ -55,40 +55,58 @@ export function findOption(
   return options.find((o) => o.type === type && (o.tier ?? null) === tier);
 }
 
+export function purchasePathLabel(type: ProductType, tier: AccessTier | null): string {
+  if (type === "ACCOUNT_GAME") {
+    if (tier === "CAPACITY_1") return "ظرفیت ۱";
+    if (tier === "CAPACITY_2") return "ظرفیت ۲";
+    if (tier === "CAPACITY_3") return "ظرفیت ۳";
+    return "اکانت";
+  }
+  if (type === "OWN_ACCOUNT_GAME") return "روی اکانت شما";
+  return "دیسک فیزیکی";
+}
+
 export function lowestPriceForOption(option: PurchaseOption): number | null {
-  if (option.offers.length === 0) return null;
-  return Math.min(...option.offers.map((o) => o.priceToman));
+  const available = option.offers.filter((o) => o.inStock && o.priceToman > 0);
+  if (available.length === 0) return null;
+  return Math.min(...available.map((o) => o.priceToman));
 }
 
 export function bestOfferId(option: PurchaseOption): string | null {
-  const inStock = option.offers.filter((o) => o.inStock);
+  const inStock = option.offers.filter((o) => o.inStock && o.priceToman > 0);
   if (inStock.length === 0) return null;
   return inStock.reduce((best, o) => (o.priceToman < best.priceToman ? o : best)).sellerId;
 }
 
-export function lowestPrice(game: Game): number | null {
-  let min: number | null = null;
-  for (const option of game.purchaseOptions) {
-    for (const offer of option.offers) {
-      if (min === null || offer.priceToman < min) min = offer.priceToman;
-    }
-  }
-  return min;
+export interface LowestAvailableOffer {
+  priceToman: number;
+  purchaseLabel: string;
 }
 
-// Same as lowestPrice, but excludes priceToman === 0 — a scraper artifact
-// seen on ~4.5% of out-of-stock listings, not a real price. Used wherever a
-// price is surfaced as text (meta descriptions, JSON-LD) so it never reads
-// "from 0 Toman"; not applied to lowestPrice()/the visible price card, since
-// that's a separate pre-existing data issue outside this task's scope.
-export function lowestValidPrice(game: Game): number | null {
-  let min: number | null = null;
+export function lowestAvailableOffer(game: Game): LowestAvailableOffer | null {
+  let best: LowestAvailableOffer | null = null;
   for (const option of game.purchaseOptions) {
     for (const offer of option.offers) {
-      if (offer.priceToman > 0 && (min === null || offer.priceToman < min)) min = offer.priceToman;
+      if (!offer.inStock || offer.priceToman <= 0) continue;
+      if (best === null || offer.priceToman < best.priceToman) {
+        best = {
+          priceToman: offer.priceToman,
+          purchaseLabel: purchasePathLabel(option.type, option.tier ?? null),
+        };
+      }
     }
   }
-  return min;
+  return best;
+}
+
+export function lowestPrice(game: Game): number | null {
+  return lowestAvailableOffer(game)?.priceToman ?? null;
+}
+
+// Visible and SEO-facing lowest prices must come from available offers only:
+// in-stock and positive price. Zero is a scraper artifact on unavailable rows.
+export function lowestValidPrice(game: Game): number | null {
+  return lowestPrice(game);
 }
 
 export function storeCount(game: Game): number {

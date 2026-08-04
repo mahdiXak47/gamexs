@@ -2,7 +2,7 @@ import { cache } from "react";
 import { query } from "./db";
 import { s3CoverUrl, s3ScreenshotUrl } from "./covers";
 import { getGameDetails } from "./game-details";
-import { emptyPurchaseOptions, findOption } from "./purchase-options";
+import { emptyPurchaseOptions, findOption, purchasePathLabel } from "./purchase-options";
 import type { AccessTier, Game, GameSummary, ProductType, SortOption, UpcomingGame } from "./types";
 
 // Resolve cover URL — S3 only.
@@ -33,6 +33,38 @@ function deriveInitial(title: string): string {
     .slice(0, 2)
     .map((word) => word[0]?.toUpperCase() ?? "");
   return letters.join("") || "?";
+}
+
+interface GameSummaryRow {
+  slug: string;
+  title: string;
+  genre_label: string | null;
+  publisher: string | null;
+  cover_url: string | null;
+  lowest_price: string | null;
+  lowest_product_type: ProductType | null;
+  lowest_tier: AccessTier | null;
+  store_count: string;
+  purchase_type_count: string;
+  created_at: Date;
+}
+
+function rowToGameSummary(row: GameSummaryRow): GameSummary {
+  return {
+    slug: row.slug,
+    title: row.title,
+    genreLabel: row.genre_label,
+    publisher: row.publisher,
+    coverInitial: deriveInitial(row.title),
+    coverUrl: toCoverUrl(row.cover_url, row.slug),
+    lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
+    lowestPriceLabel: row.lowest_product_type
+      ? purchasePathLabel(row.lowest_product_type, row.lowest_tier)
+      : null,
+    storeCount: Number(row.store_count),
+    purchaseTypeCount: Number(row.purchase_type_count),
+    createdAt: row.created_at.getTime(),
+  };
 }
 
 function slugLookupCandidates(slug: string): string[] {
@@ -115,17 +147,7 @@ function stripEditionSuffix(title: string): string {
 }
 
 export async function listGames(): Promise<GameSummary[]> {
-  const { rows } = await query<{
-    slug: string;
-    title: string;
-    genre_label: string | null;
-    publisher: string | null;
-    cover_url: string | null;
-    lowest_price: string | null;
-    store_count: string;
-    purchase_type_count: string;
-    created_at: Date;
-  }>(`
+  const { rows } = await query<GameSummaryRow>(`
     ${LATEST_PRICE_CTE}
     SELECT
       g.slug,
@@ -134,7 +156,9 @@ export async function listGames(): Promise<GameSummary[]> {
       g.publisher,
       g.cover_url,
       g.created_at,
-      MIN(latest.price_toman) AS lowest_price,
+      MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
+      (ARRAY_AGG(l.product_type ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_product_type,
+      (ARRAY_AGG(l.tier ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_tier,
       COUNT(DISTINCT l.seller_id) AS store_count,
       COUNT(DISTINCT (l.product_type, l.tier)) AS purchase_type_count
     FROM ps5_games g
@@ -145,18 +169,7 @@ export async function listGames(): Promise<GameSummary[]> {
     ORDER BY g.title
   `);
 
-  return rows.map((row) => ({
-    slug: row.slug,
-    title: row.title,
-    genreLabel: row.genre_label,
-    publisher: row.publisher,
-    coverInitial: deriveInitial(row.title),
-    coverUrl: toCoverUrl(row.cover_url, row.slug),
-    lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
-    storeCount: Number(row.store_count),
-    purchaseTypeCount: Number(row.purchase_type_count),
-    createdAt: row.created_at.getTime(),
-  }));
+  return rows.map(rowToGameSummary);
 }
 
 const SORT_CLAUSE: Record<SortOption, string> = {
@@ -206,18 +219,7 @@ export async function listGamesPage(options: ListGamesOptions = {}): Promise<Pag
     pageSize = 20,
   } = options;
 
-  const { rows } = await query<{
-    slug: string;
-    title: string;
-    genre_label: string | null;
-    publisher: string | null;
-    cover_url: string | null;
-    lowest_price: string | null;
-    store_count: string;
-    purchase_type_count: string;
-    created_at: Date;
-    total_count: string;
-  }>(
+  const { rows } = await query<GameSummaryRow & { total_count: string }>(
     `
     ${LATEST_PRICE_CTE}
     , filtered AS (
@@ -228,7 +230,9 @@ export async function listGamesPage(options: ListGamesOptions = {}): Promise<Pag
         g.publisher,
         g.cover_url,
         g.created_at,
-        MIN(latest.price_toman) AS lowest_price,
+        MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
+        (ARRAY_AGG(l.product_type ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_product_type,
+        (ARRAY_AGG(l.tier ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_tier,
         COUNT(DISTINCT l.seller_id) AS store_count,
         COUNT(DISTINCT (l.product_type, l.tier)) AS purchase_type_count
       FROM ps5_games g
@@ -260,18 +264,7 @@ export async function listGamesPage(options: ListGamesOptions = {}): Promise<Pag
     ]
   );
 
-  const games = rows.map((row) => ({
-    slug: row.slug,
-    title: row.title,
-    genreLabel: row.genre_label,
-    publisher: row.publisher,
-    coverInitial: deriveInitial(row.title),
-    coverUrl: toCoverUrl(row.cover_url, row.slug),
-    lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
-    storeCount: Number(row.store_count),
-    purchaseTypeCount: Number(row.purchase_type_count),
-    createdAt: row.created_at.getTime(),
-  }));
+  const games = rows.map(rowToGameSummary);
 
   return { games, total: rows.length > 0 ? Number(rows[0].total_count) : 0 };
 }
@@ -332,17 +325,7 @@ export async function getSimilarGames(
 ): Promise<GameSummary[]> {
   if (genres.length === 0) return [];
 
-  const { rows } = await query<{
-    slug: string;
-    title: string;
-    genre_label: string | null;
-    publisher: string | null;
-    cover_url: string | null;
-    lowest_price: string | null;
-    store_count: string;
-    purchase_type_count: string;
-    created_at: Date;
-  }>(
+  const { rows } = await query<GameSummaryRow & { overlap: number }>(
     `
     ${LATEST_PRICE_CTE}
     SELECT
@@ -352,7 +335,9 @@ export async function getSimilarGames(
       g.publisher,
       g.cover_url,
       g.created_at,
-      MIN(latest.price_toman) AS lowest_price,
+      MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
+      (ARRAY_AGG(l.product_type ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_product_type,
+      (ARRAY_AGG(l.tier ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_tier,
       COUNT(DISTINCT l.seller_id) AS store_count,
       COUNT(DISTINCT (l.product_type, l.tier)) AS purchase_type_count,
       cardinality(ARRAY(SELECT unnest(g.genres) INTERSECT SELECT unnest($1::text[]))) AS overlap
@@ -369,18 +354,7 @@ export async function getSimilarGames(
     [genres, gameId, limit]
   );
 
-  return rows.map((row) => ({
-    slug: row.slug,
-    title: row.title,
-    genreLabel: row.genre_label,
-    publisher: row.publisher,
-    coverInitial: deriveInitial(row.title),
-    coverUrl: toCoverUrl(row.cover_url, row.slug),
-    lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
-    storeCount: Number(row.store_count),
-    purchaseTypeCount: Number(row.purchase_type_count),
-    createdAt: row.created_at.getTime(),
-  }));
+  return rows.map(rowToGameSummary);
 }
 
 // Other PS5 games sharing at least one developer studio — powers the "same
@@ -395,17 +369,7 @@ export async function getSimilarGamesByDeveloper(
 ): Promise<GameSummary[]> {
   if (developers.length === 0) return [];
 
-  const { rows } = await query<{
-    slug: string;
-    title: string;
-    genre_label: string | null;
-    publisher: string | null;
-    cover_url: string | null;
-    lowest_price: string | null;
-    store_count: string;
-    purchase_type_count: string;
-    created_at: Date;
-  }>(
+  const { rows } = await query<GameSummaryRow & { overlap: number }>(
     `
     ${LATEST_PRICE_CTE}
     SELECT
@@ -415,7 +379,9 @@ export async function getSimilarGamesByDeveloper(
       g.publisher,
       g.cover_url,
       g.created_at,
-      MIN(latest.price_toman) AS lowest_price,
+      MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
+      (ARRAY_AGG(l.product_type ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_product_type,
+      (ARRAY_AGG(l.tier ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_tier,
       COUNT(DISTINCT l.seller_id) AS store_count,
       COUNT(DISTINCT (l.product_type, l.tier)) AS purchase_type_count,
       cardinality(ARRAY(SELECT unnest(g.developers) INTERSECT SELECT unnest($1::text[]))) AS overlap
@@ -432,18 +398,7 @@ export async function getSimilarGamesByDeveloper(
     [developers, gameId, limit]
   );
 
-  return rows.map((row) => ({
-    slug: row.slug,
-    title: row.title,
-    genreLabel: row.genre_label,
-    publisher: row.publisher,
-    coverInitial: deriveInitial(row.title),
-    coverUrl: toCoverUrl(row.cover_url, row.slug),
-    lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
-    storeCount: Number(row.store_count),
-    purchaseTypeCount: Number(row.purchase_type_count),
-    createdAt: row.created_at.getTime(),
-  }));
+  return rows.map(rowToGameSummary);
 }
 
 // Other purchasable editions of the SAME game (e.g. "Battlefield 6 Phantom
@@ -466,17 +421,7 @@ export async function getGameVersions(
   const baseTitle = stripEditionSuffix(title).toLowerCase();
   const prefix = baseTitle.split(/\s+/).slice(0, 2).join(" ");
 
-  const { rows } = await query<{
-    slug: string;
-    title: string;
-    genre_label: string | null;
-    publisher: string | null;
-    cover_url: string | null;
-    lowest_price: string | null;
-    store_count: string;
-    purchase_type_count: string;
-    created_at: Date;
-  }>(
+  const { rows } = await query<GameSummaryRow>(
     `
     ${LATEST_PRICE_CTE}
     SELECT
@@ -486,7 +431,9 @@ export async function getGameVersions(
       g.publisher,
       g.cover_url,
       g.created_at,
-      MIN(latest.price_toman) AS lowest_price,
+      MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
+      (ARRAY_AGG(l.product_type ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_product_type,
+      (ARRAY_AGG(l.tier ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_tier,
       COUNT(DISTINCT l.seller_id) AS store_count,
       COUNT(DISTINCT (l.product_type, l.tier)) AS purchase_type_count
     FROM ps5_games g
@@ -503,18 +450,7 @@ export async function getGameVersions(
 
   const matched = rows.filter((row) => stripEditionSuffix(row.title).toLowerCase() === baseTitle);
 
-  return matched.slice(0, limit).map((row) => ({
-    slug: row.slug,
-    title: row.title,
-    genreLabel: row.genre_label,
-    publisher: row.publisher,
-    coverInitial: deriveInitial(row.title),
-    coverUrl: toCoverUrl(row.cover_url, row.slug),
-    lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
-    storeCount: Number(row.store_count),
-    purchaseTypeCount: Number(row.purchase_type_count),
-    createdAt: row.created_at.getTime(),
-  }));
+  return matched.slice(0, limit).map(rowToGameSummary);
 }
 
 // Wrapped in React's per-request cache so generateMetadata and the page
