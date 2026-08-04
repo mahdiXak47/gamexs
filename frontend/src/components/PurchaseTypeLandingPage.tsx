@@ -1,11 +1,12 @@
 import { Chip } from "@heroui/react";
+import Breadcrumb from "@/components/Breadcrumb";
 import Disclaimer from "@/components/Disclaimer";
 import GameGrid from "@/components/GameGrid";
 import Header from "@/components/Header";
 import JsonLd from "@/components/JsonLd";
 import { listGamesPage } from "@/lib/games-repo";
 import { parseGameListSearchParams } from "@/lib/search-params";
-import { shouldNoIndexCatalogParams, SITE_URL } from "@/lib/seo";
+import { breadcrumbJsonLd, shouldNoIndexCatalogParams, SITE_URL } from "@/lib/seo";
 import type { PurchaseTypePageDefinition } from "@/lib/purchase-type-pages";
 
 const PAGE_SIZE = 20;
@@ -45,13 +46,25 @@ export async function renderPurchaseTypeLandingPage({
       })),
     },
   };
+  const breadcrumbItems = [
+    { label: "بازی‌های PS5", href: "/" },
+    { label: definition.h1 },
+  ];
+  const breadcrumbSchema = breadcrumbJsonLd([
+    { name: "بازی‌های PS5", path: "/" },
+    { name: definition.h1, path: definition.path },
+  ]);
 
   return (
     <>
       <JsonLd data={collectionJsonLd} />
+      <JsonLd data={breadcrumbSchema} />
       <Header />
       <div className="ps-header">
         <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
+          <div className="mb-5">
+            <Breadcrumb items={breadcrumbItems} light />
+          </div>
           <div className="flex flex-wrap items-center gap-3 mb-2">
             <h1 className="text-2xl font-extrabold text-white sm:text-3xl">
               {definition.h1}

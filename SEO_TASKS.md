@@ -15,6 +15,7 @@
 - [x] Add `FAQPage` JSON-LD to PS Plus tier pages.
 - [x] Enrich global `Organization` JSON-LD with logo and contact/support fields.
 - [x] Add `WebPage`/`CollectionPage` JSON-LD to homepage.
+- [x] Add `BreadcrumbList` JSON-LD to indexable collection and subscription pages.
 
 ## Priority 3 — Indexable Landing Pages
 

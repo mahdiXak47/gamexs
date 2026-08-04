@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { Chip } from "@heroui/react";
+import Breadcrumb from "@/components/Breadcrumb";
 import Disclaimer from "@/components/Disclaimer";
 import GameGrid from "@/components/GameGrid";
 import Header from "@/components/Header";
@@ -7,7 +8,7 @@ import JsonLd from "@/components/JsonLd";
 import { getPublisherBySlug, listGamesPage } from "@/lib/games-repo";
 import { toPersianDigits } from "@/lib/format";
 import { parseGameListSearchParams } from "@/lib/search-params";
-import { shouldNoIndexCatalogParams, SITE_URL } from "@/lib/seo";
+import { breadcrumbJsonLd, shouldNoIndexCatalogParams, SITE_URL } from "@/lib/seo";
 
 const PAGE_SIZE = 20;
 
@@ -50,13 +51,25 @@ export async function renderPublisherLandingPage({
       })),
     },
   };
+  const breadcrumbItems = [
+    { label: "بازی‌های PS5", href: "/" },
+    { label: publisher },
+  ];
+  const breadcrumbSchema = breadcrumbJsonLd([
+    { name: "بازی‌های PS5", path: "/" },
+    { name: publisher, path: `/publishers/${slug}` },
+  ]);
 
   return (
     <>
       <JsonLd data={collectionJsonLd} />
+      <JsonLd data={breadcrumbSchema} />
       <Header />
       <div className="ps-header">
         <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
+          <div className="mb-5">
+            <Breadcrumb items={breadcrumbItems} light />
+          </div>
           <div className="flex flex-wrap items-center gap-3 mb-2">
             <h1 dir="auto" className="text-right text-2xl font-extrabold text-white sm:text-3xl">
               {title}

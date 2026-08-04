@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import { Chip } from "@heroui/react";
+import Breadcrumb from "@/components/Breadcrumb";
 import Header from "@/components/Header";
 import GameGrid from "@/components/GameGrid";
 import Disclaimer from "@/components/Disclaimer";
@@ -10,7 +10,7 @@ import { listGamesPage, listPublishers } from "@/lib/games-repo";
 import { genreBySlug, GENRES } from "@/lib/genres";
 import { toPersianDigits } from "@/lib/format";
 import { parseGameListSearchParams } from "@/lib/search-params";
-import { shouldNoIndexCatalogParams, SITE_URL } from "@/lib/seo";
+import { breadcrumbJsonLd, shouldNoIndexCatalogParams, SITE_URL } from "@/lib/seo";
 
 const PAGE_SIZE = 20;
 
@@ -83,10 +83,19 @@ export default async function GenrePage({
       })),
     },
   };
+  const breadcrumbItems = [
+    { label: "بازی‌های PS5", href: "/" },
+    { label: genre.label },
+  ];
+  const breadcrumbSchema = breadcrumbJsonLd([
+    { name: "بازی‌های PS5", path: "/" },
+    { name: genre.label, path: `/genres/${slug}` },
+  ]);
 
   return (
     <>
       {games.length > 0 && <JsonLd data={itemListJsonLd} />}
+      <JsonLd data={breadcrumbSchema} />
       <Header />
 
       {/* Header band — flat genre-specific color when defined, blue by default */}
@@ -109,16 +118,7 @@ export default async function GenrePage({
               </Chip>
             )}
           </div>
-          <Link
-            href="/"
-            className="inline-flex items-center gap-1 text-sm text-white/70 hover:text-white transition-colors"
-            dir="rtl"
-          >
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-              <path d="m9 18 6-6-6-6" />
-            </svg>
-            همه بازی‌ها
-          </Link>
+          <Breadcrumb items={breadcrumbItems} light />
         </div>
       </div>
 

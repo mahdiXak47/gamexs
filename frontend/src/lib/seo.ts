@@ -7,6 +7,11 @@ export interface SeoFaq {
   answer: string;
 }
 
+export interface SeoBreadcrumbItem {
+  name: string;
+  path: string;
+}
+
 // Structured data requires an ISO 4217 currency code — Toman (the unit shown
 // throughout the UI) isn't one, so schema.org prices are expressed in Rial
 // (Toman × 10), the actual ISO currency. This only affects the invisible
@@ -26,6 +31,19 @@ export function faqPageJsonLd(faqs: SeoFaq[]) {
         "@type": "Answer",
         text: faq.answer,
       },
+    })),
+  };
+}
+
+export function breadcrumbJsonLd(items: SeoBreadcrumbItem[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: `${SITE_URL}${item.path}`,
     })),
   };
 }

@@ -17,7 +17,7 @@ import {
   type PsPlusOption,
 } from "@/lib/ps-plus-repo";
 import { formatToman } from "@/lib/format";
-import { faqPageJsonLd, psPlusFaqs, SITE_URL, tomanToRial } from "@/lib/seo";
+import { breadcrumbJsonLd, faqPageJsonLd, psPlusFaqs, SITE_URL, tomanToRial } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
 
@@ -151,6 +151,11 @@ export default async function PsPlusTierPage({
   const features = TIER_FEATURES[plan.tier] ?? [];
   const lowestPrice = Math.min(...plan.options.map((o) => o.latestPrice ?? Infinity));
   const faqs = psPlusFaqs(TIER_LABEL[plan.tier]);
+  const breadcrumbSchema = breadcrumbJsonLd([
+    { name: "بازی‌های PS5", path: "/" },
+    { name: "PS Plus", path: "/ps-plus" },
+    { name: TIER_LABEL[plan.tier], path: `/ps-plus/${slug}` },
+  ]);
 
   // Other tiers for cross-links
   const otherTiers = (["ESSENTIAL", "EXTRA", "PREMIUM"] as const).filter((t) => t !== plan.tier);
@@ -190,6 +195,7 @@ export default async function PsPlusTierPage({
     <>
       <JsonLd data={productJsonLd} />
       <JsonLd data={faqPageJsonLd(faqs)} />
+      <JsonLd data={breadcrumbSchema} />
       <Header />
 
       {/* Hero */}

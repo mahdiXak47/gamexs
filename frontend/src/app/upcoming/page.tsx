@@ -1,13 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Chip } from "@heroui/react";
+import Breadcrumb from "@/components/Breadcrumb";
 import Header from "@/components/Header";
 import CountdownTimer from "@/components/CountdownTimer";
 import JsonLd from "@/components/JsonLd";
 import UpcomingHeroBanner from "@/components/UpcomingHeroBanner";
 import { listAllUpcomingGames, getFeaturedUpcomingGames } from "@/lib/games-repo";
 import { formatToman, toPersianDigits } from "@/lib/format";
-import { SITE_URL } from "@/lib/seo";
+import { breadcrumbJsonLd, SITE_URL } from "@/lib/seo";
 import type { UpcomingGame } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
@@ -170,10 +171,19 @@ export default async function UpcomingPage() {
       name: game.title,
     })),
   };
+  const breadcrumbItems = [
+    { label: "بازی‌های PS5", href: "/" },
+    { label: "بازی‌های پیش‌خرید" },
+  ];
+  const breadcrumbSchema = breadcrumbJsonLd([
+    { name: "بازی‌های PS5", path: "/" },
+    { name: "بازی‌های پیش‌خرید", path: "/upcoming" },
+  ]);
 
   return (
     <>
       {games.length > 0 && <JsonLd data={itemListJsonLd} />}
+      <JsonLd data={breadcrumbSchema} />
       <Header />
 
       {/* Hero carousel — featured upcoming games */}
@@ -182,6 +192,9 @@ export default async function UpcomingPage() {
       {/* Content */}
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 flex flex-col gap-10">
         <div>
+          <div className="mb-4">
+            <Breadcrumb items={breadcrumbItems} />
+          </div>
           <div className="flex flex-wrap items-center gap-3 mb-1">
             <h1 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">بازی‌های پیش‌خرید</h1>
             <Chip variant="soft" color="accent" size="sm">PS5</Chip>

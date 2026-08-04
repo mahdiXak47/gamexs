@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Breadcrumb from "@/components/Breadcrumb";
 import Header from "@/components/Header";
 import Disclaimer from "@/components/Disclaimer";
 import JsonLd from "@/components/JsonLd";
@@ -13,7 +14,7 @@ import {
   type PsPlusPlan,
 } from "@/lib/ps-plus-repo";
 import { formatToman } from "@/lib/format";
-import { SITE_URL } from "@/lib/seo";
+import { breadcrumbJsonLd, SITE_URL } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
 
@@ -124,14 +125,26 @@ export default async function PsPlusPage() {
       name: TIER_LABEL[plan.tier],
     })),
   };
+  const breadcrumbItems = [
+    { label: "بازی‌های PS5", href: "/" },
+    { label: "PS Plus" },
+  ];
+  const breadcrumbSchema = breadcrumbJsonLd([
+    { name: "بازی‌های PS5", path: "/" },
+    { name: "PS Plus", path: "/ps-plus" },
+  ]);
 
   return (
     <>
       {plans.length > 0 && <JsonLd data={itemListJsonLd} />}
+      <JsonLd data={breadcrumbSchema} />
       <Header />
 
       <div className="ps-header">
         <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 text-center">
+          <div className="mb-5 flex justify-center">
+            <Breadcrumb items={breadcrumbItems} light />
+          </div>
           <h1 className="text-3xl font-black text-white">
             PS <span className="text-yellow-400">Plus</span>
           </h1>
