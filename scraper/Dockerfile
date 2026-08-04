@@ -1,5 +1,11 @@
-# Scraper is a job container, not a long-running service.
-# Run individual commands via docker run or docker compose run:
+# Scraper can run either as a one-off job container or as a long-running
+# Temporal worker application.
+#
+# Temporal worker:
+#
+#   docker run --rm <image> python -m gamexs_scraper.temporal.worker
+#
+# One-off commands:
 #
 #   docker compose -f docker-compose.staging.yml run --rm scraper \
 #       python -m gamexs_scraper.export_csv pspro \
@@ -25,10 +31,11 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY gamexs_scraper/ gamexs_scraper/
 COPY scrape_all.sh .
 COPY fetch_psstore_prices.py .
+COPY upload_to_s3.py .
 
 # Output directory for CSVs, JSONL caches, and cover images.
 # Mount a volume here in production so data persists across runs.
 RUN mkdir -p /output
 VOLUME ["/output"]
 
-CMD ["python", "-m", "gamexs_scraper.cli", "--help"]
+CMD ["python", "-m", "gamexs_scraper.temporal.worker"]
