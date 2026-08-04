@@ -26,6 +26,7 @@ import requests
 from botocore.client import Config
 from botocore.exceptions import ClientError
 from dotenv import load_dotenv
+from PIL import Image
 
 load_dotenv(dotenv_path=Path(__file__).parent.parent / ".env")
 
@@ -90,15 +91,38 @@ def download(session: requests.Session, url: str) -> bytes | None:
         return None
 
 
+def igdb_webp_url(url: str) -> str:
+    """Use IGDB's webp variant so S3 extension and Content-Type match bytes."""
+    if "images.igdb.com" not in url:
+        return url
+    return url.rsplit(".", 1)[0] + ".webp"
+
+
+def to_webp(data: bytes) -> bytes | None:
+    """Normalize any supported source image bytes to WebP."""
+    try:
+        with Image.open(io.BytesIO(data)) as image:
+            if image.mode not in ("RGB", "RGBA"):
+                image = image.convert("RGB")
+            out = io.BytesIO()
+            image.save(out, format="WEBP", quality=88)
+            return out.getvalue()
+    except Exception as exc:
+        print(f"\n  FAIL convert image to webp: {exc}", file=sys.stderr)
+        return None
+
+
 # ── DB ────────────────────────────────────────────────────────────────────────
 
-def fetch_igdb_games(db_url: str) -> list[tuple[int, str, str]]:
-    """Return [(id, slug, cover_url)] for games still on IGDB CDN."""
+def fetch_remote_cover_games(db_url: str) -> list[tuple[int, str, str]]:
+    """Return [(id, slug, cover_url)] for games whose cover is not yet on S3."""
     with psycopg.connect(db_url, connect_timeout=10) as conn:
         with conn.cursor() as cur:
             cur.execute(
-                "SELECT id, slug, cover_url FROM games "
-                "WHERE cover_url LIKE '%images.igdb.com%' "
+                "SELECT id, slug, cover_url FROM ps5_games "
+                "WHERE cover_url IS NOT NULL "
+                "AND cover_url NOT LIKE '%gs3.gamexs.ir%' "
+                "AND cover_url NOT LIKE '/api/%' "
                 "ORDER BY slug"
             )
             return cur.fetchall()
@@ -108,7 +132,7 @@ def update_cover_url(db_url: str, game_id: int, s3_url: str) -> None:
     with psycopg.connect(db_url, connect_timeout=10) as conn:
         with conn.cursor() as cur:
             cur.execute(
-                "UPDATE games SET cover_url = %s WHERE id = %s",
+                "UPDATE ps5_games SET cover_url = %s WHERE id = %s",
                 (s3_url, game_id),
             )
         conn.commit()
@@ -119,7 +143,7 @@ def bulk_update_cover_urls(db_url: str, updates: list[tuple[str, int]]) -> None:
     with psycopg.connect(db_url, connect_timeout=10) as conn:
         with conn.cursor() as cur:
             cur.executemany(
-                "UPDATE games SET cover_url = %s WHERE id = %s", updates
+                "UPDATE ps5_games SET cover_url = %s WHERE id = %s", updates
             )
         conn.commit()
 
@@ -148,8 +172,8 @@ def main() -> None:
     s3 = make_s3(endpoint, access_key, secret_key)
     base_url = f"{endpoint}/{bucket}"
 
-    print("Fetching games with IGDB cover URLs from DB …", file=sys.stderr)
-    games = fetch_igdb_games(db_url)
+    print("Fetching games with remote cover URLs from DB …", file=sys.stderr)
+    games = fetch_remote_cover_games(db_url)
     if args.limit:
         games = games[: args.limit]
     total = len(games)
@@ -197,7 +221,9 @@ def main() -> None:
                 if local.exists() and local.stat().st_size > 0:
                     data = local.read_bytes()
                 else:
-                    data = download(session, igdb_url)
+                    data = download(session, igdb_webp_url(igdb_url))
+                    if data:
+                        data = to_webp(data)
                     if data:
                         local.write_bytes(data)
             else:

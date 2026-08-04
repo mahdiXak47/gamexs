@@ -25,14 +25,6 @@ function ChevronRight({ size = 18 }: { size?: number }) {
   );
 }
 
-function ExpandIcon() {
-  return (
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-      <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-    </svg>
-  );
-}
-
 function CloseIcon() {
   return (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
@@ -229,7 +221,7 @@ function Lightbox({
 }
 
 // ---------------------------------------------------------------------------
-// Carousel — full-viewport-width 3-panel grid
+// Screenshot strip — PlayStation Store-style 4-up gallery
 // ---------------------------------------------------------------------------
 export default function ScreenshotGallery({ screenshots }: { screenshots: string[] }) {
   const [current, setCurrent] = useState(0);
@@ -237,10 +229,7 @@ export default function ScreenshotGallery({ screenshots }: { screenshots: string
   const total = screenshots.length;
   const touchX = useRef<number | null>(null);
 
-  const go = useCallback(
-    (dir: number) => setCurrent((c) => mod(c + dir, total)),
-    [total]
-  );
+  const go = useCallback((dir: number) => setCurrent((c) => mod(c + dir, total)), [total]);
 
   useEffect(() => {
     if (lightboxOpen) return;
@@ -254,14 +243,17 @@ export default function ScreenshotGallery({ screenshots }: { screenshots: string
 
   if (total === 0) return null;
 
-  const prev = mod(current - 1, total);
-  const next = mod(current + 1, total);
+  const maxStart = Math.max(0, total - 4);
+  const windowStart = Math.min(current, maxStart);
+  const visibleScreenshots = screenshots
+    .map((src, index) => ({ src, index }))
+    .slice(windowStart, windowStart + 4);
 
   return (
     <>
       <section
         aria-label="تصاویر بازی"
-        className="mt-10"
+        className="mt-10 py-10"
         dir="ltr"
         onTouchStart={(e) => { touchX.current = e.touches[0].clientX; }}
         onTouchEnd={(e) => {
@@ -276,100 +268,77 @@ export default function ScreenshotGallery({ screenshots }: { screenshots: string
           <h2 className="text-lg font-bold text-gray-900">تصاویر بازی</h2>
         </div>
 
-        {/*
-          3-panel grid: side cards get 1fr each (≈20%), center gets 3fr (≈60%).
-          All cards use aspect-video so every panel is properly landscape 16:9.
-          items-center vertically centers the shorter side cards alongside center.
-        */}
-        <div
-          className="grid items-center"
-          style={{ gridTemplateColumns: "1.5fr 2.5fr 1.5fr", gap: "10px", padding: "0 10px" }}
-          aria-roledescription="carousel"
-        >
-          {/* Left — previous screenshot */}
-          <button
-            className="relative aspect-video overflow-hidden rounded-xl group opacity-80 hover:opacity-100 transition-opacity duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue"
-            onClick={() => go(-1)}
-            aria-label="تصویر قبلی"
-          >
-            <Image
-              src={screenshots[prev]}
-              alt={`تصویر ${prev + 1}`}
-              fill
-              className="object-cover"
-              sizes="20vw"
-            />
-            <div className="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors duration-200" />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-10 h-10 rounded-full bg-white/85 backdrop-blur-sm shadow-md flex items-center justify-center text-gray-700">
-                <ChevronLeft size={20} />
-              </div>
-            </div>
-          </button>
-
-          {/* Center — current screenshot */}
-          <button
-            className="relative aspect-video overflow-hidden rounded-xl group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue"
-            onClick={() => setLightboxOpen(true)}
-            aria-label={`تصویر ${current + 1} — برای نمایش تمام‌صفحه کلیک کنید`}
-          >
-            <Image
-              src={screenshots[current]}
-              alt={`تصویر ${current + 1} (انتخاب شده)`}
-              fill
-              className="object-cover"
-              sizes="60vw"
-              priority
-            />
-            <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
-              <div className="bg-black/50 rounded-full p-3 text-white backdrop-blur-sm">
-                <ExpandIcon />
-              </div>
-            </div>
-          </button>
-
-          {/* Right — next screenshot */}
-          <button
-            className="relative aspect-video overflow-hidden rounded-xl group opacity-80 hover:opacity-100 transition-opacity duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue"
-            onClick={() => go(1)}
-            aria-label="تصویر بعدی"
-          >
-            <Image
-              src={screenshots[next]}
-              alt={`تصویر ${next + 1}`}
-              fill
-              className="object-cover"
-              sizes="20vw"
-            />
-            <div className="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors duration-200" />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-10 h-10 rounded-full bg-white/85 backdrop-blur-sm shadow-md flex items-center justify-center text-gray-700">
-                <ChevronRight size={20} />
-              </div>
-            </div>
-          </button>
-        </div>
-
-        {/* Dot indicators */}
-        {total > 1 && (
-          <div className="flex justify-center gap-1 mt-4" role="tablist" aria-label="انتخاب تصویر">
-            {screenshots.map((_, i) => (
+        <div className="group/gallery relative max-w-6xl mx-auto px-4 sm:px-6" aria-roledescription="carousel">
+          <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
+            {visibleScreenshots.map(({ src, index }) => (
               <button
-                key={i}
-                role="tab"
-                aria-selected={i === current}
-                aria-label={`تصویر ${i + 1}`}
-                onClick={() => setCurrent(i)}
-                className="flex items-center justify-center w-11 h-5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue focus-visible:ring-offset-2 rounded"
+                key={`${src}-${index}`}
+                className="group relative aspect-video overflow-hidden rounded-md bg-white/5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
+                onClick={() => {
+                  setCurrent(index);
+                  setLightboxOpen(true);
+                }}
+                aria-label={`تصویر ${index + 1} — برای نمایش بزرگ‌تر کلیک کنید`}
               >
+                <Image
+                  src={src}
+                  alt={`تصویر ${index + 1}`}
+                  fill
+                  className="object-cover transition-transform duration-200 ease-out group-hover:scale-[1.04]"
+                  sizes="(max-width: 768px) 50vw, 25vw"
+                  priority={index === current}
+                />
                 <span
-                  className={`block rounded-full transition-all duration-300 ${
-                    i === current
-                      ? "w-5 h-1.5 bg-ps-blue"
-                      : "w-1.5 h-1.5 bg-gray-300 hover:bg-gray-500"
+                  className={`absolute inset-x-0 bottom-0 h-0.5 transition-colors duration-200 ${
+                    index === current ? "bg-ps-blue" : "bg-transparent"
                   }`}
                 />
               </button>
+            ))}
+          </div>
+
+          {total > 1 && (
+            <>
+              <button
+                type="button"
+                onClick={() => go(-1)}
+                className="absolute left-4 top-1/2 z-10 flex h-11 w-11 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white/95 text-gray-800 shadow-lg opacity-100 transition-opacity duration-200 hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue sm:left-6 md:opacity-0 md:group-hover/gallery:opacity-100"
+                aria-label="تصویر قبلی"
+              >
+                <ChevronLeft size={20} />
+              </button>
+              <button
+                type="button"
+                onClick={() => go(1)}
+                className="absolute right-4 top-1/2 z-10 flex h-11 w-11 translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white/95 text-gray-800 shadow-lg opacity-100 transition-opacity duration-200 hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue sm:right-6 md:opacity-0 md:group-hover/gallery:opacity-100"
+                aria-label="تصویر بعدی"
+              >
+                <ChevronRight size={20} />
+              </button>
+            </>
+          )}
+        </div>
+
+        {total > 1 && (
+          <div
+            className="mx-auto mt-4 flex max-w-xs justify-center gap-1.5 px-4 sm:max-w-sm"
+            role="status"
+            aria-label={`تصویر ${current + 1} از ${total}`}
+          >
+            {screenshots.map((_, i) => (
+              <span
+                key={i}
+                aria-label={`تصویر ${i + 1}`}
+                className="flex h-5 flex-1 items-center"
+              >
+                <span
+                  className={`block h-[4px] w-full rounded-full transition-colors duration-200 ${
+                    i === current
+                      ? "bg-ps-blue"
+                      : "bg-gray-300"
+                  }`}
+                />
+              </span>
             ))}
           </div>
         )}

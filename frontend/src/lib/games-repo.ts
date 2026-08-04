@@ -35,6 +35,30 @@ function deriveInitial(title: string): string {
   return letters.join("") || "?";
 }
 
+function slugLookupCandidates(slug: string): string[] {
+  const decoded = (() => {
+    try {
+      return decodeURIComponent(slug);
+    } catch {
+      return slug;
+    }
+  })();
+  const normalized = Array.from(new Set([
+    slug,
+    decoded,
+    slug.normalize("NFC"),
+    decoded.normalize("NFC"),
+    slug.normalize("NFD"),
+    decoded.normalize("NFD"),
+  ]));
+
+  return Array.from(new Set(normalized.flatMap((candidate) => [
+    candidate,
+    candidate.replace(/-/g, "_"),
+    candidate.replace(/_/g, "-"),
+  ])));
+}
+
 // Words that mark a title as "an edition of" some base game rather than a
 // distinct title — mirrors scraper/gamexs_scraper/enrich_metadata.py's
 // _EDITION_RE keyword list. Used to detect other purchasable editions of the
@@ -496,6 +520,7 @@ export async function getGameVersions(
 // Wrapped in React's per-request cache so generateMetadata and the page
 // component (both calling this for the same slug) share one DB round-trip.
 export const getGameBySlug = cache(async function getGameBySlug(slug: string): Promise<Game | null> {
+  const slugCandidates = slugLookupCandidates(slug);
   const { rows: gameRows } = await query<{
     id: number;
     slug: string;
@@ -509,7 +534,16 @@ export const getGameBySlug = cache(async function getGameBySlug(slug: string): P
     cover_url: string | null;
     key_art_url: string | null;
     screenshot_ids: string[] | null;
-  }>(`SELECT id, slug, title, genre_label, genres, developers, publisher, release_year, release_date, cover_url, key_art_url, screenshot_ids FROM ps5_games WHERE slug = $1`, [slug]);
+  }>(
+    `
+    SELECT id, slug, title, genre_label, genres, developers, publisher, release_year, release_date, cover_url, key_art_url, screenshot_ids
+    FROM ps5_games
+    WHERE slug = ANY($1::text[])
+    ORDER BY array_position($1::text[], slug)
+    LIMIT 1
+    `,
+    [slugCandidates]
+  );
 
   const game = gameRows[0];
   if (!game) return null;
