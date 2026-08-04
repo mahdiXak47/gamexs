@@ -10,6 +10,13 @@ const quickLinks = [
   { label: "اکانت ظرفیت ۲", href: "/capacity-2" },
 ]
 
+const trustLinks = [
+  { label: "درباره ما", href: "/about" },
+  { label: "تماس با ما", href: "/contact" },
+  { label: "حریم خصوصی", href: "/privacy" },
+  { label: "شرایط استفاده", href: "/terms" },
+]
+
 export default function Footer() {
   return (
     <footer
@@ -18,7 +25,7 @@ export default function Footer() {
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 pt-12 pb-8">
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-4 gap-10">
 
           {/* Branding */}
           <div className="flex flex-col gap-4">
@@ -34,6 +41,22 @@ export default function Footer() {
             <h3 className="text-white font-bold text-sm mb-4">دسترسی سریع</h3>
             <ul className="flex flex-col gap-2.5">
               {quickLinks.map((item) => (
+                <li key={item.label}>
+                  <Link
+                    href={item.href}
+                    className="text-blue-200 hover:text-white text-sm transition-colors"
+                  >
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-white font-bold text-sm mb-4">اعتماد و اطلاعات</h3>
+            <ul className="flex flex-col gap-2.5">
+              {trustLinks.map((item) => (
                 <li key={item.label}>
                   <Link
                     href={item.href}

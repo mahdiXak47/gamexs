@@ -30,6 +30,12 @@
 - [x] Remove or replace `#` placeholder links in header navigation.
 - [x] Remove or replace `#` placeholder links in footer quick links/social links.
 
+## Priority 5 — Trust and E-E-A-T Signals
+
+- [x] Add indexable About, Contact, Privacy, and Terms pages.
+- [x] Link trust pages from the footer.
+- [x] Add trust pages to the XML sitemap.
+
 ## Validation
 
 - [x] Run lint. Fails on pre-existing React Compiler lint issues outside this SEO change set; see implementation notes.

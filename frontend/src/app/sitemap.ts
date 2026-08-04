@@ -4,6 +4,7 @@ import { GENRES } from "@/lib/genres";
 import { TIER_SLUG } from "@/lib/ps-plus-repo";
 import { PURCHASE_TYPE_PAGES } from "@/lib/purchase-type-pages";
 import { SITE_URL } from "@/lib/seo";
+import { TRUST_PAGES } from "@/lib/trust-pages";
 
 // force-dynamic (not revalidate/ISR) — every DB-backed route in this app is
 // force-dynamic because the Docker build only sets a placeholder
@@ -54,6 +55,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.75,
   }));
 
+  const trustRoutes: MetadataRoute.Sitemap = TRUST_PAGES.map((page) => ({
+    url: `${SITE_URL}${page.path}`,
+    lastModified,
+    changeFrequency: "monthly",
+    priority: 0.4,
+  }));
+
   const gameRoutes: MetadataRoute.Sitemap = games.map((game) => ({
     url: `${SITE_URL}/games/${game.slug}`,
     lastModified,
@@ -67,6 +75,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...psPlusRoutes,
     ...publisherSitemapRoutes,
     ...purchaseTypeRoutes,
+    ...trustRoutes,
     ...gameRoutes,
   ];
 }
