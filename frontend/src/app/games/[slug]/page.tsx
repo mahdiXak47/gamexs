@@ -17,7 +17,7 @@ import WishlistButton from "@/components/WishlistButton";
 import { formatToman, toPersianDigits } from "@/lib/format";
 import { genreForGame } from "@/lib/genres";
 import { getGameBySlug, getGameStoreInfo, getSimilarGames, getSimilarGamesByDeveloper, getGameVersions } from "@/lib/games-repo";
-import { lowestPrice, lowestValidPrice, storeCount } from "@/lib/purchase-options";
+import { lowestAvailableOffer, lowestValidPrice, storeCount } from "@/lib/purchase-options";
 import { faqPageJsonLd, gamePurchaseFaqs, SITE_URL, tomanToRial } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
@@ -74,7 +74,8 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
     getSimilarGamesByDeveloper(game.dbId, game.developers),
   ]);
 
-  const price  = lowestPrice(game);
+  const lowestOffer = lowestAvailableOffer(game);
+  const price  = lowestOffer?.priceToman ?? null;
   const stores = storeCount(game);
   const d      = game.details;
   // Screenshots are landscape S3 images — much better quality for a wide hero
@@ -176,7 +177,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
       <main className="flex-1">
 
         {/* ── Hero section — exactly one viewport tall ── */}
-        <div className="relative overflow-hidden h-[calc(100dvh-60px)]">
+        <div className="relative min-h-[calc(100dvh-60px)] overflow-visible md:h-[calc(100dvh-60px)] md:overflow-hidden">
 
           {/* Background image — key art preferred, cover as fallback */}
           {hasArt && (
@@ -226,7 +227,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
                 </div>
 
                 {/* Title + price card — same row, top-aligned */}
-                <div className="mt-3 flex items-start gap-4">
+                <div className="mt-3 flex flex-col items-stretch gap-4 sm:flex-row sm:items-start">
                   <h1 dir="auto" className={`flex-1 text-right text-3xl font-extrabold leading-tight sm:text-4xl ${
                     hasArt ? "text-white" : ""
                   }`}>
@@ -234,7 +235,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
                   </h1>
 
                   {price !== null && (
-                    <div className={`shrink-0 rounded-2xl px-4 py-3 text-start ${
+                    <div className={`w-full rounded-2xl px-4 py-3 text-start sm:w-auto sm:shrink-0 ${
                       hasArt
                         ? "border border-white/20 bg-white/10 backdrop-blur-sm"
                         : "border border-success/30 bg-success/10"
@@ -253,7 +254,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
                         </span>
                       </div>
                       <p className={`mt-0.5 text-xs ${hasArt ? "text-white/60" : "text-muted"}`}>
-                        در {toPersianDigits(stores)} فروشگاه
+                        {lowestOffer ? `به شکل ${lowestOffer.purchaseLabel}` : `در ${toPersianDigits(stores)} فروشگاه`}
                       </p>
                     </div>
                   )}

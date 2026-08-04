@@ -15,7 +15,7 @@ export async function GET(request: NextRequest) {
   }>(
     `
     WITH latest AS (
-      SELECT DISTINCT ON (listing_id) listing_id, price_toman
+      SELECT DISTINCT ON (listing_id) listing_id, price_toman, in_stock
       FROM price_history ORDER BY listing_id, scraped_at DESC
     )
     SELECT
@@ -23,7 +23,7 @@ export async function GET(request: NextRequest) {
       g.title,
       g.cover_url,
       g.genre_label,
-      MIN(latest.price_toman) AS lowest_price
+      MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price
     FROM ps5_games g
     LEFT JOIN listings l ON l.game_id = g.id AND l.is_active
     LEFT JOIN latest ON latest.listing_id = l.id

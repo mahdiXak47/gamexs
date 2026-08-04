@@ -8,15 +8,32 @@ import { formatToman } from "@/lib/format";
 import type { GameSummary } from "@/lib/types";
 
 function useReducedMotion() {
-  const [reduced, setReduced] = useState(false);
+  const [reduced, setReduced] = useState(
+    () => typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches
+  );
   useEffect(() => {
     const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
-    setReduced(mq.matches);
     const handler = () => setReduced(mq.matches);
     mq.addEventListener("change", handler);
     return () => mq.removeEventListener("change", handler);
   }, []);
   return reduced;
+}
+
+function ChevronLeft({ size = 20 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+      <path d="M15 18l-6-6 6-6" />
+    </svg>
+  );
+}
+
+function ChevronRight({ size = 20 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+      <path d="M9 18l6-6-6-6" />
+    </svg>
+  );
 }
 
 export default function HeroBanner({ games }: { games: GameSummary[] }) {
@@ -60,7 +77,6 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
     <>
     <section
       className="relative overflow-hidden"
-      style={{ minHeight: "70vh" }}
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
       onTouchStart={() => setPaused(true)}
@@ -88,7 +104,7 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
       </div>
 
       {/* Two-column layout — dir="ltr" so left/right are always physical */}
-      <div className="relative z-10 flex min-h-[70vh]" dir="ltr">
+      <div className="relative z-10 flex min-h-[62svh] sm:min-h-[70vh]" dir="ltr">
 
         {/* LEFT: Large cover art filling the left column */}
         <div className="hidden md:block relative w-[42%] shrink-0" aria-hidden>
@@ -114,7 +130,7 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
         {/* RIGHT: Game info — crossfade on slide change via key */}
         <div
           key={current}
-          className="flex-1 flex flex-col justify-end pb-20 px-8 md:px-12 lg:px-16 hero-content-enter"
+          className="flex-1 flex flex-col justify-end px-5 pb-14 sm:px-8 sm:pb-20 md:px-12 lg:px-16 hero-content-enter"
           dir="rtl"
           aria-live="polite"
           aria-atomic="true"
@@ -126,18 +142,25 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
                 <Chip size="sm" className="bg-white/25 text-white border-0 text-xs">{game.genreLabel}</Chip>
               )}
             </div>
-            <h2 dir="auto" className="text-right text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-3 drop-shadow-lg">
+            <h2 dir="auto" className="text-right text-2xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-3 drop-shadow-lg">
               {game.title}
             </h2>
             {game.publisher && (
               <p className="text-blue-200 text-sm mb-5">{game.publisher}</p>
             )}
             {game.lowestPriceToman !== null && (
-              <p className="mb-6 flex items-baseline gap-1.5 flex-wrap">
-                <span className="text-blue-200 text-sm">از</span>
-                <span className="price-figure font-extrabold text-2xl">{formatToman(game.lowestPriceToman)}</span>
-                <span className="text-blue-200 text-sm">تومان</span>
-              </p>
+              <div className="mb-6">
+                <p className="flex items-baseline gap-1.5 flex-wrap">
+                  <span className="text-blue-200 text-sm">از</span>
+                  <span className="price-figure font-extrabold text-2xl">{formatToman(game.lowestPriceToman)}</span>
+                  <span className="text-blue-200 text-sm">تومان</span>
+                </p>
+                {game.lowestPriceLabel && (
+                  <p className="mt-1 text-xs font-medium text-blue-100">
+                    به شکل {game.lowestPriceLabel}
+                  </p>
+                )}
+              </div>
             )}
             <Link
               href={`/games/${game.slug}`}
@@ -149,16 +172,36 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
         </div>
       </div>
 
-      {/* Segmented bar indicator + prev/next click zones */}
+      {/* Mobile-visible controls */}
+      {games.length > 1 && (
+        <div className="absolute inset-x-4 top-1/2 z-20 flex -translate-y-1/2 justify-between md:hidden" dir="ltr">
+          <button
+            onClick={handlePrev}
+            aria-label="بازی قبلی"
+            className="flex h-10 w-10 items-center justify-center rounded-full bg-white/90 text-gray-800 shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+          >
+            <ChevronLeft />
+          </button>
+          <button
+            onClick={handleNext}
+            aria-label="بازی بعدی"
+            className="flex h-10 w-10 items-center justify-center rounded-full bg-white/90 text-gray-800 shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+          >
+            <ChevronRight />
+          </button>
+        </div>
+      )}
+
+      {/* Segmented bar indicator + desktop prev/next click zones */}
       <button
         onClick={handlePrev}
         aria-label="بازی قبلی"
-        className="cursor-pointer absolute right-0 top-0 bottom-0 w-16 z-20 focus-visible:outline-none"
+        className="absolute right-0 top-0 bottom-0 z-20 hidden w-16 cursor-pointer focus-visible:outline-none md:block"
       />
       <button
         onClick={handleNext}
         aria-label="بازی بعدی"
-        className="cursor-pointer absolute left-0 top-0 bottom-0 w-16 z-20 focus-visible:outline-none"
+        className="absolute left-0 top-0 bottom-0 z-20 hidden w-16 cursor-pointer focus-visible:outline-none md:block"
       />
 
     </section>

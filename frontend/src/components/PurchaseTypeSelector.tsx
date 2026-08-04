@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Alert, Avatar, Card, Chip, Table } from "@heroui/react";
+import { useToast } from "@/context/ToastContext";
 import { formatToman, toPersianDigits } from "@/lib/format";
 import { bestOfferId, lowestPriceForOption } from "@/lib/purchase-options";
 import type { PurchaseOption } from "@/lib/types";
@@ -9,6 +10,7 @@ import type { PurchaseOption } from "@/lib/types";
 export default function PurchaseTypeSelector({ options }: { options: PurchaseOption[] }) {
   const defaultIndex = Math.max(0, options.findIndex((o) => o.offers.length > 0));
   const [selected, setSelected] = useState(defaultIndex);
+  const [openDescription, setOpenDescription] = useState<string | null>(null);
   const option = options[selected];
 
   return (
@@ -23,12 +25,14 @@ export default function PurchaseTypeSelector({ options }: { options: PurchaseOpt
           const price = lowestPriceForOption(opt);
           const stores = new Set(opt.offers.map((o) => o.sellerId)).size;
           const active = i === selected;
+          const key = `${opt.type}-${opt.tier ?? "x"}`;
+          const descriptionOpen = openDescription === key;
           return (
             <Card
-              key={`${opt.type}-${opt.tier ?? "x"}`}
+              key={key}
               role="button"
               tabIndex={0}
-              onClick={() => setSelected(i)}
+              onClick={() => { setSelected(i); setOpenDescription(null); }}
               onKeyDown={(e: React.KeyboardEvent) => e.key === "Enter" && setSelected(i)}
               className={`cursor-pointer p-4 text-right transition-colors overflow-visible ${
                 active ? "border-2 border-warning" : "hover:border-accent"
@@ -41,15 +45,21 @@ export default function PurchaseTypeSelector({ options }: { options: PurchaseOpt
                 <div className="group relative shrink-0 mt-0.5">
                   <button
                     type="button"
-                    onClick={(e) => e.stopPropagation()}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setOpenDescription((current) => current === key ? null : key);
+                    }}
                     className="flex h-[18px] w-[18px] cursor-help items-center justify-center rounded-full bg-gray-200 text-[10px] font-bold text-gray-500 transition-colors hover:bg-gray-300 focus-visible:outline-none"
+                    aria-expanded={descriptionOpen}
                     aria-label={`توضیح: ${opt.label}`}
                   >
                     ؟
 </button>
                   {/* Tooltip panel */}
                   <div
-                    className="pointer-events-none absolute bottom-full left-1/2 z-50 mb-2 w-56 -translate-x-1/2 rounded-xl bg-gray-900/95 p-3 text-right text-xs leading-relaxed text-white opacity-0 shadow-xl backdrop-blur-sm transition-opacity duration-150 group-hover:opacity-100"
+                    className={`pointer-events-none absolute bottom-full left-1/2 z-50 mb-2 w-56 -translate-x-1/2 rounded-xl bg-gray-900/95 p-3 text-right text-xs leading-relaxed text-white shadow-xl backdrop-blur-sm transition-opacity duration-150 group-hover:opacity-100 ${
+                      descriptionOpen ? "opacity-100" : "opacity-0"
+                    }`}
                     dir="rtl"
                   >
                     {opt.description}
@@ -91,6 +101,7 @@ export default function PurchaseTypeSelector({ options }: { options: PurchaseOpt
 }
 
 function SellerTable({ option }: { option: PurchaseOption }) {
+  const toast = useToast();
   const best = bestOfferId(option);
   const sortedOffers = [...option.offers].sort((a, b) => {
     if (a.inStock !== b.inStock) return a.inStock ? -1 : 1;
@@ -156,6 +167,7 @@ function SellerTable({ option }: { option: PurchaseOption }) {
                         href={offer.listingUrl}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={() => toast.info("در حال انتقال به فروشگاه", offer.sellerName)}
                         className="inline-flex items-center justify-center rounded-3xl bg-accent px-3 py-1.5 text-xs font-bold text-accent-foreground"
                       >
                         خرید از فروشگاه

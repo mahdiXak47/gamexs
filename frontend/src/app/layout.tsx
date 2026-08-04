@@ -3,6 +3,7 @@ import { Vazirmatn } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import { AuthProvider } from "@/context/AuthContext";
+import { ToastProvider } from "@/context/ToastContext";
 import AuthModal from "@/components/AuthModal";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
@@ -92,11 +93,13 @@ export default function RootLayout({
         <JsonLd data={organizationJsonLd} />
         <JsonLd data={websiteJsonLd} />
         <a href="#main-content" className="skip-link">رفتن به محتوای اصلی</a>
-        <AuthProvider>
-          <AuthModal />
-          {children}
-          <Footer />
-        </AuthProvider>
+        <ToastProvider>
+          <AuthProvider>
+            <AuthModal />
+            {children}
+            <Footer />
+          </AuthProvider>
+        </ToastProvider>
         <Script
           id="goftino-widget"
           strategy="afterInteractive"

@@ -10,15 +10,32 @@ import type { UpcomingGame } from "@/lib/types";
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
 function useReducedMotion() {
-  const [reduced, setReduced] = useState(false);
+  const [reduced, setReduced] = useState(
+    () => typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches
+  );
   useEffect(() => {
     const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
-    setReduced(mq.matches);
     const handler = () => setReduced(mq.matches);
     mq.addEventListener("change", handler);
     return () => mq.removeEventListener("change", handler);
   }, []);
   return reduced;
+}
+
+function ChevronLeft({ size = 20 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+      <path d="M15 18l-6-6 6-6" />
+    </svg>
+  );
+}
+
+function ChevronRight({ size = 20 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+      <path d="M9 18l6-6-6-6" />
+    </svg>
+  );
 }
 
 function formatPersianDate(isoDate: string): string {
@@ -39,6 +56,28 @@ function computeRemaining(isoDate: string) {
   };
 }
 
+function CountdownUnit({ value, label }: { value: number; label: string }) {
+  const padded = String(value).padStart(2, "0");
+  return (
+    <div className="flex flex-col items-center gap-1.5">
+      <div className="flex gap-1" dir="ltr">
+        {padded.split("").map((d, i) => (
+          <span
+            key={i}
+            className="w-10 h-12 sm:w-12 sm:h-14 flex items-center justify-center rounded-lg text-2xl sm:text-3xl font-bold tabular-nums text-white"
+            style={{ background: "rgba(0,0,0,0.45)", backdropFilter: "blur(6px)" }}
+          >
+            {toPersianDigits(d)}
+          </span>
+        ))}
+      </div>
+      <span className="text-[11px] font-medium tracking-widest text-white/55 uppercase">
+        {label}
+      </span>
+    </div>
+  );
+}
+
 // ── Countdown (inline, no separate import needed) ────────────────────────────
 
 function HeroCountdown({ releaseDate }: { releaseDate: string }) {
@@ -50,35 +89,13 @@ function HeroCountdown({ releaseDate }: { releaseDate: string }) {
 
   const { days, hours, minutes } = computeRemaining(releaseDate);
 
-  function Unit({ value, label }: { value: number; label: string }) {
-    const padded = String(value).padStart(2, "0");
-    return (
-      <div className="flex flex-col items-center gap-1.5">
-        <div className="flex gap-1" dir="ltr">
-          {padded.split("").map((d, i) => (
-            <span
-              key={i}
-              className="w-10 h-12 sm:w-12 sm:h-14 flex items-center justify-center rounded-lg text-2xl sm:text-3xl font-bold tabular-nums text-white"
-              style={{ background: "rgba(0,0,0,0.45)", backdropFilter: "blur(6px)" }}
-            >
-              {toPersianDigits(d)}
-            </span>
-          ))}
-        </div>
-        <span className="text-[11px] font-medium tracking-widest text-white/55 uppercase">
-          {label}
-        </span>
-      </div>
-    );
-  }
-
   return (
     <div className="flex items-end gap-3 sm:gap-4" dir="ltr">
-      <Unit value={days} label="روز" />
+      <CountdownUnit value={days} label="روز" />
       <span className="text-3xl font-light text-white/30 mb-4 leading-none">|</span>
-      <Unit value={hours} label="ساعت" />
+      <CountdownUnit value={hours} label="ساعت" />
       <span className="text-3xl font-light text-white/30 mb-4 leading-none">|</span>
-      <Unit value={minutes} label="دقیقه" />
+      <CountdownUnit value={minutes} label="دقیقه" />
     </div>
   );
 }
@@ -112,7 +129,6 @@ export default function UpcomingHeroBanner({ games }: { games: UpcomingGame[] })
     <>
     <section
       className="relative overflow-hidden"
-      style={{ minHeight: "72vh" }}
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
       onTouchStart={() => setPaused(true)}
@@ -139,7 +155,7 @@ export default function UpcomingHeroBanner({ games }: { games: UpcomingGame[] })
       </div>
 
       {/* Two-column layout */}
-      <div className="relative z-10 flex min-h-[72vh]" dir="ltr">
+      <div className="relative z-10 flex min-h-[64svh] sm:min-h-[72vh]" dir="ltr">
 
         {/* LEFT: Main cover image (portrait box art, not key art / screenshot) */}
         <div className="hidden md:block relative w-[42%] shrink-0" aria-hidden>
@@ -163,7 +179,7 @@ export default function UpcomingHeroBanner({ games }: { games: UpcomingGame[] })
         {/* RIGHT: Info panel — crossfades on slide change */}
         <div
           key={current}
-          className="flex-1 flex flex-col justify-end pb-24 px-8 md:px-12 lg:px-16 hero-content-enter"
+          className="flex-1 flex flex-col justify-end px-5 pb-14 sm:px-8 sm:pb-24 md:px-12 lg:px-16 hero-content-enter"
           dir="rtl"
           aria-live="polite"
           aria-atomic="true"
@@ -176,7 +192,7 @@ export default function UpcomingHeroBanner({ games }: { games: UpcomingGame[] })
             </div>
 
             {/* Title */}
-            <h2 dir="auto" className="text-right text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-3 drop-shadow-lg">
+            <h2 dir="auto" className="text-right text-2xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-3 drop-shadow-lg">
               {game.title}
             </h2>
 
@@ -210,16 +226,36 @@ export default function UpcomingHeroBanner({ games }: { games: UpcomingGame[] })
         </div>
       </div>
 
-      {/* Click zones for prev/next on left/right edges */}
+      {/* Mobile-visible controls */}
+      {games.length > 1 && (
+        <div className="absolute inset-x-4 top-1/2 z-20 flex -translate-y-1/2 justify-between md:hidden" dir="ltr">
+          <button
+            onClick={() => { prev(); pause6s(); }}
+            aria-label="بازی قبلی"
+            className="flex h-10 w-10 items-center justify-center rounded-full bg-white/90 text-gray-800 shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+          >
+            <ChevronLeft />
+          </button>
+          <button
+            onClick={() => { next(); pause6s(); }}
+            aria-label="بازی بعدی"
+            className="flex h-10 w-10 items-center justify-center rounded-full bg-white/90 text-gray-800 shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+          >
+            <ChevronRight />
+          </button>
+        </div>
+      )}
+
+      {/* Desktop click zones for prev/next on left/right edges */}
       <button
         onClick={() => { prev(); pause6s(); }}
         aria-label="بازی قبلی"
-        className="cursor-pointer absolute right-0 top-0 bottom-0 w-16 z-20 focus-visible:outline-none"
+        className="absolute right-0 top-0 bottom-0 z-20 hidden w-16 cursor-pointer focus-visible:outline-none md:block"
       />
       <button
         onClick={() => { next(); pause6s(); }}
         aria-label="بازی بعدی"
-        className="cursor-pointer absolute left-0 top-0 bottom-0 w-16 z-20 focus-visible:outline-none"
+        className="absolute left-0 top-0 bottom-0 z-20 hidden w-16 cursor-pointer focus-visible:outline-none md:block"
       />
 
     </section>

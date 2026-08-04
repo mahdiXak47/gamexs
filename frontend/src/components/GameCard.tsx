@@ -44,6 +44,9 @@ export default function GameCard({ game, isBestPrice = false }: { game: GameSumm
               <span className="text-[10px] text-gray-400">تومان</span>
             </div>
             <p className="text-[10px] text-gray-400 mt-0.5">
+              {game.lowestPriceLabel && game.lowestPriceToman !== null
+                ? `به شکل ${game.lowestPriceLabel} · `
+                : ""}
               {toPersianDigits(game.storeCount)} فروشگاه · {toPersianDigits(game.purchaseTypeCount)} نوع
             </p>
           </div>

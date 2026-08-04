@@ -101,8 +101,15 @@ export default function SearchOverlay({ onClose }: { onClose: () => void }) {
           {/* Search bar — PlayStation.com style */}
           <div className="flex items-stretch overflow-hidden rounded-xl shadow-2xl ring-1 ring-white/10">
             {/* Brand label */}
-            <div className="hidden sm:flex items-center gap-2 bg-white px-5 border-l border-gray-200 shrink-0 select-none">
-              <span className="text-sm font-bold text-gray-800 whitespace-nowrap">Game<span className="text-yellow-500">XS</span></span>
+            <div className="hidden sm:flex items-center gap-2 bg-ps-blue px-5 border-l border-gray-200 shrink-0 select-none">
+              <Image
+                src="/logos/logo7.png"
+                alt="GameXS"
+                width={971}
+                height={347}
+                className="h-8 w-auto"
+                priority
+              />
             </div>
 
             {/* Input */}

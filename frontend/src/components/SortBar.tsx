@@ -16,13 +16,14 @@ const OPTIONS: { value: SortOption; label: string }[] = [
 
 export default function SortBar({ value, onChange }: { value: SortOption; onChange: (v: SortOption) => void }) {
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="hide-scrollbar -mx-4 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0">
       {OPTIONS.map((option) => (
         <Button
           key={option.value}
           variant={value === option.value ? "secondary" : "ghost"}
           size="sm"
           onPress={() => onChange(option.value)}
+          className="shrink-0"
         >
           {option.label}
         </Button>

@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { InputOTP, Spinner, REGEXP_ONLY_DIGITS } from '@heroui/react'
 import { useAuth } from '@/context/AuthContext'
+import { useToast } from '@/context/ToastContext'
 import { api, extractApiError } from '@/lib/api'
 
 type Screen = 'tabs' | 'otp' | 'profile'
@@ -126,6 +127,7 @@ function PSLogoIcon() {
 
 export default function AuthModal() {
   const { authModalOpen, closeAuthModal, setTokens, refreshUser } = useAuth()
+  const toast = useToast()
 
   // Animation states
   const [shouldRender, setShouldRender] = useState(false)
@@ -176,16 +178,26 @@ export default function AuthModal() {
 
   // Entrance / exit animation + scroll lock
   useEffect(() => {
+    let frame: number | undefined
+    let timer: number | undefined
+    let unmountTimer: number | undefined
+
     if (authModalOpen) {
-      setShouldRender(true)
       document.body.style.overflow = 'hidden'
-      const id = requestAnimationFrame(() => setVisible(true))
-      return () => cancelAnimationFrame(id)
+      timer = window.setTimeout(() => {
+        setShouldRender(true)
+        frame = requestAnimationFrame(() => setVisible(true))
+      }, 0)
     } else {
-      setVisible(false)
       document.body.style.overflow = ''
-      const t = setTimeout(() => setShouldRender(false), 200)
-      return () => clearTimeout(t)
+      timer = window.setTimeout(() => setVisible(false), 0)
+      unmountTimer = window.setTimeout(() => setShouldRender(false), 200)
+    }
+
+    return () => {
+      if (frame !== undefined) cancelAnimationFrame(frame)
+      if (timer !== undefined) window.clearTimeout(timer)
+      if (unmountTimer !== undefined) window.clearTimeout(unmountTimer)
     }
   }, [authModalOpen])
 
@@ -207,29 +219,59 @@ export default function AuthModal() {
   }, [authModalOpen, screen])
 
   async function handleLogin() {
-    if (!loginPhone || !loginPassword) { setError('شماره موبایل و رمز عبور الزامی است'); return }
+    if (!loginPhone || !loginPassword) {
+      const message = 'شماره موبایل و رمز عبور الزامی است'
+      setError(message)
+      toast.error('ورود انجام نشد', message)
+      return
+    }
     setLoading(true); setError(null)
     try {
       const res = await api.post('/api/auth/login/', { phone_number: loginPhone, password: loginPassword })
       const data = await res.json()
-      if (!res.ok) { setError(extractApiError(data)); return }
+      if (!res.ok) {
+        const message = extractApiError(data)
+        setError(message)
+        toast.error('ورود انجام نشد', message)
+        return
+      }
       setTokens(data.access, data.refresh)
       await refreshUser()
+      toast.success('وارد حساب شدید')
       handleClose()
-    } catch { setError('خطا در اتصال به سرور') }
+    } catch {
+      const message = 'خطا در اتصال به سرور'
+      setError(message)
+      toast.error('ورود انجام نشد', message)
+    }
     finally { setLoading(false) }
   }
 
   async function handleSignup() {
-    if (!signupPhone || !signupPassword) { setError('شماره موبایل و رمز عبور الزامی است'); return }
+    if (!signupPhone || !signupPassword) {
+      const message = 'شماره موبایل و رمز عبور الزامی است'
+      setError(message)
+      toast.error('ثبت نام انجام نشد', message)
+      return
+    }
     setLoading(true); setError(null)
     try {
       const res = await api.post('/api/auth/signup/', { phone_number: signupPhone, password: signupPassword })
       const data = await res.json()
-      if (!res.ok) { setError(extractApiError(data)); return }
+      if (!res.ok) {
+        const message = extractApiError(data)
+        setError(message)
+        toast.error('ثبت نام انجام نشد', message)
+        return
+      }
       setOtpToken(data.otp_token)
       setScreen('otp')
-    } catch { setError('خطا در اتصال به سرور') }
+      toast.info('کد تایید ارسال شد', 'کد پیامک‌شده را وارد کنید.')
+    } catch {
+      const message = 'خطا در اتصال به سرور'
+      setError(message)
+      toast.error('ثبت نام انجام نشد', message)
+    }
     finally { setLoading(false) }
   }
 
@@ -239,11 +281,29 @@ export default function AuthModal() {
     try {
       const res = await api.post('/api/auth/verify-otp/', { otp_token: otpToken, code })
       const data = await res.json()
-      if (!res.ok) { setError(extractApiError(data)); setOtpCode(''); otpValueRef.current = ''; return }
+      if (!res.ok) {
+        const message = extractApiError(data)
+        setError(message)
+        setOtpCode('')
+        otpValueRef.current = ''
+        toast.error('کد تایید پذیرفته نشد', message)
+        return
+      }
       setTokens(data.access, data.refresh)
-      if (data.needs_profile_completion) { setScreen('profile') }
-      else { await refreshUser(); handleClose() }
-    } catch { setError('خطا در اتصال به سرور') }
+      if (data.needs_profile_completion) {
+        setScreen('profile')
+        toast.info('حساب تایید شد', 'برای ادامه اطلاعات حساب را تکمیل کنید.')
+      }
+      else {
+        await refreshUser()
+        toast.success('حساب شما تایید شد')
+        handleClose()
+      }
+    } catch {
+      const message = 'خطا در اتصال به سرور'
+      setError(message)
+      toast.error('کد تایید پذیرفته نشد', message)
+    }
     finally { setLoading(false) }
   }
 
@@ -254,10 +314,20 @@ export default function AuthModal() {
         first_name: firstName, last_name: lastName, email: email || undefined,
       })
       const data = await res.json()
-      if (!res.ok) { setError(extractApiError(data)); return }
+      if (!res.ok) {
+        const message = extractApiError(data)
+        setError(message)
+        toast.error('پروفایل ذخیره نشد', message)
+        return
+      }
       await refreshUser()
+      toast.success('پروفایل تکمیل شد')
       handleClose()
-    } catch { setError('خطا در اتصال به سرور') }
+    } catch {
+      const message = 'خطا در اتصال به سرور'
+      setError(message)
+      toast.error('پروفایل ذخیره نشد', message)
+    }
     finally { setLoading(false) }
   }
 

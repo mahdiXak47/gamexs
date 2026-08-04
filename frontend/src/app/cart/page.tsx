@@ -1,9 +1,10 @@
 "use client"
 
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { useAuth } from '@/context/AuthContext'
+import { useToast } from '@/context/ToastContext'
 import { api, extractApiError } from '@/lib/api'
 import { formatToman, toPersianDigits } from '@/lib/format'
 import Header from '@/components/Header'
@@ -50,6 +51,7 @@ function TrashIcon() {
 
 export default function CartPage() {
   const { user, isLoading, openAuthModal } = useAuth()
+  const toast = useToast()
   const router = useRouter()
 
   const [items, setItems] = useState<CartItem[]>([])
@@ -58,13 +60,7 @@ export default function CartPage() {
   const [ordering, setOrdering] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
-  useEffect(() => {
-    if (!isLoading && !user) return
-    if (!user) return
-    fetchCart()
-  }, [user, isLoading])
-
-  async function fetchCart() {
+  const fetchCart = useCallback(async () => {
     setPageLoading(true)
     try {
       const res = await api.get('/api/cart/')
@@ -74,13 +70,29 @@ export default function CartPage() {
     } finally {
       setPageLoading(false)
     }
-  }
+  }, [])
+
+  useEffect(() => {
+    if (!isLoading && !user) return
+    if (!user) return
+    const timer = window.setTimeout(() => {
+      void fetchCart()
+    }, 0)
+    return () => window.clearTimeout(timer)
+  }, [user, isLoading, fetchCart])
 
   async function removeItem(id: number) {
     setRemovingId(id)
     try {
       const res = await api.delete(`/api/cart/items/${id}/`)
-      if (res.ok) setItems((prev) => prev.filter((i) => i.id !== id))
+      if (res.ok) {
+        setItems((prev) => prev.filter((i) => i.id !== id))
+        toast.success('از سبد خرید حذف شد')
+      } else {
+        toast.error('حذف انجام نشد', 'چند لحظه دیگر دوباره تلاش کنید.')
+      }
+    } catch {
+      toast.error('ارتباط برقرار نشد', 'اتصال خود را بررسی کنید و دوباره تلاش کنید.')
     } finally {
       setRemovingId(null)
     }
@@ -89,8 +101,15 @@ export default function CartPage() {
   async function clearCart() {
     try {
       const res = await api.delete('/api/cart/clear/')
-      if (res.ok) setItems([])
-    } catch {}
+      if (res.ok) {
+        setItems([])
+        toast.success('سبد خرید خالی شد')
+      } else {
+        toast.error('سبد خرید خالی نشد')
+      }
+    } catch {
+      toast.error('ارتباط برقرار نشد', 'اتصال خود را بررسی کنید و دوباره تلاش کنید.')
+    }
   }
 
   async function placeOrder() {
@@ -99,10 +118,18 @@ export default function CartPage() {
     try {
       const res = await api.post('/api/orders/', {})
       const data = await res.json()
-      if (!res.ok) { setError(extractApiError(data)); return }
+      if (!res.ok) {
+        const message = extractApiError(data)
+        setError(message)
+        toast.error('ثبت سفارش انجام نشد', message)
+        return
+      }
+      toast.success('سفارش ثبت شد', 'جزئیات سفارش در حساب کاربری شما قرار گرفت.')
       router.push('/account?ordered=true')
     } catch {
-      setError('خطا در ثبت سفارش. لطفا دوباره تلاش کنید.')
+      const message = 'خطا در ثبت سفارش. لطفا دوباره تلاش کنید.'
+      setError(message)
+      toast.error('ثبت سفارش انجام نشد', message)
     } finally {
       setOrdering(false)
     }

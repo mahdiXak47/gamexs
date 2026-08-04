@@ -4,6 +4,7 @@ import React, { useCallback, useEffect, useState } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { useAuth } from '@/context/AuthContext'
+import { useToast } from '@/context/ToastContext'
 import { api, extractApiError } from '@/lib/api'
 import { formatToman, toPersianDigits } from '@/lib/format'
 import Header from '@/components/Header'
@@ -293,6 +294,7 @@ function OrdersSection() {
 // ─── Section: Wishlist ───────────────────────────────────────────────────────
 
 function WishlistSection() {
+  const toast = useToast()
   const [items, setItems] = useState<WishlistItem[]>([])
   const [loading, setLoading] = useState(true)
 
@@ -303,8 +305,19 @@ function WishlistSection() {
   }, [])
 
   async function removeItem(id: number) {
-    await api.delete(`/api/wishlist/${id}/`)
-    setItems(prev => prev.filter(i => i.id !== id))
+    try {
+      const res = await api.delete(`/api/wishlist/${id}/`)
+      if (res.ok) {
+        setItems(prev => prev.filter(i => i.id !== id))
+        toast.success('از علاقه‌مندی‌ها حذف شد')
+        return
+      }
+
+      const data = await res.json()
+      toast.error('حذف انجام نشد', extractApiError(data))
+    } catch {
+      toast.error('حذف انجام نشد', 'خطا در اتصال به سرور')
+    }
   }
 
   if (loading) return (
@@ -476,6 +489,7 @@ function FeedbackMsg({ msg }: { msg: { type: 'ok' | 'err'; text: string } }) {
 
 function SecuritySection() {
   const { user, refreshUser } = useAuth()
+  const toast = useToast()
 
   const [firstName, setFirstName] = useState(user?.first_name ?? '')
   const [lastName,  setLastName]  = useState(user?.last_name  ?? '')
@@ -506,10 +520,17 @@ function SecuritySection() {
       if (res.ok) {
         await refreshUser()
         setProfileMsg({ type: 'ok', text: 'اطلاعات با موفقیت ذخیره شد.' })
+        toast.success('اطلاعات حساب ذخیره شد')
       } else {
         const d = await res.json()
-        setProfileMsg({ type: 'err', text: extractApiError(d) })
+        const message = extractApiError(d)
+        setProfileMsg({ type: 'err', text: message })
+        toast.error('ذخیره اطلاعات انجام نشد', message)
       }
+    } catch {
+      const message = 'خطا در اتصال به سرور'
+      setProfileMsg({ type: 'err', text: message })
+      toast.error('ذخیره اطلاعات انجام نشد', message)
     } finally {
       setProfileSaving(false)
     }
@@ -518,7 +539,9 @@ function SecuritySection() {
   async function changePassword(e: React.FormEvent) {
     e.preventDefault()
     if (newPass !== confirmPass) {
-      setPassMsg({ type: 'err', text: 'رمز جدید و تکرار آن یکسان نیستند.' })
+      const message = 'رمز جدید و تکرار آن یکسان نیستند.'
+      setPassMsg({ type: 'err', text: message })
+      toast.error('رمز عبور تغییر نکرد', message)
       return
     }
     setPassSaving(true)
@@ -528,10 +551,17 @@ function SecuritySection() {
       if (res.ok) {
         setOldPass(''); setNewPass(''); setConfirmPass('')
         setPassMsg({ type: 'ok', text: 'رمز عبور با موفقیت تغییر یافت.' })
+        toast.success('رمز عبور تغییر کرد')
       } else {
         const d = await res.json()
-        setPassMsg({ type: 'err', text: extractApiError(d) })
+        const message = extractApiError(d)
+        setPassMsg({ type: 'err', text: message })
+        toast.error('رمز عبور تغییر نکرد', message)
       }
+    } catch {
+      const message = 'خطا در اتصال به سرور'
+      setPassMsg({ type: 'err', text: message })
+      toast.error('رمز عبور تغییر نکرد', message)
     } finally {
       setPassSaving(false)
     }
@@ -545,10 +575,17 @@ function SecuritySection() {
       if (res.ok) {
         setForgotMode('sent')
         setForgotMsg({ type: 'ok', text: `کد تایید به شماره ${user?.phone_number} ارسال شد.` })
+        toast.info('کد بازیابی ارسال شد', 'کد پیامک‌شده را وارد کنید.')
       } else {
         const d = await res.json()
-        setForgotMsg({ type: 'err', text: extractApiError(d) })
+        const message = extractApiError(d)
+        setForgotMsg({ type: 'err', text: message })
+        toast.error('کد بازیابی ارسال نشد', message)
       }
+    } catch {
+      const message = 'خطا در اتصال به سرور'
+      setForgotMsg({ type: 'err', text: message })
+      toast.error('کد بازیابی ارسال نشد', message)
     } finally {
       setForgotSaving(false)
     }
@@ -557,7 +594,9 @@ function SecuritySection() {
   async function resetWithOtp(e: React.FormEvent) {
     e.preventDefault()
     if (forgotNew !== forgotConfirm) {
-      setForgotMsg({ type: 'err', text: 'رمز جدید و تکرار آن یکسان نیستند.' })
+      const message = 'رمز جدید و تکرار آن یکسان نیستند.'
+      setForgotMsg({ type: 'err', text: message })
+      toast.error('رمز عبور بازیابی نشد', message)
       return
     }
     setForgotSaving(true)
@@ -568,10 +607,17 @@ function SecuritySection() {
         setForgotOtp(''); setForgotNew(''); setForgotConfirm('')
         setForgotMode('idle')
         setPassMsg({ type: 'ok', text: 'رمز عبور با موفقیت بازیابی و تغییر یافت.' })
+        toast.success('رمز عبور بازیابی شد')
       } else {
         const d = await res.json()
-        setForgotMsg({ type: 'err', text: extractApiError(d) })
+        const message = extractApiError(d)
+        setForgotMsg({ type: 'err', text: message })
+        toast.error('رمز عبور بازیابی نشد', message)
       }
+    } catch {
+      const message = 'خطا در اتصال به سرور'
+      setForgotMsg({ type: 'err', text: message })
+      toast.error('رمز عبور بازیابی نشد', message)
     } finally {
       setForgotSaving(false)
     }
@@ -822,6 +868,7 @@ const SECTION_LABELS: Record<Section, string> = {
 
 export default function AccountPage() {
   const { user, isLoading, logout } = useAuth()
+  const toast = useToast()
   const router = useRouter()
   const searchParams = useSearchParams()
   const ordered = searchParams.get('ordered') === 'true'
@@ -834,8 +881,9 @@ export default function AccountPage() {
 
   const handleLogout = useCallback(async () => {
     await logout()
+    toast.info('از حساب خارج شدید')
     router.push('/')
-  }, [logout, router])
+  }, [logout, router, toast])
 
   if (isLoading || !user) {
     return (

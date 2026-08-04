@@ -70,10 +70,17 @@ export default function TopGames({ games }: { games: GameSummary[] }) {
                 <div className="p-2.5">
                   <p dir="auto" className="text-right text-xs font-bold text-gray-900 line-clamp-2 leading-snug mb-1">{game.title}</p>
                   {game.lowestPriceToman !== null ? (
-                    <p className="price-figure text-xs font-extrabold text-ps-blue">
-                      {formatToman(game.lowestPriceToman)}
-                      <span className="font-normal text-gray-400 text-[10px] mr-0.5">ت</span>
-                    </p>
+                    <>
+                      <p className="price-figure text-xs font-extrabold text-ps-blue">
+                        {formatToman(game.lowestPriceToman)}
+                        <span className="font-normal text-gray-400 text-[10px] mr-0.5">ت</span>
+                      </p>
+                      {game.lowestPriceLabel && (
+                        <p className="mt-0.5 text-[10px] font-medium text-gray-400">
+                          به شکل {game.lowestPriceLabel}
+                        </p>
+                      )}
+                    </>
                   ) : (
                     <p className="text-xs text-gray-400">—</p>
                   )}

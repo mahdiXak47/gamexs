@@ -194,6 +194,25 @@ external dependency or redirect overhead. Steps:
   `socialLinks` array). Once each account is created, swap in its real
   profile URL.
 
+## Active: Mobile responsiveness audit
+
+- ✅ Homepage and upcoming hero carousels are too tall on mobile and
+  use invisible edge click zones. Reduce mobile hero height/padding and add
+  visible mobile previous/next controls.
+- ✅ Game detail hero can clip content on small phones because the
+  hero uses fixed viewport height with `overflow-hidden`. Use auto height on
+  mobile and keep fixed-height behavior for larger breakpoints only.
+- ✅ Game detail title and lowest-price card are forced into one row
+  on mobile. Stack the price card below the title on narrow screens.
+- ✅ Purchase type explanation tooltip is hover-only. Make the `؟`
+  control tap-toggleable on touch devices while preserving hover behavior on
+  desktop.
+- ✅ Screenshot gallery previous/next buttons straddle the image row
+  on the smallest screens and may create horizontal overflow. Keep them inside
+  the row on mobile, then straddle edges from `sm:` upward.
+- ✅ Sort/filter controls take too much vertical space on mobile.
+  Make sort controls horizontally scrollable on narrow screens.
+
 ## Active: Django REST backend
 
 The backend scaffold is complete and running (`backend/`). Remaining tasks:

@@ -111,6 +111,43 @@ body {
   }
 }
 
+@keyframes toast-slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.toast-item {
+  animation: toast-slide-in 180ms ease-out both;
+}
+
+@keyframes toast-progress-rtl {
+  from {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(0);
+  }
+}
+
+.toast-progress {
+  transform-origin: left center;
+  animation: toast-progress-rtl 5s linear forwards;
+  box-shadow: 0 -1px 8px currentColor;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .toast-item,
+  .toast-progress {
+    animation: none;
+  }
+}
+
 /* Hide scrollbar utility (cross-browser) */
 .hide-scrollbar {
   scrollbar-width: none;

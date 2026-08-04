@@ -564,7 +564,7 @@ const UPCOMING_QUERY = `
     g.cover_url,
     g.key_art_url,
     g.release_date,
-    MIN(latest.price_toman) AS lowest_price,
+    MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
     COUNT(DISTINCT l.seller_id) AS seller_count
   FROM ps5_games g
   JOIN listings l ON l.game_id = g.id AND l.is_active
@@ -613,7 +613,7 @@ export async function getFeaturedUpcomingGames(slugs: string[]): Promise<Upcomin
     )
     SELECT
       g.slug, g.title, g.cover_url, g.key_art_url, g.release_date,
-      MIN(latest.price_toman) AS lowest_price,
+      MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
       COUNT(DISTINCT l.seller_id) AS seller_count,
       w.ord AS slug_order
     FROM ps5_games g

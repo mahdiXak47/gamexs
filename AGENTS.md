@@ -20,6 +20,11 @@ Monorepo with four packages:
 
 The scraper writes to the DB, the frontend reads from it, and the backend shares the same DB while managing its own user-facing tables. Pending work is in `TODO.md`.
 
+## Workflow expectation
+
+- For every GameXS change, include a suggested commit message for each distinct
+  fix or behavior change in the final response.
+
 ## The product taxonomy (needed to understand any of the three pieces)
 
 A single game can be sold multiple ways simultaneously, each a different price:

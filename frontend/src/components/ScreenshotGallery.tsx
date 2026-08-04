@@ -302,7 +302,7 @@ export default function ScreenshotGallery({ screenshots }: { screenshots: string
               <button
                 type="button"
                 onClick={() => go(-1)}
-                className="absolute left-4 top-1/2 z-10 flex h-11 w-11 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white/95 text-gray-800 shadow-lg opacity-100 transition-opacity duration-200 hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue sm:left-6 md:opacity-0 md:group-hover/gallery:opacity-100"
+                className="absolute left-6 top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-white/95 text-gray-800 shadow-lg opacity-100 transition-opacity duration-200 hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue sm:left-6 sm:-translate-x-1/2 md:opacity-0 md:group-hover/gallery:opacity-100"
                 aria-label="تصویر قبلی"
               >
                 <ChevronLeft size={20} />
@@ -310,7 +310,7 @@ export default function ScreenshotGallery({ screenshots }: { screenshots: string
               <button
                 type="button"
                 onClick={() => go(1)}
-                className="absolute right-4 top-1/2 z-10 flex h-11 w-11 translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white/95 text-gray-800 shadow-lg opacity-100 transition-opacity duration-200 hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue sm:right-6 md:opacity-0 md:group-hover/gallery:opacity-100"
+                className="absolute right-6 top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-white/95 text-gray-800 shadow-lg opacity-100 transition-opacity duration-200 hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue sm:right-6 sm:translate-x-1/2 md:opacity-0 md:group-hover/gallery:opacity-100"
                 aria-label="تصویر بعدی"
               >
                 <ChevronRight size={20} />

@@ -174,11 +174,11 @@ export async function GET(request: NextRequest) {
     // Pre-fetch full enriched catalog (18ms — done once, matched in-memory per game)
     const { rows: catalog } = await query<CatalogRow>(
       `WITH latest AS (
-         SELECT DISTINCT ON (listing_id) listing_id, price_toman
+         SELECT DISTINCT ON (listing_id) listing_id, price_toman, in_stock
          FROM price_history ORDER BY listing_id, scraped_at DESC
        )
        SELECT g.slug, g.title, g.cover_url, g.genre_label,
-              MIN(latest.price_toman) AS lowest_price,
+              MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
               COUNT(DISTINCT l.seller_id)::text AS store_count
        FROM ps5_games g
        LEFT JOIN listings l ON l.game_id = g.id AND l.is_active
