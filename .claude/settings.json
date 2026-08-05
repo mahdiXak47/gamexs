@@ -1,5 +1,12 @@
 {
   "enabledPlugins": {
     "frontend-design@claude-plugins-official": true
-  }
+  },
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://ai.hamravesh.ir/gateway",
+    "ANTHROPIC_AUTH_TOKEN": "$ANTHROPIC_AUTH_TOKEN",
+    "ANTHROPIC_API_KEY": ""
+  },
+  "model": "deepseek/deepseek-v4-pro"
+
 }

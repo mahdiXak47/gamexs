@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "analyze": "next experimental-analyze --output",
+    "analyze:serve": "next experimental-analyze"
   },
   "dependencies": {
     "@heroui/react": "^3.2.2",
