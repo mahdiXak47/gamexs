@@ -4,6 +4,17 @@ const apiOrigin = process.env.NEXT_PUBLIC_API_URL
   ? new URL(process.env.NEXT_PUBLIC_API_URL).origin
   : "http://localhost:8000";
 
+const connectSources = Array.from(new Set([
+  "'self'",
+  apiOrigin,
+  "http://localhost:8000",
+  "https://gamexs.ir",
+  "https://api.gamexs.ir",
+  "https://www.goftino.com",
+  "https://*.goftino.com",
+  "wss://*.goftino.com",
+]));
+
 const securityHeaders = [
   {
     key: "Content-Security-Policy",
@@ -18,16 +29,7 @@ const securityHeaders = [
       "style-src 'self' 'unsafe-inline'",
       "img-src 'self' data: blob: http: https:",
       "font-src 'self' data:",
-      [
-        "connect-src 'self'",
-        apiOrigin,
-        "http://localhost:8000",
-        "https://gamexs.ir",
-        "https://api.gamexs.ir",
-        "https://www.goftino.com",
-        "https://*.goftino.com",
-        "wss://*.goftino.com",
-      ].join(" "),
+      `connect-src ${connectSources.join(" ")}`,
       "frame-src https://www.goftino.com https://*.goftino.com https://trustseal.enamad.ir",
       "worker-src 'self' blob:",
       "manifest-src 'self'",
@@ -55,6 +57,27 @@ const securityHeaders = [
   },
 ];
 
+const publicCatalogCacheHeaders = [
+  {
+    key: "Cache-Control",
+    value: "public, max-age=0, s-maxage=300, stale-while-revalidate=1800",
+  },
+];
+
+const staticPageCacheHeaders = [
+  {
+    key: "Cache-Control",
+    value: "public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800",
+  },
+];
+
+const privateCacheHeaders = [
+  {
+    key: "Cache-Control",
+    value: "private, no-store",
+  },
+];
+
 const nextConfig: NextConfig = {
   output: "standalone",
   // undici is imported dynamically in instrumentation.ts to set a global
@@ -75,6 +98,78 @@ const nextConfig: NextConfig = {
       {
         source: "/:path*",
         headers: securityHeaders,
+      },
+      {
+        source: "/",
+        headers: publicCatalogCacheHeaders,
+      },
+      {
+        source: "/games/:slug",
+        headers: publicCatalogCacheHeaders,
+      },
+      {
+        source: "/genres/:slug",
+        headers: publicCatalogCacheHeaders,
+      },
+      {
+        source: "/publishers/:slug",
+        headers: publicCatalogCacheHeaders,
+      },
+      {
+        source: "/search",
+        headers: publicCatalogCacheHeaders,
+      },
+      {
+        source: "/upcoming",
+        headers: publicCatalogCacheHeaders,
+      },
+      {
+        source: "/ps-plus",
+        headers: publicCatalogCacheHeaders,
+      },
+      {
+        source: "/ps-plus/:tier",
+        headers: publicCatalogCacheHeaders,
+      },
+      {
+        source: "/account-games",
+        headers: publicCatalogCacheHeaders,
+      },
+      {
+        source: "/disc-games",
+        headers: publicCatalogCacheHeaders,
+      },
+      {
+        source: "/own-account-games",
+        headers: publicCatalogCacheHeaders,
+      },
+      {
+        source: "/capacity-:tier(1|2|3)",
+        headers: publicCatalogCacheHeaders,
+      },
+      {
+        source: "/about",
+        headers: staticPageCacheHeaders,
+      },
+      {
+        source: "/contact",
+        headers: staticPageCacheHeaders,
+      },
+      {
+        source: "/privacy",
+        headers: staticPageCacheHeaders,
+      },
+      {
+        source: "/terms",
+        headers: staticPageCacheHeaders,
+      },
+      {
+        source: "/account/:path*",
+        headers: privateCacheHeaders,
+      },
+      {
+        source: "/cart/:path*",
+        headers: privateCacheHeaders,
       },
     ];
   },

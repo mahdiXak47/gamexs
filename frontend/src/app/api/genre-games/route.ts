@@ -4,7 +4,11 @@ import { s3CoverUrl } from "@/lib/covers";
 
 export async function GET(request: NextRequest) {
   const genre = request.nextUrl.searchParams.get("genre")?.trim() ?? "";
-  if (!genre) return NextResponse.json([]);
+  if (!genre) {
+    return NextResponse.json([], {
+      headers: { "Cache-Control": "public, max-age=300, s-maxage=600, stale-while-revalidate=3600" },
+    });
+  }
 
   const { rows } = await query<{
     slug: string;
@@ -27,9 +31,14 @@ export async function GET(request: NextRequest) {
     LIMIT 6
   `, [`%${genre}%`]);
 
-  return NextResponse.json(rows.map((r) => ({
-    slug: r.slug,
-    title: r.title,
-    coverUrl: r.cover_url?.includes("gs3.gamexs.ir") ? r.cover_url : s3CoverUrl(r.slug),
-  })));
+  return NextResponse.json(
+    rows.map((r) => ({
+      slug: r.slug,
+      title: r.title,
+      coverUrl: r.cover_url?.includes("gs3.gamexs.ir") ? r.cover_url : s3CoverUrl(r.slug),
+    })),
+    {
+      headers: { "Cache-Control": "public, max-age=300, s-maxage=600, stale-while-revalidate=3600" },
+    }
+  );
 }

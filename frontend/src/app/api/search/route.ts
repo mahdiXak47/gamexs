@@ -4,7 +4,11 @@ import { s3CoverUrl } from "@/lib/covers";
 
 export async function GET(request: NextRequest) {
   const q = request.nextUrl.searchParams.get("q")?.trim() ?? "";
-  if (q.length < 2) return NextResponse.json([]);
+  if (q.length < 2) {
+    return NextResponse.json([], {
+      headers: { "Cache-Control": "public, max-age=60, s-maxage=300, stale-while-revalidate=1800" },
+    });
+  }
 
   const { rows } = await query<{
     slug: string;
@@ -43,6 +47,9 @@ export async function GET(request: NextRequest) {
       coverUrl: r.cover_url?.includes("gs3.gamexs.ir") ? r.cover_url : s3CoverUrl(r.slug),
       genreLabel: r.genre_label,
       lowestPriceToman: r.lowest_price ? Number(r.lowest_price) : null,
-    }))
+    })),
+    {
+      headers: { "Cache-Control": "public, max-age=60, s-maxage=300, stale-while-revalidate=1800" },
+    }
   );
 }
