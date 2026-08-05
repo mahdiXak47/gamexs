@@ -3,19 +3,25 @@ import type { NextConfig } from "next";
 const apiOrigin = process.env.NEXT_PUBLIC_API_URL
   ? new URL(process.env.NEXT_PUBLIC_API_URL).origin
   : "http://localhost:8000";
+const webVitalsEndpointOrigin = process.env.NEXT_PUBLIC_WEB_VITALS_ENDPOINT
+  ? new URL(process.env.NEXT_PUBLIC_WEB_VITALS_ENDPOINT).origin
+  : null;
 const disableImageOptimization =
   process.env.NEXT_IMAGE_UNOPTIMIZED === "true" || process.env.NODE_ENV === "development";
 
-const connectSources = Array.from(new Set([
-  "'self'",
-  apiOrigin,
-  "http://localhost:8000",
-  "https://gamexs.ir",
-  "https://api.gamexs.ir",
-  "https://www.goftino.com",
-  "https://*.goftino.com",
-  "wss://*.goftino.com",
-]));
+const connectSources = Array.from(
+  new Set([
+    "'self'",
+    apiOrigin,
+    webVitalsEndpointOrigin,
+    "http://localhost:8000",
+    "https://gamexs.ir",
+    "https://api.gamexs.ir",
+    "https://www.goftino.com",
+    "https://*.goftino.com",
+    "wss://*.goftino.com",
+  ].filter((source): source is string => Boolean(source)))
+);
 
 const securityHeaders = [
   {
@@ -82,6 +88,9 @@ const privateCacheHeaders = [
 
 const nextConfig: NextConfig = {
   output: "standalone",
+  experimental: {
+    webVitalsAttribution: ["CLS", "LCP", "INP"],
+  },
   // undici is imported dynamically in instrumentation.ts to set a global
   // ProxyAgent when HTTPS_PROXY is set. Marking it external prevents
   // Turbopack from trying to bundle it at build time; it's required at
