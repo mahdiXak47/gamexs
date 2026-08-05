@@ -4,6 +4,7 @@ from . import views
 
 urlpatterns = [
     path("signup/", views.SignupView.as_view(), name="auth-signup"),
+    path("csrf/", views.CsrfTokenView.as_view(), name="auth-csrf"),
     path("verify-otp/", views.VerifyOTPView.as_view(), name="auth-verify-otp"),
     path("complete-profile/", views.CompleteProfileView.as_view(), name="auth-complete-profile"),
     path("verify-email/", views.VerifyEmailView.as_view(), name="auth-verify-email"),

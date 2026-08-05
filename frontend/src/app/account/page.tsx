@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useCallback, useEffect, useState } from 'react'
+import Image from 'next/image'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { useAuth } from '@/context/AuthContext'
@@ -352,11 +353,12 @@ function WishlistSection() {
             <Link href={item.game_slug ? `/games/${item.game_slug}` : '#'} className="block">
               <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-gray-100 shadow-sm">
                 {cover ? (
-                  /* eslint-disable-next-line @next/next/no-img-element */
-                  <img
+                  <Image
                     src={cover}
                     alt={item.game_title}
-                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    fill
+                    sizes="(max-width: 640px) 50vw, 160px"
+                    className="object-cover transition-transform duration-300 group-hover:scale-105"
                   />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center text-3xl font-bold text-gray-300 bg-gradient-to-br from-gray-100 to-gray-200">

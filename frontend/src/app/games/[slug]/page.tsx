@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { Chip } from "@heroui/react";
 import Breadcrumb from "@/components/Breadcrumb";
@@ -195,12 +196,14 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
 
           {/* Background image — key art preferred, cover as fallback */}
           {hasArt && (
-            /* eslint-disable-next-line @next/next/no-img-element */
-            <img
+            <Image
               src={heroBg!}
               alt=""
               aria-hidden="true"
-              className="absolute inset-0 h-full w-full object-cover object-center"
+              priority
+              fill
+              sizes="100vw"
+              className="object-cover object-center"
             />
           )}
 

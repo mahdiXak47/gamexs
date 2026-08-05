@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
 import { formatToman } from "@/lib/format";
@@ -53,15 +54,15 @@ function RecCard({ game }: { game: Recommendation }) {
       rel="noopener noreferrer"
       className="group flex flex-col rounded-2xl overflow-hidden bg-white border border-gray-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue"
     >
-      <div className="aspect-[3/4] overflow-hidden bg-gray-50">
+      <div className="relative aspect-[3/4] overflow-hidden bg-gray-50">
         {src ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
+          <Image
             src={src}
             alt=""
             aria-hidden="true"
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-            loading="lazy"
+            fill
+            sizes="(max-width: 640px) 50vw, 200px"
+            className="object-cover group-hover:scale-105 transition-transform duration-300"
           />
         ) : (
           <CoverFallback title={game.title} />
@@ -331,10 +332,9 @@ export default function GameRecommendations() {
                         i === activeIdx ? "bg-ps-blue/10" : "hover:bg-ps-blue/5"
                       }`}
                     >
-                      <div className="w-8 h-10 rounded overflow-hidden bg-gray-100 shrink-0">
+                      <div className="relative w-8 h-10 rounded overflow-hidden bg-gray-100 shrink-0">
                         {src ? (
-                          // eslint-disable-next-line @next/next/no-img-element
-                          <img src={src} alt="" className="w-full h-full object-cover" />
+                          <Image src={src} alt="" fill sizes="40px" className="object-cover" />
                         ) : (
                           <CoverFallback title={s.title} />
                         )}

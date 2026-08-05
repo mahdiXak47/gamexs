@@ -26,8 +26,16 @@ export default function PublisherFilter({
   const containerRef = useRef<HTMLDivElement>(null);
   const searchRef = useRef<HTMLInputElement>(null);
 
+  // Reset the search text when the dropdown closes (render-phase adjustment
+  // rather than a synchronous effect setState).
+  const [prevOpen, setPrevOpen] = useState(open);
+  if (prevOpen !== open) {
+    setPrevOpen(open);
+    if (!open) setSearch("");
+  }
+
   useEffect(() => {
-    if (!open) { setSearch(""); return; }
+    if (!open) return;
     const handler = (e: MouseEvent) => {
       if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
         setOpen(false);
@@ -35,8 +43,8 @@ export default function PublisherFilter({
     };
     document.addEventListener("mousedown", handler);
     // Focus the search input when dropdown opens
-    setTimeout(() => searchRef.current?.focus(), 0);
-    return () => document.removeEventListener("mousedown", handler);
+    const t = setTimeout(() => searchRef.current?.focus(), 0);
+    return () => { document.removeEventListener("mousedown", handler); clearTimeout(t); };
   }, [open]);
 
   const toggle = (pub: string) => {

@@ -48,10 +48,13 @@ export default function GameGrid({
 
   // Keep the input in sync when navigation changes `query` externally
   // (e.g. browser back/forward), without fighting the user's own typing.
-  useEffect(() => {
+  // Adjusting state during render (not in an effect) avoids the
+  // react-hooks/set-state-in-effect warning.
+  const [prevQuery, setPrevQuery] = useState(query);
+  if (query !== prevQuery) {
+    setPrevQuery(query);
     setQueryInput(query);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [query]);
+  }
 
   // Debounce search text before pushing a new URL (each change is a real
   // server round-trip now, unlike the old client-side-only filtering).

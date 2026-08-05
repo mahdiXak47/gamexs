@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "analyze": "next experimental-analyze --output",
-    "analyze:serve": "next experimental-analyze"
+    "analyze:serve": "next experimental-analyze",
+    "test:headers": "node scripts/check-headers.mjs",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "@heroui/react": "^3.2.2",
@@ -20,6 +22,7 @@
     "undici": "^5.29.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.62.1",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/pg": "^8.20.0",

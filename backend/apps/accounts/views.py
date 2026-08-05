@@ -1,6 +1,9 @@
 from django.conf import settings
 from django.contrib.auth import get_user_model
+from django.middleware.csrf import get_token
 from django.shortcuts import redirect
+from django.utils.decorators import method_decorator
+from django.views.decorators.csrf import ensure_csrf_cookie
 from rest_framework import status
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
@@ -74,6 +77,21 @@ def _auth_response(tokens, data=None, response_status=status.HTTP_200_OK):
     response = Response(data or {}, status=response_status)
     _set_auth_cookies(response, tokens)
     return response
+
+
+@method_decorator(ensure_csrf_cookie, name="dispatch")
+class CsrfTokenView(APIView):
+    """Return a CSRF token and set the ``csrftoken`` cookie for cookie auth.
+
+    Must be fetched (GET) before any unsafe cookie-authenticated request so
+    the client has a token to echo back as ``X-CSRFToken``.
+    """
+
+    permission_classes = [AllowAny]
+
+    def get(self, request):
+        return Response({"csrfToken": get_token(request)})
+
 
 
 class SignupView(APIView):

@@ -44,6 +44,7 @@ MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
+    "apps.accounts.middleware.CookieCsrfMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
@@ -131,6 +132,13 @@ JWT_COOKIE_SECURE = config("JWT_COOKIE_SECURE", default=False, cast=bool)
 JWT_COOKIE_SAMESITE = config("JWT_COOKIE_SAMESITE", default="Lax")
 
 CORS_ALLOW_CREDENTIALS = True
+
+# Origins allowed to send cookie-authenticated (cross-origin) requests.
+CSRF_TRUSTED_ORIGINS = config(
+    "CSRF_TRUSTED_ORIGINS",
+    default="http://localhost:3000,http://localhost:8000,https://gamexs.ir,https://api.gamexs.ir,https://www.gamexs.ir",
+    cast=lambda v: [s.strip() for s in v.split(",")],
+)
 
 # OTP
 OTP_EXPIRY_SECONDS = 120

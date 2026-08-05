@@ -1,10 +1,17 @@
+import { ensureCsrfToken } from './csrf'
+
 const BASE = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:8000'
+
+const UNSAFE_METHODS = ['POST', 'PUT', 'PATCH', 'DELETE']
 
 async function refreshAccessToken(): Promise<boolean> {
   try {
+    const csrfToken = await ensureCsrfToken()
+    const headers: Record<string, string> = { 'Content-Type': 'application/json' }
+    if (csrfToken) headers['X-CSRFToken'] = csrfToken
     const res = await fetch(`${BASE}/api/auth/token/refresh/`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers,
       credentials: 'include',
       body: JSON.stringify({}),
     })
@@ -15,9 +22,15 @@ async function refreshAccessToken(): Promise<boolean> {
 }
 
 async function request(path: string, options: RequestInit = {}): Promise<Response> {
+  const method = (options.method ?? 'GET').toUpperCase()
   const headers: Record<string, string> = {
     'Content-Type': 'application/json',
     ...((options.headers as Record<string, string>) ?? {}),
+  }
+
+  if (UNSAFE_METHODS.includes(method)) {
+    const csrfToken = await ensureCsrfToken()
+    if (csrfToken) headers['X-CSRFToken'] = csrfToken
   }
 
   const response = await fetch(`${BASE}${path}`, { ...options, headers, credentials: 'include' })

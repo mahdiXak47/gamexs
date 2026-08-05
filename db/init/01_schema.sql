@@ -71,3 +71,20 @@ CREATE TABLE price_history (
 );
 
 CREATE INDEX idx_price_history_listing_scraped ON price_history (listing_id, scraped_at DESC);
+
+-- One row per submitted Core Web Vitals metric (self-hosted analytics sink,
+-- fed by the frontend's /api/web-vitals route). Append-only.
+CREATE TABLE web_vitals (
+    id BIGSERIAL PRIMARY KEY,
+    metric_id TEXT NOT NULL,
+    name TEXT NOT NULL,
+    value DOUBLE PRECISION NOT NULL,
+    delta DOUBLE PRECISION,
+    rating TEXT,
+    navigation_type TEXT,
+    path TEXT,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+CREATE INDEX idx_web_vitals_created_at ON web_vitals (created_at);
+CREATE INDEX idx_web_vitals_name ON web_vitals (name);

@@ -43,13 +43,22 @@ export default function SearchOverlay({ onClose }: { onClose: () => void }) {
   }, []);
 
   // Fetch results
-  useEffect(() => {
+  // Clear stale results as soon as the debounced query drops below the
+  // minimum length (render-phase adjustment, not a synchronous effect
+  // setState).
+  const [prevDebounced, setPrevDebounced] = useState(debouncedQuery);
+  if (prevDebounced !== debouncedQuery) {
+    setPrevDebounced(debouncedQuery);
     if (debouncedQuery.length < 2) {
       setResults([]);
-      return;
+    } else {
+      setLoading(true);
     }
+  }
+
+  useEffect(() => {
+    if (debouncedQuery.length < 2) return;
     let cancelled = false;
-    setLoading(true);
     fetch(`/api/search?q=${encodeURIComponent(debouncedQuery)}`)
       .then((r) => r.json())
       .then((data) => { if (!cancelled) { setResults(data); setFocused(-1); } })

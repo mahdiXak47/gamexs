@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useReducer, useRef } from "react";
 import { toPersianDigits } from "@/lib/format";
 
@@ -128,12 +129,13 @@ function BannerInner({
 
       {/* Key art on top of blue, blended via multiply-like opacity */}
       {keyArtUrl && (
-        /* eslint-disable-next-line @next/next/no-img-element */
-        <img
+        <Image
           src={keyArtUrl}
           alt=""
           aria-hidden
-          className="absolute inset-0 w-full h-full object-cover object-center scale-110 mix-blend-overlay"
+          fill
+          sizes="100vw"
+          className="object-cover object-center scale-110 mix-blend-overlay"
           style={{ filter: "blur(12px)", opacity: 0.35 }}
         />
       )}

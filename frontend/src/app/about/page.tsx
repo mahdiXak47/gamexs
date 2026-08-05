@@ -6,6 +6,8 @@ const page = trustPageBySlug("about");
 
 export const metadata: Metadata = trustPageMetadata(page);
 
+export const dynamic = "force-dynamic";
+
 export default function AboutPage() {
   return <TrustPage page={page} />;
 }

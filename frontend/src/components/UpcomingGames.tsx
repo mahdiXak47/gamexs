@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { UpcomingGame } from "@/lib/types";
 import CountdownTimer from "./CountdownTimer";
-import { formatToman, toPersianDigits } from "@/lib/format";
+import { formatToman } from "@/lib/format";
 
 function formatPersianDate(isoDate: string): string {
   return new Intl.DateTimeFormat("fa-IR", {

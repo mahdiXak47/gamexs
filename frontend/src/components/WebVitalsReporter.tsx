@@ -4,7 +4,10 @@ import { useReportWebVitals } from "next/web-vitals";
 
 type ReportWebVitalsCallback = Parameters<typeof useReportWebVitals>[0];
 
-const WEB_VITALS_ENDPOINT = process.env.NEXT_PUBLIC_WEB_VITALS_ENDPOINT;
+// Self-hosted sink: unset defaults to the same-origin collector route so
+// metrics are always captured without external service credentials. Point
+// NEXT_PUBLIC_WEB_VITALS_ENDPOINT at an external collector to override.
+const WEB_VITALS_ENDPOINT = process.env.NEXT_PUBLIC_WEB_VITALS_ENDPOINT ?? "/api/web-vitals";
 
 const reportWebVitals: ReportWebVitalsCallback = (metric) => {
   const payload = {

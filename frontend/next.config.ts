@@ -1,48 +1,9 @@
 import type { NextConfig } from "next";
 
-const apiOrigin = process.env.NEXT_PUBLIC_API_URL
-  ? new URL(process.env.NEXT_PUBLIC_API_URL).origin
-  : "http://localhost:8000";
-const webVitalsEndpointOrigin = process.env.NEXT_PUBLIC_WEB_VITALS_ENDPOINT
-  ? new URL(process.env.NEXT_PUBLIC_WEB_VITALS_ENDPOINT).origin
-  : null;
 const disableImageOptimization =
   process.env.NEXT_IMAGE_UNOPTIMIZED === "true" || process.env.NODE_ENV === "development";
 
-const connectSources = Array.from(
-  new Set([
-    "'self'",
-    apiOrigin,
-    webVitalsEndpointOrigin,
-    "http://localhost:8000",
-    "https://gamexs.ir",
-    "https://api.gamexs.ir",
-    "https://www.goftino.com",
-    "https://*.goftino.com",
-    "wss://*.goftino.com",
-  ].filter((source): source is string => Boolean(source)))
-);
-
 const securityHeaders = [
-  {
-    key: "Content-Security-Policy",
-    value: [
-      "default-src 'self'",
-      "base-uri 'self'",
-      "object-src 'none'",
-      "frame-ancestors 'none'",
-      "form-action 'self'",
-      "script-src 'self' 'unsafe-inline' https://www.goftino.com",
-      "script-src-elem 'self' 'unsafe-inline' https://www.goftino.com",
-      "style-src 'self' 'unsafe-inline'",
-      "img-src 'self' data: blob: http: https:",
-      "font-src 'self' data:",
-      `connect-src ${connectSources.join(" ")}`,
-      "frame-src https://www.goftino.com https://*.goftino.com https://trustseal.enamad.ir",
-      "worker-src 'self' blob:",
-      "manifest-src 'self'",
-    ].join("; "),
-  },
   {
     key: "Referrer-Policy",
     value: "strict-origin-when-cross-origin",

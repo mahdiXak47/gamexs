@@ -22,12 +22,20 @@ export default function MegaMenu({
 }) {
   const [activeIdx, setActiveIdx] = useState(0);
   const [games, setGames] = useState<GamePreview[]>([]);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
+
+  // Reset loading when the hovered genre changes (render-phase adjustment,
+  // so the fetch effect never calls setState synchronously).
+  const [prevIdx, setPrevIdx] = useState(activeIdx);
+  if (prevIdx !== activeIdx) {
+    setPrevIdx(activeIdx);
+    setLoading(true);
+    setGames([]);
+  }
 
   useEffect(() => {
     const genre = GENRES[activeIdx].genre;
     let cancelled = false;
-    setLoading(true);
     fetch(`/api/genre-games?genre=${encodeURIComponent(genre)}`)
       .then((r) => r.json())
       .then((data) => { if (!cancelled) { setGames(data); setLoading(false); } })

@@ -26,3 +26,8 @@ k8s/*-secret.yaml
 # Claude Code internal state
 .claude/worktrees/
 .claude/settings.json
+
+# Playwright artifacts
+frontend/test-results/
+frontend/playwright-report/
+frontend/blob-report/
