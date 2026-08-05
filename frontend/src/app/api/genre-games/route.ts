@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { query } from "@/lib/db";
-import { s3CoverUrl } from "@/lib/covers";
+import { s3CoverUrl, normalizeS3Url } from "@/lib/covers";
 
 export async function GET(request: NextRequest) {
   const genre = request.nextUrl.searchParams.get("genre")?.trim() ?? "";
@@ -35,7 +35,7 @@ export async function GET(request: NextRequest) {
     rows.map((r) => ({
       slug: r.slug,
       title: r.title,
-      coverUrl: r.cover_url?.includes("gs3.gamexs.ir") ? r.cover_url : s3CoverUrl(r.slug),
+      coverUrl: r.cover_url?.includes("gs3.gamexs.ir") ? normalizeS3Url(r.cover_url) : s3CoverUrl(r.slug),
     })),
     {
       headers: { "Cache-Control": "public, max-age=300, s-maxage=600, stale-while-revalidate=3600" },

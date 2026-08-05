@@ -341,9 +341,9 @@ function WishlistSection() {
     <div className="bg-white border border-gray-200 rounded-2xl p-5 flex-1">
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
       {items.map(item => {
-        const s3Base = 'http://gs3.gamexs.ir/gamexs'
+        const s3Base = 'https://gs3.gamexs.ir/gamexs'
         const cover = item.cover_url?.includes('gs3.gamexs.ir')
-          ? item.cover_url
+          ? item.cover_url.replace(/^http:\/\//, 'https://')
           : item.game_slug
             ? `${s3Base}/covers/${item.game_slug}-main-cover.webp`
             : null

@@ -27,7 +27,7 @@ interface Recommendation {
 function resolveCoverUrl(url: string | null): string | null {
   if (!url) return null;
   if (!url.includes("gs3.gamexs.ir")) return null; // non-S3 URLs not served
-  return url;
+  return url.replace(/^http:\/\//, "https://"); // optimizer needs HTTPS
 }
 
 function CoverFallback({ title }: { title: string }) {

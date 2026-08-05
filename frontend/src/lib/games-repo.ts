@@ -1,16 +1,16 @@
 import { cache } from "react";
 import { query } from "./db";
-import { s3CoverUrl, s3ScreenshotUrl } from "./covers";
+import { s3CoverUrl, s3ScreenshotUrl, normalizeS3Url } from "./covers";
 import { getGameDetails } from "./game-details";
 import { emptyPurchaseOptions, findOption, purchasePathLabel } from "./purchase-options";
 import type { AccessTier, Game, GameSummary, ProductType, SortOption, UpcomingGame } from "./types";
 
-// Resolve cover URL — S3 only.
-// 1. DB stores an S3 URL (gs3.gamexs.ir) → use directly.
+// Resolve cover URL — S3 only, normalized to HTTPS.
+// 1. DB stores an S3 URL (gs3.gamexs.ir) → use directly (https-normalized).
 // 2. Anything else (IGDB CDN, seller CDN, old /api/ path, null) → construct
 //    the S3 URL from the slug. Returns null if not yet uploaded to S3.
 function toCoverUrl(dbUrl: string | null, slug: string): string | null {
-  if (dbUrl?.includes("gs3.gamexs.ir")) return dbUrl;
+  if (dbUrl?.includes("gs3.gamexs.ir")) return normalizeS3Url(dbUrl);
   return s3CoverUrl(slug);
 }
 
@@ -526,7 +526,7 @@ export const getGameBySlug = cache(async function getGameBySlug(slug: string): P
   // - IGDB image_id (no extension)     → skip; not on S3 yet.
   const screenshots = (game.screenshot_ids ?? [])
     .flatMap((id) => {
-      if (id.startsWith("http")) return [id];
+      if (id.startsWith("http")) return [normalizeS3Url(id)];
       if (id.includes(".")) return [s3ScreenshotUrl(id)];
       return []; // IGDB-only ID — no S3 copy, omit
     });
@@ -544,7 +544,7 @@ export const getGameBySlug = cache(async function getGameBySlug(slug: string): P
     releaseYear: game.release_year,
     coverInitial: deriveInitial(game.title),
     coverUrl: toCoverUrl(game.cover_url, game.slug),
-    keyArtUrl: game.key_art_url ?? null,
+    keyArtUrl: game.key_art_url ? normalizeS3Url(game.key_art_url) : null,
     releaseDate: game.release_date ? game.release_date.toISOString().slice(0, 10) : null,
     screenshots,
     purchaseOptions,
@@ -580,7 +580,7 @@ function rowToUpcoming(row: { slug: string; title: string; cover_url: string | n
     slug: row.slug,
     title: row.title,
     coverUrl: toCoverUrl(row.cover_url, row.slug),
-    keyArtUrl: row.key_art_url ?? null,
+    keyArtUrl: row.key_art_url ? normalizeS3Url(row.key_art_url) : null,
     releaseDate: row.release_date.toISOString().slice(0, 10),
     lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
     sellerCount: Number(row.seller_count),
