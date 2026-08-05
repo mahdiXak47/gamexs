@@ -6,7 +6,9 @@ from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_simplejwt.exceptions import TokenError
+from rest_framework_simplejwt.serializers import TokenRefreshSerializer
 from rest_framework_simplejwt.tokens import RefreshToken
+from rest_framework_simplejwt.views import TokenRefreshView
 
 from .models import EmailVerificationToken, OTPCode
 from .otp_token import create_otp_token, decode_otp_token
@@ -26,6 +28,52 @@ User = get_user_model()
 def _jwt_for_user(user):
     refresh = RefreshToken.for_user(user)
     return {"refresh": str(refresh), "access": str(refresh.access_token)}
+
+
+def _jwt_lifetime_seconds(name):
+    return int(settings.SIMPLE_JWT[name].total_seconds())
+
+
+def _auth_cookie_options(max_age, path="/"):
+    return {
+        "max_age": max_age,
+        "path": path,
+        "httponly": True,
+        "secure": getattr(settings, "JWT_COOKIE_SECURE", False),
+        "samesite": getattr(settings, "JWT_COOKIE_SAMESITE", "Lax"),
+    }
+
+
+def _set_auth_cookies(response, tokens):
+    response.set_cookie(
+        getattr(settings, "JWT_ACCESS_COOKIE_NAME", "gx_access"),
+        tokens["access"],
+        **_auth_cookie_options(_jwt_lifetime_seconds("ACCESS_TOKEN_LIFETIME")),
+    )
+    response.set_cookie(
+        getattr(settings, "JWT_REFRESH_COOKIE_NAME", "gx_refresh"),
+        tokens["refresh"],
+        **_auth_cookie_options(_jwt_lifetime_seconds("REFRESH_TOKEN_LIFETIME"), path="/api/auth/"),
+    )
+
+
+def _clear_auth_cookies(response):
+    cookie_settings = {
+        "secure": getattr(settings, "JWT_COOKIE_SECURE", False),
+        "samesite": getattr(settings, "JWT_COOKIE_SAMESITE", "Lax"),
+    }
+    response.delete_cookie(getattr(settings, "JWT_ACCESS_COOKIE_NAME", "gx_access"), path="/", **cookie_settings)
+    response.delete_cookie(
+        getattr(settings, "JWT_REFRESH_COOKIE_NAME", "gx_refresh"),
+        path="/api/auth/",
+        **cookie_settings,
+    )
+
+
+def _auth_response(tokens, data=None, response_status=status.HTTP_200_OK):
+    response = Response(data or {}, status=response_status)
+    _set_auth_cookies(response, tokens)
+    return response
 
 
 class SignupView(APIView):
@@ -109,8 +157,11 @@ class VerifyOTPView(APIView):
         user.save(update_fields=["is_phone_verified", "is_active"])
 
         tokens = _jwt_for_user(user)
-        tokens["needs_profile_completion"] = not (user.first_name and user.email)
-        return Response(tokens, status=status.HTTP_200_OK)
+        return _auth_response(
+            tokens,
+            {"needs_profile_completion": not (user.first_name and user.email)},
+            status.HTTP_200_OK,
+        )
 
 
 class CompleteProfileView(APIView):
@@ -204,25 +255,50 @@ class LoginView(APIView):
         if not user.is_email_verified:
             # allow login but flag that email verification is pending
             tokens = _jwt_for_user(user)
-            tokens["email_verified"] = False
-            return Response(tokens, status=status.HTTP_200_OK)
+            return _auth_response(tokens, {"email_verified": False}, status.HTTP_200_OK)
 
-        return Response(_jwt_for_user(user), status=status.HTTP_200_OK)
+        return _auth_response(_jwt_for_user(user), response_status=status.HTTP_200_OK)
+
+
+class CookieTokenRefreshView(TokenRefreshView):
+    serializer_class = TokenRefreshSerializer
+
+    def post(self, request, *args, **kwargs):
+        refresh_token = request.data.get("refresh") or request.COOKIES.get(
+            getattr(settings, "JWT_REFRESH_COOKIE_NAME", "gx_refresh")
+        )
+        if not refresh_token:
+            return Response({"detail": "refresh token الزامی است."}, status=status.HTTP_400_BAD_REQUEST)
+
+        serializer = self.get_serializer(data={"refresh": refresh_token})
+        serializer.is_valid(raise_exception=True)
+
+        tokens = dict(serializer.validated_data)
+        if "refresh" not in tokens:
+            tokens["refresh"] = refresh_token
+
+        return _auth_response(tokens, response_status=status.HTTP_200_OK)
 
 
 class LogoutView(APIView):
     permission_classes = [IsAuthenticated]
 
     def post(self, request):
-        refresh_token = request.data.get("refresh")
+        refresh_token = request.data.get("refresh") or request.COOKIES.get(
+            getattr(settings, "JWT_REFRESH_COOKIE_NAME", "gx_refresh")
+        )
         if not refresh_token:
-            return Response({"detail": "refresh token الزامی است."}, status=status.HTTP_400_BAD_REQUEST)
+            response = Response(status=status.HTTP_204_NO_CONTENT)
+            _clear_auth_cookies(response)
+            return response
         try:
             token = RefreshToken(refresh_token)
             token.blacklist()
         except TokenError:
-            return Response({"detail": "توکن نامعتبر است."}, status=status.HTTP_400_BAD_REQUEST)
-        return Response(status=status.HTTP_204_NO_CONTENT)
+            pass
+        response = Response(status=status.HTTP_204_NO_CONTENT)
+        _clear_auth_cookies(response)
+        return response
 
 
 class ProfileView(APIView):

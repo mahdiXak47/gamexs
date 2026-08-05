@@ -102,7 +102,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
-        "rest_framework_simplejwt.authentication.JWTAuthentication",
+        "apps.accounts.authentication.CookieJWTAuthentication",
     ),
     "DEFAULT_PERMISSION_CLASSES": (
         "rest_framework.permissions.IsAuthenticated",
@@ -124,6 +124,13 @@ SIMPLE_JWT = {
     "SIGNING_KEY": SECRET_KEY,
     "AUTH_HEADER_TYPES": ("Bearer",),
 }
+
+JWT_ACCESS_COOKIE_NAME = config("JWT_ACCESS_COOKIE_NAME", default="gx_access")
+JWT_REFRESH_COOKIE_NAME = config("JWT_REFRESH_COOKIE_NAME", default="gx_refresh")
+JWT_COOKIE_SECURE = config("JWT_COOKIE_SECURE", default=False, cast=bool)
+JWT_COOKIE_SAMESITE = config("JWT_COOKIE_SAMESITE", default="Lax")
+
+CORS_ALLOW_CREDENTIALS = True
 
 # OTP
 OTP_EXPIRY_SECONDS = 120

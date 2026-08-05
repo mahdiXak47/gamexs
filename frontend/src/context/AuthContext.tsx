@@ -26,7 +26,6 @@ interface AuthContextValue {
   authModalOpen: boolean
   openAuthModal: () => void
   closeAuthModal: () => void
-  setTokens: (access: string, refresh: string) => void
   logout: () => Promise<void>
   refreshUser: () => Promise<void>
 }
@@ -38,24 +37,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [isLoading, setIsLoading] = useState(true)
   const [authModalOpen, setAuthModalOpen] = useState(false)
 
-  const setTokens = useCallback((access: string, refresh: string) => {
-    localStorage.setItem('gx_access', access)
-    localStorage.setItem('gx_refresh', refresh)
-  }, [])
-
   const refreshUser = useCallback(async () => {
-    const token = localStorage.getItem('gx_access')
-    if (!token) {
-      setIsLoading(false)
-      return
-    }
     try {
       const res = await api.get('/api/profile/')
       if (res.ok) {
         setUser(await res.json())
       } else {
-        localStorage.removeItem('gx_access')
-        localStorage.removeItem('gx_refresh')
         setUser(null)
       }
     } catch {
@@ -66,18 +53,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [])
 
   useEffect(() => {
-    refreshUser()
+    void Promise.resolve().then(refreshUser)
   }, [refreshUser])
 
   const logout = useCallback(async () => {
-    const refresh = localStorage.getItem('gx_refresh')
-    if (refresh) {
-      try {
-        await api.post('/api/auth/logout/', { refresh })
-      } catch {}
-    }
-    localStorage.removeItem('gx_access')
-    localStorage.removeItem('gx_refresh')
+    try {
+      await api.post('/api/auth/logout/', {})
+    } catch {}
     setUser(null)
   }, [])
 
@@ -89,7 +71,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         authModalOpen,
         openAuthModal: () => setAuthModalOpen(true),
         closeAuthModal: () => setAuthModalOpen(false),
-        setTokens,
         logout,
         refreshUser,
       }}

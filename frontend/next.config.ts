@@ -1,5 +1,9 @@
 import type { NextConfig } from "next";
 
+const apiOrigin = process.env.NEXT_PUBLIC_API_URL
+  ? new URL(process.env.NEXT_PUBLIC_API_URL).origin
+  : "http://localhost:8000";
+
 const securityHeaders = [
   {
     key: "Content-Security-Policy",
@@ -14,7 +18,16 @@ const securityHeaders = [
       "style-src 'self' 'unsafe-inline'",
       "img-src 'self' data: blob: http: https:",
       "font-src 'self' data:",
-      "connect-src 'self' http://localhost:8000 https://gamexs.ir https://www.goftino.com https://*.goftino.com wss://*.goftino.com",
+      [
+        "connect-src 'self'",
+        apiOrigin,
+        "http://localhost:8000",
+        "https://gamexs.ir",
+        "https://api.gamexs.ir",
+        "https://www.goftino.com",
+        "https://*.goftino.com",
+        "wss://*.goftino.com",
+      ].join(" "),
       "frame-src https://www.goftino.com https://*.goftino.com https://trustseal.enamad.ir",
       "worker-src 'self' blob:",
       "manifest-src 'self'",

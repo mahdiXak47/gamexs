@@ -25,6 +25,7 @@ SECURE_HSTS_SECONDS = 31536000
 SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
+JWT_COOKIE_SECURE = True
 
 # WhiteNoise serves Django admin static files directly from gunicorn.
 MIDDLEWARE = [

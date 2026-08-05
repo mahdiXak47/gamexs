@@ -126,7 +126,7 @@ function PSLogoIcon() {
 }
 
 export default function AuthModal() {
-  const { authModalOpen, closeAuthModal, setTokens, refreshUser } = useAuth()
+  const { authModalOpen, closeAuthModal, refreshUser } = useAuth()
   const toast = useToast()
 
   // Animation states
@@ -235,7 +235,6 @@ export default function AuthModal() {
         toast.error('ورود انجام نشد', message)
         return
       }
-      setTokens(data.access, data.refresh)
       await refreshUser()
       toast.success('وارد حساب شدید')
       handleClose()
@@ -289,7 +288,6 @@ export default function AuthModal() {
         toast.error('کد تایید پذیرفته نشد', message)
         return
       }
-      setTokens(data.access, data.refresh)
       if (data.needs_profile_completion) {
         setScreen('profile')
         toast.info('حساب تایید شد', 'برای ادامه اطلاعات حساب را تکمیل کنید.')
