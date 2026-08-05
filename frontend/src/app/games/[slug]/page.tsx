@@ -16,6 +16,7 @@ import SimilarGames from "@/components/SimilarGames";
 import WishlistButton from "@/components/WishlistButton";
 import { formatToman, toPersianDigits } from "@/lib/format";
 import { genreForGame } from "@/lib/genres";
+import type { PsStoreInfo } from "@/lib/games-repo";
 import { getGameBySlug, getGameStoreInfo, getSimilarGames, getSimilarGamesByDeveloper, getGameVersions } from "@/lib/games-repo";
 import { lowestAvailableOffer, lowestValidPrice, storeCount } from "@/lib/purchase-options";
 import { faqPageJsonLd, gamePurchaseFaqs, SITE_URL, tomanToRial } from "@/lib/seo";
@@ -78,6 +79,19 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
   const price  = lowestOffer?.priceToman ?? null;
   const stores = storeCount(game);
   const d      = game.details;
+  const psStoreInfo: PsStoreInfo = storeInfo ?? {
+    hasData: false,
+    conceptId: null,
+    usCurrent: null,
+    usOriginal: null,
+    usDiscount: null,
+    trCurrent: null,
+    trOriginal: null,
+    trDiscount: null,
+    essentialPlus: false,
+    extraPlus: false,
+    deluxePlus: false,
+  };
   // Screenshots are landscape S3 images — much better quality for a wide hero
   // than the portrait cover. For IGDB cover fallbacks swap the tiny size token
   // with t_1080p (1920×1080) so the blowup is at least at native resolution.
@@ -300,7 +314,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
                   className="w-full aspect-[3/4] max-h-[525px] rounded-2xl shadow-2xl"
                   priority
                 />
-                {storeInfo && <PsStorePriceBadges info={storeInfo} />}
+                <PsStorePriceBadges info={psStoreInfo} />
               </div>
             </div>
           </div>

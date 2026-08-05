@@ -1,3 +1,4 @@
+import type { AriaAttributes, ReactNode } from "react";
 import type { PsStoreInfo } from "@/lib/games-repo";
 
 const PS_STORE_BASE = "https://store.playstation.com";
@@ -43,6 +44,7 @@ function plusTooltipText(info: PsStoreInfo): string {
   if (info.deluxePlus)    return "این بازی در اشتراک PlayStation Plus Deluxe موجود است";
   if (info.extraPlus)     return "این بازی در اشتراک PlayStation Plus Extra موجود است";
   if (info.essentialPlus) return "این بازی در اشتراک PlayStation Plus Essential موجود است";
+  if (!info.hasData)      return "وضعیت این بازی در اشتراک PlayStation Plus هنوز ثبت نشده است";
   return "این بازی در هیچ اشتراک PlayStation Plus موجود نیست";
 }
 
@@ -65,30 +67,25 @@ function Tooltip({ text }: { text: string }) {
 
 const glassCard = "group relative flex flex-col items-center rounded-2xl border border-white/15 bg-white/10 backdrop-blur-xl transition-all duration-200 hover:bg-white/15 hover:border-white/25 active:scale-[0.97]";
 const glassCardDimmed = "group relative flex flex-col items-center rounded-2xl border border-white/8 bg-white/5 backdrop-blur-xl opacity-50";
+const disabledRegionCard = "group relative flex flex-col items-center rounded-2xl border border-white/8 bg-white/5 backdrop-blur-xl";
 
 interface Props {
   info: PsStoreInfo;
 }
 
 export default function PsStorePriceBadges({ info }: Props) {
-  const hasAnyData =
-    info.usCurrent || info.trCurrent ||
-    info.essentialPlus || info.extraPlus || info.deluxePlus;
-
-  if (!hasAnyData) return null;
-
-  const trHref  = `${PS_STORE_BASE}/tr-tr/concept/${info.conceptId}`;
-  const usHref  = `${PS_STORE_BASE}/en-us/concept/${info.conceptId}`;
+  const trHref  = info.conceptId ? `${PS_STORE_BASE}/tr-tr/concept/${info.conceptId}` : null;
+  const usHref  = info.conceptId ? `${PS_STORE_BASE}/en-us/concept/${info.conceptId}` : null;
   const hasPlus = info.essentialPlus || info.extraPlus || info.deluxePlus;
 
   const usTooltip = info.usCurrent
     ? `قیمت این بازی در فروشگاه رسمی PlayStation آمریکا ${info.usCurrent}${info.usDiscount ? ` (${info.usDiscount})` : ""} می‌باشد`
-    : "قیمت این بازی در منطقه آمریکا یافت نشد";
+    : "قیمت این بازی در منطقه آمریکا ثبت نشده است";
 
   // ⁦ / ⁩ = LTR isolate marks — prevent RTL bidi from reversing the price inside Persian tooltip text
   const trTooltip = info.trCurrent
     ? `قیمت این بازی در فروشگاه رسمی PlayStation ترکیه ⁦${info.trCurrent}${info.trDiscount ? ` (${info.trDiscount})` : ""}⁩ می‌باشد`
-    : "قیمت این بازی در منطقه ترکیه یافت نشد";
+    : "قیمت این بازی در منطقه ترکیه ثبت نشده است";
 
   return (
     <div className="flex flex-col gap-2">
@@ -101,11 +98,9 @@ export default function PsStorePriceBadges({ info }: Props) {
       <div className="grid grid-cols-3 gap-2.5">
 
         {/* Turkey */}
-        <a
+        <PriceCard
           href={trHref}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={`${glassCard} cursor-pointer touch-manipulation`}
+          className={trHref ? `${glassCard} cursor-pointer touch-manipulation` : disabledRegionCard}
           aria-label={`قیمت در ترکیه: ${info.trCurrent ?? "نامشخص"}`}
         >
           <div className="flex flex-col items-center gap-2 px-3 py-4 w-full">
@@ -117,7 +112,7 @@ export default function PsStorePriceBadges({ info }: Props) {
                 <polygon points="23,12 25.8,8.6 25.8,15.4" fill="white" transform="rotate(15 23 12)" />
               </svg>
               <span className="text-[12px] font-semibold text-white/60 uppercase tracking-widest leading-none">ترکیه</span>
-              <ExternalLinkIcon />
+              {trHref && <ExternalLinkIcon />}
             </div>
             <p dir="ltr" className="text-[17px] font-extrabold text-white leading-none tabular-nums text-center">
               {info.trCurrent ?? <span className="text-white/30">—</span>}
@@ -133,15 +128,13 @@ export default function PsStorePriceBadges({ info }: Props) {
               )}
             </div>
           </div>
-          <Tooltip text={trTooltip} />
-        </a>
+          {trHref && <Tooltip text={trTooltip} />}
+        </PriceCard>
 
         {/* US */}
-        <a
+        <PriceCard
           href={usHref}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={`${glassCard} cursor-pointer touch-manipulation`}
+          className={usHref ? `${glassCard} cursor-pointer touch-manipulation` : disabledRegionCard}
           aria-label={`قیمت در آمریکا: ${info.usCurrent ?? "نامشخص"}`}
         >
           <div className="flex flex-col items-center gap-2 px-3 py-4 w-full">
@@ -158,7 +151,7 @@ export default function PsStorePriceBadges({ info }: Props) {
                 )}
               </svg>
               <span className="text-[12px] font-semibold text-white/60 uppercase tracking-widest leading-none">آمریکا</span>
-              <ExternalLinkIcon />
+              {usHref && <ExternalLinkIcon />}
             </div>
             <p className="text-[17px] font-extrabold text-white leading-none tabular-nums text-center">
               {info.usCurrent ?? <span className="text-white/30">—</span>}
@@ -174,8 +167,8 @@ export default function PsStorePriceBadges({ info }: Props) {
               )}
             </div>
           </div>
-          <Tooltip text={usTooltip} />
-        </a>
+          {usHref && <Tooltip text={usTooltip} />}
+        </PriceCard>
 
         {/* PS Plus */}
         <div className={hasPlus ? `${glassCard} border-amber-400/25 bg-amber-400/5 hover:bg-amber-400/10` : glassCardDimmed}>
@@ -184,7 +177,11 @@ export default function PsStorePriceBadges({ info }: Props) {
             <span className="text-[12px] font-semibold text-white/50 uppercase tracking-widest leading-none">PS Plus</span>
             {hasPlus
               ? <PlusTierLabel info={info} />
-              : <span className="text-[12px] text-white/30 leading-none">موجود نیست</span>
+              : (
+                <span className="text-[12px] text-white/30 leading-none">
+                  {info.hasData ? "موجود نیست" : "ثبت نشده"}
+                </span>
+              )
             }
           </div>
           <Tooltip text={plusTooltipText(info)} />
@@ -192,5 +189,30 @@ export default function PsStorePriceBadges({ info }: Props) {
 
       </div>
     </div>
+  );
+}
+
+function PriceCard({
+  href,
+  className,
+  children,
+  ...props
+}: {
+  href: string | null;
+  className: string;
+  children: ReactNode;
+} & AriaAttributes) {
+  if (!href) {
+    return (
+      <div className={className} {...props}>
+        {children}
+      </div>
+    );
+  }
+
+  return (
+    <a href={href} target="_blank" rel="noopener noreferrer" className={className} {...props}>
+      {children}
+    </a>
   );
 }

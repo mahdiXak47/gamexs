@@ -630,7 +630,8 @@ export async function getFeaturedUpcomingGames(slugs: string[]): Promise<Upcomin
 }
 
 export interface PsStoreInfo {
-  conceptId: string;
+  hasData: boolean;
+  conceptId: string | null;
   usCurrent: string | null;
   usOriginal: string | null;
   usDiscount: string | null;
@@ -664,6 +665,7 @@ export async function getGameStoreInfo(gameId: number): Promise<PsStoreInfo | nu
   const row = rows[0];
   if (!row) return null;
   return {
+    hasData:    true,
     conceptId:  row.concept_id,
     usCurrent:  row.us_price,
     usOriginal: row.us_original_price,
