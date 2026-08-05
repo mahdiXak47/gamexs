@@ -3,6 +3,8 @@ import type { NextConfig } from "next";
 const apiOrigin = process.env.NEXT_PUBLIC_API_URL
   ? new URL(process.env.NEXT_PUBLIC_API_URL).origin
   : "http://localhost:8000";
+const disableImageOptimization =
+  process.env.NEXT_IMAGE_UNOPTIMIZED === "true" || process.env.NODE_ENV === "development";
 
 const connectSources = Array.from(new Set([
   "'self'",
@@ -85,13 +87,34 @@ const nextConfig: NextConfig = {
   // Turbopack from trying to bundle it at build time; it's required at
   // runtime from node_modules instead.
   serverExternalPackages: ["undici"],
-  // Cover images come from external CDNs already sized for display
-  // (IGDB t_cover_big = 264×374px; seller thumbnails are similarly bounded).
-  // unoptimized=true lets the browser fetch them directly, which avoids
-  // the Next.js server needing outbound HTTPS to each CDN — critical in
-  // environments where those CDNs require a proxy (local dev in Iran).
+  // Production optimizes the allowlisted S3/IGDB media through next/image.
+  // Local dev can still bypass server-side image fetching when regional
+  // network/proxy constraints make upstream image requests unreliable.
   images: {
-    unoptimized: true,
+    unoptimized: disableImageOptimization,
+    remotePatterns: [
+      {
+        protocol: "http",
+        hostname: "gs3.gamexs.ir",
+        port: "",
+        pathname: "/gamexs/**",
+      },
+      {
+        protocol: "https",
+        hostname: "gs3.gamexs.ir",
+        port: "",
+        pathname: "/gamexs/**",
+      },
+      {
+        protocol: "https",
+        hostname: "images.igdb.com",
+        port: "",
+        pathname: "/igdb/image/upload/**",
+      },
+    ],
+    formats: ["image/webp"],
+    qualities: [50, 75, 90],
+    minimumCacheTTL: 86400,
   },
   async headers() {
     return [

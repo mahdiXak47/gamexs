@@ -93,7 +93,6 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
             fill
             className="object-cover object-center scale-110 blur-md brightness-[0.6]"
             priority
-            unoptimized
           />
         ) : (
           <div className="w-full h-full" style={{ background: "linear-gradient(135deg, #1a3a7a 0%, #0a1f4d 100%)" }} />
@@ -116,7 +115,6 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
               className="object-contain object-bottom drop-shadow-2xl"
               style={{ paddingTop: "48px", paddingLeft: "64px", paddingRight: "16px" }}
               priority
-              unoptimized
             />
           ) : (
             <div className="absolute bottom-0 left-16 right-4 top-12 flex items-end justify-center">

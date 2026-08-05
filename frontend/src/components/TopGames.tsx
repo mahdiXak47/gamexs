@@ -57,7 +57,6 @@ export default function TopGames({ games }: { games: GameSummary[] }) {
                       fill
                       className="object-cover"
                       loading="lazy"
-                      unoptimized
                     />
                   ) : (
                     <div className="w-full h-full flex items-center justify-center text-2xl font-bold text-gray-400">

@@ -167,7 +167,6 @@ export default function UpcomingHeroBanner({ games }: { games: UpcomingGame[] })
               className="object-contain object-bottom drop-shadow-2xl"
               style={{ paddingTop: "28px", paddingLeft: "40px", paddingRight: "24px", paddingBottom: "20px" }}
               priority
-              unoptimized
             />
           ) : (
             <div className="absolute bottom-0 left-16 right-4 top-12 flex items-end justify-center">
