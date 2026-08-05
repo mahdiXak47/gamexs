@@ -44,24 +44,35 @@
 
 ## Remaining Priority 1 — Verification and Measurement
 
-- [ ] Verify `gamexs.ir` in Google Search Console, preferably with a DNS TXT record.
-- [ ] Submit `https://gamexs.ir/sitemap.xml` in Google Search Console after verification.
+- [x] Verify `gamexs.ir` in Google Search Console, preferably with a DNS TXT record.
+- [x] Submit `https://gamexs.ir/sitemap.xml` in Google Search Console after verification.
 - [ ] Verify `gamexs.ir` in Bing Webmaster Tools.
 - [ ] Add basic pageview analytics, using GA4 or a privacy-respecting alternative.
+- [ ] Run Core Web Vitals / PageSpeed checks for homepage, game detail, genre, publisher, purchase-type, and search pages.
+- [ ] Validate live JSON-LD templates with Google Rich Results Test and URL Inspection after deployment.
 
 ## Remaining Priority 2 — Content and Structured Data
 
 - [ ] Add an indexable Persian FAQ / taxonomy explainer page, for example `/راهنما`, covering account capacities, disc games, own-account purchases, and subscriptions.
-- [ ] Add `FAQPage` JSON-LD to the Persian FAQ / taxonomy explainer page.
+- [ ] Add `FAQPage` JSON-LD to the Persian FAQ / taxonomy explainer page only as non-critical schema; Google Search no longer shows FAQ rich results for ordinary sites.
 - [ ] Add `dateModified` to game `Product` JSON-LD, sourced from the latest relevant `price_history.scraped_at` value.
 - [ ] Add dynamic Open Graph images with Next.js `opengraph-image.tsx`, showing game cover art and lowest price where available.
+- [ ] Add an image sitemap, or image sitemap entries, for game cover art, key art, and screenshots that should be discoverable in Google Images.
+- [ ] Verify the image CDN/domain in Search Console if indexed images are served from `gs3.gamexs.ir`.
 
-## Remaining Priority 3 — Product Feed
+## Remaining Priority 3 — Crawlable Discovery
+
+- [ ] Revisit `noindex` behavior for plain pagination: keep `noindex,follow` for search/filter/sort URLs, but evaluate allowing indexable self-canonical `?page=N` catalog pages.
+- [ ] Replace client-only pagination controls with crawlable `<a href>` links so Googlebot can discover paginated catalog, genre, publisher, and purchase-type pages.
+- [ ] Audit key internal navigation links to confirm important indexable pages are reachable through crawlable `<a href>` links, not only search boxes or JavaScript actions.
+
+## Remaining Priority 4 — Product Feed
 
 - [ ] Scope Google Merchant Center eligibility and policy requirements for a comparison-only site that links out to sellers.
 - [ ] Build a Google Merchant Center product feed from the same DB-backed product data used by the sitemap, if policy review confirms it is suitable.
+- [ ] Keep GameXS product schema aligned with Product snippet / aggregator eligibility; do not add merchant-listing-only fields that imply checkout happens on GameXS unless policy review confirms eligibility.
 
-## Remaining Priority 4 — Ongoing Off-Site SEO
+## Remaining Priority 5 — Ongoing Off-Site SEO
 
 - [ ] Build Persian gaming community and directory presence, including relevant forums, Telegram channels, and third-party mentions.
 - [ ] Run a monthly manual visibility check for `site:gamexs.ir` on Google.
