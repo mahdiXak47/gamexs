@@ -49,10 +49,12 @@ function buildCsp(nonce: string): string {
     `script-src 'self' 'nonce-${nonce}' 'strict-dynamic' https://www.goftino.com https://*.goftino.com${isDev ? " 'unsafe-eval'" : ""}`,
     `script-src-elem 'self' 'nonce-${nonce}' https://www.goftino.com https://*.goftino.com`,
     // Inline style attributes (React inline styles) must stay allowed; only
-    // script execution is made strict.
-    "style-src 'self' 'unsafe-inline'",
+    // script execution is made strict. Goftino's stylesheet/chat media are
+    // served from its CDN and would otherwise be blocked.
+    "style-src 'self' 'unsafe-inline' https://*.goftino.com",
     "img-src 'self' data: blob: http: https:",
-    "font-src 'self' data:",
+    "font-src 'self' data: https://*.goftino.com",
+    "media-src 'self' https://*.goftino.com",
     `connect-src ${SPA_CONNECT_SOURCES.join(" ")}`,
     "frame-src https://www.goftino.com https://*.goftino.com https://trustseal.enamad.ir",
     "worker-src 'self' blob:",
