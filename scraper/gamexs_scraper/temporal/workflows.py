@@ -246,3 +246,24 @@ class MetadataRefreshWorkflow:
             "results": results,
             "soft_failures": soft_failures,
         }
+
+
+@workflow.defn
+class SellerPriceLogWorkflow:
+    """Scrape gpgaming.ir and log prices per offer for monitoring."""
+
+    @workflow.run
+    async def run(self, input: dict | None = None) -> dict:
+        from temporalio import workflow
+
+        input = input or {}
+        seller = input.get("seller", "gpgaming")
+
+        result = await workflow.execute_activity(
+            "log_seller_prices",
+            {"seller": seller},
+            start_to_close_timeout=timedelta(hours=2),
+            retry_policy=RetryPolicy(maximum_attempts=1),
+        )
+
+        return result

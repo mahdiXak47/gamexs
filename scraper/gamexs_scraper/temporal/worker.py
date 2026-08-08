@@ -15,13 +15,14 @@ from gamexs_scraper.temporal.activities import (
     fetch_playstation_store_tr_price,
     fetch_playstation_store_us_price,
     load_seller_from_s3,
+    log_seller_prices,
     resolve_playstation_store_games,
     scrape_seller_to_s3,
     upsert_playstation_store_game_price,
     upload_igdb_images_to_s3,
 )
 from gamexs_scraper.temporal.config import settings_from_env
-from gamexs_scraper.temporal.workflows import MetadataRefreshWorkflow, SellerScrapeWorkflow
+from gamexs_scraper.temporal.workflows import MetadataRefreshWorkflow, SellerPriceLogWorkflow, SellerScrapeWorkflow
 
 
 async def main() -> None:
@@ -35,8 +36,8 @@ async def main() -> None:
         sellers_worker = Worker(
             sellers_client,
             task_queue=settings.sellers_task_queue,
-            workflows=[SellerScrapeWorkflow],
-            activities=[scrape_seller_to_s3, load_seller_from_s3],
+            workflows=[SellerScrapeWorkflow, SellerPriceLogWorkflow],
+            activities=[scrape_seller_to_s3, load_seller_from_s3, log_seller_prices],
             activity_executor=activity_executor,
         )
         metadata_worker = Worker(

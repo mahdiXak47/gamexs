@@ -6,6 +6,7 @@ from .doctorgame import DoctorGameAdapter
 from .hajigame import HajiGameAdapter
 from .gameaccess import GameAccessAdapter
 from .gamepulse import GamePulseAdapter
+from .gpgaming import GpGamingAdapter
 from .gamestore import GameStoreAdapter
 from .gamario import GamarioAdapter
 from .gamecenter import GameCenterAdapter
@@ -39,5 +40,6 @@ ADAPTERS = {
     GameAccessAdapter.seller: GameAccessAdapter,
     ClockStore1Adapter.seller: ClockStore1Adapter,
     GamePulseAdapter.seller: GamePulseAdapter,
+    GpGamingAdapter.seller: GpGamingAdapter,
     GameStoreAdapter.seller: GameStoreAdapter,
 }

@@ -96,7 +96,7 @@ export default function Header() {
 
           {/* Logo */}
           <Link href="/" className="flex items-center shrink-0" aria-label="GameXS — صفحه اصلی">
-            <Image src="/logos/logo7.png" alt="GameXS" width={971} height={347} className="h-9 w-auto" priority />
+            <Image src="/logos/logo2.png" alt="GameXS" width={1024} height={1024} className="h-12 w-auto" priority />
           </Link>
 
           {/* Desktop Navigation */}

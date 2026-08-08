@@ -1,6 +1,6 @@
 export const SITE_URL = "https://gamexs.ir";
 export const SITE_NAME = "GameXS";
-export const SITE_LOGO_URL = `${SITE_URL}/logos/logo7.png`;
+export const SITE_LOGO_URL = `${SITE_URL}/logos/logo2.png`;
 export const SITE_PREVIEW_IMAGE = {
   url: SITE_LOGO_URL,
   width: 971,

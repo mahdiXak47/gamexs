@@ -112,10 +112,10 @@ export default function SearchOverlay({ onClose }: { onClose: () => void }) {
             {/* Brand label */}
             <div className="hidden sm:flex items-center gap-2 bg-ps-blue px-5 border-l border-gray-200 shrink-0 select-none">
               <Image
-                src="/logos/logo7.png"
+                src="/logos/logo2.png"
                 alt="GameXS"
-                width={971}
-                height={347}
+                width={1024}
+                height={1024}
                 className="h-8 w-auto"
                 priority
               />

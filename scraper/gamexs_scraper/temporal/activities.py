@@ -134,6 +134,37 @@ def load_seller_from_s3(input: dict) -> dict:
     }
 
 
+@activity.defn(name="log_seller_prices")
+def log_seller_prices(input: dict) -> dict:
+    """Scrape gpgaming.ir and log each offer with game/platform/capacity/price information."""
+    seller = input.get("seller", "gpgaming")
+
+    from gamexs_scraper.adapters import ADAPTERS
+
+    if seller not in ADAPTERS:
+        raise RuntimeError(f"unknown seller {seller!r}")
+
+    adapter = ADAPTERS[seller]()
+    count = 0
+
+    for offer in adapter.iter_listings():
+        tier_label = offer.tier.value if offer.tier else "N/A"
+        scraped_hour = offer.scraped_at.strftime("%H:%M")
+        scraped_date = offer.scraped_at.strftime("%Y-%m-%d")
+
+        activity.logger.info(
+            "gpgaming | game=%s | platform=PS5 | capacity=%s | price=%s | hour=%s | date=%s",
+            offer.raw_title,
+            tier_label,
+            offer.price_toman,
+            scraped_hour,
+            scraped_date,
+        )
+        count += 1
+
+    return {"seller": seller, "offers_logged": count}
+
+
 @activity.defn(name="enrich_igdb_metadata")
 def enrich_igdb_metadata(input: dict) -> dict:
     args = [sys.executable, "-m", "gamexs_scraper.enrich_metadata"]
