@@ -18,7 +18,7 @@
 #   docker compose -f docker-compose.staging.yml run --rm scraper \
 #       python -m gamexs_scraper.enrich_metadata
 
-FROM python:3.12-slim
+FROM --platform=linux/amd64 hub.hamdocker.ir/python:3.12-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1

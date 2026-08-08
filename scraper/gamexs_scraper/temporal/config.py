@@ -30,9 +30,9 @@ class TemporalSettings:
 def settings_from_env() -> TemporalSettings:
     return TemporalSettings(
         address=os.environ.get("TEMPORAL_ADDRESS", "localhost:7233"),
-        sellers_namespace=os.environ.get("TEMPORAL_SELLERS_NAMESPACE", "gamexs-sellers"),
+        sellers_namespace=os.environ.get("TEMPORAL_SELLERS_NAMESPACE", "sellers-prices"),
         metadata_namespace=os.environ.get("TEMPORAL_METADATA_NAMESPACE", "gamexs-metadata"),
-        sellers_task_queue=os.environ.get("TEMPORAL_SELLERS_TASK_QUEUE", "gamexs-seller-scrapers"),
+        sellers_task_queue=os.environ.get("TEMPORAL_SELLERS_TASK_QUEUE", "sellers-prices"),
         metadata_task_queue=os.environ.get("TEMPORAL_METADATA_TASK_QUEUE", "gamexs-metadata"),
         artifact_prefix=os.environ.get("SCRAPER_RUN_ARTIFACT_PREFIX", "scraper-runs"),
         psstore_workers=int(os.environ.get("PSSTORE_WORKERS", "4")),
