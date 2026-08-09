@@ -3,6 +3,7 @@ import { ensureCsrfToken } from './csrf'
 const BASE = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:8000'
 
 const UNSAFE_METHODS = ['POST', 'PUT', 'PATCH', 'DELETE']
+type ApiRequestInit = RequestInit & { skipAuthRefresh?: boolean }
 
 async function refreshAccessToken(): Promise<boolean> {
   try {
@@ -21,8 +22,9 @@ async function refreshAccessToken(): Promise<boolean> {
   }
 }
 
-async function request(path: string, options: RequestInit = {}): Promise<Response> {
+async function request(path: string, options: ApiRequestInit = {}): Promise<Response> {
   const method = (options.method ?? 'GET').toUpperCase()
+  const { skipAuthRefresh, ...fetchOptions } = options
   const headers: Record<string, string> = {
     'Content-Type': 'application/json',
     ...((options.headers as Record<string, string>) ?? {}),
@@ -33,13 +35,13 @@ async function request(path: string, options: RequestInit = {}): Promise<Respons
     if (csrfToken) headers['X-CSRFToken'] = csrfToken
   }
 
-  const response = await fetch(`${BASE}${path}`, { ...options, headers, credentials: 'include' })
+  const response = await fetch(`${BASE}${path}`, { ...fetchOptions, headers, credentials: 'include' })
 
   // On 401, attempt one silent token refresh then retry (skip for auth endpoints)
-  if (response.status === 401 && !path.startsWith('/api/auth/')) {
+  if (response.status === 401 && !skipAuthRefresh && !path.startsWith('/api/auth/')) {
     const refreshed = await refreshAccessToken()
     if (refreshed) {
-      return fetch(`${BASE}${path}`, { ...options, headers, credentials: 'include' })
+      return fetch(`${BASE}${path}`, { ...fetchOptions, headers, credentials: 'include' })
     }
   }
 
@@ -47,7 +49,7 @@ async function request(path: string, options: RequestInit = {}): Promise<Respons
 }
 
 export const api = {
-  get: (path: string) => request(path),
+  get: (path: string, options?: ApiRequestInit) => request(path, options),
   post: (path: string, body: unknown) =>
     request(path, { method: 'POST', body: JSON.stringify(body) }),
   patch: (path: string, body: unknown) =>

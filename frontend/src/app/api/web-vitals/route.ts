@@ -15,14 +15,16 @@ export async function POST(request: NextRequest) {
     const body = (await request.json()) as Record<string, unknown>;
     const { id, name, value, delta, rating, navigationType, path } = body;
 
+    if (typeof name !== "string" || !METRIC_NAMES.has(name)) {
+      return NextResponse.json({ ok: true, ignored: true });
+    }
+
     if (
       typeof id !== "string" ||
-      typeof name !== "string" ||
-      !METRIC_NAMES.has(name) ||
       typeof value !== "number" ||
       !Number.isFinite(value)
     ) {
-      return NextResponse.json({ ok: false }, { status: 400 });
+      return NextResponse.json({ ok: true, ignored: true });
     }
 
     await query(

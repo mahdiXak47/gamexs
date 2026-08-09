@@ -39,7 +39,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const refreshUser = useCallback(async () => {
     try {
-      const res = await api.get('/api/profile/')
+      const res = await api.get('/api/profile/', { skipAuthRefresh: true })
       if (res.ok) {
         setUser(await res.json())
       } else {
