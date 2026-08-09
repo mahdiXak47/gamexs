@@ -61,6 +61,7 @@ The DB enforces via a `CHECK` constraint that `tier` is set iff
 cd scraper
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt   # first-time setup
 .venv/bin/python -m gamexs_scraper.cli pspro --limit 5               # print raw offers as JSON (no file output)
+.venv/bin/python -m gamexs_scraper.cli gpgaming --limit 5            # test the gpgaming adapter
 .venv/bin/python -m gamexs_scraper.export_csv <seller> -o output/<seller>.csv --cache output/<seller>_offers.jsonl
 .venv/bin/python -m gamexs_scraper.download_images <seller> --cache output/<seller>_offers.jsonl
 .venv/bin/python -m gamexs_scraper.load_to_postgres <seller> --cache output/<seller>_offers.jsonl
@@ -98,6 +99,30 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt   # first-tim
   Cross-seller canonical matching is unbuilt (planned: merge on IGDB `igdb_id`).
 - `scraper/output/` (CSVs, JSONL caches, downloaded images) is gitignored —
   regenerable from a live or cached scrape, never commit it as source of truth.
+
+### Docker build & deploy (scraper workflows image)
+
+```bash
+docker buildx build \
+  --builder desktop-linux \
+  --platform linux/amd64 \
+  --pull \
+  --no-cache \
+  --provenance=false \
+  --progress=plain \
+  -t registry.hamdocker.ir/mahdixak/gamexs-scraper-workflows:0.5.2 \
+  --push \
+  .
+```
+
+### Temporal workflows
+
+- Start `SellerPriceLogWorkflow`: switch to the `sellers-prices` namespace in
+  the Temporal UI, task-queue `sellers-prices`, input `{"seller": "gpgaming"}`.
+  Prices appear in the workflow's **Log** tab, **Input/Results** panel, and
+  `kubectl logs`.
+- Run a workflow from CLI: `TEMPORAL_ADDRESS=<host>:7233 .venv/bin/python -m gamexs_scraper.temporal.run_workflow log-prices`
+- Test activity without Temporal: `.venv/bin/python -c "from gamexs_scraper.temporal.activities import log_seller_prices; print(log_seller_prices({'seller':'gpgaming'}))"`
 
 ## `db/` (Postgres 16)
 
