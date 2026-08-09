@@ -1,9 +1,9 @@
-"""Download IGDB key art (artworks) and upload to S3, then update DB.
+"""Download IGDB main background images and upload them to S3, then update DB.
 
-For each game with an igdb_id, fetches the first IGDB artwork image,
+For each game with an igdb_id, fetches an IGDB artwork image,
 downloads it at t_screenshot_huge resolution (1280×720, WebP), uploads to
-S3 under the artworks/ prefix, and writes the object-storage URL into
-games.key_art_url.
+S3 under the main-background-images/ prefix, and writes the object-storage URL
+into ps5_games.main_background_image_url.
 
 Files already in S3 are skipped — safe to re-run and resume.
 
@@ -14,7 +14,7 @@ Usage (from the scraper/ directory):
     # Against production DB (port-forward on 5435)
     python download_artworks.py --db-url postgresql://gamexs:gamexs@localhost:5435/gamexs
 
-    # Only games that don't yet have key_art_url
+    # Only games that don't yet have main_background_image_url
     python download_artworks.py --missing-only --db-url ...
 
 Required env vars (loaded from ../.env automatically):
@@ -42,10 +42,21 @@ load_dotenv(dotenv_path=Path(__file__).parent.parent / ".env")
 TWITCH_TOKEN_URL  = "https://id.twitch.tv/oauth2/token"
 IGDB_GAMES_URL    = "https://api.igdb.com/v4/games"
 ARTWORK_TEMPLATE  = "https://images.igdb.com/igdb/image/upload/t_screenshot_huge/{image_id}.webp"
-ARTWORKS_DIR      = Path(__file__).parent / "output" / "images" / "artworks"
+MAIN_BACKGROUNDS_DIR = Path(__file__).parent / "output" / "images" / "main-background-images"
 _RATE_DELAY       = 0.28
 _BATCH_SIZE       = 50
 WORKERS           = 8
+
+PREFERRED_MAIN_BACKGROUND_IMAGE_IDS = {
+    # IGDB returns ar3n69 first for 007 First Light, but ar5pnm is the desired
+    # wide marketing background for the GameXS hero/preorder surfaces.
+    141114: "ar5pnm",
+    # IGDB can return logo-like assets before concept art for Assassin's Creed
+    # Shadows. Use the wide scene artwork instead.
+    300976: "ar3mjz",
+    # Prefer the wide cyberpunk scene over logo/key-art-like assets.
+    250617: "ar5k7j",
+}
 
 
 # ---------------------------------------------------------------------------
@@ -60,7 +71,7 @@ def get_access_token(client_id: str, client_secret: str) -> str:
     return resp.json()["access_token"]
 
 
-def fetch_artworks(session: requests.Session, igdb_ids: list[int]) -> dict[int, list[str]]:
+def fetch_main_background_candidates(session: requests.Session, igdb_ids: list[int]) -> dict[int, list[str]]:
     """Return {igdb_id: [image_id, ...]} for each game."""
     ids_str = ", ".join(str(i) for i in igdb_ids)
     resp = session.post(IGDB_GAMES_URL,
@@ -87,7 +98,7 @@ def make_s3(endpoint: str, access: str, secret: str):
 def list_existing_keys(s3, bucket: str) -> set[str]:
     existing: set[str] = set()
     paginator = s3.get_paginator("list_objects_v2")
-    for page in paginator.paginate(Bucket=bucket, Prefix="artworks/"):
+    for page in paginator.paginate(Bucket=bucket, Prefix="main-background-images/"):
         for obj in page.get("Contents", []):
             existing.add(obj["Key"])
     return existing
@@ -123,8 +134,8 @@ def download(url: str, dest: Path, dl_session: requests.Session) -> bool:
 # ---------------------------------------------------------------------------
 def fetch_games(db_url: str, missing_only: bool) -> list[tuple[int, int, str]]:
     """Return [(id, igdb_id, slug)] for games with igdb_id."""
-    sql = ("SELECT id, igdb_id, slug FROM games WHERE igdb_id IS NOT NULL"
-           + (" AND key_art_url IS NULL" if missing_only else "")
+    sql = ("SELECT id, igdb_id, slug FROM ps5_games WHERE igdb_id IS NOT NULL"
+           + (" AND main_background_image_url IS NULL" if missing_only else "")
            + " ORDER BY slug")
     with psycopg.connect(db_url, connect_timeout=10) as conn:
         with conn.cursor() as cur:
@@ -132,22 +143,29 @@ def fetch_games(db_url: str, missing_only: bool) -> list[tuple[int, int, str]]:
             return cur.fetchall()
 
 
-def update_key_art(db_url: str, updates: list[tuple[str, int]]) -> None:
-    """Bulk-update key_art_url. updates = [(url, game_id), ...]"""
+def update_main_background_images(db_url: str, updates: list[tuple[str, int]]) -> None:
+    """Bulk-update main_background_image_url. updates = [(url, game_id), ...]"""
     with psycopg.connect(db_url, connect_timeout=10) as conn:
         with conn.cursor() as cur:
-            cur.executemany("UPDATE games SET key_art_url = %s WHERE id = %s", updates)
+            cur.executemany("UPDATE ps5_games SET main_background_image_url = %s WHERE id = %s", updates)
         conn.commit()
 
 
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
+def choose_main_background_image_id(igdb_id: int, image_ids: list[str]) -> str | None:
+    preferred = PREFERRED_MAIN_BACKGROUND_IMAGE_IDS.get(igdb_id)
+    if preferred and preferred in image_ids:
+        return preferred
+    return image_ids[0] if image_ids else None
+
+
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Download IGDB artworks → S3 → DB")
+    parser = argparse.ArgumentParser(description="Download IGDB main background images → S3 → DB")
     parser.add_argument("--db-url", default=os.environ.get("DATABASE_URL"))
     parser.add_argument("--missing-only", action="store_true",
-                        help="Only process games without key_art_url")
+                        help="Only process games without main_background_image_url")
     args = parser.parse_args()
 
     if not args.db_url:
@@ -171,9 +189,9 @@ def main() -> None:
     total = len(games)
     print(f"  {total} games to process", file=sys.stderr)
 
-    print("Listing existing artworks in S3 …", file=sys.stderr)
+    print("Listing existing main background images in S3 …", file=sys.stderr)
     existing_keys = list_existing_keys(s3, bucket)
-    print(f"  {len(existing_keys)} artworks already in bucket", file=sys.stderr)
+    print(f"  {len(existing_keys)} main background images already in bucket", file=sys.stderr)
 
     print("Obtaining IGDB access token …", file=sys.stderr)
     token = get_access_token(client_id, client_secret)
@@ -199,7 +217,7 @@ def main() -> None:
         print(f"\r[{processed}/{total}] fetching IGDB batch {batch_num}/{len(batches)} …",
               end="", file=sys.stderr)
         try:
-            artworks = fetch_artworks(igdb, batch)
+            artworks = fetch_main_background_candidates(igdb, batch)
             time.sleep(_RATE_DELAY)
         except requests.RequestException as exc:
             print(f"\n  batch {batch_num} error: {exc}", file=sys.stderr)
@@ -211,17 +229,20 @@ def main() -> None:
             if not image_ids:
                 processed += len(rows)
                 continue
-            first_id = image_ids[0]
+            image_id = choose_main_background_image_id(igdb_id, image_ids)
+            if not image_id:
+                processed += len(rows)
+                continue
 
             for game_id, slug in rows:
-                s3_key   = f"artworks/{slug}-key-art.webp"
-                local    = ARTWORKS_DIR / f"{slug}-key-art.webp"
+                s3_key   = f"main-background-images/{slug}-main-background-image.webp"
+                local    = MAIN_BACKGROUNDS_DIR / f"{slug}-main-background-image.webp"
                 full_url = f"{base_url}/{s3_key}"
 
                 if s3_key in existing_keys:
                     db_updates.append((full_url, game_id))
                 else:
-                    img_url = ARTWORK_TEMPLATE.format(image_id=first_id)
+                    img_url = ARTWORK_TEMPLATE.format(image_id=image_id)
                     if download(img_url, local, dl):
                         to_upload.append((local, s3_key, game_id, slug))
                     # else: skip silently, will retry next run
@@ -254,7 +275,7 @@ def main() -> None:
 
     if db_updates:
         print(f"Updating DB ({len(db_updates)} rows) …", file=sys.stderr)
-        update_key_art(args.db_url, db_updates)
+        update_main_background_images(args.db_url, db_updates)
         print("DB updated.", file=sys.stderr)
     else:
         print("No DB updates needed.", file=sys.stderr)
