@@ -7,16 +7,6 @@ import Link from "next/link";
 import MegaMenu from "./MegaMenu";
 import { useAuth } from "@/context/AuthContext";
 
-function CartIcon() {
-  return (
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-      <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
-      <line x1="3" y1="6" x2="21" y2="6" />
-      <path d="M16 10a4 4 0 0 1-8 0" />
-    </svg>
-  );
-}
-
 const SearchOverlay = dynamic(() => import("./SearchOverlay"), { ssr: false });
 
 function SearchIcon() {
@@ -137,21 +127,12 @@ export default function Header() {
               <SearchIcon />
             </button>
             {user ? (
-              <div className="hidden sm:flex items-center gap-2">
-                <Link
-                  href="/account"
-                  className="flex min-h-11 cursor-pointer items-center rounded-full border border-white/35 px-3.5 py-2 text-sm font-medium text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
-                >
-                  حساب کاربری
-                </Link>
-                <Link
-                  href="/cart"
-                  aria-label="سبد خرید"
-                  className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-full text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
-                >
-                  <CartIcon />
-                </Link>
-              </div>
+              <Link
+                href="/account"
+                className="hidden min-h-11 cursor-pointer items-center rounded-full border border-white/35 px-3.5 py-2 text-sm font-medium text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white sm:flex"
+              >
+                حساب کاربری
+              </Link>
             ) : (
               <button
                 onClick={openAuthModal}
@@ -188,14 +169,6 @@ export default function Header() {
             ))}
             {user ? (
               <div className="mt-2 flex flex-col gap-1">
-                <Link
-                  href="/cart"
-                  onClick={() => setMobileOpen(false)}
-                  className="flex min-h-11 items-center gap-2 rounded-xl px-4 py-2.5 text-sm font-medium text-blue-100 transition-colors hover:bg-white/10 hover:text-white"
-                >
-                  <CartIcon />
-                  سبد خرید
-                </Link>
                 <Link
                   href="/account"
                   onClick={() => setMobileOpen(false)}

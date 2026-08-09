@@ -4,15 +4,15 @@ import { SITE_URL } from "@/lib/seo";
 // Explicitly named so AI citation crawlers (GPTBot, PerplexityBot, ClaudeBot,
 // Google-Extended) are never accidentally caught by a narrower future rule —
 // this is a price-comparison site, being cited/quoted by AI answers is a goal,
-// not a risk. Only account/cart (auth-gated, no unique public content) and
-// internal API routes are excluded.
+// not a risk. Only account (auth-gated, no unique public content) and internal
+// API routes are excluded.
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/api/", "/account/", "/cart/"],
+        disallow: ["/api/", "/account/"],
       },
       {
         userAgent: [
@@ -25,7 +25,7 @@ export default function robots(): MetadataRoute.Robots {
           "Bingbot",
         ],
         allow: "/",
-        disallow: ["/api/", "/account/", "/cart/"],
+        disallow: ["/api/", "/account/"],
       },
     ],
     sitemap: `${SITE_URL}/sitemap.xml`,

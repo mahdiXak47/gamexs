@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import Link from "next/link";
 import Header from "@/components/Header";
 
-// Account/cart surfaces: keep the fallback copy generic and never expose
+// Account surfaces: keep the fallback copy generic and never expose
 // user-sensitive details.
 export default function AccountError({
   error,
