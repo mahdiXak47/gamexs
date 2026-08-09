@@ -1,4 +1,5 @@
 import type { AriaAttributes, ReactNode } from "react";
+import Image from "next/image";
 import type { PsStoreInfo } from "@/lib/games-repo";
 
 const PS_STORE_BASE = "https://store.playstation.com";
@@ -6,17 +7,14 @@ const PS_STORE_BASE = "https://store.playstation.com";
 
 function PsPlus({ size = 40, dimmed }: { size?: number; dimmed?: boolean }) {
   return (
-    <svg
-      width={size} height={size}
-      viewBox="0 0 40 40" fill="none"
-      xmlns="http://www.w3.org/2000/svg"
+    <Image
+      src="/icons/ps-plus-no-bg.png"
+      alt=""
+      width={size}
+      height={size}
       aria-hidden="true"
       className={dimmed ? "opacity-40" : undefined}
-    >
-      <circle cx="20" cy="20" r="20" fill="#003791" />
-      <rect x="8" y="17.5" width="24" height="5" rx="2.5" fill="#f6b829" />
-      <rect x="17.5" y="8" width="5" height="24" rx="2.5" fill="#f6b829" />
-    </svg>
+    />
   );
 }
 

@@ -72,11 +72,13 @@ export default function PublisherFilter({
         className="gap-1.5"
       >
         {label}
-        <ChevronDown />
+        <span className={`transition-transform duration-200 ${open ? "rotate-180" : ""}`}>
+          <ChevronDown />
+        </span>
       </Button>
 
       {open && (
-        <div className="absolute start-0 top-full z-50 mt-1 w-64 max-w-[calc(100vw-2rem)] overflow-hidden rounded-xl border border-gray-200 bg-white shadow-2xl">
+        <div className="ui-popover-panel absolute start-0 top-full z-50 mt-1 w-64 max-w-[calc(100vw-2rem)] overflow-hidden rounded-xl border border-gray-200 bg-white shadow-2xl">
           {/* Search inside dropdown */}
           <div className="border-b border-gray-200 p-2">
             <input
@@ -102,13 +104,13 @@ export default function PublisherFilter({
                     key={pub}
                     type="button"
                     onClick={() => toggle(pub)}
-                    className={`flex w-full cursor-pointer items-center gap-3 px-4 py-2 text-sm text-start transition-colors hover:bg-gray-100 ${
+                    className={`flex w-full cursor-pointer items-center gap-3 px-4 py-2 text-sm text-start transition-[background-color,color,transform] duration-150 hover:-translate-x-0.5 hover:bg-gray-100 ${
                       active ? "text-gray-900" : "text-gray-500"
                     }`}
                   >
                     <span
-                      className={`flex h-4 w-4 shrink-0 items-center justify-center rounded border text-[9px] font-bold transition-colors ${
-                        active ? "border-[#003087] bg-[#003087] text-white" : "border-gray-300"
+                      className={`flex h-4 w-4 shrink-0 items-center justify-center rounded border text-[9px] font-bold transition-[background-color,border-color,color,transform] duration-150 ${
+                        active ? "scale-100 border-[#003087] bg-[#003087] text-white" : "scale-90 border-gray-300"
                       }`}
                     >
                       {active && "✓"}

@@ -45,7 +45,7 @@ export default function MegaMenu({
 
   return (
     <div
-      className="fixed left-1/2 -translate-x-1/2 z-[200] shadow-2xl rounded-b-2xl overflow-hidden"
+      className="header-mega-menu fixed left-1/2 z-[200] overflow-hidden rounded-b-2xl shadow-2xl"
       style={{
         top: "60px",
         width: "min(96vw, 760px)",
@@ -64,7 +64,7 @@ export default function MegaMenu({
               href={`/genres/${cat.slug}`}
               onMouseEnter={() => setActiveIdx(i)}
               onClick={onClose}
-              className={`block w-full text-right px-4 py-2.5 rounded-lg text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/40 ${
+              className={`mega-category-link block w-full rounded-lg px-4 py-2.5 text-right text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/40 ${
                 i === activeIdx
                   ? "bg-white/12 text-white font-semibold"
                   : "text-white/60 hover:text-white hover:bg-white/8"
@@ -80,8 +80,17 @@ export default function MegaMenu({
 
         {/* LEFT: Top 6 game covers — 2 rows × 3 columns */}
         <div className="flex-1">
+          <div className="mb-4 flex justify-end">
+            <Link
+              href={`/genres/${GENRES[activeIdx].slug}`}
+              onClick={onClose}
+              className="inline-flex min-h-10 items-center rounded-lg border border-white/15 px-4 py-2 text-sm font-semibold text-white/80 transition-[background-color,color,transform] duration-150 hover:bg-white/10 hover:text-white active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/40"
+            >
+              مشاهده همه بازی‌های این دسته‌بندی
+            </Link>
+          </div>
           {loading ? (
-            <div className="grid grid-cols-3 gap-x-3 gap-y-4">
+            <div key={`loading-${activeIdx}`} className="mega-games-panel grid grid-cols-3 gap-x-3 gap-y-4">
               {[0, 1, 2, 3, 4, 5].map((i) => (
                 <div key={i} className="flex flex-col gap-2">
                   <div className="w-full aspect-[3/4] rounded-lg bg-white/8 animate-pulse" />
@@ -90,23 +99,24 @@ export default function MegaMenu({
               ))}
             </div>
           ) : games.length === 0 ? (
-            <p className="text-white/30 text-sm pt-4">بازی‌ای در این دسته یافت نشد</p>
+            <p key={`empty-${activeIdx}`} className="mega-games-panel text-white/30 text-sm pt-4">بازی‌ای در این دسته یافت نشد</p>
           ) : (
-            <div className="grid grid-cols-3 gap-x-3 gap-y-4 items-start">
-              {games.map((game) => (
+            <div key={`games-${activeIdx}`} className="mega-games-panel grid grid-cols-3 gap-x-3 gap-y-4 items-start">
+              {games.map((game, index) => (
                 <Link
                   key={game.slug}
                   href={`/games/${game.slug}`}
                   onClick={onClose}
-                  className="group flex flex-col gap-1.5"
+                  className="mega-game-card group flex flex-col gap-1.5"
+                  style={{ animationDelay: `${index * 35}ms` }}
                 >
-                  <div className="relative w-full aspect-[3/4] rounded-lg overflow-hidden ring-1 ring-white/15 transition-all duration-200 group-hover:ring-white/50 group-hover:scale-[1.03]">
+                  <div className="relative w-full aspect-[3/4] rounded-lg overflow-hidden ring-1 ring-white/15 transition-[box-shadow,transform] duration-200 group-hover:scale-[1.035] group-hover:shadow-[0_14px_28px_rgba(0,0,0,0.35)]">
                     {game.coverUrl ? (
                       <Image
                         src={game.coverUrl}
                         alt={game.title}
                         fill
-                        className="object-cover"
+                        className="object-cover transition-transform duration-300 group-hover:scale-[1.04]"
                         sizes="150px"
                       />
                     ) : (

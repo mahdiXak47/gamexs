@@ -44,7 +44,7 @@ function CoverFallback({ title }: { title: string }) {
   );
 }
 
-function RecCard({ game }: { game: Recommendation }) {
+function RecCard({ game, index }: { game: Recommendation; index: number }) {
   const src = resolveCoverUrl(game.coverUrl);
 
   return (
@@ -52,7 +52,8 @@ function RecCard({ game }: { game: Recommendation }) {
       href={`/games/${game.slug!}`}
       target="_blank"
       rel="noopener noreferrer"
-      className="group flex flex-col rounded-2xl overflow-hidden bg-white border border-gray-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue"
+      className="ui-stagger-card group flex flex-col rounded-2xl overflow-hidden bg-white border border-gray-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue"
+      style={{ animationDelay: `${Math.min(index, 8) * 35}ms` }}
     >
       <div className="relative aspect-[3/4] overflow-hidden bg-gray-50">
         {src ? (
@@ -319,12 +320,18 @@ export default function GameRecommendations() {
               id="rec-suggestions"
               role="listbox"
               aria-label="پیشنهادهای جستجو"
-              className="absolute z-50 top-full mt-1.5 w-full rounded-xl border border-gray-100 bg-white shadow-xl overflow-hidden"
+              className="ui-popover-panel absolute z-50 top-full mt-1.5 w-full rounded-xl border border-gray-100 bg-white shadow-xl overflow-hidden"
             >
               {suggestions.map((s, i) => {
                 const src = resolveCoverUrl(s.coverUrl);
                 return (
-                  <li key={s.slug} role="option" aria-selected={i === activeIdx}>
+                  <li
+                    key={s.slug}
+                    role="option"
+                    aria-selected={i === activeIdx}
+                    className="ui-list-item"
+                    style={{ animationDelay: `${Math.min(i, 8) * 24}ms` }}
+                  >
                     <button
                       type="button"
                       onClick={() => selectGame(s)}
@@ -367,12 +374,18 @@ export default function GameRecommendations() {
             {recs.length === 0 && loadingRecs && <ThinkingDots />}
             {recs.length > 0 && (
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
-                {recs.map((rec) => (
-                  <RecCard key={rec.aiName} game={rec} />
+                {recs.map((rec, index) => (
+                  <RecCard key={rec.aiName} game={rec} index={index} />
                 ))}
                 {/* Skeleton slots for cards still arriving */}
                 {loadingRecs && Array.from({ length: 5 - recs.length }).map((_, i) => (
-                  <SkeletonCard key={`skel-${i}`} />
+                  <div
+                    key={`skel-${i}`}
+                    className="ui-stagger-card"
+                    style={{ animationDelay: `${Math.min(recs.length + i, 8) * 35}ms` }}
+                  >
+                    <SkeletonCard />
+                  </div>
                 ))}
               </div>
             )}

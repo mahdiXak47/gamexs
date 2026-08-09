@@ -23,7 +23,7 @@ export default function SortBar({ value, onChange }: { value: SortOption; onChan
           variant={value === option.value ? "secondary" : "ghost"}
           size="sm"
           onPress={() => onChange(option.value)}
-          className="shrink-0"
+          className="shrink-0 transition-transform duration-150 active:scale-[0.97]"
         >
           {option.label}
         </Button>

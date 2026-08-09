@@ -90,7 +90,7 @@ function OptionCard({ opt, color }: { opt: PsPlusOption; color: string }) {
   const available = opt.latestPrice != null && opt.inStock;
 
   return (
-    <div className="rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden flex flex-col">
+    <div className="ui-lift-card rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden flex flex-col">
       {/* Capacity header */}
       <div className="px-5 py-4 flex items-center justify-between gap-3" style={{ background: `linear-gradient(135deg, ${color}18 0%, ${color}08 100%)`, borderBottom: `2px solid ${color}30` }}>
         <div>
@@ -112,7 +112,7 @@ function OptionCard({ opt, color }: { opt: PsPlusOption; color: string }) {
       </div>
 
       {/* Seller + link */}
-      <div className="px-5 py-4 flex items-center justify-between gap-3">
+      <div className="flex items-center justify-between gap-3 px-5 py-4 transition-colors duration-150 hover:bg-gray-50">
         <div dir="rtl">
           <p className="text-xs text-gray-400 mb-0.5">فروشنده</p>
           <p className="text-sm font-semibold text-gray-700">{opt.sellerName}</p>
@@ -121,9 +121,9 @@ function OptionCard({ opt, color }: { opt: PsPlusOption; color: string }) {
           href={opt.sourceUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className={`shrink-0 inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-bold transition-opacity ${
+          className={`shrink-0 inline-flex items-center gap-1.5 rounded-full px-4 py-2 text-xs font-bold transition-[opacity,transform] duration-150 ${
             available
-              ? "text-white hover:opacity-90"
+              ? "text-white hover:opacity-90 active:scale-[0.97]"
               : "bg-gray-100 text-gray-400 cursor-not-allowed pointer-events-none"
           }`}
           style={available ? { background: `linear-gradient(135deg, ${color} 0%, ${color}cc 100%)` } : undefined}
@@ -246,7 +246,7 @@ export default async function PsPlusTierPage({
 
           {/* RIGHT: features */}
           <aside className="space-y-4" dir="rtl">
-            <div className="rounded-2xl border border-gray-200 bg-white shadow-sm p-6">
+            <div className="ui-lift-card rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
               <h2 className="text-base font-extrabold text-gray-900 mb-4">امکانات این سطح</h2>
               <ul className="space-y-2.5">
                 {features.map((f) => (
@@ -259,14 +259,14 @@ export default async function PsPlusTierPage({
             </div>
 
             {/* Other tiers */}
-            <div className="rounded-2xl border border-gray-200 bg-white shadow-sm p-6">
+            <div className="ui-lift-card rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
               <h2 className="text-base font-extrabold text-gray-900 mb-3">سایر سطح‌ها</h2>
               <div className="space-y-2">
                 {otherTiers.map((t) => (
                   <Link
                     key={t}
                     href={`/ps-plus/${TIER_SLUG[t]}`}
-                    className="flex items-center justify-between px-4 py-2.5 rounded-xl bg-gray-50 hover:bg-gray-100 transition-colors text-sm font-medium text-gray-700 hover:text-gray-900"
+                    className="flex items-center justify-between rounded-xl bg-gray-50 px-4 py-2.5 text-sm font-medium text-gray-700 transition-[background-color,color,transform] duration-150 hover:-translate-x-0.5 hover:bg-gray-100 hover:text-gray-900"
                   >
                     <span>{TIER_LABEL[t]}</span>
                     <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>

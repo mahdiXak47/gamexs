@@ -65,6 +65,167 @@ body {
   backdrop-filter: blur(18px);
 }
 
+.header-nav-link {
+  position: relative;
+  transition: color 180ms ease-out;
+}
+
+.header-nav-link::after {
+  position: absolute;
+  inset-inline: 0.75rem;
+  bottom: 0;
+  height: 2px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.82);
+  content: "";
+  opacity: 0;
+  transform: scaleX(0.35);
+  transition: opacity 180ms ease-out, transform 180ms ease-out;
+}
+
+.header-nav-link:hover::after,
+.header-nav-active::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.header-nav-active::after {
+  background: var(--color-ps-plus-gold);
+}
+
+@keyframes header-menu-enter {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+@keyframes header-mobile-menu-enter {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header-mega-menu {
+  transform: translateX(-50%);
+  animation: header-menu-enter 180ms ease-out both;
+}
+
+.header-mobile-menu {
+  animation: header-mobile-menu-enter 180ms ease-out both;
+}
+
+.mega-category-link {
+  transition: background-color 160ms ease-out, color 160ms ease-out, transform 160ms ease-out;
+}
+
+.mega-category-link:hover {
+  transform: translateX(-2px);
+}
+
+@keyframes mega-panel-enter {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes mega-card-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.mega-games-panel {
+  animation: mega-panel-enter 180ms ease-out both;
+}
+
+.mega-game-card {
+  animation: mega-card-enter 220ms ease-out both;
+}
+
+@keyframes ui-fade-panel-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes ui-popover-enter {
+  from {
+    opacity: 0;
+    transform: translateY(-6px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes ui-list-item-enter {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ui-fade-panel {
+  animation: ui-fade-panel-enter 220ms ease-out both;
+}
+
+.ui-opacity-enter {
+  animation: hero-background-fade-in 180ms ease-out both;
+}
+
+.ui-popover-panel {
+  transform-origin: top center;
+  animation: ui-popover-enter 180ms ease-out both;
+}
+
+.ui-list-item,
+.ui-stagger-card {
+  animation: ui-list-item-enter 220ms ease-out both;
+}
+
+.ui-lift-card {
+  transition:
+    border-color 180ms ease-out,
+    box-shadow 180ms ease-out,
+    transform 180ms ease-out,
+    background-color 180ms ease-out;
+}
+
+.ui-lift-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 32px rgba(0, 48, 135, 0.12);
+}
+
 /* Hero banner slide content fade-in */
 @keyframes hero-fade-in {
   from {
@@ -126,11 +287,29 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .hero-content-enter,
   .hero-background-enter,
-  .hero-background-exit {
+  .hero-background-exit,
+  .header-mega-menu,
+  .header-mobile-menu,
+  .mega-games-panel,
+  .mega-game-card,
+  .ui-fade-panel,
+  .ui-opacity-enter,
+  .ui-popover-panel,
+  .ui-list-item,
+  .ui-stagger-card {
     animation: none;
   }
 
+  .mega-category-link:hover {
+    transform: none;
+  }
+
   .hero-cta:hover {
+    transform: none;
+  }
+
+  .ui-lift-card,
+  .ui-lift-card:hover {
     transform: none;
   }
 }

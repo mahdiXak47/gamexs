@@ -92,14 +92,14 @@ export default function SearchOverlay({ onClose }: { onClose: () => void }) {
     <>
       {/* Backdrop */}
       <div
-        className="fixed inset-0 z-40 bg-black/60 backdrop-blur-[2px]"
+        className="ui-opacity-enter fixed inset-0 z-40 bg-black/60 backdrop-blur-[2px]"
         onClick={onClose}
         aria-hidden
       />
 
       {/* Panel — sits just below the header */}
       <div
-        className="fixed top-[60px] inset-x-0 z-50 px-4 sm:px-6"
+        className="ui-popover-panel fixed top-[60px] inset-x-0 z-50 px-4 sm:px-6"
         role="dialog"
         aria-modal="true"
         aria-label="جستجو"
@@ -165,7 +165,7 @@ export default function SearchOverlay({ onClose }: { onClose: () => void }) {
               ref={resultsRef}
               role="listbox"
               aria-label="نتایج جستجو"
-              className="mt-1 rounded-xl bg-white shadow-2xl ring-1 ring-black/10 divide-y divide-gray-100 overflow-y-auto max-h-[calc(100vh-120px)]"
+              className="ui-popover-panel mt-1 rounded-xl bg-white shadow-2xl ring-1 ring-black/10 divide-y divide-gray-100 overflow-y-auto max-h-[calc(100vh-120px)]"
             >
               {results.map((item, i) => (
                 <li
@@ -173,6 +173,8 @@ export default function SearchOverlay({ onClose }: { onClose: () => void }) {
                   id={`search-result-${i}`}
                   role="option"
                   aria-selected={i === focused}
+                  className="ui-list-item"
+                  style={{ animationDelay: `${Math.min(i, 8) * 24}ms` }}
                 >
                   <Link
                     href={`/games/${item.slug}`}
@@ -239,7 +241,7 @@ export default function SearchOverlay({ onClose }: { onClose: () => void }) {
 
           {/* No results */}
           {!loading && query.length >= 2 && results.length === 0 && (
-            <div className="mt-1 rounded-xl bg-white px-5 py-6 text-center text-sm text-gray-400 shadow-2xl ring-1 ring-black/10">
+            <div className="ui-popover-panel mt-1 rounded-xl bg-white px-5 py-6 text-center text-sm text-gray-400 shadow-2xl ring-1 ring-black/10">
               نتیجه‌ای برای «{query}» یافت نشد
             </div>
           )}

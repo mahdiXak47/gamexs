@@ -47,7 +47,7 @@ function PlanCard({ plan }: { plan: PsPlusPlan }) {
   const lowestPrice = Math.min(...plan.options.map((o) => o.latestPrice ?? Infinity));
 
   return (
-    <div className="relative rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden flex flex-col">
+    <div className="ui-lift-card relative rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden flex flex-col">
       {/* Colored header */}
       <div className="px-6 py-5 text-white" style={{ background: `linear-gradient(135deg, ${color} 0%, ${color}cc 100%)` }}>
         <TierBadge badge={TIER_BADGE[plan.tier]} />
@@ -77,7 +77,7 @@ function PlanCard({ plan }: { plan: PsPlusPlan }) {
       {/* Capacity rows */}
       <div className="px-6 py-4 flex-1 divide-y divide-gray-100" dir="rtl">
         {plan.options.map((opt) => (
-          <div key={opt.capacity} className="py-3 flex items-center justify-between gap-3">
+          <div key={opt.capacity} className="flex items-center justify-between gap-3 py-3 transition-colors duration-150 hover:bg-gray-50">
             <div>
               <p className="text-sm font-semibold text-gray-800">{CAPACITY_LABEL[opt.capacity]}</p>
               <p className="text-[11px] text-gray-400 leading-snug mt-0.5">{CAPACITY_DESC[opt.capacity]}</p>
@@ -102,7 +102,7 @@ function PlanCard({ plan }: { plan: PsPlusPlan }) {
       <div className="px-6 pb-5 pt-1">
         <Link
           href={`/ps-plus/${slug}`}
-          className="block w-full text-center rounded-xl py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+          className="block w-full rounded-xl py-2.5 text-center text-sm font-semibold text-white transition-[opacity,transform] duration-150 hover:opacity-90 active:scale-[0.98]"
           style={{ background: `linear-gradient(135deg, ${color} 0%, ${color}cc 100%)` }}
         >
           مشاهده جزئیات
@@ -175,7 +175,7 @@ export default async function PsPlusPage() {
           <h2 className="text-lg font-extrabold text-gray-900 mb-4">ظرفیت اکانت چیست؟</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {(["CAPACITY_3", "CAPACITY_2", "CAPACITY_1"] as const).map((cap) => (
-              <div key={cap} className="rounded-xl bg-gray-50 p-4">
+              <div key={cap} className="ui-lift-card rounded-xl bg-gray-50 p-4">
                 <p className="font-bold text-gray-800 text-sm mb-1">{CAPACITY_LABEL[cap]}</p>
                 <p className="text-xs text-gray-500 leading-relaxed">{CAPACITY_DESC[cap]}</p>
               </div>
@@ -191,7 +191,7 @@ export default async function PsPlusPage() {
           </div>
           <Link
             href="/"
-            className="shrink-0 bg-white text-[#003087] font-bold px-6 py-3 rounded-full text-sm hover:bg-blue-50 transition-colors"
+            className="shrink-0 rounded-full bg-white px-6 py-3 text-sm font-bold text-[#003087] transition-[background-color,transform] duration-150 hover:bg-blue-50 active:scale-[0.98]"
           >
             مشاهده همه بازی‌ها
           </Link>

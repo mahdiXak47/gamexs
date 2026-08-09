@@ -55,6 +55,7 @@ export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [megaOpen, setMegaOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
   const { user, openAuthModal } = useAuth();
 
@@ -70,6 +71,13 @@ export default function Header() {
     return () => window.removeEventListener("keydown", handler);
   }, []);
 
+  useEffect(() => {
+    const updateScrolled = () => setScrolled(window.scrollY > 8);
+    updateScrolled();
+    window.addEventListener("scroll", updateScrolled, { passive: true });
+    return () => window.removeEventListener("scroll", updateScrolled);
+  }, []);
+
   const openMega = () => {
     if (closeTimer.current) clearTimeout(closeTimer.current);
     setMegaOpen(true);
@@ -80,12 +88,16 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-50 shadow-[0_10px_30px_rgba(5,10,25,0.18)]">
+    <header
+      className={`sticky top-0 z-50 transition-shadow duration-200 ${
+        scrolled ? "shadow-[0_14px_36px_rgba(5,10,25,0.28)]" : "shadow-[0_8px_24px_rgba(5,10,25,0.14)]"
+      }`}
+    >
       <div className="ps-header">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2.5 sm:px-6">
 
           {/* Logo */}
-          <Link href="/" className="flex items-center shrink-0" aria-label="GameXS — صفحه اصلی">
+          <Link href="/" className="flex shrink-0 items-center transition-opacity duration-200 hover:opacity-90 active:scale-[0.98]" aria-label="GameXS — صفحه اصلی">
             <Image src="/logos/logo2.png" alt="GameXS" width={1024} height={1024} className="h-11 w-auto" priority />
           </Link>
 
@@ -96,7 +108,7 @@ export default function Header() {
               href="/"
               onMouseEnter={openMega}
               onMouseLeave={scheduledCloseMega}
-              className="flex min-h-11 items-center gap-1 border-b-2 border-ps-plus-gold px-3 py-2 text-sm font-bold text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              className="header-nav-link header-nav-active flex min-h-11 items-center gap-1 px-3 py-2 text-sm font-bold text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
               aria-haspopup="true"
               aria-expanded={megaOpen}
             >
@@ -110,7 +122,7 @@ export default function Header() {
               <Link
                 key={item.label}
                 href={item.href}
-                className="flex min-h-11 items-center border-b-2 border-transparent px-3 py-2 text-sm font-medium text-white/78 transition-colors hover:border-white/80 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                className="header-nav-link flex min-h-11 items-center px-3 py-2 text-sm font-medium text-white/78 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
               >
                 {item.label}
               </Link>
@@ -122,28 +134,28 @@ export default function Header() {
             <button
               aria-label="جستجو"
               onClick={() => setSearchOpen(true)}
-              className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-full text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-full text-white transition-[background-color,transform] duration-150 hover:bg-white/10 active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
             >
               <SearchIcon />
             </button>
             {user ? (
               <Link
                 href="/account"
-                className="hidden min-h-11 cursor-pointer items-center rounded-full border border-white/35 px-3.5 py-2 text-sm font-medium text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white sm:flex"
+                className="hidden min-h-11 cursor-pointer items-center rounded-full border border-white/35 px-3.5 py-2 text-sm font-medium text-white transition-[background-color,transform] duration-150 hover:bg-white/10 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white sm:flex"
               >
                 حساب کاربری
               </Link>
             ) : (
               <button
                 onClick={openAuthModal}
-                className="hidden min-h-11 cursor-pointer items-center gap-1.5 rounded-full border border-white/35 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white sm:inline-flex"
+                className="hidden min-h-11 cursor-pointer items-center gap-1.5 rounded-full border border-white/35 px-4 py-2 text-sm font-medium text-white transition-[background-color,transform] duration-150 hover:bg-white/10 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white sm:inline-flex"
               >
                 ورود
               </button>
             )}
             <button
               aria-label="منو"
-              className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-full text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white md:hidden"
+              className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-full text-white transition-[background-color,transform] duration-150 hover:bg-white/10 active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white md:hidden"
               onClick={() => setMobileOpen((o) => !o)}
             >
               <MenuIcon />
@@ -156,7 +168,7 @@ export default function Header() {
 
         {/* Mobile menu */}
         {mobileOpen && (
-          <div className="flex flex-col gap-1 border-t border-white/15 px-4 py-3 md:hidden">
+          <div className="header-mobile-menu flex flex-col gap-1 border-t border-white/15 px-4 py-3 md:hidden">
             {mobileNavItems.map((item) => (
               <Link
                 key={item.label}

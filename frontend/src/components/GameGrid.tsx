@@ -135,13 +135,21 @@ export default function GameGrid({
         </div>
       ) : (
         <>
-          <div className="mt-6 grid grid-cols-2 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          <div
+            key={`${basePath}-${query}-${sort}-${page}-${selectedPublishers.join("|")}`}
+            className="mt-6 grid grid-cols-2 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+          >
             {games.map((game, i) => (
-              <GameCard
+              <div
                 key={game.slug}
-                game={game}
-                isBestPrice={sort === "price_asc" && page === 1 && i === 0 && game.lowestPriceToman !== null}
-              />
+                className="ui-stagger-card h-full"
+                style={{ animationDelay: `${Math.min(i, 11) * 28}ms` }}
+              >
+                <GameCard
+                  game={game}
+                  isBestPrice={sort === "price_asc" && page === 1 && i === 0 && game.lowestPriceToman !== null}
+                />
+              </div>
             ))}
           </div>
 
