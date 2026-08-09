@@ -226,6 +226,60 @@ body {
   box-shadow: 0 16px 32px rgba(0, 48, 135, 0.12);
 }
 
+@keyframes page-loading-enter {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes loading-item-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.99);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes loading-soft-glow {
+  0%,
+  100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+.page-loading-shell {
+  animation: page-loading-enter 240ms ease-out both;
+}
+
+.loading-stagger-item {
+  animation: loading-item-enter 240ms ease-out both;
+}
+
+.loading-surface {
+  position: relative;
+}
+
+.loading-surface::before {
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(0, 48, 135, 0.08), rgba(246, 184, 41, 0.08));
+  content: "";
+  pointer-events: none;
+  animation: loading-soft-glow 1600ms ease-in-out infinite;
+}
+
 /* Hero banner slide content fade-in */
 @keyframes hero-fade-in {
   from {
@@ -296,7 +350,10 @@ body {
   .ui-opacity-enter,
   .ui-popover-panel,
   .ui-list-item,
-  .ui-stagger-card {
+  .ui-stagger-card,
+  .page-loading-shell,
+  .loading-stagger-item,
+  .loading-surface::before {
     animation: none;
   }
 
