@@ -37,38 +37,52 @@ export default function HeroBanner({
 }) {
   const [current, setCurrent] = useState(0);
   const [paused, setPaused] = useState(false);
+  const [previousBackgroundUrl, setPreviousBackgroundUrl] = useState<string | null>(null);
   const resumeTimer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
+  const backgroundFadeTimer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
   const reducedMotion = useReducedMotion();
 
-  const next = useCallback(() => setCurrent((i) => (i + 1) % games.length), [games.length]);
   const pauseTemporarily = useCallback(() => {
     if (resumeTimer.current) clearTimeout(resumeTimer.current);
     setPaused(true);
     resumeTimer.current = setTimeout(() => setPaused(false), 6000);
   }, []);
 
-  // Manual navigation pauses auto-advance for 6s then resumes.
-  const goTo = useCallback((i: number) => {
-    setCurrent(i);
-    pauseTemporarily();
-  }, [pauseTemporarily]);
-
-  // Auto-advance — stopped when paused, user prefers reduced motion, or only 1 slide
-  useEffect(() => {
-    if (paused || games.length <= 1 || reducedMotion) return;
-    const id = setInterval(next, 5000);
-    return () => clearInterval(id);
-  }, [paused, next, games.length, reducedMotion]);
-
   useEffect(() => {
     return () => {
       if (resumeTimer.current) clearTimeout(resumeTimer.current);
+      if (backgroundFadeTimer.current) clearTimeout(backgroundFadeTimer.current);
     };
   }, []);
 
-  if (games.length === 0) return null;
-  const game = games[current];
-  const backgroundUrl = game.keyArtUrl ?? game.screenshotUrl ?? game.coverUrl;
+  const game = games[current] ?? null;
+  const backgroundUrl = game ? game.keyArtUrl ?? game.screenshotUrl ?? game.coverUrl : null;
+
+  const switchTo = useCallback((i: number) => {
+    if (i === current) return;
+    if (!reducedMotion && backgroundUrl) {
+      if (backgroundFadeTimer.current) clearTimeout(backgroundFadeTimer.current);
+      setPreviousBackgroundUrl(backgroundUrl);
+      backgroundFadeTimer.current = setTimeout(() => setPreviousBackgroundUrl(null), 420);
+    }
+    setCurrent(i);
+  }, [backgroundUrl, current, reducedMotion]);
+
+  const goTo = (i: number) => {
+    switchTo(i);
+    pauseTemporarily();
+  };
+
+  // Auto-advance — stopped when paused, user prefers reduced motion, or only 1 slide.
+  useEffect(() => {
+    if (paused || games.length <= 1 || reducedMotion) return;
+    const id = setInterval(() => {
+      switchTo((current + 1) % games.length);
+    }, 5000);
+    return () => clearInterval(id);
+  }, [current, games.length, paused, reducedMotion, switchTo]);
+
+  if (!game) return null;
 
   return (
     <section
@@ -81,6 +95,16 @@ export default function HeroBanner({
       aria-roledescription="carousel"
     >
       <div className="absolute inset-0" aria-hidden>
+        {previousBackgroundUrl && (
+          <Image
+            key={`previous-${previousBackgroundUrl}`}
+            src={previousBackgroundUrl}
+            alt=""
+            fill
+            sizes="100vw"
+            className="hero-background-exit object-cover object-center"
+          />
+        )}
         {backgroundUrl ? (
           <Image
             key={backgroundUrl}
@@ -88,7 +112,7 @@ export default function HeroBanner({
             alt=""
             fill
             sizes="100vw"
-            className="hero-art-motion object-cover object-center"
+            className="hero-background-enter object-cover object-center"
             priority
           />
         ) : (
@@ -130,7 +154,7 @@ export default function HeroBanner({
           <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
             <Link
               href={`/games/${game.slug}`}
-              className="inline-flex min-h-12 w-fit cursor-pointer items-center justify-center rounded-lg bg-ps-plus-gold px-7 py-3 text-sm font-extrabold text-gray-950 shadow-[0_14px_32px_rgba(246,184,41,0.24)] transition-colors hover:bg-[#ffd35a] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-transparent"
+              className="hero-cta inline-flex min-h-12 w-fit cursor-pointer items-center justify-center rounded-lg bg-ps-plus-gold px-7 py-3 text-sm font-extrabold text-gray-950 shadow-[0_14px_32px_rgba(246,184,41,0.24)] transition-[background-color,box-shadow,transform] duration-200 hover:bg-[#ffd35a] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-transparent"
             >
               {copy.cta ?? "مشاهده قیمت‌ها"}
             </Link>
@@ -166,7 +190,9 @@ export default function HeroBanner({
                   aria-selected={i === current}
                   aria-label={g.title}
                   onClick={() => goTo(i)}
-                  className="group relative aspect-[4/5] cursor-pointer overflow-hidden rounded-lg bg-white/10 text-right shadow-lg transition-transform duration-300 hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                  className={`group relative aspect-[4/5] cursor-pointer overflow-hidden rounded-lg bg-white/10 text-right shadow-lg transition-[opacity,transform] duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white ${
+                    i === current ? "scale-[1.04] opacity-100" : "opacity-75 hover:scale-105 hover:opacity-100"
+                  }`}
                 >
                   {g.coverUrl ? (
                     <Image
