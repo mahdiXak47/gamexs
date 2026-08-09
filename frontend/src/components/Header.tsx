@@ -90,7 +90,7 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-50 border-b border-white/10 shadow-[0_10px_30px_rgba(5,10,25,0.18)]">
+    <header className="sticky top-0 z-50 shadow-[0_10px_30px_rgba(5,10,25,0.18)]">
       <div className="ps-header">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2.5 sm:px-6">
 

@@ -20,22 +20,6 @@ function useReducedMotion() {
   return reduced;
 }
 
-function ChevronLeft({ size = 20 }: { size?: number }) {
-  return (
-    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-      <path d="M15 18l-6-6 6-6" />
-    </svg>
-  );
-}
-
-function ChevronRight({ size = 20 }: { size?: number }) {
-  return (
-    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-      <path d="M9 18l6-6-6-6" />
-    </svg>
-  );
-}
-
 export default function HeroBanner({ games }: { games: GameSummary[] }) {
   const [current, setCurrent] = useState(0);
   const [paused, setPaused] = useState(false);
@@ -43,8 +27,6 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
   const reducedMotion = useReducedMotion();
 
   const next = useCallback(() => setCurrent((i) => (i + 1) % games.length), [games.length]);
-  const prev = useCallback(() => setCurrent((i) => (i - 1 + games.length) % games.length), [games.length]);
-
   const pauseTemporarily = useCallback(() => {
     if (resumeTimer.current) clearTimeout(resumeTimer.current);
     setPaused(true);
@@ -56,16 +38,6 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
     setCurrent(i);
     pauseTemporarily();
   }, [pauseTemporarily]);
-
-  const handlePrev = useCallback(() => {
-    prev();
-    pauseTemporarily();
-  }, [pauseTemporarily, prev]);
-
-  const handleNext = useCallback(() => {
-    next();
-    pauseTemporarily();
-  }, [next, pauseTemporarily]);
 
   // Auto-advance — stopped when paused, user prefers reduced motion, or only 1 slide
   useEffect(() => {
@@ -82,7 +54,7 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
 
   if (games.length === 0) return null;
   const game = games[current];
-  const backgroundUrl = game.keyArtUrl ?? game.coverUrl;
+  const backgroundUrl = game.screenshotUrl ?? game.keyArtUrl ?? game.coverUrl;
 
   return (
     <section
@@ -102,7 +74,7 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
             alt=""
             fill
             sizes="100vw"
-            className="hero-art-motion object-cover object-center opacity-80"
+            className="hero-art-motion object-cover object-center"
             priority
           />
         ) : (
@@ -112,7 +84,7 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
         <div className="absolute inset-0 bg-[linear-gradient(0deg,rgba(3,7,18,0.96)_0%,rgba(3,7,18,0.42)_34%,rgba(3,7,18,0.12)_100%)]" />
       </div>
 
-      <div className="relative z-10 mx-auto flex min-h-[calc(100svh-96px)] max-w-7xl flex-col justify-end px-4 pb-5 pt-16 sm:min-h-[calc(100svh-104px)] sm:px-6 lg:min-h-[min(690px,calc(100svh-104px))]">
+      <div className="relative z-10 mx-auto flex min-h-[calc(100svh-64px)] max-w-7xl flex-col justify-end px-4 pb-5 pt-16 sm:min-h-[calc(100svh-68px)] sm:px-6">
         <div
           key={current}
           className="hero-content-enter mb-8 max-w-xl sm:mb-10 lg:mb-12"
@@ -165,15 +137,7 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
         </div>
 
         {games.length > 1 && (
-          <div className="flex items-center gap-3" dir="ltr">
-            <button
-              onClick={handlePrev}
-              aria-label="بازی قبلی"
-              className="hidden h-12 w-12 shrink-0 cursor-pointer items-center justify-center rounded-full bg-white/12 text-white backdrop-blur-md transition-colors hover:bg-white/22 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white sm:flex"
-            >
-              <ChevronLeft />
-            </button>
-
+          <div className="flex items-center" dir="ltr">
             <div
               className="hide-scrollbar grid min-w-0 flex-1 auto-cols-[112px] grid-flow-col gap-3 overflow-x-auto pb-1 sm:auto-cols-[132px] md:auto-cols-[148px]"
               role="tablist"
@@ -186,9 +150,7 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
                   aria-selected={i === current}
                   aria-label={g.title}
                   onClick={() => goTo(i)}
-                  className={`group relative aspect-[5/4] cursor-pointer overflow-hidden rounded-lg bg-white/10 text-right shadow-lg transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white ${
-                    i === current ? "ring-2 ring-white" : "ring-1 ring-white/12 hover:ring-white/60"
-                  }`}
+                  className="group relative aspect-[4/5] cursor-pointer overflow-hidden rounded-lg bg-white/10 text-right shadow-lg transition-transform duration-300 hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
                 >
                   {g.coverUrl ? (
                     <Image
@@ -196,7 +158,7 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
                       alt=""
                       fill
                       sizes="(max-width: 640px) 112px, (max-width: 768px) 132px, 148px"
-                      className="object-cover transition-transform duration-300 group-hover:scale-105"
+                      className="object-cover"
                     />
                   ) : (
                     <span className="flex h-full w-full items-center justify-center bg-ps-blue text-xl font-black text-white">
@@ -211,14 +173,6 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
                 </button>
               ))}
             </div>
-
-            <button
-              onClick={handleNext}
-              aria-label="بازی بعدی"
-              className="hidden h-12 w-12 shrink-0 cursor-pointer items-center justify-center rounded-full bg-white/12 text-white backdrop-blur-md transition-colors hover:bg-white/22 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white sm:flex"
-            >
-              <ChevronRight />
-            </button>
           </div>
         )}
       </div>

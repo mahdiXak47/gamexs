@@ -42,12 +42,21 @@ interface GameSummaryRow {
   publisher: string | null;
   cover_url: string | null;
   key_art_url: string | null;
+  screenshot_ids: string[] | null;
   lowest_price: string | null;
   lowest_product_type: ProductType | null;
   lowest_tier: AccessTier | null;
   store_count: string;
   purchase_type_count: string;
   created_at: Date;
+}
+
+function firstS3ScreenshotUrl(screenshotIds: string[] | null): string | null {
+  for (const id of screenshotIds ?? []) {
+    if (id.startsWith("http")) return normalizeS3Url(id);
+    if (id.includes(".")) return s3ScreenshotUrl(id);
+  }
+  return null;
 }
 
 function rowToGameSummary(row: GameSummaryRow): GameSummary {
@@ -59,6 +68,7 @@ function rowToGameSummary(row: GameSummaryRow): GameSummary {
     coverInitial: deriveInitial(row.title),
     coverUrl: toCoverUrl(row.cover_url, row.slug),
     keyArtUrl: row.key_art_url ? normalizeS3Url(row.key_art_url) : null,
+    screenshotUrl: firstS3ScreenshotUrl(row.screenshot_ids),
     lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
     lowestPriceLabel: row.lowest_product_type
       ? purchasePathLabel(row.lowest_product_type, row.lowest_tier)
@@ -158,6 +168,7 @@ export async function listGames(): Promise<GameSummary[]> {
       g.publisher,
       g.cover_url,
       g.key_art_url,
+      g.screenshot_ids,
       g.created_at,
       MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
       (ARRAY_AGG(l.product_type ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_product_type,
@@ -233,6 +244,7 @@ export async function listGamesPage(options: ListGamesOptions = {}): Promise<Pag
         g.publisher,
         g.cover_url,
         g.key_art_url,
+        g.screenshot_ids,
         g.created_at,
         MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
         (ARRAY_AGG(l.product_type ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_product_type,
@@ -339,6 +351,7 @@ export async function getSimilarGames(
       g.publisher,
       g.cover_url,
       g.key_art_url,
+      g.screenshot_ids,
       g.created_at,
       MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
       (ARRAY_AGG(l.product_type ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_product_type,
@@ -384,6 +397,7 @@ export async function getSimilarGamesByDeveloper(
       g.publisher,
       g.cover_url,
       g.key_art_url,
+      g.screenshot_ids,
       g.created_at,
       MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
       (ARRAY_AGG(l.product_type ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_product_type,
@@ -437,6 +451,7 @@ export async function getGameVersions(
       g.publisher,
       g.cover_url,
       g.key_art_url,
+      g.screenshot_ids,
       g.created_at,
       MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
       (ARRAY_AGG(l.product_type ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_product_type,
@@ -525,8 +540,6 @@ export const getGameBySlug = cache(async function getGameBySlug(slug: string): P
     });
   }
 
-  // screenshot_ids has three shapes:
-  // - Full URL (starts with 'http') → S3 or external CDN, use as-is
   // Screenshots — S3 only. Three shapes in the DB:
   // - Full S3 URL (starts with "http") → use directly.
   // - Bare filename with extension     → construct S3 URL.

@@ -78,6 +78,7 @@ export interface GameSummary {
   coverInitial: string;
   coverUrl: string | null;
   keyArtUrl: string | null;
+  screenshotUrl: string | null;
   lowestPriceToman: number | null;
   lowestPriceLabel: string | null;
   storeCount: number;
