@@ -1,11 +1,30 @@
 "use client";
 
-import { useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Alert, Avatar, Card, Chip, Table } from "@heroui/react";
 import { useToast } from "@/context/ToastContext";
 import { formatToman, toPersianDigits } from "@/lib/format";
 import { bestOfferId, lowestPriceForOption } from "@/lib/purchase-options";
 import type { PurchaseOption } from "@/lib/types";
+
+function purchaseOptionHash(option: PurchaseOption) {
+  if (option.type === "ACCOUNT_GAME") {
+    switch (option.tier) {
+      case "CAPACITY_1":
+        return "buy-capacity_1";
+      case "CAPACITY_2":
+        return "buy-capacity_2";
+      case "CAPACITY_3":
+        return "buy-capacity_3";
+      default:
+        return "buy-account";
+    }
+  }
+
+  if (option.type === "OWN_ACCOUNT_GAME") return "buy-full_capacity";
+  if (option.type === "DISC") return "buy-disc";
+  return "buy-option";
+}
 
 export default function PurchaseTypeSelector({ options }: { options: PurchaseOption[] }) {
   const defaultIndex = Math.max(0, options.findIndex((o) => o.offers.length > 0));
@@ -13,6 +32,29 @@ export default function PurchaseTypeSelector({ options }: { options: PurchaseOpt
   const [openDescription, setOpenDescription] = useState<string | null>(null);
   const option = options[selected];
   const selectedKey = `${option.type}-${option.tier ?? "x"}`;
+  const selectOption = useCallback((index: number, updateHash: boolean) => {
+    const nextOption = options[index];
+    if (!nextOption) return;
+
+    setSelected(index);
+    setOpenDescription(null);
+
+    if (updateHash && typeof window !== "undefined") {
+      window.history.replaceState(null, "", `#${purchaseOptionHash(nextOption)}`);
+    }
+  }, [options]);
+
+  useEffect(() => {
+    const selectFromHash = () => {
+      const hash = decodeURIComponent(window.location.hash.replace(/^#/, ""));
+      const index = options.findIndex((opt) => purchaseOptionHash(opt) === hash);
+      if (index >= 0) selectOption(index, false);
+    };
+
+    selectFromHash();
+    window.addEventListener("hashchange", selectFromHash);
+    return () => window.removeEventListener("hashchange", selectFromHash);
+  }, [options, selectOption]);
 
   return (
     <section className="mt-10">
@@ -27,14 +69,20 @@ export default function PurchaseTypeSelector({ options }: { options: PurchaseOpt
           const stores = new Set(opt.offers.map((o) => o.sellerId)).size;
           const active = i === selected;
           const key = `${opt.type}-${opt.tier ?? "x"}`;
+          const hash = purchaseOptionHash(opt);
           const descriptionOpen = openDescription === key;
           return (
             <Card
               key={key}
+              id={hash}
               role="button"
               tabIndex={0}
-              onClick={() => { setSelected(i); setOpenDescription(null); }}
-              onKeyDown={(e: React.KeyboardEvent) => e.key === "Enter" && setSelected(i)}
+              onClick={() => selectOption(i, true)}
+              onKeyDown={(e: React.KeyboardEvent) => {
+                if (e.key !== "Enter" && e.key !== " ") return;
+                e.preventDefault();
+                selectOption(i, true);
+              }}
               className={`ui-lift-card cursor-pointer overflow-visible p-4 text-right ${
                 active ? "-translate-y-0.5 border-2 border-warning shadow-lg shadow-amber-500/15" : "hover:border-accent"
               }`}
