@@ -1,4 +1,4 @@
-// S3 object storage — single source of truth for cover/screenshot images.
+// S3 object storage — single source of truth for cover/artwork/screenshot images.
 // No node:fs — safe to import from any component boundary.
 //
 // S3_ENDPOINT_URL and S3_BUCKET are read from env (set in .env.local for
@@ -27,6 +27,11 @@ export function normalizeS3Url(url: string): string {
 /** Canonical S3 URL for a game's main cover image. */
 export function s3CoverUrl(slug: string): string {
   return `${S3_BASE}/covers/${slug}-main-cover.webp`;
+}
+
+/** Canonical S3 URL for a game's key artwork image. */
+export function s3ArtworkUrl(slug: string): string {
+  return `${S3_BASE}/artworks/${slug}-key-art.webp`;
 }
 
 /** Canonical S3 URL for a screenshot filename as stored in screenshot_ids. */

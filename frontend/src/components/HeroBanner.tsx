@@ -54,7 +54,7 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
 
   if (games.length === 0) return null;
   const game = games[current];
-  const backgroundUrl = game.screenshotUrl ?? game.keyArtUrl ?? game.coverUrl;
+  const backgroundUrl = game.keyArtUrl ?? game.screenshotUrl ?? game.coverUrl;
 
   return (
     <section

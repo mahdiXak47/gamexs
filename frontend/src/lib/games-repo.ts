@@ -1,6 +1,6 @@
 import { cache } from "react";
 import { query } from "./db";
-import { s3CoverUrl, s3ScreenshotUrl, normalizeS3Url } from "./covers";
+import { s3ArtworkUrl, s3CoverUrl, s3ScreenshotUrl, normalizeS3Url } from "./covers";
 import { getGameDetails } from "./game-details";
 import { emptyPurchaseOptions, findOption, purchasePathLabel } from "./purchase-options";
 import type { AccessTier, Game, GameSummary, ProductType, SortOption, UpcomingGame } from "./types";
@@ -67,7 +67,7 @@ function rowToGameSummary(row: GameSummaryRow): GameSummary {
     publisher: row.publisher,
     coverInitial: deriveInitial(row.title),
     coverUrl: toCoverUrl(row.cover_url, row.slug),
-    keyArtUrl: row.key_art_url ? normalizeS3Url(row.key_art_url) : null,
+    keyArtUrl: row.key_art_url ? normalizeS3Url(row.key_art_url) : s3ArtworkUrl(row.slug),
     screenshotUrl: firstS3ScreenshotUrl(row.screenshot_ids),
     lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
     lowestPriceLabel: row.lowest_product_type
