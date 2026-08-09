@@ -8,6 +8,7 @@ import Disclaimer from "@/components/Disclaimer";
 import FaqSection from "@/components/FaqSection";
 import GamePreorderBanner from "@/components/GamePreorderBanner";
 import GameVersions from "@/components/GameVersions";
+import GameViewTracker from "@/components/GameViewTracker";
 import Header from "@/components/Header";
 import JsonLd from "@/components/JsonLd";
 import PsStorePriceBadges from "@/components/PsStorePriceBadges";
@@ -188,6 +189,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
       <JsonLd data={productJsonLd} />
       <JsonLd data={breadcrumbJsonLd} />
       <JsonLd data={faqPageJsonLd(faqs)} />
+      <GameViewTracker slug={game.slug} />
       <Header />
       <main className="flex-1">
 

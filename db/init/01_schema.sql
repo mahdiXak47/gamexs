@@ -72,6 +72,35 @@ CREATE TABLE price_history (
 
 CREATE INDEX idx_price_history_listing_scraped ON price_history (listing_id, scraped_at DESC);
 
+-- Aggregated game detail page views. `total_views` increments for accepted
+-- visits; `unique_daily_views` increments at most once per anonymous visitor
+-- per game per day via game_page_view_uniques.
+CREATE TABLE game_page_view_stats (
+    game_id INT PRIMARY KEY REFERENCES ps5_games (id) ON DELETE CASCADE,
+    total_views BIGINT NOT NULL DEFAULT 0,
+    unique_daily_views BIGINT NOT NULL DEFAULT 0,
+    last_viewed_at TIMESTAMPTZ
+);
+
+CREATE TABLE game_page_view_daily (
+    game_id INT NOT NULL REFERENCES ps5_games (id) ON DELETE CASCADE,
+    viewed_on DATE NOT NULL DEFAULT CURRENT_DATE,
+    total_views BIGINT NOT NULL DEFAULT 0,
+    unique_views BIGINT NOT NULL DEFAULT 0,
+    PRIMARY KEY (game_id, viewed_on)
+);
+
+CREATE TABLE game_page_view_uniques (
+    game_id INT NOT NULL REFERENCES ps5_games (id) ON DELETE CASCADE,
+    viewed_on DATE NOT NULL DEFAULT CURRENT_DATE,
+    visitor_hash TEXT NOT NULL,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+    PRIMARY KEY (game_id, viewed_on, visitor_hash)
+);
+
+CREATE INDEX idx_game_page_view_daily_viewed_on ON game_page_view_daily (viewed_on DESC);
+CREATE INDEX idx_game_page_view_uniques_created_at ON game_page_view_uniques (created_at);
+
 -- One row per submitted Core Web Vitals metric (self-hosted analytics sink,
 -- fed by the frontend's /api/web-vitals route). Append-only.
 CREATE TABLE web_vitals (

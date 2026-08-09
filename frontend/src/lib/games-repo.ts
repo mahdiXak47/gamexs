@@ -187,7 +187,7 @@ export async function listGames(): Promise<GameSummary[]> {
 }
 
 const SORT_CLAUSE: Record<SortOption, string> = {
-  popular: "store_count DESC, title ASC",
+  popular: "popularity_score DESC, store_count DESC, title ASC",
   newest: "created_at DESC",
   price_asc: "lowest_price ASC NULLS LAST",
   price_desc: "lowest_price DESC NULLS LAST",
@@ -250,17 +250,29 @@ export async function listGamesPage(options: ListGamesOptions = {}): Promise<Pag
         (ARRAY_AGG(l.product_type ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_product_type,
         (ARRAY_AGG(l.tier ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_tier,
         COUNT(DISTINCT l.seller_id) AS store_count,
-        COUNT(DISTINCT (l.product_type, l.tier)) AS purchase_type_count
+        COUNT(DISTINCT (l.product_type, l.tier)) AS purchase_type_count,
+        (
+          COUNT(DISTINCT l.seller_id) * 10
+          + COALESCE(view_stats.total_views, 0)
+          + COALESCE(recent_views.views_last_30_days, 0) * 5
+        ) AS popularity_score
       FROM ps5_games g
       LEFT JOIN listings l ON l.game_id = g.id AND l.is_active
       LEFT JOIN latest ON latest.listing_id = l.id
+      LEFT JOIN game_page_view_stats view_stats ON view_stats.game_id = g.id
+      LEFT JOIN LATERAL (
+        SELECT COALESCE(SUM(total_views), 0) AS views_last_30_days
+        FROM game_page_view_daily
+        WHERE game_id = g.id
+          AND viewed_on >= CURRENT_DATE - INTERVAL '30 days'
+      ) recent_views ON true
       WHERE g.platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')
         AND ($1::text IS NULL OR g.genre_label ILIKE $1)
         AND ($2::text IS NULL OR g.title ILIKE $2 OR g.genre_label ILIKE $2)
         AND ($3::text[] IS NULL OR g.publisher = ANY($3))
         AND ($7::product_type IS NULL OR l.product_type = $7::product_type)
         AND ($8::access_tier IS NULL OR l.tier = $8::access_tier)
-      GROUP BY g.id
+      GROUP BY g.id, view_stats.total_views, recent_views.views_last_30_days
       HAVING NOT $6 OR COUNT(DISTINCT l.id) > 0
     )
     SELECT *, COUNT(*) OVER() AS total_count
