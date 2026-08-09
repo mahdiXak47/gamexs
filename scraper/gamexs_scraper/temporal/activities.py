@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import dataclasses
 import json
+import logging
 import os
 import subprocess
 import sys
@@ -87,6 +88,18 @@ def scrape_seller_to_s3(input: dict) -> dict:
             _write_offer_jsonl(jsonl_path, offer)
             offers_count += 1
 
+            if offers_count % 20 == 0:
+                activity.heartbeat(
+                    f"{seller} — {offers_count} offers scraped, {len(seen_urls)} products"
+                )
+
+        activity.logger.info(
+            "%s scrape complete: %s offers across %s products",
+            seller,
+            offers_count,
+            len(seen_urls),
+        )
+
         if not jsonl_path.exists():
             jsonl_path.write_text("", encoding="utf-8")
 
@@ -145,6 +158,7 @@ def log_seller_prices(input: dict) -> dict:
         raise RuntimeError(f"unknown seller {seller!r}")
 
     adapter = ADAPTERS[seller]()
+    prices = []
     count = 0
 
     for offer in adapter.iter_listings():
@@ -152,6 +166,20 @@ def log_seller_prices(input: dict) -> dict:
         scraped_hour = offer.scraped_at.strftime("%H:%M")
         scraped_date = offer.scraped_at.strftime("%Y-%m-%d")
 
+        record = {
+            "game": offer.raw_title,
+            "platform": "PS5",
+            "capacity": tier_label,
+            "price": offer.price_toman,
+            "hour": scraped_hour,
+            "date": scraped_date,
+        }
+        prices.append(record)
+        count += 1
+
+        activity.heartbeat(
+            f"processed {count} — {offer.raw_title[:60]} | capacity={tier_label} | price={offer.price_toman}"
+        )
         activity.logger.info(
             "gpgaming | game=%s | platform=PS5 | capacity=%s | price=%s | hour=%s | date=%s",
             offer.raw_title,
@@ -160,9 +188,8 @@ def log_seller_prices(input: dict) -> dict:
             scraped_hour,
             scraped_date,
         )
-        count += 1
 
-    return {"seller": seller, "offers_logged": count}
+    return {"seller": seller, "offers_logged": len(prices), "prices": prices}
 
 
 @activity.defn(name="enrich_igdb_metadata")

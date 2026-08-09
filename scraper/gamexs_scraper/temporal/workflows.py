@@ -266,4 +266,15 @@ class SellerPriceLogWorkflow:
             retry_policy=RetryPolicy(maximum_attempts=1),
         )
 
+        for record in result.get("prices", []):
+            workflow.logger.info(
+                "gpgaming | game=%s | platform=%s | capacity=%s | price=%s | hour=%s | date=%s",
+                record["game"],
+                record["platform"],
+                record["capacity"],
+                record["price"],
+                record["hour"],
+                record["date"],
+            )
+
         return result

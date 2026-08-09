@@ -15,6 +15,7 @@ async def _main() -> None:
     parser.add_argument("workflow", choices=["sellers", "metadata", "log-prices"])
     parser.add_argument("--id", default=None, help="Workflow id. Defaults to gamexs-<workflow>-<timestamp>.")
     parser.add_argument("--limit-products", type=int, default=None, help="Seller workflow product limit for smoke tests")
+    parser.add_argument("--seller", type=str, default="gpgaming", help="Seller slug for log-prices workflow")
     parser.add_argument("--igdb-limit", type=int, default=None)
     parser.add_argument("--psstore-limit", type=int, default=None)
     args = parser.parse_args()
@@ -36,7 +37,7 @@ async def _main() -> None:
         workflow_id = args.id or f"gamexs-log-prices-{now}"
         result = await client.execute_workflow(
             SellerPriceLogWorkflow.run,
-            {"seller": "gpgaming"},
+            {"seller": args.seller},
             id=workflow_id,
             task_queue=settings.sellers_task_queue,
         )

@@ -12,6 +12,7 @@ DEFAULT_SELLER_PAIRS: tuple[tuple[str, ...], ...] = (
     ("parsconsole", "cdkeyshare"),
     ("persianconsole", "yungcenter"),
     ("technolife",),
+    ("gpgaming",),
 )
 
 
