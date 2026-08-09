@@ -41,6 +41,7 @@ interface GameSummaryRow {
   genre_label: string | null;
   publisher: string | null;
   cover_url: string | null;
+  key_art_url: string | null;
   lowest_price: string | null;
   lowest_product_type: ProductType | null;
   lowest_tier: AccessTier | null;
@@ -57,6 +58,7 @@ function rowToGameSummary(row: GameSummaryRow): GameSummary {
     publisher: row.publisher,
     coverInitial: deriveInitial(row.title),
     coverUrl: toCoverUrl(row.cover_url, row.slug),
+    keyArtUrl: row.key_art_url ? normalizeS3Url(row.key_art_url) : null,
     lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
     lowestPriceLabel: row.lowest_product_type
       ? purchasePathLabel(row.lowest_product_type, row.lowest_tier)
@@ -155,6 +157,7 @@ export async function listGames(): Promise<GameSummary[]> {
       g.genre_label,
       g.publisher,
       g.cover_url,
+      g.key_art_url,
       g.created_at,
       MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
       (ARRAY_AGG(l.product_type ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_product_type,
@@ -229,6 +232,7 @@ export async function listGamesPage(options: ListGamesOptions = {}): Promise<Pag
         g.genre_label,
         g.publisher,
         g.cover_url,
+        g.key_art_url,
         g.created_at,
         MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
         (ARRAY_AGG(l.product_type ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_product_type,
@@ -334,6 +338,7 @@ export async function getSimilarGames(
       g.genre_label,
       g.publisher,
       g.cover_url,
+      g.key_art_url,
       g.created_at,
       MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
       (ARRAY_AGG(l.product_type ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_product_type,
@@ -378,6 +383,7 @@ export async function getSimilarGamesByDeveloper(
       g.genre_label,
       g.publisher,
       g.cover_url,
+      g.key_art_url,
       g.created_at,
       MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
       (ARRAY_AGG(l.product_type ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_product_type,
@@ -430,6 +436,7 @@ export async function getGameVersions(
       g.genre_label,
       g.publisher,
       g.cover_url,
+      g.key_art_url,
       g.created_at,
       MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
       (ARRAY_AGG(l.product_type ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_product_type,

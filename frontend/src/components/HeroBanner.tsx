@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Chip } from "@heroui/react";
@@ -39,29 +39,33 @@ function ChevronRight({ size = 20 }: { size?: number }) {
 export default function HeroBanner({ games }: { games: GameSummary[] }) {
   const [current, setCurrent] = useState(0);
   const [paused, setPaused] = useState(false);
+  const resumeTimer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
   const reducedMotion = useReducedMotion();
 
   const next = useCallback(() => setCurrent((i) => (i + 1) % games.length), [games.length]);
   const prev = useCallback(() => setCurrent((i) => (i - 1 + games.length) % games.length), [games.length]);
 
-  // Manual navigation pauses auto-advance for 6s then resumes
+  const pauseTemporarily = useCallback(() => {
+    if (resumeTimer.current) clearTimeout(resumeTimer.current);
+    setPaused(true);
+    resumeTimer.current = setTimeout(() => setPaused(false), 6000);
+  }, []);
+
+  // Manual navigation pauses auto-advance for 6s then resumes.
   const goTo = useCallback((i: number) => {
     setCurrent(i);
-    setPaused(true);
-    setTimeout(() => setPaused(false), 6000);
-  }, []);
+    pauseTemporarily();
+  }, [pauseTemporarily]);
 
   const handlePrev = useCallback(() => {
     prev();
-    setPaused(true);
-    setTimeout(() => setPaused(false), 6000);
-  }, [prev]);
+    pauseTemporarily();
+  }, [pauseTemporarily, prev]);
 
   const handleNext = useCallback(() => {
     next();
-    setPaused(true);
-    setTimeout(() => setPaused(false), 6000);
-  }, [next]);
+    pauseTemporarily();
+  }, [next, pauseTemporarily]);
 
   // Auto-advance — stopped when paused, user prefers reduced motion, or only 1 slide
   useEffect(() => {
@@ -70,13 +74,19 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
     return () => clearInterval(id);
   }, [paused, next, games.length, reducedMotion]);
 
+  useEffect(() => {
+    return () => {
+      if (resumeTimer.current) clearTimeout(resumeTimer.current);
+    };
+  }, []);
+
   if (games.length === 0) return null;
   const game = games[current];
+  const backgroundUrl = game.keyArtUrl ?? game.coverUrl;
 
   return (
-    <>
     <section
-      className="relative overflow-hidden"
+      className="relative overflow-hidden bg-[#07101f] text-white"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
       onTouchStart={() => setPaused(true)}
@@ -84,145 +94,134 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
       aria-label="بازی‌های ویژه"
       aria-roledescription="carousel"
     >
-      {/* Blurred background */}
-      <div className="absolute inset-0">
-        {game.coverUrl ? (
+      <div className="absolute inset-0" aria-hidden>
+        {backgroundUrl ? (
           <Image
-            src={game.coverUrl}
+            key={backgroundUrl}
+            src={backgroundUrl}
             alt=""
             fill
-            className="object-cover object-center scale-110 blur-md brightness-[0.6]"
+            sizes="100vw"
+            className="hero-art-motion object-cover object-center opacity-80"
             priority
           />
         ) : (
-          <div className="w-full h-full" style={{ background: "linear-gradient(135deg, #1a3a7a 0%, #0a1f4d 100%)" }} />
+          <div className="h-full w-full bg-[radial-gradient(circle_at_28%_30%,rgba(246,184,41,0.28),transparent_34%),linear-gradient(135deg,#07101f_0%,#003087_54%,#050712_100%)]" />
         )}
-        {/* Gradient: transparent left (cover side) → darker right (info side) */}
-        <div className="absolute inset-0" style={{ background: "linear-gradient(to right, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.35) 40%, rgba(0,0,0,0.72) 100%)" }} />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(3,7,18,0.2)_0%,rgba(3,7,18,0.58)_42%,rgba(3,7,18,0.9)_100%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(0deg,rgba(3,7,18,0.96)_0%,rgba(3,7,18,0.42)_34%,rgba(3,7,18,0.12)_100%)]" />
       </div>
 
-      {/* Two-column layout — dir="ltr" so left/right are always physical */}
-      <div className="relative z-10 flex min-h-[62svh] sm:min-h-[70vh]" dir="ltr">
-
-        {/* LEFT: Large cover art filling the left column */}
-        <div className="hidden md:block relative w-[42%] shrink-0" aria-hidden>
-          {game.coverUrl ? (
-            <Image
-              src={game.coverUrl}
-              alt=""
-              fill
-              className="object-contain object-bottom drop-shadow-2xl"
-              style={{ paddingTop: "48px", paddingLeft: "64px", paddingRight: "16px" }}
-              priority
-            />
-          ) : (
-            <div className="absolute bottom-0 left-16 right-4 top-12 flex items-end justify-center">
-              <div className="aspect-[3/4] w-full max-w-xs bg-white/10 rounded-2xl ring-1 ring-white/20 flex items-center justify-center text-5xl font-bold text-white">
-                {game.coverInitial}
-              </div>
-            </div>
-          )}
-        </div>
-
-        {/* RIGHT: Game info — crossfade on slide change via key */}
+      <div className="relative z-10 mx-auto flex min-h-[calc(100svh-96px)] max-w-7xl flex-col justify-end px-4 pb-5 pt-16 sm:min-h-[calc(100svh-104px)] sm:px-6 lg:min-h-[min(690px,calc(100svh-104px))]">
         <div
           key={current}
-          className="flex-1 flex flex-col justify-end px-5 pb-14 sm:px-8 sm:pb-20 md:px-12 lg:px-16 hero-content-enter"
-          dir="rtl"
+          className="hero-content-enter mb-8 max-w-xl sm:mb-10 lg:mb-12"
           aria-live="polite"
           aria-atomic="true"
         >
-          <div className="max-w-md text-white">
-            <div className="flex flex-wrap items-center gap-2 mb-4">
-              <Chip size="sm" className="bg-ps-blue text-white border-0 text-xs font-bold">PS5</Chip>
-              {game.genreLabel && (
-                <Chip size="sm" className="bg-white/25 text-white border-0 text-xs">{game.genreLabel}</Chip>
-              )}
-            </div>
-            <h2 dir="auto" className="text-right text-2xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-3 drop-shadow-lg">
-              {game.title}
-            </h2>
-            {game.publisher && (
-              <p className="text-blue-200 text-sm mb-5">{game.publisher}</p>
+          <div className="mb-4 flex flex-wrap items-center gap-2">
+            <Chip size="sm" className="border-0 bg-ps-plus-gold text-xs font-extrabold text-gray-950">PS5</Chip>
+            {game.genreLabel && (
+              <Chip size="sm" className="border-0 bg-white/18 text-xs font-semibold text-white backdrop-blur-md">{game.genreLabel}</Chip>
             )}
+            {game.storeCount > 0 && (
+              <Chip size="sm" className="border-0 bg-white/12 text-xs font-semibold text-blue-50 backdrop-blur-md">
+                {game.storeCount} فروشنده
+              </Chip>
+            )}
+          </div>
+
+          <h2 dir="auto" className="mb-4 text-right text-3xl font-black leading-tight drop-shadow-2xl sm:text-5xl lg:text-6xl">
+            {game.title}
+          </h2>
+
+          <p className="mb-6 max-w-lg text-sm leading-7 text-blue-50/90 sm:text-base">
+            قیمت این بازی را بین فروشندگان معتبر مقایسه کن و بهترین گزینه خرید را مستقیم از سایت فروشنده انتخاب کن.
+          </p>
+
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
+            <Link
+              href={`/games/${game.slug}`}
+              className="inline-flex min-h-12 w-fit cursor-pointer items-center justify-center rounded-lg bg-ps-plus-gold px-7 py-3 text-sm font-extrabold text-gray-950 shadow-[0_14px_32px_rgba(246,184,41,0.24)] transition-colors hover:bg-[#ffd35a] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-transparent"
+            >
+              مشاهده قیمت‌ها
+            </Link>
+
             {game.lowestPriceToman !== null && (
-              <div className="mb-6">
-                <p className="flex items-baseline gap-1.5 flex-wrap">
-                  <span className="text-blue-200 text-sm">از</span>
-                  <span className="price-figure font-extrabold text-2xl">{formatToman(game.lowestPriceToman)}</span>
-                  <span className="text-blue-200 text-sm">تومان</span>
+              <div className="min-w-0 border-r border-white/20 pr-4">
+                <p className="flex flex-wrap items-baseline gap-1.5">
+                  <span className="text-xs font-semibold text-blue-100/90">شروع از</span>
+                  <span className="price-figure text-2xl font-black text-white sm:text-3xl">{formatToman(game.lowestPriceToman)}</span>
+                  <span className="text-xs font-semibold text-blue-100/90">تومان</span>
                 </p>
                 {game.lowestPriceLabel && (
-                  <p className="mt-1 text-xs font-medium text-blue-100">
-                    به شکل {game.lowestPriceLabel}
+                  <p className="mt-1 text-xs font-semibold text-ps-plus-gold">
+                    {game.lowestPriceLabel}
                   </p>
                 )}
               </div>
             )}
-            <Link
-              href={`/games/${game.slug}`}
-              className="inline-flex items-center gap-2 bg-white text-ps-blue font-bold px-7 py-3 rounded-full hover:bg-blue-50 transition-colors text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-transparent"
-            >
-              مشاهده قیمت‌ها
-            </Link>
           </div>
         </div>
+
+        {games.length > 1 && (
+          <div className="flex items-center gap-3" dir="ltr">
+            <button
+              onClick={handlePrev}
+              aria-label="بازی قبلی"
+              className="hidden h-12 w-12 shrink-0 cursor-pointer items-center justify-center rounded-full bg-white/12 text-white backdrop-blur-md transition-colors hover:bg-white/22 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white sm:flex"
+            >
+              <ChevronLeft />
+            </button>
+
+            <div
+              className="hide-scrollbar grid min-w-0 flex-1 auto-cols-[112px] grid-flow-col gap-3 overflow-x-auto pb-1 sm:auto-cols-[132px] md:auto-cols-[148px]"
+              role="tablist"
+              aria-label="انتخاب بازی ویژه"
+            >
+              {games.map((g, i) => (
+                <button
+                  key={g.slug}
+                  role="tab"
+                  aria-selected={i === current}
+                  aria-label={g.title}
+                  onClick={() => goTo(i)}
+                  className={`group relative aspect-[5/4] cursor-pointer overflow-hidden rounded-lg bg-white/10 text-right shadow-lg transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white ${
+                    i === current ? "ring-2 ring-white" : "ring-1 ring-white/12 hover:ring-white/60"
+                  }`}
+                >
+                  {g.coverUrl ? (
+                    <Image
+                      src={g.coverUrl}
+                      alt=""
+                      fill
+                      sizes="(max-width: 640px) 112px, (max-width: 768px) 132px, 148px"
+                      className="object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                  ) : (
+                    <span className="flex h-full w-full items-center justify-center bg-ps-blue text-xl font-black text-white">
+                      {g.coverInitial}
+                    </span>
+                  )}
+                  <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/86 to-transparent px-2 pb-2 pt-8">
+                    <span dir="auto" className="block truncate text-xs font-bold text-white">
+                      {g.title}
+                    </span>
+                  </span>
+                </button>
+              ))}
+            </div>
+
+            <button
+              onClick={handleNext}
+              aria-label="بازی بعدی"
+              className="hidden h-12 w-12 shrink-0 cursor-pointer items-center justify-center rounded-full bg-white/12 text-white backdrop-blur-md transition-colors hover:bg-white/22 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white sm:flex"
+            >
+              <ChevronRight />
+            </button>
+          </div>
+        )}
       </div>
-
-      {/* Mobile-visible controls */}
-      {games.length > 1 && (
-        <div className="absolute inset-x-4 top-1/2 z-20 flex -translate-y-1/2 justify-between md:hidden" dir="ltr">
-          <button
-            onClick={handlePrev}
-            aria-label="بازی قبلی"
-            className="flex h-10 w-10 items-center justify-center rounded-full bg-white/90 text-gray-800 shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
-          >
-            <ChevronLeft />
-          </button>
-          <button
-            onClick={handleNext}
-            aria-label="بازی بعدی"
-            className="flex h-10 w-10 items-center justify-center rounded-full bg-white/90 text-gray-800 shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
-          >
-            <ChevronRight />
-          </button>
-        </div>
-      )}
-
-      {/* Segmented bar indicator + desktop prev/next click zones */}
-      <button
-        onClick={handlePrev}
-        aria-label="بازی قبلی"
-        className="absolute right-0 top-0 bottom-0 z-20 hidden w-16 cursor-pointer focus-visible:outline-none md:block"
-      />
-      <button
-        onClick={handleNext}
-        aria-label="بازی بعدی"
-        className="absolute left-0 top-0 bottom-0 z-20 hidden w-16 cursor-pointer focus-visible:outline-none md:block"
-      />
-
     </section>
-
-    {/* Segmented bar indicator — sits on the light page background below the banner */}
-    <div className="flex gap-2 mt-1 mb-2" role="tablist" aria-label="انتخاب بازی ویژه">
-      {games.map((g, i) => (
-        <button
-          key={i}
-          role="tab"
-          aria-selected={i === current}
-          aria-label={g.title}
-          onClick={() => goTo(i)}
-          className="cursor-pointer flex-1 h-[8px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-ps-blue)]"
-        >
-          <span
-            className={`block w-full h-full transition-colors duration-300 ${
-              i === current ? "bg-[var(--color-ps-blue)]" : "bg-gray-400 hover:bg-gray-500"
-            }`}
-          />
-        </button>
-      ))}
-    </div>
-    </>
   );
 }

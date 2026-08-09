@@ -90,13 +90,13 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-50 shadow-md">
+    <header className="sticky top-0 z-50 border-b border-white/10 shadow-[0_10px_30px_rgba(5,10,25,0.18)]">
       <div className="ps-header">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2.5 sm:px-6">
 
           {/* Logo */}
           <Link href="/" className="flex items-center shrink-0" aria-label="GameXS — صفحه اصلی">
-            <Image src="/logos/logo2.png" alt="GameXS" width={1024} height={1024} className="h-12 w-auto" priority />
+            <Image src="/logos/logo2.png" alt="GameXS" width={1024} height={1024} className="h-11 w-auto" priority />
           </Link>
 
           {/* Desktop Navigation */}
@@ -106,7 +106,7 @@ export default function Header() {
               href="/"
               onMouseEnter={openMega}
               onMouseLeave={scheduledCloseMega}
-              className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-white/85 hover:text-white border-b-2 border-transparent hover:border-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              className="flex min-h-11 items-center gap-1 border-b-2 border-ps-plus-gold px-3 py-2 text-sm font-bold text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
               aria-haspopup="true"
               aria-expanded={megaOpen}
             >
@@ -120,7 +120,7 @@ export default function Header() {
               <Link
                 key={item.label}
                 href={item.href}
-                className="px-3 py-2 text-sm font-medium text-white/85 hover:text-white border-b-2 border-transparent hover:border-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                className="flex min-h-11 items-center border-b-2 border-transparent px-3 py-2 text-sm font-medium text-white/78 transition-colors hover:border-white/80 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
               >
                 {item.label}
               </Link>
@@ -132,7 +132,7 @@ export default function Header() {
             <button
               aria-label="جستجو"
               onClick={() => setSearchOpen(true)}
-              className="cursor-pointer p-2 rounded-full text-white hover:bg-white/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-full text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
             >
               <SearchIcon />
             </button>
@@ -140,14 +140,14 @@ export default function Header() {
               <div className="hidden sm:flex items-center gap-2">
                 <Link
                   href="/account"
-                  className="cursor-pointer border border-white/40 text-white text-sm font-medium px-3 py-1.5 rounded-full hover:bg-white/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                  className="flex min-h-11 cursor-pointer items-center rounded-full border border-white/35 px-3.5 py-2 text-sm font-medium text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
                 >
                   حساب کاربری
                 </Link>
                 <Link
                   href="/cart"
                   aria-label="سبد خرید"
-                  className="cursor-pointer p-2 rounded-full text-white hover:bg-white/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                  className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-full text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
                 >
                   <CartIcon />
                 </Link>
@@ -155,14 +155,14 @@ export default function Header() {
             ) : (
               <button
                 onClick={openAuthModal}
-                className="hidden sm:inline-flex cursor-pointer items-center gap-1.5 border border-white/40 text-white text-sm font-medium px-4 py-1.5 rounded-full hover:bg-white/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                className="hidden min-h-11 cursor-pointer items-center gap-1.5 rounded-full border border-white/35 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white sm:inline-flex"
               >
                 ورود
               </button>
             )}
             <button
               aria-label="منو"
-              className="cursor-pointer md:hidden p-2 rounded-full text-white hover:bg-white/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-full text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white md:hidden"
               onClick={() => setMobileOpen((o) => !o)}
             >
               <MenuIcon />
@@ -175,13 +175,13 @@ export default function Header() {
 
         {/* Mobile menu */}
         {mobileOpen && (
-          <div className="md:hidden border-t border-white/20 px-4 py-3 flex flex-col gap-1">
+          <div className="flex flex-col gap-1 border-t border-white/15 px-4 py-3 md:hidden">
             {mobileNavItems.map((item) => (
               <Link
                 key={item.label}
                 href={item.href}
                 onClick={() => setMobileOpen(false)}
-                className="px-4 py-2.5 rounded-xl text-sm font-medium text-blue-100 hover:bg-white/10 hover:text-white transition-colors"
+                className="min-h-11 rounded-xl px-4 py-2.5 text-sm font-medium text-blue-100 transition-colors hover:bg-white/10 hover:text-white"
               >
                 {item.label}
               </Link>
@@ -191,7 +191,7 @@ export default function Header() {
                 <Link
                   href="/cart"
                   onClick={() => setMobileOpen(false)}
-                  className="flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium text-blue-100 hover:bg-white/10 hover:text-white transition-colors"
+                  className="flex min-h-11 items-center gap-2 rounded-xl px-4 py-2.5 text-sm font-medium text-blue-100 transition-colors hover:bg-white/10 hover:text-white"
                 >
                   <CartIcon />
                   سبد خرید
@@ -199,7 +199,7 @@ export default function Header() {
                 <Link
                   href="/account"
                   onClick={() => setMobileOpen(false)}
-                  className="px-4 py-2.5 rounded-xl text-sm font-medium text-blue-100 hover:bg-white/10 hover:text-white transition-colors"
+                  className="min-h-11 rounded-xl px-4 py-2.5 text-sm font-medium text-blue-100 transition-colors hover:bg-white/10 hover:text-white"
                 >
                   حساب کاربری
                 </Link>
@@ -207,7 +207,7 @@ export default function Header() {
             ) : (
               <button
                 onClick={() => { openAuthModal(); setMobileOpen(false); }}
-                className="mt-2 w-full cursor-pointer text-center border border-white/40 text-white text-sm font-medium px-4 py-2 rounded-xl hover:bg-white/10 transition-colors"
+                className="mt-2 min-h-11 w-full cursor-pointer rounded-xl border border-white/40 px-4 py-2 text-center text-sm font-medium text-white transition-colors hover:bg-white/10"
               >
                 ورود
               </button>
