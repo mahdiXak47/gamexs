@@ -1,9 +1,9 @@
 import { cache } from "react";
 import { query } from "./db";
-import { s3ArtworkUrl, s3CoverUrl, s3ScreenshotUrl, normalizeS3Url } from "./covers";
+import { s3CoverUrl, s3ScreenshotUrl, normalizeMainBackgroundImageUrl, normalizeS3Url } from "./covers";
 import { getGameDetails } from "./game-details";
 import { emptyPurchaseOptions, findOption, purchasePathLabel } from "./purchase-options";
-import type { AccessTier, Game, GameSummary, ProductType, SortOption, UpcomingGame } from "./types";
+import type { AccessTier, Game, GameSummary, HeroPriceOption, ProductType, SortOption, UpcomingGame } from "./types";
 
 // Resolve cover URL — S3 only, normalized to HTTPS.
 // 1. DB stores an S3 URL (gs3.gamexs.ir) → use directly (https-normalized).
@@ -54,14 +54,33 @@ interface GameSummaryRow {
   genre_label: string | null;
   publisher: string | null;
   cover_url: string | null;
-  key_art_url: string | null;
+  main_background_image_url: string | null;
   screenshot_ids: string[] | null;
   lowest_price: string | null;
   lowest_product_type: ProductType | null;
   lowest_tier: AccessTier | null;
+  capacity_1_lowest_price?: string | null;
+  capacity_2_lowest_price?: string | null;
+  capacity_3_lowest_price?: string | null;
+  full_capacity_lowest_price?: string | null;
+  disc_lowest_price?: string | null;
   store_count: string;
   purchase_type_count: string;
   created_at: Date;
+}
+
+function toOptionalPrice(value: string | null | undefined): number | null {
+  return value == null ? null : Number(value);
+}
+
+function rowToHeroPriceOptions(row: GameSummaryRow): HeroPriceOption[] {
+  return [
+    { key: "capacity_1", label: "ظرفیت ۱", priceToman: toOptionalPrice(row.capacity_1_lowest_price) },
+    { key: "capacity_2", label: "ظرفیت ۲", priceToman: toOptionalPrice(row.capacity_2_lowest_price) },
+    { key: "capacity_3", label: "ظرفیت ۳", priceToman: toOptionalPrice(row.capacity_3_lowest_price) },
+    { key: "full_capacity", label: "ظرفیت کامل", priceToman: toOptionalPrice(row.full_capacity_lowest_price) },
+    { key: "disc", label: "دیسک", priceToman: toOptionalPrice(row.disc_lowest_price) },
+  ];
 }
 
 function firstS3ScreenshotUrl(screenshotIds: string[] | null): string | null {
@@ -80,12 +99,13 @@ function rowToGameSummary(row: GameSummaryRow): GameSummary {
     publisher: row.publisher,
     coverInitial: deriveInitial(row.title),
     coverUrl: toCoverUrl(row.cover_url, row.slug),
-    keyArtUrl: row.key_art_url ? normalizeS3Url(row.key_art_url) : s3ArtworkUrl(row.slug),
+    mainBackgroundImageUrl: normalizeMainBackgroundImageUrl(row.main_background_image_url, row.slug),
     screenshotUrl: firstS3ScreenshotUrl(row.screenshot_ids),
     lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
     lowestPriceLabel: row.lowest_product_type
       ? purchasePathLabel(row.lowest_product_type, row.lowest_tier)
       : null,
+    heroPriceOptions: rowToHeroPriceOptions(row),
     storeCount: Number(row.store_count),
     purchaseTypeCount: Number(row.purchase_type_count),
     createdAt: row.created_at.getTime(),
@@ -180,12 +200,17 @@ export async function listGames(): Promise<GameSummary[]> {
       g.genre_label,
       g.publisher,
       g.cover_url,
-      g.key_art_url,
+      g.main_background_image_url,
       g.screenshot_ids,
       g.created_at,
       MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
       (ARRAY_AGG(l.product_type ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_product_type,
       (ARRAY_AGG(l.tier ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_tier,
+      MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0 AND l.product_type = 'ACCOUNT_GAME' AND l.tier = 'CAPACITY_1') AS capacity_1_lowest_price,
+      MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0 AND l.product_type = 'ACCOUNT_GAME' AND l.tier = 'CAPACITY_2') AS capacity_2_lowest_price,
+      MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0 AND l.product_type = 'ACCOUNT_GAME' AND l.tier = 'CAPACITY_3') AS capacity_3_lowest_price,
+      MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0 AND l.product_type = 'OWN_ACCOUNT_GAME') AS full_capacity_lowest_price,
+      MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0 AND l.product_type = 'DISC') AS disc_lowest_price,
       COUNT(DISTINCT l.seller_id) AS store_count,
       COUNT(DISTINCT (l.product_type, l.tier)) AS purchase_type_count
     FROM ps5_games g
@@ -280,12 +305,17 @@ export async function listGamesPage(options: ListGamesOptions = {}): Promise<Pag
         g.genre_label,
         g.publisher,
         g.cover_url,
-        g.key_art_url,
+        g.main_background_image_url,
         g.screenshot_ids,
         g.created_at,
         MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
         (ARRAY_AGG(l.product_type ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_product_type,
         (ARRAY_AGG(l.tier ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_tier,
+        MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0 AND l.product_type = 'ACCOUNT_GAME' AND l.tier = 'CAPACITY_1') AS capacity_1_lowest_price,
+        MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0 AND l.product_type = 'ACCOUNT_GAME' AND l.tier = 'CAPACITY_2') AS capacity_2_lowest_price,
+        MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0 AND l.product_type = 'ACCOUNT_GAME' AND l.tier = 'CAPACITY_3') AS capacity_3_lowest_price,
+        MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0 AND l.product_type = 'OWN_ACCOUNT_GAME') AS full_capacity_lowest_price,
+        MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0 AND l.product_type = 'DISC') AS disc_lowest_price,
         COUNT(DISTINCT l.seller_id) AS store_count,
         COUNT(DISTINCT (l.product_type, l.tier)) AS purchase_type_count,
         ${popularitySelect}
@@ -389,7 +419,7 @@ export async function getSimilarGames(
       g.genre_label,
       g.publisher,
       g.cover_url,
-      g.key_art_url,
+      g.main_background_image_url,
       g.screenshot_ids,
       g.created_at,
       MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
@@ -435,7 +465,7 @@ export async function getSimilarGamesByDeveloper(
       g.genre_label,
       g.publisher,
       g.cover_url,
-      g.key_art_url,
+      g.main_background_image_url,
       g.screenshot_ids,
       g.created_at,
       MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
@@ -489,7 +519,7 @@ export async function getGameVersions(
       g.genre_label,
       g.publisher,
       g.cover_url,
-      g.key_art_url,
+      g.main_background_image_url,
       g.screenshot_ids,
       g.created_at,
       MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
@@ -529,11 +559,11 @@ export const getGameBySlug = cache(async function getGameBySlug(slug: string): P
     release_year: number | null;
     release_date: Date | null;
     cover_url: string | null;
-    key_art_url: string | null;
+    main_background_image_url: string | null;
     screenshot_ids: string[] | null;
   }>(
     `
-    SELECT id, slug, title, genre_label, genres, developers, publisher, release_year, release_date, cover_url, key_art_url, screenshot_ids
+    SELECT id, slug, title, genre_label, genres, developers, publisher, release_year, release_date, cover_url, main_background_image_url, screenshot_ids
     FROM ps5_games
     WHERE slug = ANY($1::text[])
     ORDER BY array_position($1::text[], slug)
@@ -603,7 +633,7 @@ export const getGameBySlug = cache(async function getGameBySlug(slug: string): P
     releaseYear: game.release_year,
     coverInitial: deriveInitial(game.title),
     coverUrl: toCoverUrl(game.cover_url, game.slug),
-    keyArtUrl: game.key_art_url ? normalizeS3Url(game.key_art_url) : null,
+    mainBackgroundImageUrl: normalizeMainBackgroundImageUrl(game.main_background_image_url, game.slug),
     releaseDate: game.release_date ? game.release_date.toISOString().slice(0, 10) : null,
     screenshots,
     purchaseOptions,
@@ -621,7 +651,7 @@ const UPCOMING_QUERY = `
     g.slug,
     g.title,
     g.cover_url,
-    g.key_art_url,
+    g.main_background_image_url,
     g.release_date,
     MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
     COUNT(DISTINCT l.seller_id) AS seller_count
@@ -634,12 +664,12 @@ const UPCOMING_QUERY = `
   ORDER BY g.release_date ASC
 `;
 
-function rowToUpcoming(row: { slug: string; title: string; cover_url: string | null; key_art_url: string | null; release_date: Date; lowest_price: string | null; seller_count: string }): UpcomingGame {
+function rowToUpcoming(row: { slug: string; title: string; cover_url: string | null; main_background_image_url: string | null; release_date: Date; lowest_price: string | null; seller_count: string }): UpcomingGame {
   return {
     slug: row.slug,
     title: row.title,
     coverUrl: toCoverUrl(row.cover_url, row.slug),
-    keyArtUrl: row.key_art_url ? normalizeS3Url(row.key_art_url) : s3ArtworkUrl(row.slug),
+    mainBackgroundImageUrl: normalizeMainBackgroundImageUrl(row.main_background_image_url, row.slug),
     releaseDate: row.release_date.toISOString().slice(0, 10),
     lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
     sellerCount: Number(row.seller_count),
@@ -671,7 +701,7 @@ export async function getFeaturedUpcomingGames(slugs: string[]): Promise<Upcomin
       SELECT unnest($1::text[]) AS slug, generate_subscripts($1::text[], 1) AS ord
     )
     SELECT
-      g.slug, g.title, g.cover_url, g.key_art_url, g.release_date,
+      g.slug, g.title, g.cover_url, g.main_background_image_url, g.release_date,
       MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
       COUNT(DISTINCT l.seller_id) AS seller_count,
       w.ord AS slug_order

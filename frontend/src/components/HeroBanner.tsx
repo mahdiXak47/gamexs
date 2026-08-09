@@ -5,12 +5,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { Chip } from "@heroui/react";
 import { formatToman } from "@/lib/format";
-import type { GameSummary } from "@/lib/types";
+import type { GameSummary, HeroPriceOption } from "@/lib/types";
 
 interface HeroBannerCopy {
   ariaLabel?: string;
   badge?: string;
-  description?: string;
   cta?: string;
   pricePrefix?: string;
 }
@@ -26,6 +25,47 @@ function useReducedMotion() {
     return () => mq.removeEventListener("change", handler);
   }, []);
   return reduced;
+}
+
+function buyHashForHeroKey(key: HeroPriceOption["key"]) {
+  return `buy-${key}`;
+}
+
+function HeroPriceRail({ gameSlug, options }: { gameSlug: string; options: HeroPriceOption[] }) {
+  if (options.length === 0) return null;
+
+  return (
+    <aside
+      className="hero-content-enter w-full max-w-sm rounded-2xl border border-white/12 bg-black/28 p-3 shadow-2xl backdrop-blur-xl lg:w-80"
+      aria-label="کمترین قیمت بر اساس مدل خرید"
+    >
+      <div className="mb-2 flex items-center justify-between gap-3 px-1">
+        <p className="text-xs font-bold text-white/86">کمترین قیمت هر مدل خرید</p>
+        <span className="rounded-full bg-white/10 px-2 py-0.5 text-[10px] font-semibold text-white/60">
+          تومان
+        </span>
+      </div>
+      <div className="grid grid-cols-1 gap-2">
+        {options.map((option, index) => (
+          <Link
+            key={option.key}
+            href={`/games/${gameSlug}#${buyHashForHeroKey(option.key)}`}
+            className="ui-stagger-card flex min-h-12 items-center justify-between gap-3 rounded-xl border border-white/10 bg-white/[0.09] px-3 py-2 transition-[background-color,border-color,transform] duration-150 hover:-translate-x-0.5 hover:border-white/20 hover:bg-white/[0.14] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/75"
+            style={{ animationDelay: `${index * 32}ms` }}
+          >
+            <span className="text-xs font-semibold text-blue-50/80">{option.label}</span>
+            {option.priceToman === null ? (
+              <span className="text-xs font-semibold text-white/[0.34]">ناموجود</span>
+            ) : (
+              <span className="price-figure text-sm font-black text-white">
+                {formatToman(option.priceToman)}
+              </span>
+            )}
+          </Link>
+        ))}
+      </div>
+    </aside>
+  );
 }
 
 export default function HeroBanner({
@@ -56,7 +96,7 @@ export default function HeroBanner({
   }, []);
 
   const game = games[current] ?? null;
-  const backgroundUrl = game ? game.keyArtUrl ?? game.screenshotUrl ?? game.coverUrl : null;
+  const backgroundUrl = game ? game.mainBackgroundImageUrl ?? game.screenshotUrl ?? game.coverUrl : null;
 
   const switchTo = useCallback((i: number) => {
     if (i === current) return;
@@ -83,6 +123,8 @@ export default function HeroBanner({
   }, [current, games.length, paused, reducedMotion, switchTo]);
 
   if (!game) return null;
+  const heroPriceOptions = game.heroPriceOptions ?? [];
+  const capacity2Price = heroPriceOptions.find((option) => option.key === "capacity_2")?.priceToman ?? null;
 
   return (
     <section
@@ -125,55 +167,53 @@ export default function HeroBanner({
       <div className="relative z-10 mx-auto flex min-h-dvh max-w-7xl flex-col justify-end px-4 pb-5 pt-16 sm:px-6">
         <div
           key={current}
-          className="hero-content-enter mb-8 max-w-xl sm:mb-10 lg:mb-12"
+          className="mb-8 flex flex-col gap-5 sm:mb-10 lg:mb-12 lg:flex-row lg:items-end lg:justify-between lg:gap-8"
           aria-live="polite"
           aria-atomic="true"
         >
-          <div className="mb-4 flex flex-wrap items-center gap-2">
-            <Chip size="sm" className="border-0 bg-ps-plus-gold text-xs font-extrabold text-gray-950">
-              {copy.badge ?? "PS5"}
-            </Chip>
-            {game.genreLabel && (
-              <Chip size="sm" className="border-0 bg-white/18 text-xs font-semibold text-white backdrop-blur-md">{game.genreLabel}</Chip>
-            )}
-            {game.storeCount > 0 && (
-              <Chip size="sm" className="border-0 bg-white/12 text-xs font-semibold text-blue-50 backdrop-blur-md">
-                {game.storeCount} فروشنده
+          <div className="hero-content-enter max-w-xl">
+            <div className="mb-4 flex flex-wrap items-center gap-2">
+              <Chip size="sm" className="border-0 bg-ps-plus-gold text-xs font-extrabold text-gray-950">
+                {copy.badge ?? "PS5"}
               </Chip>
-            )}
-          </div>
+              {game.genreLabel && (
+                <Chip size="sm" className="border-0 bg-white/18 text-xs font-semibold text-white backdrop-blur-md">{game.genreLabel}</Chip>
+              )}
+              {game.storeCount > 0 && (
+                <Chip size="sm" className="border-0 bg-white/12 text-xs font-semibold text-blue-50 backdrop-blur-md">
+                  {game.storeCount} فروشنده
+                </Chip>
+              )}
+            </div>
 
-          <h2 dir="auto" className="mb-4 text-right text-3xl font-black leading-tight drop-shadow-2xl sm:text-5xl lg:text-6xl">
-            {game.title}
-          </h2>
+            <h2 dir="auto" className="mb-5 text-right text-3xl font-black leading-tight drop-shadow-2xl sm:text-5xl lg:text-6xl">
+              {game.title}
+            </h2>
 
-          <p className="mb-6 max-w-lg text-sm leading-7 text-blue-50/90 sm:text-base">
-            {copy.description ?? "قیمت این بازی را بین فروشندگان معتبر مقایسه کن و بهترین گزینه خرید را مستقیم از سایت فروشنده انتخاب کن."}
-          </p>
+            <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
+              <Link
+                href={`/games/${game.slug}#${buyHashForHeroKey("capacity_2")}`}
+                className="hero-cta inline-flex min-h-12 w-fit cursor-pointer items-center justify-center rounded-lg bg-ps-plus-gold px-7 py-3 text-sm font-extrabold text-gray-950 shadow-[0_14px_32px_rgba(246,184,41,0.24)] transition-[background-color,box-shadow,transform] duration-200 hover:bg-[#ffd35a] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-transparent"
+              >
+                {copy.cta ?? "مشاهده قیمت‌ها"}
+              </Link>
 
-          <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
-            <Link
-              href={`/games/${game.slug}`}
-              className="hero-cta inline-flex min-h-12 w-fit cursor-pointer items-center justify-center rounded-lg bg-ps-plus-gold px-7 py-3 text-sm font-extrabold text-gray-950 shadow-[0_14px_32px_rgba(246,184,41,0.24)] transition-[background-color,box-shadow,transform] duration-200 hover:bg-[#ffd35a] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-transparent"
-            >
-              {copy.cta ?? "مشاهده قیمت‌ها"}
-            </Link>
-
-            {game.lowestPriceToman !== null && (
-              <div className="min-w-0 border-r border-white/20 pr-4">
-                <p className="flex flex-wrap items-baseline gap-1.5">
-                  <span className="text-xs font-semibold text-blue-100/90">{copy.pricePrefix ?? "شروع از"}</span>
-                  <span className="price-figure text-2xl font-black text-white sm:text-3xl">{formatToman(game.lowestPriceToman)}</span>
-                  <span className="text-xs font-semibold text-blue-100/90">تومان</span>
-                </p>
-                {game.lowestPriceLabel && (
-                  <p className="mt-1 text-xs font-semibold text-ps-plus-gold">
-                    {game.lowestPriceLabel}
+              {capacity2Price !== null && (
+                <div className="min-w-0 border-r border-white/20 pr-4">
+                  <p className="flex flex-wrap items-baseline gap-1.5">
+                    <span className="text-xs font-semibold text-blue-100/90">{copy.pricePrefix ?? "شروع از"}</span>
+                    <span className="price-figure text-2xl font-black text-white sm:text-3xl">{formatToman(capacity2Price)}</span>
+                    <span className="text-xs font-semibold text-blue-100/90">تومان</span>
                   </p>
-                )}
-              </div>
-            )}
+                  <p className="mt-1 text-xs font-semibold text-ps-plus-gold">
+                    ظرفیت ۲
+                  </p>
+                </div>
+              )}
+            </div>
           </div>
+
+          <HeroPriceRail gameSlug={game.slug} options={heroPriceOptions} />
         </div>
 
         {games.length > 1 && (

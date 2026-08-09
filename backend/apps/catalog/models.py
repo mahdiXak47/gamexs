@@ -5,6 +5,7 @@ class PS5Game(models.Model):
     title = models.CharField(max_length=512)
     slug = models.CharField(max_length=512)
     cover_url = models.TextField(null=True, blank=True)
+    main_background_image_url = models.TextField(null=True, blank=True)
     igdb_id = models.IntegerField(null=True, blank=True)
     igdb_name = models.CharField(max_length=512, null=True, blank=True)
     genre_label = models.CharField(max_length=200, null=True, blank=True)

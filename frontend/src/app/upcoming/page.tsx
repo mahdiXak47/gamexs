@@ -70,10 +70,11 @@ function upcomingToHeroGame(game: UpcomingGame): GameSummary {
     publisher: null,
     coverInitial: game.title.trim().slice(0, 2).toUpperCase() || "?",
     coverUrl: game.coverUrl,
-    keyArtUrl: game.keyArtUrl,
+    mainBackgroundImageUrl: game.mainBackgroundImageUrl,
     screenshotUrl: null,
     lowestPriceToman: game.lowestPriceToman,
     lowestPriceLabel: null,
+    heroPriceOptions: [],
     storeCount: game.sellerCount,
     purchaseTypeCount: 1,
     createdAt: new Date(game.releaseDate).getTime(),
@@ -83,7 +84,7 @@ function upcomingToHeroGame(game: UpcomingGame): GameSummary {
 // ── Game Card ─────────────────────────────────────────────────────────────────
 
 function UpcomingCard({ game }: { game: UpcomingGame }) {
-  const bg = game.keyArtUrl ?? game.coverUrl;
+  const bg = game.mainBackgroundImageUrl ?? game.coverUrl;
 
   return (
     <Link
@@ -210,7 +211,6 @@ export default async function UpcomingPage() {
         copy={{
           ariaLabel: "بازی‌های پیش‌خرید ویژه",
           badge: "پیش‌خرید",
-          description: "بازی‌های آینده PS5 را دنبال کن، تاریخ انتشار را ببین و قیمت پیش‌خرید را بین فروشندگان مقایسه کن.",
           cta: "مشاهده پیش‌خرید",
           pricePrefix: "پیش‌خرید از",
         }}

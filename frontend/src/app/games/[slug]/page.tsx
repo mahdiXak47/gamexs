@@ -42,7 +42,7 @@ export async function generateMetadata({
     .filter(Boolean)
     .join(" — ")
     .slice(0, 300) || `مقایسه قیمت اکانت، دیسک و اشتراک ${game.title} برای PS5 بین فروشندگان ایرانی`;
-  const image = game.keyArtUrl ?? game.coverUrl ?? undefined;
+  const image = game.mainBackgroundImageUrl ?? game.coverUrl ?? undefined;
 
   return {
     title,
@@ -98,7 +98,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
   // than the portrait cover. For IGDB cover fallbacks swap the tiny size token
   // with t_1080p (1920×1080) so the blowup is at least at native resolution.
   const highResCover = game.coverUrl?.replace("t_cover_big", "t_1080p") ?? game.coverUrl ?? null;
-  const heroBg = game.keyArtUrl ?? game.screenshots[0] ?? highResCover;
+  const heroBg = game.mainBackgroundImageUrl ?? game.screenshots[0] ?? highResCover;
   const hasArt = !!heroBg;
 
   const persianReleaseDate = game.releaseDate
@@ -131,7 +131,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
     "@type": "Product",
     name: game.title,
     description: d?.summary ?? undefined,
-    image: game.coverUrl ?? game.keyArtUrl ?? undefined,
+    image: game.coverUrl ?? game.mainBackgroundImageUrl ?? undefined,
     brand: game.publisher ? { "@type": "Organization", name: game.publisher } : undefined,
     ...(allOffers.length > 0 && {
       offers: {
@@ -196,7 +196,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
         {/* ── Hero section — exactly one viewport tall ── */}
         <div className="relative min-h-[calc(100dvh-60px)] overflow-visible md:h-[calc(100dvh-60px)] md:overflow-hidden">
 
-          {/* Background image — key art preferred, cover as fallback */}
+          {/* Background image — main background image preferred, cover as fallback */}
           {hasArt && (
             <Image
               src={heroBg!}
@@ -329,7 +329,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
         {game.releaseDate && (
           <GamePreorderBanner
             releaseDate={game.releaseDate}
-            keyArtUrl={game.keyArtUrl}
+            mainBackgroundImageUrl={game.mainBackgroundImageUrl}
             title={game.title}
           />
         )}

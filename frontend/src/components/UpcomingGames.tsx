@@ -13,7 +13,7 @@ function formatPersianDate(isoDate: string): string {
 }
 
 function UpcomingCard({ game }: { game: UpcomingGame }) {
-  const bg = game.keyArtUrl ?? game.coverUrl;
+  const bg = game.mainBackgroundImageUrl ?? game.coverUrl;
 
   return (
     <Link

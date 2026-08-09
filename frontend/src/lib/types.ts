@@ -52,7 +52,7 @@ export interface Game {
   releaseDate: string | null; // ISO date string "YYYY-MM-DD"
   coverInitial: string;
   coverUrl: string | null;
-  keyArtUrl: string | null;
+  mainBackgroundImageUrl: string | null;
   screenshots: string[];
   purchaseOptions: PurchaseOption[];
   details: GameDetails | null;
@@ -62,10 +62,16 @@ export interface UpcomingGame {
   slug: string;
   title: string;
   coverUrl: string | null;
-  keyArtUrl: string | null;
+  mainBackgroundImageUrl: string | null;
   releaseDate: string; // ISO date string "YYYY-MM-DD", always present
   lowestPriceToman: number | null;
   sellerCount: number;
+}
+
+export interface HeroPriceOption {
+  key: "capacity_1" | "capacity_2" | "capacity_3" | "full_capacity" | "disc";
+  label: string;
+  priceToman: number | null;
 }
 
 // Lighter shape for the grid — stats are precomputed in SQL rather than
@@ -77,10 +83,11 @@ export interface GameSummary {
   publisher: string | null;
   coverInitial: string;
   coverUrl: string | null;
-  keyArtUrl: string | null;
+  mainBackgroundImageUrl: string | null;
   screenshotUrl: string | null;
   lowestPriceToman: number | null;
   lowestPriceLabel: string | null;
+  heroPriceOptions: HeroPriceOption[];
   storeCount: number;
   purchaseTypeCount: number;
   createdAt: number;

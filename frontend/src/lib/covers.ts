@@ -1,4 +1,4 @@
-// S3 object storage — single source of truth for cover/artwork/screenshot images.
+// S3 object storage — single source of truth for cover/background/screenshot images.
 // No node:fs — safe to import from any component boundary.
 //
 // S3_ENDPOINT_URL and S3_BUCKET are read from env (set in .env.local for
@@ -29,9 +29,30 @@ export function s3CoverUrl(slug: string): string {
   return `${S3_BASE}/covers/${slug}-main-cover.webp`;
 }
 
-/** Canonical S3 URL for a game's key artwork image. */
+/** Canonical S3 URL for a game's legacy artwork image. */
 export function s3ArtworkUrl(slug: string): string {
   return `${S3_BASE}/artworks/${slug}-key-art.webp`;
+}
+
+/** Canonical S3 URL for a game's main background image.
+ *
+ * The frontend currently uses the existing artwork objects as the main
+ * background source. The newer main-background-images prefix is not fully
+ * populated in object storage yet, so deriving those URLs causes 404s.
+ */
+export function s3MainBackgroundImageUrl(slug: string): string {
+  return s3ArtworkUrl(slug);
+}
+
+export function normalizeMainBackgroundImageUrl(url: string | null, slug: string): string {
+  if (!url) return s3MainBackgroundImageUrl(slug);
+  const normalized = normalizeS3Url(url);
+  if (normalized.includes("/main-background-images/")) {
+    return normalized
+      .replace("/main-background-images/", "/artworks/")
+      .replace("-main-background-image.webp", "-key-art.webp");
+  }
+  return normalized;
 }
 
 /** Canonical S3 URL for a screenshot filename as stored in screenshot_ids. */

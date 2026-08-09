@@ -69,25 +69,25 @@ function Separator() {
 
 export default function GamePreorderBanner({
   releaseDate,
-  keyArtUrl,
+  mainBackgroundImageUrl,
   title,
 }: {
   releaseDate: string;
-  keyArtUrl: string | null;
+  mainBackgroundImageUrl: string | null;
   title: string;
 }) {
   if (!isInFuture(releaseDate)) return null;
 
-  return <BannerInner releaseDate={releaseDate} keyArtUrl={keyArtUrl} title={title} />;
+  return <BannerInner releaseDate={releaseDate} mainBackgroundImageUrl={mainBackgroundImageUrl} title={title} />;
 }
 
 function BannerInner({
   releaseDate,
-  keyArtUrl,
+  mainBackgroundImageUrl,
   title,
 }: {
   releaseDate: string;
-  keyArtUrl: string | null;
+  mainBackgroundImageUrl: string | null;
   title: string;
 }) {
   const [, tick] = useReducer((n: number) => n + 1, 0);
@@ -127,10 +127,10 @@ function BannerInner({
         style={{ background: "linear-gradient(135deg, #003087 0%, #0050b3 100%)" }}
       />
 
-      {/* Key art on top of blue, blended via multiply-like opacity */}
-      {keyArtUrl && (
+      {/* Main background image on top of blue, blended via multiply-like opacity */}
+      {mainBackgroundImageUrl && (
         <Image
-          src={keyArtUrl}
+          src={mainBackgroundImageUrl}
           alt=""
           aria-hidden
           fill

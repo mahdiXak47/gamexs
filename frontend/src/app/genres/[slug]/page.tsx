@@ -104,7 +104,6 @@ export default async function GenrePage({
         copy={{
           ariaLabel: `بازی‌های ویژه ${genre.label}`,
           badge: genre.label,
-          description: `بهترین قیمت بازی‌های ${genre.label} برای PS5 را بین فروشندگان معتبر ایرانی مقایسه کن.`,
           cta: "مشاهده قیمت‌ها",
         }}
       />
