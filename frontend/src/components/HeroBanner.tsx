@@ -72,7 +72,7 @@ export default function HeroBanner({
 
   return (
     <section
-      className="relative overflow-hidden bg-[#07101f] text-white"
+      className="relative min-h-dvh overflow-hidden bg-[#07101f] text-white"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
       onTouchStart={() => setPaused(true)}
@@ -98,7 +98,7 @@ export default function HeroBanner({
         <div className="absolute inset-0 bg-[linear-gradient(0deg,rgba(3,7,18,0.96)_0%,rgba(3,7,18,0.42)_34%,rgba(3,7,18,0.12)_100%)]" />
       </div>
 
-      <div className="relative z-10 mx-auto flex min-h-[calc(100svh-64px)] max-w-7xl flex-col justify-end px-4 pb-5 pt-16 sm:min-h-[calc(100svh-68px)] sm:px-6">
+      <div className="relative z-10 mx-auto flex min-h-dvh max-w-7xl flex-col justify-end px-4 pb-5 pt-16 sm:px-6">
         <div
           key={current}
           className="hero-content-enter mb-8 max-w-xl sm:mb-10 lg:mb-12"
