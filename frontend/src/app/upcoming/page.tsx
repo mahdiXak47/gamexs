@@ -4,12 +4,12 @@ import { Chip } from "@heroui/react";
 import Breadcrumb from "@/components/Breadcrumb";
 import Header from "@/components/Header";
 import CountdownTimer from "@/components/CountdownTimer";
+import HeroBanner from "@/components/HeroBanner";
 import JsonLd from "@/components/JsonLd";
-import UpcomingHeroBanner from "@/components/UpcomingHeroBanner";
 import { listAllUpcomingGames, getFeaturedUpcomingGames } from "@/lib/games-repo";
 import { formatToman, toPersianDigits } from "@/lib/format";
 import { breadcrumbJsonLd, SITE_URL } from "@/lib/seo";
-import type { UpcomingGame } from "@/lib/types";
+import type { GameSummary, UpcomingGame } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
 
@@ -60,6 +60,24 @@ function groupByMonth(games: UpcomingGame[]): { label: string; isoMonth: string;
     label: persianMonthLabel(isoMonth + "-01"),
     games,
   }));
+}
+
+function upcomingToHeroGame(game: UpcomingGame): GameSummary {
+  return {
+    slug: game.slug,
+    title: game.title,
+    genreLabel: "پیش‌خرید",
+    publisher: null,
+    coverInitial: game.title.trim().slice(0, 2).toUpperCase() || "?",
+    coverUrl: game.coverUrl,
+    keyArtUrl: game.keyArtUrl,
+    screenshotUrl: null,
+    lowestPriceToman: game.lowestPriceToman,
+    lowestPriceLabel: null,
+    storeCount: game.sellerCount,
+    purchaseTypeCount: 1,
+    createdAt: new Date(game.releaseDate).getTime(),
+  };
 }
 
 // ── Game Card ─────────────────────────────────────────────────────────────────
@@ -160,6 +178,7 @@ export default async function UpcomingPage() {
     getFeaturedUpcomingGames(FEATURED_SLUGS),
   ]);
   const groups = groupByMonth(games);
+  const heroGames = featuredGames.map(upcomingToHeroGame);
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
@@ -186,8 +205,16 @@ export default async function UpcomingPage() {
       <JsonLd data={breadcrumbSchema} />
       <Header />
 
-      {/* Hero carousel — featured upcoming games */}
-      <UpcomingHeroBanner games={featuredGames} />
+      <HeroBanner
+        games={heroGames}
+        copy={{
+          ariaLabel: "بازی‌های پیش‌خرید ویژه",
+          badge: "پیش‌خرید",
+          description: "بازی‌های آینده PS5 را دنبال کن، تاریخ انتشار را ببین و قیمت پیش‌خرید را بین فروشندگان مقایسه کن.",
+          cta: "مشاهده پیش‌خرید",
+          pricePrefix: "پیش‌خرید از",
+        }}
+      />
 
       {/* Content */}
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 flex flex-col gap-10">

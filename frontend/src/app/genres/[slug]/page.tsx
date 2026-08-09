@@ -5,6 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import Header from "@/components/Header";
 import GameGrid from "@/components/GameGrid";
 import Disclaimer from "@/components/Disclaimer";
+import HeroBanner from "@/components/HeroBanner";
 import JsonLd from "@/components/JsonLd";
 import { listGamesPage, listPublishers } from "@/lib/games-repo";
 import { genreBySlug, GENRES } from "@/lib/genres";
@@ -98,31 +99,33 @@ export default async function GenrePage({
       <JsonLd data={breadcrumbSchema} />
       <Header />
 
-      {/* Header band — flat genre-specific color when defined, blue by default */}
-      <div
-        className={genre.headerColor ? undefined : "ps-header"}
-        style={genre.headerColor ? { background: genre.headerColor } : undefined}
-      >
-        <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6">
+      <HeroBanner
+        games={games.slice(0, 5)}
+        copy={{
+          ariaLabel: `بازی‌های ویژه ${genre.label}`,
+          badge: genre.label,
+          description: `بهترین قیمت بازی‌های ${genre.label} برای PS5 را بین فروشندگان معتبر ایرانی مقایسه کن.`,
+          cta: "مشاهده قیمت‌ها",
+        }}
+      />
+
+      <main className="mx-auto max-w-7xl flex-1 px-4 py-8 sm:px-6">
+        <div className="mb-6">
+          <div className="mb-4">
+            <Breadcrumb items={breadcrumbItems} />
+          </div>
           <div className="flex flex-wrap items-center gap-3 mb-1">
-            <h1 className="text-2xl font-extrabold text-white sm:text-3xl">
+            <h1 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">
               {genre.label}
             </h1>
             {total > 0 && (
-              <Chip
-                variant="soft"
-                size="sm"
-                className="bg-white/20 text-white"
-              >
+              <Chip variant="soft" color="default" size="sm">
                 {toPersianDigits(total)} بازی
               </Chip>
             )}
           </div>
-          <Breadcrumb items={breadcrumbItems} light />
         </div>
-      </div>
 
-      <main className="mx-auto max-w-7xl flex-1 px-4 py-8 sm:px-6">
         {total === 0 ? (
           <div className="mt-16 flex flex-col items-center gap-3 text-center">
             <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-gray-300" aria-hidden>

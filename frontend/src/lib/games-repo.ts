@@ -612,7 +612,7 @@ function rowToUpcoming(row: { slug: string; title: string; cover_url: string | n
     slug: row.slug,
     title: row.title,
     coverUrl: toCoverUrl(row.cover_url, row.slug),
-    keyArtUrl: row.key_art_url ? normalizeS3Url(row.key_art_url) : null,
+    keyArtUrl: row.key_art_url ? normalizeS3Url(row.key_art_url) : s3ArtworkUrl(row.slug),
     releaseDate: row.release_date.toISOString().slice(0, 10),
     lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
     sellerCount: Number(row.seller_count),

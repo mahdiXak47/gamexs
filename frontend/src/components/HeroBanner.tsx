@@ -7,6 +7,14 @@ import { Chip } from "@heroui/react";
 import { formatToman } from "@/lib/format";
 import type { GameSummary } from "@/lib/types";
 
+interface HeroBannerCopy {
+  ariaLabel?: string;
+  badge?: string;
+  description?: string;
+  cta?: string;
+  pricePrefix?: string;
+}
+
 function useReducedMotion() {
   const [reduced, setReduced] = useState(
     () => typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches
@@ -20,7 +28,13 @@ function useReducedMotion() {
   return reduced;
 }
 
-export default function HeroBanner({ games }: { games: GameSummary[] }) {
+export default function HeroBanner({
+  games,
+  copy = {},
+}: {
+  games: GameSummary[];
+  copy?: HeroBannerCopy;
+}) {
   const [current, setCurrent] = useState(0);
   const [paused, setPaused] = useState(false);
   const resumeTimer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
@@ -63,7 +77,7 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
       onMouseLeave={() => setPaused(false)}
       onTouchStart={() => setPaused(true)}
       onTouchEnd={() => setPaused(false)}
-      aria-label="بازی‌های ویژه"
+      aria-label={copy.ariaLabel ?? "بازی‌های ویژه"}
       aria-roledescription="carousel"
     >
       <div className="absolute inset-0" aria-hidden>
@@ -92,7 +106,9 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
           aria-atomic="true"
         >
           <div className="mb-4 flex flex-wrap items-center gap-2">
-            <Chip size="sm" className="border-0 bg-ps-plus-gold text-xs font-extrabold text-gray-950">PS5</Chip>
+            <Chip size="sm" className="border-0 bg-ps-plus-gold text-xs font-extrabold text-gray-950">
+              {copy.badge ?? "PS5"}
+            </Chip>
             {game.genreLabel && (
               <Chip size="sm" className="border-0 bg-white/18 text-xs font-semibold text-white backdrop-blur-md">{game.genreLabel}</Chip>
             )}
@@ -108,7 +124,7 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
           </h2>
 
           <p className="mb-6 max-w-lg text-sm leading-7 text-blue-50/90 sm:text-base">
-            قیمت این بازی را بین فروشندگان معتبر مقایسه کن و بهترین گزینه خرید را مستقیم از سایت فروشنده انتخاب کن.
+            {copy.description ?? "قیمت این بازی را بین فروشندگان معتبر مقایسه کن و بهترین گزینه خرید را مستقیم از سایت فروشنده انتخاب کن."}
           </p>
 
           <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
@@ -116,13 +132,13 @@ export default function HeroBanner({ games }: { games: GameSummary[] }) {
               href={`/games/${game.slug}`}
               className="inline-flex min-h-12 w-fit cursor-pointer items-center justify-center rounded-lg bg-ps-plus-gold px-7 py-3 text-sm font-extrabold text-gray-950 shadow-[0_14px_32px_rgba(246,184,41,0.24)] transition-colors hover:bg-[#ffd35a] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-transparent"
             >
-              مشاهده قیمت‌ها
+              {copy.cta ?? "مشاهده قیمت‌ها"}
             </Link>
 
             {game.lowestPriceToman !== null && (
               <div className="min-w-0 border-r border-white/20 pr-4">
                 <p className="flex flex-wrap items-baseline gap-1.5">
-                  <span className="text-xs font-semibold text-blue-100/90">شروع از</span>
+                  <span className="text-xs font-semibold text-blue-100/90">{copy.pricePrefix ?? "شروع از"}</span>
                   <span className="price-figure text-2xl font-black text-white sm:text-3xl">{formatToman(game.lowestPriceToman)}</span>
                   <span className="text-xs font-semibold text-blue-100/90">تومان</span>
                 </p>
