@@ -24,9 +24,10 @@ async function refreshAccessToken(): Promise<boolean> {
 async function request(path: string, options: ApiRequestInit = {}): Promise<Response> {
   const method = (options.method ?? 'GET').toUpperCase()
   const { skipAuthRefresh, ...fetchOptions } = options
-  const headers: Record<string, string> = {
-    'Content-Type': 'application/json',
-    ...((options.headers as Record<string, string>) ?? {}),
+  const headers: Record<string, string> = { ...((options.headers as Record<string, string>) ?? {}) }
+
+  if (fetchOptions.body != null && !headers['Content-Type']) {
+    headers['Content-Type'] = 'application/json'
   }
 
   if (UNSAFE_METHODS.includes(method)) {
