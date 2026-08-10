@@ -22,12 +22,17 @@ services:
     build:
       context: .
       dockerfile: frontend/Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL:            ${NEXT_PUBLIC_API_URL:?set NEXT_PUBLIC_API_URL, e.g. https://api.gamexs.ir}
+        NEXT_PUBLIC_WEB_VITALS_ENDPOINT: ${NEXT_PUBLIC_WEB_VITALS_ENDPOINT:-}
     restart: unless-stopped
     ports:
       - "${FRONTEND_PORT:-3000}:3000"
     environment:
-      DATABASE_URL:        ${DATABASE_URL}
-      OPENROUTER_API_KEY:  ${OPENROUTER_API_KEY}
+      DATABASE_URL:                    ${DATABASE_URL}
+      NEXT_PUBLIC_API_URL:             ${NEXT_PUBLIC_API_URL:?set NEXT_PUBLIC_API_URL, e.g. https://api.gamexs.ir}
+      NEXT_PUBLIC_WEB_VITALS_ENDPOINT: ${NEXT_PUBLIC_WEB_VITALS_ENDPOINT:-}
+      OPENROUTER_API_KEY:              ${OPENROUTER_API_KEY}
     depends_on:
       db:
         condition: service_healthy
