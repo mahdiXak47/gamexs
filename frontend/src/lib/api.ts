@@ -1,6 +1,5 @@
 import { ensureCsrfToken } from './csrf'
-
-const BASE = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:8000'
+import { apiBaseUrl } from './api-base'
 
 const UNSAFE_METHODS = ['POST', 'PUT', 'PATCH', 'DELETE']
 type ApiRequestInit = RequestInit & { skipAuthRefresh?: boolean }
@@ -10,7 +9,7 @@ async function refreshAccessToken(): Promise<boolean> {
     const csrfToken = await ensureCsrfToken()
     const headers: Record<string, string> = { 'Content-Type': 'application/json' }
     if (csrfToken) headers['X-CSRFToken'] = csrfToken
-    const res = await fetch(`${BASE}/api/auth/token/refresh/`, {
+    const res = await fetch(`${apiBaseUrl()}/api/auth/token/refresh/`, {
       method: 'POST',
       headers,
       credentials: 'include',
@@ -35,13 +34,13 @@ async function request(path: string, options: ApiRequestInit = {}): Promise<Resp
     if (csrfToken) headers['X-CSRFToken'] = csrfToken
   }
 
-  const response = await fetch(`${BASE}${path}`, { ...fetchOptions, headers, credentials: 'include' })
+  const response = await fetch(`${apiBaseUrl()}${path}`, { ...fetchOptions, headers, credentials: 'include' })
 
   // On 401, attempt one silent token refresh then retry (skip for auth endpoints)
   if (response.status === 401 && !skipAuthRefresh && !path.startsWith('/api/auth/')) {
     const refreshed = await refreshAccessToken()
     if (refreshed) {
-      return fetch(`${BASE}${path}`, { ...fetchOptions, headers, credentials: 'include' })
+      return fetch(`${apiBaseUrl()}${path}`, { ...fetchOptions, headers, credentials: 'include' })
     }
   }
 

@@ -17,7 +17,7 @@ COPY frontend/ .
 
 # DATABASE_URL is read at runtime (force-dynamic routes); a placeholder is
 # enough to satisfy any build-time type-check that imports the env.
-ARG NEXT_PUBLIC_API_URL=http://localhost:8000
+ARG NEXT_PUBLIC_API_URL=https://api.gamexs.ir
 ARG NEXT_PUBLIC_WEB_VITALS_ENDPOINT=
 ENV DATABASE_URL=postgresql://placeholder:placeholder@placeholder:5432/placeholder
 ENV NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL}

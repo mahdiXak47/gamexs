@@ -1,4 +1,4 @@
-const BASE = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000"
+import { apiBaseUrl } from "./api-base"
 
 let csrfToken: string | null = null
 let csrfPromise: Promise<string | null> | null = null
@@ -12,7 +12,7 @@ function readCookie(name: string): string | null {
 }
 
 function bootstrap(): Promise<string | null> {
-  return fetch(`${BASE}/api/auth/csrf/`, { credentials: "include" })
+  return fetch(`${apiBaseUrl()}/api/auth/csrf/`, { credentials: "include" })
     .then(() => readCookie("csrftoken"))
     .then((token) => {
       csrfToken = token
