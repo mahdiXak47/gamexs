@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { UpcomingGame } from "@/lib/types";
 import CountdownTimer from "./CountdownTimer";
-import { formatToman } from "@/lib/format";
+import { formatToman, toPersianDigits } from "@/lib/format";
 
 function formatPersianDate(isoDate: string): string {
   return new Intl.DateTimeFormat("fa-IR", {
@@ -144,15 +144,32 @@ export default function UpcomingGames({ games }: { games: UpcomingGame[] }) {
         <div className="relative z-10 grid h-full grid-rows-[1fr_auto] gap-5 px-4 pb-5 pt-10 sm:px-8 sm:pb-7">
           <div key={game.slug} className="hero-content-enter flex items-end justify-between gap-6" dir="ltr">
             <div className="order-2 flex w-full max-w-2xl flex-col items-end text-right" dir="ltr">
+              <div className="mb-4 flex flex-wrap items-center justify-end gap-2" dir="rtl" aria-label="مشخصات بازی">
+                <span className="rounded-full bg-ps-plus-gold px-3 py-1 text-xs font-black text-gray-950 sm:text-sm">
+                  PS5
+                </span>
+                {game.genreLabel && (
+                  <span className="rounded-full bg-white/18 px-3 py-1 text-xs font-extrabold text-white shadow-sm backdrop-blur-sm sm:text-sm">
+                    {game.genreLabel}
+                  </span>
+                )}
+                <span className="rounded-full bg-white/18 px-3 py-1 text-xs font-extrabold text-white shadow-sm backdrop-blur-sm sm:text-sm">
+                  {toPersianDigits(game.sellerCount)} فروشنده
+                </span>
+              </div>
+
               <h3 dir="auto" className="mb-4 w-full text-right text-3xl font-black leading-tight drop-shadow-2xl sm:text-5xl">
                 {game.title}
               </h3>
 
               <div className="mb-5 flex w-full flex-col items-end gap-2 text-right text-white/82">
-                {game.lowestPriceToman && (
-                  <p className="price-figure text-base font-semibold text-white/68" dir="rtl">
-                    از {formatToman(game.lowestPriceToman)} تومان
-                  </p>
+                {game.capacity2PriceToman && (
+                  <div className="flex flex-col items-end gap-1" dir="rtl">
+                    <p className="text-xs font-extrabold text-ps-plus-gold">قیمت ظرفیت ۲</p>
+                    <p className="price-figure text-base font-semibold text-white/72">
+                      از {formatToman(game.capacity2PriceToman)} تومان
+                    </p>
+                  </div>
                 )}
               </div>
 

@@ -7,6 +7,7 @@ import CoverArt from "@/components/CoverArt";
 import Disclaimer from "@/components/Disclaimer";
 import FaqSection from "@/components/FaqSection";
 import GamePreorderBanner from "@/components/GamePreorderBanner";
+import GameReviewsSection from "@/components/GameReviewsSection";
 import GameVersions from "@/components/GameVersions";
 import GameViewTracker from "@/components/GameViewTracker";
 import Header from "@/components/Header";
@@ -341,6 +342,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
           <PurchaseTypeSelector options={game.purchaseOptions} />
         </div>
 
+        <GameReviewsSection gameId={game.dbId} gameTitle={game.title} />
         <GameVersions games={gameVersions} />
         <SimilarGames games={similarGames} heading="بازی‌های مشابه" tags={game.genres} />
         <SimilarGames games={similarGamesByDeveloper} heading="بازی‌های همین سازنده" tags={game.developers} />

@@ -650,10 +650,17 @@ const UPCOMING_QUERY = `
   SELECT
     g.slug,
     g.title,
+    g.genre_label,
     g.cover_url,
     g.main_background_image_url,
     g.release_date,
     MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
+    MIN(latest.price_toman) FILTER (
+      WHERE latest.in_stock
+        AND latest.price_toman > 0
+        AND l.product_type = 'ACCOUNT_GAME'
+        AND l.tier = 'CAPACITY_2'
+    ) AS capacity_2_price,
     COUNT(DISTINCT l.seller_id) AS seller_count
   FROM ps5_games g
   JOIN listings l ON l.game_id = g.id AND l.is_active
@@ -664,14 +671,16 @@ const UPCOMING_QUERY = `
   ORDER BY g.release_date ASC
 `;
 
-function rowToUpcoming(row: { slug: string; title: string; cover_url: string | null; main_background_image_url: string | null; release_date: Date; lowest_price: string | null; seller_count: string }): UpcomingGame {
+function rowToUpcoming(row: { slug: string; title: string; genre_label: string | null; cover_url: string | null; main_background_image_url: string | null; release_date: Date; lowest_price: string | null; capacity_2_price: string | null; seller_count: string }): UpcomingGame {
   return {
     slug: row.slug,
     title: row.title,
+    genreLabel: row.genre_label,
     coverUrl: toCoverUrl(row.cover_url, row.slug),
     mainBackgroundImageUrl: normalizeMainBackgroundImageUrl(row.main_background_image_url, row.slug),
     releaseDate: row.release_date.toISOString().slice(0, 10),
     lowestPriceToman: row.lowest_price === null ? null : Number(row.lowest_price),
+    capacity2PriceToman: row.capacity_2_price === null ? null : Number(row.capacity_2_price),
     sellerCount: Number(row.seller_count),
   };
 }
@@ -701,8 +710,14 @@ export async function getFeaturedUpcomingGames(slugs: string[]): Promise<Upcomin
       SELECT unnest($1::text[]) AS slug, generate_subscripts($1::text[], 1) AS ord
     )
     SELECT
-      g.slug, g.title, g.cover_url, g.main_background_image_url, g.release_date,
+      g.slug, g.title, g.genre_label, g.cover_url, g.main_background_image_url, g.release_date,
       MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
+      MIN(latest.price_toman) FILTER (
+        WHERE latest.in_stock
+          AND latest.price_toman > 0
+          AND l.product_type = 'ACCOUNT_GAME'
+          AND l.tier = 'CAPACITY_2'
+      ) AS capacity_2_price,
       COUNT(DISTINCT l.seller_id) AS seller_count,
       w.ord AS slug_order
     FROM ps5_games g

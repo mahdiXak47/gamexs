@@ -61,10 +61,12 @@ export interface Game {
 export interface UpcomingGame {
   slug: string;
   title: string;
+  genreLabel: string | null;
   coverUrl: string | null;
   mainBackgroundImageUrl: string | null;
   releaseDate: string; // ISO date string "YYYY-MM-DD", always present
   lowestPriceToman: number | null;
+  capacity2PriceToman: number | null;
   sellerCount: number;
 }
 
