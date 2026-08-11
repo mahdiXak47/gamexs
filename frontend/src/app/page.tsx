@@ -6,6 +6,7 @@ import GameGrid from "@/components/GameGrid";
 import Header from "@/components/Header";
 import HeroBanner from "@/components/HeroBanner";
 import JsonLd from "@/components/JsonLd";
+import SocialLinksSection from "@/components/SocialLinksSection";
 import TopGames from "@/components/TopGames";
 import UpcomingGames from "@/components/UpcomingGames";
 import { getLastScrapedAt, getFeaturedUpcomingGames, listGamesPage, listPublishers } from "@/lib/games-repo";
@@ -104,6 +105,8 @@ export default async function Home({
 
       {/* Upcoming / Pre-order */}
       <UpcomingGames games={upcomingGames} />
+
+      <SocialLinksSection />
 
       {/* Divider */}
       <div className="mx-auto max-w-7xl px-4 sm:px-6">

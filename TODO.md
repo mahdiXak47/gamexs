@@ -87,3 +87,8 @@
 - Remove "مشاهده بازی‌های مطابق با سلیقه تو".
 
 - Sellers typically send data as ~150 games × 5 pricing types.
+
+
+
+- covering gift card prices and update them 
+- 

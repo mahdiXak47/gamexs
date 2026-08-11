@@ -83,11 +83,12 @@ export default function UpcomingGames({ games }: { games: UpcomingGame[] }) {
   return (
     <section aria-labelledby="upcoming-heading" className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6" dir="rtl">
       <div className="mb-6 flex flex-col items-start gap-4 sm:flex-row sm:items-end sm:justify-between">
-        <div className="flex flex-col items-end text-right">
+        <div className="flex flex-col items-end text-right" dir="ltr">
           <div className="mb-2 h-1 w-16 rounded-full bg-ps-plus-gold" />
           <h2
             id="upcoming-heading"
             className="text-2xl font-extrabold leading-tight text-gray-900 sm:text-3xl"
+            dir="rtl"
           >
             پرانتظارترین بازی‌ها
           </h2>
@@ -164,9 +165,9 @@ export default function UpcomingGames({ games }: { games: UpcomingGame[] }) {
 
               <div className="mb-5 flex w-full flex-col items-end gap-2 text-right text-white/82">
                 {game.capacity2PriceToman && (
-                  <div className="flex flex-col items-end gap-1" dir="rtl">
-                    <p className="text-xs font-extrabold text-ps-plus-gold">قیمت ظرفیت ۲</p>
-                    <p className="price-figure text-base font-semibold text-white/72">
+                  <div className="flex w-full flex-col items-end gap-1 text-right" dir="ltr">
+                    <p className="text-xs font-extrabold text-ps-plus-gold" dir="rtl">ظرفیت ۲</p>
+                    <p className="price-figure text-base font-semibold text-white/72" dir="rtl">
                       از {formatToman(game.capacity2PriceToman)} تومان
                     </p>
                   </div>
