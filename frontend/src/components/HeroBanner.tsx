@@ -247,11 +247,6 @@ export default function HeroBanner({
                       {g.coverInitial}
                     </span>
                   )}
-                  <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/86 to-transparent px-2 pb-2 pt-8">
-                    <span dir="auto" className="block truncate text-xs font-bold text-white">
-                      {g.title}
-                    </span>
-                  </span>
                 </button>
               ))}
             </div>

@@ -62,7 +62,11 @@ export default async function Home({
 
   // Format last updated for display
   const lastUpdated = lastScrapedAt
-    ? new Intl.DateTimeFormat("fa-IR", { dateStyle: "short", timeStyle: "short" }).format(lastScrapedAt)
+    ? new Intl.DateTimeFormat("fa-IR", {
+        dateStyle: "short",
+        timeStyle: "short",
+        timeZone: "Asia/Tehran",
+      }).format(lastScrapedAt)
     : null;
 
   const itemListJsonLd = {

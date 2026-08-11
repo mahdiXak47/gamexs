@@ -143,7 +143,7 @@ export default function UpcomingGames({ games }: { games: UpcomingGame[] }) {
         </div>
 
         <div className="relative z-10 grid h-full grid-rows-[1fr_auto] gap-5 px-4 pb-5 pt-10 sm:px-8 sm:pb-7">
-          <div key={game.slug} className="hero-content-enter flex items-end justify-between gap-6" dir="ltr">
+          <div key={game.slug} className="hero-content-enter flex items-start justify-between gap-6" dir="ltr">
             <div className="order-2 flex w-full max-w-2xl flex-col items-end text-right" dir="ltr">
               <div className="mb-4 flex flex-wrap items-center justify-end gap-2" dir="rtl" aria-label="مشخصات بازی">
                 <span className="rounded-full bg-ps-plus-gold px-3 py-1 text-xs font-black text-gray-950 sm:text-sm">
@@ -183,7 +183,7 @@ export default function UpcomingGames({ games }: { games: UpcomingGame[] }) {
               </Link>
             </div>
 
-            <div className="order-1 hidden min-w-[340px] flex-col items-start gap-3 lg:flex" dir="ltr">
+            <div className="order-1 hidden min-w-[340px] self-end flex-col items-start gap-3 lg:flex" dir="ltr">
               <p className="w-fit border-b border-white/45 pb-1 text-base font-semibold text-white/82" dir="rtl">
                 {formatPersianDate(game.releaseDate)}
               </p>
@@ -230,11 +230,6 @@ export default function UpcomingGames({ games }: { games: UpcomingGame[] }) {
                         {slide.title.trim().slice(0, 2).toUpperCase() || "?"}
                       </span>
                     )}
-                    <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/86 to-transparent px-2 pb-2 pt-8">
-                      <span dir="auto" className="block truncate text-xs font-bold text-white">
-                        {slide.title}
-                      </span>
-                    </span>
                   </button>
                 ))}
               </div>

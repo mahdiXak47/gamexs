@@ -342,10 +342,10 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
           <PurchaseTypeSelector options={game.purchaseOptions} />
         </div>
 
-        <GameReviewsSection gameId={game.dbId} gameTitle={game.title} />
         <GameVersions games={gameVersions} />
         <SimilarGames games={similarGames} heading="بازی‌های مشابه" tags={game.genres} />
         <SimilarGames games={similarGamesByDeveloper} heading="بازی‌های همین سازنده" tags={game.developers} />
+        <GameReviewsSection gameId={game.dbId} gameTitle={game.title} />
         <FaqSection faqs={faqs} />
       </main>
       <Disclaimer />

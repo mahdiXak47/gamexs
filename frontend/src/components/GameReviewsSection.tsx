@@ -177,18 +177,20 @@ export default function GameReviewsSection({ gameId, gameTitle }: { gameId: numb
 
   return (
     <section className="mx-auto max-w-6xl px-4 py-10 sm:px-6" dir="rtl" aria-labelledby="game-reviews-heading">
-      <div className="mb-6 flex items-center justify-end gap-4">
+      <div className="mb-6 flex items-center justify-end gap-4" dir="ltr">
         <button
           type="button"
-          className="min-h-11 rounded-lg bg-[#dfe5f6] px-7 py-2.5 text-sm font-extrabold text-gray-700"
+          className="min-h-11 rounded-lg bg-blue-50 px-7 py-2.5 text-sm font-extrabold text-ps-blue ring-1 ring-blue-100"
           aria-pressed="false"
+          dir="rtl"
         >
           توضیحات
         </button>
         <button
           type="button"
-          className="min-h-11 rounded-lg bg-[#ef0b25] px-7 py-2.5 text-sm font-extrabold text-white shadow-[0_12px_28px_rgba(239,11,37,0.22)]"
+          className="min-h-11 rounded-lg bg-ps-blue px-7 py-2.5 text-sm font-extrabold text-white shadow-[0_12px_28px_rgba(0,48,135,0.22)] ring-1 ring-ps-blue/10"
           aria-pressed="true"
+          dir="rtl"
         >
           نظرات ({toPersianDigits(count)})
         </button>

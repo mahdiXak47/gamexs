@@ -785,7 +785,13 @@ export async function getGameStoreInfo(gameId: number): Promise<PsStoreInfo | nu
 
 export async function getLastScrapedAt(): Promise<Date | null> {
   const { rows } = await query<{ last_scraped_at: Date | null }>(
-    `SELECT MAX(scraped_at) AS last_scraped_at FROM price_history`
+    `
+    SELECT MAX(l.last_seen_at) AS last_scraped_at
+    FROM listings l
+    JOIN ps5_games g ON g.id = l.game_id
+    WHERE l.is_active
+      AND g.platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')
+    `
   );
   return rows[0]?.last_scraped_at ?? null;
 }
