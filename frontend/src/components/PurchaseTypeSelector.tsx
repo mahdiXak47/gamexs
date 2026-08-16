@@ -67,6 +67,7 @@ export default function PurchaseTypeSelector({ options }: { options: PurchaseOpt
         {options.map((opt, i) => {
           const price = lowestPriceForOption(opt);
           const stores = new Set(opt.offers.map((o) => o.sellerId)).size;
+          const availableOffers = opt.offers.filter((offer) => offer.inStock && offer.priceToman > 0).length;
           const active = i === selected;
           const key = `${opt.type}-${opt.tier ?? "x"}`;
           const hash = purchaseOptionHash(opt);
@@ -125,7 +126,13 @@ export default function PurchaseTypeSelector({ options }: { options: PurchaseOpt
                   {price === null ? "—" : formatToman(price)}
                 </span>
               </div>
-              <div className="mt-1 text-xs text-muted">{toPersianDigits(stores)} فروشگاه</div>
+              <div className="mt-1 text-xs text-muted">
+                {stores === 0
+                  ? "بدون فروشنده"
+                  : availableOffers === 0
+                    ? `${toPersianDigits(stores)} فروشگاه · فعلاً ناموجود`
+                    : `${toPersianDigits(availableOffers)} پیشنهاد موجود`}
+              </div>
             </Card>
           );
         })}
@@ -137,7 +144,7 @@ export default function PurchaseTypeSelector({ options }: { options: PurchaseOpt
             <Alert.Indicator>ⓘ</Alert.Indicator>
             <Alert.Content>
               <Alert.Description>
-                فعلاً هیچ فروشگاهی این روش خرید را برای این بازی ارائه نمی‌دهد.
+                فعلاً هیچ فروشگاهی این روش خرید را برای این بازی ارائه نمی‌دهد. روش خرید دیگری را انتخاب کنید یا بعداً دوباره بررسی کنید.
               </Alert.Description>
             </Alert.Content>
           </Alert>
@@ -152,6 +159,8 @@ export default function PurchaseTypeSelector({ options }: { options: PurchaseOpt
 function SellerTable({ option }: { option: PurchaseOption }) {
   const toast = useToast();
   const best = bestOfferId(option);
+  const availableCount = option.offers.filter((offer) => offer.inStock && offer.priceToman > 0).length;
+  const hasOnlyUnavailableOffers = option.offers.length > 0 && availableCount === 0;
   const sortedOffers = [...option.offers].sort((a, b) => {
     if (a.inStock !== b.inStock) return a.inStock ? -1 : 1;
     return a.priceToman - b.priceToman;
@@ -160,6 +169,15 @@ function SellerTable({ option }: { option: PurchaseOption }) {
   return (
     <div>
       <p className="mb-4 text-sm text-muted">{option.description}</p>
+      {hasOnlyUnavailableOffers ? (
+        <div className="mb-4 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-6 text-amber-800" role="status">
+          فروشنده‌هایی برای این روش خرید پیدا شده‌اند، اما در آخرین بررسی هیچ پیشنهاد موجود و قابل خریدی ثبت نشده است.
+        </div>
+      ) : (
+        <div className="mb-4 rounded-xl border border-blue-100 bg-blue-50 px-4 py-3 text-xs leading-6 text-blue-800" role="note">
+          برای خرید به سایت فروشنده منتقل می‌شوید. پیش از پرداخت، موجودی و قیمت نهایی را در همان سایت بررسی کنید.
+        </div>
+      )}
       <Table>
         <Table.ScrollContainer dir="rtl">
           <Table.Content aria-label="مقایسه قیمت فروشگاه‌ها" selectionMode="none">
@@ -176,8 +194,9 @@ function SellerTable({ option }: { option: PurchaseOption }) {
               {sortedOffers.map((offer, i) => {
                 const isBest = offer.sellerId === best;
                 const initial = offer.sellerName.trim()[0]?.toUpperCase() ?? "?";
+                const canBuy = offer.inStock && offer.priceToman > 0;
                 return (
-                  <Table.Row key={offer.sellerId} id={offer.sellerId} className="transition-colors duration-150 hover:bg-blue-50/50">
+                  <Table.Row key={offer.sellerId} id={offer.sellerId} className={`transition-colors duration-150 ${canBuy ? "hover:bg-blue-50/50" : "bg-gray-50/60"}`}>
                     <Table.Cell className="text-muted">{toPersianDigits(i + 1)}</Table.Cell>
                     <Table.Cell>
                       <div className="flex items-center gap-3">
@@ -198,29 +217,45 @@ function SellerTable({ option }: { option: PurchaseOption }) {
                       </div>
                     </Table.Cell>
                     <Table.Cell>
-                      <span className="price-figure font-bold">
-                        {formatToman(offer.priceToman)}{" "}
-                        <span className="text-xs font-normal text-muted">تومان</span>
-                      </span>
+                      {offer.priceToman > 0 ? (
+                        <span className={`price-figure font-bold ${canBuy ? "" : "text-muted"}`}>
+                          {formatToman(offer.priceToman)}{" "}
+                          <span className="text-xs font-normal text-muted">تومان</span>
+                        </span>
+                      ) : (
+                        <span className="text-xs font-semibold text-muted">قیمت نامشخص</span>
+                      )}
                     </Table.Cell>
                     <Table.Cell>
-                      <span className="inline-flex items-center gap-1.5 text-xs">
+                      <span className={`inline-flex items-center gap-1.5 text-xs ${canBuy ? "" : "text-muted"}`}>
                         <span
-                          className={`h-1.5 w-1.5 rounded-full ${offer.inStock ? "bg-success" : "bg-muted"}`}
+                          className={`h-1.5 w-1.5 rounded-full ${canBuy ? "bg-success" : "bg-muted"}`}
                         />
-                        {offer.inStock ? "موجود" : "ناموجود"}
+                        {canBuy ? "موجود" : "ناموجود"}
                       </span>
                     </Table.Cell>
                     <Table.Cell>
-                      <a
-                        href={offer.listingUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        onClick={() => toast.info("در حال انتقال به فروشگاه", offer.sellerName)}
-                        className="inline-flex items-center justify-center rounded-3xl bg-accent px-3 py-1.5 text-xs font-bold text-accent-foreground transition-[opacity,transform] duration-150 hover:opacity-90 active:scale-[0.97]"
-                      >
-                        خرید از فروشگاه
-                      </a>
+                      {canBuy ? (
+                        <a
+                          href={offer.listingUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={() => toast.info("در حال انتقال به فروشگاه", `${offer.sellerName}؛ قیمت و موجودی نهایی را پیش از پرداخت بررسی کنید.`)}
+                          className="inline-flex items-center justify-center rounded-3xl bg-accent px-3 py-1.5 text-xs font-bold text-accent-foreground transition-[opacity,transform] duration-150 hover:opacity-90 active:scale-[0.97]"
+                          aria-label={`خرید از فروشگاه ${offer.sellerName}`}
+                        >
+                          خرید از فروشگاه
+                        </a>
+                      ) : (
+                        <button
+                          type="button"
+                          disabled
+                          className="inline-flex cursor-not-allowed items-center justify-center rounded-3xl bg-gray-100 px-3 py-1.5 text-xs font-bold text-gray-400"
+                          title="این پیشنهاد در آخرین بررسی موجود نبوده است"
+                        >
+                          ناموجود
+                        </button>
+                      )}
                     </Table.Cell>
                   </Table.Row>
                 );
