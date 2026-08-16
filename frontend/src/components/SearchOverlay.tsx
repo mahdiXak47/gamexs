@@ -26,7 +26,9 @@ export default function SearchOverlay({ onClose }: { onClose: () => void }) {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SearchResult[]>([]);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   const [focused, setFocused] = useState(-1);
+  const [retryCount, setRetryCount] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
   const resultsRef = useRef<HTMLUListElement>(null);
   const debouncedQuery = useDebounce(query, 200);
@@ -51,21 +53,41 @@ export default function SearchOverlay({ onClose }: { onClose: () => void }) {
     setPrevDebounced(debouncedQuery);
     if (debouncedQuery.length < 2) {
       setResults([]);
+      setError(null);
     } else {
       setLoading(true);
+      setError(null);
     }
   }
 
   useEffect(() => {
     if (debouncedQuery.length < 2) return;
-    let cancelled = false;
-    fetch(`/api/search?q=${encodeURIComponent(debouncedQuery)}`)
-      .then((r) => r.json())
-      .then((data) => { if (!cancelled) { setResults(data); setFocused(-1); } })
-      .catch(() => {})
-      .finally(() => { if (!cancelled) setLoading(false); });
-    return () => { cancelled = true; };
-  }, [debouncedQuery]);
+    const controller = new AbortController();
+
+    async function loadResults() {
+      setLoading(true);
+      setError(null);
+      try {
+        const response = await fetch(`/api/search?q=${encodeURIComponent(debouncedQuery)}`, {
+          signal: controller.signal,
+        });
+        if (!response.ok) throw new Error("search_failed");
+        const data = await response.json();
+        setResults(Array.isArray(data) ? data : []);
+        setFocused(-1);
+      } catch {
+        if (controller.signal.aborted) return;
+        setError("جستجو موقتاً در دسترس نیست. اتصال را بررسی کنید یا دوباره تلاش کنید.");
+        setResults([]);
+        setFocused(-1);
+      } finally {
+        if (!controller.signal.aborted) setLoading(false);
+      }
+    }
+
+    void loadResults();
+    return () => controller.abort();
+  }, [debouncedQuery, retryCount]);
 
   // Keyboard navigation
   const handleKey = useCallback(
@@ -87,6 +109,8 @@ export default function SearchOverlay({ onClose }: { onClose: () => void }) {
   );
 
   const showResults = results.length > 0 && query.length >= 2;
+  const showError = !loading && !!error && query.length >= 2;
+  const showNoResults = !loading && !error && query.length >= 2 && results.length === 0;
 
   return (
     <>
@@ -136,6 +160,7 @@ export default function SearchOverlay({ onClose }: { onClose: () => void }) {
               aria-autocomplete="list"
               aria-controls="search-results"
               aria-activedescendant={focused >= 0 ? `search-result-${focused}` : undefined}
+              aria-invalid={showError}
             />
 
             {/* Search button */}
@@ -239,8 +264,22 @@ export default function SearchOverlay({ onClose }: { onClose: () => void }) {
             </ul>
           )}
 
+          {/* Search error */}
+          {showError && (
+            <div className="ui-popover-panel mt-1 rounded-xl bg-white px-5 py-5 text-center text-sm shadow-2xl ring-1 ring-black/10" role="alert">
+              <p className="font-semibold text-gray-700">{error}</p>
+              <button
+                type="button"
+                onClick={() => setRetryCount((count) => count + 1)}
+                className="mt-3 inline-flex min-h-10 cursor-pointer items-center justify-center rounded-lg bg-blue-50 px-4 text-xs font-bold text-ps-blue transition-colors hover:bg-blue-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue"
+              >
+                تلاش دوباره
+              </button>
+            </div>
+          )}
+
           {/* No results */}
-          {!loading && query.length >= 2 && results.length === 0 && (
+          {showNoResults && (
             <div className="ui-popover-panel mt-1 rounded-xl bg-white px-5 py-6 text-center text-sm text-gray-400 shadow-2xl ring-1 ring-black/10">
               نتیجه‌ای برای «{query}» یافت نشد
             </div>

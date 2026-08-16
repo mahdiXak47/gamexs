@@ -9,6 +9,7 @@ import { api, extractApiError } from '@/lib/api'
 
 type Screen = 'tabs' | 'otp' | 'profile'
 type ActiveTab = 'login' | 'signup'
+type FieldErrors = Record<string, string | undefined>
 
 function inputCls(hasError = false) {
   return [
@@ -49,12 +50,16 @@ function PasswordInput({
   onChange,
   autoComplete,
   hasError,
+  fieldName,
+  describedBy,
 }: {
   placeholder: string
   value: string
   onChange: (v: string) => void
   autoComplete: string
   hasError?: boolean
+  fieldName?: string
+  describedBy?: string
 }) {
   const [show, setShow] = useState(false)
   return (
@@ -67,6 +72,9 @@ function PasswordInput({
         autoComplete={autoComplete}
         dir="ltr"
         className={`${inputCls(!!hasError)} pr-10`}
+        data-field={fieldName}
+        aria-invalid={!!hasError}
+        aria-describedby={describedBy}
       />
       <button
         type="button"
@@ -117,6 +125,11 @@ function ErrorBox({ message }: { message: string }) {
   )
 }
 
+function FieldError({ id, message }: { id: string; message?: string }) {
+  if (!message) return null
+  return <p id={id} className="mt-1.5 text-xs font-medium text-red-600">{message}</p>
+}
+
 function PSLogoIcon() {
   return (
     <svg width="26" height="18" viewBox="0 0 32 22" fill="white" aria-hidden>
@@ -151,8 +164,31 @@ export default function AuthModal() {
 
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const [fieldErrors, setFieldErrors] = useState<FieldErrors>({})
 
   const dialogRef = useRef<HTMLDivElement>(null)
+
+  const clearFieldError = useCallback((field: string) => {
+    setFieldErrors((current) => {
+      if (!current[field]) return current
+      const next = { ...current }
+      delete next[field]
+      return next
+    })
+  }, [])
+
+  const focusField = useCallback((field: string) => {
+    window.setTimeout(() => {
+      dialogRef.current?.querySelector<HTMLElement>(`[data-field="${field}"]`)?.focus()
+    }, 0)
+  }, [])
+
+  const setValidationErrors = useCallback((next: FieldErrors) => {
+    setFieldErrors(next)
+    const first = Object.keys(next).find((key) => next[key])
+    if (first) focusField(first)
+    return !first
+  }, [focusField])
 
   const reset = useCallback(() => {
     setScreen('tabs')
@@ -168,6 +204,7 @@ export default function AuthModal() {
     setLastName('')
     setEmail('')
     setError(null)
+    setFieldErrors({})
     setLoading(false)
   }, [])
 
@@ -219,13 +256,14 @@ export default function AuthModal() {
   }, [authModalOpen, screen])
 
   async function handleLogin() {
-    if (!loginPhone || !loginPassword) {
-      const message = 'شماره موبایل و رمز عبور الزامی است'
-      setError(message)
-      toast.error('ورود انجام نشد', message)
+    const nextErrors: FieldErrors = {}
+    if (!/^09\d{9}$/.test(loginPhone)) nextErrors.loginPhone = 'شماره موبایل باید با 09 شروع شود و ۱۱ رقم باشد.'
+    if (!loginPassword) nextErrors.loginPassword = 'رمز عبور را وارد کنید.'
+    if (!setValidationErrors(nextErrors)) {
+      toast.error('ورود انجام نشد', 'موارد مشخص‌شده را اصلاح کنید.')
       return
     }
-    setLoading(true); setError(null)
+    setLoading(true); setError(null); setFieldErrors({})
     try {
       const res = await api.post('/api/auth/login/', { phone_number: loginPhone, password: loginPassword })
       const data = await res.json()
@@ -247,13 +285,14 @@ export default function AuthModal() {
   }
 
   async function handleSignup() {
-    if (!signupPhone || !signupPassword) {
-      const message = 'شماره موبایل و رمز عبور الزامی است'
-      setError(message)
-      toast.error('ثبت نام انجام نشد', message)
+    const nextErrors: FieldErrors = {}
+    if (!/^09\d{9}$/.test(signupPhone)) nextErrors.signupPhone = 'شماره موبایل باید با 09 شروع شود و ۱۱ رقم باشد.'
+    if (signupPassword.length < 8) nextErrors.signupPassword = 'رمز عبور باید حداقل ۸ کاراکتر باشد.'
+    if (!setValidationErrors(nextErrors)) {
+      toast.error('ثبت نام انجام نشد', 'موارد مشخص‌شده را اصلاح کنید.')
       return
     }
-    setLoading(true); setError(null)
+    setLoading(true); setError(null); setFieldErrors({})
     try {
       const res = await api.post('/api/auth/signup/', { phone_number: signupPhone, password: signupPassword })
       const data = await res.json()
@@ -275,14 +314,18 @@ export default function AuthModal() {
   }
 
   async function handleVerifyOtp(code: string) {
-    if (code.length !== 6) return
-    setLoading(true); setError(null)
+    if (code.length !== 6) {
+      setValidationErrors({ otpCode: 'کد تایید باید ۶ رقم باشد.' })
+      return
+    }
+    setLoading(true); setError(null); setFieldErrors({})
     try {
       const res = await api.post('/api/auth/verify-otp/', { otp_token: otpToken, code })
       const data = await res.json()
       if (!res.ok) {
         const message = extractApiError(data)
         setError(message)
+        setFieldErrors({ otpCode: message })
         setOtpCode('')
         otpValueRef.current = ''
         toast.error('کد تایید پذیرفته نشد', message)
@@ -306,7 +349,13 @@ export default function AuthModal() {
   }
 
   async function handleCompleteProfile() {
-    setLoading(true); setError(null)
+    const nextErrors: FieldErrors = {}
+    if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) nextErrors.email = 'ایمیل واردشده معتبر نیست.'
+    if (!setValidationErrors(nextErrors)) {
+      toast.error('پروفایل ذخیره نشد', 'موارد مشخص‌شده را اصلاح کنید.')
+      return
+    }
+    setLoading(true); setError(null); setFieldErrors({})
     try {
       const res = await api.post('/api/auth/complete-profile/', {
         first_name: firstName, last_name: lastName, email: email || undefined,
@@ -329,7 +378,7 @@ export default function AuthModal() {
     finally { setLoading(false) }
   }
 
-  function switchTab(tab: ActiveTab) { setActiveTab(tab); setError(null) }
+  function switchTab(tab: ActiveTab) { setActiveTab(tab); setError(null); setFieldErrors({}) }
 
   const headerTitle = screen === 'otp' ? 'تایید کد' : screen === 'profile' ? 'تکمیل پروفایل' : 'GameXS'
   const headerSub = screen === 'otp' ? 'کد ارسال شده را وارد کنید' : screen === 'profile' ? 'اطلاعات حساب خود را تکمیل کنید' : 'ورود یا ایجاد حساب'
@@ -405,18 +454,23 @@ export default function AuthModal() {
                   <div>
                     <label className={labelCls()}>شماره موبایل</label>
                     <input type="tel" inputMode="numeric" placeholder="09XXXXXXXXX"
-                      value={loginPhone} onChange={(e) => setLoginPhone(e.target.value)}
-                      dir="ltr" className={inputCls(!!error)} autoComplete="tel" maxLength={11} />
+                      value={loginPhone} onChange={(e) => { setLoginPhone(e.target.value.replace(/\D/g, '')); clearFieldError('loginPhone') }}
+                      dir="ltr" className={inputCls(!!fieldErrors.loginPhone)} autoComplete="tel" maxLength={11}
+                      data-field="loginPhone" aria-invalid={!!fieldErrors.loginPhone} aria-describedby="login-phone-error" />
+                    <FieldError id="login-phone-error" message={fieldErrors.loginPhone} />
                   </div>
                   <div>
                     <label className={labelCls()}>رمز عبور</label>
                     <PasswordInput
                       placeholder="رمز عبور خود را وارد کنید"
                       value={loginPassword}
-                      onChange={setLoginPassword}
+                      onChange={(value) => { setLoginPassword(value); clearFieldError('loginPassword') }}
                       autoComplete="current-password"
-                      hasError={!!error}
+                      hasError={!!fieldErrors.loginPassword}
+                      fieldName="loginPassword"
+                      describedBy="login-password-error"
                     />
+                    <FieldError id="login-password-error" message={fieldErrors.loginPassword} />
                   </div>
                   {error && <ErrorBox message={error} />}
                   <PsButton type="submit" disabled={loading}>
@@ -428,18 +482,23 @@ export default function AuthModal() {
                   <div>
                     <label className={labelCls()}>شماره موبایل</label>
                     <input type="tel" inputMode="numeric" placeholder="09XXXXXXXXX"
-                      value={signupPhone} onChange={(e) => setSignupPhone(e.target.value)}
-                      dir="ltr" className={inputCls(!!error)} autoComplete="tel" maxLength={11} />
+                      value={signupPhone} onChange={(e) => { setSignupPhone(e.target.value.replace(/\D/g, '')); clearFieldError('signupPhone') }}
+                      dir="ltr" className={inputCls(!!fieldErrors.signupPhone)} autoComplete="tel" maxLength={11}
+                      data-field="signupPhone" aria-invalid={!!fieldErrors.signupPhone} aria-describedby="signup-phone-error" />
+                    <FieldError id="signup-phone-error" message={fieldErrors.signupPhone} />
                   </div>
                   <div>
                     <label className={labelCls()}>رمز عبور</label>
                     <PasswordInput
                       placeholder="حداقل ۸ کاراکتر"
                       value={signupPassword}
-                      onChange={setSignupPassword}
+                      onChange={(value) => { setSignupPassword(value); clearFieldError('signupPassword') }}
                       autoComplete="new-password"
-                      hasError={!!error}
+                      hasError={!!fieldErrors.signupPassword}
+                      fieldName="signupPassword"
+                      describedBy="signup-password-error"
                     />
+                    <FieldError id="signup-password-error" message={fieldErrors.signupPassword} />
                   </div>
                   {error && <ErrorBox message={error} />}
                   <PsButton type="submit" disabled={loading}>
@@ -464,9 +523,12 @@ export default function AuthModal() {
                   maxLength={6}
                   pattern={REGEXP_ONLY_DIGITS}
                   value={otpCode}
-                  onChange={(val) => { setOtpCode(val); otpValueRef.current = val }}
+                  onChange={(val) => { setOtpCode(val); otpValueRef.current = val; clearFieldError('otpCode') }}
                   onComplete={() => { if (!loading) handleVerifyOtp(otpValueRef.current) }}
                   isDisabled={loading}
+                  aria-invalid={!!fieldErrors.otpCode}
+                  aria-describedby="otp-code-error"
+                  data-field="otpCode"
                 >
                   <InputOTP.Group className="gap-2.5">
                     <InputOTP.Slot index={0} />
@@ -479,6 +541,7 @@ export default function AuthModal() {
                 </InputOTP.Root>
               </div>
 
+              <FieldError id="otp-code-error" message={fieldErrors.otpCode} />
               {error && <ErrorBox message={error} />}
 
               <PsButton disabled={loading || otpCode.length !== 6} onClick={() => handleVerifyOtp(otpValueRef.current)}>
@@ -508,7 +571,9 @@ export default function AuthModal() {
               <div>
                 <label className={labelCls()}>ایمیل (اختیاری)</label>
                 <input type="email" placeholder="example@mail.com" value={email}
-                  onChange={(e) => setEmail(e.target.value)} dir="ltr" className={inputCls(false)} autoComplete="email" />
+                  onChange={(e) => { setEmail(e.target.value); clearFieldError('email') }} dir="ltr" className={inputCls(!!fieldErrors.email)} autoComplete="email"
+                  data-field="email" aria-invalid={!!fieldErrors.email} aria-describedby="profile-email-error" />
+                <FieldError id="profile-email-error" message={fieldErrors.email} />
               </div>
               {error && <ErrorBox message={error} />}
               <PsButton type="submit" disabled={loading}>

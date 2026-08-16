@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useAuth } from "@/context/AuthContext";
 import { useToast } from "@/context/ToastContext";
 import { api, extractApiError } from "@/lib/api";
@@ -48,13 +48,28 @@ function RatingInput({
   value,
   onChange,
   disabled,
+  hasError,
+  describedBy,
+  groupRef,
 }: {
   value: number;
   onChange: (rating: number) => void;
   disabled?: boolean;
+  hasError?: boolean;
+  describedBy?: string;
+  groupRef?: React.RefObject<HTMLDivElement | null>;
 }) {
   return (
-    <div className="flex items-center gap-1" dir="ltr" role="radiogroup" aria-label="امتیاز شما">
+    <div
+      ref={groupRef}
+      className="flex items-center gap-1 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue"
+      dir="ltr"
+      role="radiogroup"
+      aria-label="امتیاز شما"
+      aria-invalid={hasError}
+      aria-describedby={describedBy}
+      tabIndex={-1}
+    >
       {[1, 2, 3, 4, 5].map((rating) => (
         <button
           key={rating}
@@ -99,6 +114,11 @@ function statusText(status?: ReviewStatus) {
   return "در انتظار تایید";
 }
 
+function FieldError({ id, message }: { id: string; message?: string }) {
+  if (!message) return null;
+  return <p id={id} className="mt-2 text-xs font-bold text-red-600">{message}</p>;
+}
+
 export default function GameReviewsSection({ gameId, gameTitle }: { gameId: number; gameTitle: string }) {
   const { user, openAuthModal } = useAuth();
   const toast = useToast();
@@ -108,6 +128,9 @@ export default function GameReviewsSection({ gameId, gameTitle }: { gameId: numb
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [formErrors, setFormErrors] = useState<{ rating?: string; body?: string }>({});
+  const ratingRef = useRef<HTMLDivElement>(null);
+  const bodyRef = useRef<HTMLTextAreaElement>(null);
 
   const loadReviews = useCallback(async () => {
     setLoading(true);
@@ -132,13 +155,10 @@ export default function GameReviewsSection({ gameId, gameTitle }: { gameId: numb
   }, [gameId]);
 
   useEffect(() => {
-    void loadReviews();
+    void Promise.resolve().then(loadReviews);
   }, [loadReviews, user]);
 
-  const averageLabel = useMemo(() => {
-    if (data?.average_rating == null) return null;
-    return toPersianDigits(data.average_rating.toFixed(1));
-  }, [data?.average_rating]);
+  const averageLabel = data?.average_rating == null ? null : toPersianDigits(data.average_rating.toFixed(1));
 
   async function submitReview() {
     if (!user) {
@@ -146,21 +166,27 @@ export default function GameReviewsSection({ gameId, gameTitle }: { gameId: numb
       openAuthModal();
       return;
     }
-    if (rating < 1) {
-      toast.error("امتیاز را انتخاب کنید");
+    const nextErrors: { rating?: string; body?: string } = {};
+    if (rating < 1) nextErrors.rating = "امتیاز را انتخاب کنید.";
+    if (!body.trim()) nextErrors.body = "متن دیدگاه را وارد کنید.";
+    if (Object.keys(nextErrors).length > 0) {
+      setFormErrors(nextErrors);
+      if (nextErrors.rating) ratingRef.current?.focus();
+      else bodyRef.current?.focus();
+      toast.error("دیدگاه ثبت نشد", "موارد مشخص‌شده را اصلاح کنید.");
       return;
     }
-    if (!body.trim()) {
-      toast.error("متن دیدگاه را وارد کنید");
-      return;
-    }
+    setFormErrors({});
 
     setSaving(true);
     try {
       const res = await api.post(`/api/reviews/games/${gameId}/`, { rating, body });
       const payload = await res.json();
       if (!res.ok) {
-        toast.error(extractApiError(payload));
+        const message = extractApiError(payload);
+        setFormErrors({ body: message });
+        bodyRef.current?.focus();
+        toast.error("دیدگاه ثبت نشد", message);
         return;
       }
       toast.success("دیدگاه ثبت شد", "پس از تایید نمایش داده می‌شود.");
@@ -212,7 +238,16 @@ export default function GameReviewsSection({ gameId, gameTitle }: { gameId: numb
             {loading ? (
               <div className="h-28 animate-pulse rounded-lg bg-gray-100" />
             ) : error ? (
-              <p className="rounded-lg bg-red-50 px-4 py-3 text-sm font-semibold text-red-600">{error}</p>
+              <div className="rounded-lg bg-red-50 px-4 py-4 text-sm text-red-700">
+                <p className="font-semibold">{error}</p>
+                <button
+                  type="button"
+                  onClick={() => void loadReviews()}
+                  className="mt-3 cursor-pointer rounded-lg bg-white px-4 py-2 text-xs font-extrabold text-red-600 ring-1 ring-red-100 transition hover:bg-red-100"
+                >
+                  تلاش دوباره
+                </button>
+              </div>
             ) : data?.reviews.length ? (
               data.reviews.map((review) => (
                 <article key={review.id} className="rounded-lg border border-gray-100 bg-gray-50 px-4 py-4">
@@ -271,7 +306,18 @@ export default function GameReviewsSection({ gameId, gameTitle }: { gameId: numb
                 <label className="mb-2 block text-sm font-bold text-gray-800">
                   امتیاز شما <span className="text-[#ef0b25]">*</span>
                 </label>
-                <RatingInput value={rating} onChange={setRating} disabled={saving} />
+                <RatingInput
+                  value={rating}
+                  onChange={(nextRating) => {
+                    setRating(nextRating);
+                    setFormErrors((current) => ({ ...current, rating: undefined }));
+                  }}
+                  disabled={saving}
+                  hasError={!!formErrors.rating}
+                  describedBy="review-rating-error"
+                  groupRef={ratingRef}
+                />
+                <FieldError id="review-rating-error" message={formErrors.rating} />
               </div>
 
               <div>
@@ -280,13 +326,27 @@ export default function GameReviewsSection({ gameId, gameTitle }: { gameId: numb
                 </label>
                 <textarea
                   id="game-review-body"
+                  ref={bodyRef}
                   value={body}
-                  onChange={(event) => setBody(event.target.value)}
+                  onChange={(event) => {
+                    setBody(event.target.value);
+                    setFormErrors((current) => ({ ...current, body: undefined }));
+                  }}
                   disabled={saving}
                   rows={7}
                   maxLength={5000}
-                  className="w-full resize-y rounded-lg border border-transparent bg-[#f1f3ff] px-4 py-3 text-sm leading-7 text-gray-900 outline-none transition focus:border-ps-blue focus:bg-white focus:ring-2 focus:ring-blue-100 disabled:opacity-60"
+                  aria-invalid={!!formErrors.body}
+                  aria-describedby="review-body-error review-body-count"
+                  className={`w-full resize-y rounded-lg border bg-[#f1f3ff] px-4 py-3 text-sm leading-7 text-gray-900 outline-none transition focus:border-ps-blue focus:bg-white focus:ring-2 focus:ring-blue-100 disabled:opacity-60 ${
+                    formErrors.body ? "border-red-300 focus:border-red-400 focus:ring-red-100" : "border-transparent"
+                  }`}
                 />
+                <div className="mt-1 flex items-center justify-between gap-3">
+                  <FieldError id="review-body-error" message={formErrors.body} />
+                  <p id="review-body-count" className="mr-auto text-xs text-gray-400">
+                    {toPersianDigits(body.length)} / {toPersianDigits(5000)}
+                  </p>
+                </div>
               </div>
 
               <button

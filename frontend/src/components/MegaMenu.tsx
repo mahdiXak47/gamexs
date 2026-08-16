@@ -23,6 +23,8 @@ export default function MegaMenu({
   const [activeIdx, setActiveIdx] = useState(0);
   const [games, setGames] = useState<GamePreview[]>([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
+  const [retryCount, setRetryCount] = useState(0);
 
   // Reset loading when the hovered genre changes (render-phase adjustment,
   // so the fetch effect never calls setState synchronously).
@@ -31,17 +33,35 @@ export default function MegaMenu({
     setPrevIdx(activeIdx);
     setLoading(true);
     setGames([]);
+    setError(false);
   }
 
   useEffect(() => {
     const genre = GENRES[activeIdx].genre;
-    let cancelled = false;
-    fetch(`/api/genre-games?genre=${encodeURIComponent(genre)}`)
-      .then((r) => r.json())
-      .then((data) => { if (!cancelled) { setGames(data); setLoading(false); } })
-      .catch(() => { if (!cancelled) setLoading(false); });
-    return () => { cancelled = true; };
-  }, [activeIdx]);
+    const controller = new AbortController();
+
+    async function loadPreview() {
+      setLoading(true);
+      setError(false);
+      try {
+        const response = await fetch(`/api/genre-games?genre=${encodeURIComponent(genre)}`, {
+          signal: controller.signal,
+        });
+        if (!response.ok) throw new Error("genre_preview_failed");
+        const data = await response.json();
+        setGames(Array.isArray(data) ? data : []);
+      } catch {
+        if (controller.signal.aborted) return;
+        setGames([]);
+        setError(true);
+      } finally {
+        if (!controller.signal.aborted) setLoading(false);
+      }
+    }
+
+    void loadPreview();
+    return () => controller.abort();
+  }, [activeIdx, retryCount]);
 
   return (
     <div
@@ -97,6 +117,20 @@ export default function MegaMenu({
                   <div className="h-2.5 w-3/4 rounded bg-white/8 animate-pulse" />
                 </div>
               ))}
+            </div>
+          ) : error ? (
+            <div key={`error-${activeIdx}`} className="mega-games-panel rounded-xl border border-white/10 bg-white/5 px-4 py-5 text-center" role="status">
+              <p className="text-sm font-semibold text-white/75">پیش‌نمایش این دسته موقتاً در دسترس نیست</p>
+              <p className="mt-1 text-xs leading-5 text-white/40">
+                همچنان می‌توانید وارد صفحه کامل دسته‌بندی شوید.
+              </p>
+              <button
+                type="button"
+                onClick={() => setRetryCount((count) => count + 1)}
+                className="mt-3 inline-flex min-h-9 cursor-pointer items-center justify-center rounded-lg border border-white/15 px-3 text-xs font-bold text-white/75 transition hover:bg-white/10 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/40"
+              >
+                تلاش دوباره
+              </button>
             </div>
           ) : games.length === 0 ? (
             <p key={`empty-${activeIdx}`} className="mega-games-panel text-white/30 text-sm pt-4">بازی‌ای در این دسته یافت نشد</p>
