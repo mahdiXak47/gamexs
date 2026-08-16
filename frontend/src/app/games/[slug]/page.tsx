@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { Chip } from "@heroui/react";
@@ -26,6 +27,34 @@ import { lowestAvailableOffer, lowestValidPrice, storeCount } from "@/lib/purcha
 import { faqPageJsonLd, gamePurchaseFaqs, SITE_URL, tomanToRial } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
+
+function secondaryValue<T>(result: PromiseSettledResult<T>, fallback: T, label: string): T {
+  if (result.status === "fulfilled") return result.value;
+  console.error(`Game detail secondary data failed: ${label}`, result.reason);
+  return fallback;
+}
+
+function secondaryFailed(result: PromiseSettledResult<unknown>): boolean {
+  return result.status === "rejected";
+}
+
+function DegradedNotice({ children }: { children: ReactNode }) {
+  return (
+    <div className="mx-auto mt-4 max-w-6xl px-4 sm:px-6" dir="rtl">
+      <div className="rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-xs font-medium leading-6 text-amber-800">
+        {children}
+      </div>
+    </div>
+  );
+}
+
+function InlineDegradedNotice({ children }: { children: ReactNode }) {
+  return (
+    <div className="rounded-xl border border-white/15 bg-white/10 px-3 py-2 text-center text-[11px] leading-5 text-white/70 backdrop-blur-sm" dir="rtl">
+      {children}
+    </div>
+  );
+}
 
 export async function generateMetadata({
   params,
@@ -72,12 +101,20 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
   const game = await getGameBySlug(slug);
   if (!game) notFound();
 
-  const [storeInfo, gameVersions, similarGames, similarGamesByDeveloper] = await Promise.all([
+  const [storeInfoResult, gameVersionsResult, similarGamesResult, similarGamesByDeveloperResult] = await Promise.allSettled([
     getGameStoreInfo(game.dbId),
     getGameVersions(game.dbId, game.title),
     getSimilarGames(game.dbId, game.genres),
     getSimilarGamesByDeveloper(game.dbId, game.developers),
   ]);
+  const storeInfo = secondaryValue(storeInfoResult, null, "ps-store-info");
+  const gameVersions = secondaryValue(gameVersionsResult, [], "game-versions");
+  const similarGames = secondaryValue(similarGamesResult, [], "similar-games");
+  const similarGamesByDeveloper = secondaryValue(similarGamesByDeveloperResult, [], "similar-games-by-developer");
+  const storeInfoUnavailable = secondaryFailed(storeInfoResult);
+  const gameVersionsUnavailable = secondaryFailed(gameVersionsResult);
+  const similarGamesUnavailable = secondaryFailed(similarGamesResult);
+  const similarGamesByDeveloperUnavailable = secondaryFailed(similarGamesByDeveloperResult);
 
   const lowestOffer = lowestAvailableOffer(game);
   const price  = lowestOffer?.priceToman ?? null;
@@ -323,6 +360,11 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
                   priority
                 />
                 <PsStorePriceBadges info={psStoreInfo} />
+                {storeInfoUnavailable && (
+                  <InlineDegradedNotice>
+                    قیمت رسمی PlayStation Store موقتاً در دسترس نیست؛ قیمت فروشندگان داخلی همچنان قابل مقایسه است.
+                  </InlineDegradedNotice>
+                )}
               </div>
             </div>
           </div>
@@ -345,8 +387,23 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
         </div>
 
         <GameVersions games={gameVersions} />
+        {gameVersionsUnavailable && (
+          <DegradedNotice>
+            نمایش نسخه‌های دیگر این بازی موقتاً در دسترس نیست.
+          </DegradedNotice>
+        )}
         <SimilarGames games={similarGames} heading="بازی‌های مشابه" tags={game.genres} />
+        {similarGamesUnavailable && (
+          <DegradedNotice>
+            پیشنهادهای مشابه بر اساس سبک بازی موقتاً در دسترس نیست.
+          </DegradedNotice>
+        )}
         <SimilarGames games={similarGamesByDeveloper} heading="بازی‌های همین سازنده" tags={game.developers} />
+        {similarGamesByDeveloperUnavailable && (
+          <DegradedNotice>
+            پیشنهادهای مربوط به سازنده این بازی موقتاً در دسترس نیست.
+          </DegradedNotice>
+        )}
         <GameReviewsSection gameId={game.dbId} gameTitle={game.title} />
         <FaqSection faqs={faqs} />
       </main>
