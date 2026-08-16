@@ -1,7 +1,7 @@
 const SOCIAL_LINKS = [
   {
     label: "کانال تلگرام گیم‌ایکس‌اس",
-    href: "https://t.me/gamexs_ir",
+    href: "https://t.me/gamexschannel",
     accent: "from-[#2f8df3] to-[#2558f0]",
     glow: "shadow-[0_18px_42px_rgba(37,88,240,0.22)]",
     icon: (
