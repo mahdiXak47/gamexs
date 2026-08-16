@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { Button, Pagination, SearchField } from "@heroui/react";
 import GameCard from "./GameCard";
@@ -20,6 +20,58 @@ function getPageNumbers(current: number, total: number): (number | "…")[] {
   if (current < total - 2) pages.push("…");
   pages.push(total);
   return pages;
+}
+
+function LoadingSpinner() {
+  return (
+    <svg
+      className="animate-spin"
+      width="16"
+      height="16"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.5"
+      aria-hidden
+    >
+      <circle cx="12" cy="12" r="9" strokeOpacity="0.2" />
+      <path d="M21 12a9 9 0 0 0-9-9" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+function CatalogEmptyState({
+  hasFilters,
+  onClear,
+  isPending,
+}: {
+  hasFilters: boolean;
+  onClear: () => void;
+  isPending: boolean;
+}) {
+  return (
+    <div className="mt-10 flex min-h-48 flex-col items-center justify-center gap-3 rounded-2xl border border-dashed border-gray-200 bg-white px-4 py-10 text-center">
+      <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-ps-blue" aria-hidden>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+          <circle cx="11" cy="11" r="7" />
+          <path d="m20 20-3.5-3.5" />
+        </svg>
+      </div>
+      <div>
+        <p className="text-sm font-bold text-gray-700">
+          {hasFilters ? "بازی‌ای با این جستجو یا فیلتر پیدا نشد." : "فعلاً بازی قابل نمایشی در این بخش نیست."}
+        </p>
+        <p className="mt-1 text-xs leading-6 text-gray-400">
+          {hasFilters ? "عنوان را ساده‌تر وارد کنید یا فیلترهای انتخاب‌شده را پاک کنید." : "بعد از به‌روزرسانی قیمت فروشندگان، بازی‌ها در اینجا نمایش داده می‌شوند."}
+        </p>
+      </div>
+      {hasFilters && (
+        <Button variant="ghost" size="sm" onPress={onClear} isDisabled={isPending}>
+          پاک کردن جستجو و فیلترها
+        </Button>
+      )}
+    </div>
+  );
 }
 
 export default function GameGrid({
@@ -44,6 +96,7 @@ export default function GameGrid({
   basePath: string;
 }) {
   const router = useRouter();
+  const [isPending, startTransition] = useTransition();
   const [queryInput, setQueryInput] = useState(query);
 
   // Keep the input in sync when navigation changes `query` externally
@@ -78,7 +131,9 @@ export default function GameGrid({
     }
 
     const qs = params.toString();
-    router.push(qs ? `${basePath}?${qs}` : basePath);
+    startTransition(() => {
+      router.push(qs ? `${basePath}?${qs}` : basePath);
+    });
   }
 
   const setSort = (s: SortOption) => updateParams({ sort: s === "popular" ? null : s, page: null });
@@ -95,11 +150,18 @@ export default function GameGrid({
   const start = total === 0 ? 0 : (page - 1) * pageSize + 1;
   const end = Math.min(page * pageSize, total);
   const selectedSet = new Set(selectedPublishers);
+  const hasActiveFilters = query.trim().length > 0 || selectedPublishers.length > 0;
 
   return (
     <>
       <div className="mt-6 w-full min-w-0 sm:max-w-xl">
-        <SearchField.Root value={queryInput} onChange={setQueryInput} aria-label="جستجوی بازی" fullWidth>
+        <SearchField.Root
+          value={queryInput}
+          onChange={setQueryInput}
+          aria-label="جستجوی بازی"
+          fullWidth
+          isDisabled={isPending}
+        >
           <SearchField.Group>
             <SearchField.SearchIcon />
             <SearchField.Input placeholder="جستجوی بازی…" />
@@ -108,36 +170,46 @@ export default function GameGrid({
         </SearchField.Root>
       </div>
 
+      <div className="sr-only" role="status" aria-live="polite">
+        {isPending ? "در حال به‌روزرسانی نتایج" : ""}
+      </div>
+
       <div className="mt-4 flex min-w-0 flex-wrap items-center justify-between gap-3">
         <div className="flex min-w-0 flex-1 flex-wrap items-center gap-2">
-          <SortBar value={sort} onChange={setSort} />
+          <SortBar value={sort} onChange={setSort} isDisabled={isPending} />
           {publishersList.length > 0 && (
             <PublisherFilter
               publishers={publishersList}
               selected={selectedSet}
               onChange={setSelectedPublishers}
+              isDisabled={isPending}
             />
           )}
         </div>
         {total > 0 && (
-          <p className="text-xs text-gray-500">
-            نمایش {toPersianDigits(start)} تا {toPersianDigits(end)} از {toPersianDigits(total)} بازی
-          </p>
+          <div className="flex items-center gap-2 text-xs text-gray-500">
+            {isPending && (
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-2.5 py-1 font-medium text-ps-blue">
+                <LoadingSpinner />
+                به‌روزرسانی
+              </span>
+            )}
+            <p>
+              نمایش {toPersianDigits(start)} تا {toPersianDigits(end)} از {toPersianDigits(total)} بازی
+            </p>
+          </div>
         )}
       </div>
 
       {total === 0 ? (
-        <div className="mt-10 flex flex-col items-center gap-3 text-center">
-          <p className="text-sm text-gray-500">بازی‌ای با این فیلترها پیدا نشد.</p>
-          <Button variant="ghost" size="sm" onPress={clearAll}>
-            پاک کردن جستجو و فیلترها
-          </Button>
-        </div>
+        <CatalogEmptyState hasFilters={hasActiveFilters} onClear={clearAll} isPending={isPending} />
       ) : (
-        <>
+        <div className="relative" aria-busy={isPending}>
           <div
             key={`${basePath}-${query}-${sort}-${page}-${selectedPublishers.join("|")}`}
-            className="mt-6 grid min-w-0 grid-cols-[repeat(2,minmax(0,1fr))] gap-3 sm:gap-5 md:grid-cols-[repeat(3,minmax(0,1fr))] lg:grid-cols-[repeat(4,minmax(0,1fr))]"
+            className={`mt-6 grid min-w-0 grid-cols-[repeat(2,minmax(0,1fr))] gap-3 transition-opacity duration-150 sm:gap-5 md:grid-cols-[repeat(3,minmax(0,1fr))] lg:grid-cols-[repeat(4,minmax(0,1fr))] ${
+              isPending ? "opacity-55" : "opacity-100"
+            }`}
           >
             {games.map((game, i) => (
               <div
@@ -160,7 +232,7 @@ export default function GameGrid({
                   <Pagination.Item>
                     <Pagination.Previous
                       onPress={() => setPage(Math.max(1, page - 1))}
-                      isDisabled={page === 1}
+                      isDisabled={page === 1 || isPending}
                     >
                       قبلی
                       <Pagination.NextIcon />
@@ -177,6 +249,7 @@ export default function GameGrid({
                         <Pagination.Link
                           isActive={num === page}
                           onPress={() => setPage(num)}
+                          isDisabled={isPending}
                         >
                           {toPersianDigits(num)}
                         </Pagination.Link>
@@ -187,7 +260,7 @@ export default function GameGrid({
                   <Pagination.Item>
                     <Pagination.Next
                       onPress={() => setPage(Math.min(totalPages, page + 1))}
-                      isDisabled={page === totalPages}
+                      isDisabled={page === totalPages || isPending}
                     >
                       <Pagination.PreviousIcon />
                       بعدی
@@ -197,7 +270,15 @@ export default function GameGrid({
               </Pagination>
             </div>
           )}
-        </>
+          {isPending && (
+            <div className="pointer-events-none absolute inset-x-0 top-6 z-10 flex justify-center">
+              <div className="inline-flex items-center gap-2 rounded-full border border-blue-100 bg-white/95 px-4 py-2 text-xs font-bold text-ps-blue shadow-lg shadow-slate-900/10 backdrop-blur">
+                <LoadingSpinner />
+                در حال به‌روزرسانی نتایج
+              </div>
+            </div>
+          )}
+        </div>
       )}
     </>
   );

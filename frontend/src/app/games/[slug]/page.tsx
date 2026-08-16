@@ -9,6 +9,7 @@ import FaqSection from "@/components/FaqSection";
 import GamePreorderBanner from "@/components/GamePreorderBanner";
 import GameReviewsSection from "@/components/GameReviewsSection";
 import GameVersions from "@/components/GameVersions";
+import GamePageScrollReset from "@/components/GamePageScrollReset";
 import GameViewTracker from "@/components/GameViewTracker";
 import Header from "@/components/Header";
 import JsonLd from "@/components/JsonLd";
@@ -190,6 +191,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
       <JsonLd data={productJsonLd} />
       <JsonLd data={breadcrumbJsonLd} />
       <JsonLd data={faqPageJsonLd(faqs)} />
+      <GamePageScrollReset slug={game.slug} />
       <GameViewTracker slug={game.slug} />
       <Header />
       <main className="flex-1">

@@ -23,7 +23,15 @@ function ChevronDown() {
   );
 }
 
-export default function SortBar({ value, onChange }: { value: SortOption; onChange: (v: SortOption) => void }) {
+export default function SortBar({
+  value,
+  onChange,
+  isDisabled = false,
+}: {
+  value: SortOption;
+  onChange: (v: SortOption) => void;
+  isDisabled?: boolean;
+}) {
   const [open, setOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const current = OPTIONS.find((option) => option.value === value) ?? OPTIONS[0];
@@ -49,6 +57,7 @@ export default function SortBar({ value, onChange }: { value: SortOption; onChan
           className="w-full justify-between bg-blue-50 text-ps-blue ring-1 ring-blue-100"
           aria-expanded={open}
           aria-haspopup="listbox"
+          isDisabled={isDisabled}
         >
           <span>{current.label}</span>
           <span className={`transition-transform duration-200 ${open ? "rotate-180" : ""}`}>
@@ -70,6 +79,7 @@ export default function SortBar({ value, onChange }: { value: SortOption; onChan
                   type="button"
                   role="option"
                   aria-selected={active}
+                  disabled={isDisabled}
                   onClick={() => {
                     onChange(option.value);
                     setOpen(false);
@@ -95,6 +105,7 @@ export default function SortBar({ value, onChange }: { value: SortOption; onChan
             size="sm"
             onPress={() => onChange(option.value)}
             className="shrink-0 transition-transform duration-150 active:scale-[0.97]"
+            isDisabled={isDisabled}
           >
             {option.label}
           </Button>

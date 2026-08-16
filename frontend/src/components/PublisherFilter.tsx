@@ -16,10 +16,12 @@ export default function PublisherFilter({
   publishers,
   selected,
   onChange,
+  isDisabled = false,
 }: {
   publishers: string[];
   selected: Set<string>;
   onChange: (next: Set<string>) => void;
+  isDisabled?: boolean;
 }) {
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState("");
@@ -48,6 +50,7 @@ export default function PublisherFilter({
   }, [open]);
 
   const toggle = (pub: string) => {
+    if (isDisabled) return;
     const next = new Set(selected);
     if (next.has(pub)) next.delete(pub);
     else next.add(pub);
@@ -70,6 +73,7 @@ export default function PublisherFilter({
         size="sm"
         onPress={() => setOpen((o) => !o)}
         className="gap-1.5"
+        isDisabled={isDisabled}
       >
         {label}
         <span className={`transition-transform duration-200 ${open ? "rotate-180" : ""}`}>
@@ -103,6 +107,7 @@ export default function PublisherFilter({
                   <button
                     key={pub}
                     type="button"
+                    disabled={isDisabled}
                     onClick={() => toggle(pub)}
                     className={`flex w-full cursor-pointer items-center gap-3 px-4 py-2 text-sm text-start transition-[background-color,color,transform] duration-150 hover:-translate-x-0.5 hover:bg-gray-100 ${
                       active ? "text-gray-900" : "text-gray-500"
@@ -127,8 +132,9 @@ export default function PublisherFilter({
             <div className="border-t border-gray-200 px-3 py-2">
               <button
                 type="button"
+                disabled={isDisabled}
                 onClick={() => { onChange(new Set()); setOpen(false); }}
-                className="w-full cursor-pointer rounded py-1 text-center text-xs text-gray-400 transition-colors hover:text-gray-900"
+                className="w-full cursor-pointer rounded py-1 text-center text-xs text-gray-400 transition-colors hover:text-gray-900 disabled:cursor-not-allowed disabled:opacity-50"
               >
                 پاک کردن فیلتر ({toPersianDigits(selected.size)} سازنده)
               </button>
