@@ -173,6 +173,76 @@ function Skeleton({ className }: { className: string }) {
   return <div className={`animate-pulse bg-gray-200 rounded-lg ${className}`} />
 }
 
+type LoadState = 'loading' | 'ready' | 'error'
+
+function SectionError({
+  title = 'بارگذاری انجام نشد',
+  message,
+  onRetry,
+  retrying = false,
+}: {
+  title?: string
+  message: string
+  onRetry: () => void
+  retrying?: boolean
+}) {
+  return (
+    <div className="bg-white border border-red-100 rounded-2xl flex flex-col items-center justify-center gap-4 flex-1 min-h-64 px-5 text-center">
+      <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-red-50 text-red-500" aria-hidden>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
+          <circle cx="12" cy="12" r="10" />
+          <path d="M12 7v6M12 17h.01" />
+        </svg>
+      </div>
+      <div>
+        <p className="text-sm font-bold text-gray-800">{title}</p>
+        <p className="mt-1 text-xs leading-6 text-gray-500">{message}</p>
+      </div>
+      <button
+        type="button"
+        onClick={onRetry}
+        disabled={retrying}
+        className="inline-flex min-h-10 cursor-pointer items-center justify-center rounded-xl bg-[#003087] px-4 text-xs font-bold text-white transition-opacity disabled:cursor-wait disabled:opacity-60"
+      >
+        {retrying ? 'در حال تلاش...' : 'تلاش دوباره'}
+      </button>
+    </div>
+  )
+}
+
+function SectionRefreshing({ label = 'در حال به‌روزرسانی' }: { label?: string }) {
+  return (
+    <div className="mb-3 inline-flex w-fit items-center gap-2 rounded-full bg-blue-50 px-3 py-1.5 text-xs font-semibold text-[#003087]" role="status" aria-live="polite">
+      <span className="h-3 w-3 rounded-full border-2 border-[#003087]/25 border-t-[#003087] animate-spin" aria-hidden />
+      {label}
+    </div>
+  )
+}
+
+function SectionErrorBanner({
+  message,
+  onRetry,
+  retrying = false,
+}: {
+  message: string
+  onRetry: () => void
+  retrying?: boolean
+}) {
+  return (
+    <div className="mb-3 flex flex-wrap items-center justify-between gap-3 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-xs text-amber-800">
+      <span>{message}</span>
+      <button
+        type="button"
+        onClick={onRetry}
+        disabled={retrying}
+        className="cursor-pointer font-bold text-amber-900 underline-offset-4 hover:underline disabled:cursor-wait disabled:opacity-60"
+      >
+        {retrying ? 'در حال تلاش...' : 'تلاش دوباره'}
+      </button>
+    </div>
+  )
+}
+
 // ─── Order card ──────────────────────────────────────────────────────────────
 
 function OrderCard({ order }: { order: Order }) {
@@ -217,26 +287,34 @@ function OrderCard({ order }: { order: Order }) {
 function OrdersSection() {
   const [tab, setTab] = useState<'current' | 'all'>('current')
   const [orders, setOrders] = useState<Order[]>([])
-  const [loading, setLoading] = useState(true)
+  const [loadState, setLoadState] = useState<LoadState>('loading')
+  const [error, setError] = useState<string | null>(null)
+
+  const loadOrders = useCallback(async () => {
+    setLoadState('loading')
+    setError(null)
+    try {
+      const res = await api.get('/api/orders/')
+      const data = await res.json().catch(() => null)
+      if (!res.ok) {
+        throw new Error(extractApiError(data))
+      }
+      setOrders(data?.results ?? data ?? [])
+      setLoadState('ready')
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'خطا در اتصال به سرور')
+      setLoadState('error')
+    }
+  }, [])
 
   useEffect(() => {
-    async function load() {
-      setLoading(true)
-      try {
-        const res = await api.get('/api/orders/')
-        if (res.ok) {
-          const data = await res.json()
-          setOrders(data.results ?? data ?? [])
-        }
-      } finally {
-        setLoading(false)
-      }
-    }
-    load()
-  }, [])
+    void Promise.resolve().then(loadOrders)
+  }, [loadOrders])
 
   const ACTIVE = new Set(['pending', 'confirmed', 'processing'])
   const filtered = tab === 'current' ? orders.filter(o => ACTIVE.has(o.status)) : orders
+  const loading = loadState === 'loading'
+  const failed = loadState === 'error'
 
   return (
     <div className="flex flex-col flex-1">
@@ -257,7 +335,13 @@ function OrdersSection() {
         ))}
       </div>
 
-      {loading ? (
+      {failed && orders.length > 0 && error && (
+        <SectionErrorBanner message={error} onRetry={loadOrders} retrying={loading} />
+      )}
+
+      {loading && orders.length > 0 && <SectionRefreshing />}
+
+      {loading && orders.length === 0 ? (
         <div className="flex flex-col gap-4">
           {[1, 2, 3].map(i => (
             <div key={i} className="bg-white border border-gray-200 rounded-2xl p-5 space-y-3">
@@ -273,6 +357,8 @@ function OrdersSection() {
             </div>
           ))}
         </div>
+      ) : failed && orders.length === 0 ? (
+        <SectionError message={error ?? 'امکان دریافت سفارش‌ها وجود ندارد.'} onRetry={loadOrders} retrying={loading} />
       ) : filtered.length === 0 ? (
         <div className="bg-white border border-gray-200 rounded-2xl flex flex-col items-center justify-center gap-4 flex-1 min-h-64 text-center">
           <Icons.empty />
@@ -297,15 +383,34 @@ function OrdersSection() {
 function WishlistSection() {
   const toast = useToast()
   const [items, setItems] = useState<WishlistItem[]>([])
-  const [loading, setLoading] = useState(true)
+  const [loadState, setLoadState] = useState<LoadState>('loading')
+  const [error, setError] = useState<string | null>(null)
+  const [deletingId, setDeletingId] = useState<number | null>(null)
 
-  useEffect(() => {
-    api.get('/api/wishlist/').then(async r => {
-      if (r.ok) { const d = await r.json(); setItems(d.results ?? d ?? []) }
-    }).finally(() => setLoading(false))
+  const loadWishlist = useCallback(async () => {
+    setLoadState('loading')
+    setError(null)
+    try {
+      const res = await api.get('/api/wishlist/')
+      const data = await res.json().catch(() => null)
+      if (!res.ok) {
+        throw new Error(extractApiError(data))
+      }
+      setItems(data?.results ?? data ?? [])
+      setLoadState('ready')
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'خطا در اتصال به سرور')
+      setLoadState('error')
+    }
   }, [])
 
+  useEffect(() => {
+    void Promise.resolve().then(loadWishlist)
+  }, [loadWishlist])
+
   async function removeItem(id: number) {
+    if (deletingId !== null) return
+    setDeletingId(id)
     try {
       const res = await api.delete(`/api/wishlist/${id}/`)
       if (res.ok) {
@@ -318,15 +423,24 @@ function WishlistSection() {
       toast.error('حذف انجام نشد', extractApiError(data))
     } catch {
       toast.error('حذف انجام نشد', 'خطا در اتصال به سرور')
+    } finally {
+      setDeletingId(null)
     }
   }
 
-  if (loading) return (
+  const loading = loadState === 'loading'
+  const failed = loadState === 'error'
+
+  if (loading && items.length === 0) return (
     <div className="bg-white border border-gray-200 rounded-2xl p-5 flex-1">
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
         {[1,2,3,4].map(i => <Skeleton key={i} className="aspect-[3/4] rounded-2xl" />)}
       </div>
     </div>
+  )
+
+  if (failed && items.length === 0) return (
+    <SectionError message={error ?? 'امکان دریافت علاقه‌مندی‌ها وجود ندارد.'} onRetry={loadWishlist} retrying={loading} />
   )
 
   if (items.length === 0) return (
@@ -339,6 +453,10 @@ function WishlistSection() {
 
   return (
     <div className="bg-white border border-gray-200 rounded-2xl p-5 flex-1">
+    {failed && error && (
+      <SectionErrorBanner message={error} onRetry={loadWishlist} retrying={loading} />
+    )}
+    {loading && items.length > 0 && <SectionRefreshing />}
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
       {items.map(item => {
         const s3Base = 'https://gs3.gamexs.ir/gamexs'
@@ -348,9 +466,10 @@ function WishlistSection() {
             ? `${s3Base}/covers/${item.game_slug}-main-cover.webp`
             : null
         const initial = item.game_title?.trim().split(/\s+/)[0]?.[0]?.toUpperCase() ?? '?'
+        const deleting = deletingId === item.id
         return (
           <div key={item.id} className="relative group">
-            <Link href={item.game_slug ? `/games/${item.game_slug}` : '#'} className="block">
+            <Link href={item.game_slug ? `/games/${item.game_slug}` : '#'} className={`block ${deleting ? 'pointer-events-none opacity-60' : ''}`} aria-disabled={deleting}>
               <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-gray-100 shadow-sm">
                 {cover ? (
                   <Image
@@ -373,12 +492,17 @@ function WishlistSection() {
             </Link>
             <button
               onClick={() => removeItem(item.id)}
-              className="absolute top-2 right-2 w-7 h-7 flex items-center justify-center rounded-full bg-black/40 text-white hover:bg-red-500 transition-colors duration-150 opacity-0 group-hover:opacity-100 cursor-pointer"
-              aria-label="حذف از علاقه‌مندی‌ها"
+              disabled={deletingId !== null}
+              className="absolute top-2 right-2 w-7 h-7 flex items-center justify-center rounded-full bg-black/40 text-white hover:bg-red-500 transition-colors duration-150 opacity-0 group-hover:opacity-100 cursor-pointer disabled:cursor-wait disabled:opacity-100"
+              aria-label={deleting ? 'در حال حذف از علاقه‌مندی‌ها' : 'حذف از علاقه‌مندی‌ها'}
             >
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" aria-hidden>
-                <path d="M18 6L6 18M6 6l12 12" />
-              </svg>
+              {deleting ? (
+                <span className="h-3 w-3 rounded-full border-2 border-white/40 border-t-white animate-spin" aria-hidden />
+              ) : (
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" aria-hidden>
+                  <path d="M18 6L6 18M6 6l12 12" />
+                </svg>
+              )}
             </button>
           </div>
         )
@@ -392,15 +516,38 @@ function WishlistSection() {
 
 function PsnSection() {
   const [accounts, setAccounts] = useState<PsnAccount[]>([])
-  const [loading, setLoading] = useState(true)
+  const [loadState, setLoadState] = useState<LoadState>('loading')
+  const [error, setError] = useState<string | null>(null)
 
-  useEffect(() => {
-    api.get('/api/game-accounts/psn/').then(async r => {
-      if (r.ok) { const d = await r.json(); setAccounts(d.results ?? d ?? []) }
-    }).finally(() => setLoading(false))
+  const loadAccounts = useCallback(async () => {
+    setLoadState('loading')
+    setError(null)
+    try {
+      const res = await api.get('/api/game-accounts/psn/')
+      const data = await res.json().catch(() => null)
+      if (!res.ok) {
+        throw new Error(extractApiError(data))
+      }
+      setAccounts(data?.results ?? data ?? [])
+      setLoadState('ready')
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'خطا در اتصال به سرور')
+      setLoadState('error')
+    }
   }, [])
 
-  if (loading) return <div className="flex flex-col gap-3">{[1,2].map(i => <Skeleton key={i} className="h-20" />)}</div>
+  useEffect(() => {
+    void Promise.resolve().then(loadAccounts)
+  }, [loadAccounts])
+
+  const loading = loadState === 'loading'
+  const failed = loadState === 'error'
+
+  if (loading && accounts.length === 0) return <div className="flex flex-col gap-3">{[1,2].map(i => <Skeleton key={i} className="h-20" />)}</div>
+
+  if (failed && accounts.length === 0) return (
+    <SectionError message={error ?? 'امکان دریافت اکانت‌های PSN وجود ندارد.'} onRetry={loadAccounts} retrying={loading} />
+  )
 
   if (accounts.length === 0) return (
     <div className="bg-white border border-gray-200 rounded-2xl flex flex-col items-center justify-center gap-4 flex-1 min-h-64 text-center">
@@ -411,6 +558,16 @@ function PsnSection() {
 
   return (
     <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+      {failed && error && (
+        <div className="p-4 pb-0">
+          <SectionErrorBanner message={error} onRetry={loadAccounts} retrying={loading} />
+        </div>
+      )}
+      {loading && accounts.length > 0 && (
+        <div className="px-4 pt-4">
+          <SectionRefreshing />
+        </div>
+      )}
       <ul className="divide-y divide-gray-50">
         {accounts.map(acc => (
           <li key={acc.id} className="flex items-center justify-between gap-4 px-5 py-4">
@@ -437,15 +594,38 @@ function PsnSection() {
 
 function TicketsSection() {
   const [tickets, setTickets] = useState<Ticket[]>([])
-  const [loading, setLoading] = useState(true)
+  const [loadState, setLoadState] = useState<LoadState>('loading')
+  const [error, setError] = useState<string | null>(null)
 
-  useEffect(() => {
-    api.get('/api/tickets/').then(async r => {
-      if (r.ok) { const d = await r.json(); setTickets(d.results ?? d ?? []) }
-    }).finally(() => setLoading(false))
+  const loadTickets = useCallback(async () => {
+    setLoadState('loading')
+    setError(null)
+    try {
+      const res = await api.get('/api/tickets/')
+      const data = await res.json().catch(() => null)
+      if (!res.ok) {
+        throw new Error(extractApiError(data))
+      }
+      setTickets(data?.results ?? data ?? [])
+      setLoadState('ready')
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'خطا در اتصال به سرور')
+      setLoadState('error')
+    }
   }, [])
 
-  if (loading) return <div className="flex flex-col gap-3">{[1,2].map(i => <Skeleton key={i} className="h-16" />)}</div>
+  useEffect(() => {
+    void Promise.resolve().then(loadTickets)
+  }, [loadTickets])
+
+  const loading = loadState === 'loading'
+  const failed = loadState === 'error'
+
+  if (loading && tickets.length === 0) return <div className="flex flex-col gap-3">{[1,2].map(i => <Skeleton key={i} className="h-16" />)}</div>
+
+  if (failed && tickets.length === 0) return (
+    <SectionError message={error ?? 'امکان دریافت تیکت‌ها وجود ندارد.'} onRetry={loadTickets} retrying={loading} />
+  )
 
   if (tickets.length === 0) return (
     <div className="bg-white border border-gray-200 rounded-2xl flex flex-col items-center justify-center gap-4 flex-1 min-h-64 text-center">
@@ -456,6 +636,16 @@ function TicketsSection() {
 
   return (
     <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+      {failed && error && (
+        <div className="p-4 pb-0">
+          <SectionErrorBanner message={error} onRetry={loadTickets} retrying={loading} />
+        </div>
+      )}
+      {loading && tickets.length > 0 && (
+        <div className="px-4 pt-4">
+          <SectionRefreshing />
+        </div>
+      )}
       <ul className="divide-y divide-gray-50">
         {tickets.map(t => {
           const s = TICKET_STATUS[t.status] ?? { label: t.status, cls: 'text-gray-500 bg-gray-50 border-gray-200' }
