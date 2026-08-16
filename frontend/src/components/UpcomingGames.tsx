@@ -107,7 +107,7 @@ export default function UpcomingGames({ games }: { games: UpcomingGame[] }) {
       </div>
 
       <div
-        className="relative aspect-[16/9] min-h-[360px] w-full overflow-hidden rounded-2xl bg-[#07101f] text-white shadow-[0_24px_64px_rgba(7,16,31,0.24)]"
+        className="relative min-h-[640px] w-full overflow-hidden rounded-2xl bg-[#07101f] text-white shadow-[0_24px_64px_rgba(7,16,31,0.24)] sm:min-h-[660px] md:aspect-[16/9] md:min-h-[560px] lg:min-h-[620px]"
         onMouseEnter={() => setPaused(true)}
         onMouseLeave={() => setPaused(false)}
         onTouchStart={() => setPaused(true)}
@@ -142,7 +142,7 @@ export default function UpcomingGames({ games }: { games: UpcomingGame[] }) {
           <div className="absolute inset-0 bg-[linear-gradient(0deg,rgba(3,7,18,0.96)_0%,rgba(3,7,18,0.42)_34%,rgba(3,7,18,0.12)_100%)]" />
         </div>
 
-        <div className="relative z-10 grid h-full grid-rows-[1fr_auto] gap-5 px-4 pb-5 pt-10 sm:px-8 sm:pb-7">
+        <div className="relative z-10 flex h-full min-h-[640px] flex-col justify-between gap-5 px-4 pb-5 pt-6 sm:min-h-[660px] sm:px-8 sm:pb-7 md:min-h-[560px] lg:min-h-0 lg:pt-10">
           <div key={game.slug} className="hero-content-enter flex items-start justify-between gap-6" dir="ltr">
             <div className="order-2 flex w-full max-w-2xl flex-col items-end text-right" dir="ltr">
               <div className="mb-4 flex flex-wrap items-center justify-end gap-2" dir="rtl" aria-label="مشخصات بازی">
@@ -176,31 +176,26 @@ export default function UpcomingGames({ games }: { games: UpcomingGame[] }) {
 
               <Link
                 href={`/games/${game.slug}`}
-                className="inline-flex min-h-12 cursor-pointer items-center justify-center self-end rounded-lg bg-ps-plus-gold px-7 py-3 text-sm font-extrabold text-gray-950 shadow-[0_14px_32px_rgba(246,184,41,0.24)] transition-[background-color,box-shadow,transform] duration-200 hover:bg-[#ffd35a] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-transparent"
+                className="inline-flex min-h-12 cursor-pointer items-center justify-center self-end rounded-lg bg-ps-plus-gold px-6 py-3 text-sm font-extrabold text-gray-950 shadow-[0_14px_32px_rgba(246,184,41,0.24)] transition-[background-color,box-shadow,transform] duration-200 hover:bg-[#ffd35a] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-transparent sm:px-7"
                 dir="rtl"
               >
                 مشاهده پیش‌خرید
               </Link>
             </div>
 
-            <div className="order-1 hidden min-w-[340px] self-end flex-col items-start gap-3 lg:flex" dir="ltr">
-              <p className="w-fit border-b border-white/45 pb-1 text-base font-semibold text-white/82" dir="rtl">
-                {formatPersianDate(game.releaseDate)}
-              </p>
-              <CountdownTimer releaseDate={game.releaseDate} />
-            </div>
+            <div className="order-1 hidden lg:block" aria-hidden />
           </div>
 
           {slides.length > 1 && (
-            <div className="flex flex-col items-start gap-5" dir="ltr">
-              <div className="flex flex-col items-start gap-4 lg:hidden" dir="ltr">
+            <div className="flex flex-col items-start gap-4 sm:gap-5 lg:absolute lg:bottom-7 lg:left-8 lg:w-[600px]" dir="ltr">
+              <div className="flex flex-col items-start gap-3" dir="ltr">
                 <p className="w-fit border-b border-white/45 pb-1 text-base font-semibold text-white/82" dir="rtl">
                   {formatPersianDate(game.releaseDate)}
                 </p>
                 <CountdownTimer releaseDate={game.releaseDate} />
               </div>
               <div
-                className="hide-scrollbar grid max-w-full auto-cols-[96px] grid-flow-col gap-3 overflow-x-auto pb-1 sm:auto-cols-[118px] md:auto-cols-[136px]"
+                className="hide-scrollbar grid max-w-full auto-cols-[82px] grid-flow-col gap-3 overflow-x-auto pb-1 sm:auto-cols-[118px] md:auto-cols-[136px] lg:auto-cols-[136px]"
                 dir="rtl"
                 role="tablist"
                 aria-label="انتخاب بازی پیش‌خرید"

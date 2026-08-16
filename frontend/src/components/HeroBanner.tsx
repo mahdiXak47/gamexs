@@ -36,7 +36,7 @@ function HeroPriceRail({ gameSlug, options }: { gameSlug: string; options: HeroP
 
   return (
     <aside
-      className="hero-content-enter w-full max-w-sm rounded-2xl border border-white/12 bg-black/28 p-3 shadow-2xl backdrop-blur-xl lg:w-80"
+      className="hero-content-enter hidden w-full max-w-sm rounded-2xl border border-white/12 bg-black/28 p-3 shadow-2xl backdrop-blur-xl md:block lg:w-80"
       aria-label="کمترین قیمت بر اساس مدل خرید"
     >
       <div className="mb-2 flex items-center justify-between gap-3 px-1">
@@ -164,14 +164,14 @@ export default function HeroBanner({
         <div className="absolute inset-0 bg-[linear-gradient(0deg,rgba(3,7,18,0.96)_0%,rgba(3,7,18,0.42)_34%,rgba(3,7,18,0.12)_100%)]" />
       </div>
 
-      <div className="relative z-10 mx-auto flex min-h-dvh max-w-7xl flex-col justify-end px-4 pb-5 pt-16 sm:px-6">
+      <div className="relative z-10 mx-auto flex min-h-dvh max-w-7xl flex-col justify-between px-4 pb-5 pt-20 sm:px-6 lg:justify-end">
         <div
           key={current}
           className="mb-8 flex flex-col gap-5 sm:mb-10 lg:mb-12 lg:flex-row lg:items-end lg:justify-between lg:gap-8"
           aria-live="polite"
           aria-atomic="true"
         >
-          <div className="hero-content-enter max-w-xl">
+          <div className="hero-content-enter w-full max-w-xl self-end text-right">
             <div className="mb-4 flex flex-wrap items-center gap-2">
               <Chip size="sm" className="border-0 bg-ps-plus-gold text-xs font-extrabold text-gray-950">
                 {copy.badge ?? "PS5"}

@@ -118,7 +118,7 @@ export default async function Home({
       </div>
 
       {/* Full Games Catalog */}
-      <main id="main-content" className="mx-auto max-w-7xl flex-1 px-4 py-8 sm:px-6">
+      <main id="main-content" className="mx-auto w-full min-w-0 max-w-7xl flex-1 px-4 py-8 sm:px-6">
         <div className="flex flex-wrap items-center gap-3 mb-2">
           <h1 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">
             همه بازی‌ها

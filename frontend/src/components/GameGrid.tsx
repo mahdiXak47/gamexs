@@ -98,7 +98,7 @@ export default function GameGrid({
 
   return (
     <>
-      <div className="mt-6 max-w-xl">
+      <div className="mt-6 w-full min-w-0 sm:max-w-xl">
         <SearchField.Root value={queryInput} onChange={setQueryInput} aria-label="جستجوی بازی" fullWidth>
           <SearchField.Group>
             <SearchField.SearchIcon />
@@ -108,8 +108,8 @@ export default function GameGrid({
         </SearchField.Root>
       </div>
 
-      <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
-        <div className="flex flex-wrap items-center gap-2">
+      <div className="mt-4 flex min-w-0 flex-wrap items-center justify-between gap-3">
+        <div className="flex min-w-0 flex-1 flex-wrap items-center gap-2">
           <SortBar value={sort} onChange={setSort} />
           {publishersList.length > 0 && (
             <PublisherFilter
@@ -137,12 +137,12 @@ export default function GameGrid({
         <>
           <div
             key={`${basePath}-${query}-${sort}-${page}-${selectedPublishers.join("|")}`}
-            className="mt-6 grid grid-cols-2 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+            className="mt-6 grid min-w-0 grid-cols-[repeat(2,minmax(0,1fr))] gap-3 sm:gap-5 md:grid-cols-[repeat(3,minmax(0,1fr))] lg:grid-cols-[repeat(4,minmax(0,1fr))]"
           >
             {games.map((game, i) => (
               <div
                 key={game.slug}
-                className="ui-stagger-card h-full"
+                className="ui-stagger-card h-full min-w-0"
                 style={{ animationDelay: `${Math.min(i, 11) * 28}ms` }}
               >
                 <GameCard
