@@ -94,6 +94,8 @@ export async function renderPublisherLandingPage({
           selectedPublishers={[]}
           publishersList={[]}
           basePath={`/publishers/${slug}`}
+          emptyTitle={`فعلاً بازی قابل خریدی از ${publisher} پیدا نشد.`}
+          emptyDescription="اگر با جستجو یا مرتب‌سازی به اینجا رسیدید، عبارت را ساده‌تر کنید یا فهرست همه بازی‌ها را ببینید."
         />
       </main>
       <Disclaimer />

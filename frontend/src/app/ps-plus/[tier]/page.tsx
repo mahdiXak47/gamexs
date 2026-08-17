@@ -86,8 +86,48 @@ const TIER_FEATURES: Record<string, string[]> = {
   ],
 };
 
+function isAvailableOption(option: PsPlusOption) {
+  return option.latestPrice != null && option.latestPrice > 0 && option.inStock;
+}
+
+function OptionEmptyState({ color }: { color: string }) {
+  return (
+    <div className="rounded-2xl border border-dashed border-gray-300 bg-white px-5 py-10 text-center shadow-sm">
+      <p className="text-base font-extrabold text-gray-900">فعلاً گزینه‌ای برای این سطح ثبت نشده است</p>
+      <p className="mx-auto mt-3 max-w-lg text-sm leading-7 text-gray-500">
+        وقتی فروشنده‌ها ظرفیت‌های این اشتراک را ثبت کنند، قیمت‌ها و لینک خرید اینجا نمایش داده می‌شود.
+      </p>
+      <Link
+        href="/ps-plus"
+        className="mt-6 inline-flex h-11 items-center justify-center rounded-lg px-5 text-sm font-bold text-white transition-[opacity,transform] duration-150 hover:opacity-90 active:scale-[0.98]"
+        style={{ background: `linear-gradient(135deg, ${color} 0%, ${color}cc 100%)` }}
+      >
+        مشاهده سطح‌های دیگر
+      </Link>
+    </div>
+  );
+}
+
+function AvailabilityNotice({ hasAvailableOffer }: { hasAvailableOffer: boolean }) {
+  if (hasAvailableOffer) {
+    return (
+      <div className="rounded-xl border border-blue-100 bg-blue-50 px-4 py-3 text-sm leading-7 text-blue-800">
+        قبل از پرداخت در سایت فروشنده، قیمت نهایی و موجودی اشتراک را دوباره بررسی کنید.
+      </div>
+    );
+  }
+
+  return (
+    <div className="rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-7 text-amber-800">
+      در حال حاضر برای این سطح اشتراک، گزینه‌ای با قیمت معتبر و موجودی قابل خرید پیدا نکردیم.
+    </div>
+  );
+}
+
 function OptionCard({ opt, color }: { opt: PsPlusOption; color: string }) {
-  const available = opt.latestPrice != null && opt.inStock;
+  const hasPrice = opt.latestPrice != null && opt.latestPrice > 0;
+  const displayPrice = hasPrice ? opt.latestPrice : null;
+  const available = isAvailableOption(opt);
 
   return (
     <div className="ui-lift-card rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden flex flex-col">
@@ -98,9 +138,9 @@ function OptionCard({ opt, color }: { opt: PsPlusOption; color: string }) {
           <p className="text-xs text-gray-500 mt-0.5 leading-snug">{CAPACITY_DESC[opt.capacity]}</p>
         </div>
         <div className="text-left shrink-0">
-          {opt.latestPrice != null ? (
+          {displayPrice !== null ? (
             <>
-              <p className="text-lg font-black text-gray-900">{formatToman(opt.latestPrice)}</p>
+              <p className="text-lg font-black text-gray-900">{formatToman(displayPrice)}</p>
               <p className={`text-[11px] text-left mt-0.5 font-medium ${opt.inStock ? "text-green-600" : "text-red-400"}`}>
                 {opt.inStock ? "موجود" : "ناموجود"}
               </p>
@@ -127,6 +167,8 @@ function OptionCard({ opt, color }: { opt: PsPlusOption; color: string }) {
               : "bg-gray-100 text-gray-400 cursor-not-allowed pointer-events-none"
           }`}
           style={available ? { background: `linear-gradient(135deg, ${color} 0%, ${color}cc 100%)` } : undefined}
+          aria-disabled={!available}
+          tabIndex={available ? undefined : -1}
         >
           {available ? "خرید" : "ناموجود"}
         </a>
@@ -149,7 +191,10 @@ export default async function PsPlusTierPage({
 
   const color    = TIER_COLOR[plan.tier];
   const features = TIER_FEATURES[plan.tier] ?? [];
-  const lowestPrice = Math.min(...plan.options.map((o) => o.latestPrice ?? Infinity));
+  const availableOptions = plan.options.filter(isAvailableOption);
+  const lowestPrice = availableOptions.length > 0
+    ? Math.min(...availableOptions.map((o) => o.latestPrice!))
+    : null;
   const faqs = psPlusFaqs(TIER_LABEL[plan.tier]);
   const breadcrumbSchema = breadcrumbJsonLd([
     { name: "بازی‌های PS5", path: "/" },
@@ -224,8 +269,10 @@ export default async function PsPlusTierPage({
             )}
             <div>
               <h1 className="text-3xl font-black text-white">{TIER_LABEL[plan.tier]}</h1>
-              {lowestPrice < Infinity && (
+              {lowestPrice !== null ? (
                 <p className="text-white/70 text-sm mt-1">از {formatToman(lowestPrice)}</p>
+              ) : (
+                <p className="text-white/70 text-sm mt-1">بدون موجودی قابل خرید</p>
               )}
             </div>
           </div>
@@ -239,9 +286,14 @@ export default async function PsPlusTierPage({
           {/* LEFT: pricing options */}
           <div className="lg:col-span-2 space-y-4" dir="rtl">
             <h2 className="text-lg font-extrabold text-gray-900">انتخاب ظرفیت</h2>
-            {plan.options.map((opt) => (
-              <OptionCard key={opt.capacity} opt={opt} color={color} />
-            ))}
+            <AvailabilityNotice hasAvailableOffer={availableOptions.length > 0} />
+            {plan.options.length > 0 ? (
+              plan.options.map((opt) => (
+                <OptionCard key={opt.capacity} opt={opt} color={color} />
+              ))
+            ) : (
+              <OptionEmptyState color={color} />
+            )}
           </div>
 
           {/* RIGHT: features */}

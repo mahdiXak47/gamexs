@@ -125,26 +125,19 @@ export default async function GenrePage({
           </div>
         </div>
 
-        {total === 0 ? (
-          <div className="mt-16 flex flex-col items-center gap-3 text-center">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-gray-300" aria-hidden>
-              <circle cx="11" cy="11" r="8" /><path d="m21 21-4.35-4.35" />
-            </svg>
-            <p className="text-gray-500 font-medium">بازی‌ای در این دسته یافت نشد</p>
-          </div>
-        ) : (
-          <GameGrid
-            games={games}
-            total={total}
-            page={page}
-            pageSize={PAGE_SIZE}
-            sort={sort}
-            query={query}
-            selectedPublishers={publishers}
-            publishersList={publishersList}
-            basePath={`/genres/${slug}`}
-          />
-        )}
+        <GameGrid
+          games={games}
+          total={total}
+          page={page}
+          pageSize={PAGE_SIZE}
+          sort={sort}
+          query={query}
+          selectedPublishers={publishers}
+          publishersList={publishersList}
+          basePath={`/genres/${slug}`}
+          emptyTitle={`فعلاً بازی‌ای در دسته ${genre.label} پیدا نشد.`}
+          emptyDescription="عنوان را ساده‌تر جستجو کنید، فیلتر ناشر را پاک کنید، یا دسته‌های دیگر را بررسی کنید."
+        />
       </main>
 
       <Disclaimer />

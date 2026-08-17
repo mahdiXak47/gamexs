@@ -117,7 +117,8 @@ class MetadataRefreshWorkflow:
             batch = games[batch_start : batch_start + batch_size]
             fetches: list[tuple[dict, str, object]] = []
             for game in batch:
-                concept_part = _activity_id_part(game["concept_id"], 80)
+                store_key = game.get("product_id") or game["concept_id"]
+                store_part = _activity_id_part(store_key, 80)
                 for region in PSSTORE_REGIONS:
                     fetches.append(
                         (
@@ -128,19 +129,20 @@ class MetadataRefreshWorkflow:
                                 game,
                                 start_to_close_timeout=timedelta(minutes=5),
                                 retry_policy=NO_RETRY,
-                                activity_id=f"psstore-{concept_part}-{region}",
+                                activity_id=f"psstore-{store_part}-{region}",
                                 summary=f"PS Store {region.upper()}: {game['game_name']}",
                             ),
                         )
                     )
 
-            prices_by_concept: dict[str, list[dict]] = {}
-            games_by_concept: dict[str, dict] = {}
+            prices_by_store_key: dict[str, list[dict]] = {}
+            games_by_store_key: dict[str, dict] = {}
             for game, region, future in fetches:
-                games_by_concept[game["concept_id"]] = game
+                store_key = game.get("product_id") or game["concept_id"]
+                games_by_store_key[store_key] = game
                 try:
                     price = await future
-                    prices_by_concept.setdefault(game["concept_id"], []).append(price)
+                    prices_by_store_key.setdefault(store_key, []).append(price)
                 except Exception as exc:
                     failures.append(
                         {
@@ -152,9 +154,9 @@ class MetadataRefreshWorkflow:
                         }
                     )
 
-            for concept_id, prices in prices_by_concept.items():
-                game = games_by_concept[concept_id]
-                concept_part = _activity_id_part(concept_id, 80)
+            for store_key, prices in prices_by_store_key.items():
+                game = games_by_store_key[store_key]
+                store_part = _activity_id_part(store_key, 80)
                 try:
                     game_results.append(
                         await workflow.execute_activity(
@@ -162,7 +164,7 @@ class MetadataRefreshWorkflow:
                             {"game": game, "prices": prices},
                             start_to_close_timeout=timedelta(minutes=2),
                             retry_policy=NO_RETRY,
-                            activity_id=f"psstore-upsert-{concept_part}",
+                            activity_id=f"psstore-upsert-{store_part}",
                             summary=f"Save PS Store prices: {game['game_name']}",
                         )
                     )
@@ -171,7 +173,8 @@ class MetadataRefreshWorkflow:
                         {
                             "stage": "psstore_upsert",
                             "game_name": game["game_name"],
-                            "concept_id": concept_id,
+                            "concept_id": game["concept_id"],
+                            "product_id": game.get("product_id"),
                             "error": str(exc),
                         }
                     )

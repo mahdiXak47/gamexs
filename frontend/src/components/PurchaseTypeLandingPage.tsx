@@ -89,6 +89,8 @@ export async function renderPurchaseTypeLandingPage({
           selectedPublishers={publishers}
           publishersList={[]}
           basePath={definition.path}
+          emptyTitle={`فعلاً بازی‌ای برای ${definition.h1} پیدا نشد.`}
+          emptyDescription="عنوان را ساده‌تر جستجو کنید یا بعد از به‌روزرسانی قیمت فروشندگان دوباره این بخش را بررسی کنید."
         />
       </main>
       <Disclaimer />

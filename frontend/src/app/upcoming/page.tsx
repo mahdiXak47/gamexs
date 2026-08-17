@@ -81,6 +81,46 @@ function upcomingToHeroGame(game: UpcomingGame): GameSummary {
   };
 }
 
+function EmptyUpcomingState() {
+  return (
+    <section className="rounded-2xl border border-dashed border-gray-300 bg-white px-5 py-12 text-center shadow-sm" dir="rtl">
+      <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-ps-blue" aria-hidden>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M8 2v4M16 2v4M3 10h18" />
+          <rect x="3" y="4" width="18" height="18" rx="2" />
+          <path d="m9 16 2 2 4-5" />
+        </svg>
+      </div>
+      <h2 className="mt-4 text-lg font-extrabold text-gray-900">فعلاً بازی پیش‌خریدی برای نمایش نداریم</h2>
+      <p className="mx-auto mt-3 max-w-xl text-sm leading-7 text-gray-500">
+        وقتی فروشنده‌ها قیمت پیش‌خرید یا تاریخ انتشار تازه ثبت کنند، بازی‌ها در همین بخش گروه‌بندی می‌شوند.
+      </p>
+      <div className="mt-6 flex flex-wrap justify-center gap-3">
+        <Link
+          href="/"
+          className="inline-flex h-11 items-center justify-center rounded-lg bg-ps-blue px-5 text-sm font-bold text-white transition-[background-color,transform] duration-150 hover:bg-blue-700 active:scale-[0.98]"
+        >
+          مشاهده همه بازی‌ها
+        </Link>
+        <Link
+          href="/search"
+          className="inline-flex h-11 items-center justify-center rounded-lg border border-gray-200 px-5 text-sm font-bold text-gray-700 transition-colors hover:bg-gray-50"
+        >
+          جستجوی بازی
+        </Link>
+      </div>
+    </section>
+  );
+}
+
+function FeaturedDegradedNotice() {
+  return (
+    <div className="rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-7 text-amber-800" dir="rtl" role="status">
+      بخش بازی‌های ویژه موقتاً کامل نیست، اما فهرست پیش‌خریدها در دسترس است.
+    </div>
+  );
+}
+
 // ── Game Card ─────────────────────────────────────────────────────────────────
 
 function UpcomingCard({ game }: { game: UpcomingGame }) {
@@ -174,10 +214,19 @@ const FEATURED_SLUGS = [
 ];
 
 export default async function UpcomingPage() {
-  const [games, featuredGames] = await Promise.all([
+  const [gamesResult, featuredGamesResult] = await Promise.allSettled([
     listAllUpcomingGames(),
     getFeaturedUpcomingGames(FEATURED_SLUGS),
   ]);
+  if (gamesResult.status === "rejected") throw gamesResult.reason;
+
+  const games = gamesResult.value;
+  const featuredGames = featuredGamesResult.status === "fulfilled" ? featuredGamesResult.value : [];
+  const featuredFailed = featuredGamesResult.status === "rejected";
+  if (featuredFailed) {
+    console.error("Upcoming featured games failed", featuredGamesResult.reason);
+  }
+
   const groups = groupByMonth(games);
   const heroGames = featuredGames.map(upcomingToHeroGame);
 
@@ -206,15 +255,17 @@ export default async function UpcomingPage() {
       <JsonLd data={breadcrumbSchema} />
       <Header />
 
-      <HeroBanner
-        games={heroGames}
-        copy={{
-          ariaLabel: "بازی‌های پیش‌خرید ویژه",
-          badge: "پیش‌خرید",
-          cta: "مشاهده پیش‌خرید",
-          pricePrefix: "پیش‌خرید از",
-        }}
-      />
+      {heroGames.length > 0 && (
+        <HeroBanner
+          games={heroGames}
+          copy={{
+            ariaLabel: "بازی‌های پیش‌خرید ویژه",
+            badge: "پیش‌خرید",
+            cta: "مشاهده پیش‌خرید",
+            pricePrefix: "پیش‌خرید از",
+          }}
+        />
+      )}
 
       {/* Content */}
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 flex flex-col gap-10">
@@ -232,10 +283,10 @@ export default async function UpcomingPage() {
           <p className="text-sm text-gray-500">بازی‌هایی که هنوز منتشر نشده‌اند — مرتب‌شده بر اساس تاریخ انتشار</p>
         </div>
 
+        {featuredFailed && <FeaturedDegradedNotice />}
+
         {games.length === 0 ? (
-          <div className="text-center py-20 text-gray-400">
-            <p className="text-lg">هیچ بازی پیش‌خریدی یافت نشد</p>
-          </div>
+          <EmptyUpcomingState />
         ) : (
           groups.map((group) => (
             <MonthGroup key={group.isoMonth} label={group.label} games={group.games} />

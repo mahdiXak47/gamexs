@@ -123,6 +123,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
   const psStoreInfo: PsStoreInfo = storeInfo ?? {
     hasData: false,
     conceptId: null,
+    productId: null,
     usCurrent: null,
     usOriginal: null,
     usDiscount: null,

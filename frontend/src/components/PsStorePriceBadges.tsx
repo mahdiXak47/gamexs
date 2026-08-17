@@ -72,8 +72,8 @@ interface Props {
 }
 
 export default function PsStorePriceBadges({ info }: Props) {
-  const trHref  = info.conceptId ? `${PS_STORE_BASE}/tr-tr/concept/${info.conceptId}` : null;
-  const usHref  = info.conceptId ? `${PS_STORE_BASE}/en-us/concept/${info.conceptId}` : null;
+  const trHref = psStoreHref(info, "tr-tr");
+  const usHref = psStoreHref(info, "en-us");
   const hasPlus = info.essentialPlus || info.extraPlus || info.deluxePlus;
 
   const usTooltip = info.usCurrent
@@ -188,6 +188,12 @@ export default function PsStorePriceBadges({ info }: Props) {
       </div>
     </div>
   );
+}
+
+function psStoreHref(info: PsStoreInfo, locale: "en-us" | "tr-tr") {
+  if (info.productId) return `${PS_STORE_BASE}/${locale}/product/${info.productId}`;
+  if (info.conceptId) return `${PS_STORE_BASE}/${locale}/concept/${info.conceptId}`;
+  return null;
 }
 
 function PriceCard({

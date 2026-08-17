@@ -44,11 +44,18 @@ function CatalogEmptyState({
   hasFilters,
   onClear,
   isPending,
+  title,
+  description,
 }: {
   hasFilters: boolean;
   onClear: () => void;
   isPending: boolean;
+  title?: string;
+  description?: string;
 }) {
+  const emptyTitle = title ?? (hasFilters ? "بازی‌ای با این جستجو یا فیلتر پیدا نشد." : "فعلاً بازی قابل نمایشی در این بخش نیست.");
+  const emptyDescription = description ?? (hasFilters ? "عنوان را ساده‌تر وارد کنید یا فیلترهای انتخاب‌شده را پاک کنید." : "بعد از به‌روزرسانی قیمت فروشندگان، بازی‌ها در اینجا نمایش داده می‌شوند.");
+
   return (
     <div className="mt-10 flex min-h-48 flex-col items-center justify-center gap-3 rounded-2xl border border-dashed border-gray-200 bg-white px-4 py-10 text-center">
       <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-ps-blue" aria-hidden>
@@ -59,10 +66,10 @@ function CatalogEmptyState({
       </div>
       <div>
         <p className="text-sm font-bold text-gray-700">
-          {hasFilters ? "بازی‌ای با این جستجو یا فیلتر پیدا نشد." : "فعلاً بازی قابل نمایشی در این بخش نیست."}
+          {emptyTitle}
         </p>
         <p className="mt-1 text-xs leading-6 text-gray-400">
-          {hasFilters ? "عنوان را ساده‌تر وارد کنید یا فیلترهای انتخاب‌شده را پاک کنید." : "بعد از به‌روزرسانی قیمت فروشندگان، بازی‌ها در اینجا نمایش داده می‌شوند."}
+          {emptyDescription}
         </p>
       </div>
       {hasFilters && (
@@ -84,6 +91,8 @@ export default function GameGrid({
   selectedPublishers,
   publishersList,
   basePath,
+  emptyTitle,
+  emptyDescription,
 }: {
   games: GameSummary[];
   total: number;
@@ -94,6 +103,8 @@ export default function GameGrid({
   selectedPublishers: string[];
   publishersList: string[];
   basePath: string;
+  emptyTitle?: string;
+  emptyDescription?: string;
 }) {
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
@@ -202,7 +213,13 @@ export default function GameGrid({
       </div>
 
       {total === 0 ? (
-        <CatalogEmptyState hasFilters={hasActiveFilters} onClear={clearAll} isPending={isPending} />
+        <CatalogEmptyState
+          hasFilters={hasActiveFilters}
+          onClear={clearAll}
+          isPending={isPending}
+          title={emptyTitle}
+          description={emptyDescription}
+        />
       ) : (
         <div className="relative" aria-busy={isPending}>
           <div

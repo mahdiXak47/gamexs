@@ -2,8 +2,8 @@
 
 The regular PS Store price job only trusts IGDB `external_games` concept URLs.
 Some IGDB detail caches contain equivalent PlayStation Store product URLs
-instead. This repair script resolves those product pages to concept IDs, checks
-uniqueness, and can upsert PS Store price rows for the resolved games.
+instead. This repair script resolves those product pages to concept IDs and
+product IDs, then can upsert PS Store price rows for the resolved games.
 
 Examples:
     DATABASE_URL=postgresql://gamexs:gamexs@localhost:5434/gamexs \
@@ -42,6 +42,8 @@ CONCEPT_RE = re.compile(r"/concept/(\d+)")
 PRODUCT_RE = re.compile(r"/product/([A-Z0-9][A-Z0-9_-]+)", re.I)
 PRODUCT_CONCEPT_RE = re.compile(r'"Product:[^"]+".{0,200}?"concept":\{"__ref":"Concept:(\d+)"\}', re.S)
 CONCEPT_ID_RE = re.compile(r"conceptId(?:&quot;|\\u0026quot;|\"|')?\s*:\s*(?:&quot;|\\u0026quot;|\"|')?(\d+)")
+PRODUCT_NAME_RE = re.compile(r'"Product:[^"]+".{0,1200}?"name":"([^"]+)"', re.S)
+PRODUCT_CLASSIFICATION_RE = re.compile(r'"Product:[^"]+".{0,1200}?"storeDisplayClassification":"([^"]+)"', re.S)
 
 
 @dataclass(frozen=True)
@@ -58,6 +60,9 @@ class Candidate:
     concept_id: str
     source_url: str
     source_kind: str
+    product_id: str = ""
+    edition_name: str = ""
+    store_display_classification: str = ""
 
 
 def load_missing_games(conn: psycopg.Connection) -> list[MissingGame]:
@@ -75,6 +80,11 @@ def load_missing_games(conn: psycopg.Connection) -> list[MissingGame]:
 
 def load_existing_concepts(conn: psycopg.Connection) -> set[str]:
     rows = conn.execute("SELECT concept_id FROM ps5_store_info WHERE concept_id IS NOT NULL").fetchall()
+    return {str(r[0]) for r in rows}
+
+
+def load_existing_products(conn: psycopg.Connection) -> set[str]:
+    rows = conn.execute("SELECT product_id FROM ps5_store_info WHERE product_id IS NOT NULL").fetchall()
     return {str(r[0]) for r in rows}
 
 
@@ -108,7 +118,7 @@ def locale_from_url(url: str) -> str:
     return "en-us"
 
 
-def concept_from_product_url(url: str, session: requests.Session, timeout: int) -> str | None:
+def product_details_from_url(url: str, session: requests.Session, timeout: int) -> tuple[str, str, str] | None:
     try:
         resp = session.get(url, timeout=timeout)
         if resp.status_code in {400, 404}:
@@ -118,14 +128,27 @@ def concept_from_product_url(url: str, session: requests.Session, timeout: int) 
         log.debug("product fetch failed %s: %s", url, exc)
         return None
 
+    product_match = PRODUCT_RE.search(url)
+    if not product_match:
+        return None
+
     text = html.unescape(resp.text)
     match = PRODUCT_CONCEPT_RE.search(text)
     if match:
-        return match.group(1)
-    match = CONCEPT_ID_RE.search(text)
-    if match:
-        return match.group(1)
-    return None
+        concept_id = match.group(1)
+    else:
+        match = CONCEPT_ID_RE.search(text)
+        if not match:
+            return None
+        concept_id = match.group(1)
+
+    name_match = PRODUCT_NAME_RE.search(text)
+    classification_match = PRODUCT_CLASSIFICATION_RE.search(text)
+    return (
+        concept_id,
+        html.unescape(name_match.group(1)) if name_match else "",
+        classification_match.group(1) if classification_match else "",
+    )
 
 
 def resolve_game(
@@ -144,22 +167,44 @@ def resolve_game(
         product_match = PRODUCT_RE.search(url)
         if not product_match:
             continue
-        concept_id = concept_from_product_url(url, session, timeout)
-        if concept_id:
-            return Candidate(game, concept_id, url, f"resolved_product_url:{locale_from_url(url)}")
+        details = product_details_from_url(url, session, timeout)
+        if details:
+            concept_id, edition_name, classification = details
+            return Candidate(
+                game,
+                concept_id,
+                url,
+                f"resolved_product_url:{locale_from_url(url)}",
+                product_id=product_match.group(1),
+                edition_name=edition_name,
+                store_display_classification=classification,
+            )
 
     return None
 
 
-def validate_candidates(candidates: list[Candidate], existing: set[str]) -> tuple[list[Candidate], list[Candidate]]:
+def validate_candidates(
+    candidates: list[Candidate],
+    existing_concepts: set[str],
+    existing_products: set[str],
+) -> tuple[list[Candidate], list[Candidate]]:
     counts: dict[str, int] = {}
+    product_counts: dict[str, int] = {}
     for candidate in candidates:
-        counts[candidate.concept_id] = counts.get(candidate.concept_id, 0) + 1
+        if candidate.product_id:
+            product_counts[candidate.product_id] = product_counts.get(candidate.product_id, 0) + 1
+        else:
+            counts[candidate.concept_id] = counts.get(candidate.concept_id, 0) + 1
 
     accepted: list[Candidate] = []
     rejected: list[Candidate] = []
     for candidate in candidates:
-        if candidate.concept_id in existing or counts[candidate.concept_id] > 1:
+        if candidate.product_id:
+            if candidate.product_id in existing_products or product_counts[candidate.product_id] > 1:
+                rejected.append(candidate)
+            else:
+                accepted.append(candidate)
+        elif candidate.concept_id in existing_concepts or counts[candidate.concept_id] > 1:
             rejected.append(candidate)
         else:
             accepted.append(candidate)
@@ -167,11 +212,23 @@ def validate_candidates(candidates: list[Candidate], existing: set[str]) -> tupl
 
 
 def upsert_candidate(conn: psycopg.Connection, candidate: Candidate) -> tuple[str, str]:
-    us = psstore.fetch_ps_price(candidate.concept_id, psstore.LOCALES["us"])
-    tr = psstore.fetch_ps_price(candidate.concept_id, psstore.LOCALES["tr"])
+    if candidate.product_id:
+        us = psstore.fetch_ps_product_price(candidate.product_id, psstore.LOCALES["us"])
+        tr = psstore.fetch_ps_product_price(candidate.product_id, psstore.LOCALES["tr"])
+        price_source = "product"
+    else:
+        us = psstore.fetch_ps_price(candidate.concept_id, psstore.LOCALES["us"])
+        tr = psstore.fetch_ps_price(candidate.concept_id, psstore.LOCALES["tr"])
+        price_source = "concept"
+
     row = psstore.GameRow(
         game_name=candidate.game.title,
         concept_id=candidate.concept_id,
+        product_id=candidate.product_id,
+        ps_store_url=candidate.source_url,
+        edition_name=candidate.edition_name,
+        store_display_classification=candidate.store_display_classification,
+        price_source=price_source,
         us_price=us.price,
         us_original_price=us.original_price,
         us_discount_pct=us.discount_pct,
@@ -222,7 +279,8 @@ def main() -> None:
 
     with psycopg.connect(args.db_url, connect_timeout=10, autocommit=False) as conn:
         missing = load_missing_games(conn)
-        existing = load_existing_concepts(conn)
+        existing_concepts = load_existing_concepts(conn)
+        existing_products = load_existing_products(conn)
         if args.limit:
             missing = missing[: args.limit]
         urls_by_igdb = load_psstore_urls_by_igdb_id(args.details_dir)
@@ -242,7 +300,7 @@ def main() -> None:
                 if idx % 25 == 0:
                     log.info("Scanned %d/%d; candidates=%d", idx, len(missing), len(candidates))
 
-        accepted, rejected = validate_candidates(candidates, existing)
+        accepted, rejected = validate_candidates(candidates, existing_concepts, existing_products)
         log.info("Resolved candidates: %d accepted, %d rejected", len(accepted), len(rejected))
 
         output_rows: list[dict[str, object]] = []
@@ -264,10 +322,21 @@ def main() -> None:
                 "slug": candidate.game.slug,
                 "igdb_id": candidate.game.igdb_id,
                 "concept_id": candidate.concept_id,
+                "product_id": candidate.product_id,
+                "edition_name": candidate.edition_name,
+                "store_display_classification": candidate.store_display_classification,
                 "source_kind": candidate.source_kind,
                 "source_url": candidate.source_url,
-                "us_store_url": f"https://store.playstation.com/en-us/concept/{candidate.concept_id}",
-                "tr_store_url": f"https://store.playstation.com/tr-tr/concept/{candidate.concept_id}",
+                "us_store_url": (
+                    f"https://store.playstation.com/en-us/product/{candidate.product_id}"
+                    if candidate.product_id
+                    else f"https://store.playstation.com/en-us/concept/{candidate.concept_id}"
+                ),
+                "tr_store_url": (
+                    f"https://store.playstation.com/tr-tr/product/{candidate.product_id}"
+                    if candidate.product_id
+                    else f"https://store.playstation.com/tr-tr/concept/{candidate.concept_id}"
+                ),
                 "us_price": us_price,
                 "tr_price": tr_price,
             })
@@ -278,9 +347,12 @@ def main() -> None:
             "slug": candidate.game.slug,
             "igdb_id": candidate.game.igdb_id,
             "concept_id": candidate.concept_id,
+            "product_id": candidate.product_id,
+            "edition_name": candidate.edition_name,
+            "store_display_classification": candidate.store_display_classification,
             "source_kind": candidate.source_kind,
             "source_url": candidate.source_url,
-            "reason": "concept_id already exists or appears multiple times in this run",
+            "reason": "product_id already exists/duplicates in this run, or concept_id is concept-only and ambiguous",
         } for candidate in sorted(rejected, key=lambda c: c.game.title)]
 
         write_csv(args.output, output_rows)

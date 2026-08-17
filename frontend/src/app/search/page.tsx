@@ -17,6 +17,72 @@ export const metadata = {
   robots: { index: false, follow: true },
 };
 
+function SearchIcon({ className = "" }: { className?: string }) {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden>
+      <circle cx="11" cy="11" r="7" />
+      <path d="m20 20-3.5-3.5" />
+    </svg>
+  );
+}
+
+function SearchPrompt({
+  defaultValue,
+  title,
+  description,
+  actionLabel,
+}: {
+  defaultValue: string;
+  title: string;
+  description: string;
+  actionLabel: string;
+}) {
+  return (
+    <section dir="rtl" className="mx-auto mt-10 max-w-2xl rounded-2xl border border-gray-200 bg-white px-5 py-8 text-center shadow-sm">
+      <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-ps-blue">
+        <SearchIcon />
+      </div>
+      <h2 className="mt-4 text-lg font-extrabold text-gray-900">{title}</h2>
+      <p className="mx-auto mt-2 max-w-lg text-sm leading-7 text-gray-500">{description}</p>
+
+      <form action="/search" className="mt-6 flex flex-col gap-3 sm:flex-row" role="search">
+        <label htmlFor="search-page-query" className="sr-only">جستجوی بازی</label>
+        <div className="relative flex-1">
+          <SearchIcon className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-gray-400" />
+          <input
+            id="search-page-query"
+            name="q"
+            type="search"
+            defaultValue={defaultValue}
+            minLength={2}
+            placeholder="نام بازی را وارد کنید..."
+            autoComplete="off"
+            className="h-11 w-full rounded-xl border border-gray-200 bg-gray-50 pr-10 pl-4 text-sm text-gray-900 outline-none transition focus:border-ps-blue focus:bg-white focus:ring-2 focus:ring-blue-100"
+          />
+        </div>
+        <button
+          type="submit"
+          className="inline-flex h-11 cursor-pointer items-center justify-center rounded-xl bg-ps-blue px-5 text-sm font-bold text-white transition-[background-color,transform] duration-150 hover:bg-blue-700 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue focus-visible:ring-offset-2"
+        >
+          {actionLabel}
+        </button>
+      </form>
+
+      <div className="mt-5 flex flex-wrap justify-center gap-2 text-xs">
+        {["GTA", "FC 26", "Spider-Man"].map((term) => (
+          <Link
+            key={term}
+            href={`/search?q=${encodeURIComponent(term)}`}
+            className="rounded-full border border-gray-200 px-3 py-1.5 font-medium text-gray-500 transition hover:border-blue-200 hover:bg-blue-50 hover:text-ps-blue"
+          >
+            {term}
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 export default async function SearchPage({
   searchParams,
 }: {
@@ -66,18 +132,19 @@ export default async function SearchPage({
       <main className="mx-auto w-full min-w-0 max-w-7xl flex-1 px-4 py-8 sm:px-6">
 
         {!hasQuery ? (
-          <p className="text-gray-400 mt-8 text-center text-sm">
-            حداقل ۲ کاراکتر برای جستجو وارد کنید
-          </p>
+          <SearchPrompt
+            defaultValue={trimmed}
+            title="جستجوی بازی‌های PS5"
+            description="برای مقایسه قیمت، حداقل دو کاراکتر از نام بازی را وارد کنید یا یکی از پیشنهادها را انتخاب کنید."
+            actionLabel="جستجو"
+          />
         ) : total === 0 ? (
-          <div className="mt-16 flex flex-col items-center gap-3 text-center">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-gray-300" aria-hidden>
-              <circle cx="11" cy="11" r="8" />
-              <path d="m21 21-4.35-4.35" />
-            </svg>
-            <p className="text-gray-500 font-medium">نتیجه‌ای برای «{trimmed}» یافت نشد</p>
-            <p className="text-sm text-gray-400">عنوان بازی را به انگلیسی امتحان کنید</p>
-          </div>
+          <SearchPrompt
+            defaultValue={trimmed}
+            title={`نتیجه‌ای برای «${trimmed}» یافت نشد`}
+            description="عنوان را ساده‌تر یا به انگلیسی وارد کنید. اگر بازی تازه معرفی شده باشد، ممکن است هنوز قیمت فروشنده‌ها برای آن ثبت نشده باشد."
+            actionLabel="جستجوی دوباره"
+          />
         ) : (
           <GameGrid
             games={games}

@@ -1,8 +1,8 @@
 """Fetch official PS Store prices for US and Turkey regions.
 
 Discovers games by reading igdb_id values from the production ps5_games table,
-then resolves each igdb_id to a PS Store concept URL via a single batched IGDB
-query, and finally fetches each concept page for en-us and tr-tr pricing.
+then resolves each igdb_id to a PS Store URL via a single batched IGDB query,
+and finally fetches each concept or product page for en-us and tr-tr pricing.
 
 Usage:
     python fetch_psstore_prices.py -o psstore_prices.csv
@@ -13,7 +13,7 @@ Usage:
 DATABASE_URL env var is used when --db-url is not passed.
 
 Output CSV columns:
-    game_name, concept_id,
+    game_name, concept_id, product_id,
     us_price, us_original_price, us_discount_pct,
     tr_price, tr_original_price, tr_discount_pct,
     extra_plus_included, deluxe_plus_included, essential_plus_included
@@ -84,6 +84,11 @@ class PriceInfo:
 class GameRow:
     game_name: str
     concept_id: str
+    product_id: str = ""
+    ps_store_url: str = ""
+    edition_name: str = ""
+    store_display_classification: str = ""
+    price_source: str = "concept"
     us_price: str = ""
     us_original_price: str = ""
     us_discount_pct: str = ""
@@ -171,8 +176,10 @@ def igdb_concept_ids_for_ids(
     edition sharing the igdb_id would silently show the wrong price on all but
     one of them — instead, only the row judged most likely to be the actual
     base/default edition is used; the others are logged and left unpriced
-    rather than guessed at. ps5_store_info.concept_id is also UNIQUE, so the
-    DB could not represent more than one game_id per concept anyway.
+    rather than guessed at. The DB can represent edition product IDs, but
+    concept-only IGDB rows are still assigned only to the most likely
+    base/default edition to avoid showing one edition's price on another
+    edition.
     """
     igdb_headers = {
         "Client-ID": IGDB_CLIENT_ID,
@@ -244,17 +251,25 @@ def igdb_concept_ids_for_ids(
 
 def db_upsert_row(conn: psycopg.Connection, row: "GameRow", game_id: int | None) -> None:
     """Upsert one row into ps5_store_info. Commits immediately."""
+    conflict_target = "(product_id) WHERE product_id IS NOT NULL" if row.product_id else "(concept_id) WHERE product_id IS NULL"
     conn.execute(
-        """
+        f"""
         INSERT INTO ps5_store_info (
-            concept_id, game_id,
+            concept_id, product_id, game_id, ps_store_url, edition_name,
+            store_display_classification, price_source,
             us_price, us_original_price, us_discount_pct,
             tr_price, tr_original_price, tr_discount_pct,
             essential_plus_included, extra_plus_included, deluxe_plus_included,
             fetched_at
-        ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())
-        ON CONFLICT (concept_id) DO UPDATE SET
+        ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())
+        ON CONFLICT {conflict_target} DO UPDATE SET
+            concept_id              = EXCLUDED.concept_id,
+            product_id              = EXCLUDED.product_id,
             game_id                 = EXCLUDED.game_id,
+            ps_store_url            = EXCLUDED.ps_store_url,
+            edition_name            = EXCLUDED.edition_name,
+            store_display_classification = EXCLUDED.store_display_classification,
+            price_source            = EXCLUDED.price_source,
             us_price                = EXCLUDED.us_price,
             us_original_price       = EXCLUDED.us_original_price,
             us_discount_pct         = EXCLUDED.us_discount_pct,
@@ -267,7 +282,9 @@ def db_upsert_row(conn: psycopg.Connection, row: "GameRow", game_id: int | None)
             fetched_at              = NOW()
         """,
         (
-            row.concept_id, game_id,
+            row.concept_id, row.product_id or None, game_id, row.ps_store_url or None,
+            row.edition_name or None, row.store_display_classification or None,
+            row.price_source,
             row.us_price or None, row.us_original_price or None, row.us_discount_pct or None,
             row.tr_price or None, row.tr_original_price or None, row.tr_discount_pct or None,
             row.essential_plus_included, row.extra_plus_included, row.deluxe_plus_included,
@@ -312,9 +329,8 @@ def _extract_cache(html: str) -> dict:
         return {}
 
 
-def fetch_ps_price(concept_id: str, locale: str) -> PriceInfo:
-    """Fetch one concept page and extract price + PS Plus tier flags."""
-    url = f"{PS_STORE_BASE}/{locale}/concept/{concept_id}"
+def fetch_ps_price_from_url(url: str) -> PriceInfo:
+    """Fetch one PS Store page and extract price + PS Plus tier flags."""
     try:
         raw = _http_get(url)
         html = raw.decode(errors="replace")
@@ -362,6 +378,16 @@ def fetch_ps_price(concept_id: str, locale: str) -> PriceInfo:
                 break
 
     return info
+
+
+def fetch_ps_price(concept_id: str, locale: str) -> PriceInfo:
+    """Fetch one concept page and extract price + PS Plus tier flags."""
+    return fetch_ps_price_from_url(f"{PS_STORE_BASE}/{locale}/concept/{concept_id}")
+
+
+def fetch_ps_product_price(product_id: str, locale: str) -> PriceInfo:
+    """Fetch one product/SKU page and extract edition-specific price."""
+    return fetch_ps_price_from_url(f"{PS_STORE_BASE}/{locale}/product/{product_id}")
 
 
 # ---------------------------------------------------------------------------

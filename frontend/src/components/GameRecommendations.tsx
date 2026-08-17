@@ -46,15 +46,8 @@ function CoverFallback({ title }: { title: string }) {
 
 function RecCard({ game, index }: { game: Recommendation; index: number }) {
   const src = resolveCoverUrl(game.coverUrl);
-
-  return (
-    <Link
-      href={`/games/${game.slug!}`}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="ui-stagger-card group flex flex-col rounded-2xl overflow-hidden bg-white border border-gray-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue"
-      style={{ animationDelay: `${Math.min(index, 8) * 35}ms` }}
-    >
+  const content = (
+    <>
       <div className="relative aspect-[3/4] overflow-hidden bg-gray-50">
         {src ? (
           <Image
@@ -83,7 +76,7 @@ function RecCard({ game, index }: { game: Recommendation; index: number }) {
             {game.aiDescription}
           </p>
         )}
-        {game.lowestPriceToman !== null && (
+        {game.lowestPriceToman !== null ? (
           <div className="mt-auto pt-2 border-t border-gray-100">
             <p className="text-[10px] text-gray-400 mb-0.5">کمترین قیمت</p>
             <p className="text-xs text-emerald-600 font-bold price-figure">
@@ -91,8 +84,35 @@ function RecCard({ game, index }: { game: Recommendation; index: number }) {
               <span className="text-gray-400 font-normal text-[10px] mr-1">تومان</span>
             </p>
           </div>
+        ) : (
+          <p className="mt-auto pt-2 text-[10px] font-medium text-gray-400">
+            قیمت فعالی پیدا نشد
+          </p>
         )}
       </div>
+    </>
+  );
+
+  const className = "ui-stagger-card group flex flex-col rounded-2xl overflow-hidden bg-white border border-gray-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue";
+  const style = { animationDelay: `${Math.min(index, 8) * 35}ms` };
+
+  if (!game.slug) {
+    return (
+      <div className={`${className} opacity-80`} style={style} aria-label={`${game.title} در کاتالوگ پیدا نشد`}>
+        {content}
+      </div>
+    );
+  }
+
+  return (
+    <Link
+      href={`/games/${game.slug}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={className}
+      style={style}
+    >
+      {content}
     </Link>
   );
 }
@@ -139,6 +159,7 @@ export default function GameRecommendations() {
   const [loadingSuggest, setLoadingSuggest] = useState(false);
   const [loadingRecs, setLoadingRecs] = useState(false);
   const [aiError, setAiError] = useState(false);
+  const [suggestError, setSuggestError] = useState(false);
 
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const wrapperRef = useRef<HTMLDivElement>(null);
@@ -163,18 +184,24 @@ export default function GameRecommendations() {
     if (q.trim().length < 2) {
       setSuggestions([]);
       setDropdownOpen(false);
+      setSuggestError(false);
       return;
     }
     debounceRef.current = setTimeout(async () => {
       setLoadingSuggest(true);
+      setSuggestError(false);
       try {
         const res = await fetch(`/api/find-similar-games?search=${encodeURIComponent(q.trim())}`);
+        if (!res.ok) throw new Error("suggestions_failed");
         const data: Suggestion[] = await res.json();
-        setSuggestions(data);
-        setDropdownOpen(data.length > 0);
+        const items = Array.isArray(data) ? data : [];
+        setSuggestions(items);
+        setDropdownOpen(items.length > 0);
         setActiveIdx(-1);
       } catch {
-        // silent
+        setSuggestions([]);
+        setDropdownOpen(false);
+        setSuggestError(true);
       } finally {
         setLoadingSuggest(false);
       }
@@ -230,12 +257,17 @@ export default function GameRecommendations() {
     };
   }, []);
 
+  const retryRecommendations = useCallback(() => {
+    if (selected) selectGame(selected);
+  }, [selectGame, selected]);
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const v = e.target.value;
     setInput(v);
     setSelected(null);
     setRecs([]);
     setAiError(false);
+    setSuggestError(false);
     fetchSuggestions(v);
   };
 
@@ -296,6 +328,7 @@ export default function GameRecommendations() {
               aria-autocomplete="list"
               aria-controls="rec-suggestions"
               aria-expanded={dropdownOpen}
+              aria-invalid={suggestError}
               role="combobox"
               className="w-full h-12 rounded-xl border border-gray-200 bg-white px-4 pl-11 text-sm text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-ps-blue/40 focus:border-ps-blue transition-colors"
             />
@@ -360,11 +393,32 @@ export default function GameRecommendations() {
           )}
         </div>
 
+        {suggestError && (
+          <div className="mx-auto mt-3 max-w-lg rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-center text-xs leading-6 text-amber-800" role="alert">
+            جستجوی پیشنهادها موقتاً انجام نشد.
+            <button
+              type="button"
+              onClick={() => fetchSuggestions(input)}
+              className="mr-2 cursor-pointer font-bold text-amber-900 underline underline-offset-4"
+            >
+              تلاش دوباره
+            </button>
+          </div>
+        )}
+
         {/* Error */}
         {aiError && (
           <div className="mt-8 rounded-xl bg-red-50 border border-red-100 px-6 py-8 text-center">
             <p className="text-red-500 text-sm font-medium">خطا در دریافت پیشنهادات</p>
             <p className="text-gray-400 text-xs mt-1">لطفاً دوباره امتحان کن</p>
+            <button
+              type="button"
+              onClick={retryRecommendations}
+              disabled={!selected}
+              className="mt-4 inline-flex min-h-10 cursor-pointer items-center justify-center rounded-lg bg-red-100 px-4 text-xs font-bold text-red-700 transition-colors hover:bg-red-200 disabled:cursor-not-allowed disabled:opacity-50"
+            >
+              تلاش دوباره
+            </button>
           </div>
         )}
 

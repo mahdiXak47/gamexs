@@ -13,20 +13,17 @@ export default function WishlistButton({ gameId }: { gameId: number }) {
   const [added, setAdded]     = useState(false)
   const [itemId, setItemId]   = useState<number | null>(null)
   const [loading, setLoading] = useState(false)
+  const [checking, setChecking] = useState(false)
+  const [checkFailed, setCheckFailed] = useState(false)
   const [hovered, setHovered] = useState(false)
   const autoAddStarted = useRef(false)
+  const mutationInFlight = useRef(false)
 
   // Check if already in wishlist on mount / after login
   useEffect(() => {
     if (!user) return
-    api.get('/api/wishlist/').then(async r => {
-      if (!r.ok) return
-      const data = await r.json()
-      const items: { id: number; game_id: number }[] = data.results ?? data ?? []
-      const item = items.find(i => i.game_id === gameId)
-      setAdded(!!item)
-      setItemId(item?.id ?? null)
-    })
+    void checkWishlistStatus()
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user, gameId])
 
   // Auto-add after login if user clicked heart while logged out
@@ -42,7 +39,9 @@ export default function WishlistButton({ gameId }: { gameId: number }) {
   }, [user])
 
   async function doAdd() {
-    if (loading || added) return
+    if (mutationInFlight.current || loading || added) return
+    mutationInFlight.current = true
+    setCheckFailed(false)
     setLoading(true)
     try {
       const res = await api.post('/api/wishlist/', { game_id: gameId })
@@ -62,6 +61,7 @@ export default function WishlistButton({ gameId }: { gameId: number }) {
     } catch {
       toast.error('ارتباط برقرار نشد', 'اتصال خود را بررسی کنید و دوباره تلاش کنید.')
     } finally {
+      mutationInFlight.current = false
       setLoading(false)
     }
   }
@@ -76,7 +76,9 @@ export default function WishlistButton({ gameId }: { gameId: number }) {
   }
 
   async function doRemove() {
-    if (loading || !added) return
+    if (mutationInFlight.current || loading || !added) return
+    mutationInFlight.current = true
+    setCheckFailed(false)
     setLoading(true)
     try {
       const id = itemId ?? await findWishlistItemId()
@@ -98,11 +100,17 @@ export default function WishlistButton({ gameId }: { gameId: number }) {
     } catch {
       toast.error('ارتباط برقرار نشد', 'اتصال خود را بررسی کنید و دوباره تلاش کنید.')
     } finally {
+      mutationInFlight.current = false
       setLoading(false)
     }
   }
 
   function handleClick() {
+    if (checking) return
+    if (checkFailed && user) {
+      void checkWishlistStatus()
+      return
+    }
     if (!user) {
       localStorage.setItem(PENDING_KEY, String(gameId))
       toast.info('برای ادامه وارد شوید', 'بعد از ورود، بازی به علاقه‌مندی‌ها اضافه می‌شود.')
@@ -116,6 +124,33 @@ export default function WishlistButton({ gameId }: { gameId: number }) {
     doAdd()
   }
 
+  async function checkWishlistStatus() {
+    if (!user || checking) return
+    setChecking(true)
+    setCheckFailed(false)
+    try {
+      const res = await api.get('/api/wishlist/')
+      if (!res.ok) throw new Error('wishlist_status_failed')
+      const data = await res.json()
+      const items: { id: number; game_id: number }[] = data.results ?? data ?? []
+      const item = items.find(i => i.game_id === gameId)
+      setAdded(!!item)
+      setItemId(item?.id ?? null)
+    } catch {
+      setCheckFailed(true)
+      toast.error('وضعیت علاقه‌مندی مشخص نشد', 'برای تلاش دوباره روی قلب بزنید.')
+    } finally {
+      setChecking(false)
+    }
+  }
+
+  const isBusy = loading || checking
+  const buttonLabel = checkFailed
+    ? 'تلاش دوباره برای بررسی علاقه‌مندی'
+    : added
+      ? 'حذف از علاقه‌مندی‌ها'
+      : 'افزودن به علاقه‌مندی‌ها'
+
   return (
     <div className="relative inline-flex">
       <button
@@ -123,13 +158,25 @@ export default function WishlistButton({ gameId }: { gameId: number }) {
         onClick={handleClick}
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
-        disabled={loading}
-        aria-label={added ? 'حذف از علاقه‌مندی‌ها' : 'افزودن به علاقه‌مندی‌ها'}
+        disabled={checking}
+        aria-label={buttonLabel}
         aria-pressed={added}
-        className="flex items-center justify-center w-9 h-9 rounded-full bg-black/30 hover:bg-black/50 backdrop-blur-sm border border-white/25 text-white transition-all duration-150 cursor-pointer disabled:opacity-50 active:scale-90"
+        aria-busy={isBusy}
+        className={`flex items-center justify-center w-9 h-9 rounded-full backdrop-blur-sm border text-white transition-all duration-150 cursor-pointer disabled:opacity-60 active:scale-90 ${
+          checkFailed
+            ? 'bg-red-500/50 hover:bg-red-500/70 border-red-200/50'
+            : 'bg-black/30 hover:bg-black/50 border-white/25'
+        }`}
       >
-        {loading ? (
+        {isBusy ? (
           <div className="w-4 h-4 border-2 border-white/40 border-t-white rounded-full animate-spin" />
+        ) : checkFailed ? (
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+            <path d="M21 12a9 9 0 0 1-9 9 8.8 8.8 0 0 1-5.5-1.9" />
+            <path d="M3 12a9 9 0 0 1 14.9-6.8" />
+            <path d="M17 1v4h4" />
+            <path d="M7 23v-4H3" />
+          </svg>
         ) : added ? (
           <svg width="17" height="17" viewBox="0 0 24 24" fill="white" stroke="white" strokeWidth="2" strokeLinecap="round" aria-hidden>
             <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
@@ -142,12 +189,12 @@ export default function WishlistButton({ gameId }: { gameId: number }) {
       </button>
 
       {/* Hover tooltip */}
-      {hovered && !loading && (
+      {hovered && !isBusy && (
         <div
           className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 whitespace-nowrap bg-black/80 text-white text-xs px-2.5 py-1.5 rounded-lg pointer-events-none shadow-lg z-50"
           dir="rtl"
         >
-          {added ? 'حذف از علاقه‌مندی‌ها' : 'افزودن به علاقه‌مندی‌ها'}
+          {buttonLabel}
         </div>
       )}
 

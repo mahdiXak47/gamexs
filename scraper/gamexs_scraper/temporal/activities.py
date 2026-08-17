@@ -252,7 +252,7 @@ def resolve_playstation_store_games(input: dict) -> dict:
                 already_done = {row[0] for row in cur.fetchall()}
 
     games = [
-        {"game_name": title, "concept_id": concept_id, "game_id": game_id}
+        {"game_name": title, "concept_id": concept_id, "product_id": "", "game_id": game_id}
         for title, concept_id, game_id in resolved
         if concept_id not in already_done
     ]
@@ -272,12 +272,18 @@ def _fetch_playstation_store_region_price(input: dict) -> dict:
     psstore = _configure_psstore_module()
     region = input["region"]
     concept_id = input["concept_id"]
+    product_id = input.get("product_id") or ""
     locale = psstore.LOCALES[region]
 
-    price = psstore.fetch_ps_price(concept_id, locale)
+    if product_id:
+        price = psstore.fetch_ps_product_price(product_id, locale)
+    else:
+        price = psstore.fetch_ps_price(concept_id, locale)
+
     return {
         "game_name": input["game_name"],
         "concept_id": concept_id,
+        "product_id": product_id,
         "game_id": input.get("game_id"),
         "region": region,
         "locale": locale,
@@ -316,6 +322,11 @@ def upsert_playstation_store_game_price(input: dict) -> dict:
     row = psstore.GameRow(
         game_name=game["game_name"],
         concept_id=game["concept_id"],
+        product_id=game.get("product_id") or "",
+        ps_store_url=game.get("ps_store_url") or "",
+        edition_name=game.get("edition_name") or "",
+        store_display_classification=game.get("store_display_classification") or "",
+        price_source="product" if game.get("product_id") else "concept",
         us_price=us.get("price", ""),
         us_original_price=us.get("original_price", ""),
         us_discount_pct=us.get("discount_pct", ""),
@@ -333,6 +344,7 @@ def upsert_playstation_store_game_price(input: dict) -> dict:
     return {
         "game_name": game["game_name"],
         "concept_id": game["concept_id"],
+        "product_id": game.get("product_id") or "",
         "game_id": game.get("game_id"),
         "us_price": row.us_price,
         "tr_price": row.tr_price,

@@ -41,10 +41,40 @@ const TIER_BADGE: Record<string, string | null> = {
   PREMIUM:   "کامل‌ترین",
 };
 
+function isAvailableOption(option: PsPlusPlan["options"][number]) {
+  return option.latestPrice != null && option.latestPrice > 0 && option.inStock;
+}
+
+function getLowestAvailablePrice(plan: PsPlusPlan) {
+  const prices = plan.options
+    .filter(isAvailableOption)
+    .map((option) => option.latestPrice!);
+
+  return prices.length > 0 ? Math.min(...prices) : null;
+}
+
+function EmptyPsPlusState() {
+  return (
+    <section dir="rtl" className="rounded-2xl border border-dashed border-gray-300 bg-white px-5 py-12 text-center shadow-sm">
+      <p className="text-base font-extrabold text-gray-900">فعلاً قیمت قابل مقایسه‌ای برای PS Plus نداریم</p>
+      <p className="mx-auto mt-3 max-w-xl text-sm leading-7 text-gray-500">
+        وقتی قیمت تازه از فروشنده‌ها ثبت شود، همین‌جا سطح‌های Essential، Extra و Premium را می‌بینید.
+      </p>
+      <Link
+        href="/"
+        className="mt-6 inline-flex h-11 items-center justify-center rounded-lg bg-ps-blue px-5 text-sm font-bold text-white transition-[background-color,transform] duration-150 hover:bg-blue-700 active:scale-[0.98]"
+      >
+        مشاهده قیمت بازی‌ها
+      </Link>
+    </section>
+  );
+}
+
 function PlanCard({ plan }: { plan: PsPlusPlan }) {
   const color = TIER_COLOR[plan.tier];
   const slug  = TIER_SLUG[plan.tier];
-  const lowestPrice = Math.min(...plan.options.map((o) => o.latestPrice ?? Infinity));
+  const lowestPrice = getLowestAvailablePrice(plan);
+  const hasAvailableOffer = lowestPrice !== null;
 
   return (
     <div className="ui-lift-card relative rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden flex flex-col">
@@ -65,10 +95,12 @@ function PlanCard({ plan }: { plan: PsPlusPlan }) {
           )}
           <div>
             <h2 className="text-xl font-black">{TIER_LABEL[plan.tier]}</h2>
-            {lowestPrice < Infinity && (
+            {lowestPrice !== null ? (
               <p className="text-white/70 text-xs mt-0.5">
                 از {formatToman(lowestPrice)}
               </p>
+            ) : (
+              <p className="text-white/70 text-xs mt-0.5">بدون موجودی قابل خرید</p>
             )}
           </div>
         </div>
@@ -83,7 +115,7 @@ function PlanCard({ plan }: { plan: PsPlusPlan }) {
               <p className="text-[11px] text-gray-400 leading-snug mt-0.5">{CAPACITY_DESC[opt.capacity]}</p>
             </div>
             <div className="text-left shrink-0">
-              {opt.latestPrice != null ? (
+              {opt.latestPrice != null && opt.latestPrice > 0 ? (
                 <>
                   <p className="text-sm font-bold text-gray-900">{formatToman(opt.latestPrice)}</p>
                   <p className={`text-[11px] mt-0.5 ${opt.inStock ? "text-green-600" : "text-red-400"}`}>
@@ -105,7 +137,7 @@ function PlanCard({ plan }: { plan: PsPlusPlan }) {
           className="block w-full rounded-xl py-2.5 text-center text-sm font-semibold text-white transition-[opacity,transform] duration-150 hover:opacity-90 active:scale-[0.98]"
           style={{ background: `linear-gradient(135deg, ${color} 0%, ${color}cc 100%)` }}
         >
-          مشاهده جزئیات
+          {hasAvailableOffer ? "مشاهده جزئیات" : "بررسی وضعیت"}
         </Link>
       </div>
     </div>
@@ -114,6 +146,7 @@ function PlanCard({ plan }: { plan: PsPlusPlan }) {
 
 export default async function PsPlusPage() {
   const plans = await getAllPsPlusPlans();
+  const hasAvailablePlans = plans.some((plan) => getLowestAvailablePrice(plan) !== null);
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
@@ -159,7 +192,16 @@ export default async function PsPlusPage() {
         {/* Tier cards */}
         {plans.length > 0 ? (
           <section dir="rtl">
-            <h2 className="text-xl font-extrabold text-gray-900 mb-5">سطح‌های اشتراک</h2>
+            <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+              <div>
+                <h2 className="text-xl font-extrabold text-gray-900">سطح‌های اشتراک</h2>
+                {!hasAvailablePlans && (
+                  <p className="mt-2 text-sm leading-6 text-amber-700">
+                    قیمت‌ها ثبت شده‌اند، اما در حال حاضر گزینه‌ای با موجودی قابل خرید نداریم.
+                  </p>
+                )}
+              </div>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
               {plans.map((plan) => (
                 <PlanCard key={plan.tier} plan={plan} />
@@ -167,7 +209,7 @@ export default async function PsPlusPage() {
             </div>
           </section>
         ) : (
-          <p className="text-center text-gray-400 py-20">قیمتی در دسترس نیست</p>
+          <EmptyPsPlusState />
         )}
 
         {/* Capacity explainer */}

@@ -736,6 +736,7 @@ export async function getFeaturedUpcomingGames(slugs: string[]): Promise<Upcomin
 export interface PsStoreInfo {
   hasData: boolean;
   conceptId: string | null;
+  productId: string | null;
   usCurrent: string | null;
   usOriginal: string | null;
   usDiscount: string | null;
@@ -750,6 +751,7 @@ export interface PsStoreInfo {
 export async function getGameStoreInfo(gameId: number): Promise<PsStoreInfo | null> {
   const { rows } = await query<{
     concept_id: string;
+    product_id: string | null;
     us_price: string | null;
     us_original_price: string | null;
     us_discount_pct: string | null;
@@ -760,10 +762,13 @@ export async function getGameStoreInfo(gameId: number): Promise<PsStoreInfo | nu
     extra_plus_included: boolean;
     deluxe_plus_included: boolean;
   }>(
-    `SELECT concept_id, us_price, us_original_price, us_discount_pct,
+    `SELECT concept_id, product_id, us_price, us_original_price, us_discount_pct,
             tr_price, tr_original_price, tr_discount_pct,
             essential_plus_included, extra_plus_included, deluxe_plus_included
-     FROM ps5_store_info WHERE game_id = $1`,
+     FROM ps5_store_info
+     WHERE game_id = $1
+     ORDER BY (product_id IS NOT NULL) DESC, fetched_at DESC
+     LIMIT 1`,
     [gameId]
   );
   const row = rows[0];
@@ -771,6 +776,7 @@ export async function getGameStoreInfo(gameId: number): Promise<PsStoreInfo | nu
   return {
     hasData:    true,
     conceptId:  row.concept_id,
+    productId:  row.product_id,
     usCurrent:  row.us_price,
     usOriginal: row.us_original_price,
     usDiscount: row.us_discount_pct,
