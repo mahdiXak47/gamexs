@@ -69,6 +69,7 @@ export default function PurchaseTypeSelector({ options }: { options: PurchaseOpt
           const stores = new Set(opt.offers.map((o) => o.sellerId)).size;
           const availableOffers = opt.offers.filter((offer) => offer.inStock && offer.priceToman > 0).length;
           const active = i === selected;
+          const isMostPopular = opt.type === "ACCOUNT_GAME" && opt.tier === "CAPACITY_2";
           const key = `${opt.type}-${opt.tier ?? "x"}`;
           const hash = purchaseOptionHash(opt);
           const descriptionOpen = openDescription === key;
@@ -89,8 +90,13 @@ export default function PurchaseTypeSelector({ options }: { options: PurchaseOpt
               }`}
             >
               {/* Label row: in RTL, label is rightmost, ? sits immediately to its left */}
-              <div className="flex items-start gap-1.5">
+              <div className="flex flex-wrap items-start gap-1.5">
                 <div className="font-bold leading-snug">{opt.label}</div>
+                {isMostPopular && (
+                  <span className="inline-flex min-h-5 items-center rounded-md border border-emerald-200 bg-emerald-100 px-2 text-[11px] font-extrabold leading-none text-emerald-800">
+                    محبوب‌ترین
+                  </span>
+                )}
                 {/* Tooltip trigger — placed after label so it's to its left in RTL */}
                 <div className="group relative shrink-0 mt-0.5">
                   <button
