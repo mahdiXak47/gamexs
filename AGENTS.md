@@ -6,12 +6,14 @@ Guidance for agent sessions (OpenCode / Codex) working in this repository.
 
 GameXS is a price-comparison service for Iranian PS5 game/account/subscription
 retailers. Pure comparison, not a marketplace — every price row links out to the
-seller's own site; no checkout here. Full domain model and product shape:
-**`docs/PROJECT_CONTEXT.md`. Current build status and known gaps:`TODO.md`.**
+seller's own site; no checkout here. Domain model / product taxonomy:
+**`docs/PROJECT_CONTEXT.md`** (its "known gaps"/build-status sections are
+historical — it predates the DB and frontend; use **`TODO.md`** for current
+status).
 
 Monorepo packages (plus shared infra):
 
-- `scraper/` — Python, scrapes ~20 seller sites, loads into Postgres, enriches via IGDB.
+- `scraper/` — Python, scrapes 21 Iranian seller sites, loads into Postgres, enriches via IGDB.
 - `db/` — Postgres 16 schema (`ps5_games`, `sellers`, `listings`, `price_history`, plus migration-managed `ps_plus`, `ps5_store_info`).
 - `frontend/` — Next.js 16 UI, reads directly from the Postgres DB (no mock data).
 - `backend/` — Django 5.1 REST API, user accounts, auth, cart, orders, tickets.
@@ -68,12 +70,14 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt   # first-tim
 .venv/bin/python -m gamexs_scraper.compare output/pspro.csv some_reference.csv
 ```
 
-- **Adapter pattern**: one `SellerAdapter` subclass per seller in
-  `gamexs_scraper/adapters/` (~20 adapters exist), all registered in
-  `adapters/__init__.py`'s `ADAPTERS` dict. `iter_listings()` yields `RawOffer`
-  records (`models.py`). **When adding a new seller you must register the import
-  AND the `ADAPTERS` entry, and seed the seller row in `db/init/02_seed.sql`**
-  — a loader run fails with "unknown seller ... seed it in db/init/02_seed.sql first".
+- **Adapter pattern**: one `SellerAdapter` subclass per seller (21 registered)
+  in `gamexs_scraper/adapters/`, all in `adapters/__init__.py`'s `ADAPTERS`
+  dict. `iter_listings()` yields `RawOffer` records (`models.py`). **When
+  adding a new seller you must register the import AND the `ADAPTERS` entry,
+  seed the seller row in `db/init/02_seed.sql`, AND add a numbered migration
+  (see `db/migrations/016_add_gpgaming_seller.sql`)** — the loader fails with
+  "unknown seller ... seed it in db/init/02_seed.sql first", and an existing
+  DB only picks up the new seller via a migration.
 - Adapters use `PoliteFetcher` (`http.py`) — a `requests.Session` with retry +
   a minimum delay between requests. Plain HTTP GET has sufficed so far
   (server-rendered HTML, no headless browser). The daily `scrape_all.sh` runs
@@ -117,12 +121,22 @@ docker buildx build \
 
 ### Temporal workflows
 
-- Start `SellerPriceLogWorkflow`: switch to the `sellers-prices` namespace in
-  the Temporal UI, task-queue `sellers-prices`, input `{"seller": "gpgaming"}`.
-  Prices appear in the workflow's **Log** tab, **Input/Results** panel, and
-  `kubectl logs`.
-- Run a workflow from CLI: `TEMPORAL_ADDRESS=<host>:7233 .venv/bin/python -m gamexs_scraper.temporal.run_workflow log-prices`
-- Test activity without Temporal: `.venv/bin/python -c "from gamexs_scraper.temporal.activities import log_seller_prices; print(log_seller_prices({'seller':'gpgaming'}))"`
+**`scraper/TEMPORAL.md` is the authoritative reference** (namespaces, worker
+deploy, schedules). Summarized: the scraper image runs as a long-lived
+Temporal worker across two namespaces — `sellers-prices` (default) with
+`SellerScrapeWorkflow`/`SellerPriceLogWorkflow`, and `gamexs-metadata` with
+`MetadataRefreshWorkflow` (IGDB enrichment, PS Store prices, S3 image uploads,
+stale-listing cleanup). The k8s CronJobs in `k8s/` are legacy and disabled in
+favor of Temporal schedules.
+
+- Smoke-run a workflow from CLI (worker must be running):
+  `TEMPORAL_ADDRESS=<host>:7233 .venv/bin/python -m gamexs_scraper.temporal.run_workflow sellers --limit-products 1`
+  (`metadata --igdb-limit 1 --psstore-limit 1`, or `log-prices --seller gpgaming`)
+- Start a `SellerPriceLogWorkflow` by hand: namespace `sellers-prices`,
+  task-queue `sellers-prices`, input `{"seller": "gpgaming"}` — prices appear
+  in the workflow's **Log** tab / **Input/Results** panel.
+- Test an activity without Temporal, e.g.:
+  `.venv/bin/python -c "from gamexs_scraper.temporal.activities import log_seller_prices; print(log_seller_prices({'seller':'gpgaming'}))"`
 
 ## `db/` (Postgres 16)
 
@@ -163,6 +177,7 @@ cd frontend
 npm run dev     # start dev server
 npm run build   # production build (also type-checks)
 npm run lint    # eslint
+npm run test:e2e   # Playwright; runs against a production build (build first)
 ```
 
 **Read `frontend/AGENTS.md` and `frontend/CLAUDE.md` before writing any Next.js
@@ -197,6 +212,10 @@ APIs/conventions (e.g. dynamic route `params` is a `Promise` that must be
 - `lib/purchase-options.ts` holds the fixed Persian display copy for each
   (product_type, tier) combination — the single place that defines the
   capacity-1/2/3 and disc/own-account UI labels.
+- `npm run test:e2e` (Playwright, `tests/e2e/`) runs against a **production
+  build** via `next start` on port 3010 — build first and point it at a real DB:
+  `DATABASE_URL=postgresql://gamexs:gamexs@localhost:5434/gamexs npm run test:e2e`.
+  `npm run test:headers` checks the security/cache headers from `next.config.ts`.
 
 ## `backend/` (Django 5.1, Django REST Framework)
 
@@ -225,6 +244,7 @@ The default in `manage.py` is `local`, but set `DJANGO_SETTINGS_MODULE` explicit
 | `wishlist` | `wishlist_wishlistitem` | Per-user wishlist with optional price-drop threshold |
 | `game_accounts` | `game_accounts_psnaccount` | PSN account storage per user |
 | `tickets` | `tickets_ticket`, `tickets_ticketmessage` | Support ticket system |
+| `reviews` | `reviews_gamereview` | User game reviews with moderation workflow (pending/approved/rejected) |
 
 **`catalog` is `managed=False`** — Django will never create/drop `ps5_games`,
 `sellers`, or `listings`; those belong to the scraper schema. Do not add
@@ -264,4 +284,5 @@ older notes describing header-only auth are stale):
 /api/cart/          GET, POST items/, DELETE items/{id}/, DELETE clear/
 /api/orders/        GET, POST, GET {id}/
 /api/tickets/       GET, POST, GET {id}/, POST {id}/messages/
+/api/reviews/       games/{game_id}/ — list + create
 ```

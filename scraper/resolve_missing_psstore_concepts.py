@@ -10,7 +10,11 @@ Examples:
       .venv/bin/python resolve_missing_psstore_concepts.py --output output/resolved_psstore.csv
 
     DATABASE_URL=postgresql://gamexs:gamexs@localhost:5436/gamexs \
-      .venv/bin/python resolve_missing_psstore_concepts.py --apply --workers 4
+      HTTPS_PROXY=http://custom-xray.mahdixak-gamexs.svc:10809 \
+      .venv/bin/python resolve_missing_psstore_concepts.py --search-store --workers 4
+
+Run without --apply first and inspect both CSV files. Add --apply only after
+the accepted matches have been reviewed.
 """
 
 from __future__ import annotations
@@ -33,6 +37,7 @@ import psycopg
 import requests
 
 import fetch_psstore_prices as psstore
+import psstore_search
 
 log = logging.getLogger("resolve-psstore")
 
@@ -63,6 +68,16 @@ class Candidate:
     product_id: str = ""
     edition_name: str = ""
     store_display_classification: str = ""
+    confidence: float = 1.0
+    match_reason: str = "trusted IGDB PlayStation Store URL"
+
+
+@dataclass(frozen=True)
+class SearchReview:
+    game: MissingGame
+    confidence: float
+    reason: str
+    result_count: int
 
 
 def load_missing_games(conn: psycopg.Connection) -> list[MissingGame]:
@@ -156,13 +171,9 @@ def resolve_game(
     urls_by_igdb: dict[int, list[str]],
     session: requests.Session,
     timeout: int,
-) -> Candidate | None:
+    search_store: bool,
+) -> Candidate | SearchReview | None:
     urls = urls_by_igdb.get(game.igdb_id, [])
-    for url in urls:
-        concept_match = CONCEPT_RE.search(url)
-        if concept_match:
-            return Candidate(game, concept_match.group(1), url, "cached_concept_url")
-
     for url in urls:
         product_match = PRODUCT_RE.search(url)
         if not product_match:
@@ -179,6 +190,39 @@ def resolve_game(
                 edition_name=edition_name,
                 store_display_classification=classification,
             )
+
+    if search_store:
+        products = psstore_search.search_products(session, game.title, timeout=timeout)
+        match = psstore_search.choose_product(game.title, products)
+        if match.product:
+            product = match.product
+            source_url = f"https://store.playstation.com/en-us/product/{product.product_id}"
+            details = product_details_from_url(source_url, session, timeout)
+            if details:
+                concept_id, edition_name, classification = details
+                return Candidate(
+                    game=game,
+                    concept_id=concept_id,
+                    source_url=source_url,
+                    source_kind="psstore_search",
+                    product_id=product.product_id,
+                    edition_name=edition_name or product.name,
+                    store_display_classification=classification or product.classification,
+                    confidence=match.score,
+                    match_reason=match.reason,
+                )
+            return SearchReview(
+                game,
+                match.score,
+                "matched product page did not expose a concept ID",
+                len(products),
+            )
+        return SearchReview(game, match.score, match.reason, len(products))
+
+    for url in urls:
+        concept_match = CONCEPT_RE.search(url)
+        if concept_match:
+            return Candidate(game, concept_match.group(1), url, "cached_concept_url")
 
     return None
 
@@ -264,6 +308,11 @@ def main() -> None:
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--timeout", type=int, default=20)
     parser.add_argument("--delay", type=float, default=0.15)
+    parser.add_argument(
+        "--search-store",
+        action="store_true",
+        help="Search the official PS Store for games not resolved by cached IGDB URLs.",
+    )
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
@@ -289,12 +338,24 @@ def main() -> None:
         log.info("IGDB detail entries with PS Store URLs: %d", len(urls_by_igdb))
 
         candidates: list[Candidate] = []
+        search_reviews: list[SearchReview] = []
         with ThreadPoolExecutor(max_workers=args.workers) as pool:
-            futures = [pool.submit(resolve_game, game, urls_by_igdb, session, args.timeout) for game in missing]
+            futures = [
+                pool.submit(resolve_game, game, urls_by_igdb, session, args.timeout, args.search_store)
+                for game in missing
+            ]
             for idx, future in enumerate(as_completed(futures), 1):
-                candidate = future.result()
-                if candidate:
-                    candidates.append(candidate)
+                try:
+                    resolution = future.result()
+                except psstore_search.SearchUnavailable as exc:
+                    log.error("PS Store search unavailable: %s", exc)
+                    for pending in futures:
+                        pending.cancel()
+                    raise SystemExit(2) from exc
+                if isinstance(resolution, Candidate):
+                    candidates.append(resolution)
+                elif isinstance(resolution, SearchReview):
+                    search_reviews.append(resolution)
                 if args.delay:
                     time.sleep(args.delay)
                 if idx % 25 == 0:
@@ -325,6 +386,8 @@ def main() -> None:
                 "product_id": candidate.product_id,
                 "edition_name": candidate.edition_name,
                 "store_display_classification": candidate.store_display_classification,
+                "confidence": f"{candidate.confidence:.3f}",
+                "match_reason": candidate.match_reason,
                 "source_kind": candidate.source_kind,
                 "source_url": candidate.source_url,
                 "us_store_url": (
@@ -350,10 +413,27 @@ def main() -> None:
             "product_id": candidate.product_id,
             "edition_name": candidate.edition_name,
             "store_display_classification": candidate.store_display_classification,
+            "confidence": f"{candidate.confidence:.3f}",
+            "match_reason": candidate.match_reason,
             "source_kind": candidate.source_kind,
             "source_url": candidate.source_url,
             "reason": "product_id already exists/duplicates in this run, or concept_id is concept-only and ambiguous",
         } for candidate in sorted(rejected, key=lambda c: c.game.title)]
+        rejected_rows.extend({
+            "game_id": review.game.id,
+            "title": review.game.title,
+            "slug": review.game.slug,
+            "igdb_id": review.game.igdb_id,
+            "concept_id": "",
+            "product_id": "",
+            "edition_name": "",
+            "store_display_classification": "",
+            "confidence": f"{review.confidence:.3f}",
+            "match_reason": review.reason,
+            "source_kind": "psstore_search_review",
+            "source_url": "",
+            "reason": f"{review.reason}; search_results={review.result_count}",
+        } for review in sorted(search_reviews, key=lambda r: r.game.title))
 
         write_csv(args.output, output_rows)
         write_csv(args.rejected_output, rejected_rows)
