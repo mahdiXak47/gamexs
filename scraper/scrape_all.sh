@@ -126,24 +126,8 @@ python upload_to_s3.py --db-url "$DATABASE_URL" 2>&1 | sed 's/^/[s3] /' || \
 # then remove games that have no remaining active listings.
 # ---------------------------------------------------------------------------
 log "=== Post-run DB cleanup ==="
-python - <<'PYEOF'
-import os, psycopg
-url = os.environ["DATABASE_URL"]
-with psycopg.connect(url) as conn, conn.cursor() as cur:
-    cur.execute("""
-        UPDATE listings SET is_active = false
-        WHERE is_active = true
-          AND last_seen_at < NOW() - INTERVAL '3 days'
-    """)
-    stale = cur.rowcount
-    cur.execute("""
-        DELETE FROM ps5_games
-        WHERE id NOT IN (SELECT DISTINCT game_id FROM listings WHERE is_active)
-    """)
-    orphans = cur.rowcount
-    conn.commit()
-print(f"marked {stale} listings inactive, removed {orphans} orphaned games")
-PYEOF
+python -m gamexs_scraper.maintenance 2>&1 | sed 's/^/[cleanup] /' || \
+    log "WARN  DB cleanup failed — stale listings and orphaned games will remain"
 
 # ---------------------------------------------------------------------------
 # Final status

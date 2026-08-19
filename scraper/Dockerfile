@@ -1,11 +1,12 @@
-# Scraper can run either as a one-off job container or as a long-running
-# Temporal worker application.
+# Scraper job image. Runs the full daily scrape-and-load pipeline
+# (scrape all sellers -> load to Postgres -> IGDB enrichment -> PS Store
+# prices -> S3 cover upload -> stale-listing cleanup) via scrape_all.sh.
 #
-# Temporal worker:
+# Full daily run:
 #
-#   docker run --rm <image> python -m gamexs_scraper.temporal.worker
+#   docker run --rm <image> bash scrape_all.sh
 #
-# One-off commands:
+# One-off commands (overrides the default CMD):
 #
 #   docker compose -f docker-compose.staging.yml run --rm scraper \
 #       python -m gamexs_scraper.export_csv pspro \
@@ -16,7 +17,7 @@
 #           --cache /output/pspro_offers.jsonl
 #
 #   docker compose -f docker-compose.staging.yml run --rm scraper \
-#       python -m gamexs_scraper.enrich_metadata
+#       python -m gamexs_scraper.maintenance
 
 FROM --platform=linux/amd64 hub.hamdocker.ir/python:3.12-slim
 
@@ -38,4 +39,4 @@ COPY upload_to_s3.py .
 RUN mkdir -p /output
 VOLUME ["/output"]
 
-CMD ["python", "-m", "gamexs_scraper.temporal.worker"]
+CMD ["bash", "scrape_all.sh"]

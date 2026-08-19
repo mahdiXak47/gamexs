@@ -67,8 +67,16 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt   # first-tim
 .venv/bin/python -m gamexs_scraper.export_csv <seller> -o output/<seller>.csv --cache output/<seller>_offers.jsonl
 .venv/bin/python -m gamexs_scraper.download_images <seller> --cache output/<seller>_offers.jsonl
 .venv/bin/python -m gamexs_scraper.load_to_postgres <seller> --cache output/<seller>_offers.jsonl
+.venv/bin/python -m gamexs_scraper.maintenance            # stale-listing cleanup (run after loads)
+.venv/bin/python -m gamexs_scraper.log_prices gpgaming   # price-log monitor: scrape one seller, log offers
 .venv/bin/python -m gamexs_scraper.compare output/pspro.csv some_reference.csv
 ```
+
+- **`scrape_all.sh` is the full daily pipeline** — scrape all 21 sellers in
+  parallel pairs → load → IGDB enrich → PS Store prices → S3 cover upload →
+  stale-listing cleanup (each step soft-fails independently). This is what the
+  k8s scraper CronJob runs. `scrape_all.sh` writes its JSONL caches to `/tmp`
+  and loads directly — there is no S3 artifact round-trip.
 
 - **Adapter pattern**: one `SellerAdapter` subclass per seller (21 registered)
   in `gamexs_scraper/adapters/`, all in `adapters/__init__.py`'s `ADAPTERS`
@@ -104,7 +112,11 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt   # first-tim
 - `scraper/output/` (CSVs, JSONL caches, downloaded images) is gitignored —
   regenerable from a live or cached scrape, never commit it as source of truth.
 
-### Docker build & deploy (scraper workflows image)
+### Docker build & deploy (scraper job image)
+
+The scraper image is a one-off job container. Its default CMD runs the full
+daily pipeline (`bash scrape_all.sh`); override it to run a single step
+(see `scraper/Dockerfile`). Build it with docker buildx (amd64, as in CI):
 
 ```bash
 docker buildx build \
@@ -114,29 +126,18 @@ docker buildx build \
   --no-cache \
   --provenance=false \
   --progress=plain \
-  -t registry.hamdocker.ir/mahdixak/gamexs-scraper-workflows:0.5.2 \
+  -t registry.hamdocker.ir/mahdixak/gamexs-scraper:latest \
   --push \
   .
 ```
 
-### Temporal workflows
+### Scheduling
 
-**`scraper/TEMPORAL.md` is the authoritative reference** (namespaces, worker
-deploy, schedules). Summarized: the scraper image runs as a long-lived
-Temporal worker across two namespaces — `sellers-prices` (default) with
-`SellerScrapeWorkflow`/`SellerPriceLogWorkflow`, and `gamexs-metadata` with
-`MetadataRefreshWorkflow` (IGDB enrichment, PS Store prices, S3 image uploads,
-stale-listing cleanup). The k8s CronJobs in `k8s/` are legacy and disabled in
-favor of Temporal schedules.
-
-- Smoke-run a workflow from CLI (worker must be running):
-  `TEMPORAL_ADDRESS=<host>:7233 .venv/bin/python -m gamexs_scraper.temporal.run_workflow sellers --limit-products 1`
-  (`metadata --igdb-limit 1 --psstore-limit 1`, or `log-prices --seller gpgaming`)
-- Start a `SellerPriceLogWorkflow` by hand: namespace `sellers-prices`,
-  task-queue `sellers-prices`, input `{"seller": "gpgaming"}` — prices appear
-  in the workflow's **Log** tab / **Input/Results** panel.
-- Test an activity without Temporal, e.g.:
-  `.venv/bin/python -c "from gamexs_scraper.temporal.activities import log_seller_prices; print(log_seller_prices({'seller':'gpgaming'}))"`
+The pipeline is scheduled by the k8s CronJobs in `k8s/` (no Temporal):
+`scraper-cronjob.yaml` runs `scrape_all.sh` daily at 21:30 UTC, and
+`psstore-price-cronjob.yaml` runs `fetch_psstore_prices.py` nightly as a
+separate job. `docker-compose.staging.yml` has a `scraper` service (profile
+`scraper`) for manual one-off runs.
 
 ## `db/` (Postgres 16)
 

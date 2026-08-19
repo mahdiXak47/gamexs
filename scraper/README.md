@@ -120,6 +120,26 @@ SELLER=gamario
     --cache output/${SELLER}_offers.jsonl
 ```
 
+### 5. Post-load DB maintenance
+
+Marks listings not seen in 3+ days as inactive and removes games with no
+remaining active listing. Runs automatically at the end of `scrape_all.sh`;
+safe to re-run.
+
+```bash
+.venv/bin/python -m gamexs_scraper.maintenance
+.venv/bin/python -m gamexs_scraper.maintenance --stale-days 3 --db-url postgresql://...
+```
+
+### 6. Price-log monitor (one seller)
+
+Scrapes a single seller and logs one structured line per offer — a quick
+smoke test of an adapter or a way to eyeball prices without a full load.
+
+```bash
+.venv/bin/python -m gamexs_scraper.log_prices gpgaming
+```
+
 ---
 
 ## Full pipeline for one seller (end-to-end)
