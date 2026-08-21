@@ -405,7 +405,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
             پیشنهادهای مربوط به سازنده این بازی موقتاً در دسترس نیست.
           </DegradedNotice>
         )}
-        <GameReviewsSection gameId={game.dbId} gameTitle={game.title} />
+        <GameReviewsSection gameId={game.dbId} gameTitle={game.title} description={game.description} />
         <FaqSection faqs={faqs} />
       </main>
       <Disclaimer />

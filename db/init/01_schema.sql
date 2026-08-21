@@ -30,6 +30,7 @@ CREATE TABLE ps5_games (
     release_date DATE,
     cover_url TEXT,
     main_background_image_url TEXT,
+    description TEXT,
     igdb_id INTEGER NOT NULL UNIQUE,
     screenshot_ids TEXT[],
     created_at TIMESTAMPTZ NOT NULL DEFAULT now(),

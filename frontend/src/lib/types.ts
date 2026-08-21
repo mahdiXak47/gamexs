@@ -53,6 +53,7 @@ export interface Game {
   coverInitial: string;
   coverUrl: string | null;
   mainBackgroundImageUrl: string | null;
+  description: string | null;
   screenshots: string[];
   purchaseOptions: PurchaseOption[];
   details: GameDetails | null;

@@ -560,10 +560,11 @@ export const getGameBySlug = cache(async function getGameBySlug(slug: string): P
     release_date: Date | null;
     cover_url: string | null;
     main_background_image_url: string | null;
+    description: string | null;
     screenshot_ids: string[] | null;
   }>(
     `
-    SELECT id, slug, title, genre_label, genres, developers, publisher, release_year, release_date, cover_url, main_background_image_url, screenshot_ids
+    SELECT id, slug, title, genre_label, genres, developers, publisher, release_year, release_date, cover_url, main_background_image_url, description, screenshot_ids
     FROM ps5_games
     WHERE slug = ANY($1::text[])
     ORDER BY array_position($1::text[], slug)
@@ -634,6 +635,7 @@ export const getGameBySlug = cache(async function getGameBySlug(slug: string): P
     coverInitial: deriveInitial(game.title),
     coverUrl: toCoverUrl(game.cover_url, game.slug),
     mainBackgroundImageUrl: normalizeMainBackgroundImageUrl(game.main_background_image_url, game.slug),
+    description: game.description,
     releaseDate: game.release_date ? game.release_date.toISOString().slice(0, 10) : null,
     screenshots,
     purchaseOptions,

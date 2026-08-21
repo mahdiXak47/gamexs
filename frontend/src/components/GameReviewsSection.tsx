@@ -119,9 +119,18 @@ function FieldError({ id, message }: { id: string; message?: string }) {
   return <p id={id} className="mt-2 text-xs font-bold text-red-600">{message}</p>;
 }
 
-export default function GameReviewsSection({ gameId, gameTitle }: { gameId: number; gameTitle: string }) {
+export default function GameReviewsSection({
+  gameId,
+  gameTitle,
+  description,
+}: {
+  gameId: number;
+  gameTitle: string;
+  description?: string | null;
+}) {
   const { user, openAuthModal } = useAuth();
   const toast = useToast();
+  const [tab, setTab] = useState<"description" | "reviews">("reviews");
   const [data, setData] = useState<ReviewsResponse | null>(null);
   const [rating, setRating] = useState(0);
   const [body, setBody] = useState("");
@@ -206,16 +215,26 @@ export default function GameReviewsSection({ gameId, gameTitle }: { gameId: numb
       <div className="mb-6 flex items-center justify-end gap-4" dir="ltr">
         <button
           type="button"
-          className="min-h-11 rounded-lg bg-blue-50 px-7 py-2.5 text-sm font-extrabold text-ps-blue ring-1 ring-blue-100"
-          aria-pressed="false"
+          onClick={() => setTab("description")}
+          aria-pressed={tab === "description"}
+          className={`min-h-11 cursor-pointer rounded-lg px-7 py-2.5 text-sm font-extrabold ${
+            tab === "description"
+              ? "bg-ps-blue text-white shadow-[0_12px_28px_rgba(0,48,135,0.22)] ring-1 ring-ps-blue/10"
+              : "bg-blue-50 text-ps-blue ring-1 ring-blue-100"
+          }`}
           dir="rtl"
         >
           توضیحات
         </button>
         <button
           type="button"
-          className="min-h-11 rounded-lg bg-ps-blue px-7 py-2.5 text-sm font-extrabold text-white shadow-[0_12px_28px_rgba(0,48,135,0.22)] ring-1 ring-ps-blue/10"
-          aria-pressed="true"
+          onClick={() => setTab("reviews")}
+          aria-pressed={tab === "reviews"}
+          className={`min-h-11 cursor-pointer rounded-lg px-7 py-2.5 text-sm font-extrabold ${
+            tab === "reviews"
+              ? "bg-ps-blue text-white shadow-[0_12px_28px_rgba(0,48,135,0.22)] ring-1 ring-ps-blue/10"
+              : "bg-blue-50 text-ps-blue ring-1 ring-blue-100"
+          }`}
           dir="rtl"
         >
           نظرات ({toPersianDigits(count)})
@@ -223,7 +242,21 @@ export default function GameReviewsSection({ gameId, gameTitle }: { gameId: numb
       </div>
 
       <div className="grid gap-6 rounded-lg bg-white p-5 shadow-sm ring-1 ring-black/5 lg:grid-cols-[minmax(0,1fr)_minmax(360px,0.9fr)] lg:p-7">
-        <div className="order-2 lg:order-1">
+        {tab === "description" ? (
+          <div className="ui-fade-panel col-span-2">
+            {description ? (
+              <div className="rounded-lg border border-gray-100 bg-gray-50 px-4 py-4">
+                <h2 className="mb-4 text-lg font-extrabold text-gray-900">توضیحات بازی</h2>
+                <p className="whitespace-pre-line text-sm leading-7 text-gray-700">{description}</p>
+              </div>
+            ) : (
+              <p className="rounded-lg border border-dashed border-gray-200 px-4 py-8 text-center text-sm text-gray-500">
+                توضیحاتی برای این بازی در دسترس نیست.
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="order-2 lg:order-1 ui-fade-panel">
           <h2 id="game-reviews-heading" className="text-lg font-extrabold text-gray-900">
             دیدگاه‌ها
           </h2>
@@ -267,9 +300,11 @@ export default function GameReviewsSection({ gameId, gameTitle }: { gameId: numb
               </p>
             )}
           </div>
-        </div>
+          </div>
+        )}
 
-        <div className="order-1 lg:order-2">
+        {tab === "reviews" && (
+        <div className="order-1 lg:order-2 ui-fade-panel">
           <p className="text-sm font-bold leading-7 text-gray-900">
             اولین نفری باشید که دیدگاهی برای خرید بازی {gameTitle} برای PS5 ارسال می‌کند.
           </p>
@@ -359,6 +394,7 @@ export default function GameReviewsSection({ gameId, gameTitle }: { gameId: numb
             </form>
           )}
         </div>
+        )}
       </div>
     </section>
   );
