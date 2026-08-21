@@ -26,4 +26,5 @@ INSERT INTO sellers (slug, name, domain) VALUES
     ('clockstore1', 'کلاک استور', 'clockstore1.ir'),
     ('gamepulse', 'گیم پالس', 'game-pulse.ir'),
     ('gpgaming', 'گیم پردایس', 'gpgaming.ir'),
-    ('gamestore', 'گیم استور', 'game-store.org');
+    ('gamestore', 'گیم استور', 'game-store.org'),
+    ('playbox', 'پلی باکس', 't.me/PlayBox_Account');

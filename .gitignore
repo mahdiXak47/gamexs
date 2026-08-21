@@ -6,6 +6,9 @@ scraper/output/images/
 scraper/output/*.log
 scraper/output/*_offers.jsonl
 
+# Telegram MTProto auth state — grants full session access, never commit
+scraper/telegram_sessions/
+
 # Python
 __pycache__/
 *.pyc

@@ -36,7 +36,7 @@ COPY upload_to_s3.py .
 
 # Output directory for CSVs, JSONL caches, and cover images.
 # Mount a volume here in production so data persists across runs.
-RUN mkdir -p /output
+RUN mkdir -p /output /app/telegram_sessions
 VOLUME ["/output"]
 
 CMD ["bash", "scrape_all.sh"]

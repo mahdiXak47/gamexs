@@ -19,6 +19,7 @@ from .pspro import PsProAdapter
 from .technolife import TechnoLifeAdapter
 from .xgamesstore import XgamesStoreAdapter
 from .yungcenter import YungCenterAdapter
+from .telegram_channel import TelegramChannelAdapter
 
 ADAPTERS = {
     PsProAdapter.seller: PsProAdapter,
@@ -42,4 +43,5 @@ ADAPTERS = {
     GamePulseAdapter.seller: GamePulseAdapter,
     GpGamingAdapter.seller: GpGamingAdapter,
     GameStoreAdapter.seller: GameStoreAdapter,
+    TelegramChannelAdapter.seller: TelegramChannelAdapter,
 }

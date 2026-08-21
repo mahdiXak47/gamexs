@@ -130,6 +130,27 @@ python -m gamexs_scraper.maintenance 2>&1 | sed 's/^/[cleanup] /' || \
     log "WARN  DB cleanup failed — stale listings and orphaned games will remain"
 
 # ---------------------------------------------------------------------------
+# Optional: Telegram channel price feeds (e.g. @PlayBox_Account). Requires
+# TELEGRAM_API_ID / TELEGRAM_API_HASH env vars and a pre-authenticated session
+# file (see scraper/gamexs_scraper/adapters/telegram_channel.py). Soft-fails like every
+# other step so a Telegram hiccup doesn't fail the whole run.
+# ---------------------------------------------------------------------------
+if [ -n "${TELEGRAM_API_ID:-}" ] && [ -n "${TELEGRAM_API_HASH:-}" ]; then
+    log "=== Telegram channel scrape ==="
+    if python -m gamexs_scraper.adapters.telegram_channel playbox \
+            --cache "/tmp/playbox_offers.jsonl" 2>&1 | sed 's/^/[telegram] /' \
+        && [ -f "/tmp/playbox_offers.jsonl" ]; then
+        python -m gamexs_scraper.load_to_postgres playbox \
+            --cache "/tmp/playbox_offers.jsonl" 2>&1 | sed 's/^/[telegram-load] /' || \
+            log "WARN  Telegram channel load failed — playbox prices will be stale"
+    else
+        log "WARN  Telegram channel scrape failed — playbox prices will be stale"
+    fi
+else
+    log "SKIP  Telegram channel scrape — TELEGRAM_API_ID/HASH not set"
+fi
+
+# ---------------------------------------------------------------------------
 # Final status
 # ---------------------------------------------------------------------------
 if [ -n "$failed_sellers" ]; then

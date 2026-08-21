@@ -139,6 +139,31 @@ The pipeline is scheduled by the k8s CronJobs in `k8s/` (no Temporal):
 separate job. `docker-compose.staging.yml` has a `scraper` service (profile
 `scraper`) for manual one-off runs.
 
+### Telegram channel feeds
+
+Some sellers sell only through Telegram channels (e.g. `@PlayBox_Account`).
+These are modeled as normal sellers: `gamexs_scraper/adapters/telegram_channel.py`
+provides `TelegramChannelAdapter` (a `SellerAdapter`) that reads channel posts
+via Telethon (MTProto) and yields `RawOffer`s through the same
+export_csv/load_to_postgres path — no frontend/backend changes needed.
+
+- **Per-channel parsing is config-driven** in `gamexs_scraper/telegram_config.py`
+  (price regex, capacity-label→tier map, price multiplier, skip keywords).
+  PlayBox prices are written in thousands of Toman, so `price_multiplier = 1000`
+  (e.g. `ظرفیت سوم: 4500` → `4,500,000` Toman). Add a new channel there **and**
+  a `sellers` row (seed + numbered migration, same as a web seller).
+- Credentials via `TELEGRAM_API_ID` / `TELEGRAM_API_HASH` env (see `.env.example`).
+  Telegram is blocked on Iranian networks, so also set `TELEGRAM_PROXY`
+  (e.g. `socks5://localhost:10809` — the repo's xray-proxy). Session state
+  persists to `telegram_sessions/` (gitignored — a `.session` file grants full
+  account access, never commit it). First run authenticates interactively
+  (phone → login code); headless runs need a pre-baked session.
+- Run: `python -m gamexs_scraper.adapters.telegram_channel playbox --cache output/playbox_offers.jsonl`
+  then `python -m gamexs_scraper.load_to_postgres playbox --cache ...`.
+  `scrape_all.sh` runs this step when `TELEGRAM_API_ID`/`HASH` are set.
+- `telethon` is a lazy import (only `_collect_offers` needs it), so the parser
+  and `scraper/tests/test_telegram_channel.py` run without it installed.
+
 ## `db/` (Postgres 16)
 
 ```bash
