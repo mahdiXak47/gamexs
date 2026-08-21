@@ -735,59 +735,97 @@ export async function getFeaturedUpcomingGames(slugs: string[]): Promise<Upcomin
   return rows.map(rowToUpcoming);
 }
 
+export interface PsStoreRegionInfo {
+  productId: string | null;
+  storeUrl: string | null;
+  current: string | null;
+  original: string | null;
+  discount: string | null;
+  essentialPlus?: boolean;
+  extraPlus?: boolean;
+  deluxePlus?: boolean;
+}
+
 export interface PsStoreInfo {
   hasData: boolean;
   conceptId: string | null;
-  productId: string | null;
-  usCurrent: string | null;
-  usOriginal: string | null;
-  usDiscount: string | null;
-  trCurrent: string | null;
-  trOriginal: string | null;
-  trDiscount: string | null;
-  essentialPlus: boolean;
-  extraPlus: boolean;
-  deluxePlus: boolean;
+  us: PsStoreRegionInfo;
+  tr: PsStoreRegionInfo;
 }
 
 export async function getGameStoreInfo(gameId: number): Promise<PsStoreInfo | null> {
   const { rows } = await query<{
-    concept_id: string;
-    product_id: string | null;
+    concept_id: string | null;
+    us_product_id: string | null;
+    us_store_url: string | null;
     us_price: string | null;
     us_original_price: string | null;
     us_discount_pct: string | null;
-    tr_price: string | null;
-    tr_original_price: string | null;
-    tr_discount_pct: string | null;
     essential_plus_included: boolean;
     extra_plus_included: boolean;
     deluxe_plus_included: boolean;
+    tr_product_id: string | null;
+    tr_store_url: string | null;
+    tr_price: string | null;
+    tr_original_price: string | null;
+    tr_discount_pct: string | null;
   }>(
-    `SELECT concept_id, product_id, us_price, us_original_price, us_discount_pct,
-            tr_price, tr_original_price, tr_discount_pct,
-            essential_plus_included, extra_plus_included, deluxe_plus_included
-     FROM ps5_store_info
-     WHERE game_id = $1
-     ORDER BY (product_id IS NOT NULL) DESC, fetched_at DESC
-     LIMIT 1`,
+    `SELECT
+        g.concept_id,
+        u.product_id AS us_product_id,
+        u.ps_store_url AS us_store_url,
+        u.price AS us_price,
+        u.original_price AS us_original_price,
+        u.discount_pct AS us_discount_pct,
+        u.essential_plus_included,
+        u.extra_plus_included,
+        u.deluxe_plus_included,
+        t.product_id AS tr_product_id,
+        t.ps_store_url AS tr_store_url,
+        t.price AS tr_price,
+        t.original_price AS tr_original_price,
+        t.discount_pct AS tr_discount_pct
+     FROM ps5_games g
+     LEFT JOIN LATERAL (
+        SELECT product_id, ps_store_url, price, original_price, discount_pct,
+               essential_plus_included, extra_plus_included, deluxe_plus_included
+        FROM ps5_game_us_info
+        WHERE game_id = g.id
+        ORDER BY (product_id IS NOT NULL) DESC, fetched_at DESC
+        LIMIT 1
+     ) u ON true
+     LEFT JOIN LATERAL (
+        SELECT product_id, ps_store_url, price, original_price, discount_pct
+        FROM ps5_game_tr_info
+        WHERE game_id = g.id
+        ORDER BY (product_id IS NOT NULL) DESC, fetched_at DESC
+        LIMIT 1
+     ) t ON true
+     WHERE g.id = $1`,
     [gameId]
   );
   const row = rows[0];
   if (!row) return null;
   return {
-    hasData:    true,
-    conceptId:  row.concept_id,
-    productId:  row.product_id,
-    usCurrent:  row.us_price,
-    usOriginal: row.us_original_price,
-    usDiscount: row.us_discount_pct,
-    trCurrent:  row.tr_price,
-    trOriginal: row.tr_original_price,
-    trDiscount: row.tr_discount_pct,
-    essentialPlus: row.essential_plus_included,
-    extraPlus:     row.extra_plus_included,
-    deluxePlus:    row.deluxe_plus_included,
+    hasData: true,
+    conceptId: row.concept_id,
+    us: {
+      productId: row.us_product_id,
+      storeUrl: row.us_store_url,
+      current: row.us_price,
+      original: row.us_original_price,
+      discount: row.us_discount_pct,
+      essentialPlus: row.essential_plus_included,
+      extraPlus: row.extra_plus_included,
+      deluxePlus: row.deluxe_plus_included,
+    },
+    tr: {
+      productId: row.tr_product_id,
+      storeUrl: row.tr_store_url,
+      current: row.tr_price,
+      original: row.tr_original_price,
+      discount: row.tr_discount_pct,
+    },
   };
 }
 

@@ -1,8 +1,6 @@
 import type { AriaAttributes, ReactNode } from "react";
 import Image from "next/image";
-import type { PsStoreInfo } from "@/lib/games-repo";
-
-const PS_STORE_BASE = "https://store.playstation.com";
+import type { PsStoreInfo, PsStoreRegionInfo } from "@/lib/games-repo";
 
 
 function PsPlus({ size = 40, dimmed }: { size?: number; dimmed?: boolean }) {
@@ -32,17 +30,19 @@ function ExternalLinkIcon() {
 }
 
 function PlusTierLabel({ info }: { info: PsStoreInfo }) {
-  if (info.deluxePlus)    return <span className="text-[13px] font-bold tracking-widest uppercase text-amber-300">Deluxe</span>;
-  if (info.extraPlus)     return <span className="text-[13px] font-bold tracking-widest uppercase text-amber-300">Extra</span>;
-  if (info.essentialPlus) return <span className="text-[13px] font-bold tracking-widest uppercase text-amber-300">Essential</span>;
+  const us = info.us;
+  if (us.deluxePlus)    return <span className="text-[13px] font-bold tracking-widest uppercase text-amber-300">Deluxe</span>;
+  if (us.extraPlus)     return <span className="text-[13px] font-bold tracking-widest uppercase text-amber-300">Extra</span>;
+  if (us.essentialPlus) return <span className="text-[13px] font-bold tracking-widest uppercase text-amber-300">Essential</span>;
   return null;
 }
 
 function plusTooltipText(info: PsStoreInfo): string {
-  if (info.deluxePlus)    return "این بازی در اشتراک PlayStation Plus Deluxe موجود است";
-  if (info.extraPlus)     return "این بازی در اشتراک PlayStation Plus Extra موجود است";
-  if (info.essentialPlus) return "این بازی در اشتراک PlayStation Plus Essential موجود است";
-  if (!info.hasData)      return "وضعیت این بازی در اشتراک PlayStation Plus هنوز ثبت نشده است";
+  const us = info.us;
+  if (us.deluxePlus)    return "این بازی در اشتراک PlayStation Plus Deluxe موجود است";
+  if (us.extraPlus)     return "این بازی در اشتراک PlayStation Plus Extra موجود است";
+  if (us.essentialPlus) return "این بازی در اشتراک PlayStation Plus Essential موجود است";
+  if (!info.hasData)    return "وضعیت این بازی در اشتراک PlayStation Plus هنوز ثبت نشده است";
   return "این بازی در هیچ اشتراک PlayStation Plus موجود نیست";
 }
 
@@ -72,17 +72,19 @@ interface Props {
 }
 
 export default function PsStorePriceBadges({ info }: Props) {
-  const trHref = psStoreHref(info, "tr-tr");
-  const usHref = psStoreHref(info, "en-us");
-  const hasPlus = info.essentialPlus || info.extraPlus || info.deluxePlus;
+  const trHref = psStoreHref(info.tr);
+  const usHref = psStoreHref(info.us);
+  const us = info.us;
+  const tr = info.tr;
+  const hasPlus = !!(us.essentialPlus || us.extraPlus || us.deluxePlus);
 
-  const usTooltip = info.usCurrent
-    ? `قیمت این بازی در فروشگاه رسمی PlayStation آمریکا ${info.usCurrent}${info.usDiscount ? ` (${info.usDiscount})` : ""} می‌باشد`
+  const usTooltip = us.current
+    ? `قیمت این بازی در فروشگاه رسمی PlayStation آمریکا ${us.current}${us.discount ? ` (${us.discount})` : ""} می‌باشد`
     : "قیمت این بازی در منطقه آمریکا ثبت نشده است";
 
   // ⁦ / ⁩ = LTR isolate marks — prevent RTL bidi from reversing the price inside Persian tooltip text
-  const trTooltip = info.trCurrent
-    ? `قیمت این بازی در فروشگاه رسمی PlayStation ترکیه ⁦${info.trCurrent}${info.trDiscount ? ` (${info.trDiscount})` : ""}⁩ می‌باشد`
+  const trTooltip = tr.current
+    ? `قیمت این بازی در فروشگاه رسمی PlayStation ترکیه ⁦${tr.current}${tr.discount ? ` (${tr.discount})` : ""}⁩ می‌باشد`
     : "قیمت این بازی در منطقه ترکیه ثبت نشده است";
 
   return (
@@ -99,7 +101,7 @@ export default function PsStorePriceBadges({ info }: Props) {
         <PriceCard
           href={trHref}
           className={trHref ? `${glassCard} cursor-pointer touch-manipulation` : disabledRegionCard}
-          aria-label={`قیمت در ترکیه: ${info.trCurrent ?? "نامشخص"}`}
+          aria-label={`قیمت در ترکیه: ${tr.current ?? "نامشخص"}`}
         >
           <div className="flex flex-col items-center gap-2 px-3 py-4 w-full">
             <div className="flex items-center justify-center gap-1.5 w-full">
@@ -113,15 +115,15 @@ export default function PsStorePriceBadges({ info }: Props) {
               {trHref && <ExternalLinkIcon />}
             </div>
             <p dir="ltr" className="text-[17px] font-extrabold text-white leading-none tabular-nums text-center">
-              {info.trCurrent ?? <span className="text-white/30">—</span>}
+              {tr.current ?? <span className="text-white/30">—</span>}
             </p>
             <div className="flex flex-col items-center gap-0.5 min-h-[18px]">
-              {info.trOriginal && info.trOriginal !== info.trCurrent && (
-                <span dir="ltr" className="text-[11px] text-white/30 line-through leading-none">{info.trOriginal}</span>
+              {tr.original && tr.original !== tr.current && (
+                <span dir="ltr" className="text-[11px] text-white/30 line-through leading-none">{tr.original}</span>
               )}
-              {info.trDiscount && (
+              {tr.discount && (
                 <span className="text-[11px] font-bold text-emerald-400 bg-emerald-400/10 rounded-full px-2 py-0.5 leading-none">
-                  {info.trDiscount}
+                  {tr.discount}
                 </span>
               )}
             </div>
@@ -133,7 +135,7 @@ export default function PsStorePriceBadges({ info }: Props) {
         <PriceCard
           href={usHref}
           className={usHref ? `${glassCard} cursor-pointer touch-manipulation` : disabledRegionCard}
-          aria-label={`قیمت در آمریکا: ${info.usCurrent ?? "نامشخص"}`}
+          aria-label={`قیمت در آمریکا: ${us.current ?? "نامشخص"}`}
         >
           <div className="flex flex-col items-center gap-2 px-3 py-4 w-full">
             <div className="flex items-center justify-center gap-1.5 w-full">
@@ -152,15 +154,15 @@ export default function PsStorePriceBadges({ info }: Props) {
               {usHref && <ExternalLinkIcon />}
             </div>
             <p className="text-[17px] font-extrabold text-white leading-none tabular-nums text-center">
-              {info.usCurrent ?? <span className="text-white/30">—</span>}
+              {us.current ?? <span className="text-white/30">—</span>}
             </p>
             <div className="flex flex-col items-center gap-0.5 min-h-[18px]">
-              {info.usOriginal && info.usOriginal !== info.usCurrent && (
-                <span className="text-[11px] text-white/30 line-through leading-none">{info.usOriginal}</span>
+              {us.original && us.original !== us.current && (
+                <span className="text-[11px] text-white/30 line-through leading-none">{us.original}</span>
               )}
-              {info.usDiscount && (
+              {us.discount && (
                 <span className="text-[11px] font-bold text-emerald-400 bg-emerald-400/10 rounded-full px-2 py-0.5 leading-none">
-                  {info.usDiscount}
+                  {us.discount}
                 </span>
               )}
             </div>
@@ -190,9 +192,8 @@ export default function PsStorePriceBadges({ info }: Props) {
   );
 }
 
-function psStoreHref(info: PsStoreInfo, locale: "en-us" | "tr-tr") {
-  if (info.productId) return `${PS_STORE_BASE}/${locale}/product/${info.productId}`;
-  if (info.conceptId) return `${PS_STORE_BASE}/${locale}/concept/${info.conceptId}`;
+function psStoreHref(region: PsStoreRegionInfo) {
+  if (region.storeUrl) return region.storeUrl;
   return null;
 }
 

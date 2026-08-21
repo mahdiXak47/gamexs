@@ -249,47 +249,115 @@ def igdb_concept_ids_for_ids(
 # DB write
 # ---------------------------------------------------------------------------
 
+def _region_url(product_id: str, concept_id: str, locale: str) -> str:
+    """Build the region-specific PS Store URL for a product or concept."""
+    if product_id:
+        return f"https://store.playstation.com/{locale}/product/{product_id}"
+    return f"https://store.playstation.com/{locale}/concept/{concept_id}"
+
+
+def _upsert_region(
+    conn: psycopg.Connection,
+    table: str,
+    conflict_target: str,
+    game_id: int | None,
+    product_id: str | None,
+    url: str,
+    price: str | None,
+    original_price: str | None,
+    discount_pct: str | None,
+    plus: tuple[bool, bool, bool] | None,
+) -> None:
+    """Upsert one region row into ps5_game_tr_info or ps5_game_us_info."""
+    if plus is not None:
+        conn.execute(
+            f"""
+            INSERT INTO {table} (
+                game_id, product_id, ps_store_url,
+                price, original_price, discount_pct,
+                essential_plus_included, extra_plus_included, deluxe_plus_included,
+                fetched_at
+            ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())
+            ON CONFLICT {conflict_target} DO UPDATE SET
+                ps_store_url    = EXCLUDED.ps_store_url,
+                price           = EXCLUDED.price,
+                original_price  = EXCLUDED.original_price,
+                discount_pct    = EXCLUDED.discount_pct,
+                essential_plus_included = EXCLUDED.essential_plus_included,
+                extra_plus_included     = EXCLUDED.extra_plus_included,
+                deluxe_plus_included    = EXCLUDED.deluxe_plus_included,
+                fetched_at      = NOW()
+            """,
+            (
+                game_id, product_id, url, price, original_price, discount_pct,
+                plus[0], plus[1], plus[2],
+            ),
+        )
+    else:
+        conn.execute(
+            f"""
+            INSERT INTO {table} (
+                game_id, product_id, ps_store_url,
+                price, original_price, discount_pct, fetched_at
+            ) VALUES (%s, %s, %s, %s, %s, %s, NOW())
+            ON CONFLICT {conflict_target} DO UPDATE SET
+                ps_store_url    = EXCLUDED.ps_store_url,
+                price           = EXCLUDED.price,
+                original_price  = EXCLUDED.original_price,
+                discount_pct    = EXCLUDED.discount_pct,
+                fetched_at      = NOW()
+            """,
+            (game_id, product_id, url, price, original_price, discount_pct),
+        )
+
+
 def db_upsert_row(conn: psycopg.Connection, row: "GameRow", game_id: int | None) -> None:
-    """Upsert one row into ps5_store_info. Commits immediately."""
-    conflict_target = "(product_id) WHERE product_id IS NOT NULL" if row.product_id else "(concept_id) WHERE product_id IS NULL"
-    conn.execute(
-        f"""
-        INSERT INTO ps5_store_info (
-            concept_id, product_id, game_id, ps_store_url, edition_name,
-            store_display_classification, price_source,
-            us_price, us_original_price, us_discount_pct,
-            tr_price, tr_original_price, tr_discount_pct,
-            essential_plus_included, extra_plus_included, deluxe_plus_included,
-            fetched_at
-        ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())
-        ON CONFLICT {conflict_target} DO UPDATE SET
-            concept_id              = EXCLUDED.concept_id,
-            product_id              = EXCLUDED.product_id,
-            game_id                 = EXCLUDED.game_id,
-            ps_store_url            = EXCLUDED.ps_store_url,
-            edition_name            = EXCLUDED.edition_name,
-            store_display_classification = EXCLUDED.store_display_classification,
-            price_source            = EXCLUDED.price_source,
-            us_price                = EXCLUDED.us_price,
-            us_original_price       = EXCLUDED.us_original_price,
-            us_discount_pct         = EXCLUDED.us_discount_pct,
-            tr_price                = EXCLUDED.tr_price,
-            tr_original_price       = EXCLUDED.tr_original_price,
-            tr_discount_pct         = EXCLUDED.tr_discount_pct,
-            essential_plus_included = EXCLUDED.essential_plus_included,
-            extra_plus_included     = EXCLUDED.extra_plus_included,
-            deluxe_plus_included    = EXCLUDED.deluxe_plus_included,
-            fetched_at              = NOW()
-        """,
-        (
-            row.concept_id, row.product_id or None, game_id, row.ps_store_url or None,
-            row.edition_name or None, row.store_display_classification or None,
-            row.price_source,
-            row.us_price or None, row.us_original_price or None, row.us_discount_pct or None,
-            row.tr_price or None, row.tr_original_price or None, row.tr_discount_pct or None,
-            row.essential_plus_included, row.extra_plus_included, row.deluxe_plus_included,
-        ),
+    """Upsert one PS Store price result into the per-region tables.
+
+    Writes region-agnostic metadata to ps5_games (concept_id, edition_name,
+    store_display_classification, price_source) and per-region price + URL to
+    ps5_game_tr_info (Turkey) and ps5_game_us_info (US). Commits immediately.
+    """
+    if game_id is not None:
+        conn.execute(
+            """
+            UPDATE ps5_games
+            SET concept_id = COALESCE(%s, concept_id),
+                edition_name = COALESCE(%s, edition_name),
+                store_display_classification = COALESCE(%s, store_display_classification),
+                price_source = COALESCE(%s, price_source)
+            WHERE id = %s
+            """,
+            (
+                row.concept_id or None,
+                row.edition_name or None,
+                row.store_display_classification or None,
+                row.price_source,
+                game_id,
+            ),
+        )
+
+    product_id = row.product_id or None
+    if product_id:
+        tr_conflict = "(product_id) WHERE product_id IS NOT NULL"
+        us_conflict = "(product_id) WHERE product_id IS NOT NULL"
+    else:
+        tr_conflict = "(game_id) WHERE product_id IS NULL"
+        us_conflict = "(game_id) WHERE product_id IS NULL"
+
+    _upsert_region(
+        conn, "ps5_game_tr_info", tr_conflict, game_id, product_id,
+        row.ps_store_url or _region_url(product_id or "", row.concept_id, "tr-tr"),
+        row.tr_price or None, row.tr_original_price or None, row.tr_discount_pct or None,
+        None,
     )
+    _upsert_region(
+        conn, "ps5_game_us_info", us_conflict, game_id, product_id,
+        row.ps_store_url or _region_url(product_id or "", row.concept_id, "en-us"),
+        row.us_price or None, row.us_original_price or None, row.us_discount_pct or None,
+        (row.essential_plus_included, row.extra_plus_included, row.deluxe_plus_included),
+    )
+
     conn.commit()
 
 
@@ -452,7 +520,19 @@ def main() -> None:
         with psycopg.connect(database_url, connect_timeout=10) as conn:
             with conn.cursor() as cur:
                 cur.execute(
-                    "SELECT concept_id FROM ps5_store_info WHERE fetched_at >= NOW() - INTERVAL '12 hours'"
+                    """
+                    SELECT g.concept_id FROM ps5_games g
+                    WHERE g.concept_id IS NOT NULL
+                      AND EXISTS (
+                        SELECT 1 FROM ps5_game_us_info u WHERE u.game_id = g.id
+                        UNION ALL
+                        SELECT 1 FROM ps5_game_tr_info t WHERE t.game_id = g.id
+                      )
+                      AND (
+                        (SELECT MAX(fetched_at) FROM ps5_game_us_info u WHERE u.game_id = g.id) >= NOW() - INTERVAL '12 hours'
+                        OR (SELECT MAX(fetched_at) FROM ps5_game_tr_info t WHERE t.game_id = g.id) >= NOW() - INTERVAL '12 hours'
+                      )
+                    """
                 )
                 already_done = {row[0] for row in cur.fetchall()}
         if already_done:

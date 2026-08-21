@@ -33,9 +33,59 @@ CREATE TABLE ps5_games (
     description TEXT,
     igdb_id INTEGER NOT NULL UNIQUE,
     screenshot_ids TEXT[],
+    concept_id TEXT,
+    edition_name TEXT,
+    store_display_classification TEXT,
+    price_source TEXT,
     created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
     UNIQUE (platform_id, slug)
 );
+
+-- One row per game per region's PS Store price + product URL. Region-specific
+-- because a single game can have different PS Store product URLs per region
+-- (e.g. EU uses EP0002-..., US uses UP0002-...). Region-agnostic PS Store
+-- metadata (concept_id, edition_name, store_display_classification,
+-- price_source) lives on ps5_games.
+CREATE TABLE ps5_game_tr_info (
+    id SERIAL PRIMARY KEY,
+    game_id INTEGER REFERENCES ps5_games (id) ON DELETE SET NULL,
+    product_id TEXT,
+    ps_store_url TEXT,
+    price TEXT,
+    original_price TEXT,
+    discount_pct TEXT,
+    fetched_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+    UNIQUE (product_id)
+);
+CREATE UNIQUE INDEX ps5_game_tr_info_product_id_key
+    ON ps5_game_tr_info (product_id)
+    WHERE product_id IS NOT NULL;
+CREATE UNIQUE INDEX ps5_game_tr_info_concept_fallback_key
+    ON ps5_game_tr_info (game_id)
+    WHERE product_id IS NULL;
+CREATE INDEX ps5_game_tr_info_game_id_idx ON ps5_game_tr_info (game_id);
+
+CREATE TABLE ps5_game_us_info (
+    id SERIAL PRIMARY KEY,
+    game_id INTEGER REFERENCES ps5_games (id) ON DELETE SET NULL,
+    product_id TEXT,
+    ps_store_url TEXT,
+    price TEXT,
+    original_price TEXT,
+    discount_pct TEXT,
+    essential_plus_included BOOLEAN NOT NULL DEFAULT false,
+    extra_plus_included BOOLEAN NOT NULL DEFAULT false,
+    deluxe_plus_included BOOLEAN NOT NULL DEFAULT false,
+    fetched_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+    UNIQUE (product_id)
+);
+CREATE UNIQUE INDEX ps5_game_us_info_unique_key
+    ON ps5_game_us_info (product_id)
+    WHERE product_id IS NOT NULL;
+CREATE UNIQUE INDEX ps5_game_us_info_concept_fallback_key
+    ON ps5_game_us_info (game_id)
+    WHERE product_id IS NULL;
+CREATE INDEX ps5_game_us_info_game_id_idx ON ps5_game_us_info (game_id);
 
 -- One row per (game, seller, product type, tier) ever seen — the identity of
 -- a trackable offer. Prices live in price_history; this table just answers

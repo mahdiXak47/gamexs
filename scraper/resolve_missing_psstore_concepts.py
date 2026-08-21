@@ -85,8 +85,8 @@ def load_missing_games(conn: psycopg.Connection) -> list[MissingGame]:
         """
         SELECT g.id, g.title, g.slug, g.igdb_id
         FROM ps5_games g
-        LEFT JOIN ps5_store_info s ON s.game_id = g.id
-        WHERE s.concept_id IS NULL
+        WHERE g.concept_id IS NULL
+          AND g.igdb_id IS NOT NULL
         ORDER BY g.title
         """
     ).fetchall()
@@ -94,12 +94,18 @@ def load_missing_games(conn: psycopg.Connection) -> list[MissingGame]:
 
 
 def load_existing_concepts(conn: psycopg.Connection) -> set[str]:
-    rows = conn.execute("SELECT concept_id FROM ps5_store_info WHERE concept_id IS NOT NULL").fetchall()
+    rows = conn.execute("SELECT concept_id FROM ps5_games WHERE concept_id IS NOT NULL").fetchall()
     return {str(r[0]) for r in rows}
 
 
 def load_existing_products(conn: psycopg.Connection) -> set[str]:
-    rows = conn.execute("SELECT product_id FROM ps5_store_info WHERE product_id IS NOT NULL").fetchall()
+    rows = conn.execute(
+        """
+        SELECT product_id FROM ps5_game_tr_info WHERE product_id IS NOT NULL
+        UNION
+        SELECT product_id FROM ps5_game_us_info WHERE product_id IS NOT NULL
+        """
+    ).fetchall()
     return {str(r[0]) for r in rows}
 
 
@@ -303,7 +309,7 @@ def main() -> None:
     parser.add_argument("--details-dir", type=Path, default=DETAILS_DIR)
     parser.add_argument("--output", type=Path, default=Path("/private/tmp/resolved_missing_psstore_concepts.csv"))
     parser.add_argument("--rejected-output", type=Path, default=Path("/private/tmp/rejected_missing_psstore_concepts.csv"))
-    parser.add_argument("--apply", action="store_true", help="Upsert accepted rows into ps5_store_info.")
+    parser.add_argument("--apply", action="store_true", help="Upsert accepted rows into the per-region PS Store tables.")
     parser.add_argument("--workers", type=int, default=4)
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--timeout", type=int, default=20)

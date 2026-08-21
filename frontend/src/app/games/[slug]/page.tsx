@@ -123,16 +123,8 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
   const psStoreInfo: PsStoreInfo = storeInfo ?? {
     hasData: false,
     conceptId: null,
-    productId: null,
-    usCurrent: null,
-    usOriginal: null,
-    usDiscount: null,
-    trCurrent: null,
-    trOriginal: null,
-    trDiscount: null,
-    essentialPlus: false,
-    extraPlus: false,
-    deluxePlus: false,
+    us: { productId: null, storeUrl: null, current: null, original: null, discount: null },
+    tr: { productId: null, storeUrl: null, current: null, original: null, discount: null },
   };
   // Screenshots are landscape S3 images — much better quality for a wide hero
   // than the portrait cover. For IGDB cover fallbacks swap the tiny size token
