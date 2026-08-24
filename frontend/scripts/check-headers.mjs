@@ -134,13 +134,32 @@ async function checkSitemap() {
   }
 
   for (const location of locations.slice(0, 5)) {
-    const page = await fetch(location, { redirect: "manual" });
+    // Sitemap URLs are intentionally absolute production URLs. During this
+    // local smoke test, resolve the same path against the scratch server so
+    // newly added routes are tested locally rather than against production.
+    const localLocation = new URL(new URL(location).pathname, BASE).href;
+    const page = await fetch(localLocation, { redirect: "manual" });
     if (page.status !== 200) {
       failures.push(`/sitemap.xml: ${location} returned ${page.status}`);
     } else if (page.headers.get("x-robots-tag") !== null) {
       failures.push(`/sitemap.xml: ${location} returned X-Robots-Tag ${page.headers.get("x-robots-tag")}`);
     }
   }
+
+  const imageSitemap = await fetch(`${BASE}/image-sitemap.xml`);
+  assertStatus("/image-sitemap.xml", imageSitemap, 200);
+  const imageSitemapXml = await imageSitemap.text();
+  if (!imageSitemapXml.includes("http://www.google.com/schemas/sitemap-image/1.1")) {
+    failures.push("/image-sitemap.xml: missing image sitemap namespace");
+  } else {
+    console.log("ok   /image-sitemap.xml -> image namespace present");
+  }
+
+  const guide = await fetch(`${BASE}/guide`);
+  assertStatus("/guide", guide, 200);
+
+  const merchantFeed = await fetch(`${BASE}/feeds/products.xml`);
+  assertStatus("/feeds/products.xml", merchantFeed, 404);
 }
 
 async function assertDynamicNotFound(route) {

@@ -22,9 +22,9 @@ import WishlistButton from "@/components/WishlistButton";
 import { formatToman, toPersianDigits } from "@/lib/format";
 import { genreForGame } from "@/lib/genres";
 import type { PsStoreInfo } from "@/lib/games-repo";
-import { getGameBySlug, getGameStoreInfo, getSimilarGames, getSimilarGamesByDeveloper, getGameVersions } from "@/lib/games-repo";
+import { getGameBySlug, getGameReviewSummary, getGameStoreInfo, getSimilarGames, getSimilarGamesByDeveloper, getGameVersions } from "@/lib/games-repo";
 import { lowestAvailableOffer, lowestValidPrice, storeCount } from "@/lib/purchase-options";
-import { faqPageJsonLd, gamePurchaseFaqs, SITE_URL, tomanToRial } from "@/lib/seo";
+import { faqPageJsonLd, gameOgImageUrl, gamePurchaseFaqs, SITE_URL, tomanToRial } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
 
@@ -73,7 +73,7 @@ export async function generateMetadata({
     .filter(Boolean)
     .join(" — ")
     .slice(0, 300) || `مقایسه قیمت اکانت، دیسک و اشتراک ${game.title} برای PS5 بین فروشندگان ایرانی`;
-  const image = game.mainBackgroundImageUrl ?? game.coverUrl ?? undefined;
+  const image = gameOgImageUrl(game.slug);
 
   return {
     title,
@@ -85,13 +85,13 @@ export async function generateMetadata({
       description,
       url: `${SITE_URL}/games/${game.slug}`,
       type: "website",
-      images: image ? [{ url: image }] : undefined,
+      images: [{ url: image, width: 1200, height: 630, alt: `${game.title} — مقایسه قیمت در GameXS` }],
     },
     twitter: {
-      card: image ? "summary_large_image" : "summary",
+      card: "summary_large_image",
       title,
       description,
-      images: image ? [image] : undefined,
+      images: [image],
     },
   };
 }
@@ -102,16 +102,18 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
   if (!game || storeCount(game) === 0) notFound();
   if (slug !== game.slug) permanentRedirect(`/games/${game.slug}`);
 
-  const [storeInfoResult, gameVersionsResult, similarGamesResult, similarGamesByDeveloperResult] = await Promise.allSettled([
+  const [storeInfoResult, gameVersionsResult, similarGamesResult, similarGamesByDeveloperResult, reviewSummaryResult] = await Promise.allSettled([
     getGameStoreInfo(game.dbId),
     getGameVersions(game.dbId, game.title),
     getSimilarGames(game.dbId, game.genres),
     getSimilarGamesByDeveloper(game.dbId, game.developers),
+    getGameReviewSummary(game.dbId),
   ]);
   const storeInfo = secondaryValue(storeInfoResult, null, "ps-store-info");
   const gameVersions = secondaryValue(gameVersionsResult, [], "game-versions");
   const similarGames = secondaryValue(similarGamesResult, [], "similar-games");
   const similarGamesByDeveloper = secondaryValue(similarGamesByDeveloperResult, [], "similar-games-by-developer");
+  const reviewSummary = secondaryValue(reviewSummaryResult, null, "review-summary");
   const storeInfoUnavailable = secondaryFailed(storeInfoResult);
   const gameVersionsUnavailable = secondaryFailed(gameVersionsResult);
   const similarGamesUnavailable = secondaryFailed(similarGamesResult);
@@ -143,6 +145,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
   // priceToman = 0 shows up on some out-of-stock scraped listings (a scraper
   // artifact, not a real price) — excluded here so structured data never
   // claims a zero price, which fails Google's Merchant/Rich Results validation.
+  const rawOffers = game.purchaseOptions.flatMap((option) => option.offers);
   const allOffers = game.purchaseOptions.flatMap((option) =>
     option.offers
       .filter((offer) => offer.priceToman > 0)
@@ -159,21 +162,41 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
       }))
   );
 
+  const completeOfferSet = rawOffers.length > 0 && rawOffers.every((offer) => offer.priceToman > 0);
   const productJsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
     name: game.title,
     description: d?.summary ?? undefined,
     image: game.coverUrl ?? game.mainBackgroundImageUrl ?? undefined,
+    url: `${SITE_URL}/games/${game.slug}`,
+    dateModified: game.lastModifiedAt ?? undefined,
     brand: game.publisher ? { "@type": "Organization", name: game.publisher } : undefined,
     ...(allOffers.length > 0 && {
       offers: {
         "@type": "AggregateOffer",
         priceCurrency: "IRR",
         lowPrice: Math.min(...allOffers.map((o) => o.price)),
+        ...(completeOfferSet && { highPrice: Math.max(...allOffers.map((o) => o.price)) }),
         offerCount: allOffers.length,
         offers: allOffers,
       },
+    }),
+    ...(reviewSummary && {
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: Number(reviewSummary.averageRating.toFixed(2)),
+        reviewCount: reviewSummary.count,
+        bestRating: 5,
+        worstRating: 1,
+      },
+      review: reviewSummary.reviews.map((review) => ({
+        "@type": "Review",
+        reviewRating: { "@type": "Rating", ratingValue: review.rating, bestRating: 5, worstRating: 1 },
+        author: { "@type": "Person", name: review.authorName },
+        reviewBody: review.body,
+        datePublished: review.createdAt,
+      })),
     }),
   };
 

@@ -150,7 +150,6 @@ export default function GameGrid({
   const setSort = (s: SortOption) => updateParams({ sort: s === "popular" ? null : s, page: null });
   const setSelectedPublishers = (pubs: Set<string>) =>
     updateParams({ publisher: pubs.size > 0 ? [...pubs].join(",") : null, page: null });
-  const setPage = (p: number) => updateParams({ page: p > 1 ? String(p) : null });
   const clearAll = () => {
     setQueryInput("");
     updateParams({ q: null, publisher: null, page: null });
@@ -162,6 +161,15 @@ export default function GameGrid({
   const end = Math.min(page * pageSize, total);
   const selectedSet = new Set(selectedPublishers);
   const hasActiveFilters = query.trim().length > 0 || selectedPublishers.length > 0;
+  const pageHref = (targetPage: number) => {
+    const params = new URLSearchParams();
+    if (query) params.set("q", query);
+    if (sort !== "popular") params.set("sort", sort);
+    if (selectedPublishers.length > 0) params.set("publisher", selectedPublishers.join(","));
+    if (targetPage > 1) params.set("page", String(targetPage));
+    const queryString = params.toString();
+    return queryString ? `${basePath}?${queryString}` : basePath;
+  };
 
   return (
     <>
@@ -247,13 +255,15 @@ export default function GameGrid({
               <Pagination aria-label="صفحه‌بندی بازی‌ها">
                 <Pagination.Content>
                   <Pagination.Item>
-                    <Pagination.Previous
-                      onPress={() => setPage(Math.max(1, page - 1))}
-                      isDisabled={page === 1 || isPending}
+                    <a
+                      href={page > 1 ? pageHref(page - 1) : undefined}
+                      aria-disabled={page === 1 || isPending}
+                      tabIndex={page === 1 || isPending ? -1 : undefined}
+                      className="inline-flex min-h-9 items-center gap-1 rounded-lg px-3 text-sm font-medium text-gray-600 transition hover:bg-gray-100 aria-disabled:pointer-events-none aria-disabled:opacity-40"
                     >
                       قبلی
                       <Pagination.NextIcon />
-                    </Pagination.Previous>
+                    </a>
                   </Pagination.Item>
 
                   {pageNumbers.map((num, idx) =>
@@ -263,25 +273,29 @@ export default function GameGrid({
                       </Pagination.Item>
                     ) : (
                       <Pagination.Item key={num}>
-                        <Pagination.Link
-                          isActive={num === page}
-                          onPress={() => setPage(num)}
-                          isDisabled={isPending}
+                        <a
+                          href={pageHref(num)}
+                          aria-current={num === page ? "page" : undefined}
+                          aria-disabled={isPending}
+                          tabIndex={isPending ? -1 : undefined}
+                          className={`inline-flex h-9 min-w-9 items-center justify-center rounded-lg px-2 text-sm font-bold transition hover:bg-blue-50 hover:text-ps-blue aria-disabled:pointer-events-none aria-disabled:opacity-40 ${num === page ? "bg-ps-blue text-white hover:bg-ps-blue hover:text-white" : "text-gray-600"}`}
                         >
                           {toPersianDigits(num)}
-                        </Pagination.Link>
+                        </a>
                       </Pagination.Item>
                     )
                   )}
 
                   <Pagination.Item>
-                    <Pagination.Next
-                      onPress={() => setPage(Math.min(totalPages, page + 1))}
-                      isDisabled={page === totalPages || isPending}
+                    <a
+                      href={page < totalPages ? pageHref(page + 1) : undefined}
+                      aria-disabled={page === totalPages || isPending}
+                      tabIndex={page === totalPages || isPending ? -1 : undefined}
+                      className="inline-flex min-h-9 items-center gap-1 rounded-lg px-3 text-sm font-medium text-gray-600 transition hover:bg-gray-100 aria-disabled:pointer-events-none aria-disabled:opacity-40"
                     >
                       <Pagination.PreviousIcon />
                       بعدی
-                    </Pagination.Next>
+                    </a>
                   </Pagination.Item>
                 </Pagination.Content>
               </Pagination>

@@ -11,7 +11,7 @@ import TopGames from "@/components/TopGames";
 import UpcomingGames from "@/components/UpcomingGames";
 import { getLastScrapedAt, getFeaturedUpcomingGames, listGamesPage, listPublishers } from "@/lib/games-repo";
 import { parseGameListSearchParams } from "@/lib/search-params";
-import { shouldNoIndexCatalogParams, SITE_NAME, SITE_URL } from "@/lib/seo";
+import { catalogCanonicalPath, shouldNoIndexCatalogParams, SITE_NAME, SITE_URL } from "@/lib/seo";
 
 const HOMEPAGE_UPCOMING_SLUGS = [
   "call-of-duty-modern-warfare-4",
@@ -31,9 +31,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const parsed = parseGameListSearchParams(await searchParams);
   const shouldNoIndex = shouldNoIndexCatalogParams(parsed);
+  const canonical = catalogCanonicalPath("/", parsed);
 
   return {
-    alternates: { canonical: "/" },
+    alternates: { canonical },
     ...(shouldNoIndex && {
       robots: {
         index: false,

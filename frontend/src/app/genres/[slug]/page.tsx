@@ -11,7 +11,7 @@ import { listGamesPage, listPublishers } from "@/lib/games-repo";
 import { genreBySlug, GENRES } from "@/lib/genres";
 import { toPersianDigits } from "@/lib/format";
 import { parseGameListSearchParams } from "@/lib/search-params";
-import { breadcrumbJsonLd, shouldNoIndexCatalogParams, SITE_URL } from "@/lib/seo";
+import { breadcrumbJsonLd, catalogCanonicalPath, shouldNoIndexCatalogParams, SITE_URL } from "@/lib/seo";
 
 const PAGE_SIZE = 20;
 
@@ -33,6 +33,7 @@ export async function generateMetadata({
   if (!genre) notFound();
   const parsed = parseGameListSearchParams(await searchParams);
   const shouldNoIndex = shouldNoIndexCatalogParams(parsed);
+  const canonical = catalogCanonicalPath(`/genres/${slug}`, parsed);
 
   if (!shouldNoIndex) {
     const { total } = await listGamesPage({
@@ -50,7 +51,7 @@ export async function generateMetadata({
   return {
     title,
     description,
-    alternates: { canonical: `/genres/${slug}` },
+    alternates: { canonical },
     openGraph: { title, description, url: `${SITE_URL}/genres/${slug}` },
     ...(shouldNoIndex && {
       robots: {

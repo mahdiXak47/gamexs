@@ -50,6 +50,7 @@ export interface Game {
   publisher: string | null;
   releaseYear: number | null;
   releaseDate: string | null; // ISO date string "YYYY-MM-DD"
+  lastModifiedAt: string | null; // latest relevant listing price observation
   coverInitial: string;
   coverUrl: string | null;
   mainBackgroundImageUrl: string | null;

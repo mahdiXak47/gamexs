@@ -169,3 +169,15 @@ CREATE TABLE web_vitals (
 
 CREATE INDEX idx_web_vitals_created_at ON web_vitals (created_at);
 CREATE INDEX idx_web_vitals_name ON web_vitals (name);
+
+-- Anonymous first-party pageview analytics. No cookies, user identifiers, or
+-- query strings are stored; this is intentionally a minimal privacy-friendly
+-- alternative to third-party analytics.
+CREATE TABLE site_page_views (
+    id BIGSERIAL PRIMARY KEY,
+    path TEXT NOT NULL,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+CREATE INDEX idx_site_page_views_created_at ON site_page_views (created_at DESC);
+CREATE INDEX idx_site_page_views_path_created_at ON site_page_views (path, created_at DESC);

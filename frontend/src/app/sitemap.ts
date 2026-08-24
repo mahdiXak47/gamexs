@@ -76,6 +76,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: SITE_URL, ...lastModifiedField(lastScrapedAt), changeFrequency: "hourly", priority: 1 },
     { url: `${SITE_URL}/upcoming`, ...lastModifiedField(lastScrapedAt), changeFrequency: "daily", priority: 0.7 },
     { url: `${SITE_URL}/ps-plus`, ...lastModifiedField(lastScrapedAt), changeFrequency: "daily", priority: 0.8 },
+    { url: `${SITE_URL}/guide`, ...lastModifiedField(lastScrapedAt), changeFrequency: "monthly", priority: 0.6 },
   ];
 
   const genreRoutes: MetadataRoute.Sitemap = availableGenres.map((g) => ({

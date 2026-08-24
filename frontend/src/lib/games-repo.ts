@@ -571,9 +571,16 @@ export const getGameBySlug = cache(async function getGameBySlug(slug: string): P
     main_background_image_url: string | null;
     description: string | null;
     screenshot_ids: string[] | null;
+    last_modified_at: Date | null;
   }>(
     `
-    SELECT id, slug, title, genre_label, genres, developers, publisher, release_year, release_date, cover_url, main_background_image_url, description, screenshot_ids
+    SELECT id, slug, title, genre_label, genres, developers, publisher, release_year, release_date, cover_url, main_background_image_url, description, screenshot_ids,
+           (
+             SELECT MAX(ph.scraped_at)
+             FROM listings l2
+             JOIN price_history ph ON ph.listing_id = l2.id
+             WHERE l2.game_id = ps5_games.id AND l2.is_active
+           ) AS last_modified_at
     FROM ps5_games
     WHERE slug = ANY($1::text[])
     ORDER BY array_position($1::text[], slug)
@@ -646,11 +653,71 @@ export const getGameBySlug = cache(async function getGameBySlug(slug: string): P
     mainBackgroundImageUrl: normalizeMainBackgroundImageUrl(game.main_background_image_url, game.slug),
     description: game.description,
     releaseDate: game.release_date ? game.release_date.toISOString().slice(0, 10) : null,
+    lastModifiedAt: game.last_modified_at ? game.last_modified_at.toISOString() : null,
     screenshots,
     purchaseOptions,
     details: getGameDetails(game.slug),
   };
 });
+
+export interface GameReviewSummary {
+  count: number;
+  averageRating: number;
+  reviews: Array<{
+    rating: number;
+    body: string;
+    authorName: string;
+    createdAt: string;
+  }>;
+}
+
+// Reviews are managed by Django but live in the same database. The optional
+// lookup is deliberately fail-soft so a partially migrated environment never
+// turns a game page into a 5xx response.
+export async function getGameReviewSummary(gameId: number): Promise<GameReviewSummary | null> {
+  try {
+    const aggregate = await query<{ count: string; average_rating: string | null }>(
+      `SELECT COUNT(*)::text AS count, AVG(rating)::text AS average_rating
+       FROM reviews_gamereview
+       WHERE game_id = $1 AND status = 'approved'`,
+      [gameId]
+    );
+    const count = Number(aggregate.rows[0]?.count ?? 0);
+    const averageRating = Number(aggregate.rows[0]?.average_rating ?? 0);
+    if (!count || !Number.isFinite(averageRating)) return null;
+
+    const reviews = await query<{
+      rating: number;
+      body: string;
+      author_name: string;
+      created_at: Date;
+    }>(
+      `SELECT r.rating, r.body,
+              COALESCE(NULLIF(TRIM(CONCAT(u.first_name, ' ', u.last_name)), ''), 'کاربر GameXS') AS author_name,
+              r.created_at
+       FROM reviews_gamereview r
+       LEFT JOIN accounts_user u ON u.id = r.user_id
+       WHERE r.game_id = $1 AND r.status = 'approved'
+       ORDER BY r.created_at DESC
+       LIMIT 10`,
+      [gameId]
+    );
+
+    return {
+      count,
+      averageRating,
+      reviews: reviews.rows.map((review) => ({
+        rating: review.rating,
+        body: review.body,
+        authorName: review.author_name,
+        createdAt: review.created_at.toISOString(),
+      })),
+    };
+  } catch (error) {
+    console.error("Game review schema data unavailable", error);
+    return null;
+  }
+}
 
 const UPCOMING_QUERY = `
   WITH latest AS (

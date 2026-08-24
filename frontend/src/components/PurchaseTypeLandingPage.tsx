@@ -7,7 +7,7 @@ import Header from "@/components/Header";
 import JsonLd from "@/components/JsonLd";
 import { listGamesPage } from "@/lib/games-repo";
 import { parseGameListSearchParams } from "@/lib/search-params";
-import { breadcrumbJsonLd, shouldNoIndexCatalogParams, SITE_URL } from "@/lib/seo";
+import { breadcrumbJsonLd, catalogCanonicalPath, shouldNoIndexCatalogParams, SITE_URL } from "@/lib/seo";
 import type { PurchaseTypePageDefinition } from "@/lib/purchase-type-pages";
 
 const PAGE_SIZE = 20;
@@ -110,6 +110,7 @@ export async function purchaseTypeLandingMetadata({
 }) {
   const parsed = parseGameListSearchParams(await searchParams);
   const shouldNoIndex = shouldNoIndexCatalogParams(parsed);
+  const canonical = catalogCanonicalPath(definition.path, parsed);
 
   if (!shouldNoIndex) {
     const { total } = await listGamesPage({
@@ -125,7 +126,7 @@ export async function purchaseTypeLandingMetadata({
   return {
     title: definition.title,
     description: definition.description,
-    alternates: { canonical: definition.path },
+    alternates: { canonical },
     openGraph: {
       title: definition.title,
       description: definition.description,

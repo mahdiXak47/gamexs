@@ -9,6 +9,7 @@ import AuthModal from "@/components/AuthModal";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
 import WebVitalsReporter from "@/components/WebVitalsReporter";
+import PageViewReporter from "@/components/PageViewReporter";
 import { SITE_LOGO_URL, SITE_NAME, SITE_PREVIEW_IMAGE, SITE_URL } from "@/lib/seo";
 
 const vazirmatn = Vazirmatn({
@@ -95,6 +96,7 @@ export default async function RootLayout({
     <html lang="fa" dir="rtl" className={`${vazirmatn.variable} h-full antialiased`}>
       <body suppressHydrationWarning>
         <WebVitalsReporter />
+        <PageViewReporter />
         <JsonLd data={organizationJsonLd} />
         <JsonLd data={websiteJsonLd} />
         <a href="#main-content" className="skip-link">رفتن به محتوای اصلی</a>

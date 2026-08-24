@@ -8,6 +8,7 @@ const quickLinks = [
   { label: "اکانت بازی PS5", href: "/account-games" },
   { label: "دیسک بازی PS5", href: "/disc-games" },
   { label: "اکانت ظرفیت ۲", href: "/capacity-2" },
+  { label: "راهنمای خرید", href: "/guide" },
 ]
 
 const trustLinks = [

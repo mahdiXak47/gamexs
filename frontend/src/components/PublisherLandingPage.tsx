@@ -8,7 +8,7 @@ import JsonLd from "@/components/JsonLd";
 import { getPublisherBySlug, listGamesPage } from "@/lib/games-repo";
 import { toPersianDigits } from "@/lib/format";
 import { parseGameListSearchParams } from "@/lib/search-params";
-import { breadcrumbJsonLd, shouldNoIndexCatalogParams, SITE_URL } from "@/lib/seo";
+import { breadcrumbJsonLd, catalogCanonicalPath, shouldNoIndexCatalogParams, SITE_URL } from "@/lib/seo";
 
 const PAGE_SIZE = 20;
 
@@ -117,13 +117,14 @@ export async function publisherLandingMetadata({
 
   const parsed = parseGameListSearchParams(await searchParams);
   const shouldNoIndex = shouldNoIndexCatalogParams(parsed);
+  const canonical = catalogCanonicalPath(`/publishers/${slug}`, parsed);
   const title = `بازی‌های ${publisher} برای PS5 — قیمت و مقایسه`;
   const description = `مقایسه قیمت بازی‌های ${publisher} برای PS5 بین فروشندگان ایرانی.`;
 
   return {
     title,
     description,
-    alternates: { canonical: `/publishers/${slug}` },
+    alternates: { canonical },
     openGraph: {
       title,
       description,

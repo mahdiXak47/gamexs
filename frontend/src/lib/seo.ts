@@ -8,6 +8,10 @@ export const SITE_PREVIEW_IMAGE = {
   alt: "GameXS — مقایسه قیمت بازی‌های PS5",
 };
 
+export function gameOgImageUrl(slug: string): string {
+  return `${SITE_URL}/games/${encodeURIComponent(slug)}/opengraph-image`;
+}
+
 export interface SeoFaq {
   question: string;
   answer: string;
@@ -104,6 +108,36 @@ export function psPlusFaqs(label: string): SeoFaq[] {
   ];
 }
 
+export function taxonomyFaqs(): SeoFaq[] {
+  return [
+    {
+      question: "تفاوت ظرفیت ۱، ظرفیت ۲ و ظرفیت ۳ بازی PS5 چیست؟",
+      answer:
+        "ظرفیت ۱ معمولاً برای استفاده آفلاین، ظرفیت ۲ برای استفاده آنلاین و آفلاین، و ظرفیت ۳ برای استفاده آنلاین روی اکانت اشتراکی ارائه می‌شود. شرایط دقیق هر پیشنهاد را قبل از خرید در سایت فروشنده بررسی کنید.",
+    },
+    {
+      question: "خرید دیسک بازی PS5 چه تفاوتی با اکانت بازی دارد؟",
+      answer:
+        "دیسک یک نسخه فیزیکی است که روی کنسول استفاده می‌شود؛ اکانت بازی دیجیتال است و محدودیت‌های ظرفیت، ورود و استفاده آن به شرایط فروشنده بستگی دارد.",
+    },
+    {
+      question: "خرید بازی برای اکانت خودم یعنی چه؟",
+      answer:
+        "در این نوع پیشنهاد، فروشنده ادعا می‌کند بازی روی اکانت شخصی خریدار فعال می‌شود. قبل از پرداخت، ریجن، روش فعال‌سازی و شرایط پشتیبانی فروشنده را بررسی کنید.",
+    },
+    {
+      question: "PS Plus چه نوع اشتراکی است؟",
+      answer:
+        "PS Plus یک اشتراک خدمات PlayStation است که در سطح‌های Essential، Extra و Premium عرضه می‌شود. مدت، ریجن و ظرفیت اشتراک را با توضیحات فروشنده تطبیق دهید.",
+    },
+    {
+      question: "آیا خرید از GameXS انجام می‌شود؟",
+      answer:
+        "خیر. GameXS فروشگاه نیست و پرداخت یا تحویل کالا انجام نمی‌دهد. این سایت قیمت‌ها را مقایسه می‌کند و خرید نهایی از سایت فروشنده انجام می‌شود.",
+    },
+  ];
+}
+
 export function shouldNoIndexCatalogParams({
   query,
   sort,
@@ -115,5 +149,17 @@ export function shouldNoIndexCatalogParams({
   publishers: string[];
   page: number;
 }): boolean {
-  return query.trim().length > 0 || sort !== "popular" || publishers.length > 0 || page > 1;
+  // Plain pagination is a useful, crawlable continuation of a catalog. Search,
+  // sort, and filtered variants remain noindex because they create near-duplicate
+  // URL combinations. Page 2+ gets its own canonical in each catalog route.
+  void page;
+  return query.trim().length > 0 || sort !== "popular" || publishers.length > 0;
+}
+
+export function catalogCanonicalPath(
+  basePath: string,
+  { page, query, sort, publishers }: { page: number; query: string; sort: string; publishers: string[] }
+): string {
+  if (page <= 1 || query.trim() || sort !== "popular" || publishers.length > 0) return basePath;
+  return `${basePath}${basePath.includes("?") ? "&" : "?"}page=${page}`;
 }

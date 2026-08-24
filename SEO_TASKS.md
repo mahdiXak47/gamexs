@@ -10,7 +10,8 @@
   genre, 2 PS Plus, 2 game), 64 crawled on August 22, and all checked URLs now
   return `200`. Look for DB connection exhaustion/timeouts, `502`/`504`
   responses, OOM/restarts, and deployment or migration events.
-- [ ] [P0] Add external availability monitoring for the homepage, sitemap, one
+- [ ] [P0] Schedule `ops/seo-monitor.mjs` in an external monitoring service for
+  the homepage, sitemap, one
   game, one publisher, one genre, one PS Plus tier, one purchase-type page,
   `/robots.txt`, and `/sitemap.xml`; alert on non-2xx responses and high
   latency.
@@ -90,7 +91,9 @@
 - [x] Verify `gamexs.ir` in Google Search Console, preferably with a DNS TXT record.
 - [x] Submit `https://gamexs.ir/sitemap.xml` in Google Search Console after verification.
 - [ ] Verify `gamexs.ir` in Bing Webmaster Tools.
-- [ ] Add basic pageview analytics, using GA4 or a privacy-respecting alternative.
+- [x] Add basic privacy-preserving pageview analytics. The frontend now stores
+  anonymous path/timestamp events in `site_page_views`; apply migration 024 in
+  existing environments.
 - [ ] Run Core Web Vitals / PageSpeed checks for homepage, game detail, genre, publisher, purchase-type, and search pages.
 - [ ] Validate live JSON-LD templates with Google Rich Results Test and URL Inspection after deployment.
 - [ ] Review Search Console monthly: Page indexing, sitemap coverage, 5xx/404
@@ -100,21 +103,34 @@
 
 ## Remaining Priority 2 — Content and Structured Data
 
-- [ ] Add an indexable Persian FAQ / taxonomy explainer page, for example `/راهنما`, covering account capacities, disc games, own-account purchases, and subscriptions.
-- [ ] Add `FAQPage` JSON-LD to the Persian FAQ / taxonomy explainer page only as non-critical schema; Google Search no longer shows FAQ rich results for ordinary sites.
-- [ ] Add `dateModified` to game `Product` JSON-LD, sourced from the latest relevant `price_history.scraped_at` value.
-- [ ] Add dynamic Open Graph images with Next.js `opengraph-image.tsx`, showing game cover art and lowest price where available.
-- [ ] Add an image sitemap, or image sitemap entries, for game cover art, key art, and screenshots that should be discoverable in Google Images.
+- [x] Add an indexable Persian FAQ / taxonomy explainer page at `/guide` (with
+  the Persian `/راهنما` alias), covering account capacities, disc games,
+  own-account purchases, and subscriptions.
+- [x] Add `FAQPage` JSON-LD to the Persian FAQ / taxonomy explainer page only as
+  non-critical schema; Google Search no longer shows FAQ rich results for
+  ordinary sites.
+- [x] Add `dateModified` to game `Product` JSON-LD, sourced from the latest
+  relevant `price_history.scraped_at` value.
+- [x] Add dynamic Open Graph images with Next.js `opengraph-image.tsx`, showing
+  game cover art and lowest price where available.
+- [x] Add `/image-sitemap.xml` with cover art and available screenshot entries
+  for canonical game URLs.
 - [ ] Verify the image CDN/domain in Search Console if indexed images are served from `gs3.gamexs.ir`.
-- [ ] [P2] Add `highPrice` to `AggregateOffer` only when the offer set is complete
+- [x] [P2] Add `highPrice` to `AggregateOffer` only when the offer set is complete
   and valid; add `aggregateRating`/`review` only from real, visible, approved
   user reviews. Treat these as secondary to indexation recovery.
 
 ## Remaining Priority 3 — Crawlable Discovery
 
-- [ ] Revisit `noindex` behavior for plain pagination: keep `noindex,follow` for search/filter/sort URLs, but evaluate allowing indexable self-canonical `?page=N` catalog pages.
-- [ ] Replace client-only pagination controls with crawlable `<a href>` links so Googlebot can discover paginated catalog, genre, publisher, and purchase-type pages.
-- [ ] Audit key internal navigation links to confirm important indexable pages are reachable through crawlable `<a href>` links, not only search boxes or JavaScript actions.
+- [x] Revisit `noindex` behavior for plain pagination: search/filter/sort URLs
+  remain `noindex,follow`; plain `?page=N` catalog pages are indexable with
+  a self-canonical URL.
+- [x] Replace client-only pagination controls with crawlable `<a href>` links
+  so Googlebot can discover paginated catalog, genre, publisher, and
+  purchase-type pages.
+- [x] Audit key internal navigation links and add the guide to the footer;
+  important catalog, genre, publisher, purchase-type, and trust paths use
+  crawlable links.
 
 ## Remaining Priority 4 — Product Feed
 
