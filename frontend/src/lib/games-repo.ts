@@ -250,6 +250,10 @@ export interface ListGamesOptions {
   // regardless of listing count (previous LEFT JOIN behavior). Preserved as
   // a flag rather than unified, to avoid changing either page's visible results.
   onlyWithListings?: boolean;
+  /** Restrict results to the manually curated homepage Popular list. */
+  popularOnly?: boolean;
+  /** Restrict results to games assigned to the homepage hero. */
+  heroPositionedOnly?: boolean;
 }
 
 export interface PagedGames {
@@ -273,6 +277,11 @@ export async function listGamesPage(options: ListGamesOptions = {}): Promise<Pag
     page = 1,
     pageSize = 20,
   } = options;
+  const editorialFilters = [
+    options.popularOnly ? "AND g.is_popular" : "",
+    options.heroPositionedOnly ? "AND g.hero_position IS NOT NULL" : "",
+  ].join("\n        ");
+  const orderClause = options.heroPositionedOnly ? "hero_position ASC" : SORT_CLAUSE[sort];
   const includeViewPopularity = await hasGameViewTrackingTables();
   const popularitySelect = includeViewPopularity
     ? `
@@ -311,6 +320,7 @@ export async function listGamesPage(options: ListGamesOptions = {}): Promise<Pag
         g.main_background_image_url,
         g.screenshot_ids,
         g.created_at,
+        g.hero_position,
         MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
         (ARRAY_AGG(l.product_type ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_product_type,
         (ARRAY_AGG(l.tier ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_tier,
@@ -327,6 +337,7 @@ export async function listGamesPage(options: ListGamesOptions = {}): Promise<Pag
       LEFT JOIN latest ON latest.listing_id = l.id
       ${popularityJoins}
       WHERE g.platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')
+        ${editorialFilters}
         AND ($1::text IS NULL OR g.genre_label ILIKE $1)
         AND ($2::text IS NULL OR g.title ILIKE $2 OR g.genre_label ILIKE $2)
         AND ($3::text[] IS NULL OR g.publisher = ANY($3))
@@ -337,7 +348,7 @@ export async function listGamesPage(options: ListGamesOptions = {}): Promise<Pag
     )
     SELECT *, COUNT(*) OVER() AS total_count
     FROM filtered
-    ORDER BY ${SORT_CLAUSE[sort]}
+    ORDER BY ${orderClause}
     LIMIT $4 OFFSET $5
     `,
     [
@@ -776,16 +787,12 @@ export async function listAllUpcomingGames(): Promise<UpcomingGame[]> {
   return rows.map(rowToUpcoming);
 }
 
-export async function getFeaturedUpcomingGames(slugs: string[]): Promise<UpcomingGame[]> {
-  if (!slugs.length) return [];
-  const { rows } = await query<Parameters<typeof rowToUpcoming>[0] & { slug_order: number }>(
+export async function getFeaturedUpcomingGames(limit = 6): Promise<UpcomingGame[]> {
+  const { rows } = await query<Parameters<typeof rowToUpcoming>[0]>(
     `
     WITH latest AS (
       SELECT DISTINCT ON (listing_id) listing_id, price_toman, in_stock
       FROM price_history ORDER BY listing_id, scraped_at DESC
-    ),
-    wanted AS (
-      SELECT unnest($1::text[]) AS slug, generate_subscripts($1::text[], 1) AS ord
     )
     SELECT
       g.slug, g.title, g.genre_label, g.cover_url, g.main_background_image_url, g.release_date,
@@ -796,17 +803,17 @@ export async function getFeaturedUpcomingGames(slugs: string[]): Promise<Upcomin
           AND l.product_type = 'ACCOUNT_GAME'
           AND l.tier = 'CAPACITY_2'
       ) AS capacity_2_price,
-      COUNT(DISTINCT l.seller_id) AS seller_count,
-      w.ord AS slug_order
+      COUNT(DISTINCT l.seller_id) AS seller_count
     FROM ps5_games g
-    JOIN wanted w ON w.slug = g.slug
     LEFT JOIN listings l ON l.game_id = g.id AND l.is_active
     LEFT JOIN latest ON latest.listing_id = l.id
-    WHERE g.release_date IS NOT NULL
-    GROUP BY g.id, w.ord
-    ORDER BY w.ord
+    WHERE g.release_date > CURRENT_DATE
+      AND g.preorder_hero_position IS NOT NULL
+    GROUP BY g.id
+    ORDER BY g.preorder_hero_position ASC
+    LIMIT $1
     `,
-    [slugs]
+    [limit]
   );
   return rows.map(rowToUpcoming);
 }

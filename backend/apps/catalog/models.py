@@ -1,3 +1,4 @@
+from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
 
 
@@ -11,6 +12,18 @@ class PS5Game(models.Model):
     genre_label = models.CharField(max_length=200, null=True, blank=True)
     publisher = models.CharField(max_length=200, null=True, blank=True)
     release_year = models.IntegerField(null=True, blank=True)
+    is_popular = models.BooleanField(default=False)
+    is_newest = models.BooleanField(default=False)
+    hero_position = models.PositiveSmallIntegerField(
+        null=True,
+        blank=True,
+        validators=[MinValueValidator(1), MaxValueValidator(6)],
+    )
+    preorder_hero_position = models.PositiveSmallIntegerField(
+        null=True,
+        blank=True,
+        validators=[MinValueValidator(1), MaxValueValidator(6)],
+    )
 
     class Meta:
         managed = False

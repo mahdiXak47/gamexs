@@ -37,9 +37,25 @@ CREATE TABLE ps5_games (
     edition_name TEXT,
     store_display_classification TEXT,
     price_source TEXT,
+    is_popular BOOLEAN NOT NULL DEFAULT false,
+    is_newest BOOLEAN NOT NULL DEFAULT false,
+    hero_position SMALLINT,
+    preorder_hero_position SMALLINT,
     created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+    CONSTRAINT ps5_games_hero_position_range CHECK (hero_position IS NULL OR hero_position BETWEEN 1 AND 6),
+    CONSTRAINT ps5_games_preorder_hero_position_range CHECK (
+        preorder_hero_position IS NULL OR preorder_hero_position BETWEEN 1 AND 6
+    ),
     UNIQUE (platform_id, slug)
 );
+
+CREATE UNIQUE INDEX ps5_games_hero_position_key
+    ON ps5_games (hero_position)
+    WHERE hero_position IS NOT NULL;
+
+CREATE UNIQUE INDEX ps5_games_preorder_hero_position_key
+    ON ps5_games (preorder_hero_position)
+    WHERE preorder_hero_position IS NOT NULL;
 
 -- One row per game per region's PS Store price + product URL. Region-specific
 -- because a single game can have different PS Store product URLs per region

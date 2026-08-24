@@ -205,18 +205,10 @@ function MonthGroup({ label, games }: { label: string; games: UpcomingGame[] }) 
 
 // ── Page ──────────────────────────────────────────────────────────────────────
 
-const FEATURED_SLUGS = [
-  "grand-theft-auto-vi",
-  "marvel’s-wolverine",
-  "halo-campaign-evolved",
-  "control-resonant",
-  "call-of-duty-modern-warfare-4",
-];
-
 export default async function UpcomingPage() {
   const [gamesResult, featuredGamesResult] = await Promise.allSettled([
     listAllUpcomingGames(),
-    getFeaturedUpcomingGames(FEATURED_SLUGS),
+    getFeaturedUpcomingGames(6),
   ]);
   if (gamesResult.status === "rejected") throw gamesResult.reason;
 

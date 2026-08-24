@@ -13,13 +13,6 @@ import { getLastScrapedAt, getFeaturedUpcomingGames, listGamesPage, listPublishe
 import { parseGameListSearchParams } from "@/lib/search-params";
 import { catalogCanonicalPath, shouldNoIndexCatalogParams, SITE_NAME, SITE_URL } from "@/lib/seo";
 
-const HOMEPAGE_UPCOMING_SLUGS = [
-  "call-of-duty-modern-warfare-4",
-  "grand-theft-auto-vi",
-  "control-resonant",
-  "marvels-wolverine",
-];
-
 const PAGE_SIZE = 20;
 
 export const dynamic = "force-dynamic";
@@ -51,15 +44,14 @@ export default async function Home({
 }) {
   const { query, sort, publishers, page } = parseGameListSearchParams(await searchParams);
 
-  const [{ games: topGames }, { games, total }, publishersList, lastScrapedAt, upcomingGames] = await Promise.all([
-    listGamesPage({ sort: "popular", pageSize: 10, onlyWithListings: true }),
+  const [{ games: topGames }, { games: featuredGames }, { games, total }, publishersList, lastScrapedAt, upcomingGames] = await Promise.all([
+    listGamesPage({ sort: "popular", pageSize: 10, onlyWithListings: true, popularOnly: true }),
+    listGamesPage({ sort: "popular", pageSize: 6, onlyWithListings: true, heroPositionedOnly: true }),
     listGamesPage({ query, sort, publishers, page, pageSize: PAGE_SIZE, onlyWithListings: true }),
     listPublishers(),
     getLastScrapedAt(),
-    getFeaturedUpcomingGames(HOMEPAGE_UPCOMING_SLUGS),
+    getFeaturedUpcomingGames(4),
   ]);
-
-  const featuredGames = topGames.slice(0, 5); // hero carousel
 
   // Format last updated for display
   const lastUpdated = lastScrapedAt
