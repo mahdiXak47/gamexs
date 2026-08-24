@@ -32,10 +32,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { tier: slug } = await params;
   const tierKey = SLUG_TIER[slug];
-  if (!tierKey) return {};
+  if (!tierKey) notFound();
 
   const plan = await getPsPlusPlan(tierKey);
-  if (!plan) return {};
+  if (!plan || !plan.isActive) notFound();
 
   const label = TIER_LABEL[plan.tier];
   const prices = plan.options.map((o) => o.latestPrice).filter((p): p is number => p != null);

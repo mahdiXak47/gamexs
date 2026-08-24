@@ -30,9 +30,19 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const genre = genreBySlug(slug);
-  if (!genre) return {};
+  if (!genre) notFound();
   const parsed = parseGameListSearchParams(await searchParams);
   const shouldNoIndex = shouldNoIndexCatalogParams(parsed);
+
+  if (!shouldNoIndex) {
+    const { total } = await listGamesPage({
+      genre: genre.genre,
+      page: 1,
+      pageSize: 1,
+      onlyWithListings: true,
+    });
+    if (total === 0) notFound();
+  }
 
   const title = `${genre.label} برای PS5 — قیمت و مقایسه`;
   const description = `مقایسه قیمت ${genre.label} برای PS5 بین فروشندگان معتبر ایرانی — اکانت، دیسک و اشتراک`;
@@ -62,12 +72,22 @@ export default async function GenrePage({
   const genre = genreBySlug(slug);
   if (!genre) notFound();
 
-  const { query, sort, publishers, page } = parseGameListSearchParams(await searchParams);
+  const parsed = parseGameListSearchParams(await searchParams);
+  const { query, sort, publishers, page } = parsed;
 
   const [{ games, total }, publishersList] = await Promise.all([
-    listGamesPage({ genre: genre.genre, query, sort, publishers, page, pageSize: PAGE_SIZE }),
+    listGamesPage({
+      genre: genre.genre,
+      query,
+      sort,
+      publishers,
+      page,
+      pageSize: PAGE_SIZE,
+      onlyWithListings: true,
+    }),
     listPublishers(genre.genre),
   ]);
+  if (total === 0 && !shouldNoIndexCatalogParams(parsed)) notFound();
 
   const itemListJsonLd = {
     "@context": "https://schema.org",

@@ -35,18 +35,18 @@
 - [x] [P1] Audit `noindex` and `X-Robots-Tag`: retain intentional exclusions
   for `/search`, `/account`, and genuine 404 pages, but ensure game, genre,
   publisher, PS Plus, and purchase-type pages remain indexable.
-- [ ] [P1] Process every Search Console 404 example: permanently redirect
+- [x] [P1] Process every Search Console 404 example: permanently redirect
   moved content, or keep a real `404` and remove the URL from internal links
   and the sitemap; never redirect missing pages to the homepage.
-- [ ] [P1] Review “Crawled — currently not indexed” examples in URL Inspection;
+- [x] [P1] Review “Crawled — currently not indexed” examples in URL Inspection;
   compare Google’s selected canonical with the declared canonical and improve
   or remove thin pages with no meaningful offers, descriptions, or unique value.
-- [ ] [P1] Keep `/sitemap.xml` limited to canonical, indexable, `200` URLs;
+- [x] [P1] Keep `/sitemap.xml` limited to canonical, indexable, `200` URLs;
   check for duplicates, query URLs, redirects, 404s, and stale deleted games.
-- [ ] [P1] Investigate the stale sitemap `lastmod` value (`2026-07-11` during
+- [x] [P1] Investigate the stale sitemap `lastmod` value (`2026-07-11` during
   the August issue); verify active listings update `last_seen_at` and that
   sitemap timestamps reflect real content changes.
-- [ ] [P1] Prevent `https://gs3.gamexs.ir/` from becoming an indexable page by
+- [x] [P1] Prevent `https://gs3.gamexs.ir/` from becoming an indexable page by
   making the bucket root return `403`/`404` or `X-Robots-Tag: noindex`, while
   keeping required image objects available.
 

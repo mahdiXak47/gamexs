@@ -63,7 +63,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const game = await getGameBySlug(slug);
-  if (!game) return {};
+  if (!game || storeCount(game) === 0) notFound();
 
   const price = lowestValidPrice(game);
   const stores = storeCount(game);
@@ -99,7 +99,7 @@ export async function generateMetadata({
 export default async function GamePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const game = await getGameBySlug(slug);
-  if (!game) notFound();
+  if (!game || storeCount(game) === 0) notFound();
   if (slug !== game.slug) permanentRedirect(`/games/${game.slug}`);
 
   const [storeInfoResult, gameVersionsResult, similarGamesResult, similarGamesByDeveloperResult] = await Promise.allSettled([

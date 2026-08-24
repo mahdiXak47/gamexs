@@ -22,7 +22,8 @@ export async function renderPublisherLandingPage({
   const publisher = await getPublisherBySlug(slug);
   if (!publisher) notFound();
 
-  const { query, sort, page } = parseGameListSearchParams(await searchParams);
+  const parsed = parseGameListSearchParams(await searchParams);
+  const { query, sort, page } = parsed;
   const { games, total } = await listGamesPage({
     publishers: [publisher],
     query,
@@ -31,6 +32,7 @@ export async function renderPublisherLandingPage({
     pageSize: PAGE_SIZE,
     onlyWithListings: true,
   });
+  if (total === 0 && !shouldNoIndexCatalogParams(parsed)) notFound();
 
   const title = `بازی‌های ${publisher} برای PS5`;
   const description = `مقایسه قیمت بازی‌های ${publisher} برای PS5 بین فروشندگان ایرانی.`;
@@ -111,7 +113,7 @@ export async function publisherLandingMetadata({
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 }) {
   const publisher = await getPublisherBySlug(slug);
-  if (!publisher) return {};
+  if (!publisher) notFound();
 
   const parsed = parseGameListSearchParams(await searchParams);
   const shouldNoIndex = shouldNoIndexCatalogParams(parsed);

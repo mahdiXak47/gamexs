@@ -61,13 +61,27 @@ def make_client(endpoint: str, key: str, secret: str) -> boto3.client:
 def set_bucket_public(client, bucket: str) -> None:
     policy = json.dumps({
         "Version": "2012-10-17",
-        "Statement": [{
-            "Sid": "PublicRead",
-            "Effect": "Allow",
-            "Principal": "*",
-            "Action": "s3:GetObject",
-            "Resource": f"arn:aws:s3:::{bucket}/*",
-        }],
+        "Statement": [
+            {
+                "Sid": "PublicReadObjects",
+                "Effect": "Allow",
+                "Principal": "*",
+                "Action": "s3:GetObject",
+                "Resource": f"arn:aws:s3:::{bucket}/*",
+            },
+            {
+                # A bucket-root GET is an anonymous ListBucket request. Keep
+                # object reads public for <img> and next/image, but do not
+                # expose the bucket index to crawlers. Authenticated scraper
+                # calls remain allowed by the PrincipalType condition.
+                "Sid": "DenyAnonymousBucketListing",
+                "Effect": "Deny",
+                "Principal": "*",
+                "Action": "s3:ListBucket",
+                "Resource": f"arn:aws:s3:::{bucket}",
+                "Condition": {"StringEquals": {"aws:PrincipalType": "Anonymous"}},
+            },
+        ],
     })
     try:
         client.put_bucket_policy(Bucket=bucket, Policy=policy)
@@ -210,6 +224,7 @@ def main() -> None:
     parser.add_argument("--db-url", default=os.environ.get("DATABASE_URL"))
     parser.add_argument("--upload-only", action="store_true", help="Skip DB update")
     parser.add_argument("--db-only", action="store_true", help="Skip upload, only update DB")
+    parser.add_argument("--policy-only", action="store_true", help="Apply the public-object/no-public-list policy and exit")
     args = parser.parse_args()
 
     endpoint = os.environ.get("S3_ENDPOINT_URL", "").strip()
@@ -221,6 +236,10 @@ def main() -> None:
         sys.exit("S3_ENDPOINT_URL, S3_ACCESS_KEY, S3_SECRET_KEY, S3_BUCKET must be set in .env")
 
     client = make_client(endpoint, access_key, secret_key)
+
+    if args.policy_only:
+        set_bucket_public(client, bucket)
+        return
 
     uploaded_keys: set[str] = set()
 

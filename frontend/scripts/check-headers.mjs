@@ -96,6 +96,66 @@ function assertRobotsMeta(route, html, expected) {
   }
 }
 
+async function checkSitemap() {
+  const response = await fetch(`${BASE}/sitemap.xml`);
+  assertStatus("/sitemap.xml", response, 200);
+  const xml = await response.text();
+  const locations = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
+  if (locations.length === 0) {
+    failures.push("/sitemap.xml: expected at least one <loc>");
+    return;
+  }
+
+  const uniqueLocations = new Set(locations);
+  if (uniqueLocations.size !== locations.length) {
+    failures.push(`/sitemap.xml: contains duplicate URLs (${locations.length - uniqueLocations.size})`);
+  } else {
+    console.log(`ok   /sitemap.xml -> ${locations.length} unique URLs`);
+  }
+
+  for (const location of locations) {
+    const url = new URL(location);
+    if (url.protocol !== "https:" || url.hostname !== "gamexs.ir") {
+      failures.push(`/sitemap.xml: non-canonical host or protocol in ${location}`);
+    }
+    if (url.search || url.hash || (url.pathname.length > 1 && url.pathname.endsWith("/"))) {
+      failures.push(`/sitemap.xml: query, hash, or trailing slash in ${location}`);
+    }
+    if (/\/(search|account|cart)(\/|$)/.test(url.pathname)) {
+      failures.push(`/sitemap.xml: private/noindex route included: ${location}`);
+    }
+  }
+
+  const lastModifiedValues = [...xml.matchAll(/<lastmod>([^<]+)<\/lastmod>/g)].map((match) => Date.parse(match[1]));
+  if (lastModifiedValues.some((value) => !Number.isFinite(value) || value > Date.now() + 300_000)) {
+    failures.push("/sitemap.xml: contains invalid or future lastmod values");
+  } else {
+    console.log("ok   /sitemap.xml -> lastmod values are valid and not in the future");
+  }
+
+  for (const location of locations.slice(0, 5)) {
+    const page = await fetch(location, { redirect: "manual" });
+    if (page.status !== 200) {
+      failures.push(`/sitemap.xml: ${location} returned ${page.status}`);
+    } else if (page.headers.get("x-robots-tag") !== null) {
+      failures.push(`/sitemap.xml: ${location} returned X-Robots-Tag ${page.headers.get("x-robots-tag")}`);
+    }
+  }
+}
+
+async function assertDynamicNotFound(route) {
+  const response = await fetch(`${BASE}${route}`, { redirect: "manual" });
+  if (response.status === 404) {
+    console.log(`ok   ${route} -> status 404`);
+    return;
+  }
+  if (response.status === 200) {
+    assertRobotsMeta(route, await response.text(), "noindex");
+    return;
+  }
+  failures.push(`${route}: expected 404 or streamed noindex response but got ${response.status}`);
+}
+
 async function run() {
   await waitForReady();
 
@@ -172,6 +232,17 @@ async function run() {
   const missing = await fetch(`${BASE}/this-page-does-not-exist`);
   assertStatus("genuine 404", missing, 404);
   assertRobotsMeta("genuine 404", await missing.text(), "noindex");
+
+  for (const route of [
+    "/games/definitely-not-a-real-game",
+    "/genres/not-a-real-genre",
+    "/publishers/not-a-real-publisher",
+    "/ps-plus/not-a-real-tier",
+  ]) {
+    await assertDynamicNotFound(route);
+  }
+
+  await checkSitemap();
 
   const api = await fetch(`${BASE}/api/search?q=ab`);
   assertNoHeader("/api/search", api, "content-security-policy");

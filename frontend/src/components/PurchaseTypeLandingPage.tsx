@@ -1,4 +1,5 @@
 import { Chip } from "@heroui/react";
+import { notFound } from "next/navigation";
 import Breadcrumb from "@/components/Breadcrumb";
 import Disclaimer from "@/components/Disclaimer";
 import GameGrid from "@/components/GameGrid";
@@ -18,7 +19,8 @@ export async function renderPurchaseTypeLandingPage({
   definition: PurchaseTypePageDefinition;
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 }) {
-  const { query, sort, publishers, page } = parseGameListSearchParams(await searchParams);
+  const parsed = parseGameListSearchParams(await searchParams);
+  const { query, sort, publishers, page } = parsed;
   const { games, total } = await listGamesPage({
     productType: definition.productType,
     tier: definition.tier,
@@ -29,6 +31,7 @@ export async function renderPurchaseTypeLandingPage({
     pageSize: PAGE_SIZE,
     onlyWithListings: true,
   });
+  if (total === 0 && !shouldNoIndexCatalogParams(parsed)) notFound();
 
   const collectionJsonLd = {
     "@context": "https://schema.org",
@@ -107,6 +110,17 @@ export async function purchaseTypeLandingMetadata({
 }) {
   const parsed = parseGameListSearchParams(await searchParams);
   const shouldNoIndex = shouldNoIndexCatalogParams(parsed);
+
+  if (!shouldNoIndex) {
+    const { total } = await listGamesPage({
+      productType: definition.productType,
+      tier: definition.tier,
+      page: 1,
+      pageSize: 1,
+      onlyWithListings: true,
+    });
+    if (total === 0) notFound();
+  }
 
   return {
     title: definition.title,

@@ -67,6 +67,7 @@ interface GameSummaryRow {
   store_count: string;
   purchase_type_count: string;
   created_at: Date;
+  last_seen_at?: Date | null;
 }
 
 function toOptionalPrice(value: string | null | undefined): number | null {
@@ -109,6 +110,7 @@ function rowToGameSummary(row: GameSummaryRow): GameSummary {
     storeCount: Number(row.store_count),
     purchaseTypeCount: Number(row.purchase_type_count),
     createdAt: row.created_at.getTime(),
+    ...(row.last_seen_at && { lastSeenAt: row.last_seen_at.getTime() }),
   };
 }
 
@@ -203,6 +205,7 @@ export async function listGames(): Promise<GameSummary[]> {
       g.main_background_image_url,
       g.screenshot_ids,
       g.created_at,
+      MAX(l.last_seen_at) AS last_seen_at,
       MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest_price,
       (ARRAY_AGG(l.product_type ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_product_type,
       (ARRAY_AGG(l.tier ORDER BY latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0))[1] AS lowest_tier,
@@ -365,6 +368,12 @@ export async function listPublishers(genre?: string): Promise<string[]> {
     WHERE platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')
       AND publisher IS NOT NULL
       AND ($1::text IS NULL OR genre_label ILIKE $1)
+      AND EXISTS (
+        SELECT 1
+        FROM listings active_listing
+        WHERE active_listing.game_id = ps5_games.id
+          AND active_listing.is_active
+      )
     GROUP BY publisher
     HAVING count(*) >= 2
     ORDER BY publisher

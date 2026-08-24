@@ -94,4 +94,6 @@ export interface GameSummary {
   storeCount: number;
   purchaseTypeCount: number;
   createdAt: number;
+  /** Latest active listing observation, used for sitemap lastmod only. */
+  lastSeenAt?: number;
 }

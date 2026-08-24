@@ -1,8 +1,6 @@
 import Link from "next/link";
 import Header from "@/components/Header";
 
-export const dynamic = "force-dynamic";
-
 export const metadata = {
   title: "صفحه پیدا نشد",
   robots: {
