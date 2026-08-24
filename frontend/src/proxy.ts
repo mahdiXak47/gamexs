@@ -64,6 +64,13 @@ function buildCsp(nonce: string): string {
 }
 
 export function proxy(request: NextRequest) {
+  const gameSlugMatch = request.nextUrl.pathname.match(/^\/games\/([^/]+)\/?$/);
+  if (gameSlugMatch?.[1].includes("_")) {
+    const canonicalUrl = request.nextUrl.clone();
+    canonicalUrl.pathname = `/games/${gameSlugMatch[1].replaceAll("_", "-")}`;
+    return NextResponse.redirect(canonicalUrl, 308);
+  }
+
   const nonce = Buffer.from(crypto.randomUUID()).toString("base64");
   const csp = buildCsp(nonce);
 

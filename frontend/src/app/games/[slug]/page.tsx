@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import Image from "next/image";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { Chip } from "@heroui/react";
 import Breadcrumb from "@/components/Breadcrumb";
 import CoverArt from "@/components/CoverArt";
@@ -79,11 +79,11 @@ export async function generateMetadata({
     title,
     description,
     keywords: game.details?.keywords,
-    alternates: { canonical: `/games/${slug}` },
+    alternates: { canonical: `/games/${game.slug}` },
     openGraph: {
       title,
       description,
-      url: `${SITE_URL}/games/${slug}`,
+      url: `${SITE_URL}/games/${game.slug}`,
       type: "website",
       images: image ? [{ url: image }] : undefined,
     },
@@ -100,6 +100,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const game = await getGameBySlug(slug);
   if (!game) notFound();
+  if (slug !== game.slug) permanentRedirect(`/games/${game.slug}`);
 
   const [storeInfoResult, gameVersionsResult, similarGamesResult, similarGamesByDeveloperResult] = await Promise.allSettled([
     getGameStoreInfo(game.dbId),

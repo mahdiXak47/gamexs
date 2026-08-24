@@ -40,20 +40,6 @@
 - Audit remaining special-edition rows that have no `igdb_id` and verify their
   edition labels are correct (Legacy Edition, Collector Edition, etc.).
 
-## SEO (pending)
-
-- **Verification & measurement (no code):** verify `gamexs.ir` in Google Search
-  Console and Bing Webmaster Tools; add analytics (GA4 or a privacy-friendly
-  alternative) — there is currently no pageview tracking.
-- **Content additions:** FAQ/taxonomy page (`/راهنما`) with `FAQPage` schema;
-  `BreadcrumbList` JSON-LD on game/genre pages; `dateModified` in the `Product`
-  JSON-LD sourced from `price_history.scraped_at`; dynamic OG images
-  (`opengraph-image.tsx`) showing cover + lowest price.
-- **Bigger bet:** Google Merchant Center product feed (needs its own scoping
-  conversation before implementation).
-- **Ongoing / no-code:** Persian community/directory presence; monthly
-  `site:gamexs.ir` + a few "قیمت [بازی] برای PS5" LLM-citation checks.
-
 ## Legal and trust
 
 - Apply for and integrate the Enamad (اینماد) e-trust certificate (badge code
@@ -91,4 +77,3 @@
 
 
 - covering gift card prices and update them 
-- 
