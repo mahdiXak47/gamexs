@@ -47,8 +47,26 @@ const privateCacheHeaders = [
   },
 ];
 
+const noIndexFollowHeaders = [
+  {
+    key: "X-Robots-Tag",
+    value: "noindex, follow",
+  },
+];
+
+const noIndexNoFollowHeaders = [
+  {
+    key: "X-Robots-Tag",
+    value: "noindex, nofollow",
+  },
+];
+
 const nextConfig: NextConfig = {
   output: "standalone",
+  // Let proxy() normalize trailing slashes together with host and legacy slug
+  // variants so Google sees one permanent redirect instead of a redirect chain.
+  skipTrailingSlashRedirect: true,
+  skipProxyUrlNormalize: true,
   experimental: {
     webVitalsAttribution: ["CLS", "LCP", "INP"],
   },
@@ -110,7 +128,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/search",
-        headers: publicCatalogCacheHeaders,
+        headers: [...publicCatalogCacheHeaders, ...noIndexFollowHeaders],
       },
       {
         source: "/upcoming",
@@ -157,12 +175,20 @@ const nextConfig: NextConfig = {
         headers: staticPageCacheHeaders,
       },
       {
+        source: "/account",
+        headers: [...privateCacheHeaders, ...noIndexNoFollowHeaders],
+      },
+      {
         source: "/account/:path*",
-        headers: privateCacheHeaders,
+        headers: [...privateCacheHeaders, ...noIndexNoFollowHeaders],
+      },
+      {
+        source: "/cart",
+        headers: [...privateCacheHeaders, ...noIndexNoFollowHeaders],
       },
       {
         source: "/cart/:path*",
-        headers: privateCacheHeaders,
+        headers: [...privateCacheHeaders, ...noIndexNoFollowHeaders],
       },
     ];
   },

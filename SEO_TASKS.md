@@ -30,9 +30,9 @@
 - [x] [P1] Redirect hyphen/underscore game-slug aliases to the database slug
   with a permanent redirect; build canonical and Open Graph URLs from
   `game.slug`, not the requested slug.
-- [ ] [P1] Enforce one HTTPS, non-`www`, non-trailing-slash URL format and test
+- [x] [P1] Enforce one HTTPS, non-`www`, non-trailing-slash URL format and test
   HTTP, `www`, trailing-slash, query, and old-slug variants.
-- [ ] [P1] Audit `noindex` and `X-Robots-Tag`: retain intentional exclusions
+- [x] [P1] Audit `noindex` and `X-Robots-Tag`: retain intentional exclusions
   for `/search`, `/account`, and genuine 404 pages, but ensure game, genre,
   publisher, PS Plus, and purchase-type pages remain indexable.
 - [ ] [P1] Process every Search Console 404 example: permanently redirect

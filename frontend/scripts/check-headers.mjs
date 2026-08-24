@@ -17,7 +17,7 @@ const READY_TIMEOUT_MS = 90_000;
 const failures = [];
 const child = spawn(
   "node_modules/.bin/next",
-  ["start", "-p", PORT],
+  ["start", "-H", "127.0.0.1", "-p", PORT],
   {
     env: { ...process.env, PORT },
     stdio: ["ignore", "pipe", "pipe"],
@@ -68,6 +68,34 @@ function assertNoHeader(route, res, name) {
   }
 }
 
+function assertStatus(route, res, expected) {
+  if (res.status !== expected) {
+    failures.push(`${route}: expected status ${expected} but got ${res.status}`);
+  } else {
+    console.log(`ok   ${route} -> status ${expected}`);
+  }
+}
+
+function assertLocation(route, res, expected) {
+  const location = res.headers.get("location");
+  const actual = location ? new URL(location, BASE).href : null;
+  const expectedUrl = new URL(expected, BASE).href;
+  if (actual !== expectedUrl) {
+    failures.push(`${route}: expected Location ${expectedUrl} but got ${JSON.stringify(location)}`);
+  } else {
+    console.log(`ok   ${route} -> Location: ${actual}`);
+  }
+}
+
+function assertRobotsMeta(route, html, expected) {
+  const robotsMeta = html.match(/<meta[^>]+name=["']robots["'][^>]+>/i)?.[0] ?? "";
+  if (!robotsMeta.toLowerCase().includes(expected.toLowerCase())) {
+    failures.push(`${route}: expected robots metadata to include ${JSON.stringify(expected)} but got ${JSON.stringify(robotsMeta)}`);
+  } else {
+    console.log(`ok   ${route} -> robots metadata includes ${expected}`);
+  }
+}
+
 async function run() {
   await waitForReady();
 
@@ -91,12 +119,59 @@ async function run() {
   const about = await fetch(`${BASE}/about`);
   assertHeader("/about", about, "cache-control", "public");
 
+  const httpVariant = await fetch(`${BASE}/about`, {
+    redirect: "manual",
+    headers: { "x-forwarded-host": "gamexs.ir", "x-forwarded-proto": "http" },
+  });
+  assertStatus("HTTP /about", httpVariant, 308);
+  assertLocation("HTTP /about", httpVariant, "https://gamexs.ir/about");
+
+  const wwwVariant = await fetch(`${BASE}/about`, {
+    redirect: "manual",
+    headers: { "x-forwarded-host": "www.gamexs.ir", "x-forwarded-proto": "https" },
+  });
+  assertStatus("www /about", wwwVariant, 308);
+  assertLocation("www /about", wwwVariant, "https://gamexs.ir/about");
+
+  const trailingSlash = await fetch(`${BASE}/about/`, { redirect: "manual" });
+  assertStatus("trailing slash /about/", trailingSlash, 308);
+  assertLocation("trailing slash /about/", trailingSlash, "/about");
+
+  const oldSlug = await fetch(`${BASE}/games/clair_obscur_expedition_33/?ref=legacy`, {
+    redirect: "manual",
+  });
+  assertStatus("old game slug", oldSlug, 308);
+  assertLocation("old game slug", oldSlug, "/games/clair-obscur-expedition-33?ref=legacy");
+
   const game = await fetch(`${BASE}/games/some-game`);
   assertHeader("/games/:slug", game, "cache-control", "s-maxage=300");
+  assertNoHeader("/games/:slug", game, "x-robots-tag");
+
+  for (const route of [
+    "/genres/action",
+    "/publishers/sony",
+    "/ps-plus",
+    "/account-games",
+    "/disc-games",
+    "/own-account-games",
+    "/capacity-1",
+  ]) {
+    const response = await fetch(`${BASE}${route}`);
+    assertNoHeader(route, response, "x-robots-tag");
+  }
+
+  const search = await fetch(`${BASE}/search`);
+  assertHeader("/search", search, "x-robots-tag", "noindex, follow", { exact: true });
+  assertRobotsMeta("/search", await search.text(), "noindex");
 
   const account = await fetch(`${BASE}/account`);
   assertHeader("/account", account, "cache-control", "private, no-store", { exact: true });
   assertHeader("/account", account, "cache-control", "no-store");
+  assertHeader("/account", account, "x-robots-tag", "noindex, nofollow", { exact: true });
+
+  const missing = await fetch(`${BASE}/this-page-does-not-exist`);
+  assertStatus("genuine 404", missing, 404);
+  assertRobotsMeta("genuine 404", await missing.text(), "noindex");
 
   const api = await fetch(`${BASE}/api/search?q=ab`);
   assertNoHeader("/api/search", api, "content-security-policy");

@@ -21,6 +21,23 @@ const webVitalsEndpointOrigin = process.env.NEXT_PUBLIC_WEB_VITALS_ENDPOINT
   ? new URL(process.env.NEXT_PUBLIC_WEB_VITALS_ENDPOINT).origin
   : null;
 
+const CANONICAL_HOSTNAME = "gamexs.ir";
+
+function firstForwardedValue(value: string | null): string | null {
+  return value?.split(",", 1)[0]?.trim() || null;
+}
+
+function canonicalPathname(pathname: string): string {
+  const pathWithoutTrailingSlash = pathname.length > 1 ? pathname.replace(/\/+$/, "") : pathname;
+  const gameSlugMatch = pathWithoutTrailingSlash.match(/^\/games\/([^/]+)$/);
+
+  if (gameSlugMatch?.[1].includes("_")) {
+    return `/games/${gameSlugMatch[1].replaceAll("_", "-")}`;
+  }
+
+  return pathWithoutTrailingSlash;
+}
+
 // Shared so the layout can build the same connect-src allowlist if needed.
 export const SPA_CONNECT_SOURCES = Array.from(
   new Set(
@@ -64,10 +81,27 @@ function buildCsp(nonce: string): string {
 }
 
 export function proxy(request: NextRequest) {
-  const gameSlugMatch = request.nextUrl.pathname.match(/^\/games\/([^/]+)\/?$/);
-  if (gameSlugMatch?.[1].includes("_")) {
-    const canonicalUrl = request.nextUrl.clone();
-    canonicalUrl.pathname = `/games/${gameSlugMatch[1].replaceAll("_", "-")}`;
+  const forwardedHost = firstForwardedValue(request.headers.get("x-forwarded-host"));
+  const hostHeader = forwardedHost ?? request.headers.get("host") ?? request.nextUrl.host;
+  const hostname = hostHeader.split(":", 1)[0].toLowerCase();
+  const forwardedProtocol = firstForwardedValue(request.headers.get("x-forwarded-proto"));
+  const protocol = (forwardedProtocol ?? request.nextUrl.protocol.replace(":", "")).toLowerCase();
+  const isPublicHostname = hostname === CANONICAL_HOSTNAME || hostname === `www.${CANONICAL_HOSTNAME}`;
+  const pathname = canonicalPathname(request.nextUrl.pathname);
+  const needsCanonicalHost = isPublicHostname &&
+    (hostname !== CANONICAL_HOSTNAME || protocol !== "https");
+  const needsCanonicalPath = pathname !== request.nextUrl.pathname;
+
+  if (needsCanonicalHost || needsCanonicalPath) {
+    // Use the standard URL implementation here instead of NextURL: NextURL
+    // preserves the incoming trailing-slash flag when it formats `href`.
+    const canonicalUrl = new URL(request.url);
+    if (isPublicHostname) {
+      canonicalUrl.protocol = "https:";
+      canonicalUrl.hostname = CANONICAL_HOSTNAME;
+      canonicalUrl.port = "";
+    }
+    canonicalUrl.pathname = pathname;
     return NextResponse.redirect(canonicalUrl, 308);
   }
 
