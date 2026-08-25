@@ -4,6 +4,26 @@ from .base import *  # noqa: F401, F403
 
 DEBUG = False
 
+# Gunicorn already records access logs, but Django's default production
+# logging sends request exceptions to email only. Keep admin/API tracebacks in
+# the container logs so 500s can be diagnosed from Kubernetes.
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+        },
+    },
+    "loggers": {
+        "django.request": {
+            "handlers": ["console"],
+            "level": "ERROR",
+            "propagate": False,
+        },
+    },
+}
+
 CORS_ALLOWED_ORIGINS = config(
     "CORS_ALLOWED_ORIGINS",
     default="https://gamexs.ir",
