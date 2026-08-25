@@ -1,5 +1,6 @@
-from django.contrib import admin
 from django import forms
+from django.contrib import admin
+from django.forms.models import BaseModelFormSet
 
 from .models import PS5Game, Seller
 
@@ -19,6 +20,30 @@ class PS5GameAdminForm(forms.ModelForm):
         return cleaned_data
 
 
+class PS5GameFormSet(BaseModelFormSet):
+    """Validate positions across all rows submitted by list_editable."""
+
+    def clean(self):
+        super().clean()
+        if any(self.errors):
+            return
+
+        for field_name in ("hero_position", "preorder_hero_position"):
+            seen = {}
+            for form in self.forms:
+                position = form.cleaned_data.get(field_name)
+                if position is None:
+                    continue
+                previous_form = seen.get(position)
+                if previous_form is not None:
+                    form.add_error(
+                        field_name,
+                        f"Position {position} is assigned more than once in this submission.",
+                    )
+                else:
+                    seen[position] = form
+
+
 @admin.register(PS5Game)
 class PS5GameAdmin(admin.ModelAdmin):
     form = PS5GameAdminForm
@@ -34,6 +59,10 @@ class PS5GameAdmin(admin.ModelAdmin):
     list_filter = ("is_popular", "is_newest")
     search_fields = ("title", "slug")
     ordering = ("title",)
+
+    def get_changelist_formset(self, request, **kwargs):
+        """Use cross-row validation for list_editable submissions."""
+        return super().get_changelist_formset(request, formset=PS5GameFormSet, **kwargs)
 
 
 @admin.register(Seller)
