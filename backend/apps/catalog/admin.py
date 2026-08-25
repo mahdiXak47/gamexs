@@ -5,6 +5,12 @@ from django.forms.models import BaseModelFormSet
 from .models import PS5Game, Seller
 
 
+POSITION_FIELD_LABELS = {
+    "hero_position": "Hero UI position",
+    "preorder_hero_position": "Preorder hero UI position",
+}
+
+
 class PS5GameAdminForm(forms.ModelForm):
     class Meta:
         model = PS5Game
@@ -15,8 +21,18 @@ class PS5GameAdminForm(forms.ModelForm):
         queryset = PS5Game.objects.exclude(pk=self.instance.pk)
         for field_name in ("hero_position", "preorder_hero_position"):
             position = cleaned_data.get(field_name)
-            if position is not None and queryset.filter(**{field_name: position}).exists():
-                self.add_error(field_name, f"Position {position} is already assigned to another game.")
+            if position is None:
+                continue
+
+            existing_game = queryset.filter(**{field_name: position}).first()
+            if existing_game is not None:
+                label = POSITION_FIELD_LABELS[field_name]
+                self.add_error(
+                    field_name,
+                    f"{label} {position} is already used by \"{existing_game.title}\". "
+                    f"Remove {position} from that game and save it first, then assign "
+                    f"{position} to this game.",
+                )
         return cleaned_data
 
 
@@ -36,9 +52,11 @@ class PS5GameFormSet(BaseModelFormSet):
                     continue
                 previous_form = seen.get(position)
                 if previous_form is not None:
+                    label = POSITION_FIELD_LABELS[field_name]
                     form.add_error(
                         field_name,
-                        f"Position {position} is assigned more than once in this submission.",
+                        f"{label} {position} is entered more than once in this edit. "
+                        f"Remove {position} from one of the games, then save again.",
                     )
                 else:
                     seen[position] = form
@@ -59,6 +77,11 @@ class PS5GameAdmin(admin.ModelAdmin):
     list_filter = ("is_popular", "is_newest")
     search_fields = ("title", "slug")
     ordering = ("title",)
+
+    def get_changelist_form(self, request, **kwargs):
+        """Use the position-validating form for list_editable rows."""
+        kwargs.setdefault("form", self.form)
+        return super().get_changelist_form(request, **kwargs)
 
     def get_changelist_formset(self, request, **kwargs):
         """Use cross-row validation for list_editable submissions."""
