@@ -28,18 +28,24 @@ class PS5Game(models.Model):
     class Meta:
         managed = False
         db_table = "ps5_games"
+        verbose_name = "PS5 game"
+        verbose_name_plural = "PS5 games"
 
     def __str__(self):
         return self.title
 
 
 class Seller(models.Model):
+    slug = models.CharField(max_length=200)
     name = models.CharField(max_length=200)
     domain = models.CharField(max_length=200)
+    is_active = models.BooleanField(default=True)
 
     class Meta:
         managed = False
         db_table = "sellers"
+        verbose_name = "Game shop"
+        verbose_name_plural = "Game shops"
 
     def __str__(self):
         return self.name

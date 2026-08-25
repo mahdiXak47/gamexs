@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django import forms
 
-from .models import PS5Game
+from .models import PS5Game, Seller
 
 
 class PS5GameAdminForm(forms.ModelForm):
@@ -34,3 +34,12 @@ class PS5GameAdmin(admin.ModelAdmin):
     list_filter = ("is_popular", "is_newest")
     search_fields = ("title", "slug")
     ordering = ("title",)
+
+
+@admin.register(Seller)
+class SellerAdmin(admin.ModelAdmin):
+    list_display = ("name", "slug", "domain", "is_active")
+    list_editable = ("is_active",)
+    list_filter = ("is_active",)
+    search_fields = ("name", "slug", "domain")
+    ordering = ("name",)
