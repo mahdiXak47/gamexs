@@ -80,16 +80,22 @@ class SearchReview:
     result_count: int
 
 
-def load_missing_games(conn: psycopg.Connection) -> list[MissingGame]:
-    rows = conn.execute(
-        """
+def load_missing_games(
+    conn: psycopg.Connection,
+    game_ids: list[int] | None = None,
+) -> list[MissingGame]:
+    query = """
         SELECT g.id, g.title, g.slug, g.igdb_id
         FROM ps5_games g
         WHERE g.concept_id IS NULL
           AND g.igdb_id IS NOT NULL
-        ORDER BY g.title
-        """
-    ).fetchall()
+    """
+    params: tuple[object, ...] = ()
+    if game_ids:
+        query += " AND g.id = ANY(%s::int[])"
+        params = (game_ids,)
+    query += " ORDER BY g.title"
+    rows = conn.execute(query, params).fetchall()
     return [MissingGame(int(r[0]), r[1], r[2], int(r[3])) for r in rows]
 
 
@@ -312,6 +318,13 @@ def main() -> None:
     parser.add_argument("--apply", action="store_true", help="Upsert accepted rows into the per-region PS Store tables.")
     parser.add_argument("--workers", type=int, default=4)
     parser.add_argument("--limit", type=int, default=None)
+    parser.add_argument(
+        "--game-id",
+        dest="game_ids",
+        action="append",
+        type=int,
+        help="Only resolve this ps5_games id (repeat for multiple games)",
+    )
     parser.add_argument("--timeout", type=int, default=20)
     parser.add_argument("--delay", type=float, default=0.15)
     parser.add_argument(
@@ -333,7 +346,7 @@ def main() -> None:
     })
 
     with psycopg.connect(args.db_url, connect_timeout=10, autocommit=False) as conn:
-        missing = load_missing_games(conn)
+        missing = load_missing_games(conn, args.game_ids)
         existing_concepts = load_existing_concepts(conn)
         existing_products = load_existing_products(conn)
         if args.limit:

@@ -150,13 +150,20 @@ def _igdb_request(headers: dict, query: bytes) -> list:
     return []
 
 
-def load_db_igdb_ids(database_url: str) -> list[tuple[str, int, int]]:
+def load_db_igdb_ids(
+    database_url: str,
+    game_ids: list[int] | None = None,
+) -> list[tuple[str, int, int]]:
     """Return (title, igdb_id, game_id) for every ps5_games row that has an igdb_id."""
     with psycopg.connect(database_url, connect_timeout=10) as conn:
         with conn.cursor() as cur:
-            cur.execute(
-                "SELECT title, igdb_id, id FROM ps5_games WHERE igdb_id IS NOT NULL ORDER BY title"
-            )
+            query = "SELECT title, igdb_id, id FROM ps5_games WHERE igdb_id IS NOT NULL"
+            params: tuple[object, ...] = ()
+            if game_ids:
+                query += " AND id = ANY(%s::int[])"
+                params = (game_ids,)
+            query += " ORDER BY title"
+            cur.execute(query, params)
             return [(row[0], row[1], row[2]) for row in cur.fetchall()]
 
 
@@ -467,6 +474,13 @@ def main() -> None:
     parser.add_argument("-o", "--output", default=None, help="Optional CSV output path")
     parser.add_argument("--limit", type=int, default=None, help="Max number of games to fetch")
     parser.add_argument("--workers", type=int, default=4, help="Concurrent PS Store fetches (default: 4)")
+    parser.add_argument(
+        "--game-id",
+        dest="game_ids",
+        action="append",
+        type=int,
+        help="Only refresh this ps5_games id (repeat for multiple games)",
+    )
     parser.add_argument("--log-file", default=None, help="Also write logs to this file")
     parser.add_argument("--db-url", default=None, help="Postgres connection string (fallback: DATABASE_URL env var)")
     args = parser.parse_args()
@@ -487,7 +501,7 @@ def main() -> None:
         sys.exit("ERROR: provide --db-url or set DATABASE_URL env var")
 
     log.info("Loading igdb_ids from ps5_games table...")
-    db_games = load_db_igdb_ids(database_url)
+    db_games = load_db_igdb_ids(database_url, args.game_ids)
     log.info("Found %d games with igdb_id in the database.", len(db_games))
 
     if not db_games:

@@ -1,5 +1,9 @@
 """Post-scrape DB maintenance: mark stale listings inactive, drop orphaned games.
 
+IGDB-imported catalog rows are retained even before a seller lists them. The
+add_game command records those rows in ps5_game_aliases, which acts as the
+explicit catalog-retention marker.
+
 Designed to run at the end of the daily scrape pipeline (see scrape_all.sh).
 Idempotent — re-running is safe.
 
@@ -41,6 +45,11 @@ def cleanup_stale_listings(database_url: str, stale_days: int = 3) -> dict:
             """
             DELETE FROM ps5_games
             WHERE id NOT IN (SELECT DISTINCT game_id FROM listings WHERE is_active)
+              AND NOT EXISTS (
+                  SELECT 1
+                  FROM ps5_game_aliases a
+                  WHERE a.game_id = ps5_games.id
+              )
             """
         )
         orphans = cur.rowcount

@@ -81,6 +81,38 @@ def get_or_create_game(
     return cur.fetchone()[0]
 
 
+def update_game_cover(
+    cur: psycopg.Cursor,
+    game_id: int,
+    cover_url: str | None,
+    trusted_cover: bool,
+) -> None:
+    """Apply the same cover precedence as a newly created game row."""
+    if not cover_url:
+        return
+    if trusted_cover:
+        cur.execute("UPDATE ps5_games SET cover_url = %s WHERE id = %s", (cover_url, game_id))
+    else:
+        cur.execute(
+            "UPDATE ps5_games SET cover_url = COALESCE(cover_url, %s) WHERE id = %s",
+            (cover_url, game_id),
+        )
+
+
+def find_alias_game_id(cur: psycopg.Cursor, platform_id: int, normalized_name: str) -> int | None:
+    """Return the canonical game id for an exact imported catalog alias."""
+    cur.execute(
+        """
+        SELECT game_id
+        FROM ps5_game_aliases
+        WHERE platform_id = %s AND normalized_name = %s
+        """,
+        (platform_id, normalized_name),
+    )
+    row = cur.fetchone()
+    return row[0] if row else None
+
+
 def upsert_listing(
     cur: psycopg.Cursor, game_id: int, seller_id: int, product_type: str, tier: str | None, source_url: str
 ) -> int:
@@ -124,25 +156,32 @@ def load_offers(
             print(f"\nskipping offer with empty slug: {offer.raw_title!r}", file=sys.stderr)
             continue
 
-        # Reuse an existing slug for known games so changing slug policy never
-        # creates duplicate rows on re-scrape. Hyphenated slugs are canonical,
-        # but a few production rows may already use the older underscore form.
-        slug_candidates = [legacy_slug, legacy_slug.replace("-", "_")]
-        cur.execute(
-            """
-            SELECT slug
-            FROM ps5_games
-            WHERE platform_id = %s AND slug = ANY(%s::text[])
-            ORDER BY array_position(%s::text[], slug)
-            LIMIT 1
-            """,
-            (platform_id, slug_candidates, slug_candidates),
-        )
-        existing = cur.fetchone()
-        slug = existing[0] if existing else new_game_slug(normalized)
+        # Prefer explicit IGDB-backed aliases. This is what maps seller titles
+        # such as "FC 27" to an imported canonical "EA Sports FC 27" row.
+        game_id = find_alias_game_id(cur, platform_id, normalized)
+        if game_id is not None:
+            update_game_cover(cur, game_id, offer.image_url, trusted_cover)
+            games_seen.add(game_id)
+        else:
+            # Reuse an existing slug for known games so changing slug policy never
+            # creates duplicate rows on re-scrape. Hyphenated slugs are canonical,
+            # but a few production rows may already use the older underscore form.
+            slug_candidates = [legacy_slug, legacy_slug.replace("-", "_")]
+            cur.execute(
+                """
+                SELECT slug
+                FROM ps5_games
+                WHERE platform_id = %s AND slug = ANY(%s::text[])
+                ORDER BY array_position(%s::text[], slug)
+                LIMIT 1
+                """,
+                (platform_id, slug_candidates, slug_candidates),
+            )
+            existing = cur.fetchone()
+            slug = existing[0] if existing else new_game_slug(normalized)
 
-        game_id = get_or_create_game(cur, platform_id, slug, clean_title(offer.raw_title), offer.image_url, trusted_cover)
-        games_seen.add(game_id)
+            game_id = get_or_create_game(cur, platform_id, slug, clean_title(offer.raw_title), offer.image_url, trusted_cover)
+            games_seen.add(game_id)
 
         tier = offer.tier.value.upper() if offer.tier else None
         listing_id = upsert_listing(cur, game_id, seller_id, offer.product_type.value.upper(), tier, offer.source_url)

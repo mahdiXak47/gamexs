@@ -140,6 +140,37 @@ smoke test of an adapter or a way to eyeball prices without a full load.
 .venv/bin/python -m gamexs_scraper.log_prices gpgaming
 ```
 
+### 7. Add a new PS5 game from IGDB edition links
+
+Use one IGDB URL per catalog edition. The command fetches the canonical IGDB
+metadata, creates seller-title aliases, and immediately refreshes US/TR PS
+Store prices and PS Plus flags for the imported rows. It is safe to run again
+with the same URLs.
+
+Set both database URLs in the environment. The importer creates the small
+alias table if needed; migration 026 is still included for normal schema
+deployment/version tracking.
+
+```bash
+LOCAL_DATABASE_URL=postgresql://gamexs:gamexs@localhost:5434/gamexs \
+PRODUCTION_DATABASE_URL=postgresql://... \
+.venv/bin/python add_game.py \
+  https://www.igdb.com/games/ea-sports-fc-27 \
+  https://www.igdb.com/games/ea-sports-fc-27-ultimate-edition \
+  https://www.igdb.com/games/ea-sports-fc-27-ultimate-plus-edition
+```
+
+The same values can be passed as `--local-db-url` and
+`--production-db-url`. The command downloads each imported cover, screenshot,
+and main background artwork once, uploads them to S3, and writes the S3 URLs
+into both databases. It also refreshes PS Store data in both databases.
+
+The daily `scrape_all.sh` job will then match seller offers through the stored
+aliases and include these rows in every normal IGDB, PS Store, S3, and cleanup
+run. Imported rows are retained by cleanup even before a seller has published
+an offer. Add `--skip-psstore` only when the official-store refresh should be
+run separately.
+
 ---
 
 ## Full pipeline for one seller (end-to-end)

@@ -33,6 +33,7 @@ COPY gamexs_scraper/ gamexs_scraper/
 COPY scrape_all.sh .
 COPY fetch_psstore_prices.py .
 COPY upload_to_s3.py .
+COPY add_game.py download_artworks.py resolve_missing_psstore_concepts.py psstore_search.py .
 
 # Output directory for CSVs, JSONL caches, and cover images.
 # Mount a volume here in production so data persists across runs.
