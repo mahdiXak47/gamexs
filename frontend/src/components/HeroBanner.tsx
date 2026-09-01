@@ -128,7 +128,7 @@ export default function HeroBanner({
 
   return (
     <section
-      className="relative min-h-dvh overflow-hidden bg-[#07101f] text-white"
+      className="homepage-hero relative overflow-hidden bg-[#07101f] text-white"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
       onTouchStart={() => setPaused(true)}
@@ -144,7 +144,7 @@ export default function HeroBanner({
             alt=""
             fill
             sizes="100vw"
-            className="hero-background-exit object-cover object-center"
+            className="hero-background-exit object-cover object-top"
           />
         )}
         {backgroundUrl ? (
@@ -154,7 +154,7 @@ export default function HeroBanner({
             alt=""
             fill
             sizes="100vw"
-            className="hero-background-enter object-cover object-center"
+            className="hero-background-enter object-cover object-top"
             priority
           />
         ) : (
@@ -164,7 +164,7 @@ export default function HeroBanner({
         <div className="absolute inset-0 bg-[linear-gradient(0deg,rgba(3,7,18,0.96)_0%,rgba(3,7,18,0.42)_34%,rgba(3,7,18,0.12)_100%)]" />
       </div>
 
-      <div className="relative z-10 mx-auto flex min-h-dvh max-w-7xl flex-col justify-between px-4 pb-5 pt-20 sm:px-6 lg:justify-end">
+      <div className="homepage-hero relative z-10 mx-auto flex max-w-7xl flex-col justify-between px-4 pb-5 pt-20 sm:px-6 lg:justify-end">
         <div
           key={current}
           className="mb-8 flex flex-col gap-5 sm:mb-10 lg:mb-12 lg:flex-row lg:items-end lg:justify-between lg:gap-8"
@@ -186,7 +186,7 @@ export default function HeroBanner({
               )}
             </div>
 
-            <h2 dir="auto" className="mb-5 text-right text-3xl font-black leading-tight drop-shadow-2xl sm:text-5xl lg:text-6xl">
+            <h2 dir="auto" className="mb-5 text-right text-3xl font-black leading-tight drop-shadow-2xl sm:text-5xl lg:text-5xl">
               {game.title}
             </h2>
 
@@ -219,7 +219,7 @@ export default function HeroBanner({
         {games.length > 1 && (
           <div className="flex items-center" dir="ltr">
             <div
-              className="hide-scrollbar grid min-w-0 flex-1 auto-cols-[112px] grid-flow-col gap-3 overflow-x-auto pb-1 sm:auto-cols-[132px] md:auto-cols-[148px]"
+              className="hide-scrollbar grid min-w-0 flex-1 auto-cols-[112px] grid-flow-col gap-3 overflow-x-auto pb-1 sm:auto-cols-[132px] md:auto-cols-[136px]"
               role="tablist"
               aria-label="انتخاب بازی ویژه"
             >

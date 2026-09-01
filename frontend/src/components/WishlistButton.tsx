@@ -7,7 +7,7 @@ import { api } from '@/lib/api'
 
 const PENDING_KEY = 'gx_pending_wishlist'
 
-export default function WishlistButton({ gameId }: { gameId: number }) {
+export default function WishlistButton({ gameId, variant = 'default' }: { gameId: number; variant?: 'default' | 'overlay' }) {
   const { user, openAuthModal } = useAuth()
   const toast = useToast()
   const [added, setAdded]     = useState(false)
@@ -145,6 +145,9 @@ export default function WishlistButton({ gameId }: { gameId: number }) {
   }
 
   const isBusy = loading || checking
+  const overlayButtonClass = added
+    ? 'bg-ps-plus-gold border-ps-plus-gold text-gray-950 hover:bg-ps-plus-gold-hover'
+    : 'bg-black/45 hover:bg-ps-blue hover:border-ps-plus-gold'
   const buttonLabel = checkFailed
     ? 'تلاش دوباره برای بررسی علاقه‌مندی'
     : added
@@ -165,7 +168,9 @@ export default function WishlistButton({ gameId }: { gameId: number }) {
         className={`flex items-center justify-center w-9 h-9 rounded-full backdrop-blur-sm border text-white transition-all duration-150 cursor-pointer disabled:opacity-60 active:scale-90 ${
           checkFailed
             ? 'bg-red-500/50 hover:bg-red-500/70 border-red-200/50'
-            : 'bg-black/30 hover:bg-black/50 border-white/25'
+            : variant === 'overlay'
+              ? `${overlayButtonClass} border-white/25`
+              : 'bg-black/30 hover:bg-black/50 border-white/25'
         }`}
       >
         {isBusy ? (

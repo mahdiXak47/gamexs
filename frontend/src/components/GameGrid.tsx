@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useState, useTransition } from "react";
+import { useRef } from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Button, Pagination, SearchField } from "@heroui/react";
 import GameCard from "./GameCard";
@@ -109,6 +111,8 @@ export default function GameGrid({
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
   const [queryInput, setQueryInput] = useState(query);
+  const didMount = useRef(false);
+  const selectedPublishersKey = selectedPublishers.join(",");
 
   // Keep the input in sync when navigation changes `query` externally
   // (e.g. browser back/forward), without fighting the user's own typing.
@@ -129,6 +133,14 @@ export default function GameGrid({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [queryInput]);
 
+  useEffect(() => {
+    if (!didMount.current) {
+      didMount.current = true;
+      return;
+    }
+    document.getElementById("main-content")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, [page, query, sort, selectedPublishersKey]);
+
   function updateParams(patch: Record<string, string | null>) {
     const params = new URLSearchParams();
     if (query) params.set("q", query);
@@ -143,7 +155,7 @@ export default function GameGrid({
 
     const qs = params.toString();
     startTransition(() => {
-      router.push(qs ? `${basePath}?${qs}` : basePath);
+      router.push(qs ? `${basePath}?${qs}` : basePath, { scroll: false });
     });
   }
 
@@ -173,7 +185,7 @@ export default function GameGrid({
 
   return (
     <>
-      <div className="mt-6 w-full min-w-0 sm:max-w-xl">
+      <div className="w-full min-w-0 sm:max-w-2xl">
         <SearchField.Root
           value={queryInput}
           onChange={setQueryInput}
@@ -232,15 +244,17 @@ export default function GameGrid({
         <div className="relative" aria-busy={isPending}>
           <div
             key={`${basePath}-${query}-${sort}-${page}-${selectedPublishers.join("|")}`}
-            className={`mt-6 grid min-w-0 grid-cols-[repeat(2,minmax(0,1fr))] gap-3 transition-opacity duration-150 sm:gap-5 md:grid-cols-[repeat(3,minmax(0,1fr))] lg:grid-cols-[repeat(4,minmax(0,1fr))] ${
+            className={`mt-6 grid min-w-0 grid-cols-[repeat(2,minmax(0,1fr))] gap-3 transition-opacity duration-150 sm:gap-4 md:grid-cols-[repeat(3,minmax(0,1fr))] lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-7 ${
               isPending ? "opacity-55" : "opacity-100"
             }`}
+            dir="ltr"
           >
             {games.map((game, i) => (
               <div
                 key={game.slug}
                 className="ui-stagger-card h-full min-w-0"
                 style={{ animationDelay: `${Math.min(i, 11) * 28}ms` }}
+                dir="rtl"
               >
                 <GameCard
                   game={game}
@@ -255,15 +269,16 @@ export default function GameGrid({
               <Pagination aria-label="صفحه‌بندی بازی‌ها">
                 <Pagination.Content>
                   <Pagination.Item>
-                    <a
-                      href={page > 1 ? pageHref(page - 1) : undefined}
+                    <Link
+                      href={pageHref(Math.max(1, page - 1))}
+                      scroll={false}
                       aria-disabled={page === 1 || isPending}
                       tabIndex={page === 1 || isPending ? -1 : undefined}
                       className="inline-flex min-h-9 items-center gap-1 rounded-lg px-3 text-sm font-medium text-gray-600 transition hover:bg-gray-100 aria-disabled:pointer-events-none aria-disabled:opacity-40"
                     >
                       قبلی
                       <Pagination.NextIcon />
-                    </a>
+                    </Link>
                   </Pagination.Item>
 
                   {pageNumbers.map((num, idx) =>
@@ -273,29 +288,31 @@ export default function GameGrid({
                       </Pagination.Item>
                     ) : (
                       <Pagination.Item key={num}>
-                        <a
+                        <Link
                           href={pageHref(num)}
+                          scroll={false}
                           aria-current={num === page ? "page" : undefined}
                           aria-disabled={isPending}
                           tabIndex={isPending ? -1 : undefined}
                           className={`inline-flex h-9 min-w-9 items-center justify-center rounded-lg px-2 text-sm font-bold transition hover:bg-blue-50 hover:text-ps-blue aria-disabled:pointer-events-none aria-disabled:opacity-40 ${num === page ? "bg-ps-blue text-white hover:bg-ps-blue hover:text-white" : "text-gray-600"}`}
                         >
                           {toPersianDigits(num)}
-                        </a>
+                        </Link>
                       </Pagination.Item>
                     )
                   )}
 
                   <Pagination.Item>
-                    <a
-                      href={page < totalPages ? pageHref(page + 1) : undefined}
+                    <Link
+                      href={pageHref(Math.min(totalPages, page + 1))}
+                      scroll={false}
                       aria-disabled={page === totalPages || isPending}
                       tabIndex={page === totalPages || isPending ? -1 : undefined}
                       className="inline-flex min-h-9 items-center gap-1 rounded-lg px-3 text-sm font-medium text-gray-600 transition hover:bg-gray-100 aria-disabled:pointer-events-none aria-disabled:opacity-40"
                     >
                       <Pagination.PreviousIcon />
                       بعدی
-                    </a>
+                    </Link>
                   </Pagination.Item>
                 </Pagination.Content>
               </Pagination>

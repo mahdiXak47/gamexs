@@ -13,7 +13,7 @@ import { getLastScrapedAt, getFeaturedUpcomingGames, listGamesPage, listPublishe
 import { parseGameListSearchParams } from "@/lib/search-params";
 import { catalogCanonicalPath, shouldNoIndexCatalogParams, SITE_NAME, SITE_URL } from "@/lib/seo";
 
-const PAGE_SIZE = 20;
+const PAGE_SIZE = 21;
 
 export const dynamic = "force-dynamic";
 
@@ -44,8 +44,9 @@ export default async function Home({
 }) {
   const { query, sort, publishers, page } = parseGameListSearchParams(await searchParams);
 
-  const [{ games: topGames }, { games: featuredGames }, { games, total }, publishersList, lastScrapedAt, upcomingGames] = await Promise.all([
+  const [{ games: topGames }, { games: newestGames }, { games: featuredGames }, { games, total }, publishersList, lastScrapedAt, upcomingGames] = await Promise.all([
     listGamesPage({ sort: "popular", pageSize: 10, onlyWithListings: true, popularOnly: true }),
+    listGamesPage({ sort: "newest", pageSize: 10, onlyWithListings: true }),
     listGamesPage({ sort: "popular", pageSize: 6, onlyWithListings: true, heroPositionedOnly: true }),
     listGamesPage({ query, sort, publishers, page, pageSize: PAGE_SIZE, onlyWithListings: true }),
     listPublishers(),
@@ -100,6 +101,14 @@ export default async function Home({
       {/* Top 10 Trending */}
       <TopGames games={topGames} />
 
+      {/* Recently added to the catalog */}
+      <TopGames
+        games={newestGames}
+        heading="جدیدترین بازی‌ها"
+        headingId="newest-games-heading"
+        viewAllHref="/?sort=newest"
+      />
+
       {/* Upcoming / Pre-order */}
       <UpcomingGames games={upcomingGames} />
 
@@ -111,32 +120,40 @@ export default async function Home({
       </div>
 
       {/* Full Games Catalog */}
-      <main id="main-content" className="mx-auto w-full min-w-0 max-w-7xl flex-1 px-4 py-8 sm:px-6">
-        <div className="flex flex-wrap items-center gap-3 mb-2">
-          <h1 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">
-            همه بازی‌ها
-          </h1>
-          <Chip variant="soft" color="accent" size="sm">PS5</Chip>
+      <main id="main-content" className="mx-auto w-full min-w-0 max-w-[1840px] flex-1 px-4 py-10 sm:px-6 2xl:px-8" dir="rtl">
+        <div className="mb-7 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <div className="flex items-center gap-3">
+              <span className="h-6 w-1 rounded-full bg-ps-plus-gold" aria-hidden />
+              <h1 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
+                همه بازی‌ها
+              </h1>
+              <Chip variant="soft" color="accent" size="sm">PS5</Chip>
+            </div>
+            <p className="mt-2 text-sm text-gray-500">
+              مقایسه قیمت در فروشندگان معتبر ایران
+            </p>
+          </div>
+          {lastUpdated && (
+            <p className="w-fit rounded-full border border-gray-200 bg-white px-3 py-1.5 text-xs font-medium text-gray-400 shadow-sm">
+              آخرین به‌روزرسانی: {lastUpdated}
+            </p>
+          )}
         </div>
-        <p className="text-sm text-gray-500 mb-1">
-          مقایسه قیمت در فروشندگان معتبر ایران
-        </p>
-        {lastUpdated && (
-          <p className="text-xs text-gray-400 mb-6">
-            آخرین به‌روزرسانی: {lastUpdated}
-          </p>
-        )}
-        <GameGrid
-          games={games}
-          total={total}
-          page={page}
-          pageSize={PAGE_SIZE}
-          sort={sort}
-          query={query}
-          selectedPublishers={publishers}
-          publishersList={publishersList}
-          basePath="/"
-        />
+
+        <div className="rounded-3xl border border-gray-200/80 bg-white/70 p-3 shadow-[0_18px_45px_rgba(0,48,135,0.06)] sm:p-5">
+          <GameGrid
+            games={games}
+            total={total}
+            page={page}
+            pageSize={PAGE_SIZE}
+            sort={sort}
+            query={query}
+            selectedPublishers={publishers}
+            publishersList={publishersList}
+            basePath="/"
+          />
+        </div>
       </main>
 
       <Disclaimer />

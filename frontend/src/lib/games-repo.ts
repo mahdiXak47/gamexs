@@ -49,9 +49,11 @@ function deriveInitial(title: string): string {
 }
 
 interface GameSummaryRow {
+  db_id?: number;
   slug: string;
   title: string;
   genre_label: string | null;
+  release_year?: number | null;
   publisher: string | null;
   cover_url: string | null;
   main_background_image_url: string | null;
@@ -94,9 +96,11 @@ function firstS3ScreenshotUrl(screenshotIds: string[] | null): string | null {
 
 function rowToGameSummary(row: GameSummaryRow): GameSummary {
   return {
+    ...(row.db_id != null && { dbId: row.db_id }),
     slug: row.slug,
     title: row.title,
     genreLabel: row.genre_label,
+    releaseYear: row.release_year ?? null,
     publisher: row.publisher,
     coverInitial: deriveInitial(row.title),
     coverUrl: toCoverUrl(row.cover_url, row.slug),
@@ -197,9 +201,11 @@ export async function listGames(): Promise<GameSummary[]> {
   const { rows } = await query<GameSummaryRow>(`
     ${LATEST_PRICE_CTE}
     SELECT
+      g.id AS db_id,
       g.slug,
       g.title,
       g.genre_label,
+      g.release_year,
       g.publisher,
       g.cover_url,
       g.main_background_image_url,
@@ -312,9 +318,11 @@ export async function listGamesPage(options: ListGamesOptions = {}): Promise<Pag
     ${LATEST_PRICE_CTE}
     , filtered AS (
       SELECT
+        g.id AS db_id,
         g.slug,
         g.title,
         g.genre_label,
+        g.release_year,
         g.publisher,
         g.cover_url,
         g.main_background_image_url,

@@ -81,9 +81,11 @@ export interface HeroPriceOption {
 // Lighter shape for the grid — stats are precomputed in SQL rather than
 // derived client-side from a full purchaseOptions array.
 export interface GameSummary {
+  dbId?: number;
   slug: string;
   title: string;
   genreLabel: string | null;
+  releaseYear?: number | null;
   publisher: string | null;
   coverInitial: string;
   coverUrl: string | null;

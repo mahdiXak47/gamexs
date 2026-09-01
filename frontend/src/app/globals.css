@@ -7,6 +7,8 @@
   --color-ps-blue-hover: #0050b3;
   --color-ps-blue-light: #e8f0fb;
   --color-ps-plus-gold: #f6b829;
+  --color-ps-plus-gold-hover: #ffd35a;
+  --color-ps-night: #07101f;
   --color-page-bg: #f0f4f8;
 }
 
@@ -21,6 +23,11 @@ body {
   display: flex;
   flex-direction: column;
   font-family: var(--font-sans);
+}
+
+/* Keep the homepage hero substantial without making it consume the whole viewport. */
+.homepage-hero {
+  min-height: clamp(34rem, 72dvh, 44rem);
 }
 
 ::selection {

@@ -1,91 +1,96 @@
-import Link from "next/link";
 import Image from "next/image";
-import { formatToman } from "@/lib/format";
+import Link from "next/link";
+import { toPersianDigits } from "@/lib/format";
 import type { GameSummary } from "@/lib/types";
+import TopGameActions from "./TopGameActions";
 
-function TrendingIcon() {
+function TopGameCard({ game, rank }: { game: GameSummary; rank: number }) {
   return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-      <polyline points="23 6 13.5 15.5 8.5 10.5 1 18" />
-      <polyline points="17 6 23 6 23 12" />
-    </svg>
+    <article className="group min-w-[145px] max-w-[178px] flex-1 snap-start" dir="rtl">
+      <div className="relative aspect-[2/3] overflow-hidden rounded-[13px] border border-white/10 bg-ps-night shadow-[0_12px_28px_rgba(0,0,0,0.3)]">
+        <Link
+          href={`/games/${game.slug}`}
+          className="absolute inset-0 z-0 rounded-[13px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-plus-gold focus-visible:ring-offset-2 focus-visible:ring-offset-page-bg"
+          aria-label={`مشاهده ${game.title}`}
+        >
+          {game.coverUrl ? (
+            <Image
+              src={game.coverUrl}
+              alt={game.title}
+              fill
+              sizes="(max-width: 640px) 145px, (max-width: 1280px) 16vw, 178px"
+              className="object-cover transition duration-300 ease-out group-hover:scale-[1.045]"
+              loading="lazy"
+            />
+          ) : (
+            <div className="flex h-full items-center justify-center bg-gradient-to-br from-ps-blue to-ps-night text-3xl font-black text-white/45">
+              {game.coverInitial}
+            </div>
+          )}
+          <span className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/5 to-black/20 opacity-75 transition-opacity duration-200 group-hover:opacity-100" />
+        </Link>
+
+        <div className="pointer-events-none absolute inset-x-2 top-2 z-10 flex items-center justify-between gap-2 text-[10px] font-black">
+          <span className="rounded-full bg-black/65 px-2 py-1 text-white/90 backdrop-blur-sm">
+            #{toPersianDigits(rank)}
+          </span>
+          <span className="rounded-full bg-ps-plus-gold px-2.5 py-1 text-gray-950 shadow-sm">
+            PS5
+          </span>
+        </div>
+
+        {game.dbId != null && <TopGameActions gameId={game.dbId} />}
+      </div>
+
+      <Link
+        href={`/games/${game.slug}`}
+        className="mt-2 block rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-plus-gold focus-visible:ring-offset-2 focus-visible:ring-offset-page-bg"
+      >
+        <p dir="auto" className="truncate text-sm font-extrabold text-gray-900">
+          {game.title}
+        </p>
+        <p className="mt-1 truncate text-[11px] font-medium text-gray-500">
+          {game.genreLabel ?? "بازی PS5"}
+          {game.releaseYear ? ` · ${toPersianDigits(game.releaseYear)}` : ""}
+        </p>
+      </Link>
+    </article>
   );
 }
 
-export default function TopGames({ games }: { games: GameSummary[] }) {
+export default function TopGames({
+  games,
+  heading = "محبوب‌ترین بازی‌ها",
+  headingId = "top-games-heading",
+  viewAllHref = "/?sort=popular",
+}: {
+  games: GameSummary[];
+  heading?: string;
+  headingId?: string;
+  viewAllHref?: string;
+}) {
   if (games.length === 0) return null;
 
   return (
-    <section className="py-10 px-4 sm:px-6" aria-labelledby="top-games-heading">
-      <div className="mx-auto max-w-7xl">
-        {/* Section header */}
-        <div className="flex items-center gap-3 mb-6">
-          <div className="flex items-center gap-2 text-ps-blue">
-            <TrendingIcon />
-          </div>
-          <h2 id="top-games-heading" className="text-xl font-extrabold text-gray-900">
-            محبوب‌ترین بازی‌ها
+    <section className="overflow-hidden bg-page-bg py-7 text-gray-900 sm:py-8" aria-labelledby={headingId} dir="rtl">
+      <div className="mx-auto max-w-[1840px] px-4 sm:px-6 2xl:px-8">
+        <div className="mb-5 flex items-center gap-3">
+          <span className="h-5 w-1 rounded-full bg-ps-plus-gold" aria-hidden />
+          <h2 id={headingId} className="text-xl font-extrabold tracking-tight text-gray-900 sm:text-2xl">
+            {heading}
           </h2>
-          <div className="flex-1 h-px bg-gradient-to-l from-transparent to-ps-blue/20" />
-          <Link href="/" className="text-sm text-ps-blue font-medium hover:underline shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue rounded">
+          <div className="h-px flex-1 bg-ps-blue/15" aria-hidden />
+          <Link
+            href={viewAllHref}
+            className="shrink-0 rounded-md text-sm font-bold text-ps-blue transition-colors hover:text-ps-blue-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue focus-visible:ring-offset-2 focus-visible:ring-offset-page-bg"
+          >
             مشاهده همه
           </Link>
         </div>
 
-        {/* Horizontal scroll on mobile, wrap on desktop */}
-        <div className="hide-scrollbar flex gap-4 overflow-x-auto pb-3 snap-x snap-mandatory md:grid md:grid-cols-5 md:overflow-visible md:pb-0">
+        <div className="hide-scrollbar flex gap-3 overflow-x-auto pb-1 snap-x snap-mandatory lg:gap-4" dir="ltr">
           {games.slice(0, 10).map((game, index) => (
-            <Link
-              key={game.slug}
-              href={`/games/${game.slug}`}
-              className="group relative shrink-0 w-36 md:w-auto snap-start rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ps-blue focus-visible:ring-offset-2"
-            >
-              <div className="game-card-3d relative rounded-xl overflow-hidden bg-white shadow-md ring-1 ring-black/5">
-                {/* Rank number */}
-                <div className="absolute top-1 right-2 z-10">
-                  <span className="rank-number" aria-label={`رتبه ${index + 1}`} style={{ fontSize: '3.5rem' }}>
-                    {index + 1}
-                  </span>
-                </div>
-
-                {/* Cover */}
-                <div className="relative aspect-[3/4] bg-gray-100">
-                  {game.coverUrl ? (
-                    <Image
-                      src={game.coverUrl}
-                      alt={game.title}
-                      fill
-                      className="object-cover transition-transform duration-300 ease-out group-hover:scale-105"
-                      loading="lazy"
-                    />
-                  ) : (
-                    <div className="w-full h-full flex items-center justify-center text-2xl font-bold text-gray-400">
-                      {game.coverInitial}
-                    </div>
-                  )}
-                </div>
-
-                {/* Info */}
-                <div className="p-2.5">
-                  <p dir="auto" className="text-right text-xs font-bold text-gray-900 line-clamp-2 leading-snug mb-1">{game.title}</p>
-                  {game.lowestPriceToman !== null ? (
-                    <>
-                      <p className="price-figure text-xs font-extrabold text-ps-blue">
-                        {formatToman(game.lowestPriceToman)}
-                        <span className="font-normal text-gray-400 text-[10px] mr-0.5">ت</span>
-                      </p>
-                      {game.lowestPriceLabel && (
-                        <p className="mt-0.5 text-[10px] font-medium text-gray-400">
-                          به شکل {game.lowestPriceLabel}
-                        </p>
-                      )}
-                    </>
-                  ) : (
-                    <p className="text-xs text-gray-400">—</p>
-                  )}
-                </div>
-              </div>
-            </Link>
+            <TopGameCard key={game.slug} game={game} rank={index + 1} />
           ))}
         </div>
       </div>
