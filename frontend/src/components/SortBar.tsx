@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { Fragment, useEffect, useRef, useState, type ReactNode } from "react";
 import { Button } from "@heroui/react";
 import type { SortOption } from "@/lib/types";
 
@@ -27,10 +27,12 @@ export default function SortBar({
   value,
   onChange,
   isDisabled = false,
+  publisherFilter,
 }: {
   value: SortOption;
   onChange: (v: SortOption) => void;
   isDisabled?: boolean;
+  publisherFilter?: ReactNode;
 }) {
   const [open, setOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -99,16 +101,18 @@ export default function SortBar({
 
       <div className="hidden w-full max-w-full min-w-0 gap-2 pb-1 sm:flex sm:flex-wrap sm:overflow-visible sm:pb-0">
         {OPTIONS.map((option) => (
-          <Button
-            key={option.value}
-            variant={value === option.value ? "secondary" : "ghost"}
-            size="sm"
-            onPress={() => onChange(option.value)}
-            className="shrink-0 transition-transform duration-150 active:scale-[0.97]"
-            isDisabled={isDisabled}
-          >
-            {option.label}
-          </Button>
+          <Fragment key={option.value}>
+            <Button
+              variant={value === option.value ? "secondary" : "ghost"}
+              size="sm"
+              onPress={() => onChange(option.value)}
+              className="shrink-0 transition-transform duration-150 active:scale-[0.97]"
+              isDisabled={isDisabled}
+            >
+              {option.label}
+            </Button>
+            {option.value === "alpha_desc" && publisherFilter}
+          </Fragment>
         ))}
       </div>
     </>

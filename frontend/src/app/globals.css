@@ -12,10 +12,6 @@
   --color-page-bg: #f0f4f8;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   background: var(--color-page-bg, #f0f4f8);
   color: var(--foreground);

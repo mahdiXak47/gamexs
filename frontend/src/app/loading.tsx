@@ -22,10 +22,6 @@ export default function Loading() {
         <Skeleton className="mt-3 h-4 w-96 max-w-full rounded" />
       </div>
 
-      <div className="loading-stagger-item mt-6 h-10 w-full max-w-xl rounded-xl" style={{ animationDelay: "40ms" }}>
-        <Skeleton className="h-full w-full rounded-xl" />
-      </div>
-
       <div className="loading-stagger-item mt-4 flex justify-between" style={{ animationDelay: "80ms" }}>
         <div className="flex gap-2">
           {[...Array(4)].map((_, i) => (
@@ -35,7 +31,7 @@ export default function Loading() {
         <Skeleton className="h-4 w-32 rounded" />
       </div>
 
-      <div className="mt-6 grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-4">
+      <div className="mt-6 grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-7">
         {[...Array(8)].map((_, i) => (
           <div
             key={i}

@@ -1,10 +1,10 @@
 "use client";
 
-import { useEffect, useState, useTransition } from "react";
+import { useEffect, useTransition } from "react";
 import { useRef } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { Button, Pagination, SearchField } from "@heroui/react";
+import { Button, Pagination } from "@heroui/react";
 import GameCard from "./GameCard";
 import PublisherFilter from "./PublisherFilter";
 import SortBar from "./SortBar";
@@ -110,28 +110,8 @@ export default function GameGrid({
 }) {
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
-  const [queryInput, setQueryInput] = useState(query);
   const didMount = useRef(false);
   const selectedPublishersKey = selectedPublishers.join(",");
-
-  // Keep the input in sync when navigation changes `query` externally
-  // (e.g. browser back/forward), without fighting the user's own typing.
-  // Adjusting state during render (not in an effect) avoids the
-  // react-hooks/set-state-in-effect warning.
-  const [prevQuery, setPrevQuery] = useState(query);
-  if (query !== prevQuery) {
-    setPrevQuery(query);
-    setQueryInput(query);
-  }
-
-  // Debounce search text before pushing a new URL (each change is a real
-  // server round-trip now, unlike the old client-side-only filtering).
-  useEffect(() => {
-    if (queryInput === query) return;
-    const t = setTimeout(() => updateParams({ q: queryInput || null, page: null }), 350);
-    return () => clearTimeout(t);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [queryInput]);
 
   useEffect(() => {
     if (!didMount.current) {
@@ -162,10 +142,7 @@ export default function GameGrid({
   const setSort = (s: SortOption) => updateParams({ sort: s === "popular" ? null : s, page: null });
   const setSelectedPublishers = (pubs: Set<string>) =>
     updateParams({ publisher: pubs.size > 0 ? [...pubs].join(",") : null, page: null });
-  const clearAll = () => {
-    setQueryInput("");
-    updateParams({ q: null, publisher: null, page: null });
-  };
+  const clearAll = () => updateParams({ q: null, publisher: null, page: null });
 
   const totalPages = Math.max(1, Math.ceil(total / pageSize));
   const pageNumbers = getPageNumbers(page, totalPages);
@@ -185,36 +162,34 @@ export default function GameGrid({
 
   return (
     <>
-      <div className="w-full min-w-0 sm:max-w-2xl">
-        <SearchField.Root
-          value={queryInput}
-          onChange={setQueryInput}
-          aria-label="جستجوی بازی"
-          fullWidth
-          isDisabled={isPending}
-        >
-          <SearchField.Group>
-            <SearchField.SearchIcon />
-            <SearchField.Input placeholder="جستجوی بازی…" />
-            <SearchField.ClearButton />
-          </SearchField.Group>
-        </SearchField.Root>
-      </div>
-
       <div className="sr-only" role="status" aria-live="polite">
         {isPending ? "در حال به‌روزرسانی نتایج" : ""}
       </div>
 
       <div className="mt-4 flex min-w-0 flex-wrap items-center justify-between gap-3">
         <div className="flex min-w-0 flex-1 flex-wrap items-center gap-2">
-          <SortBar value={sort} onChange={setSort} isDisabled={isPending} />
+          <SortBar
+            value={sort}
+            onChange={setSort}
+            isDisabled={isPending}
+            publisherFilter={publishersList.length > 0 ? (
+              <PublisherFilter
+                publishers={publishersList}
+                selected={selectedSet}
+                onChange={setSelectedPublishers}
+                isDisabled={isPending}
+              />
+            ) : undefined}
+          />
           {publishersList.length > 0 && (
-            <PublisherFilter
-              publishers={publishersList}
-              selected={selectedSet}
-              onChange={setSelectedPublishers}
-              isDisabled={isPending}
-            />
+            <div className="sm:hidden">
+              <PublisherFilter
+                publishers={publishersList}
+                selected={selectedSet}
+                onChange={setSelectedPublishers}
+                isDisabled={isPending}
+              />
+            </div>
           )}
         </div>
         {total > 0 && (
@@ -244,7 +219,7 @@ export default function GameGrid({
         <div className="relative" aria-busy={isPending}>
           <div
             key={`${basePath}-${query}-${sort}-${page}-${selectedPublishers.join("|")}`}
-            className={`mt-6 grid min-w-0 grid-cols-[repeat(2,minmax(0,1fr))] gap-3 transition-opacity duration-150 sm:gap-4 md:grid-cols-[repeat(3,minmax(0,1fr))] lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-7 ${
+            className={`mt-6 grid min-w-0 grid-cols-[repeat(2,minmax(0,1fr))] gap-3 transition-opacity duration-150 sm:gap-4 md:grid-cols-[repeat(3,minmax(0,1fr))] lg:grid-cols-5 xl:grid-cols-7 ${
               isPending ? "opacity-55" : "opacity-100"
             }`}
             dir="ltr"

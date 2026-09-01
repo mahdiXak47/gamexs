@@ -49,7 +49,7 @@ function TopGameCard({ game, rank }: { game: GameSummary; rank: number }) {
         <p dir="auto" className="truncate text-sm font-extrabold text-gray-900">
           {game.title}
         </p>
-        <p className="mt-1 truncate text-[11px] font-medium text-gray-500">
+        <p dir="ltr" className="mt-1 truncate text-[11px] font-medium text-gray-500">
           {game.genreLabel ?? "بازی PS5"}
           {game.releaseYear ? ` · ${toPersianDigits(game.releaseYear)}` : ""}
         </p>

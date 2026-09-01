@@ -43,7 +43,7 @@ export default function GameCard({ game, isBestPrice = false }: { game: GameSumm
               </span>
               <span className="text-[10px] text-gray-400">تومان</span>
             </div>
-            <p className="mt-0.5 line-clamp-2 text-center text-[10px] leading-4 text-gray-400">
+            <p dir="ltr" className="mt-0.5 line-clamp-2 text-center text-[10px] leading-4 text-gray-400">
               {game.lowestPriceLabel && game.lowestPriceToman !== null
                 ? `به شکل ${game.lowestPriceLabel} · `
                 : ""}
