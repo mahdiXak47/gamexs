@@ -110,14 +110,12 @@ export default function GameGrid({
 }) {
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
-  const didMount = useRef(false);
+  const scrollAfterCatalogUpdate = useRef(false);
   const selectedPublishersKey = selectedPublishers.join(",");
 
   useEffect(() => {
-    if (!didMount.current) {
-      didMount.current = true;
-      return;
-    }
+    if (!scrollAfterCatalogUpdate.current) return;
+    scrollAfterCatalogUpdate.current = false;
     document.getElementById("main-content")?.scrollIntoView({ behavior: "smooth", block: "start" });
   }, [page, query, sort, selectedPublishersKey]);
 
@@ -134,6 +132,9 @@ export default function GameGrid({
     }
 
     const qs = params.toString();
+    if (qs !== new URLSearchParams(window.location.search).toString()) {
+      scrollAfterCatalogUpdate.current = true;
+    }
     startTransition(() => {
       router.push(qs ? `${basePath}?${qs}` : basePath, { scroll: false });
     });

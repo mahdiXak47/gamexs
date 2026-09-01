@@ -97,7 +97,7 @@ export default function Header() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2.5 sm:px-6">
 
           {/* Logo */}
-          <Link href="/" className="flex shrink-0 items-center transition-opacity duration-200 hover:opacity-90 active:scale-[0.98]" aria-label="GameXS — صفحه اصلی">
+          <Link href="/" scroll className="flex shrink-0 items-center transition-opacity duration-200 hover:opacity-90 active:scale-[0.98]" aria-label="GameXS — صفحه اصلی">
             <Image src="/logos/logo2.png" alt="GameXS" width={1024} height={1024} className="h-11 w-auto" priority />
           </Link>
 
