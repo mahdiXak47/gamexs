@@ -17,8 +17,10 @@ import os
 import re
 import subprocess
 import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
 from pathlib import Path
+from urllib.parse import unquote
 
 import psycopg
 import requests
@@ -52,7 +54,9 @@ from gamexs_scraper.download_igdb_images import (
     download_file,
 )
 from gamexs_scraper.game_aliases import alias_candidates
-from gamexs_scraper.load_to_postgres import url_slugify
+from gamexs_scraper.load_to_postgres import load_offers, url_slugify
+from gamexs_scraper.adapters import ADAPTERS
+from gamexs_scraper.models import ProductType, RawOffer
 from gamexs_scraper.normalize import clean_title, normalize_game_name
 from upload_to_s3 import (
     COVERS_DIR,
@@ -70,6 +74,32 @@ _IGDB_URL_RE = re.compile(
     re.IGNORECASE,
 )
 _PS5_PLATFORM_ID = 167
+
+# Keep the interactive seller prompt useful without making a network request
+# just to discover each shop's homepage. These match db/init/02_seed.sql.
+SELLER_WEBSITES = {
+    "pspro": "https://pspro.ir",
+    "yungcenter": "https://yungcenter.com",
+    "nakhlmarket": "https://nakhlmarket.com",
+    "technolife": "https://www.technolife.com",
+    "persianconsole": "https://persianconsole.ir",
+    "gameplayshop": "https://gameplayshop.ir",
+    "digikala": "https://www.digikala.com",
+    "parsconsole": "https://parsconsole.com",
+    "gameonestore": "https://gameonestore.com",
+    "xgamesstore": "https://xgamesstore.org",
+    "gamecenter": "https://game-center.ir",
+    "gamario": "https://gamario.com",
+    "cdkeyshare": "https://www.cdkeyshare.ir",
+    "dragonshop": "https://dragon-shop.ir",
+    "doctorgame": "https://doctor-game.ir",
+    "hajigame": "https://hajigame.ir",
+    "gameaccess": "https://gameaccess.ir",
+    "clockstore1": "https://clockstore1.ir",
+    "gamepulse": "https://www.game-pulse.ir",
+    "gpgaming": "https://gpgaming.ir",
+    "gamestore": "https://game-store.org",
+}
 
 _ALIAS_SCHEMA_SQL = """
 CREATE TABLE IF NOT EXISTS ps5_game_aliases (
@@ -247,17 +277,7 @@ def refresh_psstore(database_url: str, game_ids: list[int], workers: int) -> Non
     command = [sys.executable, str(script), "--db-url", database_url, "--workers", str(workers)]
     for game_id in game_ids:
         command.extend(["--game-id", str(game_id)])
-    try:
-        subprocess.run(command, check=True)
-    except subprocess.CalledProcessError as exc:
-        if exc.returncode == 2:
-            print(
-                "WARNING: PlayStation Store edition search was unavailable; "
-                "continuing with imported games and S3 media sync.",
-                file=sys.stderr,
-            )
-        else:
-            raise
+    subprocess.run(command, check=True)
 
     # IGDB often links only the family concept for a game. Search the official
     # Store for the imported edition titles so Ultimate/Deluxe rows can receive
@@ -275,7 +295,17 @@ def refresh_psstore(database_url: str, game_ids: list[int], workers: int) -> Non
     ]
     for game_id in game_ids:
         command.extend(["--game-id", str(game_id)])
-    subprocess.run(command, check=True)
+    try:
+        subprocess.run(command, check=True)
+    except subprocess.CalledProcessError as exc:
+        if exc.returncode == 2:
+            print(
+                "WARNING: PlayStation Store edition search was unavailable; "
+                "continuing with imported games and S3 media sync.",
+                file=sys.stderr,
+            )
+        else:
+            raise
 
 
 def _require_s3_config() -> tuple[str, str, str, str]:
@@ -362,6 +392,160 @@ def sync_assets(
             update_main_background_images(database_url, background_updates)
 
 
+def filter_target_offers(offers: list[RawOffer], target_aliases: set[str]) -> list[RawOffer]:
+    """Keep only offers whose normalized title is a new-game alias."""
+    return [
+        offer
+        for offer in offers
+        if normalize_game_name(offer.raw_title) in target_aliases
+        or target_aliases.intersection(alias_candidates(offer.raw_title))
+    ]
+
+
+def parse_seller_url(adapter, seller: str, url: str) -> list[RawOffer]:
+    """Parse one product URL using the seller adapter's site-specific parser."""
+    if seller == "cdkeyshare":
+        return list(adapter._parse_account(url))
+    if seller == "persianconsole":
+        decoded = unquote(url).lower()
+        parser = adapter._parse_account if ("اکانت" in decoded or "account" in decoded) else adapter._parse_disc
+        return list(parser(url))
+    if seller == "nakhlmarket":
+        decoded = unquote(url).lower()
+        expected_type = ProductType.ACCOUNT_GAME if ("اکانت" in decoded or "account" in decoded) else ProductType.DISC
+        return list(adapter._parse_product(url, expected_type))
+
+    parser = getattr(adapter, "_parse_product", None)
+    if parser is None:
+        raise ValueError(f"{seller} does not expose a direct product-page parser")
+
+    # Most WooCommerce/OpenCart adapters expose _parse_product(url). Some
+    # adapters (for example gamestore/digikala) need category metadata and
+    # therefore cannot safely parse an arbitrary URL directly.
+    try:
+        return list(parser(url))
+    except TypeError as exc:
+        raise ValueError(f"{seller} requires catalog metadata; direct URL parsing is not supported") from exc
+
+
+def scrape_seller_url(
+    seller: str,
+    url: str,
+    target_aliases: set[str],
+) -> tuple[str, str, list[RawOffer], str | None]:
+    """Fetch one supplied URL and return only offers for imported games."""
+    try:
+        offers = parse_seller_url(ADAPTERS[seller](), seller, url)
+        return seller, url, filter_target_offers(offers, target_aliases), None
+    except Exception as exc:
+        return seller, url, [], str(exc)
+
+
+def scan_seller_urls(
+    seller_urls: list[tuple[str, str]],
+    target_aliases: set[str],
+    workers: int,
+) -> dict[str, list[RawOffer]]:
+    """Fetch only the explicitly supplied seller product URLs."""
+    matches: dict[str, list[RawOffer]] = {}
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {
+            pool.submit(scrape_seller_url, seller, url, target_aliases): (seller, url)
+            for seller, url in seller_urls
+        }
+        for future in as_completed(futures):
+            seller, url, offers, error = future.result()
+            matches.setdefault(seller, []).extend(offers)
+            if error:
+                print(f"WARNING: {seller} URL failed ({url}): {error}", file=sys.stderr)
+            elif not offers:
+                print(f"WARNING: {seller} URL returned no matching offers: {url}", file=sys.stderr)
+            else:
+                print(f"{seller}: {len(offers)} matching offers from {url}")
+    return matches
+
+
+def load_seller_offers(
+    database_url: str,
+    seller: str,
+    offers: list[RawOffer],
+    platform_slug: str,
+) -> tuple[int, int]:
+    """Load one seller's newly found offers into one database."""
+    with psycopg.connect(database_url) as conn, conn.cursor() as cur:
+        cur.execute("SELECT id FROM platforms WHERE slug = %s", (platform_slug,))
+        platform = cur.fetchone()
+        if not platform:
+            raise ValueError(f"unknown platform {platform_slug!r}")
+        cur.execute("SELECT id FROM sellers WHERE slug = %s", (seller,))
+        seller_row = cur.fetchone()
+        if not seller_row:
+            raise ValueError(f"unknown seller {seller!r}")
+        result = load_offers(cur, platform[0], seller_row[0], seller, offers)
+        conn.commit()
+        return result
+
+
+def scan_and_load_sellers(
+    database_targets: list[tuple[str, list[int]]],
+    results: list[dict],
+    platform_slug: str,
+    seller_urls: list[tuple[str, str]],
+    workers: int,
+) -> None:
+    target_aliases = alias_candidates(*(result.get("name", "") for result in results))
+    seller_matches = scan_seller_urls(seller_urls, target_aliases, workers)
+    for seller, offers in sorted(seller_matches.items()):
+        if not offers:
+            continue
+        for database_url, _ in database_targets:
+            try:
+                games_count, listings_count = load_seller_offers(
+                    database_url, seller, offers, platform_slug
+                )
+                print(
+                    f"loaded {seller} into {database_url.rsplit('@', 1)[-1]}: "
+                    f"{games_count} games, {listings_count} listings"
+                )
+            except (OSError, psycopg.Error, ValueError) as exc:
+                print(f"WARNING: could not load {seller} offers into a database: {exc}", file=sys.stderr)
+
+
+def parse_seller_url_specs(values: list[str]) -> list[tuple[str, str]]:
+    """Parse repeatable SELLER=URL command-line values."""
+    seller_urls = []
+    for value in values:
+        seller, separator, url = value.partition("=")
+        if not separator or seller not in ADAPTERS or not url:
+            raise ValueError(
+                f"invalid --seller-url {value!r}; use SELLER=URL with a registered seller"
+            )
+        seller_urls.append((seller, url))
+    return seller_urls
+
+
+def prompt_for_seller_urls(
+    input_fn=input,
+) -> list[tuple[str, str]]:
+    """Ask for URLs for every registered seller; blank input skips a seller."""
+    seller_urls: list[tuple[str, str]] = []
+    print(
+        "Enter one or more product URLs for each seller, separated by commas. "
+        "Press Enter to skip a seller."
+    )
+    for seller in sorted(ADAPTERS):
+        try:
+            website = SELLER_WEBSITES.get(seller, "website unavailable")
+            answer = input_fn(f"{seller} ({website}) URL(s) [Enter to skip]: ").strip()
+        except EOFError:
+            print("\nNo interactive input available; skipping remaining sellers.", file=sys.stderr)
+            break
+        if not answer:
+            continue
+        seller_urls.extend((seller, url.strip()) for url in answer.split(",") if url.strip())
+    return seller_urls
+
+
 def main() -> None:
     load_dotenv()
     parser = argparse.ArgumentParser(description="Add/update PS5 games from IGDB edition URLs")
@@ -378,6 +562,24 @@ def main() -> None:
     )
     parser.add_argument("--platform", default="ps5")
     parser.add_argument("--workers", type=int, default=4, help="PS Store workers")
+    parser.add_argument(
+        "--seller-workers",
+        type=int,
+        default=2,
+        help="Concurrent seller adapters (default: 2)",
+    )
+    parser.add_argument(
+        "--skip-sellers",
+        action="store_true",
+        help="Skip fetching supplied seller product URLs",
+    )
+    parser.add_argument(
+        "--seller-url",
+        action="append",
+        default=[],
+        metavar="SELLER=URL",
+        help="Product URL to parse with a registered seller adapter (repeatable)",
+    )
     parser.add_argument("--skip-psstore", action="store_true", help="Only import catalog rows and aliases")
     args = parser.parse_args()
 
@@ -415,10 +617,21 @@ def main() -> None:
                 raise ValueError(f"IGDB game {slug!r} is not marked for PS5")
             results.append(result)
 
+        seller_urls = parse_seller_url_specs(args.seller_url)
+        if not args.skip_sellers and not seller_urls and not args.seller_url:
+            seller_urls = prompt_for_seller_urls()
+
         database_targets = [
             (local_db_url, import_games(local_db_url, results, args.platform)),
             (production_db_url, import_games(production_db_url, results, args.platform)),
         ]
+        if not args.skip_sellers:
+            if seller_urls:
+                scan_and_load_sellers(
+                    database_targets, results, args.platform, seller_urls, args.seller_workers
+                )
+            else:
+                print("No seller URLs supplied; seller price scan skipped.", file=sys.stderr)
         for database_url, game_ids in database_targets:
             if not args.skip_psstore:
                 refresh_psstore(database_url, game_ids, args.workers)

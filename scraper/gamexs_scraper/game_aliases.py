@@ -13,6 +13,7 @@ from .normalize import clean_title, normalize_game_name
 _EDITION_WORD_RE = re.compile(r"\bedition\b", re.IGNORECASE)
 _EA_SPORTS_RE = re.compile(r"\bea\s+sports\b", re.IGNORECASE)
 _FC_NUMBER_RE = re.compile(r"\bfc\s+(\d{2})\b", re.IGNORECASE)
+_PERSIAN_FC_RE = re.compile(r"\bاف\s*سی\b", re.IGNORECASE)
 
 
 def _normalise_candidate(value: str) -> str:
@@ -41,6 +42,9 @@ def alias_candidates(*titles: str) -> set[str]:
         variants.add(without_ea_sports)
         variants.add(_EDITION_WORD_RE.sub("", without_ea_sports))
         variants.add(_EA_SPORTS_RE.sub("EA", cleaned, count=1))
+        # Some Persian shop titles append the transliteration of FC ("اف سی")
+        # after the English title; it is not part of the game identity.
+        variants.add(_PERSIAN_FC_RE.sub("", cleaned))
 
         # Also accept the compact form used by some seller URLs/titles (FC27).
         for variant in tuple(variants):

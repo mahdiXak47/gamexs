@@ -125,6 +125,21 @@ CREATE TABLE listings (
 
 CREATE INDEX idx_listings_game ON listings (game_id);
 
+-- Explicit seller-title aliases populated by the IGDB game importer.  This
+-- lets short seller names such as "FC 27" resolve to the canonical
+-- "EA Sports FC 27" row instead of creating a duplicate game.
+CREATE TABLE ps5_game_aliases (
+    id              SERIAL PRIMARY KEY,
+    platform_id     SMALLINT NOT NULL REFERENCES platforms(id) ON DELETE CASCADE,
+    game_id         INTEGER NOT NULL REFERENCES ps5_games(id) ON DELETE CASCADE,
+    normalized_name TEXT NOT NULL,
+    source          TEXT NOT NULL DEFAULT 'igdb',
+    created_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
+    UNIQUE (platform_id, normalized_name)
+);
+
+CREATE INDEX idx_ps5_game_aliases_game_id ON ps5_game_aliases (game_id);
+
 -- Append-only: one row per scrape per listing, never updated in place, so
 -- charting a price over time is just a range query on scraped_at.
 CREATE TABLE price_history (

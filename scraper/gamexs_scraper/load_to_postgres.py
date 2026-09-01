@@ -20,6 +20,7 @@ from dotenv import load_dotenv
 
 from .download_images import slugify
 from .export_csv import load_cached_offers
+from .game_aliases import alias_candidates
 from .models import RawOffer
 from .normalize import clean_title, normalize_game_name
 
@@ -158,7 +159,11 @@ def load_offers(
 
         # Prefer explicit IGDB-backed aliases. This is what maps seller titles
         # such as "FC 27" to an imported canonical "EA Sports FC 27" row.
-        game_id = find_alias_game_id(cur, platform_id, normalized)
+        game_id = None
+        for alias in [normalized, *sorted(alias_candidates(offer.raw_title) - {normalized})]:
+            game_id = find_alias_game_id(cur, platform_id, alias)
+            if game_id is not None:
+                break
         if game_id is not None:
             update_game_cover(cur, game_id, offer.image_url, trusted_cover)
             games_seen.add(game_id)

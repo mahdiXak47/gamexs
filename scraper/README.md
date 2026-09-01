@@ -163,7 +163,28 @@ PRODUCTION_DATABASE_URL=postgresql://... \
 The same values can be passed as `--local-db-url` and
 `--production-db-url`. The command downloads each imported cover, screenshot,
 and main background artwork once, uploads them to S3, and writes the S3 URLs
-into both databases. It also refreshes PS Store data in both databases.
+into both databases. For seller prices, provide the product URL for each shop
+where the game is listed. Each URL is fetched with that shop's existing
+site-specific adapter parser, then the resulting offers are loaded into both
+databases. Only the supplied product pages are fetched; the full shop catalogs
+are not crawled. Use `--seller-workers` to adjust URL concurrency or
+`--skip-sellers` to disable seller fetching.
+
+For example:
+
+```bash
+--seller-url 'parsconsole=https://parsconsole.com/product/...' \
+--seller-url 'xgamesstore=https://xgamesstore.org/product/ea-sports-fc-27/' \
+--seller-url 'gamario=https://gamario.com/product/ea-sports-fc-27/' \
+--seller-url 'yungcenter=https://yungcenter.com/product/...' \
+--seller-url 'gamecenter=https://game-center.ir/product/...' \
+--seller-url 'cdkeyshare=https://www.cdkeyshare.ir/shop/console/ea-sports-fc-27-psn/' \
+--seller-url 'nakhlmarket=https://nakhlmarket.com/product/ea-fc-27-ps5-account/'
+```
+
+If no `--seller-url` options are provided, the command interactively asks for
+each registered seller in turn. Enter one URL, or multiple comma-separated
+URLs, then press Enter on an empty prompt to skip that seller.
 
 The daily `scrape_all.sh` job will then match seller offers through the stored
 aliases and include these rows in every normal IGDB, PS Store, S3, and cleanup
