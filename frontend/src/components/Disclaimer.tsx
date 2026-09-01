@@ -34,7 +34,12 @@ const badges = [
   },
 ];
 
+// Temporarily hidden site-wide; keep the component ready to re-enable later.
+const SHOW_SERVICE_BADGES = false;
+
 export default function Disclaimer() {
+  if (!SHOW_SERVICE_BADGES) return null;
+
   return (
     <section className="w-full bg-white border-t border-gray-200 py-6" dir="rtl" aria-label="ویژگی‌های خدمات">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">

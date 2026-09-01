@@ -1,5 +1,5 @@
-import CatalogRouteLoading from "@/components/CatalogRouteLoading";
+import PageLoading from "@/components/PageLoading";
 
 export default function Loading() {
-  return <CatalogRouteLoading titleWidth="w-80" />;
+  return <PageLoading />;
 }
