@@ -6,7 +6,7 @@ import TopGameActions from "./TopGameActions";
 
 function TopGameCard({ game, rank }: { game: GameSummary; rank: number }) {
   return (
-    <article className="group min-w-[145px] max-w-[178px] flex-1 snap-start" dir="rtl">
+    <article className="group w-[145px] min-w-[145px] shrink-0 snap-start sm:w-[160px] sm:min-w-[160px] md:w-[178px] md:min-w-[178px] lg:flex-1 lg:w-auto lg:max-w-[178px]" dir="rtl">
       <div className="relative aspect-[2/3] overflow-hidden rounded-[13px] border border-white/10 bg-ps-night shadow-[0_12px_28px_rgba(0,0,0,0.3)]">
         <Link
           href={`/games/${game.slug}`}
@@ -88,7 +88,7 @@ export default function TopGames({
           </Link>
         </div>
 
-        <div className="hide-scrollbar flex gap-3 overflow-x-auto pb-1 snap-x snap-mandatory lg:gap-4" dir="ltr">
+        <div className="hide-scrollbar flex touch-pan-x gap-3 overflow-x-auto overscroll-x-contain pb-2 snap-x snap-mandatory lg:gap-4" dir="ltr">
           {games.slice(0, 10).map((game, index) => (
             <TopGameCard key={game.slug} game={game} rank={index + 1} />
           ))}

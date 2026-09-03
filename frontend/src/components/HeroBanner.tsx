@@ -164,6 +164,35 @@ export default function HeroBanner({
         <div className="absolute inset-0 bg-[linear-gradient(0deg,rgba(3,7,18,0.96)_0%,rgba(3,7,18,0.42)_34%,rgba(3,7,18,0.12)_100%)]" />
       </div>
 
+      {games.length > 1 && (
+        <div
+          className="pointer-events-none absolute inset-x-3 top-1/2 z-20 flex -translate-y-1/2 items-center justify-between md:hidden"
+          dir="ltr"
+          aria-label="کنترل اسلایدهای بازی‌های ویژه"
+        >
+          <button
+            type="button"
+            onClick={() => goTo((current - 1 + games.length) % games.length)}
+            className="pointer-events-auto inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/20 bg-black/45 text-white shadow-lg backdrop-blur-sm transition-[background-color,transform] duration-150 active:scale-95 hover:bg-black/65 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+            aria-label="بازی قبلی"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <path d="m14 6-6 6 6 6" />
+            </svg>
+          </button>
+          <button
+            type="button"
+            onClick={() => goTo((current + 1) % games.length)}
+            className="pointer-events-auto inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/20 bg-black/45 text-white shadow-lg backdrop-blur-sm transition-[background-color,transform] duration-150 active:scale-95 hover:bg-black/65 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+            aria-label="بازی بعدی"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <path d="m10 6 6 6-6 6" />
+            </svg>
+          </button>
+        </div>
+      )}
+
       <div className="homepage-hero relative z-10 mx-auto flex max-w-7xl flex-col justify-between px-4 pb-5 pt-20 sm:px-6 lg:justify-end">
         <div
           key={current}

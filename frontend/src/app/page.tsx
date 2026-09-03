@@ -13,7 +13,7 @@ import { getLastScrapedAt, getFeaturedUpcomingGames, listGamesPage, listPublishe
 import { parseGameListSearchParams } from "@/lib/search-params";
 import { catalogCanonicalPath, shouldNoIndexCatalogParams, SITE_NAME, SITE_URL } from "@/lib/seo";
 
-const PAGE_SIZE = 21;
+const PAGE_SIZE = 10;
 
 export const dynamic = "force-dynamic";
 
