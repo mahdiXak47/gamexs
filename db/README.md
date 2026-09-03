@@ -1,5 +1,9 @@
 # Connecting to the Postgres container
 
+For the complete local/production topology, schema ownership, migration policy,
+seller-price loading flow, and verification queries, see
+[`docs/DATABASE_ARCHITECTURE.md`](../docs/DATABASE_ARCHITECTURE.md).
+
 Assumes the container is running (`docker compose up -d` from the repo root;
 `docker ps` to confirm `gamexs-postgres` is up).
 
