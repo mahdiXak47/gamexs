@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback, useRef } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "./RemoteImage";
 import { Chip } from "@heroui/react";
 import { formatToman } from "@/lib/format";
 import type { GameSummary, HeroPriceOption } from "@/lib/types";

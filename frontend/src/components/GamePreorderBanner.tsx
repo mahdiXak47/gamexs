@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "./RemoteImage";
 import { useEffect, useReducer, useRef } from "react";
 import { toPersianDigits } from "@/lib/format";
 

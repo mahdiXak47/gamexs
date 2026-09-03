@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "./RemoteImage";
 
 export default function CoverArt({
   coverUrl,

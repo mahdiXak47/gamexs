@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "./RemoteImage";
 import Link from "next/link";
 import { toPersianDigits } from "@/lib/format";
 import type { GameSummary } from "@/lib/types";

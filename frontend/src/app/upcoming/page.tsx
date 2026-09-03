@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import Image from "@/components/RemoteImage";
 import { Chip } from "@heroui/react";
 import Breadcrumb from "@/components/Breadcrumb";
 import Header from "@/components/Header";

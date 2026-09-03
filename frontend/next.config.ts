@@ -75,9 +75,9 @@ const nextConfig: NextConfig = {
   // Turbopack from trying to bundle it at build time; it's required at
   // runtime from node_modules instead.
   serverExternalPackages: ["undici"],
-  // Production optimizes the allowlisted S3/IGDB media through next/image.
-  // Local dev can still bypass server-side image fetching when regional
-  // network/proxy constraints make upstream image requests unreliable.
+  // Keep remote hosts allowlisted for images that still need optimization.
+  // GameXS S3 media uses RemoteImage, because those objects are already
+  // optimized and immutable at the origin.
   images: {
     unoptimized: disableImageOptimization,
     remotePatterns: [

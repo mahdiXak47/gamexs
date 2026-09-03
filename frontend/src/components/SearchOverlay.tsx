@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, useCallback } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "./RemoteImage";
 import { formatToman } from "@/lib/format";
 
 interface SearchResult {

@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "./RemoteImage";
 import { useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
 import { formatToman } from "@/lib/format";

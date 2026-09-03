@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "./RemoteImage";
 import type { UpcomingGame } from "@/lib/types";
 import CountdownTimer from "./CountdownTimer";
 import { formatToman, toPersianDigits } from "@/lib/format";

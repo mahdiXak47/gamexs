@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/RemoteImage";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import Header from "@/components/Header";

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
-import Image from "next/image";
+import Image from "@/components/RemoteImage";
 import { notFound, permanentRedirect } from "next/navigation";
 import { Chip } from "@heroui/react";
 import Breadcrumb from "@/components/Breadcrumb";

@@ -24,6 +24,17 @@ export function normalizeS3Url(url: string): string {
   return url;
 }
 
+/** Whether a URL points at GameXS's immutable object-storage media. */
+export function isS3ImageUrl(url: string | null | undefined): boolean {
+  if (!url) return false;
+
+  try {
+    return new URL(url, S3_ORIGIN).hostname === "gs3.gamexs.ir";
+  } catch {
+    return false;
+  }
+}
+
 /** Canonical S3 URL for a game's main cover image. */
 export function s3CoverUrl(slug: string): string {
   return `${S3_BASE}/covers/${slug}-main-cover.webp`;

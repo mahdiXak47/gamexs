@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "./RemoteImage";
 import { useState, useCallback, useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
 
