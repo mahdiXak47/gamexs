@@ -11,7 +11,8 @@ const quickLinks = [
 ]
 
 const guideLinks = [
-  { label: "مشاهده راهنمای کامل", href: "/guide" },
+  { label: "راهنمای خرید بازی و اشتراک PS5", href: "/guide" },
+  { label: "تفاوت‌های اکانت‌های ظرفیتی PS5", href: "/guide/ps5-capacity-accounts" },
 ]
 
 const trustLinks = [
