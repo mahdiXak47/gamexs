@@ -8,7 +8,10 @@ const quickLinks = [
   { label: "اکانت بازی PS5", href: "/account-games" },
   { label: "دیسک بازی PS5", href: "/disc-games" },
   { label: "اکانت ظرفیت ۲", href: "/capacity-2" },
-  { label: "راهنمای خرید", href: "/guide" },
+]
+
+const guideLinks = [
+  { label: "مشاهده راهنمای کامل", href: "/guide" },
 ]
 
 const trustLinks = [
@@ -26,7 +29,7 @@ export default function Footer() {
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 pt-12 pb-8">
 
-        <div className="grid grid-cols-1 sm:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-5">
 
           {/* Branding */}
           <div className="flex flex-col gap-4">
@@ -42,6 +45,23 @@ export default function Footer() {
             <h3 className="text-white font-bold text-sm mb-4">دسترسی سریع</h3>
             <ul className="flex flex-col gap-2.5">
               {quickLinks.map((item) => (
+                <li key={item.label}>
+                  <Link
+                    href={item.href}
+                    className="text-blue-200 hover:text-white text-sm transition-colors"
+                  >
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* SEO guides */}
+          <div>
+            <h3 className="text-white font-bold text-sm mb-4">راهنمای خرید بازی PS5</h3>
+            <ul className="flex flex-col gap-2.5">
+              {guideLinks.map((item) => (
                 <li key={item.label}>
                   <Link
                     href={item.href}

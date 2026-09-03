@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import MegaMenu from "./MegaMenu";
 import { useAuth } from "@/context/AuthContext";
 
@@ -41,6 +42,7 @@ const otherNavItems = [
   { label: "اکانت PS5", href: "/account-games" },
   { label: "دیسک PS5", href: "/disc-games" },
   { label: "پیش‌خرید", href: "/upcoming" },
+  { label: "راهنمای خرید بازی PS5", href: "/guide" },
 ];
 
 const mobileNavItems = [
@@ -49,6 +51,7 @@ const mobileNavItems = [
   { label: "اکانت PS5", href: "/account-games" },
   { label: "دیسک PS5", href: "/disc-games" },
   { label: "پیش‌خرید", href: "/upcoming" },
+  { label: "راهنمای خرید بازی PS5", href: "/guide" },
 ];
 
 export default function Header() {
@@ -58,6 +61,17 @@ export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
   const { user, openAuthModal } = useAuth();
+  const pathname = usePathname() ?? "/";
+
+  const isActive = (href: string) => {
+    if (href === "/") {
+      return pathname === "/" || ["/games/", "/genres/", "/publishers/"].some((prefix) => pathname.startsWith(prefix));
+    }
+    if (href === "/guide") {
+      return pathname === "/guide" || pathname === "/راهنما" || pathname.startsWith("/guide/");
+    }
+    return pathname === href || pathname.startsWith(`${href}/`);
+  };
 
   // Cmd/Ctrl+K shortcut
   useEffect(() => {
@@ -108,9 +122,10 @@ export default function Header() {
               href="/"
               onMouseEnter={openMega}
               onMouseLeave={scheduledCloseMega}
-              className="header-nav-link header-nav-active flex min-h-11 items-center gap-1 px-3 py-2 text-sm font-bold text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              className={`header-nav-link flex min-h-11 items-center gap-1 px-3 py-2 text-sm font-bold text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white ${isActive("/") ? "header-nav-active" : ""}`}
               aria-haspopup="true"
               aria-expanded={megaOpen}
+              aria-current={isActive("/") ? "page" : undefined}
             >
               بازی‌ها
               <span className={`transition-transform duration-200 ${megaOpen ? "rotate-180" : ""}`}>
@@ -122,7 +137,8 @@ export default function Header() {
               <Link
                 key={item.label}
                 href={item.href}
-                className="header-nav-link flex min-h-11 items-center px-3 py-2 text-sm font-medium text-white/78 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                className={`header-nav-link flex min-h-11 items-center px-3 py-2 text-sm text-white/78 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white ${isActive(item.href) ? "header-nav-active font-bold text-white" : "font-medium"}`}
+                aria-current={isActive(item.href) ? "page" : undefined}
               >
                 {item.label}
               </Link>
@@ -174,7 +190,8 @@ export default function Header() {
                 key={item.label}
                 href={item.href}
                 onClick={() => setMobileOpen(false)}
-                className="min-h-11 rounded-xl px-4 py-2.5 text-sm font-medium text-blue-100 transition-colors hover:bg-white/10 hover:text-white"
+                className={`min-h-11 rounded-xl px-4 py-2.5 text-sm transition-colors hover:bg-white/10 hover:text-white ${isActive(item.href) ? "bg-white/10 font-bold text-white" : "font-medium text-blue-100"}`}
+                aria-current={isActive(item.href) ? "page" : undefined}
               >
                 {item.label}
               </Link>

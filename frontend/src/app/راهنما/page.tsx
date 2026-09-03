@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import Header from "@/components/Header";
 import JsonLd from "@/components/JsonLd";
@@ -37,6 +38,12 @@ export default function GuidePage() {
             <section className="rounded-2xl bg-blue-50 p-5">
               <h2 className="text-lg font-extrabold text-gray-900">ظرفیت‌های اکانت بازی</h2>
               <p className="mt-3 text-sm leading-8 text-gray-600">ظرفیت ۱ معمولاً آفلاین، ظرفیت ۲ آنلاین و آفلاین، و ظرفیت ۳ آنلاین است. این نام‌گذاری بین فروشندگان ممکن است شرایط متفاوتی داشته باشد؛ توضیحات همان فروشنده ملاک نهایی است.</p>
+              <div className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm">
+                <Link href="/guide/ps5-capacity-accounts" className="font-bold text-ps-blue underline decoration-blue-200 underline-offset-4">تفاوت‌های اکانت‌های ظرفیتی PS5</Link>
+                <Link href="/capacity-1" className="font-bold text-ps-blue underline decoration-blue-200 underline-offset-4">ظرفیت ۱</Link>
+                <Link href="/capacity-2" className="font-bold text-ps-blue underline decoration-blue-200 underline-offset-4">ظرفیت ۲</Link>
+                <Link href="/capacity-3" className="font-bold text-ps-blue underline decoration-blue-200 underline-offset-4">ظرفیت ۳</Link>
+              </div>
             </section>
             <section className="rounded-2xl bg-amber-50 p-5">
               <h2 className="text-lg font-extrabold text-gray-900">دیسک بازی</h2>

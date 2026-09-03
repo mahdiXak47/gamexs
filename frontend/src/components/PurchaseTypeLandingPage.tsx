@@ -1,4 +1,5 @@
 import { Chip } from "@heroui/react";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import Breadcrumb from "@/components/Breadcrumb";
 import Disclaimer from "@/components/Disclaimer";
@@ -79,6 +80,14 @@ export async function renderPurchaseTypeLandingPage({
           <p className="max-w-2xl text-sm leading-7 text-white/70">
             {definition.description}
           </p>
+          {definition.productType === "ACCOUNT_GAME" && (
+            <p className="mt-3 text-xs leading-6 text-white/60">
+              تفاوت ظرفیت‌ها را نمی‌دانید؟{" "}
+              <Link href="/guide/ps5-capacity-accounts" className="font-bold text-white underline decoration-white/40 underline-offset-4 hover:decoration-white">
+                راهنمای انتخاب ظرفیت PS5
+              </Link>
+            </p>
+          )}
         </div>
       </div>
       <main className="mx-auto w-full min-w-0 max-w-7xl flex-1 px-4 py-8 sm:px-6">
