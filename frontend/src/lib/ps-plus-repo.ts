@@ -1,5 +1,6 @@
 import { cache } from "react";
 import { query } from "./db";
+import { toPersianDigits } from "./format";
 
 export type PsPlusTier = "ESSENTIAL" | "EXTRA" | "PREMIUM";
 export type PsPlusCapacity = "CAPACITY_1" | "CAPACITY_2" | "CAPACITY_3";
@@ -7,6 +8,7 @@ export type PsPlusCapacity = "CAPACITY_1" | "CAPACITY_2" | "CAPACITY_3";
 export interface PsPlusOption {
   id: number;
   capacity: PsPlusCapacity;
+  term: string;
   sellerName: string;
   sellerSlug: string;
   sourceUrl: string;
@@ -57,6 +59,13 @@ export const TIER_COLOR: Record<PsPlusTier, string> = {
   PREMIUM:   "#1a1a2e",
 };
 
+export function formatPsPlusTerm(term: string): string | null {
+  const match = /^(\d+)(month|months|year|years)$/i.exec(term);
+  if (!match) return null;
+  const unit = match[2].toLowerCase().startsWith("month") ? "ماهه" : "ساله";
+  return `${toPersianDigits(match[1])} ${unit}`;
+}
+
 // Returns all tiers with their latest price per capacity option. Cached
 // per-request since generateMetadata and the page component both call
 // getPsPlusPlan for the same tier.
@@ -67,6 +76,7 @@ export const getAllPsPlusPlans = cache(async function getAllPsPlusPlans(): Promi
     is_active: boolean;
     id: number;
     capacity: PsPlusCapacity;
+    term: string;
     seller_name: string;
     seller_slug: string;
     source_url: string;
@@ -85,6 +95,7 @@ export const getAllPsPlusPlans = cache(async function getAllPsPlusPlans(): Promi
       pp.is_active,
       pp.id,
       pp.capacity,
+      pp.term,
       s.name  AS seller_name,
       s.slug  AS seller_slug,
       pp.source_url,
@@ -103,7 +114,9 @@ export const getAllPsPlusPlans = cache(async function getAllPsPlusPlans(): Promi
         WHEN 'CAPACITY_3' THEN 1
         WHEN 'CAPACITY_2' THEN 2
         WHEN 'CAPACITY_1' THEN 3
-      END
+      END,
+      pp.term,
+      s.name
   `);
 
   const planMap = new Map<PsPlusTier, PsPlusPlan>();
@@ -117,8 +130,9 @@ export const getAllPsPlusPlans = cache(async function getAllPsPlusPlans(): Promi
       });
     }
     planMap.get(row.tier)!.options.push({
-      id: row.id,
-      capacity: row.capacity,
+        id: row.id,
+        capacity: row.capacity,
+        term: row.term,
       sellerName: row.seller_name,
       sellerSlug: row.seller_slug,
       sourceUrl: row.source_url,

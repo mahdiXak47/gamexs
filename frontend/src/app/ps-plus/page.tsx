@@ -11,6 +11,7 @@ import {
   TIER_SLUG,
   CAPACITY_LABEL,
   CAPACITY_DESC,
+  formatPsPlusTerm,
   type PsPlusPlan,
 } from "@/lib/ps-plus-repo";
 import { formatToman } from "@/lib/format";
@@ -109,9 +110,12 @@ function PlanCard({ plan }: { plan: PsPlusPlan }) {
       {/* Capacity rows */}
       <div className="px-6 py-4 flex-1 divide-y divide-gray-100" dir="rtl">
         {plan.options.map((opt) => (
-          <div key={opt.capacity} className="flex items-center justify-between gap-3 py-3 transition-colors duration-150 hover:bg-gray-50">
+          <div key={opt.id} className="flex items-center justify-between gap-3 py-3 transition-colors duration-150 hover:bg-gray-50">
             <div>
-              <p className="text-sm font-semibold text-gray-800">{CAPACITY_LABEL[opt.capacity]}</p>
+              <p className="text-sm font-semibold text-gray-800">
+                {CAPACITY_LABEL[opt.capacity]}
+                {formatPsPlusTerm(opt.term) ? ` — ${formatPsPlusTerm(opt.term)}` : ""}
+              </p>
               <p className="text-[11px] text-gray-400 leading-snug mt-0.5">{CAPACITY_DESC[opt.capacity]}</p>
             </div>
             <div className="text-left shrink-0">

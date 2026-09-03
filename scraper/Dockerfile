@@ -30,6 +30,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY gamexs_scraper/ gamexs_scraper/
+COPY crawl_uperagame.py load_uperagame_to_postgres.py .
 COPY scrape_all.sh .
 COPY fetch_psstore_prices.py .
 COPY upload_to_s3.py .

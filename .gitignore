@@ -5,6 +5,8 @@ scraper/research/raw/
 scraper/output/images/
 scraper/output/*.log
 scraper/output/*_offers.jsonl
+scraper/output/*_ps_plus.jsonl
+scraper/output/*_report.json
 
 # Python
 __pycache__/

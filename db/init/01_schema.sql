@@ -31,7 +31,8 @@ CREATE TABLE ps5_games (
     cover_url TEXT,
     main_background_image_url TEXT,
     description TEXT,
-    igdb_id INTEGER NOT NULL UNIQUE,
+    -- New seller listings may be loaded before IGDB enrichment runs.
+    igdb_id INTEGER UNIQUE,
     screenshot_ids TEXT[],
     concept_id TEXT,
     edition_name TEXT,
@@ -120,7 +121,7 @@ CREATE TABLE listings (
         (product_type = 'ACCOUNT_GAME' AND tier IS NOT NULL)
         OR (product_type <> 'ACCOUNT_GAME' AND tier IS NULL)
     ),
-    UNIQUE (seller_id, source_url)
+    UNIQUE (seller_id, source_url, product_type, tier)
 );
 
 CREATE INDEX idx_listings_game ON listings (game_id);

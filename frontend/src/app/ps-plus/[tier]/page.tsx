@@ -14,6 +14,7 @@ import {
   TIER_SLUG,
   CAPACITY_LABEL,
   CAPACITY_DESC,
+  formatPsPlusTerm,
   type PsPlusOption,
 } from "@/lib/ps-plus-repo";
 import { formatToman } from "@/lib/format";
@@ -134,7 +135,10 @@ function OptionCard({ opt, color }: { opt: PsPlusOption; color: string }) {
       {/* Capacity header */}
       <div className="px-5 py-4 flex items-center justify-between gap-3" style={{ background: `linear-gradient(135deg, ${color}18 0%, ${color}08 100%)`, borderBottom: `2px solid ${color}30` }}>
         <div>
-          <h3 className="font-extrabold text-gray-900 text-base">{CAPACITY_LABEL[opt.capacity]}</h3>
+          <h3 className="font-extrabold text-gray-900 text-base">
+            {CAPACITY_LABEL[opt.capacity]}
+            {formatPsPlusTerm(opt.term) ? ` — ${formatPsPlusTerm(opt.term)}` : ""}
+          </h3>
           <p className="text-xs text-gray-500 mt-0.5 leading-snug">{CAPACITY_DESC[opt.capacity]}</p>
         </div>
         <div className="text-left shrink-0">
@@ -211,7 +215,7 @@ export default async function PsPlusTierPage({
     .filter((o) => o.latestPrice != null && o.latestPrice > 0)
     .map((o) => ({
       "@type": "Offer",
-      name: CAPACITY_LABEL[o.capacity],
+      name: `${CAPACITY_LABEL[o.capacity]}${formatPsPlusTerm(o.term) ? ` — ${formatPsPlusTerm(o.term)}` : ""}`,
       url: o.sourceUrl,
       priceCurrency: "IRR",
       price: tomanToRial(o.latestPrice!),
@@ -289,7 +293,7 @@ export default async function PsPlusTierPage({
             <AvailabilityNotice hasAvailableOffer={availableOptions.length > 0} />
             {plan.options.length > 0 ? (
               plan.options.map((opt) => (
-                <OptionCard key={opt.capacity} opt={opt} color={color} />
+                <OptionCard key={opt.id} opt={opt} color={color} />
               ))
             ) : (
               <OptionEmptyState color={color} />

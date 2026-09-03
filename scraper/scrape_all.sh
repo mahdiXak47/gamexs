@@ -93,6 +93,24 @@ run_pair parsconsole cdkeyshare   || failed_sellers+=" parsconsole/cdkeyshare"
 run_pair persianconsole yungcenter|| failed_sellers+=" persianconsole/yungcenter"
 run_pair technolife               || failed_sellers+=" technolife"
 
+# Upera Game uses Crawl4AI because its WooCommerce variation catalog is more
+# reliably captured through the shared Crawl4AI fetcher than the legacy adapter
+# interface. Game offers and PS Plus offers are loaded in one DB transaction.
+log "=== Upera Game Crawl4AI scrape ==="
+if python crawl_uperagame.py --output-dir /tmp --concurrency 4 2>&1 | sed 's/^/[uperagame] /'; then
+    if python load_uperagame_to_postgres.py \
+            --games-cache /tmp/uperagame_offers.jsonl \
+            --plus-cache /tmp/uperagame_ps_plus.jsonl 2>&1 | sed 's/^/[uperagame] /'; then
+        log "DONE  loading uperagame"
+    else
+        log "FAIL  loading uperagame"
+        failed_sellers+=" uperagame"
+    fi
+else
+    log "FAIL  scraping uperagame"
+    failed_sellers+=" uperagame"
+fi
+
 # ---------------------------------------------------------------------------
 # Enrich new/unmatched games with IGDB metadata (cover, genre, publisher, year).
 # Runs after all sellers are loaded so new slugs from this run are included.
