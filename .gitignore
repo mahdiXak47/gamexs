@@ -33,3 +33,6 @@ k8s/*-secret.yaml
 frontend/test-results/
 frontend/playwright-report/
 frontend/blob-report/
+
+
+temp

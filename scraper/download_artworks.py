@@ -166,6 +166,8 @@ def main() -> None:
     parser.add_argument("--db-url", default=os.environ.get("DATABASE_URL"))
     parser.add_argument("--missing-only", action="store_true",
                         help="Only process games without main_background_image_url")
+    parser.add_argument("--first-key-art", action="store_true",
+                        help="Use the first IGDB artwork instead of configured preferred artwork")
     args = parser.parse_args()
 
     if not args.db_url:
@@ -229,7 +231,7 @@ def main() -> None:
             if not image_ids:
                 processed += len(rows)
                 continue
-            image_id = choose_main_background_image_id(igdb_id, image_ids)
+            image_id = image_ids[0] if args.first_key_art else choose_main_background_image_id(igdb_id, image_ids)
             if not image_id:
                 processed += len(rows)
                 continue
