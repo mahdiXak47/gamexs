@@ -233,10 +233,11 @@ PYTHONPATH=scraper scraper/.venv/bin/python scraper/import_uperagame_catalog.py 
   --production-db-url "$PRODUCTION_DATABASE_URL"
 ```
 
-It imports only verified canonical IGDB rows, records explicit aliases, loads
-matched Upera prices, and writes unresolved/PS4-only candidates to its
-rejection report. Run migration 029 and repair any pre-existing invalid rows
-before this command.
+It resolves candidates through IGDB but only records aliases and loads prices
+when the verified IGDB ID already exists in the target database. New candidates
+are written to the rejection/review report; import them explicitly with the
+reviewed `add_game.py` workflow before loading their prices. Run migration 029
+and repair any pre-existing invalid rows before this command.
 
 The seller loader must not create a provisional catalog row. It uses one
 database transaction for Upera game and PS Plus data after canonical games are

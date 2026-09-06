@@ -2,9 +2,9 @@
 
 Seller pages are not allowed to create catalog identities. This command first
 normalizes and resolves each distinct Upera game title to a verified PS5 IGDB
-result, imports those canonical rows and aliases into both databases, and only
-then appends the Upera listings and price observations. Offers without a
-confident match are reported and skipped.
+result, attaches aliases and prices only when that IGDB row already exists in
+each database, and reports new candidates for explicit review/import. Offers
+without a confident match are reported and skipped.
 
 Usage:
     PYTHONPATH=scraper scraper/.venv/bin/python scraper/import_uperagame_catalog.py \
@@ -27,7 +27,7 @@ import psycopg
 import requests
 from dotenv import load_dotenv
 
-from add_game import _ALIAS_SCHEMA_SQL, _metadata, _upsert_aliases, _upsert_game
+from add_game import _ALIAS_SCHEMA_SQL, _upsert_aliases
 from gamexs_scraper.enrich_metadata import (
     _MAIN_CATEGORIES,
     _english_title,
@@ -178,9 +178,9 @@ def _catalog_preflight(cur: psycopg.Cursor) -> None:
 def _import_database(
     database_url: str,
     results: dict[str, dict],
-    offers: list[RawOffer],
+    offers_by_candidate: dict[str, list[RawOffer]],
     plus_records: list[dict],
-) -> tuple[int, int, int, int]:
+) -> tuple[int, int, int, int, int, list[str]]:
     with psycopg.connect(database_url) as conn, conn.cursor() as cur:
         _catalog_preflight(cur)
         cur.execute(_ALIAS_SCHEMA_SQL)
@@ -195,24 +195,55 @@ def _import_database(
         if not platform or not seller:
             raise ValueError("ps5 platform or uperagame seller is missing; apply migrations first")
 
-        imported_ids: dict[str, int] = {}
+        # Upera is a price source, not an authority for creating catalog
+        # identities. Only candidates whose verified IGDB ID already exists
+        # in ps5_games may proceed to listing/price insertion. New titles are
+        # intentionally returned for review and must be added explicitly via
+        # add_game.py before their prices can be loaded.
+        existing_results: dict[str, tuple[dict, int]] = {}
+        pending_review: list[str] = []
         for candidate, result in results.items():
-            metadata = _metadata(result)
-            game_id = _upsert_game(cur, platform[0], metadata)
+            cur.execute(
+                "SELECT id FROM ps5_games WHERE igdb_id = %s",
+                (result["id"],),
+            )
+            existing = cur.fetchone()
+            if not existing:
+                pending_review.append(
+                    f"{candidate}: canonical IGDB row absent; review and import "
+                    f"igdb:{result['id']} {result.get('name', '')!r} before loading prices"
+                )
+                continue
+
+            game_id = existing[0]
             _upsert_aliases(
                 cur,
                 platform[0],
                 game_id,
                 [candidate, result.get("name", ""), result.get("slug", "").replace("-", " ")],
             )
-            imported_ids[candidate] = game_id
+            existing_results[candidate] = (result, game_id)
+
+        loadable_offers = [
+            offer
+            for candidate, candidate_offers in offers_by_candidate.items()
+            if candidate in existing_results
+            for offer in candidate_offers
+        ]
 
         games_count, listings_count = load_offers(
-            cur, platform[0], seller[0], "uperagame", offers
+            cur, platform[0], seller[0], "uperagame", loadable_offers
         )
         plus_count = load_plus_offers(cur, seller[0], plus_records)
         conn.commit()
-        return len(imported_ids), games_count, listings_count, plus_count
+        return (
+            len(existing_results),
+            games_count,
+            listings_count,
+            plus_count,
+            len(loadable_offers),
+            pending_review,
+        )
 
 
 def main() -> None:
@@ -261,8 +292,7 @@ def main() -> None:
     })
 
     resolved: dict[str, dict] = {}
-    loadable: list[RawOffer] = []
-    for candidate, candidate_offers in sorted(grouped.items()):
+    for candidate in sorted(grouped):
         try:
             result = _resolve_candidate(session, candidate)
         except requests.RequestException as exc:
@@ -272,25 +302,34 @@ def main() -> None:
             rejected.append(f"no confident PS5 IGDB match: {candidate}")
             continue
         resolved[candidate] = result
-        loadable.extend(candidate_offers)
         print(f"{candidate} -> igdb:{result['id']} {result['name']}")
 
+    if not resolved:
+        with open(args.rejected_output, "w", encoding="utf-8") as report:
+            report.write("\n".join(rejected))
+            if rejected:
+                report.write("\n")
+        sys.exit("no safe Upera game offers resolved; nothing was written")
+
+    database_labels = ((local_url, "local"), (production_url, "production"))
+    database_reviews: list[str] = []
+    for database_url, label in database_labels:
+        counts = _import_database(database_url, resolved, grouped, plus_records)
+        database_reviews.extend(
+            f"{label}: {review}" for review in counts[5]
+        )
+        print(
+            f"loaded {database_url.rsplit('@', 1)[-1]} — "
+            f"{counts[0]} canonical games, {counts[1]} games seen, "
+            f"{counts[2]} listings, {counts[4]} game prices, "
+            f"{counts[3]} PS Plus identities, {len(plus_records)} PS Plus prices"
+        )
+
+    rejected.extend(database_reviews)
     with open(args.rejected_output, "w", encoding="utf-8") as report:
         report.write("\n".join(rejected))
         if rejected:
             report.write("\n")
-
-    if not resolved:
-        sys.exit("no safe Upera game offers resolved; nothing was written")
-
-    for database_url in (local_url, production_url):
-        counts = _import_database(database_url, resolved, loadable, plus_records)
-        print(
-            f"loaded {database_url.rsplit('@', 1)[-1]} — "
-            f"{counts[0]} canonical games, {counts[1]} games seen, "
-            f"{counts[2]} listings, {len(loadable)} game prices, "
-            f"{counts[3]} PS Plus identities, {len(plus_records)} PS Plus prices"
-        )
 
     print(f"rejected {len(rejected)} offers/candidates; report: {args.rejected_output}")
 

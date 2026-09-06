@@ -208,8 +208,10 @@ arbitrary IGDB ID.
 
 The generic loader now fails closed: it refuses to create a `ps5_games` row
 from seller text and refuses to load a seller snapshot while invalid catalog
-rows remain. For a cache containing new titles, use the IGDB-first importer
-(`scraper/import_uperagame_catalog.py`) or the explicit IGDB import tooling.
+rows remain. The Upera importer (`scraper/import_uperagame_catalog.py`) may
+attach prices only to existing IGDB-backed rows; new candidates are review
+items and must be added explicitly with the reviewed IGDB import tooling before
+their prices are loaded.
 For existing NULL/non-ASCII rows, the targeted repair command is
 `python -m gamexs_scraper.enrich_metadata --repair-invalid`; review its dry
 run and separately resolve any PS4-only rows that it intentionally excludes.
