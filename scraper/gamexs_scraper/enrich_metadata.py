@@ -18,6 +18,7 @@ Use --all to re-enrich games that already have an igdb_id.
 
 Usage:
     python -m gamexs_scraper.enrich_metadata [--limit N] [--dry-run] [--all]
+    python -m gamexs_scraper.enrich_metadata --repair-invalid [--dry-run]
 
 Required env vars:
     DATABASE_URL          — Postgres connection string
@@ -30,6 +31,7 @@ import os
 import re
 import sys
 import time
+import unicodedata
 from datetime import date, datetime, timezone
 from difflib import SequenceMatcher
 
@@ -451,6 +453,116 @@ def _pick_best(results: list[dict], query: str) -> dict | None:
     return None
 
 
+def _has_ps5(result: dict) -> bool:
+    """Return true only for a result explicitly named PlayStation 5."""
+    return any(
+        platform.get("id") == PS5_PLATFORM_ID
+        and str(platform.get("name", "")).casefold() == "playstation 5"
+        for platform in result.get("platforms", [])
+    )
+
+
+_TITLE_COMPATIBILITY_IGNORED = {
+    "a", "an", "and", "of", "the", "game", "edition", "version",
+    "complete", "collection", "legacy", "deluxe", "gold", "platinum",
+    "ultimate", "goty", "premium", "digital", "standard", "bundle",
+    "cross", "gen",
+}
+
+_TITLE_COMPATIBILITY_ALLOWED_EXTRAS = {
+    # IGDB commonly includes a publisher/franchise prefix or an official
+    # subtitle that Iranian sellers omit.
+    "ea", "sports", "tom", "clancy", "marvel", "stay", "human", "biohazard",
+    "definitive",
+}
+
+_TITLE_COMPATIBILITY_VARIANTS = {
+    "part", "season", "retold", "remake", "remastered", "reloaded",
+}
+
+
+def _compatibility_tokens(text: str) -> set[str]:
+    """Return comparison tokens with harmless title-format variants folded."""
+    # Treat Latin diacritics as their ASCII equivalents (Ragnarök/Ragnarok),
+    # but do not transliterate Persian into a guessed English title.
+    text = unicodedata.normalize("NFKD", text)
+    text = "".join(ch for ch in text if not unicodedata.combining(ch))
+    text = re.sub(r"['’]s\b", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bmoto\s+gp\b", "motogp", text, flags=re.IGNORECASE)
+    text = re.sub(r"\b2\s+k\s*(\d+)\b", r"2k\1", text, flags=re.IGNORECASE)
+    text = text.replace("&", " and ")
+    tokens = set(re.findall(r"[a-z0-9]+", text.lower()))
+    # Seller shorthand used by multiple Iranian catalogues.
+    if "cod" in tokens:
+        tokens.remove("cod")
+        tokens.update({"call", "duty"})
+    # Treat Arabic numerals and their Roman equivalents as the same sequel
+    # number (2/II, 3/III, etc.).
+    roman_to_number = {
+        "i": "1", "ii": "2", "iii": "3", "iv": "4", "v": "5",
+        "vi": "6", "vii": "7", "viii": "8", "ix": "9", "x": "10",
+    }
+    for roman, number in roman_to_number.items():
+        if roman in tokens:
+            tokens.remove(roman)
+            tokens.add(number)
+    return tokens
+
+
+def _title_is_compatible(our_title: str, igdb_name: str) -> bool:
+    """Reject confident-looking matches with unrelated title tokens.
+
+    Similarity can map ``Last Of Us Remastered`` to ``Part II Remastered`` or
+    ``Rayman Legends`` to ``Rayman Legends Retold``. Require all meaningful
+    seller tokens in IGDB and reject meaningful IGDB additions, while allowing
+    common articles/packaging words.
+    """
+    ours = _compatibility_tokens(our_title)
+    theirs = _compatibility_tokens(igdb_name)
+    required = ours - _TITLE_COMPATIBILITY_IGNORED
+    extra = theirs - ours - _TITLE_COMPATIBILITY_IGNORED
+    if not required <= theirs:
+        return False
+    if extra - _TITLE_COMPATIBILITY_ALLOWED_EXTRAS:
+        return False
+
+    # A sequel/variant marker is identity-bearing. It must not appear only on
+    # one side, and different remake/remaster markers are not interchangeable.
+    ours_variants = ours & _TITLE_COMPATIBILITY_VARIANTS
+    theirs_variants = theirs & _TITLE_COMPATIBILITY_VARIANTS
+    if ours_variants != theirs_variants:
+        return False
+    return True
+
+
+def _english_title(raw_title: str) -> str:
+    """Return a DB-safe English title while preserving punctuation."""
+    title = clean_title(raw_title)
+    normalized = unicodedata.normalize("NFKD", title)
+    return "".join(ch for ch in normalized if not unicodedata.combining(ch)).encode(
+        "ascii", "ignore"
+    ).decode("ascii")
+
+
+def _pick_ps5_best(results: list[dict], query: str) -> dict | None:
+    """Pick a catalog result only when IGDB explicitly marks it for PS5.
+
+    Similarity alone is unsafe for generic names such as ``Wolverine``. The
+    enrichment target is the PS5 catalog, so non-PS5 and DLC-only results must
+    be rejected rather than merely receiving a lower platform bonus.
+    """
+    catalog_results = [
+        result
+        for result in results
+        if _has_ps5(result)
+        and (
+            result.get("category") is None
+            or result.get("category") in _MAIN_CATEGORIES
+        )
+    ]
+    return _pick_best(catalog_results, query)
+
+
 # ---------------------------------------------------------------------------
 # Data extraction from a matched IGDB result
 # ---------------------------------------------------------------------------
@@ -648,24 +760,28 @@ def _write_game(
             time.sleep(_RECONNECT_DELAY)
 
 
-def _fetch_games(database_url: str, all_games: bool) -> list[tuple[int, int, str]]:
+def _fetch_games(
+    database_url: str, all_games: bool, repair_invalid: bool = False
+) -> list[tuple[int, int, str]]:
     with _db_connect(database_url) as conn:
         with conn.cursor() as cur:
-            # Exclude games whose title mentions PS4 but not PS5 — these are
-            # PS4-only listings that the scraper stored under the PS5 platform
-            # because load_to_postgres always uses --platform ps5.
-            ps5_only = (
-                "(g.title NOT ILIKE '%ps4%' OR g.title ILIKE '%ps5%')"
-            )
+            # Normal enrichment excludes obvious PS4-only rows. Targeted
+            # legacy repair includes them so their normalized identity can be
+            # checked against IGDB; only an explicit PS5 match is accepted.
+            ps5_only = "(g.title NOT ILIKE '%ps4%' OR g.title ILIKE '%ps5%')"
             base = (
                 "SELECT g.id, g.platform_id, g.title FROM ps5_games g "
-                f"JOIN platforms p ON p.id = g.platform_id AND p.slug = 'ps5' "
-                f"WHERE {ps5_only}"
+                "JOIN platforms p ON p.id = g.platform_id AND p.slug = 'ps5' "
             )
-            if all_games:
-                cur.execute(base + " ORDER BY g.title")
+            if repair_invalid:
+                cur.execute(
+                    base
+                    + "WHERE g.igdb_id IS NULL OR g.title ~ '[^[:ascii:]]' ORDER BY g.title"
+                )
+            elif all_games:
+                cur.execute(base + f"WHERE {ps5_only} ORDER BY g.title")
             else:
-                cur.execute(base + " AND g.igdb_id IS NULL ORDER BY g.title")
+                cur.execute(base + f"WHERE {ps5_only} AND g.igdb_id IS NULL ORDER BY g.title")
             return cur.fetchall()
 
 
@@ -682,6 +798,11 @@ def main() -> None:
         "--all",
         action="store_true",
         help="Re-enrich games that already have an igdb_id (full refresh)",
+    )
+    parser.add_argument(
+        "--repair-invalid",
+        action="store_true",
+        help="Only repair rows with a missing IGDB ID or non-ASCII title",
     )
     args = parser.parse_args()
 
@@ -704,7 +825,10 @@ def main() -> None:
         "Content-Type": "text/plain",
     })
 
-    games = _fetch_games(database_url, args.all)
+    if args.all and args.repair_invalid:
+        sys.exit("--all and --repair-invalid cannot be used together")
+
+    games = _fetch_games(database_url, args.all, args.repair_invalid)
 
     if args.limit:
         games = games[: args.limit]
@@ -717,7 +841,12 @@ def main() -> None:
     for i, (game_id, platform_id, title) in enumerate(games, start=1):
         print(f"\r[{i:>4}/{total}] {title[:55]:<55}", end="", file=sys.stderr)
 
-        search_term = _search_title(title)
+        # Legacy rows often contain the platform marker that caused the
+        # duplicate (for example ``A Way Out PS4 و``). Normalize that marker
+        # before searching IGDB; the selected result must still explicitly
+        # support PS5 via _pick_ps5_best().
+        search_input = clean_title(title) if args.repair_invalid else title
+        search_term = _search_title(search_input)
         if not search_term:
             skipped += 1
             continue
@@ -730,7 +859,7 @@ def main() -> None:
             errors += 1
             continue
 
-        best = _pick_best(results, search_term)
+        best = _pick_ps5_best(results, search_term)
 
         # Slug fallback: try a direct slug lookup and prefer the slug result when
         # (a) search returned nothing / below threshold, OR (b) search returned a
@@ -743,7 +872,15 @@ def main() -> None:
                 slug_candidate = url_slugify(normalize_game_name(search_term.replace("'", "")))
                 fallback = _igdb_by_slug(session, slug_candidate)
                 time.sleep(_RATE_DELAY)
-                if fallback and _score(fallback, search_term) >= _MIN_SCORE:
+                if (
+                    fallback
+                    and _has_ps5(fallback)
+                    and (
+                        fallback.get("category") is None
+                        or fallback.get("category") in _MAIN_CATEGORIES
+                    )
+                    and _score(fallback, search_term) >= _MIN_SCORE
+                ):
                     # Prefer slug when it provides a cleaner (non-colon) result
                     if not best or (": " in best.get("name", "") and ": " not in fallback.get("name", "")):
                         best = fallback
@@ -759,7 +896,7 @@ def main() -> None:
                 try:
                     shorter_results = _igdb_search(session, shorter)
                     time.sleep(_RATE_DELAY)
-                    best = _pick_best(shorter_results, shorter)
+                    best = _pick_ps5_best(shorter_results, shorter)
                 except requests.RequestException:
                     pass
 
@@ -809,7 +946,7 @@ def main() -> None:
                 try:
                     direct_results = _igdb_search(session, direct_term)
                     time.sleep(_RATE_DELAY)
-                    direct_best = _pick_best(direct_results, our_clean_title)
+                    direct_best = _pick_ps5_best(direct_results, our_clean_title)
                     if direct_best and direct_best["id"] != igdb_id:
                         igdb_id   = direct_best["id"]
                         igdb_name = direct_best["name"]
@@ -824,12 +961,32 @@ def main() -> None:
             # Re-check after igdb_name may have been updated by version/direct lookup.
             igdb_has_edition = bool(_EDITION_RE.search(igdb_name))
 
+        # Keep this final guard after every fallback and edition lookup. Only
+        # the exact result whose metadata is written may pass.
+        if not _has_ps5(best):
+            print(
+                f"\n  rejected non-PS5 IGDB result: {title!r} -> "
+                f"igdb:{best.get('id')} {best.get('name')!r}",
+                file=sys.stderr,
+            )
+            skipped += 1
+            continue
+
+        if not _title_is_compatible(our_clean_title, igdb_name):
+            print(
+                f"\n  rejected incompatible IGDB title: {title!r} -> "
+                f"igdb:{igdb_id} {igdb_name!r}",
+                file=sys.stderr,
+            )
+            skipped += 1
+            continue
+
         # Title/slug: use IGDB canonical unless this is a distinct edition variant
         # (Ultimate, Deluxe, Director's Cut, etc.) that needs its own separate row.
         # Standard/Launch/generic editions resolve to the base game's canonical name,
         # which triggers a slug conflict → merge with the base game row.
         if not our_has_edition or igdb_has_edition or not our_distinct_edition:
-            new_title = clean_title(igdb_name)
+            new_title = _english_title(igdb_name)
             if igdb_has_edition:
                 # igdb_name was updated to an edition-specific name, but best still
                 # points to the base game — best.get("slug") would return the base
@@ -841,8 +998,8 @@ def main() -> None:
                 # No edition: best.get("slug") is the correct canonical base slug.
                 new_slug = best.get("slug") or url_slugify(normalize_game_name(igdb_name))
         else:
-            new_title = our_clean_title
-            new_slug  = url_slugify(normalize_game_name(title))
+            new_title = _english_title(our_clean_title)
+            new_slug  = url_slugify(normalize_game_name(new_title.replace("'", "")))
 
         cover       = _cover_url(best)
         genre       = _genre(best)
@@ -854,6 +1011,14 @@ def main() -> None:
         genres      = _names(best, "genres")
         game_modes  = _names(best, "game_modes")
         platforms   = _names(best, "platforms")
+        if "PlayStation 5" not in platforms:
+            print(
+                f"\n  rejected result without PlayStation 5 metadata: {title!r} -> "
+                f"igdb:{igdb_id} {igdb_name!r} platforms={platforms!r}",
+                file=sys.stderr,
+            )
+            skipped += 1
+            continue
         franchises  = _names(best, "franchises")
         collections = _names(best, "collections")
         developers  = _developers(best)
@@ -863,7 +1028,7 @@ def main() -> None:
             print(
                 f"\n  → igdb:{igdb_id} {igdb_name!r} -> title={new_title!r} slug={new_slug!r}{edition_note}\n"
                 f"     genre={genre} pub={publisher} date={release_dt} cover={'yes' if cover else 'no'}\n"
-                f"     genres={genres} modes={game_modes} platforms={platforms[:3]}\n"
+                f"     genres={genres} modes={game_modes} platforms={platforms}\n"
                 f"     franchises={franchises} collections={collections} devs={developers}",
                 file=sys.stderr,
             )

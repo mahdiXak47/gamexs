@@ -4,6 +4,10 @@ This is the internal reference for the GameXS PostgreSQL database in local
 development and production. It describes the schema ownership, seller-price
 data model, migration rules, connection topology, and verification procedures.
 
+Catalog insertion must also follow
+[`DATABASE_INSERTION_POLICY.md`](DATABASE_INSERTION_POLICY.md): IGDB-first,
+English-only, and append seller prices only after a canonical game is known.
+
 Last infrastructure verification: **2026-09-03**.
 
 ## System role
@@ -101,7 +105,7 @@ requests.
 |---|---|---|
 | `platforms` | Platform lookup | `slug`, currently PS5 |
 | `sellers` | Seller registry | unique `slug`; includes `uperagame` |
-| `ps5_games` | Canonical/display catalog rows | unique `(platform_id, slug)`; nullable unique `igdb_id` |
+| `ps5_games` | Canonical/display catalog rows | unique `(platform_id, slug)`; required unique `igdb_id` |
 | `ps5_game_aliases` | Explicit seller/IGDB name aliases | unique `(platform_id, normalized_name)` |
 | `listings` | Stable seller offer identity | `(seller_id, source_url, product_type, tier)` |
 | `price_history` | Price and stock observations | append-only `(listing_id, scraped_at)` |
@@ -161,7 +165,7 @@ Django must not create or migrate `ps5_games`, `sellers`, or `listings`.
 | Data | Writer | Reader |
 |---|---|---|
 | `platforms`, `sellers` | seed/migrations | scraper, frontend, backend |
-| `ps5_games` | scraper loader, IGDB enrichment, editorial tools | frontend/backend |
+| `ps5_games` | IGDB-first import, enrichment, editorial tools | frontend/backend |
 | `ps5_game_aliases` | catalog/import tooling | scraper loader |
 | `listings` | seller loaders | frontend/backend |
 | `price_history` | seller loaders | frontend charts/current-price queries |
@@ -193,10 +197,13 @@ Relevant seller/Upera migrations:
 |---|---|
 | `002_extract_ps_plus.sql` | Creates/migrates dedicated PS Plus tables |
 | `027_add_uperagame_support.sql` | Registers Upera and supports type/tier and term identities |
-| `028_allow_unenriched_games.sql` | Allows new games before IGDB enrichment |
+| `028_allow_unenriched_games.sql` | Transitional compatibility for legacy unenriched rows; not an insertion permission |
+| `029_enforce_igdb_catalog_invariants.sql` | Fail-closed restoration of required IGDB IDs and English-only catalog titles |
 
-Migration 028 is required because the scraper may create a new `ps5_games`
-row before `enrich_metadata` resolves its `igdb_id`.
+New `ps5_games` rows must be created by an IGDB-first import with a non-null
+`igdb_id`. Migration 028 exists only because an earlier implementation allowed
+unenriched rows; existing NULL rows must be repaired before the final
+`NOT NULL` constraint is enforced.
 
 ## Applying a seller snapshot
 
@@ -206,20 +213,41 @@ For local or production, the safe order is:
 psql "$DATABASE_URL" -v ON_ERROR_STOP=1 \
   -f db/migrations/027_add_uperagame_support.sql
 
-psql "$DATABASE_URL" -v ON_ERROR_STOP=1 \
-  -f db/migrations/028_allow_unenriched_games.sql
+# Only legacy databases that already contain the compatibility state need 028.
+# Do not use it to authorize new NULL-IGDB rows.
 
-DATABASE_URL="$DATABASE_URL" PYTHONPATH=scraper \
-  scraper/.venv/bin/python scraper/load_uperagame_to_postgres.py \
-  --games-cache scraper/output/uperagame_offers.jsonl \
-  --plus-cache scraper/output/uperagame_ps_plus.jsonl
+# Before loading a seller snapshot:
+# 1. normalize and validate the seller title;
+# 2. resolve it to a confident IGDB PS5 game;
+# 3. reuse the existing igdb_id/alias or insert the canonical game with igdb_id;
+# 4. only then run the seller loader to append listings and price_history.
 ```
 
-The loader uses one database transaction for Upera game and PS Plus data. A
-failure rolls the load back, so fix the cause and retry the same snapshot.
+For the current Upera cache, the IGDB-first operation is:
+
+```bash
+PYTHONPATH=scraper scraper/.venv/bin/python scraper/import_uperagame_catalog.py \
+  --games-cache scraper/output/uperagame_offers.jsonl \
+  --plus-cache scraper/output/uperagame_ps_plus.jsonl \
+  --local-db-url "$LOCAL_DATABASE_URL" \
+  --production-db-url "$PRODUCTION_DATABASE_URL"
+```
+
+It imports only verified canonical IGDB rows, records explicit aliases, loads
+matched Upera prices, and writes unresolved/PS4-only candidates to its
+rejection report. Run migration 029 and repair any pre-existing invalid rows
+before this command.
+
+The seller loader must not create a provisional catalog row. It uses one
+database transaction for Upera game and PS Plus data after canonical games are
+available. A failure rolls the load back, so fix the cause and retry the same
+snapshot.
 
 For a fresh database, initialize `db/init/` first and then apply the numbered
-migrations required by the current application, including 002, 027, and 028.
+migrations required by the current application, including 002, 027, and 029.
+Migration 028 may already exist on an upgraded database; migration 029 is the
+forward correction that restores the final `igdb_id NOT NULL` invariant after
+invalid rows are repaired.
 
 ## Verification queries
 

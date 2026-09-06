@@ -146,6 +146,22 @@ def insert_price_point(cur: psycopg.Cursor, listing_id: int, offer: RawOffer) ->
 def load_offers(
     cur: psycopg.Cursor, platform_id: int, seller_id: int, seller_slug: str, offers: list[RawOffer]
 ) -> tuple[int, int]:
+    # Do not append new seller data to an already-invalid catalog. This makes
+    # accidental reintroduction of provisional/Persian rows fail closed.
+    cur.execute(
+        """
+        SELECT COUNT(*)
+        FROM ps5_games
+        WHERE igdb_id IS NULL OR title ~ '[^[:ascii:]]'
+        """
+    )
+    invalid_catalog_count = cur.fetchone()[0]
+    if invalid_catalog_count:
+        raise ValueError(
+            f"catalog preflight failed: {invalid_catalog_count} ps5_games rows "
+            "have a missing IGDB ID or non-English title; repair them before loading prices"
+        )
+
     trusted_cover = seller_slug in _TRUSTED_COVER_SELLERS
     games_seen: set[int] = set()
     listings_seen: set[int] = set()
@@ -168,13 +184,13 @@ def load_offers(
             update_game_cover(cur, game_id, offer.image_url, trusted_cover)
             games_seen.add(game_id)
         else:
-            # Reuse an existing slug for known games so changing slug policy never
-            # creates duplicate rows on re-scrape. Hyphenated slugs are canonical,
-            # but a few production rows may already use the older underscore form.
+            # A canonical row may predate the alias table. Reuse an exact
+            # canonical slug, but only if the row already passed the catalog
+            # preflight above; this is still not permission to create a row.
             slug_candidates = [legacy_slug, legacy_slug.replace("-", "_")]
             cur.execute(
                 """
-                SELECT slug
+                SELECT id
                 FROM ps5_games
                 WHERE platform_id = %s AND slug = ANY(%s::text[])
                 ORDER BY array_position(%s::text[], slug)
@@ -183,10 +199,19 @@ def load_offers(
                 (platform_id, slug_candidates, slug_candidates),
             )
             existing = cur.fetchone()
-            slug = existing[0] if existing else new_game_slug(normalized)
-
-            game_id = get_or_create_game(cur, platform_id, slug, clean_title(offer.raw_title), offer.image_url, trusted_cover)
-            games_seen.add(game_id)
+            if existing:
+                game_id = existing[0]
+                update_game_cover(cur, game_id, offer.image_url, trusted_cover)
+                games_seen.add(game_id)
+            else:
+                # A seller title is not a canonical game identity. Never
+                # create a ps5_games row here: new games must be imported from
+                # IGDB first, then mapped through an explicit alias or slug.
+                raise ValueError(
+                    f"unresolved seller title {offer.raw_title!r} -> "
+                    f"{clean_title(offer.raw_title)!r}; import a verified IGDB game "
+                    "and alias before loading seller prices"
+                )
 
         tier = offer.tier.value.upper() if offer.tier else None
         listing_id = upsert_listing(cur, game_id, seller_id, offer.product_type.value.upper(), tier, offer.source_url)

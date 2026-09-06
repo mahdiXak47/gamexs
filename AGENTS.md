@@ -141,6 +141,11 @@ separate job. `docker-compose.staging.yml` has a `scraper` service (profile
 
 ## `db/` (Postgres 16)
 
+**Mandatory data-insertion policy:** before inserting or updating catalog or
+seller-price data, read `docs/DATABASE_INSERTION_POLICY.md`. Catalog rows must
+use verified English IGDB titles and non-null IGDB IDs; seller loaders may only
+append prices after resolving an existing or newly imported canonical game.
+
 ```bash
 cp .env.example .env         # first time; docker compose reads .env automatically
 docker compose up -d         # starts postgres:16, auto-runs db/init/*.sql on first boot (empty volume)

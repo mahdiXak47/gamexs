@@ -27,7 +27,9 @@ _NOISE_PATTERNS = [
     r"خرید\s+بازی",
     r"اکانت\s+ظرفیتی",
     r"اکانت\s+بازی",
-    r"ظرفیتی",
+    # Capacity labels are offer metadata, not game identity. Consume the
+    # value too so "ظرفیت ۳" and "ظرفیت کامل" cannot leak into the title.
+    r"ظرفیت(?:ی)?(?:\s+(?:کامل|[1-3]))?",
     # "کارکرده" = "used/second-hand" — condition prefix, never part of game identity
     # e.g. "کارکرده Alan Wake 2 نسخه Deluxe Edition" → "Alan Wake 2 Deluxe Edition"
     r"کارکرده",
@@ -53,6 +55,10 @@ _NOISE_PATTERNS = [
     # "و ps4" / "و ps5" — multi-platform suffix used by YungCenter
     # e.g. "Call of Duty Black Ops 7 برای ps5 و ps4" → "Call of Duty Black Ops 7"
     r"\s*و\s+ps[45]\b",
+    # Standalone platform suffixes and the Persian conjunction left behind
+    # after removing a multi-platform suffix (e.g. "PS4 و" or "PS4 و PS5").
+    r"\bps4\b",
+    r"\s+و\s*$",
     # Colon title-subtitle separator — PSPro includes it, other sellers omit it.
     # Replacing with a space prevents "007: First Light" → "007--first-light" (double dash)
     # while "007 First Light" → "007-first-light", causing a phantom duplicate.

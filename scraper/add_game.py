@@ -35,6 +35,7 @@ from gamexs_scraper.enrich_metadata import (
     _publisher,
     _release_date,
     _igdb_by_slug,
+    _english_title,
     get_access_token,
 )
 from download_artworks import (
@@ -125,7 +126,9 @@ def parse_igdb_slug(url: str) -> str:
 def _metadata(result: dict) -> dict[str, object]:
     release_dt: date | None = _release_date(result)
     return {
-        "title": clean_title(result["name"]),
+        # IGDB may contain Latin diacritics (for example Ragnarök). The DB
+        # catalog invariant requires an ASCII English display title.
+        "title": _english_title(result["name"]),
         "slug": result.get("slug") or url_slugify(normalize_game_name(result["name"])),
         "genre_label": _genre(result),
         "publisher": _publisher(result),

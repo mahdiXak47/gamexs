@@ -112,12 +112,13 @@ else
 fi
 
 # ---------------------------------------------------------------------------
-# Enrich new/unmatched games with IGDB metadata (cover, genre, publisher, year).
-# Runs after all sellers are loaded so new slugs from this run are included.
+# Repair/enrich legacy catalog rows that already exist without IGDB metadata.
+# New seller titles are deliberately not inserted by the price loader; they
+# must pass an IGDB-first import before their prices can be loaded.
 # ---------------------------------------------------------------------------
 log "=== IGDB enrichment ==="
 python -m gamexs_scraper.enrich_metadata 2>&1 | sed 's/^/[igdb] /' || \
-    log "WARN  IGDB enrichment failed — new games will lack metadata but prices are unaffected"
+    log "WARN  IGDB enrichment failed — unresolved catalog rows remain blocked"
 
 # ---------------------------------------------------------------------------
 # Refresh official PS Store pricing (US/TR) for every ps5_games row with an

@@ -31,8 +31,8 @@ CREATE TABLE ps5_games (
     cover_url TEXT,
     main_background_image_url TEXT,
     description TEXT,
-    -- New seller listings may be loaded before IGDB enrichment runs.
-    igdb_id INTEGER UNIQUE,
+    -- Every catalog row must be created from a verified IGDB game.
+    igdb_id INTEGER NOT NULL UNIQUE,
     screenshot_ids TEXT[],
     concept_id TEXT,
     edition_name TEXT,
@@ -47,6 +47,9 @@ CREATE TABLE ps5_games (
     CONSTRAINT ps5_games_preorder_hero_position_range CHECK (
         preorder_hero_position IS NULL OR preorder_hero_position BETWEEN 1 AND 6
     ),
+    -- Canonical catalog titles come from IGDB and must never contain Persian /
+    -- Arabic characters or seller-side variant labels.
+    CONSTRAINT ps5_games_title_ascii_check CHECK (title !~ '[^[:ascii:]]'),
     UNIQUE (platform_id, slug)
 );
 
