@@ -2,6 +2,7 @@ from unittest.mock import patch
 
 from django.test import Client, TestCase, override_settings
 from django.contrib import admin
+from django.core.checks import Tags, run_checks
 from django.urls import reverse
 from rest_framework.test import APIClient
 
@@ -129,3 +130,25 @@ class EmailDeliveryTests(TestCase):
         self.assertFalse(response.json()["email_sent"])
         self.assertTrue(EmailVerificationToken.objects.filter(user=self.user).exists())
         send_mail.assert_called_once()
+
+
+class ProductionConfigurationChecksTests(TestCase):
+    @override_settings(
+        DEBUG=False,
+        EMAIL_BACKEND="django.core.mail.backends.smtp.EmailBackend",
+        EMAIL_HOST="",
+    )
+    def test_production_email_host_is_required_for_smtp(self):
+        errors = run_checks(tags=[Tags.security])
+
+        self.assertTrue(any(error.id == "accounts.E001" for error in errors))
+
+    @override_settings(
+        DEBUG=False,
+        EMAIL_BACKEND="django.core.mail.backends.smtp.EmailBackend",
+        EMAIL_HOST="smtp.example.com",
+    )
+    def test_configured_production_email_host_passes_custom_check(self):
+        errors = run_checks(tags=[Tags.security])
+
+        self.assertFalse(any(error.id == "accounts.E001" for error in errors))
