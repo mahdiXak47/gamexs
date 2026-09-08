@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Chip } from "@heroui/react";
 import Disclaimer from "@/components/Disclaimer";
 import GameGrid from "@/components/GameGrid";
-// import GameRecommendations from "@/components/GameRecommendations"; // temporarily hidden
 import Header from "@/components/Header";
 import HeroBanner from "@/components/HeroBanner";
 import JsonLd from "@/components/JsonLd";
@@ -94,9 +93,6 @@ export default async function Home({
 
       {/* Hero Banner */}
       <HeroBanner games={featuredGames} />
-
-      {/* Game Recommendations — temporarily hidden
-      <GameRecommendations /> */}
 
       {/* Top 10 Trending */}
       <TopGames games={topGames} />

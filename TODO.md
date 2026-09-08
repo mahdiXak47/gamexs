@@ -55,9 +55,8 @@
 
 ## feedbacks
 
-- The AI recommendation section is currently hidden and the normal catalog
-  search remains the primary discovery flow. Decide whether to remove the dead
-  AI component/endpoint or replace it with a specified non-AI experience.
+- The AI recommendation UI and unused streaming endpoint were removed; the
+  normal catalog search is the primary discovery flow.
 - The wishlist mutation rate limit is implemented at 30 requests per minute
   per authenticated user.
 
