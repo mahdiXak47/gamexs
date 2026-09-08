@@ -17,6 +17,9 @@ SEO_MONITOR_PUBLISHER_SLUG=sony \
 node ops/seo-monitor.mjs
 ```
 
+The monitor checks status and latency, and also rejects streamed `404`/`500`
+documents or `noindex` responses that incorrectly arrive with HTTP `200`.
+
 Set `SEO_ALERT_WEBHOOK` to a team webhook and keep the representative slugs
 pointing to known live pages. The check covers the homepage, robots, both
 sitemaps, one game, publisher, genre, PS Plus tier, and purchase-type page.
