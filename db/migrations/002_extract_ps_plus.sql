@@ -91,7 +91,7 @@ JOIN inserted pp
 JOIN price_history ph ON ph.listing_id = s.old_listing_id
 ON CONFLICT (ps_plus_id, scraped_at) DO NOTHING;
 
--- ── 5. Remove from games (cascades to listings + price_history) ───────────────
+-- ── 5. Remove from ps5_games (cascades to listings + price_history) ──────────
 
 DELETE FROM ps5_games
 WHERE title ILIKE '%playstation plus%'
