@@ -4,7 +4,7 @@ from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.contrib.auth.forms import AdminPasswordChangeForm, ReadOnlyPasswordHashField
 from django.core.exceptions import ValidationError
 
-from .models import User
+from .models import EmailVerificationToken, OTPCode, User
 
 
 class UserCreationForm(forms.ModelForm):
@@ -78,3 +78,21 @@ class UserAdmin(BaseUserAdmin):
             ),
         }),
     )
+
+
+@admin.register(OTPCode)
+class OTPCodeAdmin(admin.ModelAdmin):
+    list_display = ("phone_number", "purpose", "created_at", "expires_at", "is_used", "attempts")
+    list_filter = ("purpose", "is_used", "created_at")
+    search_fields = ("phone_number",)
+    readonly_fields = ("created_at",)
+    ordering = ("-created_at",)
+
+
+@admin.register(EmailVerificationToken)
+class EmailVerificationTokenAdmin(admin.ModelAdmin):
+    list_display = ("user", "created_at", "expires_at", "is_used")
+    list_filter = ("is_used", "created_at")
+    search_fields = ("user__phone_number", "user__email", "token")
+    readonly_fields = ("token", "created_at")
+    ordering = ("-created_at",)

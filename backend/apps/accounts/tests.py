@@ -1,4 +1,11 @@
 from django.test import Client, TestCase
+from django.contrib import admin
+
+from .models import EmailVerificationToken, OTPCode, User
+from apps.game_accounts.models import PSNAccount
+from apps.orders.models import CartItem, Order
+from apps.tickets.models import Ticket, TicketMessage
+from apps.wishlist.models import WishlistItem
 
 
 class CsrfProtectionTests(TestCase):
@@ -55,3 +62,20 @@ class CsrfProtectionTests(TestCase):
         )
         # Passed CSRF; 401 because there is no valid auth (not a CSRF 403).
         self.assertNotEqual(with_csrf.status_code, 403)
+
+
+class AdminRegistrationTests(TestCase):
+    def test_user_facing_models_are_registered_in_admin(self):
+        for model in (
+            User,
+            OTPCode,
+            EmailVerificationToken,
+            CartItem,
+            Order,
+            Ticket,
+            TicketMessage,
+            WishlistItem,
+            PSNAccount,
+        ):
+            with self.subTest(model=model.__name__):
+                self.assertIn(model, admin.site._registry)

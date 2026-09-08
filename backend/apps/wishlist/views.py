@@ -5,10 +5,16 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from .models import WishlistItem
+from .throttles import WishlistRateThrottle
 
 
 class WishlistView(APIView):
     permission_classes = [IsAuthenticated]
+
+    def get_throttles(self):
+        if self.request.method == "POST":
+            return [WishlistRateThrottle()]
+        return []
 
     def get(self, request):
         with connection.cursor() as cursor:
@@ -57,6 +63,11 @@ class WishlistView(APIView):
 
 class WishlistItemView(APIView):
     permission_classes = [IsAuthenticated]
+
+    def get_throttles(self):
+        if self.request.method == "DELETE":
+            return [WishlistRateThrottle()]
+        return []
 
     def delete(self, request, pk):
         try:
