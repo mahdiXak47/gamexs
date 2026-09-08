@@ -68,6 +68,10 @@ SCRAPER_INTERVAL_SECONDS=86400
 command: ["python", "runner.py"]
 ```
 
+`k8s/scraper-deployment-reference.yaml` records the corresponding
+secret-backed Deployment shape for review. It is intentionally a reference;
+Darkube/Helm remains the production source of truth.
+
 The interval is configurable for operational needs, but a plain one-shot
 process in a Deployment is not sufficient because Kubernetes would restart it
 continuously without a defined schedule. The runner stops its active pipeline

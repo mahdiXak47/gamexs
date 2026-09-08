@@ -1,0 +1,84 @@
+# Reference manifest only.
+#
+# Production Deployments are managed by Darkube/Helm. Keep the equivalent
+# values in that source of truth and do not apply this file directly without
+# reconciling its image tag, secret keys, and namespace with the release.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: scraper
+  namespace: mahdixak-gamexs
+  labels:
+    app: scraper
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: scraper
+  template:
+    metadata:
+      labels:
+        app: scraper
+    spec:
+      terminationGracePeriodSeconds: 120
+      containers:
+        - name: scraper
+          image: registry.hamdocker.ir/mahdixak/gamexs-scraper:latest
+          imagePullPolicy: Always
+
+          # runner.py starts scrape_all.sh, waits for it to finish, and handles
+          # SIGTERM so a rollout does not leave a scrape subprocess behind.
+          command: ["python", "runner.py"]
+
+          env:
+            - name: SCRAPER_INTERVAL_SECONDS
+              value: "86400"
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: gamexs-secret-envs
+                  key: DATABASE_URL
+            - name: IGDB_CLIENT_ID
+              valueFrom:
+                secretKeyRef:
+                  name: gamexs-secret-envs
+                  key: IGDB_CLIENT_ID
+            - name: IGDB_CLIENT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: gamexs-secret-envs
+                  key: IGDB_CLIENT_SECRET
+            - name: S3_ENDPOINT_URL
+              valueFrom:
+                secretKeyRef:
+                  name: gamexs-secret-envs
+                  key: S3_ENDPOINT_URL
+            - name: S3_ACCESS_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: gamexs-secret-envs
+                  key: S3_ACCESS_KEY
+            - name: S3_SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: gamexs-secret-envs
+                  key: S3_SECRET_KEY
+            - name: S3_BUCKET
+              valueFrom:
+                secretKeyRef:
+                  name: gamexs-secret-envs
+                  key: S3_BUCKET
+            - name: HTTPS_PROXY
+              value: "http://custom-xray.mahdixak-gamexs.svc:10809"
+            - name: NO_PROXY
+              value: "gamexs-db.mahdixak-gamexs.svc,localhost,127.0.0.1,10.0.0.0/8"
+
+          resources:
+            requests:
+              cpu: "250m"
+              memory: "256Mi"
+            limits:
+              cpu: "1000m"
+              memory: "512Mi"
