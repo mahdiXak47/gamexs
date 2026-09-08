@@ -1,9 +1,15 @@
+# DEPRECATED REFERENCE — production uses the Darkube/Helm-managed Deployment
+# in scraper-deployment-reference.yaml. Keep this suspended so applying the
+# historical manifest cannot schedule the obsolete one-shot controller.
 apiVersion: batch/v1
 kind: CronJob
 metadata:
   name: gamexs-scraper
   namespace: mahdixak-gamexs
+  annotations:
+    gamexs.ir/deprecated: "true"
 spec:
+  suspend: true
   # 1:00 AM Tehran time = 21:30 UTC (Iran is UTC+3:30).
   # Adjust if your cluster runs in a different timezone.
   schedule: "30 21 * * *"
