@@ -21,6 +21,9 @@ jobs:
         with:
           node-version: 20
 
+      - name: Test monitor failure detection
+        run: npm run test:seo-monitor
+
       - name: Check public SEO routes
         env:
           SEO_BASE_URL: ${{ vars.SEO_BASE_URL || 'https://gamexs.ir' }}
