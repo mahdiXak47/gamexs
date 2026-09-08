@@ -135,7 +135,7 @@
 
 ## Remaining Priority 4 — Product Feed
 
-- [ ] Scope Google Merchant Center eligibility and policy requirements for a comparison-only site that links out to sellers.
+- [ ] Scope Google Merchant Center eligibility and policy requirements for a comparison-only site that links out to sellers. Current policy review is a no-go for the existing model: Google requires direct purchase on the site and excludes marketplaces where other businesses sell; keep the feed disabled unless Google confirms an eligible comparison-service setup.
 - [ ] Build a Google Merchant Center product feed from the same DB-backed product data used by the sitemap, if policy review confirms it is suitable.
 - [ ] Keep GameXS product schema aligned with Product snippet / aggregator eligibility; do not add merchant-listing-only fields that imply checkout happens on GameXS unless policy review confirms eligibility.
 

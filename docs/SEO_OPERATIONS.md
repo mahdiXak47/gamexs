@@ -66,6 +66,22 @@ for a comparison-only site that sends customers to third-party sellers before
 enabling or submitting it. If approved, submit the feed and monitor policy
 status. The feed must not imply that GameXS accepts payment or fulfills orders.
 
+### Current policy gate (reviewed 2026-09-08)
+
+Google's [online store URL requirements](https://support.google.com/merchants/answer/12160471)
+say that a site must not be a marketplace where other businesses sell their
+products and that customers must be able to buy directly from the site without
+being redirected elsewhere. GameXS is intentionally a comparison service: it
+does not accept payment or fulfill orders, and every offer links to the
+seller's site. On the current product model, this is therefore a **no-go for
+Merchant Center product feeds** unless Google provides written confirmation of
+an eligible comparison-service setup or the business model changes.
+
+Keep `MERCHANT_FEED_ENABLED=false` and do not add merchant-only fields that
+suggest GameXS is the seller. Organic Product/Offer structured data may remain
+in use where it accurately describes the comparison page; it is not evidence
+that a Merchant Center feed is eligible.
+
 ## Off-site work
 
 Community mentions, directory submissions, Telegram/forum outreach, and
