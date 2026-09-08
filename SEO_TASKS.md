@@ -14,7 +14,8 @@
   the homepage, sitemap, one
   game, one publisher, one genre, one PS Plus tier, one purchase-type page,
   `/robots.txt`, and `/sitemap.xml`; alert on non-2xx responses and high
-  latency.
+  latency. A GitHub Actions workflow is prepared; activate it after merge and
+  configure its production variables/webhook secret.
 - [ ] [P0] Run “Test live URL” on representative historical failures, then
   click “Validate fix” after the outage is confirmed resolved. Do not manually
   request indexing for all 65 URLs; record validation results and crawl dates.

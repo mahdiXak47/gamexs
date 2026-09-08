@@ -6,7 +6,9 @@ repository change alone.
 ## Availability monitoring
 
 Run the public monitor from an external scheduler, not inside the same
-frontend cluster:
+frontend cluster. The repository includes
+`.github/workflows/seo-monitor.yml`, which runs every 30 minutes and supports
+manual dispatch:
 
 ```bash
 SEO_BASE_URL=https://gamexs.ir \
@@ -18,6 +20,10 @@ node ops/seo-monitor.mjs
 Set `SEO_ALERT_WEBHOOK` to a team webhook and keep the representative slugs
 pointing to known live pages. The check covers the homepage, robots, both
 sitemaps, one game, publisher, genre, PS Plus tier, and purchase-type page.
+Configure `SEO_BASE_URL` and representative slugs as repository variables when
+the production catalog differs from the defaults. Configure
+`SEO_ALERT_WEBHOOK` as an Actions secret, then enable the workflow after it is
+merged into the repository's default branch.
 
 ## Search Console recovery
 

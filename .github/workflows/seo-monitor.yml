@@ -1,0 +1,33 @@
+name: SEO availability monitor
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Check out monitor
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Check public SEO routes
+        env:
+          SEO_BASE_URL: ${{ vars.SEO_BASE_URL || 'https://gamexs.ir' }}
+          SEO_MONITOR_GAME_SLUG: ${{ vars.SEO_MONITOR_GAME_SLUG || 'clair-obscur-expedition-33' }}
+          SEO_MONITOR_PUBLISHER_SLUG: ${{ vars.SEO_MONITOR_PUBLISHER_SLUG || 'sony' }}
+          SEO_MONITOR_GENRE_SLUG: ${{ vars.SEO_MONITOR_GENRE_SLUG || 'shooter' }}
+          SEO_MONITOR_PS_PLUS_TIER: ${{ vars.SEO_MONITOR_PS_PLUS_TIER || 'essential' }}
+          SEO_MONITOR_PURCHASE_TYPE: ${{ vars.SEO_MONITOR_PURCHASE_TYPE || 'capacity-2' }}
+          SEO_ALERT_WEBHOOK: ${{ secrets.SEO_ALERT_WEBHOOK }}
+        run: node ops/seo-monitor.mjs
