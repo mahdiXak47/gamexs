@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useEffectEvent, useRef, useState } from "react";
 import Link from "next/link";
 import Image from "./RemoteImage";
 import type { UpcomingGame } from "@/lib/types";
@@ -48,7 +48,7 @@ export default function UpcomingGames({ games }: { games: UpcomingGame[] }) {
     resumeTimer.current = setTimeout(() => setPaused(false), 6000);
   }, []);
 
-  const switchTo = useCallback((index: number) => {
+  const switchTo = (index: number) => {
     if (index === current) return;
     if (!reducedMotion && backgroundUrl) {
       if (backgroundFadeTimer.current) clearTimeout(backgroundFadeTimer.current);
@@ -56,7 +56,8 @@ export default function UpcomingGames({ games }: { games: UpcomingGame[] }) {
       backgroundFadeTimer.current = setTimeout(() => setPreviousBackgroundUrl(null), 420);
     }
     setCurrent(index);
-  }, [backgroundUrl, current, reducedMotion]);
+  };
+  const switchToFromEffect = useEffectEvent(switchTo);
 
   const goTo = (index: number) => {
     switchTo(index);
@@ -73,10 +74,10 @@ export default function UpcomingGames({ games }: { games: UpcomingGame[] }) {
   useEffect(() => {
     if (paused || reducedMotion || slides.length <= 1) return;
     const id = setInterval(() => {
-      switchTo((current + 1) % slides.length);
+      switchToFromEffect((current + 1) % slides.length);
     }, 5000);
     return () => clearInterval(id);
-  }, [current, paused, reducedMotion, slides.length, switchTo]);
+  }, [current, paused, reducedMotion, slides.length]);
 
   if (!game) return null;
 
