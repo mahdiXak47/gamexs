@@ -13,6 +13,13 @@ const ROUTES = [
   { name: "ps-plus", path: "/ps-plus" },
 ];
 
+const SEO_ROUTES = [
+  { name: "search", path: "/search" },
+  { name: "genre", path: "/genres/shooter" },
+  { name: "publisher", path: "/publishers/11-bit-studios" },
+  { name: "purchase type", path: "/capacity-2" },
+];
+
 async function collectPageMetrics(page: Page) {
   return page.evaluate(async () => {
     const metrics: Record<string, number> = {};
@@ -67,6 +74,20 @@ test("homepage LCP stays conservative", async ({ page }) => {
   // Conservative: fail only on a clearly broken page.
   expect(metrics.lcp, "homepage LCP should be < 6000ms").toBeLessThan(6000);
   expect(pageErrors, "homepage page errors").toEqual([]);
+});
+
+test("indexable SEO route classes stay conservative", async ({ page }) => {
+  for (const route of SEO_ROUTES) {
+    const pageErrors: string[] = [];
+    const onError = (err: Error) => pageErrors.push(err.message);
+    page.on("pageerror", onError);
+    const resp = await page.goto(route.path, { waitUntil: "networkidle" });
+    expect(resp?.status(), `${route.name} status`).toBeLessThan(500);
+    const metrics = await collectPageMetrics(page);
+    expect(metrics.lcp, `${route.name} LCP should be < 6000ms`).toBeLessThan(6000);
+    expect(pageErrors, `${route.name} page errors`).toEqual([]);
+    page.off("pageerror", onError);
+  }
 });
 
 test("game detail page loads a real slug from the homepage grid", async ({ page }) => {
