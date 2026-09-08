@@ -59,11 +59,9 @@
 
 ## Future features
 
-- Configure and verify the production SMTP mail server and complete staff-side
-  support replies; ticket creation and the user-facing support section already
-  exist. Verification-email endpoints now return a failure response when SMTP
-  delivery is rejected, and Django admin now enforces staff-originated replies
-  and ticket status transitions. Production credentials and an end-to-end
-  delivery/support test remain.
+- Configure and verify the production SMTP mail server. The user-facing support
+  flow now covers ticket creation, ticket detail, and user replies; Django admin
+  enforces staff-originated replies and ticket status transitions. Production
+  credentials and an end-to-end delivery/support test remain.
 - Seller admin panel for submitting and managing prices directly (alternative
   to scraping), with auth + approval/moderation workflow.

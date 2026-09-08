@@ -49,6 +49,20 @@ interface Ticket {
   category: string
   status: string
   created_at: string
+  updated_at?: string
+}
+
+interface TicketMessage {
+  id: number
+  sender_id: number
+  is_staff_reply: boolean
+  body: string
+  created_at: string
+}
+
+interface TicketDetail extends Ticket {
+  related_game_id?: number | null
+  messages: TicketMessage[]
 }
 
 // ─── Label maps ─────────────────────────────────────────────────────────────
@@ -68,6 +82,13 @@ const TICKET_STATUS: Record<string, { label: string; cls: string }> = {
   waiting_user:  { label: 'منتظر پاسخ شما',  cls: 'text-purple-700 bg-purple-50 border-purple-200' },
   resolved:      { label: 'حل شده',           cls: 'text-green-700 bg-green-50 border-green-200' },
   closed:        { label: 'بسته',             cls: 'text-gray-500 bg-gray-50 border-gray-200' },
+}
+
+const TICKET_CATEGORY: Record<string, string> = {
+  pre_purchase: 'قبل از خرید',
+  post_purchase: 'بعد از خرید',
+  account: 'حساب کاربری',
+  general: 'عمومی',
 }
 
 const PRODUCT_MAP: Record<string, string> = {
@@ -593,9 +614,21 @@ function PsnSection() {
 // ─── Section: Tickets ────────────────────────────────────────────────────────
 
 function TicketsSection() {
+  const toast = useToast()
   const [tickets, setTickets] = useState<Ticket[]>([])
   const [loadState, setLoadState] = useState<LoadState>('loading')
   const [error, setError] = useState<string | null>(null)
+  const [selectedTicketId, setSelectedTicketId] = useState<number | null>(null)
+  const [ticketDetail, setTicketDetail] = useState<TicketDetail | null>(null)
+  const [detailState, setDetailState] = useState<LoadState>('ready')
+  const [detailError, setDetailError] = useState<string | null>(null)
+  const [newTicketOpen, setNewTicketOpen] = useState(false)
+  const [subject, setSubject] = useState('')
+  const [category, setCategory] = useState('general')
+  const [message, setMessage] = useState('')
+  const [reply, setReply] = useState('')
+  const [formError, setFormError] = useState<string | null>(null)
+  const [saving, setSaving] = useState(false)
 
   const loadTickets = useCallback(async () => {
     setLoadState('loading')
@@ -618,50 +651,232 @@ function TicketsSection() {
     void Promise.resolve().then(loadTickets)
   }, [loadTickets])
 
+  const loadTicket = useCallback(async (id: number) => {
+    setDetailState('loading')
+    setDetailError(null)
+    try {
+      const res = await api.get(`/api/tickets/${id}/`)
+      const data = await res.json().catch(() => null)
+      if (!res.ok) {
+        throw new Error(extractApiError(data))
+      }
+      setTicketDetail(data)
+      setDetailState('ready')
+    } catch (err) {
+      setDetailError(err instanceof Error ? err.message : 'خطا در اتصال به سرور')
+      setDetailState('error')
+    }
+  }, [])
+
+  useEffect(() => {
+    if (selectedTicketId === null) return
+    void Promise.resolve().then(() => loadTicket(selectedTicketId))
+  }, [loadTicket, selectedTicketId])
+
+  async function createTicket(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault()
+    if (saving) return
+    const trimmedSubject = subject.trim()
+    const trimmedMessage = message.trim()
+    if (!trimmedSubject || !trimmedMessage) {
+      setFormError('موضوع و متن پیام را وارد کنید.')
+      return
+    }
+
+    setSaving(true)
+    setFormError(null)
+    try {
+      const res = await api.post('/api/tickets/', {
+        subject: trimmedSubject,
+        category,
+        body: trimmedMessage,
+      })
+      const data = await res.json().catch(() => null)
+      if (!res.ok) throw new Error(extractApiError(data))
+
+      setSubject('')
+      setCategory('general')
+      setMessage('')
+      setNewTicketOpen(false)
+      await loadTickets()
+      if (typeof data?.id === 'number') setSelectedTicketId(data.id)
+      toast.success('تیکت شما ثبت شد')
+    } catch (err) {
+      setFormError(err instanceof Error ? err.message : 'ثبت تیکت انجام نشد.')
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  async function sendReply(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault()
+    if (saving || selectedTicketId === null || !reply.trim()) return
+
+    setSaving(true)
+    setDetailError(null)
+    try {
+      const res = await api.post(`/api/tickets/${selectedTicketId}/`, { body: reply.trim() })
+      const data = await res.json().catch(() => null)
+      if (!res.ok) throw new Error(extractApiError(data))
+
+      setReply('')
+      await Promise.all([loadTicket(selectedTicketId), loadTickets()])
+      toast.success('پاسخ شما ثبت شد')
+    } catch (err) {
+      setDetailError(err instanceof Error ? err.message : 'ارسال پاسخ انجام نشد.')
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  function openTicket(id: number) {
+    setNewTicketOpen(false)
+    setSelectedTicketId(id)
+  }
+
+  function closeTicketDetail() {
+    setSelectedTicketId(null)
+    setTicketDetail(null)
+    setDetailError(null)
+  }
+
   const loading = loadState === 'loading'
   const failed = loadState === 'error'
 
-  if (loading && tickets.length === 0) return <div className="flex flex-col gap-3">{[1,2].map(i => <Skeleton key={i} className="h-16" />)}</div>
-
-  if (failed && tickets.length === 0) return (
-    <SectionError message={error ?? 'امکان دریافت تیکت‌ها وجود ندارد.'} onRetry={loadTickets} retrying={loading} />
-  )
-
-  if (tickets.length === 0) return (
-    <div className="bg-white border border-gray-200 rounded-2xl flex flex-col items-center justify-center gap-4 flex-1 min-h-64 text-center">
-      <div className="w-12 h-12 flex items-center justify-center text-gray-300"><Icons.tickets /></div>
-      <p className="text-sm text-gray-500">تیکتی وجود ندارد</p>
-    </div>
-  )
-
   return (
-    <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden">
-      {failed && error && (
-        <div className="p-4 pb-0">
-          <SectionErrorBanner message={error} onRetry={loadTickets} retrying={loading} />
-        </div>
-      )}
-      {loading && tickets.length > 0 && (
-        <div className="px-4 pt-4">
-          <SectionRefreshing />
-        </div>
-      )}
-      <ul className="divide-y divide-gray-50">
-        {tickets.map(t => {
-          const s = TICKET_STATUS[t.status] ?? { label: t.status, cls: 'text-gray-500 bg-gray-50 border-gray-200' }
-          return (
-            <li key={t.id} className="flex items-center justify-between gap-4 px-5 py-4">
-              <div className="min-w-0">
-                <p className="text-sm font-semibold text-gray-800 truncate">{t.subject}</p>
-                <p className="text-xs text-gray-400 mt-0.5">{formatDate(t.created_at)}</p>
+    <div className="flex flex-col flex-1 gap-4">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <p className="text-xs text-gray-500">گزارش خطا، پرسش یا پیگیری خود را از این بخش ارسال کنید.</p>
+        <button
+          type="button"
+          onClick={() => { setNewTicketOpen(true); closeTicketDetail() }}
+          className="inline-flex min-h-10 items-center justify-center rounded-xl bg-[#003087] px-4 text-xs font-bold text-white transition-opacity hover:opacity-90 cursor-pointer"
+        >
+          تیکت جدید
+        </button>
+      </div>
+
+      {newTicketOpen ? (
+        <form onSubmit={createTicket} className="bg-white border border-gray-200 rounded-2xl p-5 flex flex-col gap-4">
+          <div className="flex items-center justify-between gap-3">
+            <h3 className="text-sm font-bold text-gray-900">ثبت تیکت جدید</h3>
+            <button type="button" onClick={() => { setNewTicketOpen(false); setFormError(null) }} className="text-xs font-semibold text-gray-500 hover:text-gray-800 cursor-pointer">
+              بازگشت
+            </button>
+          </div>
+          <label className="flex flex-col gap-1.5 text-xs font-semibold text-gray-700">
+            موضوع
+            <input
+              value={subject}
+              onChange={(event) => setSubject(event.target.value)}
+              maxLength={300}
+              required
+              className={INPUT_CLS}
+              placeholder="مثلاً گزارش خطای قیمت"
+            />
+          </label>
+          <label className="flex flex-col gap-1.5 text-xs font-semibold text-gray-700">
+            دسته‌بندی
+            <select value={category} onChange={(event) => setCategory(event.target.value)} className={INPUT_CLS}>
+              {Object.entries(TICKET_CATEGORY).map(([value, label]) => <option key={value} value={value}>{label}</option>)}
+            </select>
+          </label>
+          <label className="flex flex-col gap-1.5 text-xs font-semibold text-gray-700">
+            متن پیام
+            <textarea
+              value={message}
+              onChange={(event) => setMessage(event.target.value)}
+              required
+              rows={5}
+              className={`${INPUT_CLS} resize-y leading-7`}
+              placeholder="جزئیات درخواست خود را بنویسید..."
+            />
+          </label>
+          {formError && <p className="text-xs text-red-600" role="alert">{formError}</p>}
+          <button type="submit" disabled={saving} className="self-start min-h-10 rounded-xl bg-[#003087] px-5 text-xs font-bold text-white cursor-pointer disabled:cursor-wait disabled:opacity-60">
+            {saving ? 'در حال ثبت...' : 'ثبت تیکت'}
+          </button>
+        </form>
+      ) : selectedTicketId !== null ? (
+        <div className="flex flex-col gap-4">
+          <button type="button" onClick={closeTicketDetail} className="self-start text-xs font-semibold text-[#003087] hover:underline cursor-pointer">
+            ← بازگشت به فهرست تیکت‌ها
+          </button>
+          {detailState === 'loading' && <div className="flex flex-col gap-3"><Skeleton className="h-20" /><Skeleton className="h-32" /></div>}
+          {detailState === 'error' && <SectionError message={detailError ?? 'امکان دریافت جزئیات تیکت وجود ندارد.'} onRetry={() => void loadTicket(selectedTicketId)} />}
+          {ticketDetail && (
+            <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+              <div className="px-5 py-4 border-b border-gray-100 flex flex-wrap items-start justify-between gap-3">
+                <div>
+                  <h3 className="text-sm font-bold text-gray-900">{ticketDetail.subject}</h3>
+                  <p className="text-xs text-gray-400 mt-1">{TICKET_CATEGORY[ticketDetail.category] ?? ticketDetail.category} · {formatDate(ticketDetail.created_at)}</p>
+                </div>
+                <span className={`text-xs font-medium px-2.5 py-1 rounded-full border shrink-0 ${(TICKET_STATUS[ticketDetail.status] ?? { cls: 'text-gray-500 bg-gray-50 border-gray-200' }).cls}`}>
+                  {(TICKET_STATUS[ticketDetail.status] ?? { label: ticketDetail.status }).label}
+                </span>
               </div>
-              <span className={`text-xs font-medium px-2.5 py-1 rounded-full border shrink-0 ${s.cls}`}>
-                {s.label}
-              </span>
-            </li>
-          )
-        })}
-      </ul>
+              <div className="p-5 flex flex-col gap-3">
+                {ticketDetail.messages.map((item) => (
+                  <div key={item.id} className={`rounded-2xl px-4 py-3 ${item.is_staff_reply ? 'bg-blue-50 border border-blue-100' : 'bg-gray-50 border border-gray-100'}`}>
+                    <div className="flex items-center justify-between gap-3 mb-1.5">
+                      <span className="text-xs font-bold text-gray-700">{item.is_staff_reply ? 'پشتیبانی GameXS' : 'شما'}</span>
+                      <time className="text-[11px] text-gray-400" dateTime={item.created_at}>{formatDate(item.created_at)}</time>
+                    </div>
+                    <p className="text-sm leading-7 text-gray-700 whitespace-pre-wrap">{item.body}</p>
+                  </div>
+                ))}
+              </div>
+              {detailError && <p className="px-5 pb-3 text-xs text-red-600" role="alert">{detailError}</p>}
+              {ticketDetail.status === 'closed' ? (
+                <p className="border-t border-gray-100 px-5 py-4 text-xs text-gray-500">این تیکت بسته شده است.</p>
+              ) : (
+                <form onSubmit={sendReply} className="border-t border-gray-100 p-5 flex flex-col gap-3">
+                  <label className="flex flex-col gap-1.5 text-xs font-semibold text-gray-700">
+                    پاسخ شما
+                    <textarea value={reply} onChange={(event) => setReply(event.target.value)} rows={4} required className={`${INPUT_CLS} resize-y leading-7`} placeholder="پیام خود را بنویسید..." />
+                  </label>
+                  <button type="submit" disabled={saving || !reply.trim()} className="self-start min-h-10 rounded-xl bg-[#003087] px-5 text-xs font-bold text-white cursor-pointer disabled:cursor-wait disabled:opacity-60">
+                    {saving ? 'در حال ارسال...' : 'ارسال پاسخ'}
+                  </button>
+                </form>
+              )}
+            </div>
+          )}
+        </div>
+      ) : (
+        <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+          {failed && error && <div className="p-4 pb-0"><SectionErrorBanner message={error} onRetry={loadTickets} retrying={loading} /></div>}
+          {loading && tickets.length > 0 && <div className="px-4 pt-4"><SectionRefreshing /></div>}
+          {loading && tickets.length === 0 ? (
+            <div className="p-5 flex flex-col gap-3">{[1, 2].map(i => <Skeleton key={i} className="h-16" />)}</div>
+          ) : failed && tickets.length === 0 ? (
+            <div className="p-5"><SectionError message={error ?? 'امکان دریافت تیکت‌ها وجود ندارد.'} onRetry={loadTickets} retrying={loading} /></div>
+          ) : tickets.length === 0 ? (
+            <div className="flex flex-col items-center justify-center gap-4 min-h-64 text-center px-5">
+              <div className="w-12 h-12 flex items-center justify-center text-gray-300"><Icons.tickets /></div>
+              <p className="text-sm text-gray-500">تیکتی وجود ندارد</p>
+              <button type="button" onClick={() => setNewTicketOpen(true)} className="text-sm text-[#003087] font-semibold hover:underline cursor-pointer">ثبت اولین تیکت</button>
+            </div>
+          ) : (
+            <ul className="divide-y divide-gray-50">
+              {tickets.map(t => {
+                const s = TICKET_STATUS[t.status] ?? { label: t.status, cls: 'text-gray-500 bg-gray-50 border-gray-200' }
+                return (
+                  <li key={t.id}>
+                    <button type="button" onClick={() => openTicket(t.id)} className="w-full flex items-center justify-between gap-4 px-5 py-4 text-right hover:bg-gray-50 transition-colors cursor-pointer">
+                      <div className="min-w-0">
+                        <p className="text-sm font-semibold text-gray-800 truncate">{t.subject}</p>
+                        <p className="text-xs text-gray-400 mt-0.5">{TICKET_CATEGORY[t.category] ?? t.category} · {formatDate(t.updated_at ?? t.created_at)}</p>
+                      </div>
+                      <span className={`text-xs font-medium px-2.5 py-1 rounded-full border shrink-0 ${s.cls}`}>{s.label}</span>
+                    </button>
+                  </li>
+                )
+              })}
+            </ul>
+          )}
+        </div>
+      )}
     </div>
   )
 }

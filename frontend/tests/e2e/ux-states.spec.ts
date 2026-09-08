@@ -148,3 +148,94 @@ test("legacy game slug redirects to its canonical catalog URL", async ({ page })
   expect(new URL(page.url()).pathname).toBe("/games/grand-theft-auto-the-trilogy");
   await expect(page.getByRole("heading", { name: "Grand Theft Auto: The Trilogy" })).toBeVisible();
 });
+
+test("account support can create, open, and reply to a ticket", async ({ page }) => {
+  let ticketCreated = false;
+  let replied = false;
+
+  await page.route("**/api/profile/", async (route) => {
+    await route.fulfill({
+      status: 200,
+      contentType: "application/json",
+      body: JSON.stringify({
+        id: 1,
+        phone_number: "09123456789",
+        first_name: "کاربر",
+        last_name: "آزمایشی",
+        email: "test@example.com",
+        is_phone_verified: true,
+        is_email_verified: true,
+      }),
+    });
+  });
+
+  await page.route("**/api/tickets/**", async (route) => {
+    const request = route.request();
+    const pathname = new URL(request.url()).pathname;
+
+    if (pathname === "/api/tickets/" && request.method() === "GET") {
+      await route.fulfill({
+        status: 200,
+        contentType: "application/json",
+        body: JSON.stringify(ticketCreated ? [{ id: 7, subject: "گزارش خطا", category: "general", status: "open", created_at: "2026-09-08T10:00:00Z", updated_at: "2026-09-08T10:00:00Z" }] : []),
+      });
+      return;
+    }
+
+    if (pathname === "/api/tickets/" && request.method() === "POST") {
+      ticketCreated = true;
+      await route.fulfill({
+        status: 201,
+        contentType: "application/json",
+        body: JSON.stringify({ id: 7, subject: "گزارش خطا", status: "open" }),
+      });
+      return;
+    }
+
+    if (pathname === "/api/tickets/7/" && request.method() === "POST") {
+      replied = true;
+      await route.fulfill({
+        status: 201,
+        contentType: "application/json",
+        body: JSON.stringify({ id: 9, body: "جزئیات بیشتر", created_at: "2026-09-08T10:05:00Z" }),
+      });
+      return;
+    }
+
+    if (pathname === "/api/tickets/7/" && request.method() === "GET") {
+      await route.fulfill({
+        status: 200,
+        contentType: "application/json",
+        body: JSON.stringify({
+          id: 7,
+          subject: "گزارش خطا",
+          category: "general",
+          status: replied ? "waiting_user" : "open",
+          created_at: "2026-09-08T10:00:00Z",
+          updated_at: replied ? "2026-09-08T10:05:00Z" : "2026-09-08T10:00:00Z",
+          messages: [
+            { id: 8, sender_id: 1, is_staff_reply: false, body: "مشکل در نمایش قیمت", created_at: "2026-09-08T10:00:00Z" },
+            ...(replied ? [{ id: 9, sender_id: 1, is_staff_reply: false, body: "جزئیات بیشتر", created_at: "2026-09-08T10:05:00Z" }] : []),
+          ],
+        }),
+      });
+      return;
+    }
+
+    await route.fallback();
+  });
+
+  await page.goto("/account", { waitUntil: "domcontentloaded" });
+  await page.getByRole("button", { name: "تیکت‌های پشتیبانی" }).first().click();
+  await page.getByRole("button", { name: "تیکت جدید" }).click();
+  await page.getByLabel("موضوع").fill("گزارش خطا");
+  await page.getByLabel("متن پیام").fill("مشکل در نمایش قیمت");
+  await page.getByRole("button", { name: "ثبت تیکت" }).click();
+
+  await expect(page.getByRole("heading", { name: "گزارش خطا" })).toBeVisible();
+  await expect(page.getByText("مشکل در نمایش قیمت")).toBeVisible();
+
+  await page.getByLabel("پاسخ شما").fill("جزئیات بیشتر");
+  await page.getByRole("button", { name: "ارسال پاسخ" }).click();
+  await expect(page.getByText("جزئیات بیشتر")).toBeVisible();
+});
