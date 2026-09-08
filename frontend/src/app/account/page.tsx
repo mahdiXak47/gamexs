@@ -488,29 +488,40 @@ function WishlistSection() {
             : null
         const initial = item.game_title?.trim().split(/\s+/)[0]?.[0]?.toUpperCase() ?? '?'
         const deleting = deletingId === item.id
+        const cardContent = (
+          <>
+            <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-gray-100 shadow-sm">
+              {cover ? (
+                <Image
+                  src={cover}
+                  alt={item.game_title}
+                  fill
+                  sizes="(max-width: 640px) 50vw, 160px"
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+              ) : (
+                <div className="w-full h-full flex items-center justify-center text-3xl font-bold text-gray-300 bg-gradient-to-br from-gray-100 to-gray-200">
+                  {initial}
+                </div>
+              )}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
+            </div>
+            <p className="mt-2 text-xs font-semibold text-gray-800 text-center line-clamp-2 leading-snug px-1">
+              {item.game_title}
+            </p>
+          </>
+        )
         return (
           <div key={item.id} className="relative group">
-            <Link href={item.game_slug ? `/games/${item.game_slug}` : '#'} className={`block ${deleting ? 'pointer-events-none opacity-60' : ''}`} aria-disabled={deleting}>
-              <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-gray-100 shadow-sm">
-                {cover ? (
-                  <Image
-                    src={cover}
-                    alt={item.game_title}
-                    fill
-                    sizes="(max-width: 640px) 50vw, 160px"
-                    className="object-cover transition-transform duration-300 group-hover:scale-105"
-                  />
-                ) : (
-                  <div className="w-full h-full flex items-center justify-center text-3xl font-bold text-gray-300 bg-gradient-to-br from-gray-100 to-gray-200">
-                    {initial}
-                  </div>
-                )}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
+            {item.game_slug ? (
+              <Link href={`/games/${item.game_slug}`} className={`block ${deleting ? 'pointer-events-none opacity-60' : ''}`} aria-disabled={deleting}>
+                {cardContent}
+              </Link>
+            ) : (
+              <div className="block cursor-default" aria-label="بازی حذف‌شده از فهرست بازی‌ها">
+                {cardContent}
               </div>
-              <p className="mt-2 text-xs font-semibold text-gray-800 text-center line-clamp-2 leading-snug px-1">
-                {item.game_title}
-              </p>
-            </Link>
+            )}
             <button
               onClick={() => removeItem(item.id)}
               disabled={deletingId !== null}
