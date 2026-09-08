@@ -233,6 +233,84 @@ export async function listGames(): Promise<GameSummary[]> {
   return rows.map(rowToGameSummary);
 }
 
+export interface SitemapGame {
+  slug: string;
+  title: string;
+  coverUrl: string | null;
+  screenshotUrl: string | null;
+  lastSeenAt: number | null;
+}
+
+interface SitemapGameRow {
+  slug: string;
+  title: string;
+  cover_url: string | null;
+  screenshot_ids: string[] | null;
+  last_seen_at: Date | null;
+}
+
+// Sitemap generation does not need current prices or purchase-type
+// aggregates. Keep it separate from listGames(), which serves the Merchant
+// Center feed and must retain those fields. This avoids scanning and
+// de-duplicating every price_history row on every sitemap request.
+export async function listSitemapGames(): Promise<SitemapGame[]> {
+  const { rows } = await query<SitemapGameRow>(`
+    SELECT
+      g.slug,
+      g.title,
+      g.cover_url,
+      g.screenshot_ids,
+      MAX(l.last_seen_at) AS last_seen_at
+    FROM ps5_games g
+    JOIN listings l ON l.game_id = g.id AND l.is_active
+    WHERE g.platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')
+      AND EXISTS (
+        SELECT 1
+        FROM price_history ph
+        WHERE ph.listing_id = l.id
+      )
+    GROUP BY g.id
+    ORDER BY g.title
+  `);
+
+  return rows.map((row) => ({
+    slug: row.slug,
+    title: row.title,
+    coverUrl: toCoverUrl(row.cover_url, row.slug),
+    screenshotUrl: firstS3ScreenshotUrl(row.screenshot_ids),
+    lastSeenAt: row.last_seen_at ? row.last_seen_at.getTime() : null,
+  }));
+}
+
+export interface CatalogAvailability {
+  genreLabel: string | null;
+  productType: ProductType;
+  tier: AccessTier | null;
+}
+
+// Used by sitemap generation to decide which landing pages have content.
+// Keep this as one small grouped query instead of invoking listGamesPage once
+// per genre and purchase-type page (each of which would rebuild latest prices).
+export async function listCatalogAvailability(): Promise<CatalogAvailability[]> {
+  const { rows } = await query<{
+    genre_label: string | null;
+    product_type: ProductType;
+    tier: AccessTier | null;
+  }>(`
+    SELECT g.genre_label, l.product_type, l.tier
+    FROM ps5_games g
+    JOIN listings l ON l.game_id = g.id AND l.is_active
+    WHERE g.platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')
+    GROUP BY g.genre_label, l.product_type, l.tier
+  `);
+
+  return rows.map((row) => ({
+    genreLabel: row.genre_label,
+    productType: row.product_type,
+    tier: row.tier,
+  }));
+}
+
 const SORT_CLAUSE: Record<SortOption, string> = {
   popular: "popularity_score DESC, store_count DESC, title ASC",
   newest: "created_at DESC",

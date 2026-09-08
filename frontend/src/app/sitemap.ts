@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getLastScrapedAt, listGames, listGamesPage, listPublisherRoutes } from "@/lib/games-repo";
+import { getLastScrapedAt, listCatalogAvailability, listPublisherRoutes, listSitemapGames } from "@/lib/games-repo";
 import { GENRES } from "@/lib/genres";
 import { getAllPsPlusPlans, TIER_SLUG } from "@/lib/ps-plus-repo";
 import { PURCHASE_TYPE_PAGES } from "@/lib/purchase-type-pages";
@@ -40,34 +40,19 @@ function deduplicateSitemapEntries(entries: MetadataRoute.Sitemap): MetadataRout
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [games, publisherRoutes, lastScrapedAt, psPlusPlans, indexableGenres, indexablePurchaseTypes] = await Promise.all([
-    listGames(),
+  const [games, publisherRoutes, lastScrapedAt, psPlusPlans, catalogAvailability] = await Promise.all([
+    listSitemapGames(),
     listPublisherRoutes(),
     getLastScrapedAt(),
     getAllPsPlusPlans(),
-    Promise.all(
-      GENRES.map(async (genre) => ({
-        genre,
-        result: await listGamesPage({ genre: genre.genre, page: 1, pageSize: 1, onlyWithListings: true }),
-      }))
-    ),
-    Promise.all(
-      PURCHASE_TYPE_PAGES.map(async (page) => ({
-        page,
-        result: await listGamesPage({
-          productType: page.productType,
-          tier: page.tier,
-          page: 1,
-          pageSize: 1,
-          onlyWithListings: true,
-        }),
-      }))
-    ),
+    listCatalogAvailability(),
   ]);
-  const availableGenres = indexableGenres.filter(({ result }) => result.total > 0).map(({ genre }) => genre);
-  const availablePurchaseTypes = indexablePurchaseTypes
-    .filter(({ result }) => result.total > 0)
-    .map(({ page }) => page);
+  const availableGenres = GENRES.filter((genre) => catalogAvailability.some((row) =>
+    row.genreLabel?.toLowerCase().includes(genre.genre.toLowerCase())
+  ));
+  const availablePurchaseTypes = PURCHASE_TYPE_PAGES.filter((page) => catalogAvailability.some((row) =>
+    row.productType === page.productType && row.tier === (page.tier ?? null)
+  ));
   const activePsPlusTiers = new Set(
     psPlusPlans.filter((plan) => plan.isActive).map((plan) => TIER_SLUG[plan.tier])
   );

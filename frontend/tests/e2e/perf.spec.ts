@@ -81,3 +81,27 @@ test("game detail page loads a real slug from the homepage grid", async ({ page 
   expect(pageErrors, "game detail page errors").toEqual([]);
   await expect(page.getByRole("heading", { name: "روند قیمت" })).toBeVisible();
 });
+
+test("sitemaps expose unique canonical URLs", async ({ request }) => {
+  const sitemapResponse = await request.get("/sitemap.xml");
+  expect(sitemapResponse.status(), "sitemap status").toBe(200);
+  expect(sitemapResponse.headers()["content-type"]).toContain("application/xml");
+  const sitemap = await sitemapResponse.text();
+  const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
+
+  expect(sitemapUrls.length, "sitemap should contain URLs").toBeGreaterThan(0);
+  expect(new Set(sitemapUrls).size, "sitemap URLs should be unique").toBe(sitemapUrls.length);
+  expect(sitemapUrls.every((url) => {
+    const parsed = new URL(url);
+    return !parsed.search && (parsed.pathname === "/" || !parsed.pathname.endsWith("/"));
+  })).toBe(true);
+  expect(sitemapUrls.map((url) => new URL(url).pathname)).not.toContain(
+    "/games/grand-theft-auto-the-trilogy-the-definitive-edition"
+  );
+
+  const imageSitemapResponse = await request.get("/image-sitemap.xml");
+  expect(imageSitemapResponse.status(), "image sitemap status").toBe(200);
+  expect(imageSitemapResponse.headers()["content-type"]).toContain("application/xml");
+  const imageSitemap = await imageSitemapResponse.text();
+  expect(imageSitemap).toContain("xmlns:image=");
+});

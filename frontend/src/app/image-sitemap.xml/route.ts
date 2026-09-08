@@ -1,4 +1,4 @@
-import { listGames } from "@/lib/games-repo";
+import { listSitemapGames } from "@/lib/games-repo";
 
 export const dynamic = "force-dynamic";
 
@@ -7,7 +7,7 @@ function escapeXml(value: string): string {
 }
 
 export async function GET() {
-  const games = await listGames();
+  const games = await listSitemapGames();
   const urls = games.map((game) => {
     const images = [game.coverUrl, game.screenshotUrl].filter((value): value is string => Boolean(value));
     if (!images.length) return "";
