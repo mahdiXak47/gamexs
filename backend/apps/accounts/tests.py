@@ -1,5 +1,9 @@
-from django.test import Client, TestCase
+from unittest.mock import patch
+
+from django.test import Client, TestCase, override_settings
 from django.contrib import admin
+from django.urls import reverse
+from rest_framework.test import APIClient
 
 from .models import EmailVerificationToken, OTPCode, User
 from apps.game_accounts.models import PSNAccount
@@ -79,3 +83,49 @@ class AdminRegistrationTests(TestCase):
         ):
             with self.subTest(model=model.__name__):
                 self.assertIn(model, admin.site._registry)
+
+
+class EmailDeliveryTests(TestCase):
+    def setUp(self):
+        self.client = APIClient()
+        self.user = User.objects.create_user(
+            phone_number="09123456789",
+            password="pass12345",
+            email="existing@example.com",
+            is_active=True,
+            is_phone_verified=True,
+        )
+        self.client.force_authenticate(self.user)
+
+    @override_settings(EMAIL_BACKEND="django.core.mail.backends.locmem.EmailBackend")
+    @patch("apps.accounts.services.email.send_mail", return_value=1)
+    def test_complete_profile_reports_success_when_email_is_accepted(self, send_mail):
+        response = self.client.post(
+            reverse("auth-complete-profile"),
+            {"first_name": "Test", "last_name": "User", "email": "test@example.com"},
+        )
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json(), {"email_sent": True})
+        send_mail.assert_called_once()
+
+    @patch("apps.accounts.services.email.send_mail", side_effect=OSError("SMTP unavailable"))
+    def test_complete_profile_reports_delivery_failure(self, send_mail):
+        response = self.client.post(
+            reverse("auth-complete-profile"),
+            {"first_name": "Test", "last_name": "User", "email": "test@example.com"},
+        )
+
+        self.assertEqual(response.status_code, 503)
+        self.assertFalse(response.json()["email_sent"])
+        self.assertTrue(EmailVerificationToken.objects.filter(user=self.user).exists())
+        send_mail.assert_called_once()
+
+    @patch("apps.accounts.services.email.send_mail", side_effect=OSError("SMTP unavailable"))
+    def test_resend_verification_reports_delivery_failure(self, send_mail):
+        response = self.client.post(reverse("auth-resend-verification"))
+
+        self.assertEqual(response.status_code, 503)
+        self.assertFalse(response.json()["email_sent"])
+        self.assertTrue(EmailVerificationToken.objects.filter(user=self.user).exists())
+        send_mail.assert_called_once()

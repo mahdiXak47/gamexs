@@ -197,7 +197,11 @@ class CompleteProfileView(APIView):
 
         expiry_hours = getattr(settings, "EMAIL_VERIFICATION_EXPIRY_HOURS", 24)
         token = EmailVerificationToken.create_for_user(user, expiry_hours)
-        send_verification_email(user, str(token.token))
+        if not send_verification_email(user, str(token.token)):
+            return Response(
+                {"email_sent": False, "detail": "ارسال ایمیل تایید انجام نشد. دوباره تلاش کنید."},
+                status=status.HTTP_503_SERVICE_UNAVAILABLE,
+            )
 
         return Response({"email_sent": True}, status=status.HTTP_200_OK)
 
@@ -242,7 +246,11 @@ class ResendVerificationView(APIView):
 
         expiry_hours = getattr(settings, "EMAIL_VERIFICATION_EXPIRY_HOURS", 24)
         token = EmailVerificationToken.create_for_user(user, expiry_hours)
-        send_verification_email(user, str(token.token))
+        if not send_verification_email(user, str(token.token)):
+            return Response(
+                {"email_sent": False, "detail": "ارسال ایمیل تایید انجام نشد. دوباره تلاش کنید."},
+                status=status.HTTP_503_SERVICE_UNAVAILABLE,
+            )
         return Response({"email_sent": True}, status=status.HTTP_200_OK)
 
 
