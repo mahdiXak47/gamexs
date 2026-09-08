@@ -16,7 +16,9 @@
 
 ## Deferred by product decision (not urgent)
 
-- User-account extras: favorites, price-drop alerts.
+- User-account extras: favorites are implemented (with account listing and
+  catalog validation); price-drop alerts still require a notification-channel
+  and trigger-policy decision.
 - Gift cards and EA Play/other subscriptions (taxonomy exists; nothing scraped
   yet. PS Plus is live).
 - **GTA games**: local data issue identified and corrected by migration 030:
