@@ -46,6 +46,12 @@
   (`enrich_metadata.py`) and the daily scraper; other writes go through the
   application layer with validation.
 
+## Production operations
+
+- Deploy the new non-Temporal scraper runner through Darkube/Helm, configure
+  its interval and secret references, and verify completed scrape/load cycles
+  plus the read-only catalog audit in production.
+
 ## Future features
 
 - Configure and verify the production SMTP mail server and complete staff-side

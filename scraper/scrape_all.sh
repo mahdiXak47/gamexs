@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Daily scrape-and-load for all sellers, running two sellers in parallel per round.
-# Designed to run inside the k8s CronJob container.
+# Designed to run inside the scraper image, either through runner.py or as a
+# one-shot command for an external scheduler.
 #
 # Required env vars (injected from a k8s Secret):
 #   DATABASE_URL   — e.g. postgresql://gamexs:gamexs@gamexs-db.mahdixak-gamexs.svc:5432/gamexs

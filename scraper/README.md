@@ -29,6 +29,19 @@ cross-IGDB title collisions are reported but do not fail the audit because
 edition and sequel distinctions require review. The command never writes to
 the database.
 
+### Scheduled runner
+
+The container default command runs one complete `scrape_all.sh` cycle and then
+waits 24 hours before the next cycle. Configure the interval in seconds for a
+different deployment cadence:
+
+```bash
+SCRAPER_INTERVAL_SECONDS=86400 .venv/bin/python runner.py
+```
+
+The runner handles SIGTERM by stopping the active pipeline before exiting.
+Use `bash scrape_all.sh` directly for a one-shot run.
+
 ### Proxy
 
 Some `.ir` and `.com` domains require the proxy for DNS resolution:

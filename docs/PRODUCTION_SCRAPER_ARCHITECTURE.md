@@ -57,19 +57,22 @@ configuration and image release process, not by treating the old
 
 ## Non-Temporal scraper contract
 
-The replacement scraper Deployment must run a long-lived non-Temporal runner.
-The runner needs to provide the scheduling behavior that the removed Temporal
-workflow previously provided. The current repository still has one-shot
-building blocks (`scrape_all.sh`, `crawl_uperagame.py`, and the loaders), so the
-runner must either:
+The replacement scraper Deployment must run the long-lived non-Temporal
+`scraper/runner.py`. The runner supplies the scheduling behavior that the
+removed Temporal workflow previously provided and invokes the existing one-shot
+pipeline (`scrape_all.sh`). It executes one complete scrape/load cycle and
+sleeps for the configured interval:
 
-1. execute one complete scrape/load cycle and sleep for the configured interval;
-2. expose an internal authenticated trigger and remain idle between runs; or
-3. be started by an external scheduler outside this namespace.
+```text
+SCRAPER_INTERVAL_SECONDS=86400
+command: ["python", "runner.py"]
+```
 
-The production source of truth must choose one of these explicitly. A plain
-one-shot process in a Deployment is not sufficient because Kubernetes will
-restart it continuously without a defined schedule.
+The interval is configurable for operational needs, but a plain one-shot
+process in a Deployment is not sufficient because Kubernetes would restart it
+continuously without a defined schedule. The runner stops its active pipeline
+cleanly on SIGTERM so a Deployment rollout does not leave a scrape subprocess
+behind.
 
 ## Seller price data flow
 
@@ -109,6 +112,7 @@ The scraper runner must receive these settings through the Deployment or its
 secret references:
 
 ```text
+SCRAPER_INTERVAL_SECONDS=86400
 DATABASE_URL=postgresql://...@gamexs-db.mahdixak-gamexs.svc:5432/gamexs
 HTTPS_PROXY=http://custom-xray.mahdixak-gamexs.svc:10809
 NO_PROXY=gamexs-db.mahdixak-gamexs.svc,localhost,127.0.0.1,10.0.0.0/8
@@ -123,7 +127,7 @@ container arguments.
 
 1. Apply `db/migrations/027_add_uperagame_support.sql`.
 2. Apply `db/migrations/028_allow_unenriched_games.sql`.
-3. Build an image containing the non-Temporal runner, Crawl4AI Upera scraper,
+3. Build an image containing `runner.py`, the non-Temporal pipeline, Crawl4AI Upera scraper,
    loader, and existing seller pipeline.
 4. Configure the `scraper` Deployment through Darkube/Helm with the new image
    and the selected scheduling mechanism.

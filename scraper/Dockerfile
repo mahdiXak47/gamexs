@@ -1,4 +1,4 @@
-# Scraper job image. Runs the full daily scrape-and-load pipeline
+# Scraper image. The default command runs the full daily scrape-and-load pipeline
 # (scrape all sellers -> load to Postgres -> IGDB enrichment -> PS Store
 # prices -> S3 cover upload -> stale-listing cleanup) via scrape_all.sh.
 #
@@ -32,6 +32,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY gamexs_scraper/ gamexs_scraper/
 COPY crawl_uperagame.py load_uperagame_to_postgres.py import_uperagame_catalog.py repair_invalid_catalog.py .
 COPY scrape_all.sh .
+COPY runner.py .
 COPY fetch_psstore_prices.py .
 COPY upload_to_s3.py .
 COPY add_game.py download_artworks.py resolve_missing_psstore_concepts.py psstore_search.py .
@@ -41,4 +42,4 @@ COPY add_game.py download_artworks.py resolve_missing_psstore_concepts.py psstor
 RUN mkdir -p /output
 VOLUME ["/output"]
 
-CMD ["bash", "scrape_all.sh"]
+CMD ["python", "runner.py"]
