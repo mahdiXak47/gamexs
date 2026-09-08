@@ -2,11 +2,6 @@
 
 > Completed items were removed. Tracked here is what's still outstanding.
 
-## Not started
-
-- Price-history chart UI on the game detail page (data is in `price_history`,
-  no chart component yet).
-
 ## IGDB enrichment
 
 - Verify enrichment match rate/quality in production; tune `_MIN_SCORE` or
@@ -14,17 +9,10 @@
 
 ## Seller / data-quality issues
 
-- No canonical cross-seller catalog — the same game from different sellers
-  often appears as separate rows. Merge is planned on IGDB `igdb_id`;
-  dedup query not yet written.
-- `normalize.py` doesn't canonicalize Roman numeral vs. digit naming
-  ("Armored Core 6" vs. "Armored Core VI").
-
-## Admin panel (backend)
-
-- Register all models in `admin.py` — the six `admin.py` files are empty.
-  Register `User`, `OTPCode`, `Order`, `Ticket`, `TicketMessage`,
-  `WishlistItem`, `PSNAccount`.
+- Cross-seller catalog integrity still needs production verification. The
+  repository now has IGDB-based merge/repair tooling and the local catalog has
+  no duplicate IGDB groups; run the audit against the production database and
+  review any edition-level collisions before applying merges.
 
 ## Deferred by product decision (not urgent)
 
@@ -42,15 +30,15 @@
 
 ## Legal and trust
 
-- Apply for and integrate the Enamad (اینماد) e-trust certificate (badge code
-  is already in the footer).
+- Confirm the Enamad (اینماد) certificate is active in production and that the
+  footer badge points to the current certificate.
 
 ## Branding
 
-- Integrate the GameXS logo into the UI (header, favicon, OG image, loading
-  screen). Assets are in `frontend/public/logos/`.
-- Wire up real social media URLs in `frontend/src/components/Footer.tsx`
-  (`socialLinks` are all `#` placeholders until accounts exist).
+- Decide on and replace the current logo asset if the final non-text-only mark
+  is different; the current logo is already used in the header, social/search
+  surfaces, favicon metadata, and site-wide OG metadata.
+- Confirm the published Telegram and Instagram URLs in the social section.
 
 ## Database finalisation
 
@@ -67,13 +55,15 @@
 
 ## feedbacks
 
-- Replace the AI "find game" UI in search with something else.
-- Change the main logo to one that isn't text-only.
-- Add a rate limit for adding/removing to wishlist.
-- Remove "مشاهده بازی‌های مطابق با سلیقه تو".
+- The AI recommendation section is currently hidden and the normal catalog
+  search remains the primary discovery flow. Decide whether to remove the dead
+  AI component/endpoint or replace it with a specified non-AI experience.
+- The wishlist mutation rate limit is implemented at 30 requests per minute
+  per authenticated user.
 
 - Sellers typically send data as ~150 games × 5 pricing types.
 
 
 
-- covering gift card prices and update them 
+- Cover gift-card prices and update them once gift cards have an approved
+  product type and storage/display model.
