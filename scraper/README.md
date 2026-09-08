@@ -12,6 +12,23 @@ python3 -m venv .venv
 
 Copy `.env.example` at the repo root and fill in `DATABASE_URL` before running any load command.
 
+### Catalog integrity audit
+
+Run this read-only check before reviewing or applying catalog merges. It checks
+the canonical IGDB/title invariants and prints possible normalized-title
+collisions for manual review:
+
+```bash
+.venv/bin/python -m gamexs_scraper.catalog_audit \
+    --db-url "$PRODUCTION_DATABASE_URL" --strict
+```
+
+`--strict` exits with status 1 for null IGDB IDs, non-English titles,
+duplicate IGDB IDs, or special-edition rows without an IGDB ID. Possible
+cross-IGDB title collisions are reported but do not fail the audit because
+edition and sequel distinctions require review. The command never writes to
+the database.
+
 ### Proxy
 
 Some `.ir` and `.com` domains require the proxy for DNS resolution:
