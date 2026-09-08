@@ -199,6 +199,7 @@ Relevant seller/Upera migrations:
 | `027_add_uperagame_support.sql` | Registers Upera and supports type/tier and term identities |
 | `028_allow_unenriched_games.sql` | Transitional compatibility for legacy unenriched rows; not an insertion permission |
 | `029_enforce_igdb_catalog_invariants.sql` | Fail-closed restoration of required IGDB IDs and English-only catalog titles |
+| `030_correct_gta_trilogy_title.sql` | Corrects the verified 2005 GTA trilogy title without merging it with the 2021 Definitive Edition |
 
 New `ps5_games` rows must be created by an IGDB-first import with a non-null
 `igdb_id`. Migration 028 exists only because an earlier implementation allowed

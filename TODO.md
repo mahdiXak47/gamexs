@@ -19,8 +19,10 @@
 - User-account extras: favorites, price-drop alerts.
 - Gift cards and EA Play/other subscriptions (taxonomy exists; nothing scraped
   yet. PS Plus is live).
-- **GTA games**: investigate the data/display problem (likely cross-seller
-  dedup, regional naming variants, or scraper mis-classification).
+- **GTA games**: local data issue identified and corrected by migration 030:
+  IGDB 5850 (the 2005 trilogy) had been mislabeled as the 2021 Definitive
+  Edition. Apply and verify migration 030 in production; keep the two distinct
+  IGDB identities separate.
 
 ## Active: Game editions cleanup
 
