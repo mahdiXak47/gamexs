@@ -60,6 +60,13 @@ export interface Game {
   details: GameDetails | null;
 }
 
+export interface GamePriceHistoryPoint {
+  day: string;
+  productType: ProductType;
+  tier: AccessTier | null;
+  priceToman: number;
+}
+
 export interface UpcomingGame {
   slug: string;
   title: string;

@@ -11,6 +11,7 @@ import GamePreorderBanner from "@/components/GamePreorderBanner";
 import GameReviewsSection from "@/components/GameReviewsSection";
 import GameVersions from "@/components/GameVersions";
 import GamePageScrollReset from "@/components/GamePageScrollReset";
+import GamePriceHistory from "@/components/GamePriceHistory";
 import GameViewTracker from "@/components/GameViewTracker";
 import Header from "@/components/Header";
 import JsonLd from "@/components/JsonLd";
@@ -22,7 +23,7 @@ import WishlistButton from "@/components/WishlistButton";
 import { formatToman, toPersianDigits } from "@/lib/format";
 import { genreForGame } from "@/lib/genres";
 import type { PsStoreInfo } from "@/lib/games-repo";
-import { getGameBySlug, getGameReviewSummary, getGameStoreInfo, getSimilarGames, getSimilarGamesByDeveloper, getGameVersions } from "@/lib/games-repo";
+import { getGameBySlug, getGamePriceHistory, getGameReviewSummary, getGameStoreInfo, getSimilarGames, getSimilarGamesByDeveloper, getGameVersions } from "@/lib/games-repo";
 import { lowestAvailableOffer, lowestValidPrice, storeCount } from "@/lib/purchase-options";
 import { faqPageJsonLd, gameOgImageUrl, gamePurchaseFaqs, SITE_URL, tomanToRial } from "@/lib/seo";
 
@@ -102,22 +103,25 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
   if (!game || storeCount(game) === 0) notFound();
   if (slug !== game.slug) permanentRedirect(`/games/${game.slug}`);
 
-  const [storeInfoResult, gameVersionsResult, similarGamesResult, similarGamesByDeveloperResult, reviewSummaryResult] = await Promise.allSettled([
+  const [storeInfoResult, gameVersionsResult, similarGamesResult, similarGamesByDeveloperResult, reviewSummaryResult, priceHistoryResult] = await Promise.allSettled([
     getGameStoreInfo(game.dbId),
     getGameVersions(game.dbId, game.title),
     getSimilarGames(game.dbId, game.genres),
     getSimilarGamesByDeveloper(game.dbId, game.developers),
     getGameReviewSummary(game.dbId),
+    getGamePriceHistory(game.dbId),
   ]);
   const storeInfo = secondaryValue(storeInfoResult, null, "ps-store-info");
   const gameVersions = secondaryValue(gameVersionsResult, [], "game-versions");
   const similarGames = secondaryValue(similarGamesResult, [], "similar-games");
   const similarGamesByDeveloper = secondaryValue(similarGamesByDeveloperResult, [], "similar-games-by-developer");
   const reviewSummary = secondaryValue(reviewSummaryResult, null, "review-summary");
+  const priceHistory = secondaryValue(priceHistoryResult, [], "price-history");
   const storeInfoUnavailable = secondaryFailed(storeInfoResult);
   const gameVersionsUnavailable = secondaryFailed(gameVersionsResult);
   const similarGamesUnavailable = secondaryFailed(similarGamesResult);
   const similarGamesByDeveloperUnavailable = secondaryFailed(similarGamesByDeveloperResult);
+  const priceHistoryUnavailable = secondaryFailed(priceHistoryResult);
 
   const lowestOffer = lowestAvailableOffer(game);
   const price  = lowestOffer?.priceToman ?? null;
@@ -402,6 +406,13 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
         <div className="mx-auto max-w-6xl px-4 pb-10 sm:px-6">
           <PurchaseTypeSelector options={game.purchaseOptions} />
         </div>
+
+        <GamePriceHistory points={priceHistory} />
+        {priceHistoryUnavailable && (
+          <DegradedNotice>
+            سابقهٔ قیمت این بازی موقتاً در دسترس نیست.
+          </DegradedNotice>
+        )}
 
         <GameVersions games={gameVersions} />
         {gameVersionsUnavailable && (

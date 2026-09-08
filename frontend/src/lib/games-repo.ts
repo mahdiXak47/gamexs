@@ -3,7 +3,7 @@ import { query } from "./db";
 import { s3CoverUrl, s3ScreenshotUrl, normalizeMainBackgroundImageUrl, normalizeS3Url } from "./covers";
 import { getGameDetails } from "./game-details";
 import { emptyPurchaseOptions, findOption, purchasePathLabel } from "./purchase-options";
-import type { AccessTier, Game, GameSummary, HeroPriceOption, ProductType, SortOption, UpcomingGame } from "./types";
+import type { AccessTier, Game, GamePriceHistoryPoint, GameSummary, HeroPriceOption, ProductType, SortOption, UpcomingGame } from "./types";
 
 // Resolve cover URL — S3 only, normalized to HTTPS.
 // 1. DB stores an S3 URL (gs3.gamexs.ir) → use directly (https-normalized).
@@ -678,6 +678,41 @@ export const getGameBySlug = cache(async function getGameBySlug(slug: string): P
     details: getGameDetails(game.slug),
   };
 });
+
+// Return one daily minimum per purchase path. The query intentionally keeps
+// historical rows from listings that are no longer active: an inactive
+// listing can still explain a real price movement in the selected period.
+export async function getGamePriceHistory(gameId: number, days = 365): Promise<GamePriceHistoryPoint[]> {
+  const windowDays = Math.max(1, Math.min(Math.floor(days), 3650));
+  const { rows } = await query<{
+    day: string;
+    product_type: ProductType;
+    tier: AccessTier | null;
+    price_toman: number;
+  }>(
+    `
+    SELECT TO_CHAR(DATE_TRUNC('day', ph.scraped_at), 'YYYY-MM-DD') AS day,
+           l.product_type,
+           l.tier,
+           MIN(ph.price_toman) FILTER (WHERE ph.price_toman > 0) AS price_toman
+    FROM listings l
+    JOIN price_history ph ON ph.listing_id = l.id
+    WHERE l.game_id = $1
+      AND ph.scraped_at >= NOW() - ($2::int * INTERVAL '1 day')
+    GROUP BY DATE_TRUNC('day', ph.scraped_at), l.product_type, l.tier
+    HAVING MIN(ph.price_toman) FILTER (WHERE ph.price_toman > 0) IS NOT NULL
+    ORDER BY day, l.product_type, l.tier
+    `,
+    [gameId, windowDays]
+  );
+
+  return rows.map((row) => ({
+    day: row.day,
+    productType: row.product_type,
+    tier: row.tier,
+    priceToman: Number(row.price_toman),
+  }));
+}
 
 export interface GameReviewSummary {
   count: number;

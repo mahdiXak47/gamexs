@@ -79,4 +79,5 @@ test("game detail page loads a real slug from the homepage grid", async ({ page 
   const resp = await page.goto(href!, { waitUntil: "networkidle" });
   expect(resp?.status(), "game detail status").toBeLessThan(500);
   expect(pageErrors, "game detail page errors").toEqual([]);
+  await expect(page.getByRole("heading", { name: "روند قیمت" })).toBeVisible();
 });
