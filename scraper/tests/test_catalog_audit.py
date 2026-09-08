@@ -20,6 +20,10 @@ class CatalogAuditTests(unittest.TestCase):
         self.assertEqual(report.non_ascii_titles, 1)
         self.assertEqual(report.duplicate_igdb_groups, 1)
         self.assertEqual(report.special_without_igdb, 1)
+        self.assertEqual(
+            report.special_edition_candidates,
+            ((2, None, "Deluxe Edition", "deluxe-edition"),),
+        )
         self.assertEqual(report.cross_igdb_title_collisions, 1)
         self.assertFalse(report.is_clean)
 

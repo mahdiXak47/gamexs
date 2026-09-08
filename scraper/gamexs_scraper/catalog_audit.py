@@ -41,6 +41,7 @@ class CatalogAudit:
     duplicate_igdb_groups: int
     special_without_igdb: int
     cross_igdb_title_collisions: int
+    special_edition_candidates: tuple[GameRow, ...] = ()
     collision_candidates: tuple[Candidate, ...] = ()
 
     @property
@@ -75,6 +76,12 @@ def audit_games(games: Iterable[GameRow], max_candidates: int = 20) -> CatalogAu
         if len(igdb_ids) > 1:
             collisions.append((normalized_title, tuple(grouped_rows)))
 
+    special_edition_candidates = tuple(
+        row
+        for row in rows
+        if row[1] is None and _SPECIAL_EDITION_RE.search(row[2]) is not None
+    )
+
     return CatalogAudit(
         total_games=len(rows),
         null_igdb_ids=sum(igdb_id is None for _, igdb_id, _, _ in rows),
@@ -82,11 +89,9 @@ def audit_games(games: Iterable[GameRow], max_candidates: int = 20) -> CatalogAu
             any(ord(character) > 127 for character in title) for _, _, title, _ in rows
         ),
         duplicate_igdb_groups=sum(count > 1 for count in igdb_counts.values()),
-        special_without_igdb=sum(
-            igdb_id is None and _SPECIAL_EDITION_RE.search(title) is not None
-            for _, igdb_id, title, _ in rows
-        ),
+        special_without_igdb=len(special_edition_candidates),
         cross_igdb_title_collisions=len(collisions),
+        special_edition_candidates=special_edition_candidates[:max_candidates],
         collision_candidates=tuple(collisions[:max_candidates]),
     )
 
@@ -113,6 +118,12 @@ def format_report(report: CatalogAudit) -> str:
         f"cross_igdb_title_collisions: {report.cross_igdb_title_collisions}",
         f"status: {'clean' if report.is_clean else 'violations found'}",
     ]
+    if report.special_edition_candidates:
+        lines.append("special-edition rows requiring review:")
+        for game_id, igdb_id, title, slug in report.special_edition_candidates:
+            lines.append(
+                f"  game#{game_id} igdb={igdb_id} title={title!r} slug={slug!r}"
+            )
     if report.collision_candidates:
         lines.append("review candidates:")
         for normalized_title, rows in report.collision_candidates:
