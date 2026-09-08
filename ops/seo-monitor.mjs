@@ -32,7 +32,35 @@ async function check(path) {
       headers: { "user-agent": "GameXS-SEO-Monitor/1.0" },
     });
     const latencyMs = Math.round(performance.now() - started);
-    return { path, status: response.status, latencyMs, ok: response.status >= 200 && response.status < 400 && latencyMs <= maxLatencyMs };
+    const contentType = response.headers.get("content-type") ?? "";
+    let body = "";
+    if (contentType.includes("text/html")) {
+      body = await response.text();
+    }
+    const streamedNotFound = response.status === 200 && (
+      /<title[^>]*>\s*صفحه پیدا نشد(?:\s*\||\s*<)/i.test(body) ||
+      body.includes("NEXT_HTTP_ERROR_FALLBACK;404")
+    );
+    const streamedServerError = response.status === 200 && (
+      body.includes("مشکلی در نمایش این صفحه پیش آمد") ||
+      body.includes("NEXT_HTTP_ERROR_FALLBACK;500")
+    );
+    const noindexResponse = response.headers.get("x-robots-tag")?.toLowerCase().includes("noindex") ||
+      /<meta[^>]+name=["']robots["'][^>]+content=["'][^"']*noindex/i.test(body);
+    const error = streamedNotFound
+      ? "not-found document returned with HTTP 200"
+      : streamedServerError
+        ? "server-error document returned with HTTP 200"
+        : noindexResponse
+          ? "noindex response on monitored route"
+          : undefined;
+    return {
+      path,
+      status: response.status,
+      latencyMs,
+      ok: response.status >= 200 && response.status < 400 && latencyMs <= maxLatencyMs && !error,
+      ...(error ? { error } : {}),
+    };
   } catch (error) {
     return { path, status: 0, latencyMs: Math.round(performance.now() - started), ok: false, error: error instanceof Error ? error.message : String(error) };
   } finally {
