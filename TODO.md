@@ -21,8 +21,11 @@
   yet. PS Plus is live).
 - **GTA games**: local data issue identified and corrected by migration 030:
   IGDB 5850 (the 2005 trilogy) had been mislabeled as the 2021 Definitive
-  Edition. Apply and verify migration 030 in production; keep the two distinct
-  IGDB identities separate.
+  Edition. Apply and verify migrations 030 and 031 in production; the second
+  migration preserves the old slug as a permanent redirect. Keep the two
+  distinct IGDB identities separate. The live site check on 2026-09-08 still
+  serves the old slug and returns 404 for the new canonical slug, so this
+  rollout is not complete.
 
 ## Active: Game editions cleanup
 
@@ -61,17 +64,3 @@
   exist.
 - Seller admin panel for submitting and managing prices directly (alternative
   to scraping), with auth + approval/moderation workflow.
-
-## feedbacks
-
-- The AI recommendation UI and unused streaming endpoint were removed; the
-  normal catalog search is the primary discovery flow.
-- The wishlist mutation rate limit is implemented at 30 requests per minute
-  per authenticated user.
-
-- Sellers typically send data as ~150 games × 5 pricing types.
-
-
-
-- Cover gift-card prices and update them once gift cards have an approved
-  product type and storage/display model.

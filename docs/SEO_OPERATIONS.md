@@ -25,6 +25,13 @@ the production catalog differs from the defaults. Configure
 `SEO_ALERT_WEBHOOK` as an Actions secret, then enable the workflow after it is
 merged into the repository's default branch.
 
+The public smoke check on 2026-09-08 found that the old GTA slug still returns
+`200` while the new canonical slug returns the site's `404` page, so the GTA
+data/redirect migrations are not deployed yet. The same check saw sitemap
+responses take roughly 17 seconds and the concurrent monitor hit its timeout;
+deploy the lightweight sitemap query change with the next frontend release,
+then rerun the monitor against production.
+
 ## Search Console recovery
 
 1. Preserve the original export and record which Page indexing reason it came
