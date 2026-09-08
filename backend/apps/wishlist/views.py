@@ -4,7 +4,10 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
+from apps.catalog.models import PS5Game
+
 from .models import WishlistItem
+from .serializers import WishlistCreateSerializer
 from .throttles import WishlistRateThrottle
 
 
@@ -40,11 +43,16 @@ class WishlistView(APIView):
         return Response(rows)
 
     def post(self, request):
-        game_id = request.data.get("game_id")
-        target_price = request.data.get("target_price_toman")
+        serializer = WishlistCreateSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        game_id = serializer.validated_data["game_id"]
+        target_price = serializer.validated_data.get("target_price_toman")
 
-        if not game_id:
-            return Response({"detail": "game_id الزامی است."}, status=status.HTTP_400_BAD_REQUEST)
+        if not PS5Game.objects.filter(pk=game_id).exists():
+            return Response(
+                {"detail": "بازی انتخاب‌شده در فهرست بازی‌ها وجود ندارد."},
+                status=status.HTTP_400_BAD_REQUEST,
+            )
 
         item, created = WishlistItem.objects.get_or_create(
             user=request.user,
