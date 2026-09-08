@@ -7,8 +7,8 @@ Uploads:
 Files already present in the bucket are skipped (safe to re-run / resume).
 
 After upload, updates every game row in the DB:
-  games.cover_url      → http://<endpoint>/<bucket>/covers/{slug}-main-cover.webp
-  games.screenshot_ids → ARRAY of full object-storage URLs
+  ps5_games.cover_url      → http://<endpoint>/<bucket>/covers/{slug}-main-cover.webp
+  ps5_games.screenshot_ids → ARRAY of full object-storage URLs
 
 Usage (from the scraper/ directory):
     # Upload + update local dev DB

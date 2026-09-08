@@ -133,7 +133,7 @@ python fetch_psstore_prices.py --db-url "$DATABASE_URL" 2>&1 | sed 's/^/[psstore
 
 # ---------------------------------------------------------------------------
 # Upload newly downloaded IGDB covers/screenshots to object storage and
-# write the S3 URLs back into games.cover_url / games.screenshot_ids.
+# write the S3 URLs back into ps5_games.cover_url / ps5_games.screenshot_ids.
 # The script is idempotent — files already in the bucket are skipped.
 # Requires: S3_ENDPOINT_URL, S3_ACCESS_KEY, S3_SECRET_KEY, S3_BUCKET env vars.
 # ---------------------------------------------------------------------------

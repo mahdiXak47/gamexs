@@ -1,4 +1,4 @@
-"""Sync games.cover_url and games.screenshot_ids to local /api/ paths.
+"""Sync ps5_games.cover_url and ps5_games.screenshot_ids to local /api/ paths.
 
 Scans scraper/output/images/covers/ and scraper/output/images/screenshots/
 for files created by download_igdb_images.py, then updates every matching

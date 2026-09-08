@@ -6,9 +6,9 @@ For each game that has an igdb_id in the database:
   2. Downloads → output/images/covers/{slug}-main-cover.webp
   3. Fetches all screenshots from IGDB.
   4. Downloads each → output/images/screenshots/{slug}-catalog-pic-{n}.webp
-  5. Updates games.cover_url to the local serving path (/api/covers/…)
+  5. Updates ps5_games.cover_url to the local serving path (/api/covers/…)
      in the database so the frontend never needs to proxy IGDB.
-  6. Updates games.screenshot_ids to an array of local filenames
+  6. Updates ps5_games.screenshot_ids to an array of local filenames
      (e.g. ["007-first-light-catalog-pic-1.webp", …]).
 
 Files already on disk are skipped — safe to re-run and resume.

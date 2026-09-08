@@ -67,10 +67,11 @@ spec:
 
 ---
 # Internal ClusterIP — only reachable from within the namespace.
+# The custom-xray name matches the HTTPS_PROXY value used by scraper jobs.
 apiVersion: v1
 kind: Service
 metadata:
-  name: xray-proxy
+  name: custom-xray
   namespace: mahdixak-gamexs
 spec:
   selector:
