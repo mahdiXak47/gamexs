@@ -61,6 +61,8 @@
 
 - Configure and verify the production SMTP mail server and complete staff-side
   support replies; ticket creation and the user-facing support section already
-  exist.
+  exist. Verification-email endpoints now return a failure response when SMTP
+  delivery is rejected; production credentials and an end-to-end delivery test
+  remain.
 - Seller admin panel for submitting and managing prices directly (alternative
   to scraping), with auth + approval/moderation workflow.
