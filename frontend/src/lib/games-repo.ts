@@ -593,7 +593,7 @@ export const getGameBySlug = cache(async function getGameBySlug(slug: string): P
     last_modified_at: Date | null;
   }>(
     `
-    SELECT id, slug, title, genre_label, genres, developers, publisher, release_year, release_date, cover_url, main_background_image_url, description, screenshot_ids,
+    SELECT ps5_games.id, ps5_games.slug, ps5_games.title, ps5_games.genre_label, ps5_games.genres, ps5_games.developers, ps5_games.publisher, ps5_games.release_year, ps5_games.release_date, ps5_games.cover_url, ps5_games.main_background_image_url, ps5_games.description, ps5_games.screenshot_ids,
            (
              SELECT MAX(ph.scraped_at)
              FROM listings l2
@@ -601,8 +601,17 @@ export const getGameBySlug = cache(async function getGameBySlug(slug: string): P
              WHERE l2.game_id = ps5_games.id AND l2.is_active
            ) AS last_modified_at
     FROM ps5_games
-    WHERE slug = ANY($1::text[])
-    ORDER BY array_position($1::text[], slug)
+    LEFT JOIN ps5_game_slug_aliases slug_alias
+      ON slug_alias.game_id = ps5_games.id
+     AND slug_alias.slug = ANY($1::text[])
+    WHERE ps5_games.slug = ANY($1::text[])
+       OR slug_alias.slug IS NOT NULL
+    ORDER BY
+      CASE WHEN ps5_games.slug = ANY($1::text[]) THEN 0 ELSE 1 END,
+      COALESCE(
+        array_position($1::text[], ps5_games.slug),
+        array_position($1::text[], slug_alias.slug)
+      )
     LIMIT 1
     `,
     [slugCandidates]

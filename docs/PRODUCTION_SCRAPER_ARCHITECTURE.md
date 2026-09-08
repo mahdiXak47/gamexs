@@ -126,15 +126,17 @@ container arguments.
 ## Production rollout checklist
 
 1. Apply `db/migrations/027_add_uperagame_support.sql`.
-2. Apply `db/migrations/028_allow_unenriched_games.sql`.
-3. Build an image containing `runner.py`, the non-Temporal pipeline, Crawl4AI Upera scraper,
+2. Apply `db/migrations/028_allow_unenriched_games.sql` where the legacy compatibility state exists.
+3. Apply catalog corrections and URL-compatibility migrations `030` and `031`
+   before deploying the frontend that queries slug aliases.
+4. Build an image containing `runner.py`, the non-Temporal pipeline, Crawl4AI Upera scraper,
    loader, and existing seller pipeline.
-4. Configure the `scraper` Deployment through Darkube/Helm with the new image
+5. Configure the `scraper` Deployment through Darkube/Helm with the new image
    and the selected scheduling mechanism.
-5. Confirm the scraper pod is Ready and its logs show completed scrape/load
+6. Confirm the scraper pod is Ready and its logs show completed scrape/load
    cycles, not worker connection retries.
-6. Run the database verification queries below.
-7. Confirm the frontend and backend deployments use the same `gamexs-db`
+7. Run the database verification queries below.
+8. Confirm the frontend and backend deployments use the same `gamexs-db`
    service and deploy frontend code that renders `OWN_ACCOUNT_GAME` and `DISC`.
 
 ## Read-only health checks

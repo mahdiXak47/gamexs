@@ -106,6 +106,7 @@ requests.
 | `platforms` | Platform lookup | `slug`, currently PS5 |
 | `sellers` | Seller registry | unique `slug`; includes `uperagame` |
 | `ps5_games` | Canonical/display catalog rows | unique `(platform_id, slug)`; required unique `igdb_id` |
+| `ps5_game_slug_aliases` | Historical game URLs | unique legacy `slug`; page-level fallback redirects to the canonical game slug |
 | `ps5_game_aliases` | Explicit seller/IGDB name aliases | unique `(platform_id, normalized_name)` |
 | `listings` | Stable seller offer identity | `(seller_id, source_url, product_type, tier)` |
 | `price_history` | Price and stock observations | append-only `(listing_id, scraped_at)` |
@@ -200,6 +201,7 @@ Relevant seller/Upera migrations:
 | `028_allow_unenriched_games.sql` | Transitional compatibility for legacy unenriched rows; not an insertion permission |
 | `029_enforce_igdb_catalog_invariants.sql` | Fail-closed restoration of required IGDB IDs and English-only catalog titles |
 | `030_correct_gta_trilogy_title.sql` | Corrects the verified 2005 GTA trilogy title without merging it with the 2021 Definitive Edition |
+| `031_add_game_slug_aliases.sql` | Preserves historical game URLs and redirects them to canonical slugs |
 
 New `ps5_games` rows must be created by an IGDB-first import with a non-null
 `igdb_id`. Migration 028 exists only because an earlier implementation allowed

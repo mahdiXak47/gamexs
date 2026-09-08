@@ -137,3 +137,14 @@ test("genre route renders a filterable catalog shell", async ({ page }) => {
   await page.getByRole("button", { name: "جستجو" }).first().click();
   await expect(page.getByRole("dialog", { name: "جستجو" }).getByRole("searchbox", { name: "جستجو", exact: true })).toBeVisible();
 });
+
+test("legacy game slug redirects to its canonical catalog URL", async ({ page }) => {
+  const response = await page.goto(
+    "/games/grand-theft-auto-the-trilogy-the-definitive-edition",
+    { waitUntil: "domcontentloaded" }
+  );
+
+  expect(response?.status(), "legacy slug final status").toBe(200);
+  expect(new URL(page.url()).pathname).toBe("/games/grand-theft-auto-the-trilogy");
+  await expect(page.getByRole("heading", { name: "Grand Theft Auto: The Trilogy" })).toBeVisible();
+});

@@ -61,6 +61,18 @@ CREATE UNIQUE INDEX ps5_games_preorder_hero_position_key
     ON ps5_games (preorder_hero_position)
     WHERE preorder_hero_position IS NOT NULL;
 
+-- Historical slugs remain resolvable so renamed canonical catalog rows can
+-- issue a permanent redirect instead of returning a 404.
+CREATE TABLE ps5_game_slug_aliases (
+    id         SERIAL PRIMARY KEY,
+    game_id    INTEGER NOT NULL REFERENCES ps5_games (id) ON DELETE CASCADE,
+    slug       TEXT NOT NULL UNIQUE,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+CREATE INDEX ps5_game_slug_aliases_game_id_idx
+    ON ps5_game_slug_aliases (game_id);
+
 -- One row per game per region's PS Store price + product URL. Region-specific
 -- because a single game can have different PS Store product URLs per region
 -- (e.g. EU uses EP0002-..., US uses UP0002-...). Region-agnostic PS Store

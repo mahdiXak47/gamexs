@@ -23,6 +23,13 @@ const webVitalsEndpointOrigin = process.env.NEXT_PUBLIC_WEB_VITALS_ENDPOINT
 
 const CANONICAL_HOSTNAME = "gamexs.ir";
 
+// Keep URL migrations that must return an HTTP 308 at the edge. Dynamic page
+// redirects can become streamed meta refreshes after rendering has started,
+// which is weaker for crawlers than a response-level redirect.
+const LEGACY_GAME_SLUG_REDIRECTS: Record<string, string> = {
+  "grand-theft-auto-the-trilogy-the-definitive-edition": "grand-theft-auto-the-trilogy",
+};
+
 function firstForwardedValue(value: string | null): string | null {
   return value?.split(",", 1)[0]?.trim() || null;
 }
@@ -31,8 +38,11 @@ function canonicalPathname(pathname: string): string {
   const pathWithoutTrailingSlash = pathname.length > 1 ? pathname.replace(/\/+$/, "") : pathname;
   const gameSlugMatch = pathWithoutTrailingSlash.match(/^\/games\/([^/]+)$/);
 
-  if (gameSlugMatch?.[1].includes("_")) {
-    return `/games/${gameSlugMatch[1].replaceAll("_", "-")}`;
+  if (gameSlugMatch) {
+    const normalizedSlug = gameSlugMatch[1].replaceAll("_", "-");
+    const redirectedSlug = LEGACY_GAME_SLUG_REDIRECTS[normalizedSlug];
+    if (redirectedSlug) return `/games/${redirectedSlug}`;
+    if (normalizedSlug !== gameSlugMatch[1]) return `/games/${normalizedSlug}`;
   }
 
   return pathWithoutTrailingSlash;
