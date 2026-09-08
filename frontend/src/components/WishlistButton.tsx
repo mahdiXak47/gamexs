@@ -50,11 +50,6 @@ export default function WishlistButton({ gameId, variant = 'default' }: { gameId
         setAdded(true)
         setItemId(data.id ?? null)
         toast.success('به علاقه‌مندی‌ها اضافه شد')
-      } else if (res.status === 400) {
-        const id = await findWishlistItemId()
-        setAdded(true)
-        setItemId(id)
-        toast.info('این بازی قبلاً در علاقه‌مندی‌ها بود')
       } else {
         toast.error('افزودن انجام نشد', 'چند لحظه دیگر دوباره تلاش کنید.')
       }
