@@ -124,7 +124,8 @@ test("product category routes render usable catalog shells", async ({ page }) =>
     const response = await page.goto(route.path, { waitUntil: "domcontentloaded" });
     expect(response?.status(), `${route.path} status`).toBeLessThan(500);
     await expect(page.getByRole("heading", { name: route.heading })).toBeVisible();
-    await expect(page.getByRole("searchbox", { name: "جستجوی بازی" })).toBeVisible();
+    await page.getByRole("button", { name: "جستجو" }).first().click();
+    await expect(page.getByRole("dialog", { name: "جستجو" }).getByRole("searchbox", { name: "جستجو", exact: true })).toBeVisible();
   }
 });
 
@@ -133,5 +134,6 @@ test("genre route renders a filterable catalog shell", async ({ page }) => {
 
   expect(response?.status(), "genre status").toBeLessThan(500);
   await expect(page.getByRole("heading", { name: "بازی‌های شوتر" })).toBeVisible();
-  await expect(page.getByRole("searchbox", { name: "جستجوی بازی" })).toBeVisible();
+  await page.getByRole("button", { name: "جستجو" }).first().click();
+  await expect(page.getByRole("dialog", { name: "جستجو" }).getByRole("searchbox", { name: "جستجو", exact: true })).toBeVisible();
 });
