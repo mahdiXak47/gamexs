@@ -103,7 +103,7 @@ def main() -> None:
     with psycopg.connect(db_url, connect_timeout=10) as conn:
         with conn.cursor() as cur:
             cur.execute(
-                "SELECT id, igdb_id, slug, title FROM games WHERE igdb_id IS NOT NULL ORDER BY title"
+                "SELECT id, igdb_id, slug, title FROM ps5_games WHERE igdb_id IS NOT NULL ORDER BY title"
             )
             all_games = cur.fetchall()
 
@@ -170,7 +170,7 @@ def main() -> None:
             for cover_url, shot_ids, game_id in updates:
                 cur.execute(
                     """
-                    UPDATE games
+                    UPDATE ps5_games
                     SET cover_url = COALESCE(%s, cover_url),
                         screenshot_ids = %s
                     WHERE id = %s
