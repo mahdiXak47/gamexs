@@ -59,6 +59,9 @@
 - Deploy the new non-Temporal scraper runner through Darkube/Helm, configure
   its interval and secret references, and verify completed scrape/load cycles
   plus the read-only catalog audit in production.
+- Create a Telegram bot and configure `TELEGRAM_BOT_TOKEN` plus
+  `TELEGRAM_CHAT_ID` in the production secret to activate scraper failure
+  alerts.
 
 ## Future features
 

@@ -14,73 +14,39 @@ set -euo pipefail
 log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*"; }
 
 # ---------------------------------------------------------------------------
-# Scrape one seller into /tmp/<seller>.jsonl, return non-zero on failure.
+# Scrape, validate, load, and retry one seller; return non-zero on failure.
 # ---------------------------------------------------------------------------
-scrape_seller() {
+run_seller() {
     local seller=$1
     log "START scraping $seller"
-    if python -m gamexs_scraper.export_csv "$seller" \
-            -o "/tmp/${seller}.csv" \
-            --cache "/tmp/${seller}.jsonl" 2>&1 | sed "s/^/[$seller] /"; then
-        log "DONE  scraping $seller"
+    if python -m gamexs_scraper.seller_runner "$seller" \
+            --output-dir /tmp 2>&1 | sed "s/^/[$seller] /"; then
+        log "DONE  scraping and loading $seller"
     else
-        log "FAIL  scraping $seller (exit $?)"
+        log "FAIL  scraping and loading $seller"
         return 1
     fi
 }
 
 # ---------------------------------------------------------------------------
-# Load one seller's JSONL into the DB, return non-zero on failure.
-# ---------------------------------------------------------------------------
-load_seller() {
-    local seller=$1
-    if [ ! -f "/tmp/${seller}.jsonl" ]; then
-        log "SKIP  loading $seller — no JSONL (scrape failed?)"
-        return 1
-    fi
-    log "START loading $seller"
-    if python -m gamexs_scraper.load_to_postgres "$seller" \
-            --cache "/tmp/${seller}.jsonl" 2>&1 | sed "s/^/[$seller] /"; then
-        log "DONE  loading $seller"
-    else
-        log "FAIL  loading $seller (exit $?)"
-        return 1
-    fi
-}
-
-# ---------------------------------------------------------------------------
-# Run a pair of sellers: scrape both in parallel, then load sequentially.
+# Run a pair of sellers sequentially. Each seller owns its scrape/load retries;
+# sequential execution preserves the low-contention DB load policy.
 # A failure in one scraper does not abort the other or the overall script.
 # ---------------------------------------------------------------------------
 run_pair() {
     local s1=$1
     local s2=${2:-}
 
-    # Scrape in parallel
-    scrape_seller "$s1" &
-    local pid1=$!
-    local pid2=""
-    if [ -n "$s2" ]; then
-        scrape_seller "$s2" &
-        pid2=$!
-    fi
-
-    # Wait for both — collect exit codes without aborting on failure
+    # Collect exit codes without aborting on failure.
     local ok=true
-    wait "$pid1" || ok=false
-    if [ -n "$pid2" ]; then
-        wait "$pid2" || ok=false
-    fi
-
-    # Load sequentially (so DB writes don't contend)
-    load_seller "$s1" || ok=false
-    [ -n "$s2" ] && { load_seller "$s2" || ok=false; }
+    run_seller "$s1" || ok=false
+    [ -n "$s2" ] && { run_seller "$s2" || ok=false; }
 
     $ok
 }
 
 # ---------------------------------------------------------------------------
-# Main: pairs chosen to balance scrape time (heavy sellers separated).
+# Main: seller groups retained from the previous daily pipeline.
 # ---------------------------------------------------------------------------
 log "=== GameXS daily scrape started ==="
 
@@ -96,19 +62,11 @@ run_pair technolife               || failed_sellers+=" technolife"
 
 # Upera Game uses Crawl4AI because its WooCommerce variation catalog is more
 # reliably captured through the shared Crawl4AI fetcher than the legacy adapter
-# interface. Game offers and PS Plus offers are loaded in one DB transaction.
+# interface. The shared Python seller runner applies the same health contract
+# and isolates its cache per attempt.
 log "=== Upera Game Crawl4AI scrape ==="
-if python crawl_uperagame.py --output-dir /tmp --concurrency 4 2>&1 | sed 's/^/[uperagame] /'; then
-    if python load_uperagame_to_postgres.py \
-            --games-cache /tmp/uperagame_offers.jsonl \
-            --plus-cache /tmp/uperagame_ps_plus.jsonl 2>&1 | sed 's/^/[uperagame] /'; then
-        log "DONE  loading uperagame"
-    else
-        log "FAIL  loading uperagame"
-        failed_sellers+=" uperagame"
-    fi
-else
-    log "FAIL  scraping uperagame"
+if ! run_seller uperagame; then
+    log "FAIL  scraping and loading uperagame"
     failed_sellers+=" uperagame"
 fi
 
@@ -146,8 +104,14 @@ python upload_to_s3.py --db-url "$DATABASE_URL" 2>&1 | sed 's/^/[s3] /' || \
 # then remove games that have no remaining active listings.
 # ---------------------------------------------------------------------------
 log "=== Post-run DB cleanup ==="
-python -m gamexs_scraper.maintenance 2>&1 | sed 's/^/[cleanup] /' || \
-    log "WARN  DB cleanup failed — stale listings and orphaned games will remain"
+if [ -n "$failed_sellers" ]; then
+    log "SKIP  DB cleanup — seller health failures detected:$failed_sellers"
+else
+    python -m gamexs_scraper.maintenance 2>&1 | sed 's/^/[cleanup] /' || {
+        log "WARN  DB cleanup failed — stale listings and orphaned games will remain"
+        failed_sellers+=" maintenance"
+    }
+fi
 
 # ---------------------------------------------------------------------------
 # Final status

@@ -42,6 +42,18 @@ SCRAPER_INTERVAL_SECONDS=86400 .venv/bin/python runner.py
 The runner handles SIGTERM by stopping the active pipeline before exiting.
 Use `bash scrape_all.sh` directly for a one-shot run.
 
+Each seller is processed through `gamexs_scraper.seller_runner`: one initial
+attempt plus two retries, with a fixed 30-second delay before each retry. A
+snapshot is rejected when it has zero games or drops by more than 50% from the
+seller's active baseline. The loader runs only after that check, and the
+post-scrape stale-listing cleanup is skipped if any seller fails. Attempts and
+results are stored in `scrape_runs` and `scrape_run_attempts` (migration 032).
+
+Telegram delivery is optional until the bot is created. Configure
+`TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` as deployment secrets to enable
+final-failure alerts; missing values leave the scraper running and emit a
+clear log message.
+
 ### Proxy
 
 Some `.ir` and `.com` domains require the proxy for DNS resolution:

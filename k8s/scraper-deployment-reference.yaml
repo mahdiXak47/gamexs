@@ -70,6 +70,19 @@ spec:
                 secretKeyRef:
                   name: gamexs-secret-envs
                   key: S3_BUCKET
+            # Optional until the Telegram bot is created.
+            - name: TELEGRAM_BOT_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: gamexs-secret-envs
+                  key: TELEGRAM_BOT_TOKEN
+                  optional: true
+            - name: TELEGRAM_CHAT_ID
+              valueFrom:
+                secretKeyRef:
+                  name: gamexs-secret-envs
+                  key: TELEGRAM_CHAT_ID
+                  optional: true
             - name: HTTPS_PROXY
               value: "http://custom-xray.mahdixak-gamexs.svc:10809"
             - name: NO_PROXY

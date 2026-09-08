@@ -122,6 +122,7 @@ HTTPS_PROXY=http://custom-xray.mahdixak-gamexs.svc:10809
 NO_PROXY=gamexs-db.mahdixak-gamexs.svc,localhost,127.0.0.1,10.0.0.0/8
 IGDB_CLIENT_ID / IGDB_CLIENT_SECRET
 S3_ENDPOINT_URL / S3_BUCKET / S3_ACCESS_KEY / S3_SECRET_KEY
+TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID  # optional until the bot is created
 ```
 
 Do not copy database credentials or secret values into this document, Git, or
@@ -133,14 +134,15 @@ container arguments.
 2. Apply `db/migrations/028_allow_unenriched_games.sql` where the legacy compatibility state exists.
 3. Apply catalog corrections and URL-compatibility migrations `030` and `031`
    before deploying the frontend that queries slug aliases.
-4. Build an image containing `runner.py`, the non-Temporal pipeline, Crawl4AI Upera scraper,
+4. Apply `db/migrations/032_add_scrape_health.sql` before deploying the health-aware runner.
+5. Build an image containing `runner.py`, the non-Temporal pipeline, Crawl4AI Upera scraper,
    loader, and existing seller pipeline.
-5. Configure the `scraper` Deployment through Darkube/Helm with the new image
+6. Configure the `scraper` Deployment through Darkube/Helm with the new image
    and the selected scheduling mechanism.
-6. Confirm the scraper pod is Ready and its logs show completed scrape/load
+7. Confirm the scraper pod is Ready and its logs show completed scrape/load
    cycles, not worker connection retries.
-7. Run the database verification queries below.
-8. Confirm the frontend and backend deployments use the same `gamexs-db`
+8. Run the database verification queries below, including recent `scrape_runs`.
+9. Confirm the frontend and backend deployments use the same `gamexs-db`
    service and deploy frontend code that renders `OWN_ACCOUNT_GAME` and `DISC`.
 
 ## Read-only health checks
@@ -185,6 +187,10 @@ WHERE s.slug = 'uperagame'
 - Do not run the old CronJob manifest; no CronJob exists in the current
   production design.
 - Do not run global stale-listing maintenance after a failed scrape/load.
+- Seller processing retries twice after the initial attempt with a fixed
+  30-second delay. Zero-game or greater-than-50%-drop snapshots are not loaded.
+- Do not enable Telegram delivery until both bot credentials are stored as
+  deployment secrets; never place the bot token in Git or command arguments.
 - A failed loader transaction is rolled back; fix the cause and retry the same
   snapshot.
 - IGDB enrichment is separate from price loading. It requires outbound access
