@@ -98,6 +98,8 @@ _APOSTROPHE_FIX_RE = re.compile(r"([A-Z])'([A-Z])")
 _ROMAN_NUMERAL_RE = re.compile(
     r"^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$", re.IGNORECASE
 )
+_NUMERAL_TOKEN_RE = re.compile(r"(?<!\w)(?:\d+|[IVXLCDM]+)(?!\w)", re.IGNORECASE)
+_ROMAN_VALUES = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
 
 # Official titles the generic title-case heuristic gets wrong — e.g. a
 # leading symbol before an all-caps word defeats the "uppercase word ≤3
@@ -169,5 +171,38 @@ def clean_title(raw_title: str) -> str:
     return _TITLE_CASE_OVERRIDES.get(cased.lower(), cased)
 
 
+def _roman_value(token: str) -> int:
+    total = 0
+    previous = 0
+    for character in reversed(token.upper()):
+        value = _ROMAN_VALUES[character]
+        if value < previous:
+            total -= value
+        else:
+            total += value
+            previous = value
+    return total
+
+
+def _canonicalize_number_tokens(text: str) -> str:
+    """Use decimal sequel numbers for standalone Roman/Arabic variants.
+
+    This deliberately leaves embedded numbers and zero-padded titles alone:
+    ``2K25`` and ``007`` are title identity, not alternate spellings of ``25``
+    and ``7``.
+    """
+
+    def replace(match: re.Match[str]) -> str:
+        token = match.group(0)
+        if token.isdigit():
+            return token if len(token) > 1 and token.startswith("0") else str(int(token))
+        if not _ROMAN_NUMERAL_RE.fullmatch(token):
+            return token
+        value = _roman_value(token)
+        return str(value) if 1 <= value <= 30 else token
+
+    return _NUMERAL_TOKEN_RE.sub(replace, text)
+
+
 def normalize_game_name(raw_title: str) -> str:
-    return clean_title(raw_title).lower()
+    return _canonicalize_number_tokens(clean_title(raw_title).lower())
