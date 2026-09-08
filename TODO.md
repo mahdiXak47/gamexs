@@ -29,8 +29,9 @@
 
 ## Active: Game editions cleanup
 
-- Audit remaining special-edition rows that have no `igdb_id` and verify their
-  edition labels are correct (Legacy Edition, Collector Edition, etc.).
+- The local read-only audit on 2026-09-08 found zero special-edition rows
+  without an `igdb_id`; repeat the audit against production and review any
+  remaining edition labels (Legacy Edition, Collector Edition, etc.).
 
 ## Legal and trust
 
