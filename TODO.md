@@ -19,7 +19,6 @@
 - User-account extras: favorites, price-drop alerts.
 - Gift cards and EA Play/other subscriptions (taxonomy exists; nothing scraped
   yet. PS Plus is live).
-- Cross-seller deduplication using `igdb_id` as canonical key.
 - **GTA games**: investigate the data/display problem (likely cross-seller
   dedup, regional naming variants, or scraper mis-classification).
 
@@ -49,7 +48,9 @@
 
 ## Future features
 
-- Mail server + support/پشتیبانی section (users submit support requests).
+- Configure and verify the production SMTP mail server and complete staff-side
+  support replies; ticket creation and the user-facing support section already
+  exist.
 - Seller admin panel for submitting and managing prices directly (alternative
   to scraping), with auth + approval/moderation workflow.
 
