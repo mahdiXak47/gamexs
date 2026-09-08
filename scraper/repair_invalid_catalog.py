@@ -23,6 +23,7 @@ import sys
 import psycopg
 from dotenv import load_dotenv
 
+from gamexs_scraper.catalog_merge import merge_game_relations
 from gamexs_scraper.game_aliases import alias_candidates
 from gamexs_scraper.load_to_postgres import url_slugify
 from gamexs_scraper.normalize import normalize_game_name
@@ -95,56 +96,8 @@ def _find_target(cur: psycopg.Cursor, bad_id: int, platform_id: int, title: str,
 
 
 def _merge_game(cur: psycopg.Cursor, bad_id: int, target_id: int) -> tuple[int, int, int]:
-    """Move listings/history/aliases, then remove the invalid duplicate row."""
-    moved_listings = deduped_listings = moved_aliases = 0
-    cur.execute(
-        "SELECT id, seller_id, source_url, product_type, tier FROM listings WHERE game_id = %s",
-        (bad_id,),
-    )
-    old_listings = cur.fetchall()
-    for old_id, seller_id, source_url, product_type, tier in old_listings:
-        cur.execute(
-            """
-            SELECT id
-            FROM listings
-            WHERE game_id = %s AND seller_id = %s AND source_url = %s
-              AND product_type = %s AND tier IS NOT DISTINCT FROM %s
-            """,
-            (target_id, seller_id, source_url, product_type, tier),
-        )
-        existing = cur.fetchone()
-        if existing:
-            target_listing_id = existing[0]
-            cur.execute(
-                """
-                INSERT INTO price_history (listing_id, price_toman, in_stock, scraped_at)
-                SELECT %s, price_toman, in_stock, scraped_at
-                FROM price_history
-                WHERE listing_id = %s
-                ON CONFLICT (listing_id, scraped_at) DO NOTHING
-                """,
-                (target_listing_id, old_id),
-            )
-            cur.execute("DELETE FROM listings WHERE id = %s", (old_id,))
-            deduped_listings += 1
-        else:
-            cur.execute("UPDATE listings SET game_id = %s WHERE id = %s", (target_id, old_id))
-            moved_listings += 1
-
-    cur.execute("SELECT id, normalized_name FROM ps5_game_aliases WHERE game_id = %s", (bad_id,))
-    for alias_id, normalized_name in cur.fetchall():
-        cur.execute(
-            "SELECT 1 FROM ps5_game_aliases WHERE platform_id = (SELECT platform_id FROM ps5_games WHERE id = %s) AND normalized_name = %s AND game_id <> %s",
-            (bad_id, normalized_name, bad_id),
-        )
-        if cur.fetchone():
-            cur.execute("DELETE FROM ps5_game_aliases WHERE id = %s", (alias_id,))
-        else:
-            cur.execute("UPDATE ps5_game_aliases SET game_id = %s WHERE id = %s", (target_id, alias_id))
-            moved_aliases += 1
-
-    cur.execute("DELETE FROM ps5_games WHERE id = %s", (bad_id,))
-    return moved_listings, deduped_listings, moved_aliases
+    """Move listing/history/alias relations before removing the duplicate row."""
+    return merge_game_relations(cur, bad_id, target_id)
 
 
 def main() -> None:

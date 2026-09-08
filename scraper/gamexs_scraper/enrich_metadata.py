@@ -39,6 +39,7 @@ import psycopg
 import requests
 from dotenv import load_dotenv
 
+from .catalog_merge import merge_game_relations
 from .load_to_postgres import url_slugify
 from .normalize import clean_title, normalize_game_name
 
@@ -693,10 +694,7 @@ def _write_game(
 
                     if conflict:
                         primary_id = conflict[0]
-                        cur.execute(
-                            "UPDATE listings SET game_id = %s WHERE game_id = %s",
-                            (primary_id, game_id),
-                        )
+                        merge_game_relations(cur, game_id, primary_id)
                         cur.execute("DELETE FROM ps5_games WHERE id = %s", (game_id,))
                         cur.execute(
                             """

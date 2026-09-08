@@ -47,6 +47,7 @@ from dotenv import load_dotenv
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "scraper"))
 
 from gamexs_scraper.load_to_postgres import url_slugify
+from gamexs_scraper.catalog_merge import merge_game_relations
 from gamexs_scraper.normalize import clean_title, normalize_game_name
 
 # ---------------------------------------------------------------------------
@@ -201,11 +202,8 @@ def run(dry_run: bool = False) -> None:
         with psycopg.connect(database_url) as conn:
             with conn.cursor() as cur:
                 for dup_gid, *_ in duplicates:
-                    cur.execute(
-                        "UPDATE listings SET game_id = %s WHERE game_id = %s",
-                        (primary[0], dup_gid),
-                    )
-                    total_merged += cur.rowcount
+                    moved, deduplicated, _ = merge_game_relations(cur, dup_gid, primary[0])
+                    total_merged += moved + deduplicated
                     cur.execute("DELETE FROM ps5_games WHERE id = %s", (dup_gid,))
                     total_deleted += cur.rowcount
 
