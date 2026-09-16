@@ -47,9 +47,9 @@ export function s3ArtworkUrl(slug: string): string {
 
 /** Canonical S3 URL for a game's main background image.
  *
- * The frontend currently uses the existing artwork objects as the main
- * background source. The newer main-background-images prefix is not fully
- * populated in object storage yet, so deriving those URLs causes 404s.
+ * Use the legacy artwork prefix as a fallback for games that do not yet have
+ * a dedicated main background uploaded. Stored main-background-images URLs
+ * are preserved by normalizeMainBackgroundImageUrl below.
  */
 export function s3MainBackgroundImageUrl(slug: string): string {
   return s3ArtworkUrl(slug);
@@ -57,13 +57,7 @@ export function s3MainBackgroundImageUrl(slug: string): string {
 
 export function normalizeMainBackgroundImageUrl(url: string | null, slug: string): string {
   if (!url) return s3MainBackgroundImageUrl(slug);
-  const normalized = normalizeS3Url(url);
-  if (normalized.includes("/main-background-images/")) {
-    return normalized
-      .replace("/main-background-images/", "/artworks/")
-      .replace("-main-background-image.webp", "-key-art.webp");
-  }
-  return normalized;
+  return normalizeS3Url(url);
 }
 
 /** Canonical S3 URL for a screenshot filename as stored in screenshot_ids. */

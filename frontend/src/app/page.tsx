@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import { Chip } from "@heroui/react";
 import Disclaimer from "@/components/Disclaimer";
 import GameGrid from "@/components/GameGrid";
@@ -12,7 +13,12 @@ import { getLastScrapedAt, getFeaturedUpcomingGames, listGamesPage, listPublishe
 import { parseGameListSearchParams } from "@/lib/search-params";
 import { catalogCanonicalPath, shouldNoIndexCatalogParams, SITE_NAME, SITE_URL } from "@/lib/seo";
 
-const PAGE_SIZE = 10;
+const DESKTOP_PAGE_SIZE = 21;
+const MOBILE_PAGE_SIZE = 10;
+
+function isMobileRequest(userAgent: string | null) {
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile/i.test(userAgent ?? "");
+}
 
 export const dynamic = "force-dynamic";
 
@@ -42,12 +48,15 @@ export default async function Home({
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 }) {
   const { query, sort, publishers, page } = parseGameListSearchParams(await searchParams);
+  const pageSize = isMobileRequest((await headers()).get("user-agent"))
+    ? MOBILE_PAGE_SIZE
+    : DESKTOP_PAGE_SIZE;
 
   const [{ games: topGames }, { games: newestGames }, { games: featuredGames }, { games, total }, publishersList, lastScrapedAt, upcomingGames] = await Promise.all([
     listGamesPage({ sort: "popular", pageSize: 10, onlyWithListings: true, popularOnly: true }),
     listGamesPage({ sort: "newest", pageSize: 10, onlyWithListings: true }),
     listGamesPage({ sort: "popular", pageSize: 6, onlyWithListings: true, heroPositionedOnly: true }),
-    listGamesPage({ query, sort, publishers, page, pageSize: PAGE_SIZE, onlyWithListings: true }),
+    listGamesPage({ query, sort, publishers, page, pageSize, onlyWithListings: true }),
     listPublishers(),
     getLastScrapedAt(),
     getFeaturedUpcomingGames(4),
@@ -142,7 +151,7 @@ export default async function Home({
             games={games}
             total={total}
             page={page}
-            pageSize={PAGE_SIZE}
+            pageSize={pageSize}
             sort={sort}
             query={query}
             selectedPublishers={publishers}

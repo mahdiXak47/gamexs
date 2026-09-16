@@ -1,0 +1,104 @@
+{
+  "slug": "high-on-life",
+  "igdb_id": 204618,
+  "name": "High on Life",
+  "summary": "From the mind of Justin Roiland (Rick and Morty, Solar Opposites) comes High On Life. Humanity is being threatened by an alien cartel who wants to use them as drugs. It’s up to you to rescue and partner with charismatic, talking guns, take down Garmantuous and his gang, and save the world!",
+  "first_release_year": 2022,
+  "developers": [
+    "Squanch Games"
+  ],
+  "publishers": [
+    "Squanch Games"
+  ],
+  "genres": [
+    "Shooter",
+    "Adventure"
+  ],
+  "themes": [
+    "Action",
+    "Science fiction",
+    "Comedy"
+  ],
+  "game_modes": [
+    "Single player"
+  ],
+  "player_perspectives": [
+    "First person"
+  ],
+  "series": [
+    "High on Life"
+  ],
+  "spin_off_of": null,
+  "franchises": [],
+  "game_engines": [
+    "Unreal Engine 4"
+  ],
+  "keywords": [],
+  "alternative_names": [],
+  "websites": [
+    {
+      "label": "Official Website",
+      "url": "https://squanchgames.com/high-on-life"
+    },
+    {
+      "label": "PlayStation Store",
+      "url": "https://store.playstation.com/de-de/product/EP2886-PPSA15389_00-0937721911272224"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/highonlifegame"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/highonlifegame"
+    }
+  ],
+  "release_dates": [
+    {
+      "platform": "PC (Microsoft Windows)",
+      "region": null,
+      "date": "Dec 13, 2022",
+      "status": "Released",
+      "date_iso": "2022-12-13"
+    },
+    {
+      "platform": "PlayStation 5",
+      "region": null,
+      "date": "Jul 22, 2023",
+      "status": "Released",
+      "date_iso": "2023-07-22"
+    },
+    {
+      "platform": "PlayStation 4",
+      "region": null,
+      "date": "Jul 22, 2023",
+      "status": "Released",
+      "date_iso": "2023-07-22"
+    }
+  ],
+  "artworks": [
+    "http://gs3.gamexs.ir/gamexs/main-background-images/high-on-life-main-background-image.webp"
+  ],
+  "videos": [
+    {
+      "title": "Trailer",
+      "youtube_id": "Trd_kGxEoY8",
+      "url": "https://www.youtube.com/watch?v=Trd_kGxEoY8"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "7SUUeakHKTk",
+      "url": "https://www.youtube.com/watch?v=7SUUeakHKTk"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "TuvwHBLkVMY",
+      "url": "https://www.youtube.com/watch?v=TuvwHBLkVMY"
+    },
+    {
+      "title": "Trailer",
+      "youtube_id": "zqVMUyQmRyU",
+      "url": "https://www.youtube.com/watch?v=zqVMUyQmRyU"
+    }
+  ]
+}

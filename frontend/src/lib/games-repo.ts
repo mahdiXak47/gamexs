@@ -54,6 +54,7 @@ interface GameSummaryRow {
   title: string;
   genre_label: string | null;
   release_year?: number | null;
+  release_date?: Date | null;
   publisher: string | null;
   cover_url: string | null;
   main_background_image_url: string | null;
@@ -313,7 +314,7 @@ export async function listCatalogAvailability(): Promise<CatalogAvailability[]> 
 
 const SORT_CLAUSE: Record<SortOption, string> = {
   popular: "popularity_score DESC, store_count DESC, title ASC",
-  newest: "created_at DESC",
+  newest: "release_date DESC NULLS LAST, title ASC",
   price_asc: "lowest_price ASC NULLS LAST",
   price_desc: "lowest_price DESC NULLS LAST",
   alpha_asc: "title ASC",
@@ -366,6 +367,9 @@ export async function listGamesPage(options: ListGamesOptions = {}): Promise<Pag
     options.heroPositionedOnly ? "AND g.hero_position IS NOT NULL" : "",
   ].join("\n        ");
   const orderClause = options.heroPositionedOnly ? "hero_position ASC" : SORT_CLAUSE[sort];
+  const releasedGamesFilter = sort === "newest" && !options.heroPositionedOnly
+    ? "AND (g.release_date IS NULL OR g.release_date <= CURRENT_DATE)"
+    : "";
   const includeViewPopularity = await hasGameViewTrackingTables();
   const popularitySelect = includeViewPopularity
     ? `
@@ -401,6 +405,7 @@ export async function listGamesPage(options: ListGamesOptions = {}): Promise<Pag
         g.title,
         g.genre_label,
         g.release_year,
+        g.release_date,
         g.publisher,
         g.cover_url,
         g.main_background_image_url,
@@ -424,6 +429,7 @@ export async function listGamesPage(options: ListGamesOptions = {}): Promise<Pag
       ${popularityJoins}
       WHERE g.platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')
         ${editorialFilters}
+        ${releasedGamesFilter}
         AND ($1::text IS NULL OR g.genre_label ILIKE $1)
         AND ($2::text IS NULL OR g.title ILIKE $2 OR g.genre_label ILIKE $2)
         AND ($3::text[] IS NULL OR g.publisher = ANY($3))

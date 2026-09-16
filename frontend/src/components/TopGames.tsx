@@ -88,7 +88,7 @@ export default function TopGames({
           </Link>
         </div>
 
-        <div className="hide-scrollbar flex touch-pan-x gap-3 overflow-x-auto overscroll-x-contain pb-2 snap-x snap-mandatory lg:gap-4" dir="ltr">
+        <div className="hide-scrollbar flex touch-pan-x gap-3 overflow-x-auto overscroll-x-contain pb-2 snap-x snap-mandatory lg:gap-4" dir="rtl">
           {games.slice(0, 10).map((game, index) => (
             <TopGameCard key={game.slug} game={game} rank={index + 1} />
           ))}
