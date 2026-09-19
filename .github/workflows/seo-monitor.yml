@@ -27,10 +27,11 @@ jobs:
       - name: Check public SEO routes
         env:
           SEO_BASE_URL: ${{ vars.SEO_BASE_URL || 'https://gamexs.ir' }}
-          SEO_MONITOR_GAME_SLUG: ${{ vars.SEO_MONITOR_GAME_SLUG || 'clair-obscur-expedition-33' }}
-          SEO_MONITOR_PUBLISHER_SLUG: ${{ vars.SEO_MONITOR_PUBLISHER_SLUG || 'sony' }}
-          SEO_MONITOR_GENRE_SLUG: ${{ vars.SEO_MONITOR_GENRE_SLUG || 'shooter' }}
-          SEO_MONITOR_PS_PLUS_TIER: ${{ vars.SEO_MONITOR_PS_PLUS_TIER || 'essential' }}
-          SEO_MONITOR_PURCHASE_TYPE: ${{ vars.SEO_MONITOR_PURCHASE_TYPE || 'capacity-2' }}
+          SEO_MONITOR_GAME_SLUG: ${{ vars.SEO_MONITOR_GAME_SLUG }}
+          SEO_MONITOR_PUBLISHER_SLUG: ${{ vars.SEO_MONITOR_PUBLISHER_SLUG }}
+          SEO_MONITOR_GENRE_SLUG: ${{ vars.SEO_MONITOR_GENRE_SLUG }}
+          SEO_MONITOR_PS_PLUS_TIER: ${{ vars.SEO_MONITOR_PS_PLUS_TIER }}
+          SEO_MONITOR_PURCHASE_TYPE: ${{ vars.SEO_MONITOR_PURCHASE_TYPE }}
+          SEO_MONITOR_CONCURRENCY: '2'
           SEO_ALERT_WEBHOOK: ${{ secrets.SEO_ALERT_WEBHOOK }}
         run: node ops/seo-monitor.mjs

@@ -128,3 +128,54 @@ test("SEO monitor rejects an accidental noindex response", async () => {
   assert.equal(result.code, 1, result.stdout || result.stderr);
   assert.match(result.stdout, /noindex response on monitored route/);
 });
+
+test("SEO monitor selects representative catalog routes from the live sitemap", async () => {
+  const sitemap = [
+    "https://gamexs.ir/games/catalog-game",
+    "https://gamexs.ir/publishers/catalog-publisher",
+    "https://gamexs.ir/genres/catalog-genre",
+    "https://gamexs.ir/ps-plus/extra",
+    "https://gamexs.ir/capacity-3",
+  ].map((url) => `<url><loc>${url}</loc></url>`).join("");
+  const seen = [];
+  const result = await withServer((request, response) => {
+    seen.push(request.url);
+    if (request.url === "/sitemap.xml") {
+      response.setHeader("content-type", "application/xml; charset=utf-8");
+      response.end(`<urlset>${sitemap}</urlset>`);
+      return;
+    }
+    routeHandler()(request, response);
+  }, (baseUrl) => runMonitor(baseUrl, {
+    SEO_MONITOR_GAME_SLUG: "",
+    SEO_MONITOR_PUBLISHER_SLUG: "",
+    SEO_MONITOR_GENRE_SLUG: "",
+    SEO_MONITOR_PS_PLUS_TIER: "",
+    SEO_MONITOR_PURCHASE_TYPE: "",
+  }));
+
+  assert.equal(result.code, 0, result.stdout || result.stderr);
+  const report = JSON.parse(result.stdout);
+  assert.deepEqual(report.results.map(({ path }) => path), [
+    "/", "/robots.txt", "/sitemap.xml", "/image-sitemap.xml",
+    "/games/catalog-game", "/publishers/catalog-publisher", "/genres/catalog-genre",
+    "/ps-plus/extra", "/capacity-3",
+  ]);
+  assert.ok(seen.includes("/publishers/catalog-publisher"));
+});
+
+test("SEO monitor limits concurrent requests", async () => {
+  let active = 0;
+  let maxActive = 0;
+  const result = await withServer((request, response) => {
+    active++;
+    maxActive = Math.max(maxActive, active);
+    setTimeout(() => {
+      routeHandler()(request, response);
+      active--;
+    }, 30);
+  }, (baseUrl) => runMonitor(baseUrl, { SEO_MONITOR_CONCURRENCY: "2" }));
+
+  assert.equal(result.code, 0, result.stdout || result.stderr);
+  assert.equal(maxActive, 2);
+});
