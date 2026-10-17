@@ -82,18 +82,6 @@ const nextConfig: NextConfig = {
     unoptimized: disableImageOptimization,
     remotePatterns: [
       {
-        protocol: "http",
-        hostname: "gs3.gamexs.ir",
-        port: "",
-        pathname: "/gamexs/**",
-      },
-      {
-        protocol: "https",
-        hostname: "gs3.gamexs.ir",
-        port: "",
-        pathname: "/gamexs/**",
-      },
-      {
         protocol: "https",
         hostname: "images.igdb.com",
         port: "",

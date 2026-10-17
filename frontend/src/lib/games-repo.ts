@@ -1,16 +1,16 @@
 import { cache } from "react";
 import { query } from "./db";
-import { s3CoverUrl, s3ScreenshotUrl, normalizeMainBackgroundImageUrl, normalizeS3Url } from "./covers";
+import { s3CoverUrl, s3ScreenshotUrl, normalizeMainBackgroundImageUrl, normalizeS3Url, isS3ImageUrl } from "./covers";
 import { getGameDetails } from "./game-details";
 import { emptyPurchaseOptions, findOption, purchasePathLabel } from "./purchase-options";
 import type { AccessTier, Game, GamePriceHistoryPoint, GameSummary, HeroPriceOption, ProductType, SortOption, UpcomingGame } from "./types";
 
 // Resolve cover URL — S3 only, normalized to HTTPS.
-// 1. DB stores an S3 URL (gs3.gamexs.ir) → use directly (https-normalized).
+// 1. DB stores an S3 URL → use it (legacy host rewritten, https-normalized).
 // 2. Anything else (IGDB CDN, seller CDN, old /api/ path, null) → construct
 //    the S3 URL from the slug. Returns null if not yet uploaded to S3.
 function toCoverUrl(dbUrl: string | null, slug: string): string | null {
-  if (dbUrl?.includes("gs3.gamexs.ir")) return normalizeS3Url(dbUrl);
+  if (isS3ImageUrl(dbUrl)) return normalizeS3Url(dbUrl);
   return s3CoverUrl(slug);
 }
 

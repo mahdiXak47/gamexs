@@ -114,16 +114,18 @@ def to_webp(data: bytes) -> bytes | None:
 
 # ── DB ────────────────────────────────────────────────────────────────────────
 
-def fetch_remote_cover_games(db_url: str) -> list[tuple[int, str, str]]:
+def fetch_remote_cover_games(db_url: str, bucket: str) -> list[tuple[int, str, str]]:
     """Return [(id, slug, cover_url)] for games whose cover is not yet on S3."""
     with psycopg.connect(db_url, connect_timeout=10) as conn:
         with conn.cursor() as cur:
             cur.execute(
                 "SELECT id, slug, cover_url FROM ps5_games "
                 "WHERE cover_url IS NOT NULL "
-                "AND cover_url NOT LIKE '%gs3.gamexs.ir%' "
-                "AND cover_url NOT LIKE '/api/%' "
-                "ORDER BY slug"
+                # Already on S3 = has the bucket path, whatever endpoint wrote it.
+                "AND cover_url NOT LIKE %s "
+                "AND cover_url NOT LIKE '/api/%%' "
+                "ORDER BY slug",
+                (f"%/{bucket}/%",),
             )
             return cur.fetchall()
 
@@ -173,7 +175,7 @@ def main() -> None:
     base_url = f"{endpoint}/{bucket}"
 
     print("Fetching games with remote cover URLs from DB …", file=sys.stderr)
-    games = fetch_remote_cover_games(db_url)
+    games = fetch_remote_cover_games(db_url, bucket)
     if args.limit:
         games = games[: args.limit]
     total = len(games)

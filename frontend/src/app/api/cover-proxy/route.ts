@@ -1,4 +1,4 @@
-// cover-proxy is no longer used — all covers are served from S3 (gs3.gamexs.ir).
+// cover-proxy is no longer used — all covers are served from S3 (S3_ENDPOINT_URL).
 // Kept as a stub so existing bookmarked URLs don't 404.
 import { NextRequest, NextResponse } from "next/server";
 
