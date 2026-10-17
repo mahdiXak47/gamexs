@@ -30,9 +30,12 @@ async function check(path, { captureBody = false } = {}) {
       /<title[^>]*>\s*صفحه پیدا نشد(?:\s*\||\s*<)/i.test(body) ||
       body.includes("NEXT_HTTP_ERROR_FALLBACK;404")
     );
+    const normalizedBody = body.replaceAll(String.raw`\"`, '"');
     const streamedServerError = response.status === 200 && (
       body.includes("مشکلی در نمایش این صفحه پیش آمد") ||
-      body.includes("NEXT_HTTP_ERROR_FALLBACK;500")
+      body.includes("بارگذاری این بازی ناموفق بود") ||
+      body.includes("NEXT_HTTP_ERROR_FALLBACK;500") ||
+      /\b[A-Za-z0-9]+:E\{"digest":"[^"]+"\}/.test(normalizedBody)
     );
     const noindexResponse = response.headers.get("x-robots-tag")?.toLowerCase().includes("noindex") ||
       /<meta[^>]+name=["']robots["'][^>]+content=["'][^"']*noindex/i.test(body);

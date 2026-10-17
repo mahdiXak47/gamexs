@@ -113,6 +113,23 @@ test("SEO monitor rejects a streamed 404 served with HTTP 200", async () => {
   assert.match(result.stdout, /not-found document returned with HTTP 200/);
 });
 
+test("SEO monitor rejects a streamed Next.js server-component error with HTTP 200", async () => {
+  const result = await withServer(
+    (request, response) => {
+      if (request.url === "/games/broken-game") {
+        response.setHeader("content-type", "text/html; charset=utf-8");
+        response.end(String.raw`<!doctype html><html><body><script>self.__next_f.push([1,"b:E{\"digest\":\"1878471263\"}"])</script></body></html>`);
+        return;
+      }
+      routeHandler()(request, response);
+    },
+    (baseUrl) => runMonitor(baseUrl, { SEO_MONITOR_GAME_SLUG: "broken-game" }),
+  );
+
+  assert.equal(result.code, 1, result.stdout || result.stderr);
+  assert.match(result.stdout, /server-error document returned with HTTP 200/);
+});
+
 test("SEO monitor rejects an accidental noindex response", async () => {
   const result = await withServer(
     (request, response) => {
