@@ -7,11 +7,16 @@ Verified 2026-07-08:
 - Multiple third-party sellers may list the same product; we take the first
   in-stock offer (the one technolife surfaces by default).
 - Pagination: ?page=N query parameter on the category URL.
+
+Re-verified 2026-10-18: product hrefs are now absolute, and the category page
+also links other platforms/phones (recommendation widgets), so only product
+URLs whose slug names PS5 are followed.
 """
 
 import json
 import re
 import sys
+from urllib.parse import unquote
 from collections.abc import Iterator
 
 import requests
@@ -23,7 +28,7 @@ from ..models import ProductType, RawOffer
 CATEGORY_URL = "https://www.technolife.com/category/gaming/games/ps-games/ps5-games"
 BASE_URL = "https://www.technolife.com"
 
-_PRODUCT_HREF_RE = re.compile(r"^/product-\d+/")
+_PRODUCT_HREF_RE = re.compile(r"^(?:https://www\.technolife\.com)?/product-\d+/")
 
 
 class TechnoLifeAdapter(SellerAdapter):
@@ -55,7 +60,10 @@ class TechnoLifeAdapter(SellerAdapter):
             found_any = False
             for a in soup.find_all("a", href=_PRODUCT_HREF_RE):
                 href = a["href"]
-                full_url = BASE_URL + href
+                full_url = href if href.startswith("http") else BASE_URL + href
+                # Slugs are percent-encoded (sometimes twice); PS5 items say "ps5".
+                if "ps5" not in unquote(unquote(full_url)).lower():
+                    continue
                 if full_url not in seen:
                     seen.add(full_url)
                     found_any = True
