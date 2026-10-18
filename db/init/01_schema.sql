@@ -262,3 +262,33 @@ CREATE TABLE scrape_run_attempts (
 );
 
 CREATE INDEX idx_scrape_run_attempts_run_id ON scrape_run_attempts (run_id, attempt_no);
+
+-- Live pipeline progress for the admin panel (migration 033).
+CREATE TABLE pipeline_runs (
+    id           BIGSERIAL PRIMARY KEY,
+    status       TEXT NOT NULL CHECK (status IN ('running', 'succeeded', 'failed', 'abandoned')),
+    summary      TEXT,
+    started_at   TIMESTAMPTZ NOT NULL DEFAULT now(),
+    completed_at TIMESTAMPTZ
+);
+
+CREATE INDEX idx_pipeline_runs_started ON pipeline_runs (started_at DESC);
+
+CREATE TABLE pipeline_steps (
+    id              BIGSERIAL PRIMARY KEY,
+    pipeline_run_id BIGINT NOT NULL REFERENCES pipeline_runs (id) ON DELETE CASCADE,
+    name            TEXT NOT NULL,
+    position        INT NOT NULL,
+    status          TEXT NOT NULL CHECK (status IN ('queued', 'running', 'succeeded', 'failed', 'skipped', 'abandoned')),
+    progress_done   INT CHECK (progress_done >= 0),
+    progress_total  INT CHECK (progress_total >= 0),
+    message         TEXT,
+    log_tail        TEXT,
+    exit_code       INT,
+    started_at      TIMESTAMPTZ,
+    heartbeat_at    TIMESTAMPTZ,
+    completed_at    TIMESTAMPTZ,
+    UNIQUE (pipeline_run_id, name)
+);
+
+CREATE INDEX idx_pipeline_steps_name_completed ON pipeline_steps (name, completed_at DESC);

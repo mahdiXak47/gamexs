@@ -13,13 +13,18 @@ set -euo pipefail
 
 log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*"; }
 
+# Admin-panel bookkeeping (gamexs_scraper/pipeline.py). Best-effort: if the DB
+# is unreachable the run id is empty and `step` just runs the command.
+pipeline() { python -m gamexs_scraper.pipeline "$@"; }
+step() { local name=$1; shift; pipeline step "$name" -- "$@"; }
+
 # ---------------------------------------------------------------------------
 # Scrape, validate, load, and retry one seller; return non-zero on failure.
 # ---------------------------------------------------------------------------
 run_seller() {
     local seller=$1
     log "START scraping $seller"
-    if python -m gamexs_scraper.seller_runner "$seller" \
+    if step "$seller" python -m gamexs_scraper.seller_runner "$seller" \
             --output-dir /tmp 2>&1 | sed "s/^/[$seller] /"; then
         log "DONE  scraping and loading $seller"
     else
@@ -49,6 +54,11 @@ run_pair() {
 # Main: seller groups retained from the previous daily pipeline.
 # ---------------------------------------------------------------------------
 log "=== GameXS daily scrape started ==="
+GAMEXS_PIPELINE_RUN_ID=$(pipeline start \
+    pspro digikala gamario gameonestore gamecenter gameplayshop xgamesstore \
+    nakhlmarket parsconsole cdkeyshare persianconsole yungcenter technolife \
+    uperagame igdb psstore s3 cleanup || true)
+export GAMEXS_PIPELINE_RUN_ID
 
 failed_sellers=""
 
@@ -76,7 +86,7 @@ fi
 # must pass an IGDB-first import before their prices can be loaded.
 # ---------------------------------------------------------------------------
 log "=== IGDB enrichment ==="
-python -m gamexs_scraper.enrich_metadata 2>&1 | sed 's/^/[igdb] /' || \
+step igdb python -m gamexs_scraper.enrich_metadata 2>&1 | sed 's/^/[igdb] /' || \
     log "WARN  IGDB enrichment failed — unresolved catalog rows remain blocked"
 
 # ---------------------------------------------------------------------------
@@ -86,7 +96,7 @@ python -m gamexs_scraper.enrich_metadata 2>&1 | sed 's/^/[igdb] /' || \
 # whole nightly scrape.
 # ---------------------------------------------------------------------------
 log "=== PS Store price fetch ==="
-python fetch_psstore_prices.py --db-url "$DATABASE_URL" 2>&1 | sed 's/^/[psstore] /' || \
+step psstore python fetch_psstore_prices.py --db-url "$DATABASE_URL" 2>&1 | sed 's/^/[psstore] /' || \
     log "WARN  PS Store price fetch failed — ps5_store_info will be stale but prices are unaffected"
 
 # ---------------------------------------------------------------------------
@@ -96,7 +106,7 @@ python fetch_psstore_prices.py --db-url "$DATABASE_URL" 2>&1 | sed 's/^/[psstore
 # Requires: S3_ENDPOINT_URL, S3_ACCESS_KEY, S3_SECRET_KEY, S3_BUCKET env vars.
 # ---------------------------------------------------------------------------
 log "=== S3 cover upload ==="
-python upload_to_s3.py --db-url "$DATABASE_URL" 2>&1 | sed 's/^/[s3] /' || \
+step s3 python upload_to_s3.py --db-url "$DATABASE_URL" 2>&1 | sed 's/^/[s3] /' || \
     log "WARN  S3 upload failed — covers will fall back to IGDB CDN"
 
 # ---------------------------------------------------------------------------
@@ -106,8 +116,9 @@ python upload_to_s3.py --db-url "$DATABASE_URL" 2>&1 | sed 's/^/[s3] /' || \
 log "=== Post-run DB cleanup ==="
 if [ -n "$failed_sellers" ]; then
     log "SKIP  DB cleanup — seller health failures detected:$failed_sellers"
+    pipeline skip cleanup "skipped: seller failures:$failed_sellers"
 else
-    python -m gamexs_scraper.maintenance 2>&1 | sed 's/^/[cleanup] /' || {
+    step cleanup python -m gamexs_scraper.maintenance 2>&1 | sed 's/^/[cleanup] /' || {
         log "WARN  DB cleanup failed — stale listings and orphaned games will remain"
         failed_sellers+=" maintenance"
     }
@@ -118,6 +129,8 @@ fi
 # ---------------------------------------------------------------------------
 if [ -n "$failed_sellers" ]; then
     log "=== COMPLETED WITH FAILURES: $failed_sellers ==="
+    pipeline finish failed "$failed_sellers"
     exit 1
 fi
+pipeline finish succeeded
 log "=== GameXS daily scrape completed successfully ==="

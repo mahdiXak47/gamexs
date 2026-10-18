@@ -35,6 +35,8 @@ from dataclasses import dataclass, fields
 
 import psycopg
 
+from gamexs_scraper.pipeline import report_progress
+
 log = logging.getLogger("psstore")
 
 
@@ -597,8 +599,10 @@ def main() -> None:
                     # Keep the last known price; writing empties would NULL it.
                     log.warning("[%d/%d] %s: fetch failed, keeping stored price: %s", done_offset + idx, grand_total, game_name, exc)
                     failed += 1
+                    report_progress(done_offset + idx, grand_total, f"{failed} failed so far")
                     continue
                 fetched += 1
+                report_progress(done_offset + idx, grand_total, f"{game_name} ({failed} failed so far)")
 
                 row = GameRow(
                     game_name=game_name,

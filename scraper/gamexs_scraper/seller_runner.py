@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+from contextlib import contextmanager
 import csv
 from datetime import datetime, timezone
 import json
@@ -11,6 +12,7 @@ from pathlib import Path
 import subprocess
 import sys
 import tempfile
+import threading
 import time
 
 import psycopg
@@ -23,6 +25,7 @@ from .seller_health import (
     evaluate_game_count,
     retry_delays,
 )
+from .pipeline import report_progress
 from .telegram import send_telegram_alert
 
 
@@ -39,6 +42,24 @@ def count_jsonl_records(path: str | Path) -> int:
     """Count non-empty JSONL records without parsing the full snapshot."""
     with Path(path).open(encoding="utf-8") as source:
         return sum(1 for line in source if line.strip())
+
+
+@contextmanager
+def reporting_cache_progress(cache_path: Path, message: str, interval: float = 10):
+    """While the block runs, report the growing JSONL record count as step progress."""
+    stop = threading.Event()
+
+    def poll() -> None:
+        while not stop.wait(interval):
+            if cache_path.exists():
+                report_progress(count_jsonl_records(cache_path), message=message)
+
+    thread = threading.Thread(target=poll, daemon=True)
+    thread.start()
+    try:
+        yield
+    finally:
+        stop.set()
 
 
 class ScrapeRunStore:
@@ -226,24 +247,27 @@ def run_seller(
                 with tempfile.TemporaryDirectory(prefix=f"gamexs-{seller}-", dir=str(output_dir)) as directory:
                     cache_path = Path(directory) / f"{seller}.jsonl"
                     csv_path = Path(directory) / f"{seller}.csv"
-                    export_result = subprocess.run(
-                        [
-                            sys.executable,
-                            "-m",
-                            "gamexs_scraper.export_csv",
-                            seller,
-                            "-o",
-                            str(csv_path),
-                            "--cache",
-                            str(cache_path),
-                        ],
-                        cwd=SCRAPER_ROOT,
-                        check=False,
-                    )
+                    with reporting_cache_progress(cache_path, f"scraping (attempt {attempt_no}/{max_attempts})"):
+                        export_result = subprocess.run(
+                            [
+                                sys.executable,
+                                "-m",
+                                "gamexs_scraper.export_csv",
+                                seller,
+                                "-o",
+                                str(csv_path),
+                                "--cache",
+                                str(cache_path),
+                            ],
+                            cwd=SCRAPER_ROOT,
+                            check=False,
+                        )
                     if export_result.returncode != 0:
                         raise RuntimeError(f"scrape command exited with code {export_result.returncode}")
 
                     observed_games = count_csv_games(csv_path)
+                    if cache_path.exists():
+                        report_progress(count_jsonl_records(cache_path), message="loading into database", force=True)
                     quality = evaluate_game_count(observed_games, previous_games or None)
                     if not quality.healthy:
                         last_reason = quality.reason

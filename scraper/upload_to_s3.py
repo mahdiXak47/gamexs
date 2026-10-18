@@ -40,6 +40,8 @@ from botocore.client import Config
 from botocore.exceptions import ClientError
 from dotenv import load_dotenv
 
+from gamexs_scraper.pipeline import report_progress
+
 load_dotenv(dotenv_path=Path(__file__).parent.parent / ".env")
 
 COVERS_DIR = Path(__file__).parent / "output" / "images" / "covers"
@@ -154,6 +156,7 @@ def upload_directory(
                 failed += 1
                 print(f"\n  FAIL {key}: {exc}", file=sys.stderr)
 
+            report_progress(done, total, f"uploading {prefix} (skipped={skipped}, failed={failed})")
             print(
                 f"\r  [{prefix}] {done}/{total}  skipped={skipped}  failed={failed}   ",
                 end="",

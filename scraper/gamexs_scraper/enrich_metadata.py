@@ -37,6 +37,8 @@ from difflib import SequenceMatcher
 
 import psycopg
 import requests
+
+from .pipeline import report_progress
 from dotenv import load_dotenv
 
 from .catalog_merge import merge_game_relations
@@ -838,6 +840,7 @@ def main() -> None:
 
     for i, (game_id, platform_id, title) in enumerate(games, start=1):
         print(f"\r[{i:>4}/{total}] {title[:55]:<55}", end="", file=sys.stderr)
+        report_progress(i - 1, total, f"enriching {title[:60]}")
 
         # Legacy rows often contain the platform marker that caused the
         # duplicate (for example ``A Way Out PS4 و``). Normalize that marker
