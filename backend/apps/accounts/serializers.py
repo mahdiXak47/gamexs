@@ -63,8 +63,8 @@ class UserProfileSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = ["id", "phone_number", "first_name", "last_name", "email",
-                  "is_phone_verified", "is_email_verified", "date_joined"]
-        read_only_fields = ["id", "phone_number", "is_phone_verified", "is_email_verified", "date_joined"]
+                  "is_phone_verified", "is_email_verified", "is_staff", "date_joined"]
+        read_only_fields = ["id", "phone_number", "is_phone_verified", "is_email_verified", "is_staff", "date_joined"]
 
     def validate_email(self, value):
         user = self.instance

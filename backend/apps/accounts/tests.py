@@ -152,3 +152,16 @@ class ProductionConfigurationChecksTests(TestCase):
         errors = run_checks(tags=[Tags.security])
 
         self.assertFalse(any(error.id == "accounts.E001" for error in errors))
+
+
+class ProfileStaffFlagTests(TestCase):
+    def test_profile_exposes_is_staff_but_does_not_let_users_set_it(self):
+        user = User.objects.create_user(phone_number="09120000001", password="pass-1234")
+        client = APIClient()
+        client.force_authenticate(user)
+
+        self.assertIs(client.get(reverse("profile")).data["is_staff"], False)
+
+        client.patch(reverse("profile"), {"is_staff": True}, format="json")
+        user.refresh_from_db()
+        self.assertFalse(user.is_staff)
