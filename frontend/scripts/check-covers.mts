@@ -2,7 +2,7 @@
 // Run: npx tsx scripts/check-covers.mts
 process.env.S3_ENDPOINT_URL = "http://new-endpoint.example/";
 process.env.S3_BUCKET = "gamexs";
-const { normalizeS3Url: n, isS3ImageUrl: i, s3CoverUrl } = await import("../src/lib/covers.js");
+const { normalizeS3Url: n, isS3ImageUrl: i, s3CoverUrl, normalizeMainBackgroundImageUrl: bg } = await import("../src/lib/covers.js");
 const eq = (a: unknown, b: unknown) => { if (a !== b) throw new Error(`${a} !== ${b}`); };
 
 eq(n("http://old-host.example/gamexs/covers/a.webp"), "https://new-endpoint.example/gamexs/covers/a.webp");
@@ -13,4 +13,7 @@ eq(i("https://any.example/gamexs/a.webp"), true);
 eq(i("https://images.igdb.com/x.jpg"), false);
 eq(i(null), false);
 eq(s3CoverUrl("gta"), "https://new-endpoint.example/gamexs/covers/gta-main-cover.webp");
+eq(bg("https://images.igdb.com/igdb/image/upload/t_720p/ar5z88.webp", "fc"), "https://new-endpoint.example/gamexs/artworks/fc-key-art.webp");
+eq(bg(null, "fc"), "https://new-endpoint.example/gamexs/artworks/fc-key-art.webp");
+eq(bg("http://old.example/gamexs/main-background-images/fc.webp", "fc"), "https://new-endpoint.example/gamexs/main-background-images/fc.webp");
 console.log("covers ok");

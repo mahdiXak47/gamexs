@@ -59,9 +59,10 @@ export function s3MainBackgroundImageUrl(slug: string): string {
   return s3ArtworkUrl(slug);
 }
 
+// Like covers: only S3 URLs are trusted. Third-party URLs (IGDB CDN) are not
+// reachable from the production cluster, so they fall back to the S3 artwork.
 export function normalizeMainBackgroundImageUrl(url: string | null, slug: string): string {
-  if (!url) return s3MainBackgroundImageUrl(slug);
-  return normalizeS3Url(url);
+  return isS3ImageUrl(url) ? normalizeS3Url(url) : s3MainBackgroundImageUrl(slug);
 }
 
 /** Canonical S3 URL for a screenshot filename as stored in screenshot_ids. */
