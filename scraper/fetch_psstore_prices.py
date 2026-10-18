@@ -405,7 +405,12 @@ def _extract_cache(html: str) -> dict:
 
 
 def fetch_ps_price_from_url(url: str) -> PriceInfo:
-    """Fetch one PS Store page and extract price + PS Plus tier flags."""
+    """Fetch one PS Store page and extract price + PS Plus tier flags.
+
+    Returns an empty PriceInfo only when the store says the page does not exist.
+    Network errors and pages without the embedded store data raise, so callers
+    skip the write instead of overwriting the last known price with NULL.
+    """
     try:
         raw = _http_get(url)
         html = raw.decode(errors="replace")
@@ -413,12 +418,10 @@ def fetch_ps_price_from_url(url: str) -> PriceInfo:
         if e.code in (404, 400):
             return PriceInfo()
         raise
-    except urllib.error.URLError:
-        return PriceInfo()
 
     cache = _extract_cache(html)
     if not cache:
-        return PriceInfo()
+        raise ValueError(f"no PS Store data in page (blocked or changed format): {url}")
 
     info = PriceInfo()
 
@@ -576,6 +579,7 @@ def main() -> None:
         if not already_done:
             csv_writer.writeheader()
 
+    fetched = failed = 0
     try:
         with ThreadPoolExecutor(max_workers=args.workers) as pool:
             game_futures: list[tuple[str, str, int | None, Future, Future]] = [
@@ -590,8 +594,11 @@ def main() -> None:
                     us: PriceInfo = f_us.result()
                     tr: PriceInfo = f_tr.result()
                 except Exception as exc:
-                    log.warning("[%d/%d] %s: fetch failed: %s", done_offset + idx, grand_total, game_name, exc)
-                    us = tr = PriceInfo()
+                    # Keep the last known price; writing empties would NULL it.
+                    log.warning("[%d/%d] %s: fetch failed, keeping stored price: %s", done_offset + idx, grand_total, game_name, exc)
+                    failed += 1
+                    continue
+                fetched += 1
 
                 row = GameRow(
                     game_name=game_name,
@@ -623,6 +630,10 @@ def main() -> None:
         db_conn.close()
         if csv_file:
             csv_file.close()
+
+    log.info("PS Store fetch finished: %d updated, %d failed", fetched, failed)
+    if failed and not fetched:
+        sys.exit("every PS Store fetch failed — store unreachable from this network?")
 
 
 if __name__ == "__main__":

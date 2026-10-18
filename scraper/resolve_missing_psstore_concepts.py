@@ -388,7 +388,11 @@ def main() -> None:
             us_price = ""
             tr_price = ""
             if args.apply:
-                us_price, tr_price = upsert_candidate(conn, candidate)
+                try:
+                    us_price, tr_price = upsert_candidate(conn, candidate)
+                except Exception as exc:  # network/blocked page: leave this game untouched
+                    log.warning("skipped %s: PS Store fetch failed: %s", candidate.game.title, exc)
+                    continue
                 log.info(
                     "upserted %s -> concept %s | US=%s | TR=%s",
                     candidate.game.title,
