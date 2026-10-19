@@ -165,6 +165,7 @@ def load_offers(
     trusted_cover = seller_slug in _TRUSTED_COVER_SELLERS
     games_seen: set[int] = set()
     listings_seen: set[int] = set()
+    unresolved: dict[str, str] = {}
 
     for i, offer in enumerate(offers, start=1):
         normalized = normalize_game_name(offer.raw_title)
@@ -207,11 +208,10 @@ def load_offers(
                 # A seller title is not a canonical game identity. Never
                 # create a ps5_games row here: new games must be imported from
                 # IGDB first, then mapped through an explicit alias or slug.
-                raise ValueError(
-                    f"unresolved seller title {offer.raw_title!r} -> "
-                    f"{clean_title(offer.raw_title)!r}; import a verified IGDB game "
-                    "and alias before loading seller prices"
-                )
+                # Skip just this offer — one unknown title must not discard the
+                # seller's prices for every catalog game.
+                unresolved.setdefault(offer.raw_title, clean_title(offer.raw_title))
+                continue
 
         tier = offer.tier.value.upper() if offer.tier else None
         listing_id = upsert_listing(cur, game_id, seller_id, offer.product_type.value.upper(), tier, offer.source_url)
@@ -221,6 +221,16 @@ def load_offers(
         print(f"\r{i}/{len(offers)} offers loaded", end="", file=sys.stderr)
 
     print(file=sys.stderr)
+    if unresolved:
+        print(
+            f"skipped {len(unresolved)} unresolved seller titles (import a verified IGDB game "
+            "and alias to load them):",
+            file=sys.stderr,
+        )
+        for raw, cleaned in list(unresolved.items())[:30]:
+            print(f"  unresolved {raw!r} -> {cleaned!r}", file=sys.stderr)
+        if len(unresolved) > 30:
+            print(f"  … and {len(unresolved) - 30} more", file=sys.stderr)
     return len(games_seen), len(listings_seen)
 
 
@@ -253,7 +263,7 @@ def main() -> None:
         games_count, listings_count = load_offers(cur, platform_row[0], seller_row[0], args.seller, offers)
         conn.commit()
 
-    print(f"done — {games_count} games, {listings_count} listings, {len(offers)} price points", file=sys.stderr)
+    print(f"done — {games_count} games, {listings_count} listings updated from {len(offers)} offers", file=sys.stderr)
 
 
 if __name__ == "__main__":
