@@ -4,8 +4,36 @@
     {
       "name": "frontend",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["--prefix", "frontend", "run", "dev", "--", "--port", "3210"],
+      "runtimeArgs": [
+        "--prefix",
+        "frontend",
+        "run",
+        "dev",
+        "--",
+        "--port",
+        "3210"
+      ],
       "port": 3210
+    },
+    {
+      "name": "admin",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "admin",
+        "run",
+        "dev"
+      ],
+      "port": 3100
+    },
+    {
+      "name": "backend",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": [
+        "-c",
+        "cd backend && DJANGO_SETTINGS_MODULE=gamexs.settings.local .venv/bin/python manage.py runserver 8000"
+      ],
+      "port": 8000
     }
   ]
 }

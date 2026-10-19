@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@import "@heroui/styles";
+
+@theme inline {
+  --font-sans: var(--font-fira-sans);
+  --font-mono: var(--font-fira-code);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  min-height: 100dvh;
+}
+
+/* Data columns, counters and timers must not jitter as digits change. */
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+.skip-link {
+  position: absolute;
+  inset-inline-start: 1rem;
+  top: -100%;
+  z-index: 100;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

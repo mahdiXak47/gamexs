@@ -11,12 +11,13 @@ model, seller list, and UI requirements: **`docs/PROJECT_CONTEXT.md`** (written
 to be handed to a separate design conversation — read it before making
 product-shape decisions). Current build status and known gaps: **`TODO.md`**.
 
-Monorepo with four packages:
+Monorepo with five packages:
 
 - `scraper/` — Python, scrapes 13 seller sites, loads into Postgres, enriches via IGDB.
 - `db/` — Postgres 16 schema (`ps5_games`, `sellers`, `listings`, `price_history`, `ps_plus`).
 - `frontend/` — Next.js 16 UI, reads directly from the Postgres DB (no mock data).
 - `backend/` — Django 5.1 REST API, user accounts, auth, cart, orders, tickets.
+- `admin/` — Next.js 16 internal ops panel (staff only): live scraping pipeline progress, history, logs.
 
 The scraper writes to the DB, the frontend reads from it, and the backend shares the same DB while managing its own user-facing tables. Pending work is in `TODO.md`.
 
@@ -151,6 +152,33 @@ APIs/conventions (e.g. dynamic route `params` is a `Promise` that must be
   mirror the scraper's `ProductType`/`AccessTier` taxonomy and the DB's
   `sellers` table so swapping in real data later is a data-source change, not
   a UI rewrite — keep that shape if you extend it.
+
+## `admin/` (Next.js 16 ops panel, staff only)
+
+```bash
+cd admin
+cp .env.example .env.local   # DATABASE_URL (same DB, read-only is enough) + API_URL (Django backend)
+npm run dev                  # http://localhost:3100
+npx tsx scripts/check-progress.mts   # self-check for the progress/ETA math
+```
+
+- Separate app so the public site never ships admin code. Same stack and HeroUI v3 design system as
+  `frontend/`, but LTR/English, dark, Fira Sans/Fira Code, `noindex` + `X-Frame-Options: DENY`.
+- **Data**: reads `pipeline_runs` / `pipeline_steps` (migration 033, live progress) and
+  `scrape_runs` / `scrape_run_attempts` (migration 032, per-seller history) directly from Postgres.
+  It never writes to the DB. Pages auto-refresh every 10 s via `router.refresh()` — no websockets.
+- **Writers**: `scraper/scrape_all.sh` registers each cycle with `python -m gamexs_scraper.pipeline start …`
+  and wraps every seller/task in `pipeline step NAME -- cmd`, which records status, exit code, a 10 s
+  heartbeat and the last 200 log lines. Inside a step, `report_progress(done, total, message)` adds counts:
+  sellers count JSONL records while crawling (expected total = the last successful run's count, so the
+  first tracked run shows no %/ETA), PS Store/IGDB/S3 report loop position. Bookkeeping is best-effort —
+  a DB error never fails a scrape. A run still `running` with no heartbeat for 2 min shows as **stalled**;
+  the next cycle marks it `abandoned`.
+- **Auth**: login goes through the backend (`/api/auth/login/`) server-side; the admin app keeps the JWTs in
+  its own httpOnly cookies (`gx_admin_*`). Every panel render re-checks `/api/profile/` for `is_staff`
+  (`lib/auth.ts`); `proxy.ts` only refreshes the 1 h access token and bounces sessionless requests to
+  `/login`. Unsafe backend calls need Django's CSRF token pair — use `apiPost()` in `lib/session.ts`.
+- Grant access by setting `is_staff` on the user in Django admin.
 
 ## `backend/` (Django 5.1, Django REST Framework)
 
