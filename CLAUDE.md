@@ -147,6 +147,11 @@ APIs/conventions (e.g. dynamic route `params` is a `Promise` that must be
   (`GameGrid.tsx`, `PurchaseTypeSelector.tsx`), or the client bundle breaks.
   The pattern is: resolve the cover URL server-side in the page, pass it down
   as a plain `string | null` prop, render via `components/CoverArt.tsx`.
+- **Buy links go through `/go/[listingId]`** (`app/go/[listingId]`, `lib/clicks.ts`): the page records one
+  `outbound_clicks` row (migration 034 — no raw IP, `visitor_hash` = sha256 of ip+UA+day+salt), shows the
+  GameXS hand-off screen, then forwards to the seller. Use a plain `<a>` (never `next/link`, a prefetch
+  would count), skip bots/prefetch, and only redirect to a URL on the seller's own domain (no open redirect).
+  The admin **Referrals** page reports these per shop/game with a CSV export for invoicing.
 - Cover images are **not** copied into `frontend/public/` — the route
   handler `app/api/covers/[filename]/route.ts` streams files straight out of
   `scraper/output/images/<seller>/` on request (path-traversal-safe via

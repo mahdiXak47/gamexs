@@ -292,3 +292,21 @@ CREATE TABLE pipeline_steps (
 );
 
 CREATE INDEX idx_pipeline_steps_name_completed ON pipeline_steps (name, completed_at DESC);
+
+-- Seller referral clicks (migration 034).
+CREATE TABLE outbound_clicks (
+    id           BIGSERIAL PRIMARY KEY,
+    listing_id   INT REFERENCES listings (id) ON DELETE SET NULL,
+    game_id      INT NOT NULL REFERENCES ps5_games (id) ON DELETE CASCADE,
+    seller_id    INT NOT NULL REFERENCES sellers (id) ON DELETE CASCADE,
+    product_type product_type NOT NULL,
+    tier         access_tier,
+    price_toman  BIGINT,
+    visitor_hash TEXT NOT NULL,
+    referrer     TEXT,
+    clicked_at   TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+CREATE INDEX idx_outbound_clicks_seller_time ON outbound_clicks (seller_id, clicked_at DESC);
+CREATE INDEX idx_outbound_clicks_game_time ON outbound_clicks (game_id, clicked_at DESC);
+CREATE INDEX idx_outbound_clicks_time ON outbound_clicks (clicked_at DESC);

@@ -2,7 +2,6 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { Alert, Avatar, Card, Chip, Table } from "@heroui/react";
-import { useToast } from "@/context/ToastContext";
 import { formatToman, toPersianDigits } from "@/lib/format";
 import { bestOfferId, lowestPriceForOption } from "@/lib/purchase-options";
 import type { PurchaseOption } from "@/lib/types";
@@ -163,7 +162,6 @@ export default function PurchaseTypeSelector({ options }: { options: PurchaseOpt
 }
 
 function SellerTable({ option }: { option: PurchaseOption }) {
-  const toast = useToast();
   const best = bestOfferId(option);
   const availableCount = option.offers.filter((offer) => offer.inStock && offer.priceToman > 0).length;
   const hasOnlyUnavailableOffers = option.offers.length > 0 && availableCount === 0;
@@ -243,10 +241,10 @@ function SellerTable({ option }: { option: PurchaseOption }) {
                     <Table.Cell>
                       {canBuy ? (
                         <a
-                          href={offer.listingUrl}
+                          href={`/go/${offer.listingId}`}
                           target="_blank"
-                          rel="noopener noreferrer"
-                          onClick={() => toast.info("در حال انتقال به فروشگاه", `${offer.sellerName}؛ قیمت و موجودی نهایی را پیش از پرداخت بررسی کنید.`)}
+                          rel="nofollow noopener"
+                          // Plain <a>, not next/link: a prefetch must never count as a referral.
                           className="inline-flex items-center justify-center rounded-3xl bg-accent px-3 py-1.5 text-xs font-bold text-accent-foreground transition-[opacity,transform] duration-150 hover:opacity-90 active:scale-[0.97]"
                           aria-label={`خرید از فروشگاه ${offer.sellerName}`}
                         >

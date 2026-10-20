@@ -16,6 +16,8 @@ export interface SellerOffer {
   priceToman: number;
   inStock: boolean;
   listingUrl: string;
+  /** listings.id — buy links go through /go/[listingId] so clicks are counted. */
+  listingId: string;
 }
 
 export interface PurchaseOption {

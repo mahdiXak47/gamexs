@@ -12,7 +12,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/api/", "/account/"],
+        disallow: ["/api/", "/account/", "/go/"],
       },
       {
         userAgent: [
@@ -25,7 +25,7 @@ export default function robots(): MetadataRoute.Robots {
           "Bingbot",
         ],
         allow: "/",
-        disallow: ["/api/", "/account/"],
+        disallow: ["/api/", "/account/", "/go/"],
       },
     ],
     sitemap: [`${SITE_URL}/sitemap.xml`, `${SITE_URL}/image-sitemap.xml`],
