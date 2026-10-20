@@ -164,5 +164,6 @@ server error (5xx) 216, noindex 102, crawled-not-indexed 85, Google-chose-canoni
   resubmit `sitemap.xml`.
 - [ ] Re-check in 2–4 weeks: indexed count, category-page positions for
   «دیسک بازی ps5» / «خرید اکانت ظرفیت ۲ ps5» (were 85 / 69).
-- [ ] Duplicate catalog slugs with `--1` suffix (e.g. `until-dawn--1`): merge or
-  alias to clean slugs.
+- [x] IGDB "--N" duplicate slugs (e.g. `until-dawn--1`): migration 035 moved 71
+  games to the clean slug; old slugs are aliases → 308. 2 left where the clean
+  slug belongs to a different IGDB game (e.g. fast-and-furious-arcade).
