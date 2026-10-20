@@ -1,6 +1,6 @@
 import unittest
 
-from gamexs_scraper.normalize import normalize_game_name
+from gamexs_scraper.normalize import clean_title, normalize_game_name
 
 
 class GameNameNormalizationTests(unittest.TestCase):
@@ -21,6 +21,12 @@ class GameNameNormalizationTests(unittest.TestCase):
             normalize_game_name("007 First Light"),
             normalize_game_name("7 First Light"),
         )
+
+    def test_preorder_prefix_and_transliteration_are_stripped(self):
+        title = "پیش خرید و قیمت اکانت قانونی بازی GTA VI جی تی ای 6 برای Ps5"
+        self.assertEqual(clean_title(title), "GTA VI")
+        self.assertEqual(normalize_game_name(title), "gta 6")
+        self.assertEqual(clean_title("نینتندو"), "نینتندو")  # Persian-only titles are left alone
 
     def test_2k_titles_are_not_split_or_rewritten(self):
         self.assertEqual(normalize_game_name("NBA 2K25"), "nba 2k25")

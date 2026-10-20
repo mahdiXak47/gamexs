@@ -21,6 +21,8 @@ _EDITION_TRANSLATIONS: list[tuple[re.Pattern, str]] = [
 # group one seller's own listings; cross-seller/catalog matching should go
 # through the IGDB-backed canonical catalog + admin review queue instead.
 _NOISE_PATTERNS = [
+    # "پیش خرید" = "pre-order" — must go before the bare "خرید" or "پیش" is left behind
+    r"پیش\s*\u200c?\s*خرید",
     # "و قیمت" = "and price" — seller prefix e.g. "و قیمت Red Dead Redemption"
     r"و\s+قیمت",
     r"خرید\s+اکانت\s+بازی",
@@ -85,6 +87,10 @@ _NOISE_PATTERNS = [
     r"برای",
 ]
 _COMPILED_NOISE = [re.compile(p, re.IGNORECASE) for p in _NOISE_PATTERNS]
+# A Persian word run plus digits attached to it ("جی تی ای 6" = a transliterated
+# "GTA 6"). Only stripped when the title also has Latin letters: catalog titles
+# are English, so leftover Persian there is a transliteration, never identity.
+_PERSIAN_RUN_RE = re.compile(r"[\u0600-\u06ff\u200c]+(?:\s+(?:[\u0600-\u06ff\u200c]+|\d+\b))*")
 _DASH_STRIP_RE = re.compile(r"^[\s\-–—]+|[\s\-–—]+$")
 _WHITESPACE_RE = re.compile(r"\s+")
 # "NBA 2 K21" / "WWE 2 K25" → "NBA 2K21" / "WWE 2K25"
@@ -166,6 +172,9 @@ def clean_title(raw_title: str) -> str:
     #     "Street Fighter 6 Standard" normalises to "Street Fighter 6" and merges
     #     with the base game row rather than creating a phantom duplicate.
     text = _NEUTRAL_SUFFIX_RE.sub("", text)
+    # 4c. Drop transliterations left next to the English title.
+    if re.search(r"[A-Za-z]", text):
+        text = _PERSIAN_RUN_RE.sub(" ", text)
     # 5. Tidy whitespace and leading/trailing dashes.
     text = _WHITESPACE_RE.sub(" ", text).strip()
     text = _DASH_STRIP_RE.sub("", text)
