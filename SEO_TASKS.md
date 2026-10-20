@@ -144,3 +144,25 @@
 - [ ] Build Persian gaming community and directory presence, including relevant forums, Telegram channels, and third-party mentions.
 - [ ] Run a monthly manual visibility check for `site:gamexs.ir` on Google.
 - [ ] Run monthly Persian price-query checks for priority games in Google, ChatGPT, and Perplexity.
+
+## 2026-10-20 — Search Console review
+
+Baseline (last 3 months): 104 clicks, 1.5K impressions, CTR 6.9%, avg position 14.1.
+Indexed 580, not indexed 1.4K: duplicate without user-selected canonical 910,
+server error (5xx) 216, noindex 102, crawled-not-indexed 85, Google-chose-canonical 64.
+
+- [x] Soft 404s / client-side redirects: root `loading.tsx` streamed a 200 before
+  `notFound()`/`permanentRedirect()`; existence checks moved to segment layouts
+  (real 404/308/500). The 910 "duplicates" were game pages crawled ~Oct 8–9 while
+  every game page rendered the same error screen with HTTP 200.
+- [x] Game meta descriptions built from live data (were 31 chars).
+- [x] PS Plus title/description, sitewide description, 404 canonical.
+- [x] Category pages (`/disc-games`, `/capacity-*`): about section, live stats,
+  FAQ + FAQPage JSON-LD, sibling links; footer links all capacity pages.
+- [ ] After deploy: Search Console → Page indexing → "Validate fix" for
+  "Server error (5xx)" and "Duplicate without user-selected canonical";
+  resubmit `sitemap.xml`.
+- [ ] Re-check in 2–4 weeks: indexed count, category-page positions for
+  «دیسک بازی ps5» / «خرید اکانت ظرفیت ۲ ps5» (were 85 / 69).
+- [ ] Duplicate catalog slugs with `--1` suffix (e.g. `until-dawn--1`): merge or
+  alias to clean slugs.
