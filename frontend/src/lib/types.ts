@@ -58,6 +58,8 @@ export interface Game {
   mainBackgroundImageUrl: string | null;
   description: string | null;
   screenshots: string[];
+  /** Self-hosted 720p trailer (scraper/fetch_trailers.py); detail page only. */
+  trailer?: { url: string; updatedAt: string | null } | null;
   purchaseOptions: PurchaseOption[];
   details: GameDetails | null;
 }

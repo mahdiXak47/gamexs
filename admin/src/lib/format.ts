@@ -42,6 +42,7 @@ export const hoursSince = (d: Date | null | undefined, now: Date = new Date()) =
 export const STEP_LABELS: Record<string, string> = {
   igdb: "IGDB enrichment",
   psstore: "PlayStation Store prices",
+  trailers: "Game trailers (S3)",
   s3: "Cover upload (S3)",
   cleanup: "Stale-listing cleanup",
   uperagame: "Upera Game",

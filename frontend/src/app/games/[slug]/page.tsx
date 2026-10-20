@@ -17,6 +17,7 @@ import Header from "@/components/Header";
 import JsonLd from "@/components/JsonLd";
 import PsStorePriceBadges from "@/components/PsStorePriceBadges";
 import PurchaseTypeSelector from "@/components/PurchaseTypeSelector";
+import GameTrailer from "@/components/GameTrailer";
 import ScreenshotGallery from "@/components/ScreenshotGallery";
 import SimilarGames from "@/components/SimilarGames";
 import WishlistButton from "@/components/WishlistButton";
@@ -265,6 +266,19 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
       <JsonLd data={productJsonLd} />
       <JsonLd data={breadcrumbJsonLd} />
       <JsonLd data={faqPageJsonLd(faqs)} />
+      {game.trailer?.updatedAt ? (
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "VideoObject",
+            name: `تریلر ${game.title}`,
+            description: `تریلر رسمی ${game.title} برای PS5`,
+            thumbnailUrl: [heroBg],
+            uploadDate: game.trailer.updatedAt,
+            contentUrl: game.trailer.url,
+          }}
+        />
+      ) : null}
       <GamePageScrollReset slug={game.slug} />
       <GameViewTracker slug={game.slug} />
       <Header />
@@ -415,6 +429,8 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
             title={game.title}
           />
         )}
+
+        {game.trailer ? <GameTrailer title={game.title} url={game.trailer.url} poster={heroBg} /> : null}
 
         {/* Screenshot gallery */}
         <ScreenshotGallery screenshots={game.screenshots} />

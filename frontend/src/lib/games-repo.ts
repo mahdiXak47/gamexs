@@ -674,10 +674,13 @@ export const getGameBySlug = cache(async function getGameBySlug(slug: string): P
     main_background_image_url: string | null;
     description: string | null;
     screenshot_ids: string[] | null;
+    trailer_url: string | null;
+    trailer_updated_at: Date | null;
     last_modified_at: Date | null;
   }>(
     `
     SELECT ps5_games.id, ps5_games.slug, ps5_games.title, ps5_games.genre_label, ps5_games.genres, ps5_games.developers, ps5_games.publisher, ps5_games.release_year, ps5_games.release_date, ps5_games.cover_url, ps5_games.main_background_image_url, ps5_games.description, ps5_games.screenshot_ids,
+           ps5_games.trailer_url, ps5_games.trailer_updated_at,
            (
              SELECT MAX(ph.scraped_at)
              FROM listings l2
@@ -769,6 +772,9 @@ export const getGameBySlug = cache(async function getGameBySlug(slug: string): P
     releaseDate: game.release_date ? game.release_date.toISOString().slice(0, 10) : null,
     lastModifiedAt: game.last_modified_at ? game.last_modified_at.toISOString() : null,
     screenshots,
+    trailer: game.trailer_url
+      ? { url: normalizeS3Url(game.trailer_url), updatedAt: game.trailer_updated_at?.toISOString() ?? null }
+      : null,
     purchaseOptions,
     details: getGameDetails(game.slug),
   };

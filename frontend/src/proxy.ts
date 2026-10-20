@@ -81,7 +81,8 @@ function buildCsp(nonce: string): string {
     "style-src 'self' 'unsafe-inline' https://*.goftino.com",
     "img-src 'self' data: blob: http: https:",
     "font-src 'self' data: https://*.goftino.com",
-    "media-src 'self' https://*.goftino.com",
+    // https: like img-src — trailers stream from the S3 endpoint, which is env-configured.
+    "media-src 'self' https:",
     `connect-src ${SPA_CONNECT_SOURCES.join(" ")}`,
     "frame-src https://www.goftino.com https://*.goftino.com https://trustseal.enamad.ir",
     "worker-src 'self' blob:",
