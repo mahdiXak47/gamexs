@@ -1,4 +1,4 @@
-import { cache } from "react";
+import { memo } from "./memo";
 import { query } from "./db";
 import { s3CoverUrl, s3ScreenshotUrl, normalizeMainBackgroundImageUrl, normalizeS3Url, isS3ImageUrl } from "./covers";
 import { getGameDetails } from "./game-details";
@@ -25,7 +25,7 @@ const LATEST_PRICE_CTE = `
   )
 `;
 
-const hasGameViewTrackingTables = cache(async (): Promise<boolean> => {
+const hasGameViewTrackingTables = memo(async (): Promise<boolean> => {
   try {
     const { rows } = await query<{ has_stats: boolean; has_daily: boolean }>(`
       SELECT
@@ -198,7 +198,7 @@ function stripEditionSuffix(title: string): string {
   return result.length > 0 ? result : title;
 }
 
-export async function listGames(): Promise<GameSummary[]> {
+export const listGames = memo(async function listGames(): Promise<GameSummary[]> {
   const { rows } = await query<GameSummaryRow>(`
     ${LATEST_PRICE_CTE}
     SELECT
@@ -232,7 +232,7 @@ export async function listGames(): Promise<GameSummary[]> {
   `);
 
   return rows.map(rowToGameSummary);
-}
+});
 
 export interface SitemapGame {
   slug: string;
@@ -254,7 +254,7 @@ interface SitemapGameRow {
 // aggregates. Keep it separate from listGames(), which serves the Merchant
 // Center feed and must retain those fields. This avoids scanning and
 // de-duplicating every price_history row on every sitemap request.
-export async function listSitemapGames(): Promise<SitemapGame[]> {
+export const listSitemapGames = memo(async function listSitemapGames(): Promise<SitemapGame[]> {
   const { rows } = await query<SitemapGameRow>(`
     SELECT
       g.slug,
@@ -281,7 +281,7 @@ export async function listSitemapGames(): Promise<SitemapGame[]> {
     screenshotUrl: firstS3ScreenshotUrl(row.screenshot_ids),
     lastSeenAt: row.last_seen_at ? row.last_seen_at.getTime() : null,
   }));
-}
+});
 
 export interface CatalogAvailability {
   genreLabel: string | null;
@@ -292,7 +292,7 @@ export interface CatalogAvailability {
 // Used by sitemap generation to decide which landing pages have content.
 // Keep this as one small grouped query instead of invoking listGamesPage once
 // per genre and purchase-type page (each of which would rebuild latest prices).
-export async function listCatalogAvailability(): Promise<CatalogAvailability[]> {
+export const listCatalogAvailability = memo(async function listCatalogAvailability(): Promise<CatalogAvailability[]> {
   const { rows } = await query<{
     genre_label: string | null;
     product_type: ProductType;
@@ -310,7 +310,7 @@ export async function listCatalogAvailability(): Promise<CatalogAvailability[]> 
     productType: row.product_type,
     tier: row.tier,
   }));
-}
+});
 
 const SORT_CLAUSE: Record<SortOption, string> = {
   popular: "popularity_score DESC, store_count DESC, title ASC",
@@ -351,7 +351,7 @@ export interface PagedGames {
 // paginate in the browser" functions. That older approach sent all ~2,000
 // PS5 games to the client on every homepage load (an ~850KB payload and a
 // slow query), regardless of the 20 actually shown per page.
-export async function listGamesPage(options: ListGamesOptions = {}): Promise<PagedGames> {
+export const listGamesPage = memo(async function listGamesPage(options: ListGamesOptions = {}): Promise<PagedGames> {
   const {
     genre = null,
     query: search = null,
@@ -458,12 +458,12 @@ export async function listGamesPage(options: ListGamesOptions = {}): Promise<Pag
   const games = rows.map(rowToGameSummary);
 
   return { games, total: rows.length > 0 ? Number(rows[0].total_count) : 0 };
-}
+});
 
 // Publishers with ≥ 2 games, sorted alphabetically — single-game publishers
 // are excluded as they add noise without useful filtering value. Optionally
 // scoped to a genre so the genre pages' filter only lists relevant publishers.
-export async function listPublishers(genre?: string): Promise<string[]> {
+export const listPublishers = memo(async function listPublishers(genre?: string): Promise<string[]> {
   const { rows } = await query<{ publisher: string }>(
     `
     SELECT publisher
@@ -484,7 +484,7 @@ export async function listPublishers(genre?: string): Promise<string[]> {
     [genre ? `%${genre}%` : null]
   );
   return rows.map((r) => r.publisher);
-}
+});
 
 export function publisherToSlug(publisher: string): string {
   return publisher
@@ -515,7 +515,7 @@ export async function getPublisherBySlug(slug: string): Promise<string | null> {
 // genres overlap first, so a game sharing 2 of 2 genres beats one sharing 1.
 // Returns [] when the game has no genres at all rather than falling back to
 // some other signal, since an unrelated game list would be worse than none.
-export async function getSimilarGames(
+export const getSimilarGames = memo(async function getSimilarGames(
   gameId: number,
   genres: string[],
   limit = 16
@@ -554,14 +554,14 @@ export async function getSimilarGames(
   );
 
   return rows.map(rowToGameSummary);
-}
+});
 
 // Other PS5 games sharing at least one developer studio — powers the "same
 // developer" row on the game detail page (e.g. Kojima Productions games for
 // Death Stranding 2). Same array-overlap + overlap-count ranking as
 // getSimilarGames, just matched against ps5_games.developers instead of
 // genres. Returns [] when the game has no developer data.
-export async function getSimilarGamesByDeveloper(
+export const getSimilarGamesByDeveloper = memo(async function getSimilarGamesByDeveloper(
   gameId: number,
   developers: string[],
   limit = 16
@@ -600,7 +600,7 @@ export async function getSimilarGamesByDeveloper(
   );
 
   return rows.map(rowToGameSummary);
-}
+});
 
 // Other purchasable editions of the SAME game (e.g. "Battlefield 6 Phantom
 // Edition" for "Battlefield 6") — powers the "versions" row on the game
@@ -614,7 +614,7 @@ export async function getSimilarGamesByDeveloper(
 // and "Resident Evil 4 Remake" share an igdb_id in this DB), which would
 // wrongly surface the original as a "version" of the remake. Title matching
 // alone already correctly finds every real edition group tested.
-export async function getGameVersions(
+export const getGameVersions = memo(async function getGameVersions(
   gameId: number,
   title: string,
   limit = 10
@@ -654,11 +654,11 @@ export async function getGameVersions(
   const matched = rows.filter((row) => stripEditionSuffix(row.title).toLowerCase() === baseTitle);
 
   return matched.slice(0, limit).map(rowToGameSummary);
-}
+});
 
-// Wrapped in React's per-request cache so generateMetadata and the page
-// component (both calling this for the same slug) share one DB round-trip.
-export const getGameBySlug = cache(async function getGameBySlug(slug: string): Promise<Game | null> {
+// Memoized (lib/memo.ts) so generateMetadata, the layout and the page
+// component (all calling this for the same slug) share one DB round-trip.
+export const getGameBySlug = memo(async function getGameBySlug(slug: string): Promise<Game | null> {
   const slugCandidates = slugLookupCandidates(slug);
   const { rows: gameRows } = await query<{
     id: number;
@@ -785,7 +785,7 @@ export const getGameBySlug = cache(async function getGameBySlug(slug: string): P
 // Return one daily minimum per purchase path. The query intentionally keeps
 // historical rows from listings that are no longer active: an inactive
 // listing can still explain a real price movement in the selected period.
-export async function getGamePriceHistory(gameId: number, days = 365): Promise<GamePriceHistoryPoint[]> {
+export const getGamePriceHistory = memo(async function getGamePriceHistory(gameId: number, days = 365): Promise<GamePriceHistoryPoint[]> {
   const windowDays = Math.max(1, Math.min(Math.floor(days), 3650));
   const { rows } = await query<{
     day: string;
@@ -815,7 +815,7 @@ export async function getGamePriceHistory(gameId: number, days = 365): Promise<G
     tier: row.tier,
     priceToman: Number(row.price_toman),
   }));
-}
+});
 
 export interface GameReviewSummary {
   count: number;
@@ -831,7 +831,7 @@ export interface GameReviewSummary {
 // Reviews are managed by Django but live in the same database. The optional
 // lookup is deliberately fail-soft so a partially migrated environment never
 // turns a game page into a 5xx response.
-export async function getGameReviewSummary(gameId: number): Promise<GameReviewSummary | null> {
+export const getGameReviewSummary = memo(async function getGameReviewSummary(gameId: number): Promise<GameReviewSummary | null> {
   try {
     const aggregate = await query<{ count: string; average_rating: string | null }>(
       `SELECT COUNT(*)::text AS count, AVG(rating)::text AS average_rating
@@ -874,7 +874,7 @@ export async function getGameReviewSummary(gameId: number): Promise<GameReviewSu
     console.error("Game review schema data unavailable", error);
     return null;
   }
-}
+});
 
 const UPCOMING_QUERY = `
   WITH latest AS (
@@ -920,20 +920,20 @@ function rowToUpcoming(row: { slug: string; title: string; genre_label: string |
   };
 }
 
-export async function listUpcomingGames(limit = 8): Promise<UpcomingGame[]> {
+export const listUpcomingGames = memo(async function listUpcomingGames(limit = 8): Promise<UpcomingGame[]> {
   const { rows } = await query<Parameters<typeof rowToUpcoming>[0]>(
     UPCOMING_QUERY + `LIMIT $1`,
     [limit]
   );
   return rows.map(rowToUpcoming);
-}
+});
 
-export async function listAllUpcomingGames(): Promise<UpcomingGame[]> {
+export const listAllUpcomingGames = memo(async function listAllUpcomingGames(): Promise<UpcomingGame[]> {
   const { rows } = await query<Parameters<typeof rowToUpcoming>[0]>(UPCOMING_QUERY);
   return rows.map(rowToUpcoming);
-}
+});
 
-export async function getFeaturedUpcomingGames(limit = 6): Promise<UpcomingGame[]> {
+export const getFeaturedUpcomingGames = memo(async function getFeaturedUpcomingGames(limit = 6): Promise<UpcomingGame[]> {
   const { rows } = await query<Parameters<typeof rowToUpcoming>[0]>(
     `
     WITH latest AS (
@@ -962,7 +962,7 @@ export async function getFeaturedUpcomingGames(limit = 6): Promise<UpcomingGame[
     [limit]
   );
   return rows.map(rowToUpcoming);
-}
+});
 
 export interface PsStoreRegionInfo {
   productId: string | null;
@@ -982,7 +982,7 @@ export interface PsStoreInfo {
   tr: PsStoreRegionInfo;
 }
 
-export async function getGameStoreInfo(gameId: number): Promise<PsStoreInfo | null> {
+export const getGameStoreInfo = memo(async function getGameStoreInfo(gameId: number): Promise<PsStoreInfo | null> {
   const { rows } = await query<{
     concept_id: string | null;
     us_product_id: string | null;
@@ -1056,9 +1056,9 @@ export async function getGameStoreInfo(gameId: number): Promise<PsStoreInfo | nu
       discount: row.tr_discount_pct,
     },
   };
-}
+});
 
-export async function getLastScrapedAt(): Promise<Date | null> {
+export const getLastScrapedAt = memo(async function getLastScrapedAt(): Promise<Date | null> {
   const { rows } = await query<{ last_scraped_at: Date | null }>(
     `
     SELECT MAX(l.last_seen_at) AS last_scraped_at
@@ -1069,12 +1069,12 @@ export async function getLastScrapedAt(): Promise<Date | null> {
     `
   );
   return rows[0]?.last_scraped_at ?? null;
-}
+});
 
 export type PurchaseTypeStats = { stores: number; lowestPrice: number | null; lastUpdated: Date | null };
 
 /** Live numbers for a purchase-type landing page (store count, cheapest in-stock offer, freshness). */
-export async function purchaseTypeStats(productType: ProductType, tier: AccessTier | null): Promise<PurchaseTypeStats> {
+export const purchaseTypeStats = memo(async function purchaseTypeStats(productType: ProductType, tier: AccessTier | null): Promise<PurchaseTypeStats> {
   const { rows } = await query<{ stores: number; lowest: string | null; last_updated: Date | null }>(
     `
     ${LATEST_PRICE_CTE}
@@ -1089,4 +1089,4 @@ export async function purchaseTypeStats(productType: ProductType, tier: AccessTi
   );
   const row = rows[0];
   return { stores: row?.stores ?? 0, lowestPrice: row?.lowest ? Number(row.lowest) : null, lastUpdated: row?.last_updated ?? null };
-}
+});

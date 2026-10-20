@@ -1,4 +1,4 @@
-import { cache } from "react";
+import { memo } from "./memo";
 import { query } from "./db";
 import { toPersianDigits } from "./format";
 
@@ -69,7 +69,7 @@ export function formatPsPlusTerm(term: string): string | null {
 // Returns all tiers with their latest price per capacity option. Cached
 // per-request since generateMetadata and the page component both call
 // getPsPlusPlan for the same tier.
-export const getAllPsPlusPlans = cache(async function getAllPsPlusPlans(): Promise<PsPlusPlan[]> {
+export const getAllPsPlusPlans = memo(async function getAllPsPlusPlans(): Promise<PsPlusPlan[]> {
   const { rows } = await query<{
     tier: PsPlusTier;
     cover_url: string | null;
@@ -144,7 +144,7 @@ export const getAllPsPlusPlans = cache(async function getAllPsPlusPlans(): Promi
   return Array.from(planMap.values());
 });
 
-export const getPsPlusPlan = cache(async function getPsPlusPlan(tier: PsPlusTier): Promise<PsPlusPlan | null> {
+export const getPsPlusPlan = memo(async function getPsPlusPlan(tier: PsPlusTier): Promise<PsPlusPlan | null> {
   const all = await getAllPsPlusPlans();
   return all.find((p) => p.tier === tier) ?? null;
 });
