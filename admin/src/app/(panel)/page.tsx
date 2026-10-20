@@ -74,7 +74,7 @@ export default async function OverviewPage() {
             </Link>
           </Card.Header>
           <Card.Content className="px-2 pb-2">
-            <StepsTable steps={steps} names={sellerNames} now={now} />
+            <StepsTable steps={steps} names={sellerNames} now={now} runId={run.id} />
           </Card.Content>
         </Card>
       ) : null}
@@ -248,7 +248,7 @@ function CurrentRun({ run, steps, names, now }: { run: PipelineRun | null; steps
   );
 }
 
-function StepsTable({ steps, names, now }: { steps: PipelineStep[]; names: Map<string, string>; now: Date }) {
+function StepsTable({ steps, names, now, runId }: { steps: PipelineStep[]; names: Map<string, string>; now: Date; runId: string }) {
   return (
     <Table>
       <Table.ScrollContainer>
@@ -275,6 +275,11 @@ function StepsTable({ steps, names, now }: { steps: PipelineStep[]; names: Map<s
                       <div className="max-w-64 truncate text-xs text-muted" title={step.message}>
                         {step.message}
                       </div>
+                    ) : null}
+                    {names.has(step.name) && step.started_at ? (
+                      <Link href={`/runs/${runId}/prices/${step.name}`} className="text-xs text-accent hover:underline">
+                        Price updates
+                      </Link>
                     ) : null}
                   </Table.Cell>
                   <Table.Cell>

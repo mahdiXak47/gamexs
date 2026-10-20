@@ -84,6 +84,10 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt   # first-tim
   merging regional listings (R1/R2/R3) of one title, not cross-seller
   matching. Cross-seller canonical matching is unbuilt (planned: IGDB/RAWG +
   fuzzy matching, currently blocked — see `TODO.md`).
+- **One price per listing per load**: `load_to_postgres` collapses offers that resolve to the same
+  listing (game + seller + type + tier + URL) — in stock first, then cheapest — and logs each collision.
+  A page that sells PS4/PS5, rental or edition variants must filter them in the adapter (see
+  `cdkeyshare.py`); otherwise the collapse picks the cheapest, which may be the wrong variant.
 - `scraper/output/` (CSVs, JSONL caches, downloaded cover images) is
   gitignored — always regenerable from a live or cached scrape, never treat
   it as source of truth to commit.
@@ -179,6 +183,9 @@ npx tsx scripts/check-progress.mts   # self-check for the progress/ETA math
   (`lib/auth.ts`); `proxy.ts` only refreshes the 1 h access token and bounces sessionless requests to
   `/login`. Unsafe backend calls need Django's CSRF token pair — use `apiPost()` in `lib/session.ts`.
 - Grant access by setting `is_staff` on the user in Django admin.
+- **Price updates** (`/runs/[id]/prices/[shop]`): every listing a shop step wrote, derived from
+  `price_history` rows whose `scraped_at` falls inside the step's window, compared with the last price
+  before the step started.
 
 ## `backend/` (Django 5.1, Django REST Framework)
 

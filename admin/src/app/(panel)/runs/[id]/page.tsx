@@ -7,6 +7,7 @@ import { AutoRefresh } from "@/components/AutoRefresh";
 import { StatusChip } from "@/components/StatusChip";
 import { StepLog } from "@/components/StepLog";
 import { StepProgress } from "@/components/StepProgress";
+import { Icon } from "@/components/Icon";
 import { STEP_LABELS, formatAgo, formatDateTime, formatDuration } from "@/lib/format";
 import { runStalled, stepProgress } from "@/lib/progress";
 import { getRun, runSteps, storeHealth } from "@/lib/queries";
@@ -63,6 +64,11 @@ export default async function RunPage({ params }: { params: Promise<{ id: string
                   </dl>
                 </div>
                 {step.message ? <p className="ps-10 text-xs text-muted">{step.message}</p> : null}
+                {names.has(step.name) && step.started_at ? (
+                  <Link href={`/runs/${run.id}/prices/${step.name}`} className="ms-10 inline-flex w-fit items-center gap-1.5 text-sm text-accent hover:underline">
+                    <Icon name="tag" /> Price updates from this step <Icon name="chevron" />
+                  </Link>
+                ) : null}
                 {step.status !== "queued" ? (
                   <div className="ps-10">
                     <StepLog log={step.log_tail} defaultExpanded={step.status === "running" || step.status === "failed"} />

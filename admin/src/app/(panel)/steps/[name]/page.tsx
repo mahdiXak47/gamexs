@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { connection } from "next/server";
 import { AutoRefresh } from "@/components/AutoRefresh";
 import { StatusChip } from "@/components/StatusChip";
+import { Icon } from "@/components/Icon";
 import { StepLog } from "@/components/StepLog";
 import { STEP_LABELS, formatAgo, formatDateTime, formatDuration, formatNumber } from "@/lib/format";
 import { sellerExists, sellerRuns, stepHistory } from "@/lib/queries";
@@ -127,6 +128,11 @@ export default async function StepPage({ params }: { params: Promise<{ name: str
                     </span>
                   </div>
                   {h.message ? <p className="text-xs text-muted">{h.message}</p> : null}
+                  {seller && h.started_at ? (
+                    <Link href={`/runs/${h.pipeline_run_id}/prices/${name}`} className="inline-flex w-fit items-center gap-1 text-sm text-accent hover:underline">
+                      Price updates from this run <Icon name="chevron" />
+                    </Link>
+                  ) : null}
                   <StepLog log={h.log_tail} defaultExpanded={h.status === "running"} />
                 </li>
               ))}

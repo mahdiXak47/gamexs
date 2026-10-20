@@ -259,3 +259,60 @@ export async function sellerExists(slug: string): Promise<{ name: string; domain
   const { rows } = await query<{ name: string; domain: string }>("SELECT name, domain FROM sellers WHERE slug = $1", [slug]);
   return rows[0] ?? null;
 }
+
+export type PriceUpdate = {
+  listing_id: string;
+  title: string;
+  slug: string;
+  product_type: "ACCOUNT_GAME" | "DISC" | "OWN_ACCOUNT_GAME" | string;
+  tier: string | null;
+  price: number;
+  in_stock: boolean;
+  prev_price: number | null;
+  prev_in_stock: boolean | null;
+  source_url: string;
+};
+
+/**
+ * Every listing a seller step wrote: its price in that step versus the last
+ * price recorded before the step started. price_history.scraped_at is the
+ * crawl time, so it falls inside the step's [started_at, completed_at] window.
+ */
+export async function stepPriceUpdates(sellerSlug: string, from: Date, to: Date | null): Promise<PriceUpdate[]> {
+  const { rows } = await query<PriceUpdate>(
+    `
+    WITH cur AS (
+      SELECT DISTINCT ON (ph.listing_id) ph.listing_id, ph.price_toman, ph.in_stock
+      FROM price_history ph
+      JOIN listings l ON l.id = ph.listing_id
+      JOIN sellers se ON se.id = l.seller_id
+      WHERE se.slug = $1 AND ph.scraped_at >= $2 AND ph.scraped_at <= COALESCE($3, now())
+      ORDER BY ph.listing_id, ph.scraped_at DESC
+    )
+    SELECT cur.listing_id::text, g.title, g.slug, l.product_type::text, l.tier::text,
+           cur.price_toman::int AS price, cur.in_stock,
+           prev.price_toman::int AS prev_price, prev.in_stock AS prev_in_stock, l.source_url
+    FROM cur
+    JOIN listings l ON l.id = cur.listing_id
+    JOIN ps5_games g ON g.id = l.game_id
+    LEFT JOIN LATERAL (
+      SELECT price_toman, in_stock FROM price_history
+      WHERE listing_id = cur.listing_id AND scraped_at < $2
+      ORDER BY scraped_at DESC LIMIT 1
+    ) prev ON true
+    ORDER BY g.title, l.product_type, l.tier NULLS FIRST`,
+    [sellerSlug, from, to],
+  );
+  return rows;
+}
+
+export async function getStep(runId: string, name: string): Promise<(PipelineStep & { pipeline_run_id: string }) | null> {
+  if (!/^\d+$/.test(runId)) return null;
+  const { rows } = await query<PipelineStep & { pipeline_run_id: string }>(
+    `SELECT id::text, pipeline_run_id::text, name, position, status, progress_done, progress_total, message,
+            NULL::text AS log_tail, exit_code, started_at, heartbeat_at, completed_at, NULL::float AS typical_seconds
+     FROM pipeline_steps WHERE pipeline_run_id = $1 AND name = $2`,
+    [runId, name],
+  );
+  return rows[0] ?? null;
+}

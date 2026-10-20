@@ -46,3 +46,12 @@ export const STEP_LABELS: Record<string, string> = {
   cleanup: "Stale-listing cleanup",
   uperagame: "Upera Game",
 };
+
+export const formatToman = (n: number | null | undefined) => (n === null || n === undefined ? "—" : `${numberFormat.format(n)} T`);
+
+const TIER_LABELS: Record<string, string> = { CAPACITY_1: "Capacity 1", CAPACITY_2: "Capacity 2", CAPACITY_3: "Capacity 3" };
+const TYPE_LABELS: Record<string, string> = { DISC: "Disc", ACCOUNT_GAME: "Account", OWN_ACCOUNT_GAME: "Own account" };
+
+/** "Account · Capacity 2", "Disc". */
+export const formatOffer = (productType: string, tier: string | null) =>
+  [TYPE_LABELS[productType] ?? productType, tier ? (TIER_LABELS[tier] ?? tier) : null].filter(Boolean).join(" · ");
