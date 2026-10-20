@@ -26,6 +26,11 @@ ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
 
+# ffmpeg transcodes PS Store trailers to 720p for self-hosting (fetch_trailers.py).
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends ffmpeg \
+ && rm -rf /var/lib/apt/lists/*
+
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
@@ -33,7 +38,7 @@ COPY gamexs_scraper/ gamexs_scraper/
 COPY crawl_uperagame.py load_uperagame_to_postgres.py import_uperagame_catalog.py repair_invalid_catalog.py .
 COPY scrape_all.sh .
 COPY runner.py .
-COPY fetch_psstore_prices.py .
+COPY fetch_psstore_prices.py fetch_trailers.py .
 COPY upload_to_s3.py .
 COPY add_game.py download_artworks.py resolve_missing_psstore_concepts.py psstore_search.py .
 
