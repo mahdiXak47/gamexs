@@ -4,7 +4,14 @@ import { useCallback, useEffect, useState } from "react";
 import { Alert, Avatar, Card, Chip, Table } from "@heroui/react";
 import { formatToman, toPersianDigits } from "@/lib/format";
 import { bestOfferId, lowestPriceForOption } from "@/lib/purchase-options";
-import type { PurchaseOption } from "@/lib/types";
+import type { InstallmentOption, PurchaseOption } from "@/lib/types";
+
+const INSTALLMENT_LABELS: Record<InstallmentOption, string> = {
+  own: "اقساط فروشگاه",
+  digipay: "دیجی‌پی",
+  snapppay: "اسنپ‌پی",
+  torobpay: "ترب‌پی",
+};
 
 function purchaseOptionHash(option: PurchaseOption) {
   if (option.type === "ACCOUNT_GAME") {
@@ -217,6 +224,11 @@ function SellerTable({ option }: { option: PurchaseOption }) {
                             )}
                           </div>
                           <div className="text-xs text-muted">{offer.sellerDomain}</div>
+                          {offer.installments.length > 0 && (
+                            <Chip variant="soft" color="accent" size="sm" className="mt-1">
+                              خرید اقساطی: {offer.installments.map((o) => INSTALLMENT_LABELS[o]).join("، ")}
+                            </Chip>
+                          )}
                         </div>
                       </div>
                     </Table.Cell>

@@ -3,7 +3,7 @@ import { query } from "./db";
 import { s3CoverUrl, s3ScreenshotUrl, normalizeMainBackgroundImageUrl, normalizeS3Url, isS3ImageUrl } from "./covers";
 import { getGameDetails } from "./game-details";
 import { emptyPurchaseOptions, findOption, purchasePathLabel } from "./purchase-options";
-import type { AccessTier, Game, GamePriceHistoryPoint, GameSummary, HeroPriceOption, ProductType, SortOption, UpcomingGame } from "./types";
+import type { AccessTier, Game, GamePriceHistoryPoint, GameSummary, HeroPriceOption, InstallmentOption, ProductType, SortOption, UpcomingGame } from "./types";
 
 // Resolve cover URL — S3 only, normalized to HTTPS.
 // 1. DB stores an S3 URL → use it (legacy host rewritten, https-normalized).
@@ -717,11 +717,12 @@ export const getGameBySlug = cache(async function getGameBySlug(slug: string): P
     in_stock: boolean;
     source_url: string;
     listing_id: string;
+    installment_options: InstallmentOption[];
   }>(
     `
     ${LATEST_PRICE_CTE}
     SELECT l.id::text AS listing_id, l.product_type, l.tier, s.slug AS seller_slug, s.name AS seller_name, s.domain AS seller_domain,
-           latest.price_toman, latest.in_stock, l.source_url
+           s.installment_options, latest.price_toman, latest.in_stock, l.source_url
     FROM listings l
     JOIN sellers s ON s.id = l.seller_id
     JOIN latest ON latest.listing_id = l.id
@@ -740,6 +741,7 @@ export const getGameBySlug = cache(async function getGameBySlug(slug: string): P
       inStock: row.in_stock,
       listingUrl: row.source_url,
       listingId: row.listing_id,
+      installments: row.installment_options ?? [],
     });
   }
 

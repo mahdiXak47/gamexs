@@ -9,6 +9,9 @@ export interface Seller {
   initial: string;
 }
 
+/** sellers.installment_options (migration 038, scraper/detect_installments.py). */
+export type InstallmentOption = "own" | "digipay" | "snapppay" | "torobpay";
+
 export interface SellerOffer {
   sellerId: string;
   sellerName: string;
@@ -18,6 +21,7 @@ export interface SellerOffer {
   listingUrl: string;
   /** listings.id — buy links go through /go/[listingId] so clicks are counted. */
   listingId: string;
+  installments: InstallmentOption[];
 }
 
 export interface PurchaseOption {
