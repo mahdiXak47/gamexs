@@ -3,10 +3,10 @@ import Header from "@/components/Header";
 
 export const metadata = {
   title: "صفحه پیدا نشد",
-  robots: {
-    index: false,
-    follow: false,
-  },
+  description: "این صفحه در GameXS پیدا نشد. از جستجو یا فهرست بازی‌ها برای مقایسه قیمت بازی‌های PS5 استفاده کنید.",
+  // A 404 must not claim the homepage as its canonical; keep following its links.
+  alternates: { canonical: null },
+  robots: { index: false, follow: true },
 };
 
 const links = [

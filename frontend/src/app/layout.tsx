@@ -18,7 +18,8 @@ const vazirmatn = Vazirmatn({
 });
 
 const SITE_TITLE = "GameXS — مقایسه قیمت بازی‌های PS5";
-const SITE_DESCRIPTION = "مقایسه قیمت بازی، اکانت و اشتراک PS5 بین فروشندگان ایرانی";
+const SITE_DESCRIPTION =
+  "مقایسه قیمت خرید بازی PS5 در فروشگاه‌های ایرانی: اکانت ظرفیت ۱، ۲ و ۳، دیسک و اشتراک PS Plus با قیمت‌های روزانه به‌روز؛ ارزان‌ترین فروشنده را پیدا کنید.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

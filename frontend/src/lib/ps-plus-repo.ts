@@ -144,7 +144,7 @@ export const getAllPsPlusPlans = cache(async function getAllPsPlusPlans(): Promi
   return Array.from(planMap.values());
 });
 
-export async function getPsPlusPlan(tier: PsPlusTier): Promise<PsPlusPlan | null> {
+export const getPsPlusPlan = cache(async function getPsPlusPlan(tier: PsPlusTier): Promise<PsPlusPlan | null> {
   const all = await getAllPsPlusPlans();
   return all.find((p) => p.tier === tier) ?? null;
-}
+});

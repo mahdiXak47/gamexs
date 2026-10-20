@@ -20,8 +20,9 @@ import { breadcrumbJsonLd, SITE_URL } from "@/lib/seo";
 export const dynamic = "force-dynamic";
 
 export const metadata = {
-  title: "PS Plus",
-  description: "مقایسه قیمت اشتراک PS Plus در فروشندگان ایرانی: Essential، Extra و Premium",
+  title: "خرید اشتراک PS Plus — مقایسه قیمت Essential، Extra و Premium",
+  description:
+    "قیمت خرید اشتراک پلی استیشن پلاس (PS Plus) اسنشیال، اکسترا و پرمیوم در فروشگاه‌های ایرانی را مقایسه کنید؛ اشتراک ۱، ۳ و ۱۲ ماهه با قیمت به‌روز.",
   alternates: { canonical: "/ps-plus" },
 };
 

@@ -57,6 +57,26 @@ function InlineDegradedNotice({ children }: { children: ReactNode }) {
   );
 }
 
+/**
+ * ~150-char Persian snippet built from live data: lowest price, the buying
+ * options actually in stock and the store count. The IGDB summary is English
+ * and often missing, so it only fills leftover room.
+ */
+function gameDescription(
+  title: string,
+  price: number | null,
+  stores: number,
+  options: { label: string; offers: { inStock: boolean; priceToman: number }[] }[],
+  summary?: string | null,
+): string {
+  const available = options.filter((o) => o.offers.some((f) => f.inStock && f.priceToman > 0)).map((o) => o.label);
+  const from = price !== null ? ` از ${formatToman(price)} تومان` : "";
+  const list = available.length > 1 ? `${available.slice(0, -1).join("، ")} و ${available.at(-1)}` : available[0];
+  const kinds = list ? `مقایسه ${list}` : "مقایسه قیمت";
+  const text = `قیمت خرید ${title} برای PS5${from}؛ ${kinds} در ${toPersianDigits(stores)} فروشگاه ایرانی، به‌روز شده هر روز.`;
+  return summary && text.length < 130 ? `${text} ${summary}`.slice(0, 160).replace(/\s+\S*$/, "…") : text;
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -68,12 +88,8 @@ export async function generateMetadata({
 
   const price = lowestValidPrice(game);
   const stores = storeCount(game);
-  const priceText = price !== null ? `از ${formatToman(price)} تومان در ${stores} فروشگاه` : "";
   const title = `خرید ${game.title} برای PS5 — قیمت و مقایسه فروشندگان`;
-  const description = [priceText, game.details?.summary]
-    .filter(Boolean)
-    .join(" — ")
-    .slice(0, 300) || `مقایسه قیمت اکانت، دیسک و اشتراک ${game.title} برای PS5 بین فروشندگان ایرانی`;
+  const description = gameDescription(game.title, price, stores, game.purchaseOptions, game.details?.summary);
   const image = gameOgImageUrl(game.slug);
 
   return {
