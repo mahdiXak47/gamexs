@@ -7,6 +7,7 @@ import { Icon, type IconName } from "./Icon";
 const LINKS: { href: string; label: string; icon: IconName }[] = [
   { href: "/", label: "Overview", icon: "activity" },
   { href: "/runs", label: "Run history", icon: "list" },
+  { href: "/referrals", label: "Referrals", icon: "store" },
 ];
 
 export function NavLinks() {

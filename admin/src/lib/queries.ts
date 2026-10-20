@@ -316,3 +316,119 @@ export async function getStep(runId: string, name: string): Promise<(PipelineSte
   );
   return rows[0] ?? null;
 }
+
+// ── Seller referrals (outbound_clicks, migration 034) ────────────────────────
+// "Unique" = distinct visitor per day (the visitor hash rotates daily), which is
+// the defensible number to bill a shop by; raw clicks include repeat clicks.
+
+export const RANGES = {
+  day: { label: "24 hours", interval: "1 day", bucket: "hour" },
+  week: { label: "7 days", interval: "7 days", bucket: "day" },
+  month: { label: "30 days", interval: "30 days", bucket: "day" },
+  year: { label: "12 months", interval: "1 year", bucket: "month" },
+  all: { label: "All time", interval: null, bucket: "month" },
+} as const;
+export type RangeKey = keyof typeof RANGES;
+
+const rangeWhere = (range: RangeKey, alias = "c") =>
+  RANGES[range].interval ? `${alias}.clicked_at > now() - interval '${RANGES[range].interval}'` : "true";
+
+export type SellerReferrals = {
+  slug: string;
+  name: string;
+  domain: string;
+  clicks: number;
+  unique_visitors: number;
+  games: number;
+  last_click: Date | null;
+};
+
+export async function referralsBySeller(range: RangeKey): Promise<SellerReferrals[]> {
+  const { rows } = await query<SellerReferrals>(`
+    SELECT se.slug, se.name, se.domain,
+           COUNT(c.id)::int AS clicks,
+           -- FILTER: a row value of the outer join's NULLs is itself not NULL and would count as 1.
+           COUNT(DISTINCT (c.visitor_hash, (c.clicked_at AT TIME ZONE 'Asia/Tehran')::date)) FILTER (WHERE c.id IS NOT NULL)::int AS unique_visitors,
+           COUNT(DISTINCT c.game_id)::int AS games,
+           MAX(c.clicked_at) AS last_click
+    FROM sellers se
+    LEFT JOIN outbound_clicks c ON c.seller_id = se.id AND ${rangeWhere(range)}
+    GROUP BY se.id
+    ORDER BY clicks DESC, se.name`);
+  return rows;
+}
+
+export type GameReferrals = {
+  slug: string;
+  title: string;
+  clicks: number;
+  unique_visitors: number;
+  sellers: number;
+  last_click: Date;
+};
+
+export async function referralsByGame(range: RangeKey, sellerSlug: string | null, limit = 200): Promise<GameReferrals[]> {
+  const { rows } = await query<GameReferrals>(
+    `
+    SELECT g.slug, g.title,
+           COUNT(*)::int AS clicks,
+           COUNT(DISTINCT (c.visitor_hash, (c.clicked_at AT TIME ZONE 'Asia/Tehran')::date))::int AS unique_visitors,
+           COUNT(DISTINCT c.seller_id)::int AS sellers,
+           MAX(c.clicked_at) AS last_click
+    FROM outbound_clicks c
+    JOIN ps5_games g ON g.id = c.game_id
+    WHERE ${rangeWhere(range)} AND ($1::text IS NULL OR c.seller_id = (SELECT id FROM sellers WHERE slug = $1))
+    GROUP BY g.id
+    ORDER BY clicks DESC, g.title
+    LIMIT $2`,
+    [sellerSlug, limit],
+  );
+  return rows;
+}
+
+/** bucket is Tehran wall-clock text ("2026-10-20" / "2026-10-20 14:00" / "2026-10"), never a Date, so no timezone shift. */
+export type ClickBucket = { bucket: string; clicks: number; unique_visitors: number };
+
+export async function referralTrend(range: RangeKey, sellerSlug: string | null): Promise<ClickBucket[]> {
+  const unit = RANGES[range].bucket;
+  const { rows } = await query<ClickBucket>(
+    `
+    SELECT to_char(date_trunc('${unit}', c.clicked_at AT TIME ZONE 'Asia/Tehran'), '${unit === "hour" ? "YYYY-MM-DD HH24:00" : unit === "day" ? "YYYY-MM-DD" : "YYYY-MM"}') AS bucket,
+           COUNT(*)::int AS clicks,
+           COUNT(DISTINCT (c.visitor_hash, (c.clicked_at AT TIME ZONE 'Asia/Tehran')::date))::int AS unique_visitors
+    FROM outbound_clicks c
+    WHERE ${rangeWhere(range)} AND ($1::text IS NULL OR c.seller_id = (SELECT id FROM sellers WHERE slug = $1))
+    GROUP BY 1 ORDER BY 1`,
+    [sellerSlug],
+  );
+  return rows;
+}
+
+export type ReferralExportRow = {
+  seller: string;
+  game: string;
+  product_type: string;
+  tier: string | null;
+  clicks: number;
+  unique_visitors: number;
+  first_click: Date;
+  last_click: Date;
+};
+
+export async function referralExport(range: RangeKey, sellerSlug: string | null): Promise<ReferralExportRow[]> {
+  const { rows } = await query<ReferralExportRow>(
+    `
+    SELECT se.name AS seller, g.title AS game, c.product_type::text, c.tier::text,
+           COUNT(*)::int AS clicks,
+           COUNT(DISTINCT (c.visitor_hash, (c.clicked_at AT TIME ZONE 'Asia/Tehran')::date))::int AS unique_visitors,
+           MIN(c.clicked_at) AS first_click, MAX(c.clicked_at) AS last_click
+    FROM outbound_clicks c
+    JOIN sellers se ON se.id = c.seller_id
+    JOIN ps5_games g ON g.id = c.game_id
+    WHERE ${rangeWhere(range)} AND ($1::text IS NULL OR se.slug = $1)
+    GROUP BY se.name, g.title, c.product_type, c.tier
+    ORDER BY se.name, clicks DESC`,
+    [sellerSlug],
+  );
+  return rows;
+}
