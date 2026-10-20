@@ -29,7 +29,7 @@ _NOISE_PATTERNS = [
     r"اکانت\s+بازی",
     # Capacity labels are offer metadata, not game identity. Consume the
     # value too so "ظرفیت ۳" and "ظرفیت کامل" cannot leak into the title.
-    r"ظرفیت(?:ی)?(?:\s+(?:کامل|[1-3]))?",
+    r"ظرفیت(?:ی)?(?:\s+(?:کامل|اول|دوم|سوم|یک|دو|سه|[1-3]|[۱-۳]))?",
     # "کارکرده" = "used/second-hand" — condition prefix, never part of game identity
     # e.g. "کارکرده Alan Wake 2 نسخه Deluxe Edition" → "Alan Wake 2 Deluxe Edition"
     r"کارکرده",
@@ -42,6 +42,14 @@ _NOISE_PATTERNS = [
     r"ویدیویی",
     r"digital\s+code",
     r"game\s+key\s+card",
+    # psnacctm (Sazito): "اکانت قانونی بازی X برای کنسول PS5 و PS4", "فروش مجدد اکانت …",
+    # discs "دیسک بازی X کارکرده و آکبند برای PS5". Phrases before their single words.
+    r"برای\s+کنسول",
+    r"کنسول",
+    r"فروش\s+مجدد",
+    r"کارکرده\s+و\s+آکبند",
+    r"آکبند",
+    r"کارکرده",
     r"برای\s+پلی\s+استیشن\s*5?",
     r"برای\s+ps5",
     # "مخصوص ps5 / مخصوص پلی استیشن" — TechnoLife suffix; must come before \bps5\b
@@ -59,6 +67,8 @@ _NOISE_PATTERNS = [
     # after removing a multi-platform suffix (e.g. "PS4 و" or "PS4 و PS5").
     r"\bps4\b",
     r"\s+و\s*$",
+    # "PS4 & PS5" / "… | برای" leave a dangling separator once the platforms are gone.
+    r"(?:\s*[&|])+\s*$",
     # Colon title-subtitle separator — PSPro includes it, other sellers omit it.
     # Replacing with a space prevents "007: First Light" → "007--first-light" (double dash)
     # while "007 First Light" → "007-first-light", causing a phantom duplicate.

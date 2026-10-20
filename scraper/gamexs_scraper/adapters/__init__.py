@@ -16,12 +16,14 @@ from .nakhlmarket import NakhlMarketAdapter
 from .parsconsole import ParsConsoleAdapter
 from .persianconsole import PersianConsoleAdapter
 from .pspro import PsProAdapter
+from .psnacctm import PsnAcctmAdapter
 from .technolife import TechnoLifeAdapter
 from .xgamesstore import XgamesStoreAdapter
 from .yungcenter import YungCenterAdapter
 
 ADAPTERS = {
     PsProAdapter.seller: PsProAdapter,
+    PsnAcctmAdapter.seller: PsnAcctmAdapter,
     YungCenterAdapter.seller: YungCenterAdapter,
     NakhlMarketAdapter.seller: NakhlMarketAdapter,
     TechnoLifeAdapter.seller: TechnoLifeAdapter,

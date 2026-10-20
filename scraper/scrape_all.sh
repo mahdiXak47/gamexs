@@ -56,7 +56,7 @@ run_pair() {
 log "=== GameXS daily scrape started ==="
 GAMEXS_PIPELINE_RUN_ID=$(pipeline start \
     pspro digikala gamario gameonestore gamecenter gameplayshop xgamesstore \
-    nakhlmarket parsconsole cdkeyshare persianconsole yungcenter technolife \
+    nakhlmarket parsconsole cdkeyshare persianconsole yungcenter technolife psnacctm \
     uperagame igdb psstore s3 cleanup || true)
 export GAMEXS_PIPELINE_RUN_ID
 
@@ -68,7 +68,7 @@ run_pair gamecenter  gameplayshop || failed_sellers+=" gamecenter/gameplayshop"
 run_pair xgamesstore nakhlmarket  || failed_sellers+=" xgamesstore/nakhlmarket"
 run_pair parsconsole cdkeyshare   || failed_sellers+=" parsconsole/cdkeyshare"
 run_pair persianconsole yungcenter|| failed_sellers+=" persianconsole/yungcenter"
-run_pair technolife               || failed_sellers+=" technolife"
+run_pair technolife    psnacctm   || failed_sellers+=" technolife/psnacctm"
 
 # Upera Game uses Crawl4AI because its WooCommerce variation catalog is more
 # reliably captured through the shared Crawl4AI fetcher than the legacy adapter

@@ -91,6 +91,7 @@ SELLER_WEBSITES = {
     "xgamesstore": "https://xgamesstore.org",
     "gamecenter": "https://game-center.ir",
     "gamario": "https://gamario.com",
+    "psnacctm": "https://psnacctm.com",
     "cdkeyshare": "https://www.cdkeyshare.ir",
     "dragonshop": "https://dragon-shop.ir",
     "doctorgame": "https://doctor-game.ir",

@@ -25,6 +25,7 @@ INSERT INTO sellers (slug, name, domain) VALUES
     ('gameaccess', 'گیم اکسس', 'gameaccess.ir'),
     ('clockstore1', 'کلاک استور', 'clockstore1.ir'),
     ('gamepulse', 'گیم پالس', 'game-pulse.ir'),
+    ('psnacctm', 'پی اس ان اکانت', 'psnacctm.com'),
     ('gpgaming', 'گیم پردایس', 'gpgaming.ir'),
     ('gamestore', 'گیم استور', 'game-store.org'),
     ('uperagame', 'آپرا گیم', 'uperagame.com');

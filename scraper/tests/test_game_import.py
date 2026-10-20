@@ -1,3 +1,4 @@
+import itertools
 import unittest
 
 from add_game import (
@@ -34,12 +35,12 @@ class IgdbUrlTests(unittest.TestCase):
         )
 
     def test_prompt_blank_line_skips_seller(self):
-        answers = iter([""] * 21)
+        answers = itertools.repeat("")
         self.assertEqual(prompt_for_seller_urls(lambda _prompt: next(answers)), [])
 
     def test_prompt_displays_seller_website(self):
         prompts = []
-        answers = iter([""] * 21)
+        answers = itertools.repeat("")
 
         prompt_for_seller_urls(lambda prompt: (prompts.append(prompt), next(answers))[1])
 
