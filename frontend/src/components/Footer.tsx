@@ -7,7 +7,9 @@ const quickLinks = [
   { label: "بازی‌های پیش‌رو", href: "/upcoming" },
   { label: "اکانت بازی PS5", href: "/account-games" },
   { label: "دیسک بازی PS5", href: "/disc-games" },
+  { label: "اکانت ظرفیت ۱", href: "/capacity-1" },
   { label: "اکانت ظرفیت ۲", href: "/capacity-2" },
+  { label: "اکانت ظرفیت ۳", href: "/capacity-3" },
 ]
 
 const guideLinks = [

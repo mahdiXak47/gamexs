@@ -1062,3 +1062,23 @@ export async function getLastScrapedAt(): Promise<Date | null> {
   );
   return rows[0]?.last_scraped_at ?? null;
 }
+
+export type PurchaseTypeStats = { stores: number; lowestPrice: number | null; lastUpdated: Date | null };
+
+/** Live numbers for a purchase-type landing page (store count, cheapest in-stock offer, freshness). */
+export async function purchaseTypeStats(productType: ProductType, tier: AccessTier | null): Promise<PurchaseTypeStats> {
+  const { rows } = await query<{ stores: number; lowest: string | null; last_updated: Date | null }>(
+    `
+    ${LATEST_PRICE_CTE}
+    SELECT COUNT(DISTINCT l.seller_id)::int AS stores,
+           MIN(latest.price_toman) FILTER (WHERE latest.in_stock AND latest.price_toman > 0) AS lowest,
+           MAX(l.last_seen_at) AS last_updated
+    FROM listings l
+    JOIN latest ON latest.listing_id = l.id
+    WHERE l.is_active AND l.product_type = $1 AND ($2::access_tier IS NULL OR l.tier = $2::access_tier)
+    `,
+    [productType, tier],
+  );
+  const row = rows[0];
+  return { stores: row?.stores ?? 0, lowestPrice: row?.lowest ? Number(row.lowest) : null, lastUpdated: row?.last_updated ?? null };
+}
