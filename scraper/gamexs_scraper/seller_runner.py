@@ -352,7 +352,7 @@ def _run_uperagame(
     retry_delay_seconds: int,
     sleep_fn=time.sleep,
 ) -> int:
-    """Run Upera's Crawl4AI pipeline through the same health contract."""
+    """Run Upera's own crawler (crawl_uperagame.py) through the same health contract."""
     seller = "uperagame"
     store = ScrapeRunStore(database_url)
     seller_id, previous_games, previous_success = store.seller_baseline(seller)

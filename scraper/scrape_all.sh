@@ -70,11 +70,10 @@ run_pair parsconsole cdkeyshare   || failed_sellers+=" parsconsole/cdkeyshare"
 run_pair persianconsole yungcenter|| failed_sellers+=" persianconsole/yungcenter"
 run_pair technolife    psnacctm   || failed_sellers+=" technolife/psnacctm"
 
-# Upera Game uses Crawl4AI because its WooCommerce variation catalog is more
-# reliably captured through the shared Crawl4AI fetcher than the legacy adapter
-# interface. The shared Python seller runner applies the same health contract
-# and isolates its cache per attempt.
-log "=== Upera Game Crawl4AI scrape ==="
+# Upera Game has its own crawler (crawl_uperagame.py: plain HTTP, parses the
+# WooCommerce variation JSON page by page so memory stays flat) behind the same
+# seller-runner health contract, with its cache isolated per attempt.
+log "=== Upera Game scrape ==="
 if ! run_seller uperagame; then
     log "FAIL  scraping and loading uperagame"
     failed_sellers+=" uperagame"
@@ -118,19 +117,16 @@ step s3 python upload_to_s3.py --db-url "$DATABASE_URL" 2>&1 | sed 's/^/[s3] /' 
     log "WARN  S3 upload failed — covers will fall back to IGDB CDN"
 
 # ---------------------------------------------------------------------------
-# Post-run cleanup: mark listings not seen in 3+ days as inactive,
-# then remove games that have no remaining active listings.
+# Post-run cleanup: mark listings not seen in 3+ days as inactive (games are
+# never deleted, see maintenance.py). Runs even when a seller failed: a shop that has been
+# failing for 3+ days is exactly when its old prices must stop showing as
+# current, and the 3-day window already absorbs a transient outage.
 # ---------------------------------------------------------------------------
 log "=== Post-run DB cleanup ==="
-if [ -n "$failed_sellers" ]; then
-    log "SKIP  DB cleanup — seller health failures detected:$failed_sellers"
-    pipeline skip cleanup "skipped: seller failures:$failed_sellers"
-else
-    step cleanup python -m gamexs_scraper.maintenance 2>&1 | sed 's/^/[cleanup] /' || {
-        log "WARN  DB cleanup failed — stale listings and orphaned games will remain"
-        failed_sellers+=" maintenance"
-    }
-fi
+step cleanup python -m gamexs_scraper.maintenance 2>&1 | sed 's/^/[cleanup] /' || {
+    log "WARN  DB cleanup failed — stale listings stay visible"
+    failed_sellers+=" maintenance"
+}
 
 # ---------------------------------------------------------------------------
 # Final status

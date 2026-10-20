@@ -1,4 +1,4 @@
-"""Scrape Upera Game PS5 game and PlayStation Plus offers with Crawl4AI.
+"""Scrape Upera Game PS5 game and PlayStation Plus offers over plain HTTP.
 
 Game output is compatible with ``gamexs_scraper.export_csv.load_cached_offers``
 and intentionally contains no image fields.  Game offers distinguish regular
@@ -8,15 +8,18 @@ capacity tiers, full-capacity/own-account offers, and physical discs.
 from __future__ import annotations
 
 import argparse
-import asyncio
 import json
 import re
 import sys
+import threading
+import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 from urllib.parse import unquote, urljoin, urlsplit, urlunsplit
 
+import requests
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://uperagame.com/"
@@ -194,81 +197,90 @@ def parse_product(html: str, url: str, category: str, category_is_ps5: bool, scr
     return offers, rejected
 
 
-async def crawl_pages(category_url: str, category: str, category_is_ps5: bool, max_pages: int, concurrency: int) -> tuple[dict[str, tuple[str, bool]], list[Any], list[str]]:
-    from crawl4ai import AsyncWebCrawler, CacheMode, CrawlerRunConfig, HTTPCrawlerConfig
-    from crawl4ai.async_crawler_strategy import AsyncHTTPCrawlerStrategy
-    from crawl4ai.async_dispatcher import SemaphoreDispatcher
-
-    http_config = HTTPCrawlerConfig(
-        headers={"User-Agent": "Mozilla/5.0 (compatible; GameXS Upera scraper)", "Accept-Language": "fa-IR,fa;q=0.9,en;q=0.8"},
-        follow_redirects=True,
-    )
-    config = CrawlerRunConfig(
-        cache_mode=CacheMode.BYPASS,
-        word_count_threshold=0,
-        page_timeout=45000,
-        mean_delay=0.5,
-        max_range=0.5,
-        semaphore_count=concurrency,
-        verbose=False,
-    )
-    dispatcher = SemaphoreDispatcher(max_session_permit=concurrency)
-    products: dict[str, tuple[str, bool]] = {}
-    failures: list[str] = []
-    async with AsyncWebCrawler(crawler_strategy=AsyncHTTPCrawlerStrategy(browser_config=http_config)) as crawler:
-        for page in range(1, max_pages + 1):
-            page_url = category_url if page == 1 else urljoin(category_url, f"page/{page}/")
-            result = await crawler.arun(page_url, config=config)
-            if not result.success:
-                error = result.error_message or "crawl failed"
-                if result.status_code == 404 or "HTTP 404" in error:
-                    break
-                failures.append(f"{page_url}: {error}")
-                break
-            urls = extract_product_links(result.html or "", page_url)
-            before = len(products)
-            for url in urls:
-                products.setdefault(url, (category, category_is_ps5))
-            if not urls or len(products) == before:
-                break
-        results: list[Any] = []
-        urls = list(products)
-        for start in range(0, len(urls), concurrency * 10):
-            batch = urls[start : start + concurrency * 10]
-            results.extend(await crawler.arun_many(batch, config=config, dispatcher=dispatcher))
-    return products, results, failures
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; GameXS Upera scraper)", "Accept-Language": "fa-IR,fa;q=0.9,en;q=0.8"}
+REQUEST_DELAY_SECONDS = 0.5  # per worker, matches the old Crawl4AI mean_delay
+_local = threading.local()
 
 
-async def scrape(args: argparse.Namespace) -> dict[str, Any]:
+def _session() -> requests.Session:
+    # One session per worker thread; Upera is reachable directly (no env proxy).
+    if not hasattr(_local, "session"):
+        _local.session = requests.Session()
+        _local.session.trust_env = False
+        _local.session.headers.update(HEADERS)
+    return _local.session
+
+
+def fetch(url: str, attempts: int = 3) -> tuple[int | None, str | None, str | None]:
+    """(status, html, error) — html is set only for a 200."""
+    error = "not fetched"
+    for attempt in range(attempts):
+        time.sleep(REQUEST_DELAY_SECONDS * (attempt + 1))
+        try:
+            response = _session().get(url, timeout=45)
+        except requests.RequestException as exc:
+            error = f"{type(exc).__name__}: {exc}"
+            continue
+        if response.status_code == 200:
+            return 200, response.content.decode("utf-8", "replace"), None
+        error = f"HTTP {response.status_code}"
+        if response.status_code < 500:
+            return response.status_code, None, error
+    return None, None, error
+
+
+def discover(category_url: str, max_pages: int) -> tuple[list[str], list[str]]:
+    """Product URLs of one category, following page/N/ until it stops growing."""
+    urls: dict[str, None] = {}
+    for page in range(1, max_pages + 1):
+        page_url = category_url if page == 1 else urljoin(category_url, f"page/{page}/")
+        status, html, error = fetch(page_url)
+        if status == 404:
+            break
+        if html is None:
+            return list(urls), [f"{page_url}: {error}"]
+        before = len(urls)
+        urls.update(dict.fromkeys(extract_product_links(html, page_url)))
+        if len(urls) == before:
+            break
+    return list(urls), []
+
+
+def scrape(args: argparse.Namespace) -> dict[str, Any]:
+    # Plain HTTP + a small thread pool: each page is parsed as soon as it
+    # arrives and only the offers are kept, so memory stays flat (the old
+    # Crawl4AI version held every page's HTML + markdown and OOM-killed the
+    # 500 MB scraper pod). Each product is fetched once even when it appears
+    # in several categories.
     scraped_at = datetime.now(timezone.utc).isoformat()
     product_context: dict[str, tuple[str, bool]] = {}
-    all_results: dict[str, Any] = {}
     failures: list[str] = []
     category_pages: dict[str, int] = {}
     for category, url, ps5 in CATEGORIES:
-        products, results, category_failures = await crawl_pages(url, category, ps5, args.max_pages, args.concurrency)
-        category_pages[category] = len(products)
+        urls, category_failures = discover(url, args.max_pages)
+        category_pages[category] = len(urls)
         failures.extend(category_failures)
-        for product_url, context in products.items():
-            product_context.setdefault(product_url, context)
-        for result in results:
-            all_results[canonical_url(result.url)] = result
+        for product_url in urls:
+            product_context.setdefault(product_url, (category, ps5))
+
+    def crawl_one(item: tuple[str, tuple[str, bool]]) -> tuple[list[dict[str, Any]], list[str], str | None]:
+        url, (category, category_is_ps5) = item
+        _, html, error = fetch(url)
+        if html is None:
+            return [], [], f"{url}: {error}"
+        parsed, rejected = parse_product(html, url, category, category_is_ps5, scraped_at)
+        return parsed, rejected, None
 
     games: list[dict[str, Any]] = []
     plus: list[dict[str, Any]] = []
     rejections: list[str] = []
-    for url, (category, category_is_ps5) in product_context.items():
-        result = all_results.get(url)
-        if result is None:
-            failures.append(f"{url}: no Crawl4AI result returned")
-            continue
-        if not result.success:
-            failures.append(f"{url}: {result.error_message or 'crawl failed'}")
-            continue
-        parsed, rejected = parse_product(result.html or "", url, category, category_is_ps5, scraped_at)
-        rejections.extend(rejected)
-        for offer in parsed:
-            (plus if offer.get("offer_kind") == "ps_plus" else games).append(offer)
+    with ThreadPoolExecutor(max_workers=args.concurrency) as pool:
+        for parsed, rejected, failure in pool.map(crawl_one, product_context.items()):
+            if failure:
+                failures.append(failure)
+            rejections.extend(rejected)
+            for offer in parsed:
+                (plus if offer.get("offer_kind") == "ps_plus" else games).append(offer)
 
     def dedupe(items: list[dict[str, Any]], keys: tuple[str, ...]) -> list[dict[str, Any]]:
         seen: set[tuple[Any, ...]] = set()
@@ -315,10 +327,7 @@ def main() -> None:
     args = parser.parse_args()
     if args.max_pages < 1 or args.concurrency < 1:
         parser.error("--max-pages and --concurrency must be positive")
-    try:
-        print(json.dumps(asyncio.run(scrape(args)), ensure_ascii=False, indent=2))
-    except ImportError as exc:
-        raise SystemExit("Crawl4AI is required; install scraper/requirements-crawl4ai.txt") from exc
+    print(json.dumps(scrape(args), ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":
