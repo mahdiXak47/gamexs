@@ -1,8 +1,4 @@
-"""Post-scrape DB maintenance: mark stale listings inactive, drop orphaned games.
-
-IGDB-imported catalog rows are retained even before a seller lists them. The
-add_game command records those rows in ps5_game_aliases, which acts as the
-explicit catalog-retention marker.
+"""Post-scrape DB maintenance: mark stale listings inactive (games are kept).
 
 Designed to run at the end of the daily scrape pipeline (see scrape_all.sh).
 Idempotent — re-running is safe.
@@ -26,9 +22,11 @@ import psycopg
 
 
 def cleanup_stale_listings(database_url: str, stale_days: int = 3) -> dict:
-    """Mark listings unseen for `stale_days` as inactive, then remove orphaned games.
+    """Mark listings unseen for `stale_days` as inactive.
 
-    A game is an orphan (safe to delete) when it has no remaining active listing.
+    Games are never deleted: a game no shop sells right now keeps its page,
+    metadata, trailer and URL (it just shows no current offers), and comes back
+    automatically when a seller lists it again.
     Returns a summary dict with the affected row counts.
     """
     with psycopg.connect(database_url) as conn, conn.cursor() as cur:
@@ -41,23 +39,10 @@ def cleanup_stale_listings(database_url: str, stale_days: int = 3) -> dict:
             (stale_days,),
         )
         stale = cur.rowcount
-        cur.execute(
-            """
-            DELETE FROM ps5_games
-            WHERE id NOT IN (SELECT DISTINCT game_id FROM listings WHERE is_active)
-              AND NOT EXISTS (
-                  SELECT 1
-                  FROM ps5_game_aliases a
-                  WHERE a.game_id = ps5_games.id
-              )
-            """
-        )
-        orphans = cur.rowcount
         conn.commit()
 
     return {
         "stale_listings_marked_inactive": stale,
-        "orphaned_games_removed": orphans,
         "cleaned_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
     }
 
@@ -81,10 +66,7 @@ def main() -> None:
         sys.exit("ERROR: provide --db-url or set DATABASE_URL env var")
 
     result = cleanup_stale_listings(database_url, args.stale_days)
-    print(
-        "marked %s listings inactive, removed %s orphaned games"
-        % (result["stale_listings_marked_inactive"], result["orphaned_games_removed"])
-    )
+    print(f"marked {result['stale_listings_marked_inactive']} listings inactive")
 
 
 if __name__ == "__main__":
