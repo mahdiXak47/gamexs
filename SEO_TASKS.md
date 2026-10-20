@@ -159,9 +159,9 @@ server error (5xx) 216, noindex 102, crawled-not-indexed 85, Google-chose-canoni
 - [x] PS Plus title/description, sitewide description, 404 canonical.
 - [x] Category pages (`/disc-games`, `/capacity-*`): about section, live stats,
   FAQ + FAQPage JSON-LD, sibling links; footer links all capacity pages.
-- [ ] After deploy: Search Console → Page indexing → "Validate fix" for
-  "Server error (5xx)" and "Duplicate without user-selected canonical";
-  resubmit `sitemap.xml`.
+- [x] 2026-10-20: "Validate fix" started for "Server error (5xx)" and "Duplicate
+  without user-selected canonical"; `sitemap.xml` resubmitted and
+  `image-sitemap.xml` (1,168 pages / 2,206 images) submitted for the first time.
 - [ ] Re-check in 2–4 weeks: indexed count, category-page positions for
   «دیسک بازی ps5» / «خرید اکانت ظرفیت ۲ ps5» (were 85 / 69).
 - [x] IGDB "--N" duplicate slugs (e.g. `until-dawn--1`): migration 035 moved 71
