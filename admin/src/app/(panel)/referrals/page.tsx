@@ -1,4 +1,5 @@
 import { Card, Table } from "@heroui/react";
+import { ClientOnly } from "@/components/ClientOnly";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { connection } from "next/server";
@@ -76,16 +77,17 @@ export default async function ReferralsPage({ searchParams }: { searchParams: Se
             <Card.Description>Select a shop to scope the trend and the games table to it.</Card.Description>
           </Card.Header>
           <Card.Content className="px-2 pb-2">
-            <Table>
+            <ClientOnly>
+<Table>
               <Table.ScrollContainer>
                 <Table.Content aria-label="Referrals by shop" selectionMode="none">
                   <Table.Header>
-                    <Table.Column isRowHeader>Shop</Table.Column>
-                    <Table.Column className="text-end">Clicks</Table.Column>
-                    <Table.Column className="text-end">Unique</Table.Column>
-                    <Table.Column className="text-end">Share</Table.Column>
-                    <Table.Column className="text-end">Games</Table.Column>
-                    <Table.Column>Last click</Table.Column>
+                    <Table.Column id="shop" isRowHeader>Shop</Table.Column>
+                    <Table.Column id="clicks" className="text-end">Clicks</Table.Column>
+                    <Table.Column id="unique" className="text-end">Unique</Table.Column>
+                    <Table.Column id="share" className="text-end">Share</Table.Column>
+                    <Table.Column id="games" className="text-end">Games</Table.Column>
+                    <Table.Column id="last-click">Last click</Table.Column>
                   </Table.Header>
                   <Table.Body>
                     {sellers.map((s) => (
@@ -115,6 +117,7 @@ export default async function ReferralsPage({ searchParams }: { searchParams: Se
                 </Table.Content>
               </Table.ScrollContainer>
             </Table>
+</ClientOnly>
           </Card.Content>
         </Card>
 
@@ -144,15 +147,16 @@ export default async function ReferralsPage({ searchParams }: { searchParams: Se
         </Card.Header>
         <Card.Content className="px-2 pb-2">
           {games.length ? (
-            <Table>
+            <ClientOnly>
+<Table>
               <Table.ScrollContainer>
                 <Table.Content aria-label="Referrals by game" selectionMode="none">
                   <Table.Header>
-                    <Table.Column isRowHeader>Game</Table.Column>
-                    <Table.Column className="text-end">Clicks</Table.Column>
-                    <Table.Column className="text-end">Unique</Table.Column>
-                    <Table.Column className="text-end">Shops</Table.Column>
-                    <Table.Column>Last click</Table.Column>
+                    <Table.Column id="game" isRowHeader>Game</Table.Column>
+                    <Table.Column id="clicks" className="text-end">Clicks</Table.Column>
+                    <Table.Column id="unique" className="text-end">Unique</Table.Column>
+                    <Table.Column id="shops" className="text-end">Shops</Table.Column>
+                    <Table.Column id="last-click">Last click</Table.Column>
                   </Table.Header>
                   <Table.Body>
                     {games.map((g) => (
@@ -174,6 +178,7 @@ export default async function ReferralsPage({ searchParams }: { searchParams: Se
                 </Table.Content>
               </Table.ScrollContainer>
             </Table>
+</ClientOnly>
           ) : (
             <p className="p-4 text-sm text-muted">No clicks in this period yet. Counting started when the redirect page went live.</p>
           )}

@@ -1,4 +1,5 @@
 import { Card, Table } from "@heroui/react";
+import { ClientOnly } from "@/components/ClientOnly";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -57,16 +58,17 @@ export default async function StepPage({ params }: { params: Promise<{ name: str
           </Card.Header>
           <Card.Content className="px-2 pb-2">
             {runs.length ? (
-              <Table>
+              <ClientOnly>
+<Table>
                 <Table.ScrollContainer>
                   <Table.Content aria-label={`${title} scrape history`} selectionMode="none">
                     <Table.Header>
-                      <Table.Column isRowHeader>Started</Table.Column>
-                      <Table.Column>Status</Table.Column>
-                      <Table.Column className="text-end">Duration</Table.Column>
-                      <Table.Column className="text-end">Games seen</Table.Column>
-                      <Table.Column className="text-end">Listings loaded</Table.Column>
-                      <Table.Column>Attempts</Table.Column>
+                      <Table.Column id="started" isRowHeader>Started</Table.Column>
+                      <Table.Column id="status">Status</Table.Column>
+                      <Table.Column id="duration" className="text-end">Duration</Table.Column>
+                      <Table.Column id="games-seen" className="text-end">Games seen</Table.Column>
+                      <Table.Column id="listings-loaded" className="text-end">Listings loaded</Table.Column>
+                      <Table.Column id="attempts">Attempts</Table.Column>
                     </Table.Header>
                     <Table.Body>
                       {runs.map((r) => (
@@ -100,6 +102,7 @@ export default async function StepPage({ params }: { params: Promise<{ name: str
                   </Table.Content>
                 </Table.ScrollContainer>
               </Table>
+</ClientOnly>
             ) : (
               <p className="p-4 text-sm text-muted">This shop has not been scraped since health tracking started.</p>
             )}

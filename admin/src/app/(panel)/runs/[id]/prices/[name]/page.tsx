@@ -1,4 +1,5 @@
 import { Card, Input, Label, Table, TextField } from "@heroui/react";
+import { ClientOnly } from "@/components/ClientOnly";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -113,16 +114,17 @@ export default async function PriceUpdatesPage({ params, searchParams }: { param
         </Card.Header>
         <Card.Content className="px-2 pb-2">
           {shown.length ? (
-            <Table>
+            <ClientOnly>
+<Table>
               <Table.ScrollContainer>
                 <Table.Content aria-label={`${seller.name} price updates`} selectionMode="none">
                   <Table.Header>
-                    <Table.Column isRowHeader>Game</Table.Column>
-                    <Table.Column>Offer</Table.Column>
-                    <Table.Column className="text-end">Price</Table.Column>
-                    <Table.Column className="text-end">Previous</Table.Column>
-                    <Table.Column className="text-end">Change</Table.Column>
-                    <Table.Column>Stock</Table.Column>
+                    <Table.Column id="game" isRowHeader>Game</Table.Column>
+                    <Table.Column id="offer">Offer</Table.Column>
+                    <Table.Column id="price" className="text-end">Price</Table.Column>
+                    <Table.Column id="previous" className="text-end">Previous</Table.Column>
+                    <Table.Column id="change" className="text-end">Change</Table.Column>
+                    <Table.Column id="stock">Stock</Table.Column>
                   </Table.Header>
                   <Table.Body>
                     {shown.map((u) => (
@@ -153,6 +155,7 @@ export default async function PriceUpdatesPage({ params, searchParams }: { param
                 </Table.Content>
               </Table.ScrollContainer>
             </Table>
+</ClientOnly>
           ) : (
             <p className="p-4 text-sm text-muted">
               {updates.length ? "No listings match this filter." : step.status === "running" ? "Prices are written when the crawl finishes and the load step runs." : "This step wrote no prices."}

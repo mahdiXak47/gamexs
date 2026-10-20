@@ -1,4 +1,5 @@
 import { Card, Chip, ProgressBar, Table } from "@heroui/react";
+import { ClientOnly } from "@/components/ClientOnly";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { connection } from "next/server";
@@ -86,16 +87,17 @@ export default async function OverviewPage() {
             <Card.Description>Last 30 days of per-shop scrapes, including retries.</Card.Description>
           </Card.Header>
           <Card.Content className="px-2 pb-2">
-            <Table>
+            <ClientOnly>
+<Table>
               <Table.ScrollContainer>
                 <Table.Content aria-label="Shop health" selectionMode="none">
                   <Table.Header>
-                    <Table.Column isRowHeader>Shop</Table.Column>
-                    <Table.Column>Last run</Table.Column>
-                    <Table.Column>Last success</Table.Column>
-                    <Table.Column className="text-end">7d ok / fail</Table.Column>
-                    <Table.Column className="text-end">Listings</Table.Column>
-                    <Table.Column className="text-end">Typical</Table.Column>
+                    <Table.Column id="shop" isRowHeader>Shop</Table.Column>
+                    <Table.Column id="last-run">Last run</Table.Column>
+                    <Table.Column id="last-success">Last success</Table.Column>
+                    <Table.Column id="7d-ok-fail" className="text-end">7d ok / fail</Table.Column>
+                    <Table.Column id="listings" className="text-end">Listings</Table.Column>
+                    <Table.Column id="typical" className="text-end">Typical</Table.Column>
                   </Table.Header>
                   <Table.Body>
                     {stores.map((s) => (
@@ -125,6 +127,7 @@ export default async function OverviewPage() {
                 </Table.Content>
               </Table.ScrollContainer>
             </Table>
+</ClientOnly>
           </Card.Content>
         </Card>
 
@@ -250,16 +253,17 @@ function CurrentRun({ run, steps, names, now }: { run: PipelineRun | null; steps
 
 function StepsTable({ steps, names, now, runId }: { steps: PipelineStep[]; names: Map<string, string>; now: Date; runId: string }) {
   return (
-    <Table>
+    <ClientOnly>
+<Table>
       <Table.ScrollContainer>
         <Table.Content aria-label="Pipeline steps" selectionMode="none">
           <Table.Header>
-            <Table.Column isRowHeader>Step</Table.Column>
-            <Table.Column>Status</Table.Column>
-            <Table.Column>Progress</Table.Column>
-            <Table.Column className="text-end">Elapsed</Table.Column>
-            <Table.Column className="text-end">ETA</Table.Column>
-            <Table.Column>Last update</Table.Column>
+            <Table.Column id="step" isRowHeader>Step</Table.Column>
+            <Table.Column id="status">Status</Table.Column>
+            <Table.Column id="progress">Progress</Table.Column>
+            <Table.Column id="elapsed" className="text-end">Elapsed</Table.Column>
+            <Table.Column id="eta" className="text-end">ETA</Table.Column>
+            <Table.Column id="last-update">Last update</Table.Column>
           </Table.Header>
           <Table.Body>
             {steps.map((step) => {
@@ -303,6 +307,7 @@ function StepsTable({ steps, names, now, runId }: { steps: PipelineStep[]; names
         </Table.Content>
       </Table.ScrollContainer>
     </Table>
+</ClientOnly>
   );
 }
 

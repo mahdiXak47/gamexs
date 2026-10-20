@@ -1,4 +1,5 @@
 import { Card, Table } from "@heroui/react";
+import { ClientOnly } from "@/components/ClientOnly";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { connection } from "next/server";
@@ -25,16 +26,17 @@ export default async function RunsPage() {
       <Card className="p-0">
         <Card.Content className="p-2">
           {runs.length ? (
-            <Table>
+            <ClientOnly>
+<Table>
               <Table.ScrollContainer>
                 <Table.Content aria-label="Pipeline runs" selectionMode="none">
                   <Table.Header>
-                    <Table.Column isRowHeader>Run</Table.Column>
-                    <Table.Column>Status</Table.Column>
-                    <Table.Column>Started</Table.Column>
-                    <Table.Column className="text-end">Duration</Table.Column>
-                    <Table.Column className="text-end">Steps ok / failed / skipped</Table.Column>
-                    <Table.Column>Failed steps</Table.Column>
+                    <Table.Column id="run" isRowHeader>Run</Table.Column>
+                    <Table.Column id="status">Status</Table.Column>
+                    <Table.Column id="started">Started</Table.Column>
+                    <Table.Column id="duration" className="text-end">Duration</Table.Column>
+                    <Table.Column id="steps-ok-failed-skipped" className="text-end">Steps ok / failed / skipped</Table.Column>
+                    <Table.Column id="failed-steps">Failed steps</Table.Column>
                   </Table.Header>
                   <Table.Body>
                     {runs.map((run) => (
@@ -67,6 +69,7 @@ export default async function RunsPage() {
                 </Table.Content>
               </Table.ScrollContainer>
             </Table>
+</ClientOnly>
           ) : (
             <p className="p-4 text-sm text-muted">No runs recorded yet.</p>
           )}
