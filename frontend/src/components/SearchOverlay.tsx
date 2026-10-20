@@ -138,10 +138,9 @@ export default function SearchOverlay({ onClose }: { onClose: () => void }) {
               <Image
                 src="/logos/logo2.png"
                 alt="GameXS"
-                width={1024}
-                height={1024}
+                width={32}
+                height={32}
                 className="h-8 w-auto"
-                priority
               />
             </div>
 

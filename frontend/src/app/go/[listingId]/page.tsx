@@ -28,7 +28,7 @@ export default async function GoPage({ params }: { params: Promise<{ listingId: 
       <meta httpEquiv="refresh" content={`3;url=${target.source_url}`} />
       <section className="w-full max-w-md overflow-hidden rounded-3xl border border-black/5 bg-white shadow-[0_24px_60px_-28px_rgba(0,48,135,0.35)]">
         <div className="flex flex-col items-center gap-5 px-6 pb-6 pt-8 text-center">
-          <Image src="/logos/logo2.png" alt="GameXS" width={1024} height={1024} className="h-12 w-auto" priority />
+          <Image src="/logos/logo2.png" alt="GameXS" width={48} height={48} className="h-12 w-auto" priority />
           <p className="text-sm text-gray-500">در حال انتقال از GameXS به فروشگاه</p>
           <h1 className="-mt-3 text-2xl font-extrabold text-ps-night">{target.seller_name}</h1>
 
