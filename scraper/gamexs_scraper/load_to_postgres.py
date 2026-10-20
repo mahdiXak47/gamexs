@@ -143,6 +143,13 @@ def insert_price_point(cur: psycopg.Cursor, listing_id: int, offer: RawOffer) ->
     )
 
 
+def _better_offer(candidate: RawOffer, current: RawOffer) -> bool:
+    """Deterministic pick among variants of one listing: in stock first, then the cheapest priced."""
+    def rank(o: RawOffer) -> tuple:
+        return (not o.in_stock, o.price_toman <= 0, o.price_toman)
+    return rank(candidate) < rank(current)
+
+
 def load_offers(
     cur: psycopg.Cursor, platform_id: int, seller_id: int, seller_slug: str, offers: list[RawOffer]
 ) -> tuple[int, int]:
@@ -166,6 +173,11 @@ def load_offers(
     games_seen: set[int] = set()
     listings_seen: set[int] = set()
     unresolved: dict[str, str] = {}
+    # One price per listing per load. A page can expose several variants that
+    # share a listing identity (editions, regions); writing each one made the
+    # "latest" price whichever variant happened to be written last.
+    chosen: dict[tuple, tuple[int, RawOffer]] = {}
+    collisions: dict[tuple, set[int]] = {}
 
     for i, offer in enumerate(offers, start=1):
         normalized = normalize_game_name(offer.raw_title)
@@ -214,13 +226,25 @@ def load_offers(
                 continue
 
         tier = offer.tier.value.upper() if offer.tier else None
-        listing_id = upsert_listing(cur, game_id, seller_id, offer.product_type.value.upper(), tier, offer.source_url)
-        listings_seen.add(listing_id)
+        key = (game_id, offer.product_type.value.upper(), tier, offer.source_url)
+        if key in chosen:
+            collisions.setdefault(key, {chosen[key][1].price_toman}).add(offer.price_toman)
+            if not _better_offer(offer, chosen[key][1]):
+                continue
+        chosen[key] = (game_id, offer)
+        print(f"\r{i}/{len(offers)} offers resolved", end="", file=sys.stderr)
 
+    for (game_id, product_type, tier, source_url), (_, offer) in chosen.items():
+        listing_id = upsert_listing(cur, game_id, seller_id, product_type, tier, source_url)
+        listings_seen.add(listing_id)
         insert_price_point(cur, listing_id, offer)
-        print(f"\r{i}/{len(offers)} offers loaded", end="", file=sys.stderr)
 
     print(file=sys.stderr)
+    if collisions:
+        print(f"collapsed {len(collisions)} listings that had several variant prices (kept in-stock, lowest):", file=sys.stderr)
+        for key, prices in list(collisions.items())[:15]:
+            _, product_type, tier, url = key
+            print(f"  {product_type} {tier or '-'} {url} prices={sorted(prices)} kept={chosen[key][1].price_toman}", file=sys.stderr)
     if unresolved:
         print(
             f"skipped {len(unresolved)} unresolved seller titles (import a verified IGDB game "

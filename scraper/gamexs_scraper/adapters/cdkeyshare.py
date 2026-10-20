@@ -6,6 +6,8 @@ Verified 2026-07-09:
 - Account games: /product-category/console/playstation/ (~37 pages, ~629 products).
   Tier from WooCommerce variations_form; attribute key انتخاب-ظرفیت;
   values contain "ظرفیت 1/2/3" as substring. May also have an edition attribute.
+  Re-verified 2026-10-20: account pages also carry انتخاب-کنسول (PS4/PS5)
+  and 10-day rental variants (اجاره); both are skipped.
 - Disc games: /product-category/console/playstation/diskpsn/ (~2 pages, ~34 products).
   Simple products — price and stock are in the listing page row itself (no product-page
   visit needed): price in div.cost-brn-product .woocommerce-Price-amount bdi,
@@ -196,6 +198,14 @@ class CdkeyShareAdapter(SellerAdapter):
 
             tier = _tier_from_value(tier_value)
             if not tier:
+                continue
+            # Pages sell PS4 and PS5 variants of each capacity side by side;
+            # a PS4 price must not land on the PS5 listing.
+            console = next((val for key, val in attrs.items() if "کنسول" in key), "")
+            if console and "ps5" not in console.lower():
+                continue
+            # "ظرفیت 3 اجاره ایی (آنلاین 10 روزه)" is a 10-day rental, not an account.
+            if "اجاره" in tier_value:
                 continue
 
             if not v.get("is_in_stock"):
