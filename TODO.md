@@ -21,13 +21,6 @@
   and trigger-policy decision.
 - Gift cards and EA Play/other subscriptions (taxonomy exists; nothing scraped
   yet. PS Plus is live).
-- **GTA games**: local data issue identified and corrected by migration 030:
-  IGDB 5850 (the 2005 trilogy) had been mislabeled as the 2021 Definitive
-  Edition. Apply and verify migrations 030 and 031 in production; the second
-  migration preserves the old slug as a permanent redirect. Keep the two
-  distinct IGDB identities separate. The live site check on 2026-09-08 still
-  serves the old slug and returns 404 for the new canonical slug, so this
-  rollout is not complete.
 
 ## Active: Game editions cleanup
 
@@ -56,12 +49,18 @@
 
 ## Production operations
 
-- Deploy the new non-Temporal scraper runner through Darkube/Helm, configure
-  its interval and secret references, and verify completed scrape/load cycles
-  plus the read-only catalog audit in production.
+- Set `SMS_BACKEND=smsir` + `SMS_API_KEY` on `gamexs-backend`: it defaults to
+  `console`, so signup OTPs are only logged and nobody can register.
+- Merge catalog row `hades-2` (IGDB 134619, an unrelated 2001 PC game) into
+  `hades-ii` (IGDB 228525); the 10 seller listings sit on the wrong row.
+- Off-disk DB dumps: the S3 bucket is public at bucket level (the endpoint
+  ignores bucket policies and per-object ACLs), so dumps need a separate private
+  bucket before a `pg_dump` pipeline step can be added.
 - Create a Telegram bot and configure `TELEGRAM_BOT_TOKEN` plus
   `TELEGRAM_CHAT_ID` in the production secret to activate scraper failure
-  alerts.
+  alerts. No error tracking (e.g. Sentry) yet.
+- technolife has no PS5 game in stock, so its zero-game scrape fails the health
+  check every cycle (expected while the shop has no stock).
 
 ## Future features
 
