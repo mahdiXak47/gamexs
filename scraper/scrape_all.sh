@@ -56,7 +56,7 @@ run_pair() {
 log "=== GameXS daily scrape started ==="
 GAMEXS_PIPELINE_RUN_ID=$(pipeline start \
     pspro digikala gamario gameonestore gamecenter gameplayshop xgamesstore \
-    nakhlmarket parsconsole cdkeyshare persianconsole yungcenter technolife psnacctm \
+    nakhlmarket parsconsole cdkeyshare persianconsole yungcenter technolife psnacctm fillgame \
     uperagame installments igdb psstore trailers s3 cleanup || true)
 export GAMEXS_PIPELINE_RUN_ID
 
@@ -69,6 +69,7 @@ run_pair xgamesstore nakhlmarket  || failed_sellers+=" xgamesstore/nakhlmarket"
 run_pair parsconsole cdkeyshare   || failed_sellers+=" parsconsole/cdkeyshare"
 run_pair persianconsole yungcenter|| failed_sellers+=" persianconsole/yungcenter"
 run_pair technolife    psnacctm   || failed_sellers+=" technolife/psnacctm"
+run_pair fillgame                  || failed_sellers+=" fillgame"
 
 # Upera Game has its own crawler (crawl_uperagame.py: plain HTTP, parses the
 # WooCommerce variation JSON page by page so memory stays flat) behind the same

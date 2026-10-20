@@ -16,6 +16,7 @@ from .nakhlmarket import NakhlMarketAdapter
 from .parsconsole import ParsConsoleAdapter
 from .persianconsole import PersianConsoleAdapter
 from .pspro import PsProAdapter
+from .fillgame import FillGameAdapter
 from .psnacctm import PsnAcctmAdapter
 from .technolife import TechnoLifeAdapter
 from .xgamesstore import XgamesStoreAdapter
@@ -24,6 +25,7 @@ from .yungcenter import YungCenterAdapter
 ADAPTERS = {
     PsProAdapter.seller: PsProAdapter,
     PsnAcctmAdapter.seller: PsnAcctmAdapter,
+    FillGameAdapter.seller: FillGameAdapter,
     YungCenterAdapter.seller: YungCenterAdapter,
     NakhlMarketAdapter.seller: NakhlMarketAdapter,
     TechnoLifeAdapter.seller: TechnoLifeAdapter,
