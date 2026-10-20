@@ -43,6 +43,7 @@ export const STEP_LABELS: Record<string, string> = {
   igdb: "IGDB enrichment",
   psstore: "PlayStation Store prices",
   trailers: "Game trailers (S3)",
+  installments: "Installment options",
   s3: "Cover upload (S3)",
   cleanup: "Stale-listing cleanup",
   uperagame: "Upera Game",

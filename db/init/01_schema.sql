@@ -16,7 +16,11 @@ CREATE TABLE sellers (
     slug TEXT UNIQUE NOT NULL,
     name TEXT NOT NULL,
     domain TEXT NOT NULL,
-    is_active BOOLEAN NOT NULL DEFAULT true
+    is_active BOOLEAN NOT NULL DEFAULT true,
+    -- Installment options (migration 038), written by scraper/detect_installments.py.
+    installment_options TEXT[] NOT NULL DEFAULT '{}'
+        CHECK (installment_options <@ ARRAY['own', 'digipay', 'snapppay', 'torobpay']),
+    installment_checked_at TIMESTAMPTZ
 );
 
 CREATE TABLE ps5_games (

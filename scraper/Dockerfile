@@ -38,7 +38,7 @@ COPY gamexs_scraper/ gamexs_scraper/
 COPY crawl_uperagame.py load_uperagame_to_postgres.py import_uperagame_catalog.py repair_invalid_catalog.py .
 COPY scrape_all.sh .
 COPY runner.py .
-COPY fetch_psstore_prices.py fetch_trailers.py .
+COPY fetch_psstore_prices.py fetch_trailers.py detect_installments.py .
 COPY upload_to_s3.py .
 COPY add_game.py download_artworks.py resolve_missing_psstore_concepts.py psstore_search.py .
 

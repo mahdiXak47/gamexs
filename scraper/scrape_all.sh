@@ -57,7 +57,7 @@ log "=== GameXS daily scrape started ==="
 GAMEXS_PIPELINE_RUN_ID=$(pipeline start \
     pspro digikala gamario gameonestore gamecenter gameplayshop xgamesstore \
     nakhlmarket parsconsole cdkeyshare persianconsole yungcenter technolife psnacctm \
-    uperagame igdb psstore trailers s3 cleanup || true)
+    uperagame installments igdb psstore trailers s3 cleanup || true)
 export GAMEXS_PIPELINE_RUN_ID
 
 failed_sellers=""
@@ -79,6 +79,10 @@ if ! run_seller uperagame; then
     log "FAIL  scraping and loading uperagame"
     failed_sellers+=" uperagame"
 fi
+
+log "=== Installment options (خرید اقساطی) per seller ==="
+step installments python detect_installments.py 2>&1 | sed 's/^/[installments] /' || \
+    log "WARN  installment detection failed — sellers keep their last result"
 
 # ---------------------------------------------------------------------------
 # Repair/enrich legacy catalog rows that already exist without IGDB metadata.
