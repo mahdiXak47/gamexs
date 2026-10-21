@@ -263,7 +263,10 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
 
   return (
     <>
-      <JsonLd data={productJsonLd} />
+      {/* Google rejects a Product with no offers, review or aggregateRating
+          (Search Console "Product snippets" critical issue), so a game without a
+          priced offer or reviews emits no Product at all. */}
+      {(allOffers.length > 0 || reviewSummary) && <JsonLd data={productJsonLd} />}
       <JsonLd data={breadcrumbJsonLd} />
       <JsonLd data={faqPageJsonLd(faqs)} />
       {game.trailer?.updatedAt ? (

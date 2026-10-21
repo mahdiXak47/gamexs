@@ -242,7 +242,8 @@ export default async function PsPlusTierPage({
 
   return (
     <>
-      <JsonLd data={productJsonLd} />
+      {/* No Product without offers: Google marks it invalid (see games/[slug]). */}
+      {offers.length > 0 && <JsonLd data={productJsonLd} />}
       <JsonLd data={faqPageJsonLd(faqs)} />
       <JsonLd data={breadcrumbSchema} />
       <Header />
