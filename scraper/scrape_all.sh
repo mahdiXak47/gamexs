@@ -57,7 +57,7 @@ log "=== GameXS daily scrape started ==="
 GAMEXS_PIPELINE_RUN_ID=$(pipeline start \
     pspro digikala gamario gameonestore gamecenter gameplayshop xgamesstore \
     nakhlmarket parsconsole cdkeyshare persianconsole yungcenter technolife psnacctm fillgame \
-    uperagame installments igdb psstore trailers s3 cleanup || true)
+    uperagame installments igdb psstore s3 cleanup trailers || true)
 export GAMEXS_PIPELINE_RUN_ID
 
 failed_sellers=""
@@ -109,9 +109,6 @@ step psstore python fetch_psstore_prices.py --db-url "$DATABASE_URL" 2>&1 | sed 
 # The script is idempotent — files already in the bucket are skipped.
 # Requires: S3_ENDPOINT_URL, S3_ACCESS_KEY, S3_SECRET_KEY, S3_BUCKET env vars.
 # ---------------------------------------------------------------------------
-log "=== Game trailers (PS Store → 720p → S3) ==="
-step trailers python fetch_trailers.py --limit "${TRAILERS_PER_RUN:-60}" 2>&1 | sed 's/^/[trailers] /' || \
-    log "WARN  trailer fetch failed — games keep their existing trailers"
 
 log "=== S3 cover upload ==="
 step s3 python upload_to_s3.py --db-url "$DATABASE_URL" 2>&1 | sed 's/^/[s3] /' || \
@@ -128,6 +125,12 @@ step cleanup python -m gamexs_scraper.maintenance 2>&1 | sed 's/^/[cleanup] /' |
     log "WARN  DB cleanup failed — stale listings stay visible"
     failed_sellers+=" maintenance"
 }
+
+# Trailers last: each 720p transcode takes minutes on the pod's CPU quota, so
+# they must not delay the S3 upload and stale-listing cleanup above.
+log "=== Game trailers (PS Store → 720p → S3) ==="
+step trailers python fetch_trailers.py --limit "${TRAILERS_PER_RUN:-60}" 2>&1 | sed 's/^/[trailers] /' || \
+    log "WARN  trailer fetch failed — games keep their existing trailers"
 
 # ---------------------------------------------------------------------------
 # Final status

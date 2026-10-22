@@ -36,7 +36,16 @@ def _connect() -> psycopg.Connection | None:
     if not url:
         return None
     try:
-        return psycopg.connect(url, autocommit=True, connect_timeout=5)
+        # Keepalives + statement timeout: a silently dropped TCP connection must
+        # fail fast instead of hanging a best-effort bookkeeping write forever
+        # (on 2026-10-22 a run's steps froze at 11:25 while the cycle went on).
+        # ponytail: a dead connection still loses the rest of that run's
+        # bookkeeping; reconnect per write if this recurs.
+        return psycopg.connect(
+            url, autocommit=True, connect_timeout=5,
+            keepalives=1, keepalives_idle=30, keepalives_interval=10, keepalives_count=3,
+            options="-c statement_timeout=15000",
+        )
     except psycopg.Error as exc:
         print(f"[pipeline] bookkeeping disabled: {exc}", file=sys.stderr, flush=True)
         return None

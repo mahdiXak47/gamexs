@@ -106,10 +106,16 @@ class GameRow:
 # HTTP helper
 # ---------------------------------------------------------------------------
 
+# PS Store pages go direct: Sony answers 403 to the proxy's foreign exit
+# (every fetch failed on 2026-10-22) but serves the cluster directly. Only the
+# IGDB/Twitch calls below need HTTPS_PROXY.
+_DIRECT = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+
+
 def _http_get(url: str, timeout: int = 15) -> bytes:
-    """GET with automatic gzip decompression."""
+    """GET a PS Store page (direct, no proxy) with automatic gzip decompression."""
     req = urllib.request.Request(url, headers=HEADERS)
-    resp = urllib.request.urlopen(req, timeout=timeout)
+    resp = _DIRECT.open(req, timeout=timeout)
     raw = resp.read()
     if resp.headers.get("Content-Encoding") == "gzip":
         return gzip_module.decompress(raw)
