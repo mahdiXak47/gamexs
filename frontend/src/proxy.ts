@@ -17,6 +17,10 @@ const apiOrigin = process.env.NEXT_PUBLIC_API_URL
   ? new URL(process.env.NEXT_PUBLIC_API_URL).origin
   : "http://localhost:8000";
 
+const sentryOrigin = process.env.NEXT_PUBLIC_SENTRY_DSN
+  ? new URL(process.env.NEXT_PUBLIC_SENTRY_DSN).origin
+  : null;
+
 const webVitalsEndpointOrigin = process.env.NEXT_PUBLIC_WEB_VITALS_ENDPOINT
   ? new URL(process.env.NEXT_PUBLIC_WEB_VITALS_ENDPOINT).origin
   : null;
@@ -55,6 +59,7 @@ export const SPA_CONNECT_SOURCES = Array.from(
       "'self'",
       apiOrigin,
       webVitalsEndpointOrigin,
+      sentryOrigin,
       "http://localhost:8000",
       "https://gamexs.ir",
       "https://api.gamexs.ir",

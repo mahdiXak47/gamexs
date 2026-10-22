@@ -19,9 +19,12 @@ COPY frontend/ .
 # enough to satisfy any build-time type-check that imports the env.
 ARG NEXT_PUBLIC_API_URL=https://api.gamexs.ir
 ARG NEXT_PUBLIC_WEB_VITALS_ENDPOINT=
+# Public by design: a Sentry DSN only allows sending events (project gamexs-frontend).
+ARG NEXT_PUBLIC_SENTRY_DSN=https://0ce81cbc2b102acdfd09882152c59a83@sentry.hamravesh.com/11138
 ENV DATABASE_URL=postgresql://placeholder:placeholder@placeholder:5432/placeholder
 ENV NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL}
 ENV NEXT_PUBLIC_WEB_VITALS_ENDPOINT=${NEXT_PUBLIC_WEB_VITALS_ENDPOINT}
+ENV NEXT_PUBLIC_SENTRY_DSN=${NEXT_PUBLIC_SENTRY_DSN}
 ENV NEXT_TELEMETRY_DISABLED=1
 
 RUN npm run build

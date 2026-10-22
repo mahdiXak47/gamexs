@@ -159,6 +159,15 @@ def run_step(name: str, command: list[str]) -> int:
             "UPDATE pipeline_steps SET status = %s, exit_code = %s, completed_at = now() WHERE id = %s",
             ("succeeded" if code == 0 else "failed", code, step_id),
         )
+    if code != 0 and os.environ.get("SENTRY_DSN"):
+        import sentry_sdk  # initialised by the package when SENTRY_DSN is set
+
+        with sentry_sdk.new_scope() as scope:
+            scope.set_tag("pipeline_step", name)
+            scope.set_context("step", {"exit_code": code, "log_tail": "".join(tail)[-4000:]})
+            scope.fingerprint = ["pipeline-step-failed", name]
+            sentry_sdk.capture_message(f"pipeline step {name} failed (exit {code})", level="error")
+        sentry_sdk.flush(timeout=5)
     return code
 
 
