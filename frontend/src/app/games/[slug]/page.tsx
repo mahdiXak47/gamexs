@@ -17,6 +17,7 @@ import Header from "@/components/Header";
 import JsonLd from "@/components/JsonLd";
 import PsStorePriceBadges from "@/components/PsStorePriceBadges";
 import PurchaseTypeSelector from "@/components/PurchaseTypeSelector";
+import GameOverview, { overviewHasTrailer } from "@/components/GameOverview";
 import GameTrailer from "@/components/GameTrailer";
 import ScreenshotGallery from "@/components/ScreenshotGallery";
 import SimilarGames from "@/components/SimilarGames";
@@ -90,7 +91,7 @@ export async function generateMetadata({
   const price = lowestValidPrice(game);
   const stores = storeCount(game);
   const title = `خرید ${game.title} برای PS5 — قیمت و مقایسه فروشندگان`;
-  const description = gameDescription(game.title, price, stores, game.purchaseOptions, game.details?.summary);
+  const description = gameDescription(game.title, price, stores, game.purchaseOptions, game.overview?.intro ?? game.details?.summary);
   const image = gameOgImageUrl(game.slug);
 
   return {
@@ -188,7 +189,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
     "@context": "https://schema.org",
     "@type": "Product",
     name: game.title,
-    description: d?.summary ?? undefined,
+    description: game.overview?.intro ?? d?.summary ?? undefined,
     image: game.coverUrl ?? game.mainBackgroundImageUrl ?? undefined,
     url: `${SITE_URL}/games/${game.slug}`,
     dateModified: game.lastModifiedAt ?? undefined,
@@ -433,7 +434,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
           />
         )}
 
-        {game.trailer ? <GameTrailer title={game.title} url={game.trailer.url} poster={heroBg} /> : null}
+        {game.trailer && !overviewHasTrailer(game.overview, game.trailer.url) ? <GameTrailer title={game.title} url={game.trailer.url} poster={heroBg} /> : null}
 
         {/* Screenshot gallery */}
         <ScreenshotGallery screenshots={game.screenshots} />
@@ -467,7 +468,22 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
             پیشنهادهای مربوط به سازنده این بازی موقتاً در دسترس نیست.
           </DegradedNotice>
         )}
-        <GameReviewsSection gameId={game.dbId} gameTitle={game.title} description={game.description} />
+        <GameReviewsSection
+          gameId={game.dbId}
+          gameTitle={game.title}
+          description={
+            game.overview || game.description ? (
+              <GameOverview
+                title={game.title}
+                overview={game.overview}
+                description={game.description}
+                screenshots={game.screenshots}
+                trailerUrl={game.trailer?.url ?? null}
+                poster={heroBg}
+              />
+            ) : null
+          }
+        />
         <FaqSection faqs={faqs} />
       </main>
       <Disclaimer />
