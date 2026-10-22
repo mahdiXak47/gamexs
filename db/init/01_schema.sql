@@ -35,6 +35,8 @@ CREATE TABLE ps5_games (
     cover_url TEXT,
     main_background_image_url TEXT,
     description TEXT,
+    -- Structured editorial overview (migration 040, db/content/game_overviews.sql).
+    overview JSONB,
     -- Every catalog row must be created from a verified IGDB game.
     igdb_id INTEGER NOT NULL UNIQUE,
     screenshot_ids TEXT[],

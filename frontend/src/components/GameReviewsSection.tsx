@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 import { useAuth } from "@/context/AuthContext";
 import { useToast } from "@/context/ToastContext";
 import { api, extractApiError } from "@/lib/api";
@@ -126,11 +126,12 @@ export default function GameReviewsSection({
 }: {
   gameId: number;
   gameTitle: string;
-  description?: string | null;
+  /** Server-rendered «توضیحات» body (GameOverview); null when the game has none. */
+  description?: ReactNode;
 }) {
   const { user, openAuthModal } = useAuth();
   const toast = useToast();
-  const [tab, setTab] = useState<"description" | "reviews">("reviews");
+  const [tab, setTab] = useState<"description" | "reviews">(description ? "description" : "reviews");
   const [data, setData] = useState<ReviewsResponse | null>(null);
   const [rating, setRating] = useState(0);
   const [body, setBody] = useState("");
@@ -242,20 +243,16 @@ export default function GameReviewsSection({
       </div>
 
       <div className="grid gap-6 rounded-lg bg-white p-5 shadow-sm ring-1 ring-black/5 lg:grid-cols-[minmax(0,1fr)_minmax(360px,0.9fr)] lg:p-7">
-        {tab === "description" ? (
-          <div className="ui-fade-panel col-span-2">
-            {description ? (
-              <div className="rounded-lg border border-gray-100 bg-gray-50 px-4 py-4">
-                <h2 className="mb-4 text-lg font-extrabold text-gray-900">توضیحات بازی</h2>
-                <p className="whitespace-pre-line text-sm leading-7 text-gray-700">{description}</p>
-              </div>
-            ) : (
-              <p className="rounded-lg border border-dashed border-gray-200 px-4 py-8 text-center text-sm text-gray-500">
-                توضیحاتی برای این بازی در دسترس نیست.
-              </p>
-            )}
-          </div>
-        ) : (
+        {/* Always in the DOM (hidden when inactive) so the server-rendered
+            description is part of the HTML crawlers index. */}
+        <div className="ui-fade-panel lg:col-span-2" hidden={tab !== "description"}>
+          {description || (
+            <p className="rounded-lg border border-dashed border-gray-200 px-4 py-8 text-center text-sm text-gray-500">
+              توضیحاتی برای این بازی در دسترس نیست.
+            </p>
+          )}
+        </div>
+        {tab === "reviews" && (
           <div className="order-2 lg:order-1 ui-fade-panel">
           <h2 id="game-reviews-heading" className="text-lg font-extrabold text-gray-900">
             دیدگاه‌ها

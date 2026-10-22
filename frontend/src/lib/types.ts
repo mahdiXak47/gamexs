@@ -61,6 +61,8 @@ export interface Game {
   coverUrl: string | null;
   mainBackgroundImageUrl: string | null;
   description: string | null;
+  /** Structured editorial overview (ps5_games.overview, migration 040). */
+  overview: GameOverview | null;
   screenshots: string[];
   /** Self-hosted 720p trailer (scraper/fetch_trailers.py); detail page only. */
   trailer?: { url: string; updatedAt: string | null } | null;
@@ -114,4 +116,15 @@ export interface GameSummary {
   createdAt: number;
   /** Latest active listing observation, used for sitemap lastmod only. */
   lastSeenAt?: number;
+}
+
+/**
+ * GameXS-written Persian overview for the «توضیحات» tab. `media` references the
+ * game's own assets by key: "trailer" or "screenshot:N" (1-based position in
+ * Game.screenshots); keys with no matching asset are skipped when rendering.
+ */
+export interface GameOverview {
+  intro: string;
+  suits?: string[];
+  sections: { heading: string; paragraphs: string[]; media?: string }[];
 }
