@@ -150,6 +150,27 @@ def _better_offer(candidate: RawOffer, current: RawOffer) -> bool:
     return rank(candidate) < rank(current)
 
 
+def catalog_title_index(rows: list[tuple[int, str]]) -> dict[str, int]:
+    """normalize_game_name(title) -> game id for every catalog title that is unambiguous.
+
+    Seller titles are normalized ("Grand Theft Auto VI" -> "grand theft auto 6"),
+    so they never equal the catalog slug or an alias unless one was added by
+    hand. Indexing the catalog titles the same way matches them directly. A
+    normalized title shared by two games is left out, so it can never pick the
+    wrong one.
+    """
+    index: dict[str, int] = {}
+    ambiguous: set[str] = set()
+    for game_id, title in rows:
+        key = normalize_game_name(title)
+        if not key:
+            continue
+        if key in index and index[key] != game_id:
+            ambiguous.add(key)
+        index.setdefault(key, game_id)
+    return {key: game_id for key, game_id in index.items() if key not in ambiguous}
+
+
 def load_offers(
     cur: psycopg.Cursor, platform_id: int, seller_id: int, seller_slug: str, offers: list[RawOffer]
 ) -> tuple[int, int]:
@@ -170,6 +191,8 @@ def load_offers(
         )
 
     trusted_cover = seller_slug in _TRUSTED_COVER_SELLERS
+    cur.execute("SELECT id, title FROM ps5_games WHERE platform_id = %s", (platform_id,))
+    title_index = catalog_title_index(cur.fetchall())
     games_seen: set[int] = set()
     listings_seen: set[int] = set()
     unresolved: dict[str, str] = {}
@@ -193,6 +216,8 @@ def load_offers(
             game_id = find_alias_game_id(cur, platform_id, alias)
             if game_id is not None:
                 break
+        if game_id is None:
+            game_id = title_index.get(normalized)
         if game_id is not None:
             update_game_cover(cur, game_id, offer.image_url, trusted_cover)
             games_seen.add(game_id)
