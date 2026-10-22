@@ -733,7 +733,19 @@ export const getGameBySlug = memo(async function getGameBySlug(slug: string): Pr
   );
 
   const purchaseOptions = emptyPurchaseOptions();
+  // One row per shop per purchase type: a shop can list a game on several
+  // pages (e.g. an old placeholder page next to the real one). Keep its best
+  // offer — in stock first, then the cheapest positive price.
+  const rank = (r: { in_stock: boolean; price_toman: number }) => [r.in_stock ? 0 : 1, Number(r.price_toman) > 0 ? Number(r.price_toman) : Infinity];
+  const best = new Map<string, (typeof offerRows)[number]>();
   for (const row of offerRows) {
+    const key = `${row.product_type}|${row.tier}|${row.seller_slug}`;
+    const current = best.get(key);
+    const [a1, a2] = rank(row);
+    const [b1, b2] = current ? rank(current) : [Infinity, Infinity];
+    if (!current || a1 < b1 || (a1 === b1 && a2 < b2)) best.set(key, row);
+  }
+  for (const row of best.values()) {
     findOption(purchaseOptions, row.product_type, row.tier)?.offers.push({
       sellerId: row.seller_slug,
       sellerName: row.seller_name,
