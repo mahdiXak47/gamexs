@@ -19,7 +19,7 @@ from urllib.parse import unquote
 import requests
 from bs4 import BeautifulSoup
 
-from ..base import SellerAdapter
+from ..base import SellerAdapter, title_with_edition
 from ..models import AccessTier, ProductType, RawOffer
 
 CATEGORY_URL = "https://game-center.ir/product-category/%d8%a8%d8%a7%d8%b2%db%8c-ps5/"
@@ -106,9 +106,10 @@ class GameCenterAdapter(SellerAdapter):
         if variations[0].get("image", {}).get("src"):
             image_url = variations[0]["image"]["src"]
 
-        # Products can have platform × edition × tier combos. For each PS5 tier,
-        # take the cheapest in-stock price across all editions.
-        best_per_tier: dict[AccessTier, int] = {}
+        # Products can have platform × edition × tier combos. For each PS5 tier
+        # and edition take the cheapest in-stock price; editions stay apart so an
+        # Ultimate price never lands on the base game (title_with_edition).
+        best_per_tier: dict[tuple[AccessTier, str], int] = {}
         for v in variations:
             attrs = _decode_attrs(v.get("attributes", {}))
             platform = attrs.get("attribute_pa_platform", "")
@@ -128,14 +129,15 @@ class GameCenterAdapter(SellerAdapter):
             price = v.get("display_price") or 0
             if price <= 0:
                 continue
-            if tier not in best_per_tier or price < best_per_tier[tier]:
-                best_per_tier[tier] = price
+            key = (tier, title_with_edition(raw_title, attrs))
+            if key not in best_per_tier or price < best_per_tier[key]:
+                best_per_tier[key] = price
 
-        for tier, price in best_per_tier.items():
+        for (tier, title), price in best_per_tier.items():
             yield RawOffer(
                 seller=self.seller,
                 source_url=url,
-                raw_title=raw_title,
+                raw_title=title,
                 product_type=ProductType.ACCOUNT_GAME,
                 price_toman=price,
                 tier=tier,

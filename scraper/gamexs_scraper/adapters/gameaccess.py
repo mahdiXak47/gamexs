@@ -28,7 +28,7 @@ from urllib.parse import unquote
 import requests
 from bs4 import BeautifulSoup
 
-from ..base import SellerAdapter
+from ..base import SellerAdapter, title_with_edition
 from ..models import AccessTier, ProductType, RawOffer
 
 CATEGORY_URL = "https://gameaccess.ir/product-category/playstation/"
@@ -120,7 +120,7 @@ class GameAccessAdapter(SellerAdapter):
             yield RawOffer(
                 seller=self.seller,
                 source_url=url,
-                raw_title=raw_title,
+                raw_title=title_with_edition(raw_title, attrs),
                 product_type=ProductType.ACCOUNT_GAME,
                 price_toman=price,
                 tier=tier,
