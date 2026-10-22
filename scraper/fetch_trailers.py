@@ -79,12 +79,19 @@ def download(url: str, dest: Path) -> None:
 
 
 def transcode(src: Path, dest: Path) -> None:
-    """720p (never upscaled), H.264 main, CRF 27 capped at ~2.5 Mb/s, AAC 128k, faststart."""
+    """720p (never upscaled), H.264 main, CRF 27 capped at ~2.5 Mb/s, AAC 128k, faststart.
+
+    Threads are pinned: ffmpeg sizes its decoder/x264 thread pools from the
+    host's CPU count, not the pod's quota, and each thread holds frame buffers.
+    Auto threads OOM-killed the 500 MB scraper pod on the first trailer; two
+    threads measured 156 MB peak (auto: 320 MB on a 10-core laptop, more on
+    the cluster nodes).
+    """
     subprocess.run(
         [
-            "ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(src),
+            "ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-threads", "2", "-i", str(src),
             "-vf", "scale=-2:'min(720,ih)'",
-            "-c:v", "libx264", "-preset", "veryfast", "-profile:v", "main", "-pix_fmt", "yuv420p",
+            "-c:v", "libx264", "-threads", "2", "-preset", "veryfast", "-profile:v", "main", "-pix_fmt", "yuv420p",
             "-crf", "27", "-maxrate", "2500k", "-bufsize", "5000k",
             "-c:a", "aac", "-b:a", "128k", "-ac", "2",
             "-movflags", "+faststart", str(dest),
