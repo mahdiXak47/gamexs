@@ -14,7 +14,15 @@ DEFAULT_HEADERS = {
 
 
 def make_session() -> requests.Session:
+    """Session for Iranian shop sites: always direct, never via HTTPS_PROXY.
+
+    The env proxy exists for foreign APIs (IGDB/Twitch) that are filtered in
+    Iran. Every shop loads directly from the cluster (verified 2026-10-22 for
+    all sellers), and routing them through the proxy made a proxy outage fail
+    every shop at once.
+    """
     session = requests.Session()
+    session.trust_env = False
     session.headers.update(DEFAULT_HEADERS)
     retry = Retry(total=3, backoff_factor=1.5, status_forcelist=[429, 500, 502, 503, 504])
     session.mount("https://", HTTPAdapter(max_retries=retry))
