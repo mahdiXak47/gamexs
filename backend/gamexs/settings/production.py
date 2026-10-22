@@ -4,6 +4,13 @@ from .base import *  # noqa: F401, F403
 
 DEBUG = False
 
+# base.py falls back to a key that is public in the repo; it signs every JWT,
+# so production must never start with it.
+from django.core.exceptions import ImproperlyConfigured
+
+if not SECRET_KEY or SECRET_KEY.startswith("django-insecure"):  # noqa: F405
+    raise ImproperlyConfigured("SECRET_KEY must be set to a random value in production")
+
 # Gunicorn already records access logs, but Django's default production
 # logging sends request exceptions to email only. Keep admin/API tracebacks in
 # the container logs so 500s can be diagnosed from Kubernetes.
