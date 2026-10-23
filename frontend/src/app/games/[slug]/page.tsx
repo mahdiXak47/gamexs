@@ -374,8 +374,8 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
                   )}
                 </div>
 
-                {/* Summary */}
-                {d?.summary && (
+                {/* Summary — the Persian overview excerpt below replaces it when one exists */}
+                {d?.summary && !game.overview && (
                   <p className={`mt-4 text-sm leading-relaxed line-clamp-3 ${
                     hasArt ? "text-white/70" : "text-gray-500"
                   }`}>
@@ -403,6 +403,29 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
                     </div>
                   ))}
                 </div>
+
+                {/* Overview excerpt — first part of the «توضیحات» intro, linking to the full text */}
+                {game.overview?.intro && (
+                  <div className={`mt-6 rounded-2xl p-4 ${hasArt ? "bg-black/30 ring-1 ring-white/10 backdrop-blur-sm" : "bg-gray-50 ring-1 ring-gray-200"}`}>
+                    <p className={`text-xs font-bold ${hasArt ? "text-white/60" : "text-gray-500"}`}>معرفی بازی</p>
+                    <p className={`mt-2 line-clamp-4 text-[15px] leading-7 ${hasArt ? "text-white/85" : "text-gray-700"}`}>
+                      {game.overview.intro}
+                    </p>
+                    <a
+                      href="#game-overview"
+                      className={`mt-3 inline-flex min-h-11 items-center gap-1.5 rounded-xl px-4 text-sm font-bold transition-colors duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 ${
+                        hasArt
+                          ? "border border-white/30 text-white hover:bg-white/10 focus-visible:outline-white"
+                          : "border border-gray-300 text-gray-800 hover:bg-gray-100 focus-visible:outline-accent"
+                      }`}
+                    >
+                      مشاهده کامل معرفی
+                      <svg aria-hidden="true" viewBox="0 0 20 20" className="h-4 w-4 rotate-180" fill="currentColor">
+                        <path d="M10 3a1 1 0 0 1 .7.3l5 5a1 1 0 0 1-1.4 1.4L11 6.4V16a1 1 0 1 1-2 0V6.4L5.7 9.7a1 1 0 0 1-1.4-1.4l5-5A1 1 0 0 1 10 3z" />
+                      </svg>
+                    </a>
+                  </div>
+                )}
               </div>
 
               {/* ── Cover art + PS Store badges (LEFT in RTL) ── */}

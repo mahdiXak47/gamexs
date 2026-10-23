@@ -164,6 +164,26 @@ export default function GameReviewsSection({
     }
   }, [gameId]);
 
+  // The hero's «مشاهده کامل معرفی» link targets #game-overview: open the
+  // description tab whenever that anchor is followed (on load or in-page).
+  useEffect(() => {
+    if (!description) return;
+    const open = () => {
+      if (window.location.hash === "#game-overview") setTab("description");
+    };
+    // A repeat click on the same anchor fires no hashchange, so also react to the click.
+    const onClick = (event: MouseEvent) => {
+      if ((event.target as Element | null)?.closest?.('a[href="#game-overview"]')) setTab("description");
+    };
+    open();
+    window.addEventListener("hashchange", open);
+    document.addEventListener("click", onClick);
+    return () => {
+      window.removeEventListener("hashchange", open);
+      document.removeEventListener("click", onClick);
+    };
+  }, [description]);
+
   useEffect(() => {
     void Promise.resolve().then(loadReviews);
   }, [loadReviews, user]);
@@ -212,7 +232,7 @@ export default function GameReviewsSection({
   const currentReview = data?.current_user_review ?? null;
 
   return (
-    <section className="mx-auto max-w-6xl px-4 py-10 sm:px-6" dir="rtl" aria-labelledby="game-reviews-heading">
+    <section id="game-overview" className="mx-auto max-w-6xl scroll-mt-20 px-4 py-10 sm:px-6" dir="rtl" aria-labelledby="game-reviews-heading">
       <div className="mb-6 flex items-center justify-end gap-4" dir="ltr">
         <button
           type="button"

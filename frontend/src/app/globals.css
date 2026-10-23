@@ -445,3 +445,10 @@ body {
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+/* In-page anchors (e.g. hero «مشاهده کامل معرفی» -> #game-overview) glide, unless reduced motion is requested. */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
