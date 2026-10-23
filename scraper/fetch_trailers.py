@@ -97,7 +97,9 @@ def transcode(src: Path, dest: Path) -> None:
             "-movflags", "+faststart", str(dest),
         ],
         check=True,
-        timeout=900,
+        # Long/4K sources take over 15 min on the pod's quarter core (13 of 60
+        # timed out at 900 s on 2026-10-23); trailers run last, so wait.
+        timeout=3600,
     )
 
 
