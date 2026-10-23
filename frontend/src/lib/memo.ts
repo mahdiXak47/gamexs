@@ -6,11 +6,16 @@
 // Dates survive) and shared between requests: callers must not mutate them.
 // After `ttlMs` the next call still gets the old value instantly while one
 // refresh runs in the background; a failed refresh keeps serving the old value.
+// Past MAX_STALE_MS the call waits for the refresh (old value only on failure).
 // ponytail: per-process, so each replica warms its own copy; move to a shared
 // store (Redis) only if replicas multiply.
 
 const DEFAULT_TTL_MS = 5 * 60_000; // same as the CDN s-maxage in next.config.ts
 const MAX_ENTRIES = 2000; // per function; oldest key is evicted first
+// Older than this, a request waits for fresh data instead of being served the
+// stale copy: a rarely visited page must not show hours-old prices/trailers to
+// its first visitor (seen on 2026-10-23: 25 of 54 trailer pages).
+const MAX_STALE_MS = 30 * 60_000;
 
 type Entry<R> = { at: number; value: Promise<R>; settled: boolean };
 
@@ -43,9 +48,13 @@ export function memo<F extends (...args: any[]) => Promise<unknown>>(fn: F, ttlM
     const key = JSON.stringify(args);
     const hit = store.get(key);
     if (!hit) return load(key, args);
-    if (hit.settled && Date.now() - hit.at >= ttlMs) {
-      hit.at = Date.now(); // one background refresh at a time
-      load(key, args, hit).catch(() => {}); // handled above
+    const age = Date.now() - hit.at;
+    if (hit.settled && age >= ttlMs) {
+      const stale = hit.value;
+      hit.at = Date.now(); // one refresh at a time
+      const fresh = load(key, args, hit);
+      if (age >= MAX_STALE_MS) return fresh.catch(() => stale);
+      fresh.catch(() => {}); // handled above
     }
     return hit.value;
   }) as F;
