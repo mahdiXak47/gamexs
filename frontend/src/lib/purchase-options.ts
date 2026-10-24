@@ -29,11 +29,14 @@ const CANONICAL_OPTIONS: Omit<PurchaseOption, "offers">[] = [
       "بازی فقط از طریق اکانت ارسالی فروشگاه قابل اجراست؛ باید با همان اکانت وارد شوید و بازی را اجرا کنید.",
   },
   {
+    // OWN_ACCOUNT_GAME is the «ظرفیت کامل» (full-capacity) offer: the whole
+    // account, all three capacities, goes to the buyer. Digital codes on the
+    // buyer's own PSN account are practically never sold in Iran.
     type: "OWN_ACCOUNT_GAME",
-    label: "روی اکانت شما",
-    subtitle: "کد دیجیتال",
+    label: "ظرفیت کامل",
+    subtitle: "کل اکانت",
     description:
-      "کد دیجیتال بازی روی اکانت شخصی خودتان فعال می‌شود؛ اکانتتان کاملاً مستقل و در اختیار خودتان باقی می‌ماند.",
+      "کل اکانت بازی (هر سه ظرفیت) به شما تحویل داده می‌شود؛ بازی آنلاین و آفلاین بدون محدودیت ظرفیت و فقط در اختیار خودتان است.",
   },
   {
     type: "DISC",
@@ -62,7 +65,7 @@ export function purchasePathLabel(type: ProductType, tier: AccessTier | null): s
     if (tier === "CAPACITY_3") return "ظرفیت ۳";
     return "اکانت";
   }
-  if (type === "OWN_ACCOUNT_GAME") return "روی اکانت شما";
+  if (type === "OWN_ACCOUNT_GAME") return "ظرفیت کامل";
   return "دیسک فیزیکی";
 }
 

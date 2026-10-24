@@ -8,8 +8,8 @@ Verified against the live site on 2026-07-08:
 - The main account-game category is /product-category/acc-play-station/,
   which mixes PS4 and PS5 listings. We filter to PS5-only variations by
   checking `attribute_pa_انتخاب-پلتفرم` in each variation's attribute map.
-- Tier mapping: ظرفیت-اول/ظرفیت-کامل → CAPACITY_1 (both are full-account
-  handovers), ظرفیت-دوم → CAPACITY_2, ظرفیت-سوم → CAPACITY_3.
+- Tier mapping: ظرفیت-اول → CAPACITY_1, ظرفیت-کامل → full capacity (OWN_ACCOUNT_GAME),
+  ظرفیت-دوم → CAPACITY_2, ظرفیت-سوم → CAPACITY_3.
 """
 
 import json
@@ -22,7 +22,7 @@ from urllib.parse import unquote
 import requests
 from bs4 import BeautifulSoup
 
-from ..base import SellerAdapter, title_with_edition
+from ..base import SellerAdapter, title_with_edition, FULL_CAPACITY, account_offer_type
 from ..models import AccessTier, ProductType, RawOffer
 
 CATEGORY_URL = "https://yungcenter.com/product-category/acc-play-station/"
@@ -30,7 +30,7 @@ CATEGORY_URL = "https://yungcenter.com/product-category/acc-play-station/"
 # URL-decoded values that appear in `attribute_pa_انتخاب-ظرفیت`
 TIER_MAP: dict[str, AccessTier] = {
     "ظرفیت-اول": AccessTier.CAPACITY_1,
-    "ظرفیت-کامل": AccessTier.CAPACITY_1,  # full-account handover = full capacity
+    "ظرفیت-کامل": FULL_CAPACITY,  # «ظرفیت کامل»: its own purchase type (base.FULL_CAPACITY)
     "ظرفیت-دوم": AccessTier.CAPACITY_2,
     "ظرفیت-سوم": AccessTier.CAPACITY_3,
 }
@@ -142,11 +142,12 @@ class YungCenterAdapter(SellerAdapter):
 
             in_stock = bool(var.get("is_in_stock", False))
 
+            product_type, tier = account_offer_type(tier)
             yield RawOffer(
                 seller=self.seller,
                 source_url=url,
                 raw_title=title_with_edition(raw_title, attrs),
-                product_type=ProductType.ACCOUNT_GAME,
+                product_type=product_type,
                 price_toman=price_toman,
                 tier=tier,
                 in_stock=in_stock,

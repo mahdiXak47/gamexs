@@ -97,7 +97,7 @@ const PRODUCT_MAP: Record<string, string> = {
   'ACCOUNT_GAME:CAPACITY_2': 'اکانت ظرفیت ۲',
   'ACCOUNT_GAME:CAPACITY_3': 'اکانت ظرفیت ۳',
   DISC:             'نسخه فیزیکی',
-  OWN_ACCOUNT_GAME: 'خرید برای اکانت شما',
+  OWN_ACCOUNT_GAME: 'اکانت ظرفیت کامل',
 }
 
 const REGION_MAP: Record<string, string> = {

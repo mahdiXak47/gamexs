@@ -9,7 +9,7 @@ Verified 2026-07-30:
         "ps5-z1"                   -> CAPACITY_1
         "ps5-z2"                   -> CAPACITY_2
         "ظرفیت-سوم-آنلاین-ps5"    -> CAPACITY_3
-        "ظرفیت-کامل"               -> CAPACITY_1 (full exclusive account)
+        "ظرفیت-کامل"               -> full capacity (OWN_ACCOUNT_GAME)
         "ps4-*" / "اجاره-*"        -> skip (wrong platform or rental)
   Some products also carry an edition attribute (standard/deluxe/ultimate);
   each (edition, capacity) combination is a separate variation with its own
@@ -28,7 +28,7 @@ from urllib.parse import unquote
 import requests
 from bs4 import BeautifulSoup
 
-from ..base import SellerAdapter, title_with_edition
+from ..base import SellerAdapter, title_with_edition, FULL_CAPACITY, account_offer_type
 from ..models import AccessTier, ProductType, RawOffer
 
 CATEGORY_URL = "https://gameaccess.ir/product-category/playstation/"
@@ -39,7 +39,7 @@ _TIER_MAP: dict[str, AccessTier] = {
     "ps5-z1": AccessTier.CAPACITY_1,
     "ps5-z2": AccessTier.CAPACITY_2,
     "ظرفیت-سوم-آنلاین-ps5": AccessTier.CAPACITY_3,
-    "ظرفیت-کامل": AccessTier.CAPACITY_1,
+    "ظرفیت-کامل": FULL_CAPACITY,
 }
 
 _ATTR_CAPACITY = "attribute_pa_capacity-selection"
@@ -117,11 +117,12 @@ class GameAccessAdapter(SellerAdapter):
             if price <= 0:
                 continue
 
+            product_type, tier = account_offer_type(tier)
             yield RawOffer(
                 seller=self.seller,
                 source_url=url,
                 raw_title=title_with_edition(raw_title, attrs),
-                product_type=ProductType.ACCOUNT_GAME,
+                product_type=product_type,
                 price_toman=price,
                 tier=tier,
                 in_stock=True,

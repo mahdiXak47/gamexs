@@ -19,7 +19,7 @@ from urllib.parse import unquote
 import requests
 from bs4 import BeautifulSoup
 
-from ..base import SellerAdapter, title_with_edition
+from ..base import SellerAdapter, title_with_edition, FULL_CAPACITY, account_offer_type
 from ..models import AccessTier, ProductType, RawOffer
 
 CATEGORY_URL = "https://game-center.ir/product-category/%d8%a8%d8%a7%d8%b2%db%8c-ps5/"
@@ -29,7 +29,7 @@ _PRODUCT_HREF_RE = re.compile(r"^https://game-center\.ir/product/")
 
 _TIER_MAP = {
     "ظرفیت1": AccessTier.CAPACITY_1,
-    "ظرفیتکامل": AccessTier.CAPACITY_1,  # "full capacity" = exclusive account
+    "ظرفیتکامل": FULL_CAPACITY,  # «ظرفیت کامل»: its own purchase type (base.FULL_CAPACITY)
     "ظرفیت2": AccessTier.CAPACITY_2,
     "ظرفیت3": AccessTier.CAPACITY_3,
 }
@@ -134,11 +134,12 @@ class GameCenterAdapter(SellerAdapter):
                 best_per_tier[key] = price
 
         for (tier, title), price in best_per_tier.items():
+            product_type, tier = account_offer_type(tier)
             yield RawOffer(
                 seller=self.seller,
                 source_url=url,
                 raw_title=title,
-                product_type=ProductType.ACCOUNT_GAME,
+                product_type=product_type,
                 price_toman=price,
                 tier=tier,
                 in_stock=True,

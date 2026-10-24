@@ -4,7 +4,7 @@ from collections.abc import Iterator
 from urllib.parse import unquote
 
 from .http import PoliteFetcher, make_session
-from .models import RawOffer
+from .models import AccessTier, ProductType, RawOffer
 
 
 class SellerAdapter(ABC):
@@ -50,3 +50,17 @@ def title_with_edition(raw_title: str, attrs: dict[str, str]) -> str:
             edition += " Edition"
         return f"{raw_title} {edition}"
     return raw_title
+
+
+# «ظرفیت کامل» (full capacity: the whole account, all three capacities) is its
+# own purchase type, not capacity 1 — some shops sell it, some don't, and it
+# costs far more. Tier maps use this marker; account_offer_type() turns it into
+# OWN_ACCOUNT_GAME (shown as «ظرفیت کامل») with no tier.
+FULL_CAPACITY = "full_capacity"
+
+
+def account_offer_type(tier):
+    """(product_type, tier) for an account offer whose tier may be FULL_CAPACITY."""
+    if tier == FULL_CAPACITY:
+        return ProductType.OWN_ACCOUNT_GAME, None
+    return ProductType.ACCOUNT_GAME, tier

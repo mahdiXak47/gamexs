@@ -14,7 +14,7 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-from ..base import SellerAdapter
+from ..base import SellerAdapter, FULL_CAPACITY, account_offer_type
 from ..models import AccessTier, ProductType, RawOffer
 
 CATEGORY_URL = "https://gpgaming.ir/playstation-legal-account"
@@ -38,7 +38,7 @@ def _is_non_product(href: str) -> bool:
 
 TIER_MAP: dict[str, AccessTier] = {
     "ظرفیت اول": AccessTier.CAPACITY_1,
-    "ظرفیت کامل": AccessTier.CAPACITY_1,
+    "ظرفیت کامل": FULL_CAPACITY,
     "ظرفیت یک": AccessTier.CAPACITY_1,
     "ظرفیت دو": AccessTier.CAPACITY_2,
     "ظرفیت سه": AccessTier.CAPACITY_3,
@@ -139,11 +139,12 @@ class GpGamingAdapter(SellerAdapter):
             if not isinstance(price, (int, float)):
                 continue
 
+            product_type, tier = account_offer_type(tier)
             yield RawOffer(
                 seller=self.seller,
                 source_url=url,
                 raw_title=raw_title,
-                product_type=ProductType.ACCOUNT_GAME,
+                product_type=product_type,
                 price_toman=int(price),
                 tier=tier,
                 in_stock=True,

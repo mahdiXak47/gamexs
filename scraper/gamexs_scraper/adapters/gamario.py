@@ -18,7 +18,7 @@ from urllib.parse import unquote
 import requests
 from bs4 import BeautifulSoup
 
-from ..base import SellerAdapter, title_with_edition
+from ..base import SellerAdapter, title_with_edition, FULL_CAPACITY, account_offer_type
 from ..models import AccessTier, ProductType, RawOffer
 
 CATEGORY_URL = "https://gamario.com/product-category/capacity-account/play-station-5/"
@@ -27,7 +27,7 @@ BASE_URL = "https://gamario.com"
 _PRODUCT_HREF_RE = re.compile(r"^https://gamario\.com/product/")
 
 _TIER_MAP = {
-    "کامل": AccessTier.CAPACITY_1,  # full/exclusive account = capacity 1
+    "کامل": FULL_CAPACITY,  # «ظرفیت کامل»: its own purchase type (base.FULL_CAPACITY)
     "اول": AccessTier.CAPACITY_1,
     "دوم": AccessTier.CAPACITY_2,
     "سوم": AccessTier.CAPACITY_3,
@@ -118,11 +118,12 @@ class GamarioAdapter(SellerAdapter):
             if price <= 0:
                 continue
 
+            product_type, tier = account_offer_type(tier)
             yield RawOffer(
                 seller=self.seller,
                 source_url=url,
                 raw_title=title_with_edition(raw_title, attrs),
-                product_type=ProductType.ACCOUNT_GAME,
+                product_type=product_type,
                 price_toman=price,
                 tier=tier,
                 in_stock=True,

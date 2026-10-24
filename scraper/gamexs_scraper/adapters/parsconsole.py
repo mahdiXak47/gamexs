@@ -4,7 +4,7 @@ Verified 2026-07-09:
 - Account games only — no disc products.
 - Category: /product-category/خرید-اکانت-قانونی/ with /page/N/ pagination, ~7 pages ~364 products.
 - Tier attribute: attribute_pa_capacity (URL-encoded in JSON); values after decoding:
-  ظرفیت-1 / ظرفیت-کامل → CAPACITY_1, ظرفیت-دوم → CAPACITY_2, ظرفیت-سوم → CAPACITY_3.
+  ظرفیت-1 → CAPACITY_1, ظرفیت-کامل → full capacity (OWN_ACCOUNT_GAME), ظرفیت-دوم → CAPACITY_2, ظرفیت-سوم → CAPACITY_3.
 - Filter variations by attribute_pa_platform == 'ps5'.
 - Stock: variation["is_in_stock"] boolean.
 """
@@ -18,7 +18,7 @@ from urllib.parse import unquote
 import requests
 from bs4 import BeautifulSoup
 
-from ..base import SellerAdapter, title_with_edition
+from ..base import SellerAdapter, title_with_edition, FULL_CAPACITY, account_offer_type
 from ..models import AccessTier, ProductType, RawOffer
 
 CATEGORY_URL = "https://parsconsole.com/product-category/%d8%ae%d8%b1%db%8c%d8%af-%d8%a7%da%a9%d8%a7%d9%86%d8%aa-%d9%82%d8%a7%d9%86%d9%88%d9%86%db%8c/"
@@ -28,7 +28,7 @@ _PRODUCT_HREF_RE = re.compile(r"^https://parsconsole\.com/product/")
 
 _TIER_MAP = {
     "ظرفیت1": AccessTier.CAPACITY_1,
-    "ظرفیتکامل": AccessTier.CAPACITY_1,  # full/exclusive account = capacity 1
+    "ظرفیتکامل": FULL_CAPACITY,  # «ظرفیت کامل»: its own purchase type (base.FULL_CAPACITY)
     "ظرفیتدوم": AccessTier.CAPACITY_2,
     "ظرفیتسوم": AccessTier.CAPACITY_3,
 }
@@ -121,11 +121,12 @@ class ParsConsoleAdapter(SellerAdapter):
             if price <= 0:
                 continue
 
+            product_type, tier = account_offer_type(tier)
             yield RawOffer(
                 seller=self.seller,
                 source_url=url,
                 raw_title=title_with_edition(raw_title, attrs),
-                product_type=ProductType.ACCOUNT_GAME,
+                product_type=product_type,
                 price_toman=price,
                 tier=tier,
                 in_stock=True,

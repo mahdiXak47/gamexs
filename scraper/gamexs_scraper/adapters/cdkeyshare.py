@@ -23,7 +23,7 @@ from urllib.parse import unquote
 import requests
 from bs4 import BeautifulSoup
 
-from ..base import SellerAdapter, title_with_edition
+from ..base import SellerAdapter, title_with_edition, FULL_CAPACITY, account_offer_type
 from ..models import AccessTier, ProductType, RawOffer
 
 BASE_URL = "https://www.cdkeyshare.ir"
@@ -33,7 +33,7 @@ DISC_CATEGORY_URL = f"{BASE_URL}/product-category/console/playstation/diskpsn/"
 _PRODUCT_HREF_RE = re.compile(r"^https://(?:www\.)?cdkeyshare\.ir/shop/console/")
 
 _TIER_SUBSTRINGS = [
-    ("ظرفیت کامل", AccessTier.CAPACITY_1),  # full/exclusive account = capacity 1
+    ("ظرفیت کامل", FULL_CAPACITY),  # «ظرفیت کامل»: its own purchase type (base.FULL_CAPACITY)
     ("ظرفیت 1", AccessTier.CAPACITY_1),
     ("ظرفیت 2", AccessTier.CAPACITY_2),
     ("ظرفیت 3", AccessTier.CAPACITY_3),
@@ -214,11 +214,12 @@ class CdkeyShareAdapter(SellerAdapter):
             if price <= 0:
                 continue
 
+            product_type, tier = account_offer_type(tier)
             yield RawOffer(
                 seller=self.seller,
                 source_url=url,
                 raw_title=title_with_edition(raw_title, attrs),
-                product_type=ProductType.ACCOUNT_GAME,
+                product_type=product_type,
                 price_toman=price,
                 tier=tier,
                 in_stock=True,
