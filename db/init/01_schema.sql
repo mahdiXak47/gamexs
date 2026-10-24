@@ -315,6 +315,11 @@ CREATE TABLE outbound_clicks (
     price_toman  BIGINT,
     visitor_hash TEXT NOT NULL,
     referrer     TEXT,
+    -- Click details (migration 042): IP/UA cleared after 90 days; user_id is self-reported.
+    ip_address   INET,
+    user_agent   TEXT,
+    user_id      INTEGER,
+    claim_token  UUID,
     clicked_at   TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 

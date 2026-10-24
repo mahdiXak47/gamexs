@@ -21,7 +21,7 @@ export default async function GoPage({ params }: { params: Promise<{ listingId: 
   const { listingId } = await params;
   const target = await getRedirectTarget(listingId);
   if (!target) notFound();
-  await recordClick(target, await headers());
+  const claim = await recordClick(target, await headers());
 
   return (
     <main id="main-content" className="flex min-h-dvh items-center justify-center px-4 py-10">
@@ -42,7 +42,7 @@ export default async function GoPage({ params }: { params: Promise<{ listingId: 
             </p>
           </div>
 
-          <RedirectCountdown url={target.source_url} />
+          <RedirectCountdown url={target.source_url} claim={claim} />
           <p className="text-xs leading-6 text-gray-500">
             قیمت و موجودی نهایی را پیش از پرداخت در سایت {target.seller_name} بررسی کنید. GameXS فقط قیمت‌ها را مقایسه می‌کند و در خرید نقشی ندارد.
           </p>

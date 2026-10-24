@@ -432,3 +432,40 @@ export async function referralExport(range: RangeKey, sellerSlug: string | null)
   );
   return rows;
 }
+
+/** One row per «خرید از فروشگاه» click, newest first (admin click log). */
+export type ClickLogRow = {
+  id: string;
+  clicked_at: Date;
+  game_slug: string;
+  game_title: string;
+  seller_name: string;
+  product_type: "ACCOUNT_GAME" | "OWN_ACCOUNT_GAME" | "DISC";
+  tier: "CAPACITY_1" | "CAPACITY_2" | "CAPACITY_3" | null;
+  price_toman: string | null;
+  ip_address: string | null;
+  user_agent: string | null;
+  referrer: string | null;
+  user_id: number | null;
+  user_name: string | null;
+  user_phone: string | null;
+};
+
+export async function clickLog(range: RangeKey, sellerSlug: string | null, limit = 500): Promise<ClickLogRow[]> {
+  const { rows } = await query<ClickLogRow>(
+    `
+    SELECT c.id::text AS id, c.clicked_at, g.slug AS game_slug, g.title AS game_title, s.name AS seller_name,
+           c.product_type, c.tier, c.price_toman::text AS price_toman, host(c.ip_address) AS ip_address,
+           c.user_agent, c.referrer, c.user_id,
+           NULLIF(trim(concat_ws(' ', u.first_name, u.last_name)), '') AS user_name, u.phone_number AS user_phone
+    FROM outbound_clicks c
+    JOIN ps5_games g ON g.id = c.game_id
+    JOIN sellers s ON s.id = c.seller_id
+    LEFT JOIN accounts_user u ON u.id = c.user_id
+    WHERE ${rangeWhere(range)} AND ($1::text IS NULL OR s.slug = $1)
+    ORDER BY c.clicked_at DESC
+    LIMIT $2`,
+    [sellerSlug, limit],
+  );
+  return rows;
+}

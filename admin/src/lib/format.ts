@@ -52,7 +52,7 @@ export const STEP_LABELS: Record<string, string> = {
 export const formatToman = (n: number | null | undefined) => (n === null || n === undefined ? "—" : `${numberFormat.format(n)} T`);
 
 const TIER_LABELS: Record<string, string> = { CAPACITY_1: "Capacity 1", CAPACITY_2: "Capacity 2", CAPACITY_3: "Capacity 3" };
-const TYPE_LABELS: Record<string, string> = { DISC: "Disc", ACCOUNT_GAME: "Account", OWN_ACCOUNT_GAME: "Own account" };
+const TYPE_LABELS: Record<string, string> = { DISC: "Disc", ACCOUNT_GAME: "Account", OWN_ACCOUNT_GAME: "Full capacity" };
 
 /** "Account · Capacity 2", "Disc". */
 export const formatOffer = (productType: string, tier: string | null) =>

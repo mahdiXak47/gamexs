@@ -1,4 +1,4 @@
-import { createHash } from "node:crypto";
+import { createHash, randomUUID } from "node:crypto";
 import { query } from "./db";
 
 // Seller referral tracking for /go/[listingId] (migration 034). Server-only.
@@ -62,24 +62,41 @@ export function isCountable(headers: Headers): boolean {
   return ua.length > 0 && !BOT_UA.test(ua);
 }
 
+/** The visitor's IP: ArvanCloud's ar-real-ip, else the first X-Forwarded-For hop. */
+export function clientIp(headers: Headers): string {
+  return headers.get("ar-real-ip")?.trim() || (headers.get("x-forwarded-for") ?? "").split(",")[0].trim() || headers.get("x-real-ip") || "";
+}
+
 export function visitorHash(headers: Headers, now: Date = new Date()): string {
-  const ip = (headers.get("x-forwarded-for") ?? "").split(",")[0].trim() || headers.get("x-real-ip") || "";
+  const ip = clientIp(headers);
   const day = now.toISOString().slice(0, 10);
   const salt = process.env.CLICK_HASH_SALT ?? "gamexs-clicks";
   return createHash("sha256").update(`${ip}|${headers.get("user-agent") ?? ""}|${day}|${salt}`).digest("hex").slice(0, 32);
 }
 
-/** Best-effort: a tracking failure must never block the customer's redirect. */
-export async function recordClick(target: RedirectTarget, headers: Headers): Promise<void> {
-  if (!isCountable(headers)) return;
+/**
+ * Best-effort: a tracking failure must never block the customer's redirect.
+ * Returns the click id + one-time token the page hands to the browser so it can
+ * attach the logged-in user (see app/api/clicks/route.ts), or null.
+ */
+export async function recordClick(target: RedirectTarget, headers: Headers): Promise<{ id: string; token: string } | null> {
+  if (!isCountable(headers)) return null;
   const referrer = headers.get("referer");
   let referrerPath: string | null = null;
   try {
     referrerPath = referrer ? new URL(referrer).pathname.slice(0, 300) : null;
   } catch {}
-  await query(
-    `INSERT INTO outbound_clicks (listing_id, game_id, seller_id, product_type, tier, price_toman, visitor_hash, referrer)
-     VALUES ($1, $2, $3, $4, $5, $6, $7, $8)`,
-    [target.listing_id, target.game_id, target.seller_id, target.product_type, target.tier, target.price_toman, visitorHash(headers), referrerPath],
-  ).catch((error) => console.error("outbound click not recorded", error));
+  const ip = clientIp(headers);
+  const token = randomUUID();
+  const { rows } = await query<{ id: string }>(
+    `INSERT INTO outbound_clicks (listing_id, game_id, seller_id, product_type, tier, price_toman, visitor_hash, referrer, ip_address, user_agent, claim_token)
+     VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9::inet, $10, $11)
+     RETURNING id::text AS id`,
+    [target.listing_id, target.game_id, target.seller_id, target.product_type, target.tier, target.price_toman,
+     visitorHash(headers), referrerPath, /^[0-9a-f.:]+$/i.test(ip) ? ip : null, (headers.get("user-agent") ?? "").slice(0, 400), token],
+  ).catch((error) => {
+    console.error("outbound click not recorded", error);
+    return { rows: [] as { id: string }[] };
+  });
+  return rows[0] ? { id: rows[0].id, token } : null;
 }

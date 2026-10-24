@@ -39,6 +39,14 @@ def cleanup_stale_listings(database_url: str, stale_days: int = 3) -> dict:
             (stale_days,),
         )
         stale = cur.rowcount
+        # Click IPs and user agents are personal data: keep them 90 days only.
+        cur.execute(
+            """
+            UPDATE outbound_clicks SET ip_address = NULL, user_agent = NULL, claim_token = NULL
+            WHERE clicked_at < NOW() - interval '90 days'
+              AND (ip_address IS NOT NULL OR user_agent IS NOT NULL OR claim_token IS NOT NULL)
+            """
+        )
         conn.commit()
 
     return {
