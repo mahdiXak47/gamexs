@@ -104,13 +104,18 @@ def transcode(src: Path, dest: Path) -> None:
 
 
 def candidates(conn: psycopg.Connection, slug: str | None, limit: int) -> list[tuple[int, str, str, str | None]]:
-    # Games without a trailer first, then the longest-unchecked ones.
+    # Games without a trailer first, most popular first (shops selling it x10
+    # + page views), so GTA VI and other in-demand games never wait behind the
+    # backlog; then the longest-unchecked ones.
     rows = conn.execute(
         """
         SELECT id, slug, concept_id, trailer_source_url
         FROM ps5_games
         WHERE concept_id IS NOT NULL AND (%s::text IS NULL OR slug = %s)
-        ORDER BY trailer_url IS NOT NULL, trailer_updated_at NULLS FIRST, id
+        ORDER BY trailer_url IS NOT NULL,
+                 (SELECT count(DISTINCT l.seller_id) FROM listings l WHERE l.game_id = ps5_games.id AND l.is_active) * 10
+                 + COALESCE((SELECT v.total_views FROM game_page_view_stats v WHERE v.game_id = ps5_games.id), 0) DESC,
+                 trailer_updated_at NULLS FIRST, id
         LIMIT %s
         """,
         (slug, slug, limit),
@@ -138,7 +143,9 @@ def main() -> int:
         for i, (game_id, slug, concept_id, known_source) in enumerate(games, start=1):
             report_progress(i - 1, len(games), f"trailer for {slug}")
             try:
-                page = _get(f"{PS_STORE_BASE}/en-us/concept/{concept_id}")
+                # Most rows store a concept id; a few store a product id (EP1004-PPSA…).
+                kind = "product" if "-" in concept_id else "concept"
+                page = _get(f"{PS_STORE_BASE}/en-us/{kind}/{concept_id}")
                 page.raise_for_status()
                 source = featured_trailer_url(page.text)
                 if not source:
