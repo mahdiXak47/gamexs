@@ -13,3 +13,5 @@ Fix the row's IGDB match (or the listing mapping) first, then write the overview
 | `atomic-heart-ii` | Atomic Heart II, Mundfish's unreleased sequel (no release date) | nakhlmarket's `atomic-heart-ps5-disc`: the first Atomic Heart (2023) on PS5 disc |
 | `chuck-rock` | Chuck Rock (Core Design, 1991), a 16-bit Sega/Amiga platformer (Tec Toy release) | digikala `بازی مدل chuck rock`: a retro-console or PC product, not a PS5 game |
 | `frontlines-fuel-of-war` | Frontlines: Fuel of War (Kaos Studios/THQ, 2008), PC/Xbox 360 shooter with no PlayStation release | digikala listing from the Asr-e Bazi PC-game line (`عصر بازی`), i.e. a PC disc |
+| `need-for-speed-hot-pursuit` | Need for Speed: Hot Pursuit (2010 original, PC/PS3/Xbox 360) | digikala listing from the Asr-e Bazi PC-game line (`عصر بازی`), i.e. a PC disc; the PS4/PS5 game is the separate Hot Pursuit Remastered (2020) |
+| `special-forces-ii` | Special Forces II, a 1985 arcade game with no summary | digikala `بازی special forces مخصوص پلی استیشن 2`: a PS2 disc |
