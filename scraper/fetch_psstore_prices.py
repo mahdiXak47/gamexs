@@ -110,10 +110,16 @@ class GameRow:
 # (every fetch failed on 2026-10-22) but serves the cluster directly. Only the
 # IGDB/Twitch calls below need HTTPS_PROXY.
 _DIRECT = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+# Sony started answering 403 to the cluster after a day of repeated full sweeps
+# (4 workers, no pause, one sweep per pod restart). Keep it to one page per
+# second and at most one sweep a day (MIN_HOURS_BETWEEN_SWEEPS).
+PS_STORE_DELAY = 1.0
+MIN_HOURS_BETWEEN_SWEEPS = 20
 
 
 def _http_get(url: str, timeout: int = 15) -> bytes:
     """GET a PS Store page (direct, no proxy) with automatic gzip decompression."""
+    time.sleep(PS_STORE_DELAY)
     req = urllib.request.Request(url, headers=HEADERS)
     resp = _DIRECT.open(req, timeout=timeout)
     raw = resp.read()
@@ -412,6 +418,20 @@ def _extract_cache(html: str) -> dict:
         return {}
 
 
+def _recent_sweep(database_url: str) -> bool:
+    """True when the pipeline's psstore step succeeded within MIN_HOURS_BETWEEN_SWEEPS."""
+    try:
+        with psycopg.connect(database_url, connect_timeout=10) as conn:
+            row = conn.execute(
+                "SELECT 1 FROM pipeline_steps WHERE name = 'psstore' AND status = 'succeeded' "
+                "AND completed_at > now() - make_interval(hours => %s) LIMIT 1",
+                (MIN_HOURS_BETWEEN_SWEEPS,),
+            ).fetchone()
+        return row is not None
+    except psycopg.Error:
+        return False  # no bookkeeping table (e.g. local dev): just sweep
+
+
 def fetch_ps_price_from_url(url: str) -> PriceInfo:
     """Fetch one PS Store page and extract price + PS Plus tier flags.
 
@@ -484,7 +504,8 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Fetch PS Store prices for US and Turkey.")
     parser.add_argument("-o", "--output", default=None, help="Optional CSV output path")
     parser.add_argument("--limit", type=int, default=None, help="Max number of games to fetch")
-    parser.add_argument("--workers", type=int, default=4, help="Concurrent PS Store fetches (default: 4)")
+    parser.add_argument("--workers", type=int, default=1, help="Concurrent PS Store fetches (default: 1, be polite)")
+    parser.add_argument("--force", action="store_true", help="Sweep even if one succeeded in the last %d h" % MIN_HOURS_BETWEEN_SWEEPS)
     parser.add_argument(
         "--game-id",
         dest="game_ids",
@@ -510,6 +531,10 @@ def main() -> None:
     database_url = args.db_url or os.environ.get("DATABASE_URL")
     if not database_url:
         sys.exit("ERROR: provide --db-url or set DATABASE_URL env var")
+
+    if not args.force and not args.game_ids and _recent_sweep(database_url):
+        log.info("A PS Store sweep succeeded in the last %d h; skipping (use --force).", MIN_HOURS_BETWEEN_SWEEPS)
+        return
 
     log.info("Loading igdb_ids from ps5_games table...")
     db_games = load_db_igdb_ids(database_url, args.game_ids)
