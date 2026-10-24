@@ -22,8 +22,12 @@ from ..models import ProductType, RawOffer
 API_BASE = "https://api.digikala.com/v1/categories/home-console-games/search/"
 PRODUCT_BASE = "https://www.digikala.com"
 
+# Digikala's playstation-5 filter still returns PS1–3 discs, Switch games and
+# «عصر بازی» (an Iranian PC-DVD publisher) — their titles name the platform in
+# Persian («مخصوص پلی استیشن ۲», «نینتندو سوئیچ»), so match those spellings too.
 _NON_PS5_RE = re.compile(
-    r"xbox|ایکس\s*باکس|\bps1\b|\bps2\b|\bps3\b|\bpsp\b|\bps\s*vita\b|\bnintendo\b",
+    r"xbox|ایکس\s*باکس|\bps\s*[1-3]\b|\bpsp\b|\bps\s*vita\b|\bnintendo\b"
+    r"|پلی\s*استیشن\s*[1-3۱-۳](?![0-9۰-۹])|نینتندو|عصر\s*بازی",
     re.IGNORECASE,
 )
 
