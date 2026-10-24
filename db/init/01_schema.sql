@@ -44,6 +44,8 @@ CREATE TABLE ps5_games (
     trailer_url TEXT,
     trailer_source_url TEXT,
     trailer_updated_at TIMESTAMPTZ,
+    -- Every official trailer (migration 041): [{url, source_url, title}], display order.
+    trailers JSONB,
     edition_name TEXT,
     store_display_classification TEXT,
     price_source TEXT,

@@ -52,6 +52,20 @@ def featured_trailer_url(concept_html: str) -> str | None:
     return None
 
 
+def all_trailer_urls(concept_html: str) -> list[str]:
+    """Every distinct PREVIEW video on a PS Store page, in page order."""
+    urls: list[str] = []
+    for match in _VIDEO_RE.finditer(concept_html):
+        try:
+            media = json.loads(match.group(0))
+        except json.JSONDecodeError:
+            continue
+        url = media.get("url") or ""
+        if media.get("role") == "PREVIEW" and url.startswith("https://") and url.endswith(".mp4") and url not in urls:
+            urls.append(url)
+    return urls
+
+
 def trailer_key(slug: str, source_url: str) -> str:
     return f"trailers/{slug}-{hashlib.sha256(source_url.encode()).hexdigest()[:10]}.mp4"
 
@@ -103,6 +117,68 @@ def transcode(src: Path, dest: Path) -> None:
     )
 
 
+def upload_trailer(s3, bucket: str, endpoint: str, slug: str, source: str) -> str:
+    """Download, transcode and upload one trailer; returns our public URL."""
+    key = trailer_key(slug, source)
+    with tempfile.TemporaryDirectory() as tmp:
+        raw, web = Path(tmp) / "source.mp4", Path(tmp) / "web.mp4"
+        download(source, raw)
+        transcode(raw, web)
+        s3.upload_file(str(web), bucket, key, ExtraArgs={"ContentType": "video/mp4", "CacheControl": "public, max-age=31536000, immutable"})
+        print(f"{slug}: uploaded {key} ({web.stat().st_size / 1e6:.1f} MB)", flush=True)
+    return f"{endpoint}/{bucket}/{key}"
+
+
+def all_trailers(conn, s3, bucket: str, endpoint: str, slug: str | None, limit: int, dry_run: bool) -> int:
+    """--all-trailers: give the most popular games every official trailer (migration 041).
+
+    Store pages often list the same file twice under different URLs (GTA VI's
+    Trailer 2), so copies with an identical byte size are dropped. Already
+    uploaded trailers and their titles are kept.
+    """
+    rows = conn.execute(
+        """
+        SELECT id, slug, concept_id, trailers, trailer_url, trailer_source_url FROM ps5_games
+        WHERE concept_id IS NOT NULL AND (%s::text IS NULL OR slug = %s)
+        ORDER BY (SELECT count(DISTINCT l.seller_id) FROM listings l WHERE l.game_id = ps5_games.id AND l.is_active) * 10
+                 + COALESCE((SELECT v.total_views FROM game_page_view_stats v WHERE v.game_id = ps5_games.id), 0) DESC, id
+        LIMIT %s
+        """,
+        (slug, slug, limit),
+    ).fetchall()
+    failed = 0
+    for game_id, game_slug, concept_id, known, featured_url, featured_source in rows:
+        try:
+            kind = "product" if "-" in concept_id else "concept"
+            page = _get(f"{PS_STORE_BASE}/en-us/{kind}/{concept_id}")
+            page.raise_for_status()
+            have = {t["source_url"]: t for t in (known or [])}
+            if featured_url and featured_source and featured_source not in have:
+                have[featured_source] = {"url": featured_url, "source_url": featured_source, "title": None}
+            listed, sizes = [], set()
+            for source in all_trailer_urls(page.text):
+                size = _get(source, stream=True).headers.get("Content-Length")
+                if size and size in sizes:
+                    continue  # same file under another URL
+                sizes.add(size)
+                listed.append(source)
+            result = []
+            for source in listed:
+                if source in have:
+                    result.append(have[source])
+                elif dry_run:
+                    print(f"[dry-run] {game_slug}: new trailer {source}", flush=True)
+                else:
+                    result.append({"url": upload_trailer(s3, bucket, endpoint, game_slug, source), "source_url": source, "title": None})
+            if not dry_run and result:
+                conn.execute("UPDATE ps5_games SET trailers = %s WHERE id = %s", (json.dumps(result, ensure_ascii=False), game_id))
+            print(f"{game_slug}: {len(result)} trailers", flush=True)
+        except Exception as exc:  # one bad game must not stop the batch
+            failed += 1
+            print(f"{game_slug}: all-trailers failed: {exc}", file=sys.stderr, flush=True)
+    return 1 if failed and failed == len(rows) else 0
+
+
 def candidates(conn: psycopg.Connection, slug: str | None, limit: int) -> list[tuple[int, str, str, str | None]]:
     # Games without a trailer first, most popular first (shops selling it x10
     # + page views), so GTA VI and other in-demand games never wait behind the
@@ -128,6 +204,7 @@ def main() -> int:
     parser.add_argument("--limit", type=int, default=25, help="games to check this run")
     parser.add_argument("--slug", help="only this game")
     parser.add_argument("--dry-run", action="store_true", help="find trailers, do not download or upload")
+    parser.add_argument("--all-trailers", action="store_true", help="every official trailer for the --limit most popular games")
     args = parser.parse_args()
 
     db_url = os.environ.get("DATABASE_URL")
@@ -139,6 +216,8 @@ def main() -> int:
     s3 = None if args.dry_run else make_client(endpoint, os.environ["S3_ACCESS_KEY"], os.environ["S3_SECRET_KEY"])
     uploaded = unchanged = missing = failed = 0
     with psycopg.connect(db_url, autocommit=True) as conn:
+        if args.all_trailers:
+            return all_trailers(conn, s3, bucket, endpoint, args.slug, args.limit, args.dry_run)
         games = candidates(conn, args.slug, args.limit)
         for i, (game_id, slug, concept_id, known_source) in enumerate(games, start=1):
             report_progress(i - 1, len(games), f"trailer for {slug}")

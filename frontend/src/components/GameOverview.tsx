@@ -1,30 +1,16 @@
 import Link from "next/link";
 import { Chip } from "@heroui/react";
 import Image from "@/components/RemoteImage";
-import { TrailerVideo } from "@/components/GameTrailer";
 import type { GameOverview as Overview } from "@/lib/types";
 
-/** True when the overview embeds the trailer, so the page drops its standalone trailer block. */
-export function overviewHasTrailer(overview: Overview | null, trailerUrl: string | null | undefined): boolean {
-  return !!trailerUrl && !!overview?.sections.some((s) => s.media === "trailer");
-}
-
-function Media({ media, title, screenshots, trailerUrl, poster }: {
+function Media({ media, title, screenshots }: {
   media: string;
   title: string;
   screenshots: string[];
-  trailerUrl: string | null;
-  poster: string | null;
 }) {
-  if (media === "trailer") {
-    if (!trailerUrl) return null;
-    return (
-      <figure className="my-6">
-        <TrailerVideo title={title} url={trailerUrl} poster={poster} />
-        <figcaption className="mt-2 text-xs text-gray-500">تریلر رسمی {title} از فروشگاه PlayStation</figcaption>
-      </figure>
-    );
-  }
+  // The trailer has its own always-visible section (GameTrailer); the text
+  // never embeds it, so it is not hidden halfway down the «توضیحات» tab.
+  if (media === "trailer") return null;
   const n = Number(/^screenshot:(\d+)$/.exec(media)?.[1]);
   const src = n > 0 ? screenshots[n - 1] : undefined;
   if (!src) return null;
@@ -45,13 +31,11 @@ function Media({ media, title, screenshots, trailerUrl, poster }: {
  * Server-rendered body of the «توضیحات» tab: the structured overview when one
  * was written, else the legacy plain-text description, else null.
  */
-export default function GameOverview({ title, overview, description, screenshots, trailerUrl, poster }: {
+export default function GameOverview({ title, overview, description, screenshots }: {
   title: string;
   overview: Overview | null;
   description: string | null;
   screenshots: string[];
-  trailerUrl: string | null;
-  poster: string | null;
 }) {
   if (!overview) {
     if (!description) return null;
@@ -84,7 +68,7 @@ export default function GameOverview({ title, overview, description, screenshots
             <p key={i} className="mt-3 text-base leading-8 text-gray-700">{p}</p>
           ))}
           {section.media ? (
-            <Media media={section.media} title={title} screenshots={screenshots} trailerUrl={trailerUrl} poster={poster} />
+            <Media media={section.media} title={title} screenshots={screenshots} />
           ) : null}
         </section>
       ))}

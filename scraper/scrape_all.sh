@@ -129,7 +129,9 @@ step cleanup python -m gamexs_scraper.maintenance 2>&1 | sed 's/^/[cleanup] /' |
 # Trailers last: each 720p transcode takes minutes on the pod's CPU quota, so
 # they must not delay the S3 upload and stale-listing cleanup above.
 log "=== Game trailers (PS Store → 720p → S3) ==="
-step trailers python fetch_trailers.py --limit "${TRAILERS_PER_RUN:-60}" 2>&1 | sed 's/^/[trailers] /' || \
+# Featured trailer for the next games in popularity order, then every official
+# trailer (Trailer 1/2, launch …) for the 25 most popular games.
+step trailers sh -c 'python fetch_trailers.py --limit "${TRAILERS_PER_RUN:-60}"; python fetch_trailers.py --all-trailers --limit "${ALL_TRAILERS_TOP:-25}"' 2>&1 | sed 's/^/[trailers] /' || \
     log "WARN  trailer fetch failed — games keep their existing trailers"
 
 # ---------------------------------------------------------------------------

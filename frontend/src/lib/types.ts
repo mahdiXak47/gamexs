@@ -66,6 +66,8 @@ export interface Game {
   screenshots: string[];
   /** Self-hosted 720p trailer (scraper/fetch_trailers.py); detail page only. */
   trailer?: { url: string; updatedAt: string | null } | null;
+  /** Every official trailer in display order (migration 041); falls back to [trailer]. */
+  trailers: { url: string; title: string | null }[];
   purchaseOptions: PurchaseOption[];
   details: GameDetails | null;
 }

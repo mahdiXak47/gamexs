@@ -17,7 +17,7 @@ import Header from "@/components/Header";
 import JsonLd from "@/components/JsonLd";
 import PsStorePriceBadges from "@/components/PsStorePriceBadges";
 import PurchaseTypeSelector from "@/components/PurchaseTypeSelector";
-import GameOverview, { overviewHasTrailer } from "@/components/GameOverview";
+import GameOverview from "@/components/GameOverview";
 import GameTrailer from "@/components/GameTrailer";
 import ScreenshotGallery from "@/components/ScreenshotGallery";
 import SimilarGames from "@/components/SimilarGames";
@@ -457,7 +457,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
           />
         )}
 
-        {game.trailer && !overviewHasTrailer(game.overview, game.trailer.url) ? <GameTrailer title={game.title} url={game.trailer.url} poster={heroBg} /> : null}
+        {game.trailers.length ? <GameTrailer title={game.title} trailers={game.trailers} poster={heroBg} /> : null}
 
         {/* Screenshot gallery */}
         <ScreenshotGallery screenshots={game.screenshots} />
@@ -501,8 +501,6 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
                 overview={game.overview}
                 description={game.description}
                 screenshots={game.screenshots}
-                trailerUrl={game.trailer?.url ?? null}
-                poster={heroBg}
               />
             ) : null
           }
