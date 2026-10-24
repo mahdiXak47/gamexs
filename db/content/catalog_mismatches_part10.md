@@ -12,4 +12,5 @@ Fix the IGDB match (or the listing → game mapping) before writing copy for the
 | `jumanji` | Jumanji (Parker Brothers, 1996) — no summary/genres, pre-PS era | Nakhlmarket `jumanji-ps5`: a modern Jumanji game for PS5 |
 | `driver-san-francisco` | Driver: San Francisco (Ubisoft, 2011) — PS3/X360/PC only | Digikala "عصر بازی" edition — an Iranian-published PC DVD; the game has no PS4/PS5 release |
 | `resident-evil-operation-raccoon-city` | RE: Operation Raccoon City (Capcom, 2012) — PS3/X360/PC only | Digikala "عصر بازی" edition — an Iranian-published PC DVD; the game has no PS4/PS5 release |
+| `resident-evil-2-remake` | Resident Evil 2 (Capcom, 1998) — PS1 classic port with rewind/filters (2025 PS Plus re-release) | 2019 *Resident Evil 2* remake: PS5 discs (gameonestore, gameplayshop) and a legal account (parsconsole) |
 | `the-last-of-us-complete-collector` | The Last of Us (Naughty Dog, 2013) — PS3 original incl. Factions multiplayer | Nakhlmarket: a PS5 "Last of Us Complete" collector's disc (PS5-era release, not the PS3 game) |
