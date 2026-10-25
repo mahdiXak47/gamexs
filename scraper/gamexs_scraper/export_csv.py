@@ -85,6 +85,7 @@ def main() -> None:
     )
     args = parser.parse_args()
 
+    adapter = None
     if args.cache and os.path.exists(args.cache):
         print(f"loading cached offers from {args.cache}", file=sys.stderr)
         offers = load_cached_offers(args.cache)
@@ -111,6 +112,10 @@ def main() -> None:
     rows = build_rows(offers)
     output_path = args.output or f"{args.seller}.csv"
     write_csv(rows, output_path)
+    if adapter is not None and adapter.products_seen is not None:
+        # Lets the seller runner tell "nothing in stock" from a broken crawl.
+        with open(f"{output_path}.meta.json", "w", encoding="utf-8") as meta:
+            json.dump({"products_seen": adapter.products_seen}, meta)
     print(f"wrote {len(rows)} games to {output_path}", file=sys.stderr)
 
 

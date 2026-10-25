@@ -35,8 +35,10 @@ class TechnoLifeAdapter(SellerAdapter):
     seller = "technolife"
 
     def iter_listings(self) -> Iterator[RawOffer]:
+        self.products_seen = 0
         for product_url in self._iter_product_urls():
             try:
+                self.products_seen += 1
                 yield from self._parse_product(product_url)
             except requests.exceptions.RequestException as exc:
                 print(f"skipping {product_url}: {exc}", file=sys.stderr)

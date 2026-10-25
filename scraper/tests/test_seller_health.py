@@ -73,5 +73,14 @@ class SellerHealthPolicyTests(unittest.TestCase):
             self.assertIn(b'"chat_id": "chat"', request.data)
 
 
+    def test_empty_stock_is_healthy_only_when_products_were_seen(self):
+        empty = evaluate_game_count(0, 28, products_seen=125)
+        self.assertTrue(empty.healthy)
+        self.assertTrue(empty.empty_stock)
+        self.assertFalse(evaluate_game_count(0, 28, products_seen=0).healthy)
+        self.assertFalse(evaluate_game_count(0, 28).healthy)
+        self.assertFalse(evaluate_game_count(5, 28, products_seen=125).empty_stock)
+
+
 if __name__ == "__main__":
     unittest.main()

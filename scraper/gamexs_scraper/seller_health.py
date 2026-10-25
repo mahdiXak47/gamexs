@@ -14,6 +14,7 @@ DEFAULT_MAX_GAME_COUNT_DROP = 0.5
 class GameCountResult:
     healthy: bool
     reason: str
+    empty_stock: bool = False  # healthy, but the shop has nothing in stock: nothing to load
 
 
 def retry_delays(attempts: int, delay_seconds: int) -> list[int]:
@@ -29,6 +30,7 @@ def evaluate_game_count(
     observed_games: int,
     previous_games: int | None,
     max_drop: float = DEFAULT_MAX_GAME_COUNT_DROP,
+    products_seen: int | None = None,
 ) -> GameCountResult:
     """Reject empty or unexpectedly incomplete seller snapshots.
 
@@ -37,6 +39,11 @@ def evaluate_game_count(
     for comparison yet.
     """
     if observed_games <= 0:
+        if products_seen:
+            # The crawl reached the shop's products; none is in stock (technolife
+            # often sells out every PS5 disc). Not a failure: its old listings
+            # go stale and the 3-day cleanup hides them.
+            return GameCountResult(True, f"no game in stock ({products_seen} products listed)", empty_stock=True)
         return GameCountResult(False, "scrape returned zero games")
     if previous_games and observed_games < previous_games * (1 - max_drop):
         return GameCountResult(

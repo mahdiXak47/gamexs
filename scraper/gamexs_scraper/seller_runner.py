@@ -268,11 +268,18 @@ def run_seller(
                     observed_games = count_csv_games(csv_path)
                     if cache_path.exists():
                         report_progress(count_jsonl_records(cache_path), message="loading into database", force=True)
-                    quality = evaluate_game_count(observed_games, previous_games or None)
+                    meta_path = Path(f"{csv_path}.meta.json")
+                    products_seen = json.loads(meta_path.read_text())["products_seen"] if meta_path.exists() else None
+                    quality = evaluate_game_count(observed_games, previous_games or None, products_seen=products_seen)
                     if not quality.healthy:
                         last_reason = quality.reason
                         store.finish_attempt(attempt_id, "suspicious", observed_games, error=last_reason)
                         continue
+                    if quality.empty_stock:
+                        store.finish_attempt(attempt_id, "succeeded", 0, 0, 0)
+                        store.finish_run(run_id, attempt_no, "succeeded", 0, 0, 0)
+                        print(f"[{seller}] {quality.reason}; nothing to load", flush=True)
+                        return 0
 
                     load_result = subprocess.run(
                         [
