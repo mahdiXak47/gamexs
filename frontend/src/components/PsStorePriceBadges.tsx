@@ -101,7 +101,6 @@ export default function PsStorePriceBadges({ info }: Props) {
         <PriceCard
           href={trHref}
           className={trHref ? `${glassCard} cursor-pointer touch-manipulation` : disabledRegionCard}
-          aria-label={`قیمت در ترکیه: ${tr.current ?? "نامشخص"}`}
         >
           <div className="flex flex-col items-center gap-2 px-3 py-4 w-full">
             <div className="flex items-center justify-center gap-1.5 w-full">
@@ -135,7 +134,6 @@ export default function PsStorePriceBadges({ info }: Props) {
         <PriceCard
           href={usHref}
           className={usHref ? `${glassCard} cursor-pointer touch-manipulation` : disabledRegionCard}
-          aria-label={`قیمت در آمریکا: ${us.current ?? "نامشخص"}`}
         >
           <div className="flex flex-col items-center gap-2 px-3 py-4 w-full">
             <div className="flex items-center justify-center gap-1.5 w-full">

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Vazirmatn } from "next/font/google";
 import Script from "next/script";
 import { headers } from "next/headers";
+import { preconnect } from "react-dom";
 import "./globals.css";
 import { AuthProvider } from "@/context/AuthContext";
 import { ToastProvider } from "@/context/ToastContext";
@@ -92,6 +93,10 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const nonce = (await headers()).get("x-nonce") ?? undefined;
+  // Every page calls the API (login check) and its hero/LCP image comes from S3:
+  // open both connections while the HTML is still parsing.
+  if (process.env.NEXT_PUBLIC_API_URL) preconnect(new URL(process.env.NEXT_PUBLIC_API_URL).origin, { crossOrigin: "use-credentials" });
+  if (process.env.S3_ENDPOINT_URL) preconnect(new URL(process.env.S3_ENDPOINT_URL).origin);
 
   return (
     <html lang="fa" dir="rtl" className={`${vazirmatn.variable} h-full antialiased`}>

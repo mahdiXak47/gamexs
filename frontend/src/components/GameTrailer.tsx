@@ -45,7 +45,7 @@ export default function GameTrailer({ title, trailers, poster }: { title: string
               aria-pressed={i === selected}
               onClick={() => setSelected(i)}
               className={`min-h-11 rounded-xl px-4 text-sm font-bold transition-colors duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
-                i === selected ? "bg-accent text-accent-foreground" : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                i === selected ? "bg-ps-blue text-white" : "bg-gray-100 text-gray-700 hover:bg-gray-200"
               }`}
             >
               {label(t, i)}
@@ -54,7 +54,7 @@ export default function GameTrailer({ title, trailers, poster }: { title: string
         </div>
       )}
       <TrailerVideo title={`${title} — ${label(current, selected)}`} url={current.url} poster={poster} />
-      <p className="mt-2 text-xs text-gray-500">تریلر رسمی از فروشگاه PlayStation</p>
+      <p className="mt-2 text-xs text-gray-600">تریلر رسمی از فروشگاه PlayStation</p>
     </section>
   );
 }

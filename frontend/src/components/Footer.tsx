@@ -45,7 +45,7 @@ export default function Footer() {
 
           {/* Quick links */}
           <div>
-            <h3 className="text-white font-bold text-sm mb-4">دسترسی سریع</h3>
+            <h2 className="text-white font-bold text-sm mb-4">دسترسی سریع</h2>
             <ul className="flex flex-col gap-2.5">
               {quickLinks.map((item) => (
                 <li key={item.label}>
@@ -62,7 +62,7 @@ export default function Footer() {
 
           {/* SEO guides */}
           <div>
-            <h3 className="text-white font-bold text-sm mb-4">راهنمای خرید بازی PS5</h3>
+            <h2 className="text-white font-bold text-sm mb-4">راهنمای خرید بازی PS5</h2>
             <ul className="flex flex-col gap-2.5">
               {guideLinks.map((item) => (
                 <li key={item.label}>
@@ -78,7 +78,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-white font-bold text-sm mb-4">اعتماد و اطلاعات</h3>
+            <h2 className="text-white font-bold text-sm mb-4">اعتماد و اطلاعات</h2>
             <ul className="flex flex-col gap-2.5">
               {trustLinks.map((item) => (
                 <li key={item.label}>
@@ -102,7 +102,7 @@ export default function Footer() {
             */}
             <div
               dangerouslySetInnerHTML={{
-                __html: `<a referrerpolicy="origin" target="_blank" href="https://trustseal.enamad.ir/?id=763776&Code=8AVZTb8i9acELPOor6KtTQdBDVvmSMab" rel="noopener"><img referrerpolicy="origin" src="https://trustseal.enamad.ir/logo.aspx?id=763776&Code=8AVZTb8i9acELPOor6KtTQdBDVvmSMab" alt="نماد اعتماد الکترونیکی" style="cursor:pointer;width:100px;height:auto;border-radius:8px" code="8AVZTb8i9acELPOor6KtTQdBDVvmSMab"></a>`,
+                __html: `<a referrerpolicy="origin" target="_blank" href="https://trustseal.enamad.ir/?id=763776&Code=8AVZTb8i9acELPOor6KtTQdBDVvmSMab" rel="noopener"><img referrerpolicy="origin" src="https://trustseal.enamad.ir/logo.aspx?id=763776&Code=8AVZTb8i9acELPOor6KtTQdBDVvmSMab" alt="نماد اعتماد الکترونیکی" width="100" height="100" style="cursor:pointer;width:100px;height:auto;border-radius:8px" code="8AVZTb8i9acELPOor6KtTQdBDVvmSMab"></a>`,
               }}
             />
           </div>

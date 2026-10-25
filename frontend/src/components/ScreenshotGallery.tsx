@@ -328,7 +328,7 @@ export default function ScreenshotGallery({ screenshots }: { screenshots: string
             {screenshots.map((_, i) => (
               <span
                 key={i}
-                aria-label={`تصویر ${i + 1}`}
+                aria-hidden="true"
                 className="flex h-5 flex-1 items-center"
               >
                 <span
