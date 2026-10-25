@@ -12,7 +12,7 @@ class SellerAdapter(ABC):
     they yield RawOffer records and never mutate seller-side state."""
 
     seller: str
-    # Product pages the crawl reached, in stock or not. Adapters that can tell
+    # Product pages the crawl loaded and parsed, in stock or not. Adapters that can tell
     # "the shop has nothing in stock" from "the crawl broke" set it (technolife);
     # None means unknown, so zero offers stays a failure.
     products_seen: int | None = None

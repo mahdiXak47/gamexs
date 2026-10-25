@@ -38,8 +38,8 @@ class TechnoLifeAdapter(SellerAdapter):
         self.products_seen = 0
         for product_url in self._iter_product_urls():
             try:
-                self.products_seen += 1
                 yield from self._parse_product(product_url)
+                self.products_seen += 1  # only pages that loaded: a blocked crawl stays a failure
             except requests.exceptions.RequestException as exc:
                 print(f"skipping {product_url}: {exc}", file=sys.stderr)
 
