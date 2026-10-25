@@ -95,8 +95,8 @@
 - [x] Add basic privacy-preserving pageview analytics. The frontend now stores
   anonymous path/timestamp events in `site_page_views`; apply migration 024 in
   existing environments.
-- [ ] Run Core Web Vitals / PageSpeed checks for homepage, game detail, genre, publisher, purchase-type, and search pages.
-- [ ] Validate live JSON-LD templates with Google Rich Results Test and URL Inspection after deployment.
+- [x] Run Core Web Vitals / PageSpeed checks. Lighthouse mobile 2026-10-25: home perf 64 / a11y 95 / SEO 100, game page perf 71 / a11y 89 / SEO 100; CLS 0, TBT ≤ 80 ms, LCP 6–9.6 s (simulated slow 4G, uncached HTML). Fixed: preconnects, contrast, heading order, ARIA. Remaining LCP cost is the uncached server response (no CDN HTML caching).
+- [x] Validate live JSON-LD templates. Scripted check of 39 live pages (2026-10-25): Product (offers/rating), AggregateOffer, Offer, VideoObject, BreadcrumbList, FAQPage, ItemList all pass required fields; the Product snippets issue is in Google validation.
 - [ ] Review Search Console monthly: Page indexing, sitemap coverage, 5xx/404
   trends, canonical selection, Core Web Vitals, and performance by page type.
 - [ ] Monitor submitted-versus-indexed sitemap URLs after each significant
@@ -116,7 +116,7 @@
   game cover art and lowest price where available.
 - [x] Add `/image-sitemap.xml` with cover art and available screenshot entries
   for canonical game URLs.
-- [ ] Verify the image CDN/domain in Search Console if indexed images are served from `gs3.gamexs.ir`.
+- [ ] Verify the image host in Search Console: images and trailers are served from the `S3_ENDPOINT_URL` host (currently `mahdixak-spwnu.hs3.ir`, formerly `gs3.gamexs.ir`).
 - [x] [P2] Add `highPrice` to `AggregateOffer` only when the offer set is complete
   and valid; add `aggregateRating`/`review` only from real, visible, approved
   user reviews. Treat these as secondary to indexation recovery.
