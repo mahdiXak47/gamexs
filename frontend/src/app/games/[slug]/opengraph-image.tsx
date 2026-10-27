@@ -1,4 +1,5 @@
 import { ImageResponse } from "next/og";
+import sharp from "sharp";
 import { getGameBySlug } from "@/lib/games-repo";
 import { formatToman } from "@/lib/format";
 import { lowestValidPrice } from "@/lib/purchase-options";
@@ -10,12 +11,30 @@ export const alt = "GameXS game price comparison";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
+// The game art in S3 is WebP, which the OG renderer cannot decode (every card
+// 502'd until 2026-10-27): re-encode it as JPEG. Missing or broken art falls
+// back to the plain gradient instead of failing the route.
+async function artAsJpeg(url: string | null): Promise<string | null> {
+  if (!url) return null;
+  try {
+    const response = await fetch(url, { signal: AbortSignal.timeout(5000) });
+    if (!response.ok) return null;
+    const jpeg = await sharp(Buffer.from(await response.arrayBuffer()))
+      .resize(size.width, size.height, { fit: "cover" })
+      .jpeg({ quality: 70 })
+      .toBuffer();
+    return `data:image/jpeg;base64,${jpeg.toString("base64")}`;
+  } catch {
+    return null;
+  }
+}
+
 export default async function OpenGraphImage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const game = await getGameBySlug(slug);
   const title = game?.title ?? "مقایسه قیمت بازی‌های PS5";
   const price = game ? lowestValidPrice(game) : null;
-  const image = game?.mainBackgroundImageUrl ?? game?.coverUrl ?? null;
+  const image = await artAsJpeg(game?.mainBackgroundImageUrl ?? game?.coverUrl ?? null);
 
   return new ImageResponse(
     (

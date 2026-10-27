@@ -25,7 +25,7 @@ import WishlistButton from "@/components/WishlistButton";
 import { formatToman, toPersianDigits } from "@/lib/format";
 import { genreForGame } from "@/lib/genres";
 import type { PsStoreInfo } from "@/lib/games-repo";
-import { getGameBySlug, getGamePriceHistory, getGameReviewSummary, getGameStoreInfo, getSimilarGames, getSimilarGamesByDeveloper, getGameVersions } from "@/lib/games-repo";
+import { getGameBySlug, getGamePriceHistory, getGameReviewSummary, getGameStoreInfo, getSimilarGames, getSimilarGamesByDeveloper, getGameVersions, decodeSlug } from "@/lib/games-repo";
 import { lowestAvailableOffer, lowestValidPrice, storeCount } from "@/lib/purchase-options";
 import { faqPageJsonLd, gameOgImageUrl, gamePurchaseFaqs, SITE_URL, tomanToRial } from "@/lib/seo";
 
@@ -119,7 +119,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const game = await getGameBySlug(slug);
   if (!game || storeCount(game) === 0) notFound();
-  if (slug !== game.slug) permanentRedirect(`/games/${game.slug}`);
+  if (decodeSlug(slug) !== game.slug) permanentRedirect(`/games/${game.slug}`);
 
   const [storeInfoResult, gameVersionsResult, similarGamesResult, similarGamesByDeveloperResult, reviewSummaryResult, priceHistoryResult] = await Promise.allSettled([
     getGameStoreInfo(game.dbId),

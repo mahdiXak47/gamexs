@@ -119,14 +119,17 @@ function rowToGameSummary(row: GameSummaryRow): GameSummary {
   };
 }
 
+/** The slug as stored: a crawler may send reserved characters encoded ("40%2C000" for "40,000"). */
+export function decodeSlug(slug: string): string {
+  try {
+    return decodeURIComponent(slug);
+  } catch {
+    return slug;
+  }
+}
+
 function slugLookupCandidates(slug: string): string[] {
-  const decoded = (() => {
-    try {
-      return decodeURIComponent(slug);
-    } catch {
-      return slug;
-    }
-  })();
+  const decoded = decodeSlug(slug);
   const normalized = Array.from(new Set([
     slug,
     decoded,

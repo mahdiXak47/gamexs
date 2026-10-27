@@ -1,5 +1,5 @@
 import { notFound, permanentRedirect } from "next/navigation";
-import { getGameBySlug } from "@/lib/games-repo";
+import { getGameBySlug, decodeSlug } from "@/lib/games-repo";
 import { storeCount } from "@/lib/purchase-options";
 
 // Runs before this segment's loading.tsx streams, so a missing game is a real
@@ -9,6 +9,8 @@ export default async function GameLayout({ children, params }: { children: React
   const { slug } = await params;
   const game = await getGameBySlug(slug);
   if (!game || storeCount(game) === 0) notFound();
-  if (slug !== game.slug) permanentRedirect(`/games/${game.slug}`);
+  // Compare decoded: an encoded comma never equals the stored slug, and redirecting
+  // to the same URL looped (Search Console "Redirect error", 2026-10-22).
+  if (decodeSlug(slug) !== game.slug) permanentRedirect(`/games/${game.slug}`);
   return children;
 }
