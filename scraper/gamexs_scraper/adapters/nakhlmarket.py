@@ -8,17 +8,22 @@ Verified against the live site on 2026-07-08:
   `var allVariations = [...]` JS block inside div.variations on the product page.
 - Simple products (disc games): price in span.price.price-fields text.
 - Only tiers 2 and 3 observed in the wild; tier 1 handled defensively.
+- 2026-10-28 (GTA VI): newer products use "pa_select-capacity" with slugs that
+  don't say the tier ("capacity-two-2" is shown as «ظرفیت 3»), so the tier is
+  read from the <option> label. is_purchasable=false (pre-order closed) means
+  it can't be ordered: out of stock.
 """
 
 import json
 import re
 import sys
+from urllib.parse import unquote
 from collections.abc import Iterator
 
 import requests
 from bs4 import BeautifulSoup
 
-from ..base import SellerAdapter, title_with_edition
+from ..base import FULL_CAPACITY, SellerAdapter, account_offer_type, title_with_edition
 from ..models import AccessTier, ProductType, RawOffer
 
 AJAX_URL = "https://nakhlmarket.com/wp-admin/admin-ajax.php"
@@ -35,7 +40,6 @@ TIER_MAP: dict[str, AccessTier] = {
     "ظرفیت 3": AccessTier.CAPACITY_3,
 }
 
-_ATTR_TIER = "انتخاب-ظرفیت-اکانت"
 _ALL_VARIATIONS_RE = re.compile(r"var\s+allVariations\s*=\s*(\[.*?\]);", re.DOTALL)
 _LAZY_RE = re.compile(r"lazy", re.IGNORECASE)
 _PRODUCT_DIV_RE = re.compile(r"^product-\d+$")
@@ -149,10 +153,12 @@ class NakhlMarketAdapter(SellerAdapter):
         except json.JSONDecodeError:
             return
 
+        labels = {o["value"]: o.get_text(strip=True) for o in variations_div.find_all("option") if o.get("value")}
         for var in variations:
             attrs = var.get("attributes") or {}
-            tier_key = attrs.get(_ATTR_TIER, "")
-            tier = TIER_MAP.get(tier_key)
+            tier_key = next((labels.get(v, v) for k, v in attrs.items() if "ظرفیت" in k or "capacity" in k), "")
+            tier_label = " ".join(unquote(tier_key).replace("-", " ").split())
+            tier = FULL_CAPACITY if "کامل" in tier_label else TIER_MAP.get(tier_label)
             if tier is None:
                 if tier_key:
                     print(f"unknown tier {tier_key!r} at {url}", file=sys.stderr)
@@ -167,13 +173,14 @@ class NakhlMarketAdapter(SellerAdapter):
             except (ValueError, TypeError):
                 continue
 
-            in_stock = bool(var.get("in_stock", False))
+            in_stock = bool(var.get("in_stock", False)) and var.get("is_purchasable") is not False
+            product_type, tier = account_offer_type(tier)
 
             yield RawOffer(
                 seller=self.seller,
                 source_url=url,
                 raw_title=title_with_edition(raw_title, attrs),
-                product_type=ProductType.ACCOUNT_GAME,
+                product_type=product_type,
                 price_toman=price_toman,
                 tier=tier,
                 in_stock=in_stock,

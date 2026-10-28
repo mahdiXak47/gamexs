@@ -1,5 +1,6 @@
 """Shops that sell Standard and Ultimate on one page (GTA VI, 2026-10-28)."""
 
+import json
 import unittest
 
 from gamexs_scraper.adapters.psnacctm import offers_from_product
@@ -40,6 +41,24 @@ class EditionsOnOnePageTests(unittest.TestCase):
         offers = offers_from_product({"name": "اکانت قانونی بازی Grand Theft Auto VI برای کنسول PS5", "url": "/product/gta",
                                       "product_variants": [variant(12_490_000, "Standard 🔵"), variant(14_490_000, "Ultimate 🟣")]})
         self.assertEqual([resolve(o.raw_title) for o in offers], [1, 2])
+
+    def test_nakhlmarket_reads_the_tier_from_the_option_label(self):
+        from bs4 import BeautifulSoup
+        from gamexs_scraper.adapters.nakhlmarket import NakhlMarketAdapter
+        variations = [
+            {"attributes": {"pa_select-capacity": "capacity-two-2", "نسخه-بازی": "آلتیمیت"}, "display_price": 10680000, "in_stock": True, "is_purchasable": True},
+            {"attributes": {"pa_select-capacity": "capacity-two", "نسخه-بازی": "استاندارد"}, "display_price": 11880000, "in_stock": True, "is_purchasable": False},
+            {"attributes": {"pa_select-capacity": "ظرفیت-کامل", "نسخه-بازی": "استاندارد"}, "display_price": 24780000, "in_stock": True, "is_purchasable": True},
+        ]
+        page = ('<div class="variations"><select><option value="capacity-two">ظرفیت 2</option>'
+                '<option value="capacity-two-2">ظرفیت 3</option></select>'
+                f"<script>var allVariations = {json.dumps(variations, ensure_ascii=False)};</script></div>")
+        offers = list(NakhlMarketAdapter()._parse_variable("u", "اکانت قانونی بازی GTA VI برای PS5", None, BeautifulSoup(page, "lxml")))
+        self.assertEqual([(o.tier and o.tier.value, o.product_type.value, o.in_stock, resolve(o.raw_title)) for o in offers], [
+            ("capacity_3", "account_game", True, 2),
+            ("capacity_2", "account_game", False, 1),  # pre-order closed: can't be ordered
+            (None, "own_account_game", True, 1),       # «ظرفیت کامل»
+        ])
 
 
 if __name__ == "__main__":
