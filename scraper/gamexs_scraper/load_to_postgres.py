@@ -212,12 +212,15 @@ def load_offers(
         # Prefer explicit IGDB-backed aliases. This is what maps seller titles
         # such as "FC 27" to an imported canonical "EA Sports FC 27" row.
         game_id = None
-        for alias in [normalized, *sorted(alias_candidates(offer.raw_title) - {normalized})]:
+        candidates = [normalized, *sorted(alias_candidates(offer.raw_title) - {normalized})]
+        for alias in candidates:
             game_id = find_alias_game_id(cur, platform_id, alias)
             if game_id is not None:
                 break
         if game_id is None:
-            game_id = title_index.get(normalized)
+            # Candidates too: "GTA 6 Ultimate Edition" only matches the catalog
+            # title once expanded to "grand theft auto 6 ultimate edition".
+            game_id = next((title_index[c] for c in candidates if c in title_index), None)
         if game_id is not None:
             update_game_cover(cur, game_id, offer.image_url, trusted_cover)
             games_seen.add(game_id)

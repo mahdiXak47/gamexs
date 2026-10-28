@@ -22,6 +22,8 @@ from urllib.parse import unquote, urljoin, urlsplit, urlunsplit
 import requests
 from bs4 import BeautifulSoup
 
+from gamexs_scraper.base import title_with_edition
+
 BASE_URL = "https://uperagame.com/"
 SELLER = "uperagame"
 CATEGORIES = (
@@ -167,7 +169,8 @@ def parse_product(html: str, url: str, category: str, category_is_ps5: bool, scr
         common = {
             "seller": SELLER,
             "source_url": url,
-            "raw_title": title,
+            # "pa_version-type": standard / ultimate on one GTA VI page.
+            "raw_title": title_with_edition(title, attrs),
             "price_toman": price,
             "in_stock": stock,
             "scraped_at": scraped_at,

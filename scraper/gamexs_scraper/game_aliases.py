@@ -14,6 +14,9 @@ _EDITION_WORD_RE = re.compile(r"\bedition\b", re.IGNORECASE)
 _EA_SPORTS_RE = re.compile(r"\bea\s+sports\b", re.IGNORECASE)
 _FC_NUMBER_RE = re.compile(r"\bfc\s+(\d{2})\b", re.IGNORECASE)
 _PERSIAN_FC_RE = re.compile(r"\bاف\s*سی\b", re.IGNORECASE)
+_GTA_RE = re.compile(r"\bgta\b", re.IGNORECASE)
+# "GTA VI 6" (numeral and digit side by side) normalizes to "gta 6 6".
+_REPEATED_NUMBER_RE = re.compile(r"\b(\d+) \1\b")
 
 
 def _normalise_candidate(value: str) -> str:
@@ -45,6 +48,8 @@ def alias_candidates(*titles: str) -> set[str]:
         # Some Persian shop titles append the transliteration of FC ("اف سی")
         # after the English title; it is not part of the game identity.
         variants.add(_PERSIAN_FC_RE.sub("", cleaned))
+        # Shops write "GTA 6"; the catalog title is "Grand Theft Auto VI".
+        variants.add(_GTA_RE.sub("Grand Theft Auto", cleaned))
 
         # Also accept the compact form used by some seller URLs/titles (FC27).
         for variant in tuple(variants):
@@ -54,4 +59,5 @@ def alias_candidates(*titles: str) -> set[str]:
             normalized = _normalise_candidate(variant)
             if normalized:
                 aliases.add(normalized)
+                aliases.add(_REPEATED_NUMBER_RE.sub(r"\1", normalized))
     return aliases

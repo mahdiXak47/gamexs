@@ -41,7 +41,8 @@ def title_with_edition(raw_title: str, attrs: dict[str, str]) -> str:
     """
     for key, value in attrs.items():
         key = unquote(key).lower()
-        if not ("ادیشن" in key or "edition" in key or "نسخه" in key):
+        # uperagame: "pa_version-type"; psnacctm: "نسخه بازی"; WooCommerce: "pa_edition".
+        if not ("ادیشن" in key or "edition" in key or "version" in key or "نسخه" in key):
             continue
         edition = unquote(value).replace("-", " ")
         for fa, en in _EDITION_WORDS.items():

@@ -11,6 +11,7 @@ Verified 2026-10-20:
     "🕹️ پلتفرم" → "PS5 ⚪️" / "PS4 ⚫️"   — only PS5 variants are kept.
     "⚙️ظرفیت"   → "🟢 دوم ( آنلاین و آفلاین )", "سوم ( نیاز به اینترنت )", "اول" …
     "نوع دیسک"  → "🟢 آکبند (نو و پلمپ)" (new, sealed) / "🟠 کارکرده" (used).
+    "⭐ نسخه بازی" → "Standard 🔵" / "Ultimate 🟣" (GTA VI sells both on one product).
 - Account products have a capacity attribute. Disc products are titled
   "دیسک بازی …"; only sealed (آکبند) PS5-compatible discs are kept — GameXS
   compares new prices. Rentals (اجاره), gift cards and PSN services are skipped:
@@ -25,7 +26,7 @@ from collections.abc import Iterator
 
 import requests
 
-from ..base import SellerAdapter
+from ..base import SellerAdapter, title_with_edition
 from ..models import AccessTier, ProductType, RawOffer
 
 BASE_URL = "https://psnacctm.com"
@@ -42,7 +43,7 @@ def _attributes(variant: dict) -> dict[str, str]:
         value = attribute.get("value")
         text = value.get("value") if isinstance(value, dict) else value
         name = attribute.get("name") or ""
-        for key in ("پلتفرم", "ظرفیت", "نوع دیسک"):
+        for key in ("پلتفرم", "ظرفیت", "نوع دیسک", "نسخه"):
             if key in name:
                 out[key] = str(text or "").strip()
     return out
@@ -90,7 +91,7 @@ def offers_from_product(product: dict) -> list[RawOffer]:
             RawOffer(
                 seller="psnacctm",
                 source_url=f"{BASE_URL}{url}",
-                raw_title=name,
+                raw_title=title_with_edition(name, attrs),  # "⭐ نسخه بازی": Standard / Ultimate
                 product_type=product_type,
                 price_toman=int(price),
                 tier=tier,
