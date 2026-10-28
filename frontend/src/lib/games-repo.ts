@@ -2,6 +2,7 @@ import { memo } from "./memo";
 import { query } from "./db";
 import { s3CoverUrl, s3ScreenshotUrl, normalizeMainBackgroundImageUrl, normalizeS3Url, isS3ImageUrl } from "./covers";
 import { getGameDetails } from "./game-details";
+import { searchTokens, titleMatchesTokens } from "./search";
 import { emptyPurchaseOptions, findOption, purchasePathLabel } from "./purchase-options";
 import type { AccessTier, Game, GameOverview, GamePriceHistoryPoint, GameSummary, HeroPriceOption, InstallmentOption, ProductType, SortOption, UpcomingGame } from "./types";
 
@@ -434,7 +435,7 @@ export const listGamesPage = memo(async function listGamesPage(options: ListGame
         ${editorialFilters}
         ${releasedGamesFilter}
         AND ($1::text IS NULL OR g.genre_label ILIKE $1)
-        AND ($2::text IS NULL OR g.title ILIKE $2 OR g.genre_label ILIKE $2)
+        AND ($2::text IS NULL OR ${titleMatchesTokens("g.title", "$9")} OR g.genre_label ILIKE $2)
         AND ($3::text[] IS NULL OR g.publisher = ANY($3))
         AND ($7::product_type IS NULL OR l.product_type = $7::product_type)
         AND ($8::access_tier IS NULL OR l.tier = $8::access_tier)
@@ -455,6 +456,7 @@ export const listGamesPage = memo(async function listGamesPage(options: ListGame
       options.onlyWithListings ?? false,
       productType,
       tier,
+      search ? searchTokens(search) : null,
     ]
   );
 

@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { query } from "@/lib/db";
+import { searchTokens, titleMatchesTokens } from "@/lib/search";
 import { s3CoverUrl, normalizeS3Url, isS3ImageUrl } from "@/lib/covers";
 
 export async function GET(request: NextRequest) {
@@ -31,13 +32,13 @@ export async function GET(request: NextRequest) {
     FROM ps5_games g
     LEFT JOIN listings l ON l.game_id = g.id AND l.is_active
     LEFT JOIN latest ON latest.listing_id = l.id
-    WHERE g.title ILIKE $1
+    WHERE ${titleMatchesTokens("g.title", "$1")}
       AND g.platform_id = (SELECT id FROM platforms WHERE slug = 'ps5')
     GROUP BY g.id
     ORDER BY g.title
     LIMIT 8
     `,
-    [`%${q}%`]
+    [searchTokens(q)]
   );
 
   return NextResponse.json(
