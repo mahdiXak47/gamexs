@@ -1,11 +1,13 @@
 "use client"
 
 import { useCallback, useEffect, useRef, useState } from 'react'
+import Image from 'next/image'
 import { createPortal } from 'react-dom'
 import { InputOTP, Spinner, REGEXP_ONLY_DIGITS } from '@heroui/react'
 import { useAuth } from '@/context/AuthContext'
 import { useToast } from '@/context/ToastContext'
 import { api, extractApiError } from '@/lib/api'
+import { toPersianDigits } from '@/lib/format'
 
 type Screen = 'tabs' | 'otp' | 'profile'
 type ActiveTab = 'login' | 'signup'
@@ -130,12 +132,8 @@ function FieldError({ id, message }: { id: string; message?: string }) {
   return <p id={id} className="mt-1.5 text-xs font-medium text-red-600">{message}</p>
 }
 
-function PSLogoIcon() {
-  return (
-    <svg width="26" height="18" viewBox="0 0 32 22" fill="white" aria-hidden>
-      <path d="M11.6 0v16.8l4 1.3V4.1c0-.7.3-1.2.8-1 .6.2.9.8.9 1.5v11.6l4 1.3V4.4C21.3 1.4 19.4 0 17 0c-1.6 0-3.5.7-5.4 0zM20.8 13.8v3.3l6.4-2.1c.7-.2.8-.5.3-.7l-2.7-.9c-.5-.2-1.3-.1-2 .1l-2 .3zM0 17.3l5.8 2c2 .7 4.2.5 5.8-.5V15l-4.2 1.4c-.6.2-1.2.2-1.6 0L4 15.7c-.5-.2-.4-.5.1-.7l1.7-.6V11l-5.8 2v4.3z" />
-    </svg>
-  )
+function SiteLogo() {
+  return <Image src="/logos/logo2.png" alt="" width={32} height={32} className="h-8 w-8 rounded-lg" />
 }
 
 export default function AuthModal() {
@@ -408,7 +406,7 @@ export default function AuthModal() {
           style={{ background: 'linear-gradient(135deg, #003087 0%, #0050b3 100%)' }}
         >
           <div className="flex items-center gap-2.5 mb-0.5">
-            <PSLogoIcon />
+            <SiteLogo />
             <span className="text-white font-bold text-lg tracking-wide">{headerTitle}</span>
           </div>
           <p className="text-white/60 text-xs">{headerSub}</p>
@@ -585,6 +583,13 @@ export default function AuthModal() {
               </button>
             </form>
           )}
+
+          <p className="mt-5 border-t border-gray-100 pt-4 text-center text-xs leading-6 text-gray-600">
+            در ثبت‌نام یا ورود مشکل دارید؟ با پشتیبانی تماس بگیرید:{' '}
+            <a href="mailto:mahdixak@gmail.com" dir="ltr" className="font-medium text-[#003087] hover:underline">mahdixak@gmail.com</a>
+            {' '}یا{' '}
+            <a href="tel:+989912003425" dir="ltr" className="font-medium text-[#003087] hover:underline">{toPersianDigits('09912003425')}</a>
+          </p>
 
         </div>
       </div>

@@ -24,7 +24,8 @@ class SignupSerializer(serializers.Serializer):
 
     def validate_phone_number(self, value):
         _validate_phone(value)
-        if User.objects.filter(phone_number=value).exists():
+        # A pending (never verified) signup may retry; SignupView reuses its row.
+        if User.objects.filter(phone_number=value, is_active=True).exists():
             raise serializers.ValidationError("این شماره قبلا ثبت شده است.")
         return value
 

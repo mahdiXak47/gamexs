@@ -165,3 +165,23 @@ class ProfileStaffFlagTests(TestCase):
         client.patch(reverse("profile"), {"is_staff": True}, format="json")
         user.refresh_from_db()
         self.assertFalse(user.is_staff)
+
+
+class SignupSmsFailureTests(TestCase):
+    URL = "/api/auth/signup/"
+    BODY = {"phone_number": "09120000001", "password": "pass-word-123"}
+
+    def test_failed_sms_returns_503_and_the_number_can_retry(self):
+        client = APIClient()
+        with patch("apps.accounts.views.sms_service.send_otp", return_value=False):
+            self.assertEqual(client.post(self.URL, self.BODY, format="json").status_code, 503)
+        with patch("apps.accounts.views.sms_service.send_otp", return_value=True):
+            response = client.post(self.URL, self.BODY, format="json")
+        self.assertEqual(response.status_code, 200, response.content)
+        self.assertEqual(User.objects.filter(phone_number=self.BODY["phone_number"]).count(), 1)
+
+    def test_jalali_date(self):
+        from .services.sms import jalali_date
+
+        self.assertEqual(jalali_date(2026, 3, 21), "1405/01/01")
+        self.assertEqual(jalali_date(2025, 3, 20), "1403/12/30")

@@ -119,7 +119,11 @@ class SignupView(APIView):
 
         expiry = getattr(settings, "OTP_EXPIRY_SECONDS", 120)
         otp = OTPCode.create_for_phone(phone, OTPCode.PURPOSE_SIGNUP, expiry)
-        sms_service.send_otp(phone, otp.code)
+        if not sms_service.send_otp(phone, otp.code):
+            return Response(
+                {"detail": "ارسال پیامک ناموفق بود. چند دقیقه دیگر دوباره تلاش کنید یا با پشتیبانی تماس بگیرید."},
+                status=status.HTTP_503_SERVICE_UNAVAILABLE,
+            )
 
         otp_token = create_otp_token(phone, OTPCode.PURPOSE_SIGNUP)
         return Response({"otp_token": otp_token}, status=status.HTTP_200_OK)
@@ -349,7 +353,11 @@ class ForgotPasswordRequestView(APIView):
         phone = request.user.phone_number
         expiry = getattr(settings, "OTP_EXPIRY_SECONDS", 120)
         otp = OTPCode.create_for_phone(phone, OTPCode.PURPOSE_PASSWORD_RESET, expiry)
-        sms_service.send_otp(phone, otp.code)
+        if not sms_service.send_otp(phone, otp.code):
+            return Response(
+                {"detail": "ارسال پیامک ناموفق بود. چند دقیقه دیگر دوباره تلاش کنید یا با پشتیبانی تماس بگیرید."},
+                status=status.HTTP_503_SERVICE_UNAVAILABLE,
+            )
         return Response({"detail": "کد تایید ارسال شد."}, status=status.HTTP_200_OK)
 
 
