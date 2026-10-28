@@ -12,8 +12,11 @@ function readCookie(name: string): string | null {
 }
 
 function bootstrap(): Promise<string | null> {
+  // The cookie is set by the API host, so this page can't read it: use the
+  // token from the response body (it pairs with that cookie).
   return fetch(`${apiBaseUrl()}/api/auth/csrf/`, { credentials: "include" })
-    .then(() => readCookie("csrftoken"))
+    .then((response) => response.json())
+    .then((body: { csrfToken?: string }) => body.csrfToken ?? readCookie("csrftoken"))
     .then((token) => {
       csrfToken = token
       return token
