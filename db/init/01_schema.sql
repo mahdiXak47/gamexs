@@ -100,7 +100,7 @@ CREATE TABLE ps5_game_tr_info (
     fetched_at TIMESTAMPTZ NOT NULL DEFAULT now(),
     UNIQUE (product_id)
 );
-CREATE UNIQUE INDEX ps5_game_tr_info_product_id_key
+CREATE UNIQUE INDEX IF NOT EXISTS ps5_game_tr_info_product_id_key
     ON ps5_game_tr_info (product_id)
     WHERE product_id IS NOT NULL;
 CREATE UNIQUE INDEX ps5_game_tr_info_concept_fallback_key
@@ -320,9 +320,16 @@ CREATE TABLE outbound_clicks (
     user_agent   TEXT,
     user_id      INTEGER,
     claim_token  UUID,
-    clicked_at   TIMESTAMPTZ NOT NULL DEFAULT now()
+    clicked_at   TIMESTAMPTZ NOT NULL DEFAULT now(),
+    -- CPC billing (migration 043): is this a real customer? Charges live in billing_clickcharge.
+    validity     TEXT NOT NULL DEFAULT 'pending'
+        CHECK (validity IN ('pending', 'valid', 'duplicate', 'suspicious', 'invalid', 'unverifiable')),
+    validity_reason TEXT,
+    classified_at TIMESTAMPTZ,
+    reviewed_by  INTEGER
 );
 
 CREATE INDEX idx_outbound_clicks_seller_time ON outbound_clicks (seller_id, clicked_at DESC);
 CREATE INDEX idx_outbound_clicks_game_time ON outbound_clicks (game_id, clicked_at DESC);
 CREATE INDEX idx_outbound_clicks_time ON outbound_clicks (clicked_at DESC);
+CREATE INDEX idx_outbound_clicks_seller_validity ON outbound_clicks (seller_id, validity, clicked_at);

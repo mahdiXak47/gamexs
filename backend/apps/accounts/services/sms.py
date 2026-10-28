@@ -5,27 +5,12 @@ import requests
 from django.conf import settings
 from django.utils import timezone
 
+from apps.common.jalali import jalali_date
+
 logger = logging.getLogger(__name__)
 
 _SMSIR_VERIFY_URL = "https://api.sms.ir/v1/send/verify"
 
-
-def jalali_date(year: int, month: int, day: int) -> str:
-    """Gregorian -> Solar Hijri (the calendar Iranian users read), as YYYY/MM/DD."""
-    days = 365 * (year - 1600) + (year - 1597) // 4 - (year - 1501) // 100 + (year - 1201) // 400
-    days += sum((31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)[: month - 1]) + day - 80
-    if month > 2 and (year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)):
-        days += 1
-    jy = 979 + 33 * (days // 12053)
-    days %= 12053
-    jy += 4 * (days // 1461)
-    days %= 1461
-    if days >= 366:
-        jy += (days - 1) // 365
-        days = (days - 1) % 365
-    jm = days // 31 + 1 if days < 186 else (days - 186) // 30 + 7
-    jd = days % 31 + 1 if days < 186 else (days - 186) % 30 + 1
-    return f"{jy}/{jm:02d}/{jd:02d}"
 
 
 class SMSService:

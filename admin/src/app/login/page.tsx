@@ -16,13 +16,13 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
           </span>
           <div>
             <Card.Title className="text-xl">GameXS Ops</Card.Title>
-            <Card.Description>Scraping pipeline monitor · admins only</Card.Description>
+            <Card.Description>Ops panel for GameXS staff and partner stores</Card.Description>
           </div>
         </Card.Header>
         <Card.Content>
           <LoginForm
             next={next ?? "/"}
-            initialError={error === "forbidden" ? "This account is not a GameXS admin." : undefined}
+            initialError={error === "forbidden" ? "This account has no access to GameXS Ops." : undefined}
           />
         </Card.Content>
       </Card>

@@ -4,19 +4,22 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Icon, type IconName } from "./Icon";
 
-const LINKS: { href: string; label: string; icon: IconName }[] = [
+export type NavLink = { href: string; label: string; icon: IconName };
+
+const LINKS: NavLink[] = [
   { href: "/", label: "Overview", icon: "activity" },
   { href: "/runs", label: "Run history", icon: "list" },
   { href: "/referrals", label: "Referrals", icon: "store" },
   { href: "/clicks", label: "Click log", icon: "list" },
+  { href: "/billing", label: "Billing", icon: "tag" },
 ];
 
-export function NavLinks() {
+export function NavLinks({ links = LINKS, home = "/" }: { links?: NavLink[]; home?: string }) {
   const path = usePathname();
   return (
     <nav aria-label="Main" className="flex items-center gap-1">
-      {LINKS.map((link) => {
-        const active = link.href === "/" ? path === "/" : path.startsWith(link.href);
+      {links.map((link) => {
+        const active = link.href === home ? path === home : path.startsWith(link.href);
         return (
           <Link
             key={link.href}

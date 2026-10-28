@@ -4,8 +4,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { connection } from "next/server";
 import { ClickBars } from "@/components/ClickBars";
+import { Stat } from "@/components/Stat";
 import { Icon } from "@/components/Icon";
 import { formatAgo, formatDateTime, formatNumber } from "@/lib/format";
+import { validityBySeller } from "@/lib/billing";
 import { RANGES, referralTrend, referralsByGame, referralsBySeller, type RangeKey } from "@/lib/queries";
 
 export const metadata: Metadata = { title: "Referrals" };
@@ -19,7 +21,11 @@ export default async function ReferralsPage({ searchParams }: { searchParams: Se
   const range: RangeKey = rawRange && rawRange in RANGES ? (rawRange as RangeKey) : "month";
   const sellers = await referralsBySeller(range);
   const seller = sellers.find((s) => s.slug === rawSeller) ?? null;
-  const [games, trend] = await Promise.all([referralsByGame(range, seller?.slug ?? null), referralTrend(range, seller?.slug ?? null)]);
+  const [games, trend, validity] = await Promise.all([
+    referralsByGame(range, seller?.slug ?? null),
+    referralTrend(range, seller?.slug ?? null),
+    validityBySeller(range),
+  ]);
 
   const totalClicks = sellers.reduce((n, s) => n + s.clicks, 0);
   const totalUnique = sellers.reduce((n, s) => n + s.unique_visitors, 0);
@@ -40,7 +46,7 @@ export default async function ReferralsPage({ searchParams }: { searchParams: Se
         <div>
           <h1 className="text-2xl font-semibold">Referrals</h1>
           <p className="text-sm text-muted">
-            Customers sent from GameXS to each shop via <bdi lang="fa">«خرید از فروشگاه»</bdi>. Unique visitors (one per person per day) is the number to invoice by.
+            Customers sent from GameXS to each shop via <bdi lang="fa">«خرید از فروشگاه»</bdi>. Valid is what billing counts (checked before each invoice, see Billing); Not counted is duplicates, suspicious and unverifiable clicks.
           </p>
         </div>
         <a href={exportHref} className="inline-flex min-h-9 items-center gap-2 rounded-lg bg-surface px-3 text-sm hover:bg-surface-secondary focus-visible:outline-2 focus-visible:outline-accent">
@@ -85,6 +91,8 @@ export default async function ReferralsPage({ searchParams }: { searchParams: Se
                     <Table.Column id="shop" isRowHeader>Shop</Table.Column>
                     <Table.Column id="clicks" className="text-end">Clicks</Table.Column>
                     <Table.Column id="unique" className="text-end">Unique</Table.Column>
+                    <Table.Column id="valid" className="text-end">Valid</Table.Column>
+                    <Table.Column id="flagged" className="text-end">Not counted</Table.Column>
                     <Table.Column id="share" className="text-end">Share</Table.Column>
                     <Table.Column id="games" className="text-end">Games</Table.Column>
                     <Table.Column id="last-click">Last click</Table.Column>
@@ -104,6 +112,10 @@ export default async function ReferralsPage({ searchParams }: { searchParams: Se
                         </Table.Cell>
                         <Table.Cell className="tabular text-end text-sm font-medium">{formatNumber(s.clicks)}</Table.Cell>
                         <Table.Cell className="tabular text-end text-sm">{formatNumber(s.unique_visitors)}</Table.Cell>
+                        <Table.Cell className="tabular text-end text-sm">{formatNumber(validity.get(s.slug)?.valid ?? 0)}</Table.Cell>
+                        <Table.Cell className="tabular text-end text-sm text-muted">
+                          {formatNumber(((v) => (v ? v.duplicate + v.suspicious + v.invalid + v.unverifiable : 0))(validity.get(s.slug)))}
+                        </Table.Cell>
                         <Table.Cell className="tabular text-end text-sm text-muted">
                           {totalClicks ? `${((s.clicks / totalClicks) * 100).toFixed(1)}%` : "—"}
                         </Table.Cell>
@@ -188,11 +200,3 @@ export default async function ReferralsPage({ searchParams }: { searchParams: Se
   );
 }
 
-function Stat({ label, value }: { label: string; value: string }) {
-  return (
-    <Card className="gap-1 p-4">
-      <p className="text-xs text-muted">{label}</p>
-      <p className="tabular text-xl font-semibold">{value}</p>
-    </Card>
-  );
-}

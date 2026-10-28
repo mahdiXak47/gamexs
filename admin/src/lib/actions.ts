@@ -37,13 +37,15 @@ export async function login(_prev: LoginState, form: FormData): Promise<LoginSta
   const tokens = tokensFromSetCookie(response);
   const profile = tokens.access ? await fetchProfile(tokens.access) : null;
   if (!profile || !tokens.refresh) return { error: "Login succeeded but no session was issued.", phone };
-  if (!profile.is_staff) return { error: "This account is not a GameXS admin.", phone };
+  if (!profile.is_staff && !profile.store) return { error: "This account has no access to GameXS Ops.", phone };
 
   const store = await cookies();
   store.set(ACCESS_COOKIE, tokens.access!, cookieOptions(ACCESS_MAX_AGE));
   store.set(REFRESH_COOKIE, tokens.refresh, cookieOptions(REFRESH_MAX_AGE));
   // Only same-app relative paths; never an absolute URL from the query string.
-  redirect(next.startsWith("/") && !next.startsWith("//") ? next : "/");
+  const safeNext = next.startsWith("/") && !next.startsWith("//") ? next : "/";
+  // Store accounts only have the portal; send them there unless they asked for a portal page.
+  redirect(profile.is_staff || safeNext.startsWith("/store") ? safeNext : "/store");
 }
 
 export async function logout() {

@@ -1,0 +1,8 @@
+{% extends "admin/base_site.html" %}
+{% block content %}
+<p>Classifies every unreviewed click of the month with the current <code>BILLING_*</code> rules, then rebuilds the draft invoice of every store that got clicks. Issued and paid invoices are left alone. Draft months in order: campaign allowances carry over from earlier invoices.</p>
+<form method="post">{% csrf_token %}
+  {{ form.as_p }}
+  <input type="submit" value="Draft invoices" class="default">
+</form>
+{% endblock %}

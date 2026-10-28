@@ -192,6 +192,25 @@ npx tsx scripts/check-progress.mts   # self-check for the progress/ETA math
   `price_history` rows whose `scraped_at` falls inside the step's window, compared with the last price
   before the step started.
 
+## CPC billing (`backend/apps/billing`, spec: `docs/REVENUE_PROPOSAL.md`)
+
+Stores pay per valid click from `/go`. **Validity** (is it a real customer?) is `outbound_clicks.validity`
+(migration 043), set by `classify.py`: duplicate within a window, per-visitor daily cap, bursts, optional
+referrer rule, unverifiable. **Billing** (free / discounted / charged / over cap) lives in `billing_*` tables.
+- Global rules + default price per click are **env vars** (`BILLING_*`, see `settings/base.py`); per-store rates
+  and spending caps (`StoreAgreement`) and promotions (`Campaign`, per-click or invoice-total, 10–100 %,
+  allowance, budget, exclusive, priority) are rows edited in Django admin. Never hardcode a number.
+- `pricing.py` is pure and fully tested — change discount rules there, with a test. Order: per-click campaign,
+  then spending cap, then one total campaign; whole toman, rounded half up once per invoice line.
+- Invoices are per **Jalali month** (`apps/common/jalali.py`). Django admin → Invoices → "Draft invoices for a
+  month" (or `manage.py billing_draft --period 1405-08`) classifies and rebuilds drafts; issue / paid / void are
+  admin actions. Issued invoices and `LedgerEntry` rows never change — corrections are new adjustments.
+  Draft months in order: campaign allowance used on earlier invoices carries forward.
+- `outbound_clicks` IP/UA are erased after 90 days; draft the month before then.
+- Store portal: `admin/` `/store/*`, for accounts with a `StoreMember` row (staff create them); scoped server-side
+  by the profile's `store.id`, drafts hidden. Staff see `/billing` and validity columns on Referrals.
+- Billing never touches ranking or which offers are shown (proposal §10).
+
 ## `backend/` (Django 5.1, Django REST Framework)
 
 ```bash
@@ -218,6 +237,7 @@ Always set `DJANGO_SETTINGS_MODULE` explicitly — the default in `manage.py` po
 | `wishlist` | `wishlist_wishlistitem` | Per-user wishlist with optional price-drop threshold |
 | `game_accounts` | `game_accounts_psnaccount` | PSN account storage per user |
 | `tickets` | `tickets_ticket`, `tickets_ticketmessage` | Support ticket system |
+| `billing` | `billing_*` (+ reads/updates `outbound_clicks.validity`) | CPC billing: click checks, store rates, campaigns, invoices, ledger, store portal access |
 
 **Auth flow** (4 steps):
 1. `POST /api/auth/signup/` — phone + password → sends OTP SMS, returns signed `otp_token` (5 min JWT)

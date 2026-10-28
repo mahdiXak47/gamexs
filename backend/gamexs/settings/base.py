@@ -36,6 +36,7 @@ LOCAL_APPS = [
     "apps.game_accounts",
     "apps.tickets",
     "apps.reviews",
+    "apps.billing",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -158,3 +159,24 @@ SMS_BACKEND = config("SMS_BACKEND", default="console")  # 'console' | 'smsir'
 SMS_API_KEY = config("SMS_API_KEY", default="")
 SMS_SENDER = config("SMS_SENDER", default="")
 SMS_TEMPLATE_ID = config("SMS_TEMPLATE_ID", default="")
+
+
+# CPC billing (apps.billing). Global rules and the default price per click come
+# from the environment so they can change without a release; per-store rates,
+# spending caps and promotional campaigns are rows edited in Django admin.
+# Every invoice stores the rules it was priced with (Invoice.rules).
+BILLING = {
+    # Price of one valid click in toman, for stores without their own agreement.
+    "BASE_CPC_TOMAN": config("BILLING_BASE_CPC_TOMAN", default=0, cast=int),
+    # A repeat click by the same visitor on the same store within this window is a duplicate.
+    "DUPLICATE_WINDOW_MINUTES": config("BILLING_DUPLICATE_WINDOW_MINUTES", default=30, cast=int),
+    # Clicks by one visitor in one Tehran day beyond this count are suspicious.
+    "MAX_CLICKS_PER_VISITOR_DAY": config("BILLING_MAX_CLICKS_PER_VISITOR_DAY", default=20, cast=int),
+    # This many clicks by one visitor within BURST_WINDOW_SECONDS is a burst (suspicious).
+    "BURST_CLICKS": config("BILLING_BURST_CLICKS", default=5, cast=int),
+    "BURST_WINDOW_SECONDS": config("BILLING_BURST_WINDOW_SECONDS", default=60, cast=int),
+    # Clicks that did not come from a GameXS page (no referrer) are suspicious.
+    "REQUIRE_GAMEXS_REFERRER": config("BILLING_REQUIRE_GAMEXS_REFERRER", default=False, cast=bool),
+    # Suspicious clicks are held out of invoices until staff review them, unless this is on.
+    "SUSPICIOUS_BILLABLE": config("BILLING_SUSPICIOUS_BILLABLE", default=False, cast=bool),
+}

@@ -61,11 +61,18 @@ class LoginSerializer(serializers.Serializer):
 
 
 class UserProfileSerializer(serializers.ModelSerializer):
+    # The store this account may see in the store portal (apps.billing.StoreMember), or null.
+    store = serializers.SerializerMethodField()
+
     class Meta:
         model = User
         fields = ["id", "phone_number", "first_name", "last_name", "email",
-                  "is_phone_verified", "is_email_verified", "is_staff", "date_joined"]
-        read_only_fields = ["id", "phone_number", "is_phone_verified", "is_email_verified", "is_staff", "date_joined"]
+                  "is_phone_verified", "is_email_verified", "is_staff", "date_joined", "store"]
+        read_only_fields = ["id", "phone_number", "is_phone_verified", "is_email_verified", "is_staff", "date_joined", "store"]
+
+    def get_store(self, user):
+        membership = getattr(user, "store_membership", None)
+        return {"id": membership.seller_id} if membership else None
 
     def validate_email(self, value):
         user = self.instance

@@ -83,6 +83,8 @@ export type StaffProfile = {
   first_name: string;
   last_name: string;
   is_staff: boolean;
+  /** The partner store this account may see in the store portal (backend StoreMember), or null. */
+  store: { id: number } | null;
 };
 
 export async function fetchProfile(access: string): Promise<StaffProfile | null> {

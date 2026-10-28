@@ -62,6 +62,15 @@
   per 20 h). If it persists, PS Store prices and new trailers need another
   route (trailers were fetched from a workstation meanwhile).
 
+## CPC billing go-live (code done 2026-10-29, `backend/apps/billing`)
+
+- Apply `db/migrations/043_click_validity.sql` to production **before** deploying the backend/admin
+  (the Referrals page and billing read `outbound_clicks.validity`).
+- Set `BILLING_BASE_CPC_TOMAN` (and review the other `BILLING_*` rules) on `gamexs-backend`.
+- Per pilot store in Django admin: a `StoreAgreement`, its promotion `Campaign`, and a store login
+  (`StoreMember`). Open owner decisions: whether a capped / out-of-credit store keeps its buy buttons
+  (default: yes, extra clicks unbilled); invoice tax/VAT lines and official rial numbering.
+
 ## Future features
 
 - Configure and verify the production SMTP mail server. The user-facing support

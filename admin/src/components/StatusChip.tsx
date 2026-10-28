@@ -12,6 +12,11 @@ const STATUS: Record<string, { tone: Tone; icon: IconName | "spinner"; label: st
   skipped: { tone: "warning", icon: "skip", label: "Skipped" },
   abandoned: { tone: "default", icon: "ban", label: "Abandoned" },
   stalled: { tone: "warning", icon: "alert", label: "Stalled" },
+  // Invoices (CPC billing)
+  draft: { tone: "default", icon: "clock", label: "Draft" },
+  issued: { tone: "accent", icon: "tag", label: "Issued" },
+  paid: { tone: "success", icon: "check", label: "Paid" },
+  void: { tone: "default", icon: "ban", label: "Void" },
 };
 
 /** Status is always icon + text, never colour alone. */
