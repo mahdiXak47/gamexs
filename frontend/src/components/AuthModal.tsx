@@ -7,7 +7,6 @@ import { InputOTP, Spinner, REGEXP_ONLY_DIGITS } from '@heroui/react'
 import { useAuth } from '@/context/AuthContext'
 import { useToast } from '@/context/ToastContext'
 import { api, extractApiError } from '@/lib/api'
-import { toPersianDigits } from '@/lib/format'
 
 type Screen = 'tabs' | 'otp' | 'profile'
 type ActiveTab = 'login' | 'signup'
@@ -585,10 +584,18 @@ export default function AuthModal() {
           )}
 
           <p className="mt-5 border-t border-gray-100 pt-4 text-center text-xs leading-6 text-gray-600">
-            در ثبت‌نام یا ورود مشکل دارید؟ با پشتیبانی تماس بگیرید:{' '}
-            <a href="mailto:mahdixak@gmail.com" dir="ltr" className="font-medium text-[#003087] hover:underline">mahdixak@gmail.com</a>
-            {' '}یا{' '}
-            <a href="tel:+989912003425" dir="ltr" className="font-medium text-[#003087] hover:underline">{toPersianDigits('09912003425')}</a>
+            در ثبت‌نام یا ورود مشکل دارید؟{' '}
+            <button
+              type="button"
+              onClick={() => {
+                handleClose()
+                // Goftino chat widget (layout.tsx); it loads lazily, so it may not be there yet.
+                ;(window as { Goftino?: { open?: () => void } }).Goftino?.open?.()
+              }}
+              className="cursor-pointer font-medium text-[#003087] underline-offset-2 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#003087]"
+            >
+              در پنل گفتگوی آنلاین برای ما پیام بفرستید
+            </button>
           </p>
 
         </div>
