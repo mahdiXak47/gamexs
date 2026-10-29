@@ -725,11 +725,12 @@ export const getGameBySlug = memo(async function getGameBySlug(slug: string): Pr
     source_url: string;
     listing_id: string;
     installment_options: InstallmentOption[];
+    last_seen_at: Date;
   }>(
     `
     ${LATEST_PRICE_CTE}
     SELECT l.id::text AS listing_id, l.product_type, l.tier, s.slug AS seller_slug, s.name AS seller_name, s.domain AS seller_domain,
-           s.installment_options, latest.price_toman, latest.in_stock, l.source_url
+           s.installment_options, latest.price_toman, latest.in_stock, l.source_url, l.last_seen_at
     FROM listings l
     JOIN sellers s ON s.id = l.seller_id
     JOIN latest ON latest.listing_id = l.id
@@ -761,6 +762,7 @@ export const getGameBySlug = memo(async function getGameBySlug(slug: string): Pr
       listingUrl: row.source_url,
       listingId: row.listing_id,
       installments: row.installment_options ?? [],
+      lastSeenAt: row.last_seen_at.getTime(),
     });
   }
 
@@ -821,13 +823,13 @@ export const getGamePriceHistory = memo(async function getGamePriceHistory(gameI
     SELECT TO_CHAR(DATE_TRUNC('day', ph.scraped_at), 'YYYY-MM-DD') AS day,
            l.product_type,
            l.tier,
-           MIN(ph.price_toman) FILTER (WHERE ph.price_toman > 0) AS price_toman
+           MIN(ph.price_toman) FILTER (WHERE ph.in_stock AND ph.price_toman > 0) AS price_toman
     FROM listings l
     JOIN price_history ph ON ph.listing_id = l.id
     WHERE l.game_id = $1
       AND ph.scraped_at >= NOW() - ($2::int * INTERVAL '1 day')
     GROUP BY DATE_TRUNC('day', ph.scraped_at), l.product_type, l.tier
-    HAVING MIN(ph.price_toman) FILTER (WHERE ph.price_toman > 0) IS NOT NULL
+    HAVING MIN(ph.price_toman) FILTER (WHERE ph.in_stock AND ph.price_toman > 0) IS NOT NULL
     ORDER BY day, l.product_type, l.tier
     `,
     [gameId, windowDays]

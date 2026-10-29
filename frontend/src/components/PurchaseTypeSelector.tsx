@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { Alert, Avatar, Card, Chip, Table } from "@heroui/react";
-import { formatToman, toPersianDigits } from "@/lib/format";
+import { formatCheckedAgo, formatToman, toPersianDigits } from "@/lib/format";
 import { bestOfferId, lowestPriceForOption } from "@/lib/purchase-options";
 import type { InstallmentOption, PurchaseOption } from "@/lib/types";
 
@@ -249,6 +249,11 @@ function SellerTable({ option }: { option: PurchaseOption }) {
                         />
                         {canBuy ? "موجود" : "ناموجود"}
                       </span>
+                      {offer.lastSeenAt && (
+                        <div className="mt-0.5 text-[11px] text-muted" suppressHydrationWarning>
+                          بررسی: {formatCheckedAgo(offer.lastSeenAt)}
+                        </div>
+                      )}
                     </Table.Cell>
                     <Table.Cell>
                       {canBuy ? (

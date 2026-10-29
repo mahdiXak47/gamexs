@@ -185,6 +185,11 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
   );
 
   const completeOfferSet = rawOffers.length > 0 && rawOffers.every((offer) => offer.priceToman > 0);
+  // The price range must match the starting price the page shows, which only
+  // counts offers in stock — an out-of-stock price is not a price you can pay.
+  const buyablePrices = allOffers
+    .filter((o) => o.availability === "https://schema.org/InStock")
+    .map((o) => o.price);
   const productJsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -194,12 +199,12 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
     url: `${SITE_URL}/games/${game.slug}`,
     dateModified: game.lastModifiedAt ?? undefined,
     brand: game.publisher ? { "@type": "Organization", name: game.publisher } : undefined,
-    ...(allOffers.length > 0 && {
+    ...(buyablePrices.length > 0 && {
       offers: {
         "@type": "AggregateOffer",
         priceCurrency: "IRR",
-        lowPrice: Math.min(...allOffers.map((o) => o.price)),
-        ...(completeOfferSet && { highPrice: Math.max(...allOffers.map((o) => o.price)) }),
+        lowPrice: Math.min(...buyablePrices),
+        ...(completeOfferSet && { highPrice: Math.max(...buyablePrices) }),
         offerCount: allOffers.length,
         offers: allOffers,
       },

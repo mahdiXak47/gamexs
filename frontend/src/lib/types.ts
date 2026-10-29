@@ -22,6 +22,8 @@ export interface SellerOffer {
   /** listings.id — buy links go through /go/[listingId] so clicks are counted. */
   listingId: string;
   installments: InstallmentOption[];
+  /** listings.last_seen_at (ms): when a scrape last confirmed this offer. */
+  lastSeenAt?: number;
 }
 
 export interface PurchaseOption {
