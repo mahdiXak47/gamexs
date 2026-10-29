@@ -26,6 +26,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import time
 from pathlib import Path
 
 import psycopg
@@ -103,9 +104,10 @@ def transcode(src: Path, dest: Path) -> None:
     """
     subprocess.run(
         [
-            "ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-threads", "2", "-i", str(src),
+            # nice: on the pod's quarter core the scrapers' parsing comes first.
+            "nice", "-n", "19", "ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-threads", "2", "-i", str(src),
             "-vf", "scale=-2:'min(720,ih)'",
-            "-c:v", "libx264", "-threads", "2", "-preset", "veryfast", "-profile:v", "main", "-pix_fmt", "yuv420p",
+            "-c:v", "libx264", "-threads", "2", "-preset", "superfast", "-profile:v", "main", "-pix_fmt", "yuv420p",
             "-crf", "27", "-maxrate", "2500k", "-bufsize", "5000k",
             "-c:a", "aac", "-b:a", "128k", "-ac", "2",
             "-movflags", "+faststart", str(dest),
@@ -115,6 +117,17 @@ def transcode(src: Path, dest: Path) -> None:
         # timed out at 900 s on 2026-10-23); trailers run last, so wait.
         timeout=3600,
     )
+
+
+_deadline: float | None = None
+
+
+def out_of_time() -> bool:
+    """True once --max-minutes is used up; the remaining games wait for the next run."""
+    if _deadline is not None and time.monotonic() > _deadline:
+        print("time budget used up; the rest waits for the next run", flush=True)
+        return True
+    return False
 
 
 def upload_trailer(s3, bucket: str, endpoint: str, slug: str, source: str) -> str:
@@ -148,6 +161,8 @@ def all_trailers(conn, s3, bucket: str, endpoint: str, slug: str | None, limit: 
     ).fetchall()
     failed = 0
     for game_id, game_slug, concept_id, known, featured_url, featured_source in rows:
+        if out_of_time():
+            break
         try:
             kind = "product" if "-" in concept_id else "concept"
             page = _get(f"{PS_STORE_BASE}/en-us/{kind}/{concept_id}")
@@ -162,14 +177,19 @@ def all_trailers(conn, s3, bucket: str, endpoint: str, slug: str | None, limit: 
                     continue  # same file under another URL
                 sizes.add(size)
                 listed.append(source)
-            result = []
+            result = [have[source] for source in listed if source in have]
             for source in listed:
                 if source in have:
-                    result.append(have[source])
-                elif dry_run:
+                    continue
+                if dry_run:
                     print(f"[dry-run] {game_slug}: new trailer {source}", flush=True)
-                else:
-                    result.append({"url": upload_trailer(s3, bucket, endpoint, game_slug, source), "source_url": source, "title": None})
+                    continue
+                if out_of_time():
+                    break
+                result.append({"url": upload_trailer(s3, bucket, endpoint, game_slug, source), "source_url": source, "title": None})
+                result.sort(key=lambda t: listed.index(t["source_url"]))  # store page order
+                # Saved after every upload so a time budget or a crash keeps finished work.
+                conn.execute("UPDATE ps5_games SET trailers = %s WHERE id = %s", (json.dumps(result, ensure_ascii=False), game_id))
             if not dry_run and result:
                 conn.execute("UPDATE ps5_games SET trailers = %s WHERE id = %s", (json.dumps(result, ensure_ascii=False), game_id))
             print(f"{game_slug}: {len(result)} trailers", flush=True)
@@ -204,8 +224,12 @@ def main() -> int:
     parser.add_argument("--limit", type=int, default=25, help="games to check this run")
     parser.add_argument("--slug", help="only this game")
     parser.add_argument("--dry-run", action="store_true", help="find trailers, do not download or upload")
+    parser.add_argument("--max-minutes", type=float, help="stop starting new trailers after this long")
     parser.add_argument("--all-trailers", action="store_true", help="every official trailer for the --limit most popular games")
     args = parser.parse_args()
+    global _deadline
+    if args.max_minutes:
+        _deadline = time.monotonic() + args.max_minutes * 60
 
     db_url = os.environ.get("DATABASE_URL")
     endpoint = os.environ.get("S3_ENDPOINT_URL", "").rstrip("/")
@@ -220,6 +244,8 @@ def main() -> int:
             return all_trailers(conn, s3, bucket, endpoint, args.slug, args.limit, args.dry_run)
         games = candidates(conn, args.slug, args.limit)
         for i, (game_id, slug, concept_id, known_source) in enumerate(games, start=1):
+            if out_of_time():
+                break
             report_progress(i - 1, len(games), f"trailer for {slug}")
             try:
                 # Most rows store a concept id; a few store a product id (EP1004-PPSA…).

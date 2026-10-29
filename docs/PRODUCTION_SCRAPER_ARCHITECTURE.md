@@ -33,7 +33,7 @@ api.gamexs.ir                              v
 service/gamexs-backend -> deployment/   PostgreSQL 16
                           gamexs-backend  deployment/gamexs-db
 
-deployment/scraper -> database, S3, seller sites
+deployment/gamexs-scraper -> database, S3, seller sites
                   -> service/custom-xray (:10809) for outbound proxying
 ```
 
@@ -44,7 +44,8 @@ Resources observed in `mahdixak-gamexs`:
 | `deployment/gamexs` | Next.js frontend, port 3000 |
 | `deployment/gamexs-backend` | Django API, port 8000 |
 | `deployment/gamexs-db` | PostgreSQL 16 with `gamexs-db-data` PVC |
-| `deployment/scraper` | Long-running scraper process; currently stale Temporal command |
+| `deployment/gamexs-scraper` | Long-running scraper process (`python runner.py`) |
+| `deployment/gamexs-ops` | Admin/ops panel (`admin/`), port 3000, gamexs-ops.darkube.app |
 | `deployment/custom-xray` | HTTPS proxy, service port 10809 |
 | `service/gamexs-db` | PostgreSQL service, currently a LoadBalancer |
 | `service/gamexs` | Frontend ClusterIP service |
@@ -60,8 +61,8 @@ configuration and image release process, not by treating the old
 The replacement scraper Deployment must run the long-lived non-Temporal
 `scraper/runner.py`. The runner supplies the scheduling behavior that the
 removed Temporal workflow previously provided and invokes the existing one-shot
-pipeline (`scrape_all.sh`). It executes one complete scrape/load cycle and
-sleeps for the configured interval:
+pipeline (`scrape_all.sh`). It starts one complete scrape/load cycle every
+configured interval, counted from the start of the previous cycle:
 
 ```text
 SCRAPER_INTERVAL_SECONDS=86400
@@ -110,6 +111,72 @@ It requires migrations 027 and 028. Migration 027 registers the seller and
 supports multiple product types/capacities per source URL. Migration 028
 allows new games to exist before IGDB enrichment fills `igdb_id`.
 
+## Cycle time
+
+Measured 2026-10-29 by running every adapter once from a workstation (same
+1 request/second per shop as production). Before: sellers ran one after
+another, each product page waited 1 s *after* the previous response, and the
+runner slept 24 h after the cycle ended; the 2026-10-27 cycle also spent 29 h
+transcoding trailers. Seller phase alone: about 8 h.
+
+What changed:
+
+- **Sellers run 3 at a time** (`SCRAPER_PARALLEL`, `scrape_all.sh`), slowest
+  first. Each seller is a different site, so no shop gets more traffic. DB loads
+  stay one at a time (`seller_runner.load_lock`). Memory: ~60–120 MB per seller
+  on the 500 MB pod.
+- **WooCommerce Store API** (`gamexs_scraper/woo_store.py`): for shops whose
+  public `/wp-json/wc/store/v1/products?type=variation` works, one sweep (100
+  variations per request) replaces every product-page fetch. Enabled per
+  adapter with `woo_store_url` after its offers matched the page crawl exactly:
+  gamario 587/587, gamecenter 408/408, xgamesstore 614/614, parsconsole
+  1127/1127, gameaccess 547/547, gamepulse 402/402. gameonestore (simple disc
+  products) reads the category from the same API: 370/371 matched; the odd one
+  is a product the shop redirects to another game's page.
+  Not used: cdkeyshare (API blocked, 403); yungcenter (three FC Ultimate pages
+  redirect to the Standard product, which the API cannot see); gameplayshop
+  (the API lists disabled variations and products whose page has no buy form:
+  6 of 474 offers differed); nakhlmarket (custom variation markup);
+  pspro/persianconsole/fillgame (not WooCommerce). The sweep is ordered by id
+  and abandoned if the variation count changes mid-sweep.
+- **The 1 s gap runs start to start** (`PoliteFetcher`): still at most one
+  request per second, but no longer 1 s on top of each response.
+- **Slow shops load 2–3 pages at once** (`product_workers`; cdkeyshare 3,
+  gameplayshop 3, nakhlmarket 2, yungcenter 2): their pages take 2–4 s to answer, so requests
+  overlap while starts stay 1 s apart.
+- **Trailers have a time budget** (`TRAILERS_MAX_MINUTES`, default 60 per
+  pass, ffmpeg at `nice 19`, x264 `superfast`); the backlog carries over.
+- **The runner interval counts from the start of a cycle**, so a long cycle no
+  longer pushes every later cycle back.
+
+| Seller | Before (s) | After (s) | How |
+|---|---:|---:|---|
+| pspro | 2602 | 1548 | start-to-start gap |
+| cdkeyshare | 3686 | 685 | 3 pages at once |
+| nakhlmarket | 2177 | 829 | 2 pages at once |
+| gameonestore | 2409 | 24 | Store API |
+| gamario | 2265 | 171 | Store API |
+| gameplayshop | 7778 | 1501 | 3 pages at once |
+| yungcenter | 1818 | 445 | 2 pages at once |
+| gamecenter | 1423 | 81 | Store API |
+| parsconsole | 1132 | 83 | Store API |
+| xgamesstore | 1032 | 92 | Store API |
+| persianconsole | 788 | 530 | start-to-start gap |
+| fillgame | 783 | 649 | start-to-start gap |
+| uperagame | 338 | 338 | own crawler, unchanged |
+| gameaccess (new) | 1648 | 176 | Store API |
+| gamepulse (new) | 952 | 25 | Store API |
+| gamestore (new) | 199 | 156 | |
+| clockstore1 (new) | 126 | 129 | |
+| gpgaming (new) | 83 | 45 | |
+| digikala, technolife, psnacctm | 338 | 261 | |
+
+Sum before: ~8 h one seller after another (16 sellers). After: ~2 h 15 min of
+seller time for 21 sellers, 3 at a time with pspro and gameplayshop (~25 min
+each) as the longest, so the seller phase takes about 45–50 minutes. Not
+scheduled: dragonshop (adapter finds nothing), doctorgame (site down), hajigame
+(no PS5 games).
+
 ## Required production configuration
 
 The scraper runner must receive these settings through the Deployment or its
@@ -137,8 +204,8 @@ container arguments.
 4. Apply `db/migrations/032_add_scrape_health.sql` before deploying the health-aware runner.
 5. Build an image containing `runner.py`, the non-Temporal pipeline, Crawl4AI Upera scraper,
    loader, and existing seller pipeline.
-6. Configure the `scraper` Deployment through Darkube/Helm with the new image
-   and the selected scheduling mechanism.
+6. Push to `main`: Darkube builds and deploys `gamexs-scraper` from `scraper/Dockerfile`
+   (git app, auto deploy on push).
 7. Confirm the scraper pod is Ready and its logs show completed scrape/load
    cycles, not worker connection retries.
 8. Run the database verification queries below, including recent `scrape_runs`.

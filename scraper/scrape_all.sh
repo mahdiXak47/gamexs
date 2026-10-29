@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Daily scrape-and-load for all sellers, running two sellers in parallel per round.
+# Scrape-and-load cycle for all sellers, SCRAPER_PARALLEL sellers at a time.
 # Designed to run inside the scraper image, either through runner.py or as a
 # one-shot command for an external scheduler.
 #
@@ -34,51 +34,43 @@ run_seller() {
 }
 
 # ---------------------------------------------------------------------------
-# Run a pair of sellers sequentially. Each seller owns its scrape/load retries;
-# sequential execution preserves the low-contention DB load policy.
-# A failure in one scraper does not abort the other or the overall script.
+# Run sellers SCRAPER_PARALLEL at a time. Every seller is a different site, so
+# each site still gets one request per second; the cycle takes about as long as
+# the slowest seller instead of the sum of all of them. DB loads stay one at a
+# time (seller_runner.load_lock). Memory: ~60–120 MB per seller (runner + scrape)
+# on a 500 MB pod, so 3 at a time.
+# A failure in one seller does not stop the others.
 # ---------------------------------------------------------------------------
-run_pair() {
-    local s1=$1
-    local s2=${2:-}
+SCRAPER_PARALLEL=${SCRAPER_PARALLEL:-3}
+failed_file=$(mktemp)
 
-    # Collect exit codes without aborting on failure.
-    local ok=true
-    run_seller "$s1" || ok=false
-    [ -n "$s2" ] && { run_seller "$s2" || ok=false; }
-
-    $ok
+run_sellers() {
+    local seller
+    for seller in "$@"; do
+        while [ "$(jobs -rp | wc -l)" -ge "$SCRAPER_PARALLEL" ]; do sleep 1; done
+        { run_seller "$seller" || echo "$seller" >> "$failed_file"; } &
+    done
+    wait
 }
 
 # ---------------------------------------------------------------------------
-# Main: seller groups retained from the previous daily pipeline.
+# Main. Sellers slowest first, so the long crawls start right away and the
+# short ones fill the gaps (measured 2026-10-29, docs/PRODUCTION_SCRAPER_ARCHITECTURE.md
+# "Cycle time"). Upera Game runs its own crawler (crawl_uperagame.py) behind
+# the same seller-runner health contract.
 # ---------------------------------------------------------------------------
 log "=== GameXS daily scrape started ==="
-GAMEXS_PIPELINE_RUN_ID=$(pipeline start \
-    pspro digikala gamario gameonestore gamecenter gameplayshop xgamesstore \
-    nakhlmarket parsconsole cdkeyshare persianconsole yungcenter technolife psnacctm fillgame \
-    uperagame installments igdb psstore s3 cleanup trailers || true)
+SELLERS="pspro gameplayshop nakhlmarket cdkeyshare fillgame persianconsole yungcenter \
+    uperagame gameaccess gamario gamestore technolife clockstore1 digikala xgamesstore \
+    parsconsole gamecenter gpgaming psnacctm gamepulse gameonestore"
+GAMEXS_PIPELINE_RUN_ID=$(pipeline start $SELLERS installments igdb psstore s3 cleanup trailers || true)
 export GAMEXS_PIPELINE_RUN_ID
 
-failed_sellers=""
+log "=== Sellers ($SCRAPER_PARALLEL at a time) ==="
+run_sellers $SELLERS
 
-run_pair pspro       digikala     || failed_sellers+=" pspro/digikala"
-run_pair gamario     gameonestore || failed_sellers+=" gamario/gameonestore"
-run_pair gamecenter  gameplayshop || failed_sellers+=" gamecenter/gameplayshop"
-run_pair xgamesstore nakhlmarket  || failed_sellers+=" xgamesstore/nakhlmarket"
-run_pair parsconsole cdkeyshare   || failed_sellers+=" parsconsole/cdkeyshare"
-run_pair persianconsole yungcenter|| failed_sellers+=" persianconsole/yungcenter"
-run_pair technolife    psnacctm   || failed_sellers+=" technolife/psnacctm"
-run_pair fillgame                  || failed_sellers+=" fillgame"
-
-# Upera Game has its own crawler (crawl_uperagame.py: plain HTTP, parses the
-# WooCommerce variation JSON page by page so memory stays flat) behind the same
-# seller-runner health contract, with its cache isolated per attempt.
-log "=== Upera Game scrape ==="
-if ! run_seller uperagame; then
-    log "FAIL  scraping and loading uperagame"
-    failed_sellers+=" uperagame"
-fi
+failed_sellers=$(tr '\n' ' ' < "$failed_file")
+rm -f "$failed_file"
 
 log "=== Installment options (خرید اقساطی) per seller ==="
 step installments python detect_installments.py 2>&1 | sed 's/^/[installments] /' || \
@@ -126,12 +118,13 @@ step cleanup python -m gamexs_scraper.maintenance 2>&1 | sed 's/^/[cleanup] /' |
     failed_sellers+=" maintenance"
 }
 
-# Trailers last: each 720p transcode takes minutes on the pod's CPU quota, so
-# they must not delay the S3 upload and stale-listing cleanup above.
+# Trailers last: each 720p transcode takes 10+ minutes on the pod's quarter
+# core (130 of them took 29 h on 2026-10-27), so each pass gets a time budget
+# and the backlog carries over to the next cycle.
 log "=== Game trailers (PS Store → 720p → S3) ==="
 # Featured trailer for the next games in popularity order, then every official
 # trailer (Trailer 1/2, launch …) for the 25 most popular games.
-step trailers sh -c 'python fetch_trailers.py --limit "${TRAILERS_PER_RUN:-60}"; python fetch_trailers.py --all-trailers --limit "${ALL_TRAILERS_TOP:-25}"' 2>&1 | sed 's/^/[trailers] /' || \
+step trailers sh -c 'python fetch_trailers.py --limit "${TRAILERS_PER_RUN:-60}" --max-minutes "${TRAILERS_MAX_MINUTES:-60}"; python fetch_trailers.py --all-trailers --limit "${ALL_TRAILERS_TOP:-25}" --max-minutes "${TRAILERS_MAX_MINUTES:-60}"' 2>&1 | sed 's/^/[trailers] /' || \
     log "WARN  trailer fetch failed — games keep their existing trailers"
 
 # ---------------------------------------------------------------------------

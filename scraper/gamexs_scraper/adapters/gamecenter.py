@@ -46,6 +46,7 @@ def _decode_attrs(attrs: dict) -> dict[str, str]:
 
 class GameCenterAdapter(SellerAdapter):
     seller = "gamecenter"
+    woo_store_url = "https://game-center.ir"  # Store API sweep matched the page crawl 408/408 (2026-10-29)
 
     def iter_listings(self) -> Iterator[RawOffer]:
         for product_url in self._iter_product_urls():

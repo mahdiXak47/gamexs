@@ -1,3 +1,4 @@
+import threading
 import time
 
 import requests
@@ -31,13 +32,20 @@ def make_session() -> requests.Session:
 
 
 class PoliteFetcher:
-    """Wraps a session with a minimum delay between requests to the same seller."""
+    """Wraps a session so requests to one seller start at least delay_seconds apart.
+
+    The gap runs from the start of one request to the start of the next: at most
+    one request per second, without adding the second on top of a slow response.
+    Thread-safe: with several product pages in flight (SellerAdapter.crawl) the
+    starts are still spaced delay_seconds apart.
+    """
 
     def __init__(self, session: requests.Session, delay_seconds: float = 1.0, timeout: float = 20.0):
         self.session = session
         self.delay_seconds = delay_seconds
         self.timeout = timeout
         self._last_request_at: float | None = None
+        self._lock = threading.Lock()
 
     def _polite_wait(self) -> None:
         if self._last_request_at is not None:
@@ -46,8 +54,13 @@ class PoliteFetcher:
             if remaining > 0:
                 time.sleep(remaining)
 
+    def _start_request(self) -> None:
+        with self._lock:
+            self._polite_wait()
+            self._last_request_at = time.monotonic()
+
     def get(self, url: str, **kwargs) -> requests.Response:
-        self._polite_wait()
+        self._start_request()
         # stream=True + read with deadline guards against drip-feed anti-scraping
         # (servers that send 1 byte/sec to keep the per-chunk read timeout alive).
         deadline = time.monotonic() + self.timeout * 3
@@ -60,11 +73,8 @@ class PoliteFetcher:
             chunks.append(chunk)
         resp._content = b"".join(chunks)
         resp._content_consumed = True
-        self._last_request_at = time.monotonic()
         return resp
 
     def post(self, url: str, **kwargs) -> requests.Response:
-        self._polite_wait()
-        response = self.session.post(url, timeout=self.timeout, **kwargs)
-        self._last_request_at = time.monotonic()
-        return response
+        self._start_request()
+        return self.session.post(url, timeout=self.timeout, **kwargs)

@@ -12,6 +12,7 @@ from pathlib import Path
 import signal
 import subprocess
 import sys
+import time
 from threading import Event
 
 
@@ -68,6 +69,7 @@ def main() -> int:
     try:
         while not stop_event.is_set():
             print("starting scheduled scrape", flush=True)
+            started = time.monotonic()
             process = subprocess.Popen(
                 ["bash", str(PIPELINE_SCRIPT)],
                 cwd=PIPELINE_SCRIPT.parent,
@@ -83,8 +85,11 @@ def main() -> int:
             else:
                 print(f"scrape failed with exit code {return_code}; retrying later", flush=True)
 
-            print(f"waiting {interval} seconds before the next scrape", flush=True)
-            stop_event.wait(interval)
+            # The interval runs from the start of a cycle, so cycles start on a
+            # steady schedule instead of drifting later by each run's length.
+            wait = max(0, interval - int(time.monotonic() - started))
+            print(f"waiting {wait} seconds before the next scrape", flush=True)
+            stop_event.wait(wait)
     finally:
         if process is not None:
             _terminate_process_group(process)

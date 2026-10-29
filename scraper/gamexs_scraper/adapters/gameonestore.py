@@ -6,8 +6,14 @@ Verified 2026-07-09:
 - Price uses Persian digits in Toman — translate before int().
 - Stock: "instock" class on the product div.
 - Price scope: wd_single_product_price Elementor widget to avoid cross-sell bleed.
+
+2026-10-29: the shop answers ~5 s per page (40 min per crawl), but its public
+WooCommerce Store API lists the category with price and stock, 100 per request
+(4 requests; matched the page crawl, see tests). The page crawl stays as the
+fallback when the API fails.
 """
 
+import html
 import re
 import sys
 from collections.abc import Iterator
@@ -34,15 +40,61 @@ def _parse_price(el) -> int | None:
     return int(digits)
 
 
+STORE_API_URL = "https://gameonestore.com/wp-json/wc/store/v1/products"
+
+
 class GameoneStoreAdapter(SellerAdapter):
     seller = "gameonestore"
+    store_api_category: str | None = "ps5-game"
 
     def iter_listings(self) -> Iterator[RawOffer]:
+        offers = self._offers_from_store_api() if self.store_api_category else None
+        if offers is not None:
+            yield from offers
+            return
         for product_url in self._iter_product_urls():
             try:
                 yield from self._parse_product(product_url)
             except requests.exceptions.RequestException as exc:
                 print(f"skipping {product_url}: {exc}", file=sys.stderr)
+
+    def _offers_from_store_api(self) -> list[RawOffer] | None:
+        offers: list[RawOffer] = []
+        page, pages = 1, 1
+        try:
+            while page <= pages:
+                resp = self.fetcher.get(STORE_API_URL, params={
+                    "category": self.store_api_category, "per_page": 100, "page": page,
+                    "_fields": "name,permalink,prices,is_in_stock,images",
+                })
+                resp.raise_for_status()
+                pages = int(resp.headers.get("X-WP-TotalPages") or 1)
+                for product in resp.json():
+                    offer = self._offer_from_api(product)
+                    if offer:
+                        offers.append(offer)
+                page += 1
+        except (requests.exceptions.RequestException, ValueError) as exc:
+            print(f"store API failed at page {page}, crawling product pages instead: {exc}", file=sys.stderr)
+            return None
+        return offers
+
+    def _offer_from_api(self, product: dict) -> RawOffer | None:
+        prices = product.get("prices") or {}
+        price = int(prices.get("price") or 0) // 10 ** int(prices.get("currency_minor_unit") or 0)
+        if not price:
+            return None
+        images = product.get("images") or []
+        return RawOffer(
+            seller=self.seller,
+            source_url=product["permalink"].rstrip("/") + "/",
+            raw_title=html.unescape(product.get("name", "")),
+            product_type=ProductType.DISC,
+            price_toman=price,
+            tier=None,
+            in_stock=bool(product.get("is_in_stock")),
+            image_url=images[0].get("src") if images else None,
+        )
 
     def _iter_product_urls(self) -> Iterator[str]:
         seen: set[str] = set()

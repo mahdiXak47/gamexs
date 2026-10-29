@@ -41,6 +41,7 @@ def _normalize_capacity(raw: str) -> str:
 
 class ParsConsoleAdapter(SellerAdapter):
     seller = "parsconsole"
+    woo_store_url = "https://parsconsole.com"  # Store API sweep matched the page crawl 1127/1127 (2026-10-29)
 
     def iter_listings(self) -> Iterator[RawOffer]:
         for product_url in self._iter_product_urls():

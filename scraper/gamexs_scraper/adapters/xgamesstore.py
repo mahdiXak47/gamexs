@@ -35,6 +35,7 @@ _TIER_MAP = {
 
 class XgamesStoreAdapter(SellerAdapter):
     seller = "xgamesstore"
+    woo_store_url = "https://xgamesstore.org"  # Store API sweep matched the page crawl 614/614 (2026-10-29)
 
     def iter_listings(self) -> Iterator[RawOffer]:
         for product_url in self._iter_product_urls():

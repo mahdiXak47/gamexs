@@ -58,14 +58,11 @@ def _cover_url(soup: BeautifulSoup) -> str | None:
 
 class NakhlMarketAdapter(SellerAdapter):
     seller = "nakhlmarket"
+    product_workers = 2  # pages take 2–4 s to answer (measured 2026-10-29)
 
     def iter_listings(self) -> Iterator[RawOffer]:
         for product_type, term_id in _CATEGORIES:
-            for product_url in self._iter_product_urls(term_id):
-                try:
-                    yield from self._parse_product(product_url, product_type)
-                except requests.exceptions.RequestException as exc:
-                    print(f"skipping {product_url}: {exc}", file=sys.stderr)
+            yield from self.crawl(self._iter_product_urls(term_id), lambda url: self._parse_product(url, product_type))
 
     def _iter_product_urls(self, term_id: int) -> Iterator[str]:
         seen: set[str] = set()

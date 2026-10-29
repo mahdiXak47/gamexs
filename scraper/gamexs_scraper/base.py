@@ -1,7 +1,11 @@
 import re
+import sys
 from abc import ABC, abstractmethod
-from collections.abc import Iterator
+from collections.abc import Callable, Iterable, Iterator
+from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import unquote
+
+import requests
 
 from .http import PoliteFetcher, make_session
 from .models import AccessTier, ProductType, RawOffer
@@ -16,14 +20,42 @@ class SellerAdapter(ABC):
     # "the shop has nothing in stock" from "the crawl broke" set it (technolife);
     # None means unknown, so zero offers stays a failure.
     products_seen: int | None = None
+    # WooCommerce shops with a public Store API: product pages are served from
+    # one sweep of it instead of one request each (woo_store.py).
+    woo_store_url: str | None = None
+    # Product pages loading at once in crawl(). For shops that take seconds to
+    # answer: requests still start at most one per delay_seconds.
+    product_workers: int = 1
 
     def __init__(self, fetcher: PoliteFetcher | None = None):
         self.fetcher = fetcher or PoliteFetcher(make_session())
+        if fetcher is None and self.woo_store_url:
+            from .woo_store import WooStoreFetcher
+
+            self.fetcher = WooStoreFetcher(self.fetcher, self.woo_store_url)
 
     @abstractmethod
     def iter_listings(self) -> Iterator[RawOffer]:
         """Crawl the seller's catalog and yield every offer found."""
         raise NotImplementedError
+
+    def crawl(self, urls: Iterable[str], parse: Callable[[str], Iterable[RawOffer]]) -> Iterator[RawOffer]:
+        """Offers from parse(url) for each product URL, in order; a failed page is skipped."""
+
+        def load(url: str) -> list[RawOffer]:
+            try:
+                return list(parse(url))
+            except requests.exceptions.RequestException as exc:
+                print(f"skipping {url}: {exc}", file=sys.stderr)
+                return []
+
+        if self.product_workers <= 1:
+            for url in urls:
+                yield from load(url)
+            return
+        with ThreadPoolExecutor(self.product_workers) as pool:
+            for offers in pool.map(load, urls):
+                yield from offers
 
 
 _EDITION_WORDS = {"دیلاکس": "Deluxe", "دلوکس": "Deluxe", "آلتیمیت": "Ultimate", "التیمیت": "Ultimate",

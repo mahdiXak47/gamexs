@@ -55,17 +55,14 @@ def _parse_toman(text: str) -> int | None:
 
 class CdkeyShareAdapter(SellerAdapter):
     seller = "cdkeyshare"
+    product_workers = 3  # pages take 2–4 s to answer (measured 2026-10-29)
 
     def iter_listings(self) -> Iterator[RawOffer]:
         # Disc: parse entirely from listing rows — no product-page visits needed.
         yield from self._iter_disc_from_listing()
 
         # Account: visit each product page to extract per-tier variation prices.
-        for product_url in self._iter_account_urls():
-            try:
-                yield from self._parse_account(product_url)
-            except requests.exceptions.RequestException as exc:
-                print(f"skipping {product_url}: {exc}", file=sys.stderr)
+        yield from self.crawl(self._iter_account_urls(), self._parse_account)
 
     def _iter_disc_from_listing(self) -> Iterator[RawOffer]:
         page = 1

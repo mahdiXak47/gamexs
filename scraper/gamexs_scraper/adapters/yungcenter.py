@@ -54,15 +54,10 @@ def _real_img(tag) -> str | None:
 
 class YungCenterAdapter(SellerAdapter):
     seller = "yungcenter"
+    product_workers = 2  # pages take 2–4 s to answer (measured 2026-10-29)
 
     def iter_listings(self) -> Iterator[RawOffer]:
-        for product_url in self._iter_product_urls():
-            try:
-                offers = list(self._parse_product(product_url))
-            except requests.exceptions.RequestException as exc:
-                print(f"skipping {product_url}: {exc}", file=sys.stderr)
-                continue
-            yield from offers
+        yield from self.crawl(self._iter_product_urls(), self._parse_product)
 
     def _iter_product_urls(self) -> Iterator[str]:
         seen: set[str] = set()

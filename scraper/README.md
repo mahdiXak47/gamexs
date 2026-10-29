@@ -31,8 +31,9 @@ the database.
 
 ### Scheduled runner
 
-The container default command runs one complete `scrape_all.sh` cycle and then
-waits 24 hours before the next cycle. Configure the interval in seconds for a
+The container default command runs one complete `scrape_all.sh` cycle every
+24 hours, counted from the start of each cycle (a long cycle shortens the wait
+instead of pushing the schedule later). Configure the interval in seconds for a
 different deployment cadence:
 
 ```bash

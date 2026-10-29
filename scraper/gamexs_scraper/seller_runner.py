@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 from contextlib import contextmanager
 import csv
+import fcntl
 from datetime import datetime, timezone
 import json
 import os
@@ -30,6 +31,14 @@ from .telegram import send_telegram_alert
 
 
 SCRAPER_ROOT = Path(__file__).resolve().parents[1]
+
+
+@contextmanager
+def load_lock(path: str = "/tmp/gamexs-load.lock"):
+    """One DB load at a time while sellers scrape in parallel (scrape_all.sh)."""
+    with open(path, "w") as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX)
+        yield
 
 
 def count_csv_games(path: str | Path) -> int:
@@ -281,19 +290,20 @@ def run_seller(
                         print(f"[{seller}] {quality.reason}; nothing to load", flush=True)
                         return 0
 
-                    load_result = subprocess.run(
-                        [
-                            sys.executable,
-                            "-m",
-                            "gamexs_scraper.load_to_postgres",
-                            seller,
-                            "--cache",
-                            str(cache_path),
-                        ],
-                        cwd=SCRAPER_ROOT,
-                        env={**os.environ, "DATABASE_URL": database_url},
-                        check=False,
-                    )
+                    with load_lock():
+                        load_result = subprocess.run(
+                            [
+                                sys.executable,
+                                "-m",
+                                "gamexs_scraper.load_to_postgres",
+                                seller,
+                                "--cache",
+                                str(cache_path),
+                            ],
+                            cwd=SCRAPER_ROOT,
+                            env={**os.environ, "DATABASE_URL": database_url},
+                            check=False,
+                        )
                     if load_result.returncode != 0:
                         raise RuntimeError(f"load command exited with code {load_result.returncode}")
 
@@ -409,19 +419,20 @@ def _run_uperagame(
                         store.finish_attempt(attempt_id, "suspicious", observed_games, error=last_reason)
                         continue
 
-                    load_result = subprocess.run(
-                        [
-                            sys.executable,
-                            str(SCRAPER_ROOT / "load_uperagame_to_postgres.py"),
-                            "--games-cache",
-                            str(games_cache),
-                            "--plus-cache",
-                            str(plus_cache),
-                        ],
-                        cwd=SCRAPER_ROOT,
-                        env={**os.environ, "DATABASE_URL": database_url},
-                        check=False,
-                    )
+                    with load_lock():
+                        load_result = subprocess.run(
+                            [
+                                sys.executable,
+                                str(SCRAPER_ROOT / "load_uperagame_to_postgres.py"),
+                                "--games-cache",
+                                str(games_cache),
+                                "--plus-cache",
+                                str(plus_cache),
+                            ],
+                            cwd=SCRAPER_ROOT,
+                            env={**os.environ, "DATABASE_URL": database_url},
+                            check=False,
+                        )
                     if load_result.returncode != 0:
                         raise RuntimeError(f"load command exited with code {load_result.returncode}")
 
