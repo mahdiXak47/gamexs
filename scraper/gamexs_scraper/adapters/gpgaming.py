@@ -64,7 +64,8 @@ def _extract_variants(text: str) -> list[dict] | None:
             if depth == 0:
                 raw = text[start : i + 1]
                 raw = raw.replace("!0", "true").replace("!1", "false")
-                raw = re.sub(r'(\w+)\s*:', r'"\1":', raw)
+                # Only keys right after { or , — a value like "GTA VI: Ultimate" has colons too.
+                raw = re.sub(r'([{,])(\w+)\s*:', r'\1"\2":', raw)
                 try:
                     return json.loads(raw)
                 except (json.JSONDecodeError, TypeError):

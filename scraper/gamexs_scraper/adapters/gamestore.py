@@ -5,10 +5,10 @@ Verified 2026-07-30:
 - Category RSC block contains product listing: slug, platforms, image.
 - Individual product pages have an "options" array with per-capacity pricing:
     capacity 1 -> CAPACITY_1, 2 -> CAPACITY_2, 3 -> CAPACITY_3
-    capacity 0 / 4 ("ظرفیت کامل") are skipped (not in standard taxonomy).
+    capacity 0 / 4 ("ظرفیت کامل") -> own-account (full account) offer.
 - console field: "PS5" = PS5-specific; "PS4" = skip; null = cross-platform.
 - Cross-platform options (console: null) are included when product has PS5.
-- Stock: option["available"] boolean.
+- Stock: option["available"] boolean (false -> listed as out of stock).
 - Price: option["final"] (post-discount price).
 - Image: product["image"] from category listing.
 """
@@ -20,8 +20,8 @@ from collections.abc import Iterator
 
 import requests
 
-from ..base import SellerAdapter
-from ..models import AccessTier, ProductType, RawOffer
+from ..base import FULL_CAPACITY, SellerAdapter, account_offer_type
+from ..models import AccessTier, RawOffer
 
 _BASE = "https://game-store.org"
 _CATEGORY_URL = f"{_BASE}/category/account-ps5"
@@ -32,6 +32,8 @@ _TIER_MAP: dict[int, AccessTier] = {
     1: AccessTier.CAPACITY_1,
     2: AccessTier.CAPACITY_2,
     3: AccessTier.CAPACITY_3,
+    0: FULL_CAPACITY,
+    4: FULL_CAPACITY,
 }
 
 
@@ -130,21 +132,19 @@ class GameStoreAdapter(SellerAdapter):
                 if console is None and "PS5" not in platforms:
                     continue
 
-                if not opt.get("available"):
-                    continue
-
                 price: int = opt.get("final") or 0
                 if price <= 0:
                     continue
 
+                product_type, offer_tier = account_offer_type(tier)
                 yield RawOffer(
                     seller=self.seller,
                     source_url=url,
                     raw_title=raw_title,
-                    product_type=ProductType.ACCOUNT_GAME,
+                    product_type=product_type,
                     price_toman=price,
-                    tier=tier,
-                    in_stock=True,
+                    tier=offer_tier,
+                    in_stock=bool(opt.get("available")),
                     image_url=image_url,
                 )
             return

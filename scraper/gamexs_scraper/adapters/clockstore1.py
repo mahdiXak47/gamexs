@@ -5,9 +5,11 @@ Verified 2026-07-24:
 - Product data lives in Next.js RSC payload blocks (self.__next_f.push([1,"..."])).
 - Category page: large RSC block contains product URLs as "url":"/product/ID/slug/" entries.
 - Product page: large RSC block with "has_variants":true contains variant JSON objects.
-- Variant name format: "Game Title - ظرفیت یک آفلاین PS5" (PS4 variants have PS4 suffix).
-- Tiers:  "ظرفیت یک" -> CAPACITY_1, "ظرفیت دو" -> CAPACITY_2, "ظرفیت سه" -> CAPACITY_3.
-- Stock: price > 0 and max_available is None or > 0.
+- Variant name format: "Game Title - ظرفیت 1 ps5 افلاین" (2026-10-29; was
+  "ظرفیت یک آفلاین PS5"). The title often says "PS4 PS5", so the platform is
+  read from the part after the last " - ".
+- Tiers: ظرفیت 1/یک, 2/دو, 3/سه; ظرفیت کامل -> own account.
+- Price 0 = not sold; max_available 0 = out of stock.
 - Image: twitter:image meta tag.
 """
 
@@ -19,8 +21,8 @@ from collections.abc import Iterator
 import requests
 from bs4 import BeautifulSoup
 
-from ..base import SellerAdapter
-from ..models import AccessTier, ProductType, RawOffer
+from ..base import FULL_CAPACITY, SellerAdapter, account_offer_type
+from ..models import AccessTier, RawOffer
 
 _BASE = "https://clockstore1.ir"
 _CATEGORY_URL = f"{_BASE}/category/85/"
@@ -29,10 +31,12 @@ _RSC_RE = re.compile(r'self\.__next_f\.push\(\[1,"((?:[^"\\]|\\.)*)"\]\)')
 _PRODUCT_URL_RE = re.compile(r'"url":"(/product/[^"?]+)')
 _VARIANT_START_RE = re.compile(r'\{"id":\d+,"name":')
 
-_TIER_MAP: dict[str, AccessTier] = {
-    "ظرفیت یک": AccessTier.CAPACITY_1,
-    "ظرفیت دو": AccessTier.CAPACITY_2,
-    "ظرفیت سه": AccessTier.CAPACITY_3,
+_TIER_RE = re.compile(r"ظرفیت\s*(1|2|3|یک|دو|سه|کامل)")
+_TIERS = {
+    "1": AccessTier.CAPACITY_1, "یک": AccessTier.CAPACITY_1,
+    "2": AccessTier.CAPACITY_2, "دو": AccessTier.CAPACITY_2,
+    "3": AccessTier.CAPACITY_3, "سه": AccessTier.CAPACITY_3,
+    "کامل": FULL_CAPACITY,
 }
 
 
@@ -138,11 +142,11 @@ class ClockStore1Adapter(SellerAdapter):
         seen_tiers: set[AccessTier] = set()
         for variant in _extract_variant_objects(variant_block):
             name: str = variant.get("name", "")
-
-            if "PS5" not in name:
+            option = name.rsplit(" - ", 1)[-1].lower()
+            if "ps5" not in option and ("ps4" in option or "ps5" not in name.lower()):
                 continue
 
-            tier = self._detect_tier(name)
+            tier = self._detect_tier(option)
             if tier is None or tier in seen_tiers:
                 continue
 
@@ -151,24 +155,20 @@ class ClockStore1Adapter(SellerAdapter):
                 continue
 
             max_avail = variant.get("max_available")
-            if max_avail is not None and max_avail <= 0:
-                continue
-
             seen_tiers.add(tier)
+            product_type, offer_tier = account_offer_type(tier)
             yield RawOffer(
                 seller=self.seller,
                 source_url=url,
                 raw_title=raw_title,
-                product_type=ProductType.ACCOUNT_GAME,
+                product_type=product_type,
                 price_toman=price,
-                tier=tier,
-                in_stock=True,
+                tier=offer_tier,
+                in_stock=max_avail is None or max_avail > 0,
                 image_url=image_url,
             )
 
     @staticmethod
     def _detect_tier(name: str) -> AccessTier | None:
-        for keyword, tier in _TIER_MAP.items():
-            if keyword in name:
-                return tier
-        return None
+        match = _TIER_RE.search(name)
+        return _TIERS[match.group(1)] if match else None

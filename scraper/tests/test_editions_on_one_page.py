@@ -60,6 +60,15 @@ class EditionsOnOnePageTests(unittest.TestCase):
             (None, "own_account_game", True, 1),       # «ظرفیت کامل»
         ])
 
+    def test_gpgaming_parses_variant_names_with_colons(self):
+        from gamexs_scraper.adapters.gpgaming import _extract_variants
+
+        page = ('x,variants=[{price:12089e3,isAvailable:!0,options:[{value:"ظرفیت دو PS5"}],'
+                'name:"اکانت قانونی GTA VI: Ultimate Edition برای PS5"}],currentVariant={}')
+        [variant] = _extract_variants(page)
+        self.assertEqual(variant["price"], 12089000)
+        self.assertEqual(resolve(variant["name"]), 2)
+
 
 if __name__ == "__main__":
     unittest.main()
